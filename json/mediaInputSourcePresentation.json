@@ -56,7 +56,7 @@
                     },
                     {
                         "key": "digitalTv",
-                        "value": "digitalTv",
+                        "value": "TV",
                         "type": "active"
                     },
                     {
@@ -102,7 +102,7 @@
     },
     "detailView": [
         {
-            "label": "MODE",
+            "label": "{{i18n.attributes.inputSource.label}}",
             "displayType": "list",
             "list": {
                 "command": {
@@ -160,7 +160,7 @@
                         },
                         {
                             "key": "digitalTv",
-                            "value": "digitalTv",
+                            "value": "TV",
                             "type": "active"
                         },
                         {
@@ -256,7 +256,7 @@
                         },
                         {
                             "key": "digitalTv",
-                            "value": "digitalTv",
+                            "value": "TV",
                             "type": "active"
                         },
                         {
@@ -302,7 +302,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "MODE",
+                "label": "{{i18n.attributes.inputSource.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -358,7 +358,7 @@
                         },
                         {
                             "key": "digitalTv",
-                            "value": "digitalTv",
+                            "value": "TV",
                             "type": "active"
                         },
                         {
@@ -404,7 +404,7 @@
         ],
         "actions": [
             {
-                "label": "MODE",
+                "label": "{{i18n.commands.setInputSource.label}}",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -460,7 +460,7 @@
                         },
                         {
                             "key": "digitalTv",
-                            "value": "digitalTv",
+                            "value": "TV",
                             "type": "active"
                         },
                         {
