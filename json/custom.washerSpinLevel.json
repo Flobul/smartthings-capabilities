@@ -1,0 +1,83 @@
+{
+    "id": "custom.washerSpinLevel",
+    "version": 1,
+    "status": "proposed",
+    "name": "Washer Spin Level",
+    "attributes": {
+              "washerSpinLevel": {
+                  "schema": {
+                      "type": "array",
+                      "properties": {
+                          "value": {
+                              "title": "Spin Level",
+                              "type": "string",
+                              "enum": [
+                                  "rinseHold",
+                                  "noSpin",
+                                  "400",
+                                  "800",
+                                  "1000",
+                                  "1200",
+                                  "1400"
+                              ]
+                          }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                          "value"
+                      ]
+                  },
+                  "setter": "setWasherSpinLevel",
+                  "enumCommands": []
+              },
+              "supportedWasherSpinLevel": {
+                  "schema": {
+                      "type": "object",
+                      "properties": {
+                          "value": {
+                              "title": "Spin Level",
+                              "type": "string",
+                              "enum": [
+                                  "rinseHold",
+                                  "noSpin",
+                                  "400",
+                                  "800",
+                                  "1000",
+                                  "1200",
+                                  "1400"
+                              ]
+                          }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                          "value"
+                      ]
+                  },
+                  "setter": "setWasherSpinLevel",
+                  "enumCommands": []
+              }
+    },
+    "commands": {
+        "setWasherSpinLevel": {
+            "arguments": [
+                {
+                    "name": "Washer Spin Level",
+                    "optional": false,
+                    "schema": {
+                        "title": "Spin Level",
+                        "type": "string",
+                        "enum": [
+                            "rinseHold",
+                            "noSpin",
+                            "400",
+                            "800",
+                            "1000",
+                            "1200",
+                            "1400"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
