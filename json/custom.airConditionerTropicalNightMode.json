@@ -1,0 +1,56 @@
+{
+    "id": "custom.airConditionerTropicalNightMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Air Conditioner Tropical Night Mode",
+    "attributes": {
+        "acTropicalNightModeLevel": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "minimum": 0,
+                        "type": "integer",
+                        "maximum": 35
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "h"
+                        ],
+                        "default": "h"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setAcTropicalNightModeLevel",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setAcTropicalNightModeLevel": {
+            "name": "setAcTropicalNightModeLevel",
+            "arguments": [
+                {
+                    "name": "hours",
+                    "optional": false,
+                    "schema": {
+                        "minimum": 0,
+                        "type": "integer",
+                        "maximum": 35
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "h"
+                        ],
+                        "default": "h"
+                    }
+                }
+            ]
+        }
+    }
+}
