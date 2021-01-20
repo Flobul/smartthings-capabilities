@@ -1,0 +1,27 @@
+{
+    "id": "custom.supportedOptions",
+    "version": 1,
+    "status": "proposed",
+    "name": "Supported Options",
+    "attributes": {
+        "supportedCourses": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {}
+}
