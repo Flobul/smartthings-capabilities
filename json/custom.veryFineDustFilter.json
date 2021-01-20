@@ -1,0 +1,118 @@
+{
+    "id": "custom.veryFineDustFilter",
+    "version": 1,
+    "status": "proposed",
+    "name": "Very Fine Dust Filter",
+    "attributes": {
+        "veryFineDustFilterStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "replace",
+                            "wash",
+                            "notused"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "veryFineDustFilterUsage": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "max": 100,
+                        "type": "integer",
+                        "min": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "veryFineDustFilterResetType": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "replaceable",
+                                "washable",
+                                "notresetable"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "veryFineDustFilterUsageStep": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "max": 100,
+                        "type": "integer",
+                        "min": 1
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "veryFineDustFilterCapacity": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "CC",
+                            "Cycle",
+                            "Gallon",
+                            "Hour",
+                            "Month"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "resetVeryFineDustFilter": {
+            "name": "resetVeryFineDustFilter",
+            "arguments": []
+        }
+    }
+}
