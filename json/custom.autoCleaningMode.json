@@ -1,0 +1,50 @@
+{
+    "id": "custom.autoCleaningMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Auto Cleaning Mode",
+    "attributes": {
+        "autoCleaningMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "speedClean",
+                            "quietClean",
+                            "off"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setAutoCleaningMode",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setAutoCleaningMode": {
+            "name": "setAutoCleaningMode",
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "speedClean",
+                            "quietClean",
+                            "off"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
