@@ -4,78 +4,129 @@
     "status": "proposed",
     "name": "Washer Water Temperature",
     "attributes": {
-              "supportedWasherWaterTemperature": {
-                  "schema": {
-                      "type": "object",
-                      "properties": {
-                          "value": {
-                              "title": "WasherWaterTemperature",
-                              "type": "string",
-                              "enum": [
-                                  "none",
-                                  "cold",
-                                  "20",
-                                  "30",
-                                  "40",
-                                  "60",
-                                  "90"
-                              ]
-                          }
-                      },
-                      "additionalProperties": false,
-                      "required": [
-                          "value"
-                      ]
-                  },
-                  "setter": "setWasherWaterTemperature",
-                  "enumCommands": []
-              },
-              "washerWaterTemperature": {
-                  "schema": {
-                      "type": "object",
-                      "properties": {
-                          "value": {
-                              "type": "array",
-                              "items": {
-                                  "title": "WasherWaterTemperature",
-                                  "type": "string",
-                                  "enum": [
-                                      "none",
-                                      "cold",
-                                      "20",
-                                      "30",
-                                      "40",
-                                      "60",
-                                      "90"
-                                  ]
-                              }
-                          }
-                      },
-                      "additionalProperties": false,
-                      "required": [
-                          "value"
-                      ]
-                  },
-                  "enumCommands": []
-              }
-    },
-    "commands": {
-        "setWasherWaterTemperature": {
-            "arguments": [
-                {
-                    "name": "washerWaterTemperature",
-                    "optional": false,
-                    "schema": {
-                        "title": "WasherWaterTemperature",
+        "supportedWasherWaterTemperature": {
+            "schema": {
+                "title": "supportedWasherWaterTemperature",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "none",
+                                "20",
+                                "30",
+                                "40",
+                                "50",
+                                "60",
+                                "65",
+                                "70",
+                                "75",
+                                "80",
+                                "90",
+                                "95",
+                                "tapCold",
+                                "cold",
+                                "ecoWarm",
+                                "warm",
+                                "semiHot",
+                                "hot",
+                                "extraHot",
+                                "extraLow",
+                                "low",
+                                "mediumLow",
+                                "medium",
+                                "high"
+                            ],
+                            "title": "waterTemperature"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "washerWaterTemperature": {
+            "schema": {
+                "title": "washerWaterTemperature",
+                "type": "object",
+                "properties": {
+                    "value": {
                         "type": "string",
                         "enum": [
                             "none",
-                            "cold",
                             "20",
                             "30",
                             "40",
+                            "50",
                             "60",
-                            "90"
+                            "65",
+                            "70",
+                            "75",
+                            "80",
+                            "90",
+                            "95",
+                            "tapCold",
+                            "cold",
+                            "ecoWarm",
+                            "warm",
+                            "semiHot",
+                            "hot",
+                            "extraHot",
+                            "extraLow",
+                            "low",
+                            "mediumLow",
+                            "medium",
+                            "high"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setWasherWaterTemperature": {
+            "name": "setWasherWaterTemperature",
+            "arguments": [
+                {
+                    "name": "temperature",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "20",
+                            "30",
+                            "40",
+                            "50",
+                            "60",
+                            "65",
+                            "70",
+                            "75",
+                            "80",
+                            "90",
+                            "95",
+                            "tapCold",
+                            "cold",
+                            "ecoWarm",
+                            "warm",
+                            "semiHot",
+                            "hot",
+                            "extraHot",
+                            "extraLow",
+                            "low",
+                            "mediumLow",
+                            "medium",
+                            "high"
                         ]
                     }
                 }
