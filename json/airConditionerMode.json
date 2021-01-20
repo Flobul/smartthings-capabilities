@@ -1,42 +1,59 @@
 {
     "id": "airConditionerMode",
     "version": 1,
-    "status": "proposed",
     "name": "Air Conditioner Mode",
+    "status": "proposed",
     "attributes": {
         "supportedAcModes": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        }
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "cool",
+                            "dry",
+                            "coolClean",
+                            "dryClean",
+                            "fanOnly",
+                            "heat",
+                            "heatClean",
+                            "notSupported"
+                        ]
                     }
                 },
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setAirConditionerMode",
             "enumCommands": []
         },
         "airConditionerMode": {
             "schema": {
                 "type": "object",
+                "additionalProperties": false,
                 "properties": {
                     "value": {
-                        "title": "String",
+                        "title": "HvacMode",
                         "type": "string",
-                        "maxLength": 255
+                        "enum": [
+                            "auto",
+                            "cool",
+                            "dry",
+                            "coolClean",
+                            "dryClean",
+                            "fanOnly",
+                            "heat",
+                            "heatClean",
+                            "notSupported"
+                        ]
                     }
                 },
-                "additionalProperties": false,
                 "required": [
                     "value"
                 ]
-            },
-            "setter": "setAirConditionerMode",
-            "enumCommands": []
+            }
         }
     },
     "commands": {
@@ -44,12 +61,22 @@
             "arguments": [
                 {
                     "name": "mode",
-                    "optional": false,
                     "schema": {
-                        "title": "String",
+                        "title": "HvacMode",
                         "type": "string",
-                        "maxLength": 255
-                    }
+                        "enum": [
+                            "auto",
+                            "cool",
+                            "dry",
+                            "coolClean",
+                            "dryClean",
+                            "fanOnly",
+                            "heat",
+                            "heatClean",
+                            "notSupported"
+                        ]
+                    },
+                    "required": true
                 }
             ]
         }
