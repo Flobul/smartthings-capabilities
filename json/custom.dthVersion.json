@@ -1,0 +1,24 @@
+{
+    "id": "custom.dthVersion",
+    "version": 1,
+    "status": "proposed",
+    "name": "DTH Version",
+    "attributes": {
+        "versionNumber": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {}
+}
