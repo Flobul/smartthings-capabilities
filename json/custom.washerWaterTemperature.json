@@ -1,0 +1,167 @@
+{
+    "id": "custom.washerWaterTemperature",
+    "version": 1,
+    "status": "proposed",
+    "name": "Washer Water Temperature",
+    "attributes": {
+              "supportedWasherWaterTemperature": {
+                  "schema": {
+                      "type": "object",
+                      "properties": {
+                          "value": {
+                              "title": "WasherWaterTemperature",
+                              "type": "string",
+                              "enum": [
+                                  "none",
+                                  "cold",
+                                  "20",
+                                  "30",
+                                  "40",
+                                  "60",
+                                  "90"
+                              ]
+                          }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                          "value"
+                      ]
+                  },
+                  "setter": "setWasherWaterTemperature",
+                  "enumCommands": []
+              },
+              "washerWaterTemperature": {
+                  "schema": {
+                      "type": "object",
+                      "properties": {
+                          "value": {
+                              "type": "array",
+                              "items": {
+                                  "title": "WasherWaterTemperature",
+                                  "type": "string",
+                                  "enum": [
+                                      "none",
+                                      "cold",
+                                      "20",
+                                      "30",
+                                      "40",
+                                      "60",
+                                      "90"
+                                  ]
+                              }
+                          }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                          "value"
+                      ]
+                  },
+                  "enumCommands": []
+              }
+    },
+    "commands": {
+        "setWasherWaterTemperature": {
+            "arguments": [
+                {
+                    "name": "washerWaterTemperature",
+                    "optional": false,
+                    "schema": {
+                        "title": "WasherWaterTemperature",
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "cold",
+                            "20",
+                            "30",
+                            "40",
+                            "60",
+                            "90"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+} ,
+{
+    "id": "custom.washerRinseCycles",
+    "version": 1,
+    "status": "proposed",
+    "name": "Washer Rinse Cycle",
+    "attributes": {
+              "supportedWasherRinseCycles": {
+                  "schema": {
+                      "type": "object",
+                      "properties": {
+                          "value": {
+                              "title": "WasherWaterTemperature",
+                              "type": "string",
+                              "enum": [
+                                  "0",
+                                  "1",
+                                  "2",
+                                  "3",
+                                  "4",
+                                  "5"
+                              ]
+                          }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                          "value"
+                      ]
+                  },
+                  "setter": "setWasherRinseCycles",
+                  "enumCommands": []
+              },
+              "washerRinseCycles": {
+                  "schema": {
+                      "type": "object",
+                      "properties": {
+                          "value": {
+                              "type": "array",
+                              "items": {
+                                  "title": "WasherRinseCycles",
+                                  "type": "string",
+                                  "enum": [
+                                      "0",
+                                      "1",
+                                      "2",
+                                      "3",
+                                      "4",
+                                      "5"
+                                  ]
+                              }
+                          }
+                      },
+                      "additionalProperties": false,
+                      "required": [
+                          "value"
+                      ]
+                  },
+                  "enumCommands": []
+              }
+    },
+    "commands": {
+        "setWasherRinseCycles": {
+            "arguments": [
+                {
+                    "name": "washerRinseCycles",
+                    "optional": false,
+                    "schema": {
+                        "title": "WasherRinseCycles",
+                        "type": "string",
+                        "enum": [
+                            "0",
+                            "1",
+                            "2",
+                            "3",
+                            "4",
+                            "5"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
