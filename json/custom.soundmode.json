@@ -1,0 +1,84 @@
+{
+    "id": "custom.soundmode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Tv Channel",
+    "attributes": {
+        "pictureMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "dynamic",
+                            "movie",
+                            "standard",
+                            "unknown"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setPictureMode",
+            "enumCommands": []
+        },
+        "soundMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "clear voice",
+                            "movie",
+                            "music",
+                            "standard",
+                            "unknown"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setSoundMode",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setPictureMode": {
+            "arguments": [
+                {
+                    "name": "pictureMode",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "dynamic",
+                            "movie",
+                            "standard"
+                        ]
+                    }
+                }
+            ]
+        },
+        "setSoundMode": {
+            "arguments": [
+                {
+                    "name": "soundMode",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "clear voice",
+                            "movie",
+                            "music",
+                            "standard"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
