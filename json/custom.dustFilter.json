@@ -1,0 +1,117 @@
+{
+    "id": "custom.dustFilter",
+    "version": 1,
+    "status": "proposed",
+    "name": "Dust Filter",
+    "attributes": {
+        "dustFilterUsageStep": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "max": 100,
+                        "type": "integer",
+                        "min": 1
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "dustFilterUsage": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "max": 100,
+                        "type": "integer",
+                        "min": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "dustFilterCapacity": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "CC",
+                            "Cycle",
+                            "Gallon",
+                            "Hour",
+                            "Month"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "enumCommands": []
+        },
+        "dustFilterStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "replace",
+                            "wash",
+                            "notused"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "dustFilterResetType": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "replaceable",
+                                "washable"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "resetDustFilter": {
+            "name": "resetDustFilter",
+            "arguments": []
+        }
+    }
+}
