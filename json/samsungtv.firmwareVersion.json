@@ -1,0 +1,35 @@
+{
+    "id": "samsungtv.firmwareVersion",
+    "version": 1,
+    "status": "proposed",
+    "name": "Firmware Version",
+    "attributes": {
+        "firmwareVersion": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setFirmwareVersion": {
+            "name": "setFirmwareVersion",
+            "arguments": [
+                {
+                    "name": "version",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}
