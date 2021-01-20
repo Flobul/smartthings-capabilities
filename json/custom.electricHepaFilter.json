@@ -1,0 +1,118 @@
+{
+    "id": "custom.electricHepaFilter",
+    "version": 1,
+    "status": "proposed",
+    "name": "Electric Hepa Filter",
+    "attributes": {
+        "electricHepaFilterCapacity": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "CC",
+                            "Cycle",
+                            "Gallon",
+                            "Hour",
+                            "Month"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value",
+                    "unit"
+                ]
+            },
+            "enumCommands": []
+        },
+        "electricHepaFilterUsageStep": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "max": 100,
+                        "type": "integer",
+                        "min": 1
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "electricHepaFilterStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "replace",
+                            "wash",
+                            "notused"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "electricHepaFilterUsage": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "max": 100,
+                        "type": "integer",
+                        "min": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "electricHepaFilterResetType": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "replaceable",
+                                "washable",
+                                "notresetable"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "resetElectricHepaFilter": {
+            "name": "resetElectricHepaFilter",
+            "arguments": []
+        }
+    }
+}
