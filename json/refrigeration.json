@@ -63,7 +63,7 @@
         "setDefrost": {
             "arguments": [
                 {
-                    "name": "rapidCooling",
+                    "name": "Defrost",
                     "optional": false,
                     "schema": {
                         "type": "string",
@@ -78,7 +78,7 @@
         "setRapidFreezing": {
             "arguments": [
                 {
-                    "name": "rapidCooling",
+                    "name": "rapidFreezing",
                     "optional": false,
                     "schema": {
                         "type": "string",
