@@ -1,0 +1,28 @@
+{
+    "id": "custom.jobBeginningStatus",
+    "version": 1,
+    "status": "proposed",
+    "name": "Job Beginning Status",
+    "attributes": {
+        "jobBeginningStatus": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "None",
+                            "ReadyToRun"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {}
+}
