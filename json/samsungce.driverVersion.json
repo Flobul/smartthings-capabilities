@@ -1,0 +1,24 @@
+{
+    "id": "samsungce.driverVersion",
+    "version": 1,
+    "status": "proposed",
+    "name": "Driver Version",
+    "attributes": {
+        "versionNumber": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {}
+}
