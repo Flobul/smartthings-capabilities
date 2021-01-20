@@ -1,0 +1,80 @@
+{
+	"id": "custom.washerRinseCycles",
+	"version": 1,
+	"status": "proposed",
+	"name": "Washer Rinse Cycle",
+	"attributes": {
+		"supportedWasherRinseCycles": {
+			"schema": {
+				"type": "object",
+				"properties": {
+					"value": {
+						"title": "WasherWaterTemperature",
+						"type": "string",
+						"enum": [
+							"0",
+							"1",
+							"2",
+							"3",
+							"4",
+							"5"
+						]
+					}
+				},
+				"additionalProperties": false,
+				"required": [
+					"value"
+				]
+			},
+			"setter": "setWasherRinseCycles",
+			"enumCommands": []
+		},
+		"washerRinseCycles": {
+			"schema": {
+				"type": "object",
+				"properties": {
+					"value": {
+						"type": "array",
+						"items": {
+							"title": "WasherRinseCycles",
+							"type": "string",
+							"enum": [
+								"0",
+								"1",
+								"2",
+								"3",
+								"4",
+								"5"
+							]
+						}
+					}
+				},
+				"additionalProperties": false,
+				"required": [
+					"value"
+				]
+			},
+			"enumCommands": []
+		}
+	},
+	"commands": {
+		"setWasherRinseCycles": {
+			"arguments": [{
+				"name": "washerRinseCycles",
+				"optional": false,
+				"schema": {
+					"title": "WasherRinseCycles",
+					"type": "string",
+					"enum": [
+						"0",
+						"1",
+						"2",
+						"3",
+						"4",
+						"5"
+					]
+				}
+			}]
+		}
+	}
+}
