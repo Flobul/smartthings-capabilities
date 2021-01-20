@@ -48,6 +48,7 @@
                     "value"
                 ]
             },
+            "setter": "setWasherWaterTemperature",
             "enumCommands": []
         },
         "washerWaterTemperature": {
