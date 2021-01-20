@@ -1,0 +1,46 @@
+{
+    "id": "custom.spiMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "SPI Mode",
+    "attributes": {
+        "spiMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "off"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSpiMode",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setSpiMode": {
+            "name": "setSpiMode",
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "on",
+                            "off"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
