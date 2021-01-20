@@ -4,44 +4,36 @@
     "status": "proposed",
     "name": "Kids Lock",
     "attributes": {
-              "lockState": {
-                  "schema": {
-                      "type": "object",
-                      "properties": {
-                          "value": {
-                              "title": "Lock",
-                              "type": "string",
-                              "enum": [
-                                  "locked",
-                                  "unlocked"
-                              ]
-                          }
-                      },
-                      "additionalProperties": false,
-                      "required": [
-                          "value"
-                      ]
-                  },
-                  "setter": "setLockState",
-                  "enumCommands": []
-              }
-    },
-    "commands": {
-        "setLockState": {
-            "arguments": [
-                {
-                    "name": "Kids Lock",
-                    "optional": false,
-                    "schema": {
-                        "title": "Lock",
+        "lockState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
                         "type": "string",
                         "enum": [
                             "locked",
-                            "unlocked"
-                        ]
+                            "unlocked",
+                            "paused"
+                        ],
+                        "default": false
                     }
-                }
-            ]
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "unlock": {
+            "name": "unlock",
+            "arguments": []
+        },
+        "lock": {
+            "name": "lock",
+            "arguments": []
         }
     }
 }
