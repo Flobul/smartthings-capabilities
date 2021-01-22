@@ -1,16 +1,13 @@
-
 ## SmartThings Capabilities
-
-#### Last Update: 2021-01-12
+#### Last Update: 2021-01-22
+#### Edited by Flobul for Jeedom solution
+#### VERSION 1
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
 * [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)
 * [SmartThings CLI](https://github.com/SmartThingsCommunity/smartthings-cli)
 * [Create Personal Access Token](https://account.smartthings.com/tokens)
 
-
-| Capability | Status | Capability Presentation |
-| ---- | ---- | ---- |
 | Capability | Status | Capability Presentation |
 | ---- | ---- | ---- |
 | [Acceleration Sensor](./json/accelerationSensor.json) | live |  |
@@ -77,8 +74,8 @@
 | [launchApp](./json/custom.launchapp.json) | proposed |  |
 | [Outing Mode](./json/custom.outingMode.json) | proposed |  |
 | [Periodic Sensing](./json/custom.periodicSensing.json) | proposed |  |
-| [PictureMode]    (./json/custom.picturemode.json) | proposed |  |
-| [Recording]    (./json/custom.recording.json) | proposed |  |
+| [PictureMode](./json/custom.picturemode.json) | proposed |  |
+| [Recording](./json/custom.recording.json) | proposed |  |
 | [Tv Channel](./json/custom.soundmode.json) | proposed |  |
 | [SPI Mode](./json/custom.spiMode.json) | proposed |  |
 | [Supported Options](./json/custom.supportedOptions.json) | proposed |  |
