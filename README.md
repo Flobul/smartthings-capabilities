@@ -11,6 +11,8 @@
 
 | Capability | Status | Capability Presentation |
 | ---- | ---- | ---- |
+| Capability | Status | Capability Presentation |
+| ---- | ---- | ---- |
 | [Acceleration Sensor](./json/accelerationSensor.json) | live |  |
 | [Activity Lighting Mode](./json/activityLightingMode.json) | proposed |  |
 | [Activity Sensor](./json/activitySensor.json) | proposed |  |
@@ -55,41 +57,41 @@
 | [Configuration](./json/configuration.json) | live |  |
 | [Consumable](./json/consumable.json) | proposed |  |
 | [Contact Sensor](./json/contactSensor.json) | live |  |
-| [Accessibility] | proposed | json/custom.accessibility.json|  |
-| [Air Conditioner Odor Controller] | proposed | json/custom.airConditionerOdorController.json|  |
-| [Air Conditioner Optional Mode] | proposed | json/custom.airConditionerOptionalMode.json|  |
-| [Air Conditioner Tropical Night Mode] | proposed | json/custom.airConditionerTropicalNightMode.json|  |
-| [Auto Cleaning Mode] | proposed | json/custom.autoCleaningMode.json|  |
-| [Deodor Filter] | proposed | json/custom.deodorFilter.json|  |
-| [Device Dependency Status] | proposed | json/custom.deviceDependencyStatus.json|  |
-| [Device Report State Configuration] | proposed | json/custom.deviceReportStateConfiguration.json|  |
-| [Do Not Disturb Mode] | proposed | json/custom.doNotDisturbMode.json|  |
-| [DTH Version] | proposed | json/custom.dthVersion.json|  |
-| [Dust Filter] | proposed | json/custom.dustFilter.json|  |
-| [Electric Hepa Filter] | proposed | json/custom.electricHepaFilter.json|  |
-| [Energy Type] | proposed | json/custom.energyType.json|  |
-| [Error] | proposed | json/custom.error.json|  |
-| [Fridge Mode] | proposed | json/custom.fridgeMode.json|  |
-| [Electric Hepa Filter] | proposed | json/custom.hepaFilter.json|  |
-| [Job Beginning Status] | proposed | json/custom.jobBeginningStatus.json|  |
-| [launchApp] | proposed | json/custom.launchapp.json|  |
-| [Outing Mode] | proposed | json/custom.outingMode.json|  |
-| [Periodic Sensing] | proposed | json/custom.periodicSensing.json|  |
-| [PictureMode]     | proposed | json/custom.picturemode.json|  |
-| [Recording]     | proposed | json/custom.recording.json|  |
-| [Tv Channel] | proposed | json/custom.soundmode.json|  |
-| [SPI Mode] | proposed | json/custom.spiMode.json|  |
-| [Supported Options] | proposed | json/custom.supportedOptions.json|  |
-| [Thermostat Setpoint Control] | proposed | json/custom.thermostatSetpointControl.json|  |
-| [tvSearch] | proposed | json/custom.tvsearch.json|  |
-| [Very Fine Dust Filter] | proposed | json/custom.veryFineDustFilter.json|  |
-| [Washer Auto Detergent] | proposed | json/custom.washerAutoDetergent.json|  |
-| [Washer Auto Softener] | proposed | json/custom.washerAutoSoftener.json|  |
-| [Washer Rinse Cycles] | proposed | json/custom.washerRinseCycles.json|  |
-| [Washer Soil Level] | proposed | json/custom.washerSoilLevel.json|  |
-| [Washer Spin Level] | proposed | json/custom.washerSpinLevel.json|  |
-| [Washer Water Temperature] | proposed | json/custom.washerWaterTemperature.json|  |
-| [Water Filter] | proposed | json/custom.waterFilter.json|  |
+| [Accessibility](./json/custom.accessibility.json) | proposed |  |
+| [Air Conditioner Odor Controller](./json/custom.airConditionerOdorController.json) | proposed |  |
+| [Air Conditioner Optional Mode](./json/custom.airConditionerOptionalMode.json) | proposed |  |
+| [Air Conditioner Tropical Night Mode](./json/custom.airConditionerTropicalNightMode.json) | proposed |  |
+| [Auto Cleaning Mode](./json/custom.autoCleaningMode.json) | proposed |  |
+| [Deodor Filter](./json/custom.deodorFilter.json) | proposed |  |
+| [Device Dependency Status](./json/custom.deviceDependencyStatus.json) | proposed |  |
+| [Device Report State Configuration](./json/custom.deviceReportStateConfiguration.json) | proposed |  |
+| [Do Not Disturb Mode](./json/custom.doNotDisturbMode.json) | proposed |  |
+| [DTH Version](./json/custom.dthVersion.json) | proposed |  |
+| [Dust Filter](./json/custom.dustFilter.json) | proposed |  |
+| [Electric Hepa Filter](./json/custom.electricHepaFilter.json) | proposed |  |
+| [Energy Type](./json/custom.energyType.json) | proposed |  |
+| [Error](./json/custom.error.json) | proposed |  |
+| [Fridge Mode](./json/custom.fridgeMode.json) | proposed |  |
+| [Electric Hepa Filter](./json/custom.hepaFilter.json) | proposed |  |
+| [Job Beginning Status](./json/custom.jobBeginningStatus.json) | proposed |  |
+| [launchApp](./json/custom.launchapp.json) | proposed |  |
+| [Outing Mode](./json/custom.outingMode.json) | proposed |  |
+| [Periodic Sensing](./json/custom.periodicSensing.json) | proposed |  |
+| [PictureMode]    (./json/custom.picturemode.json) | proposed |  |
+| [Recording]    (./json/custom.recording.json) | proposed |  |
+| [Tv Channel](./json/custom.soundmode.json) | proposed |  |
+| [SPI Mode](./json/custom.spiMode.json) | proposed |  |
+| [Supported Options](./json/custom.supportedOptions.json) | proposed |  |
+| [Thermostat Setpoint Control](./json/custom.thermostatSetpointControl.json) | proposed |  |
+| [tvSearch](./json/custom.tvsearch.json) | proposed |  |
+| [Very Fine Dust Filter](./json/custom.veryFineDustFilter.json) | proposed |  |
+| [Washer Auto Detergent](./json/custom.washerAutoDetergent.json) | proposed |  |
+| [Washer Auto Softener](./json/custom.washerAutoSoftener.json) | proposed |  |
+| [Washer Rinse Cycles](./json/custom.washerRinseCycles.json) | proposed |  |
+| [Washer Soil Level](./json/custom.washerSoilLevel.json) | proposed |  |
+| [Washer Spin Level](./json/custom.washerSpinLevel.json) | proposed |  |
+| [Washer Water Temperature](./json/custom.washerWaterTemperature.json) | proposed |  |
+| [Water Filter](./json/custom.waterFilter.json) | proposed |  |
 | [Demand Response Load Control](./json/demandResponseLoadControl.json) | proposed |  |
 | [Dew Point](./json/dewPoint.json) | proposed |  |
 | [Dishwasher Mode](./json/dishwasherMode.json) | proposed |  |
@@ -181,16 +183,16 @@
 | [Robot Cleaner State](./json/robotCleanerState.json) | deprecated |  |
 | [Robot Cleaner Turbo Mode](./json/robotCleanerTurboMode.json) | proposed |  |
 | [Samsung TV](./json/samsungTV.json) | live |  |
-| [Auto Dispense Detergent] | proposed | json/samsungce.autoDispenseDetergent.json|  |
-| [Auto Dispense Softener] | proposed | json/samsungce.autoDispenseSoftener.json|  |
-| [Detergent Order] | proposed | json/samsungce.detergentOrder.json|  |
-| [Detergent State] | proposed | json/samsungce.detergentState.json|  |
-| [Driver Version] | proposed | json/samsungce.driverVersion.json|  |
-| [Kids Lock] | proposed | json/samsungce.kidsLock.json|  |
-| [Softener Order] | proposed | json/samsungce.softenerOrder.json|  |
-| [Softener State] | proposed | json/samsungce.softenerState.json|  |
-| [Washer Cycle] | proposed | json/samsungce.washerCycle.json|  |
-| [Firmware Version] | proposed | json/samsungtv.firmwareVersion.json|  |
+| [Auto Dispense Detergent](./json/samsungce.autoDispenseDetergent.json) | proposed |  |
+| [Auto Dispense Softener](./json/samsungce.autoDispenseSoftener.json) | proposed |  |
+| [Detergent Order](./json/samsungce.detergentOrder.json) | proposed |  |
+| [Detergent State](./json/samsungce.detergentState.json) | proposed |  |
+| [Driver Version](./json/samsungce.driverVersion.json) | proposed |  |
+| [Kids Lock](./json/samsungce.kidsLock.json) | proposed |  |
+| [Softener Order](./json/samsungce.softenerOrder.json) | proposed |  |
+| [Softener State](./json/samsungce.softenerState.json) | proposed |  |
+| [Washer Cycle](./json/samsungce.washerCycle.json) | proposed |  |
+| [Firmware Version](./json/samsungtv.firmwareVersion.json) | proposed |  |
 | [Supports Power On By OCF](./json/samsungtv.supportsPowerOnByOcf.json) | proposed |  |
 | [Scent](./json/scent.json) | proposed |  |
 | [Security System](./json/securitySystem.json) | live |  |
