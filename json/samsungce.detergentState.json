@@ -107,7 +107,13 @@
                     "name": "detergentType",
                     "optional": false,
                     "schema": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                            "liquid",
+                            "capsule",
+                            "drySheet",
+                            "unknown"
+                        ]
                     }
                 }
             ]
