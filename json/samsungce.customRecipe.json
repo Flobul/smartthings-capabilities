@@ -1,0 +1,21 @@
+{
+    "id": "samsungce.customRecipe",
+    "version": 1,
+    "status": "proposed",
+    "name": "Custom Recipe",
+    "attributes": {},
+    "commands": {
+        "cookCustomRecipe": {
+            "name": "cookCustomRecipe",
+            "arguments": [
+                {
+                    "name": "payload",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}
