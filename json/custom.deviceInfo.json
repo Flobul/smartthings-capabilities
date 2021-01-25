@@ -1,0 +1,70 @@
+{
+    "id": "custom.deviceInfo",
+    "version": 1,
+    "status": "proposed",
+    "name": "Device Info",
+    "attributes": {
+        "deviceType": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "enum": [
+                            "oven",
+                            "range",
+                            "microwave",
+                            "cooktop",
+                            "refrigerator",
+                            "krefrigerator",
+                            "winecellar",
+                            "airconditioner",
+                            "airpurifier",
+                            "washer",
+                            "dryer",
+                            "dishwasher",
+                            "steamcloset",
+                            "robotcleaner"
+                        ],
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "serialNumber": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "modelNumber": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {}
+}
