@@ -1,0 +1,34 @@
+{
+    "id": "custom.region",
+    "version": 1,
+    "status": "proposed",
+    "name": "Region",
+    "attributes": {
+        "region": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "values": [
+                            "IT",
+                            "UK",
+                            "FR",
+                            "US",
+                            "JP",
+                            "EU",
+                            "KR",
+                            "CN",
+                            "ZZ",
+                            "UNKNOWN"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {}
+}
