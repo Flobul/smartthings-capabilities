@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2021-01-22
+#### Last Update: 2021-01-25
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -59,6 +59,7 @@
 | [Air Conditioner Tropical Night Mode](./json/custom.airConditionerTropicalNightMode.json) | proposed |  |
 | [Auto Cleaning Mode](./json/custom.autoCleaningMode.json) | proposed |  |
 | [Deodor Filter](./json/custom.deodorFilter.json) | proposed |  |
+| [Device Info](.json/custom.deviceInfo.json) | proposed |  |
 | [Device Dependency Status](./json/custom.deviceDependencyStatus.json) | proposed |  |
 | [Device Report State Configuration](./json/custom.deviceReportStateConfiguration.json) | proposed |  |
 | [Do Not Disturb Mode](./json/custom.doNotDisturbMode.json) | proposed |  |
@@ -72,6 +73,7 @@
 | [Job Beginning Status](./json/custom.jobBeginningStatus.json) | proposed |  |
 | [launchApp](./json/custom.launchapp.json) | proposed |  |
 | [Outing Mode](./json/custom.outingMode.json) | proposed |  |
+| [Oven Cavity Status](.json/custom.ovenCavityStatus.json) | proposed |  |
 | [Periodic Sensing](./json/custom.periodicSensing.json) | proposed |  |
 | [PictureMode](./json/custom.picturemode.json) | proposed |  |
 | [Recording](./json/custom.recording.json) | proposed |  |
@@ -181,9 +183,15 @@
 | [Samsung TV](./json/samsungTV.json) | live |  |
 | [Auto Dispense Detergent](./json/samsungce.autoDispenseDetergent.json) | proposed |  |
 | [Auto Dispense Softener](./json/samsungce.autoDispenseSoftener.json) | proposed |  |
+| [Custom Recipe](.json/samsungce.customRecipe.json) | proposed |  |
 | [Detergent Order](./json/samsungce.detergentOrder.json) | proposed |  |
 | [Detergent State](./json/samsungce.detergentState.json) | proposed |  |
+| [Door State](.json/samsungce.doorState.json) | proposed |  |
 | [Driver Version](./json/samsungce.driverVersion.json) | proposed |  |
+| [Dryer Wrinkle Prevent](.json/custom.dryerWrinklePrevent.json) | proposed |  |
+| [Dryer Dry Level](.json/custom.dryerDryLevel.json) | live |  |
+| [Dryer Auto Cycle Link](.json/samsungce.dryerAutoCycleLink.json) | proposed |  |
+| [Dryer Cycle](.json/samsungce.dryerCycle.json) | proposed |  |
 | [Kids Lock](./json/samsungce.kidsLock.json) | proposed |  |
 | [Softener Order](./json/samsungce.softenerOrder.json) | proposed |  |
 | [Softener State](./json/samsungce.softenerState.json) | proposed |  |
