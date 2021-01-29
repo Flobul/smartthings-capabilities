@@ -188,6 +188,11 @@
 | [Detergent State](./json/samsungce.detergentState.json) | proposed |  |
 | [Door State](.json/samsungce.doorState.json) | proposed |  |
 | [Driver Version](./json/samsungce.driverVersion.json) | proposed |  |
+| [Ambient](./json/samsungvd.ambient.json) | proposed |  |
+| [Ambient 18](./json/samsungvd.ambient18.json) | proposed |  |
+| [Ambient Content](./json/samsungvd.ambientContent.json) | proposed |  |
+| [Firmware Version](./json/samsungvd.firmwareVersion.json) | proposed |  |
+| [Media Input Source](./json/samsungvd.mediaInputSource.json) | proposed |  |
 | [Dryer Wrinkle Prevent](.json/custom.dryerWrinklePrevent.json) | proposed |  |
 | [Dryer Dry Level](.json/custom.dryerDryLevel.json) | live |  |
 | [Dryer Auto Cycle Link](.json/samsungce.dryerAutoCycleLink.json) | proposed |  |
