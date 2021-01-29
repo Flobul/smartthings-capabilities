@@ -53,7 +53,9 @@
                 "required": [
                     "value"
                 ]
-            }
+            },
+            "setter": "setAirConditionerMode",
+            "enumCommands": []
         }
     },
     "commands": {
