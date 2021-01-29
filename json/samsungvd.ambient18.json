@@ -1,0 +1,13 @@
+{
+    "id": "samsungvd.ambient18",
+    "version": 1,
+    "status": "proposed",
+    "name": "Ambient18",
+    "attributes": {},
+    "commands": {
+        "setAmbientOn": {
+            "name": "setAmbientOn",
+            "arguments": []
+        }
+    }
+}
