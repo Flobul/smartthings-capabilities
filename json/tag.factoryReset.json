@@ -1,0 +1,13 @@
+{
+    "id": "tag.factoryReset",
+    "version": 1,
+    "status": "proposed",
+    "name": "Factory reset",
+    "attributes": {},
+    "commands": {
+        "reset": {
+            "name": "reset",
+            "arguments": []
+        }
+    }
+}
