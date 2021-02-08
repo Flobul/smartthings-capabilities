@@ -239,6 +239,12 @@
 | [Switch](./json/switch.json) | live |  |
 | [Switch Level](./json/switchLevel.json) | live |  |
 | [TV](./json/tV.json) | live |  |
+| [E2eEncryption](./json/tag.e2eEncryption".json) | proposed |  |
+| [SearchingStatus](./json/tag.searchingStatus.json) | proposed |  |
+| [TagStatus](./json/tag.tagStatus.json) | proposed |  |
+| [UpdatedInfo](./json/tag.updatedInfo.json) | proposed |  |
+| [TagButton](./json/tag.tagButton.json) | proposed |  |
+| [FactoryReset](./json/tag.factoryReset.json) | proposed |  |
 | [Tamper Alert](./json/tamperAlert.json) | live |  |
 | [Temperature Alarm](./json/temperatureAlarm.json) | live |  |
 | [Temperature Measurement](./json/temperatureMeasurement.json) | live |  |
