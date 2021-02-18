@@ -16,7 +16,8 @@
                         "enum": [
                             "Wh",
                             "kWh",
-                            "mWh"
+                            "mWh",
+                            "kVAh"
                         ],
                         "default": "kWh"
                     }
