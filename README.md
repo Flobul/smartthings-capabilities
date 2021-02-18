@@ -24,7 +24,6 @@
 | [Alarm System Arm Only](./json/alarmSystemArmOnly.json) | dead |  |
 | [Astronomical Data](./json/astronomicalData.json) | dead |  |
 | [Atmospheric Pressure Measurement](./json/atmosphericPressureMeasurement.json) | proposed |  |
-
 | [Accessibility](./json/custom.accessibility.json) | proposed |  |
 | [Air Conditioner Odor Controller](./json/custom.airConditionerOdorController.json) | proposed |  |
 | [Air Conditioner Optional Mode](./json/custom.airConditionerOptionalMode.json) | proposed |  |
