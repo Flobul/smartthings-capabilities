@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2021-02-08
+#### Last Update: 2021-02-18
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -24,6 +24,15 @@
 | [Alarm System Arm Only](./json/alarmSystemArmOnly.json) | dead |  |
 | [Astronomical Data](./json/astronomicalData.json) | dead |  |
 | [Atmospheric Pressure Measurement](./json/atmosphericPressureMeasurement.json) | proposed |  |
+
+| [Accessibility](./json/custom.accessibility.json) | proposed |  |
+| [Air Conditioner Odor Controller](./json/custom.airConditionerOdorController.json) | proposed |  |
+| [Air Conditioner Optional Mode](./json/custom.airConditionerOptionalMode.json) | proposed |  |
+| [Air Conditioner Tropical Night Mode](./json/custom.airConditionerTropicalNightMode.json) | proposed |  |
+| [Auto Cleaning Mode](./json/custom.autoCleaningMode.json) | proposed |  |
+| [Ambient](./json/samsungvd.ambient.json) | proposed |  |
+| [Ambient 18](./json/samsungvd.ambient18.json) | proposed |  |
+| [Ambient Content](./json/samsungvd.ambientContent.json) | proposed |  |
 | [Audio Capture](./json/audioCapture.json) | proposed |  |
 | [Audio Mute](./json/audioMute.json) | live |  |
 | [Audio Notification](./json/audioNotification.json) | live |  |
@@ -31,6 +40,8 @@
 | [Audio Track Addressing](./json/audioTrackAddressing.json) | proposed |  |
 | [Audio Track Data](./json/audioTrackData.json) | proposed |  |
 | [Audio Volume](./json/audioVolume.json) | live |  |
+| [Auto Dispense Detergent](./json/samsungce.autoDispenseDetergent.json) | proposed |  |
+| [Auto Dispense Softener](./json/samsungce.autoDispenseSoftener.json) | proposed |  |
 | [Battery](./json/battery.json) | live |  |
 | [Beacon](./json/beacon.json) | deprecated |  |
 | [Body Mass Index Measurement](./json/bodyMassIndexMeasurement.json) | proposed |  |
@@ -53,43 +64,22 @@
 | [Configuration](./json/configuration.json) | live |  |
 | [Consumable](./json/consumable.json) | proposed |  |
 | [Contact Sensor](./json/contactSensor.json) | live |  |
-| [Accessibility](./json/custom.accessibility.json) | proposed |  |
-| [Air Conditioner Odor Controller](./json/custom.airConditionerOdorController.json) | proposed |  |
-| [Air Conditioner Optional Mode](./json/custom.airConditionerOptionalMode.json) | proposed |  |
-| [Air Conditioner Tropical Night Mode](./json/custom.airConditionerTropicalNightMode.json) | proposed |  |
-| [Auto Cleaning Mode](./json/custom.autoCleaningMode.json) | proposed |  |
+| [Custom Recipe](.json/samsungce.customRecipe.json) | proposed |  |
+| [Detergent Order](./json/samsungce.detergentOrder.json) | proposed |  |
+| [Detergent State](./json/samsungce.detergentState.json) | proposed |  |
+| [Door State](.json/samsungce.doorState.json) | proposed |  |
+| [Driver Version](./json/samsungce.driverVersion.json) | proposed |  |
 | [Deodor Filter](./json/custom.deodorFilter.json) | proposed |  |
 | [Device Info](.json/custom.deviceInfo.json) | proposed |  |
 | [Device Dependency Status](./json/custom.deviceDependencyStatus.json) | proposed |  |
 | [Device Report State Configuration](./json/custom.deviceReportStateConfiguration.json) | proposed |  |
 | [Do Not Disturb Mode](./json/custom.doNotDisturbMode.json) | proposed |  |
+| [Dryer Wrinkle Prevent](.json/custom.dryerWrinklePrevent.json) | proposed |  |
+| [Dryer Dry Level](.json/custom.dryerDryLevel.json) | live |  |
+| [Dryer Auto Cycle Link](.json/samsungce.dryerAutoCycleLink.json) | proposed |  |
+| [Dryer Cycle](.json/samsungce.dryerCycle.json) | proposed |  |
 | [DTH Version](./json/custom.dthVersion.json) | proposed |  |
 | [Dust Filter](./json/custom.dustFilter.json) | proposed |  |
-| [Electric Hepa Filter](./json/custom.electricHepaFilter.json) | proposed |  |
-| [Energy Type](./json/custom.energyType.json) | proposed |  |
-| [Error](./json/custom.error.json) | proposed |  |
-| [Fridge Mode](./json/custom.fridgeMode.json) | proposed |  |
-| [Electric Hepa Filter](./json/custom.hepaFilter.json) | proposed |  |
-| [Job Beginning Status](./json/custom.jobBeginningStatus.json) | proposed |  |
-| [launchApp](./json/custom.launchapp.json) | proposed |  |
-| [Outing Mode](./json/custom.outingMode.json) | proposed |  |
-| [Oven Cavity Status](.json/custom.ovenCavityStatus.json) | proposed |  |
-| [Periodic Sensing](./json/custom.periodicSensing.json) | proposed |  |
-| [PictureMode](./json/custom.picturemode.json) | proposed |  |
-| [Recording](./json/custom.recording.json) | proposed |  |
-| [Tv Channel](./json/custom.soundmode.json) | proposed |  |
-| [SPI Mode](./json/custom.spiMode.json) | proposed |  |
-| [Supported Options](./json/custom.supportedOptions.json) | proposed |  |
-| [Thermostat Setpoint Control](./json/custom.thermostatSetpointControl.json) | proposed |  |
-| [tvSearch](./json/custom.tvsearch.json) | proposed |  |
-| [Very Fine Dust Filter](./json/custom.veryFineDustFilter.json) | proposed |  |
-| [Washer Auto Detergent](./json/custom.washerAutoDetergent.json) | proposed |  |
-| [Washer Auto Softener](./json/custom.washerAutoSoftener.json) | proposed |  |
-| [Washer Rinse Cycles](./json/custom.washerRinseCycles.json) | proposed |  |
-| [Washer Soil Level](./json/custom.washerSoilLevel.json) | proposed |  |
-| [Washer Spin Level](./json/custom.washerSpinLevel.json) | proposed |  |
-| [Washer Water Temperature](./json/custom.washerWaterTemperature.json) | proposed |  |
-| [Water Filter](./json/custom.waterFilter.json) | proposed |  |
 | [Demand Response Load Control](./json/demandResponseLoadControl.json) | proposed |  |
 | [Dew Point](./json/dewPoint.json) | proposed |  |
 | [Dishwasher Mode](./json/dishwasherMode.json) | proposed |  |
@@ -101,11 +91,18 @@
 | [Dryer Operating State](./json/dryerOperatingState.json) | proposed |  |
 | [Dust Health Concern](./json/dustHealthConcern.json) | proposed |  |
 | [Dust Sensor](./json/dustSensor.json) | live |  |
+| [E2eEncryption](./json/tag.e2eEncryption".json) | proposed |  |
+| [Electric Hepa Filter](./json/custom.electricHepaFilter.json) | proposed |  |
+| [Energy Type](./json/custom.energyType.json) | proposed |  |
+| [Error](./json/custom.error.json) | proposed |  |
+| [Fridge Mode](./json/custom.fridgeMode.json) | proposed |  |
+| [Electric Hepa Filter](./json/custom.hepaFilter.json) | proposed |  |
 | [Elevator Call](./json/elevatorCall.json) | proposed |  |
 | [Energy Meter](./json/energyMeter.json) | live |  |
 | [Equivalent Carbon Dioxide Measurement](./json/equivalentCarbonDioxideMeasurement.json) | live |  |
 | [Estimated Time Of Arrival](./json/estimatedTimeOfArrival.json) | proposed |  |
 | [Execute](./json/execute.json) | live |  |
+| [FactoryReset](./json/tag.factoryReset.json) | proposed |  |
 | [Fan Oscillation Mode](./json/fanOscillationMode.json) | proposed |  |
 | [Fan Speed](./json/fanSpeed.json) | live |  |
 | [Feeder Operating State](./json/feederOperatingState.json) | proposed |  |
@@ -115,6 +112,8 @@
 | [Fine Dust Health Concern](./json/fineDustHealthConcern.json) | proposed |  |
 | [Fine Dust Sensor](./json/fineDustSensor.json) | live |  |
 | [Firmware Update](./json/firmwareUpdate.json) | proposed |  |
+| [Firmware Version](./json/samsungvd.firmwareVersion.json) | proposed |  |
+| [Firmware Version](./json/samsungtv.firmwareVersion.json) | proposed |  |
 | [Formaldehyde Measurement](./json/formaldehydeMeasurement.json) | live |  |
 | [Garage Door Control](./json/garageDoorControl.json) | deprecated |  |
 | [Gas Detector](./json/gasDetector.json) | proposed |  |
@@ -129,7 +128,10 @@
 | [Image Capture](./json/imageCapture.json) | live |  |
 | [Indicator](./json/indicator.json) | deprecated |  |
 | [Infrared Level](./json/infraredLevel.json) | live |  |
+| [Job Beginning Status](./json/custom.jobBeginningStatus.json) | proposed |  |
+| [Kids Lock](./json/samsungce.kidsLock.json) | proposed |  |
 | [Language Setting](./json/languageSetting.json) | proposed |  |
+| [LaunchApp](./json/custom.launchapp.json) | proposed |  |
 | [Light](./json/light.json) | deprecated |  |
 | [Location Mode](./json/locationMode.json) | live |  |
 | [Lock](./json/lock.json) | live |  |
@@ -139,6 +141,7 @@
 | [Media Controller](./json/mediaController.json) | proposed |  |
 | [Media Group](./json/mediaGroup.json) | proposed |  |
 | [Media Input Source](./json/mediaInputSource.json) | proposed |  |
+| [Media Input Source](./json/samsungvd.mediaInputSource.json) | proposed |  |
 | [Media Playback](./json/mediaPlayback.json) | proposed |  |
 | [Media Playback Repeat](./json/mediaPlaybackRepeat.json) | proposed |  |
 | [Media Playback Shuffle](./json/mediaPlaybackShuffle.json) | proposed |  |
@@ -159,6 +162,10 @@
 | [Oven Operating State](./json/ovenOperatingState.json) | proposed |  |
 | [Oven Operational State](./json/ovenOperationalState.json) | deprecated |  |
 | [Oven Setpoint](./json/ovenSetpoint.json) | proposed |  |
+| [Outing Mode](./json/custom.outingMode.json) | proposed |  |
+| [Oven Cavity Status](.json/custom.ovenCavityStatus.json) | proposed |  |
+| [Periodic Sensing](./json/custom.periodicSensing.json) | proposed |  |
+| [PictureMode](./json/custom.picturemode.json) | proposed |  |
 | [pH Measurement](./json/pHMeasurement.json) | live |  |
 | [Panic Alarm](./json/panicAlarm.json) | live |  |
 | [Pest Control](./json/pestControl.json) | proposed |  |
@@ -166,6 +173,9 @@
 | [Power Consumption Report](./json/powerConsumptionReport.json) | proposed |  |
 | [Power Meter](./json/powerMeter.json) | live |  |
 | [Power Source](./json/powerSource.json) | live |  |
+| [Precipitation Measurement](./json/precipitationMeasurement.json) | proposed |  |
+| [Precipitation Rate](./json/precipitationRate.json) | proposed |  |
+| [Precipitation Sensor](./json/precipitationSensor.json) | proposed |  |
 | [Presence Sensor](./json/presenceSensor.json) | live |  |
 | [Radon Health Concern](./json/radonHealthConcern.json) | proposed |  |
 | [Radon Measurement](./json/radonMeasurement.json) | proposed |  |
@@ -173,6 +183,7 @@
 | [Refresh](./json/refresh.json) | live |  |
 | [Refrigeration](./json/refrigeration.json) | live |  |
 | [Refrigeration Setpoint](./json/refrigerationSetpoint.json) | proposed |  |
+| [Relative Brightness](./json/relativeBrightness.json) | proposed |  |
 | [Relative Humidity Measurement](./json/relativeHumidityMeasurement.json) | live |  |
 | [Relay Switch](./json/relaySwitch.json) | deprecated |  |
 | [Remote Control Status](./json/remoteControlStatus.json) | live |  |
@@ -180,30 +191,18 @@
 | [Robot Cleaner Movement](./json/robotCleanerMovement.json) | proposed |  |
 | [Robot Cleaner State](./json/robotCleanerState.json) | deprecated |  |
 | [Robot Cleaner Turbo Mode](./json/robotCleanerTurboMode.json) | proposed |  |
+| [Recording](./json/custom.recording.json) | proposed |  |
 | [Samsung TV](./json/samsungTV.json) | live |  |
-| [Auto Dispense Detergent](./json/samsungce.autoDispenseDetergent.json) | proposed |  |
-| [Auto Dispense Softener](./json/samsungce.autoDispenseSoftener.json) | proposed |  |
-| [Custom Recipe](.json/samsungce.customRecipe.json) | proposed |  |
-| [Detergent Order](./json/samsungce.detergentOrder.json) | proposed |  |
-| [Detergent State](./json/samsungce.detergentState.json) | proposed |  |
-| [Door State](.json/samsungce.doorState.json) | proposed |  |
-| [Driver Version](./json/samsungce.driverVersion.json) | proposed |  |
-| [Ambient](./json/samsungvd.ambient.json) | proposed |  |
-| [Ambient 18](./json/samsungvd.ambient18.json) | proposed |  |
-| [Ambient Content](./json/samsungvd.ambientContent.json) | proposed |  |
-| [Firmware Version](./json/samsungvd.firmwareVersion.json) | proposed |  |
-| [Media Input Source](./json/samsungvd.mediaInputSource.json) | proposed |  |
-| [Dryer Wrinkle Prevent](.json/custom.dryerWrinklePrevent.json) | proposed |  |
-| [Dryer Dry Level](.json/custom.dryerDryLevel.json) | live |  |
-| [Dryer Auto Cycle Link](.json/samsungce.dryerAutoCycleLink.json) | proposed |  |
-| [Dryer Cycle](.json/samsungce.dryerCycle.json) | proposed |  |
-| [Kids Lock](./json/samsungce.kidsLock.json) | proposed |  |
+| [SPI Mode](./json/custom.spiMode.json) | proposed |  |
+| [Supported Options](./json/custom.supportedOptions.json) | proposed |  |
+| [Thermostat Setpoint Control](./json/custom.thermostatSetpointControl.json) | proposed |  |
+| [Tv Channel](./json/custom.soundmode.json) | proposed |  |
+| [tvSearch](./json/custom.tvsearch.json) | proposed |  |
 | [Softener Order](./json/samsungce.softenerOrder.json) | proposed |  |
 | [Softener State](./json/samsungce.softenerState.json) | proposed |  |
-| [Washer Cycle](./json/samsungce.washerCycle.json) | proposed |  |
-| [Firmware Version](./json/samsungtv.firmwareVersion.json) | proposed |  |
 | [Supports Power On By OCF](./json/samsungtv.supportsPowerOnByOcf.json) | proposed |  |
 | [Scent](./json/scent.json) | proposed |  |
+| [SearchingStatus](./json/tag.searchingStatus.json) | proposed |  |
 | [Security System](./json/securitySystem.json) | live |  |
 | [Sensor](./json/sensor.json) | deprecated |  |
 | [Shock Sensor](./json/shockSensor.json) | deprecated |  |
@@ -239,12 +238,8 @@
 | [Switch](./json/switch.json) | live |  |
 | [Switch Level](./json/switchLevel.json) | live |  |
 | [TV](./json/tV.json) | live |  |
-| [E2eEncryption](./json/tag.e2eEncryption".json) | proposed |  |
-| [SearchingStatus](./json/tag.searchingStatus.json) | proposed |  |
 | [TagStatus](./json/tag.tagStatus.json) | proposed |  |
-| [UpdatedInfo](./json/tag.updatedInfo.json) | proposed |  |
 | [TagButton](./json/tag.tagButton.json) | proposed |  |
-| [FactoryReset](./json/tag.factoryReset.json) | proposed |  |
 | [Tamper Alert](./json/tamperAlert.json) | live |  |
 | [Temperature Alarm](./json/temperatureAlarm.json) | live |  |
 | [Temperature Measurement](./json/temperatureMeasurement.json) | live |  |
@@ -265,6 +260,7 @@
 | [Tvoc Health Concern](./json/tvocHealthConcern.json) | proposed |  |
 | [Tvoc Measurement](./json/tvocMeasurement.json) | live |  |
 | [Ultraviolet Index](./json/ultravioletIndex.json) | live |  |
+| [UpdatedInfo](./json/tag.updatedInfo.json) | proposed |  |
 | [Valve](./json/valve.json) | live |  |
 | [Vehicle Engine](./json/vehicleEngine.json) | proposed |  |
 | [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | proposed |  |
@@ -278,11 +274,20 @@
 | [Video Clips](./json/videoClips.json) | proposed | |
 | [Video Stream](./json/videoStream.json) | live |  |
 | [Voltage Measurement](./json/voltageMeasurement.json) | live |  |
+| [Very Fine Dust Filter](./json/custom.veryFineDustFilter.json) | proposed |  |
+| [Washer Auto Detergent](./json/custom.washerAutoDetergent.json) | proposed |  |
+| [Washer Auto Softener](./json/custom.washerAutoSoftener.json) | proposed |  |
+| [Washer Cycle](./json/samsungce.washerCycle.json) | proposed |  |
+| [Washer Rinse Cycles](./json/custom.washerRinseCycles.json) | proposed |  |
+| [Washer Soil Level](./json/custom.washerSoilLevel.json) | proposed |  |
+| [Washer Spin Level](./json/custom.washerSpinLevel.json) | proposed |  |
+| [Washer Water Temperature](./json/custom.washerWaterTemperature.json) | proposed |  |
+| [Water Filter](./json/custom.waterFilter.json) | proposed |  |
 | [Washer Mode](./json/washerMode.json) | proposed |  |
 | [Washer Operating State](./json/washerOperatingState.json) | proposed |  |
 | [Washer Operational State](./json/washerOperationalState.json) | deprecated |  |
 | [Water Sensor](./json/waterSensor.json) | live |  |
-| [webrtc](./json/webrtc.json) | live |  |
+| [Webrtc](./json/webrtc.json) | live |  |
 | [Wifi Mesh Router](./json/wifiMeshRouter.json) | proposed |  |
 | [Wind Speed](./json/windSpeed.json) | proposed |  |
 | [Window Shade](./json/windowShade.json) | live |  |
