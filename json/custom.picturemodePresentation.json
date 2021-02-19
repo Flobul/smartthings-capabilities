@@ -1,0 +1,53 @@
+{
+    "detailView": [
+        {
+            "label": "Picture mode",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setPictureMode",
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedPictureModes.value"
+                },
+                "state": {
+                    "value": "pictureMode.value",
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.commands.setPictureMode.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedPictureModes.value",
+                    "command": "setPictureMode"
+                }
+            }
+        ]
+    },
+    "id": "custom.picturemode",
+    "version": 1
+}

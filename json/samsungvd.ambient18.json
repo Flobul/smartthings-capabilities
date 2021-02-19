@@ -3,7 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Ambient18",
-    "attributes": {},
+    "attributes": [],
     "commands": {
         "setAmbientOn": {
             "name": "setAmbientOn",

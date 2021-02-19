@@ -1,0 +1,24 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.commands.setAmbientContent.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "weather",
+                            "value": "{{i18n.commands.setAmbientContent.arguments.id.i18n.heating.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedAmbientApps.value",
+                    "command": "setAmbientContent"
+                }
+            }
+        ]
+    },
+    "id": "samsungvd.ambientContent",
+    "version": 1
+}

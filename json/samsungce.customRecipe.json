@@ -3,7 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Custom Recipe",
-    "attributes": {},
+    "attributes": [],
     "commands": {
         "cookCustomRecipe": {
             "name": "cookCustomRecipe",

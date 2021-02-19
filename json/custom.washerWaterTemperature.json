@@ -12,7 +12,6 @@
                     "value": {
                         "type": "array",
                         "items": {
-                            "type": "string",
                             "enum": [
                                 "none",
                                 "20",
@@ -28,6 +27,7 @@
                                 "95",
                                 "tapCold",
                                 "cold",
+                                "cool",
                                 "ecoWarm",
                                 "warm",
                                 "semiHot",
@@ -39,6 +39,7 @@
                                 "medium",
                                 "high"
                             ],
+                            "type": "string",
                             "title": "waterTemperature"
                         }
                     }
@@ -57,7 +58,6 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
                         "enum": [
                             "none",
                             "20",
@@ -73,6 +73,7 @@
                             "95",
                             "tapCold",
                             "cold",
+                            "cool",
                             "ecoWarm",
                             "warm",
                             "semiHot",
@@ -83,7 +84,8 @@
                             "mediumLow",
                             "medium",
                             "high"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -102,7 +104,6 @@
                     "name": "temperature",
                     "optional": false,
                     "schema": {
-                        "type": "string",
                         "enum": [
                             "none",
                             "20",
@@ -118,6 +119,7 @@
                             "95",
                             "tapCold",
                             "cold",
+                            "cool",
                             "ecoWarm",
                             "warm",
                             "semiHot",
@@ -128,7 +130,8 @@
                             "mediumLow",
                             "medium",
                             "high"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 }
             ]

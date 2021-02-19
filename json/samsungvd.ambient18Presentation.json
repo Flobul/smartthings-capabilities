@@ -1,0 +1,22 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.commands.setAmbientOn.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "setAmbientOn",
+                            "value": "{{i18n.commands.setAmbientOn.arguments.id.i18n.on.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "samsungvd.ambient18",
+    "version": 1
+}

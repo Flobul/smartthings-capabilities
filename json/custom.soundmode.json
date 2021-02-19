@@ -2,14 +2,38 @@
     "id": "custom.soundmode",
     "version": 1,
     "status": "proposed",
-    "name": "Tv Channel",
+    "name": "SoundMode",
     "attributes": {
+        "supportedSoundModesMap": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "required": [],
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "type": "array"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "soundMode": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
                         "enum": [
                             "clear voice",
                             "movie",
@@ -17,6 +41,23 @@
                             "standard",
                             "unknown"
                         ]
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "supportedSoundModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,
@@ -28,18 +69,19 @@
     },
     "commands": {
         "setSoundMode": {
+            "name": "setSoundMode",
             "arguments": [
                 {
-                    "name": "soundMode",
+                    "name": "mode",
                     "optional": false,
                     "schema": {
-                        "type": "string",
                         "enum": [
                             "clear voice",
                             "movie",
                             "music",
                             "standard"
                         ]
+                        "type": "string"
                     }
                 }
             ]

@@ -4,6 +4,25 @@
     "status": "proposed",
     "name": "Supported Options",
     "attributes": {
+        "referenceTable": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
         "supportedCourses": {
             "schema": {
                 "type": "object",
@@ -23,5 +42,5 @@
             "enumCommands": []
         }
     },
-    "commands": {}
+    "commands": []
 }

@@ -3,7 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Recording",
-    "attributes": {},
+    "attributes": [],
     "commands": {
         "recordStart": {
             "name": "recordStart",

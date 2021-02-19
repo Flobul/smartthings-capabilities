@@ -1,0 +1,53 @@
+{
+    "detailView": [
+        {
+            "label": "Sound mode",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setSoundMode",
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedSoundModes.value"
+                },
+                "state": {
+                    "value": "soundMode.value",
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.commands.setSoundMode.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedSoundModes.value",
+                    "command": "setSoundMode"
+                }
+            }
+        ]
+    },
+    "id": "custom.soundmode",
+    "version": 1
+}

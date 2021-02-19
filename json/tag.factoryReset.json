@@ -3,7 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Factory reset",
-    "attributes": {},
+    "attributes": [],
     "commands": {
         "reset": {
             "name": "reset",

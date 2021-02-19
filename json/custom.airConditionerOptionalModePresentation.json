@@ -1,0 +1,33 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setAcOptionalMode.arguments.mode.i18n.off.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windFree",
+                            "value": "{{i18n.commands.setAcOptionalMode.arguments.mode.i18n.windFree.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windFreeSleep",
+                            "value": "{{i18n.commands.setAcOptionalMode.arguments.mode.i18n.windFreeSleep.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setAcOptionalMode"
+                }
+            }
+        ]
+    },
+    "id": "custom.airConditionerOptionalMode",
+    "version": 1
+}
