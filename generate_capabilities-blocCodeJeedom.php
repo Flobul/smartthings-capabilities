@@ -1,3 +1,4 @@
+<?php
 ###############################################################################################
 ## Ce script permet de récupérer les capabilities SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).        ##
@@ -5,13 +6,78 @@
 ## Dernière mise à jour : 19/02/2021                                                         ##
 ## Créé par Flobul pour Jeedom                                                               ##
 ###############################################################################################
-
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
 global $tmp_dir;
 $tmp_dir = '/tmp/jeedom/smartthings';
 $token = 'your-smartthings-token';
 $i = 0;
-$customAdded = array("airConditionerOptionalMode","custom.accessibility","custom.airConditionerOdorController","custom.airConditionerOptionalMode","custom.airConditionerTropicalNightMode","custom.autoCleaningMode","samsungvd.ambient","samsungvd.ambient18","samsungvd.ambientContent","samsungce.autoDispenseDetergent","samsungce.autoDispenseSoftener","samsungce.customRecipe","samsungce.detergentState","samsungce.doorState","samsungce.driverVersion","custom.deodorFilter","custom.deviceInfo","custom.deviceDependencyStatus","custom.deviceReportStateConfiguration","custom.doNotDisturbMode","custom.dryerWrinklePrevent","custom.dryerDryLevel","samsungce.dryerAutoCycleLink","samsungce.dryerCycle","custom.dthVersion","custom.dustFilter","tag.e2eEncryption","custom.electricHepaFilter","custom.energyType","custom.error","custom.fridgeMode","custom.hepaFilter","tag.factoryReset","samsungvd.firmwareVersion","samsungtv.firmwareVersion","custom.jobBeginningStatus","samsungce.kidsLock","custom.launchapp","samsungvd.mediaInputSource","custom.outingMode","custom.ovenCavityStatus","custom.periodicSensing","custom.picturemode","custom.recording","custom.spiMode","custom.supportedOptions","custom.thermostatSetpointControl","custom.soundmode","custom.tvsearch","samsungce.softenerOrder","samsungce.softenerState","samsungtv.supportsPowerOnByOcf","tag.searchingStatus","tag.tagStatus","tag.tagButton","tag.updatedInfo","custom.veryFineDustFilter","custom.washerAutoDetergent","custom.washerAutoSoftener","samsungce.washerCycle","custom.washerRinseCycles","custom.washerSoilLevel","custom.washerSpinLevel","custom.washerWaterTemperature","custom.waterFilter");
+$customAdded = array(
+	"airConditionerOptionalMode",
+	"custom.accessibility",
+	"custom.airConditionerOdorController",
+	"custom.airConditionerOptionalMode",
+	"custom.airConditionerTropicalNightMode",
+	"custom.autoCleaningMode",
+	"samsungvd.ambient",
+	"samsungvd.ambient18",
+	"samsungvd.ambientContent",
+	"samsungce.autoDispenseDetergent",
+	"samsungce.autoDispenseSoftener",
+	"samsungce.customRecipe",
+	"samsungce.detergentState",
+	"samsungce.doorState",
+	"samsungce.driverVersion",
+	"custom.deodorFilter",
+	"custom.deviceInfo",
+	"custom.deviceDependencyStatus",
+	"custom.deviceReportStateConfiguration",
+	"custom.doNotDisturbMode",
+	"custom.dryerWrinklePrevent",
+	"custom.dryerDryLevel",
+	"samsungce.dryerAutoCycleLink",
+	"samsungce.dryerCycle",
+	"custom.dthVersion",
+	"custom.dustFilter",
+	"tag.e2eEncryption",
+	"custom.electricHepaFilter",
+	"custom.energyType",
+	"custom.error",
+	"custom.fridgeMode",
+	"custom.hepaFilter",
+	"tag.factoryReset",
+	"samsungvd.firmwareVersion",
+	"samsungtv.firmwareVersion",
+	"custom.jobBeginningStatus",
+	"samsungce.kidsLock",
+	"custom.launchapp",
+	"samsungvd.mediaInputSource",
+	"custom.outingMode",
+	"custom.ovenCavityStatus",
+	"custom.periodicSensing",
+	"custom.picturemode",
+	"custom.recording",
+	"custom.spiMode",
+	"custom.supportedOptions",
+	"custom.thermostatSetpointControl",
+	"custom.soundmode",
+	"custom.tvsearch",
+	"samsungce.softenerOrder",
+	"samsungce.softenerState",
+	"samsungtv.supportsPowerOnByOcf",
+	"tag.searchingStatus",
+	"tag.tagStatus",
+	"tag.tagButton",
+	"tag.updatedInfo",
+	"custom.veryFineDustFilter",
+	"custom.washerAutoDetergent",
+	"custom.washerAutoSoftener",
+	"samsungce.washerCycle",
+	"custom.washerRinseCycles",
+	"custom.washerSoilLevel",
+	"custom.washerSpinLevel",
+	"custom.washerWaterTemperature",
+	"custom.waterFilter"
+);
 
 /** création du dossier qui va contenir les fichiers capabilities **/
 $scenario->setLog("# Création du dossier " . $tmp_dir);
@@ -25,24 +91,26 @@ if (!is_dir($tmp_dir)) {
 $scenario->setLog("# Création du fichier " . $tmp_dir . "/" . "README.md");
 
 /** Envoi de la requête
-et récupération du json de toutes les capabilities du compte **/
+ et récupération du json de toutes les capabilities du compte
+ **/
 $result = sendRequest($url_capabilities, $token);
 
 /** Décodage en tableau du json récupéré **/
-$toto = json_decode($result,true);
+$toto = json_decode($result, true);
 
 /** Pour chaque capability du compte, récupération de son json capability et presentation si existe
-et mise sous tableau markdown pour poster sur github **/
+ et mise sous tableau markdown pour poster sur github
+ **/
 foreach ($toto['items'] as $capa) {
 
-	if($i >= 0) continue; //limite à 3 pour les tests
-
+	if ($i >= 0) continue; //limite à 3 pour les tests
+	
 	/** Construction de l'url générale de chaque capa **/
 	$url_capability = $url_capabilities . '/' . $capa['id'] . '/' . $capa['version'];
 	/** Envoi de la requête **/
 	$resultCapa = sendRequest($url_capability, $token);
 	/** Décodage en tableau du json récupéré **/
-	$arrayCapa = json_decode($resultCapa,true);
+	$arrayCapa = json_decode($resultCapa, true);
 	if (!is_array($arrayCapa['error'])) {
 		$scenario->setLog("# Création du fichier de config " . $capa['id'] . ".json");
 		createPrettyJson($capa['id'], $arrayCapa);
@@ -53,12 +121,13 @@ foreach ($toto['items'] as $capa) {
 	/** Envoi de la requête **/
 	$resultPres = sendRequest($url_presentation, $token);
 	/** Décodage en tableau du json récupéré **/
-	$arrayPres = json_decode($resultPres,true);
+	$arrayPres = json_decode($resultPres, true);
 	if (!is_array($arrayPres['error'])) {
 		$scenario->setLog("# Création du fichier de config " . $capa['id'] . "Presentation.json");
 		createPrettyJson($capa['id'] . "Presentation", $arrayPres);
 		$pres = true;
-	} else {
+	}
+	else {
 		$scenario->setLog($capa['id'] . "Presentation" . " n'existe pas.");
 		$pres = false;
 	}
@@ -77,7 +146,8 @@ foreach ($toto['items'] as $capa) {
 }
 
 /** Pour chaque capability custom, récupération de son json capability et presentation si existe
-et mise sous tableau markdown pour poster sur github **/
+ et mise sous tableau markdown pour poster sur github
+ **/
 foreach ($customAdded as $custom) {
 
 	$i = 2;
@@ -90,7 +160,7 @@ foreach ($customAdded as $custom) {
 	/** Envoi de la requête **/
 	$resultCapa = sendRequest($url_capability, $token);
 	/** Décodage en tableau du json récupéré **/
-	$arrayCapa = json_decode($resultCapa,true);
+	$arrayCapa = json_decode($resultCapa, true);
 	if (!is_array($arrayCapa['error'])) {
 		$scenario->setLog("# Création du fichier de config " . $capa['id'] . ".json");
 		createPrettyJson($capa['id'], $arrayCapa);
@@ -101,12 +171,13 @@ foreach ($customAdded as $custom) {
 	/** Envoi de la requête **/
 	$resultPres = sendRequest($url_presentation, $token);
 	/** Décodage en tableau du json récupéré **/
-	$arrayPres = json_decode($resultPres,true);
+	$arrayPres = json_decode($resultPres, true);
 	if (!is_array($arrayPres['error'])) {
 		$scenario->setLog("# Création du fichier de config " . $capa['id'] . "Presentation.json");
 		createPrettyJson($capa['id'] . "Presentation", $arrayPres);
 		$pres = true;
-	} else {
+	}
+	else {
 		$scenario->setLog($capa['id'] . "Presentation" . " n'existe pas.");
 		$pres = false;
 	}
@@ -142,8 +213,8 @@ function sendRequest($url, $bearer) {
 		CURLOPT_HTTPHEADER => array(
 			'Accept-Language: fr',
 			'Content-Type: application/json',
-			'Authorization: Bearer '.$bearer
-		),
+			'Authorization: Bearer ' . $bearer
+		) ,
 	));
 	$response = curl_exec($curl);
 	curl_close($curl);
@@ -154,11 +225,12 @@ function sendRequest($url, $bearer) {
 function checkIfCapabilityExists($capability) {
 
 	$dir_capabilities = dirname(__FILE__) . '/../../plugins/smartthings/3rdparty/capabilities';
- 	if (is_file($dir_capabilities . "/" . $capability . '.json')) {
+	if (is_file($dir_capabilities . "/" . $capability . '.json')) {
 		return true;
-	} else {
+	}
+	else {
 		return false;
-    }
+	}
 }
 
 /** méthode de création du markdown **/
@@ -181,15 +253,18 @@ function printMarkdown($first, $name, $id, $version, $status, $pres) {
 		$md .= "| Capability | Version | Status | Capability Presentation |\n";
 		$md .= "| ---- | ---- | ---- | ---- |\n";
 	}
-	$md .= "| [" . $name . "](./json/" . $id . ".json) | " . $version  . " | " . $status . " | " . $pres . " | \n";
+	$md .= "| [" . $name . "](./json/" . $id . ".json) | " . $version . " | " . $status . " | " . $pres . " | \n";
 	return $md;
 }
 
 /** méthode pour afficher le json de façon lisible
-et l'envoyer dans un fichier **/
-function createPrettyJson($capaId, $var){
+ et l'envoyer dans un fichier
+ **/
+function createPrettyJson($capaId, $var) {
 
 	global $tmp_dir;
 	$pretty = json_encode($var, JSON_PRETTY_PRINT);
 	file_put_contents($tmp_dir . "/" . $capaId . ".json", $pretty);
 }
+
+?>
