@@ -21,6 +21,7 @@
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setPictureMode",
             "enumCommands": []
         },
         "supportedPictureModes": {
@@ -40,7 +41,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setPictureMode",
             "enumCommands": []
         },
         "supportedPictureModesMap": {
