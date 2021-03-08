@@ -37,6 +37,7 @@
                     "value"
                 ]
             },
+            "setter": "setWasherSpinLevel",
             "enumCommands": []
         },
         "supportedWasherSpinLevel": {
@@ -76,7 +77,6 @@
                     "value"
                 ]
             },
-            "setter": "setWasherSpinLevel",
             "enumCommands": []
         }
     },
