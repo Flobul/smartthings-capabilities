@@ -1,0 +1,50 @@
+{
+    "id": "custom.dishwasherDiagnosis",
+    "version": 1,
+    "status": "proposed",
+    "name": "Dishwasher Diagnosis",
+    "attributes": {
+        "dishwasherDiagnosis": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "unkown",
+                            "ready",
+                            "run",
+                            "pause"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setDishwasherDiagnosis", 
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setDishwasherDiagnosis": {
+            "name": "setDishwasherDiagnosis",
+            "arguments": [
+                {
+                    "name": "dishwasherDiagnosis",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "unkown",
+                            "ready",
+                            "run",
+                            "pause"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
