@@ -3,7 +3,7 @@
 ## Ce script permet de récupérer les capabilities SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).        ##
 ## Il faut mettre ce script dans un bloc code de scénario Jeedom.                            ##
-## Dernière mise à jour : 19/02/2021                                                         ##
+## Dernière mise à jour : 09/03/2021                                                         ##
 ## Créé par Flobul pour Jeedom                                                               ##
 ###############################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
@@ -76,7 +76,25 @@ $customAdded = array(
 	"custom.washerSoilLevel",
 	"custom.washerSpinLevel",
 	"custom.washerWaterTemperature",
-	"custom.waterFilter"
+	"custom.waterFilter",
+	"custom.dishwasherDelayStartTime",
+	"custom.dishwasherDiagnosis",
+	"custom.dishwasherSuppSelectedZone",
+	"custom.dishwasherSelectedZone",
+	"custom.dishwasherSuppZoneBooster",
+	"custom.dishwasherZoneBooster",
+	"custom.dishwasherSuppSpeedBooster",
+	"custom.dishwasherSpeedBooster",
+	"custom.dishwasherSuppSanitize",
+	"custom.dishwasherSanitize",
+	"custom.dishwasherSuppHighTempDry",
+	"custom.dishwasherHighTempDry",
+	"custom.dishwasherSuppOptions",
+	"custom.dishwasherOperatingPercentage",
+	"custom.dishwasherOperatingProgress",
+	"custom.dishwasherOperatingSuppProgress",
+	"custom.dishwasherKidsLock",
+	"custom.virusDoctorMode"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/
