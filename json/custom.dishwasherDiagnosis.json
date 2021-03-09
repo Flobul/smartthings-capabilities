@@ -23,6 +23,7 @@
                     "value"
                 ]
             },
+            "setter":"setDishwasherDiagnosis",
             "enumCommands": []
         }
     },
