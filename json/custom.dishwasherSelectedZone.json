@@ -1,0 +1,50 @@
+{
+    "id": "custom.dishwasherSelectedZone",
+    "version": 1,
+    "status": "proposed",
+    "name": "Dishwasher Selected Zone",
+    "attributes": {
+        "dishwasherSelectedZone": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "offOff",
+                            "onOff",
+                            "offOn",
+                            "onOn"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setDishwasherSelectedZone",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setDishwasherSelectedZone": {
+            "name": "setDishwasherSelectedZone",
+            "arguments": [
+                {
+                    "name": "dishwasherSelectedZone",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "offOff",
+                            "onOff",
+                            "offOn",
+                            "onOn"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
