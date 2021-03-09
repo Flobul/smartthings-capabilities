@@ -23,6 +23,7 @@
                     "value"
                 ]
             },
+            "setter":"setDishwasherSelectedZone",
             "enumCommands": []
         }
     },
