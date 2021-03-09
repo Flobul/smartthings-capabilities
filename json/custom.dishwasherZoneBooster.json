@@ -23,6 +23,7 @@
                     "value"
                 ]
             },
+            "setter":"setDishwasherZoneBooster",
             "enumCommands": []
         }
     },
