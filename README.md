@@ -250,6 +250,23 @@
 | [Device Info](./json/custom.deviceInfo.json) | 1 | proposed |  |
 | [Device Dependency Status](./json/custom.deviceDependencyStatus.json) | 1 | proposed |  |
 | [Device Report State Configuration](./json/custom.deviceReportStateConfiguration.json) | 1 | proposed |  |
+| [Dishwasher Delay Start Time](./json/custom.dishwasherDelayStartTime.json) | 1 | proposed |  | 
+| [Dishwasher Diagnosis](./json/custom.dishwasherDiagnosis.json) | 1 | proposed |  | 
+| [Dishwasher Supp Selected Zone](./json/custom.dishwasherSuppSelectedZone.json) | 1 | proposed |  | 
+| [Dishwasher Selected Zone](./json/custom.dishwasherSelectedZone.json) | 1 | proposed |  | 
+| [Dishwasher Supp Zone Booster](./json/custom.dishwasherSuppZoneBooster.json) | 1 | proposed |  | 
+| [Dishwasher Zone Booster](./json/custom.dishwasherZoneBooster.json) | 1 | proposed |  | 
+| [Dishwasher Supp Speed Booster](./json/custom.dishwasherSuppSpeedBooster.json) | 1 | proposed |  | 
+| [Dishwasher Speed Booster](./json/custom.dishwasherSpeedBooster.json) | 1 | proposed |  | 
+| [Dishwasher Supp Sanitize](./json/custom.dishwasherSuppSanitize.json) | 1 | proposed |  | 
+| [Dishwasher Sanitize](./json/custom.dishwasherSanitize.json) | 1 | proposed |  | 
+| [Dishwasher Supp High Temp Dry](./json/custom.dishwasherSuppHighTempDry.json) | 1 | proposed |  | 
+| [Dishwasher High Temp Dry](./json/custom.dishwasherHighTempDry.json) | 1 | proposed |  | 
+| [Dishwasher Supp Options](./json/custom.dishwasherSuppOptions.json) | 1 | proposed |  | 
+| [Dishwasher Operating Percentage](./json/custom.dishwasherOperatingPercentage.json) | 1 | proposed |  | 
+| [Dishwasher Operating Progress](./json/custom.dishwasherOperatingProgress.json) | 1 | proposed | [json](./json/custom.dishwasherOperatingProgressPresentation.json) | 
+| [Dishwasher Operating Supp Progress](./json/custom.dishwasherOperatingSuppProgress.json) | 1 | proposed |  | 
+| [Dishwasher Kids Lock](./json/custom.dishwasherKidsLock.json) | 1 | proposed |  | 
 | [Do Not Disturb Mode](./json/custom.doNotDisturbMode.json) | 1 | proposed |  |
 | [Dryer Wrinkle Prevent](./json/custom.dryerWrinklePrevent.json) | 1 | proposed |  |
 | [Dryer Dry Level](./json/custom.dryerDryLevel.json) | 1 | proposed |  |
@@ -288,6 +305,7 @@
 | [Tag Button](./json/tag.tagButton.json) | 1 | proposed |  |
 | [Updated Info](./json/tag.updatedInfo.json) | 1 | proposed |  |
 | [Very Fine Dust Filter](./json/custom.veryFineDustFilter.json) | 1 | proposed |  |
+| [Virus Doctor Mode](./json/custom.virusDoctorMode.json) | 1 | proposed |  | 
 | [Washer Auto Detergent](./json/custom.washerAutoDetergent.json) | 1 | proposed |  |
 | [Washer Auto Softener](./json/custom.washerAutoSoftener.json) | 1 | proposed |  |
 | [Washer Cycle](./json/samsungce.washerCycle.json) | 1 | proposed |  |
@@ -296,3 +314,4 @@
 | [Washer Spin Level](./json/custom.washerSpinLevel.json) | 1 | proposed |  |
 | [Washer Water Temperature](./json/custom.washerWaterTemperature.json) | 1 | proposed |  |
 | [Water Filter](./json/custom.waterFilter.json) | 1 | proposed |  | 
+
