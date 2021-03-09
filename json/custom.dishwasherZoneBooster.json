@@ -1,20 +1,20 @@
 {
-    "id": "custom.dishwasherDiagnosis",
+    "id": "custom.dishwasherZoneBooster",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Diagnosis",
+    "name": "Dishwasher Zone Booster",
     "attributes": {
-        "dishwasherDiagnosis": {
+        "dishwasherZoneBooster": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "offOff",
+                            "onOff",
+                            "offOn",
+                            "onOn"
                         ]
                     }
                 },
@@ -27,19 +27,19 @@
         }
     },
     "commands": {
-        "setDishwasherDiagnosis": {
-            "name": "setDishwasherDiagnosis",
+        "setDishwasherZoneBooster": {
+            "name": "setDishwasherZoneBooster",
             "arguments": [
                 {
-                    "name": "dishwasherDiagnosis",
+                    "name": "dishwasherZoneBooster",
                     "optional": false,
                     "schema": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "offOff",
+                            "onOff",
+                            "offOn",
+                            "onOn"
                         ]
                     }
                 }

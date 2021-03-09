@@ -1,21 +1,16 @@
 {
-    "id": "custom.dishwasherSuppSelectedZone",
+    "id": "custom.dishwasherSuppOptions",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Supp Selected Zone",
+    "name": "Dishwasher Supp Options",
     "attributes": {
-        "dishwasherSuppSelectedZone": {
+        "dishwasherSuppOptions": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
-                        "enum": [
-                            "offOff",
-                            "onOff",
-                            "offOn",
-                            "onOn"
-                        ]
+                        "pattern": "^.*$"
                     }
                 },
                 "additionalProperties": false,

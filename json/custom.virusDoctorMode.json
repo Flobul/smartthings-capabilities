@@ -1,20 +1,18 @@
 {
-    "id": "custom.dishwasherDiagnosis",
+    "id": "custom.virusDoctorMode",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Diagnosis",
+    "name": "Virus Doctor Mode",
     "attributes": {
-        "dishwasherDiagnosis": {
+        "virusDoctorMode": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "on",
+                            "off"
                         ]
                     }
                 },
@@ -27,19 +25,17 @@
         }
     },
     "commands": {
-        "setDishwasherDiagnosis": {
-            "name": "setDishwasherDiagnosis",
+        "setVirusDoctorMode": {
+            "name": "setVirusDoctorMode",
             "arguments": [
                 {
-                    "name": "dishwasherDiagnosis",
+                    "name": "mode",
                     "optional": false,
                     "schema": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "on",
+                            "off"
                         ]
                     }
                 }

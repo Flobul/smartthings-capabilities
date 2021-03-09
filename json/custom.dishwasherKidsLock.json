@@ -1,20 +1,20 @@
 {
-    "id": "custom.dishwasherSuppSelectedZone",
+    "id": "custom.dishwasherKidsLock",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Supp Selected Zone",
+    "name": "Dishwasher Kids Lock",
     "attributes": {
-        "dishwasherSuppSelectedZone": {
+        "dishwasherKidsLock": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "offOff",
-                            "onOff",
-                            "offOn",
-                            "onOn"
+                            "unkown",
+                            "ready",
+                            "run",
+                            "pause"
                         ]
                     }
                 },

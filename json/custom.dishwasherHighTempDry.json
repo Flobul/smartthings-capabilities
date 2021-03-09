@@ -1,20 +1,18 @@
 {
-    "id": "custom.dishwasherDiagnosis",
+    "id": "custom.dishwasherHighTempDry",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Diagnosis",
+    "name": "Dishwasher High Temp Dry",
     "attributes": {
-        "dishwasherDiagnosis": {
+        "dishwasherHighTempDry": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "off",
+                            "on"
                         ]
                     }
                 },
@@ -27,19 +25,17 @@
         }
     },
     "commands": {
-        "setDishwasherDiagnosis": {
-            "name": "setDishwasherDiagnosis",
+        "setDishwasherHighTempDry": {
+            "name": "setDishwasherHighTempDry",
             "arguments": [
                 {
-                    "name": "dishwasherDiagnosis",
+                    "name": "dishwasherHighTempDry",
                     "optional": false,
                     "schema": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "off",
+                            "on"
                         ]
                     }
                 }

@@ -1,20 +1,18 @@
 {
-    "id": "custom.dishwasherDiagnosis",
+    "id": "custom.dishwasherSpeedBooster",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Diagnosis",
+    "name": "Dishwasher Speed Booster",
     "attributes": {
-        "dishwasherDiagnosis": {
+        "dishwasherSpeedBooster": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "off",
+                            "on"
                         ]
                     }
                 },
@@ -27,19 +25,17 @@
         }
     },
     "commands": {
-        "setDishwasherDiagnosis": {
-            "name": "setDishwasherDiagnosis",
+        "setDishwasherSpeedBooster": {
+            "name": "setDishwasherSpeedBooster",
             "arguments": [
                 {
-                    "name": "dishwasherDiagnosis",
+                    "name": "dishwasherSpeedBooster",
                     "optional": false,
                     "schema": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "off",
+                            "on"
                         ]
                     }
                 }

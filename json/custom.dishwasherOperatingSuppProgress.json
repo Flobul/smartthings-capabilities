@@ -1,0 +1,41 @@
+{
+    "id": "custom.dishwasherOperatingSuppProgress",
+    "version": 1,
+    "status": "proposed",
+    "name": "Dishwasher Operating Supp Progress",
+    "attributes": {
+        "dishwasherOperatingSuppProgress": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "delaywash",
+                            "weightsensing",
+                            "prewash",
+                            "wash",
+                            "rinse",
+                            "spin",
+                            "sud",
+                            "drying",
+                            "airwash",
+                            "cooling",
+                            "wrinkleprevent",
+                            "finish",
+                            "waitend",
+                            "predrain"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

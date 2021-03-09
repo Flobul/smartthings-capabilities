@@ -1,20 +1,18 @@
 {
-    "id": "custom.dishwasherDiagnosis",
+    "id": "custom.dishwasherSanitize",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Diagnosis",
+    "name": "Dishwasher Sanitize",
     "attributes": {
-        "dishwasherDiagnosis": {
+        "dishwasherSanitize": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "off",
+                            "on"
                         ]
                     }
                 },
@@ -27,19 +25,17 @@
         }
     },
     "commands": {
-        "setDishwasherDiagnosis": {
-            "name": "setDishwasherDiagnosis",
+        "setDishwasherSanitize": {
+            "name": "setDishwasherSanitize",
             "arguments": [
                 {
-                    "name": "dishwasherDiagnosis",
+                    "name": "dishwasherSanitize",
                     "optional": false,
                     "schema": {
                         "type": "string",
                         "enum": [
-                            "unkown",
-                            "ready",
-                            "run",
-                            "pause"
+                            "off",
+                            "on"
                         ]
                     }
                 }

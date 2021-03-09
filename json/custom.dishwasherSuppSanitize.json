@@ -1,20 +1,18 @@
 {
-    "id": "custom.dishwasherSuppSelectedZone",
+    "id": "custom.dishwasherSuppSanitize",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Supp Selected Zone",
+    "name": "Dishwasher Supp Sanitize",
     "attributes": {
-        "dishwasherSuppSelectedZone": {
+        "dishwasherSuppSanitize": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "offOff",
-                            "onOff",
-                            "offOn",
-                            "onOn"
+                            "off",
+                            "on"
                         ]
                     }
                 },

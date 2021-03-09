@@ -1,0 +1,38 @@
+{
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "wash",
+                            "value": "{{i18n.attributes.dishwasherOperatingProgress.i18n.value.wash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinse",
+                            "value": "{{i18n.attributes.dishwasherOperatingProgress.i18n.value.rinse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "drying",
+                            "value": "{{i18n.attributes.dishwasherOperatingProgress.i18n.value.drying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "finish",
+                            "value": "{{i18n.attributes.dishwasherOperatingProgress.i18n.value.finish.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "dishwasherOperatingProgress.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "custom.dishwasherOperatingProgress",
+    "version": 1
+}

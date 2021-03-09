@@ -1,21 +1,17 @@
 {
-    "id": "custom.dishwasherSuppSelectedZone",
+    "id": "custom.dishwasherOperatingPercentage",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Supp Selected Zone",
+    "name": "Dishwasher Operating Percentage",
     "attributes": {
-        "dishwasherSuppSelectedZone": {
+        "dishwasherOperatingPercentage": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
-                        "enum": [
-                            "offOff",
-                            "onOff",
-                            "offOn",
-                            "onOn"
-                        ]
+                        "minimum": 0,
+                        "type": "integer",
+                        "maximum": 100
                     }
                 },
                 "additionalProperties": false,

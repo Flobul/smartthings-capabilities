@@ -1,10 +1,10 @@
 {
-    "id": "custom.dishwasherSuppSelectedZone",
+    "id": "custom.dishwasherSuppZoneBooster",
     "version": 1,
     "status": "proposed",
-    "name": "Dishwasher Supp Selected Zone",
+    "name": "Dishwasher Supp Zone Booster",
     "attributes": {
-        "dishwasherSuppSelectedZone": {
+        "dishwasherSuppZoneBooster": {
             "schema": {
                 "type": "object",
                 "properties": {
