@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2021-03-09
+#### Last Update: 2021-03-17
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -36,7 +36,7 @@
 | [Beacon](./json/beacon.json) | 1 | deprecated |  |
 | [Body Mass Index Measurement](./json/bodyMassIndexMeasurement.json) | 1 | proposed | [json](./json/bodyMassIndexMeasurementPresentation.json) |
 | [Body Weight Measurement](./json/bodyWeightMeasurement.json) | 1 | proposed | [json](./json/bodyWeightMeasurementPresentation.json) |
-| [Bridge](./json/bridge.json) | 1 | deprecated |  |
+| [Bridge](./json/bridge.json) | 1 | deprecated | [json](./json/bridgePresentation.json) |
 | [Buffered Video Capture](./json/bufferedVideoCapture.json) | 1 | deprecated |  |
 | [Bulb](./json/bulb.json) | 1 | dead |  |
 | [Button](./json/button.json) | 1 | live | [json](./json/buttonPresentation.json) |
@@ -140,7 +140,7 @@
 | [Refresh](./json/refresh.json) | 1 | live | [json](./json/refreshPresentation.json) |
 | [Refrigeration Setpoint](./json/refrigerationSetpoint.json) | 1 | proposed | [json](./json/refrigerationSetpointPresentation.json) |
 | [Refrigeration](./json/refrigeration.json) | 1 | live | [json](./json/refrigerationPresentation.json) |
-| [Relative Brightness](./json/relativeBrightness.json) | 1 | proposed |  |
+| [Relative Brightness](./json/relativeBrightness.json) | 1 | proposed | [json](./json/relativeBrightnessPresentation.json) |
 | [Relative Humidity Measurement](./json/relativeHumidityMeasurement.json) | 1 | live | [json](./json/relativeHumidityMeasurementPresentation.json) |
 | [Relay Switch](./json/relaySwitch.json) | 1 | deprecated |  |
 | [Remote Control Status](./json/remoteControlStatus.json) | 1 | live | [json](./json/remoteControlStatusPresentation.json) |
@@ -206,11 +206,11 @@
 | [Tvoc Measurement](./json/tvocMeasurement.json) | 1 | live | [json](./json/tvocMeasurementPresentation.json) |
 | [Ultraviolet Index](./json/ultravioletIndex.json) | 1 | live | [json](./json/ultravioletIndexPresentation.json) |
 | [Valve](./json/valve.json) | 1 | live | [json](./json/valvePresentation.json) |
-| [Vehicle Engine](./json/vehicleEngine.json) | 1 | proposed |  |
-| [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | 1 | proposed |  |
-| [Vehicle Odometer](./json/vehicleOdometer.json) | 1 | proposed |  |
-| [Vehicle Range](./json/vehicleRange.json) | 1 | proposed |  |
-| [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | 1 | proposed |  |
+| [Vehicle Engine](./json/vehicleEngine.json) | 1 | proposed | [json](./json/vehicleEnginePresentation.json) |
+| [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | 1 | proposed | [json](./json/vehicleFuelLevelPresentation.json) |
+| [Vehicle Odometer](./json/vehicleOdometer.json) | 1 | proposed | [json](./json/vehicleOdometerPresentation.json) |
+| [Vehicle Range](./json/vehicleRange.json) | 1 | proposed | [json](./json/vehicleRangePresentation.json) |
+| [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | 1 | proposed | [json](./json/vehicleTirePressureMonitorPresentation.json) |
 | [Very Fine Dust Health Concern](./json/veryFineDustHealthConcern.json) | 1 | proposed | [json](./json/veryFineDustHealthConcernPresentation.json) |
 | [Very Fine Dust Sensor](./json/veryFineDustSensor.json) | 1 | live | [json](./json/veryFineDustSensorPresentation.json) |
 | [Video Camera](./json/videoCamera.json) | 1 | live | [json](./json/videoCameraPresentation.json) |
@@ -250,23 +250,6 @@
 | [Device Info](./json/custom.deviceInfo.json) | 1 | proposed |  |
 | [Device Dependency Status](./json/custom.deviceDependencyStatus.json) | 1 | proposed |  |
 | [Device Report State Configuration](./json/custom.deviceReportStateConfiguration.json) | 1 | proposed |  |
-| [Dishwasher Delay Start Time](./json/custom.dishwasherDelayStartTime.json) | 1 | proposed |  | 
-| [Dishwasher Diagnosis](./json/custom.dishwasherDiagnosis.json) | 1 | proposed |  | 
-| [Dishwasher Supp Selected Zone](./json/custom.dishwasherSuppSelectedZone.json) | 1 | proposed |  | 
-| [Dishwasher Selected Zone](./json/custom.dishwasherSelectedZone.json) | 1 | proposed |  | 
-| [Dishwasher Supp Zone Booster](./json/custom.dishwasherSuppZoneBooster.json) | 1 | proposed |  | 
-| [Dishwasher Zone Booster](./json/custom.dishwasherZoneBooster.json) | 1 | proposed |  | 
-| [Dishwasher Supp Speed Booster](./json/custom.dishwasherSuppSpeedBooster.json) | 1 | proposed |  | 
-| [Dishwasher Speed Booster](./json/custom.dishwasherSpeedBooster.json) | 1 | proposed |  | 
-| [Dishwasher Supp Sanitize](./json/custom.dishwasherSuppSanitize.json) | 1 | proposed |  | 
-| [Dishwasher Sanitize](./json/custom.dishwasherSanitize.json) | 1 | proposed |  | 
-| [Dishwasher Supp High Temp Dry](./json/custom.dishwasherSuppHighTempDry.json) | 1 | proposed |  | 
-| [Dishwasher High Temp Dry](./json/custom.dishwasherHighTempDry.json) | 1 | proposed |  | 
-| [Dishwasher Supp Options](./json/custom.dishwasherSuppOptions.json) | 1 | proposed |  | 
-| [Dishwasher Operating Percentage](./json/custom.dishwasherOperatingPercentage.json) | 1 | proposed |  | 
-| [Dishwasher Operating Progress](./json/custom.dishwasherOperatingProgress.json) | 1 | proposed | [json](./json/custom.dishwasherOperatingProgressPresentation.json) | 
-| [Dishwasher Operating Supp Progress](./json/custom.dishwasherOperatingSuppProgress.json) | 1 | proposed |  | 
-| [Dishwasher Kids Lock](./json/custom.dishwasherKidsLock.json) | 1 | proposed |  | 
 | [Do Not Disturb Mode](./json/custom.doNotDisturbMode.json) | 1 | proposed |  |
 | [Dryer Wrinkle Prevent](./json/custom.dryerWrinklePrevent.json) | 1 | proposed |  |
 | [Dryer Dry Level](./json/custom.dryerDryLevel.json) | 1 | proposed |  |
@@ -305,7 +288,6 @@
 | [Tag Button](./json/tag.tagButton.json) | 1 | proposed |  |
 | [Updated Info](./json/tag.updatedInfo.json) | 1 | proposed |  |
 | [Very Fine Dust Filter](./json/custom.veryFineDustFilter.json) | 1 | proposed |  |
-| [Virus Doctor Mode](./json/custom.virusDoctorMode.json) | 1 | proposed |  | 
 | [Washer Auto Detergent](./json/custom.washerAutoDetergent.json) | 1 | proposed |  |
 | [Washer Auto Softener](./json/custom.washerAutoSoftener.json) | 1 | proposed |  |
 | [Washer Cycle](./json/samsungce.washerCycle.json) | 1 | proposed |  |
@@ -313,5 +295,22 @@
 | [Washer Soil Level](./json/custom.washerSoilLevel.json) | 1 | proposed |  |
 | [Washer Spin Level](./json/custom.washerSpinLevel.json) | 1 | proposed |  |
 | [Washer Water Temperature](./json/custom.washerWaterTemperature.json) | 1 | proposed |  |
-| [Water Filter](./json/custom.waterFilter.json) | 1 | proposed |  | 
-
+| [Water Filter](./json/custom.waterFilter.json) | 1 | proposed |  |
+| [Dishwasher Delay Start Time](./json/custom.dishwasherDelayStartTime.json) | 1 | proposed |  |
+| [Dishwasher Diagnosis](./json/custom.dishwasherDiagnosis.json) | 1 | proposed |  |
+| [Dishwasher Supp Selected Zone](./json/custom.dishwasherSuppSelectedZone.json) | 1 | proposed |  |
+| [Dishwasher Selected Zone](./json/custom.dishwasherSelectedZone.json) | 1 | proposed |  |
+| [Dishwasher Supp Zone Booster](./json/custom.dishwasherSuppZoneBooster.json) | 1 | proposed |  |
+| [Dishwasher Zone Booster](./json/custom.dishwasherZoneBooster.json) | 1 | proposed |  |
+| [Dishwasher Supp Speed Booster](./json/custom.dishwasherSuppSpeedBooster.json) | 1 | proposed |  |
+| [Dishwasher Speed Booster](./json/custom.dishwasherSpeedBooster.json) | 1 | proposed |  |
+| [Dishwasher Supp Sanitize](./json/custom.dishwasherSuppSanitize.json) | 1 | proposed |  |
+| [Dishwasher Sanitize](./json/custom.dishwasherSanitize.json) | 1 | proposed |  |
+| [Dishwasher Supp High Temp Dry](./json/custom.dishwasherSuppHighTempDry.json) | 1 | proposed |  |
+| [Dishwasher High Temp Dry](./json/custom.dishwasherHighTempDry.json) | 1 | proposed |  |
+| [Dishwasher Supp Options](./json/custom.dishwasherSuppOptions.json) | 1 | proposed |  |
+| [Dishwasher Operating Percentage](./json/custom.dishwasherOperatingPercentage.json) | 1 | proposed |  |
+| [Dishwasher Operating Progress](./json/custom.dishwasherOperatingProgress.json) | 1 | proposed | [json](./json/custom.dishwasherOperatingProgressPresentation.json) |
+| [Dishwasher Operating Supp Progress](./json/custom.dishwasherOperatingSuppProgress.json) | 1 | proposed |  |
+| [Dishwasher Kids Lock](./json/custom.dishwasherKidsLock.json) | 1 | proposed |  |
+| [Virus Doctor Mode](./json/custom.virusDoctorMode.json) | 1 | proposed |  |
