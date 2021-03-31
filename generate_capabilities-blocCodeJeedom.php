@@ -102,7 +102,9 @@ $customAdded = array(
 	"custom.dishwasherOperatingProgress",
 	"custom.dishwasherOperatingSuppProgress",
 	"custom.dishwasherKidsLock",
-	"custom.virusDoctorMode"
+	"custom.virusDoctorMode",
+	"custom.disabledCapabilities",
+	"custom.disabledComponents"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/
