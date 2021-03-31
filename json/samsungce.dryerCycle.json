@@ -84,6 +84,25 @@
                 "required": []
             },
             "enumCommands": []
+        },
+        "referenceTable": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
         }
     },
     "commands": {

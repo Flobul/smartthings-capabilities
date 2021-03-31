@@ -57,6 +57,7 @@
                     "value": {
                         "type": "string",
                         "enum": [
+                            "none",
                             "liquid",
                             "unknown"
                         ]

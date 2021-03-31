@@ -30,7 +30,10 @@
                             "connected",
                             "disconnected",
                             "lost",
-                            "found"
+                            "found",
+                            "d2dConnected",
+                            "d2dScanned",
+                            "d2dDisconnected"
                         ]
                     }
                 },

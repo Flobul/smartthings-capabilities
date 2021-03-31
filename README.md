@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2021-03-17
+#### Last Update: 2021-03-31
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -290,7 +290,15 @@
 | [Very Fine Dust Filter](./json/custom.veryFineDustFilter.json) | 1 | proposed |  |
 | [Washer Auto Detergent](./json/custom.washerAutoDetergent.json) | 1 | proposed |  |
 | [Washer Auto Softener](./json/custom.washerAutoSoftener.json) | 1 | proposed |  |
+| [Device Identification](./json/samsungce.deviceIdentification.json) | 1 | proposed |  |
+| [Washer Bubble Soak](./json/samsungce.washerBubbleSoak.json) | 1 | proposed |  |
 | [Washer Cycle](./json/samsungce.washerCycle.json) | 1 | proposed |  |
+| [Washer Cycle Preset](./json/samsungce.washerCyclePreset.json) | 1 | proposed |  |
+| [Water Consumption Report](./json/samsungce.waterConsumptionReport.json) | 1 | proposed |  |
+| [Washer Washing Time](./json/samsungce.washerWashingTime.json) | 1 | proposed |  |
+| [Washer Water Level](./json/samsungce.washerWaterLevel.json) | 1 | proposed |  |
+| [Washer Water Valve](./json/samsungce.washerWaterValve.json) | 1 | proposed |  |
+| [Welcome Message](./json/samsungce.welcomeMessage.json) | 1 | proposed |  |
 | [Washer Rinse Cycles](./json/custom.washerRinseCycles.json) | 1 | proposed |  |
 | [Washer Soil Level](./json/custom.washerSoilLevel.json) | 1 | proposed |  |
 | [Washer Spin Level](./json/custom.washerSpinLevel.json) | 1 | proposed |  |
