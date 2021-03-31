@@ -3,7 +3,7 @@
 ## Ce script permet de récupérer les capabilities SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).        ##
 ## Il faut mettre ce script dans un bloc code de scénario Jeedom.                            ##
-## Dernière mise à jour : 09/03/2021                                                         ##
+## Dernière mise à jour : 31/03/2021                                                         ##
 ## Créé par Flobul pour Jeedom                                                               ##
 ###############################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
