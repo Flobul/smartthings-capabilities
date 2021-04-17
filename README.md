@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2021-03-31
+#### Last Update: 2021-04-17
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -208,6 +208,7 @@
 | [Valve](./json/valve.json) | 1 | live | [json](./json/valvePresentation.json) |
 | [Vehicle Engine](./json/vehicleEngine.json) | 1 | proposed | [json](./json/vehicleEnginePresentation.json) |
 | [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | 1 | proposed | [json](./json/vehicleFuelLevelPresentation.json) |
+| [Vehicle Information](./json/vehicleInformation.json) | 1 | proposed | [json](./json/vehicleInformationPresentation.json) |
 | [Vehicle Odometer](./json/vehicleOdometer.json) | 1 | proposed | [json](./json/vehicleOdometerPresentation.json) |
 | [Vehicle Range](./json/vehicleRange.json) | 1 | proposed | [json](./json/vehicleRangePresentation.json) |
 | [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | 1 | proposed | [json](./json/vehicleTirePressureMonitorPresentation.json) |
@@ -230,9 +231,8 @@
 | [Window Shade](./json/windowShade.json) | 1 | live | [json](./json/windowShadePresentation.json) |
 | [Wireless Operating Mode](./json/wirelessOperatingMode.json) | 1 | proposed | [json](./json/wirelessOperatingModePresentation.json) |
 | [Zw Multichannel](./json/zwMultichannel.json) | 1 | live |  |
-| ---- | ---- | ---- | ---- |
 | [Air Conditioner Optional Mode](./json/airConditionerOptionalMode.json) | 1 | proposed |  |
-| [Accessibility](./json/custom.accessibility.json) | 1 | proposed |  |
+| [Accessibility](./json/custom.accessibility.json) | 1 | proposed |  | 
 | [Air Conditioner Odor Controller](./json/custom.airConditionerOdorController.json) | 1 | proposed |  |
 | [Air Conditioner Optional Mode](./json/custom.airConditionerOptionalMode.json) | 1 | proposed | [json](./json/custom.airConditionerOptionalModePresentation.json) |
 | [Air Conditioner Tropical Night Mode](./json/custom.airConditionerTropicalNightMode.json) | 1 | proposed |  |
@@ -322,3 +322,5 @@
 | [Dishwasher Operating Supp Progress](./json/custom.dishwasherOperatingSuppProgress.json) | 1 | proposed |  |
 | [Dishwasher Kids Lock](./json/custom.dishwasherKidsLock.json) | 1 | proposed |  |
 | [Virus Doctor Mode](./json/custom.virusDoctorMode.json) | 1 | proposed |  |
+| [Disabled Capabilities](./json/custom.disabledCapabilities.json) | 1 | proposed |  |
+| [Disabled Components](./json/custom.disabledComponents.json) | 1 | proposed |  |

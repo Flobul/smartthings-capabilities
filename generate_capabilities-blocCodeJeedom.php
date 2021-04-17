@@ -119,7 +119,7 @@ if (!is_dir($tmp_dir)) {
 $scenario->setLog("# Création du fichier " . $tmp_dir . "/" . "README.md");
 
 /** Envoi de la requête
- et récupération du json de toutes les capabilities du compte
+ * et récupération du json de toutes les capabilities du compte
  **/
 $result = sendRequest($url_capabilities, $token);
 
@@ -127,12 +127,12 @@ $result = sendRequest($url_capabilities, $token);
 $toto = json_decode($result, true);
 
 /** Pour chaque capability du compte, récupération de son json capability et presentation si existe
- et mise sous tableau markdown pour poster sur github
+ * et mise sous tableau markdown pour poster sur github
  **/
 foreach ($toto['items'] as $capa) {
 
 	if ($i >= 0) continue; //limite à 3 pour les tests
-	
+
 	/** Construction de l'url générale de chaque capa **/
 	$url_capability = $url_capabilities . '/' . $capa['id'] . '/' . $capa['version'];
 	/** Envoi de la requête **/
@@ -174,7 +174,7 @@ foreach ($toto['items'] as $capa) {
 }
 
 /** Pour chaque capability custom, récupération de son json capability et presentation si existe
- et mise sous tableau markdown pour poster sur github
+ * et mise sous tableau markdown pour poster sur github
  **/
 foreach ($customAdded as $custom) {
 
@@ -286,7 +286,7 @@ function printMarkdown($first, $name, $id, $version, $status, $pres) {
 }
 
 /** méthode pour afficher le json de façon lisible
- et l'envoyer dans un fichier
+ * et l'envoyer dans un fichier
  **/
 function createPrettyJson($capaId, $var) {
 
