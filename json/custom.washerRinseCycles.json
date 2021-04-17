@@ -55,7 +55,7 @@
                 ]
             },
             "enumCommands": [],
-            "setter": "setWasherRinseCycles",
+            "setter": "setWasherRinseCycles"
         }
     },
     "commands": {
