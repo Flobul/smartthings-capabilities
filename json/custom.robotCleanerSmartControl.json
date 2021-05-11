@@ -1,18 +1,18 @@
 {
-    "id": "custom.lowerDevicePower",
+    "id": "custom.robotCleanerSmartControl",
     "version": 1,
     "status": "proposed",
-    "name": "Lower Device Power",
+    "name": "Robot Cleaner Smart Control",
     "attributes": {
-        "powerState": {
+        "robotCleanerSmartControl": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "on",
-                            "off"
+                            "accessLock",
+                            "accessUnlock"
                         ]
                     }
                 },
@@ -25,17 +25,17 @@
         }
     },
     "commands": {
-        "setPowerState": {
-            "name": "setPowerState",
+        "setRobotCleanerSmartControl": {
+            "name": "setRobotCleanerSmartControl",
             "arguments": [
                 {
-                    "name": "setPower",
+                    "name": "robotCleanerSmartControl",
                     "optional": false,
                     "schema": {
                         "type": "string",
                         "enum": [
-                            "on",
-                            "off"
+                            "accessLock",
+                            "accessUnlock"
                         ]
                     }
                 }

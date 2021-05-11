@@ -1,10 +1,10 @@
 {
-    "id": "custom.lowerDevicePower",
+    "id": "custom.robotCleanerSmartTurboMode",
     "version": 1,
     "status": "proposed",
-    "name": "Lower Device Power",
+    "name": "Robot Cleaner Smart Turbo Mode",
     "attributes": {
-        "powerState": {
+        "robotCleanerSmartTurboMode": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -25,11 +25,11 @@
         }
     },
     "commands": {
-        "setPowerState": {
-            "name": "setPowerState",
+        "setRobotCleanerSmartTurboMode": {
+            "name": "setRobotCleanerSmartTurboMode",
             "arguments": [
                 {
-                    "name": "setPower",
+                    "name": "robotCleanerSmartTurboMode",
                     "optional": false,
                     "schema": {
                         "type": "string",

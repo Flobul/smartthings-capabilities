@@ -1,18 +1,18 @@
 {
-    "id": "custom.lowerDevicePower",
+    "id": "custom.robotCleanerBatteryFullStatus",
     "version": 1,
     "status": "proposed",
-    "name": "Lower Device Power",
+    "name": "Robot Cleaner Battery Full Status",
     "attributes": {
-        "powerState": {
+        "robotCleanerBatteryFullStatus": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "on",
-                            "off"
+                            "full",
+                            "notFull"
                         ]
                     }
                 },
@@ -25,17 +25,17 @@
         }
     },
     "commands": {
-        "setPowerState": {
-            "name": "setPowerState",
+        "setRobotCleanerBatteryFullStatus": {
+            "name": "setRobotCleanerBatteryFullStatus",
             "arguments": [
                 {
-                    "name": "setPower",
+                    "name": "robotCleanerBatteryFullStatus",
                     "optional": false,
                     "schema": {
                         "type": "string",
                         "enum": [
-                            "on",
-                            "off"
+                            "full",
+                            "notFull"
                         ]
                     }
                 }

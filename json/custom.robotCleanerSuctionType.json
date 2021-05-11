@@ -1,15 +1,21 @@
 {
-    "id": "custom.airQualityMaxLevel",
+    "id": "custom.robotCleanerSuctionType",
     "version": 1,
     "status": "proposed",
-    "name": "Air Quality Max Level",
+    "name": "Robot Cleaner Suction Type",
     "attributes": {
-        "airQualityMaxLevel": {
+        "robotCleanerSuctionType": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "integer"
+                        "type": "string",
+                        "enum": [
+                            "a",
+                            "b",
+                            "c",
+                            "d"
+                        ]
                     }
                 },
                 "additionalProperties": false,

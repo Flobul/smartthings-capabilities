@@ -1,0 +1,145 @@
+{
+    "id": "custom.steamClosetCourse",
+    "version": 1,
+    "status": "proposed",
+    "name": "Steam Closet Course",
+    "attributes": {
+        "supportedSteamCloseCourse": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "standard",
+                                "blouse",
+                                "sanitize",
+                                "quick",
+                                "sensorDry",
+                                "roomCare2hr",
+                                "roomCare4hr",
+                                "suits",
+                                "schoolWear",
+                                "winterCoat",
+                                "paddedJacket",
+                                "heavyDuty",
+                                "dustFree",
+                                "selfClean",
+                                "outdoor",
+                                "wool",
+                                "denim",
+                                "furLeather",
+                                "paddedDry",
+                                "accessories",
+                                "babywearSanitize",
+                                "beddingSanitize",
+                                "dollSanitize",
+                                "timeDry1hr",
+                                "timeDry2hr",
+                                "timeDry3hr",
+                                "suit"
+                            ],
+                            "title": "SteamCloseCourse"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "steamClosetCourse": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "standard",
+                            "blouse",
+                            "sanitize",
+                            "quick",
+                            "sensorDry",
+                            "roomCare2hr",
+                            "roomCare4hr",
+                            "suits",
+                            "schoolWear",
+                            "winterCoat",
+                            "paddedJacket",
+                            "heavyDuty",
+                            "dustFree",
+                            "selfClean",
+                            "outdoor",
+                            "wool",
+                            "denim",
+                            "furLeather",
+                            "paddedDry",
+                            "accessories",
+                            "babywearSanitize",
+                            "beddingSanitize",
+                            "dollSanitize",
+                            "timeDry1hr",
+                            "timeDry2hr",
+                            "timeDry3hr",
+                            "suit"
+                        ],
+                        "title": "SteamClosetCourse"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setSteamClosetCourse": {
+            "name": "setSteamClosetCourse",
+            "arguments": [
+                {
+                    "name": "Course",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "standard",
+                            "blouse",
+                            "sanitize",
+                            "quick",
+                            "sensorDry",
+                            "roomCare2hr",
+                            "roomCare4hr",
+                            "suits",
+                            "schoolWear",
+                            "winterCoat",
+                            "paddedJacket",
+                            "heavyDuty",
+                            "dustFree",
+                            "selfClean",
+                            "outdoor",
+                            "wool",
+                            "denim",
+                            "furLeather",
+                            "paddedDry",
+                            "accessories",
+                            "babywearSanitize",
+                            "beddingSanitize",
+                            "dollSanitize",
+                            "timeDry1hr",
+                            "timeDry2hr",
+                            "timeDry3hr",
+                            "suit"
+                        ],
+                        "title": "SteamClosetCourse"
+                    }
+                }
+            ]
+        }
+    }
+}
