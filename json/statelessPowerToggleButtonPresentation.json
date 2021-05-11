@@ -2,7 +2,13 @@
     "dashboard": {
         "states": [],
         "actions": [
-            []
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "setButton",
+                    "argument": "powerToggle"
+                }
+            }
         ],
         "basicPlus": []
     },

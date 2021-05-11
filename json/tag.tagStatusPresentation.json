@@ -1,0 +1,40 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{tagStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "connected",
+                        "value": "{{i18n.attributes.tagStatus.i18n.value.connected.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "disconnected",
+                        "value": "{{i18n.attributes.tagStatus.i18n.value.disconnected.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "d2dConnected",
+                        "value": "{{i18n.attributes.tagStatus.i18n.value.d2dConnected.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "d2dScanned",
+                        "value": "{{i18n.attributes.tagStatus.i18n.value.d2dScanned.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "d2dDisconnected",
+                        "value": "{{i18n.attributes.tagStatus.i18n.value.d2dDisconnected.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "id": "tag.tagStatus",
+    "version": 1
+}
