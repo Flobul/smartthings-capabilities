@@ -329,3 +329,5 @@
 | [Air Purifier Operation Mode](./json/custom.airPurifierOperationMode.json) | 1 | proposed |  |
 | [Welcome Care Mode](./json/custom.welcomeCareMode.json) | 1 | proposed |  |
 | [Filter Usage Time](./json/custom.filterUsageTime.json) | 1 | proposed |  |
+| [Lamp](./json/samsungce.lamp.json) | 1 | proposed |  |
+| [Washer Addwash Alarm](./json/custom.washerAddwashAlarm.json) | 1 | proposed |  |

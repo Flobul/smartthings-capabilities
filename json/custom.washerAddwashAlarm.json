@@ -1,0 +1,58 @@
+{
+    "id": "custom.washerAddwashAlarm",
+    "version": 1,
+    "status": "proposed",
+    "name": "Washer Addwash Alarm",
+    "attributes": {
+        "washerAddwashAlarm": {
+            "schema": {
+                "title": "washerAddwashAlarm",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "addwashAlarm1",
+                                "addwashAlarm2",
+                                "addwashAlarm3"
+                            ],
+                            "title": "Addwash Alarm"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setWasherAddwashAlarm",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setWasherAddwashAlarm": {
+            "name": "setWasherAddwashAlarm",
+            "arguments": [
+                {
+                    "name": "addwashAlarm",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "addwashSet0",
+                            "addwashSet1",
+                            "addwashSet2",
+                            "addwashSet3",
+                            "addwashSet4",
+                            "addwashSet5",
+                            "addwashSet6",
+                            "addwashSet7"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

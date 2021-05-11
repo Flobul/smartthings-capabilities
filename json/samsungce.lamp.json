@@ -1,0 +1,74 @@
+{
+    "id": "samsungce.lamp",
+    "version": 1,
+    "status": "proposed",
+    "name": "Lamp",
+    "attributes": {
+        "brightnessLevel": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "enum": [
+                            "off",
+                            "low",
+                            "mid",
+                            "high"
+                        ],
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setBrightnessLevel",
+            "enumCommands": []
+        },
+        "supportedBrightnessLevel": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "items": {
+                            "enum": [
+                                "off",
+                                "low",
+                                "mid",
+                                "high"
+                            ],
+                            "type": "string"
+                        },
+                        "type": "array"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setBrightnessLevel": {
+            "name": "setBrightnessLevel",
+            "arguments": [
+                {
+                    "name": "level",
+                    "optional": false,
+                    "schema": {
+                        "enum": [
+                            "off",
+                            "low",
+                            "mid",
+                            "high"
+                        ],
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}

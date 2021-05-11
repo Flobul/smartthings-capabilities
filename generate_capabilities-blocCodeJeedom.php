@@ -109,7 +109,9 @@ $customAdded = array(
 	"custom.airQualityMaxLevel",
 	"custom.airPurifierOperationMode",
 	"custom.welcomeCareMode",
-	"custom.filterUsageTime"
+	"custom.filterUsageTime",
+	"samsungce.lamp",
+	"custom.washerAddwashAlarm"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/
