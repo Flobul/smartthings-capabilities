@@ -1,10 +1,10 @@
 {
-    "id": "custom.lowerDevicePower",
+    "id": "custom.steamClosetWrinklePrevent",
     "version": 1,
     "status": "proposed",
-    "name": "Lower Device Power",
+    "name": "Steam Closet Wrinkle Prevent",
     "attributes": {
-        "powerState": {
+        "steamClosetWrinklePrevent": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -13,7 +13,8 @@
                         "enum": [
                             "on",
                             "off"
-                        ]
+                        ],
+                        "title": "SteamClosetWrinklePrevent"
                     }
                 },
                 "additionalProperties": false,
@@ -25,18 +26,19 @@
         }
     },
     "commands": {
-        "setPowerState": {
-            "name": "setPowerState",
+        "setSteamClosetWrinklePrevent": {
+            "name": "setSteamClosetWrinklePrevent",
             "arguments": [
                 {
-                    "name": "setPower",
+                    "name": "WrinklePrevent",
                     "optional": false,
                     "schema": {
                         "type": "string",
                         "enum": [
                             "on",
                             "off"
-                        ]
+                        ],
+                        "title": "SteamClosetWrinklePrevent"
                     }
                 }
             ]

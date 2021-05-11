@@ -1,10 +1,10 @@
 {
-    "id": "custom.lowerDevicePower",
+    "id": "custom.robotCleanerRepeatCleanOption",
     "version": 1,
     "status": "proposed",
-    "name": "Lower Device Power",
+    "name": "Robot Cleaner Repeat Clean Option",
     "attributes": {
-        "powerState": {
+        "robotCleanerRepeatCleanOption": {
             "schema": {
                 "type": "object",
                 "properties": {
@@ -25,11 +25,11 @@
         }
     },
     "commands": {
-        "setPowerState": {
-            "name": "setPowerState",
+        "setRobotCleanerRepeatCleanOption": {
+            "name": "setRobotCleanerRepeatCleanOption",
             "arguments": [
                 {
-                    "name": "setPower",
+                    "name": "robotCleanerRepeatCleanOption",
                     "optional": false,
                     "schema": {
                         "type": "string",

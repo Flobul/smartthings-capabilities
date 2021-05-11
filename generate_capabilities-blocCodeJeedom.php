@@ -3,7 +3,7 @@
 ## Ce script permet de récupérer les capabilities SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).        ##
 ## Il faut mettre ce script dans un bloc code de scénario Jeedom.                            ##
-## Dernière mise à jour : 31/03/2021                                                         ##
+## Dernière mise à jour : 11/05/2021                                                         ##
 ## Créé par Flobul pour Jeedom                                                               ##
 ###############################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
@@ -105,6 +105,22 @@ $customAdded = array(
 	"custom.virusDoctorMode",
 	"custom.disabledCapabilities",
 	"custom.disabledComponents",
+	"custom.robotCleanerSmartTurboMode",
+	"custom.robotCleanerSoundSet",
+	"custom.robotCleanerSmartControl",
+	"custom.robotCleanerRepeatCleanOption",
+	"custom.robotCleanerBatteryFullStatus",
+	"custom.robotCleanerRepeatCleanSupport",
+	"custom.robotCleanerSuctionType",
+	"custom.robotCleanerHistorySupport",
+	"custom.robotCleanerEnergyMonitorSupport",
+	"custom.robotCleanerReserveCleanType",
+	"custom.robotCleanerHrmSupport",
+	"custom.robotCleanerBehavior",
+	"custom.steamClosetOperatingState",
+	"custom.steamClosetCourse",
+	"custom.steamClosetWrinklePrevent",
+	"custom.steamClosetSilentMode",
 	"custom.lowerDevicePower",
 	"custom.airQualityMaxLevel",
 	"custom.airPurifierOperationMode",

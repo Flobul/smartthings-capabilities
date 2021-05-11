@@ -1,0 +1,53 @@
+{
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "drying",
+                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.drying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "steaming",
+                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.steaming.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "airwashing",
+                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.airwashing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sterilizing",
+                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.sterilizing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dehumidifying",
+                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.dehumidifying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "finish",
+                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.finish.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "keepFresh",
+                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.keepFresh.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "steamClosetJobState.value"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "custom.steamClosetOperatingState",
+    "version": 1
+}

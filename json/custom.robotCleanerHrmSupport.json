@@ -1,15 +1,18 @@
 {
-    "id": "custom.airQualityMaxLevel",
+    "id": "custom.robotCleanerHrmSupport",
     "version": 1,
     "status": "proposed",
-    "name": "Air Quality Max Level",
+    "name": "Robot Cleaner Hrm Support",
     "attributes": {
-        "airQualityMaxLevel": {
+        "robotCleanerHrmSupport": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "integer"
+                        "type": "string",
+                        "enum": [
+                            "homecareWizardV2"
+                        ]
                     }
                 },
                 "additionalProperties": false,

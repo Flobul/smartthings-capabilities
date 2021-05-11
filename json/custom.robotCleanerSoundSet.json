@@ -1,18 +1,22 @@
 {
-    "id": "custom.lowerDevicePower",
+    "id": "custom.robotCleanerSoundSet",
     "version": 1,
     "status": "proposed",
-    "name": "Lower Device Power",
+    "name": "Robot Cleaner Sound Set",
     "attributes": {
-        "powerState": {
+        "robotCleanerSoundSet": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "string",
                         "enum": [
-                            "on",
-                            "off"
+                            "soundEffect",
+                            "mute",
+                            "voiceW",
+                            "voiceM",
+                            "starWars",
+                            "voiceFeed"
                         ]
                     }
                 },
@@ -25,17 +29,21 @@
         }
     },
     "commands": {
-        "setPowerState": {
-            "name": "setPowerState",
+        "setRobotCleanerSoundSet": {
+            "name": "setRobotCleanerSoundSet",
             "arguments": [
                 {
-                    "name": "setPower",
+                    "name": "robotCleanerSoundSet",
                     "optional": false,
                     "schema": {
                         "type": "string",
                         "enum": [
-                            "on",
-                            "off"
+                            "soundEffect",
+                            "mute",
+                            "voiceW",
+                            "voiceM",
+                            "starWars",
+                            "voiceFeed"
                         ]
                     }
                 }

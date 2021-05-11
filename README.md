@@ -324,6 +324,22 @@
 | [Virus Doctor Mode](./json/custom.virusDoctorMode.json) | 1 | proposed |  |
 | [Disabled Capabilities](./json/custom.disabledCapabilities.json) | 1 | proposed |  |
 | [Disabled Components](./json/custom.disabledComponents.json) | 1 | proposed |  |
+| [Robot Cleaner Smart Turbo Mode](./json/custom.robotCleanerSmartTurboMode.json) | 1 | proposed |  |
+| [Robot Cleaner Sound Set](./json/custom.robotCleanerSoundSet.json) | 1 | proposed |  |
+| [Robot Cleaner Smart Control](./json/custom.robotCleanerSmartControl.json) | 1 | proposed |  |
+| [Robot Cleaner Repeat Clean Option](./json/custom.robotCleanerRepeatCleanOption.json) | 1 | proposed |  |
+| [Robot Cleaner Battery Full Status](./json/custom.robotCleanerBatteryFullStatus.json) | 1 | proposed |  |
+| [Robot Cleaner Repeat Clean Support](./json/custom.robotCleanerRepeatCleanSupport.json) | 1 | proposed |  |
+| [Robot Cleaner Suction Type](./json/custom.robotCleanerSuctionType.json) | 1 | proposed |  |
+| [Robot Cleaner History Support](./json/custom.robotCleanerHistorySupport.json) | 1 | proposed |  |
+| [Robot Cleaner Energy Monitor Support](./json/custom.robotCleanerEnergyMonitorSupport.json) | 1 | proposed |  |
+| [Robot Cleaner Reserve Clean Type](./json/custom.robotCleanerReserveCleanType.json) | 1 | proposed |  |
+| [Robot Cleaner Hrm Support](./json/custom.robotCleanerHrmSupport.json) | 1 | proposed |  |
+| [Robot Cleaner Behavior](./json/custom.robotCleanerBehavior.json) | 1 | proposed |  |
+| [Steam Closet Operating State](./json/custom.steamClosetOperatingState.json) | 1 | proposed | [json](./json/custom.steamClosetOperatingStatePresentation.json) |
+| [Steam Closet Course](./json/custom.steamClosetCourse.json) | 1 | proposed |  |
+| [Steam Closet Wrinkle Prevent](./json/custom.steamClosetWrinklePrevent.json) | 1 | proposed |  |
+| [Steam Closet Silent Mode](./json/custom.steamClosetSilentMode.json) | 1 | proposed |  |
 | [Lower Device Power](./json/custom.lowerDevicePower.json) | 1 | proposed |  |
 | [Air Quality Max Level](./json/custom.airQualityMaxLevel.json) | 1 | proposed |  |
 | [Air Purifier Operation Mode](./json/custom.airPurifierOperationMode.json) | 1 | proposed |  |
