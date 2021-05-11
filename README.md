@@ -324,3 +324,4 @@
 | [Virus Doctor Mode](./json/custom.virusDoctorMode.json) | 1 | proposed |  | 
 | [Disabled Capabilities](./json/custom.disabledCapabilities.json) | 1 | proposed |  | 
 | [Disabled Components](./json/custom.disabledComponents.json) | 1 | proposed |  | 
+| [Lower Device Power](./json/custom.lowerDevicePower.json) | 1 | proposed |  | 
