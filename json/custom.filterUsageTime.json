@@ -1,0 +1,30 @@
+{
+    "id": "custom.filterUsageTime",
+    "version": 1,
+    "status": "proposed",
+    "name": "Filter Usage Time",
+    "attributes": {
+        "usageTime": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "resetFilterUsageTime",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "resetFilterUsageTime": {
+            "name": "resetFilterUsageTime",
+            "arguments": []
+        }
+    }
+}

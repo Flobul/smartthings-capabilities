@@ -104,7 +104,12 @@ $customAdded = array(
 	"custom.dishwasherKidsLock",
 	"custom.virusDoctorMode",
 	"custom.disabledCapabilities",
-	"custom.disabledComponents"
+	"custom.disabledComponents",
+	"custom.lowerDevicePower",
+	"custom.airQualityMaxLevel",
+	"custom.airPurifierOperationMode",
+	"custom.welcomeCareMode",
+	"custom.filterUsageTime"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/

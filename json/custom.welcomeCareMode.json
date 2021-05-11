@@ -1,0 +1,34 @@
+{
+    "id": "custom.welcomeCareMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Welcome Care Mode",
+    "attributes": {
+        "welcomeCareMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "enum": [
+                            "on",
+                            "off"
+                        ],
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter" : "turnWelcomeCareOn",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "turnWelcomeCareOn": {
+            "name": "turnWelcomeCareOn",
+            "arguments": []
+        }
+    }
+}
