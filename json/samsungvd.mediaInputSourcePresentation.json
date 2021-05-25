@@ -1,0 +1,40 @@
+{
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.inputSource.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedInputSourcesMap.value",
+                    "value": "inputSource.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.commands.setInputSource.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedInputSourcesMap.value",
+                    "command": "setInputSource"
+                }
+            }
+        ]
+    },
+    "id": "samsungvd.mediaInputSource",
+    "version": 1
+}
