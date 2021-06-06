@@ -347,3 +347,4 @@
 | [Filter Usage Time](./json/custom.filterUsageTime.json) | 1 | proposed |  |
 | [Lamp](./json/samsungce.lamp.json) | 1 | proposed |  |
 | [Washer Addwash Alarm](./json/custom.washerAddwashAlarm.json) | 1 | proposed |  |
+| [Firmware Version](./json/custom.firmwareVersion.json) | 1 | proposed |  |
