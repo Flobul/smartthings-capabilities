@@ -1,0 +1,27 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "activate",
+                            "value": "{{i18n.commands.activate.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "deactivate",
+                            "value": "{{i18n.commands.deactivate.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "samsungce.powerCool",
+    "version": 1
+}
