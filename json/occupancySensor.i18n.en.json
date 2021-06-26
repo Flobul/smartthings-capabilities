@@ -1,0 +1,24 @@
+{
+    "tag": "en",
+    "description": "The ability to see the current status of a occupancy sensor device",
+    "attributes": {
+        "occupancy": {
+            "label": "occupancy",
+            "description": "The current state of the occupancy sensor",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "occupied": {
+                        "description": "The area is occupied",
+                        "label": "Inside"
+                    },
+                    "unoccupied": {
+                        "description": "The area is unoccupied",
+                        "label": "Away"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

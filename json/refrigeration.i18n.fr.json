@@ -1,0 +1,49 @@
+{
+    "tag": "fr",
+    "label": "Refrigeration",
+    "attributes": {
+        "defrost": {
+            "label": "D\u00e9cong\u00e9lation",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        },
+        "rapidCooling": {
+            "label": "Refroidissement rapide",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        },
+        "rapidFreezing": {
+            "label": "Cong\u00e9lation rapide",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

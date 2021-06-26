@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Dishwasher Delay Start Time",
+    "attributes": {
+        "dishwasherDelayStartTime": {
+            "label": "dishwasherDelayStartTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,38 @@
+{
+    "tag": "fr",
+    "label": "Window Shade",
+    "attributes": {
+        "supportedWindowShadeCommands": {
+            "label": "supportedWindowShadeCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "windowShade": {
+            "label": "Store de fen\u00eatre",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "closing": {
+                        "label": "Fermeture\u2026"
+                    },
+                    "partially open": {
+                        "label": "partiellement ouvert(e)"
+                    },
+                    "closed": {
+                        "label": "Ferm\u00e9e"
+                    },
+                    "opening": {
+                        "label": "Ouverture\u2026"
+                    },
+                    "open": {
+                        "label": "Ouverte"
+                    },
+                    "unknown": {
+                        "label": "Inconnu"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

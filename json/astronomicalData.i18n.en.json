@@ -1,0 +1,60 @@
+{
+    "tag": "en",
+    "description": "Generates data and events for local sunrise and sunset",
+    "attributes": {
+        "sunset": {
+            "label": "sunset",
+            "description": "Event generated at sunset",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "true": {
+                        "description": "Always true"
+                    }
+                }
+            }
+        },
+        "sunriseTime": {
+            "label": "sunrise time",
+            "description": "Date\/time of the next sunrise",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "sunsetTime": {
+            "label": "sunset time",
+            "description": "Date\/time of the next sunset",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "sunrise": {
+            "label": "sunrise",
+            "description": "Event generated at sunrise",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "true": {
+                        "description": "Always true"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "sendEvent(sunriseTime)": {
+            "description": "Generate an event with the next sunrise time",
+            "arguments": []
+        },
+        "sendEvent(sunrise)": {
+            "description": "Generate a sunrise event",
+            "arguments": []
+        },
+        "sendEvent(sunsetTime)": {
+            "description": "Generate an event with the next sunset time",
+            "arguments": []
+        },
+        "sendEvent(sunset)": {
+            "description": "Generate a sunset event",
+            "arguments": []
+        }
+    }
+}

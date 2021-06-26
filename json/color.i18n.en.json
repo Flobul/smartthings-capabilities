@@ -1,0 +1,30 @@
+{
+    "tag": "en",
+    "description": "Allows for control of a color changing device by setting its hue and saturation.",
+    "attributes": {
+        "colorValue": {
+            "label": "color value",
+            "description": "The hue and saturation value",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setColorValue": {
+            "label": "set color value",
+            "description": "set the color value",
+            "arguments": {
+                "colorSetting": {
+                    "i18n": [],
+                    "label": "color value",
+                    "description": "the hue and saturation values"
+                },
+                "switchLevel": {
+                    "i18n": [],
+                    "label": "level",
+                    "description": "the switch (dimming) level"
+                }
+            }
+        }
+    }
+}

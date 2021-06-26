@@ -1,0 +1,51 @@
+{
+    "tag": "fr",
+    "label": "Video Camera",
+    "attributes": {
+        "settings": {
+            "label": "Param\u00e8tres",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": []
+        },
+        "mute": {
+            "label": "Coupure du son",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": {
+                "value": {
+                    "unmuted": {
+                        "label": "unmuted"
+                    },
+                    "muted": {
+                        "label": "muted"
+                    }
+                }
+            }
+        },
+        "camera": {
+            "label": "Cam\u00e9ra",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": {
+                "value": {
+                    "restarting": {
+                        "label": "Red\u00e9marrage"
+                    },
+                    "unavailable": {
+                        "label": "Non disponible"
+                    },
+                    "off": {
+                        "label": "D\u00e9sactiv\u00e9e"
+                    },
+                    "on": {
+                        "label": "Activ\u00e9e"
+                    }
+                }
+            }
+        },
+        "statusMessage": {
+            "label": "Message de statut",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

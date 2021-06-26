@@ -1,0 +1,119 @@
+{
+    "tag": "fr",
+    "label": "Air Conditioner Mode",
+    "attributes": {
+        "supportedAcModes": {
+            "label": "modes de climatiseur pris en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": []
+        },
+        "airConditionerMode": {
+            "label": "mode du climatiseur",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "label": "Automatique"
+                    },
+                    "cool": {
+                        "label": "Refroidissement"
+                    },
+                    "heat": {
+                        "label": "Chauffage"
+                    },
+                    "clean": {
+                        "label": "Purification"
+                    },
+                    "dry": {
+                        "label": "S\u00e9chage"
+                    },
+                    "coolClean": {
+                        "label": "Froid, purification"
+                    },
+                    "dryClean": {
+                        "label": "Sec, purification"
+                    },
+                    "heatClean": {
+                        "label": "Chaud, purification"
+                    },
+                    "comfortCooling": {
+                        "label": "Refroidissement confortable"
+                    },
+                    "aIComfort": {
+                        "label": "IA Refroidissement confortable"
+                    },
+                    "fan": {
+                        "label": "Ventilateur"
+                    },
+                    "fanOnly": {
+                        "label": "Purification"
+                    },
+                    "wind": {
+                        "label": "Purifier"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setAirConditionerMode": {
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "cool": {
+                            "label": "Refroidissement"
+                        },
+                        "heat": {
+                            "label": "Chauffage"
+                        },
+                        "clean": {
+                            "label": "Purification"
+                        },
+                        "dry": {
+                            "label": "S\u00e9chage"
+                        },
+                        "coolClean": {
+                            "label": "Froid, purification"
+                        },
+                        "dryClean": {
+                            "label": "Sec, purification"
+                        },
+                        "heatClean": {
+                            "label": "Chaud, purification"
+                        },
+                        "heatex": {
+                            "label": "\u00c9ch. chal."
+                        },
+                        "comfortCooling": {
+                            "label": "Refroidissement confortable"
+                        },
+                        "sleep": {
+                            "label": "Nuit"
+                        },
+                        "smartVentilation": {
+                            "label": "Smart Ventilation"
+                        },
+                        "bypass": {
+                            "label": "Ignorer"
+                        },
+                        "aIComfort": {
+                            "label": "IA Refroidissement confortable"
+                        },
+                        "fan": {
+                            "label": "Ventilateur"
+                        },
+                        "fanOnly": {
+                            "label": "Purification"
+                        },
+                        "wind": {
+                            "label": "Purifier"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Dryer Drying Time",
+    "attributes": {
+        "supportedDryingTime": {
+            "label": "supportedDryingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "dryingTime": {
+            "label": "dryingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

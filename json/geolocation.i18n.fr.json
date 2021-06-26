@@ -1,0 +1,47 @@
+{
+    "tag": "fr",
+    "label": "Geolocation",
+    "attributes": {
+        "method": {
+            "label": "M\u00e9thode",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "heading": {
+            "label": "Direction",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "latitude": {
+            "label": "Latitude",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "accuracy": {
+            "label": "Pr\u00e9cision",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "altitudeAccuracy": {
+            "label": "Pr\u00e9cision de l'altitude",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "speed": {
+            "label": "Vitesse",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "longitude": {
+            "label": "Longitude",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "lastUpdateTime": {
+            "label": "Heure de derni\u00e8re mise \u00e0 jour",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

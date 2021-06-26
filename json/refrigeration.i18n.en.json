@@ -1,0 +1,53 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the refrigeration.",
+    "attributes": {
+        "rapidCooling": {
+            "label": "rapid cooling",
+            "description": "Status of the rapid cooling",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "rapidFreezing": {
+            "label": "rapid freezing",
+            "description": "Status of the rapid freezing",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "defrost": {
+            "label": "defrost",
+            "description": "Status of the defrost",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setRapidCooling": {
+            "description": "Sets the rapid cooling on or off",
+            "arguments": {
+                "rapidCooling": {
+                    "i18n": [],
+                    "description": "The on or off value for the rapid cooling"
+                }
+            }
+        },
+        "setRapidFreezing": {
+            "description": "Sets the rapid freezing on or off",
+            "arguments": {
+                "rapidCooling": {
+                    "i18n": [],
+                    "description": "The on or off value for the rapid freezing"
+                }
+            }
+        },
+        "setDefrost": {
+            "description": "Sets the defrost on or off",
+            "arguments": {
+                "rapidCooling": {
+                    "i18n": [],
+                    "description": "The on or off value for the defrost"
+                }
+            }
+        }
+    }
+}

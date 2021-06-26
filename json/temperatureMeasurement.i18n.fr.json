@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Temperature Measurement",
+    "attributes": {
+        "temperature": {
+            "label": "Temp\u00e9rature",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

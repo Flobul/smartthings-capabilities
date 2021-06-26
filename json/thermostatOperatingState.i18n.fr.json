@@ -1,0 +1,36 @@
+{
+    "tag": "fr",
+    "label": "Thermostat Operating State",
+    "attributes": {
+        "thermostatOperatingState": {
+            "label": "Statut",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "idle": {
+                        "label": "Inactif"
+                    },
+                    "pending heat": {
+                        "label": "pending heat"
+                    },
+                    "vent economizer": {
+                        "label": "vent economizer"
+                    },
+                    "cooling": {
+                        "label": "Refroidissement"
+                    },
+                    "pending cool": {
+                        "label": "pending cool"
+                    },
+                    "fan only": {
+                        "label": "fan only"
+                    },
+                    "heating": {
+                        "label": "Chauffage"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Acceleration Sensor",
+    "attributes": {
+        "acceleration": {
+            "label": "Vibration",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "inactive": {
+                        "label": "Aucune vibration"
+                    },
+                    "active": {
+                        "label": "Vibration d\u00e9tect\u00e9e"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

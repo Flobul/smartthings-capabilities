@@ -1,0 +1,24 @@
+{
+    "tag": "en",
+    "description": "Allows for the ability to read motion sensor device states",
+    "attributes": {
+        "motion": {
+            "label": "motion",
+            "description": "The current state of the motion sensor",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "inactive": {
+                        "description": "The value when no motion is detected",
+                        "label": "No motion"
+                    },
+                    "active": {
+                        "description": "The value when motion is detected",
+                        "label": "Motion detected"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

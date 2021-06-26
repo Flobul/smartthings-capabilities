@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Welcome Message",
+    "attributes": {
+        "welcomeMessage": {
+            "label": "welcomeMessage",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

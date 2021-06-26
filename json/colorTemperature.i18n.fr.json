@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Color Temperature",
+    "attributes": {
+        "colorTemperature": {
+            "label": "Temp\u00e9rature de couleur",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} K",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

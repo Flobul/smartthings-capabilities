@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the preset of a window shade.",
+    "attributes": [],
+    "commands": {
+        "presetPosition": {
+            "description": "Open window shade to a preset position",
+            "arguments": []
+        }
+    }
+}

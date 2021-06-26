@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gives the three axis coordinates for devices that support it",
+    "attributes": {
+        "threeAxis": {
+            "label": "3-axis sensor",
+            "description": "A Vector3 ``(x,y,z)`` representation of the three axis coordinates",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}mG",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,42 @@
+{
+    "tag": "en",
+    "label": "Device Identification",
+    "attributes": {
+        "micomAssayCode": {
+            "label": "micomAssayCode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "modelName": {
+            "label": "modelName",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "serialNumber": {
+            "label": "serialNumber",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "serialNumberExtra": {
+            "label": "serialNumberExtra",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "modelClassificationCode": {
+            "label": "modelClassificationCode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "description": {
+            "label": "description",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "binaryId": {
+            "label": "binaryId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

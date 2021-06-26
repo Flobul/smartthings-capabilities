@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Oven Cavity Status",
+    "attributes": {
+        "ovenCavityStatus": {
+            "label": "ovenCavityStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

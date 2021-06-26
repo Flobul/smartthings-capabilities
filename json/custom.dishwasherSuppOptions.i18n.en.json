@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Dishwasher Supp Options",
+    "attributes": {
+        "dishwasherSuppOptions": {
+            "label": "dishwasherSuppOptions",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

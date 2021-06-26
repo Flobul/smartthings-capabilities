@@ -1,0 +1,131 @@
+{
+    "tag": "fr",
+    "label": "Thermostat Mode",
+    "attributes": {
+        "thermostatMode": {
+            "label": "Mode du thermostat",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "heat": {
+                        "label": "Chaleur"
+                    },
+                    "autowithreset": {
+                        "label": "autowithreset"
+                    },
+                    "autochangeoveractive": {
+                        "label": "autochangeoveractive"
+                    },
+                    "auto": {
+                        "label": "Automatique"
+                    },
+                    "away": {
+                        "label": "away"
+                    },
+                    "furnace": {
+                        "label": "furnace"
+                    },
+                    "auxiliaryemergencyheat": {
+                        "label": "auxiliaryemergencyheat"
+                    },
+                    "moistair": {
+                        "label": "moistair"
+                    },
+                    "manual": {
+                        "label": "manual"
+                    },
+                    "out": {
+                        "label": "out"
+                    },
+                    "eco": {
+                        "label": "\u00c9co"
+                    },
+                    "energysavecool": {
+                        "label": "energysavecool"
+                    },
+                    "autoheat": {
+                        "label": "autoheat"
+                    },
+                    "rush hour": {
+                        "label": "rush hour"
+                    },
+                    "auxheatonly": {
+                        "label": "auxheatonly"
+                    },
+                    "rushhour": {
+                        "label": "rushhour"
+                    },
+                    "asleep": {
+                        "label": "asleep"
+                    },
+                    "emergencyheat": {
+                        "label": "emergencyheat"
+                    },
+                    "heatingoff": {
+                        "label": "heatingoff"
+                    },
+                    "dryair": {
+                        "label": "dryair"
+                    },
+                    "emergencyheatactive": {
+                        "label": "emergencyheatactive"
+                    },
+                    "autowitheco": {
+                        "label": "autowitheco"
+                    },
+                    "resume": {
+                        "label": "resume"
+                    },
+                    "emergency heat": {
+                        "label": "emergency heat"
+                    },
+                    "in": {
+                        "label": "in"
+                    },
+                    "cool": {
+                        "label": "Froid"
+                    },
+                    "custom": {
+                        "label": "custom"
+                    },
+                    "dayoff": {
+                        "label": "dayoff"
+                    },
+                    "energysaveheat": {
+                        "label": "energysaveheat"
+                    },
+                    "off": {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
+                    "home": {
+                        "label": "home"
+                    },
+                    "autocool": {
+                        "label": "autocool"
+                    },
+                    "schedule": {
+                        "label": "schedule"
+                    },
+                    "fanonly": {
+                        "label": "fanonly"
+                    },
+                    "autochangeover": {
+                        "label": "autochangeover"
+                    },
+                    "frostguard": {
+                        "label": "frostguard"
+                    },
+                    "southernaway": {
+                        "label": "southernaway"
+                    }
+                }
+            }
+        },
+        "supportedThermostatModes": {
+            "label": "Modes de thermostat pris en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "The ability to see the current status of a presence sensor device",
+    "attributes": {
+        "presence": {
+            "label": "presence",
+            "description": "The current state of the presence sensor",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "present": {
+                        "description": "The device is present",
+                        "label": "Arrived"
+                    },
+                    "not present": {
+                        "label": "Left"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

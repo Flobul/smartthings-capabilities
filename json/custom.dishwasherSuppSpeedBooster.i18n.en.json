@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Dishwasher Supp Speed Booster",
+    "attributes": {
+        "dishwasherSuppSpeedBooster": {
+            "label": "dishwasherSuppSpeedBooster",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

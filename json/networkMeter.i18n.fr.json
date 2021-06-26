@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Network Meter",
+    "attributes": {
+        "uplinkSpeed": {
+            "label": "Vitesse de la liaison montante",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "downlinkSpeed": {
+            "label": "Vitesse de la liaison descendante",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "Allows for the portion control of a feeder device.",
+    "attributes": {
+        "feedPortion": {
+            "label": "feed portion",
+            "description": "A number that represents the portion (in grams, pounds, or ounces) that will dispense.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setPortion": {
+            "description": "Set the portion (in grams, pounds, or ounces) that the feeder will dispense.",
+            "arguments": {
+                "portion": {
+                    "i18n": [],
+                    "description": "The portion (in grams, pounds, or ounces) to dispense."
+                }
+            }
+        }
+    }
+}

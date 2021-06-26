@@ -1,0 +1,52 @@
+{
+    "tag": "en",
+    "label": "Electric Hepa Filter",
+    "attributes": {
+        "electricHepaFilterCapacity": {
+            "label": "electricHepaFilterCapacity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "electricHepaFilterUsageStep": {
+            "label": "electricHepaFilterUsageStep",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "electricHepaFilterLastResetDate": {
+            "label": "electricHepaFilterLastResetDate",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "electricHepaFilterStatus": {
+            "label": "electricHepaFilterStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "notused": {
+                        "label": "notused"
+                    },
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "replace": {
+                        "label": "replace"
+                    },
+                    "wash": {
+                        "label": "wash"
+                    }
+                }
+            }
+        },
+        "electricHepaFilterUsage": {
+            "label": "electricHepaFilterUsage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "electricHepaFilterResetType": {
+            "label": "electricHepaFilterResetType",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

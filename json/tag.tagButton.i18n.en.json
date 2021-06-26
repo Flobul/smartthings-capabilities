@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Tag Button",
+    "attributes": {
+        "tagButton": {
+            "label": "tagButton",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "pushed_2x": {
+                        "label": "pushed_2x"
+                    },
+                    "held": {
+                        "label": "held"
+                    },
+                    "pushed_3x": {
+                        "label": "pushed_3x"
+                    },
+                    "pushed": {
+                        "label": "pushed"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

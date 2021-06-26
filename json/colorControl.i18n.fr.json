@@ -1,0 +1,22 @@
+{
+    "tag": "fr",
+    "label": "Color Control",
+    "attributes": {
+        "saturation": {
+            "label": "Saturation",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": []
+        },
+        "color": {
+            "label": "Couleur",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": []
+        },
+        "hue": {
+            "label": "Nuance",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

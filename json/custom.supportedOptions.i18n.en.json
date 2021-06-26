@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Supported Options",
+    "attributes": {
+        "referenceTable": {
+            "label": "referenceTable",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "supportedCourses": {
+            "label": "supportedCourses",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Motion Sensor",
+    "attributes": {
+        "motion": {
+            "label": "Mouvement",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "inactive": {
+                        "label": "Aucun mouvement"
+                    },
+                    "active": {
+                        "label": "Mouvement d\u00e9tect\u00e9"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

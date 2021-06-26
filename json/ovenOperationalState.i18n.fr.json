@@ -1,0 +1,115 @@
+{
+    "tag": "fr",
+    "label": "Oven Operational State",
+    "attributes": {
+        "completionTime": {
+            "label": "Heure de fin",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "machineState": {
+            "label": "Statut de machine",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "Fonctionnement"
+                    },
+                    "paused": {
+                        "label": "Mis en pause"
+                    },
+                    "ready": {
+                        "label": "Pr\u00eat"
+                    }
+                }
+            }
+        },
+        "progress": {
+            "label": "Progression",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}} %",
+            "i18n": []
+        },
+        "supportedMachineStates": {
+            "label": "Statut de machine pris en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "ready": {
+                        "label": "Pr\u00eat"
+                    },
+                    "running": {
+                        "label": "Fonctionnement"
+                    },
+                    "paused": {
+                        "label": "Mis en pause"
+                    }
+                }
+            }
+        },
+        "ovenJobState": {
+            "label": "Statut de t\u00e2che du four",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaning": {
+                        "label": "Nettoyage"
+                    },
+                    "sensing": {
+                        "label": "sensing"
+                    },
+                    "stoneHeating": {
+                        "label": "stoneHeating"
+                    },
+                    "fastPreheat": {
+                        "label": "fastPreheat"
+                    },
+                    "scheduledEnd": {
+                        "label": "scheduledEnd"
+                    },
+                    "finished": {
+                        "label": "finished"
+                    },
+                    "searing": {
+                        "label": "searing"
+                    },
+                    "preheat": {
+                        "label": "Pr\u00e9chauffage"
+                    },
+                    "rinsing": {
+                        "label": "Rin\u00e7age"
+                    },
+                    "ready": {
+                        "label": "Pr\u00eat"
+                    },
+                    "draining": {
+                        "label": "Catalyse\/pyrolyse"
+                    },
+                    "cooling": {
+                        "label": "Refroidissement"
+                    },
+                    "warming": {
+                        "label": "warming"
+                    },
+                    "timeHoldPreheat": {
+                        "label": "timeHoldPreheat"
+                    },
+                    "cooking": {
+                        "label": "Cuisson"
+                    },
+                    "defrosting": {
+                        "label": "defrosting"
+                    },
+                    "scheduledStart": {
+                        "label": "scheduledStart"
+                    }
+                }
+            }
+        },
+        "operationTime": {
+            "label": "Temps de fonctionnement",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

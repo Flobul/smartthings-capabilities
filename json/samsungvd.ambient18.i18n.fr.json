@@ -1,0 +1,11 @@
+{
+    "tag": "fr",
+    "label": "Ambient18",
+    "attributes": [],
+    "commands": {
+        "setAmbientOn": {
+            "label": "Ambient Mode Activ\u00e9",
+            "arguments": []
+        }
+    }
+}

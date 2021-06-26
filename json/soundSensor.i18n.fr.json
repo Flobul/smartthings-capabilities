@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Sound Sensor",
+    "attributes": {
+        "sound": {
+            "label": "Son",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "not detected": {
+                        "label": "Aucun son"
+                    },
+                    "detected": {
+                        "label": "Son d\u00e9tect\u00e9"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

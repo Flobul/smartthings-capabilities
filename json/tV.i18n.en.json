@@ -1,0 +1,60 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the television.",
+    "attributes": {
+        "channel": {
+            "label": "channel",
+            "description": "Current channel setting",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "movieMode": {
+            "label": "movie mode",
+            "description": "Current movie mode setting",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "picture": {
+            "label": "picture",
+            "description": "Current picture setting",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "power": {
+            "label": "power",
+            "description": "Current power setting",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "sound": {
+            "label": "sound",
+            "description": "Current sound setting",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "volume": {
+            "label": "volume",
+            "description": "Current volume setting",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "channelDown": {
+            "description": "Move a channel down",
+            "arguments": []
+        },
+        "channelUp": {
+            "description": "Move a channel up",
+            "arguments": []
+        },
+        "volumeDown": {
+            "description": "Set volume lower",
+            "arguments": []
+        },
+        "volumeUp": {
+            "description": "Set volume higher",
+            "arguments": []
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "tag": "en",
+    "description": "Maintains and sets the state of an air conditioner's fan",
+    "attributes": {
+        "airPurifierFanMode": {
+            "label": "air purifier fan state",
+            "description": "The current mode of the air purifier fan, an enum of auto, low, medium, high, sleep, quiet or windFree",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "supportedAirPurifierFanModes": {
+            "label": "supported air purifier fan modes",
+            "description": "Supported states for this air purifier fan to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setAirPurifierFanMode": {
+            "description": "Set the air purifier fan's mode",
+            "arguments": {
+                "fanMode": {
+                    "i18n": [],
+                    "description": "The air purifier fan mode"
+                }
+            }
+        }
+    }
+}

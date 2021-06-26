@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Dishwasher Diagnosis",
+    "attributes": {
+        "dishwasherDiagnosis": {
+            "label": "dishwasherDiagnosis",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "unkown": {
+                        "label": "unkown"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    },
+                    "run": {
+                        "label": "run"
+                    },
+                    "pause": {
+                        "label": "pause"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

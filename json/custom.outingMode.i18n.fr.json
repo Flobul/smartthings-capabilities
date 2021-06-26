@@ -1,0 +1,36 @@
+{
+    "tag": "fr",
+    "label": "Mode Absence",
+    "attributes": {
+        "outingMode": {
+            "label": "outingMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setOutingMode": {
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "off": {
+                            "label": "Mode Absence OFF"
+                        },
+                        "on": {
+                            "label": "Mode Absence ON"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

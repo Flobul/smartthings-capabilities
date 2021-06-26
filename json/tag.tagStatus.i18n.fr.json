@@ -1,0 +1,46 @@
+{
+    "tag": "fr",
+    "label": "Statut",
+    "attributes": {
+        "connectedUserId": {
+            "label": "connectedUserId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "tagStatus": {
+            "label": "Statut",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "connected": {
+                        "label": "Lieux proches"
+                    },
+                    "disconnected": {
+                        "label": "Pas \u00e0 proximit\u00e9 de vous"
+                    },
+                    "found": {
+                        "label": "found"
+                    },
+                    "lost": {
+                        "label": "lost"
+                    },
+                    "d2dConnected": {
+                        "label": "Connect\u00e9"
+                    },
+                    "d2dScanned": {
+                        "label": "Lieux proches"
+                    },
+                    "d2dDisconnected": {
+                        "label": "Pas \u00e0 proximit\u00e9 de vous"
+                    }
+                }
+            }
+        },
+        "connectedDeviceId": {
+            "label": "connectedDeviceId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

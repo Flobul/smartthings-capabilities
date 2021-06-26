@@ -1,0 +1,16 @@
+{
+    "tag": "en",
+    "description": "Allows for the setting of a tv channel by channel name",
+    "attributes": [],
+    "commands": {
+        "setChannelByName": {
+            "description": "Emulate the setting of the channel by specifying the channel name",
+            "arguments": {
+                "channel": {
+                    "i18n": [],
+                    "description": "The channel to set the device to (ie \"ESPN2\", \"NBC\")"
+                }
+            }
+        }
+    }
+}

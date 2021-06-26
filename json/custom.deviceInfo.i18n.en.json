@@ -1,0 +1,67 @@
+{
+    "tag": "en",
+    "label": "Device Info",
+    "attributes": {
+        "deviceType": {
+            "label": "deviceType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "winecellar": {
+                        "label": "winecellar"
+                    },
+                    "oven": {
+                        "label": "oven"
+                    },
+                    "robotcleaner": {
+                        "label": "robotcleaner"
+                    },
+                    "dishwasher": {
+                        "label": "dishwasher"
+                    },
+                    "range": {
+                        "label": "range"
+                    },
+                    "krefrigerator": {
+                        "label": "krefrigerator"
+                    },
+                    "airpurifier": {
+                        "label": "airpurifier"
+                    },
+                    "cooktop": {
+                        "label": "cooktop"
+                    },
+                    "dryer": {
+                        "label": "dryer"
+                    },
+                    "washer": {
+                        "label": "washer"
+                    },
+                    "airconditioner": {
+                        "label": "airconditioner"
+                    },
+                    "refrigerator": {
+                        "label": "refrigerator"
+                    },
+                    "microwave": {
+                        "label": "microwave"
+                    },
+                    "steamcloset": {
+                        "label": "steamcloset"
+                    }
+                }
+            }
+        },
+        "serialNumber": {
+            "label": "serialNumber",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "modelNumber": {
+            "label": "modelNumber",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

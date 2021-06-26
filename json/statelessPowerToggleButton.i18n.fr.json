@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Stateless Power Toggle Button",
+    "attributes": {
+        "availablePowerToggleButtons": {
+            "label": "Touches configur\u00e9es",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the oven set point.",
+    "attributes": {
+        "ovenSetpoint": {
+            "label": "oven setpoint",
+            "description": "Current value of the oven set point",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setOvenSetpoint": {
+            "description": "Set the oven set point.",
+            "arguments": {
+                "setpoint": {
+                    "i18n": [],
+                    "description": "Set the oven set point to this number"
+                }
+            }
+        }
+    }
+}

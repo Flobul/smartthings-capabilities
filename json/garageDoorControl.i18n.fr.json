@@ -1,0 +1,30 @@
+{
+    "tag": "fr",
+    "label": "Garage Door Control",
+    "attributes": {
+        "door": {
+            "label": "Porte",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "closing": {
+                        "label": "Fermeture\u2026"
+                    },
+                    "closed": {
+                        "label": "Ferm\u00e9e"
+                    },
+                    "opening": {
+                        "label": "Ouverture\u2026"
+                    },
+                    "open": {
+                        "label": "Ouverte"
+                    },
+                    "unknown": {
+                        "label": "Inconnu"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

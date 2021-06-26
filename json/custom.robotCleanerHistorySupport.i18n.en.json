@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner History Support",
+    "attributes": {
+        "robotCleanerHistorySupport": {
+            "label": "robotCleanerHistorySupport",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "enable": {
+                        "label": "enable"
+                    },
+                    "disable": {
+                        "label": "disable"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

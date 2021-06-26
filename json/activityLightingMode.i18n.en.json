@@ -1,0 +1,82 @@
+{
+    "tag": "en",
+    "attributes": {
+        "lightingMode": {
+            "label": "Light mode",
+            "description": "Current lighting mode of the device",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "reading": {
+                        "label": "Reading",
+                        "description": "4000K natural light for comfortable reading."
+                    },
+                    "writing": {
+                        "label": "Writing",
+                        "description": "5000K white light that makes it easy to focus on your work."
+                    },
+                    "computer": {
+                        "label": "Computer",
+                        "description": "Backlight only to help you immerse yourself in movies and games."
+                    },
+                    "day": {
+                        "label": "Daylight",
+                        "description": "Energising light that's similar to sunlight."
+                    },
+                    "night": {
+                        "label": "Night",
+                        "description": "Dim the light to help you relax."
+                    },
+                    "sleepPreparation": {
+                        "label": "Sleep",
+                        "description": "Get a breathing guide to help you relax and fall asleep. Breathe in for 4 seconds as the light gets brighter, hold your breath for 7 seconds when the light is steady, and breathe out for 8 seconds as the light gets darker. The light will turn off after 4 breaths."
+                    },
+                    "cozy": {
+                        "label": "Cosy",
+                        "description": "Warm light to make you feel comfortable."
+                    },
+                    "soft": {
+                        "label": "Soft",
+                        "description": "Gentle light to set the mood."
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setLightingMode": {
+            "description": "Set the lighting mode of a device",
+            "arguments": {
+                "lightingMode": {
+                    "i18n": {
+                        "reading": {
+                            "label": "Reading"
+                        },
+                        "writing": {
+                            "label": "Writing"
+                        },
+                        "computer": {
+                            "label": "Computer"
+                        },
+                        "day": {
+                            "label": "Daylight"
+                        },
+                        "night": {
+                            "label": "Night"
+                        },
+                        "sleepPreparation": {
+                            "label": "Sleep"
+                        },
+                        "cozy": {
+                            "label": "Cosy"
+                        },
+                        "soft": {
+                            "label": "Soft"
+                        }
+                    },
+                    "description": "The desired lighting mode of a device"
+                }
+            }
+        }
+    }
+}

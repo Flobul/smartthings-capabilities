@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gets the odor sensor reading.",
+    "attributes": {
+        "odorLevel": {
+            "label": "odor level",
+            "description": "The current oder sensor level reading",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

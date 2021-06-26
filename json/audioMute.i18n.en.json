@@ -1,0 +1,42 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of audio mute.",
+    "attributes": {
+        "mute": {
+            "label": "mute",
+            "description": "Current status of the audio mute",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "muted": {
+                        "description": "The audio is in \"muted\" state",
+                        "label": "muted"
+                    },
+                    "unmuted": {
+                        "description": "The audio is in \"unmuted\" state",
+                        "label": "unmuted"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setMute": {
+            "description": "Set the state of the audio mute",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the audio mute state to \"muted\" or \"unmuted\""
+                }
+            }
+        },
+        "mute": {
+            "description": "Set the audio to mute state",
+            "arguments": []
+        },
+        "unmute": {
+            "description": "Set the audio to unmute state",
+            "arguments": []
+        }
+    }
+}

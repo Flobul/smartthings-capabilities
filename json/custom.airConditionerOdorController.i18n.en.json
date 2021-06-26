@@ -1,0 +1,26 @@
+{
+    "tag": "en",
+    "label": "Air Conditioner Odor Controller",
+    "attributes": {
+        "airConditionerOdorControllerProgress": {
+            "label": "airConditionerOdorControllerProgress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "airConditionerOdorControllerState": {
+            "label": "airConditionerOdorControllerState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,36 @@
+{
+    "tag": "fr",
+    "label": "Mode Purification",
+    "attributes": {
+        "spiMode": {
+            "label": "spiMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setSpiMode": {
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "off": {
+                            "label": "D\u00e9sactiver"
+                        },
+                        "on": {
+                            "label": "Activer"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Occupancy Sensor",
+    "attributes": {
+        "occupancy": {
+            "label": "occupation",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": {
+                "value": {
+                    "occupied": {
+                        "label": "Occup\u00e9(e)"
+                    },
+                    "unoccupied": {
+                        "label": "Inoccup\u00e9(e)"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

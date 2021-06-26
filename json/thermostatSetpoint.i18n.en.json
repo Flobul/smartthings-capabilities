@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gives the ability to read the current setpoint on a thermostat",
+    "attributes": {
+        "thermostatSetpoint": {
+            "label": "thermostat setpoint",
+            "description": "The current setpoint value",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

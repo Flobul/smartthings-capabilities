@@ -1,0 +1,77 @@
+{
+    "tag": "fr",
+    "label": "Air Conditioner Fan Mode",
+    "attributes": {
+        "fanMode": {
+            "label": "fanMode",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": {
+                "value": {
+                    "high": {
+                        "label": "\u00c9lev\u00e9"
+                    },
+                    "medium": {
+                        "label": "Moyenne"
+                    },
+                    "pet": {
+                        "label": "Animal de compagnie"
+                    },
+                    "auto": {
+                        "label": "Automatique"
+                    },
+                    "sleep": {
+                        "label": "Veille"
+                    },
+                    "windFree": {
+                        "label": "Sans courant daposair"
+                    },
+                    "smart": {
+                        "label": "Intelligent"
+                    },
+                    "low": {
+                        "label": "Faible"
+                    }
+                }
+            }
+        },
+        "supportedAcFanModes": {
+            "label": "supportedAcFanModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setFanMode": {
+            "arguments": {
+                "fanMode": {
+                    "i18n": {
+                        "high": {
+                            "label": "\u00c9lev\u00e9"
+                        },
+                        "medium": {
+                            "label": "Moyenne"
+                        },
+                        "pet": {
+                            "label": "Animal de compagnie"
+                        },
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "sleep": {
+                            "label": "Veille"
+                        },
+                        "windFree": {
+                            "label": "Sans courant daposair"
+                        },
+                        "smart": {
+                            "label": "Intelligent"
+                        },
+                        "low": {
+                            "label": "Faible"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

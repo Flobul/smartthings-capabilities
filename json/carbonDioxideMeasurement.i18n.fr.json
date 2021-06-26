@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Carbon Dioxide Measurement",
+    "attributes": {
+        "carbonDioxide": {
+            "label": "Dioxyde de carbone",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} ppm",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

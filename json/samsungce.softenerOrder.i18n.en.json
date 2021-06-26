@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Softener Order",
+    "attributes": {
+        "alarmEnabled": {
+            "label": "alarmEnabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "orderThreshold": {
+            "label": "orderThreshold",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

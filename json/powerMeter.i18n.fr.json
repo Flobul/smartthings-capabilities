@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Power Meter",
+    "attributes": {
+        "power": {
+            "label": "Wattm\u00e8tre",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} W",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

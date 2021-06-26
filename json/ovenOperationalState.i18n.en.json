@@ -1,0 +1,158 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the oven operational state.",
+    "attributes": {
+        "machineState": {
+            "label": "machine state",
+            "description": "Current state of the oven",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "ready": {
+                        "description": "The oven is in \"ready\" mode",
+                        "label": "ready"
+                    },
+                    "running": {
+                        "description": "The oven is in \"running\" mode",
+                        "label": "running"
+                    },
+                    "paused": {
+                        "description": "The oven is in \"paused\" mode",
+                        "label": "paused"
+                    }
+                }
+            }
+        },
+        "supportedMachineStates": {
+            "label": "supported machine states",
+            "description": "States supported by the oven",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "ready": {
+                        "description": "The oven is in \"ready\" mode",
+                        "label": "ready"
+                    },
+                    "running": {
+                        "description": "The oven is in \"running\" mode",
+                        "label": "running"
+                    },
+                    "paused": {
+                        "description": "The oven is in \"paused\" mode",
+                        "label": "paused"
+                    }
+                }
+            }
+        },
+        "ovenJobState": {
+            "label": "oven job state",
+            "description": "The state of the oven job",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaning": {
+                        "description": "Oven is in \"cleaning\" state",
+                        "label": "cleaning"
+                    },
+                    "cooking": {
+                        "description": "Oven is in \"cooking\" state",
+                        "label": "cooking"
+                    },
+                    "cooling": {
+                        "description": "Oven is in \"cooling\" state",
+                        "label": "cooling"
+                    },
+                    "draining": {
+                        "description": "Oven is in \"draining\" state",
+                        "label": "draining"
+                    },
+                    "preheat": {
+                        "description": "Oven is in \"preheat\" state",
+                        "label": "preheat"
+                    },
+                    "ready": {
+                        "description": "Oven is in \"ready\" state",
+                        "label": "ready"
+                    },
+                    "rinsing": {
+                        "description": "Oven is in \"rinsing\" state",
+                        "label": "rinsing"
+                    },
+                    "finished": {
+                        "description": "Oven is in \"finished\" state",
+                        "label": "finished"
+                    },
+                    "scheduledStart": {
+                        "description": "Oven is in \"scheduledStart\" state",
+                        "label": "scheduledStart"
+                    },
+                    "warming": {
+                        "description": "Oven is in \"warming\" state",
+                        "label": "warming"
+                    },
+                    "defrosting": {
+                        "description": "Oven is in \"defrosting\" state",
+                        "label": "defrosting"
+                    },
+                    "sensing": {
+                        "description": "Oven is in \"sensing\" state",
+                        "label": "sensing"
+                    },
+                    "searing": {
+                        "description": "Oven is in \"searing\" state",
+                        "label": "searing"
+                    },
+                    "fastPreheat": {
+                        "description": "Oven is in \"fastPreheat\" state",
+                        "label": "fastPreheat"
+                    },
+                    "scheduledEnd": {
+                        "description": "Oven is in \"scheduledEnd\" state",
+                        "label": "scheduledEnd"
+                    },
+                    "stoneHeating": {
+                        "description": "Oven is in \"stoneHeating\" state",
+                        "label": "stoneHeating"
+                    },
+                    "timeHoldPreheat": {
+                        "description": "Oven is in \"timeHoldPreheat\" state",
+                        "label": "timeHoldPreheat"
+                    }
+                }
+            }
+        },
+        "completionTime": {
+            "label": "completion time",
+            "description": "The completion time for the oven job",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "operationTime": {
+            "label": "operation time",
+            "description": "Operation time of the oven job",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "progress": {
+            "label": "progress",
+            "description": "The percentage complete for the oven job",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}%",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setMachineState": {
+            "description": "Set the oven state",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the oven to this state"
+                }
+            }
+        },
+        "stop": {
+            "description": "Stop the oven operation",
+            "arguments": []
+        }
+    }
+}

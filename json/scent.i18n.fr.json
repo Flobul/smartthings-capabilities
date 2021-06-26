@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Scent",
+    "attributes": {
+        "scentName": {
+            "label": "nom",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": []
+        },
+        "scentIntensity": {
+            "label": "intensit\u00e9",
+            "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} %",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

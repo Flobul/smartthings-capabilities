@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a feeder device.",
+    "attributes": {
+        "feederOperatingState": {
+            "label": "feeder operating state",
+            "description": "The current state of the feeder.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "idle": {
+                        "label": "idle"
+                    },
+                    "feeding": {
+                        "label": "feeding"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "startFeeding": {
+            "description": "Begin the feeding process.",
+            "arguments": []
+        }
+    }
+}

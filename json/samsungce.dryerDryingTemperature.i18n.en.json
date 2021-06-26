@@ -1,0 +1,92 @@
+{
+    "tag": "en",
+    "label": "Dryer Drying Temperature",
+    "attributes": {
+        "dryingTemperature": {
+            "label": "dryingTemperature",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "tapCold": {
+                        "label": "tapCold"
+                    },
+                    "mediumLow": {
+                        "label": "mediumLow"
+                    },
+                    "semiHot": {
+                        "label": "semiHot"
+                    },
+                    "cold": {
+                        "label": "cold"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "medium": {
+                        "label": "medium"
+                    },
+                    "hot": {
+                        "label": "hot"
+                    },
+                    "extraLow": {
+                        "label": "extraLow"
+                    },
+                    "warm": {
+                        "label": "warm"
+                    },
+                    "high": {
+                        "label": "high"
+                    },
+                    "extraHot": {
+                        "label": "extraHot"
+                    },
+                    "low": {
+                        "label": "low"
+                    },
+                    "90": {
+                        "label": "90"
+                    },
+                    "80": {
+                        "label": "80"
+                    },
+                    "70": {
+                        "label": "70"
+                    },
+                    "60": {
+                        "label": "60"
+                    },
+                    "50": {
+                        "label": "50"
+                    },
+                    "40": {
+                        "label": "40"
+                    },
+                    "95": {
+                        "label": "95"
+                    },
+                    "ecoWarm": {
+                        "label": "ecoWarm"
+                    },
+                    "30": {
+                        "label": "30"
+                    },
+                    "20": {
+                        "label": "20"
+                    },
+                    "75": {
+                        "label": "75"
+                    },
+                    "65": {
+                        "label": "65"
+                    }
+                }
+            }
+        },
+        "supportedDryingTemperature": {
+            "label": "supportedDryingTemperature",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

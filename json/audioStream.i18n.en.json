@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "description": "Allows for the ability to stream audio to a device",
+    "attributes": {
+        "uri": {
+            "label": "uri",
+            "description": "Current status of the audio stream",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "startAudio": {
+            "description": "Start the audio stream",
+            "arguments": []
+        },
+        "stopAudio": {
+            "description": "Stop the audio stream",
+            "arguments": []
+        }
+    }
+}

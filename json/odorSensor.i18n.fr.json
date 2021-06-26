@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Odor Sensor",
+    "attributes": {
+        "odorLevel": {
+            "label": "niveau d'odeur",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

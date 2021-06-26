@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Thermostat Heating Setpoint",
+    "attributes": {
+        "heatingSetpoint": {
+            "label": "Temp\u00e9rature de chauffe",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

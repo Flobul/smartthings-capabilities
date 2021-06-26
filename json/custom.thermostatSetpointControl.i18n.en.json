@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Thermostat Setpoint Control",
+    "attributes": {
+        "minimumSetpoint": {
+            "label": "minimumSetpoint",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "maximumSetpoint": {
+            "label": "maximumSetpoint",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,91 @@
+{
+    "tag": "fr",
+    "label": "Samsung TV",
+    "attributes": {
+        "volume": {
+            "label": "Volume",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "pictureMode": {
+            "label": "Mode Photo",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "standard": {
+                        "label": "standard"
+                    },
+                    "movie": {
+                        "label": "movie"
+                    },
+                    "dynamic": {
+                        "label": "dynamic"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
+        },
+        "messageButton": {
+            "label": "Touche Message",
+            "displayTemplate": "{{attribute}} de {{device.label}} est mise \u00e0 jour",
+            "i18n": []
+        },
+        "soundMode": {
+            "label": "Mode Son",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "standard": {
+                        "label": "standard"
+                    },
+                    "music": {
+                        "label": "music"
+                    },
+                    "movie": {
+                        "label": "movie"
+                    },
+                    "clear voice": {
+                        "label": "clear voice"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
+        },
+        "mute": {
+            "label": "D\u00e9sactivation du son",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "unmuted": {
+                        "label": "unmuted"
+                    },
+                    "muted": {
+                        "label": "muted"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
+        },
+        "switch": {
+            "label": "Interrupteur",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

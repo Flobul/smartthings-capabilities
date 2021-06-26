@@ -1,0 +1,16 @@
+{
+    "tag": "en",
+    "description": "Allows for the control by speech.",
+    "attributes": [],
+    "commands": {
+        "speak": {
+            "description": "Speak the control phrase",
+            "arguments": {
+                "phrase": {
+                    "i18n": [],
+                    "description": "The control phrase spoken"
+                }
+            }
+        }
+    }
+}

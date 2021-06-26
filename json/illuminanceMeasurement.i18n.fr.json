@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Illuminance Measurement",
+    "attributes": {
+        "illuminance": {
+            "label": "\u00c9clairement",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} lux",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

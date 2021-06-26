@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Language Setting",
+    "attributes": {
+        "supportedLanguages": {
+            "label": "Langues prises en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "language": {
+            "label": "Langue",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

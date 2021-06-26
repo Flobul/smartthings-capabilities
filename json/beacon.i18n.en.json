@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "description": "Detect whether or not the beacon is present",
+    "attributes": {
+        "presence": {
+            "label": "presence",
+            "description": "The presence value of the beacon",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "present": {
+                        "description": "Value when beacon is present"
+                    },
+                    "not present": {
+                        "description": "Value when beacon is not present"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

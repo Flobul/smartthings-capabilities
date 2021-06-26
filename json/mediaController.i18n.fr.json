@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Media Controller",
+    "attributes": {
+        "currentActivity": {
+            "label": "Activit\u00e9 actuelle",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "activities": {
+            "label": "Activit\u00e9s",
+            "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,25 @@
+{
+    "tag": "en",
+    "label": "Ambient Mode",
+    "attributes": {
+        "supportedAmbientApps": {
+            "label": "supportedAmbientApps",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setAmbientContent": {
+            "label": "Ambient Mode Content",
+            "arguments": {
+                "id": {
+                    "i18n": {
+                        "heating": {
+                            "label": "Weather"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

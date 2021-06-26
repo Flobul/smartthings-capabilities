@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "Dryer Cycle",
+    "attributes": {
+        "dryerCycle": {
+            "label": "dryerCycle",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedCycles": {
+            "label": "supportedCycles",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "referenceTable": {
+            "label": "referenceTable",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

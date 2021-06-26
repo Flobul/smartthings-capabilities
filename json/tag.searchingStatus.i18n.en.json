@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Searching Status",
+    "attributes": {
+        "searchingStatus": {
+            "label": "searchingStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "stopByServer": {
+                        "label": "stopByServer"
+                    },
+                    "stop": {
+                        "label": "stop"
+                    },
+                    "searching": {
+                        "label": "searching"
+                    },
+                    "spotted": {
+                        "label": "spotted"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

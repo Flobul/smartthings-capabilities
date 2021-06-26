@@ -1,0 +1,117 @@
+{
+    "tag": "en",
+    "description": "Device that supports the OCF protocol",
+    "attributes": {
+        "st": {
+            "label": "st",
+            "description": "SystemTime (Date)",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mnsl": {
+            "label": "mnsl",
+            "description": "Support link (URL)",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "pi": {
+            "label": "pi",
+            "description": "Platform ID",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mnmo": {
+            "label": "mnmo",
+            "description": "Model Number",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mnos": {
+            "label": "mnos",
+            "description": "OS Version",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mnfv": {
+            "label": "mnfv",
+            "description": "Firmware version",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "icv": {
+            "label": "icv",
+            "description": "OIC(OCF) Core Spec. Version (ex> \"core.1.1.0\")",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "di": {
+            "label": "di",
+            "description": "Device Id",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mnml": {
+            "label": "mnml",
+            "description": "Manufacturer Details Link(URL)",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "dmv": {
+            "label": "dmv",
+            "description": "OIC(OCF) Vertical Domain Spec. Version (ex>  \"res.1.1.0,sh.1.1.0\",)",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mnpv": {
+            "label": "mnpv",
+            "description": "Platform Version",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "n": {
+            "label": "n",
+            "description": "Device Name  (ex> \"[TV] Samsung 6 Series (43)\")",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mnmn": {
+            "label": "mnmn",
+            "description": "Manufacturer Name",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "vid": {
+            "label": "vid",
+            "description": "Vendor ID (or Device ID of Device Type)",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mndt": {
+            "label": "mndt",
+            "description": "Date of Manufacture (Date)",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mnhw": {
+            "label": "mnhw",
+            "description": "Hardware Version",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "postOcfCommand": {
+            "description": "Send raw OCF command",
+            "arguments": {
+                "value": {
+                    "i18n": [],
+                    "description": "OCF value"
+                },
+                "href": {
+                    "i18n": [],
+                    "description": "OCF href"
+                }
+            }
+        }
+    }
+}

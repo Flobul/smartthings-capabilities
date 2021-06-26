@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gets the air quality number.",
+    "attributes": {
+        "airQuality": {
+            "label": "air quality",
+            "description": "Current air quality number",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

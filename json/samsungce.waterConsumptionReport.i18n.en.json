@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Water Consumption Report",
+    "attributes": {
+        "waterConsumption": {
+            "label": "waterConsumption",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

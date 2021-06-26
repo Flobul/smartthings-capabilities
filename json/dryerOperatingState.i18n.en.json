@@ -1,0 +1,103 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the dryer operational state.",
+    "attributes": {
+        "machineState": {
+            "label": "machine state",
+            "description": "Current state of the dryer machine operation",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "pause": {
+                        "description": "The dryer machine is in the pause state",
+                        "label": "pause"
+                    },
+                    "run": {
+                        "description": "The dryer machine is in the running state",
+                        "label": "run"
+                    },
+                    "stop": {
+                        "description": "The dryer machine is in the stop state",
+                        "label": "stop"
+                    }
+                }
+            }
+        },
+        "supportedMachineStates": {
+            "label": "supported machine states",
+            "description": "The states supported by the dryer machine",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "dryerJobState": {
+            "label": "dryer job state",
+            "description": "The state of the dryer job",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "cooling": {
+                        "description": "The dryer is in cooling state",
+                        "label": "cooling"
+                    },
+                    "delayWash": {
+                        "description": "The dryer is in delay wash state",
+                        "label": "delayWash"
+                    },
+                    "drying": {
+                        "description": "The dryer is in drying state",
+                        "label": "drying"
+                    },
+                    "finished": {
+                        "description": "The dryer is in finished state",
+                        "label": "finished"
+                    },
+                    "none": {
+                        "description": "None",
+                        "label": "none"
+                    },
+                    "weightSensing": {
+                        "description": "The dryer is in weight sensing state",
+                        "label": "weightSensing"
+                    },
+                    "wrinklePrevent": {
+                        "description": "The dryer is in wrinkle prevent state",
+                        "label": "wrinklePrevent"
+                    },
+                    "dehumidifying": {
+                        "description": "The dryer is in dehumidifying state",
+                        "label": "dehumidifying"
+                    },
+                    "aIDrying": {
+                        "description": "The dryer is in AI drying state",
+                        "label": "aIDrying"
+                    },
+                    "sanitizing": {
+                        "description": "The dryer is in sanitizing state",
+                        "label": "sanitizing"
+                    },
+                    "internalCare": {
+                        "description": "The dryer is in internal care  state",
+                        "label": "internalCare"
+                    }
+                }
+            }
+        },
+        "completionTime": {
+            "label": "completion time",
+            "description": "The completion time for the dryer job",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setMachineState": {
+            "description": "Set the dryer machine state",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the dryer machine to a state; pause, run or stop"
+                }
+            }
+        }
+    }
+}

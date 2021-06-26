@@ -1,0 +1,50 @@
+{
+    "tag": "fr",
+    "label": "Media Playback",
+    "attributes": {
+        "supportedPlaybackCommands": {
+            "label": "Commandes de lecture prises en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "playbackStatus": {
+            "label": "Statut de lecture",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "play": {
+                        "label": "Lecture"
+                    },
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "stopped": {
+                        "label": "stopped"
+                    },
+                    "stop": {
+                        "label": "Arr\u00eat"
+                    },
+                    "rewind": {
+                        "label": "Rembobinage"
+                    },
+                    "rewinding": {
+                        "label": "rewinding"
+                    },
+                    "playing": {
+                        "label": "playing"
+                    },
+                    "fast forwarding": {
+                        "label": "fast forwarding"
+                    },
+                    "fastForward": {
+                        "label": "Avance rapide"
+                    },
+                    "pause": {
+                        "label": "Pause"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

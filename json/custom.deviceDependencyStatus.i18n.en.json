@@ -1,0 +1,34 @@
+{
+    "tag": "en",
+    "label": "Device Dependency Status",
+    "attributes": {
+        "subDeviceActive": {
+            "label": "subDeviceActive",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dependencyStatus": {
+            "label": "dependencyStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "slave": {
+                        "label": "slave"
+                    },
+                    "single": {
+                        "label": "single"
+                    },
+                    "master": {
+                        "label": "master"
+                    }
+                }
+            }
+        },
+        "numberOfSubDevices": {
+            "label": "numberOfSubDevices",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

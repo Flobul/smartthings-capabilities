@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a device that can make an audible tone",
+    "attributes": [],
+    "commands": {
+        "beep": {
+            "description": "Beep the device",
+            "arguments": []
+        }
+    }
+}

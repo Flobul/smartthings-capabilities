@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Formaldehyde Measurement",
+    "attributes": {
+        "formaldehydeLevel": {
+            "label": "Niveau de formald\u00e9hyde",
+            "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} {{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

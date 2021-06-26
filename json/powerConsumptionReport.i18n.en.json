@@ -1,0 +1,19 @@
+{
+    "tag": "en",
+    "description": "Allows periodically reporting the energy and power consumption",
+    "attributes": {
+        "powerConsumption": {
+            "label": "power consumption",
+            "description": "energy and power consumption during specific time period",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": {
+                "value": {
+                    "prop": {
+                        "description": "The instant power and accumulated energy consumed during specific time period"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

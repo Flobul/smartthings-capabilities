@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the thermostat schedule.",
+    "attributes": {
+        "schedule": {
+            "label": "schedule",
+            "description": "The current schedule of the thermostat",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setSchedule": {
+            "description": "Set the thermostat schedule",
+            "arguments": {
+                "schedule": {
+                    "i18n": [],
+                    "description": "The schedule to which the thermostat should be set"
+                }
+            }
+        }
+    }
+}

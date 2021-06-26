@@ -1,0 +1,69 @@
+{
+    "tag": "en",
+    "description": "Detected Sound",
+    "attributes": {
+        "soundDetectionState": {
+            "label": "Sound Detection State",
+            "description": "The operational state of sound detection whether enabled or disabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} was: {{value}}",
+            "i18n": {
+                "value": {
+                    "enabled": {
+                        "label": "On"
+                    },
+                    "disabled": {
+                        "label": "Off"
+                    }
+                }
+            }
+        },
+        "soundDetected": {
+            "label": "Sound detection",
+            "description": "The detected sound type from the DetectedSoundType datatype",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "babyCrying": {
+                        "label": "Baby crying"
+                    },
+                    "glassBreaking": {
+                        "label": "Breaking glass"
+                    },
+                    "fireAlarm": {
+                        "label": "Fire alarm"
+                    },
+                    "noSound": {
+                        "label": "None"
+                    },
+                    "dogBarking": {
+                        "label": "Dog bark detected"
+                    },
+                    "catMeowing": {
+                        "label": "Cat meow detected"
+                    },
+                    "doorKnocking": {
+                        "label": "Door knocking detected"
+                    }
+                }
+            }
+        },
+        "supportedSoundTypes": {
+            "label": "Supported Sound Types",
+            "description": "The sound types that can be detected by this device",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "enableSoundDetection": {
+            "label": "On",
+            "description": "Set sound detection to the enabled state",
+            "arguments": []
+        },
+        "disableSoundDetection": {
+            "label": "Off",
+            "description": "Set sound detection to the disabled state",
+            "arguments": []
+        }
+    }
+}

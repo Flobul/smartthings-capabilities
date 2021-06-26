@@ -1,0 +1,30 @@
+{
+    "tag": "en",
+    "description": "Allows for the capture of an image on devices that support it",
+    "attributes": {
+        "image": {
+            "label": "image",
+            "description": "String value representing the image captured",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "captureTime": {
+            "label": "time image captured",
+            "description": "Date representing the time the image was captured",
+            "displayTemplate": "{{attribute}} of {{device.label}} was {{value}}",
+            "i18n": []
+        },
+        "encrypted": {
+            "label": "image is encrypted",
+            "description": "Flag to indicate that the image is encrypted",
+            "displayTemplate": "{{attribute}} of {{device.label}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "take": {
+            "description": "Capture an image",
+            "arguments": []
+        }
+    }
+}

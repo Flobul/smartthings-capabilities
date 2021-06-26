@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gets the value of the sound pressure level.",
+    "attributes": {
+        "soundPressureLevel": {
+            "label": "sound pressure level",
+            "description": "Level of the sound pressure",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}dB",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

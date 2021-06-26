@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "A representation of the direction of air flow oscillation",
+    "attributes": {
+        "airFlowDirection": {
+            "label": "air flow direction",
+            "description": "The current direction of air flow oscillation; an enum of fixed, vertical, horizontal, all",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setAirFlowDirection": {
+            "description": "set direction of air flow",
+            "arguments": {
+                "airFlowDirection": {
+                    "i18n": [],
+                    "description": "air flow direction"
+                }
+            }
+        }
+    }
+}

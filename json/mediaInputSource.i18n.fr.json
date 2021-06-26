@@ -1,0 +1,74 @@
+{
+    "tag": "fr",
+    "label": "Media Input Source",
+    "attributes": {
+        "supportedInputSources": {
+            "label": "Sources d'entr\u00e9e prises en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "inputSource": {
+            "label": "Source d'entr\u00e9e",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "digital": {
+                        "label": "Num\u00e9rique"
+                    },
+                    "CD": {
+                        "label": "CD"
+                    },
+                    "wifi": {
+                        "label": "Wi-Fi"
+                    },
+                    "USB": {
+                        "label": "USB"
+                    },
+                    "aux": {
+                        "label": "AUX"
+                    },
+                    "FM": {
+                        "label": "FM"
+                    },
+                    "HDMI6": {
+                        "label": "HDMI6"
+                    },
+                    "HDMI4": {
+                        "label": "HDMI4"
+                    },
+                    "HDMI5": {
+                        "label": "HDMI5"
+                    },
+                    "AM": {
+                        "label": "AM"
+                    },
+                    "HDMI2": {
+                        "label": "HDMI2"
+                    },
+                    "HDMI3": {
+                        "label": "HDMI3"
+                    },
+                    "YouTube": {
+                        "label": "YouTube"
+                    },
+                    "HDMI1": {
+                        "label": "HDMI1"
+                    },
+                    "digitalTv": {
+                        "label": "TV num\u00e9rique"
+                    },
+                    "bluetooth": {
+                        "label": "Bluetooth"
+                    },
+                    "HDMI": {
+                        "label": "HDMI"
+                    },
+                    "melon": {
+                        "label": "melon"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

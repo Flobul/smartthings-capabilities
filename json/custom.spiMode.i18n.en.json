@@ -1,0 +1,36 @@
+{
+    "tag": "en",
+    "label": "Set Purify",
+    "attributes": {
+        "spiMode": {
+            "label": "spiMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setSpiMode": {
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "off": {
+                            "label": "Off"
+                        },
+                        "on": {
+                            "label": "On"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

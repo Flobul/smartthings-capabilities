@@ -1,0 +1,25 @@
+{
+    "tag": "fr",
+    "label": "Ambient Mode",
+    "attributes": {
+        "supportedAmbientApps": {
+            "label": "supportedAmbientApps",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setAmbientContent": {
+            "label": "Contenu Ambient Mode",
+            "arguments": {
+                "id": {
+                    "i18n": {
+                        "heating": {
+                            "label": "M\u00e9t\u00e9o"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

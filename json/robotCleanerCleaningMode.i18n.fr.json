@@ -1,0 +1,33 @@
+{
+    "tag": "fr",
+    "label": "Robot Cleaner Cleaning Mode",
+    "attributes": {
+        "robotCleanerCleaningMode": {
+            "label": "robotCleanerCleaningMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "label": "Automatique"
+                    },
+                    "stop": {
+                        "label": "Arr\u00eater"
+                    },
+                    "part": {
+                        "label": "Zone"
+                    },
+                    "repeat": {
+                        "label": "R\u00e9p\u00e9tition"
+                    },
+                    "manual": {
+                        "label": "Manuel"
+                    },
+                    "map": {
+                        "label": "Carte"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

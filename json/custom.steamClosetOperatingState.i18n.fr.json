@@ -1,0 +1,79 @@
+{
+    "tag": "fr",
+    "label": "Progression du nettoyage",
+    "attributes": {
+        "supportedSteamClosetJobState": {
+            "label": "supportedSteamClosetJobState",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "completionTime": {
+            "label": "completionTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "steamClosetMachineState": {
+            "label": "steamClosetMachineState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "stop": {
+                        "label": "stop"
+                    },
+                    "run": {
+                        "label": "run"
+                    },
+                    "pause": {
+                        "label": "pause"
+                    }
+                }
+            }
+        },
+        "supportedSteamClosetMachineState": {
+            "label": "supportedSteamClosetMachineState",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "steamClosetJobState": {
+            "label": "steamClosetJobState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "sterilizing": {
+                        "label": "D\u00e9sinfection en cours"
+                    },
+                    "drying": {
+                        "label": "S\u00e9chage en cours"
+                    },
+                    "airwashing": {
+                        "label": "Nettoyage \u00e0 l'air en cours"
+                    },
+                    "finish": {
+                        "label": "Finition"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "delaywash": {
+                        "label": "delaywash"
+                    },
+                    "keepFresh": {
+                        "label": "Pr\u00e9servation de la fra\u00eecheur"
+                    },
+                    "dehumidifying": {
+                        "label": "D\u00e9shumidification en cours"
+                    },
+                    "steaming": {
+                        "label": "Application de vapeur en cours"
+                    }
+                }
+            }
+        },
+        "steamClosetDelayEndTime": {
+            "label": "steamClosetDelayEndTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

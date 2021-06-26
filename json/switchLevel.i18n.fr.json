@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Switch Level",
+    "attributes": {
+        "level": {
+            "label": "Variateur de lumi\u00e8re",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} %",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

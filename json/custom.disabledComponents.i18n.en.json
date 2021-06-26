@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Disabled Components",
+    "attributes": {
+        "disabledComponents": {
+            "label": "disabledComponents",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

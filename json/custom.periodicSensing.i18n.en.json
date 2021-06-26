@@ -1,0 +1,70 @@
+{
+    "tag": "en",
+    "label": "Periodic Sensing",
+    "attributes": {
+        "automaticExecutionSetting": {
+            "label": "automaticExecutionSetting",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "automaticExecutionMode": {
+            "label": "automaticExecutionMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedAutomaticExecutionSetting": {
+            "label": "supportedAutomaticExecutionSetting",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "supportedAutomaticExecutionMode": {
+            "label": "supportedAutomaticExecutionMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "periodicSensing": {
+            "label": "periodicSensing",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        },
+        "periodicSensingInterval": {
+            "label": "periodicSensingInterval",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "lastSensingTime": {
+            "label": "lastSensingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "lastSensingLevel": {
+            "label": "lastSensingLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "periodicSensingStatus": {
+            "label": "periodicSensingStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "nonprocessing": {
+                        "label": "nonprocessing"
+                    },
+                    "processing": {
+                        "label": "processing"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,26 @@
+{
+    "tag": "fr",
+    "label": "Holdable Button",
+    "attributes": {
+        "button": {
+            "label": "Touche",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "held": {
+                        "label": "Maintenue appuy\u00e9e"
+                    },
+                    "pushed": {
+                        "label": "Appuy\u00e9e"
+                    }
+                }
+            }
+        },
+        "numberOfButtons": {
+            "label": "Nombre de touches",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

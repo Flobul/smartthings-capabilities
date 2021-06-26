@@ -1,0 +1,29 @@
+{
+    "tag": "fr",
+    "label": "Security System",
+    "attributes": {
+        "alarm": {
+            "label": "Alarme",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "securitySystemStatus": {
+            "label": "Statut du syst\u00e8me de s\u00e9curit\u00e9",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "disarmed": {
+                        "label": "disarmed"
+                    },
+                    "armedStay": {
+                        "label": "Activ\u00e9 (pr\u00e9sent)"
+                    },
+                    "armedAway": {
+                        "label": "Activ\u00e9 (absent)"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

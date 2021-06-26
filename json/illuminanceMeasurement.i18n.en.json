@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gives the illuminance reading from devices that support it",
+    "attributes": {
+        "illuminance": {
+            "label": "illuminance",
+            "description": "The illuminance measurement in LUX",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} lux",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

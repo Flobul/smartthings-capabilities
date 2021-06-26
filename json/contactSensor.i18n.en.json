@@ -1,0 +1,24 @@
+{
+    "tag": "en",
+    "description": "Allows reading the value of a contact sensor device",
+    "attributes": {
+        "contact": {
+            "label": "contact",
+            "description": "The current state of the contact sensor",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "open": {
+                        "description": "The value if open",
+                        "label": "Open"
+                    },
+                    "closed": {
+                        "description": "The value if closed",
+                        "label": "Closed"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "input source",
+    "attributes": {
+        "supportedInputSourcesMap": {
+            "label": "supportedInputSourcesMap",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "inputSource": {
+            "label": "Source",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setInputSource": {
+            "label": "Change Source",
+            "arguments": []
+        }
+    }
+}

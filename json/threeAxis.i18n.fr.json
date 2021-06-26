@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Three Axis",
+    "attributes": {
+        "threeAxis": {
+            "label": "Capteur 3 axes",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} mG",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,77 @@
+{
+    "tag": "en",
+    "label": "Auto Dispense Detergent",
+    "attributes": {
+        "remainingAmount": {
+            "label": "remainingAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "less": {
+                        "label": "less"
+                    },
+                    "empty": {
+                        "label": "empty"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
+        },
+        "amount": {
+            "label": "amount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "standard": {
+                        "label": "standard"
+                    },
+                    "extra": {
+                        "label": "extra"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "less": {
+                        "label": "less"
+                    }
+                }
+            }
+        },
+        "supportedDensity": {
+            "label": "supportedDensity",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "density": {
+            "label": "density",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "high": {
+                        "label": "high"
+                    },
+                    "extraHigh": {
+                        "label": "extraHigh"
+                    },
+                    "none": {
+                        "label": "none"
+                    }
+                }
+            }
+        },
+        "supportedAmount": {
+            "label": "supportedAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

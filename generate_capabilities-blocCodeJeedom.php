@@ -17,15 +17,74 @@ $customAdded = array(
 	"custom.airConditionerOdorController",
 	"custom.airConditionerOptionalMode",
 	"custom.airConditionerTropicalNightMode",
-	"custom.airPurifierOperationMode",
-	"custom.airQualityMaxLevel",
 	"custom.autoCleaningMode",
+	"samsungvd.ambient",
+	"samsungvd.ambient18",
+	"samsungvd.ambientContent",
+	"samsungce.autoDispenseDetergent",
+	"samsungce.autoDispenseSoftener",
+	"samsungce.customRecipe",
+	"samsungce.detergentState",
+	"samsungce.doorState",
+	"samsungce.driverVersion",
 	"custom.deodorFilter",
 	"custom.deviceInfo",
 	"custom.deviceDependencyStatus",
 	"custom.deviceReportStateConfiguration",
-  "custom.disabledCapabilities",
-	"custom.disabledComponents",
+	"custom.doNotDisturbMode",
+	"custom.dryerWrinklePrevent",
+	"custom.dryerDryLevel",
+	"samsungce.dryerAutoCycleLink",
+	"samsungce.dryerCycle",
+	"custom.dthVersion",
+	"custom.dustFilter",
+	"tag.e2eEncryption",
+	"custom.electricHepaFilter",
+	"custom.energyType",
+	"custom.error",
+	"custom.fridgeMode",
+	"custom.hepaFilter",
+	"tag.factoryReset",
+	"samsungvd.firmwareVersion",
+	"samsungtv.firmwareVersion",
+	"custom.jobBeginningStatus",
+	"samsungce.kidsLock",
+	"custom.launchapp",
+	"samsungvd.mediaInputSource",
+	"custom.outingMode",
+	"custom.ovenCavityStatus",
+	"custom.periodicSensing",
+	"custom.picturemode",
+	"custom.recording",
+	"custom.spiMode",
+	"custom.supportedOptions",
+	"custom.thermostatSetpointControl",
+	"custom.soundmode",
+	"custom.tvsearch",
+	"samsungce.softenerOrder",
+	"samsungce.softenerState",
+	"samsungtv.supportsPowerOnByOcf",
+	"tag.searchingStatus",
+	"tag.tagStatus",
+	"tag.tagButton",
+	"tag.updatedInfo",
+	"custom.veryFineDustFilter",
+	"custom.washerAutoDetergent",
+	"custom.washerAutoSoftener",
+	"samsungce.deviceIdentification",
+	"samsungce.washerBubbleSoak",
+	"samsungce.washerCycle",
+	"samsungce.washerCyclePreset",
+	"samsungce.waterConsumptionReport",
+	"samsungce.washerWashingTime",
+	"samsungce.washerWaterLevel",
+	"samsungce.washerWaterValve",
+	"samsungce.welcomeMessage",
+	"custom.washerRinseCycles",
+	"custom.washerSoilLevel",
+	"custom.washerSpinLevel",
+	"custom.washerWaterTemperature",
+	"custom.waterFilter",
 	"custom.dishwasherDelayStartTime",
 	"custom.dishwasherDiagnosis",
 	"custom.dishwasherSuppSelectedZone",
@@ -43,26 +102,9 @@ $customAdded = array(
 	"custom.dishwasherOperatingProgress",
 	"custom.dishwasherOperatingSuppProgress",
 	"custom.dishwasherKidsLock",
-	"custom.doNotDisturbMode",
-	"custom.dryerWrinklePrevent",
-	"custom.dryerDryLevel",
-	"custom.dthVersion",
-	"custom.dustFilter",
-	"custom.electricHepaFilter",
-	"custom.energyType",
-	"custom.error",
-	"custom.filterUsageTime",
-	"custom.firmwareVersion"
-	"custom.fridgeMode",
-	"custom.hepaFilter",
-	"custom.jobBeginningStatus",
-	"custom.launchapp",
-	"custom.lowerDevicePower",
-	"custom.outingMode",
-	"custom.ovenCavityStatus",
-	"custom.periodicSensing",
-	"custom.picturemode",
-	"custom.recording",
+	"custom.virusDoctorMode",
+	"custom.disabledCapabilities",
+	"custom.disabledComponents",
 	"custom.robotCleanerSmartTurboMode",
 	"custom.robotCleanerSoundSet",
 	"custom.robotCleanerSmartControl",
@@ -75,66 +117,24 @@ $customAdded = array(
 	"custom.robotCleanerReserveCleanType",
 	"custom.robotCleanerHrmSupport",
 	"custom.robotCleanerBehavior",
-	"custom.soundmode",
-	"custom.spiMode",
+	"custom.steamClosetOperatingState",
 	"custom.steamClosetCourse",
-  "custom.steamClosetOperatingState",
-	"custom.steamClosetSilentMode",
 	"custom.steamClosetWrinklePrevent",
-	"custom.supportedOptions",
-	"custom.thermostatSetpointControl",
-	"custom.tvsearch",
-	"custom.veryFineDustFilter",
-	"custom.virusDoctorMode",
-	"custom.washerAddwashAlarm",
-	"custom.washerRinseCycles",
-	"custom.washerSoilLevel",
-	"custom.washerSpinLevel",
-	"custom.washerWaterTemperature",
-	"custom.waterFilter",
-	"custom.washerAutoDetergent",
-	"custom.washerAutoSoftener",
+	"custom.steamClosetSilentMode",
+	"custom.lowerDevicePower",
+	"custom.airQualityMaxLevel",
+	"custom.airPurifierOperationMode",
 	"custom.welcomeCareMode",
-	"samsungce.autoDispenseDetergent",
-	"samsungce.autoDispenseSoftener",
-	"samsungce.customRecipe",
-	"samsungce.detergentState",
-	"samsungce.deviceIdentification",
-	"samsungce.doorState",
-	"samsungce.driverVersion",
-	"samsungce.dryerAutoCycleLink",
-	"samsungce.dryerCyclePreset",
-	"samsungce.dryerCycle",
-	"samsungce.dryerDryingTemperature",
-	"samsungce.dryerDryingTime",
-	"samsungce.kidsLock",
+	"custom.filterUsageTime",
 	"samsungce.lamp",
-	"samsungce.powerCool",
-	"samsungce.powerFreeze",
-	"samsungce.softenerOrder",
-	"samsungce.softenerState",
-	"samsungce.washerBubbleSoak",
-	"samsungce.washerCycle",
-	"samsungce.washerCyclePreset",
-	"samsungce.washerWashingTime",
-	"samsungce.washerWaterLevel",
-	"samsungce.washerWaterValve",
-	"samsungce.waterConsumptionReport",
-	"samsungce.welcomeMessage",
-	"samsungtv.firmwareVersion",
-	"samsungtv.supportsPowerOnByOcf",
-	"samsungvd.ambient",
-	"samsungvd.ambient18",
-	"samsungvd.ambientContent",
-	"samsungvd.firmwareVersion",
-	"samsungvd.mediaInputSource",
-	"tag.e2eEncryption",
-	"tag.factoryReset",
-	"tag.searchingStatus",
-	"tag.tagButton",
-	"tag.tagStatus",
-	"tag.updatedInfo",
+	"custom.washerAddwashAlarm",
 	"tag.uwbActivation",
+	"samsungce.dryerDryingTime",
+	"samsungce.dryerCyclePreset",
+	"samsungce.dryerDryingTemperature",
+	"samsungce.powerFreeze",
+	"samsungce.powerCool",
+	"samsungvd.supportsPowerOnByOcf"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/
@@ -161,7 +161,7 @@ $toto = json_decode($result, true);
  **/
 foreach ($toto['items'] as $capa) {
 
-	if ($i >= 0) continue; //limite à 3 pour les tests
+	//if ($i >= 0) continue; //limite à 3 pour les tests
 
 	/** Construction de l'url générale de chaque capa **/
 	$url_capability = $url_capabilities . '/' . $capa['id'] . '/' . $capa['version'];
@@ -189,6 +189,14 @@ foreach ($toto['items'] as $capa) {
 		$scenario->setLog($capa['id'] . "Presentation" . " n'existe pas.");
 		$pres = false;
 	}
+    /** Si traduction existe **/
+	if (is_file($tmp_dir . "/" . $capa['id'] . '.i18n.fr.json')) {
+        $i18n = 'fr';
+	} elseif (is_file($tmp_dir . "/" . $capa['id'] . '.i18n.en.json')) {
+        $i18n = 'en';
+	} else {
+        $i18n = false;
+    }
 
 	/** Indiquer si le fichier json de capability est présent dans le plugin SmartThings **/
 	if (!checkIfCapabilityExists($capa['id'])) {
@@ -196,7 +204,7 @@ foreach ($toto['items'] as $capa) {
 	}
 
 	/** création du markdown dans un fichier README.md **/
-	$eachMd = printMarkdown($i, $arrayCapa['name'], $capa['id'], $capa['version'], $capa['status'], $pres);
+	$eachMd = printMarkdown($i, $arrayCapa['name'], $capa['id'], $capa['version'], $capa['status'], $pres, $i18n);
 	$current = file_get_contents($tmp_dir . "/" . "README.md");
 	file_put_contents($tmp_dir . "/" . "README.md", $current . $eachMd);
 
@@ -239,6 +247,15 @@ foreach ($customAdded as $custom) {
 		$scenario->setLog($capa['id'] . "Presentation" . " n'existe pas.");
 		$pres = false;
 	}
+
+    /** Si traduction existe **/
+	if (is_file($tmp_dir . "/" . $capa['id'] . '.i18n.fr.json')) {
+        $i18n = 'fr';
+	} elseif (is_file($tmp_dir . "/" . $capa['id'] . '.i18n.en.json')) {
+        $i18n = 'en';
+	} else {
+        $i18n = false;
+    }
 
 	/** Indiquer si le fichier json de capability est présent dans le plugin SmartThings **/
 	if (!checkIfCapabilityExists($capa['id'])) {
@@ -292,9 +309,10 @@ function checkIfCapabilityExists($capability) {
 }
 
 /** méthode de création du markdown **/
-function printMarkdown($first, $name, $id, $version, $status, $pres) {
+function printMarkdown($first, $name, $id, $version, $status, $pres, $i18n = false) {
 
 	$pres = ($pres) ? "[json](./json/" . $id . "Presentation.json)" : "";
+	$i18n = ($i18n) ? "[json](./json/" . $id . ".i18n." . $i18n . ".json)" : "";
 	$md = "";
 	if (!$first) {
 		$md .= "## SmartThings Capabilities\n";
@@ -308,10 +326,10 @@ function printMarkdown($first, $name, $id, $version, $status, $pres) {
 		$md .= "* [Plugin Documentation](https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom/)\n";
 		$md .= "* [Plugin Jeedom Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4099)\n\n";
 
-		$md .= "| Capability | Version | Status | Capability Presentation |\n";
-		$md .= "| ---- | ---- | ---- | ---- |\n";
+		$md .= "| Capability | Version | Status | Capability Presentation | Translation i18n \n";
+		$md .= "| ---- | ---- | ---- | ---- | ---- |\n";
 	}
-	$md .= "| [" . $name . "](./json/" . $id . ".json) | " . $version . " | " . $status . " | " . $pres . " | \n";
+	$md .= "| [" . $name . "](./json/" . $id . ".json) | " . $version . " | " . $status . " | " . $pres . " | " . $i18n . " | \n";
 	return $md;
 }
 
@@ -324,5 +342,3 @@ function createPrettyJson($capaId, $var) {
 	$pretty = json_encode($var, JSON_PRETTY_PRINT);
 	file_put_contents($tmp_dir . "/" . $capaId . ".json", $pretty);
 }
-
-?>

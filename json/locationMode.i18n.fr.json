@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Location Mode",
+    "attributes": {
+        "mode": {
+            "label": "Mode",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

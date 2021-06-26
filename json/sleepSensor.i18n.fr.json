@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Sleep Sensor",
+    "attributes": {
+        "sleeping": {
+            "label": "D\u00e9tecteur de veille",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": {
+                "value": {
+                    "not sleeping": {
+                        "label": "not sleeping"
+                    },
+                    "sleeping": {
+                        "label": "Veille"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

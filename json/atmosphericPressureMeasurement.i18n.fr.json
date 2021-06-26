@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Atmospheric Pressure Measurement",
+    "attributes": {
+        "atmosphericPressure": {
+            "label": "pression atmosph\u00e9rique",
+            "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} kPa",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

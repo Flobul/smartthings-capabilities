@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Washer Washing Time",
+    "attributes": {
+        "supportedWashingTimes": {
+            "label": "supportedWashingTimes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "washingTime": {
+            "label": "washingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

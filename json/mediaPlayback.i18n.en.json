@@ -1,0 +1,72 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the media playback.",
+    "attributes": {
+        "playbackStatus": {
+            "label": "playback status",
+            "description": "Status of the media playback",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "pause": {
+                        "description": "Media playback is in a \"paused\" state",
+                        "label": "pause"
+                    },
+                    "play": {
+                        "description": "Media playback is in a \"playing\" state",
+                        "label": "play"
+                    },
+                    "stop": {
+                        "description": "Media playback is in a \"stopped\" state",
+                        "label": "stop"
+                    },
+                    "fastForward": {
+                        "description": "Media playback is in a \"fast forwarding\" state",
+                        "label": "fastForward"
+                    },
+                    "rewind": {
+                        "description": "Media playback is in a \"rewinding\" state",
+                        "label": "rewind"
+                    }
+                }
+            }
+        },
+        "supportedPlaybackCommands": {
+            "label": "supported playback commands",
+            "description": "Media playback commands which are supported",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setPlaybackStatus": {
+            "description": "Set the playback status",
+            "arguments": {
+                "status": {
+                    "i18n": [],
+                    "description": "Set the playback status to \"paused\", \"playing\", \"stopped\", \"fast forwarding\" or \"rewinding\" state."
+                }
+            }
+        },
+        "play": {
+            "description": "Set the playback status to \"playing\"",
+            "arguments": []
+        },
+        "pause": {
+            "description": "Set the playback status to \"paused\"",
+            "arguments": []
+        },
+        "stop": {
+            "description": "Set the playback status to \"stopped\"",
+            "arguments": []
+        },
+        "fastForward": {
+            "description": "Set the playback status to \"fast forwarding\"",
+            "arguments": []
+        },
+        "rewind": {
+            "description": "Set the playback status to \"rewinding\"",
+            "arguments": []
+        }
+    }
+}

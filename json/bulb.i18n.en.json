@@ -1,0 +1,31 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a bulb device",
+    "attributes": {
+        "switch": {
+            "label": "switch",
+            "description": "A string representation of whether the bulb is on or off",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "on": {
+                        "description": "The value of the ``switch`` attribute if the bulb is on"
+                    },
+                    "off": {
+                        "description": "The value of the ``switch`` attribute if the bulb is off"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "on": {
+            "description": "Turn a bulb on",
+            "arguments": []
+        },
+        "off": {
+            "description": "Turn a bulb off",
+            "arguments": []
+        }
+    }
+}

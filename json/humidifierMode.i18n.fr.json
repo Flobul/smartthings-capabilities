@@ -1,0 +1,27 @@
+{
+    "tag": "fr",
+    "label": "Humidifier Mode",
+    "attributes": {
+        "humidifierMode": {
+            "label": "humidificateur",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "label": "auto"
+                    },
+                    "high": {
+                        "label": "high"
+                    },
+                    "low": {
+                        "label": "low"
+                    },
+                    "medium": {
+                        "label": "medium"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

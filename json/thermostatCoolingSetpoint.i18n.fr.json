@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Thermostat Cooling Setpoint",
+    "attributes": {
+        "coolingSetpoint": {
+            "label": "Temp\u00e9rature de refroidissement",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} {{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

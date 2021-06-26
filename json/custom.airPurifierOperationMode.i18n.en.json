@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Air Purifier Operation Mode",
+    "attributes": {
+        "apOperationMode": {
+            "label": "apOperationMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedApOperationMode": {
+            "label": "supportedApOperationMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

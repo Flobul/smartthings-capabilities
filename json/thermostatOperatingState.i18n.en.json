@@ -1,0 +1,28 @@
+{
+    "tag": "en",
+    "description": "Gives the ability to see the current state that the thermostat is operating in",
+    "attributes": {
+        "thermostatOperatingState": {
+            "label": "state",
+            "description": "The current state that the thermostat is operating in",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "cooling": {
+                        "description": "The thermostat is cooling",
+                        "label": "cooling"
+                    },
+                    "idle": {
+                        "description": "The thermostat is idle",
+                        "label": "idle"
+                    },
+                    "heating": {
+                        "description": "The thermostat is heating",
+                        "label": "heating"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

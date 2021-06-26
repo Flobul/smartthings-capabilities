@@ -1,0 +1,16 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the audio track addressing.",
+    "attributes": [],
+    "commands": {
+        "setAudioTrack": {
+            "description": "Set the audio track",
+            "arguments": {
+                "trackToSet": {
+                    "i18n": [],
+                    "description": "Set the audio to this audio track address"
+                }
+            }
+        }
+    }
+}

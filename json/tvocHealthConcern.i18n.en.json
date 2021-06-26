@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Health Concern levels of TVOC sensor measurements.",
+    "attributes": {
+        "tvocHealthConcern": {
+            "label": "TVOC health concern",
+            "description": "Current health concern of TVOC, based on the relative health hazard",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

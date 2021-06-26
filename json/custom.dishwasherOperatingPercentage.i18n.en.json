@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Dishwasher Operating Percentage",
+    "attributes": {
+        "dishwasherOperatingPercentage": {
+            "label": "dishwasherOperatingPercentage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

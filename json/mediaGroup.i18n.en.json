@@ -1,0 +1,98 @@
+{
+    "tag": "en",
+    "description": "Allows for the expression of media grouping.",
+    "attributes": {
+        "groupRole": {
+            "label": "group role",
+            "description": "Current role in the group",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "primary": {
+                        "description": "Device is the group controller",
+                        "label": "primary"
+                    },
+                    "auxilary": {
+                        "description": "Device is a non-controlling member of the group",
+                        "label": "auxilary"
+                    },
+                    "ungrouped": {
+                        "description": "Device is \"ungrouped\"",
+                        "label": "ungrouped"
+                    }
+                }
+            }
+        },
+        "groupPrimaryDeviceId": {
+            "label": "group controller identifier",
+            "description": "Reference to the main controller of the group",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "groupId": {
+            "label": "group identifier",
+            "description": "An identifier for the group",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "groupVolume": {
+            "label": "group volume",
+            "description": "The current group volume setting of the audio group",
+            "displayTemplate": "{{attribute}} of {{device.label}}: {{value}}%",
+            "i18n": []
+        },
+        "groupMute": {
+            "label": "group mute",
+            "description": "Current status of group audio mute",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "muted": {
+                        "description": "The group audio is in \"muted\" state",
+                        "label": "muted"
+                    },
+                    "unmuted": {
+                        "description": "The group audio is in \"unmuted\" state",
+                        "label": "unmuted"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setGroupVolume": {
+            "description": "Set the group volume level",
+            "arguments": {
+                "groupVolume": {
+                    "i18n": [],
+                    "description": "A value to which the group volume level should be set"
+                }
+            }
+        },
+        "groupVolumeUp": {
+            "description": "Turn the group volume up",
+            "arguments": []
+        },
+        "groupVolumeDown": {
+            "description": "Turn the group volume down",
+            "arguments": []
+        },
+        "setGroupMute": {
+            "description": "Set the group audio mute state",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the group audio mute state to \"muted\" or \"unmuted\""
+                }
+            }
+        },
+        "muteGroup": {
+            "description": "Set the group audio to mute state",
+            "arguments": []
+        },
+        "unmuteGroup": {
+            "description": "Set the group audio to unmute state",
+            "arguments": []
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Water Sensor",
+    "attributes": {
+        "water": {
+            "label": "Eau",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "wet": {
+                        "label": "Humide"
+                    },
+                    "dry": {
+                        "label": "Sec"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

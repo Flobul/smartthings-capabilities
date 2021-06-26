@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Energy Type",
+    "attributes": {
+        "energyType": {
+            "label": "energyType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

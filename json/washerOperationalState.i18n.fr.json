@@ -1,0 +1,78 @@
+{
+    "tag": "fr",
+    "label": "Washer Operational State",
+    "attributes": {
+        "completionTime": {
+            "label": "Heure de fin",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "machineState": {
+            "label": "Statut de machine",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "stop": {
+                        "label": "Arr\u00eat"
+                    },
+                    "run": {
+                        "label": "Marche"
+                    },
+                    "pause": {
+                        "label": "Pause"
+                    }
+                }
+            }
+        },
+        "washerJobState": {
+            "label": "Statut de t\u00e2che du lave-linge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "airWash": {
+                        "label": "Lavage \u00e0 l'air"
+                    },
+                    "weightSensing": {
+                        "label": "D\u00e9tection de poids"
+                    },
+                    "drying": {
+                        "label": "S\u00e9chage"
+                    },
+                    "spin": {
+                        "label": "S\u00e9chage"
+                    },
+                    "cooling": {
+                        "label": "Refroidissement"
+                    },
+                    "preWash": {
+                        "label": "Pr\u00e9lavage"
+                    },
+                    "wash": {
+                        "label": "Lavage"
+                    },
+                    "wrinklePrevent": {
+                        "label": "Traitement anti-traces"
+                    },
+                    "delayWash": {
+                        "label": "Lavage diff\u00e9r\u00e9"
+                    },
+                    "finish": {
+                        "label": "Fin"
+                    },
+                    "none": {
+                        "label": "Aucun"
+                    },
+                    "rinse": {
+                        "label": "Rin\u00e7age"
+                    }
+                }
+            }
+        },
+        "supportedMachineStates": {
+            "label": "Statut de machine pris en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

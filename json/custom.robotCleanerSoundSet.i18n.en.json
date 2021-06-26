@@ -1,0 +1,33 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Sound Set",
+    "attributes": {
+        "robotCleanerSoundSet": {
+            "label": "robotCleanerSoundSet",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "voiceM": {
+                        "label": "voiceM"
+                    },
+                    "starWars": {
+                        "label": "starWars"
+                    },
+                    "soundEffect": {
+                        "label": "soundEffect"
+                    },
+                    "mute": {
+                        "label": "mute"
+                    },
+                    "voiceW": {
+                        "label": "voiceW"
+                    },
+                    "voiceFeed": {
+                        "label": "voiceFeed"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

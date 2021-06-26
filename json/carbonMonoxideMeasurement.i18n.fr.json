@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Carbon Monoxide Measurement",
+    "attributes": {
+        "carbonMonoxideLevel": {
+            "label": "Niveau de monoxyde de carbone",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} ppm",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

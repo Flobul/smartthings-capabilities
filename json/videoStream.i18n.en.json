@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the video stream.",
+    "attributes": {
+        "stream": {
+            "label": "stream",
+            "description": "Current status of the video stream",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "startStream": {
+            "description": "Start the video stream",
+            "arguments": []
+        },
+        "stopStream": {
+            "description": "Stop the video stream",
+            "arguments": []
+        }
+    }
+}

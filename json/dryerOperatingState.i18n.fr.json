@@ -1,0 +1,78 @@
+{
+    "tag": "fr",
+    "label": "Dryer Operating State",
+    "attributes": {
+        "completionTime": {
+            "label": "Heure de fin",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "machineState": {
+            "label": "Statut de machine",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "stop": {
+                        "label": "Arr\u00eat"
+                    },
+                    "run": {
+                        "label": "Marche"
+                    },
+                    "pause": {
+                        "label": "Pause"
+                    }
+                }
+            }
+        },
+        "supportedMachineStates": {
+            "label": "Statut de machine pris en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "dryerJobState": {
+            "label": "Statut de t\u00e2che du s\u00e8che-linge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "weightSensing": {
+                        "label": "D\u00e9tection de poids"
+                    },
+                    "drying": {
+                        "label": "S\u00e9chage"
+                    },
+                    "refreshing": {
+                        "label": "refreshing"
+                    },
+                    "cooling": {
+                        "label": "Refroidissement"
+                    },
+                    "wrinklePrevent": {
+                        "label": "Traitement anti-traces"
+                    },
+                    "sanitizing": {
+                        "label": "sanitizing"
+                    },
+                    "delayWash": {
+                        "label": "Lavage diff\u00e9r\u00e9"
+                    },
+                    "finished": {
+                        "label": "Fin"
+                    },
+                    "internalCare": {
+                        "label": "internalCare"
+                    },
+                    "none": {
+                        "label": "Aucun"
+                    },
+                    "dehumidifying": {
+                        "label": "dehumidifying"
+                    },
+                    "aIDrying": {
+                        "label": "aIDrying"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,93 @@
+{
+    "tag": "en",
+    "description": "Maintains and sets the state of an air conditioner's fan",
+    "attributes": {
+        "fanMode": {
+            "label": "fan mode",
+            "description": "The current mode of the fan",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "turbo": {
+                        "label": "Turbo"
+                    },
+                    "medium": {
+                        "label": "Medium"
+                    },
+                    "pet": {
+                        "label": "pet"
+                    },
+                    "auto": {
+                        "label": "Auto"
+                    },
+                    "high": {
+                        "label": "High"
+                    },
+                    "sleep": {
+                        "label": "Sleep"
+                    },
+                    "low": {
+                        "label": "Low"
+                    },
+                    "max": {
+                        "label": "MAX"
+                    },
+                    "windFree": {
+                        "label": "Wind Free"
+                    },
+                    "smart": {
+                        "label": "Smart"
+                    }
+                }
+            }
+        },
+        "supportedAcFanModes": {
+            "label": "supported ac fan modes",
+            "description": "Supported states for this air conditioner fan to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setFanMode": {
+            "description": "Set the fan's mode",
+            "arguments": {
+                "fanMode": {
+                    "i18n": {
+                        "turbo": {
+                            "label": "Turbo"
+                        },
+                        "medium": {
+                            "label": "Medium"
+                        },
+                        "pet": {
+                            "label": "pet"
+                        },
+                        "auto": {
+                            "label": "Auto"
+                        },
+                        "high": {
+                            "label": "High"
+                        },
+                        "sleep": {
+                            "label": "Sleep"
+                        },
+                        "low": {
+                            "label": "Low"
+                        },
+                        "max": {
+                            "label": "MAX"
+                        },
+                        "windFree": {
+                            "label": "Wind Free"
+                        },
+                        "smart": {
+                            "label": "Smart"
+                        }
+                    },
+                    "description": "The fan mode"
+                }
+            }
+        }
+    }
+}

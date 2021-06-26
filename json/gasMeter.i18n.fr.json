@@ -1,0 +1,37 @@
+{
+    "tag": "fr",
+    "label": "Gas Meter",
+    "attributes": {
+        "gasMeterPrecision": {
+            "label": "pr\u00e9cision des mesures",
+            "displayTemplate": "La {{attribute}} de {{device.label}} a \u00e9t\u00e9 mise \u00e0 jour",
+            "i18n": []
+        },
+        "gasMeterCalorific": {
+            "label": "\u00e9nergie calorifique",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": []
+        },
+        "gasMeterTime": {
+            "label": "heure du relev\u00e9 de compteur",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": []
+        },
+        "gasMeterVolume": {
+            "label": "volume de gaz",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait \u00e9gal \u00e0 {{value}}m^3.",
+            "i18n": []
+        },
+        "gasMeterConversion": {
+            "label": "facteur de conversion",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": []
+        },
+        "gasMeter": {
+            "label": "mesure de gaz",
+            "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} kWh",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

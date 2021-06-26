@@ -1,0 +1,103 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the dishwasher operational state.",
+    "attributes": {
+        "machineState": {
+            "label": "machine state",
+            "description": "State of the dishwasher operation",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "pause": {
+                        "description": "Dishwasher is in the pause state",
+                        "label": "pause"
+                    },
+                    "run": {
+                        "description": "Dishwasher is in the run state",
+                        "label": "run"
+                    },
+                    "stop": {
+                        "description": "Dishwasher is in the stop state",
+                        "label": "stop"
+                    }
+                }
+            }
+        },
+        "supportedMachineStates": {
+            "label": "supported machine states",
+            "description": "Operating states supported by the dishwasher machine",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "completionTime": {
+            "label": "completion time",
+            "description": "Completion time for the current dishwasher operation",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "dishwasherJobState": {
+            "label": "dishwasher job state",
+            "description": "Current status of the dishwasher machine",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "airwash": {
+                        "description": "The dishwasher machine is in \"airwash\" mode",
+                        "label": "airwash"
+                    },
+                    "cooling": {
+                        "description": "The dishwasher machine is in \"cooling\" mode",
+                        "label": "cooling"
+                    },
+                    "drying": {
+                        "description": "The dishwasher machine is in \"drying\" mode",
+                        "label": "drying"
+                    },
+                    "finish": {
+                        "description": "The dishwasher machine is in \"finish\" mode",
+                        "label": "finish"
+                    },
+                    "preDrain": {
+                        "description": "The dishwasher machine is in \"preDrain\" mode",
+                        "label": "preDrain"
+                    },
+                    "prewash": {
+                        "description": "The dishwasher machine is in \"prewash\" mode",
+                        "label": "prewash"
+                    },
+                    "rinse": {
+                        "description": "The dishwasher machine is in \"rinse\" mode",
+                        "label": "rinse"
+                    },
+                    "spin": {
+                        "description": "The dishwasher machine is in \"spin\" mode",
+                        "label": "spin"
+                    },
+                    "unknown": {
+                        "description": "The dishwasher machine is in \"unknown\" mode",
+                        "label": "unknown"
+                    },
+                    "wash": {
+                        "description": "The dishwasher machine is in \"wash\" mode",
+                        "label": "wash"
+                    },
+                    "wrinklePrevent": {
+                        "description": "The dishwasher machine is in \"wrinklePrevent\" mode",
+                        "label": "wrinklePrevent"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setMachineState": {
+            "description": "Set the dishwasher machine state",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the dishwasher machine in an operational state, pause, run or stop"
+                }
+            }
+        }
+    }
+}

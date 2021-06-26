@@ -1,0 +1,95 @@
+{
+    "tag": "en",
+    "label": "Dryer Dry Level",
+    "attributes": {
+        "dryerDryLevel": {
+            "label": "dryerDryLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "very": {
+                        "label": "very"
+                    },
+                    "delicate": {
+                        "label": "delicate"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "270": {
+                        "label": "270"
+                    },
+                    "150": {
+                        "label": "150"
+                    },
+                    "damp": {
+                        "label": "damp"
+                    },
+                    "210": {
+                        "label": "210"
+                    },
+                    "extra": {
+                        "label": "extra"
+                    },
+                    "90": {
+                        "label": "90"
+                    },
+                    "30": {
+                        "label": "30"
+                    },
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "more": {
+                        "label": "more"
+                    },
+                    "180": {
+                        "label": "180"
+                    },
+                    "less": {
+                        "label": "less"
+                    },
+                    "cupboard": {
+                        "label": "cupboard"
+                    },
+                    "240": {
+                        "label": "240"
+                    },
+                    "120": {
+                        "label": "120"
+                    },
+                    "0": {
+                        "label": "0"
+                    },
+                    "1": {
+                        "label": "1"
+                    },
+                    "2": {
+                        "label": "2"
+                    },
+                    "3": {
+                        "label": "3"
+                    },
+                    "shirt": {
+                        "label": "shirt"
+                    },
+                    "4": {
+                        "label": "4"
+                    },
+                    "5": {
+                        "label": "5"
+                    },
+                    "60": {
+                        "label": "60"
+                    }
+                }
+            }
+        },
+        "supportedDryerDryLevel": {
+            "label": "supportedDryerDryLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

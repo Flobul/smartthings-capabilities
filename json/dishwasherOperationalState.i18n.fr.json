@@ -1,0 +1,75 @@
+{
+    "tag": "fr",
+    "label": "Dishwasher Operational State",
+    "attributes": {
+        "completionTime": {
+            "label": "Heure de fin",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "machineState": {
+            "label": "Statut de machine",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "stop": {
+                        "label": "Arr\u00eat"
+                    },
+                    "run": {
+                        "label": "Marche"
+                    },
+                    "pause": {
+                        "label": "Pause"
+                    }
+                }
+            }
+        },
+        "supportedMachineStates": {
+            "label": "Statut de machine pris en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "dishwasherJobState": {
+            "label": "Statut de t\u00e2che du lave-vaisselle",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "preDrain": {
+                        "label": "Trempage"
+                    },
+                    "drying": {
+                        "label": "S\u00e9chage"
+                    },
+                    "spin": {
+                        "label": "S\u00e9chage"
+                    },
+                    "cooling": {
+                        "label": "Refroidissement"
+                    },
+                    "wash": {
+                        "label": "Lavage"
+                    },
+                    "wrinklePrevent": {
+                        "label": "Traitement anti-traces"
+                    },
+                    "finish": {
+                        "label": "Fin"
+                    },
+                    "prewash": {
+                        "label": "Pr\u00e9lavage"
+                    },
+                    "airwash": {
+                        "label": "Purification d'air"
+                    },
+                    "rinse": {
+                        "label": "Rin\u00e7age"
+                    },
+                    "unknown": {
+                        "label": "Inconnu"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

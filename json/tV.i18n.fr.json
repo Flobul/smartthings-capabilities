@@ -1,0 +1,37 @@
+{
+    "tag": "fr",
+    "label": "TV",
+    "attributes": {
+        "volume": {
+            "label": "Volume",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "movieMode": {
+            "label": "Mode Film",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "sound": {
+            "label": "Son",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "channel": {
+            "label": "Cha\u00eene",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "power": {
+            "label": "Marche",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "picture": {
+            "label": "Photo",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

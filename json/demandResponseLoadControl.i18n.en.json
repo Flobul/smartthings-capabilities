@@ -1,0 +1,48 @@
+{
+    "tag": "en",
+    "description": "Allows requests to be made to appliances to temporarily reduce their energy usage to reduce demand on the power grid",
+    "attributes": {
+        "drlcStatus": {
+            "label": "drlc status",
+            "description": "The status of the current or last active DRLC request",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": {
+                "value": {
+                    "prop": {
+                        "description": "The requested load reduction duration in minutes"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "requestDrlcAction": {
+            "description": "Request an appliance to reduce its load to aleviate power grid demmand",
+            "arguments": {
+                "reportingPeriod": {
+                    "i18n": [],
+                    "description": "Optional reporting period in minutes. If specified the device will generate a drlcStatus event periodically while load reduction is in effect. If not specified then events will only be generated when the DRLC status changes."
+                },
+                "drlcType": {
+                    "i18n": [
+                        [],
+                        []
+                    ],
+                    "description": "Type of load reduction request. One of the following:"
+                },
+                "start": {
+                    "i18n": [],
+                    "description": "The date & time at which load reduction is requested to start"
+                },
+                "duration": {
+                    "i18n": [],
+                    "description": "The length of time load reduction should take place, in minutes"
+                }
+            }
+        },
+        "overrideDrlcAction": {
+            "description": "Override the requested load reduction request",
+            "arguments": []
+        }
+    }
+}

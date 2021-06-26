@@ -1,0 +1,72 @@
+{
+    "tag": "en",
+    "description": "A representation of fan oscillation",
+    "attributes": {
+        "fanOscillationMode": {
+            "label": "fan oscillation mode",
+            "description": "The current mode of oscillation; an enum of fixed, vertical, horizontal, direct, indirect, fixedCenter, fixedLeft, fixedRight, far,  all",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "all": {
+                        "description": "The fan is set to oscillate in all directions",
+                        "label": "all"
+                    },
+                    "far": {
+                        "description": "The fan is set to move air at a distance",
+                        "label": "far"
+                    },
+                    "fixed": {
+                        "description": "The fan is fixed in one direction and not oscillating",
+                        "label": "fixed"
+                    },
+                    "fixedCenter": {
+                        "description": "The fan is fixed to the center and not oscillating",
+                        "label": "fixed center"
+                    },
+                    "fixedLeft": {
+                        "description": "The fan is fixed to the left and not oscillating",
+                        "label": "fixed left"
+                    },
+                    "fixedRight": {
+                        "description": "The fan is fixed to the right and not oscillating",
+                        "label": "fixed right"
+                    },
+                    "vertical": {
+                        "description": "The fan is set to oscillate vertically",
+                        "label": "vertical"
+                    },
+                    "horizontal": {
+                        "description": "The fan is set to oscillate horizontally",
+                        "label": "horizontal"
+                    },
+                    "direct": {
+                        "description": "The fan is set to oscillate in the direction of people",
+                        "label": "direct"
+                    },
+                    "indirect": {
+                        "description": "The fan is set to oscillate while avoiding people",
+                        "label": "indirect"
+                    }
+                }
+            }
+        },
+        "supportedFanOscillationModes": {
+            "label": "supported oscillating fan modes",
+            "description": "Supported states for this oscillating fan to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setFanOscillationMode": {
+            "description": "set oscillation mode",
+            "arguments": {
+                "fanOscillationMode": {
+                    "i18n": [],
+                    "description": "fan oscillation mode"
+                }
+            }
+        }
+    }
+}

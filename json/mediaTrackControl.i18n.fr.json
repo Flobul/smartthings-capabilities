@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Media Track Control",
+    "attributes": {
+        "supportedTrackControlCommands": {
+            "label": "Commandes de contr\u00f4le des pistes prises en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Allows for the ability to measure relative body weight",
+    "attributes": {
+        "bodyWeightMeasurement": {
+            "label": "body weight",
+            "description": "Current body weight measured in kg, lbs, or \u65a4",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

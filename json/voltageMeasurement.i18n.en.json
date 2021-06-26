@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Get the value of voltage measured from devices that support it",
+    "attributes": {
+        "voltage": {
+            "label": "voltage",
+            "description": "A number representing the current voltage measured",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}V",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

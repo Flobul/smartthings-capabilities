@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Measure equivalent carbon dioxide levels",
+    "attributes": {
+        "equivalentCarbonDioxideMeasurement": {
+            "label": "equivalent carbon dioxide",
+            "description": "The equivalent carbon dioxide level detected in ppm by volume",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}ppm",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,134 @@
+{
+    "tag": "en",
+    "description": "Allows for control of a music playing device",
+    "attributes": {
+        "trackData": {
+            "label": "track data",
+            "description": "A JSON data structure that represents current track data",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
+        "level": {
+            "label": "volume",
+            "description": "``0-100`` (percent)",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "mute": {
+            "label": "mute",
+            "description": "A string representation of whether the music player is muted or not",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "unmuted": {
+                        "description": "The value of the ``mute`` attribute if unmuted",
+                        "label": "Unmute"
+                    },
+                    "muted": {
+                        "description": "The value of the ``mute`` attribute if muted",
+                        "label": "Mute"
+                    }
+                }
+            }
+        },
+        "trackDescription": {
+            "label": "track description",
+            "description": "Description of the current playing track",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "status": {
+            "label": "status",
+            "description": "State of the music player as a string",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "pause": {
+                        "label": "Pause"
+                    },
+                    "play": {
+                        "label": "Play"
+                    },
+                    "stop": {
+                        "label": "Stop"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "resumeTrack": {
+            "description": "Restore the playlist position to the given track and start playback",
+            "arguments": {
+                "trackToResume": {
+                    "i18n": [],
+                    "description": "A URI String representing the track to resume"
+                }
+            }
+        },
+        "restoreTrack": {
+            "description": "Restore the playlist position to the given track",
+            "arguments": {
+                "trackToRestore": {
+                    "i18n": [],
+                    "description": "A URI String representing the track to restore"
+                }
+            }
+        },
+        "setTrack": {
+            "description": "Set the current track",
+            "arguments": {
+                "trackToSet": {
+                    "i18n": [],
+                    "description": "Set the given track to the given URI String"
+                }
+            }
+        },
+        "pause": {
+            "description": "Pause playback",
+            "arguments": []
+        },
+        "setLevel": {
+            "description": "Set the level to the specified value",
+            "arguments": {
+                "level": {
+                    "i18n": [],
+                    "description": "The level to set playback to in the range ``0-100`` as a percent"
+                }
+            }
+        },
+        "mute": {
+            "description": "Mute playback",
+            "arguments": []
+        },
+        "playTrack": {
+            "description": "Play the given track",
+            "arguments": {
+                "trackToPlay": {
+                    "i18n": [],
+                    "description": "A URI String representing the track to play"
+                }
+            }
+        },
+        "stop": {
+            "description": "Stop playback",
+            "arguments": []
+        },
+        "nextTrack": {
+            "description": "Advance to the next track",
+            "arguments": []
+        },
+        "previousTrack": {
+            "description": "Revert to the previous track",
+            "arguments": []
+        },
+        "play": {
+            "description": "Start playback",
+            "arguments": []
+        },
+        "unmute": {
+            "description": "Unmute playback",
+            "arguments": []
+        }
+    }
+}

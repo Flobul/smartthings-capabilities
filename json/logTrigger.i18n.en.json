@@ -1,0 +1,38 @@
+{
+    "tag": "en",
+    "description": "Trigger uploading of log information",
+    "attributes": {
+        "logState": {
+            "label": "log state",
+            "description": "State of the log",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "logRequestState": {
+            "label": "log request state",
+            "description": "State of the log request",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "logInfo": {
+            "label": "log info",
+            "description": "Log information",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "triggerLog": {
+            "description": "Trigger upload of the log",
+            "arguments": []
+        },
+        "triggerLogWithLogInfo": {
+            "description": "Trigger upload of the log with log info",
+            "arguments": []
+        },
+        "triggerLogWithUrl": {
+            "description": "Trigger uploa dof the log with URL",
+            "arguments": []
+        }
+    }
+}

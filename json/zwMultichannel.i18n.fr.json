@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Zw Multichannel",
+    "attributes": {
+        "epEvent": {
+            "label": "\u00c9v\u00e9nement de point de terminaison",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "epInfo": {
+            "label": "Informations sur le point de terminaison",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "Allows for setting the heating setpoint on a thermostat",
+    "attributes": {
+        "heatingSetpoint": {
+            "label": "heating temperature",
+            "description": "The current heating setpoint",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setHeatingSetpoint": {
+            "description": "Set the heating setpoint",
+            "arguments": {
+                "setpoint": {
+                    "i18n": [],
+                    "description": "A value that the heating setpoint should be set to"
+                }
+            }
+        }
+    }
+}

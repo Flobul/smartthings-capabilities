@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Audio Volume",
+    "attributes": {
+        "volume": {
+            "label": "Volume",
+            "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} %",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

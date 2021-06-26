@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Stateless Power Button",
+    "attributes": {
+        "availablePowerButtons": {
+            "label": "touches configur\u00e9es",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

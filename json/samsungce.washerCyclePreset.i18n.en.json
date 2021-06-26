@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Washer Cycle Preset",
+    "attributes": {
+        "maxNumberOfPresets": {
+            "label": "maxNumberOfPresets",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "presets": {
+            "label": "presets",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

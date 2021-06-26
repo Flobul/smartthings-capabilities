@@ -1,0 +1,40 @@
+{
+    "tag": "en",
+    "description": "Health Concern levels of mold sensor measurements.",
+    "attributes": {
+        "moldHealthConcern": {
+            "label": "mold health concern",
+            "description": "Current health concern of mold, based on the relative health hazard.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "good": {
+                        "description": "Mold is likely undetected.",
+                        "label": "good"
+                    },
+                    "moderate": {
+                        "description": "Mold may exist in small quantities.",
+                        "label": "moderate"
+                    },
+                    "slightlyUnhealthy": {
+                        "description": "Some mold is likely to exist.",
+                        "label": "slightly unhealthy"
+                    },
+                    "unhealthy": {
+                        "description": "Mold may exist in unhealthy levels.",
+                        "label": "unhealthy"
+                    },
+                    "veryUnhealthy": {
+                        "description": "Mold may exist in very unhealthy levels.",
+                        "label": "very unhealthy"
+                    },
+                    "hazardous": {
+                        "description": "Mold may exist in levels which are hazardous to health.",
+                        "label": "hazardous"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

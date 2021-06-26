@@ -1,0 +1,71 @@
+{
+    "tag": "en",
+    "label": "Washer Water Level",
+    "attributes": {
+        "supportedWaterLevel": {
+            "label": "supportedWaterLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "waterLevel": {
+            "label": "waterLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "11": {
+                        "label": "11"
+                    },
+                    "12": {
+                        "label": "12"
+                    },
+                    "13": {
+                        "label": "13"
+                    },
+                    "14": {
+                        "label": "14"
+                    },
+                    "15": {
+                        "label": "15"
+                    },
+                    "noDisplay": {
+                        "label": "noDisplay"
+                    },
+                    "0": {
+                        "label": "0"
+                    },
+                    "1": {
+                        "label": "1"
+                    },
+                    "2": {
+                        "label": "2"
+                    },
+                    "3": {
+                        "label": "3"
+                    },
+                    "4": {
+                        "label": "4"
+                    },
+                    "5": {
+                        "label": "5"
+                    },
+                    "6": {
+                        "label": "6"
+                    },
+                    "7": {
+                        "label": "7"
+                    },
+                    "8": {
+                        "label": "8"
+                    },
+                    "9": {
+                        "label": "9"
+                    },
+                    "10": {
+                        "label": "10"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

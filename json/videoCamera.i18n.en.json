@@ -1,0 +1,67 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the video camera.",
+    "attributes": {
+        "camera": {
+            "label": "camera",
+            "description": "The current state of the video camera",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "Off"
+                    },
+                    "on": {
+                        "label": "On"
+                    },
+                    "restarting": {
+                        "label": "Restarting"
+                    },
+                    "unavailable": {
+                        "label": "Unavailable"
+                    }
+                }
+            }
+        },
+        "mute": {
+            "label": "mute",
+            "description": "The current mute state",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "settings": {
+            "label": "settings",
+            "description": "The current state of the settings",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
+        "statusMessage": {
+            "label": "status message",
+            "description": "The status message",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "flip": {
+            "description": "Flip the picture display",
+            "arguments": []
+        },
+        "mute": {
+            "description": "Mute the video camera",
+            "arguments": []
+        },
+        "off": {
+            "description": "Turn off the video camera",
+            "arguments": []
+        },
+        "on": {
+            "description": "Turn on the video camera",
+            "arguments": []
+        },
+        "unmute": {
+            "description": "Unmute the video camera",
+            "arguments": []
+        }
+    }
+}

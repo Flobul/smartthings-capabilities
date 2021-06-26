@@ -1,0 +1,41 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a vehicle engine",
+    "attributes": {
+        "engineState": {
+            "label": "engine state",
+            "description": "A string representation of the state of the engine",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "starting": {
+                        "description": "The engine is in the starting phase",
+                        "label": "starting"
+                    },
+                    "running": {
+                        "description": "The engine is running",
+                        "label": "running"
+                    },
+                    "unknown": {
+                        "description": "The engine state is unknown",
+                        "label": "unknown"
+                    },
+                    "off": {
+                        "description": "The engine is off",
+                        "label": "off"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "startEngine": {
+            "description": "Turn the engine on",
+            "arguments": []
+        },
+        "stopEngine": {
+            "description": "Turn the engine off",
+            "arguments": []
+        }
+    }
+}

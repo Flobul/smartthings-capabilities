@@ -1,0 +1,116 @@
+{
+    "tag": "en",
+    "description": "A device with one or more buttons",
+    "attributes": {
+        "button": {
+            "label": "button",
+            "description": "The state of the button",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "pushed": {
+                        "description": "The value if the button is pushed",
+                        "label": "pushed"
+                    },
+                    "held": {
+                        "description": "The value if the button is held",
+                        "label": "held"
+                    },
+                    "double": {
+                        "description": "The value if the button is pushed twice",
+                        "label": "pushed twice"
+                    },
+                    "pushed_2x": {
+                        "description": "The value if the button is pushed twice",
+                        "label": "pushed twice"
+                    },
+                    "pushed_3x": {
+                        "description": "The value if the button is pushed three times",
+                        "label": "pushed three times"
+                    },
+                    "pushed_4x": {
+                        "description": "The value if the button is pushed four times",
+                        "label": "pushed four times"
+                    },
+                    "pushed_5x": {
+                        "description": "The value if the button is pushed five times",
+                        "label": "pushed five times"
+                    },
+                    "pushed_6x": {
+                        "description": "The value if the button is pushed six times",
+                        "label": "pushed six times"
+                    },
+                    "down": {
+                        "label": "clicked down",
+                        "description": "The value if the button is clicked down"
+                    },
+                    "down_2x": {
+                        "label": "clicked down twice",
+                        "description": "The value if the button is clicked down twice"
+                    },
+                    "down_3x": {
+                        "label": "clicked down three times",
+                        "description": "The value if the button is clicked down three times"
+                    },
+                    "down_4x": {
+                        "label": "clicked down four times",
+                        "description": "The value if the button is clicked down four times"
+                    },
+                    "down_5x": {
+                        "label": "clicked down five times",
+                        "description": "The value if the button is clicked down five times"
+                    },
+                    "down_6x": {
+                        "label": "clicked down six times",
+                        "description": "The value if the button is clicked down six times"
+                    },
+                    "down_hold": {
+                        "label": "clicked down and held",
+                        "description": "The value if the button is clicked down and held"
+                    },
+                    "up": {
+                        "label": "clicked up",
+                        "description": "The value if the button is clicked up"
+                    },
+                    "up_2x": {
+                        "label": "clicked up twice",
+                        "description": "The value if the button is clicked up twice"
+                    },
+                    "up_3x": {
+                        "label": "clicked up three times",
+                        "description": "The value if the button is clicked up three times"
+                    },
+                    "up_4x": {
+                        "label": "clicked up four times",
+                        "description": "The value if the button is clicked up four times"
+                    },
+                    "up_5x": {
+                        "label": "clicked up five times",
+                        "description": "The value if the button is clicked up five times"
+                    },
+                    "up_6x": {
+                        "label": "clicked up six times",
+                        "description": "The value if the button is clicked up six times"
+                    },
+                    "up_hold": {
+                        "label": "clicked up and held",
+                        "description": "The value if the button is clicked up and held"
+                    }
+                }
+            }
+        },
+        "numberOfButtons": {
+            "label": "number of buttons",
+            "description": "The number of buttons on the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "supportedButtonValues": {
+            "label": "supported button values",
+            "description": "List of valid button attribute values",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

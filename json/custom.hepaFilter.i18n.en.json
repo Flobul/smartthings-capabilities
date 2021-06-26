@@ -1,0 +1,52 @@
+{
+    "tag": "en",
+    "label": "Hepa Filter",
+    "attributes": {
+        "hepaFilterCapacity": {
+            "label": "hepaFilterCapacity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "hepaFilterStatus": {
+            "label": "hepaFilterStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "notused": {
+                        "label": "notused"
+                    },
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "replace": {
+                        "label": "replace"
+                    },
+                    "wash": {
+                        "label": "wash"
+                    }
+                }
+            }
+        },
+        "hepaFilterResetType": {
+            "label": "hepaFilterResetType",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "hepaFilterUsageStep": {
+            "label": "hepaFilterUsageStep",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "hepaFilterUsage": {
+            "label": "hepaFilterUsage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "hepaFilterLastResetDate": {
+            "label": "hepaFilterLastResetDate",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

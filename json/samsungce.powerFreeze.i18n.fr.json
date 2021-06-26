@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Fonction de gel",
+    "attributes": {
+        "activated": {
+            "label": "activated",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "activate": {
+            "label": "Allumer",
+            "arguments": []
+        },
+        "deactivate": {
+            "label": "\u00c9teindre",
+            "arguments": []
+        }
+    }
+}

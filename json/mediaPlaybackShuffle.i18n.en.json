@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of media playback shuffle.",
+    "attributes": {
+        "playbackShuffle": {
+            "label": "playback shuffle",
+            "description": "The current state of the playback shuffle",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setPlaybackShuffle": {
+            "description": "Set the shuffle playback mode",
+            "arguments": {
+                "shuffle": {
+                    "i18n": [],
+                    "description": "Set the shuffle playback to enabled or disabled"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "tag": "en",
+    "label": "Washer Spin Level",
+    "attributes": {
+        "washerSpinLevel": {
+            "label": "washerSpinLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "delicate": {
+                        "label": "delicate"
+                    },
+                    "1000": {
+                        "label": "1000"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "medium": {
+                        "label": "medium"
+                    },
+                    "extraLow": {
+                        "label": "extraLow"
+                    },
+                    "high": {
+                        "label": "high"
+                    },
+                    "200": {
+                        "label": "200"
+                    },
+                    "1600": {
+                        "label": "1600"
+                    },
+                    "extraHigh": {
+                        "label": "extraHigh"
+                    },
+                    "400": {
+                        "label": "400"
+                    },
+                    "1400": {
+                        "label": "1400"
+                    },
+                    "low": {
+                        "label": "low"
+                    },
+                    "600": {
+                        "label": "600"
+                    },
+                    "1200": {
+                        "label": "1200"
+                    },
+                    "800": {
+                        "label": "800"
+                    },
+                    "rinseHold": {
+                        "label": "rinseHold"
+                    },
+                    "noSpin": {
+                        "label": "noSpin"
+                    }
+                }
+            }
+        },
+        "supportedWasherSpinLevel": {
+            "label": "supportedWasherSpinLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

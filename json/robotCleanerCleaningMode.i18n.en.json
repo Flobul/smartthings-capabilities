@@ -1,0 +1,50 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the robot cleaner cleaning mode.",
+    "attributes": {
+        "robotCleanerCleaningMode": {
+            "label": "robot cleaner cleaning mode",
+            "description": "Current status of the robot cleaner cleaning mode",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "label": "Auto",
+                        "description": "The robot cleaner cleaning mode is in \"auto\" mode"
+                    },
+                    "part": {
+                        "label": "Spot",
+                        "description": "The robot cleaner cleaning mode is in \"part\" mode"
+                    },
+                    "repeat": {
+                        "label": "Repeat",
+                        "description": "The robot cleaner cleaning mode is in \"repeat\" mode"
+                    },
+                    "manual": {
+                        "label": "Manual",
+                        "description": "The robot cleaner cleaning mode is in \"manual\" mode"
+                    },
+                    "stop": {
+                        "label": "Stop",
+                        "description": "The robot cleaner cleaning mode is in \"stop\" mode"
+                    },
+                    "map": {
+                        "label": "Map",
+                        "description": "The robot cleaner cleaning mode is in \"map\" mode"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setRobotCleanerCleaningMode": {
+            "description": "Set the robot cleaner cleaning mode",
+            "arguments": {
+                "mode": {
+                    "i18n": [],
+                    "description": "Set the robot cleaner cleaning mode, to \"auto\", \"part\", \"repeat\", \"manual\" or \"stop\" modes"
+                }
+            }
+        }
+    }
+}

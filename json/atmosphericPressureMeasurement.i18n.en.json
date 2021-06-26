@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Measure Atmospheric Pressure",
+    "attributes": {
+        "atmosphericPressure": {
+            "label": "atmospheric pressure",
+            "description": "The level of Atmospheric Pressure",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}kPa",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

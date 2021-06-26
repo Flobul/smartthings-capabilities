@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Dishwasher Selected Zone",
+    "attributes": {
+        "dishwasherSelectedZone": {
+            "label": "dishwasherSelectedZone",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "offOn": {
+                        "label": "offOn"
+                    },
+                    "offOff": {
+                        "label": "offOff"
+                    },
+                    "onOn": {
+                        "label": "onOn"
+                    },
+                    "onOff": {
+                        "label": "onOff"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

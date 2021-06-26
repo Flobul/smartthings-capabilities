@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Washer Addwash Alarm",
+    "attributes": {
+        "washerAddwashAlarm": {
+            "label": "washerAddwashAlarm",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

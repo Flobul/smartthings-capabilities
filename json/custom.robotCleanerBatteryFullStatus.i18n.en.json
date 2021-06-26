@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Battery Full Status",
+    "attributes": {
+        "robotCleanerBatteryFullStatus": {
+            "label": "robotCleanerBatteryFullStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "notFull": {
+                        "label": "notFull"
+                    },
+                    "full": {
+                        "label": "full"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

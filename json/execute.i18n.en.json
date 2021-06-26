@@ -1,0 +1,18 @@
+{
+    "tag": "en",
+    "description": "Allows for raw messages to be passed to a device.",
+    "attributes": {
+        "data": {
+            "label": "data",
+            "description": "A Json Object of results from commands being executed.",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "execute": {
+            "description": "Execute a command.",
+            "arguments": []
+        }
+    }
+}

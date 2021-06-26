@@ -1,0 +1,79 @@
+{
+    "tag": "en",
+    "label": "Caring progress",
+    "attributes": {
+        "supportedSteamClosetJobState": {
+            "label": "supportedSteamClosetJobState",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "completionTime": {
+            "label": "completionTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "steamClosetMachineState": {
+            "label": "steamClosetMachineState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "stop": {
+                        "label": "stop"
+                    },
+                    "run": {
+                        "label": "run"
+                    },
+                    "pause": {
+                        "label": "pause"
+                    }
+                }
+            }
+        },
+        "supportedSteamClosetMachineState": {
+            "label": "supportedSteamClosetMachineState",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "steamClosetJobState": {
+            "label": "steamClosetJobState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "sterilizing": {
+                        "label": "Sanitizing"
+                    },
+                    "drying": {
+                        "label": "Drying"
+                    },
+                    "airwashing": {
+                        "label": "Aircleaning"
+                    },
+                    "finish": {
+                        "label": "Finishing"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "delaywash": {
+                        "label": "delaywash"
+                    },
+                    "keepFresh": {
+                        "label": "Keep fresh"
+                    },
+                    "dehumidifying": {
+                        "label": "Dehumidifying"
+                    },
+                    "steaming": {
+                        "label": "Steaming"
+                    }
+                }
+            }
+        },
+        "steamClosetDelayEndTime": {
+            "label": "steamClosetDelayEndTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

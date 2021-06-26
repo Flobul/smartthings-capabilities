@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gets the status of the geofences.",
+    "attributes": {
+        "geofences": {
+            "label": "Geofences",
+            "description": "List of Geofences",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

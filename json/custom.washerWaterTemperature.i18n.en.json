@@ -1,0 +1,95 @@
+{
+    "tag": "en",
+    "label": "Washer Water Temperature",
+    "attributes": {
+        "supportedWasherWaterTemperature": {
+            "label": "supportedWasherWaterTemperature",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "washerWaterTemperature": {
+            "label": "washerWaterTemperature",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "tapCold": {
+                        "label": "tapCold"
+                    },
+                    "semiHot": {
+                        "label": "semiHot"
+                    },
+                    "cold": {
+                        "label": "cold"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "medium": {
+                        "label": "medium"
+                    },
+                    "hot": {
+                        "label": "hot"
+                    },
+                    "extraLow": {
+                        "label": "extraLow"
+                    },
+                    "high": {
+                        "label": "high"
+                    },
+                    "low": {
+                        "label": "low"
+                    },
+                    "90": {
+                        "label": "90"
+                    },
+                    "70": {
+                        "label": "70"
+                    },
+                    "50": {
+                        "label": "50"
+                    },
+                    "95": {
+                        "label": "95"
+                    },
+                    "30": {
+                        "label": "30"
+                    },
+                    "75": {
+                        "label": "75"
+                    },
+                    "mediumLow": {
+                        "label": "mediumLow"
+                    },
+                    "cool": {
+                        "label": "cool"
+                    },
+                    "warm": {
+                        "label": "warm"
+                    },
+                    "extraHot": {
+                        "label": "extraHot"
+                    },
+                    "80": {
+                        "label": "80"
+                    },
+                    "60": {
+                        "label": "60"
+                    },
+                    "40": {
+                        "label": "40"
+                    },
+                    "ecoWarm": {
+                        "label": "ecoWarm"
+                    },
+                    "20": {
+                        "label": "20"
+                    },
+                    "65": {
+                        "label": "65"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

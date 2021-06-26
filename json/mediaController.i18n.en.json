@@ -1,0 +1,29 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a media controller device",
+    "attributes": {
+        "currentActivity": {
+            "label": "current activity",
+            "description": "The currently active activity on the media controller",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "activities": {
+            "label": "activities",
+            "description": "A list of all of the configured activities on the media controller",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "startActivity": {
+            "description": "Start an activity",
+            "arguments": {
+                "activityId": {
+                    "i18n": [],
+                    "description": "The identification number of the activity to start"
+                }
+            }
+        }
+    }
+}

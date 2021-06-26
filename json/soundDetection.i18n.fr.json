@@ -1,0 +1,64 @@
+{
+    "tag": "fr",
+    "label": "Sound Detection",
+    "attributes": {
+        "soundDetectionState": {
+            "label": "soundDetectionState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
+                    "enabled": {
+                        "label": "Activ\u00e9"
+                    }
+                }
+            }
+        },
+        "supportedSoundTypes": {
+            "label": "supportedSoundTypes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "soundDetected": {
+            "label": "D\u00e9tection de son",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "dogBarking": {
+                        "label": "Aboiement de chien d\u00e9tect\u00e9"
+                    },
+                    "noSound": {
+                        "label": "Aucune"
+                    },
+                    "catMeowing": {
+                        "label": "Miaulement de chat d\u00e9tect\u00e9"
+                    },
+                    "doorKnocking": {
+                        "label": "Frappement \u00e0 la porte d\u00e9tect\u00e9"
+                    },
+                    "babyCrying": {
+                        "label": "B\u00e9b\u00e9 en train de pleurer"
+                    },
+                    "glassBreaking": {
+                        "label": "Bris de verre"
+                    },
+                    "fireAlarm": {
+                        "label": "Alarme incendie"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "disableSoundDetection": {
+            "label": "D\u00e9sactiv\u00e9",
+            "arguments": []
+        },
+        "enableSoundDetection": {
+            "label": "Activ\u00e9",
+            "arguments": []
+        }
+    }
+}

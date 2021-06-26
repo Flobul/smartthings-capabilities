@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Object Detection",
+    "attributes": {
+        "detected": {
+            "label": "D\u00e9tect\u00e9e",
+            "displayTemplate": "{{device.label}} d\u00e9tect\u00e9(e) : {{detected.qty}} {{detected.value}}",
+            "i18n": []
+        },
+        "supportedValues": {
+            "label": "Valeurs prises en charge",
+            "displayTemplate": "{{device.label}} d\u00e9tect\u00e9(e) : {{detected.qty}} {{detected.value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

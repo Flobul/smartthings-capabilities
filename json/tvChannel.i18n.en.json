@@ -1,0 +1,46 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the TV channel.",
+    "attributes": {
+        "tvChannel": {
+            "label": "tv channel",
+            "description": "Current status of the TV channel",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "tvChannelName": {
+            "label": "tv channel name",
+            "description": "Current status of the TV channel name",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setTvChannel": {
+            "description": "Set the TV channel",
+            "arguments": {
+                "channel": {
+                    "i18n": [],
+                    "description": "The channel to which the TV should be set"
+                }
+            }
+        },
+        "channelUp": {
+            "description": "Move the TV channel up",
+            "arguments": []
+        },
+        "channelDown": {
+            "description": "Move the TV channel down",
+            "arguments": []
+        },
+        "setTvChannelName": {
+            "description": "Set the TV channel Name",
+            "arguments": {
+                "channel": {
+                    "i18n": [],
+                    "description": "The channel name to which the TV should be set"
+                }
+            }
+        }
+    }
+}

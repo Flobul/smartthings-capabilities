@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Body Weight Measurement",
+    "attributes": {
+        "bodyWeightMeasurement": {
+            "label": "Poids corporel",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

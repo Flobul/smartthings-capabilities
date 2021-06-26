@@ -1,0 +1,24 @@
+{
+    "tag": "fr",
+    "label": "Carbon Monoxide Detector",
+    "attributes": {
+        "carbonMonoxide": {
+            "label": "Monoxyde de carbone",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "tested": {
+                        "label": "Test\u00e9e"
+                    },
+                    "clear": {
+                        "label": "Absente"
+                    },
+                    "detected": {
+                        "label": "D\u00e9tect\u00e9e"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

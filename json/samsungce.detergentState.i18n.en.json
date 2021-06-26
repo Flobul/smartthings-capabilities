@@ -1,0 +1,45 @@
+{
+    "tag": "en",
+    "label": "Detergent State",
+    "attributes": {
+        "remainingAmount": {
+            "label": "remainingAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dosage": {
+            "label": "dosage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "initialAmount": {
+            "label": "initialAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "detergentType": {
+            "label": "detergentType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "capsule": {
+                        "label": "capsule"
+                    },
+                    "liquid": {
+                        "label": "liquid"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "drySheet": {
+                        "label": "drySheet"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,24 @@
+{
+    "tag": "fr",
+    "label": "Media Playback Repeat",
+    "attributes": {
+        "playbackRepeatMode": {
+            "label": "Mode de r\u00e9p\u00e9tition de la lecture",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "all": {
+                        "label": "all"
+                    },
+                    "one": {
+                        "label": "one"
+                    },
+                    "off": {
+                        "label": "off"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

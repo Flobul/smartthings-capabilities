@@ -1,0 +1,36 @@
+{
+    "tag": "fr",
+    "label": "Lock",
+    "attributes": {
+        "lock": {
+            "label": "\u00c9tat de verrouillage",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "unlocked with timeout": {
+                        "label": "D\u00e9verrouill\u00e9(e) temporairement"
+                    },
+                    "locked": {
+                        "label": "Verrouill\u00e9"
+                    },
+                    "unlocked": {
+                        "label": "D\u00e9verrouill\u00e9"
+                    },
+                    "unknown": {
+                        "label": "Inconnu"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "unlock": {
+            "label": "D\u00e9verrouill\u00e9",
+            "arguments": []
+        },
+        "lock": {
+            "label": "Verrouill\u00e9",
+            "arguments": []
+        }
+    }
+}

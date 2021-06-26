@@ -1,0 +1,40 @@
+{
+    "tag": "en",
+    "label": "Device Report State Configuration",
+    "attributes": {
+        "reportStateRealtimePeriod": {
+            "label": "reportStateRealtimePeriod",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "reportStateRealtime": {
+            "label": "reportStateRealtime",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "reportStatePeriod": {
+            "label": "reportStatePeriod",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

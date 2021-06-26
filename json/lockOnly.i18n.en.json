@@ -1,0 +1,30 @@
+{
+    "tag": "en",
+    "description": "Allow for the lock control of a lock device",
+    "attributes": {
+        "lock": {
+            "label": "lock",
+            "description": "The state of the lock device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "unlocked": {
+                        "description": "The device is unlocked"
+                    },
+                    "unknown": {
+                        "description": "The state of the device is unknown"
+                    },
+                    "locked": {
+                        "description": "The device is locked"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "lock": {
+            "description": "Lock the device",
+            "arguments": []
+        }
+    }
+}

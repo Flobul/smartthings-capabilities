@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Battery",
+    "attributes": {
+        "battery": {
+            "label": "Batterie",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} %",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

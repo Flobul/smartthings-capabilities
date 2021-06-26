@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Air Conditioner Tropical Night Mode",
+    "attributes": {
+        "acTropicalNightModeLevel": {
+            "label": "acTropicalNightModeLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

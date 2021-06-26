@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Infrared Level",
+    "attributes": {
+        "infraredLevel": {
+            "label": "Niveau d'infrarouge",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} %",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

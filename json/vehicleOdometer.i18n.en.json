@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Get the odometer reading from a vehicle",
+    "attributes": {
+        "odometerReading": {
+            "label": "odometer reading",
+            "description": "A number that represents the current odometer reading",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

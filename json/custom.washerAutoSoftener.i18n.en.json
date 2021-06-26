@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Washer Auto Softener",
+    "attributes": {
+        "washerAutoSoftener": {
+            "label": "washerAutoSoftener",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "notSupported": {
+                        "label": "notSupported"
+                    },
+                    "notUsed": {
+                        "label": "notUsed"
+                    },
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

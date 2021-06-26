@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "description": "Video clip capture",
+    "attributes": {
+        "videoClip": {
+            "label": "video clip",
+            "description": "Description for the videoClip attribute",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "captureClip": {
+            "description": "Capture the video clip",
+            "arguments": {
+                "duration": {
+                    "i18n": [],
+                    "description": "The duration of the video clip"
+                },
+                "preFetch": {
+                    "i18n": [],
+                    "description": "The prefetch value for the video clip"
+                }
+            }
+        }
+    }
+}

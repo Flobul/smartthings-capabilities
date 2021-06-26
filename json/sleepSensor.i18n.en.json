@@ -1,0 +1,20 @@
+{
+    "tag": "en",
+    "description": "A Device that senses whether or not someone is sleeping",
+    "attributes": {
+        "sleeping": {
+            "label": "sleeping",
+            "description": "A representation of the sleeping value from the Device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "sleeping": {
+                        "description": "The Device detected a \"sleeping\" state",
+                        "label": "sleeping"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

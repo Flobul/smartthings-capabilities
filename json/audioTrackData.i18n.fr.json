@@ -1,0 +1,22 @@
+{
+    "tag": "fr",
+    "label": "Audio Track Data",
+    "attributes": {
+        "totalTime": {
+            "label": "Temps total",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "audioTrackData": {
+            "label": "Donn\u00e9es de piste audio",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        },
+        "elapsedTime": {
+            "label": "Temps \u00e9coul\u00e9",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

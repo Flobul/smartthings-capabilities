@@ -1,0 +1,25 @@
+{
+    "tag": "en",
+    "description": "Gets the value of the audio track data.",
+    "attributes": {
+        "audioTrackData": {
+            "label": "audio track data",
+            "description": "A JSON representation of the current audio track data",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "totalTime": {
+            "label": "total time",
+            "description": "Total time in seconds of the current song\/track",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "elapsedTime": {
+            "label": "elapsed time",
+            "description": "Elapsed time in seconds of the current song\/track",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

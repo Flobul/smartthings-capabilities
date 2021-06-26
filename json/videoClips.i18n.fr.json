@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Video Clips",
+    "attributes": {
+        "videoClip": {
+            "label": "Clip vid\u00e9o",
+            "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

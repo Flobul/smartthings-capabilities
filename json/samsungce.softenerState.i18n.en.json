@@ -1,0 +1,39 @@
+{
+    "tag": "en",
+    "label": "Softener State",
+    "attributes": {
+        "remainingAmount": {
+            "label": "remainingAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dosage": {
+            "label": "dosage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "softenerType": {
+            "label": "softenerType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "liquid": {
+                        "label": "liquid"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
+        },
+        "initialAmount": {
+            "label": "initialAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

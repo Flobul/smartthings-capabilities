@@ -1,0 +1,33 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a switch device",
+    "attributes": {
+        "switch": {
+            "label": "switch",
+            "description": "A string representation of whether the switch is on or off",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "on": {
+                        "description": "The value of the ``switch`` attribute if the switch is on",
+                        "label": "On"
+                    },
+                    "off": {
+                        "description": "The value of the ``switch`` attribute if the switch is off",
+                        "label": "Off"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "on": {
+            "description": "Turn a switch on",
+            "arguments": []
+        },
+        "off": {
+            "description": "Turn a switch off",
+            "arguments": []
+        }
+    }
+}

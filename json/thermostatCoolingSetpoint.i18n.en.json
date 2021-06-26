@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "Allows for setting the cooling setpoint on a thermostat",
+    "attributes": {
+        "coolingSetpoint": {
+            "label": "cooling setpoint",
+            "description": "The current cooling setpoint",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setCoolingSetpoint": {
+            "description": "Set the cooling setpoint",
+            "arguments": {
+                "setpoint": {
+                    "i18n": [],
+                    "description": "A value that the cooling setpoint should be set to"
+                }
+            }
+        }
+    }
+}

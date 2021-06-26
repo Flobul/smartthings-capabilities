@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gives the ability to get the ultraviolet index from devices that report it",
+    "attributes": {
+        "ultravioletIndex": {
+            "label": "UV index",
+            "description": "A number representing the ultraviolet index",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

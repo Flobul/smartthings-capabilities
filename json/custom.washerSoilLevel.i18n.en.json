@@ -1,0 +1,44 @@
+{
+    "tag": "en",
+    "label": "Washer Soil Level",
+    "attributes": {
+        "supportedWasherSoilLevel": {
+            "label": "supportedWasherSoilLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "washerSoilLevel": {
+            "label": "washerSoilLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "extraLight": {
+                        "label": "extraLight"
+                    },
+                    "light": {
+                        "label": "light"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "up": {
+                        "label": "up"
+                    },
+                    "down": {
+                        "label": "down"
+                    },
+                    "heavy": {
+                        "label": "heavy"
+                    },
+                    "extraHeavy": {
+                        "label": "extraHeavy"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

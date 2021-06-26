@@ -1,0 +1,46 @@
+{
+    "tag": "en",
+    "description": "Play a track or a message as an audio notification",
+    "attributes": [],
+    "commands": {
+        "playTrack": {
+            "description": "Play the given track",
+            "arguments": {
+                "level": {
+                    "i18n": [],
+                    "description": "The volume at which to play the track"
+                },
+                "uri": {
+                    "i18n": [],
+                    "description": "The URI of the track to be played"
+                }
+            }
+        },
+        "playTrackAndResume": {
+            "description": "Play the given track and resume playback of the previously playing track",
+            "arguments": {
+                "level": {
+                    "i18n": [],
+                    "description": "The volume at which to play the track"
+                },
+                "uri": {
+                    "i18n": [],
+                    "description": "The URI of the track to be played"
+                }
+            }
+        },
+        "playTrackAndRestore": {
+            "description": "Play the given track and restore the volume to its previous level",
+            "arguments": {
+                "level": {
+                    "i18n": [],
+                    "description": "The volume at which to play the track"
+                },
+                "uri": {
+                    "i18n": [],
+                    "description": "The URI of the track to be played"
+                }
+            }
+        }
+    }
+}

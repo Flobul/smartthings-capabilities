@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "pH Measurement",
+    "attributes": {
+        "pH": {
+            "label": "pH",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} pH",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

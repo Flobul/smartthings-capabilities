@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Body Mass Index Measurement",
+    "attributes": {
+        "bmiMeasurement": {
+            "label": "Indice de masse corporelle",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}kg\/m^2",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

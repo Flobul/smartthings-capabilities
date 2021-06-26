@@ -1,0 +1,19 @@
+{
+    "tag": "en",
+    "description": "A Device that works as a step counter",
+    "attributes": {
+        "steps": {
+            "label": "steps",
+            "description": "The current step count",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "goal": {
+            "label": "goal",
+            "description": "The current step goal",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

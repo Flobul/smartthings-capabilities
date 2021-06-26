@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Signal Strength",
+    "attributes": {
+        "rssi": {
+            "label": "RSSI",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} dBm",
+            "i18n": []
+        },
+        "lqi": {
+            "label": "Indicateur de qualit\u00e9 de la liaison",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,83 @@
+{
+    "tag": "fr",
+    "label": "Wind Free",
+    "attributes": {
+        "supportedAcOptionalMode": {
+            "label": "supportedAcOptionalMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "acOptionalMode": {
+            "label": "acOptionalMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "motionDirect": {
+                        "label": "motionDirect"
+                    },
+                    "windFree": {
+                        "label": "windFree"
+                    },
+                    "windFreeSleep": {
+                        "label": "windFreeSleep"
+                    },
+                    "energySaving": {
+                        "label": "energySaving"
+                    },
+                    "motionIndirect": {
+                        "label": "motionIndirect"
+                    },
+                    "off": {
+                        "label": "off"
+                    },
+                    "speed": {
+                        "label": "speed"
+                    },
+                    "smart": {
+                        "label": "smart"
+                    },
+                    "comfort": {
+                        "label": "comfort"
+                    },
+                    "sleep": {
+                        "label": "sleep"
+                    },
+                    "longWind": {
+                        "label": "longWind"
+                    },
+                    "quiet": {
+                        "label": "quiet"
+                    },
+                    "cubePurify": {
+                        "label": "cubePurify"
+                    },
+                    "dlightCool": {
+                        "label": "dlightCool"
+                    },
+                    "twoStep": {
+                        "label": "twoStep"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setAcOptionalMode": {
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "windFree": {
+                            "label": "Wind free On"
+                        },
+                        "windFreeSleep": {
+                            "label": "Activer"
+                        },
+                        "off": {
+                            "label": "Wind free Off"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

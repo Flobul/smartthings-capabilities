@@ -1,0 +1,98 @@
+{
+    "tag": "fr",
+    "label": "Oven Mode",
+    "attributes": {
+        "supportedOvenModes": {
+            "label": "supportedOvenModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "ovenMode": {
+            "label": "Mode du four",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "Microwave": {
+                        "label": "Microwave"
+                    },
+                    "SteamRoast": {
+                        "label": "SteamRoast"
+                    },
+                    "Conventional": {
+                        "label": "Conventional"
+                    },
+                    "BottomHeat": {
+                        "label": "BottomHeat"
+                    },
+                    "MWplusHotBlast2": {
+                        "label": "MWplusHotBlast2"
+                    },
+                    "SteamBake": {
+                        "label": "SteamBake"
+                    },
+                    "heating": {
+                        "label": "heating"
+                    },
+                    "SlimStrong": {
+                        "label": "SlimStrong"
+                    },
+                    "MWplusHotBlast": {
+                        "label": "MWplusHotBlast"
+                    },
+                    "Others": {
+                        "label": "Others"
+                    },
+                    "Bake": {
+                        "label": "Bake"
+                    },
+                    "ConvectionBake": {
+                        "label": "ConvectionBake"
+                    },
+                    "SteamBottomHeatplusConvection": {
+                        "label": "SteamBottomHeatplusConvection"
+                    },
+                    "SteamCook": {
+                        "label": "SteamCook"
+                    },
+                    "Dehydrate": {
+                        "label": "Dehydrate"
+                    },
+                    "SlowCook": {
+                        "label": "SlowCook"
+                    },
+                    "Broil": {
+                        "label": "Broil"
+                    },
+                    "warming": {
+                        "label": "warming"
+                    },
+                    "Proof": {
+                        "label": "Proof"
+                    },
+                    "ConvectionBroil": {
+                        "label": "ConvectionBroil"
+                    },
+                    "MWplusGrill": {
+                        "label": "MWplusGrill"
+                    },
+                    "ConvectionRoast": {
+                        "label": "ConvectionRoast"
+                    },
+                    "defrosting": {
+                        "label": "defrosting"
+                    },
+                    "grill": {
+                        "label": "grill"
+                    },
+                    "MWplusConvection": {
+                        "label": "MWplusConvection"
+                    },
+                    "SlimMiddle": {
+                        "label": "SlimMiddle"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

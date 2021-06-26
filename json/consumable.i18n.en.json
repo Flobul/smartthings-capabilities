@@ -1,0 +1,41 @@
+{
+    "tag": "en",
+    "description": "For devices with replaceable components",
+    "attributes": {
+        "consumableStatus": {
+            "label": "consumable status",
+            "description": "The status of replaceable components",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "order": {
+                        "description": "A replacement component should be ordered"
+                    },
+                    "good": {
+                        "description": "The component is in good health"
+                    },
+                    "missing": {
+                        "description": "The component is missing"
+                    },
+                    "maintenance_required": {
+                        "description": "The comopnent needs maintenance"
+                    },
+                    "replace": {
+                        "description": "The component should be replaced"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setConsumableStatus": {
+            "description": "Set the consumable status",
+            "arguments": {
+                "status": {
+                    "i18n": [],
+                    "description": "Should be one of ``good``, ``maintenance_required``, ``missing``, ``order``, or ``replace``"
+                }
+            }
+        }
+    }
+}

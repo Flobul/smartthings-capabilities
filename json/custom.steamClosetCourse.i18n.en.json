@@ -1,0 +1,101 @@
+{
+    "tag": "en",
+    "label": "Steam Closet Course",
+    "attributes": {
+        "supportedSteamCloseCourse": {
+            "label": "supportedSteamCloseCourse",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "steamClosetCourse": {
+            "label": "steamClosetCourse",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "standard": {
+                        "label": "standard"
+                    },
+                    "sensorDry": {
+                        "label": "sensorDry"
+                    },
+                    "denim": {
+                        "label": "denim"
+                    },
+                    "quick": {
+                        "label": "quick"
+                    },
+                    "wool": {
+                        "label": "wool"
+                    },
+                    "babywearSanitize": {
+                        "label": "babywearSanitize"
+                    },
+                    "roomCare2hr": {
+                        "label": "roomCare2hr"
+                    },
+                    "timeDry2hr": {
+                        "label": "timeDry2hr"
+                    },
+                    "timeDry3hr": {
+                        "label": "timeDry3hr"
+                    },
+                    "roomCare4hr": {
+                        "label": "roomCare4hr"
+                    },
+                    "timeDry1hr": {
+                        "label": "timeDry1hr"
+                    },
+                    "suits": {
+                        "label": "suits"
+                    },
+                    "winterCoat": {
+                        "label": "winterCoat"
+                    },
+                    "dollSanitize": {
+                        "label": "dollSanitize"
+                    },
+                    "dustFree": {
+                        "label": "dustFree"
+                    },
+                    "schoolWear": {
+                        "label": "schoolWear"
+                    },
+                    "blouse": {
+                        "label": "blouse"
+                    },
+                    "paddedJacket": {
+                        "label": "paddedJacket"
+                    },
+                    "accessories": {
+                        "label": "accessories"
+                    },
+                    "paddedDry": {
+                        "label": "paddedDry"
+                    },
+                    "beddingSanitize": {
+                        "label": "beddingSanitize"
+                    },
+                    "outdoor": {
+                        "label": "outdoor"
+                    },
+                    "furLeather": {
+                        "label": "furLeather"
+                    },
+                    "heavyDuty": {
+                        "label": "heavyDuty"
+                    },
+                    "selfClean": {
+                        "label": "selfClean"
+                    },
+                    "suit": {
+                        "label": "suit"
+                    },
+                    "sanitize": {
+                        "label": "sanitize"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

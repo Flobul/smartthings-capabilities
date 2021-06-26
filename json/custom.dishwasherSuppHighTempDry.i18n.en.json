@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Dishwasher Supp High Temp Dry",
+    "attributes": {
+        "dishwasherSuppHighTempDry": {
+            "label": "dishwasherSuppHighTempDry",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,53 @@
+{
+    "tag": "fr",
+    "label": "Music Player",
+    "attributes": {
+        "trackDescription": {
+            "label": "Description de la t\u00e2che",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "level": {
+            "label": "Volume",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "mute": {
+            "label": "D\u00e9sactivation du son",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "unmuted": {
+                        "label": "Active le son"
+                    },
+                    "muted": {
+                        "label": "D\u00e9sactivation du son"
+                    }
+                }
+            }
+        },
+        "trackData": {
+            "label": "Donn\u00e9es de piste",
+            "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
+            "i18n": []
+        },
+        "status": {
+            "label": "Statut",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "pause": {
+                        "label": "Pause"
+                    },
+                    "play": {
+                        "label": "Lecture"
+                    },
+                    "stop": {
+                        "label": "Arr\u00eat"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,27 @@
+{
+    "tag": "fr",
+    "label": "Alarm",
+    "attributes": {
+        "alarm": {
+            "label": "Alarme",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "siren": {
+                        "label": "Sir\u00e8ne"
+                    },
+                    "strobe": {
+                        "label": "Clignotement"
+                    },
+                    "off": {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
+                    "both": {
+                        "label": "Sir\u00e8ne et clignotement"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

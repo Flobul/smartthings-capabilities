@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Supports Power On By OCF",
+    "attributes": {
+        "supportsPowerOnByOcf": {
+            "label": "supportsPowerOnByOcf",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "true": {
+                        "label": "true"
+                    },
+                    "false": {
+                        "label": "false"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

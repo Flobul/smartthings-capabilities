@@ -1,0 +1,60 @@
+{
+    "tag": "en",
+    "label": "Dishwasher Operating Supp Progress",
+    "attributes": {
+        "dishwasherOperatingSuppProgress": {
+            "label": "dishwasherOperatingSuppProgress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "sud": {
+                        "label": "sud"
+                    },
+                    "weightsensing": {
+                        "label": "weightsensing"
+                    },
+                    "wash": {
+                        "label": "wash"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "prewash": {
+                        "label": "prewash"
+                    },
+                    "predrain": {
+                        "label": "predrain"
+                    },
+                    "airwash": {
+                        "label": "airwash"
+                    },
+                    "waitend": {
+                        "label": "waitend"
+                    },
+                    "drying": {
+                        "label": "drying"
+                    },
+                    "spin": {
+                        "label": "spin"
+                    },
+                    "wrinkleprevent": {
+                        "label": "wrinkleprevent"
+                    },
+                    "cooling": {
+                        "label": "cooling"
+                    },
+                    "finish": {
+                        "label": "finish"
+                    },
+                    "delaywash": {
+                        "label": "delaywash"
+                    },
+                    "rinse": {
+                        "label": "rinse"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

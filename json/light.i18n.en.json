@@ -1,0 +1,31 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a light device",
+    "attributes": {
+        "switch": {
+            "label": "switch",
+            "description": "A string representation of whether the light is on or off",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "on": {
+                        "description": "The value of the ``switch`` attribute if the light is on"
+                    },
+                    "off": {
+                        "description": "The value of the ``switch`` attribute if the light is off"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "on": {
+            "description": "Turn a light on",
+            "arguments": []
+        },
+        "off": {
+            "description": "Turn a light off",
+            "arguments": []
+        }
+    }
+}

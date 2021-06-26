@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Air Quality Max Level",
+    "attributes": {
+        "airQualityMaxLevel": {
+            "label": "airQualityMaxLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the infrared level attribute of a device",
+    "attributes": {
+        "infraredLevel": {
+            "label": "infrared level",
+            "description": "A number that represents the current infrared light level, ``0-100`` in percent",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setInfraredLevel": {
+            "description": "Set the infrared level to the given value",
+            "arguments": {
+                "level": {
+                    "i18n": [],
+                    "description": "The infrared level value, ``0-100`` in percent"
+                }
+            }
+        }
+    }
+}

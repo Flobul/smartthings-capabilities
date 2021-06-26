@@ -1,0 +1,30 @@
+{
+    "tag": "en",
+    "description": "A device with one or more holdable buttons. Deprecated in favor of Button.",
+    "attributes": {
+        "button": {
+            "label": "button",
+            "description": "The state of the holdable button",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "pushed": {
+                        "description": "The value if the button is pushed",
+                        "label": "pushed"
+                    },
+                    "held": {
+                        "description": "The value if the button is held",
+                        "label": "held"
+                    }
+                }
+            }
+        },
+        "numberOfButtons": {
+            "label": "number of buttons",
+            "description": "The number of buttons on the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,52 @@
+{
+    "tag": "en",
+    "label": "Dust Filter",
+    "attributes": {
+        "dustFilterUsageStep": {
+            "label": "dustFilterUsageStep",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dustFilterUsage": {
+            "label": "dustFilterUsage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dustFilterLastResetDate": {
+            "label": "dustFilterLastResetDate",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dustFilterStatus": {
+            "label": "dustFilterStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "notused": {
+                        "label": "notused"
+                    },
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "replace": {
+                        "label": "replace"
+                    },
+                    "wash": {
+                        "label": "wash"
+                    }
+                }
+            }
+        },
+        "dustFilterCapacity": {
+            "label": "dustFilterCapacity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dustFilterResetType": {
+            "label": "dustFilterResetType",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

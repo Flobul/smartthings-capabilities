@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Voltage Measurement",
+    "attributes": {
+        "voltage": {
+            "label": "Tension",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} V",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

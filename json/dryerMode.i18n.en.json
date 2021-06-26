@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the dryer.",
+    "attributes": {
+        "dryerMode": {
+            "label": "dryer mode",
+            "description": "The operational mode that the dryer is in",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setDryerMode": {
+            "description": "Set the operational mode of the dryer",
+            "arguments": {
+                "mode": {
+                    "i18n": [],
+                    "description": "The mode to which the dryer should be set to"
+                }
+            }
+        }
+    }
+}

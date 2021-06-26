@@ -1,0 +1,31 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of an outlet device. Deprecated in favor of Switch.",
+    "attributes": {
+        "switch": {
+            "label": "switch",
+            "description": "A string representation of whether the outlet is on or off",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "description": "The value of the ``switch`` attribute if the outlet is off"
+                    },
+                    "on": {
+                        "description": "The value of the ``switch`` attribute if the outlet is on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "on": {
+            "description": "Turn an outlet on",
+            "arguments": []
+        },
+        "off": {
+            "description": "Turn an outlet off",
+            "arguments": []
+        }
+    }
+}

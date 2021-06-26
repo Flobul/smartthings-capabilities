@@ -1,0 +1,18 @@
+{
+    "tag": "en",
+    "description": "Read the energy consumption of an energy metering device",
+    "attributes": {
+        "energy": {
+            "label": "energy",
+            "description": "Numeric value representing energy consumption",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} {{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "resetEnergyMeter": {
+            "description": "Reset the energy consumption of a device",
+            "arguments": []
+        }
+    }
+}

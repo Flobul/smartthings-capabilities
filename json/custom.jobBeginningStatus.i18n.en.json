@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Job Beginning Status",
+    "attributes": {
+        "jobBeginningStatus": {
+            "label": "jobBeginningStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "ReadyToRun": {
+                        "label": "ReadyToRun"
+                    },
+                    "None": {
+                        "label": "None"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

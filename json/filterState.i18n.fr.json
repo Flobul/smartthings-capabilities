@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Filter State",
+    "attributes": {
+        "filterLifeRemaining": {
+            "label": "Autonomie restante du filtre",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,29 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the wireless operating mode of a device",
+    "attributes": {
+        "wirelessOperatingMode": {
+            "label": "wireless operating mode",
+            "description": "The current wireless operating mode",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "alwaysOn": {
+                        "description": "the wireless mode of a device is always on",
+                        "label": "always on"
+                    },
+                    "whenNeeded": {
+                        "description": "the wireless mode of a device is only on when needed",
+                        "label": "when needed"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setWirelessOperatingMode": {
+            "description": "Set the wireless operating mode of a device",
+            "arguments": []
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "tag": "fr",
+    "label": "Robot Cleaner State",
+    "attributes": {
+        "robotCleanerTurboState": {
+            "label": "Statut turbo du robot de nettoyage",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "turboSilence": {
+                        "label": "turboSilence"
+                    },
+                    "turboOff": {
+                        "label": "turboOff"
+                    },
+                    "turboOn": {
+                        "label": "turboOn"
+                    }
+                }
+            }
+        },
+        "robotCleanerCleaningState": {
+            "label": "Statut de nettoyage du robot de nettoyage",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaningPart": {
+                        "label": "cleaningPart"
+                    },
+                    "cleaningManual": {
+                        "label": "cleaningManual"
+                    },
+                    "cleaningStop": {
+                        "label": "cleaningStop"
+                    },
+                    "cleaningRepeat": {
+                        "label": "cleaningRepeat"
+                    },
+                    "cleaningAuto": {
+                        "label": "cleaningAuto"
+                    }
+                }
+            }
+        },
+        "supportedRobotCleanerStates": {
+            "label": "Statut de nettoyage du robot pris en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "robotCleanerControlState": {
+            "label": "Statut de contr\u00f4le du robot de nettoyage",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "controlPowerOff": {
+                        "label": "controlPowerOff"
+                    },
+                    "controlCleaning": {
+                        "label": "controlCleaning"
+                    },
+                    "controlAfter": {
+                        "label": "controlAfter"
+                    },
+                    "controlReserve": {
+                        "label": "controlReserve"
+                    },
+                    "controlAlarm": {
+                        "label": "controlAlarm"
+                    },
+                    "controlCharging": {
+                        "label": "controlCharging"
+                    },
+                    "controlHoming": {
+                        "label": "controlHoming"
+                    },
+                    "controlPause": {
+                        "label": "controlPause"
+                    },
+                    "controlPoint": {
+                        "label": "controlPoint"
+                    },
+                    "controlIdle": {
+                        "label": "controlIdle"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

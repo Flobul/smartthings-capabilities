@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Ultraviolet Index",
+    "attributes": {
+        "ultravioletIndex": {
+            "label": "Indice UV",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

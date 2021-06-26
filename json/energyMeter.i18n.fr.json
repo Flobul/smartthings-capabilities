@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Energy Meter",
+    "attributes": {
+        "energy": {
+            "label": "\u00c9nergie",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} kWh",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

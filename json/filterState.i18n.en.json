@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gets the state of the filter.",
+    "attributes": {
+        "filterLifeRemaining": {
+            "label": "filter life remaining",
+            "description": "Current remaining life of the filter",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

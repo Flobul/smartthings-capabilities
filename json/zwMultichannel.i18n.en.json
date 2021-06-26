@@ -1,0 +1,42 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the Zw Multichannel.",
+    "attributes": {
+        "epEvent": {
+            "label": "ep event",
+            "description": "The event description at the endpoint",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "epInfo": {
+            "label": "ep info",
+            "description": "The endpoint information",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "enableEpEvents": {
+            "description": "Enable the endpoint Events",
+            "arguments": {
+                "enabledEndpoints": {
+                    "i18n": [],
+                    "description": "The endpoints to be enabled"
+                }
+            }
+        },
+        "epCmd": {
+            "description": "The command for the endpoint",
+            "arguments": {
+                "endpoint": {
+                    "i18n": [],
+                    "description": "The name of the endpoint"
+                },
+                "commands": {
+                    "i18n": [],
+                    "description": "The command to be sent to the endpoint"
+                }
+            }
+        }
+    }
+}

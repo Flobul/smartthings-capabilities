@@ -1,0 +1,91 @@
+{
+    "tag": "fr",
+    "label": "Button",
+    "attributes": {
+        "button": {
+            "label": "Touche",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "up_hold": {
+                        "label": "Cliquer en haut et maintenir"
+                    },
+                    "up_5x": {
+                        "label": "Cliquer en haut cinq fois"
+                    },
+                    "up_6x": {
+                        "label": "Cliquer en haut six fois"
+                    },
+                    "held": {
+                        "label": "Maintenir la touche appuy\u00e9e"
+                    },
+                    "double": {
+                        "label": "Appuyer deux fois sur la touche"
+                    },
+                    "down_6x": {
+                        "label": "Cliquer en bas six fois"
+                    },
+                    "up_3x": {
+                        "label": "Cliquer en haut trois fois"
+                    },
+                    "down": {
+                        "label": "Cliquer en bas"
+                    },
+                    "up_4x": {
+                        "label": "Cliquer en haut quatre fois"
+                    },
+                    "up_2x": {
+                        "label": "Cliquer en haut deux fois"
+                    },
+                    "pushed_2x": {
+                        "label": "Appuyer deux fois sur la touche"
+                    },
+                    "pushed_6x": {
+                        "label": "Appuyer six fois sur la touche"
+                    },
+                    "pushed_5x": {
+                        "label": "Appuyer cinq fois sur la touche"
+                    },
+                    "pushed_4x": {
+                        "label": "Appuyer quatre fois sur la touche"
+                    },
+                    "pushed_3x": {
+                        "label": "Appuyer trois fois sur la touche"
+                    },
+                    "down_4x": {
+                        "label": "Cliquer en bas quatre fois"
+                    },
+                    "down_hold": {
+                        "label": "Cliquer en bas et maintenir"
+                    },
+                    "down_5x": {
+                        "label": "Cliquer en bas cinq fois"
+                    },
+                    "down_2x": {
+                        "label": "Cliquer en bas deux fois"
+                    },
+                    "down_3x": {
+                        "label": "Cliquer en bas trois fois"
+                    },
+                    "up": {
+                        "label": "Cliquer en haut"
+                    },
+                    "pushed": {
+                        "label": "Appuyer sur la touche"
+                    }
+                }
+            }
+        },
+        "numberOfButtons": {
+            "label": "Nombre de touches",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "supportedButtonValues": {
+            "label": "Valeurs de touche prises en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

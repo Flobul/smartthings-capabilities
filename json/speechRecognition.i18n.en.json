@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Gets the spoken phrase string.",
+    "attributes": {
+        "phraseSpoken": {
+            "label": "phrase spoken",
+            "description": "The string value of the spoken phrase",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

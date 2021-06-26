@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Panic Alarm",
+    "attributes": {
+        "panicAlarm": {
+            "label": "Alarme de panique",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": {
+                "value": {
+                    "clear": {
+                        "label": "D\u00e9sactiv\u00e9e"
+                    },
+                    "panic": {
+                        "label": "Panique"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

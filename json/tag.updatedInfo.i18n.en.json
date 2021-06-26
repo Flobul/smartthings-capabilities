@@ -1,0 +1,18 @@
+{
+    "tag": "en",
+    "label": "Updated Info",
+    "attributes": {
+        "connection": {
+            "label": "connection",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "connected": {
+                        "label": "connected"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

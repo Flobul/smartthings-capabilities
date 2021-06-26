@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Behavior",
+    "attributes": {
+        "robotCleanerBehavior": {
+            "label": "robotCleanerBehavior",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "stop": {
+                        "label": "stop"
+                    },
+                    "left": {
+                        "label": "left"
+                    },
+                    "forward": {
+                        "label": "forward"
+                    },
+                    "right": {
+                        "label": "right"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

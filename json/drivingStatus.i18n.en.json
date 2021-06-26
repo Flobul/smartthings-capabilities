@@ -1,0 +1,24 @@
+{
+    "tag": "en",
+    "description": "Display the driving status",
+    "attributes": {
+        "drivingStatus": {
+            "label": "Driving Status",
+            "description": "The driving state",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "driving": {
+                        "description": "Driving",
+                        "label": "Driving"
+                    },
+                    "notDriving": {
+                        "description": "Not Driving",
+                        "label": "Not Driving"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

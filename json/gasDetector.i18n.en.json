@@ -1,0 +1,28 @@
+{
+    "tag": "en",
+    "description": "A device that detects the presence or absence of gas.",
+    "attributes": {
+        "gas": {
+            "label": "gas",
+            "description": "The state of the gas detection device",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "detected": {
+                        "description": "Gas detected",
+                        "label": "Detected"
+                    },
+                    "clear": {
+                        "description": "No gas detected",
+                        "label": "Clear"
+                    },
+                    "tested": {
+                        "description": "Gas detector test button was activated",
+                        "label": "Tested"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

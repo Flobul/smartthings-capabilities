@@ -1,0 +1,25 @@
+{
+    "tag": "en",
+    "description": "Allows for increasing or decreasing volumes a specified number of times",
+    "attributes": [],
+    "commands": {
+        "volumeUp": {
+            "description": "Emulate pressing 'volume up' X number of times, where X is the 'repetition' value",
+            "arguments": {
+                "repetition": {
+                    "i18n": [],
+                    "description": "The number of times to execute 'volume up'"
+                }
+            }
+        },
+        "volumeDown": {
+            "description": "Emulate pressing 'volume down' X number of times, where X is the 'repetition' value",
+            "arguments": {
+                "repetition": {
+                    "i18n": [],
+                    "description": "The number of times to execute 'volume down'"
+                }
+            }
+        }
+    }
+}

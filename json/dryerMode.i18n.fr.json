@@ -1,0 +1,24 @@
+{
+    "tag": "fr",
+    "label": "Dryer Mode",
+    "attributes": {
+        "dryerMode": {
+            "label": "Mode du s\u00e8che-linge",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "highHeat": {
+                        "label": "highHeat"
+                    },
+                    "regular": {
+                        "label": "regular"
+                    },
+                    "lowHeat": {
+                        "label": "lowHeat"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

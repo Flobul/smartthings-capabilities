@@ -1,0 +1,16 @@
+{
+    "tag": "en",
+    "description": "Allows for the setting of a TV channel by content name",
+    "attributes": [],
+    "commands": {
+        "setChannelByContent": {
+            "description": "Emulate the setting of the channel by specifying the content name",
+            "arguments": {
+                "contentName": {
+                    "i18n": [],
+                    "description": "The content name to set the device to (ie \"I Love Lucy\", \"Blade Runner\")"
+                }
+            }
+        }
+    }
+}

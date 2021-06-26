@@ -1,0 +1,67 @@
+{
+    "tag": "fr",
+    "label": "Lock Codes",
+    "attributes": {
+        "codeLength": {
+            "label": "Longueur de code",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "maxCodes": {
+            "label": "Nombre maximum de codes",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "maxCodeLength": {
+            "label": "Longueur maximum de code",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "codeChanged": {
+            "label": "Code modifi\u00e9",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "lock": {
+            "label": "Verrouillage",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "unlocked with timeout": {
+                        "label": "D\u00e9verrouill\u00e9 avec expiration"
+                    },
+                    "locked": {
+                        "label": "Verrouill\u00e9"
+                    },
+                    "unlocked": {
+                        "label": "D\u00e9verrouill\u00e9"
+                    },
+                    "unknown": {
+                        "label": "Inconnu"
+                    }
+                }
+            }
+        },
+        "minCodeLength": {
+            "label": "Longueur minimum de code",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "codeReport": {
+            "label": "Rapport de code",
+            "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
+            "i18n": []
+        },
+        "scanCodes": {
+            "label": "Codes de num\u00e9risation",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "lockCodes": {
+            "label": "Codes de verrouillage",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

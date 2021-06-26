@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Relative Humidity Measurement",
+    "attributes": {
+        "humidity": {
+            "label": "Humidit\u00e9 relative",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} %",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,66 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the robot cleaner movement.",
+    "attributes": {
+        "robotCleanerMovement": {
+            "label": "robot cleaner movement",
+            "description": "Current status of the robot cleaner movement",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "homing": {
+                        "label": "Returning to dock",
+                        "description": "The robot cleaner movement is in \"homing\" mode"
+                    },
+                    "idle": {
+                        "label": "Standby",
+                        "description": "The robot cleaner movement is in \"idle\" mode"
+                    },
+                    "charging": {
+                        "label": "Charging",
+                        "description": "The robot cleaner movement is in \"charging\" mode"
+                    },
+                    "alarm": {
+                        "label": "Error",
+                        "description": "The robot cleaner movement is in \"alarm\" mode"
+                    },
+                    "powerOff": {
+                        "label": "Off",
+                        "description": "The robot cleaner movement is in \"power off\" mode"
+                    },
+                    "reserve": {
+                        "label": "Scheduled",
+                        "description": "The robot cleaner movement is in \"reserve\" mode"
+                    },
+                    "point": {
+                        "label": "Point cleaning",
+                        "description": "The robot cleaner movement is in \"point\" mode"
+                    },
+                    "after": {
+                        "label": "Charging before cleaning",
+                        "description": "The robot cleaner movement is in \"after\" mode"
+                    },
+                    "cleaning": {
+                        "label": "Cleaning",
+                        "description": "The robot cleaner movement is in \"cleaning\" mode"
+                    },
+                    "pause": {
+                        "label": "Pause",
+                        "description": "The robot cleaner movement is in \"pause\" mode"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setRobotCleanerMovement": {
+            "description": "Set the robot cleaner movement",
+            "arguments": {
+                "mode": {
+                    "i18n": [],
+                    "description": "Set the robot cleaner movement mode, to \"homing\""
+                }
+            }
+        }
+    }
+}

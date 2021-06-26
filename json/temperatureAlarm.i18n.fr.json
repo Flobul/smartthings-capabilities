@@ -1,0 +1,27 @@
+{
+    "tag": "fr",
+    "label": "Temperature Alarm",
+    "attributes": {
+        "temperatureAlarm": {
+            "label": "Alarme de temp\u00e9rature",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": {
+                "value": {
+                    "heat": {
+                        "label": "Chaleur"
+                    },
+                    "freeze": {
+                        "label": "Gel"
+                    },
+                    "rateOfRise": {
+                        "label": "Taux d'augmentation"
+                    },
+                    "cleared": {
+                        "label": "D\u00e9sactiv\u00e9e"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

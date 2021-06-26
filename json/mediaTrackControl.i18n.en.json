@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "description": "Allows for the media track control.",
+    "attributes": {
+        "supportedTrackControlCommands": {
+            "label": "supported track control commands",
+            "description": "Media track control commands which are supported",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "nextTrack": {
+            "description": "Go to the next track",
+            "arguments": []
+        },
+        "previousTrack": {
+            "description": "Go to the previous track",
+            "arguments": []
+        }
+    }
+}

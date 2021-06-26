@@ -1,0 +1,52 @@
+{
+    "tag": "en",
+    "label": "Water Filter",
+    "attributes": {
+        "waterFilterUsageStep": {
+            "label": "waterFilterUsageStep",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "waterFilterResetType": {
+            "label": "waterFilterResetType",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "waterFilterCapacity": {
+            "label": "waterFilterCapacity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "waterFilterLastResetDate": {
+            "label": "waterFilterLastResetDate",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "waterFilterUsage": {
+            "label": "waterFilterUsage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "waterFilterStatus": {
+            "label": "waterFilterStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "notused": {
+                        "label": "notused"
+                    },
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "replace": {
+                        "label": "replace"
+                    },
+                    "wash": {
+                        "label": "wash"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

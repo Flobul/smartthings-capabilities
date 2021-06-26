@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Welcome Care Mode",
+    "attributes": {
+        "welcomeCareMode": {
+            "label": "welcomeCareMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

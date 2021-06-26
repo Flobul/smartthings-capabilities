@@ -1,0 +1,46 @@
+{
+    "tag": "en",
+    "label": "Status",
+    "attributes": {
+        "connectedUserId": {
+            "label": "connectedUserId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "tagStatus": {
+            "label": "Status",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "connected": {
+                        "label": "Nearby"
+                    },
+                    "disconnected": {
+                        "label": "Not near you"
+                    },
+                    "found": {
+                        "label": "found"
+                    },
+                    "lost": {
+                        "label": "lost"
+                    },
+                    "d2dConnected": {
+                        "label": "Connected"
+                    },
+                    "d2dScanned": {
+                        "label": "Nearby"
+                    },
+                    "d2dDisconnected": {
+                        "label": "Not near you"
+                    }
+                }
+            }
+        },
+        "connectedDeviceId": {
+            "label": "connectedDeviceId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

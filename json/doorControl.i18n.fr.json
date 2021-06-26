@@ -1,0 +1,30 @@
+{
+    "tag": "fr",
+    "label": "Door Control",
+    "attributes": {
+        "door": {
+            "label": "Porte",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "closing": {
+                        "label": "Fermeture"
+                    },
+                    "closed": {
+                        "label": "Ferm\u00e9e"
+                    },
+                    "opening": {
+                        "label": "Ouverture"
+                    },
+                    "open": {
+                        "label": "Ouverte"
+                    },
+                    "unknown": {
+                        "label": "Inconnu"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

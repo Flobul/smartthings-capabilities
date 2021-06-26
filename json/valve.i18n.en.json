@@ -1,0 +1,33 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a valve device",
+    "attributes": {
+        "valve": {
+            "label": "valve",
+            "description": "A string representation of whether the valve is open or closed",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "description": "The value of the ``valve`` attribute if the valve is closed",
+                        "label": "Closed"
+                    },
+                    "open": {
+                        "description": "The value of the ``valve`` attribute if the valve is open",
+                        "label": "Open"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "close": {
+            "description": "Close the valve",
+            "arguments": []
+        },
+        "open": {
+            "description": "Open the valve",
+            "arguments": []
+        }
+    }
+}

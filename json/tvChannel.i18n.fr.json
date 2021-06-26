@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Tv Channel",
+    "attributes": {
+        "tvChannel": {
+            "label": "Cha\u00eene TV",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "tvChannelName": {
+            "label": "Nom de la cha\u00eene TV",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,32 @@
+{
+    "tag": "fr",
+    "label": "Thermostat Fan Mode",
+    "attributes": {
+        "thermostatFanMode": {
+            "label": "Mode de ventilation du thermostat",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": {
+                "value": {
+                    "followschedule": {
+                        "label": "Suivre le programme"
+                    },
+                    "auto": {
+                        "label": "Automatique"
+                    },
+                    "circulate": {
+                        "label": "Circulation"
+                    },
+                    "on": {
+                        "label": "Activ\u00e9"
+                    }
+                }
+            }
+        },
+        "supportedThermostatFanModes": {
+            "label": "Modes de ventilation du thermostat pris en charge",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

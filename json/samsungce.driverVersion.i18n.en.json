@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Driver Version",
+    "attributes": {
+        "versionNumber": {
+            "label": "versionNumber",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

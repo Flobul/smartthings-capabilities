@@ -1,0 +1,63 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the robot cleaner state.",
+    "attributes": {
+        "robotCleanerCleaningState": {
+            "label": "robot cleaner cleaning state",
+            "description": "The cleaning state of the Robot Cleaner",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "robotCleanerControlState": {
+            "label": "robot cleaner control state",
+            "description": "The control state of the Robot Cleaner",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "robotCleanerTurboState": {
+            "label": "robot cleaner turbo state",
+            "description": "The turbo state of the Robot Cleaner",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "supportedRobotCleanerStates": {
+            "label": "supported robot cleaner states",
+            "description": "The states supported by the Robot Cleaner",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setRobotCleanerCleaningState": {
+            "description": "Set the cleaning state of the Robot Cleaner",
+            "arguments": {
+                "schedule": {
+                    "i18n": [],
+                    "description": "A value to which the Robot Cleaner cleaning state should be set to"
+                }
+            }
+        },
+        "setRobotCleanerControlState": {
+            "description": "Set the control state of the Robot Cleaner",
+            "arguments": {
+                "schedule": {
+                    "i18n": [],
+                    "description": "A value to which the Robot Cleaner control state should be set to"
+                }
+            }
+        },
+        "setRobotCleanerTurboState": {
+            "description": "Set the turbo state of the Robot Cleaner",
+            "arguments": {
+                "schedule": {
+                    "i18n": [],
+                    "description": "A value to which the Robot Cleaner turbo state should be set to"
+                }
+            }
+        },
+        "stop": {
+            "description": "Provide the description",
+            "arguments": []
+        }
+    }
+}

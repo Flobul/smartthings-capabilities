@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Equivalent Carbon Dioxide Measurement",
+    "attributes": {
+        "equivalentCarbonDioxideMeasurement": {
+            "label": "\u00c9quivalent en dioxyde de carbone",
+            "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} ppm",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

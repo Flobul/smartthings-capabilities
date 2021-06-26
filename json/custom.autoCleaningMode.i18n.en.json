@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Auto Cleaning Mode",
+    "attributes": {
+        "autoCleaningMode": {
+            "label": "autoCleaningMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "quietClean": {
+                        "label": "quietClean"
+                    },
+                    "speedClean": {
+                        "label": "speedClean"
+                    },
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

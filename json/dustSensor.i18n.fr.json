@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Dust Sensor",
+    "attributes": {
+        "dustLevel": {
+            "label": "Quantit\u00e9 de poussi\u00e8re",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait \u00e9gal \u00e0 {{value}} \u03bcg\/m^3.",
+            "i18n": []
+        },
+        "fineDustLevel": {
+            "label": "Niveau de poussi\u00e8re fine",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait \u00e9gal \u00e0 {{value}} \u03bcg\/m^3.",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

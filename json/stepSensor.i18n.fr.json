@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Step Sensor",
+    "attributes": {
+        "goal": {
+            "label": "Objectif",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "steps": {
+            "label": "Pas",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

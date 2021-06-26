@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Measure carbon dioxide levels",
+    "attributes": {
+        "carbonDioxide": {
+            "label": "carbon dioxide",
+            "description": "The level of carbon dioxide detected",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}ppm",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

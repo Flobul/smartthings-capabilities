@@ -1,0 +1,13 @@
+{
+    "tag": "en",
+    "description": "Allow access to estimated time of arrival values for devices that support it, for example automobiles",
+    "attributes": {
+        "eta": {
+            "label": "eta",
+            "description": "A date representing the estimated time of arrival",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

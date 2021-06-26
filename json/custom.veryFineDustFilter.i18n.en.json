@@ -1,0 +1,52 @@
+{
+    "tag": "en",
+    "label": "Very Fine Dust Filter",
+    "attributes": {
+        "veryFineDustFilterStatus": {
+            "label": "veryFineDustFilterStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "notused": {
+                        "label": "notused"
+                    },
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "replace": {
+                        "label": "replace"
+                    },
+                    "wash": {
+                        "label": "wash"
+                    }
+                }
+            }
+        },
+        "veryFineDustFilterResetType": {
+            "label": "veryFineDustFilterResetType",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "veryFineDustFilterUsage": {
+            "label": "veryFineDustFilterUsage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "veryFineDustFilterLastResetDate": {
+            "label": "veryFineDustFilterLastResetDate",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "veryFineDustFilterUsageStep": {
+            "label": "veryFineDustFilterUsageStep",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "veryFineDustFilterCapacity": {
+            "label": "veryFineDustFilterCapacity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

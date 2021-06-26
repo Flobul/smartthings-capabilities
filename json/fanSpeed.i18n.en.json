@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the fan speed.",
+    "attributes": {
+        "fanSpeed": {
+            "label": "fan speed",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setFanSpeed": {
+            "description": "Set the fan speed",
+            "arguments": {
+                "speed": {
+                    "i18n": [],
+                    "description": "Set the fan to this speed"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a relay switch device. This is **deprecated** please use switch instead.",
+    "attributes": {
+        "switch": {
+            "label": "switch",
+            "description": "A string representation of whether the relay switch is on or off",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "description": "The value of the ``switch`` attribute if the relay switch is off"
+                    },
+                    "on": {
+                        "description": "The value of the ``switch`` attribute if the relay switch is on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "off": {
+            "description": "Turn a relay switch off",
+            "arguments": []
+        },
+        "on": {
+            "description": "Turn a relay switch on",
+            "arguments": []
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "tag": "en",
+    "description": "A device that is capable of being bypassed during security system arming",
+    "attributes": {
+        "bypassStatus": {
+            "label": "bypass status",
+            "description": "The bypassed status for a the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "bypassed": {
+                        "description": "The device has been bypassed and won't trigger an alarm",
+                        "label": "bypassed"
+                    },
+                    "ready": {
+                        "description": "The device is ready for arming",
+                        "label": "ready"
+                    },
+                    "notReady": {
+                        "description": "The device is not ready for arming",
+                        "label": "notReady"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Tvoc Measurement",
+    "attributes": {
+        "tvocLevel": {
+            "label": "Niveau du total des compos\u00e9s organiques volatiles",
+            "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} ppm",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

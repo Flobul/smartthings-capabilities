@@ -1,0 +1,29 @@
+{
+    "tag": "en",
+    "description": "Allows to control the language of a device.",
+    "attributes": {
+        "supportedLanguages": {
+            "label": "supported languages",
+            "description": "Languages supported by the device",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "language": {
+            "label": "language",
+            "description": "The current language of a device",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setLanguage": {
+            "description": "Set the language",
+            "arguments": {
+                "language": {
+                    "i18n": [],
+                    "description": "The language to set the device to"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "description": "A Device that senses whether or not there is a shock",
+    "attributes": {
+        "shock": {
+            "label": "shock",
+            "description": "A representation of the shock value from the Device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "clear": {
+                        "description": "There is not currently a shock value from the Device"
+                    },
+                    "detected": {
+                        "description": "The Device is reporting a shock is detected"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

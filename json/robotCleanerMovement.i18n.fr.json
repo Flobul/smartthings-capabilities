@@ -1,0 +1,45 @@
+{
+    "tag": "fr",
+    "label": "Robot Cleaner Movement",
+    "attributes": {
+        "robotCleanerMovement": {
+            "label": "robotCleanerMovement",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaning": {
+                        "label": "Nettoyage"
+                    },
+                    "idle": {
+                        "label": "En veille"
+                    },
+                    "powerOff": {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
+                    "charging": {
+                        "label": "Chargement"
+                    },
+                    "alarm": {
+                        "label": "Erreur"
+                    },
+                    "reserve": {
+                        "label": "Programm\u00e9"
+                    },
+                    "homing": {
+                        "label": "Retour sur la station d'accueil"
+                    },
+                    "after": {
+                        "label": "Rechargement avant nettoyage"
+                    },
+                    "point": {
+                        "label": "Nettoyage cibl\u00e9"
+                    },
+                    "pause": {
+                        "label": "Pause"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,16 @@
+{
+    "tag": "en",
+    "description": "Allows for the setting of a tv channel by channel number",
+    "attributes": [],
+    "commands": {
+        "setChannel": {
+            "description": "Emulate the setting of the channel by specifying the channel number",
+            "arguments": {
+                "channel": {
+                    "i18n": [],
+                    "description": "The channel to set the device to (ie \"14\" or \"14-2\")"
+                }
+            }
+        }
+    }
+}

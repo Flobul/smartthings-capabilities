@@ -1,0 +1,58 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the health check.",
+    "attributes": {
+        "checkInterval": {
+            "label": "check interval",
+            "description": "The current value of checkInterval",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}s",
+            "i18n": []
+        },
+        "DeviceWatch-DeviceStatus": {
+            "label": "device watch- device status",
+            "description": "The current online\/offline status of the device. Deprecated in favor of healthStatus attribute.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "online": {
+                        "description": "The device is online",
+                        "label": "online"
+                    },
+                    "offline": {
+                        "description": "The device is offline",
+                        "label": "offline"
+                    }
+                }
+            }
+        },
+        "healthStatus": {
+            "label": "health status",
+            "description": "The current online\/offline status of the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "online": {
+                        "description": "The device is online",
+                        "label": "online"
+                    },
+                    "offline": {
+                        "description": "The device is offline",
+                        "label": "offline"
+                    }
+                }
+            }
+        },
+        "DeviceWatch-Enroll": {
+            "label": "enroll in health check",
+            "description": "Event sent to enroll a device in device health.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "ping": {
+            "description": "Ping the device",
+            "arguments": []
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "tag": "en",
+    "description": "Supports temperature driven alarms",
+    "attributes": {
+        "temperatureAlarm": {
+            "label": "temperature alarm",
+            "description": "The current status of the temperature alarm",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "heat": {
+                        "description": "The temperature alarm is due to heat condition",
+                        "label": "heat"
+                    },
+                    "cleared": {
+                        "description": "The temperature alarm is cleared",
+                        "label": "cleared"
+                    },
+                    "rateOfRise": {
+                        "description": "The temperature alarm is due to rate of rise of temperature",
+                        "label": "rateOfRise"
+                    },
+                    "freeze": {
+                        "description": "The temperature alarm is due to freeze condition",
+                        "label": "freeze"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

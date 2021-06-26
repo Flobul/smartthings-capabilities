@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Fridge Mode",
+    "attributes": {
+        "fridgeModeValue": {
+            "label": "fridgeModeValue",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "fridgeMode": {
+            "label": "fridgeMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "description": "Allow the execution of the refresh command for devices that support it",
+    "attributes": [],
+    "commands": {
+        "refresh": {
+            "description": "Send the refresh command to the device",
+            "arguments": []
+        }
+    }
+}

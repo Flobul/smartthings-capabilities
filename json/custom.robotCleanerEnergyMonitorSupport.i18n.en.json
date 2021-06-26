@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Energy Monitor Support",
+    "attributes": {
+        "robotCleanerEnergyMonitorSupport": {
+            "label": "robotCleanerEnergyMonitorSupport",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "enable": {
+                        "label": "enable"
+                    },
+                    "disable": {
+                        "label": "disable"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

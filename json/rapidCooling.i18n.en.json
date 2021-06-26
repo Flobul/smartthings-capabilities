@@ -1,0 +1,32 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of rapid cooling.",
+    "attributes": {
+        "rapidCooling": {
+            "label": "rapid cooling",
+            "description": "Current status of the rapid cooling",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "description": "The rapid cooling is in \"off\" state"
+                    },
+                    "on": {
+                        "description": "The rapid cooling is in \"on\" state"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setRapidCooling": {
+            "description": "Set the rapid cooling",
+            "arguments": {
+                "rapidCooling": {
+                    "i18n": [],
+                    "description": "Set the rapid cooling to \"off\" or \"on\" state"
+                }
+            }
+        }
+    }
+}

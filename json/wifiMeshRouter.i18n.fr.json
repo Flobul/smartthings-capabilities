@@ -1,0 +1,66 @@
+{
+    "tag": "fr",
+    "label": "Wifi Mesh Router",
+    "attributes": {
+        "disconnectedRouterCount": {
+            "label": "Nombre de routeurs d\u00e9connect\u00e9s",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "wifiGuestNetworkStatus": {
+            "label": "Statut du r\u00e9seau d'invit\u00e9 Wi-Fi",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "not configured": {
+                        "label": "not configured"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "connectedRouterCount": {
+            "label": "Nombre de routeurs connect\u00e9s",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "connectedDeviceCount": {
+            "label": "Nombre d'appareils connect\u00e9s",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "wifiNetworkName": {
+            "label": "Nom du r\u00e9seau Wi-Fi",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "wifiGuestNetworkName": {
+            "label": "Nom du r\u00e9seau d'invit\u00e9 Wi-Fi",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": []
+        },
+        "wifiNetworkStatus": {
+            "label": "Statut du r\u00e9seau Wi-Fi",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "not configured": {
+                        "label": "not configured"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

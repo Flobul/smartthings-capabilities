@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Sound Pressure Level",
+    "attributes": {
+        "soundPressureLevel": {
+            "label": "Niveau de pression sonore",
+            "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} dB",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

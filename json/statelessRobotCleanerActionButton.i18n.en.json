@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of a robot cleaner with stateless action buttons",
+    "attributes": {
+        "availableRobotCleanerActionButtons": {
+            "label": "configured buttons",
+            "description": "A list of commands\/buttons that have been configured in the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": [],
+                    "description": "The button in availableRobotCleanerActionButtons to send to the device"
+                }
+            }
+        }
+    }
+}

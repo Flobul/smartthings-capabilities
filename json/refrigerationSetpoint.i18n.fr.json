@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Refrigeration Setpoint",
+    "attributes": {
+        "refrigerationSetpoint": {
+            "label": "Temp\u00e9rature de r\u00e9frig\u00e9ration",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}} {{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

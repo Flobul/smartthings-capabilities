@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Valve",
+    "attributes": {
+        "valve": {
+            "label": "Vanne",
+            "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Ferm\u00e9e"
+                    },
+                    "open": {
+                        "label": "Ouverte"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Audio Mute",
+    "attributes": {
+        "mute": {
+            "label": "D\u00e9sactivation du son",
+            "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
+            "i18n": {
+                "value": {
+                    "unmuted": {
+                        "label": "Son activ\u00e9"
+                    },
+                    "muted": {
+                        "label": "Son d\u00e9sactiv\u00e9"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

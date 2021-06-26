@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Virus Doctor Mode",
+    "attributes": {
+        "virusDoctorMode": {
+            "label": "virusDoctorMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,34 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the alarm system arm only.",
+    "attributes": {
+        "alarmSystemStatus": {
+            "label": "alarm system status",
+            "description": "The current status of the alarm system, away, 'off', or stay",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "away": {
+                        "description": "The alarm is in \"away\" status"
+                    },
+                    "off": {
+                        "description": "The alarm is in \"off\" status"
+                    },
+                    "stay": {
+                        "description": "The alarm is in \"stay\" status"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "sendEvent(alarmSystemStatus,stay)": {
+            "description": "Set the alarm status to \"stay\"",
+            "arguments": []
+        },
+        "sendEvent(alarmSystemStatus,away)": {
+            "description": "Set the alarm status to \"away\"",
+            "arguments": []
+        }
+    }
+}

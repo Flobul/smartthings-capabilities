@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Wireless Operating Mode",
+    "attributes": {
+        "wirelessOperatingMode": {
+            "label": "mode de fonctionnement sans fil",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": {
+                "value": {
+                    "whenNeeded": {
+                        "label": "si n\u00e9cessaire"
+                    },
+                    "alwaysOn": {
+                        "label": "toujours activ\u00e9"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

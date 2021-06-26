@@ -1,0 +1,38 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the dishwasher.",
+    "attributes": {
+        "dishwasherMode": {
+            "label": "dishwasher mode",
+            "description": "Current mode of the dishwasher",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "description": "The dishwasher is in \"auto\" mode"
+                    },
+                    "quick": {
+                        "description": "The dishwasher is in \"quick\" mode"
+                    },
+                    "rinse": {
+                        "description": "The dishwasher is in \"rinse\" mode"
+                    },
+                    "dry": {
+                        "description": "The dishwasher is in \"dry\" mode"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setDishwasherMode": {
+            "description": "Set the dishwasher mode",
+            "arguments": {
+                "mode": {
+                    "i18n": [],
+                    "description": "Set the dishwasher mode to \"auto\", \"quick\", \"rinse\", or \"dry\" mode"
+                }
+            }
+        }
+    }
+}

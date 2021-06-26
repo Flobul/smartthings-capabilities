@@ -1,0 +1,60 @@
+{
+    "tag": "en",
+    "description": "Allows for the control of the timed session.",
+    "attributes": {
+        "sessionStatus": {
+            "label": "session status",
+            "description": "Current status of the timed session",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "canceled": {
+                        "description": "The timed session is now in \"canceled\" status"
+                    },
+                    "paused": {
+                        "description": "The timed session is now in \"paused\" status"
+                    },
+                    "running": {
+                        "description": "The timed session is now in \"running\" status"
+                    },
+                    "stopped": {
+                        "description": "The timed session is now in \"stopped\" status"
+                    }
+                }
+            }
+        },
+        "completionTime": {
+            "label": "completion time",
+            "description": "The date time that the timed session will complete complete",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setCompletionTime": {
+            "description": "Set the completion time for the timed session",
+            "arguments": {
+                "completionTime": {
+                    "i18n": [],
+                    "description": "Set the completion time for the timed session to this IS0-8601 time"
+                }
+            }
+        },
+        "cancel": {
+            "description": "Cancel the timed session",
+            "arguments": []
+        },
+        "pause": {
+            "description": "Pause the timed session",
+            "arguments": []
+        },
+        "start": {
+            "description": "Start the timed session",
+            "arguments": []
+        },
+        "stop": {
+            "description": "Stop the timed session",
+            "arguments": []
+        }
+    }
+}

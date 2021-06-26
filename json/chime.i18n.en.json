@@ -1,0 +1,33 @@
+{
+    "tag": "en",
+    "description": "The Chime capability allows for interacting with devices that serve as a non-alarming attention getter; such as door bells and time-of-day indicators.",
+    "attributes": {
+        "chime": {
+            "label": "chime",
+            "description": "A string representation of whether the chime is active or off",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "chime": {
+                        "description": "if the chime is active",
+                        "label": "Chime"
+                    },
+                    "off": {
+                        "description": "if the chime is turned off",
+                        "label": "Off"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "chime": {
+            "description": "Enable the chime",
+            "arguments": []
+        },
+        "off": {
+            "description": "Disable the chime",
+            "arguments": []
+        }
+    }
+}
