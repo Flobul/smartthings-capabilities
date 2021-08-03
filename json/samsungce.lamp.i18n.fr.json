@@ -1,6 +1,6 @@
 {
-    "tag": "en",
-    "label": "Light",
+    "tag": "fr",
+    "label": "Voyant",
     "attributes": {
         "brightnessLevel": {
             "label": "brightnessLevel",

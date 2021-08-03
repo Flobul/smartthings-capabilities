@@ -1,8 +1,8 @@
 {
     "id": "airConditionerMode",
     "version": 1,
-    "name": "Air Conditioner Mode",
     "status": "proposed",
+    "name": "Air Conditioner Mode",
     "attributes": {
         "supportedAcModes": {
             "schema": {
@@ -26,13 +26,11 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setAirConditionerMode",
             "enumCommands": []
         },
         "airConditionerMode": {
             "schema": {
                 "type": "object",
-                "additionalProperties": false,
                 "properties": {
                     "value": {
                         "title": "HvacMode",
@@ -50,6 +48,7 @@
                         ]
                     }
                 },
+                "additionalProperties": false,
                 "required": [
                     "value"
                 ]
@@ -63,6 +62,7 @@
             "arguments": [
                 {
                     "name": "mode",
+                    "optional": false,
                     "schema": {
                         "title": "HvacMode",
                         "type": "string",

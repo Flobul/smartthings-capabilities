@@ -1,4 +1,14 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{mode.value}}",
+                "alternatives": null
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
     "detailView": [
         {
             "label": "{{i18n.label}}",
@@ -25,7 +35,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "state": null
         }
     ],
     "automation": {

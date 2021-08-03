@@ -2,11 +2,10 @@
     "detailView": [
         {
             "label": "{{i18n.label}}",
-            "displayType": "pushButton",
-            "pushButton": {
-                "command": "capture"
-            },
-            "state": null
+            "displayType": "state",
+            "state": {
+                "label": "{{uri.value}}"
+            }
         }
     ],
     "automation": {
@@ -18,15 +17,20 @@
                 "list": {
                     "alternatives": [
                         {
-                            "key": "capture",
-                            "value": "{{i18n.label}}",
+                            "key": "startAudio",
+                            "value": "{{i18n.commands.startAudio.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "stopAudio",
+                            "value": "{{i18n.commands.stopAudio.label}}",
+                            "type": "inactive"
                         }
                     ]
                 }
             }
         ]
     },
-    "id": "videoCapture",
+    "id": "audioStream",
     "version": 1
 }

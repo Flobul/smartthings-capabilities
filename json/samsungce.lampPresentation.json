@@ -1,0 +1,38 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setBrightnessLevel.arguments.mode.i18n.off.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "low",
+                            "value": "{{i18n.commands.setBrightnessLevel.arguments.mode.i18n.low.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mid",
+                            "value": "{{i18n.commands.setBrightnessLevel.arguments.mode.i18n.mid.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "high",
+                            "value": "{{i18n.commands.setBrightnessLevel.arguments.mode.i18n.high.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setBrightnessLevel"
+                }
+            }
+        ]
+    },
+    "id": "samsungce.lamp",
+    "version": 1
+}
