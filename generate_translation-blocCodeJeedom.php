@@ -1,4 +1,3 @@
-<?php
 #################################################################################################
 ## Ce script permet de récupérer les traductions fr SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).          ##
@@ -7,14 +6,18 @@
 ## Créé par Flobul pour Jeedom                                                                 ##
 #################################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
+$custom_token = ""; //entrez votre token ici 
+$plugin_token = config::byKey('token','smartthings',""); //ou laissez le code le récupérer dans le plugin (plugin obligatoire)
+
+if ($custom_token != "") $token = $custom_token;
+elseif($plugin_token != '' ) $token = $plugin_token;
 
 $_version = '1';
-$_language = 'fr';
+$_language = 'fr'; //spécifiez la langue à télécharger (ex: fr, en, it...)
 $url_i18n = '/' . $_version . '/i18n/' . $_language;
 
 global $tmp_dir;
 $tmp_dir = '/tmp/jeedom/smartthings';
-$token = 'your-smartthings-token';
 $i = 0;
 
 $customAdded = array(
@@ -216,3 +219,4 @@ function createPrettyJson($capaId, $var) {
 	$pretty = json_encode($var, JSON_PRETTY_PRINT);
 	file_put_contents($tmp_dir . "/" . $capaId . ".json", $pretty);
 }
+
