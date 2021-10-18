@@ -1,16 +1,21 @@
-<?php
 ###############################################################################################
 ## Ce script permet de récupérer les capabilities SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).        ##
 ## Il faut mettre ce script dans un bloc code de scénario Jeedom.                            ##
-## Dernière mise à jour : 13/06/2021                                                         ##
+## Dernière mise à jour : 18/10/2021                                                         ##
 ## Créé par Flobul pour Jeedom                                                               ##
 ###############################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
+$custom_token = ""; //entrez votre token ici 
+$plugin_token = config::byKey('token','smartthings',""); //ou laissez le code le récupérer dans le plugin (plugin obligatoire)
+
+if ($custom_token != "") $token = $custom_token;
+elseif($plugin_token != '' ) $token = $plugin_token;
+
 global $tmp_dir;
 $tmp_dir = '/tmp/jeedom/smartthings';
-$token = 'your-smartthings-token';
 $i = 0;
+/** Ajout manuel de capabilities non implémentées dans ST **/
 $customAdded = array(
 	"airConditionerOptionalMode",
 	"custom.accessibility",
@@ -263,7 +268,7 @@ foreach ($customAdded as $custom) {
 	}
 
 	/** création du markdown dans un fichier README.md **/
-	$eachMd = printMarkdown($i, $arrayCapa['name'], $capa['id'], $capa['version'], $capa['status'], $pres);
+	$eachMd = printMarkdown($i, $arrayCapa['name'], $capa['id'], $capa['version'], $capa['status'], $pres, $i18n);
 	$current = file_get_contents($tmp_dir . "/" . "README.md");
 	file_put_contents($tmp_dir . "/" . "README.md", $current . $eachMd);
 
@@ -342,3 +347,4 @@ function createPrettyJson($capaId, $var) {
 	$pretty = json_encode($var, JSON_PRETTY_PRINT);
 	file_put_contents($tmp_dir . "/" . $capaId . ".json", $pretty);
 }
+
