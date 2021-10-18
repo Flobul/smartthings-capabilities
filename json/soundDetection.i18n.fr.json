@@ -32,8 +32,14 @@
                     "noSound": {
                         "label": "Aucune"
                     },
+                    "siren": {
+                        "label": "siren"
+                    },
                     "catMeowing": {
                         "label": "Miaulement de chat d\u00e9tect\u00e9"
+                    },
+                    "snoring": {
+                        "label": "snoring"
                     },
                     "doorKnocking": {
                         "label": "Frappement \u00e0 la porte d\u00e9tect\u00e9"
@@ -46,6 +52,9 @@
                     },
                     "fireAlarm": {
                         "label": "Alarme incendie"
+                    },
+                    "fingerSnapping": {
+                        "label": "fingerSnapping"
                     }
                 }
             }

@@ -4,6 +4,25 @@
     "status": "proposed",
     "name": "Dryer Wrinkle Prevent",
     "attributes": {
+        "operatingState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "ready",
+                            "running"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "dryerWrinklePrevent": {
             "schema": {
                 "title": "WrinklePrevent",

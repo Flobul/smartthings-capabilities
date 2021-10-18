@@ -38,6 +38,9 @@
                             "codeId": {
                                 "type": "string"
                             },
+                            "codeName": {
+                                "type": "string"
+                            },
                             "timeout": {
                                 "title": "Iso8601Date",
                                 "type": "string",

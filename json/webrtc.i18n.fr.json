@@ -1,0 +1,32 @@
+{
+    "tag": "fr",
+    "label": "webrtc",
+    "attributes": {
+        "sdpAnswer": {
+            "label": "sdpAnswer",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "talkback": {
+            "label": "Parler",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedFeatures": {
+            "label": "supportedFeatures",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "audioOnly": {
+            "label": "audioOnly",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "stunUrl": {
+            "label": "stunUrl",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

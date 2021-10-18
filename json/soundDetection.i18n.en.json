@@ -43,6 +43,15 @@
                     },
                     "doorKnocking": {
                         "label": "Door knocking detected"
+                    },
+                    "siren": {
+                        "label": "Siren detected"
+                    },
+                    "fingerSnapping": {
+                        "label": "Finger snapping detected"
+                    },
+                    "snoring": {
+                        "label": "Snoring detected"
                     }
                 }
             }

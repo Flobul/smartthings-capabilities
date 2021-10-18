@@ -14,8 +14,7 @@
                             "locked",
                             "unlocked",
                             "paused"
-                        ],
-                        "default": false
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -26,14 +25,5 @@
             "enumCommands": []
         }
     },
-    "commands": {
-        "unlock": {
-            "name": "unlock",
-            "arguments": []
-        },
-        "lock": {
-            "name": "lock",
-            "arguments": []
-        }
-    }
+    "commands": []
 }

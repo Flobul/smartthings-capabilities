@@ -21,7 +21,7 @@
             "i18n": []
         },
         "talkback": {
-            "label": "talkback",
+            "label": "Talk",
             "description": "Whether audio is streaming from client to video source",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
