@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Filter State",
     "description": "Gets the state of the filter.",
     "attributes": {
         "filterLifeRemaining": {

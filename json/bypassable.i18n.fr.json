@@ -1,9 +1,11 @@
 {
     "tag": "fr",
     "label": "Bypassable",
+    "description": "A device that is capable of being bypassed during security system arming",
     "attributes": {
         "bypassStatus": {
             "label": "Statut de contournement",
+            "description": "The bypassed status for a the device",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {

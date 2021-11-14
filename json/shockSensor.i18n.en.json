@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Shock Sensor",
     "description": "A Device that senses whether or not there is a shock",
     "attributes": {
         "shock": {
@@ -9,10 +10,10 @@
             "i18n": {
                 "value": {
                     "clear": {
-                        "description": "There is not currently a shock value from the Device"
+                        "label": "clear"
                     },
                     "detected": {
-                        "description": "The Device is reporting a shock is detected"
+                        "label": "detected"
                     }
                 }
             }

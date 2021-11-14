@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Infrared level",
     "description": "Allows for the control of the infrared level attribute of a device",
     "attributes": {
         "infraredLevel": {
@@ -11,6 +12,7 @@
     },
     "commands": {
         "setInfraredLevel": {
+            "label": "Set infrared level",
             "description": "Set the infrared level to the given value",
             "arguments": {
                 "level": {

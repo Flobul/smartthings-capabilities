@@ -1,19 +1,8 @@
 {
     "tag": "en",
+    "label": "Talk",
     "description": "Allows for WebRTC signaling to happen",
     "attributes": {
-        "supportedFeatures": {
-            "label": "supported features",
-            "description": "Indication of 2-way talk support and other features",
-            "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
-        },
-        "audioOnly": {
-            "label": "audio only",
-            "description": "The stream is audio only",
-            "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
-        },
         "sdpAnswer": {
             "label": "live stream",
             "description": "Signaling info for a video source",
@@ -23,6 +12,18 @@
         "talkback": {
             "label": "Talk",
             "description": "Whether audio is streaming from client to video source",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
+        "supportedFeatures": {
+            "label": "supported features",
+            "description": "Indication of 2-way talk support and other features",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
+        "audioOnly": {
+            "label": "audio only",
+            "description": "The stream is audio only",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },

@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Very Fine Dust Sensor",
+    "label": "PM 1,0",
+    "description": "Gets the reading of the very fine dust sensor.",
     "attributes": {
         "veryFineDustLevel": {
-            "label": "Niveau de poussi\u00e8re fine",
+            "label": "PM 1,0",
+            "description": "Current level of fine dust -- also refered to as PM1.0, measured in micrograms per cubic meter",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait \u00e9gal \u00e0 {{value}} \u03bcg\/m^3.",
             "i18n": []
         }

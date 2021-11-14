@@ -1,24 +1,22 @@
 {
     "tag": "en",
+    "label": "Smoke detector",
     "description": "A device that detects the presence or absence of smoke.",
     "attributes": {
         "smoke": {
-            "label": "smoke",
+            "label": "Smoke detector",
             "description": "The state of the smoke detection device",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
-                    "detected": {
-                        "description": "Smoke detected",
-                        "label": "Detected"
+                    "tested": {
+                        "label": "Tested"
                     },
                     "clear": {
-                        "description": "No smoke detected",
                         "label": "Clear"
                     },
-                    "tested": {
-                        "description": "Smoke detector test button was activated",
-                        "label": "Tested"
+                    "detected": {
+                        "label": "Smoke detected"
                     }
                 }
             }

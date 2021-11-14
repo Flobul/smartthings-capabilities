@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Air Quality Sensor",
+    "label": "Qualit\u00e9 de l'air",
+    "description": "Gets the air quality number.",
     "attributes": {
         "airQuality": {
             "label": "Qualit\u00e9 de l'air",
+            "description": "Current air quality number",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }

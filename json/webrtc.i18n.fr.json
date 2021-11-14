@@ -1,32 +1,47 @@
 {
     "tag": "fr",
-    "label": "webrtc",
+    "label": "Parler",
+    "description": "Allows for WebRTC signaling to happen",
     "attributes": {
         "sdpAnswer": {
-            "label": "sdpAnswer",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "live stream",
+            "description": "Signaling info for a video source",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },
         "talkback": {
             "label": "Parler",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "Whether audio is streaming from client to video source",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },
         "supportedFeatures": {
-            "label": "supportedFeatures",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "supported features",
+            "description": "Indication of 2-way talk support and other features",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },
         "audioOnly": {
-            "label": "audioOnly",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "audio only",
+            "description": "The stream is audio only",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },
         "stunUrl": {
-            "label": "stunUrl",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "STUN URL",
+            "description": "URL used for STUN connection from the client",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "sdpOffer": {
+            "description": "Start the live stream",
+            "arguments": []
+        },
+        "end": {
+            "description": "Stop the live stream",
+            "arguments": []
+        }
+    }
 }

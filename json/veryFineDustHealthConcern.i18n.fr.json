@@ -1,0 +1,35 @@
+{
+    "tag": "fr",
+    "label": "Poussi\u00e8re tr\u00e8s fine",
+    "description": "Health Concern levels of very fine dust sensor measurements.",
+    "attributes": {
+        "veryFineDustHealthConcern": {
+            "label": "Poussi\u00e8re tr\u00e8s fine",
+            "description": "Current health concern of very fine dust -- also refered to as PM1.0, based on the relative health hazard",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "veryUnhealthy": {
+                        "label": "Tr\u00e8s mauvais"
+                    },
+                    "slightlyUnhealthy": {
+                        "label": "L\u00e9g\u00e8rement mauvais"
+                    },
+                    "unhealthy": {
+                        "label": "Mauvais"
+                    },
+                    "hazardous": {
+                        "label": "Dangereux"
+                    },
+                    "good": {
+                        "label": "Bon"
+                    },
+                    "moderate": {
+                        "label": "Moyen"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

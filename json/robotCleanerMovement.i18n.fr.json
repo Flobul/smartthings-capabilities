@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Robot Cleaner Movement",
+    "label": "Mouvement",
+    "description": "Allows for the control of the robot cleaner movement.",
     "attributes": {
         "robotCleanerMovement": {
-            "label": "robotCleanerMovement",
+            "label": "Mouvement",
+            "description": "Current status of the robot cleaner movement",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -41,5 +43,46 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setRobotCleanerMovement": {
+            "description": "Set the robot cleaner movement",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "cleaning": {
+                            "label": "Nettoyage"
+                        },
+                        "idle": {
+                            "label": "En veille"
+                        },
+                        "powerOff": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
+                        "alarm": {
+                            "label": "Erreur"
+                        },
+                        "reserve": {
+                            "label": "Programm\u00e9"
+                        },
+                        "charging": {
+                            "label": "Chargement"
+                        },
+                        "after": {
+                            "label": "Rechargement avant nettoyage"
+                        },
+                        "homing": {
+                            "label": "Retour sur la station d'accueil"
+                        },
+                        "point": {
+                            "label": "Nettoyage cibl\u00e9"
+                        },
+                        "pause": {
+                            "label": "Pause"
+                        }
+                    },
+                    "description": "Set the robot cleaner movement mode, to \"homing\""
+                }
+            }
+        }
+    }
 }

@@ -1,17 +1,37 @@
 {
     "tag": "fr",
-    "label": "Tv Channel",
+    "label": "Cha\u00eene",
+    "description": "Allows for the control of the TV channel.",
     "attributes": {
         "tvChannel": {
-            "label": "Cha\u00eene TV",
+            "label": "Cha\u00eene",
+            "description": "Current status of the TV channel",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "tvChannelName": {
             "label": "Nom de la cha\u00eene TV",
+            "description": "Current status of the TV channel name",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "channelDown": {
+            "description": "Move the TV channel down",
+            "arguments": []
+        },
+        "setTvChannel": {
+            "description": "Set the TV channel",
+            "arguments": []
+        },
+        "channelUp": {
+            "description": "Move the TV channel up",
+            "arguments": []
+        },
+        "setTvChannelName": {
+            "description": "Set the TV channel Name",
+            "arguments": []
+        }
+    }
 }

@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Audio stream",
     "description": "Allows for the ability to stream audio to a device",
     "attributes": {
         "uri": {
-            "label": "uri",
+            "label": "URI",
             "description": "Current status of the audio stream",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
@@ -11,10 +12,12 @@
     },
     "commands": {
         "startAudio": {
+            "label": "Turn on microphone",
             "description": "Start the audio stream",
             "arguments": []
         },
         "stopAudio": {
+            "label": "Turn off microphone",
             "description": "Stop the audio stream",
             "arguments": []
         }

@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Mode",
     "description": "Allows for control of the modes that the device supports.",
     "attributes": {
         "mode": {
-            "label": "mode",
+            "label": "Mode",
             "description": "Current mode",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
@@ -17,6 +18,7 @@
     },
     "commands": {
         "setMode": {
+            "label": "Mode",
             "description": "Set the mode",
             "arguments": {
                 "mode": {

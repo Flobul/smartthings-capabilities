@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "description": "Allow configuration of devices that support it",
+    "label": "Configuration",
     "attributes": [],
     "commands": {
         "configure": {

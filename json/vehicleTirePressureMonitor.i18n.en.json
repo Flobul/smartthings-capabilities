@@ -1,20 +1,19 @@
 {
     "tag": "en",
+    "label": "Tyre pressure",
     "description": "Get the state of a vehicle's tire pressure monitor system",
     "attributes": {
         "tirePressureState": {
-            "label": "tire pressure state",
+            "label": "Tyre pressure",
             "description": "A string that represents the state of the tire pressure monitor system",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "normal": {
-                        "description": "tire pressure readings are normal",
                         "label": "Normal"
                     },
                     "warn": {
-                        "description": "tire pressure readings are not normal",
-                        "label": "Warn"
+                        "label": "Warning"
                     }
                 }
             }

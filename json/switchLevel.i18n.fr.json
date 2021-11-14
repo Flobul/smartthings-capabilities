@@ -1,12 +1,28 @@
 {
     "tag": "fr",
-    "label": "Switch Level",
+    "label": "Variateur de lumi\u00e8re",
+    "description": "Allows for the control of the level of a device like a light or a dimmer switch.",
     "attributes": {
         "level": {
             "label": "Variateur de lumi\u00e8re",
+            "description": "A number that represents the current level, usually ``0-100`` in percent",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} %",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setLevel": {
+            "description": "Set the level to the given value. If the device supports being turned on and off then it will be turned on if ``level`` is greater than 0 and turned off if ``level`` is equal to 0.",
+            "arguments": {
+                "level": {
+                    "i18n": [],
+                    "description": "The level value, usually ``0-100`` in percent"
+                },
+                "rate": {
+                    "i18n": [],
+                    "description": "The rate at which to change the level"
+                }
+            }
+        }
+    }
 }

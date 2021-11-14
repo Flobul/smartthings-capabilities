@@ -1,9 +1,11 @@
 {
     "tag": "fr",
     "label": "Panic Alarm",
+    "description": "Allows for monitoring the status of a panic alarm",
     "attributes": {
         "panicAlarm": {
             "label": "Alarme de panique",
+            "description": "The current status of the panic alarm",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {

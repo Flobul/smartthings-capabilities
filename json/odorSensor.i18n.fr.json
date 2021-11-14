@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Odor Sensor",
+    "label": "D\u00e9tecteur d'odeurs",
+    "description": "Gets the odor sensor reading.",
     "attributes": {
         "odorLevel": {
-            "label": "niveau d'odeur",
+            "label": "D\u00e9tecteur d'odeurs",
+            "description": "The current oder sensor level reading",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": []
         }

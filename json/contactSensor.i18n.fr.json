@@ -1,17 +1,19 @@
 {
     "tag": "fr",
-    "label": "Contact Sensor",
+    "label": "Capteur de contact",
+    "description": "Allows reading the value of a contact sensor device",
     "attributes": {
         "contact": {
-            "label": "Contact",
+            "label": "Capteur de contact",
+            "description": "The current state of the contact sensor",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
                     "closed": {
-                        "label": "Ferm\u00e9e"
+                        "label": "Ferm\u00e9"
                     },
                     "open": {
-                        "label": "Ouverte"
+                        "label": "Ouvert"
                     }
                 }
             }

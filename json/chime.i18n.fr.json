@@ -1,0 +1,34 @@
+{
+    "tag": "fr",
+    "label": "Carillon",
+    "description": "The Chime capability allows for interacting with devices that serve as a non-alarming attention getter; such as door bells and time-of-day indicators.",
+    "attributes": {
+        "chime": {
+            "label": "Carillon",
+            "description": "A string representation of whether the chime is active or off",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
+                    "chime": {
+                        "label": "Carillon"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "off": {
+            "label": "D\u00e9sactiv\u00e9",
+            "description": "Disable the chime",
+            "arguments": []
+        },
+        "chime": {
+            "label": "Carillon",
+            "description": "Enable the chime",
+            "arguments": []
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "tag": "fr",
+    "label": "Refroidissement rapide",
+    "description": "Allows for the control of rapid cooling.",
+    "attributes": {
+        "rapidCooling": {
+            "label": "Refroidissement rapide",
+            "description": "Current status of the rapid cooling",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
+                    "on": {
+                        "label": "Activ\u00e9"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setRapidCooling": {
+            "description": "Set the rapid cooling",
+            "arguments": {
+                "rapidCooling": {
+                    "i18n": {
+                        "off": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
+                        "on": {
+                            "label": "Activ\u00e9"
+                        }
+                    },
+                    "description": "Set the rapid cooling to \"off\" or \"on\" state"
+                }
+            }
+        }
+    }
+}

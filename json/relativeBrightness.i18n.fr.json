@@ -1,11 +1,37 @@
 {
     "tag": "fr",
-    "label": "Relative Brightness",
+    "label": "Niveau de luminosit\u00e9",
+    "description": "Allow reading the relative brightness intensity from devices that support it",
     "attributes": {
         "brightnessIntensity": {
             "label": "Niveau de luminosit\u00e9",
+            "description": "A numerical representation of the relative brightness intensity taken by the device. Example references: 0 = complete dark, 1 = overcast night, 2 = full moon, 3 = deep twilight, 4 = twilight, 5 = very dark day, 6 = overcast day, 7 = full daylight",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "1": {
+                        "label": "Nuit"
+                    },
+                    "2": {
+                        "label": "Cr\u00e9puscule"
+                    },
+                    "3": {
+                        "label": "\u00c9clairage int\u00e9rieur faible"
+                    },
+                    "4": {
+                        "label": "\u00c9clairage int\u00e9rieur mod\u00e9r\u00e9"
+                    },
+                    "5": {
+                        "label": "\u00c9clairage de bureau"
+                    },
+                    "6": {
+                        "label": "Journ\u00e9e nuageuse"
+                    },
+                    "7": {
+                        "label": "Lumi\u00e8re du jour"
+                    }
+                }
+            }
         }
     },
     "commands": []

@@ -1,0 +1,16 @@
+{
+    "tag": "fr",
+    "label": "Notification",
+    "attributes": [],
+    "commands": {
+        "deviceNotification": {
+            "description": "Send a notification to the device, which will in turn be displayed by the device",
+            "arguments": {
+                "notification": {
+                    "i18n": [],
+                    "description": "The notification message to be displayed on the device"
+                }
+            }
+        }
+    }
+}

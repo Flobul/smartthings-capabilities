@@ -1,34 +1,40 @@
 {
     "tag": "fr",
     "label": "Lock Codes",
+    "description": "Allows for the control of the lock codes.",
     "attributes": {
         "codeLength": {
             "label": "Longueur de code",
+            "description": "Length of the code, an integer",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "maxCodes": {
             "label": "Nombre maximum de codes",
+            "description": "Maximum number of codes, an integer",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "maxCodeLength": {
             "label": "Longueur maximum de code",
+            "description": "Maximum code length, an integer",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "codeChanged": {
             "label": "Code modifi\u00e9",
+            "description": "Indicator if the code has changed",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "lock": {
             "label": "Verrouillage",
+            "description": "The state of the lock",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "unlocked with timeout": {
-                        "label": "D\u00e9verrouill\u00e9 avec expiration"
+                        "label": "unlocked with timeout"
                     },
                     "locked": {
                         "label": "Verrouill\u00e9"
@@ -44,24 +50,111 @@
         },
         "minCodeLength": {
             "label": "Longueur minimum de code",
+            "description": "Minimum code length, an integer",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "codeReport": {
             "label": "Rapport de code",
+            "description": "A report on the code",
             "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
             "i18n": []
         },
         "scanCodes": {
             "label": "Codes de num\u00e9risation",
+            "description": "Scan codes",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "lockCodes": {
             "label": "Codes de verrouillage",
+            "description": "Lock codes",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setCodeLength": {
+            "description": "Set the code length for the code",
+            "arguments": {
+                "length": {
+                    "i18n": [],
+                    "description": "Length to which the code should be set"
+                }
+            }
+        },
+        "reloadAllCodes": {
+            "description": "Reload all the codes",
+            "arguments": []
+        },
+        "unlock": {
+            "description": "Unlock the lock",
+            "arguments": []
+        },
+        "unlockWithTimeout": {
+            "description": "Unlock the lock with a timeout",
+            "arguments": []
+        },
+        "setCode": {
+            "description": "Set a code",
+            "arguments": {
+                "codeName": {
+                    "i18n": [],
+                    "description": "Set the code name"
+                },
+                "codeSlot": {
+                    "i18n": [],
+                    "description": "Set the code in this code slot"
+                },
+                "codePIN": {
+                    "i18n": [],
+                    "description": "Set the code pin"
+                }
+            }
+        },
+        "updateCodes": {
+            "description": "Update the codes",
+            "arguments": {
+                "codes": {
+                    "i18n": [],
+                    "description": "Update to these codes"
+                }
+            }
+        },
+        "lock": {
+            "description": "Lock the lock",
+            "arguments": []
+        },
+        "requestCode": {
+            "description": "Request a code",
+            "arguments": {
+                "codeSlot": {
+                    "i18n": [],
+                    "description": "Request the code from this code slot"
+                }
+            }
+        },
+        "deleteCode": {
+            "description": "Delete the code",
+            "arguments": {
+                "codeSlot": {
+                    "i18n": [],
+                    "description": "Delete the code in this code slot"
+                }
+            }
+        },
+        "nameSlot": {
+            "description": "Set the name slot for the code",
+            "arguments": {
+                "codeName": {
+                    "i18n": [],
+                    "description": "Code name for the code"
+                },
+                "codeSlot": {
+                    "i18n": [],
+                    "description": "Code slot number for the code"
+                }
+            }
+        }
+    }
 }

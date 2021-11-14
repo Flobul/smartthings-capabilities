@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "description": "Allows for the setting of a tv channel by channel number",
+    "label": "Stateless Set Channel Button",
     "attributes": [],
     "commands": {
         "setChannel": {

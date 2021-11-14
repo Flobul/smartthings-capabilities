@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Media Playback Button",
     "description": "Allows for the control of a media playback device with stateless action buttons",
     "attributes": {
         "availableMediaPlaybackButtons": {
@@ -14,7 +15,23 @@
             "description": "Emulate the pressing of a supported button",
             "arguments": {
                 "button": {
-                    "i18n": [],
+                    "i18n": {
+                        "play": {
+                            "label": "Play"
+                        },
+                        "rewind": {
+                            "label": "Rewind"
+                        },
+                        "stop": {
+                            "label": "Stop"
+                        },
+                        "fastForward": {
+                            "label": "Fast forward"
+                        },
+                        "pause": {
+                            "label": "Pause"
+                        }
+                    },
                     "description": "The button in availableMediaPlaybackButtons to send to the device"
                 }
             }

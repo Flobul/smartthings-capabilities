@@ -1,36 +1,31 @@
 {
     "tag": "en",
+    "label": "Cleaning",
     "description": "Allows for the control of the robot cleaner cleaning mode.",
     "attributes": {
         "robotCleanerCleaningMode": {
-            "label": "robot cleaner cleaning mode",
+            "label": "Cleaning",
             "description": "Current status of the robot cleaner cleaning mode",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "auto": {
-                        "label": "Auto",
-                        "description": "The robot cleaner cleaning mode is in \"auto\" mode"
-                    },
-                    "part": {
-                        "label": "Spot",
-                        "description": "The robot cleaner cleaning mode is in \"part\" mode"
-                    },
-                    "repeat": {
-                        "label": "Repeat",
-                        "description": "The robot cleaner cleaning mode is in \"repeat\" mode"
-                    },
-                    "manual": {
-                        "label": "Manual",
-                        "description": "The robot cleaner cleaning mode is in \"manual\" mode"
+                        "label": "Auto"
                     },
                     "stop": {
-                        "label": "Stop",
-                        "description": "The robot cleaner cleaning mode is in \"stop\" mode"
+                        "label": "Stop"
+                    },
+                    "part": {
+                        "label": "Spot"
+                    },
+                    "repeat": {
+                        "label": "Repeat"
+                    },
+                    "manual": {
+                        "label": "Manual"
                     },
                     "map": {
-                        "label": "Map",
-                        "description": "The robot cleaner cleaning mode is in \"map\" mode"
+                        "label": "Map"
                     }
                 }
             }
@@ -41,7 +36,26 @@
             "description": "Set the robot cleaner cleaning mode",
             "arguments": {
                 "mode": {
-                    "i18n": [],
+                    "i18n": {
+                        "auto": {
+                            "label": "Auto"
+                        },
+                        "stop": {
+                            "label": "Stop"
+                        },
+                        "part": {
+                            "label": "Spot"
+                        },
+                        "repeat": {
+                            "label": "Repeat"
+                        },
+                        "manual": {
+                            "label": "Manual"
+                        },
+                        "map": {
+                            "label": "Map"
+                        }
+                    },
                     "description": "Set the robot cleaner cleaning mode, to \"auto\", \"part\", \"repeat\", \"manual\" or \"stop\" modes"
                 }
             }

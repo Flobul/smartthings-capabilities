@@ -87,8 +87,7 @@
                 ]
             },
             {
-                "label": "{{completionTime.value}}",
-                "alternatives": null
+                "label": "{{completionTime.value}}"
             }
         ],
         "actions": [

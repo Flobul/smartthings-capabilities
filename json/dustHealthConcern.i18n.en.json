@@ -1,12 +1,34 @@
 {
     "tag": "en",
+    "label": "Dust",
     "description": "Health Concern levels of PM10 dust sensor measurements.",
     "attributes": {
         "dustHealthConcern": {
-            "label": "dust health concern",
+            "label": "Dust",
             "description": "Current health concern of dust -- also refered to as PM10, based on the relative health hazard",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "veryUnhealthy": {
+                        "label": "Very unhealthy"
+                    },
+                    "slightlyUnhealthy": {
+                        "label": "Slightly unhealthy"
+                    },
+                    "unhealthy": {
+                        "label": "Unhealthy"
+                    },
+                    "hazardous": {
+                        "label": "Hazardous"
+                    },
+                    "good": {
+                        "label": "Good"
+                    },
+                    "moderate": {
+                        "label": "Moderate"
+                    }
+                }
+            }
         }
     },
     "commands": []

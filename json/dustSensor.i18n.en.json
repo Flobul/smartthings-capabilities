@@ -1,16 +1,17 @@
 {
     "tag": "en",
+    "label": "Dust level",
     "description": "Gets the reading of the dust sensor.",
     "attributes": {
-        "fineDustLevel": {
-            "label": "fine dust level",
-            "description": "Current level of fine dust -- also refered to as PM2.5, measured in micrograms per cubic meter",
+        "dustLevel": {
+            "label": "PM 10",
+            "description": "Current dust level -- also refered to as PM10, measured in micrograms per cubic meter",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}\u03bcg\/m^3",
             "i18n": []
         },
-        "dustLevel": {
-            "label": "dust level",
-            "description": "Current dust level -- also refered to as PM10, measured in micrograms per cubic meter",
+        "fineDustLevel": {
+            "label": "PM 2.5",
+            "description": "Current level of fine dust -- also refered to as PM2.5, measured in micrograms per cubic meter",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}\u03bcg\/m^3",
             "i18n": []
         }

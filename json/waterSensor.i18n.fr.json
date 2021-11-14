@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Water Sensor",
+    "label": "D\u00e9tecteur d'eau",
+    "description": "Get the status off of a water sensor device",
     "attributes": {
         "water": {
-            "label": "Eau",
+            "label": "D\u00e9tecteur d'eau",
+            "description": "A string representation of whether the water sensor detected water",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {

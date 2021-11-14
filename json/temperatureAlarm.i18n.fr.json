@@ -1,23 +1,25 @@
 {
     "tag": "fr",
-    "label": "Temperature Alarm",
+    "label": "Alerte de temp\u00e9rature",
+    "description": "Supports temperature driven alarms",
     "attributes": {
         "temperatureAlarm": {
-            "label": "Alarme de temp\u00e9rature",
+            "label": "Alerte de temp\u00e9rature",
+            "description": "The current status of the temperature alarm",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {
                     "heat": {
-                        "label": "Chaleur"
+                        "label": "Trop chaude"
                     },
                     "freeze": {
-                        "label": "Gel"
+                        "label": "Trop froide"
                     },
                     "rateOfRise": {
-                        "label": "Taux d'augmentation"
+                        "label": "Augmente rapidement"
                     },
                     "cleared": {
-                        "label": "D\u00e9sactiv\u00e9e"
+                        "label": "Normale"
                     }
                 }
             }

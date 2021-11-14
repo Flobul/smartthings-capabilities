@@ -1,0 +1,23 @@
+{
+    "tag": "fr",
+    "label": "Pression des pneus",
+    "description": "Get the state of a vehicle's tire pressure monitor system",
+    "attributes": {
+        "tirePressureState": {
+            "label": "Pression des pneus",
+            "description": "A string that represents the state of the tire pressure monitor system",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warn": {
+                        "label": "Attention"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

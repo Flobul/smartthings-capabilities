@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Mute",
     "description": "Allows for the control of a device with a stateless audio mute toggle button",
     "attributes": {
         "availableAudioMuteButtons": {
@@ -14,7 +15,11 @@
             "description": "Emulate the pressing of a supported button",
             "arguments": {
                 "button": {
-                    "i18n": [],
+                    "i18n": {
+                        "muteToggle": {
+                            "label": "Mute"
+                        }
+                    },
                     "description": "The button in availableAudioMuteButtons to send to the device"
                 }
             }

@@ -1,0 +1,25 @@
+{
+    "tag": "fr",
+    "label": "Stateless Volume Button With Repetition",
+    "attributes": [],
+    "commands": {
+        "volumeDown": {
+            "description": "Emulate pressing 'volume down' X number of times, where X is the 'repetition' value",
+            "arguments": {
+                "repetition": {
+                    "i18n": [],
+                    "description": "The number of times to execute 'volume down'"
+                }
+            }
+        },
+        "volumeUp": {
+            "description": "Emulate pressing 'volume up' X number of times, where X is the 'repetition' value",
+            "arguments": {
+                "repetition": {
+                    "i18n": [],
+                    "description": "The number of times to execute 'volume up'"
+                }
+            }
+        }
+    }
+}

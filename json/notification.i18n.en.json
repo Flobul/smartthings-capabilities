@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "description": "Allows for displaying notifications on devices that allow notifications to be displayed",
+    "label": "Notification",
     "attributes": [],
     "commands": {
         "deviceNotification": {

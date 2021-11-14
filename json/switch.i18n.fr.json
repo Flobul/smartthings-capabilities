@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Switch",
+    "label": "Marche",
+    "description": "Allows for the control of a switch device",
     "attributes": {
         "switch": {
-            "label": "Interrupteur",
+            "label": "Marche",
+            "description": "A string representation of whether the switch is on or off",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -17,5 +19,16 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "off": {
+            "label": "D\u00e9sactiver",
+            "description": "Turn a switch off",
+            "arguments": []
+        },
+        "on": {
+            "label": "Activer",
+            "description": "Turn a switch on",
+            "arguments": []
+        }
+    }
 }

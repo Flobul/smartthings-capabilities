@@ -1,27 +1,52 @@
 {
     "tag": "fr",
-    "label": "Humidifier Mode",
+    "label": "Mode de l'humidificateur",
+    "description": "Maintains and sets the state of an humidifier",
     "attributes": {
         "humidifierMode": {
-            "label": "humidificateur",
+            "label": "Mode de l'humidificateur",
+            "description": "The current mode of the humidifier, an enum of auto, low, medium, or high",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": {
                 "value": {
                     "auto": {
-                        "label": "auto"
+                        "label": "Automatique"
                     },
                     "high": {
-                        "label": "high"
+                        "label": "\u00c9lev\u00e9"
                     },
                     "low": {
-                        "label": "low"
+                        "label": "Faible"
                     },
                     "medium": {
-                        "label": "medium"
+                        "label": "Moyen"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setHumidifierMode": {
+            "description": "Set the humidifier's mode",
+            "arguments": {
+                "humidifierMode": {
+                    "i18n": {
+                        "high": {
+                            "label": "\u00c9lev\u00e9"
+                        },
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "low": {
+                            "label": "Faible"
+                        },
+                        "medium": {
+                            "label": "Moyen"
+                        }
+                    },
+                    "description": "The humidifier mode"
+                }
+            }
+        }
+    }
 }

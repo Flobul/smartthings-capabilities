@@ -1,12 +1,28 @@
 {
     "tag": "fr",
     "label": "Video Clips",
+    "description": "Video clip capture",
     "attributes": {
         "videoClip": {
             "label": "Clip vid\u00e9o",
+            "description": "Description for the videoClip attribute",
             "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "captureClip": {
+            "description": "Capture the video clip",
+            "arguments": {
+                "duration": {
+                    "i18n": [],
+                    "description": "The duration of the video clip"
+                },
+                "preFetch": {
+                    "i18n": [],
+                    "description": "The prefetch value for the video clip"
+                }
+            }
+        }
+    }
 }

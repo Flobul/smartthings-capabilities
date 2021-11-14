@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "BMI",
     "description": "Allows for the ability to measure body mass index",
     "attributes": {
         "bmiMeasurement": {
-            "label": "body mass index",
+            "label": "BMI",
             "description": "Current body mass index measured in kilograms per meter squared",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}kg\/m^2",
             "i18n": []

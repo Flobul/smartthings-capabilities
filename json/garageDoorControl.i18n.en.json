@@ -1,32 +1,28 @@
 {
     "tag": "en",
+    "label": "Garage door",
     "description": "Allow for the control of a garage door. Deprecated in favor of Door Control.",
     "attributes": {
         "door": {
-            "label": "door",
+            "label": "Garage door",
             "description": "The current state of the garage door",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "closing": {
-                        "description": "The garage door is closing",
                         "label": "Closing\u2026"
                     },
-                    "open": {
-                        "description": "The garage door is open",
-                        "label": "Open"
+                    "closed": {
+                        "label": "Closed"
                     },
                     "opening": {
-                        "description": "The garage door is opening",
                         "label": "Opening\u2026"
                     },
-                    "unknown": {
-                        "description": "The current state of the garage door is unknown",
-                        "label": "Unknown"
+                    "open": {
+                        "label": "Open"
                     },
-                    "closed": {
-                        "description": "The garage door is closed",
-                        "label": "Closed"
+                    "unknown": {
+                        "label": "Unknown"
                     }
                 }
             }
@@ -34,10 +30,12 @@
     },
     "commands": {
         "close": {
+            "label": "Closed",
             "description": "Close the garage door",
             "arguments": []
         },
         "open": {
+            "label": "Open",
             "description": "Open the garage door",
             "arguments": []
         }

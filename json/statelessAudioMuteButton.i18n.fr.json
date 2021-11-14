@@ -1,12 +1,28 @@
 {
     "tag": "fr",
-    "label": "Stateless Audio Mute Button",
+    "label": "Muet",
+    "description": "Allows for the control of a device with a stateless audio mute toggle button",
     "attributes": {
         "availableAudioMuteButtons": {
             "label": "Touches configur\u00e9es",
+            "description": "A list of commands\/buttons that have been configured in the device",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": {
+                        "muteToggle": {
+                            "label": "Muet"
+                        }
+                    },
+                    "description": "The button in availableAudioMuteButtons to send to the device"
+                }
+            }
+        }
+    }
 }

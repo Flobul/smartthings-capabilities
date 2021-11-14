@@ -1,28 +1,25 @@
 {
     "tag": "en",
+    "label": "Temperature alert",
     "description": "Supports temperature driven alarms",
     "attributes": {
         "temperatureAlarm": {
-            "label": "temperature alarm",
+            "label": "Temperature alert",
             "description": "The current status of the temperature alarm",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "heat": {
-                        "description": "The temperature alarm is due to heat condition",
-                        "label": "heat"
-                    },
-                    "cleared": {
-                        "description": "The temperature alarm is cleared",
-                        "label": "cleared"
-                    },
-                    "rateOfRise": {
-                        "description": "The temperature alarm is due to rate of rise of temperature",
-                        "label": "rateOfRise"
+                        "label": "Overheating"
                     },
                     "freeze": {
-                        "description": "The temperature alarm is due to freeze condition",
-                        "label": "freeze"
+                        "label": "Freezing"
+                    },
+                    "rateOfRise": {
+                        "label": "Rapidly rising"
+                    },
+                    "cleared": {
+                        "label": "Normal"
                     }
                 }
             }

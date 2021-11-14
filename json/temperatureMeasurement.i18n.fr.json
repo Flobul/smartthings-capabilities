@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Temperature Measurement",
+    "label": "Temp\u00e9rature",
+    "description": "Get the temperature from a Device that reports current temperature",
     "attributes": {
         "temperature": {
             "label": "Temp\u00e9rature",
+            "description": "A number that usually represents the current temperature",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}{{unit}}",
             "i18n": []
         }

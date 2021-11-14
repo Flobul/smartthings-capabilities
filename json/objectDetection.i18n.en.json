@@ -1,12 +1,31 @@
 {
     "tag": "en",
+    "label": "Object sensor",
     "description": "Allows for the ability to read object detection device state",
     "attributes": {
         "detected": {
-            "label": "detected",
+            "label": "Object sensor",
             "description": "The current objects that are detected",
             "displayTemplate": "{{device.label}} detected {{detected.qty}} {{detected.value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "parcel": {
+                        "label": "Parcel"
+                    },
+                    "human_0": {
+                        "label": "No person"
+                    },
+                    "none": {
+                        "label": "None"
+                    },
+                    "human": {
+                        "label": "Person"
+                    },
+                    "pet": {
+                        "label": "Pet"
+                    }
+                }
+            }
         },
         "supportedValues": {
             "label": "supported values",

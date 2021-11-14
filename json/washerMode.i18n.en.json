@@ -1,24 +1,25 @@
 {
     "tag": "en",
+    "label": "Mode",
     "description": "Allows for the control of the washer mode.",
     "attributes": {
         "washerMode": {
-            "label": "washer mode",
+            "label": "Mode",
             "description": "The current mode of the washer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "regular": {
-                        "description": "The washer is in \"regular\" mode"
-                    },
-                    "heavy": {
-                        "description": "The washer is in \"heavy\" mode"
+                        "label": "Regular"
                     },
                     "rinse": {
-                        "description": "The washer is in \"rinse\" mode"
+                        "label": "Rinse"
+                    },
+                    "heavy": {
+                        "label": "Heavy"
                     },
                     "spinDry": {
-                        "description": "The washer is in \"spin dry\" mode"
+                        "label": "Spin Dry"
                     }
                 }
             }
@@ -29,7 +30,20 @@
             "description": "Set the washer mode",
             "arguments": {
                 "mode": {
-                    "i18n": [],
+                    "i18n": {
+                        "rinse": {
+                            "label": "Rinse"
+                        },
+                        "regular": {
+                            "label": "Regular"
+                        },
+                        "heavy": {
+                            "label": "Heavy"
+                        },
+                        "spinDry": {
+                            "label": "Spin Dry"
+                        }
+                    },
                     "description": "The mode to which washer should be set, either \"regular\" or \"heavy\" or \"rinse\" or \"spinDry\""
                 }
             }

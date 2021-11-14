@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Touch Sensor",
     "description": "Gives the ability to get the touched status for devices that are touch sensitive. This has been **deprecated** in favor of the button capability",
     "attributes": {
         "touch": {
@@ -9,7 +10,7 @@
             "i18n": {
                 "value": {
                     "touched": {
-                        "description": "The value if the device was touched"
+                        "label": "touched"
                     }
                 }
             }

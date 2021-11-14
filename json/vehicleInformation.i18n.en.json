@@ -1,52 +1,53 @@
 {
     "tag": "en",
+    "label": "Information",
     "description": "Information about a vehicle.",
     "attributes": {
         "vehicleColor": {
-            "label": "vehicle color",
+            "label": "Vehicle Color",
             "description": "The color of the vehicle.",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
         },
-        "vehicleMake": {
-            "label": "vehicle make",
-            "description": "The make of the vehicle.",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
-        },
-        "vehicleModel": {
-            "label": "vehicle model",
-            "description": "The model of the vehicle.",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
-        },
-        "vehicleTrim": {
-            "label": "vehicle trim",
-            "description": "The trim of the vehicle.",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
-        },
         "vehicleYear": {
-            "label": "vehicle year",
+            "label": "Vehicle Year",
             "description": "The model year of the vehicle.",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
         },
-        "vehicleId": {
-            "label": "vehicle id",
-            "description": "The identification (usually VIN - Vehicle Identification Number) of the vehicle.",
+        "vehicleImage": {
+            "label": "Vehicle Image",
+            "description": "An image representation of the vehicle as a URL.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehicleTrim": {
+            "label": "Vehicle Trim",
+            "description": "The trim of the vehicle.",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
         },
         "vehiclePlate": {
-            "label": "vehicle plate",
+            "label": "Number plate",
             "description": "The registration plate of the vehicle.",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
         },
-        "vehicleImage": {
-            "label": "vehicle image",
-            "description": "An image representation of the vehicle as a URL.",
+        "vehicleModel": {
+            "label": "Vehicle Model",
+            "description": "The model of the vehicle.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehicleId": {
+            "label": "VIN",
+            "description": "The identification (usually VIN - Vehicle Identification Number) of the vehicle.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehicleMake": {
+            "label": "Vehicle Make",
+            "description": "The make of the vehicle.",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
         }

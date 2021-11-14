@@ -1,0 +1,16 @@
+{
+    "tag": "fr",
+    "label": "Stateless Set Channel By Name Button",
+    "attributes": [],
+    "commands": {
+        "setChannelByName": {
+            "description": "Emulate the setting of the channel by specifying the channel name",
+            "arguments": {
+                "channel": {
+                    "i18n": [],
+                    "description": "The channel to set the device to (ie \"ESPN2\", \"NBC\")"
+                }
+            }
+        }
+    }
+}

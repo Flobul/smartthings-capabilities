@@ -1,14 +1,16 @@
 {
     "tag": "fr",
-    "label": "Lock",
+    "label": "\u00c9tat de verrouillage",
+    "description": "Allow for the control of a lock device",
     "attributes": {
         "lock": {
             "label": "\u00c9tat de verrouillage",
+            "description": "The state of the lock device",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "unlocked with timeout": {
-                        "label": "D\u00e9verrouill\u00e9(e) temporairement"
+                        "label": "unlocked with timeout"
                     },
                     "locked": {
                         "label": "Verrouill\u00e9"
@@ -26,10 +28,12 @@
     "commands": {
         "unlock": {
             "label": "D\u00e9verrouill\u00e9",
+            "description": "Unlock the device",
             "arguments": []
         },
         "lock": {
             "label": "Verrouill\u00e9",
+            "description": "Lock the device",
             "arguments": []
         }
     }

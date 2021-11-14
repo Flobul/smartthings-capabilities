@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Garage Door Control",
+    "label": "Porte de garage",
+    "description": "Allow for the control of a garage door. Deprecated in favor of Door Control.",
     "attributes": {
         "door": {
-            "label": "Porte",
+            "label": "Porte de garage",
+            "description": "The current state of the garage door",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -11,13 +13,13 @@
                         "label": "Fermeture\u2026"
                     },
                     "closed": {
-                        "label": "Ferm\u00e9e"
+                        "label": "Ferm\u00e9"
                     },
                     "opening": {
                         "label": "Ouverture\u2026"
                     },
                     "open": {
-                        "label": "Ouverte"
+                        "label": "Ouvert"
                     },
                     "unknown": {
                         "label": "Inconnu"
@@ -26,5 +28,16 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "close": {
+            "label": "Ferm\u00e9",
+            "description": "Close the garage door",
+            "arguments": []
+        },
+        "open": {
+            "label": "Ouvert",
+            "description": "Open the garage door",
+            "arguments": []
+        }
+    }
 }

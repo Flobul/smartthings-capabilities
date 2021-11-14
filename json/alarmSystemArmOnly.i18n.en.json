@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Alarm System Arm Only",
     "description": "Allows for the control of the alarm system arm only.",
     "attributes": {
         "alarmSystemStatus": {
@@ -9,26 +10,17 @@
             "i18n": {
                 "value": {
                     "away": {
-                        "description": "The alarm is in \"away\" status"
+                        "label": "away"
                     },
                     "off": {
-                        "description": "The alarm is in \"off\" status"
+                        "label": "off"
                     },
                     "stay": {
-                        "description": "The alarm is in \"stay\" status"
+                        "label": "stay"
                     }
                 }
             }
         }
     },
-    "commands": {
-        "sendEvent(alarmSystemStatus,stay)": {
-            "description": "Set the alarm status to \"stay\"",
-            "arguments": []
-        },
-        "sendEvent(alarmSystemStatus,away)": {
-            "description": "Set the alarm status to \"away\"",
-            "arguments": []
-        }
-    }
+    "commands": []
 }

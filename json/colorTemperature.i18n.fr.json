@@ -1,12 +1,24 @@
 {
     "tag": "fr",
-    "label": "Color Temperature",
+    "label": "Temp\u00e9rature de couleur",
+    "description": "Set the color temperature attribute of a color changing device",
     "attributes": {
         "colorTemperature": {
             "label": "Temp\u00e9rature de couleur",
+            "description": "A number that represents the color temperature, measured in degrees Kelvin",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} K",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setColorTemperature": {
+            "description": "Set the color temperature to the specified value",
+            "arguments": {
+                "temperature": {
+                    "i18n": [],
+                    "description": "The value to set the color temperature attribute to, in Kelvin"
+                }
+            }
+        }
+    }
 }

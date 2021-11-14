@@ -1,0 +1,12 @@
+{
+    "tag": "fr",
+    "label": "Window Shade Preset",
+    "attributes": [],
+    "commands": {
+        "presetPosition": {
+            "label": "Position pr\u00e9r\u00e9gl\u00e9e",
+            "description": "Open window shade to a preset position",
+            "arguments": []
+        }
+    }
+}

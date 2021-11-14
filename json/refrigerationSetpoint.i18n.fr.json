@@ -1,12 +1,24 @@
 {
     "tag": "fr",
-    "label": "Refrigeration Setpoint",
+    "label": "Refrigeration Temperature",
+    "description": "Allows for the control of the refrigeration set point.",
     "attributes": {
         "refrigerationSetpoint": {
             "label": "Temp\u00e9rature de r\u00e9frig\u00e9ration",
+            "description": "The temperature at which refrigeration should trigger",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}} {{unit}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setRefrigerationSetpoint": {
+            "description": "Set the refrigeration setpoint.",
+            "arguments": {
+                "setpoint": {
+                    "i18n": [],
+                    "description": "A temperature value to which the refrigeration setpoint should be set to"
+                }
+            }
+        }
+    }
 }

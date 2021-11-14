@@ -1,12 +1,22 @@
 {
     "tag": "en",
+    "label": "Geofence",
     "description": "Allows for setting parameters of a geofence",
     "attributes": {
-        "name": {
-            "label": "Name",
-            "description": "The name of the geofence",
+        "enableState": {
+            "label": "Enable State",
+            "description": "The enable state of the geofence",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
         },
         "geofence": {
             "label": "Geofence",
@@ -14,9 +24,9 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
             "i18n": []
         },
-        "enableState": {
-            "label": "Enable State",
-            "description": "The enable state of the geofence",
+        "name": {
+            "label": "Name",
+            "description": "The name of the geofence",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
             "i18n": []
         }
@@ -31,15 +41,6 @@
                 }
             }
         },
-        "setGeofence": {
-            "description": "Set the geofence coordinates",
-            "arguments": {
-                "name": {
-                    "i18n": [],
-                    "description": "The geofence coordinates"
-                }
-            }
-        },
         "setEnableState": {
             "description": "Enable or disable a geofencee",
             "arguments": {
@@ -48,6 +49,10 @@
                     "description": "Enable state to set"
                 }
             }
+        },
+        "setGeofence": {
+            "description": "Set the geofence coordinates",
+            "arguments": []
         }
     }
 }

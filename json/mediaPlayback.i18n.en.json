@@ -1,44 +1,60 @@
 {
     "tag": "en",
+    "label": "Media playback",
     "description": "Allows for the control of the media playback.",
     "attributes": {
-        "playbackStatus": {
-            "label": "playback status",
-            "description": "Status of the media playback",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": {
-                "value": {
-                    "pause": {
-                        "description": "Media playback is in a \"paused\" state",
-                        "label": "pause"
-                    },
-                    "play": {
-                        "description": "Media playback is in a \"playing\" state",
-                        "label": "play"
-                    },
-                    "stop": {
-                        "description": "Media playback is in a \"stopped\" state",
-                        "label": "stop"
-                    },
-                    "fastForward": {
-                        "description": "Media playback is in a \"fast forwarding\" state",
-                        "label": "fastForward"
-                    },
-                    "rewind": {
-                        "description": "Media playback is in a \"rewinding\" state",
-                        "label": "rewind"
-                    }
-                }
-            }
-        },
         "supportedPlaybackCommands": {
             "label": "supported playback commands",
             "description": "Media playback commands which are supported",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
+        },
+        "playbackStatus": {
+            "label": "Media playback",
+            "description": "Status of the media playback",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "paused": {
+                        "label": "Pause"
+                    },
+                    "stopped": {
+                        "label": "Stop"
+                    },
+                    "rewinding": {
+                        "label": "Rewind"
+                    },
+                    "playing": {
+                        "label": "Play"
+                    },
+                    "fast forwarding": {
+                        "label": "fast forwarding"
+                    }
+                }
+            }
         }
     },
     "commands": {
+        "play": {
+            "label": "Play",
+            "description": "Set the playback status to \"playing\"",
+            "arguments": []
+        },
+        "stop": {
+            "label": "Stop",
+            "description": "Set the playback status to \"stopped\"",
+            "arguments": []
+        },
+        "rewind": {
+            "label": "Rewind",
+            "description": "Set the playback status to \"rewinding\"",
+            "arguments": []
+        },
+        "fastForward": {
+            "label": "Fast forward",
+            "description": "Set the playback status to \"fast forwarding\"",
+            "arguments": []
+        },
         "setPlaybackStatus": {
             "description": "Set the playback status",
             "arguments": {
@@ -48,24 +64,9 @@
                 }
             }
         },
-        "play": {
-            "description": "Set the playback status to \"playing\"",
-            "arguments": []
-        },
         "pause": {
+            "label": "Pause",
             "description": "Set the playback status to \"paused\"",
-            "arguments": []
-        },
-        "stop": {
-            "description": "Set the playback status to \"stopped\"",
-            "arguments": []
-        },
-        "fastForward": {
-            "description": "Set the playback status to \"fast forwarding\"",
-            "arguments": []
-        },
-        "rewind": {
-            "description": "Set the playback status to \"rewinding\"",
             "arguments": []
         }
     }

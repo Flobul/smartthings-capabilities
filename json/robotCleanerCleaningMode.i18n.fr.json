@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Robot Cleaner Cleaning Mode",
+    "label": "Nettoyage",
+    "description": "Allows for the control of the robot cleaner cleaning mode.",
     "attributes": {
         "robotCleanerCleaningMode": {
-            "label": "robotCleanerCleaningMode",
+            "label": "Nettoyage",
+            "description": "Current status of the robot cleaner cleaning mode",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -29,5 +31,34 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setRobotCleanerCleaningMode": {
+            "description": "Set the robot cleaner cleaning mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "stop": {
+                            "label": "Arr\u00eater"
+                        },
+                        "part": {
+                            "label": "Zone"
+                        },
+                        "repeat": {
+                            "label": "R\u00e9p\u00e9tition"
+                        },
+                        "manual": {
+                            "label": "Manuel"
+                        },
+                        "map": {
+                            "label": "Carte"
+                        }
+                    },
+                    "description": "Set the robot cleaner cleaning mode, to \"auto\", \"part\", \"repeat\", \"manual\" or \"stop\" modes"
+                }
+            }
+        }
+    }
 }

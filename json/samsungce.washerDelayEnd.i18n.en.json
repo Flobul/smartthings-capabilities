@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Washer Delay End",
+    "attributes": {
+        "remainingTime": {
+            "label": "remainingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "minimumReservableTime": {
+            "label": "minimumReservableTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

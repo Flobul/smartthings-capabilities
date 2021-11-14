@@ -1,0 +1,14 @@
+{
+    "tag": "fr",
+    "label": "Niveau de carburant",
+    "description": "Get the current fuel level of a vehicle",
+    "attributes": {
+        "fuelLevel": {
+            "label": "Niveau de carburant",
+            "description": "The current fuel level of a vehicle as a percentage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,21 +1,39 @@
 {
     "tag": "fr",
-    "label": "Wireless Operating Mode",
+    "label": "Mode de fonctionnement sans fil",
+    "description": "Allows for the control of the wireless operating mode of a device",
     "attributes": {
         "wirelessOperatingMode": {
-            "label": "mode de fonctionnement sans fil",
+            "label": "Mode de fonctionnement sans fil",
+            "description": "The current wireless operating mode",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": {
                 "value": {
                     "whenNeeded": {
-                        "label": "si n\u00e9cessaire"
+                        "label": "Si n\u00e9cessaire"
                     },
                     "alwaysOn": {
-                        "label": "toujours activ\u00e9"
+                        "label": "Toujours activ\u00e9"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setWirelessOperatingMode": {
+            "description": "Set the wireless operating mode of a device",
+            "arguments": {
+                "wirelessOperatingMode": {
+                    "i18n": {
+                        "whenNeeded": {
+                            "label": "Si n\u00e9cessaire"
+                        },
+                        "alwaysOn": {
+                            "label": "Toujours activ\u00e9"
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

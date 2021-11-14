@@ -1,0 +1,40 @@
+{
+    "tag": "fr",
+    "label": "Media Playback Button",
+    "description": "Allows for the control of a media playback device with stateless action buttons",
+    "attributes": {
+        "availableMediaPlaybackButtons": {
+            "label": "configured buttons",
+            "description": "A list of commands\/buttons that have been configured in the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": {
+                        "play": {
+                            "label": "Lecture"
+                        },
+                        "rewind": {
+                            "label": "Rembobinage"
+                        },
+                        "stop": {
+                            "label": "Arr\u00eater"
+                        },
+                        "fastForward": {
+                            "label": "Avance rapide"
+                        },
+                        "pause": {
+                            "label": "Pause"
+                        }
+                    },
+                    "description": "The button in availableMediaPlaybackButtons to send to the device"
+                }
+            }
+        }
+    }
+}

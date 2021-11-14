@@ -1,16 +1,11 @@
 {
     "tag": "en",
+    "label": "Samsung TV",
     "description": "Allows for the control of Samsung TV.",
     "attributes": {
-        "messageButton": {
-            "label": "message button",
-            "description": "Message description",
-            "displayTemplate": "{{attribute}} of {{device.label}} is updated",
-            "i18n": []
-        },
-        "mute": {
-            "label": "mute",
-            "description": "Status of the mute",
+        "volume": {
+            "label": "volume",
+            "description": "Status of the volume",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
         },
@@ -18,30 +13,118 @@
             "label": "picture mode",
             "description": "Status of the picture mode",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "standard": {
+                        "label": "standard"
+                    },
+                    "movie": {
+                        "label": "movie"
+                    },
+                    "dynamic": {
+                        "label": "dynamic"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
+        },
+        "messageButton": {
+            "label": "message button",
+            "description": "Message description",
+            "displayTemplate": "{{attribute}} of {{device.label}} is updated",
             "i18n": []
         },
         "soundMode": {
             "label": "sound mode",
             "description": "Status of the sound mode",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "standard": {
+                        "label": "standard"
+                    },
+                    "music": {
+                        "label": "music"
+                    },
+                    "movie": {
+                        "label": "movie"
+                    },
+                    "clear voice": {
+                        "label": "clear voice"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
+        },
+        "mute": {
+            "label": "mute",
+            "description": "Status of the mute",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "unmuted": {
+                        "label": "unmuted"
+                    },
+                    "muted": {
+                        "label": "muted"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
         },
         "switch": {
             "label": "switch",
             "description": "Status of the switch, on or off",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
-        },
-        "volume": {
-            "label": "volume",
-            "description": "Status of the volume",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
         }
     },
     "commands": {
+        "setPictureMode": {
+            "description": "Set the picture mode",
+            "arguments": []
+        },
+        "volumeDown": {
+            "description": "Turn the volume down",
+            "arguments": []
+        },
+        "setSoundMode": {
+            "description": "Set the sound mode",
+            "arguments": []
+        },
+        "showMessage": {
+            "description": "Set to show the message",
+            "arguments": []
+        },
+        "volumeUp": {
+            "description": "Turn the volume up",
+            "arguments": []
+        },
         "mute": {
             "description": "Set the mute status",
+            "arguments": []
+        },
+        "unmute": {
+            "description": "Unmute the TV sound",
+            "arguments": []
+        },
+        "setVolume": {
+            "description": "Set the volume",
             "arguments": []
         },
         "off": {
@@ -50,34 +133,6 @@
         },
         "on": {
             "description": "Set the TV to on",
-            "arguments": []
-        },
-        "setPictureMode": {
-            "description": "Set the picture mode",
-            "arguments": []
-        },
-        "setSoundMode": {
-            "description": "Set the sound mode",
-            "arguments": []
-        },
-        "setVolume": {
-            "description": "Set the volume",
-            "arguments": []
-        },
-        "showMessage": {
-            "description": "Set to show the message",
-            "arguments": []
-        },
-        "unmute": {
-            "description": "Unmute the TV sound",
-            "arguments": []
-        },
-        "volumeDown": {
-            "description": "Turn the volume down",
-            "arguments": []
-        },
-        "volumeUp": {
-            "description": "Turn the volume up",
             "arguments": []
         }
     }

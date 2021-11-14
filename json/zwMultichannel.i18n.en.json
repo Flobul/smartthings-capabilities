@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Zw Multichannel",
     "description": "Allows for the control of the Zw Multichannel.",
     "attributes": {
         "epEvent": {

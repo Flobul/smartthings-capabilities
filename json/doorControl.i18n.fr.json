@@ -1,23 +1,25 @@
 {
     "tag": "fr",
-    "label": "Door Control",
+    "label": "Porte",
+    "description": "Allow for the control of a door",
     "attributes": {
         "door": {
             "label": "Porte",
+            "description": "The current state of the door",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
                     "closing": {
-                        "label": "Fermeture"
+                        "label": "Fermeture\u2026"
                     },
                     "closed": {
-                        "label": "Ferm\u00e9e"
+                        "label": "Ferm\u00e9"
                     },
                     "opening": {
-                        "label": "Ouverture"
+                        "label": "Ouverture\u2026"
                     },
                     "open": {
-                        "label": "Ouverte"
+                        "label": "Ouvert"
                     },
                     "unknown": {
                         "label": "Inconnu"
@@ -26,5 +28,16 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "close": {
+            "label": "Ferm\u00e9",
+            "description": "Close the door",
+            "arguments": []
+        },
+        "open": {
+            "label": "Ouvert",
+            "description": "Open the door",
+            "arguments": []
+        }
+    }
 }

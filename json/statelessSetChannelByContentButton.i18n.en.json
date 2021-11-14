@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "description": "Allows for the setting of a TV channel by content name",
+    "label": "Stateless Set Channel By Content Button",
     "attributes": [],
     "commands": {
         "setChannelByContent": {

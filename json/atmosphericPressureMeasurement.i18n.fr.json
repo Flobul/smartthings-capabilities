@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Atmospheric Pressure Measurement",
+    "label": "Pression atmosph\u00e9rique",
+    "description": "Measure Atmospheric Pressure",
     "attributes": {
         "atmosphericPressure": {
-            "label": "pression atmosph\u00e9rique",
+            "label": "Pression atmosph\u00e9rique",
+            "description": "The level of Atmospheric Pressure",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} kPa",
             "i18n": []
         }

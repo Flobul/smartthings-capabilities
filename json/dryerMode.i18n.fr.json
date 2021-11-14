@@ -1,24 +1,46 @@
 {
     "tag": "fr",
-    "label": "Dryer Mode",
+    "label": "Mode",
+    "description": "Allows for the control of the dryer.",
     "attributes": {
         "dryerMode": {
-            "label": "Mode du s\u00e8che-linge",
+            "label": "Mode",
+            "description": "The operational mode that the dryer is in",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "highHeat": {
-                        "label": "highHeat"
+                        "label": "Intensif"
                     },
                     "regular": {
-                        "label": "regular"
+                        "label": "Moyen"
                     },
                     "lowHeat": {
-                        "label": "lowHeat"
+                        "label": "\u00c9conomique"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setDryerMode": {
+            "description": "Set the operational mode of the dryer",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "highHeat": {
+                            "label": "Intensif"
+                        },
+                        "regular": {
+                            "label": "Moyen"
+                        },
+                        "lowHeat": {
+                            "label": "\u00c9conomique"
+                        }
+                    },
+                    "description": "The mode to which the dryer should be set to"
+                }
+            }
+        }
+    }
 }

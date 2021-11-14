@@ -1,22 +1,31 @@
 {
     "tag": "fr",
-    "label": "Image Capture",
+    "label": "Capture d'images",
+    "description": "Allows for the capture of an image on devices that support it",
     "attributes": {
         "image": {
             "label": "Image",
+            "description": "String value representing the image captured",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "encrypted": {
             "label": "encrypted",
+            "description": "Flag to indicate that the image is encrypted",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
         "captureTime": {
             "label": "captureTime",
+            "description": "Date representing the time the image was captured",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "take": {
+            "description": "Capture an image",
+            "arguments": []
+        }
+    }
 }

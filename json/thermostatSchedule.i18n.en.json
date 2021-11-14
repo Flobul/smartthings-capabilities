@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Thermostat Schedule",
     "description": "Allows for the control of the thermostat schedule.",
     "attributes": {
         "schedule": {

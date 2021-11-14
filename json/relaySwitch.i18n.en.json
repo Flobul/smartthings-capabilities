@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Relay Switch",
     "description": "Allows for the control of a relay switch device. This is **deprecated** please use switch instead.",
     "attributes": {
         "switch": {
@@ -9,10 +10,10 @@
             "i18n": {
                 "value": {
                     "off": {
-                        "description": "The value of the ``switch`` attribute if the relay switch is off"
+                        "label": "off"
                     },
                     "on": {
-                        "description": "The value of the ``switch`` attribute if the relay switch is on"
+                        "label": "on"
                     }
                 }
             }

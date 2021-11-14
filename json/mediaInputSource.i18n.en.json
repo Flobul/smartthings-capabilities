@@ -1,97 +1,81 @@
 {
     "tag": "en",
+    "label": "Media Input Source",
     "description": "Allows for the control of the media input source.",
     "attributes": {
-        "inputSource": {
-            "label": "input source",
-            "description": "Current input source",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": {
-                "value": {
-                    "AM": {
-                        "description": "Input source is AM",
-                        "label": "AM"
-                    },
-                    "CD": {
-                        "description": "Input source is CD",
-                        "label": "CD"
-                    },
-                    "FM": {
-                        "description": "Input source is FM",
-                        "label": "FM"
-                    },
-                    "HDMI": {
-                        "description": "Input source is HDMI",
-                        "label": "HDMI"
-                    },
-                    "HDMI1": {
-                        "description": "Input source is HDMI1",
-                        "label": "HDMI1"
-                    },
-                    "HDMI2": {
-                        "description": "Input source is HDMI2",
-                        "label": "HDMI2"
-                    },
-                    "HDMI3": {
-                        "description": "Input source is HDMI3",
-                        "label": "HDMI3"
-                    },
-                    "HDMI4": {
-                        "description": "Input source is HDMI4",
-                        "label": "HDMI4"
-                    },
-                    "HDMI5": {
-                        "description": "Input source is HDMI5",
-                        "label": "HDMI5"
-                    },
-                    "HDMI6": {
-                        "description": "Input source is HDMI6",
-                        "label": "HDMI6"
-                    },
-                    "digitalTv": {
-                        "description": "Input source is digital TV",
-                        "label": "digitalTv"
-                    },
-                    "USB": {
-                        "description": "Input source is USB",
-                        "label": "USB"
-                    },
-                    "YouTube": {
-                        "description": "Input source is YouTube",
-                        "label": "YouTube"
-                    },
-                    "aux": {
-                        "description": "Input source is aux",
-                        "label": "aux"
-                    },
-                    "bluetooth": {
-                        "description": "Input source is bluetooth",
-                        "label": "bluetooth"
-                    },
-                    "digital": {
-                        "description": "Input source is digital audio",
-                        "label": "digital"
-                    },
-                    "melon": {
-                        "description": "Input source is melon",
-                        "label": "melon"
-                    },
-                    "wifi": {
-                        "description": "Input source is wifi",
-                        "label": "wifi"
-                    }
-                }
-            }
-        },
         "supportedInputSources": {
             "label": "supported input sources",
             "description": "Supported input sources",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
+        },
+        "inputSource": {
+            "label": "inputSource",
+            "description": "Current input source",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "digital": {
+                        "label": "digital"
+                    },
+                    "CD": {
+                        "label": "CD"
+                    },
+                    "wifi": {
+                        "label": "wifi"
+                    },
+                    "USB": {
+                        "label": "USB"
+                    },
+                    "aux": {
+                        "label": "aux"
+                    },
+                    "FM": {
+                        "label": "FM"
+                    },
+                    "HDMI6": {
+                        "label": "HDMI6"
+                    },
+                    "HDMI4": {
+                        "label": "HDMI4"
+                    },
+                    "HDMI5": {
+                        "label": "HDMI5"
+                    },
+                    "AM": {
+                        "label": "AM"
+                    },
+                    "HDMI2": {
+                        "label": "HDMI2"
+                    },
+                    "HDMI3": {
+                        "label": "HDMI3"
+                    },
+                    "YouTube": {
+                        "label": "YouTube"
+                    },
+                    "HDMI1": {
+                        "label": "HDMI1"
+                    },
+                    "digitalTv": {
+                        "label": "digitalTv"
+                    },
+                    "bluetooth": {
+                        "label": "bluetooth"
+                    },
+                    "HDMI": {
+                        "label": "HDMI"
+                    },
+                    "melon": {
+                        "label": "melon"
+                    }
+                }
+            }
         }
     },
     "commands": {
         "setInputSource": {
+            "label": "setInputSource",
             "description": "Set the input source for the media",
             "arguments": {
                 "mode": {

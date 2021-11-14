@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Media Controller",
     "description": "Allows for the control of a media controller device",
     "attributes": {
         "currentActivity": {

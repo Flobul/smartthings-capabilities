@@ -1,18 +1,37 @@
 {
     "tag": "en",
+    "label": "Log Trigger",
     "description": "Trigger uploading of log information",
     "attributes": {
         "logState": {
             "label": "log state",
             "description": "State of the log",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "inProgress": {
+                        "label": "inProgress"
+                    },
+                    "idle": {
+                        "label": "idle"
+                    }
+                }
+            }
         },
         "logRequestState": {
             "label": "log request state",
             "description": "State of the log request",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "idle": {
+                        "label": "idle"
+                    },
+                    "triggerRequired": {
+                        "label": "triggerRequired"
+                    }
+                }
+            }
         },
         "logInfo": {
             "label": "log info",
@@ -22,16 +41,16 @@
         }
     },
     "commands": {
-        "triggerLog": {
-            "description": "Trigger upload of the log",
+        "triggerLogWithUrl": {
+            "description": "Trigger uploa dof the log with URL",
             "arguments": []
         },
         "triggerLogWithLogInfo": {
             "description": "Trigger upload of the log with log info",
             "arguments": []
         },
-        "triggerLogWithUrl": {
-            "description": "Trigger uploa dof the log with URL",
+        "triggerLog": {
+            "description": "Trigger upload of the log",
             "arguments": []
         }
     }

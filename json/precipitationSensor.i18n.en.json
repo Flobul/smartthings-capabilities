@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Precipitation Sensor",
     "description": "Allows for reading the state of precipitation from devices that report it.",
     "attributes": {
         "precipitationIntensity": {
@@ -8,29 +9,23 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
-                    "none": {
-                        "description": "There is no precipitation.",
-                        "label": "no precipitation"
+                    "violent": {
+                        "label": "violent"
                     },
                     "possiblePrecipitation": {
-                        "description": "There is likely precipitation, but the intensity is not known.",
                         "label": "possible precipitation"
                     },
                     "light": {
-                        "description": "There is light precipitation (generally for rainfall with a precipitation rate that is < 0.2 in\/hr or < 2 mm\/hr).",
                         "label": "light"
                     },
+                    "none": {
+                        "label": "no precipitation"
+                    },
                     "moderate": {
-                        "description": "There is moderate precipitation (generally for rainfall with a precipitation rate that is between 0.21 in\/hr to 0.5 in\/hr or 2 mm\/hr to 10 mm\/hr).",
                         "label": "moderate"
                     },
                     "heavy": {
-                        "description": "There is heavy precipitation (generally for rainfall with a precipitation rate that is > 0.5 in\/hr or 10 mm\/hr to 50 mm\/hr).",
                         "label": "heavy"
-                    },
-                    "violent": {
-                        "description": "There is violent precipitation (generally for rainfall with a precipitation rate that is > 2.0 in\/hr or > 50 mm\/hr).",
-                        "label": "violent"
                     }
                 }
             }

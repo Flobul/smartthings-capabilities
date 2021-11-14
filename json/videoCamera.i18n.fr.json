@@ -1,14 +1,17 @@
 {
     "tag": "fr",
-    "label": "Video Camera",
+    "label": "Marche",
+    "description": "Allows for the control of the video camera.",
     "attributes": {
         "settings": {
             "label": "Param\u00e8tres",
+            "description": "The current state of the settings",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": []
         },
         "mute": {
             "label": "Coupure du son",
+            "description": "The current mute state",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {
@@ -22,7 +25,8 @@
             }
         },
         "camera": {
-            "label": "Cam\u00e9ra",
+            "label": "Marche",
+            "description": "The current state of the video camera",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {
@@ -33,19 +37,41 @@
                         "label": "Non disponible"
                     },
                     "off": {
-                        "label": "D\u00e9sactiv\u00e9e"
+                        "label": "D\u00e9sactiv\u00e9"
                     },
                     "on": {
-                        "label": "Activ\u00e9e"
+                        "label": "Activ\u00e9"
                     }
                 }
             }
         },
         "statusMessage": {
             "label": "Message de statut",
+            "description": "The status message",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "mute": {
+            "description": "Mute the video camera",
+            "arguments": []
+        },
+        "unmute": {
+            "description": "Unmute the video camera",
+            "arguments": []
+        },
+        "flip": {
+            "description": "Flip the picture display",
+            "arguments": []
+        },
+        "off": {
+            "description": "Turn off the video camera",
+            "arguments": []
+        },
+        "on": {
+            "description": "Turn on the video camera",
+            "arguments": []
+        }
+    }
 }

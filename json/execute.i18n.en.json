@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Execute",
     "description": "Allows for raw messages to be passed to a device.",
     "attributes": {
         "data": {

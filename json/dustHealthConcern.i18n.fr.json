@@ -1,0 +1,35 @@
+{
+    "tag": "fr",
+    "label": "Poussi\u00e8re",
+    "description": "Health Concern levels of PM10 dust sensor measurements.",
+    "attributes": {
+        "dustHealthConcern": {
+            "label": "Poussi\u00e8re",
+            "description": "Current health concern of dust -- also refered to as PM10, based on the relative health hazard",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "veryUnhealthy": {
+                        "label": "Tr\u00e8s mauvais"
+                    },
+                    "slightlyUnhealthy": {
+                        "label": "L\u00e9g\u00e8rement mauvais"
+                    },
+                    "unhealthy": {
+                        "label": "Mauvais"
+                    },
+                    "hazardous": {
+                        "label": "Dangereux"
+                    },
+                    "good": {
+                        "label": "Bon"
+                    },
+                    "moderate": {
+                        "label": "Moyen"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

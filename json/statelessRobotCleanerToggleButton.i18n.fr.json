@@ -1,0 +1,28 @@
+{
+    "tag": "fr",
+    "label": "Stateless Robot Cleaner Toggle Button",
+    "description": "Allows for the control of a stateless robot cleaner toggle button",
+    "attributes": {
+        "availableRobotCleanerToggleButtons": {
+            "label": "configured buttons",
+            "description": "A list of commands\/buttons that have been configured in the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": {
+                        "actionToggle": {
+                            "label": "Action toggle"
+                        }
+                    },
+                    "description": "The button in availableRobotCleanerToggleButtons to send to the device"
+                }
+            }
+        }
+    }
+}

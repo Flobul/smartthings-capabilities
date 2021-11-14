@@ -1,75 +1,135 @@
 {
     "tag": "fr",
-    "label": "Air Conditioner Fan Mode",
+    "label": "Vitesse de ventilation",
+    "description": "Maintains and sets the state of an air conditioner's fan",
     "attributes": {
         "fanMode": {
-            "label": "fanMode",
+            "label": "Vitesse de ventilation",
+            "description": "The current mode of the fan",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": {
                 "value": {
-                    "high": {
-                        "label": "\u00c9lev\u00e9"
+                    "auto": {
+                        "label": "Automatique"
+                    },
+                    "max": {
+                        "label": "max"
+                    },
+                    "turbo": {
+                        "label": "turbo"
                     },
                     "medium": {
                         "label": "Moyenne"
                     },
-                    "pet": {
-                        "label": "Animal de compagnie"
-                    },
-                    "auto": {
-                        "label": "Automatique"
+                    "smart": {
+                        "label": "smart"
                     },
                     "sleep": {
-                        "label": "Veille"
+                        "label": "sleep"
                     },
-                    "windFree": {
-                        "label": "Sans courant daposair"
+                    "1": {
+                        "label": "1"
                     },
-                    "smart": {
-                        "label": "Intelligent"
+                    "2": {
+                        "label": "2"
+                    },
+                    "high": {
+                        "label": "\u00c9lev\u00e9e"
+                    },
+                    "3": {
+                        "label": "3"
+                    },
+                    "windfree": {
+                        "label": "windfree"
+                    },
+                    "4": {
+                        "label": "4"
                     },
                     "low": {
-                        "label": "Faible"
+                        "label": "Basse"
+                    },
+                    "5": {
+                        "label": "5"
+                    },
+                    "quite": {
+                        "label": "quite"
+                    },
+                    "quiet": {
+                        "label": "quiet"
+                    },
+                    "pet": {
+                        "label": "pet"
                     }
                 }
             }
         },
         "supportedAcFanModes": {
             "label": "supportedAcFanModes",
+            "description": "Supported states for this air conditioner fan to be in",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
         }
     },
     "commands": {
         "setFanMode": {
+            "label": "Vitesse de ventilation",
+            "description": "Set the fan's mode",
             "arguments": {
                 "fanMode": {
                     "i18n": {
-                        "high": {
-                            "label": "\u00c9lev\u00e9"
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "max": {
+                            "label": "max"
+                        },
+                        "turbo": {
+                            "label": "turbo"
                         },
                         "medium": {
                             "label": "Moyenne"
                         },
-                        "pet": {
-                            "label": "Animal de compagnie"
-                        },
-                        "auto": {
-                            "label": "Automatique"
+                        "smart": {
+                            "label": "smart"
                         },
                         "sleep": {
-                            "label": "Veille"
+                            "label": "sleep"
                         },
-                        "windFree": {
-                            "label": "Sans courant daposair"
+                        "1": {
+                            "label": "1"
                         },
-                        "smart": {
-                            "label": "Intelligent"
+                        "high": {
+                            "label": "\u00c9lev\u00e9e"
+                        },
+                        "2": {
+                            "label": "2"
+                        },
+                        "3": {
+                            "label": "3"
+                        },
+                        "windfree": {
+                            "label": "windfree"
+                        },
+                        "4": {
+                            "label": "4"
                         },
                         "low": {
-                            "label": "Faible"
+                            "label": "Basse"
+                        },
+                        "5": {
+                            "label": "5"
+                        },
+                        "quite": {
+                            "label": "quite"
+                        },
+                        "quiet": {
+                            "label": "quiet"
+                        },
+                        "pet": {
+                            "label": "pet"
                         }
-                    }
+                    },
+                    "description": "The fan mode"
                 }
             }
         }

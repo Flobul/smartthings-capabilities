@@ -1,14 +1,15 @@
 {
     "tag": "fr",
-    "label": "Thermostat Fan Mode",
+    "label": "Mode de ventilation",
     "attributes": {
         "thermostatFanMode": {
-            "label": "Mode de ventilation du thermostat",
+            "label": "Mode de ventilation",
+            "description": "The current mode of the fan on a thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {
                     "followschedule": {
-                        "label": "Suivre le programme"
+                        "label": "Programmer"
                     },
                     "auto": {
                         "label": "Automatique"
@@ -24,9 +25,45 @@
         },
         "supportedThermostatFanModes": {
             "label": "Modes de ventilation du thermostat pris en charge",
+            "description": "Modes supported by the thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "fanOn": {
+            "description": "Set the fan mode to ``on``",
+            "arguments": []
+        },
+        "setThermostatFanMode": {
+            "description": "Set the thermostat fan mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "followschedule": {
+                            "label": "Programmer"
+                        },
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "on": {
+                            "label": "Activ\u00e9"
+                        },
+                        "circulate": {
+                            "label": "Circulation"
+                        }
+                    },
+                    "description": "The mode may be one of the following values:"
+                }
+            }
+        },
+        "fanAuto": {
+            "description": "Set the fan mode to ``auto``",
+            "arguments": []
+        },
+        "fanCirculate": {
+            "description": "Set the fan mode to ``circulate``",
+            "arguments": []
+        }
+    }
 }

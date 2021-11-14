@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "3-axis sensor",
     "description": "Gives the three axis coordinates for devices that support it",
     "attributes": {
         "threeAxis": {

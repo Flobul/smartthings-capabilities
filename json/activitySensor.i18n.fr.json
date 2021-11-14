@@ -1,29 +1,31 @@
 {
     "tag": "fr",
-    "label": "Activity Sensor",
+    "label": "Capteur d'activit\u00e9",
+    "description": "Allows for the ability to read activity sensor device states",
     "attributes": {
         "activity": {
-            "label": "activit\u00e9",
+            "label": "Capteur d'activit\u00e9",
+            "description": "The current state of the activity sensor",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": {
                 "value": {
                     "noActivity": {
-                        "label": "Aucune activit\u00e9 d\u00e9tect\u00e9e"
+                        "label": "Aucune activit\u00e9"
                     },
                     "falling": {
-                        "label": "Chute d\u00e9tect\u00e9e"
+                        "label": "Chute"
                     },
                     "standing": {
-                        "label": "Position debout d\u00e9tect\u00e9e"
+                        "label": "Debout"
                     },
                     "eating": {
-                        "label": "Prise de repas d\u00e9tect\u00e9e"
+                        "label": "Pause repas"
                     },
                     "sitting": {
-                        "label": "Position assise d\u00e9tect\u00e9e"
+                        "label": "Assis"
                     },
                     "lying": {
-                        "label": "Position allong\u00e9e d\u00e9tect\u00e9e"
+                        "label": "Allong\u00e9"
                     }
                 }
             }

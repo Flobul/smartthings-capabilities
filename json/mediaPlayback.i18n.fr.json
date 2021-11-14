@@ -1,50 +1,73 @@
 {
     "tag": "fr",
-    "label": "Media Playback",
+    "label": "Lecture de fichiers multim\u00e9dia",
+    "description": "Allows for the control of the media playback.",
     "attributes": {
         "supportedPlaybackCommands": {
             "label": "Commandes de lecture prises en charge",
+            "description": "Media playback commands which are supported",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         },
         "playbackStatus": {
-            "label": "Statut de lecture",
+            "label": "Lecture de fichiers multim\u00e9dia",
+            "description": "Status of the media playback",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
-                    "play": {
-                        "label": "Lecture"
-                    },
                     "paused": {
-                        "label": "paused"
+                        "label": "Pause"
                     },
                     "stopped": {
-                        "label": "stopped"
-                    },
-                    "stop": {
-                        "label": "Arr\u00eat"
-                    },
-                    "rewind": {
-                        "label": "Rembobinage"
+                        "label": "Arr\u00eater"
                     },
                     "rewinding": {
-                        "label": "rewinding"
+                        "label": "Rembobinage"
                     },
                     "playing": {
-                        "label": "playing"
+                        "label": "Lecture"
                     },
                     "fast forwarding": {
                         "label": "fast forwarding"
-                    },
-                    "fastForward": {
-                        "label": "Avance rapide"
-                    },
-                    "pause": {
-                        "label": "Pause"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {
+        "play": {
+            "label": "Lecture",
+            "description": "Set the playback status to \"playing\"",
+            "arguments": []
+        },
+        "stop": {
+            "label": "Arr\u00eater",
+            "description": "Set the playback status to \"stopped\"",
+            "arguments": []
+        },
+        "rewind": {
+            "label": "Rembobinage",
+            "description": "Set the playback status to \"rewinding\"",
+            "arguments": []
+        },
+        "fastForward": {
+            "label": "Avance rapide",
+            "description": "Set the playback status to \"fast forwarding\"",
+            "arguments": []
+        },
+        "setPlaybackStatus": {
+            "description": "Set the playback status",
+            "arguments": {
+                "status": {
+                    "i18n": [],
+                    "description": "Set the playback status to \"paused\", \"playing\", \"stopped\", \"fast forwarding\" or \"rewinding\" state."
+                }
+            }
+        },
+        "pause": {
+            "label": "Pause",
+            "description": "Set the playback status to \"paused\"",
+            "arguments": []
+        }
+    }
 }

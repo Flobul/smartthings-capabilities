@@ -1,0 +1,31 @@
+{
+    "tag": "fr",
+    "label": "__PO_CODE_STATELESSSTEMPERATUREBUTTON_TEMPERATURE",
+    "description": "Allows for the control of a device with stateless temperature control buttons",
+    "attributes": {
+        "availableTemperatureButtons": {
+            "label": "configured buttons",
+            "description": "A list of commands\/buttons that have been configured in the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": {
+                        "temperatureDown": {
+                            "label": "Decrease Temperature"
+                        },
+                        "temperatureUp": {
+                            "label": "Increase Temperature"
+                        }
+                    },
+                    "description": "The button in availableTemperatureButtons to send to the device"
+                }
+            }
+        }
+    }
+}

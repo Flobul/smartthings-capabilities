@@ -1,14 +1,17 @@
 {
     "tag": "fr",
-    "label": "Dust Sensor",
+    "label": "Quantit\u00e9 de poussi\u00e8re",
+    "description": "Gets the reading of the dust sensor.",
     "attributes": {
         "dustLevel": {
-            "label": "Quantit\u00e9 de poussi\u00e8re",
+            "label": "PM 10",
+            "description": "Current dust level -- also refered to as PM10, measured in micrograms per cubic meter",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait \u00e9gal \u00e0 {{value}} \u03bcg\/m^3.",
             "i18n": []
         },
         "fineDustLevel": {
-            "label": "Niveau de poussi\u00e8re fine",
+            "label": "PM 2,5",
+            "description": "Current level of fine dust -- also refered to as PM2.5, measured in micrograms per cubic meter",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait \u00e9gal \u00e0 {{value}} \u03bcg\/m^3.",
             "i18n": []
         }

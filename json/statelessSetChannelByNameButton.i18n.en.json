@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "description": "Allows for the setting of a tv channel by channel name",
+    "label": "Stateless Set Channel By Name Button",
     "attributes": [],
     "commands": {
         "setChannelByName": {

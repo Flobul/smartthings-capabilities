@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Sound Detection",
+    "label": "D\u00e9tection de son",
+    "description": "Detected Sound",
     "attributes": {
         "soundDetectionState": {
             "label": "soundDetectionState",
+            "description": "The operational state of sound detection whether enabled or disabled",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -18,31 +20,33 @@
         },
         "supportedSoundTypes": {
             "label": "supportedSoundTypes",
+            "description": "The sound types that can be detected by this device",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
         },
         "soundDetected": {
             "label": "D\u00e9tection de son",
+            "description": "The detected sound type from the DetectedSoundType datatype",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "dogBarking": {
-                        "label": "Aboiement de chien d\u00e9tect\u00e9"
+                        "label": "Aboiement de chien"
                     },
                     "noSound": {
-                        "label": "Aucune"
+                        "label": "Aucun son"
                     },
                     "siren": {
-                        "label": "siren"
+                        "label": "Sir\u00e8ne"
                     },
                     "catMeowing": {
-                        "label": "Miaulement de chat d\u00e9tect\u00e9"
+                        "label": "Miaulement de chat"
                     },
                     "snoring": {
-                        "label": "snoring"
+                        "label": "Ronflement"
                     },
                     "doorKnocking": {
-                        "label": "Frappement \u00e0 la porte d\u00e9tect\u00e9"
+                        "label": "Frappement \u00e0 la porte"
                     },
                     "babyCrying": {
                         "label": "B\u00e9b\u00e9 en train de pleurer"
@@ -54,7 +58,7 @@
                         "label": "Alarme incendie"
                     },
                     "fingerSnapping": {
-                        "label": "fingerSnapping"
+                        "label": "Claquement de doigts"
                     }
                 }
             }
@@ -63,10 +67,12 @@
     "commands": {
         "disableSoundDetection": {
             "label": "D\u00e9sactiv\u00e9",
+            "description": "Set sound detection to the disabled state",
             "arguments": []
         },
         "enableSoundDetection": {
             "label": "Activ\u00e9",
+            "description": "Set sound detection to the enabled state",
             "arguments": []
         }
     }

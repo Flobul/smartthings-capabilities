@@ -1,57 +1,19 @@
 {
     "tag": "en",
+    "label": "Sound detection",
     "description": "Detected Sound",
     "attributes": {
         "soundDetectionState": {
-            "label": "Sound Detection State",
+            "label": "soundDetectionState",
             "description": "The operational state of sound detection whether enabled or disabled",
             "displayTemplate": "{{attribute}} of {{device.label}} was: {{value}}",
             "i18n": {
                 "value": {
-                    "enabled": {
-                        "label": "On"
-                    },
                     "disabled": {
                         "label": "Off"
-                    }
-                }
-            }
-        },
-        "soundDetected": {
-            "label": "Sound detection",
-            "description": "The detected sound type from the DetectedSoundType datatype",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": {
-                "value": {
-                    "babyCrying": {
-                        "label": "Baby crying"
                     },
-                    "glassBreaking": {
-                        "label": "Breaking glass"
-                    },
-                    "fireAlarm": {
-                        "label": "Fire alarm"
-                    },
-                    "noSound": {
-                        "label": "None"
-                    },
-                    "dogBarking": {
-                        "label": "Dog bark detected"
-                    },
-                    "catMeowing": {
-                        "label": "Cat meow detected"
-                    },
-                    "doorKnocking": {
-                        "label": "Door knocking detected"
-                    },
-                    "siren": {
-                        "label": "Siren detected"
-                    },
-                    "fingerSnapping": {
-                        "label": "Finger snapping detected"
-                    },
-                    "snoring": {
-                        "label": "Snoring detected"
+                    "enabled": {
+                        "label": "On"
                     }
                 }
             }
@@ -61,17 +23,56 @@
             "description": "The sound types that can be detected by this device",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
+        },
+        "soundDetected": {
+            "label": "Sound detection",
+            "description": "The detected sound type from the DetectedSoundType datatype",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "dogBarking": {
+                        "label": "Dog barking"
+                    },
+                    "noSound": {
+                        "label": "No sound"
+                    },
+                    "siren": {
+                        "label": "Siren"
+                    },
+                    "catMeowing": {
+                        "label": "Cat meowing"
+                    },
+                    "snoring": {
+                        "label": "Snoring"
+                    },
+                    "doorKnocking": {
+                        "label": "Knock on door"
+                    },
+                    "babyCrying": {
+                        "label": "Baby crying"
+                    },
+                    "glassBreaking": {
+                        "label": "Breaking glass"
+                    },
+                    "fireAlarm": {
+                        "label": "Fire alarm"
+                    },
+                    "fingerSnapping": {
+                        "label": "Finger snapping"
+                    }
+                }
+            }
         }
     },
     "commands": {
-        "enableSoundDetection": {
-            "label": "On",
-            "description": "Set sound detection to the enabled state",
-            "arguments": []
-        },
         "disableSoundDetection": {
             "label": "Off",
             "description": "Set sound detection to the disabled state",
+            "arguments": []
+        },
+        "enableSoundDetection": {
+            "label": "On",
+            "description": "Set sound detection to the enabled state",
             "arguments": []
         }
     }

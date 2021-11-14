@@ -1,0 +1,46 @@
+{
+    "tag": "fr",
+    "label": "Turbo",
+    "description": "Allows for the control of the robot cleaner turbo mode.",
+    "attributes": {
+        "robotCleanerTurboMode": {
+            "label": "Turbo",
+            "description": "Current status of the robot cleaner turbo mode",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "silence": {
+                        "label": "Silencieux"
+                    },
+                    "off": {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
+                    "on": {
+                        "label": "Activ\u00e9"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setRobotCleanerTurboMode": {
+            "description": "Set the robot cleaner turbo mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "silence": {
+                            "label": "Silencieux"
+                        },
+                        "off": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
+                        "on": {
+                            "label": "Activ\u00e9"
+                        }
+                    },
+                    "description": "Set the robot cleaner movement mode to 'on', 'off' or 'silence' mode"
+                }
+            }
+        }
+    }
+}

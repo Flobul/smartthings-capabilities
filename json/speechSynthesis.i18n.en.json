@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "description": "Allows for the control by speech.",
+    "label": "Speech Synthesis",
     "attributes": [],
     "commands": {
         "speak": {

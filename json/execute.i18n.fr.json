@@ -1,12 +1,19 @@
 {
     "tag": "fr",
     "label": "Execute",
+    "description": "Allows for raw messages to be passed to a device.",
     "attributes": {
         "data": {
             "label": "Donn\u00e9es",
+            "description": "A Json Object of results from commands being executed.",
             "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "execute": {
+            "description": "Execute a command.",
+            "arguments": []
+        }
+    }
 }

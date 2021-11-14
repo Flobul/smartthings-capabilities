@@ -1,0 +1,14 @@
+{
+    "tag": "fr",
+    "label": "Compteur kilom\u00e9trique",
+    "description": "Get the odometer reading from a vehicle",
+    "attributes": {
+        "odometerReading": {
+            "label": "Compteur kilom\u00e9trique",
+            "description": "A number that represents the current odometer reading",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}{{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

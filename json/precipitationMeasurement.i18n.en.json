@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Precipitation Measurement",
     "description": "Allows for reading the level of precipitation from devices that report it.",
     "attributes": {
         "precipitationLevel": {

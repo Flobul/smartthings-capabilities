@@ -1,0 +1,52 @@
+{
+    "tag": "fr",
+    "label": "Mode",
+    "description": "Allows for the control of the washer mode.",
+    "attributes": {
+        "washerMode": {
+            "label": "Mode",
+            "description": "The current mode of the washer",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "regular": {
+                        "label": "Standard"
+                    },
+                    "rinse": {
+                        "label": "Rin\u00e7age"
+                    },
+                    "heavy": {
+                        "label": "Intensif"
+                    },
+                    "spinDry": {
+                        "label": "Spin Dry"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setWasherMode": {
+            "description": "Set the washer mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "rinse": {
+                            "label": "Rin\u00e7age"
+                        },
+                        "regular": {
+                            "label": "Standard"
+                        },
+                        "heavy": {
+                            "label": "Intensif"
+                        },
+                        "spinDry": {
+                            "label": "Spin Dry"
+                        }
+                    },
+                    "description": "The mode to which washer should be set, either \"regular\" or \"heavy\" or \"rinse\" or \"spinDry\""
+                }
+            }
+        }
+    }
+}

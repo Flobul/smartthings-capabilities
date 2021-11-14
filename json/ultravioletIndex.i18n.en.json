@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "UV index",
     "description": "Gives the ability to get the ultraviolet index from devices that report it",
     "attributes": {
         "ultravioletIndex": {

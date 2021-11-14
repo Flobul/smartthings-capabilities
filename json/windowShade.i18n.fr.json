@@ -1,11 +1,25 @@
 {
     "tag": "fr",
-    "label": "Window Shade",
+    "label": "Store de fen\u00eatre",
+    "description": "Allows for the control of the window shade.",
     "attributes": {
         "supportedWindowShadeCommands": {
             "label": "supportedWindowShadeCommands",
+            "description": "Window shade commands supported by this instance of Window Shade",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "close": {
+                        "label": "close"
+                    },
+                    "open": {
+                        "label": "open"
+                    },
+                    "pause": {
+                        "label": "pause"
+                    }
+                }
+            }
         },
         "windowShade": {
             "label": "Store de fen\u00eatre",
@@ -16,16 +30,16 @@
                         "label": "Fermeture\u2026"
                     },
                     "partially open": {
-                        "label": "partiellement ouvert(e)"
+                        "label": "partially open"
                     },
                     "closed": {
-                        "label": "Ferm\u00e9e"
+                        "label": "Ferm\u00e9"
                     },
                     "opening": {
                         "label": "Ouverture\u2026"
                     },
                     "open": {
-                        "label": "Ouverte"
+                        "label": "Ouvert"
                     },
                     "unknown": {
                         "label": "Inconnu"
@@ -34,5 +48,21 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "close": {
+            "label": "Fermer",
+            "description": "Close the window shade",
+            "arguments": []
+        },
+        "open": {
+            "label": "Ouvert",
+            "description": "Open the window shade",
+            "arguments": []
+        },
+        "pause": {
+            "label": "Pause",
+            "description": "Pause opening or closing the window shade",
+            "arguments": []
+        }
+    }
 }

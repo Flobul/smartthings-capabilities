@@ -1,9 +1,11 @@
 {
     "tag": "fr",
     "label": "Filter State",
+    "description": "Gets the state of the filter.",
     "attributes": {
         "filterLifeRemaining": {
             "label": "Autonomie restante du filtre",
+            "description": "Current remaining life of the filter",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": []
         }

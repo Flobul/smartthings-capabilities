@@ -1,10 +1,53 @@
 {
     "tag": "en",
+    "label": "Robot Cleaner State",
     "description": "Allows for the control of the robot cleaner state.",
     "attributes": {
+        "robotCleanerTurboState": {
+            "label": "robot cleaner turbo state",
+            "description": "The turbo state of the Robot Cleaner",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "turboSilence": {
+                        "label": "turboSilence"
+                    },
+                    "turboOff": {
+                        "label": "turboOff"
+                    },
+                    "turboOn": {
+                        "label": "turboOn"
+                    }
+                }
+            }
+        },
         "robotCleanerCleaningState": {
             "label": "robot cleaner cleaning state",
             "description": "The cleaning state of the Robot Cleaner",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaningPart": {
+                        "label": "cleaningPart"
+                    },
+                    "cleaningManual": {
+                        "label": "cleaningManual"
+                    },
+                    "cleaningStop": {
+                        "label": "cleaningStop"
+                    },
+                    "cleaningRepeat": {
+                        "label": "cleaningRepeat"
+                    },
+                    "cleaningAuto": {
+                        "label": "cleaningAuto"
+                    }
+                }
+            }
+        },
+        "supportedRobotCleanerStates": {
+            "label": "supported robot cleaner states",
+            "description": "The states supported by the Robot Cleaner",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
@@ -12,51 +55,57 @@
             "label": "robot cleaner control state",
             "description": "The control state of the Robot Cleaner",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
-        },
-        "robotCleanerTurboState": {
-            "label": "robot cleaner turbo state",
-            "description": "The turbo state of the Robot Cleaner",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
-        },
-        "supportedRobotCleanerStates": {
-            "label": "supported robot cleaner states",
-            "description": "The states supported by the Robot Cleaner",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "controlPowerOff": {
+                        "label": "controlPowerOff"
+                    },
+                    "controlCleaning": {
+                        "label": "controlCleaning"
+                    },
+                    "controlAfter": {
+                        "label": "controlAfter"
+                    },
+                    "controlReserve": {
+                        "label": "controlReserve"
+                    },
+                    "controlAlarm": {
+                        "label": "controlAlarm"
+                    },
+                    "controlCharging": {
+                        "label": "controlCharging"
+                    },
+                    "controlHoming": {
+                        "label": "controlHoming"
+                    },
+                    "controlPause": {
+                        "label": "controlPause"
+                    },
+                    "controlPoint": {
+                        "label": "controlPoint"
+                    },
+                    "controlIdle": {
+                        "label": "controlIdle"
+                    }
+                }
+            }
         }
     },
     "commands": {
         "setRobotCleanerCleaningState": {
             "description": "Set the cleaning state of the Robot Cleaner",
-            "arguments": {
-                "schedule": {
-                    "i18n": [],
-                    "description": "A value to which the Robot Cleaner cleaning state should be set to"
-                }
-            }
-        },
-        "setRobotCleanerControlState": {
-            "description": "Set the control state of the Robot Cleaner",
-            "arguments": {
-                "schedule": {
-                    "i18n": [],
-                    "description": "A value to which the Robot Cleaner control state should be set to"
-                }
-            }
-        },
-        "setRobotCleanerTurboState": {
-            "description": "Set the turbo state of the Robot Cleaner",
-            "arguments": {
-                "schedule": {
-                    "i18n": [],
-                    "description": "A value to which the Robot Cleaner turbo state should be set to"
-                }
-            }
+            "arguments": []
         },
         "stop": {
             "description": "Provide the description",
+            "arguments": []
+        },
+        "setRobotCleanerControlState": {
+            "description": "Set the control state of the Robot Cleaner",
+            "arguments": []
+        },
+        "setRobotCleanerTurboState": {
+            "description": "Set the turbo state of the Robot Cleaner",
             "arguments": []
         }
     }

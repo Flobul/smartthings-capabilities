@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Acidity",
     "description": "Read the pH value off of a pH measurement capable device",
     "attributes": {
         "pH": {
-            "label": "ph",
+            "label": "Acidity",
             "description": "A number representing the current pH level measured by the device",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}pH",
             "i18n": []

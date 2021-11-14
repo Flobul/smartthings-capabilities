@@ -1,12 +1,24 @@
 {
     "tag": "fr",
     "label": "Location Mode",
+    "description": "Allows for the control of the location mode.",
     "attributes": {
         "mode": {
             "label": "Mode",
+            "description": "Current location mode status",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setMode": {
+            "description": "Set the mode for the location",
+            "arguments": {
+                "mode": {
+                    "i18n": [],
+                    "description": "Set the mode for the location"
+                }
+            }
+        }
+    }
 }

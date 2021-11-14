@@ -1,12 +1,28 @@
 {
     "tag": "en",
+    "label": "Air Flow Direction",
     "description": "A representation of the direction of air flow oscillation",
     "attributes": {
         "airFlowDirection": {
             "label": "air flow direction",
             "description": "The current direction of air flow oscillation; an enum of fixed, vertical, horizontal, all",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "all": {
+                        "label": "all"
+                    },
+                    "horizontal": {
+                        "label": "horizontal"
+                    },
+                    "fixed": {
+                        "label": "fixed"
+                    },
+                    "vertical": {
+                        "label": "vertical"
+                    }
+                }
+            }
         }
     },
     "commands": {

@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Outlet",
     "description": "Allows for the control of an outlet device. Deprecated in favor of Switch.",
     "attributes": {
         "switch": {
@@ -9,22 +10,22 @@
             "i18n": {
                 "value": {
                     "off": {
-                        "description": "The value of the ``switch`` attribute if the outlet is off"
+                        "label": "off"
                     },
                     "on": {
-                        "description": "The value of the ``switch`` attribute if the outlet is on"
+                        "label": "on"
                     }
                 }
             }
         }
     },
     "commands": {
-        "on": {
-            "description": "Turn an outlet on",
-            "arguments": []
-        },
         "off": {
             "description": "Turn an outlet off",
+            "arguments": []
+        },
+        "on": {
+            "description": "Turn an outlet on",
             "arguments": []
         }
     }

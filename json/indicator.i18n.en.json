@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Indicator",
     "description": "The indicator capability gives you the ability to set the indicator LED light on a Z-Wave switch. As such, the most common use case for the indicator capability is in a Device Handler.",
     "attributes": {
         "indicatorStatus": {
@@ -9,7 +10,13 @@
             "i18n": {
                 "value": {
                     "never": {
-                        "description": "The LED is never on"
+                        "label": "never"
+                    },
+                    "when off": {
+                        "label": "when off"
+                    },
+                    "when on": {
+                        "label": "when on"
                     }
                 }
             }

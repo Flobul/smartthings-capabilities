@@ -6,6 +6,26 @@
             "label": "energyType",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
+        },
+        "energySavingSupport": {
+            "label": "energySavingSupport",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "drMaxDuration": {
+            "label": "drMaxDuration",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "energySavingOperation": {
+            "label": "energySavingOperation",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "energySavingOperationSupport": {
+            "label": "energySavingOperationSupport",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
         }
     },
     "commands": []

@@ -1,12 +1,31 @@
 {
     "tag": "fr",
-    "label": "Stateless Power Button",
+    "label": "Marche",
+    "description": "Allows for the control of a device with a stateless power button",
     "attributes": {
         "availablePowerButtons": {
             "label": "touches configur\u00e9es",
+            "description": "A list of commands\/buttons that have been configured in the device",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": {
+                        "powerOn": {
+                            "label": "Activ\u00e9"
+                        },
+                        "powerOff": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        }
+                    },
+                    "description": "The button in availablePowerButtons to send to the device"
+                }
+            }
+        }
+    }
 }

@@ -1,16 +1,17 @@
 {
     "tag": "en",
+    "label": "Auto record sounds",
     "description": "Allows for the control of the audio capture.",
     "attributes": {
-        "clip": {
-            "label": "clip",
-            "description": "Audio clip details",
-            "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
-        },
         "stream": {
             "label": "stream",
             "description": "Audio stream details",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
+        "clip": {
+            "label": "clip",
+            "description": "Audio clip details",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         }
@@ -19,13 +20,13 @@
         "capture": {
             "description": "Set the audio capture schedule",
             "arguments": {
-                "startTime": {
-                    "i18n": [],
-                    "description": "Time, in ISO 8601 format, when the audio capture should start"
-                },
                 "captureTime": {
                     "i18n": [],
                     "description": "Audio capture time, in ISO 8601 format"
+                },
+                "startTime": {
+                    "i18n": [],
+                    "description": "Time, in ISO 8601 format, when the audio capture should start"
                 },
                 "endTime": {
                     "i18n": [],

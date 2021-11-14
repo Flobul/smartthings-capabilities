@@ -1,14 +1,17 @@
 {
     "tag": "fr",
-    "label": "Oven Mode",
+    "label": "Mode",
+    "description": "Allows for the control of the oven mode.",
     "attributes": {
         "supportedOvenModes": {
             "label": "supportedOvenModes",
+            "description": "The modes supported by this oven",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
         },
         "ovenMode": {
-            "label": "Mode du four",
+            "label": "Mode",
+            "description": "The mode of operation that the oven is set to",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -31,7 +34,7 @@
                         "label": "SteamBake"
                     },
                     "heating": {
-                        "label": "heating"
+                        "label": "Chauffage"
                     },
                     "SlimStrong": {
                         "label": "SlimStrong"
@@ -64,7 +67,7 @@
                         "label": "Broil"
                     },
                     "warming": {
-                        "label": "warming"
+                        "label": "R\u00e9chauffage"
                     },
                     "Proof": {
                         "label": "Proof"
@@ -79,10 +82,10 @@
                         "label": "ConvectionRoast"
                     },
                     "defrosting": {
-                        "label": "defrosting"
+                        "label": "D\u00e9cong\u00e9lation"
                     },
                     "grill": {
-                        "label": "grill"
+                        "label": "Grill"
                     },
                     "MWplusConvection": {
                         "label": "MWplusConvection"
@@ -94,5 +97,28 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setOvenMode": {
+            "description": "Set the operation mode of the oven",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "warming": {
+                            "label": "R\u00e9chauffage"
+                        },
+                        "defrosting": {
+                            "label": "D\u00e9cong\u00e9lation"
+                        },
+                        "heating": {
+                            "label": "Chauffage"
+                        },
+                        "grill": {
+                            "label": "Grill"
+                        }
+                    },
+                    "description": "The mode to which oven operation should be set to"
+                }
+            }
+        }
+    }
 }

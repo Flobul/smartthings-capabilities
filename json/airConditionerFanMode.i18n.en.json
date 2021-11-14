@@ -1,42 +1,64 @@
 {
     "tag": "en",
+    "label": "Fan speed",
     "description": "Maintains and sets the state of an air conditioner's fan",
     "attributes": {
         "fanMode": {
-            "label": "fan mode",
+            "label": "Fan speed",
             "description": "The current mode of the fan",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
+                    "auto": {
+                        "label": "Auto"
+                    },
+                    "max": {
+                        "label": "max"
+                    },
                     "turbo": {
-                        "label": "Turbo"
+                        "label": "turbo"
                     },
                     "medium": {
                         "label": "Medium"
                     },
-                    "pet": {
-                        "label": "pet"
+                    "smart": {
+                        "label": "smart"
                     },
-                    "auto": {
-                        "label": "Auto"
+                    "sleep": {
+                        "label": "sleep"
+                    },
+                    "1": {
+                        "label": "1"
+                    },
+                    "2": {
+                        "label": "2"
                     },
                     "high": {
                         "label": "High"
                     },
-                    "sleep": {
-                        "label": "Sleep"
+                    "3": {
+                        "label": "3"
+                    },
+                    "windfree": {
+                        "label": "windfree"
+                    },
+                    "4": {
+                        "label": "4"
                     },
                     "low": {
                         "label": "Low"
                     },
-                    "max": {
-                        "label": "MAX"
+                    "5": {
+                        "label": "5"
                     },
-                    "windFree": {
-                        "label": "Wind Free"
+                    "quite": {
+                        "label": "quite"
                     },
-                    "smart": {
-                        "label": "Smart"
+                    "quiet": {
+                        "label": "quiet"
+                    },
+                    "pet": {
+                        "label": "pet"
                     }
                 }
             }
@@ -50,39 +72,61 @@
     },
     "commands": {
         "setFanMode": {
+            "label": "Fan speed",
             "description": "Set the fan's mode",
             "arguments": {
                 "fanMode": {
                     "i18n": {
+                        "auto": {
+                            "label": "Auto"
+                        },
+                        "max": {
+                            "label": "max"
+                        },
                         "turbo": {
-                            "label": "Turbo"
+                            "label": "turbo"
                         },
                         "medium": {
                             "label": "Medium"
                         },
-                        "pet": {
-                            "label": "pet"
+                        "smart": {
+                            "label": "smart"
                         },
-                        "auto": {
-                            "label": "Auto"
+                        "sleep": {
+                            "label": "sleep"
+                        },
+                        "1": {
+                            "label": "1"
                         },
                         "high": {
                             "label": "High"
                         },
-                        "sleep": {
-                            "label": "Sleep"
+                        "2": {
+                            "label": "2"
+                        },
+                        "3": {
+                            "label": "3"
+                        },
+                        "windfree": {
+                            "label": "windfree"
+                        },
+                        "4": {
+                            "label": "4"
                         },
                         "low": {
                             "label": "Low"
                         },
-                        "max": {
-                            "label": "MAX"
+                        "5": {
+                            "label": "5"
                         },
-                        "windFree": {
-                            "label": "Wind Free"
+                        "quite": {
+                            "label": "quite"
                         },
-                        "smart": {
-                            "label": "Smart"
+                        "quiet": {
+                            "label": "quiet"
+                        },
+                        "pet": {
+                            "label": "pet"
                         }
                     },
                     "description": "The fan mode"

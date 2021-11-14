@@ -1,15 +1,24 @@
 {
     "tag": "en",
+    "label": "Volume",
     "description": "Allows for the control of audio volume.",
     "attributes": {
         "volume": {
-            "label": "volume",
+            "label": "Volume",
             "description": "The current volume setting of the audio",
             "displayTemplate": "{{attribute}} of {{device.label}}: {{value}}%",
             "i18n": []
         }
     },
     "commands": {
+        "volumeDown": {
+            "description": "Turn the audio volume down",
+            "arguments": []
+        },
+        "volumeUp": {
+            "description": "Turn the audio volume up",
+            "arguments": []
+        },
         "setVolume": {
             "description": "Set the audio volume level",
             "arguments": {
@@ -18,14 +27,6 @@
                     "description": "A value to which the audio volume level should be set"
                 }
             }
-        },
-        "volumeUp": {
-            "description": "Turn the audio volume up",
-            "arguments": []
-        },
-        "volumeDown": {
-            "description": "Turn the audio volume down",
-            "arguments": []
         }
     }
 }

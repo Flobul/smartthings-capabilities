@@ -1,21 +1,40 @@
 {
     "tag": "fr",
-    "label": "Media Playback Shuffle",
+    "label": "Mode al\u00e9atoire",
+    "description": "Allows for the control of media playback shuffle.",
     "attributes": {
         "playbackShuffle": {
-            "label": "Lecture al\u00e9atoire",
+            "label": "Mode al\u00e9atoire",
+            "description": "The current state of the playback shuffle",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "disabled": {
-                        "label": "disabled"
+                        "label": "D\u00e9sactiver"
                     },
                     "enabled": {
-                        "label": "enabled"
+                        "label": "Activer"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setPlaybackShuffle": {
+            "description": "Set the shuffle playback mode",
+            "arguments": {
+                "shuffle": {
+                    "i18n": {
+                        "disabled": {
+                            "label": "D\u00e9sactiver"
+                        },
+                        "enabled": {
+                            "label": "Activer"
+                        }
+                    },
+                    "description": "Set the shuffle playback to enabled or disabled"
+                }
+            }
+        }
+    }
 }

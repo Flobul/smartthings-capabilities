@@ -1,14 +1,17 @@
 {
     "tag": "fr",
-    "label": "Signal Strength",
+    "label": "Force du signal",
+    "description": "Gives the ability to read the signal stregth of Devices that support it",
     "attributes": {
         "rssi": {
             "label": "RSSI",
+            "description": "A number representing the Received Signal Strength Indication",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} dBm",
             "i18n": []
         },
         "lqi": {
             "label": "Indicateur de qualit\u00e9 de la liaison",
+            "description": "A number representing the Link Quality Indication",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }

@@ -1,38 +1,44 @@
 {
     "tag": "fr",
-    "label": "Media Group",
+    "label": "Media group",
+    "description": "Allows for the expression of media grouping.",
     "attributes": {
         "groupMute": {
-            "label": "groupMute",
+            "label": "D\u00e9sactiver le son pour le groupe",
+            "description": "Current status of group audio mute",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "unmuted": {
-                        "label": "unmuted"
+                        "label": "D\u00e9sactiv\u00e9"
                     },
                     "muted": {
-                        "label": "muted"
+                        "label": "Activ\u00e9"
                     }
                 }
             }
         },
         "groupPrimaryDeviceId": {
             "label": "Identification du contr\u00f4leur du groupe",
+            "description": "Reference to the main controller of the group",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "groupId": {
             "label": "Identification group\u00e9e",
+            "description": "An identifier for the group",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "groupVolume": {
             "label": "Volume du groupe",
+            "description": "The current group volume setting of the audio group",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} %",
             "i18n": []
         },
         "groupRole": {
             "label": "R\u00f4le dans le groupe",
+            "description": "Current role in the group",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -49,5 +55,43 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "groupVolumeUp": {
+            "description": "Turn the group volume up",
+            "arguments": []
+        },
+        "groupVolumeDown": {
+            "description": "Turn the group volume down",
+            "arguments": []
+        },
+        "muteGroup": {
+            "label": "Activ\u00e9",
+            "description": "Set the group audio to mute state",
+            "arguments": []
+        },
+        "setGroupVolume": {
+            "label": "Volume du groupe",
+            "description": "Set the group volume level",
+            "arguments": {
+                "groupVolume": {
+                    "i18n": [],
+                    "description": "A value to which the group volume level should be set"
+                }
+            }
+        },
+        "unmuteGroup": {
+            "label": "D\u00e9sactiv\u00e9",
+            "description": "Set the group audio to unmute state",
+            "arguments": []
+        },
+        "setGroupMute": {
+            "description": "Set the group audio mute state",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the group audio mute state to \"muted\" or \"unmuted\""
+                }
+            }
+        }
+    }
 }

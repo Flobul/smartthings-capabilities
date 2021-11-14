@@ -1,12 +1,25 @@
 {
     "tag": "en",
+    "label": "Mode",
     "description": "Allows for the control of the dryer.",
     "attributes": {
         "dryerMode": {
-            "label": "dryer mode",
+            "label": "Mode",
             "description": "The operational mode that the dryer is in",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "highHeat": {
+                        "label": "High"
+                    },
+                    "regular": {
+                        "label": "Medium"
+                    },
+                    "lowHeat": {
+                        "label": "Low"
+                    }
+                }
+            }
         }
     },
     "commands": {
@@ -14,7 +27,17 @@
             "description": "Set the operational mode of the dryer",
             "arguments": {
                 "mode": {
-                    "i18n": [],
+                    "i18n": {
+                        "highHeat": {
+                            "label": "High"
+                        },
+                        "regular": {
+                            "label": "Medium"
+                        },
+                        "lowHeat": {
+                            "label": "Low"
+                        }
+                    },
                     "description": "The mode to which the dryer should be set to"
                 }
             }

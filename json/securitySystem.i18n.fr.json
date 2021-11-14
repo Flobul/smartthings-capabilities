@@ -1,19 +1,22 @@
 {
     "tag": "fr",
-    "label": "Security System",
+    "label": "Mode de s\u00e9curit\u00e9",
+    "description": "Allows for the control of a security system device",
     "attributes": {
         "alarm": {
             "label": "Alarme",
+            "description": "The reference to the device that most recently generated an event to trigger an alarm",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         },
         "securitySystemStatus": {
-            "label": "Statut du syst\u00e8me de s\u00e9curit\u00e9",
+            "label": "Mode de s\u00e9curit\u00e9",
+            "description": "The current status of the security system",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
                     "disarmed": {
-                        "label": "disarmed"
+                        "label": "D\u00e9sactiv\u00e9"
                     },
                     "armedStay": {
                         "label": "Activ\u00e9 (pr\u00e9sent)"
@@ -25,5 +28,21 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "armStay": {
+            "label": "Activ\u00e9 (pr\u00e9sent)",
+            "description": "Set the security system to ``armedStay``",
+            "arguments": []
+        },
+        "disarm": {
+            "label": "D\u00e9sactiv\u00e9",
+            "description": "Set the security system to ``disarmed``",
+            "arguments": []
+        },
+        "armAway": {
+            "label": "Activ\u00e9 (absent)",
+            "description": "Set the security system to ``armedAway``",
+            "arguments": []
+        }
+    }
 }

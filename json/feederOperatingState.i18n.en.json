@@ -1,18 +1,19 @@
 {
     "tag": "en",
+    "label": "Pet feeder",
     "description": "Allows for the control of a feeder device.",
     "attributes": {
         "feederOperatingState": {
-            "label": "feeder operating state",
+            "label": "Pet feeder",
             "description": "The current state of the feeder.",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "idle": {
-                        "label": "idle"
+                        "label": "Standby"
                     },
                     "feeding": {
-                        "label": "feeding"
+                        "label": "Feeding"
                     }
                 }
             }
@@ -20,6 +21,7 @@
     },
     "commands": {
         "startFeeding": {
+            "label": "Feeding",
             "description": "Begin the feeding process.",
             "arguments": []
         }

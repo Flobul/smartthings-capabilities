@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Thermostat Operating State",
+    "label": "\u00c9tat",
+    "description": "Gives the ability to see the current state that the thermostat is operating in",
     "attributes": {
         "thermostatOperatingState": {
-            "label": "Statut",
+            "label": "\u00c9tat",
+            "description": "The current state that the thermostat is operating in",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -26,7 +28,7 @@
                         "label": "fan only"
                     },
                     "heating": {
-                        "label": "Chauffage"
+                        "label": "Chauffe"
                     }
                 }
             }

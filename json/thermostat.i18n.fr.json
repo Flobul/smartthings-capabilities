@@ -1,49 +1,59 @@
 {
     "tag": "fr",
-    "label": "Thermostat",
+    "label": "thermostat",
+    "description": "Allows for the control of a thermostat device",
     "attributes": {
         "thermostatSetpointRange": {
             "label": "Plage de temp\u00e9ratures du thermostat",
+            "description": "Two element array containing minimum and maximum supported setpoint",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "heatingSetpointRange": {
             "label": "Plage de temp\u00e9ratures de chauffage",
+            "description": "Two element array containing minimum and maximum supported heating setpoint",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "thermostatSetpoint": {
-            "label": "Temp\u00e9rature du thermostat",
+            "label": "D\u00e9finissez la temp\u00e9rature",
+            "description": "The current setpoint value",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}} {{unit}}",
             "i18n": []
         },
         "supportedThermostatFanModes": {
             "label": "Modes de ventilation du thermostat pris en charge",
+            "description": "The fan modes that the thermostat supports",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "schedule": {
             "label": "Programme",
+            "description": "The schedule for the thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
             "i18n": []
         },
         "coolingSetpointRange": {
             "label": "Plage de temp\u00e9ratures de refroidissement",
+            "description": "Two element array containing minimum and maximum supported cooling setpoint",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "heatingSetpoint": {
             "label": "Temp\u00e9rature de chauffe",
+            "description": "The current heating setpoint",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}} {{unit}}",
             "i18n": []
         },
         "coolingSetpoint": {
             "label": "Temp\u00e9rature de refroidissement",
+            "description": "The current cooling setpoint",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}} {{unit}}",
             "i18n": []
         },
         "thermostatOperatingState": {
-            "label": "\u00c9tat de fonctionnement du thermostat",
+            "label": "\u00c9tat",
+            "description": "The current state that the thermostat is operating in",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -51,38 +61,40 @@
                         "label": "Inactif"
                     },
                     "pending heat": {
-                        "label": "En attente de la chauffe"
+                        "label": "pending heat"
                     },
                     "vent economizer": {
-                        "label": "\u00c9conomiseur d'a\u00e9ration"
+                        "label": "vent economizer"
                     },
                     "cooling": {
                         "label": "Refroidissement"
                     },
                     "pending cool": {
-                        "label": "En attente du refroidissement"
+                        "label": "pending cool"
                     },
                     "fan only": {
-                        "label": "Ventilateur seulement"
+                        "label": "fan only"
                     },
                     "heating": {
-                        "label": "Chauffage"
+                        "label": "Chauffe"
                     }
                 }
             }
         },
         "temperature": {
             "label": "Temp\u00e9rature",
+            "description": "The current temperature measurement of the thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}} {{unit}}",
             "i18n": []
         },
         "thermostatFanMode": {
-            "label": "Mode de ventilation du thermostat",
+            "label": "Mode de ventilation",
+            "description": "The current mode of the fan on a thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "followschedule": {
-                        "label": "Suivre le programme"
+                        "label": "Programmer"
                     },
                     "auto": {
                         "label": "Automatique"
@@ -97,7 +109,8 @@
             }
         },
         "thermostatMode": {
-            "label": "Mode du thermostat",
+            "label": "Mode",
+            "description": "The current mode of the thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -105,121 +118,329 @@
                         "label": "Chaleur"
                     },
                     "autowithreset": {
-                        "label": "autowithreset"
+                        "label": "Auto With Reset"
                     },
                     "autochangeoveractive": {
-                        "label": "autochangeoveractive"
+                        "label": "Auto Changeover Active"
                     },
                     "auto": {
                         "label": "Automatique"
                     },
                     "away": {
-                        "label": "away"
+                        "label": "Away"
                     },
                     "furnace": {
-                        "label": "furnace"
+                        "label": "Furnace"
                     },
                     "auxiliaryemergencyheat": {
-                        "label": "auxiliaryemergencyheat"
+                        "label": "Auxillary Emergency Heat"
                     },
                     "moistair": {
-                        "label": "moistair"
+                        "label": "Moistair"
                     },
                     "manual": {
-                        "label": "manual"
+                        "label": "Manual"
                     },
                     "out": {
-                        "label": "out"
+                        "label": "Out"
                     },
                     "eco": {
                         "label": "\u00c9co"
                     },
                     "energysavecool": {
-                        "label": "energysavecool"
+                        "label": "Energy Save Cool"
                     },
                     "autoheat": {
-                        "label": "autoheat"
+                        "label": "Auto Heat"
                     },
                     "rush hour": {
-                        "label": "rush hour"
+                        "label": "Heure de pointe"
                     },
                     "auxheatonly": {
-                        "label": "auxheatonly"
+                        "label": "Auxillary Heat Only"
                     },
                     "rushhour": {
                         "label": "rushhour"
                     },
                     "asleep": {
-                        "label": "asleep"
+                        "label": "Asleep"
                     },
                     "emergencyheat": {
                         "label": "emergencyheat"
                     },
                     "heatingoff": {
-                        "label": "heatingoff"
+                        "label": "Heating Off"
                     },
                     "dryair": {
-                        "label": "dryair"
+                        "label": "Dry air"
                     },
                     "emergencyheatactive": {
-                        "label": "emergencyheatactive"
+                        "label": "Emergency Heat Active"
                     },
                     "autowitheco": {
-                        "label": "autowitheco"
+                        "label": "Auto with Eco"
                     },
                     "resume": {
-                        "label": "resume"
+                        "label": "Resume"
                     },
                     "emergency heat": {
                         "label": "Urgence"
                     },
                     "in": {
-                        "label": "in"
+                        "label": "In"
                     },
                     "cool": {
                         "label": "Froid"
                     },
                     "custom": {
-                        "label": "custom"
+                        "label": "Custom"
                     },
                     "dayoff": {
-                        "label": "dayoff"
+                        "label": "Day Off"
                     },
                     "energysaveheat": {
-                        "label": "energysaveheat"
+                        "label": "Energy Save Heat"
                     },
                     "off": {
                         "label": "D\u00e9sactiv\u00e9"
                     },
                     "home": {
-                        "label": "home"
+                        "label": "Home"
                     },
                     "autocool": {
-                        "label": "autocool"
+                        "label": "Auto Cool"
                     },
                     "schedule": {
-                        "label": "schedule"
+                        "label": "Schedule"
                     },
                     "fanonly": {
-                        "label": "fanonly"
+                        "label": "Fan only"
                     },
                     "autochangeover": {
-                        "label": "autochangeover"
+                        "label": "Auto Changeover"
                     },
                     "frostguard": {
-                        "label": "frostguard"
+                        "label": "Frost Guard"
                     },
                     "southernaway": {
-                        "label": "southernaway"
+                        "label": "Southern Away"
                     }
                 }
             }
         },
         "supportedThermostatModes": {
             "label": "Modes de thermostat pris en charge",
+            "description": "The modes that the thermostat supports",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "heat": {
+            "description": "Set the mode to ``heat``",
+            "arguments": []
+        },
+        "setSchedule": {
+            "description": "Set the schedule",
+            "arguments": {
+                "schedule": {
+                    "i18n": [],
+                    "description": "A value that the schedule should be set to"
+                }
+            }
+        },
+        "auto": {
+            "description": "Set the mode to ``auto``",
+            "arguments": []
+        },
+        "cool": {
+            "description": "Set the mode to ``cool``",
+            "arguments": []
+        },
+        "emergencyHeat": {
+            "description": "Set the mode to ``emergency heat``",
+            "arguments": []
+        },
+        "setThermostatFanMode": {
+            "label": "Mode de ventilation",
+            "description": "Set the thermostat fan mode",
+            "arguments": {
+                "fanmode": {
+                    "i18n": {
+                        "followschedule": {
+                            "label": "Programmer"
+                        },
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "circulate": {
+                            "label": "Circulation"
+                        },
+                        "on": {
+                            "label": "Activ\u00e9"
+                        }
+                    },
+                    "description": "The mode may be one of the following values:"
+                }
+            }
+        },
+        "fanAuto": {
+            "description": "Set the fan mode to ``auto``",
+            "arguments": []
+        },
+        "fanCirculate": {
+            "description": "Set the fan mode to ``circulate``",
+            "arguments": []
+        },
+        "off": {
+            "description": "Set the mode to ``off``",
+            "arguments": []
+        },
+        "setCoolingSetpoint": {
+            "label": "Temp\u00e9rature de refroidissement",
+            "description": "Set the cooling setpoint",
+            "arguments": {
+                "setpoint": {
+                    "i18n": [],
+                    "description": "A value that the cooling setpoint should be set to"
+                }
+            }
+        },
+        "setHeatingSetpoint": {
+            "label": "Temp\u00e9rature de chauffe",
+            "description": "Set the heating setpoint",
+            "arguments": {
+                "setpoint": {
+                    "i18n": [],
+                    "description": "A value that the heating setpoint should be set to"
+                }
+            }
+        },
+        "setThermostatMode": {
+            "label": "Mode",
+            "description": "Set the thermostat mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "heat": {
+                            "label": "Chaleur"
+                        },
+                        "autochangeoveractive": {
+                            "label": "Auto Changeover Active"
+                        },
+                        "autowithreset": {
+                            "label": "Auto With Reset"
+                        },
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "away": {
+                            "label": "Away"
+                        },
+                        "furnace": {
+                            "label": "Furnace"
+                        },
+                        "auxiliaryemergencyheat": {
+                            "label": "Auxillary Emergency Heat"
+                        },
+                        "moistair": {
+                            "label": "Moistair"
+                        },
+                        "manual": {
+                            "label": "Manual"
+                        },
+                        "out": {
+                            "label": "Out"
+                        },
+                        "eco": {
+                            "label": "\u00c9co"
+                        },
+                        "energysavecool": {
+                            "label": "Energy Save Cool"
+                        },
+                        "autoheat": {
+                            "label": "Auto Heat"
+                        },
+                        "rush hour": {
+                            "label": "Heure de pointe"
+                        },
+                        "auxheatonly": {
+                            "label": "Auxillary Heat Only"
+                        },
+                        "rushhour": {
+                            "label": "Heure de pointe"
+                        },
+                        "asleep": {
+                            "label": "Asleep"
+                        },
+                        "emergencyheat": {
+                            "label": "Urgence"
+                        },
+                        "heatingoff": {
+                            "label": "Heating Off"
+                        },
+                        "dryair": {
+                            "label": "Dry air"
+                        },
+                        "emergencyheatactive": {
+                            "label": "Emergency Heat Active"
+                        },
+                        "autowitheco": {
+                            "label": "Auto with Eco"
+                        },
+                        "resume": {
+                            "label": "Resume"
+                        },
+                        "emergency heat": {
+                            "label": "Urgence"
+                        },
+                        "in": {
+                            "label": "In"
+                        },
+                        "cool": {
+                            "label": "Froid"
+                        },
+                        "custom": {
+                            "label": "Custom"
+                        },
+                        "dayoff": {
+                            "label": "Day Off"
+                        },
+                        "energysaveheat": {
+                            "label": "Energy Save Heat"
+                        },
+                        "off": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
+                        "home": {
+                            "label": "Home"
+                        },
+                        "autocool": {
+                            "label": "Auto Cool"
+                        },
+                        "schedule": {
+                            "label": "Schedule"
+                        },
+                        "fanonly": {
+                            "label": "Fan only"
+                        },
+                        "autochangeover": {
+                            "label": "Auto Changeover"
+                        },
+                        "frostguard": {
+                            "label": "Frost Guard"
+                        },
+                        "southernaway": {
+                            "label": "Southern Away"
+                        }
+                    },
+                    "description": "heat.value=Put the thermostat in ``emergency heat`` mode"
+                }
+            }
+        },
+        "fanOn": {
+            "description": "Set the fan mode to ``on``",
+            "arguments": []
+        }
+    }
 }

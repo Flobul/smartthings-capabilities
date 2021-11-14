@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "description": "Allows for the control of the audio track addressing.",
+    "label": "Audio Track Addressing",
     "attributes": [],
     "commands": {
         "setAudioTrack": {

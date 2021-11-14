@@ -1,0 +1,23 @@
+{
+    "tag": "fr",
+    "label": "\u00c9tat du filtre",
+    "description": "Gets the status of the filter.",
+    "attributes": {
+        "filterStatus": {
+            "label": "\u00c9tat du filtre",
+            "description": "Status of the filter",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "replace": {
+                        "label": "Remplacement requis"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

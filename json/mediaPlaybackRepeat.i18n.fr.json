@@ -1,24 +1,46 @@
 {
     "tag": "fr",
-    "label": "Media Playback Repeat",
+    "label": "R\u00e9p\u00e9ter",
+    "description": "Allows for the control of the media playback repeat.",
     "attributes": {
         "playbackRepeatMode": {
-            "label": "Mode de r\u00e9p\u00e9tition de la lecture",
+            "label": "R\u00e9p\u00e9ter",
+            "description": "The current mode of the playback repeat mode, \"all\", \"off\" or \"one\"",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "all": {
-                        "label": "all"
+                        "label": "Tout"
                     },
                     "one": {
-                        "label": "one"
+                        "label": "Un"
                     },
                     "off": {
-                        "label": "off"
+                        "label": "D\u00e9sactiv\u00e9"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setPlaybackRepeatMode": {
+            "description": "Set the playback repeat mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "all": {
+                            "label": "Tout"
+                        },
+                        "one": {
+                            "label": "Un"
+                        },
+                        "off": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        }
+                    },
+                    "description": "Mode to which to the playback repeat mode should be set, \"all\", \"off\" or \"one\""
+                }
+            }
+        }
+    }
 }

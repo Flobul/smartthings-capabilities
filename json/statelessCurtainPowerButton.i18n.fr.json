@@ -1,0 +1,34 @@
+{
+    "tag": "fr",
+    "label": "Rideau",
+    "description": "Allows for the control of a device with stateless curtain power buttons",
+    "attributes": {
+        "availableCurtainPowerButtons": {
+            "label": "configured buttons",
+            "description": "A list of commands\/buttons that have been configured in the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": {
+                        "close": {
+                            "label": "Fermer"
+                        },
+                        "open": {
+                            "label": "Ouvrir"
+                        },
+                        "pause": {
+                            "label": "Pause"
+                        }
+                    },
+                    "description": "The button in availableCurtainPowerButtons to send to the device"
+                }
+            }
+        }
+    }
+}

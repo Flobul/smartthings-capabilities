@@ -1,0 +1,56 @@
+{
+    "tag": "fr",
+    "label": "Informations",
+    "description": "Information about a vehicle.",
+    "attributes": {
+        "vehicleColor": {
+            "label": "Vehicle Color",
+            "description": "The color of the vehicle.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehicleYear": {
+            "label": "Vehicle Year",
+            "description": "The model year of the vehicle.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehicleImage": {
+            "label": "Vehicle Image",
+            "description": "An image representation of the vehicle as a URL.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehicleTrim": {
+            "label": "Vehicle Trim",
+            "description": "The trim of the vehicle.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehiclePlate": {
+            "label": "Num\u00e9ro d'immatriculation",
+            "description": "The registration plate of the vehicle.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehicleModel": {
+            "label": "Vehicle Model",
+            "description": "The model of the vehicle.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehicleId": {
+            "label": "VIN",
+            "description": "The identification (usually VIN - Vehicle Identification Number) of the vehicle.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
+        "vehicleMake": {
+            "label": "Vehicle Make",
+            "description": "The make of the vehicle.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

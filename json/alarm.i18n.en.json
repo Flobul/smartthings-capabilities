@@ -1,28 +1,25 @@
 {
     "tag": "en",
+    "label": "Alarm type",
     "description": "The Alarm capability allows for interacting with devices that serve as alarms",
     "attributes": {
         "alarm": {
-            "label": "alarm",
+            "label": "Alarm type",
             "description": "A string representation of whether the switch is on or off",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
+                    "siren": {
+                        "label": "Siren"
+                    },
                     "strobe": {
-                        "description": "if the alarm is strobing",
                         "label": "Strobe"
                     },
                     "off": {
-                        "description": "if the alarm is turned off",
                         "label": "Off"
                     },
                     "both": {
-                        "description": "if the alarm is strobing and sounding the alarm",
                         "label": "Siren and strobe"
-                    },
-                    "siren": {
-                        "description": "if the alarm is sounding the siren",
-                        "label": "Siren"
                     }
                 }
             }
@@ -30,18 +27,22 @@
     },
     "commands": {
         "siren": {
+            "label": "Siren",
             "description": "Sound the siren on the alarm",
             "arguments": []
         },
         "strobe": {
+            "label": "Strobe",
             "description": "Strobe the alarm",
             "arguments": []
         },
         "off": {
+            "label": "Off",
             "description": "Turn the alarm (siren and strobe) off",
             "arguments": []
         },
         "both": {
+            "label": "Siren and strobe",
             "description": "Strobe and sound the alarm",
             "arguments": []
         }

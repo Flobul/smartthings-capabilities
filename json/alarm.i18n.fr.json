@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Alarm",
+    "label": "Type d'alarme",
+    "description": "The Alarm capability allows for interacting with devices that serve as alarms",
     "attributes": {
         "alarm": {
-            "label": "Alarme",
+            "label": "Type d'alarme",
+            "description": "A string representation of whether the switch is on or off",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -23,5 +25,26 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "siren": {
+            "label": "Sir\u00e8ne",
+            "description": "Sound the siren on the alarm",
+            "arguments": []
+        },
+        "strobe": {
+            "label": "Clignotement",
+            "description": "Strobe the alarm",
+            "arguments": []
+        },
+        "off": {
+            "label": "D\u00e9sactiv\u00e9",
+            "description": "Turn the alarm (siren and strobe) off",
+            "arguments": []
+        },
+        "both": {
+            "label": "Sir\u00e8ne et clignotement",
+            "description": "Strobe and sound the alarm",
+            "arguments": []
+        }
+    }
 }

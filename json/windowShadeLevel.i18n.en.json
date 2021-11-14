@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Shade level",
     "description": "Allows for the control of the level of a window shade.",
     "attributes": {
         "shadeLevel": {
-            "label": "shade level",
+            "label": "Shade level",
             "description": "A number that represents the current level as a function of being open, ``0-100`` in percent; 0 representing completely closed, and 100 representing completely open.",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}%",
             "i18n": []
@@ -12,12 +13,7 @@
     "commands": {
         "setShadeLevel": {
             "description": "Set the shade level to the given value.",
-            "arguments": {
-                "level": {
-                    "i18n": [],
-                    "description": "The level value as a function of being open, ``0-100`` in percent; 0 is equivalent to completely closed and 100 is equivalent to completely open"
-                }
-            }
+            "arguments": []
         }
     }
 }

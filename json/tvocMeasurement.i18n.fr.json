@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Tvoc Measurement",
+    "label": "TCOV",
+    "description": "Measure total volatile organic compound levels",
     "attributes": {
         "tvocLevel": {
-            "label": "Niveau du total des compos\u00e9s organiques volatiles",
+            "label": "TCOV",
+            "description": "The level of total volatile organic compounds detected",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} ppm",
             "i18n": []
         }

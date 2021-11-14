@@ -1,22 +1,23 @@
 {
     "tag": "en",
+    "label": "Geolocation",
     "description": "Gets the value of the geo location.",
     "attributes": {
-        "latitude": {
-            "label": "latitude",
-            "description": "Latitude value",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
-        },
-        "longitude": {
-            "label": "longitude",
-            "description": "Longitude value",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
-        },
         "method": {
             "label": "method",
             "description": "Description of the method",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "heading": {
+            "label": "heading",
+            "description": "Description of the heading",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "latitude": {
+            "label": "latitude",
+            "description": "Latitude value",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
@@ -32,12 +33,6 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
-        "heading": {
-            "label": "heading",
-            "description": "Description of the heading",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
-        },
         "speed": {
             "label": "speed",
             "description": "Description of the speed",
@@ -47,6 +42,12 @@
         "lastUpdateTime": {
             "label": "last update time",
             "description": "Last update time",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "longitude": {
+            "label": "longitude",
+            "description": "Longitude value",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         }

@@ -1,12 +1,34 @@
 {
     "tag": "en",
+    "label": "Radon level",
     "description": "Health Concern levels of radon sensor measurements.",
     "attributes": {
         "radonHealthConcern": {
-            "label": "radon health concern",
+            "label": "Radon level",
             "description": "Current health concern of radon sensor measurement, based on the relative health hazard",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "veryUnhealthy": {
+                        "label": "Very unhealthy"
+                    },
+                    "slightlyUnhealthy": {
+                        "label": "Slightly unhealthy"
+                    },
+                    "unhealthy": {
+                        "label": "Unhealthy"
+                    },
+                    "hazardous": {
+                        "label": "Hazardous"
+                    },
+                    "good": {
+                        "label": "Good"
+                    },
+                    "moderate": {
+                        "label": "Moderate"
+                    }
+                }
+            }
         }
     },
     "commands": []

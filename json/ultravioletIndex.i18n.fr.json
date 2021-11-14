@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Ultraviolet Index",
+    "label": "Indice UV",
+    "description": "Gives the ability to get the ultraviolet index from devices that report it",
     "attributes": {
         "ultravioletIndex": {
             "label": "Indice UV",
+            "description": "A number representing the ultraviolet index",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }

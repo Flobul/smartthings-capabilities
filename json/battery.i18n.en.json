@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Battery",
     "description": "Defines that the device has a battery",
     "attributes": {
         "battery": {
-            "label": "battery",
+            "label": "Battery",
             "description": "An indication of the status of the battery",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
             "i18n": []

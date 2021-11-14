@@ -1,0 +1,31 @@
+{
+    "tag": "fr",
+    "label": "Mode",
+    "description": "Allows for control of the modes that the device supports.",
+    "attributes": {
+        "mode": {
+            "label": "Mode",
+            "description": "Current mode",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "supportedModes": {
+            "label": "supported modes",
+            "description": "Supported modes for this device to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setMode": {
+            "label": "Mode",
+            "description": "Set the mode",
+            "arguments": {
+                "mode": {
+                    "i18n": [],
+                    "description": "The mode to set the device to"
+                }
+            }
+        }
+    }
+}

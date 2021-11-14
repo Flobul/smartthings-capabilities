@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Location Mode",
     "description": "Allows for the control of the location mode.",
     "attributes": {
         "mode": {

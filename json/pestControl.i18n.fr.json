@@ -1,0 +1,31 @@
+{
+    "tag": "fr",
+    "label": "Contr\u00f4le insectes\/anim. nuisibles",
+    "description": "Supports pest control driven alarms",
+    "attributes": {
+        "pestControl": {
+            "label": "Contr\u00f4le insectes\/anim. nuisibles",
+            "displayTemplate": "{{device.label}} {{value}}",
+            "i18n": {
+                "value": {
+                    "pestDetected": {
+                        "label": "Insectes\/animaux nuisibles d\u00e9tect\u00e9s"
+                    },
+                    "trapArmed": {
+                        "label": "Pi\u00e8ge activ\u00e9"
+                    },
+                    "idle": {
+                        "label": "Pi\u00e8ge d\u00e9sactiv\u00e9"
+                    },
+                    "pestExterminated": {
+                        "label": "Insectes\/animaux nuisibles extermin\u00e9s"
+                    },
+                    "trapRearmRequired": {
+                        "label": "R\u00e9activation du pi\u00e8ge requise"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

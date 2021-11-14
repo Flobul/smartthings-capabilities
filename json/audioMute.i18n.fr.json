@@ -1,21 +1,43 @@
 {
     "tag": "fr",
-    "label": "Audio Mute",
+    "label": "Coupure du son",
+    "description": "Allows for the control of audio mute.",
     "attributes": {
         "mute": {
-            "label": "D\u00e9sactivation du son",
+            "label": "Coupure du son",
+            "description": "Current status of the audio mute",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {
                     "unmuted": {
-                        "label": "Son activ\u00e9"
+                        "label": "D\u00e9sactiv\u00e9"
                     },
                     "muted": {
-                        "label": "Son d\u00e9sactiv\u00e9"
+                        "label": "Activ\u00e9"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setMute": {
+            "description": "Set the state of the audio mute",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the audio mute state to \"muted\" or \"unmuted\""
+                }
+            }
+        },
+        "mute": {
+            "label": "Activ\u00e9",
+            "description": "Set the audio to mute state",
+            "arguments": []
+        },
+        "unmute": {
+            "label": "D\u00e9sactiv\u00e9",
+            "description": "Set the audio to unmute state",
+            "arguments": []
+        }
+    }
 }

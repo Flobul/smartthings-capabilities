@@ -1,14 +1,17 @@
 {
     "tag": "fr",
     "label": "Samsung TV",
+    "description": "Allows for the control of Samsung TV.",
     "attributes": {
         "volume": {
             "label": "Volume",
+            "description": "Status of the volume",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         },
         "pictureMode": {
             "label": "Mode Photo",
+            "description": "Status of the picture mode",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -29,11 +32,13 @@
         },
         "messageButton": {
             "label": "Touche Message",
+            "description": "Message description",
             "displayTemplate": "{{attribute}} de {{device.label}} est mise \u00e0 jour",
             "i18n": []
         },
         "soundMode": {
             "label": "Mode Son",
+            "description": "Status of the sound mode",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -57,6 +62,7 @@
         },
         "mute": {
             "label": "D\u00e9sactivation du son",
+            "description": "Status of the mute",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -74,6 +80,7 @@
         },
         "switch": {
             "label": "Interrupteur",
+            "description": "Status of the switch, on or off",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -87,5 +94,46 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setPictureMode": {
+            "description": "Set the picture mode",
+            "arguments": []
+        },
+        "volumeDown": {
+            "description": "Turn the volume down",
+            "arguments": []
+        },
+        "setSoundMode": {
+            "description": "Set the sound mode",
+            "arguments": []
+        },
+        "showMessage": {
+            "description": "Set to show the message",
+            "arguments": []
+        },
+        "volumeUp": {
+            "description": "Turn the volume up",
+            "arguments": []
+        },
+        "mute": {
+            "description": "Set the mute status",
+            "arguments": []
+        },
+        "unmute": {
+            "description": "Unmute the TV sound",
+            "arguments": []
+        },
+        "setVolume": {
+            "description": "Set the volume",
+            "arguments": []
+        },
+        "off": {
+            "description": "Set the TV to off",
+            "arguments": []
+        },
+        "on": {
+            "description": "Set the TV to on",
+            "arguments": []
+        }
+    }
 }

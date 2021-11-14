@@ -1,24 +1,28 @@
 {
     "tag": "en",
+    "label": "Tumble dryer",
     "description": "Allows for the control of the dryer operational state.",
     "attributes": {
+        "completionTime": {
+            "label": "completion time",
+            "description": "The completion time for the dryer job",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
         "machineState": {
-            "label": "machine state",
+            "label": "Device status",
             "description": "Current state of the dryer machine operation",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "pause": {
-                        "description": "The dryer machine is in the pause state",
-                        "label": "pause"
+                    "stop": {
+                        "label": "Stopped"
                     },
                     "run": {
-                        "description": "The dryer machine is in the running state",
-                        "label": "run"
+                        "label": "Drying"
                     },
-                    "stop": {
-                        "description": "The dryer machine is in the stop state",
-                        "label": "stop"
+                    "pause": {
+                        "label": "Paused"
                     }
                 }
             }
@@ -30,63 +34,49 @@
             "i18n": []
         },
         "dryerJobState": {
-            "label": "dryer job state",
+            "label": "Tumble dryer",
             "description": "The state of the dryer job",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "cooling": {
-                        "description": "The dryer is in cooling state",
-                        "label": "cooling"
-                    },
-                    "delayWash": {
-                        "description": "The dryer is in delay wash state",
-                        "label": "delayWash"
+                    "weightSensing": {
+                        "label": "Checking weight"
                     },
                     "drying": {
-                        "description": "The dryer is in drying state",
-                        "label": "drying"
+                        "label": "Drying"
                     },
-                    "finished": {
-                        "description": "The dryer is in finished state",
-                        "label": "finished"
+                    "refreshing": {
+                        "label": "refreshing"
                     },
-                    "none": {
-                        "description": "None",
-                        "label": "none"
-                    },
-                    "weightSensing": {
-                        "description": "The dryer is in weight sensing state",
-                        "label": "weightSensing"
+                    "cooling": {
+                        "label": "Cooling down"
                     },
                     "wrinklePrevent": {
-                        "description": "The dryer is in wrinkle prevent state",
-                        "label": "wrinklePrevent"
+                        "label": "Wrinkle Prevent"
+                    },
+                    "sanitizing": {
+                        "label": "sanitizing"
+                    },
+                    "delayWash": {
+                        "label": "Delay end"
+                    },
+                    "finished": {
+                        "label": "Finished"
+                    },
+                    "internalCare": {
+                        "label": "internalCare"
+                    },
+                    "none": {
+                        "label": "None"
                     },
                     "dehumidifying": {
-                        "description": "The dryer is in dehumidifying state",
                         "label": "dehumidifying"
                     },
                     "aIDrying": {
-                        "description": "The dryer is in AI drying state",
                         "label": "aIDrying"
-                    },
-                    "sanitizing": {
-                        "description": "The dryer is in sanitizing state",
-                        "label": "sanitizing"
-                    },
-                    "internalCare": {
-                        "description": "The dryer is in internal care  state",
-                        "label": "internalCare"
                     }
                 }
             }
-        },
-        "completionTime": {
-            "label": "completion time",
-            "description": "The completion time for the dryer job",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
         }
     },
     "commands": {
@@ -94,7 +84,17 @@
             "description": "Set the dryer machine state",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {
+                        "stop": {
+                            "label": "Stopped"
+                        },
+                        "run": {
+                            "label": "Drying"
+                        },
+                        "pause": {
+                            "label": "Paused"
+                        }
+                    },
                     "description": "Set the dryer machine to a state; pause, run or stop"
                 }
             }

@@ -6,7 +6,7 @@
 ## Créé par Flobul pour Jeedom                                                               ##
 ###############################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
-$custom_token = ""; //entrez votre token ici 
+$custom_token = ""; //entrez votre token ici
 $plugin_token = config::byKey('token','smartthings',""); //ou laissez le code le récupérer dans le plugin (plugin obligatoire)
 
 if ($custom_token != "") $token = $custom_token;
@@ -85,6 +85,8 @@ $customAdded = array(
 	"samsungce.washerWaterLevel",
 	"samsungce.washerWaterValve",
 	"samsungce.welcomeMessage",
+	"samsungce.washerDelayEnd",
+  "samsungce.washerFreezePrevent",
 	"custom.washerRinseCycles",
 	"custom.washerSoilLevel",
 	"custom.washerSpinLevel",
@@ -347,4 +349,3 @@ function createPrettyJson($capaId, $var) {
 	$pretty = json_encode($var, JSON_PRETTY_PRINT);
 	file_put_contents($tmp_dir . "/" . $capaId . ".json", $pretty);
 }
-

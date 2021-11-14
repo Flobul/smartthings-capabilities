@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Carbon Monoxide Measurement",
+    "label": "Concentration en monoxyde de carbone",
+    "description": "Measure carbon monoxide levels",
     "attributes": {
         "carbonMonoxideLevel": {
-            "label": "Niveau de monoxyde de carbone",
+            "label": "Concentration en dioxyde de carbone",
+            "description": "The level of carbon monoxide detected",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} ppm",
             "i18n": []
         }

@@ -1,17 +1,19 @@
 {
     "tag": "fr",
-    "label": "Occupancy Sensor",
+    "label": "Occupation",
+    "description": "The ability to see the current status of a occupancy sensor device",
     "attributes": {
         "occupancy": {
-            "label": "occupation",
+            "label": "Occupation",
+            "description": "The current state of the occupancy sensor",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": {
                 "value": {
                     "occupied": {
-                        "label": "Occup\u00e9(e)"
+                        "label": "\u00c0 l'int\u00e9rieur"
                     },
                     "unoccupied": {
-                        "label": "Inoccup\u00e9(e)"
+                        "label": "Absent(e)"
                     }
                 }
             }

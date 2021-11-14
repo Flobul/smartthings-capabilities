@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Wind Speed",
     "description": "Get the value of wind speed from a weather sensor or anemometer",
     "attributes": {
         "windspeed": {

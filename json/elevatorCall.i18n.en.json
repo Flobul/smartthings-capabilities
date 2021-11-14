@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Lift status",
     "description": "Allows for calling an elevator",
     "attributes": {
         "callStatus": {
-            "label": "Call Status",
+            "label": "Lift status",
             "description": "The current status of the elevator",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -12,7 +13,7 @@
                         "label": "Called"
                     },
                     "standby": {
-                        "label": "Standby"
+                        "label": "Not called"
                     },
                     "unknown": {
                         "label": "Unknown"
@@ -23,6 +24,7 @@
     },
     "commands": {
         "call": {
+            "label": "Call",
             "description": "Call an elevator",
             "arguments": []
         }

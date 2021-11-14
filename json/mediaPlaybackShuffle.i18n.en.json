@@ -1,12 +1,22 @@
 {
     "tag": "en",
+    "label": "Shuffle",
     "description": "Allows for the control of media playback shuffle.",
     "attributes": {
         "playbackShuffle": {
-            "label": "playback shuffle",
+            "label": "Shuffle",
             "description": "The current state of the playback shuffle",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "Disable"
+                    },
+                    "enabled": {
+                        "label": "Enable"
+                    }
+                }
+            }
         }
     },
     "commands": {
@@ -14,7 +24,14 @@
             "description": "Set the shuffle playback mode",
             "arguments": {
                 "shuffle": {
-                    "i18n": [],
+                    "i18n": {
+                        "disabled": {
+                            "label": "Disable"
+                        },
+                        "enabled": {
+                            "label": "Enable"
+                        }
+                    },
                     "description": "Set the shuffle playback to enabled or disabled"
                 }
             }

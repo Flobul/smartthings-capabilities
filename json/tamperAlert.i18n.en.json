@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Tamper alert",
     "description": "Gets the value of the tamper alert.",
     "attributes": {
         "tamper": {
-            "label": "tamper",
+            "label": "Tamper alert",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {

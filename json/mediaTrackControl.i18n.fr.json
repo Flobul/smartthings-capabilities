@@ -1,12 +1,25 @@
 {
     "tag": "fr",
-    "label": "Media Track Control",
+    "label": "Contr\u00f4le des pistes m\u00e9dia",
+    "description": "Allows for the media track control.",
     "attributes": {
         "supportedTrackControlCommands": {
             "label": "Commandes de contr\u00f4le des pistes prises en charge",
+            "description": "Media track control commands which are supported",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "previousTrack": {
+            "label": "Pr\u00e9c\u00e9dent",
+            "description": "Go to the previous track",
+            "arguments": []
+        },
+        "nextTrack": {
+            "label": "Suivant",
+            "description": "Go to the next track",
+            "arguments": []
+        }
+    }
 }

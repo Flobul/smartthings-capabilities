@@ -1,52 +1,91 @@
 {
     "tag": "fr",
-    "label": "Air Conditioner Mode",
+    "label": "Mode",
+    "description": "Allows for the control of the air conditioner.",
     "attributes": {
         "supportedAcModes": {
             "label": "modes de climatiseur pris en charge",
+            "description": "Supported states for this air conditioner to be in",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": []
         },
         "airConditionerMode": {
-            "label": "mode du climatiseur",
+            "label": "Mode",
+            "description": "Current mode of the air conditioner",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": {
                 "value": {
+                    "heat": {
+                        "label": "Chaleur"
+                    },
                     "auto": {
                         "label": "Automatique"
                     },
+                    "ventilation": {
+                        "label": "ventilation"
+                    },
+                    "aicomfort": {
+                        "label": "IA Refroidissement confortable"
+                    },
+                    "sleep": {
+                        "label": "sleep"
+                    },
+                    "eco": {
+                        "label": "eco"
+                    },
+                    "fan": {
+                        "label": "A\u00e9ration"
+                    },
+                    "heatex": {
+                        "label": "heatEx"
+                    },
+                    "purification": {
+                        "label": "purification"
+                    },
+                    "power": {
+                        "label": "power"
+                    },
+                    "smartventilation": {
+                        "label": "smartVentilation"
+                    },
+                    "comfortcooling": {
+                        "label": "Refroidissement confortable"
+                    },
+                    "heatclean": {
+                        "label": "Chaud, purification"
+                    },
+                    "std": {
+                        "label": "std"
+                    },
+                    "dryclean": {
+                        "label": "Sec, purification"
+                    },
                     "cool": {
-                        "label": "Refroidissement"
+                        "label": "Froid"
                     },
-                    "heat": {
-                        "label": "Chauffage"
-                    },
-                    "clean": {
-                        "label": "Purification"
+                    "ai": {
+                        "label": "AI"
                     },
                     "dry": {
                         "label": "S\u00e9chage"
                     },
-                    "coolClean": {
-                        "label": "Froid, purification"
-                    },
-                    "dryClean": {
-                        "label": "Sec, purification"
-                    },
-                    "heatClean": {
-                        "label": "Chaud, purification"
-                    },
-                    "comfortCooling": {
-                        "label": "Refroidissement confortable"
-                    },
-                    "aIComfort": {
-                        "label": "IA Refroidissement confortable"
-                    },
-                    "fan": {
-                        "label": "Ventilateur"
-                    },
-                    "fanOnly": {
+                    "clean": {
                         "label": "Purification"
+                    },
+                    "notsupported": {
+                        "label": "Not Supported"
+                    },
+                    "bypass": {
+                        "label": "bypass"
+                    },
+                    "force": {
+                        "label": "force"
+                    },
+                    "fanonly": {
+                        "label": "A\u00e9ration"
+                    },
+                    "coolclean": {
+                        "label": "Froid, purification"
                     },
                     "wind": {
                         "label": "Purifier"
@@ -57,61 +96,91 @@
     },
     "commands": {
         "setAirConditionerMode": {
+            "label": "Mode",
+            "description": "Set the air conditioner mode",
             "arguments": {
                 "mode": {
                     "i18n": {
+                        "heat": {
+                            "label": "Chaleur"
+                        },
                         "auto": {
                             "label": "Automatique"
                         },
-                        "cool": {
-                            "label": "Refroidissement"
+                        "ventilation": {
+                            "label": "ventilation"
                         },
-                        "heat": {
-                            "label": "Chauffage"
+                        "airconditionermode": {
+                            "label": "airConditionerMode"
                         },
-                        "clean": {
-                            "label": "Purification"
+                        "aicomfort": {
+                            "label": "IA Refroidissement confortable"
                         },
-                        "dry": {
-                            "label": "S\u00e9chage"
-                        },
-                        "coolClean": {
-                            "label": "Froid, purification"
-                        },
-                        "dryClean": {
-                            "label": "Sec, purification"
-                        },
-                        "heatClean": {
-                            "label": "Chaud, purification"
-                        },
-                        "heatex": {
-                            "label": "\u00c9ch. chal."
-                        },
-                        "comfortCooling": {
-                            "label": "Refroidissement confortable"
+                        "eco": {
+                            "label": "eco"
                         },
                         "sleep": {
                             "label": "Nuit"
                         },
-                        "smartVentilation": {
-                            "label": "Smart Ventilation"
+                        "fan": {
+                            "label": "A\u00e9ration"
+                        },
+                        "purification": {
+                            "label": "purification"
+                        },
+                        "heatex": {
+                            "label": "heatEx"
+                        },
+                        "power": {
+                            "label": "power"
+                        },
+                        "smartventilation": {
+                            "label": "smartVentilation"
+                        },
+                        "comfortcooling": {
+                            "label": "Refroidissement confortable"
+                        },
+                        "heatclean": {
+                            "label": "Chaud, purification"
+                        },
+                        "dryclean": {
+                            "label": "Sec, purification"
+                        },
+                        "std": {
+                            "label": "std"
+                        },
+                        "cool": {
+                            "label": "Froid"
+                        },
+                        "ai": {
+                            "label": "AI"
+                        },
+                        "dry": {
+                            "label": "S\u00e9chage"
+                        },
+                        "notsupported": {
+                            "label": "Not Supported"
+                        },
+                        "clean": {
+                            "label": "Purification"
                         },
                         "bypass": {
                             "label": "Ignorer"
                         },
-                        "aIComfort": {
-                            "label": "IA Refroidissement confortable"
+                        "force": {
+                            "label": "force"
                         },
-                        "fan": {
-                            "label": "Ventilateur"
+                        "fanonly": {
+                            "label": "A\u00e9ration"
                         },
-                        "fanOnly": {
-                            "label": "Purification"
+                        "coolclean": {
+                            "label": "Froid, purification"
                         },
                         "wind": {
                             "label": "Purifier"
                         }
-                    }
+                    },
+                    "description": "Set the air conditioner mode"
                 }
             }
         }

@@ -1,0 +1,32 @@
+{
+    "tag": "fr",
+    "label": "Statut de l'ascenseur",
+    "description": "Allows for calling an elevator",
+    "attributes": {
+        "callStatus": {
+            "label": "Statut de l'ascenseur",
+            "description": "The current status of the elevator",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "called": {
+                        "label": "Appel\u00e9"
+                    },
+                    "standby": {
+                        "label": "Non appel\u00e9"
+                    },
+                    "unknown": {
+                        "label": "Inconnu"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "call": {
+            "label": "Appeler",
+            "description": "Call an elevator",
+            "arguments": []
+        }
+    }
+}

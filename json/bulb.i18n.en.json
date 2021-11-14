@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Bulb",
     "description": "Allows for the control of a bulb device",
     "attributes": {
         "switch": {
@@ -8,23 +9,23 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "on": {
-                        "description": "The value of the ``switch`` attribute if the bulb is on"
-                    },
                     "off": {
-                        "description": "The value of the ``switch`` attribute if the bulb is off"
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
                     }
                 }
             }
         }
     },
     "commands": {
-        "on": {
-            "description": "Turn a bulb on",
-            "arguments": []
-        },
         "off": {
             "description": "Turn a bulb off",
+            "arguments": []
+        },
+        "on": {
+            "description": "Turn a bulb on",
             "arguments": []
         }
     }

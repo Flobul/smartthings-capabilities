@@ -1,14 +1,17 @@
 {
     "tag": "fr",
     "label": "Health Check",
+    "description": "Allows for the control of the health check.",
     "attributes": {
         "checkInterval": {
             "label": "Intervalle de v\u00e9rification",
+            "description": "The current value of checkInterval",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}} s.",
             "i18n": []
         },
         "healthStatus": {
             "label": "\u00c9tat de sant\u00e9",
+            "description": "The current online\/offline status of the device",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -27,19 +30,24 @@
             "i18n": []
         },
         "DeviceWatch-DeviceStatus": {
-            "label": "Surveillance de l'appareil\/Statut de l'appareil",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "label": "DeviceWatch-DeviceStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "offline": {
-                        "label": "Hors ligne"
+                        "label": "offline"
                     },
                     "online": {
-                        "label": "En ligne"
+                        "label": "online"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {
+        "ping": {
+            "description": "Ping the device",
+            "arguments": []
+        }
+    }
 }

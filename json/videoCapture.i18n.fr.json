@@ -1,17 +1,39 @@
 {
     "tag": "fr",
-    "label": "Video Capture",
+    "label": "Enregistrer",
+    "description": "Allows for the control of the video capture.",
     "attributes": {
         "stream": {
             "label": "Flux",
+            "description": "Video stream details",
             "displayTemplate": "{{attribute}} de {{device.label}} est mis \u00e0 jour",
             "i18n": []
         },
         "clip": {
             "label": "Clip",
+            "description": "Video clip details",
             "displayTemplate": "{{attribute}} de {{device.label}} est mis \u00e0 jour",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "capture": {
+            "label": "Enregistrer",
+            "description": "Set the video capture schedule",
+            "arguments": {
+                "captureTime": {
+                    "i18n": [],
+                    "description": "Video capture time, in ISO 8601 format"
+                },
+                "startTime": {
+                    "i18n": [],
+                    "description": "Time, in ISO 8601 format, when the video capture should start"
+                },
+                "endTime": {
+                    "i18n": [],
+                    "description": "Time, in ISO 8601 format, when the video capture should end"
+                }
+            }
+        }
+    }
 }

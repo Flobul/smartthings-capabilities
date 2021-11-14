@@ -1,0 +1,29 @@
+{
+    "tag": "fr",
+    "label": "Distributeur de nourriture",
+    "description": "Allows for the control of a feeder device.",
+    "attributes": {
+        "feederOperatingState": {
+            "label": "Distributeur de nourriture",
+            "description": "The current state of the feeder.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "idle": {
+                        "label": "En veille"
+                    },
+                    "feeding": {
+                        "label": "Distribution"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "startFeeding": {
+            "label": "Distribution",
+            "description": "Begin the feeding process.",
+            "arguments": []
+        }
+    }
+}

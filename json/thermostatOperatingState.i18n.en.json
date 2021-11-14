@@ -1,24 +1,34 @@
 {
     "tag": "en",
+    "label": "State",
     "description": "Gives the ability to see the current state that the thermostat is operating in",
     "attributes": {
         "thermostatOperatingState": {
-            "label": "state",
+            "label": "State",
             "description": "The current state that the thermostat is operating in",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
-                    "cooling": {
-                        "description": "The thermostat is cooling",
-                        "label": "cooling"
-                    },
                     "idle": {
-                        "description": "The thermostat is idle",
-                        "label": "idle"
+                        "label": "Idle"
+                    },
+                    "pending heat": {
+                        "label": "pending heat"
+                    },
+                    "vent economizer": {
+                        "label": "vent economizer"
+                    },
+                    "cooling": {
+                        "label": "Cooling"
+                    },
+                    "pending cool": {
+                        "label": "pending cool"
+                    },
+                    "fan only": {
+                        "label": "fan only"
                     },
                     "heating": {
-                        "description": "The thermostat is heating",
-                        "label": "heating"
+                        "label": "Heating"
                     }
                 }
             }

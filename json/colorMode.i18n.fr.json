@@ -1,0 +1,26 @@
+{
+    "tag": "fr",
+    "label": "Mode Couleur",
+    "description": "Describes if a device is in color or color temperature mode if it supports both since state is mutually exclusive.",
+    "attributes": {
+        "colorMode": {
+            "label": "Mode Couleur",
+            "description": "the color mode of the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "other": {
+                        "label": "Autre"
+                    },
+                    "color": {
+                        "label": "Couleur"
+                    },
+                    "colorTemperature": {
+                        "label": "Temp\u00e9rature de couleur"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

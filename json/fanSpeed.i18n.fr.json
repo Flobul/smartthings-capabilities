@@ -1,12 +1,57 @@
 {
     "tag": "fr",
-    "label": "Fan Speed",
+    "label": "Vitesse de ventilation",
+    "description": "Allows for the control of the fan speed.",
     "attributes": {
         "fanSpeed": {
             "label": "Vitesse de ventilation",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": [
+                    {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
+                    {
+                        "label": "Basse"
+                    },
+                    {
+                        "label": "Moyenne"
+                    },
+                    {
+                        "label": "\u00c9lev\u00e9e"
+                    },
+                    {
+                        "label": "Maximale"
+                    }
+                ]
+            }
         }
     },
-    "commands": []
+    "commands": {
+        "setFanSpeed": {
+            "description": "Set the fan speed",
+            "arguments": {
+                "speed": {
+                    "i18n": [
+                        {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
+                        {
+                            "label": "Basse"
+                        },
+                        {
+                            "label": "Moyenne"
+                        },
+                        {
+                            "label": "\u00c9lev\u00e9e"
+                        },
+                        {
+                            "label": "Maximale"
+                        }
+                    ],
+                    "description": "Set the fan to this speed"
+                }
+            }
+        }
+    }
 }

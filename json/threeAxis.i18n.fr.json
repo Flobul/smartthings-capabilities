@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Three Axis",
+    "label": "Capteur 3 axes",
+    "description": "Gives the three axis coordinates for devices that support it",
     "attributes": {
         "threeAxis": {
             "label": "Capteur 3 axes",
+            "description": "A Vector3 ``(x,y,z)`` representation of the three axis coordinates",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} mG",
             "i18n": []
         }

@@ -1,13 +1,8 @@
 {
     "tag": "en",
+    "label": "Colour control",
     "description": "Allows for control of a color changing device by setting its hue, saturation, and color values",
     "attributes": {
-        "hue": {
-            "label": "hue",
-            "description": "``0-100`` (percent)",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
-        },
         "saturation": {
             "label": "saturation",
             "description": "``0-100`` (percent)",
@@ -19,6 +14,12 @@
             "description": "``{\"hue\":\"0-100 (percent)\", \"saturation\":\"0-100 (percent)\"}``",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
+        },
+        "hue": {
+            "label": "hue",
+            "description": "``0-100`` (percent)",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
         }
     },
     "commands": {
@@ -27,19 +28,14 @@
             "arguments": {
                 "color": {
                     "i18n": {
-                        "saturation": [],
-                        "hue": []
+                        "saturation": {
+                            "label": "saturation"
+                        },
+                        "hue": {
+                            "label": "hue"
+                        }
                     },
                     "description": "The color map supports the following key\/value pairs:"
-                }
-            }
-        },
-        "setSaturation": {
-            "description": "Set the saturation value of the color",
-            "arguments": {
-                "saturation": {
-                    "i18n": [],
-                    "description": "A number in the range ``0-100`` representing the saturation as a value of percent"
                 }
             }
         },
@@ -49,6 +45,15 @@
                 "hue": {
                     "i18n": [],
                     "description": "A number in the range ``0-100`` representing the hue as a value of percent"
+                }
+            }
+        },
+        "setSaturation": {
+            "description": "Set the saturation value of the color",
+            "arguments": {
+                "saturation": {
+                    "i18n": [],
+                    "description": "A number in the range ``0-100`` representing the saturation as a value of percent"
                 }
             }
         }

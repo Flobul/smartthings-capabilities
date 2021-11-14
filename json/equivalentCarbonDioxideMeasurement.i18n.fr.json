@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Equivalent Carbon Dioxide Measurement",
+    "label": "eCO\u2082",
+    "description": "Measure equivalent carbon dioxide levels",
     "attributes": {
         "equivalentCarbonDioxideMeasurement": {
-            "label": "\u00c9quivalent en dioxyde de carbone",
+            "label": "eCO\u2082",
+            "description": "The equivalent carbon dioxide level detected in ppm by volume",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} ppm",
             "i18n": []
         }

@@ -1,31 +1,27 @@
 {
     "tag": "en",
+    "label": "Pest control",
     "description": "Supports pest control driven alarms",
     "attributes": {
         "pestControl": {
-            "label": "pest control",
+            "label": "Pest control",
             "displayTemplate": "{{device.label}} {{value}}",
             "i18n": {
                 "value": {
-                    "idle": {
-                        "description": "The pest control device is idle",
-                        "label": "is idle"
+                    "pestDetected": {
+                        "label": "Pest detected"
                     },
                     "trapArmed": {
-                        "description": "The pest control device is armed",
-                        "label": "is armed"
+                        "label": "Trap armed"
                     },
-                    "trapRearmRequired": {
-                        "description": "The pest control device requires rearming",
-                        "label": "requires rearming"
-                    },
-                    "pestDetected": {
-                        "description": "The pest control device detected a pest",
-                        "label": "has detected a pest"
+                    "idle": {
+                        "label": "Trap unarmed"
                     },
                     "pestExterminated": {
-                        "description": "The pest control device exterminated a pest",
-                        "label": "has exterminated a pest"
+                        "label": "Pest exterminated"
+                    },
+                    "trapRearmRequired": {
+                        "label": "Trap rearm required"
                     }
                 }
             }

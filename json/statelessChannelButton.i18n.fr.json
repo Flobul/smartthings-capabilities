@@ -1,12 +1,31 @@
 {
     "tag": "fr",
-    "label": "Stateless Channel Button",
+    "label": "Channel Button",
+    "description": "Allows for the control of a device with stateless channel control buttons",
     "attributes": {
         "availableChannelButtons": {
             "label": "Touches configur\u00e9es",
+            "description": "A list of commands\/buttons that have been configured in the device",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": {
+                        "channelDown": {
+                            "label": "Channel Down"
+                        },
+                        "channelUp": {
+                            "label": "Channel Up"
+                        }
+                    },
+                    "description": "The button in availableChannelButtons to send to the device"
+                }
+            }
+        }
+    }
 }

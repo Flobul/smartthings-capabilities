@@ -1,36 +1,49 @@
 {
     "tag": "en",
+    "label": "Timed Session",
     "description": "Allows for the control of the timed session.",
     "attributes": {
+        "completionTime": {
+            "label": "completion time",
+            "description": "The date time that the timed session will complete complete",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
         "sessionStatus": {
             "label": "session status",
             "description": "Current status of the timed session",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
+                    "running": {
+                        "label": "running"
+                    },
                     "canceled": {
-                        "description": "The timed session is now in \"canceled\" status"
+                        "label": "canceled"
                     },
                     "paused": {
-                        "description": "The timed session is now in \"paused\" status"
-                    },
-                    "running": {
-                        "description": "The timed session is now in \"running\" status"
+                        "label": "paused"
                     },
                     "stopped": {
-                        "description": "The timed session is now in \"stopped\" status"
+                        "label": "stopped"
                     }
                 }
             }
-        },
-        "completionTime": {
-            "label": "completion time",
-            "description": "The date time that the timed session will complete complete",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
         }
     },
     "commands": {
+        "cancel": {
+            "description": "Cancel the timed session",
+            "arguments": []
+        },
+        "stop": {
+            "description": "Stop the timed session",
+            "arguments": []
+        },
+        "start": {
+            "description": "Start the timed session",
+            "arguments": []
+        },
         "setCompletionTime": {
             "description": "Set the completion time for the timed session",
             "arguments": {
@@ -40,20 +53,8 @@
                 }
             }
         },
-        "cancel": {
-            "description": "Cancel the timed session",
-            "arguments": []
-        },
         "pause": {
             "description": "Pause the timed session",
-            "arguments": []
-        },
-        "start": {
-            "description": "Start the timed session",
-            "arguments": []
-        },
-        "stop": {
-            "description": "Stop the timed session",
             "arguments": []
         }
     }

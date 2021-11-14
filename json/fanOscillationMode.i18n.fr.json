@@ -1,0 +1,109 @@
+{
+    "tag": "fr",
+    "label": "Oscillation du ventilateur",
+    "description": "A representation of fan oscillation",
+    "attributes": {
+        "supportedFanOscillationModes": {
+            "label": "supported oscillating fan modes",
+            "description": "Supported states for this oscillating fan to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        },
+        "fanOscillationMode": {
+            "label": "Oscillation du ventilateur",
+            "description": "The current mode of oscillation; an enum of fixed, vertical, horizontal, direct, indirect, fixedCenter, fixedLeft, fixedRight, far,  all",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "all": {
+                        "label": "Toutes"
+                    },
+                    "indirect": {
+                        "label": "Indirecte"
+                    },
+                    "wide": {
+                        "label": "wide"
+                    },
+                    "direct": {
+                        "label": "Directe"
+                    },
+                    "mid": {
+                        "label": "mid"
+                    },
+                    "vertical": {
+                        "label": "Verticale"
+                    },
+                    "horizontal": {
+                        "label": "Horizontale"
+                    },
+                    "fixedLeft": {
+                        "label": "\u00c0 gauche"
+                    },
+                    "swing": {
+                        "label": "swing"
+                    },
+                    "far": {
+                        "label": "Longue"
+                    },
+                    "spot": {
+                        "label": "spot"
+                    },
+                    "fixedRight": {
+                        "label": "\u00c0 droite"
+                    },
+                    "fixedCenter": {
+                        "label": "Au centre"
+                    },
+                    "fixed": {
+                        "label": "Fixe"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setFanOscillationMode": {
+            "description": "set oscillation mode",
+            "arguments": {
+                "fanOscillationMode": {
+                    "i18n": {
+                        "all": {
+                            "label": "Toutes"
+                        },
+                        "horizontal": {
+                            "label": "Horizontale"
+                        },
+                        "fixedLeft": {
+                            "label": "\u00c0 gauche"
+                        },
+                        "indirect": {
+                            "label": "Indirecte"
+                        },
+                        "far": {
+                            "label": "Longue"
+                        },
+                        "direct": {
+                            "label": "Directe"
+                        },
+                        "vertcal": {
+                            "label": "Verticale"
+                        },
+                        "fixedRight": {
+                            "label": "\u00c0 droite"
+                        },
+                        "fixedCenter": {
+                            "label": "Au centre"
+                        },
+                        "fixed": {
+                            "label": "Fixe"
+                        },
+                        "vertical": {
+                            "label": "Verticale"
+                        }
+                    },
+                    "description": "fan oscillation mode"
+                }
+            }
+        }
+    }
+}

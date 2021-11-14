@@ -1,18 +1,19 @@
 {
     "tag": "en",
+    "label": "SMART CONTROL",
     "description": "Gets the value of remote control status.",
     "attributes": {
         "remoteControlEnabled": {
-            "label": "Remote control",
+            "label": "SMART CONTROL",
             "description": "Current status of the remote control",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "false": {
-                        "label": "disabled"
+                        "label": "Off"
                     },
                     "true": {
-                        "label": "enabled"
+                        "label": "On"
                     }
                 }
             }

@@ -1,0 +1,40 @@
+{
+    "tag": "fr",
+    "label": "Moteur",
+    "description": "Allows for the control of a vehicle engine",
+    "attributes": {
+        "engineState": {
+            "label": "Moteur",
+            "description": "A string representation of the state of the engine",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "Actif"
+                    },
+                    "starting": {
+                        "label": "D\u00e9marrage"
+                    },
+                    "off": {
+                        "label": "Arr\u00eat\u00e9"
+                    },
+                    "unknown": {
+                        "label": "Inconnu"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "startEngine": {
+            "label": "D\u00e9marrer",
+            "description": "Turn the engine on",
+            "arguments": []
+        },
+        "stopEngine": {
+            "label": "Arr\u00eater",
+            "description": "Turn the engine off",
+            "arguments": []
+        }
+    }
+}

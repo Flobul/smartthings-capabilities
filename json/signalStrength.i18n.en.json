@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Signal strength",
     "description": "Gives the ability to read the signal stregth of Devices that support it",
     "attributes": {
         "rssi": {

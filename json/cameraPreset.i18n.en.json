@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Turn camera to waypoint",
     "description": "Allow for preset camera positon and control settings",
     "attributes": {
         "presets": {
@@ -10,6 +11,40 @@
         }
     },
     "commands": {
+        "create": {
+            "description": "Create a preset",
+            "arguments": {
+                "data": {
+                    "i18n": [],
+                    "description": "New settings for the preset"
+                },
+                "name": {
+                    "i18n": [],
+                    "description": "Name for the new preset"
+                },
+                "id": {
+                    "i18n": [],
+                    "description": "The id of the preset to update"
+                }
+            }
+        },
+        "update": {
+            "description": "Update a preset",
+            "arguments": {
+                "data": {
+                    "i18n": [],
+                    "description": "New settings for the preset"
+                },
+                "name": {
+                    "i18n": [],
+                    "description": "New name for the preset"
+                },
+                "id": {
+                    "i18n": [],
+                    "description": "The id of the preset to update"
+                }
+            }
+        },
         "execute": {
             "description": "Go to a preset",
             "arguments": {
@@ -19,46 +54,12 @@
                 }
             }
         },
-        "create": {
-            "description": "Create a preset",
-            "arguments": {
-                "name": {
-                    "i18n": [],
-                    "description": "Name for the new preset"
-                },
-                "id": {
-                    "i18n": [],
-                    "description": "The id of the preset to update"
-                },
-                "data": {
-                    "i18n": [],
-                    "description": "New settings for the preset"
-                }
-            }
-        },
         "delete": {
             "description": "Delete a preset",
             "arguments": {
                 "id": {
                     "i18n": [],
                     "description": "The id of the preset to delete"
-                }
-            }
-        },
-        "update": {
-            "description": "Update a preset",
-            "arguments": {
-                "name": {
-                    "i18n": [],
-                    "description": "New name for the preset"
-                },
-                "id": {
-                    "i18n": [],
-                    "description": "The id of the preset to update"
-                },
-                "data": {
-                    "i18n": [],
-                    "description": "New settings for the preset"
                 }
             }
         }

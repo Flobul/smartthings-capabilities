@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Stateless Robot Cleaner Home Button",
     "description": "Allows for the control of a robot cleaner with a stateless home button",
     "attributes": {
         "availableRobotCleanerHomeButtons": {
@@ -14,7 +15,11 @@
             "description": "Emulate the pressing of a supported button",
             "arguments": {
                 "button": {
-                    "i18n": [],
+                    "i18n": {
+                        "home": {
+                            "label": "Home"
+                        }
+                    },
                     "description": "The button in availableRobotCleanerHomeButtons to send to the device"
                 }
             }

@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Colour temperature",
     "description": "Set the color temperature attribute of a color changing device",
     "attributes": {
         "colorTemperature": {
-            "label": "color temperature",
+            "label": "Colour temperature",
             "description": "A number that represents the color temperature, measured in degrees Kelvin",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}K",
             "i18n": []

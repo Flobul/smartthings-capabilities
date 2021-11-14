@@ -1,9 +1,11 @@
 {
     "tag": "fr",
     "label": "Holdable Button",
+    "description": "A device with one or more holdable buttons. Deprecated in favor of Button.",
     "attributes": {
         "button": {
             "label": "Touche",
+            "description": "The state of the holdable button",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -18,6 +20,7 @@
         },
         "numberOfButtons": {
             "label": "Nombre de touches",
+            "description": "The number of buttons on the device",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         }

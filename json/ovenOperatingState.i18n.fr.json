@@ -1,19 +1,22 @@
 {
     "tag": "fr",
-    "label": "Oven Operating State",
+    "label": "Four",
+    "description": "Allows for the control of the oven operational state.",
     "attributes": {
         "completionTime": {
             "label": "Heure de fin",
+            "description": "The completion time for the oven job",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "machineState": {
-            "label": "Statut de machine",
+            "label": "Statut de l'appareil",
+            "description": "Current state of the oven",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "Fonctionnement"
+                        "label": "Cuisson"
                     },
                     "paused": {
                         "label": "Mis en pause"
@@ -26,28 +29,31 @@
         },
         "progress": {
             "label": "Progression",
+            "description": "The percentage complete for the oven job",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}} %",
             "i18n": []
         },
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
+            "description": "States supported by the oven",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
-                    "ready": {
-                        "label": "Pr\u00eat"
-                    },
                     "running": {
                         "label": "Fonctionnement"
                     },
                     "paused": {
                         "label": "Mis en pause"
+                    },
+                    "ready": {
+                        "label": "Pr\u00eat"
                     }
                 }
             }
         },
         "ovenJobState": {
-            "label": "Statut de t\u00e2che du four",
+            "label": "Four",
+            "description": "The state of the oven job",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -107,9 +113,51 @@
         },
         "operationTime": {
             "label": "Temps de fonctionnement",
+            "description": "Operation time of the oven job",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "stop": {
+            "description": "Stop the oven operation",
+            "arguments": []
+        },
+        "setMachineState": {
+            "description": "Set the oven state",
+            "arguments": {
+                "state": {
+                    "i18n": {
+                        "running": {
+                            "label": "Cuisson"
+                        },
+                        "ready": {
+                            "label": "Pr\u00eat"
+                        },
+                        "pause": {
+                            "label": "Mis en pause"
+                        }
+                    },
+                    "description": "Set the oven to this state"
+                }
+            }
+        },
+        "start": {
+            "description": "Start the oven operation",
+            "arguments": {
+                "mode": {
+                    "i18n": [],
+                    "description": "the mode for oven-mode"
+                },
+                "setpoint": {
+                    "i18n": [],
+                    "description": "the setpoint for oven-setpoint"
+                },
+                "time": {
+                    "i18n": [],
+                    "description": "operationTime for oven-operaitng-state"
+                }
+            }
+        }
+    }
 }

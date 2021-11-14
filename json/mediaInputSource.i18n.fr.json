@@ -1,14 +1,17 @@
 {
     "tag": "fr",
     "label": "Media Input Source",
+    "description": "Allows for the control of the media input source.",
     "attributes": {
         "supportedInputSources": {
             "label": "Sources d'entr\u00e9e prises en charge",
+            "description": "Supported input sources",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "inputSource": {
-            "label": "Source d'entr\u00e9e",
+            "label": "inputSource",
+            "description": "Current input source",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -70,5 +73,16 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setInputSource": {
+            "label": "setInputSource",
+            "description": "Set the input source for the media",
+            "arguments": {
+                "mode": {
+                    "i18n": [],
+                    "description": "Set the input source, to AM, CD, FM, HDMI, HDMI1, HDMI2, HDMI3, HDMI4, HDMI5, HDMI6, digitalTv, USB, YouTube, aux, bluetooth, digital, melon, or wifi"
+                }
+            }
+        }
+    }
 }

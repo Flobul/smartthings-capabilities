@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Video Clips",
     "description": "Video clip capture",
     "attributes": {
         "videoClip": {

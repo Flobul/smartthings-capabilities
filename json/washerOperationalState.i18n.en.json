@@ -1,33 +1,31 @@
 {
     "tag": "en",
+    "label": "Washer Operational State",
     "description": "Allows for the control of the washer operational state.",
     "attributes": {
+        "completionTime": {
+            "label": "completion time",
+            "description": "The completion time for the washer job",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
         "machineState": {
             "label": "machine state",
             "description": "Current status of the washer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "pause": {
-                        "description": "The washer is in \"pause\" mode",
-                        "label": "pause"
+                    "stop": {
+                        "label": "stop"
                     },
                     "run": {
-                        "description": "The washer is in \"run\" mode",
                         "label": "run"
                     },
-                    "stop": {
-                        "description": "The washer is in \"stop\" mode",
-                        "label": "stop"
+                    "pause": {
+                        "label": "pause"
                     }
                 }
             }
-        },
-        "supportedMachineStates": {
-            "label": "supported machine states",
-            "description": "The states supported by the washer machine",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
         },
         "washerJobState": {
             "label": "washer job state",
@@ -36,59 +34,47 @@
             "i18n": {
                 "value": {
                     "airWash": {
-                        "description": "The washer job is in \"airWash\" mode",
                         "label": "airWash"
                     },
-                    "cooling": {
-                        "description": "The washer job is in \"cooling\" mode",
-                        "label": "cooling"
-                    },
-                    "delayWash": {
-                        "description": "The washer job is in \"delayWash\" mode",
-                        "label": "delayWash"
+                    "weightSensing": {
+                        "label": "weightSensing"
                     },
                     "drying": {
-                        "description": "The washer job is in \"drying\" mode",
                         "label": "drying"
                     },
+                    "spin": {
+                        "label": "spin"
+                    },
+                    "cooling": {
+                        "label": "cooling"
+                    },
+                    "preWash": {
+                        "label": "preWash"
+                    },
+                    "wash": {
+                        "label": "wash"
+                    },
+                    "wrinklePrevent": {
+                        "label": "wrinklePrevent"
+                    },
+                    "delayWash": {
+                        "label": "delayWash"
+                    },
                     "finish": {
-                        "description": "The washer job is in \"finish\" mode",
                         "label": "finish"
                     },
                     "none": {
-                        "description": "The washer job is in \"none\" mode",
                         "label": "none"
                     },
-                    "preWash": {
-                        "description": "The washer job is in \"preWash\" mode",
-                        "label": "preWash"
-                    },
                     "rinse": {
-                        "description": "The washer job is in \"rinse\" mode",
                         "label": "rinse"
-                    },
-                    "spin": {
-                        "description": "The washer job is in \"spin\" mode",
-                        "label": "spin"
-                    },
-                    "wash": {
-                        "description": "The washer job is in \"wash\" mode",
-                        "label": "wash"
-                    },
-                    "weightSensing": {
-                        "description": "The washer job is in \"weightSensing\" mode",
-                        "label": "weightSensing"
-                    },
-                    "wrinklePrevent": {
-                        "description": "The washer job is in \"wrinklePrevent\" mode",
-                        "label": "wrinklePrevent"
                     }
                 }
             }
         },
-        "completionTime": {
-            "label": "completion time",
-            "description": "The completion time for the washer job",
+        "supportedMachineStates": {
+            "label": "supported machine states",
+            "description": "The states supported by the washer machine",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         }

@@ -1,28 +1,25 @@
 {
     "tag": "en",
+    "label": "Power source",
     "description": "Gives the ability to determine the current power source of the device",
     "attributes": {
         "powerSource": {
-            "label": "power source",
+            "label": "Power source",
             "description": "The current power source for the device",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
+                    "mains": {
+                        "label": "AC power supply"
+                    },
+                    "battery": {
+                        "label": "Battery"
+                    },
                     "dc": {
-                        "description": "The device is using a DC power source",
                         "label": "DC power supply"
                     },
                     "unknown": {
-                        "description": "The current power source of the device is unknown",
                         "label": "Unknown"
-                    },
-                    "battery": {
-                        "description": "The device is using battery",
-                        "label": "Battery"
-                    },
-                    "mains": {
-                        "description": "The device is using an AC power source",
-                        "label": "AC power supply"
                     }
                 }
             }

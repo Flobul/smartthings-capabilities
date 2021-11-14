@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Humidity",
     "description": "Allow reading the relative humidity from devices that support it",
     "attributes": {
         "humidity": {
-            "label": "relative humidity",
+            "label": "Humidity",
             "description": "A numerical representation of the relative humidity measurement taken by the device",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
             "i18n": []

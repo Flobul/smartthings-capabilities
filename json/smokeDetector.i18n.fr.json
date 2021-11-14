@@ -1,20 +1,22 @@
 {
     "tag": "fr",
-    "label": "Smoke Detector",
+    "label": "D\u00e9tecteur de fum\u00e9e",
+    "description": "A device that detects the presence or absence of smoke.",
     "attributes": {
         "smoke": {
-            "label": "Fum\u00e9e",
+            "label": "D\u00e9tecteur de fum\u00e9e",
+            "description": "The state of the smoke detection device",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
                     "tested": {
-                        "label": "Test\u00e9e"
+                        "label": "Test\u00e9"
                     },
                     "clear": {
-                        "label": "Absente"
+                        "label": "Sain"
                     },
                     "detected": {
-                        "label": "D\u00e9tect\u00e9e"
+                        "label": "Fum\u00e9e d\u00e9tect\u00e9e"
                     }
                 }
             }

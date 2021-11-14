@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Lock Only",
     "description": "Allow for the lock control of a lock device",
     "attributes": {
         "lock": {
@@ -8,14 +9,17 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "unlocked": {
-                        "description": "The device is unlocked"
-                    },
-                    "unknown": {
-                        "description": "The state of the device is unknown"
+                    "unlocked with timeout": {
+                        "label": "unlocked with timeout"
                     },
                     "locked": {
-                        "description": "The device is locked"
+                        "label": "locked"
+                    },
+                    "unlocked": {
+                        "label": "unlocked"
+                    },
+                    "unknown": {
+                        "label": "unknown"
                     }
                 }
             }

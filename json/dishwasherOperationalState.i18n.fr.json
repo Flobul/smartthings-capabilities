@@ -1,14 +1,17 @@
 {
     "tag": "fr",
     "label": "Dishwasher Operational State",
+    "description": "Allows for the control of the dishwasher operational state.",
     "attributes": {
         "completionTime": {
             "label": "Heure de fin",
+            "description": "Completion time for the current dishwasher operation",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "machineState": {
             "label": "Statut de machine",
+            "description": "State of the dishwasher operation",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -26,11 +29,13 @@
         },
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
+            "description": "Operating states supported by the dishwasher machine",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "dishwasherJobState": {
             "label": "Statut de t\u00e2che du lave-vaisselle",
+            "description": "Current status of the dishwasher machine",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -71,5 +76,15 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setMachineState": {
+            "description": "Set the dishwasher machine state",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the dishwasher machine in an operational state, pause, run or stop"
+                }
+            }
+        }
+    }
 }

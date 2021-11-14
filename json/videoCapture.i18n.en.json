@@ -1,31 +1,33 @@
 {
     "tag": "en",
+    "label": "Record",
     "description": "Allows for the control of the video capture.",
     "attributes": {
-        "clip": {
-            "label": "clip",
-            "description": "Video clip details",
-            "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
-        },
         "stream": {
             "label": "stream",
             "description": "Video stream details",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
+        "clip": {
+            "label": "clip",
+            "description": "Video clip details",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         }
     },
     "commands": {
         "capture": {
+            "label": "Record",
             "description": "Set the video capture schedule",
             "arguments": {
-                "startTime": {
-                    "i18n": [],
-                    "description": "Time, in ISO 8601 format, when the video capture should start"
-                },
                 "captureTime": {
                     "i18n": [],
                     "description": "Video capture time, in ISO 8601 format"
+                },
+                "startTime": {
+                    "i18n": [],
+                    "description": "Time, in ISO 8601 format, when the video capture should start"
                 },
                 "endTime": {
                     "i18n": [],

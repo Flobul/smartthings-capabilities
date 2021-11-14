@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Language",
     "description": "Allows to control the language of a device.",
     "attributes": {
         "supportedLanguages": {

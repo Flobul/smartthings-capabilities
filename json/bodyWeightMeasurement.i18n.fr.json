@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Body Weight Measurement",
+    "label": "Poids",
+    "description": "Allows for the ability to measure relative body weight",
     "attributes": {
         "bodyWeightMeasurement": {
-            "label": "Poids corporel",
+            "label": "Poids",
+            "description": "Current body weight measured in kg, lbs, or \u65a4",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}{{unit}}",
             "i18n": []
         }

@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Media track control",
     "description": "Allows for the media track control.",
     "attributes": {
         "supportedTrackControlCommands": {
@@ -10,12 +11,14 @@
         }
     },
     "commands": {
-        "nextTrack": {
-            "description": "Go to the next track",
+        "previousTrack": {
+            "label": "Previous",
+            "description": "Go to the previous track",
             "arguments": []
         },
-        "previousTrack": {
-            "description": "Go to the previous track",
+        "nextTrack": {
+            "label": "Next",
+            "description": "Go to the next track",
             "arguments": []
         }
     }

@@ -1,0 +1,67 @@
+{
+    "tag": "fr",
+    "label": "Orienter cam\u00e9ra sur point passage",
+    "description": "Allow for preset camera positon and control settings",
+    "attributes": {
+        "presets": {
+            "label": "Presets",
+            "description": "A Json representation of the current presets. It will be a JSON array of objects containing 'name', 'id', and 'data' as mandatory fields. Format, '``[{\"id\":\"<id>\",\"name\":\"<name>\",\"data\":{<data>}},{}..]``'",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "create": {
+            "description": "Create a preset",
+            "arguments": {
+                "data": {
+                    "i18n": [],
+                    "description": "New settings for the preset"
+                },
+                "name": {
+                    "i18n": [],
+                    "description": "Name for the new preset"
+                },
+                "id": {
+                    "i18n": [],
+                    "description": "The id of the preset to update"
+                }
+            }
+        },
+        "update": {
+            "description": "Update a preset",
+            "arguments": {
+                "data": {
+                    "i18n": [],
+                    "description": "New settings for the preset"
+                },
+                "name": {
+                    "i18n": [],
+                    "description": "New name for the preset"
+                },
+                "id": {
+                    "i18n": [],
+                    "description": "The id of the preset to update"
+                }
+            }
+        },
+        "execute": {
+            "description": "Go to a preset",
+            "arguments": {
+                "id": {
+                    "i18n": [],
+                    "description": "The id of the preset to go to"
+                }
+            }
+        },
+        "delete": {
+            "description": "Delete a preset",
+            "arguments": {
+                "id": {
+                    "i18n": [],
+                    "description": "The id of the preset to delete"
+                }
+            }
+        }
+    }
+}

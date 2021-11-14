@@ -95,9 +95,11 @@
     },
     "commands": {
         "disableSoundDetection": {
+            "name": "disableSoundDetection",
             "arguments": []
         },
         "enableSoundDetection": {
+            "name": "enableSoundDetection",
             "arguments": []
         }
     }

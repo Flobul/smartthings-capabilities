@@ -1,9 +1,10 @@
 {
     "tag": "en",
-    "description": "Allows for the control of a momentary switch device",
+    "label": "Momentary",
     "attributes": [],
     "commands": {
         "push": {
+            "label": "Press momentary",
             "description": "Push the momentary switch",
             "arguments": []
         }

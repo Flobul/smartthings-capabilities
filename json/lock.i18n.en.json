@@ -1,28 +1,25 @@
 {
     "tag": "en",
+    "label": "Lock state",
     "description": "Allow for the control of a lock device",
     "attributes": {
         "lock": {
-            "label": "lock",
+            "label": "Lock state",
             "description": "The state of the lock device",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "unknown": {
-                        "description": "The state of the device is unknown",
-                        "label": "Unknown"
+                    "unlocked with timeout": {
+                        "label": "unlocked with timeout"
                     },
                     "locked": {
-                        "description": "The device is locked",
                         "label": "Locked"
                     },
                     "unlocked": {
-                        "description": "The device is unlocked",
                         "label": "Unlocked"
                     },
-                    "unlocked with timeout": {
-                        "description": "The device is unlocked with a timeout",
-                        "label": "Temporarily unlocked"
+                    "unknown": {
+                        "label": "Unknown"
                     }
                 }
             }

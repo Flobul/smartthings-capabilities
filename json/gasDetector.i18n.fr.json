@@ -1,0 +1,26 @@
+{
+    "tag": "fr",
+    "label": "D\u00e9tecteur de gaz",
+    "description": "A device that detects the presence or absence of gas.",
+    "attributes": {
+        "gas": {
+            "label": "D\u00e9tecteur de gaz",
+            "description": "The state of the gas detection device",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "tested": {
+                        "label": "Appareil test\u00e9"
+                    },
+                    "clear": {
+                        "label": "Sain"
+                    },
+                    "detected": {
+                        "label": "Gaz d\u00e9tect\u00e9"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

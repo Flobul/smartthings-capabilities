@@ -21,6 +21,8 @@
                             "heatClean",
                             "notSupported"
                         ]
+                            "type": "string"
+                        }
                     }
                 },
                 "additionalProperties": false,
@@ -33,7 +35,7 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "title": "HvacMode",
+                        "title": "String",
                         "type": "string",
                         "enum": [
                             "auto",
@@ -46,6 +48,7 @@
                             "heatClean",
                             "notSupported"
                         ]
+                        "maxLength": 255
                     }
                 },
                 "additionalProperties": false,
@@ -64,7 +67,7 @@
                     "name": "mode",
                     "optional": false,
                     "schema": {
-                        "title": "HvacMode",
+                        "title": "String",
                         "type": "string",
                         "enum": [
                             "auto",
@@ -77,8 +80,8 @@
                             "heatClean",
                             "notSupported"
                         ]
-                    },
-                    "required": true
+                        "maxLength": 255
+                    }
                 }
             ]
         }

@@ -1,50 +1,48 @@
 {
     "tag": "en",
+    "label": "Window shade",
     "description": "Allows for the control of the window shade.",
     "attributes": {
-        "windowShade": {
-            "label": "window shade",
-            "displayTemplate": "{{device.label}} {{attribute}}: {{value}}",
-            "i18n": {
-                "value": {
-                    "closed": {
-                        "label": "closed"
-                    },
-                    "closing": {
-                        "label": "closing\u2026"
-                    },
-                    "opening": {
-                        "label": "opening\u2026"
-                    },
-                    "open": {
-                        "label": "open"
-                    },
-                    "unknown": {
-                        "label": "unknown"
-                    },
-                    "partially open": {
-                        "label": "partially open"
-                    }
-                }
-            }
-        },
         "supportedWindowShadeCommands": {
             "label": "supported window shade commands",
             "description": "Window shade commands supported by this instance of Window Shade",
             "displayTemplate": "{{device.label}} {{attribute}}: {{value}}",
             "i18n": {
                 "value": {
-                    "open": {
-                        "description": "The window shade supports the open command",
-                        "label": "open"
-                    },
                     "close": {
-                        "description": "The window shade supports the close command",
                         "label": "close"
                     },
+                    "open": {
+                        "label": "open"
+                    },
                     "pause": {
-                        "description": "The window shade supports the pause command",
                         "label": "pause"
+                    }
+                }
+            }
+        },
+        "windowShade": {
+            "label": "Window shade",
+            "displayTemplate": "{{device.label}} {{attribute}}: {{value}}",
+            "i18n": {
+                "value": {
+                    "closing": {
+                        "label": "Closing\u2026"
+                    },
+                    "partially open": {
+                        "label": "partially open"
+                    },
+                    "closed": {
+                        "label": "Closed"
+                    },
+                    "opening": {
+                        "label": "Opening\u2026"
+                    },
+                    "open": {
+                        "label": "Open"
+                    },
+                    "unknown": {
+                        "label": "Unknown"
                     }
                 }
             }
@@ -52,14 +50,17 @@
     },
     "commands": {
         "close": {
+            "label": "Close",
             "description": "Close the window shade",
             "arguments": []
         },
         "open": {
+            "label": "Open",
             "description": "Open the window shade",
             "arguments": []
         },
         "pause": {
+            "label": "Pause",
             "description": "Pause opening or closing the window shade",
             "arguments": []
         }

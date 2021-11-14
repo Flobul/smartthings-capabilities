@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Video Stream",
     "description": "Allows for the control of the video stream.",
     "attributes": {
         "stream": {
@@ -10,12 +11,12 @@
         }
     },
     "commands": {
-        "startStream": {
-            "description": "Start the video stream",
-            "arguments": []
-        },
         "stopStream": {
             "description": "Stop the video stream",
+            "arguments": []
+        },
+        "startStream": {
+            "description": "Start the video stream",
             "arguments": []
         }
     }

@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Power meter",
     "description": "Allows for reading the power consumption from devices that report it",
     "attributes": {
         "power": {
-            "label": "power meter",
+            "label": "Power meter",
             "description": "A number representing the current power consumption. Check the device documentation for how this value is reported",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}W",
             "i18n": []

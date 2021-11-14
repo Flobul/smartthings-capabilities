@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Power Source",
+    "label": "Alimentation",
+    "description": "Gives the ability to determine the current power source of the device",
     "attributes": {
         "powerSource": {
             "label": "Alimentation",
+            "description": "The current power source for the device",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -17,7 +19,7 @@
                         "label": "Alimentation CC"
                     },
                     "unknown": {
-                        "label": "Inconnu"
+                        "label": "Inconnue"
                     }
                 }
             }

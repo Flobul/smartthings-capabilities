@@ -1,12 +1,31 @@
 {
     "tag": "fr",
-    "label": "Stateless Fanspeed Button",
+    "label": "Fanspeed Button",
+    "description": "Allows for the control of a device with stateless fan speed control buttons",
     "attributes": {
         "availableFanspeedButtons": {
             "label": "Touches configur\u00e9es",
+            "description": "A list of commands\/buttons that have been configured in the device",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": {
+                        "fanspeedUp": {
+                            "label": "Increase Fanspeed"
+                        },
+                        "fanspeedDown": {
+                            "label": "Decrease Fanspeed"
+                        }
+                    },
+                    "description": "The button in availableFanspeedButtons to send to the device"
+                }
+            }
+        }
+    }
 }

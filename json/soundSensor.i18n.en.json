@@ -1,19 +1,19 @@
 {
     "tag": "en",
+    "label": "Sound sensor",
     "description": "A Device that senses sound",
     "attributes": {
         "sound": {
-            "label": "sound",
+            "label": "Sound sensor",
             "description": "Whether or not sound was detected by the Device",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
-                    "detected": {
-                        "description": "Sound is detected",
-                        "label": "Sound detected"
-                    },
                     "not detected": {
-                        "label": "No sound"
+                        "label": "not detected"
+                    },
+                    "detected": {
+                        "label": "Sound detected"
                     }
                 }
             }

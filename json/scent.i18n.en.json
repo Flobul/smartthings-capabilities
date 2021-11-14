@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Scents",
     "description": "Allows for the control of the intensity attribute of a scent",
     "attributes": {
         "scentName": {

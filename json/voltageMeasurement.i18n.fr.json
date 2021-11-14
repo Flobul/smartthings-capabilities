@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Voltage Measurement",
+    "label": "Tension",
+    "description": "Get the value of voltage measured from devices that support it",
     "attributes": {
         "voltage": {
             "label": "Tension",
+            "description": "A number representing the current voltage measured",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} V",
             "i18n": []
         }

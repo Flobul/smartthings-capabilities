@@ -1,12 +1,49 @@
 {
     "tag": "en",
+    "label": "Firmware Update",
     "description": "Allows a device firmware to be updated over the network",
     "attributes": {
+        "lastUpdateStatusReason": {
+            "label": "Firmware update result reason",
+            "description": "The explanation of the reason for the status of the most recent update attempt.",
+            "displayTemplate": "The reason for the most recent firmware update status on {{device.label}} was {{attribute}}",
+            "i18n": []
+        },
         "availableVersion": {
             "label": "Available Version",
             "description": "version of the firmware to download",
             "displayTemplate": "Firmware version {{attribute}} was available for {{device.label}}",
             "i18n": []
+        },
+        "lastUpdateStatus": {
+            "label": "Firmware update status",
+            "description": "The status of the most recent update attempt.",
+            "displayTemplate": "The status of the most recent firmware update on {{device.label}} was {{attribute}}",
+            "i18n": {
+                "value": {
+                    "updateFailed": {
+                        "label": "updateFailed"
+                    },
+                    "updateSucceeded": {
+                        "label": "updateSucceeded"
+                    }
+                }
+            }
+        },
+        "state": {
+            "label": "Firmware update process state",
+            "description": "The state of the firmware update process",
+            "displayTemplate": "The state of the firmware update operation on {{device.label}} was {{attribute}}",
+            "i18n": {
+                "value": {
+                    "updateInProgress": {
+                        "label": "updateInProgress"
+                    },
+                    "normalOperation": {
+                        "label": "normalOperation"
+                    }
+                }
+            }
         },
         "currentVersion": {
             "label": "Current firmware version",
@@ -19,35 +56,17 @@
             "description": "The time of the most recent download or update attempt.",
             "displayTemplate": "The last update attempt for {{device.label}} was at {{attribute}}",
             "i18n": []
-        },
-        "lastUpdateStatus": {
-            "label": "Firmware update status",
-            "description": "The status of the most recent update attempt.",
-            "displayTemplate": "The status of the most recent firmware update on {{device.label}} was {{attribute}}",
-            "i18n": []
-        },
-        "lastUpdateStatusReason": {
-            "label": "Firmware update result reason",
-            "description": "The explanation of the reason for the status of the most recent update attempt.",
-            "displayTemplate": "The reason for the most recent firmware update status on {{device.label}} was {{attribute}}",
-            "i18n": []
-        },
-        "state": {
-            "label": "Firmware update process state",
-            "description": "The state of the firmware update process",
-            "displayTemplate": "The state of the firmware update operation on {{device.label}} was {{attribute}}",
-            "i18n": []
         }
     },
     "commands": {
-        "checkForFirmwareUpdate": {
-            "label": "Check for firmware update",
-            "description": "Check to see if there is a firmware update available for the device",
-            "arguments": []
-        },
         "updateFirmware": {
             "label": "Update firmware",
             "description": "Update the firmware on the device",
+            "arguments": []
+        },
+        "checkForFirmwareUpdate": {
+            "label": "Check for firmware update",
+            "description": "Check to see if there is a firmware update available for the device",
             "arguments": []
         }
     }

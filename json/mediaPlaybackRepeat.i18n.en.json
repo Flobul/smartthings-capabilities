@@ -1,12 +1,25 @@
 {
     "tag": "en",
+    "label": "Repeat",
     "description": "Allows for the control of the media playback repeat.",
     "attributes": {
         "playbackRepeatMode": {
-            "label": "playback repeat mode",
+            "label": "Repeat",
             "description": "The current mode of the playback repeat mode, \"all\", \"off\" or \"one\"",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "all": {
+                        "label": "All"
+                    },
+                    "one": {
+                        "label": "One"
+                    },
+                    "off": {
+                        "label": "Off"
+                    }
+                }
+            }
         }
     },
     "commands": {
@@ -14,7 +27,17 @@
             "description": "Set the playback repeat mode",
             "arguments": {
                 "mode": {
-                    "i18n": [],
+                    "i18n": {
+                        "all": {
+                            "label": "All"
+                        },
+                        "one": {
+                            "label": "One"
+                        },
+                        "off": {
+                            "label": "Off"
+                        }
+                    },
                     "description": "Mode to which to the playback repeat mode should be set, \"all\", \"off\" or \"one\""
                 }
             }

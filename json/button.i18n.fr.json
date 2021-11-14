@@ -1,88 +1,92 @@
 {
     "tag": "fr",
-    "label": "Button",
+    "label": "Touche",
+    "description": "A device with one or more buttons",
     "attributes": {
         "button": {
             "label": "Touche",
+            "description": "The state of the button",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "up_hold": {
-                        "label": "Cliquer en haut et maintenir"
+                        "label": "Maintenu vers le haut"
                     },
                     "up_5x": {
-                        "label": "Cliquer en haut cinq fois"
+                        "label": "Bascul\u00e9 vers le haut 5 fois"
                     },
                     "up_6x": {
-                        "label": "Cliquer en haut six fois"
+                        "label": "Bascul\u00e9 vers le haut 6 fois"
                     },
                     "held": {
-                        "label": "Maintenir la touche appuy\u00e9e"
+                        "label": "Maintenue appuy\u00e9e"
                     },
                     "double": {
-                        "label": "Appuyer deux fois sur la touche"
+                        "label": "Vous avez appuy\u00e9 deux fois"
                     },
                     "down_6x": {
-                        "label": "Cliquer en bas six fois"
+                        "label": "Bascul\u00e9 vers le bas 6 fois"
                     },
                     "up_3x": {
-                        "label": "Cliquer en haut trois fois"
+                        "label": "Bascul\u00e9 vers le haut 3 fois"
                     },
                     "down": {
-                        "label": "Cliquer en bas"
+                        "label": "Bascul\u00e9 vers le bas"
                     },
                     "up_4x": {
-                        "label": "Cliquer en haut quatre fois"
+                        "label": "Bascul\u00e9 vers le haut 4 fois"
                     },
                     "up_2x": {
-                        "label": "Cliquer en haut deux fois"
+                        "label": "Bascul\u00e9 vers le haut 2 fois"
                     },
                     "pushed_2x": {
-                        "label": "Appuyer deux fois sur la touche"
+                        "label": "2 appuis effectu\u00e9s"
                     },
                     "pushed_6x": {
-                        "label": "Appuyer six fois sur la touche"
+                        "label": "6 appuis effectu\u00e9s"
                     },
                     "pushed_5x": {
-                        "label": "Appuyer cinq fois sur la touche"
+                        "label": "5 appuis effectu\u00e9s"
                     },
                     "pushed_4x": {
-                        "label": "Appuyer quatre fois sur la touche"
+                        "label": "4 appuis effectu\u00e9s"
                     },
                     "pushed_3x": {
-                        "label": "Appuyer trois fois sur la touche"
+                        "label": "3 appuis effectu\u00e9s"
                     },
                     "down_4x": {
-                        "label": "Cliquer en bas quatre fois"
+                        "label": "Bascul\u00e9 vers le bas 4 fois"
                     },
                     "down_hold": {
-                        "label": "Cliquer en bas et maintenir"
+                        "label": "Maintenu vers le bas"
                     },
                     "down_5x": {
-                        "label": "Cliquer en bas cinq fois"
+                        "label": "Bascul\u00e9 vers le bas 5 fois"
                     },
                     "down_2x": {
-                        "label": "Cliquer en bas deux fois"
+                        "label": "Bascul\u00e9 vers le bas 2 fois"
                     },
                     "down_3x": {
-                        "label": "Cliquer en bas trois fois"
+                        "label": "Bascul\u00e9 vers le bas 3 fois"
                     },
                     "up": {
-                        "label": "Cliquer en haut"
+                        "label": "Bascul\u00e9 vers le haut"
                     },
                     "pushed": {
-                        "label": "Appuyer sur la touche"
+                        "label": "Appuy\u00e9"
                     }
                 }
             }
         },
         "numberOfButtons": {
             "label": "Nombre de touches",
+            "description": "The number of buttons on the device",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "supportedButtonValues": {
             "label": "Valeurs de touche prises en charge",
+            "description": "List of valid button attribute values",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }

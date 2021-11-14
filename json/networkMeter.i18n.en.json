@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Network Meter",
     "description": "Gets the reading of the network meter.",
     "attributes": {
         "uplinkSpeed": {

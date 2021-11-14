@@ -1,41 +1,46 @@
 {
     "tag": "en",
+    "label": "Security mode",
     "description": "Allows for the control of a security system device",
     "attributes": {
-        "securitySystemStatus": {
-            "label": "security system status",
-            "description": "The current status of the security system",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": {
-                "value": {
-                    "armedStay": {
-                        "description": "The security system is armed while premise is occupied",
-                        "label": "armedStay"
-                    },
-                    "armedAway": {
-                        "description": "The security system is armed while premise is vacant",
-                        "label": "armedAway"
-                    }
-                }
-            }
-        },
         "alarm": {
             "label": "alarm",
             "description": "The reference to the device that most recently generated an event to trigger an alarm",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
+        },
+        "securitySystemStatus": {
+            "label": "Security mode",
+            "description": "The current status of the security system",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "disarmed": {
+                        "label": "Disarmed"
+                    },
+                    "armedStay": {
+                        "label": "Armed (stay)"
+                    },
+                    "armedAway": {
+                        "label": "Armed (away)"
+                    }
+                }
+            }
         }
     },
     "commands": {
         "armStay": {
+            "label": "Armed (stay)",
             "description": "Set the security system to ``armedStay``",
             "arguments": []
         },
         "disarm": {
+            "label": "Disarmed",
             "description": "Set the security system to ``disarmed``",
             "arguments": []
         },
         "armAway": {
+            "label": "Armed (away)",
             "description": "Set the security system to ``armedAway``",
             "arguments": []
         }

@@ -1,20 +1,22 @@
 {
     "tag": "fr",
-    "label": "Carbon Monoxide Detector",
+    "label": "D\u00e9tecteur de monoxyde de carbone",
+    "description": "Measure carbon monoxide levels",
     "attributes": {
         "carbonMonoxide": {
-            "label": "Monoxyde de carbone",
+            "label": "D\u00e9tecteur de monoxyde de carbone",
+            "description": "The state of the carbon monoxide device",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
                     "tested": {
-                        "label": "Test\u00e9e"
+                        "label": "Test\u00e9"
                     },
                     "clear": {
-                        "label": "Absente"
+                        "label": "Sain"
                     },
                     "detected": {
-                        "label": "D\u00e9tect\u00e9e"
+                        "label": "D\u00e9tect\u00e9"
                     }
                 }
             }

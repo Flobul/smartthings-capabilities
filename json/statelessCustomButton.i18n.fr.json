@@ -1,0 +1,24 @@
+{
+    "tag": "fr",
+    "label": "Custom IR Button",
+    "description": "Allows for the control of a device with stateless custom command buttons",
+    "attributes": {
+        "availableCustomButtons": {
+            "label": "configured buttons",
+            "description": "A list of commands\/buttons that have been configured in the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": [],
+                    "description": "The button in availableButtons to send to the device"
+                }
+            }
+        }
+    }
+}

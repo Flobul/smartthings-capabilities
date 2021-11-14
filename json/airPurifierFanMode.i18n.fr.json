@@ -1,0 +1,75 @@
+{
+    "tag": "fr",
+    "label": "Mode de ventilation du purificateur d'air",
+    "description": "Maintains and sets the state of an air conditioner's fan",
+    "attributes": {
+        "supportedAirPurifierFanModes": {
+            "label": "supported air purifier fan modes",
+            "description": "Supported states for this air purifier fan to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        },
+        "airPurifierFanMode": {
+            "label": "Mode de ventilation du purificateur d'air",
+            "description": "The current mode of the air purifier fan, an enum of auto, low, medium, high, sleep, quiet or windFree",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "sleep": {
+                        "label": "Veille"
+                    },
+                    "auto": {
+                        "label": "Automatique"
+                    },
+                    "high": {
+                        "label": "Intensif"
+                    },
+                    "low": {
+                        "label": "Faible"
+                    },
+                    "windFree": {
+                        "label": "Ventilation autonome"
+                    },
+                    "medium": {
+                        "label": "Moyen"
+                    },
+                    "quiet": {
+                        "label": "Silencieux"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setAirPurifierFanMode": {
+            "description": "Set the air purifier fan's mode",
+            "arguments": {
+                "airPurifierFanMode": {
+                    "i18n": {
+                        "sleep": {
+                            "label": "Veille"
+                        },
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "high": {
+                            "label": "Intensif"
+                        },
+                        "windFree": {
+                            "label": "Ventilation autonome"
+                        },
+                        "low": {
+                            "label": "Faible"
+                        },
+                        "quiet": {
+                            "label": "Silencieux"
+                        },
+                        "medium": {
+                            "label": "Moyen"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

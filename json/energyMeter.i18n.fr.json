@@ -1,12 +1,20 @@
 {
     "tag": "fr",
-    "label": "Energy Meter",
+    "label": "Consommation d'\u00e9nergie",
+    "description": "Read the energy consumption of an energy metering device",
     "attributes": {
         "energy": {
-            "label": "\u00c9nergie",
+            "label": "Consommation d'\u00e9nergie",
+            "description": "Numeric value representing energy consumption",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} kWh",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "resetEnergyMeter": {
+            "label": "Reset energy meter",
+            "description": "Reset the energy consumption of a device",
+            "arguments": []
+        }
+    }
 }

@@ -1,0 +1,14 @@
+{
+    "tag": "fr",
+    "label": "Radon",
+    "description": "Measure radon levels",
+    "attributes": {
+        "radonLevel": {
+            "label": "Radon",
+            "description": "The level of radon detected",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} pCi\/L",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

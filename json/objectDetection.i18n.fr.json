@@ -1,14 +1,35 @@
 {
     "tag": "fr",
-    "label": "Object Detection",
+    "label": "D\u00e9tecteur d'objets",
+    "description": "Allows for the ability to read object detection device state",
     "attributes": {
         "detected": {
-            "label": "D\u00e9tect\u00e9e",
+            "label": "D\u00e9tecteur d'objets",
+            "description": "The current objects that are detected",
             "displayTemplate": "{{device.label}} d\u00e9tect\u00e9(e) : {{detected.qty}} {{detected.value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "parcel": {
+                        "label": "Emballage"
+                    },
+                    "human_0": {
+                        "label": "Aucune personne"
+                    },
+                    "none": {
+                        "label": "Aucune"
+                    },
+                    "human": {
+                        "label": "Personne"
+                    },
+                    "pet": {
+                        "label": "Pr\u00e9f\u00e9r\u00e9"
+                    }
+                }
+            }
         },
         "supportedValues": {
             "label": "Valeurs prises en charge",
+            "description": "The set of allowable values that the detected attribute can hold.",
             "displayTemplate": "{{device.label}} d\u00e9tect\u00e9(e) : {{detected.qty}} {{detected.value}}",
             "i18n": []
         }

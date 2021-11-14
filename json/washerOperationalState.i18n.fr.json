@@ -1,14 +1,17 @@
 {
     "tag": "fr",
     "label": "Washer Operational State",
+    "description": "Allows for the control of the washer operational state.",
     "attributes": {
         "completionTime": {
             "label": "Heure de fin",
+            "description": "The completion time for the washer job",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "machineState": {
             "label": "Statut de machine",
+            "description": "Current status of the washer",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -26,6 +29,7 @@
         },
         "washerJobState": {
             "label": "Statut de t\u00e2che du lave-linge",
+            "description": "The job states supported by the washer",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
@@ -70,9 +74,20 @@
         },
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
+            "description": "The states supported by the washer machine",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setMachineState": {
+            "description": "Set the washer machine state",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the washer machine state to \"pause\", \"run\", or \"stop\" state"
+                }
+            }
+        }
+    }
 }

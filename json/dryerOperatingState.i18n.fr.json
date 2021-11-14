@@ -1,41 +1,46 @@
 {
     "tag": "fr",
-    "label": "Dryer Operating State",
+    "label": "S\u00e8che-linge",
+    "description": "Allows for the control of the dryer operational state.",
     "attributes": {
         "completionTime": {
             "label": "Heure de fin",
+            "description": "The completion time for the dryer job",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "machineState": {
-            "label": "Statut de machine",
+            "label": "Statut de l'appareil",
+            "description": "Current state of the dryer machine operation",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "Arr\u00eat"
+                        "label": "Arr\u00eat\u00e9"
                     },
                     "run": {
-                        "label": "Marche"
+                        "label": "S\u00e9chage"
                     },
                     "pause": {
-                        "label": "Pause"
+                        "label": "Mis en pause"
                     }
                 }
             }
         },
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
+            "description": "The states supported by the dryer machine",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": []
         },
         "dryerJobState": {
-            "label": "Statut de t\u00e2che du s\u00e8che-linge",
+            "label": "S\u00e8che-linge",
+            "description": "The state of the dryer job",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "weightSensing": {
-                        "label": "D\u00e9tection de poids"
+                        "label": "V\u00e9rification du poids"
                     },
                     "drying": {
                         "label": "S\u00e9chage"
@@ -47,22 +52,22 @@
                         "label": "Refroidissement"
                     },
                     "wrinklePrevent": {
-                        "label": "Traitement anti-traces"
+                        "label": "Anti-froissage"
                     },
                     "sanitizing": {
                         "label": "sanitizing"
                     },
                     "delayWash": {
-                        "label": "Lavage diff\u00e9r\u00e9"
+                        "label": "Fin diff\u00e9r\u00e9e"
                     },
                     "finished": {
-                        "label": "Fin"
+                        "label": "Termin\u00e9"
                     },
                     "internalCare": {
                         "label": "internalCare"
                     },
                     "none": {
-                        "label": "Aucun"
+                        "label": "Aucune"
                     },
                     "dehumidifying": {
                         "label": "dehumidifying"
@@ -74,5 +79,25 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setMachineState": {
+            "description": "Set the dryer machine state",
+            "arguments": {
+                "state": {
+                    "i18n": {
+                        "stop": {
+                            "label": "Arr\u00eat\u00e9"
+                        },
+                        "run": {
+                            "label": "S\u00e9chage"
+                        },
+                        "pause": {
+                            "label": "Mis en pause"
+                        }
+                    },
+                    "description": "Set the dryer machine to a state; pause, run or stop"
+                }
+            }
+        }
+    }
 }

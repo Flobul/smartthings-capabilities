@@ -1,17 +1,30 @@
 {
     "tag": "fr",
-    "label": "Scent",
+    "label": "Senteurs",
+    "description": "Allows for the control of the intensity attribute of a scent",
     "attributes": {
         "scentName": {
             "label": "nom",
+            "description": "A string that represents the name of the scent",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": []
         },
         "scentIntensity": {
             "label": "intensit\u00e9",
+            "description": "A number that represents the current scent intensity, usually ``0-100`` in percent",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} %",
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "setScentIntensity": {
+            "description": "Set the intensity to the given value",
+            "arguments": {
+                "intensity": {
+                    "i18n": [],
+                    "description": "The intensity value, usually ``0-100`` in percent"
+                }
+            }
+        }
+    }
 }

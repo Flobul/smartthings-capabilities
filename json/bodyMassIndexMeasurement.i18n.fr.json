@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Body Mass Index Measurement",
+    "label": "IMC",
+    "description": "Allows for the ability to measure body mass index",
     "attributes": {
         "bmiMeasurement": {
-            "label": "Indice de masse corporelle",
+            "label": "IMC",
+            "description": "Current body mass index measured in kilograms per meter squared",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}kg\/m^2",
             "i18n": []
         }

@@ -1,0 +1,28 @@
+{
+    "tag": "fr",
+    "label": "Stateless Fan Speed Mode button",
+    "description": "Allows for the control of a device with stateless fan speed mode buttons",
+    "attributes": {
+        "availableFanspeedModeButtons": {
+            "label": "configured buttons",
+            "description": "A list of commands\/buttons that have been configured in the device",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setButton": {
+            "description": "Emulate the pressing of a supported button",
+            "arguments": {
+                "button": {
+                    "i18n": {
+                        "changeMode": {
+                            "label": "Change mode"
+                        }
+                    },
+                    "description": "The button in availableFanspeedModeButtons to send to the device"
+                }
+            }
+        }
+    }
+}

@@ -1,52 +1,43 @@
 {
     "tag": "en",
+    "label": "Movement",
     "description": "Allows for the control of the robot cleaner movement.",
     "attributes": {
         "robotCleanerMovement": {
-            "label": "robot cleaner movement",
+            "label": "Movement",
             "description": "Current status of the robot cleaner movement",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "homing": {
-                        "label": "Returning to dock",
-                        "description": "The robot cleaner movement is in \"homing\" mode"
+                    "cleaning": {
+                        "label": "Cleaning"
                     },
                     "idle": {
-                        "label": "Standby",
-                        "description": "The robot cleaner movement is in \"idle\" mode"
-                    },
-                    "charging": {
-                        "label": "Charging",
-                        "description": "The robot cleaner movement is in \"charging\" mode"
-                    },
-                    "alarm": {
-                        "label": "Error",
-                        "description": "The robot cleaner movement is in \"alarm\" mode"
+                        "label": "Standby"
                     },
                     "powerOff": {
-                        "label": "Off",
-                        "description": "The robot cleaner movement is in \"power off\" mode"
+                        "label": "Off"
+                    },
+                    "charging": {
+                        "label": "Charging"
+                    },
+                    "alarm": {
+                        "label": "Error"
                     },
                     "reserve": {
-                        "label": "Scheduled",
-                        "description": "The robot cleaner movement is in \"reserve\" mode"
+                        "label": "Scheduled"
                     },
-                    "point": {
-                        "label": "Point cleaning",
-                        "description": "The robot cleaner movement is in \"point\" mode"
+                    "homing": {
+                        "label": "Returning to dock"
                     },
                     "after": {
-                        "label": "Charging before cleaning",
-                        "description": "The robot cleaner movement is in \"after\" mode"
+                        "label": "Charging before cleaning"
                     },
-                    "cleaning": {
-                        "label": "Cleaning",
-                        "description": "The robot cleaner movement is in \"cleaning\" mode"
+                    "point": {
+                        "label": "Point cleaning"
                     },
                     "pause": {
-                        "label": "Pause",
-                        "description": "The robot cleaner movement is in \"pause\" mode"
+                        "label": "Pause"
                     }
                 }
             }
@@ -57,7 +48,38 @@
             "description": "Set the robot cleaner movement",
             "arguments": {
                 "mode": {
-                    "i18n": [],
+                    "i18n": {
+                        "cleaning": {
+                            "label": "Cleaning"
+                        },
+                        "idle": {
+                            "label": "Standby"
+                        },
+                        "powerOff": {
+                            "label": "Off"
+                        },
+                        "alarm": {
+                            "label": "Error"
+                        },
+                        "reserve": {
+                            "label": "Scheduled"
+                        },
+                        "charging": {
+                            "label": "Charging"
+                        },
+                        "after": {
+                            "label": "Charging before cleaning"
+                        },
+                        "homing": {
+                            "label": "Returning to dock"
+                        },
+                        "point": {
+                            "label": "Point cleaning"
+                        },
+                        "pause": {
+                            "label": "Pause"
+                        }
+                    },
                     "description": "Set the robot cleaner movement mode, to \"homing\""
                 }
             }

@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "description": "Allows for the polling of devices that support it. Deprecated, devices should schedule their own polling using the scheduling API or use the Ping capability.",
+    "label": "Polling",
     "attributes": [],
     "commands": {
         "poll": {

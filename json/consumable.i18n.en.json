@@ -1,27 +1,28 @@
 {
     "tag": "en",
+    "label": "Consumable item",
     "description": "For devices with replaceable components",
     "attributes": {
         "consumableStatus": {
-            "label": "consumable status",
+            "label": "Consumable item",
             "description": "The status of replaceable components",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "order": {
-                        "description": "A replacement component should be ordered"
-                    },
-                    "good": {
-                        "description": "The component is in good health"
+                    "maintenance_required": {
+                        "label": "Maintenance required"
                     },
                     "missing": {
-                        "description": "The component is missing"
-                    },
-                    "maintenance_required": {
-                        "description": "The comopnent needs maintenance"
+                        "label": "Missing"
                     },
                     "replace": {
-                        "description": "The component should be replaced"
+                        "label": "Replace"
+                    },
+                    "good": {
+                        "label": "Good"
+                    },
+                    "order": {
+                        "label": "Order"
                     }
                 }
             }
@@ -32,7 +33,23 @@
             "description": "Set the consumable status",
             "arguments": {
                 "status": {
-                    "i18n": [],
+                    "i18n": {
+                        "replace": {
+                            "label": "Replace"
+                        },
+                        "missing": {
+                            "label": "Missing"
+                        },
+                        "maintenance required": {
+                            "label": "Maintenance required"
+                        },
+                        "good": {
+                            "label": "Good"
+                        },
+                        "order": {
+                            "label": "Order"
+                        }
+                    },
                     "description": "Should be one of ``good``, ``maintenance_required``, ``missing``, ``order``, or ``replace``"
                 }
             }

@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Geofences",
     "description": "Gets the status of the geofences.",
     "attributes": {
         "geofences": {

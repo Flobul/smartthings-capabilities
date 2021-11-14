@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Refrigeration",
+    "label": "Refroidissement rapide",
+    "description": "Allows for the control of the refrigeration.",
     "attributes": {
         "defrost": {
             "label": "D\u00e9cong\u00e9lation",
+            "description": "Status of the defrost",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -18,6 +20,7 @@
         },
         "rapidCooling": {
             "label": "Refroidissement rapide",
+            "description": "Status of the rapid cooling",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -32,6 +35,7 @@
         },
         "rapidFreezing": {
             "label": "Cong\u00e9lation rapide",
+            "description": "Status of the rapid freezing",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -45,5 +49,49 @@
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setDefrost": {
+            "description": "Sets the defrost on or off",
+            "arguments": {
+                "rapidCooling": {
+                    "i18n": [],
+                    "description": "The on or off value for the defrost"
+                }
+            }
+        },
+        "setRapidFreezing": {
+            "label": "Refroidissement rapide",
+            "description": "Sets the rapid freezing on or off",
+            "arguments": {
+                "rapidCooling": {
+                    "i18n": {
+                        "off": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
+                        "on": {
+                            "label": "Activ\u00e9"
+                        }
+                    },
+                    "description": "The on or off value for the rapid freezing"
+                }
+            }
+        },
+        "setRapidCooling": {
+            "label": "Refroidissement rapide",
+            "description": "Sets the rapid cooling on or off",
+            "arguments": {
+                "rapidCooling": {
+                    "i18n": {
+                        "off": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
+                        "on": {
+                            "label": "Activ\u00e9"
+                        }
+                    },
+                    "description": "The on or off value for the rapid cooling"
+                }
+            }
+        }
+    }
 }

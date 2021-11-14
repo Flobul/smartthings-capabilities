@@ -1,100 +1,79 @@
 {
     "tag": "en",
+    "label": "Button",
     "description": "A device with one or more buttons",
     "attributes": {
         "button": {
-            "label": "button",
+            "label": "Button",
             "description": "The state of the button",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "pushed": {
-                        "description": "The value if the button is pushed",
-                        "label": "pushed"
-                    },
-                    "held": {
-                        "description": "The value if the button is held",
-                        "label": "held"
-                    },
-                    "double": {
-                        "description": "The value if the button is pushed twice",
-                        "label": "pushed twice"
-                    },
-                    "pushed_2x": {
-                        "description": "The value if the button is pushed twice",
-                        "label": "pushed twice"
-                    },
-                    "pushed_3x": {
-                        "description": "The value if the button is pushed three times",
-                        "label": "pushed three times"
-                    },
-                    "pushed_4x": {
-                        "description": "The value if the button is pushed four times",
-                        "label": "pushed four times"
-                    },
-                    "pushed_5x": {
-                        "description": "The value if the button is pushed five times",
-                        "label": "pushed five times"
-                    },
-                    "pushed_6x": {
-                        "description": "The value if the button is pushed six times",
-                        "label": "pushed six times"
-                    },
-                    "down": {
-                        "label": "clicked down",
-                        "description": "The value if the button is clicked down"
-                    },
-                    "down_2x": {
-                        "label": "clicked down twice",
-                        "description": "The value if the button is clicked down twice"
-                    },
-                    "down_3x": {
-                        "label": "clicked down three times",
-                        "description": "The value if the button is clicked down three times"
-                    },
-                    "down_4x": {
-                        "label": "clicked down four times",
-                        "description": "The value if the button is clicked down four times"
-                    },
-                    "down_5x": {
-                        "label": "clicked down five times",
-                        "description": "The value if the button is clicked down five times"
-                    },
-                    "down_6x": {
-                        "label": "clicked down six times",
-                        "description": "The value if the button is clicked down six times"
-                    },
-                    "down_hold": {
-                        "label": "clicked down and held",
-                        "description": "The value if the button is clicked down and held"
-                    },
-                    "up": {
-                        "label": "clicked up",
-                        "description": "The value if the button is clicked up"
-                    },
-                    "up_2x": {
-                        "label": "clicked up twice",
-                        "description": "The value if the button is clicked up twice"
-                    },
-                    "up_3x": {
-                        "label": "clicked up three times",
-                        "description": "The value if the button is clicked up three times"
-                    },
-                    "up_4x": {
-                        "label": "clicked up four times",
-                        "description": "The value if the button is clicked up four times"
+                    "up_hold": {
+                        "label": "Held up"
                     },
                     "up_5x": {
-                        "label": "clicked up five times",
-                        "description": "The value if the button is clicked up five times"
+                        "label": "Toggled up 5 times"
                     },
                     "up_6x": {
-                        "label": "clicked up six times",
-                        "description": "The value if the button is clicked up six times"
+                        "label": "Toggled up 6 times"
                     },
-                    "up_hold": {
-                        "label": "clicked up and held",
-                        "description": "The value if the button is clicked up and held"
+                    "held": {
+                        "label": "Held"
+                    },
+                    "double": {
+                        "label": "Double pressed"
+                    },
+                    "down_6x": {
+                        "label": "Toggled down 6 times"
+                    },
+                    "up_3x": {
+                        "label": "Toggled up 3 times"
+                    },
+                    "down": {
+                        "label": "Toggled down"
+                    },
+                    "up_4x": {
+                        "label": "Toggled up 4 times"
+                    },
+                    "up_2x": {
+                        "label": "Toggled up 2 times"
+                    },
+                    "pushed_2x": {
+                        "label": "Pressed 2 times"
+                    },
+                    "pushed_6x": {
+                        "label": "Pressed 6 times"
+                    },
+                    "pushed_5x": {
+                        "label": "Pressed 5 times"
+                    },
+                    "pushed_4x": {
+                        "label": "Pressed 4 times"
+                    },
+                    "pushed_3x": {
+                        "label": "Pressed 3 times"
+                    },
+                    "down_4x": {
+                        "label": "Toggled down 4 times"
+                    },
+                    "down_hold": {
+                        "label": "Held down"
+                    },
+                    "down_5x": {
+                        "label": "Toggled down 5 times"
+                    },
+                    "down_2x": {
+                        "label": "Toggled down 2 times"
+                    },
+                    "down_3x": {
+                        "label": "Toggled down 3 times"
+                    },
+                    "up": {
+                        "label": "Toggled up"
+                    },
+                    "pushed": {
+                        "label": "Pressed"
                     }
                 }
             }

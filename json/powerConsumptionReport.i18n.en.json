@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Power Consumption Report",
     "description": "Allows periodically reporting the energy and power consumption",
     "attributes": {
         "powerConsumption": {
@@ -9,7 +10,7 @@
             "i18n": {
                 "value": {
                     "prop": {
-                        "description": "The instant power and accumulated energy consumed during specific time period"
+                        "label": "prop"
                     }
                 }
             }

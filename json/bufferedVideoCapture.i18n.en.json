@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Buffered Video Capture",
     "description": "Allows for the control of the buffered video capture.",
     "attributes": {
         "clip": {
@@ -13,13 +14,13 @@
         "capture": {
             "description": "Set the buffered video capture schedule",
             "arguments": {
-                "startTime": {
-                    "i18n": [],
-                    "description": "Time, in ISO 8601 format, when the buffered video capture should start"
-                },
                 "captureTime": {
                     "i18n": [],
                     "description": "Buffered video capture time, in ISO 8601 format"
+                },
+                "startTime": {
+                    "i18n": [],
+                    "description": "Time, in ISO 8601 format, when the buffered video capture should start"
                 },
                 "endTime": {
                     "i18n": [],

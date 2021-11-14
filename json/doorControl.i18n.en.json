@@ -1,32 +1,28 @@
 {
     "tag": "en",
+    "label": "Door",
     "description": "Allow for the control of a door",
     "attributes": {
         "door": {
-            "label": "door",
+            "label": "Door",
             "description": "The current state of the door",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "closing": {
-                        "description": "The door is closing",
-                        "label": "closing"
-                    },
-                    "open": {
-                        "description": "The door is open",
-                        "label": "Open"
-                    },
-                    "opening": {
-                        "description": "The door is opening",
-                        "label": "opening"
-                    },
-                    "unknown": {
-                        "description": "The current state of the door is unknown",
-                        "label": "unknown"
+                        "label": "Closing\u2026"
                     },
                     "closed": {
-                        "description": "The door is closed",
-                        "label": "closed"
+                        "label": "Closed"
+                    },
+                    "opening": {
+                        "label": "Opening\u2026"
+                    },
+                    "open": {
+                        "label": "Open"
+                    },
+                    "unknown": {
+                        "label": "Unknown"
                     }
                 }
             }
@@ -34,10 +30,12 @@
     },
     "commands": {
         "close": {
+            "label": "Closed",
             "description": "Close the door",
             "arguments": []
         },
         "open": {
+            "label": "Open",
             "description": "Open the door",
             "arguments": []
         }

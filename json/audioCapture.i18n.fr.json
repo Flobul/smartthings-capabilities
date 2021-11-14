@@ -1,0 +1,38 @@
+{
+    "tag": "fr",
+    "label": "Enregistrement automatique sons",
+    "description": "Allows for the control of the audio capture.",
+    "attributes": {
+        "stream": {
+            "label": "stream",
+            "description": "Audio stream details",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
+        "clip": {
+            "label": "clip",
+            "description": "Audio clip details",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "capture": {
+            "description": "Set the audio capture schedule",
+            "arguments": {
+                "captureTime": {
+                    "i18n": [],
+                    "description": "Audio capture time, in ISO 8601 format"
+                },
+                "startTime": {
+                    "i18n": [],
+                    "description": "Time, in ISO 8601 format, when the audio capture should start"
+                },
+                "endTime": {
+                    "i18n": [],
+                    "description": "Time, in ISO 8601 format, when the audio capture should end"
+                }
+            }
+        }
+    }
+}

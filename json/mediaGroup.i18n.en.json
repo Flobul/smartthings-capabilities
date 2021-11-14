@@ -1,24 +1,19 @@
 {
     "tag": "en",
+    "label": "Media group",
     "description": "Allows for the expression of media grouping.",
     "attributes": {
-        "groupRole": {
-            "label": "group role",
-            "description": "Current role in the group",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+        "groupMute": {
+            "label": "Mute group",
+            "description": "Current status of group audio mute",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
-                    "primary": {
-                        "description": "Device is the group controller",
-                        "label": "primary"
+                    "unmuted": {
+                        "label": "Off"
                     },
-                    "auxilary": {
-                        "description": "Device is a non-controlling member of the group",
-                        "label": "auxilary"
-                    },
-                    "ungrouped": {
-                        "description": "Device is \"ungrouped\"",
-                        "label": "ungrouped"
+                    "muted": {
+                        "label": "On"
                     }
                 }
             }
@@ -36,31 +31,46 @@
             "i18n": []
         },
         "groupVolume": {
-            "label": "group volume",
+            "label": "Group volume",
             "description": "The current group volume setting of the audio group",
             "displayTemplate": "{{attribute}} of {{device.label}}: {{value}}%",
             "i18n": []
         },
-        "groupMute": {
-            "label": "group mute",
-            "description": "Current status of group audio mute",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+        "groupRole": {
+            "label": "group role",
+            "description": "Current role in the group",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "muted": {
-                        "description": "The group audio is in \"muted\" state",
-                        "label": "muted"
+                    "ungrouped": {
+                        "label": "ungrouped"
                     },
-                    "unmuted": {
-                        "description": "The group audio is in \"unmuted\" state",
-                        "label": "unmuted"
+                    "auxilary": {
+                        "label": "auxilary"
+                    },
+                    "primary": {
+                        "label": "primary"
                     }
                 }
             }
         }
     },
     "commands": {
+        "groupVolumeUp": {
+            "description": "Turn the group volume up",
+            "arguments": []
+        },
+        "groupVolumeDown": {
+            "description": "Turn the group volume down",
+            "arguments": []
+        },
+        "muteGroup": {
+            "label": "On",
+            "description": "Set the group audio to mute state",
+            "arguments": []
+        },
         "setGroupVolume": {
+            "label": "Group volume",
             "description": "Set the group volume level",
             "arguments": {
                 "groupVolume": {
@@ -69,12 +79,9 @@
                 }
             }
         },
-        "groupVolumeUp": {
-            "description": "Turn the group volume up",
-            "arguments": []
-        },
-        "groupVolumeDown": {
-            "description": "Turn the group volume down",
+        "unmuteGroup": {
+            "label": "Off",
+            "description": "Set the group audio to unmute state",
             "arguments": []
         },
         "setGroupMute": {
@@ -85,14 +92,6 @@
                     "description": "Set the group audio mute state to \"muted\" or \"unmuted\""
                 }
             }
-        },
-        "muteGroup": {
-            "description": "Set the group audio to mute state",
-            "arguments": []
-        },
-        "unmuteGroup": {
-            "description": "Set the group audio to unmute state",
-            "arguments": []
         }
     }
 }

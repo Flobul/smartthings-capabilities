@@ -1,181 +1,183 @@
 {
     "tag": "en",
+    "label": "Mode",
     "description": "Allows for the control of the air conditioner.",
     "attributes": {
-        "airConditionerMode": {
-            "label": "air conditioner mode",
-            "description": "Current mode of the air conditioner",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": {
-                "value": {
-                    "ai": {
-                        "label": "AI"
-                    },
-                    "aIComfort": {
-                        "label": "AI Comfort Cooling"
-                    },
-                    "auto": {
-                        "label": "Auto"
-                    },
-                    "comfortCooling": {
-                        "label": "Comfort Cooling"
-                    },
-                    "cool": {
-                        "label": "Cool"
-                    },
-                    "fan": {
-                        "label": "Fan"
-                    },
-                    "heat": {
-                        "label": "Heat"
-                    },
-                    "clean": {
-                        "label": "Purify"
-                    },
-                    "dry": {
-                        "label": "Dry"
-                    },
-                    "coolClean": {
-                        "label": "Cool, Purify"
-                    },
-                    "dryClean": {
-                        "label": "Dry, Purify"
-                    },
-                    "heatClean": {
-                        "label": "Heat, Purify"
-                    },
-                    "fanOnly": {
-                        "label": "Purify"
-                    },
-                    "wind": {
-                        "label": "Purify"
-                    },
-                    "notSupported": {
-                        "label": "Not Supported"
-                    },
-                    "force": {
-                        "label": "force"
-                    },
-                    "heatex": {
-                        "label": "HeatEX"
-                    },
-                    "sleep": {
-                        "label": "Sleep"
-                    },
-                    "smartVentilation": {
-                        "label": "Smart Ventilation"
-                    },
-                    "bypass": {
-                        "label": "ByPass"
-                    },
-                    "std": {
-                        "label": "std"
-                    },
-                    "power": {
-                        "label": "power"
-                    },
-                    "eco": {
-                        "label": "eco"
-                    },
-                    "purification": {
-                        "label": "Purify"
-                    },
-                    "ventilation": {
-                        "label": "Ventilation"
-                    }
-                }
-            }
-        },
         "supportedAcModes": {
             "label": "supported ac modes",
             "description": "Supported states for this air conditioner to be in",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": []
+        },
+        "airConditionerMode": {
+            "label": "Mode",
+            "description": "Current mode of the air conditioner",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "heat": {
+                        "label": "Heat"
+                    },
+                    "auto": {
+                        "label": "Auto"
+                    },
+                    "ventilation": {
+                        "label": "ventilation"
+                    },
+                    "aicomfort": {
+                        "label": "AI Comfort Cooling"
+                    },
+                    "sleep": {
+                        "label": "sleep"
+                    },
+                    "eco": {
+                        "label": "eco"
+                    },
+                    "fan": {
+                        "label": "Vent"
+                    },
+                    "heatex": {
+                        "label": "heatEx"
+                    },
+                    "purification": {
+                        "label": "Purify"
+                    },
+                    "power": {
+                        "label": "power"
+                    },
+                    "smartventilation": {
+                        "label": "smartVentilation"
+                    },
+                    "comfortcooling": {
+                        "label": "comfortCooling"
+                    },
+                    "heatclean": {
+                        "label": "Heat, Purify"
+                    },
+                    "std": {
+                        "label": "std"
+                    },
+                    "dryclean": {
+                        "label": "Dry, Purify"
+                    },
+                    "cool": {
+                        "label": "Cool"
+                    },
+                    "ai": {
+                        "label": "AI"
+                    },
+                    "dry": {
+                        "label": "Dry"
+                    },
+                    "clean": {
+                        "label": "Purify"
+                    },
+                    "notsupported": {
+                        "label": "Not Supported"
+                    },
+                    "bypass": {
+                        "label": "bypass"
+                    },
+                    "force": {
+                        "label": "force"
+                    },
+                    "fanonly": {
+                        "label": "Vent"
+                    },
+                    "coolclean": {
+                        "label": "Cool, Purify"
+                    },
+                    "wind": {
+                        "label": "Purify"
+                    }
+                }
+            }
         }
     },
     "commands": {
         "setAirConditionerMode": {
+            "label": "Mode",
             "description": "Set the air conditioner mode",
             "arguments": {
                 "mode": {
                     "i18n": {
-                        "ai": {
-                            "label": "AI"
-                        },
-                        "aIComfort": {
-                            "label": "AI Comfort Cooling"
+                        "heat": {
+                            "label": "Heat"
                         },
                         "auto": {
                             "label": "Auto"
                         },
-                        "comfortCooling": {
-                            "label": "Comfort Cooling"
-                        },
-                        "cool": {
-                            "label": "Cool"
-                        },
-                        "fan": {
-                            "label": "Fan"
-                        },
-                        "heat": {
-                            "label": "Heat"
-                        },
-                        "clean": {
-                            "label": "Purify"
-                        },
-                        "dry": {
-                            "label": "Dry"
-                        },
-                        "coolClean": {
-                            "label": "Cool, Purify"
-                        },
-                        "dryClean": {
-                            "label": "Dry, Purify"
-                        },
-                        "heatClean": {
-                            "label": "Heat, Purify"
-                        },
-                        "fanOnly": {
-                            "label": "Purify"
-                        },
-                        "wind": {
-                            "label": "Purify"
-                        },
-                        "notSupported": {
-                            "label": "Not Supported"
-                        },
-                        "force": {
-                            "label": "force"
-                        },
-                        "heatex": {
-                            "label": "HeatEX"
-                        },
-                        "sleep": {
-                            "label": "Sleep"
-                        },
-                        "smartVentilation": {
-                            "label": "Smart Ventilation"
-                        },
-                        "bypass": {
-                            "label": "ByPass"
-                        },
-                        "std": {
-                            "label": "std"
-                        },
-                        "power": {
-                            "label": "power"
-                        },
-                        "eco": {
-                            "label": "eco"
+                        "ventilation": {
+                            "label": "ventilation"
                         },
                         "airconditionermode": {
                             "label": "airConditionerMode"
                         },
+                        "aicomfort": {
+                            "label": "AI Comfort Cooling"
+                        },
+                        "eco": {
+                            "label": "eco"
+                        },
+                        "sleep": {
+                            "label": "sleep"
+                        },
+                        "fan": {
+                            "label": "Vent"
+                        },
                         "purification": {
                             "label": "Purify"
                         },
-                        "ventilation": {
-                            "label": "Ventilation"
+                        "heatex": {
+                            "label": "heatEx"
+                        },
+                        "power": {
+                            "label": "power"
+                        },
+                        "smartventilation": {
+                            "label": "smartVentilation"
+                        },
+                        "comfortcooling": {
+                            "label": "comfortCooling"
+                        },
+                        "heatclean": {
+                            "label": "Heat, Purify"
+                        },
+                        "dryclean": {
+                            "label": "Dry, Purify"
+                        },
+                        "std": {
+                            "label": "std"
+                        },
+                        "cool": {
+                            "label": "Cool"
+                        },
+                        "ai": {
+                            "label": "AI"
+                        },
+                        "dry": {
+                            "label": "Dry"
+                        },
+                        "notsupported": {
+                            "label": "Not Supported"
+                        },
+                        "clean": {
+                            "label": "Purify"
+                        },
+                        "bypass": {
+                            "label": "bypass"
+                        },
+                        "force": {
+                            "label": "force"
+                        },
+                        "fanonly": {
+                            "label": "Vent"
+                        },
+                        "coolclean": {
+                            "label": "Cool, Purify"
+                        },
+                        "wind": {
+                            "label": "Purify"
                         }
                     },
                     "description": "Set the air conditioner mode"

@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Custom IR Button",
     "description": "Allows for the control of a device with stateless custom command buttons",
     "attributes": {
         "availableCustomButtons": {

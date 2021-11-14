@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Switch power state",
     "description": "Allows for the control of a device with a stateless power button",
     "attributes": {
         "availablePowerToggleButtons": {
@@ -14,7 +15,11 @@
             "description": "Emulate the pressing of a supported button",
             "arguments": {
                 "button": {
-                    "i18n": [],
+                    "i18n": {
+                        "powerToggle": {
+                            "label": "Switch power state"
+                        }
+                    },
                     "description": "The button in availablePowerToggleButtons to send to the device"
                 }
             }

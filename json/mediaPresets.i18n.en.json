@@ -1,5 +1,6 @@
 {
     "tag": "en",
+    "label": "Play a favourite",
     "description": "Allows setting a preset from a know list of presets for the media player",
     "attributes": {
         "presets": {

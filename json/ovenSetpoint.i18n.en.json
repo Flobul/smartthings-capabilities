@@ -1,9 +1,10 @@
 {
     "tag": "en",
+    "label": "Oven temperature",
     "description": "Allows for the control of the oven set point.",
     "attributes": {
         "ovenSetpoint": {
-            "label": "oven setpoint",
+            "label": "Oven temperature",
             "description": "Current value of the oven set point",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []

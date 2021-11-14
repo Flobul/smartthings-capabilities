@@ -1,0 +1,11 @@
+{
+    "tag": "fr",
+    "label": "Tone",
+    "attributes": [],
+    "commands": {
+        "beep": {
+            "description": "Beep the device",
+            "arguments": []
+        }
+    }
+}

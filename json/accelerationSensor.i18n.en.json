@@ -1,21 +1,19 @@
 {
     "tag": "en",
-    "label": "Acceleration Sensor",
+    "label": "Vibration sensor",
     "description": "The Acceleration Sensor capability allows for acceleration detection. Some use cases for SmartApps using this capability would be detecting if a washing machine is vibrating, or if a case has moved (particularly useful for knowing if a weapon case has been moved).",
     "attributes": {
         "acceleration": {
-            "label": "vibration",
+            "label": "Vibration sensor",
             "description": "A string representation of whether the sensor is active or not",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
-                    "active": {
-                        "label": "Vibration detected",
-                        "description": "if acceleration is detected"
-                    },
                     "inactive": {
-                        "label": "No vibration",
-                        "description": "if no acceleration is detected"
+                        "label": "No vibration"
+                    },
+                    "active": {
+                        "label": "Vibration detected"
                     }
                 }
             }

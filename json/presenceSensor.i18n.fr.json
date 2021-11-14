@@ -1,17 +1,19 @@
 {
     "tag": "fr",
-    "label": "Presence Sensor",
+    "label": "D\u00e9tecteur pr\u00e9sence",
+    "description": "The ability to see the current status of a presence sensor device",
     "attributes": {
         "presence": {
-            "label": "Pr\u00e9sence",
+            "label": "D\u00e9tecteur pr\u00e9sence",
+            "description": "The current state of the presence sensor",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
                     "not present": {
-                        "label": "Parti"
+                        "label": "not present"
                     },
                     "present": {
-                        "label": "Arriv\u00e9"
+                        "label": "Pr\u00e9sent"
                     }
                 }
             }

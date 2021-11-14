@@ -1,0 +1,52 @@
+{
+    "tag": "fr",
+    "label": "Mode",
+    "description": "Allows for the control of the dishwasher.",
+    "attributes": {
+        "dishwasherMode": {
+            "label": "Mode",
+            "description": "Current mode of the dishwasher",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "label": "Automatique"
+                    },
+                    "quick": {
+                        "label": "Rapide"
+                    },
+                    "dry": {
+                        "label": "Sec"
+                    },
+                    "rinse": {
+                        "label": "Rin\u00e7age"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setDishwasherMode": {
+            "description": "Set the dishwasher mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "quick": {
+                            "label": "Rapide"
+                        },
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "dry": {
+                            "label": "Sec"
+                        },
+                        "rinse": {
+                            "label": "Rin\u00e7age"
+                        }
+                    },
+                    "description": "Set the dishwasher mode to \"auto\", \"quick\", \"rinse\", or \"dry\" mode"
+                }
+            }
+        }
+    }
+}

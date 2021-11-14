@@ -1,12 +1,34 @@
 {
     "tag": "en",
+    "label": "Fine dust",
     "description": "Health Concern levels of fine dust sensor measurements.",
     "attributes": {
         "fineDustHealthConcern": {
-            "label": "fine dust health concern",
+            "label": "Fine dust",
             "description": "Current health concern of fine dust -- also refered to as PM2.5, based on the relative health hazard",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "veryUnhealthy": {
+                        "label": "Very unhealthy"
+                    },
+                    "slightlyUnhealthy": {
+                        "label": "Slightly unhealthy"
+                    },
+                    "unhealthy": {
+                        "label": "Unhealthy"
+                    },
+                    "hazardous": {
+                        "label": "Hazardous"
+                    },
+                    "good": {
+                        "label": "Good"
+                    },
+                    "moderate": {
+                        "label": "Moderate"
+                    }
+                }
+            }
         }
     },
     "commands": []
