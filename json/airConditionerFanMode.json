@@ -17,7 +17,7 @@
                             "medium",
                             "high",
                             "turbo"
-                        ]
+                        ],
                         "maxLength": 255
                     }
                 },
@@ -42,7 +42,6 @@
                                 "high",
                                 "turbo"
                             ]
-                            "type": "string"
                         }
                     }
                 },
@@ -68,7 +67,7 @@
                             "medium",
                             "high",
                             "turbo"
-                        ]
+                        ],
                         "maxLength": 255
                     }
                 }
