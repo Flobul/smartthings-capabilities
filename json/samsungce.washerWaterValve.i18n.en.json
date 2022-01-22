@@ -13,6 +13,9 @@
                     "cold": {
                         "label": "cold"
                     },
+                    "none": {
+                        "label": "none"
+                    },
                     "hot": {
                         "label": "hot"
                     }

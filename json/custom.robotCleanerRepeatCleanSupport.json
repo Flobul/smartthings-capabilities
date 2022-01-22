@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Robot Cleaner Repeat Clean Support",
+    "ephemeral": false,
     "attributes": {
         "robotCleanerRepeatCleanSupport": {
             "schema": {

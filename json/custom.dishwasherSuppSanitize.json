@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dishwasher Supp Sanitize",
+    "ephemeral": false,
     "attributes": {
         "dishwasherSuppSanitize": {
             "schema": {

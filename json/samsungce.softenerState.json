@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Softener State",
+    "ephemeral": false,
     "attributes": {
         "remainingAmount": {
             "schema": {

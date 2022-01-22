@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Disabled Capabilities",
+    "ephemeral": false,
     "attributes": {
         "disabledCapabilities": {
             "schema": {

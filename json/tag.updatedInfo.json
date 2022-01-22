@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Updated Info",
+    "ephemeral": false,
     "attributes": {
         "connection": {
             "schema": {

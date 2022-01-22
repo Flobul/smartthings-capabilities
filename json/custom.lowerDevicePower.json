@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Lower Device Power",
+    "ephemeral": false,
     "attributes": {
         "powerState": {
             "schema": {

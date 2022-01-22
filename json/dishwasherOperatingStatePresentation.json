@@ -306,7 +306,8 @@
                     ],
                     "command": "setMachineState",
                     "argumentType": "string"
-                }
+                },
+                "emphasis": false
             }
         ]
     },

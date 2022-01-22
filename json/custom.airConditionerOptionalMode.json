@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Air Conditioner Optional Mode",
+    "ephemeral": false,
     "attributes": {
         "supportedAcOptionalMode": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Robot Cleaner Hrm Support",
+    "ephemeral": false,
     "attributes": {
         "robotCleanerHrmSupport": {
             "schema": {

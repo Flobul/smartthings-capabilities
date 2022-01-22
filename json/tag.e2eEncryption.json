@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "E2E Encryption",
+    "ephemeral": false,
     "attributes": {
         "encryption": {
             "schema": {

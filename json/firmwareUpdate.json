@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Firmware Update",
+    "ephemeral": false,
     "attributes": {
         "lastUpdateStatusReason": {
             "schema": {
@@ -55,7 +56,8 @@
                         "type": "string",
                         "enum": [
                             "normalOperation",
-                            "updateInProgress"
+                            "updateInProgress",
+                            "insufficientStorage"
                         ]
                     }
                 },

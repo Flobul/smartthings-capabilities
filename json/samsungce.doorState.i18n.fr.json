@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Door State",
+    "attributes": {
+        "doorState": {
+            "label": "doorState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Porte ferm\u00e9e"
+                    },
+                    "open": {
+                        "label": "Porte ouverte"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

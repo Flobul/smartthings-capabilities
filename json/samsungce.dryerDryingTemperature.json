@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dryer Drying Temperature",
+    "ephemeral": false,
     "attributes": {
         "dryingTemperature": {
             "schema": {

@@ -14,13 +14,7 @@
         "setColorValue": {
             "label": "set color value",
             "description": "set the color value",
-            "arguments": {
-                "switchLevel": {
-                    "i18n": [],
-                    "label": "level",
-                    "description": "the switch (dimming) level"
-                }
-            }
+            "arguments": []
         }
     }
 }

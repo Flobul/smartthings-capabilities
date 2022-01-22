@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Virus Doctor Mode",
+    "ephemeral": false,
     "attributes": {
         "virusDoctorMode": {
             "schema": {

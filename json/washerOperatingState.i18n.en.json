@@ -10,25 +10,25 @@
             "i18n": []
         },
         "machineState": {
-            "label": "Device status",
+            "label": "machine state",
             "description": "Current status of the washer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "Stopped"
+                        "label": "stop"
                     },
                     "run": {
-                        "label": "Wash"
+                        "label": "run"
                     },
                     "pause": {
-                        "label": "Paused"
+                        "label": "pause"
                     }
                 }
             }
         },
         "washerJobState": {
-            "label": "Washing machine",
+            "label": "washer job state",
             "description": "The job states supported by the washer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -37,46 +37,49 @@
                         "label": "aIRinse"
                     },
                     "weightSensing": {
-                        "label": "Checking weight"
+                        "label": "weightSensing"
                     },
                     "wash": {
-                        "label": "Wash"
+                        "label": "wash"
                     },
                     "wrinklePrevent": {
-                        "label": "Wrinkle Prevent"
+                        "label": "wrinklePrevent"
                     },
                     "delayWash": {
-                        "label": "Delay end"
+                        "label": "delayWash"
                     },
                     "none": {
-                        "label": "None"
+                        "label": "none"
                     },
                     "airWash": {
-                        "label": "Air Wash"
+                        "label": "airWash"
                     },
                     "aIWash": {
                         "label": "aIWash"
                     },
                     "drying": {
-                        "label": "Drying"
+                        "label": "drying"
                     },
                     "spin": {
-                        "label": "Spin"
+                        "label": "spin"
                     },
                     "aISpin": {
                         "label": "aISpin"
                     },
                     "cooling": {
-                        "label": "Cooling down"
+                        "label": "cooling"
                     },
                     "preWash": {
-                        "label": "Wash"
+                        "label": "preWash"
                     },
                     "finish": {
-                        "label": "Finished"
+                        "label": "finish"
                     },
                     "rinse": {
-                        "label": "Rinse"
+                        "label": "rinse"
+                    },
+                    "freezeProtection": {
+                        "label": "freezeProtection"
                     }
                 }
             }

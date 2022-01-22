@@ -1,0 +1,29 @@
+{
+    "tag": "en",
+    "label": "Operating State",
+    "attributes": {
+        "machineState": {
+            "label": "machineState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
+        },
+        "supportedMachineStates": {
+            "label": "supportedMachineStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

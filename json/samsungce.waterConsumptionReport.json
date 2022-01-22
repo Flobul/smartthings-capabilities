@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Water Consumption Report",
+    "ephemeral": false,
     "attributes": {
         "waterConsumption": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Disabled Components",
+    "ephemeral": false,
     "attributes": {
         "disabledComponents": {
             "schema": {

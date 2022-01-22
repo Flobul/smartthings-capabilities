@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dishwasher Selected Zone",
+    "ephemeral": false,
     "attributes": {
         "dishwasherSelectedZone": {
             "schema": {

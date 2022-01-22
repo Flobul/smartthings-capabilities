@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Air Quality Max Level",
+    "ephemeral": false,
     "attributes": {
         "airQualityMaxLevel": {
             "schema": {

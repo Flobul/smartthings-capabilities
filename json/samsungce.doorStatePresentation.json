@@ -1,0 +1,25 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{doorState.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.doorState.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.doorState.i18n.value.closed.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "id": "samsungce.doorState",
+    "version": 1
+}

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Device Report State Configuration",
+    "ephemeral": false,
     "attributes": {
         "reportStateRealtimePeriod": {
             "schema": {

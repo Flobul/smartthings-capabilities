@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Auto Dispense Softener",
+    "ephemeral": false,
     "attributes": {
         "remainingAmount": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dishwasher Speed Booster",
+    "ephemeral": false,
     "attributes": {
         "dishwasherSpeedBooster": {
             "schema": {

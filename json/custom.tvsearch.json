@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "tvSearch",
+    "ephemeral": false,
     "attributes": [],
     "commands": {
         "search": {

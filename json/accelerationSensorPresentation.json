@@ -59,7 +59,8 @@
                             "type": "inactive"
                         }
                     ],
-                    "value": "acceleration.value"
+                    "value": "acceleration.value",
+                    "valueType": "string"
                 }
             }
         ],

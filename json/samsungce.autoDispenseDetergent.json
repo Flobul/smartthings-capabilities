@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Auto Dispense Detergent",
+    "ephemeral": false,
     "attributes": {
         "remainingAmount": {
             "schema": {

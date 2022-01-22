@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Supports Power On By OCF",
+    "ephemeral": false,
     "attributes": {
         "supportsPowerOnByOcf": {
             "schema": {

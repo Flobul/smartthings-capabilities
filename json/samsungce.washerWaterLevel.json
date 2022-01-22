@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Washer Water Level",
+    "ephemeral": false,
     "attributes": {
         "supportedWaterLevel": {
             "schema": {

@@ -42,15 +42,6 @@
                     "weightSensing": {
                         "label": "V\u00e9rification du poids"
                     },
-                    "drying": {
-                        "label": "S\u00e9chage"
-                    },
-                    "refreshing": {
-                        "label": "refreshing"
-                    },
-                    "cooling": {
-                        "label": "Refroidissement"
-                    },
                     "wrinklePrevent": {
                         "label": "Anti-froissage"
                     },
@@ -63,17 +54,35 @@
                     "finished": {
                         "label": "Termin\u00e9"
                     },
-                    "internalCare": {
-                        "label": "internalCare"
-                    },
                     "none": {
                         "label": "Aucune"
+                    },
+                    "thawingFrozenInside": {
+                        "label": "thawingFrozenInside"
                     },
                     "dehumidifying": {
                         "label": "dehumidifying"
                     },
+                    "continuousDehumidifying": {
+                        "label": "continuousDehumidifying"
+                    },
+                    "drying": {
+                        "label": "S\u00e9chage"
+                    },
+                    "refreshing": {
+                        "label": "refreshing"
+                    },
+                    "cooling": {
+                        "label": "Refroidissement"
+                    },
+                    "internalCare": {
+                        "label": "internalCare"
+                    },
                     "aIDrying": {
                         "label": "aIDrying"
+                    },
+                    "freezeProtection": {
+                        "label": "freezeProtection"
                     }
                 }
             }

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Oven Cavity Status",
+    "ephemeral": false,
     "attributes": {
         "ovenCavityStatus": {
             "schema": {

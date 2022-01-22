@@ -10,19 +10,19 @@
             "i18n": []
         },
         "machineState": {
-            "label": "Device status",
+            "label": "machine state",
             "description": "Current state of the dryer machine operation",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "Stopped"
+                        "label": "stop"
                     },
                     "run": {
-                        "label": "Drying"
+                        "label": "run"
                     },
                     "pause": {
-                        "label": "Paused"
+                        "label": "pause"
                     }
                 }
             }
@@ -34,46 +34,55 @@
             "i18n": []
         },
         "dryerJobState": {
-            "label": "Tumble dryer",
+            "label": "dryer job state",
             "description": "The state of the dryer job",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "weightSensing": {
-                        "label": "Checking weight"
-                    },
-                    "drying": {
-                        "label": "Drying"
-                    },
-                    "refreshing": {
-                        "label": "refreshing"
-                    },
-                    "cooling": {
-                        "label": "Cooling down"
+                        "label": "weightSensing"
                     },
                     "wrinklePrevent": {
-                        "label": "Wrinkle Prevent"
+                        "label": "wrinklePrevent"
                     },
                     "sanitizing": {
                         "label": "sanitizing"
                     },
                     "delayWash": {
-                        "label": "Delay end"
+                        "label": "delayWash"
                     },
                     "finished": {
-                        "label": "Finished"
-                    },
-                    "internalCare": {
-                        "label": "internalCare"
+                        "label": "finished"
                     },
                     "none": {
-                        "label": "None"
+                        "label": "none"
+                    },
+                    "thawingFrozenInside": {
+                        "label": "thawingFrozenInside"
                     },
                     "dehumidifying": {
                         "label": "dehumidifying"
                     },
+                    "continuousDehumidifying": {
+                        "label": "continuousDehumidifying"
+                    },
+                    "drying": {
+                        "label": "drying"
+                    },
+                    "refreshing": {
+                        "label": "refreshing"
+                    },
+                    "cooling": {
+                        "label": "cooling"
+                    },
+                    "internalCare": {
+                        "label": "internalCare"
+                    },
                     "aIDrying": {
                         "label": "aIDrying"
+                    },
+                    "freezeProtection": {
+                        "label": "freezeProtection"
                     }
                 }
             }

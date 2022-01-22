@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Accessibility",
+    "ephemeral": false,
     "attributes": [],
     "commands": {
         "setAccessibility": {

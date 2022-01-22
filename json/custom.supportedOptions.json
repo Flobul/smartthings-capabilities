@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Supported Options",
+    "ephemeral": false,
     "attributes": {
         "referenceTable": {
             "schema": {

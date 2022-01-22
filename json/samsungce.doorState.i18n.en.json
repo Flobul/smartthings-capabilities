@@ -8,10 +8,10 @@
             "i18n": {
                 "value": {
                     "closed": {
-                        "label": "closed"
+                        "label": "Door closed"
                     },
                     "open": {
-                        "label": "open"
+                        "label": "Door open"
                     }
                 }
             }

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Auto Cleaning Mode",
+    "ephemeral": false,
     "attributes": {
         "autoCleaningMode": {
             "schema": {

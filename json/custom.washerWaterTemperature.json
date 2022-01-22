@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Washer Water Temperature",
+    "ephemeral": false,
     "attributes": {
         "supportedWasherWaterTemperature": {
             "schema": {

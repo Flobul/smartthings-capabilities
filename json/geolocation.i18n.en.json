@@ -39,15 +39,15 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
-        "lastUpdateTime": {
-            "label": "last update time",
-            "description": "Last update time",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
-        },
         "longitude": {
             "label": "longitude",
             "description": "Longitude value",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "lastUpdateTime": {
+            "label": "last update time",
+            "description": "Last update time",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         }

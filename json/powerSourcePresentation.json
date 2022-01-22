@@ -89,7 +89,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": null
+                    "value": "powerSource.value",
+                    "valueType": "string"
                 }
             }
         ],

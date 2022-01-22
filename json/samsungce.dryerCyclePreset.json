@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dryer Cycle Preset",
+    "ephemeral": false,
     "attributes": {
         "maxNumberOfPresets": {
             "schema": {

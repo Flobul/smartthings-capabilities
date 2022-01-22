@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dishwasher Operating Supp Progress",
+    "ephemeral": false,
     "attributes": {
         "dishwasherOperatingSuppProgress": {
             "schema": {

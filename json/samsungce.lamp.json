@@ -3,19 +3,29 @@
     "version": 1,
     "status": "proposed",
     "name": "Lamp",
+    "ephemeral": false,
     "attributes": {
         "brightnessLevel": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "enum": [
-                            "off",
-                            "low",
-                            "mid",
-                            "high"
-                        ],
-                        "type": "string"
+                        "oneOf": [
+                            {
+                                "type": "string",
+                                "enum": [
+                                    "off",
+                                    "low",
+                                    "mid",
+                                    "high"
+                                ]
+                            },
+                            {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 100
+                            }
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -23,7 +33,6 @@
                     "value"
                 ]
             },
-            "setter": "setBrightnessLevel",
             "enumCommands": []
         },
         "supportedBrightnessLevel": {
@@ -32,13 +41,22 @@
                 "properties": {
                     "value": {
                         "items": {
-                            "enum": [
-                                "off",
-                                "low",
-                                "mid",
-                                "high"
-                            ],
-                            "type": "string"
+                            "oneOf": [
+                                {
+                                    "type": "string",
+                                    "enum": [
+                                        "off",
+                                        "low",
+                                        "mid",
+                                        "high"
+                                    ]
+                                },
+                                {
+                                    "type": "integer",
+                                    "minimum": 0,
+                                    "maximum": 100
+                                }
+                            ]
                         },
                         "type": "array"
                     }
@@ -59,13 +77,22 @@
                     "name": "level",
                     "optional": false,
                     "schema": {
-                        "enum": [
-                            "off",
-                            "low",
-                            "mid",
-                            "high"
-                        ],
-                        "type": "string"
+                        "oneOf": [
+                            {
+                                "type": "string",
+                                "enum": [
+                                    "off",
+                                    "low",
+                                    "mid",
+                                    "high"
+                                ]
+                            },
+                            {
+                                "type": "integer",
+                                "minimum": 0,
+                                "maximum": 100
+                            }
+                        ]
                     }
                 }
             ]

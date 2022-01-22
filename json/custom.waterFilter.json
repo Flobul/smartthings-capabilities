@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Water Filter",
+    "ephemeral": false,
     "attributes": {
         "waterFilterUsageStep": {
             "schema": {

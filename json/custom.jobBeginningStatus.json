@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Job Beginning Status",
+    "ephemeral": false,
     "attributes": {
         "jobBeginningStatus": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Welcome Care Mode",
+    "ephemeral": false,
     "attributes": {
         "welcomeCareMode": {
             "schema": {

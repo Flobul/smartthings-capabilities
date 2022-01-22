@@ -3,13 +3,14 @@
     "version": 1,
     "status": "live",
     "name": "Carbon Dioxide Measurement",
+    "ephemeral": false,
     "attributes": {
         "carbonDioxide": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "integer",
+                        "type": "number",
                         "minimum": 0,
                         "maximum": 1000000
                     },

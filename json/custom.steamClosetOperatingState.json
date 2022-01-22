@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Steam Closet Operating State",
+    "ephemeral": false,
     "attributes": {
         "supportedSteamClosetJobState": {
             "schema": {

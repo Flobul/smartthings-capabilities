@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Washer Spin Level",
+    "ephemeral": false,
     "attributes": {
         "washerSpinLevel": {
             "schema": {

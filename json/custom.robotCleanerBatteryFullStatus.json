@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Robot Cleaner Battery Full Status",
+    "ephemeral": false,
     "attributes": {
         "robotCleanerBatteryFullStatus": {
             "schema": {

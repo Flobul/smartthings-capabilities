@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Mold Health Concern",
+    "ephemeral": false,
     "attributes": {
         "moldHealthConcern": {
             "schema": {

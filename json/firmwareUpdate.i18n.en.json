@@ -39,6 +39,9 @@
                     "updateInProgress": {
                         "label": "updateInProgress"
                     },
+                    "insufficientStorage": {
+                        "label": "insufficientStorage"
+                    },
                     "normalOperation": {
                         "label": "normalOperation"
                     }

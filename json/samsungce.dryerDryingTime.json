@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dryer Drying Time",
+    "ephemeral": false,
     "attributes": {
         "supportedDryingTime": {
             "schema": {

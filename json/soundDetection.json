@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Sound Detection",
+    "ephemeral": false,
     "attributes": {
         "soundDetectionState": {
             "schema": {
@@ -95,11 +96,9 @@
     },
     "commands": {
         "disableSoundDetection": {
-            "name": "disableSoundDetection",
             "arguments": []
         },
         "enableSoundDetection": {
-            "name": "enableSoundDetection",
             "arguments": []
         }
     }

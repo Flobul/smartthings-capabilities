@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Hepa Filter",
+    "ephemeral": false,
     "attributes": {
         "hepaFilterCapacity": {
             "schema": {

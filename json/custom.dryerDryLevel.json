@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dryer Dry Level",
+    "ephemeral": false,
     "attributes": {
         "dryerDryLevel": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Air Purifier Operation Mode",
+    "ephemeral": false,
     "attributes": {
         "apOperationMode": {
             "schema": {

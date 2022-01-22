@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Power Freeze",
+    "ephemeral": false,
     "attributes": {
         "activated": {
             "schema": {

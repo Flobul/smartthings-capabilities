@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dishwasher Delay Start Time",
+    "ephemeral": false,
     "attributes": {
         "dishwasherDelayStartTime": {
             "schema": {

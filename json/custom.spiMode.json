@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "SPI Mode",
+    "ephemeral": false,
     "attributes": {
         "spiMode": {
             "schema": {

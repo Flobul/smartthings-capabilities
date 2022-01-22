@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Robot Cleaner History Support",
+    "ephemeral": false,
     "attributes": {
         "robotCleanerHistorySupport": {
             "schema": {

@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Steam Closet Course",
+    "ephemeral": false,
     "attributes": {
         "supportedSteamCloseCourse": {
             "schema": {

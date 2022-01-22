@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Detergent State",
+    "ephemeral": false,
     "attributes": {
         "remainingAmount": {
             "schema": {

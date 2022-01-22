@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Device Info",
+    "ephemeral": false,
     "attributes": {
         "deviceType": {
             "schema": {

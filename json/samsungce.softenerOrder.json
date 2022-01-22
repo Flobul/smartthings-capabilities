@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Softener Order",
+    "ephemeral": false,
     "attributes": {
         "alarmEnabled": {
             "schema": {

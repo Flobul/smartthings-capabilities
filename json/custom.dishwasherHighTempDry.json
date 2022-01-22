@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Dishwasher High Temp Dry",
+    "ephemeral": false,
     "attributes": {
         "dishwasherHighTempDry": {
             "schema": {

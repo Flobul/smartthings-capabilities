@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Robot Cleaner Smart Turbo Mode",
+    "ephemeral": false,
     "attributes": {
         "robotCleanerSmartTurboMode": {
             "schema": {

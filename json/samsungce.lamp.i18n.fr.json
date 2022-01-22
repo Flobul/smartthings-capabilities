@@ -4,23 +4,8 @@
     "attributes": {
         "brightnessLevel": {
             "label": "brightnessLevel",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": {
-                "value": {
-                    "high": {
-                        "label": "high"
-                    },
-                    "low": {
-                        "label": "low"
-                    },
-                    "mid": {
-                        "label": "mid"
-                    },
-                    "off": {
-                        "label": "off"
-                    }
-                }
-            }
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
         },
         "supportedBrightnessLevel": {
             "label": "supportedBrightnessLevel",

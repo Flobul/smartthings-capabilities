@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Do Not Disturb Mode",
+    "ephemeral": false,
     "attributes": {
         "doNotDisturb": {
             "schema": {

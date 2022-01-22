@@ -3,6 +3,7 @@
     "version": 1,
     "status": "proposed",
     "name": "Ambient Content",
+    "ephemeral": false,
     "attributes": {
         "supportedAmbientApps": {
             "schema": {
