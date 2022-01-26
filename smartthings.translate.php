@@ -28,60 +28,64 @@ class smartthings_translate
                 "inactive" => __("Sans vibration", __FILE__),
                 "active"   => __("Vibration détectée", __FILE__)
             ],
+            "acOptionalMode" => [
+                "motionDirect"   => __("Mouvement direct", __FILE__),
+                "windFree"       => __("Ventilation autonome", __FILE__),
+                "windFreeSleep"  => __("Veille ventilation autonome", __FILE__),
+                "energySaving"   => __("Économiseur d'énergie", __FILE__),
+                "motionIndirect" => __("Mouvement indirect", __FILE__),
+                "off"            => __("Désactivé", __FILE__),
+                "speed"          => __("Rapide", __FILE__),
+                "smart"          => __("Intelligent", __FILE__),
+                "comfort"        => __("Confort", __FILE__),
+                "sleep"          => __("Nuit", __FILE__),
+                "longWind"       => __("Longue portée d’air", __FILE__),
+                "quiet"          => __("Silencieux", __FILE__),
+                "cubePurify"     => __("cubePurify", __FILE__),
+                "dlightCool"     => __("Refroidissemnt d'light", __FILE__),
+                "twoStep"        => __("2 étapes", __FILE__)
+            ],
             "activity" => [
-                "noActivity" => __("Aucune activité détectée", __FILE__),
-                "falling"    => __("Chute détectée", __FILE__),
-                "standing"   => __("Position debout détectée", __FILE__),
-                "eating"     => __("Prise de repas détectée", __FILE__),
-                "sitting"    => __("Position assise détectée", __FILE__),
-                "lying"      => __("Position allongée détectée", __FILE__)
-            ],
-            "amount" => [
-                "standard" => __("Standard", __FILE__),
-                "extra"    => __("Surplus", __FILE__),
-                "none"     => __("Aucune", __FILE__),
-                "less"     => __("Faible", __FILE__)
-            ],
-            "fanMode" => [
-                "high"     => __("Élevé", __FILE__),
-                "max"      => __("Maximum", __FILE__),
-                "medium"   => __("Moyenne", __FILE__),
-                "pet"      => __("Animal de compagnie", __FILE__),
-                "auto"     => __("Automatique", __FILE__),
-                "sleep"    => __("Veille", __FILE__),
-                "windFree" => __("Ventilation autonome", __FILE__),
-                "smart"    => __("Intelligent", __FILE__),
-                "low"      => __("Faible", __FILE__),
-                "quite"    => __("Assez rapide", __FILE__),
-                "quite"    => __("Silencieux", __FILE__),
-                "turbo"    => __("Turbo", __FILE__)
+                "noActivity" => __("Aucune activité", __FILE__),
+                "falling"    => __("Chute", __FILE__),
+                "standing"   => __("Debout", __FILE__),
+                "eating"     => __("Pause repas", __FILE__),
+                "sitting"    => __("Assis", __FILE__),
+                "lying"      => __("Allongé", __FILE__)
             ],
             "airConditionerMode" => [
-                "auto"             => __("Automatique", __FILE__),
-                "cool"             => __("Refroidissement", __FILE__),
-                "heat"             => __("Chaleur", __FILE__),
-                "clean"            => __("Purification", __FILE__),
-                "dry"              => __("Séchage", __FILE__),
-                "coolClean"        => __("Froid, purification", __FILE__),
-                "dryClean"         => __("Sec, purification", __FILE__),
-                "heatClean"        => __("Chaud, purification", __FILE__),
-                "comfortCooling"   => __("Refroidissement confortable", __FILE__),
-                "aIcomfort"        => __("IA Refroidissement confortable", __FILE__),
-                "fan"              => __("Ventilateur", __FILE__),
-                "fanOnly"          => __("Aération", __FILE__),
-                "wind"             => __("Purifier", __FILE__),
-                "notSupported"     => __("Non supporté", __FILE__),
-                "ventilation"      => __("Ventilation", __FILE__),
-                "sleep"            => __("Veille", __FILE__),
-                "eco"              => __("Eco", __FILE__),
-                "heatex"           => __("heatEx", __FILE__),
-                "purification"     => __("Purification", __FILE__),
-                "power"            => __("power", __FILE__),
-                "smartventilation" => __("smartventilation", __FILE__),
-                "std"              => __("std", __FILE__),
-                "ai"               => __("IA", __FILE__),
-                "bypass"           => __("Contourné", __FILE__),
-                "force"            => __("Forcé", __FILE__)
+                "auto"               => __("Automatique", __FILE__),
+                "cool"               => __("Froid", __FILE__),
+                "heat"               => __("Chaleur", __FILE__),
+                "clean"              => __("Purification", __FILE__),
+                "dry"                => __("Séchage", __FILE__),
+                "coolClean"          => __("Froid, purification", __FILE__),
+                "dryClean"           => __("Sec, purification", __FILE__),
+                "heatClean"          => __("Chaud, purification", __FILE__),
+                "comfortCooling"     => __("Refroidissement confortable", __FILE__),
+                "aIcomfort"          => __("IA Refroidissement confortable", __FILE__),
+                "fan"                => __("Ventilateur", __FILE__),
+                "airconditionermode" => __("airconditionermode", __FILE__),
+                "fanOnly"            => __("Aération", __FILE__),
+                "wind"               => __("Purifier", __FILE__),
+                "notSupported"       => __("Non supporté", __FILE__),
+                "ventilation"        => __("Ventilation", __FILE__),
+                "sleep"              => __("Nuit", __FILE__),
+                "eco"                => __("Eco", __FILE__),
+                "heatex"             => __("Échange de chaleur", __FILE__),
+                "purification"       => __("Purification", __FILE__),
+                "power"              => __("power", __FILE__),
+                "smartventilation"   => __("smartventilation", __FILE__),
+                "std"                => __("std", __FILE__),
+                "ai"                 => __("IA", __FILE__),
+                "bypass"             => __("Ignorer", __FILE__),
+                "force"              => __("Forcé", __FILE__)
+            ],
+            "airFlowDirection" => [
+                "all"        => __("Toutes", __FILE__),
+                "horizontal" => __("Horizontale", __FILE__),
+                "fixed"      => __("Fixe", __FILE__),
+                "vertical"   => __("Verticale", __FILE__)
             ],
             "airPurifierFanMode" => [
                 "auto"     => __("Automatique", __FILE__),
@@ -102,39 +106,21 @@ class smartthings_translate
                 "off" => __("Désactivé", __FILE__),
                 "on"  => __("Activé", __FILE__)
             ],
-            "custom.airConditionerOptionalMode"  => [
-                "motionDirect"   => __("Mouvement direct", __FILE__),
-                "windFree"       => __("Ventilation autonome", __FILE__),
-                "windFreeSleep"  => __("Veille ventilation autonome", __FILE__),
-                "energySaving"   => __("Économiseur d'énergie", __FILE__),
-                "motionIndirect" => __("Mouvement indirect", __FILE__),
-                "off"            => __("Désactivé", __FILE__),
-                "speed"          => __("Rapide", __FILE__),
-                "smart"          => __("Intelligent", __FILE__),
-                "comfort"        => __("Confort", __FILE__),
-                "sleep"          => __("Nuit", __FILE__),
-                "longWind"       => __("Longue portée d’air", __FILE__),
-                "quiet"          => __("Silencieux", __FILE__),
-                "cubePurify"     => __("cubePurify", __FILE__),
-                "dlightCool"     => __("Refroidissemnt d'light", __FILE__),
-                "twoStep"        => __("2 étapes", __FILE__)
+            "alarmSystemArmOnly" =>  [
+                "away" => __("Absent", __FILE__),
+                "off"  => __("Éteint", __FILE__),
+                "stay" => __("Permanent", __FILE__)
             ],
-            "acOptionalMode" => [
-                "motionDirect"   => __("Mouvement direct", __FILE__),
-                "windFree"       => __("Ventilation autonome", __FILE__),
-                "windFreeSleep"  => __("Veille ventilation autonome", __FILE__),
-                "energySaving"   => __("Économiseur d'énergie", __FILE__),
-                "motionIndirect" => __("Mouvement indirect", __FILE__),
-                "off"            => __("Désactivé", __FILE__),
-                "speed"          => __("Rapide", __FILE__),
-                "smart"          => __("Intelligent", __FILE__),
-                "comfort"        => __("Confort", __FILE__),
-                "sleep"          => __("Nuit", __FILE__),
-                "longWind"       => __("Longue portée d’air", __FILE__),
-                "quiet"          => __("Silencieux", __FILE__),
-                "cubePurify"     => __("cubePurify", __FILE__),
-                "dlightCool"     => __("Refroidissemnt d'light", __FILE__),
-                "twoStep"        => __("2 étapes", __FILE__)
+            "alarmSystemStatus" =>  [
+                "away" => __("Absent", __FILE__),
+                "off"  => __("Éteint", __FILE__),
+                "stay" => __("Permanent", __FILE__)
+            ],
+            "amount" => [
+                "standard" => __("Standard", __FILE__),
+                "extra"    => __("Surplus", __FILE__),
+                "none"     => __("Aucune", __FILE__),
+                "less"     => __("Faible", __FILE__)
             ],
             "autoCleaningMode" => [
                 "quietClean" => __("Nettoyage silencieux", __FILE__),
@@ -149,7 +135,7 @@ class smartthings_translate
                 "off"  => __("Désactivée", __FILE__)
             ],
             "brightnessIntensity"=> [
-                "1" => __("Nuit", __FILE__),
+                "1"  => __("Nuit", __FILE__),
                 "2"  => __("Crépuscule", __FILE__),
                 "3"  => __("Éclairage intérieur faible", __FILE__),
                 "4"  => __("Éclairage intérieur modéré", __FILE__),
@@ -198,11 +184,11 @@ class smartthings_translate
                 "on"          => __("Activée", __FILE__)
             ],
             "cameraPreset" => [
-              "presets" => __("Orientation caméra sur point passage", __FILE__),
-              "create"  => __("Créer l'orientation", __FILE__),
-              "update"  => __("Mettre à jour l'orientation", __FILE__),
-              "execute" => __("Executer l'orientation", __FILE__),
-              "delete"  => __("Supprimer l'orientation", __FILE__)
+                "presets" => __("Orientation caméra sur point passage", __FILE__),
+                "create"  => __("Créer l'orientation", __FILE__),
+                "update"  => __("Mettre à jour l'orientation", __FILE__),
+                "execute" => __("Executer l'orientation", __FILE__),
+                "delete"  => __("Supprimer l'orientation", __FILE__)
             ],
             "carbonDioxideHealthConcern" => [
                 "veryUnhealthy"     => __("Très mauvais", __FILE__),
@@ -235,6 +221,23 @@ class smartthings_translate
             "contact" => [
                 "closed" => __("Fermée", __FILE__),
                 "open"   => __("Ouverte", __FILE__)
+            ],
+            "custom.airConditionerOptionalMode"  => [
+                "motionDirect"   => __("Mouvement direct", __FILE__),
+                "windFree"       => __("Ventilation autonome", __FILE__),
+                "windFreeSleep"  => __("Veille ventilation autonome", __FILE__),
+                "energySaving"   => __("Économiseur d'énergie", __FILE__),
+                "motionIndirect" => __("Mouvement indirect", __FILE__),
+                "off"            => __("Désactivé", __FILE__),
+                "speed"          => __("Rapide", __FILE__),
+                "smart"          => __("Intelligent", __FILE__),
+                "comfort"        => __("Confort", __FILE__),
+                "sleep"          => __("Nuit", __FILE__),
+                "longWind"       => __("Longue portée d’air", __FILE__),
+                "quiet"          => __("Silencieux", __FILE__),
+                "cubePurify"     => __("cubePurify", __FILE__),
+                "dlightCool"     => __("Refroidissemnt d'light", __FILE__),
+                "twoStep"        => __("2 étapes", __FILE__)
             ],
             "defrost" => [
                 "off" => __("Désactivé", __FILE__),
@@ -539,6 +542,25 @@ class smartthings_translate
                 "starting" => __("Démarrage", __FILE__),
                 "off"      => __("Arrêté", __FILE__),
                 "unknown"  => __("Inconnu", __FILE__)
+            ],
+            "fanMode" => [
+                "high"     => __("Élevée", __FILE__),
+                "max"      => __("Maximum", __FILE__),
+                "medium"   => __("Moyenne", __FILE__),
+                "pet"      => __("Animal de compagnie", __FILE__),
+                "auto"     => __("Automatique", __FILE__),
+                "sleep"    => __("Veille", __FILE__),
+                "windFree" => __("Ventilation autonome", __FILE__),
+                "smart"    => __("Intelligent", __FILE__),
+                "low"      => __("Basse", __FILE__),
+                "quite"    => __("Assez rapide", __FILE__),
+                "quite"    => __("Silencieux", __FILE__),
+                "turbo"    => __("Turbo", __FILE__),
+                "1"        => __("1", __FILE__),
+                "2"        => __("2", __FILE__),
+                "3"        => __("3", __FILE__),
+                "4"        => __("4", __FILE__),
+                "5"        => __("5", __FILE__)
             ],
             "fanOscillationMode" => [
                 "all"         => __("Toutes", __FILE__),
@@ -1262,7 +1284,7 @@ class smartthings_translate
             "washerSpinLevel" => [
                 "delicate"  => __("Délicat", __FILE__),
                 "1000"      => __("1000", __FILE__),
-                "none"      => __("none", __FILE__),
+                "none"      => __("Aucun", __FILE__),
                 "medium"    => __("Moyen", __FILE__),
                 "extraLow"  => __("Très faible", __FILE__),
                 "high"      => __("Élevé", __FILE__),
@@ -1444,7 +1466,19 @@ class smartthings_translate
                 "siren"  => __("Alarme : Sirène", __FILE__),
                 "strobe" => __("Alarme : Clignotement", __FILE__),
                 "off"    => __("Désactiver l'alarme", __FILE__),
-                "both"   => __("Alarme : Sirène + clignotement", __FILE__)
+                "both"   => __("Alarme : Sirène et clignotement", __FILE__)
+            ],
+            "alarmSystemArmOnly" =>  [
+                "alarmSystemArmOnly" => __("Armement de l'alarme", __FILE__)
+            ],
+            "alarmSystemStatus" =>  [
+                "alarmSystemStatus" => __("Statut de l'alarme", __FILE__)
+            ],
+            "astronomicalData" =>  [
+                "sunrise"     => __("Lever du soleil", __FILE__),
+                "sunsetTime"  => __("Heure du coucher de soleil", __FILE__),
+                "sunset"      => __("Lever de soleil", __FILE__),
+                "sunriseTime" => __("Heure du lever de soleil", __FILE__)
             ],
             "atmosphericPressureMeasurement" => [
                 "atmosphericPressure" => __("Pression atmosphérique", __FILE__)
@@ -1488,11 +1522,14 @@ class smartthings_translate
             "battery" => [
                 "battery" => __("Batterie", __FILE__)
             ],
+            "beacon" => [
+                "presence" => __("Balise", __FILE__)
+            ],
             "bodyMassIndexMeasurement" => [
-                "bmiMeasurement" => __("Indice de masse corporelle", __FILE__)
+                "bmiMeasurement" => __("IMC", __FILE__)
             ],
             "bodyWeightMeasurement" => [
-                "bodyWeightMeasurement" => __("Poids corporel", __FILE__)
+                "bodyWeightMeasurement" => __("Poids", __FILE__)
             ],
             "bufferedVideoCapture" => [
                 "clip"    => __("Clip", __FILE__),
@@ -1692,14 +1729,15 @@ class smartthings_translate
                 "doNotDisturbOn"      => __("Désactiver Ne pas déranger", __FILE__)
             ],
             "custom.dryerDryLevel" => [
-                "dryerDryLevel"          => __("Vitesse de séchage", __FILE__),
-                "supportedDryerDryLevel" => __("Vitesses de séchage prise en charge", __FILE__),
+                "dryerDryLevel"          => __("Niveau de séchage", __FILE__),
+                "supportedDryerDryLevel" => __("Niveaux de séchage prise en charge", __FILE__),
                 "setDryerDryLevel"       => __("Changer la vitesse de séchage", __FILE__)
             ],
             "custom.dryerWrinklePrevent" => [
                 "dryerWrinklePrevent"       => __("Prévention des faux-plis", __FILE__),
                 "setDryerWrinklePreventoff" => __("Désactiver la prévention des faux-plis", __FILE__),
-                "setDryerWrinklePreventon"  => __("Activer la prévention des faux-plis", __FILE__)
+                "setDryerWrinklePreventon"  => __("Activer la prévention des faux-plis", __FILE__),
+                "operatingState"            => __("État de fonctionnement de prévention des faux-plis", __FILE__)
             ],
             "custom.dthVersion" => [
                 "versionNumber" => __("Numéro de version DTH", __FILE__)
@@ -2514,6 +2552,12 @@ class smartthings_translate
                 "setDryerCyclePreset"  => __("Créer un préréglage de cycle", __FILE__),
                 "delete"               => __("Supprimer un préréglage de cycle", __FILE__)
             ],
+            "samsungce.dryerDelayEnd" => [
+                "remainingTime"                => __("Délai restant", __FILE__),
+                "minimumReservableTime"        => __("Délai minimum réservable", __FILE__),
+                "refreshMinimumReservableTime" => __("Rafraîchir le délai minimum réservable", __FILE__),
+                "setDelayTime"                 => __("Changer le délai", __FILE__)
+            ],
             "samsungce.dryerDryingTemperature" => [
                 "dryingTemperature"          => __("Température de séchage", __FILE__),
                 "setDryingTemperature"       => __("Changer la température de séchage", __FILE__),
@@ -3192,7 +3236,7 @@ class smartthings_translate
             ],
             "Table_03" => [
                 "Course_16" =>  __("Coton", __FILE__),
-                "Course_17" =>  __("Rapide (à confirmer)", __FILE__),
+                "Course_17" =>  __("Super rapide", __FILE__),
                 "Course_18" =>  __("Synthétiques", __FILE__),
                 "Course_19" =>  __("Délicat", __FILE__),
                 "Course_1A" =>  __("Laine", __FILE__),
