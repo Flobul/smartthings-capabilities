@@ -1,0 +1,140 @@
+{
+    "tag": "fr",
+    "label": "Running State <state1>\/<remainTime1>",
+    "attributes": {
+        "supportedOperatingState": {
+            "label": "supportedOperatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "operatingState": {
+            "label": "Marche\/Arr\u00eat",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaning": {
+                        "label": "Nettoyage"
+                    },
+                    "patrol": {
+                        "label": "Patrouille"
+                    },
+                    "paused": {
+                        "label": "Pause"
+                    },
+                    "idle": {
+                        "label": "En attente"
+                    },
+                    "findingPet": {
+                        "label": "Surveillance..."
+                    },
+                    "charging": {
+                        "label": "En charge"
+                    },
+                    "emitDust": {
+                        "label": "\u00c9mission de poussi\u00e8re"
+                    },
+                    "error": {
+                        "label": "D\u00e9connect\u00e9(e)"
+                    },
+                    "monitoring": {
+                        "label": "Surveillance..."
+                    },
+                    "manual": {
+                        "label": "Surveillance..."
+                    },
+                    "messaging": {
+                        "label": "messaging"
+                    },
+                    "exploring": {
+                        "label": "Exploration"
+                    },
+                    "mediaPlaying": {
+                        "label": "mediaPlaying"
+                    },
+                    "reserved": {
+                        "label": "reserved"
+                    },
+                    "processing": {
+                        "label": "processing"
+                    },
+                    "homing": {
+                        "label": "Retour pour chargement"
+                    },
+                    "chargingForRemainingJob": {
+                        "label": "En charge"
+                    },
+                    "powerSaving": {
+                        "label": "Mode d'\u00e9conomie d'\u00e9nergie"
+                    },
+                    "charged": {
+                        "label": "Charge compl\u00e8te"
+                    },
+                    "moving": {
+                        "label": "moving"
+                    },
+                    "relocal": {
+                        "label": "Localisation"
+                    }
+                }
+            }
+        },
+        "homingReason": {
+            "label": "homingReason",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaningCompleted": {
+                        "label": "cleaningCompleted"
+                    },
+                    "mapCreated": {
+                        "label": "mapCreated"
+                    },
+                    "lowBattery": {
+                        "label": "lowBattery"
+                    },
+                    "doNotDisturb": {
+                        "label": "doNotDisturb"
+                    },
+                    "dustFulled": {
+                        "label": "dustFulled"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "relocalFailed": {
+                        "label": "relocalFailed"
+                    },
+                    "cleaningCanceled": {
+                        "label": "cleaningCanceled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "resume": {
+            "label": "Start",
+            "arguments": []
+        },
+        "setOperatingState": {
+            "label": "Marche\/Arr\u00eat",
+            "arguments": []
+        },
+        "returnToHome": {
+            "label": "Return To Charging Station",
+            "arguments": []
+        },
+        "start": {
+            "label": "Start",
+            "arguments": []
+        },
+        "pause": {
+            "label": "Pause",
+            "arguments": []
+        },
+        "cancelRemainingJob": {
+            "label": "Arr\u00eat nettoyage",
+            "arguments": []
+        }
+    }
+}

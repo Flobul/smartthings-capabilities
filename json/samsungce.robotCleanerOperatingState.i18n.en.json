@@ -1,0 +1,140 @@
+{
+    "tag": "en",
+    "label": "Running State <state1>\/<remainTime1>",
+    "attributes": {
+        "supportedOperatingState": {
+            "label": "supportedOperatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "operatingState": {
+            "label": "Power",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaning": {
+                        "label": "Cleaning"
+                    },
+                    "patrol": {
+                        "label": "Patrolling"
+                    },
+                    "paused": {
+                        "label": "Paused"
+                    },
+                    "idle": {
+                        "label": "Waiting"
+                    },
+                    "findingPet": {
+                        "label": "Monitoring"
+                    },
+                    "charging": {
+                        "label": "Charging"
+                    },
+                    "emitDust": {
+                        "label": "Emisja py\u0142u"
+                    },
+                    "error": {
+                        "label": "Disconnected"
+                    },
+                    "monitoring": {
+                        "label": "Monitoring"
+                    },
+                    "manual": {
+                        "label": "Monitoring"
+                    },
+                    "messaging": {
+                        "label": "messaging"
+                    },
+                    "exploring": {
+                        "label": "Exploring"
+                    },
+                    "mediaPlaying": {
+                        "label": "mediaPlaying"
+                    },
+                    "reserved": {
+                        "label": "reserved"
+                    },
+                    "processing": {
+                        "label": "processing"
+                    },
+                    "homing": {
+                        "label": "Returning for charging"
+                    },
+                    "chargingForRemainingJob": {
+                        "label": "Charging"
+                    },
+                    "powerSaving": {
+                        "label": "Power saving mode"
+                    },
+                    "charged": {
+                        "label": "Charged"
+                    },
+                    "moving": {
+                        "label": "moving"
+                    },
+                    "relocal": {
+                        "label": "Finding location"
+                    }
+                }
+            }
+        },
+        "homingReason": {
+            "label": "homingReason",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaningCompleted": {
+                        "label": "cleaningCompleted"
+                    },
+                    "mapCreated": {
+                        "label": "mapCreated"
+                    },
+                    "lowBattery": {
+                        "label": "lowBattery"
+                    },
+                    "doNotDisturb": {
+                        "label": "doNotDisturb"
+                    },
+                    "dustFulled": {
+                        "label": "dustFulled"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "relocalFailed": {
+                        "label": "relocalFailed"
+                    },
+                    "cleaningCanceled": {
+                        "label": "cleaningCanceled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "resume": {
+            "label": "Start",
+            "arguments": []
+        },
+        "setOperatingState": {
+            "label": "Power",
+            "arguments": []
+        },
+        "returnToHome": {
+            "label": "Return To Charging Station",
+            "arguments": []
+        },
+        "start": {
+            "label": "Start",
+            "arguments": []
+        },
+        "pause": {
+            "label": "Paused",
+            "arguments": []
+        },
+        "cancelRemainingJob": {
+            "label": "Stop",
+            "arguments": []
+        }
+    }
+}

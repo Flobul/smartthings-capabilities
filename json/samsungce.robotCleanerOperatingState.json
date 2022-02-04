@@ -1,0 +1,154 @@
+{
+    "id": "samsungce.robotCleanerOperatingState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Robot Cleaner Operating State",
+    "ephemeral": false,
+    "attributes": {
+        "supportedOperatingState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "idle",
+                                "homing",
+                                "cleaning",
+                                "charging",
+                                "chargingForRemainingJob",
+                                "charged",
+                                "moving",
+                                "paused",
+                                "error",
+                                "relocal",
+                                "exploring",
+                                "emitDust",
+                                "monitoring",
+                                "patrol",
+                                "manual",
+                                "processing",
+                                "mediaPlaying",
+                                "messaging",
+                                "findingPet",
+                                "powerSaving",
+                                "reserved"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "operatingState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "idle",
+                            "homing",
+                            "cleaning",
+                            "charging",
+                            "chargingForRemainingJob",
+                            "charged",
+                            "moving",
+                            "paused",
+                            "error",
+                            "relocal",
+                            "exploring",
+                            "emitDust",
+                            "monitoring",
+                            "patrol",
+                            "manual",
+                            "processing",
+                            "mediaPlaying",
+                            "messaging",
+                            "findingPet",
+                            "powerSaving",
+                            "reserved"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setOperatingState",
+            "enumCommands": []
+        },
+        "homingReason": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "lowBattery",
+                            "cleaningCompleted",
+                            "cleaningCanceled",
+                            "relocalFailed",
+                            "dustFulled",
+                            "mapCreated",
+                            "doNotDisturb"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "resume": {
+            "name": "resume",
+            "arguments": []
+        },
+        "setOperatingState": {
+            "name": "setOperatingState",
+            "arguments": [
+                {
+                    "name": "operatingState",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "homing",
+                            "cleaning",
+                            "paused",
+                            "findingPet"
+                        ]
+                    }
+                }
+            ]
+        },
+        "returnToHome": {
+            "name": "returnToHome",
+            "arguments": []
+        },
+        "start": {
+            "name": "start",
+            "arguments": []
+        },
+        "pause": {
+            "name": "pause",
+            "arguments": []
+        },
+        "cancelRemainingJob": {
+            "name": "cancelRemainingJob",
+            "arguments": []
+        }
+    }
+}

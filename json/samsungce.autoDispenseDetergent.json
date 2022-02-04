@@ -91,7 +91,7 @@
                     "value"
                 ]
             },
-            "setter": "setDensity",
+            "setter": "setAmount",
             "enumCommands": []
         },
         "supportedAmount": {

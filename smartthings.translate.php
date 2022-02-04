@@ -198,6 +198,18 @@ class smartthings_translate
                 "good"              => __("Bon", __FILE__),
                 "moderate"          => __("Moyen", __FILE__)
             ],
+            "cleaningMode" => [
+                "stop"            => __("Arrêté", __FILE__),
+                "auto"            => __("Auto", __FILE__),
+                "manual"          => __("Manuel", __FILE__),
+                "spot"            => __("Recoin", __FILE__),
+                "area"            => __("Zone", __FILE__),
+                "object"          => __("Objet", __FILE__),
+                "map"             => __("Cartographie", __FILE__),
+                "pet"             => __("Animal", __FILE__),
+                "uncleanedObject" => __("Objet non nettoyé", __FILE__),
+                "patternMap"      => __("patternMap", __FILE__)
+            ],
             "carbonMonoxide" => [
                 "tested"   => __("Testé", __FILE__),
                 "clear"    => __("Sain", __FILE__),
@@ -626,6 +638,16 @@ class smartthings_translate
                 "replace" => __("À remplacer", __FILE__),
                 "wash"    => __("À nettoyer", __FILE__)
             ],
+            "homingReason" => [
+                "cleaningCompleted" => __("Nettoyage terminé", __FILE__),
+                "mapCreated"        => __("Carte créée", __FILE__),
+                "lowBattery"        => __("Batterie faible", __FILE__),
+                "doNotDisturb"      => __("Ne pas déranger", __FILE__),
+                "dustFulled"        => __("Poussiéreux", __FILE__),
+                "none"              => __("Aucun", __FILE__),
+                "relocalFailed"     => __("Erreur de localisation", __FILE__),
+                "cleaningCanceled"  => __("Nettoyage annulé", __FILE__),
+            ],
             "humidifierMode" => [
                 "auto"   => __("Automatique", __FILE__),
                 "high"   => __("Élevé", __FILE__),
@@ -710,6 +732,29 @@ class smartthings_translate
             "occupancy" => [
                 "occupied"   => __("À l'intérieur", __FILE__),
                 "unoccupied" => __("Absent(e)", __FILE__)
+            ],
+            "operatingState" => [
+                "idle"                    => __("En attente", __FILE__),
+                "homing"                  => __("Retour pour chargement", __FILE__),
+                "cleaning"                => __("Nettoyage", __FILE__),
+                "charging"                => __("En charge", __FILE__),
+                "chargingForRemainingJob" => __("En charge pour le travail restant", __FILE__),
+                "charged"                 => __("Charge complète", __FILE__),
+                "moving"                  => __("En déplacement", __FILE__),
+                "paused"                  => __("Pause", __FILE__),
+                "error"                   => __("En erreur", __FILE__),
+                "relocal"                 => __("Localisation", __FILE__),
+                "exploring"               => __("Exploration", __FILE__),
+                "emitDust"                => __("Émission de poussière", __FILE__),
+                "monitoring"              => __("Surveillance", __FILE__),
+                "patrol"                  => __("Patrouille", __FILE__),
+                "manual"                  => __("Manuel", __FILE__),
+                "processing"              => __("En traitement", __FILE__),
+                "mediaPlaying"            => __("Lecture de piste", __FILE__),
+                "messaging"               => __("Messagerie", __FILE__),
+                "findingPet"              => __("Trouve un animal", __FILE__),
+                "powerSaving"             => __("Mode d'économie d'énergie", __FILE__),
+                "reserved"                => __("Réservé", __FILE__)
             ],
             "outingMode" => [
                 "off" => __("Désactivé", __FILE__),
@@ -2458,8 +2503,8 @@ class smartthings_translate
                 "setRapidCoolingon"   => __("Activer le refroidissement rapide", __FILE__),
                 "setRapidCoolingoff"  => __("Désactiver le refroidissement rapide", __FILE__),
                 "rapidFreezing"       => __("Congélation rapide", __FILE__),
-                "setRapidFreezingon"  => __("Activer le refroidissement rapide", __FILE__),
-                "setRapidFreezingoff" => __("Désactiver le refroidissement rapide", __FILE__)
+                "setRapidFreezingon"  => __("Activer la congélation rapide", __FILE__),
+                "setRapidFreezingoff" => __("Désactiver la congélation rapide", __FILE__)
             ],
             "refrigerationSetpoint" => [
                 "refrigerationSetpoint"    => __("Température de réfrigération", __FILE__),
@@ -2592,6 +2637,26 @@ class smartthings_translate
                 "activated"  => __("Fonction de gel", __FILE__),
                 "activate"   => __("Activer la fonction de gel", __FILE__),
                 "deactivate" => __("Désactiver la fonction de gel", __FILE__)
+            ],
+            "samsungce.robotCleanerCleaningMode" => [
+                "supportedCleaningMode" => __("Mode de nettoyage supportés", __FILE__),
+                "repeatModeEnabled"     => __("Mode répétition activé", __FILE__),
+                "supportRepeatMode"     => __("Mode répétition pris en charge", __FILE__),
+                "cleaningMode"          => __("Mode de nettoyage", __FILE__),
+                "setCleaningMode"       => __("Changer le mode de nettoyage", __FILE__),
+                "disableRepeatMode"     => __("Désactiver le mode de répétition", __FILE__),
+                "enableRepeatMode"      => __("Activer le mode de répétition", __FILE__)
+            ],
+            "samsungce.robotCleanerOperatingState" => [
+                "supportedOperatingState" => __("État de fonctionnement supportés", __FILE__),
+                "operatingState"          => __("État de fonctionnement", __FILE__),
+                "homingReason"            => __("Retour sur la station d'accueil", __FILE__),
+                "resume"                  => __("Reprendre", __FILE__),
+                "setOperatingState"       => __("Changer l'état de fonctionnement", __FILE__),
+                "returnToHome"            => __("Retour sur la station d'accueil", __FILE__),
+                "start"                   => __("Démarrer", __FILE__),
+                "pause"                   => __("Mettre en pause", __FILE__),
+                "cancelRemainingJob"      => __("Annuler nettoyage", __FILE__),
             ],
             "samsungce.softenerOrder" => [
                 "enableAlarm"       => __("Activer l'alarme de l'adoucissant", __FILE__),

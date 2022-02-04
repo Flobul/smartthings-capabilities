@@ -3,6 +3,7 @@
     "version": 1,
     "status": "live",
     "name": "Refrigeration",
+    "ephemeral": false,
     "attributes": {
         "defrost": {
             "schema": {
@@ -61,6 +62,7 @@
     },
     "commands": {
         "setDefrost": {
+            "name": "setDefrost",
             "arguments": [
                 {
                     "name": "Defrost",
@@ -76,6 +78,7 @@
             ]
         },
         "setRapidFreezing": {
+            "name": "setRapidFreezing",
             "arguments": [
                 {
                     "name": "rapidFreezing",
@@ -91,6 +94,7 @@
             ]
         },
         "setRapidCooling": {
+            "name": "setRapidCooling",
             "arguments": [
                 {
                     "name": "rapidCooling",

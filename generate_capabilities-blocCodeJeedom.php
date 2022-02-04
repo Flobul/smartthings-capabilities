@@ -2,7 +2,7 @@
 ## Ce script permet de récupérer les capabilities SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).        ##
 ## Il faut mettre ce script dans un bloc code de scénario Jeedom.                            ##
-## Dernière mise à jour : 18/10/2021                                                         ##
+## Dernière mise à jour : 04/02/2022                                                         ##
 ## Créé par Flobul pour Jeedom                                                               ##
 ###############################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
@@ -141,7 +141,9 @@ $customAdded = array(
 	"samsungce.dryerDryingTemperature",
 	"samsungce.powerFreeze",
 	"samsungce.powerCool",
-	"samsungvd.supportsPowerOnByOcf"
+	"samsungvd.supportsPowerOnByOcf",
+	"samsungce.robotCleanerCleaningMode",
+	"samsungce.robotCleanerOperatingState"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/

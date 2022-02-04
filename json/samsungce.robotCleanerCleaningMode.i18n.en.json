@@ -1,0 +1,60 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Cleaning Mode",
+    "attributes": {
+        "supportedCleaningMode": {
+            "label": "supportedCleaningMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "repeatModeEnabled": {
+            "label": "repeatModeEnabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportRepeatMode": {
+            "label": "supportRepeatMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "cleaningMode": {
+            "label": "cleaningMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "area": {
+                        "label": "area"
+                    },
+                    "patternMap": {
+                        "label": "patternMap"
+                    },
+                    "auto": {
+                        "label": "auto"
+                    },
+                    "stop": {
+                        "label": "stop"
+                    },
+                    "spot": {
+                        "label": "spot"
+                    },
+                    "manual": {
+                        "label": "manual"
+                    },
+                    "uncleanedObject": {
+                        "label": "uncleanedObject"
+                    },
+                    "map": {
+                        "label": "map"
+                    },
+                    "pet": {
+                        "label": "pet"
+                    },
+                    "object": {
+                        "label": "object"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}
