@@ -1,0 +1,83 @@
+{
+    "id": "samsungce.softwareUpdate",
+    "version": 1,
+    "status": "proposed",
+    "name": "Software Update",
+    "ephemeral": false,
+    "attributes": {
+        "otnDUID": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "availableModules": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "newVersionAvailable": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "agreeUpdate": {
+            "name": "agreeUpdate",
+            "arguments": [
+                {
+                    "name": "module",
+                    "optional": true,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "disagreeUpdate": {
+            "name": "disagreeUpdate",
+            "arguments": [
+                {
+                    "name": "module",
+                    "optional": true,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
+}

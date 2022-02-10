@@ -1,0 +1,20 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{newVersionAvailable.value}}",
+                "alternatives": [
+                    {
+                        "key": "true",
+                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_AVAILABLE}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "basicPlus": []
+    },
+    "id": "samsungce.softwareUpdate",
+    "version": 1
+}

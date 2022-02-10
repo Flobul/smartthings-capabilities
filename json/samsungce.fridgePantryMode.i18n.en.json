@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Fridge Pantry Mode",
+    "attributes": {
+        "mode": {
+            "label": "mode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedModes": {
+            "label": "supportedModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

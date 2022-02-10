@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Fridge Pantry Info",
+    "attributes": {
+        "name": {
+            "label": "name",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

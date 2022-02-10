@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2022-02-04
+#### Last Update: 2022-02-10
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -360,3 +360,7 @@
 | [Supports Power On By OCF](./json/samsungvd.supportsPowerOnByOcf.json) | 1 | proposed |  | [json](./json/samsungvd.supportsPowerOnByOcf.i18n.en.json) |
 | [Robot Cleaner Cleaning Mode](./json/samsungce.robotCleanerCleaningMode.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerCleaningMode.i18n.en.json) |
 | [Robot Cleaner Operating State](./json/samsungce.robotCleanerOperatingState.json) | 1 | proposed | [json](./json/samsungce.robotCleanerOperatingStatePresentation.json) | [json](./json/samsungce.robotCleanerOperatingState.i18n.fr.json) |
+| [Software Update](./json/samsungce.softwareUpdate.json) | 1 | proposed | [json](./json/samsungce.softwareUpdatePresentation.json) |  |
+| [Dongle Software Installation](./json/samsungce.dongleSoftwareInstallation.json) | 1 | proposed |  |  |
+| [Fridge Pantry Info](./json/samsungce.fridgePantryInfo.json) | 1 | proposed |  |  |
+| [Fridge Pantry Mode](./json/samsungce.fridgePantryMode.json) | 1 | proposed |  |  |

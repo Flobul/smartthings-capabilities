@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "Software Update",
+    "attributes": {
+        "otnDUID": {
+            "label": "otnDUID",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "availableModules": {
+            "label": "availableModules",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "newVersionAvailable": {
+            "label": "newVersionAvailable",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

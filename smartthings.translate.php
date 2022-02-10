@@ -923,8 +923,8 @@ class smartthings_translate
             ],
             "robotCleanerTurboMode" => [
                 "silence" => __("Silencieux", __FILE__),
-                "off"     => __("Désactivé", __FILE__),
-                "on"      => __("Activé", __FILE__)
+                "off"     => __("Normal", __FILE__),
+                "on"      => __("Turbo", __FILE__)
             ],
             "robotCleanerTurboState" => [
                 "turboSilence" => __("Turbo silencieux", __FILE__),
@@ -1099,11 +1099,19 @@ class smartthings_translate
                 "feeding" => __("Distribution", __FILE__)
             ],
             "status" => [
-                "pause" => __("Pause", __FILE__),
-                "play"  => __("Lecture", __FILE__),
-                "stop"  => __("Arrêt", __FILE__),
-                "off"   => __("Désactivé", __FILE__),
-                "on"    => __("Activé", __FILE__)
+                "pause"          => __("Pause", __FILE__),
+                "play"           => __("Lecture", __FILE__),
+                "stop"           => __("Arrêt", __FILE__),
+                "off"            => __("Désactivé", __FILE__),
+                "on"             => __("Activé", __FILE__),
+                "ready"          => __("Prêt", __FILE__),
+                "downloading_20" => __("Téléchargement en cours (20%)", __FILE__),
+                "downloading_40" => __("Téléchargement en cours (40%)", __FILE__),
+                "downloading_60" => __("Téléchargement en cours (60%)", __FILE__),
+                "downloading_80" => __("Téléchargement en cours (80%)", __FILE__),
+                "installing"     => __("Installation en cours", __FILE__),
+                "completed"      => __("Terminé", __FILE__),
+                "failed"         => __("Échoué", __FILE__),
             ],
             "steamClosetCourse" => [
                 "standard"         => __("Standard", __FILE__),
@@ -1776,7 +1784,7 @@ class smartthings_translate
             "custom.dryerDryLevel" => [
                 "dryerDryLevel"          => __("Niveau de séchage", __FILE__),
                 "supportedDryerDryLevel" => __("Niveaux de séchage prise en charge", __FILE__),
-                "setDryerDryLevel"       => __("Changer la vitesse de séchage", __FILE__)
+                "setDryerDryLevel"       => __("Changer le niveau de séchage", __FILE__)
             ],
             "custom.dryerWrinklePrevent" => [
                 "dryerWrinklePrevent"       => __("Prévention des faux-plis", __FILE__),
@@ -2189,6 +2197,7 @@ class smartthings_translate
                 "setEnableStateenabled"  => __("Activer l'état d'activation", __FILE__),
                 "setEnableStatedisabled" => __("Désactiver l'état d'activation", __FILE__),
                 "geofence"               => __("Géorepérage", __FILE__),
+                "setGeofence"            => __("Changer le géorepérage", __FILE__),
                 "setGeofenceenabled"     => __("Activer le géorepérage", __FILE__),
                 "setGeofencedisabled"    => __("Désactiver le géorepérage", __FILE__),
                 "name"                   => __("Nom (géorepérage)", __FILE__),
@@ -2378,7 +2387,7 @@ class smartthings_translate
                 "downlinkSpeed" => __("Vitesse de la liaison descendante", __FILE__)
             ],
             "notification" => [
-                "lastNotification"   => __("Dernière notification", __FILE__),
+                "lastNotification"   => __("Dernières notifications", __FILE__),
                 "sendNotification"   => __("Envoyer une notification", __FILE__),
                 "deviceNotification" => __("Envoyer une notification à l'appareil", __FILE__)
             ],
@@ -2543,8 +2552,8 @@ class smartthings_translate
                 "stop"                         => __("Arrêter le nettoyage", __FILE__)
             ],
             "robotCleanerTurboMode" => [
-                "robotCleanerTurboMode" => __("Mode turbo du robot de nettoyage", __FILE__),
-                "setRobotCleanerTurboMode" => __("Changer le mode turbo du robot de nettoyage", __FILE__)
+                "robotCleanerTurboMode"    => __("Puissance d'aspiration", __FILE__),
+                "setRobotCleanerTurboMode" => __("Changer la puissance d'aspiration", __FILE__)
             ],
             "samsungTV" => [
                 "volume"         => __("Volume", __FILE__),
@@ -2575,6 +2584,9 @@ class smartthings_translate
             ],
             "samsungce.doorState" => [
                 "doorState" => __("Statut de la porte", __FILE__)
+            ],
+            "samsungce.dongleSoftwareInstallation" => [
+                "status" => __("Installation du logiciel du dongle", __FILE__)
             ],
             "samsungce.driverVersion" => [
                 "versionNumber" => __("Numéro de version du pilote", __FILE__)
@@ -2613,6 +2625,14 @@ class smartthings_translate
                 "dryingTime"          => __("Temps de séchage", __FILE__),
                 "setDryingTime"       => __("Changer le temps de séchage", __FILE__)
             ],
+            "samsungce.fridgePantryInfo" => [
+                "name" => __("Nom du garde-manger", __FILE__),
+            ],
+            "samsungce.fridgePantryMode" => [
+                "mode"           => __("Mode du garde-manger", __FILE__),
+                "setMode"        => __("Changer de mode du garde-manger", __FILE__),
+                "supportedModes" => __("Mode du garde-manger pris en charge", __FILE__),
+            ],
             "samsungce.kitchenDeviceIdentification" => [
                 "regionCode" => __("Code de région", __FILE__),
                 "modelCode"  => __("Code de modèle", __FILE__),
@@ -2650,7 +2670,7 @@ class smartthings_translate
             "samsungce.robotCleanerOperatingState" => [
                 "supportedOperatingState" => __("État de fonctionnement supportés", __FILE__),
                 "operatingState"          => __("État de fonctionnement", __FILE__),
-                "homingReason"            => __("Retour sur la station d'accueil", __FILE__),
+                "homingReason"            => __("Raison du retour sur la station d'accueil", __FILE__),
                 "resume"                  => __("Reprendre", __FILE__),
                 "setOperatingState"       => __("Changer l'état de fonctionnement", __FILE__),
                 "returnToHome"            => __("Retour sur la station d'accueil", __FILE__),
@@ -2674,6 +2694,13 @@ class smartthings_translate
                 "setSoftenerType"    => __("Changer le type d'adoucissant", __FILE__),
                 "dosage"             => __("Dosage de l'adoucissant", __FILE__),
                 "setDosage"          => __("Changer le dosage de l'adoucissant", __FILE__)
+            ],
+            "samsungce.softwareUpdate" => [
+                "otnDUID"             => __("Identifiant DHCP OTN", __FILE__),
+                "availableModules"    => __("Modules disponibles", __FILE__),
+                "newVersionAvailable" => __("Mise à jour disponible", __FILE__),
+                "agreeUpdate"         => __("Accepter la mise à jour", __FILE__),
+                "disagreeUpdate"      => __("Refuser la mise à jour", __FILE__),
             ],
             "samsungce.washerBubbleSoak" => [
                 "status" => __("État du lavage à bulles", __FILE__),

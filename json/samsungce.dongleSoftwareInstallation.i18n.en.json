@@ -1,0 +1,39 @@
+{
+    "tag": "en",
+    "label": "Dongle Software Installation",
+    "attributes": {
+        "status": {
+            "label": "status",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "downloading_60": {
+                        "label": "downloading_60"
+                    },
+                    "downloading_80": {
+                        "label": "downloading_80"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    },
+                    "completed": {
+                        "label": "completed"
+                    },
+                    "failed": {
+                        "label": "failed"
+                    },
+                    "downloading_20": {
+                        "label": "downloading_20"
+                    },
+                    "installing": {
+                        "label": "installing"
+                    },
+                    "downloading_40": {
+                        "label": "downloading_40"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}
