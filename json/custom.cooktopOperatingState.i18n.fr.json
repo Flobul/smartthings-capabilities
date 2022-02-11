@@ -1,0 +1,32 @@
+{
+    "tag": "fr",
+    "label": "\u00c9tat de la table de cuisson",
+    "attributes": {
+        "supportedCooktopOperatingState": {
+            "label": "supportedCooktopOperatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "cooktopOperatingState": {
+            "label": "cooktopOperatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "Table de cuisson d\u00e9sactiv\u00e9e"
+                    },
+                    "run": {
+                        "label": "Table de cuisson activ\u00e9e"
+                    },
+                    "finished": {
+                        "label": "finished"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

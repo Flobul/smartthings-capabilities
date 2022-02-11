@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "View Inside",
+    "attributes": {
+        "contents": {
+            "label": "contents",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "lastUpdatedTime": {
+            "label": "lastUpdatedTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

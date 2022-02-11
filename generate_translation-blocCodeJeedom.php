@@ -151,7 +151,10 @@ $customAdded = array(
 	"samsungce.softwareUpdate",
 	"samsungce.dongleSoftwareInstallation",
 	"samsungce.fridgePantryInfo",
-	"samsungce.fridgePantryMode"
+	"samsungce.fridgePantryMode",
+	"samsungce.viewInside",
+	"custom.cooktopOperatingState",
+	"samsungce.kidsLockControl"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/

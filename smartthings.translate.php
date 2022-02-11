@@ -234,6 +234,12 @@ class smartthings_translate
                 "closed" => __("Fermée", __FILE__),
                 "open"   => __("Ouverte", __FILE__)
             ],
+            "cooktopOperatingState" => [
+                "paused"   => __("En pause", __FILE__),
+                "ready"    => __("Désactivée", __FILE__),
+                "run"      => __("Activée", __FILE__),
+                "finished" => __("Terminée", __FILE__)
+            ],
             "custom.airConditionerOptionalMode"  => [
                 "motionDirect"   => __("Mouvement direct", __FILE__),
                 "windFree"       => __("Ventilation autonome", __FILE__),
@@ -1677,6 +1683,10 @@ class smartthings_translate
                 "autoCleaningMode"    => __("Mode de purification automatique", __FILE__),
                 "setAutoCleaningMode" => __("Changer le mode de purification automatique", __FILE__)
             ],
+            "custom.cooktopOperatingState" => [
+                "supportedCooktopOperatingState" => __("États de la table de cuisson pris en charge", __FILE__),
+                "cooktopOperatingState"          => __("État de la table de cuisson", __FILE__)
+            ],
             "custom.deodorFilter" => [
                 "deodorFilterCapacity"      => __("Capacité du filtre désodorisant", __FILE__),
                 "deodorFilterLastResetDate" => __("Dernière réinitialisation du filtre désodorisant", __FILE__),
@@ -1817,7 +1827,7 @@ class smartthings_translate
                 "energyType"                   => __("Type d'énergie", __FILE__),
                 "energySavingSupport"          => __("Aide à l'économie d'énergie", __FILE__),
                 "energySavingOperation"        => __("Opération d'économie d'énergie", __FILE__),
-                "energySavingOperationSupport" => __("Aide à l'pération d'économie d'énergie", __FILE__),
+                "energySavingOperationSupport" => __("Aide à l'opération d'économie d'énergie", __FILE__),
                 "drMaxDuration"                => __("Durée maximale de DR", __FILE__)
             ],
             "custom.error" => [
@@ -2643,6 +2653,11 @@ class smartthings_translate
                 "unlock"    => __("Désactiver la sécurité enfant", __FILE__),
                 "lockState" => __("Statut de la sécurité enfant", __FILE__)
             ],
+            "samsungce.kidsLockControl" => [
+                "lock"      => __("Activer la sécurité enfant", __FILE__),
+                "unlock"    => __("Désactiver la sécurité enfant", __FILE__),
+                "lockState" => __("Statut de la sécurité enfant", __FILE__)
+            ],
             "samsungce.lamp" => [
                 "brightnessLevel"          => __("Niveau de luminosité", __FILE__),
                 "setBrightnessLevel"       => __("Changer le niveau de luminosité", __FILE__),
@@ -2701,6 +2716,12 @@ class smartthings_translate
                 "newVersionAvailable" => __("Mise à jour disponible", __FILE__),
                 "agreeUpdate"         => __("Accepter la mise à jour", __FILE__),
                 "disagreeUpdate"      => __("Refuser la mise à jour", __FILE__),
+            ],
+            "samsungce.viewInside" => [
+              "contents"        => __("Contenu du fichier", __FILE__),
+              "lastUpdatedTime" => __("Dernière mise à jour du fichier", __FILE__),
+              "refreshAll"      => __("Rafraîchir tous les fichiers", __FILE__),
+              "refresh"         => __("Rafraîchir le fichier", __FILE__),
             ],
             "samsungce.washerBubbleSoak" => [
                 "status" => __("État du lavage à bulles", __FILE__),

@@ -1,0 +1,32 @@
+{
+    "tag": "en",
+    "label": "Cooktop status",
+    "attributes": {
+        "supportedCooktopOperatingState": {
+            "label": "supportedCooktopOperatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "cooktopOperatingState": {
+            "label": "cooktopOperatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "Cooktop off"
+                    },
+                    "run": {
+                        "label": "Cooktop on"
+                    },
+                    "finished": {
+                        "label": "finished"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

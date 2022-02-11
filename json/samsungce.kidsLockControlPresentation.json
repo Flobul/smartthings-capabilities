@@ -1,0 +1,28 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "lock",
+                            "value": "{{i18n.commands.lock.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unlock",
+                            "value": "{{i18n.commands.unlock.label}}",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "emphasis": false
+            }
+        ]
+    },
+    "id": "samsungce.kidsLockControl",
+    "version": 1
+}
