@@ -1,0 +1,30 @@
+{
+    "tag": "en",
+    "label": "Scenes",
+    "description": "Allows for listing and execution of user-defined scenes, including the notion of a current scene",
+    "attributes": {
+        "supportedScenes": {
+            "label": "supported scenes",
+            "description": "Supported scenes for this device to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        },
+        "scene": {
+            "label": "scene",
+            "description": "The currently active scene",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setScene": {
+            "description": "Set the scene",
+            "arguments": {
+                "scene": {
+                    "i18n": [],
+                    "description": "The scene to set the device to"
+                }
+            }
+        }
+    }
+}

@@ -9,26 +9,17 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "up_hold": {
-                        "label": "Held up"
-                    },
-                    "up_5x": {
-                        "label": "Toggled up 5 times"
-                    },
                     "up_6x": {
                         "label": "Toggled up 6 times"
                     },
                     "held": {
                         "label": "Held"
                     },
-                    "double": {
-                        "label": "Double pressed"
+                    "swipe_left": {
+                        "label": "swipe_left"
                     },
-                    "down_6x": {
-                        "label": "Toggled down 6 times"
-                    },
-                    "up_3x": {
-                        "label": "Toggled up 3 times"
+                    "swipe_right": {
+                        "label": "swipe_right"
                     },
                     "down": {
                         "label": "Toggled down"
@@ -39,17 +30,8 @@
                     "up_2x": {
                         "label": "Toggled up 2 times"
                     },
-                    "pushed_2x": {
-                        "label": "Pressed 2 times"
-                    },
-                    "pushed_6x": {
-                        "label": "Pressed 6 times"
-                    },
                     "pushed_5x": {
                         "label": "Pressed 5 times"
-                    },
-                    "pushed_4x": {
-                        "label": "Pressed 4 times"
                     },
                     "pushed_3x": {
                         "label": "Pressed 3 times"
@@ -57,20 +39,50 @@
                     "down_4x": {
                         "label": "Toggled down 4 times"
                     },
+                    "down_2x": {
+                        "label": "Toggled down 2 times"
+                    },
+                    "up": {
+                        "label": "Toggled up"
+                    },
+                    "up_hold": {
+                        "label": "Held up"
+                    },
+                    "swipe_down": {
+                        "label": "swipe_down"
+                    },
+                    "up_5x": {
+                        "label": "Toggled up 5 times"
+                    },
+                    "double": {
+                        "label": "Double pressed"
+                    },
+                    "down_6x": {
+                        "label": "Toggled down 6 times"
+                    },
+                    "up_3x": {
+                        "label": "Toggled up 3 times"
+                    },
+                    "pushed_2x": {
+                        "label": "Pressed 2 times"
+                    },
+                    "swipe_up": {
+                        "label": "swipe_up"
+                    },
+                    "pushed_6x": {
+                        "label": "Pressed 6 times"
+                    },
+                    "pushed_4x": {
+                        "label": "Pressed 4 times"
+                    },
                     "down_hold": {
                         "label": "Held down"
                     },
                     "down_5x": {
                         "label": "Toggled down 5 times"
                     },
-                    "down_2x": {
-                        "label": "Toggled down 2 times"
-                    },
                     "down_3x": {
                         "label": "Toggled down 3 times"
-                    },
-                    "up": {
-                        "label": "Toggled up"
                     },
                     "pushed": {
                         "label": "Pressed"

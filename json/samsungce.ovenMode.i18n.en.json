@@ -1,0 +1,434 @@
+{
+    "tag": "en",
+    "label": "Oven Mode",
+    "attributes": {
+        "supportedOvenModes": {
+            "label": "supportedOvenModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "ovenMode": {
+            "label": "ovenMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "Healthycook6": {
+                        "label": "Healthycook6"
+                    },
+                    "Healthycook5": {
+                        "label": "Healthycook5"
+                    },
+                    "ConvectionSear": {
+                        "label": "ConvectionSear"
+                    },
+                    "SteamAutocook": {
+                        "label": "SteamAutocook"
+                    },
+                    "TopHeatPluseConvection": {
+                        "label": "TopHeatPluseConvection"
+                    },
+                    "AirSousvide": {
+                        "label": "AirSousvide"
+                    },
+                    "FanGrill": {
+                        "label": "FanGrill"
+                    },
+                    "Conventional": {
+                        "label": "Conventional"
+                    },
+                    "ConvectionCombi": {
+                        "label": "ConvectionCombi"
+                    },
+                    "MemoryCook": {
+                        "label": "MemoryCook"
+                    },
+                    "VaporConvection": {
+                        "label": "VaporConvection"
+                    },
+                    "Healthycook2": {
+                        "label": "Healthycook2"
+                    },
+                    "Healthycook1": {
+                        "label": "Healthycook1"
+                    },
+                    "Healthycook4": {
+                        "label": "Healthycook4"
+                    },
+                    "Healthycook3": {
+                        "label": "Healthycook3"
+                    },
+                    "FourPartPureConvectionSingle": {
+                        "label": "FourPartPureConvectionSingle"
+                    },
+                    "ChefProof": {
+                        "label": "ChefProof"
+                    },
+                    "Cookie": {
+                        "label": "Cookie"
+                    },
+                    "TopConvection": {
+                        "label": "TopConvection"
+                    },
+                    "MicroWaveGrill": {
+                        "label": "MicroWaveGrill"
+                    },
+                    "ChefBroil": {
+                        "label": "ChefBroil"
+                    },
+                    "SpeedBake": {
+                        "label": "SpeedBake"
+                    },
+                    "HotBlast": {
+                        "label": "HotBlast"
+                    },
+                    "SelfClean": {
+                        "label": "SelfClean"
+                    },
+                    "SlowCookBeef": {
+                        "label": "SlowCookBeef"
+                    },
+                    "FanConventional": {
+                        "label": "FanConventional"
+                    },
+                    "BroilS": {
+                        "label": "BroilS"
+                    },
+                    "Drain": {
+                        "label": "Drain"
+                    },
+                    "SteamCook": {
+                        "label": "SteamCook"
+                    },
+                    "NaturalSteam": {
+                        "label": "NaturalSteam"
+                    },
+                    "AutocookCustom": {
+                        "label": "AutocookCustom"
+                    },
+                    "MultiLevelCook": {
+                        "label": "MultiLevelCook"
+                    },
+                    "SlowCook": {
+                        "label": "SlowCook"
+                    },
+                    "SteamClean": {
+                        "label": "SteamClean"
+                    },
+                    "FavoriteCook": {
+                        "label": "FavoriteCook"
+                    },
+                    "Autocook": {
+                        "label": "Autocook"
+                    },
+                    "ConvectionBroil": {
+                        "label": "ConvectionBroil"
+                    },
+                    "GreenClean": {
+                        "label": "GreenClean"
+                    },
+                    "AirFry": {
+                        "label": "AirFry"
+                    },
+                    "MicroWaveConvection": {
+                        "label": "MicroWaveConvection"
+                    },
+                    "PyroFree": {
+                        "label": "PyroFree"
+                    },
+                    "FavoriteRecipes": {
+                        "label": "FavoriteRecipes"
+                    },
+                    "SlowCookPoultry": {
+                        "label": "SlowCookPoultry"
+                    },
+                    "SteamRoast": {
+                        "label": "SteamRoast"
+                    },
+                    "SteamBottomConvection": {
+                        "label": "SteamBottomConvection"
+                    },
+                    "VaporTopHeatPluseConvection": {
+                        "label": "VaporTopHeatPluseConvection"
+                    },
+                    "FrozenFood": {
+                        "label": "FrozenFood"
+                    },
+                    "Descale": {
+                        "label": "Descale"
+                    },
+                    "SpeedPowerConvection": {
+                        "label": "SpeedPowerConvection"
+                    },
+                    "PureConvection": {
+                        "label": "PureConvection"
+                    },
+                    "ChefBake": {
+                        "label": "ChefBake"
+                    },
+                    "SlimfryMiddle": {
+                        "label": "SlimfryMiddle"
+                    },
+                    "Easycook1": {
+                        "label": "Easycook1"
+                    },
+                    "MW+HotBlast2": {
+                        "label": "MW+HotBlast2"
+                    },
+                    "BottomHeat": {
+                        "label": "BottomHeat"
+                    },
+                    "BottomConvection": {
+                        "label": "BottomConvection"
+                    },
+                    "Easycook2": {
+                        "label": "Easycook2"
+                    },
+                    "Easycook3": {
+                        "label": "Easycook3"
+                    },
+                    "VaporCleaning": {
+                        "label": "VaporCleaning"
+                    },
+                    "WarmHold": {
+                        "label": "WarmHold"
+                    },
+                    "HOMECARE_WIZARD_V2": {
+                        "label": "HOMECARE_WIZARD_V2"
+                    },
+                    "VaporMWO": {
+                        "label": "VaporMWO"
+                    },
+                    "Deodorization": {
+                        "label": "Deodorization"
+                    },
+                    "IntensiveCook": {
+                        "label": "IntensiveCook"
+                    },
+                    "SlimfryStrong": {
+                        "label": "SlimfryStrong"
+                    },
+                    "SpeedBroil": {
+                        "label": "SpeedBroil"
+                    },
+                    "ProveDough": {
+                        "label": "ProveDough"
+                    },
+                    "SteamProof": {
+                        "label": "SteamProof"
+                    },
+                    "MicroWave": {
+                        "label": "MicroWave"
+                    },
+                    "SpeedConvection": {
+                        "label": "SpeedConvection"
+                    },
+                    "SteamReheat": {
+                        "label": "SteamReheat"
+                    },
+                    "SteamAssist": {
+                        "label": "SteamAssist"
+                    },
+                    "ThreePartPureConvection": {
+                        "label": "ThreePartPureConvection"
+                    },
+                    "ToastSlicedBread": {
+                        "label": "ToastSlicedBread"
+                    },
+                    "SlowCookStew": {
+                        "label": "SlowCookStew"
+                    },
+                    "PowerBake": {
+                        "label": "PowerBake"
+                    },
+                    "NoOperation": {
+                        "label": "NoOperation"
+                    },
+                    "VaporBottomHeatPluseConvection": {
+                        "label": "VaporBottomHeatPluseConvection"
+                    },
+                    "Defrost": {
+                        "label": "Defrost"
+                    },
+                    "ProRoasting": {
+                        "label": "ProRoasting"
+                    },
+                    "LargeGrill": {
+                        "label": "LargeGrill"
+                    },
+                    "SteamBake": {
+                        "label": "SteamBake"
+                    },
+                    "InternalClean": {
+                        "label": "InternalClean"
+                    },
+                    "VaporGRILL": {
+                        "label": "VaporGRILL"
+                    },
+                    "MicroWaveHotBlast": {
+                        "label": "MicroWaveHotBlast"
+                    },
+                    "PureConvectionSear": {
+                        "label": "PureConvectionSear"
+                    },
+                    "AirFryer": {
+                        "label": "AirFryer"
+                    },
+                    "Grill": {
+                        "label": "Grill"
+                    },
+                    "SpeedBrown": {
+                        "label": "SpeedBrown"
+                    },
+                    "EcoGrill": {
+                        "label": "EcoGrill"
+                    },
+                    "Fermentation": {
+                        "label": "Fermentation"
+                    },
+                    "ProConvection": {
+                        "label": "ProConvection"
+                    },
+                    "BroilConvection": {
+                        "label": "BroilConvection"
+                    },
+                    "Dehydrate": {
+                        "label": "Dehydrate"
+                    },
+                    "KeepWarm": {
+                        "label": "KeepWarm"
+                    },
+                    "Roast": {
+                        "label": "Roast"
+                    },
+                    "MicroWaveFanGrill": {
+                        "label": "MicroWaveFanGrill"
+                    },
+                    "Broil": {
+                        "label": "Broil"
+                    },
+                    "CleanAirPyro": {
+                        "label": "CleanAirPyro"
+                    },
+                    "FineSteam": {
+                        "label": "FineSteam"
+                    },
+                    "Proof": {
+                        "label": "Proof"
+                    },
+                    "Roasting": {
+                        "label": "Roasting"
+                    },
+                    "Bottom": {
+                        "label": "Bottom"
+                    },
+                    "ConvectionRoast": {
+                        "label": "ConvectionRoast"
+                    },
+                    "SteamBreadProof": {
+                        "label": "SteamBreadProof"
+                    },
+                    "MultiGrill": {
+                        "label": "MultiGrill"
+                    },
+                    "EcoConvection": {
+                        "label": "EcoConvection"
+                    },
+                    "BottomHeatPluseConvection": {
+                        "label": "BottomHeatPluseConvection"
+                    },
+                    "Preheat": {
+                        "label": "Preheat"
+                    },
+                    "PizzaCook": {
+                        "label": "PizzaCook"
+                    },
+                    "Convection": {
+                        "label": "Convection"
+                    },
+                    "PlateWarm": {
+                        "label": "PlateWarm"
+                    },
+                    "GrillConvection": {
+                        "label": "GrillConvection"
+                    },
+                    "GreenCleanReal": {
+                        "label": "GreenCleanReal"
+                    },
+                    "SpeedGrill": {
+                        "label": "SpeedGrill"
+                    },
+                    "SpeedConvSear": {
+                        "label": "SpeedConvSear"
+                    },
+                    "Bake": {
+                        "label": "Bake"
+                    },
+                    "CatalyticClean": {
+                        "label": "CatalyticClean"
+                    },
+                    "ConvectionBake": {
+                        "label": "ConvectionBake"
+                    },
+                    "FourPartPureConvection": {
+                        "label": "FourPartPureConvection"
+                    },
+                    "PureSteam": {
+                        "label": "PureSteam"
+                    },
+                    "MoistSteam": {
+                        "label": "MoistSteam"
+                    },
+                    "BroilCombi": {
+                        "label": "BroilCombi"
+                    },
+                    "DefrostA": {
+                        "label": "DefrostA"
+                    },
+                    "BreadProof": {
+                        "label": "BreadProof"
+                    },
+                    "MicroWaveRoast": {
+                        "label": "MicroWaveRoast"
+                    },
+                    "PowerConvection": {
+                        "label": "PowerConvection"
+                    },
+                    "PowerConvectionCombi": {
+                        "label": "PowerConvectionCombi"
+                    },
+                    "ToastCroissant": {
+                        "label": "ToastCroissant"
+                    },
+                    "SteamCleanReal": {
+                        "label": "SteamCleanReal"
+                    },
+                    "SteamTopConvection": {
+                        "label": "SteamTopConvection"
+                    },
+                    "FrozenMode": {
+                        "label": "FrozenMode"
+                    },
+                    "SpeedRoast": {
+                        "label": "SpeedRoast"
+                    },
+                    "SmallGrill": {
+                        "label": "SmallGrill"
+                    },
+                    "SteamConvection": {
+                        "label": "SteamConvection"
+                    },
+                    "StoneMode": {
+                        "label": "StoneMode"
+                    },
+                    "Drying": {
+                        "label": "Drying"
+                    },
+                    "ToastBagle": {
+                        "label": "ToastBagle"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "Kitchen Device Defaults",
+    "attributes": {
+        "defaultOperationTime": {
+            "label": "defaultOperationTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "defaultOvenMode": {
+            "label": "defaultOvenMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "defaultOvenSetpoint": {
+            "label": "defaultOvenSetpoint",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

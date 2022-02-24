@@ -1,10 +1,12 @@
 {
     "tag": "en",
     "label": "Operating State",
+    "description": "Allows for the control of the operational state.",
     "attributes": {
         "machineState": {
-            "label": "machineState",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "machine state",
+            "description": "Current state of the machine",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "running": {
@@ -20,10 +22,33 @@
             }
         },
         "supportedMachineStates": {
-            "label": "supportedMachineStates",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "label": "supported machine states",
+            "description": "States supported by the machine",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
         }
     },
-    "commands": []
+    "commands": {
+        "setMachineState": {
+            "description": "Set the machine state",
+            "arguments": {
+                "state": {
+                    "i18n": [],
+                    "description": "Set the machine to this state"
+                }
+            }
+        }
+    }
 }

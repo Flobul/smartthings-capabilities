@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Defined Recipe",
+    "attributes": {
+        "definedRecipe": {
+            "label": "definedRecipe",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

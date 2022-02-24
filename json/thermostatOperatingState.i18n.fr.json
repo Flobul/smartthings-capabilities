@@ -13,19 +13,19 @@
                         "label": "Inactif"
                     },
                     "pending heat": {
-                        "label": "pending heat"
+                        "label": "En attente de la chauffe"
                     },
                     "vent economizer": {
-                        "label": "vent economizer"
+                        "label": "\u00c9conomiseur d'a\u00e9ration"
                     },
                     "cooling": {
                         "label": "Refroidissement"
                     },
                     "pending cool": {
-                        "label": "pending cool"
+                        "label": "En attente du refroidissement"
                     },
                     "fan only": {
-                        "label": "fan only"
+                        "label": "Ventilateur seulement"
                     },
                     "heating": {
                         "label": "Chauffe"

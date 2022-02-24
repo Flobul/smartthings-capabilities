@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "not detected": {
-                        "label": "not detected"
+                        "label": "No sound"
                     },
                     "detected": {
                         "label": "Sound detected"

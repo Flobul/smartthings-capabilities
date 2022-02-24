@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "not present": {
-                        "label": "not present"
+                        "label": "Not present"
                     },
                     "present": {
                         "label": "Present"

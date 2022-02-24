@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "Meat Probe",
+    "attributes": {
+        "temperatureSetpoint": {
+            "label": "temperatureSetpoint",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "temperature": {
+            "label": "temperature",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "status": {
+            "label": "status",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

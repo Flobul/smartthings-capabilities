@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "unlocked with timeout": {
-                        "label": "unlocked with timeout"
+                        "label": "Temporarily unlocked"
                     },
                     "locked": {
                         "label": "Locked"

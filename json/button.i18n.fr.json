@@ -9,26 +9,17 @@
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
-                    "up_hold": {
-                        "label": "Maintenu vers le haut"
-                    },
-                    "up_5x": {
-                        "label": "Bascul\u00e9 vers le haut 5 fois"
-                    },
                     "up_6x": {
                         "label": "Bascul\u00e9 vers le haut 6 fois"
                     },
                     "held": {
                         "label": "Maintenue appuy\u00e9e"
                     },
-                    "double": {
-                        "label": "Vous avez appuy\u00e9 deux fois"
+                    "swipe_left": {
+                        "label": "swipe_left"
                     },
-                    "down_6x": {
-                        "label": "Bascul\u00e9 vers le bas 6 fois"
-                    },
-                    "up_3x": {
-                        "label": "Bascul\u00e9 vers le haut 3 fois"
+                    "swipe_right": {
+                        "label": "swipe_right"
                     },
                     "down": {
                         "label": "Bascul\u00e9 vers le bas"
@@ -39,17 +30,8 @@
                     "up_2x": {
                         "label": "Bascul\u00e9 vers le haut 2 fois"
                     },
-                    "pushed_2x": {
-                        "label": "2 appuis effectu\u00e9s"
-                    },
-                    "pushed_6x": {
-                        "label": "6 appuis effectu\u00e9s"
-                    },
                     "pushed_5x": {
                         "label": "5 appuis effectu\u00e9s"
-                    },
-                    "pushed_4x": {
-                        "label": "4 appuis effectu\u00e9s"
                     },
                     "pushed_3x": {
                         "label": "3 appuis effectu\u00e9s"
@@ -57,20 +39,50 @@
                     "down_4x": {
                         "label": "Bascul\u00e9 vers le bas 4 fois"
                     },
+                    "down_2x": {
+                        "label": "Bascul\u00e9 vers le bas 2 fois"
+                    },
+                    "up": {
+                        "label": "Bascul\u00e9 vers le haut"
+                    },
+                    "up_hold": {
+                        "label": "Maintenu vers le haut"
+                    },
+                    "swipe_down": {
+                        "label": "swipe_down"
+                    },
+                    "up_5x": {
+                        "label": "Bascul\u00e9 vers le haut 5 fois"
+                    },
+                    "double": {
+                        "label": "Vous avez appuy\u00e9 deux fois"
+                    },
+                    "down_6x": {
+                        "label": "Bascul\u00e9 vers le bas 6 fois"
+                    },
+                    "up_3x": {
+                        "label": "Bascul\u00e9 vers le haut 3 fois"
+                    },
+                    "pushed_2x": {
+                        "label": "2 appuis effectu\u00e9s"
+                    },
+                    "swipe_up": {
+                        "label": "swipe_up"
+                    },
+                    "pushed_6x": {
+                        "label": "6 appuis effectu\u00e9s"
+                    },
+                    "pushed_4x": {
+                        "label": "4 appuis effectu\u00e9s"
+                    },
                     "down_hold": {
                         "label": "Maintenu vers le bas"
                     },
                     "down_5x": {
                         "label": "Bascul\u00e9 vers le bas 5 fois"
                     },
-                    "down_2x": {
-                        "label": "Bascul\u00e9 vers le bas 2 fois"
-                    },
                     "down_3x": {
                         "label": "Bascul\u00e9 vers le bas 3 fois"
-                    },
-                    "up": {
-                        "label": "Bascul\u00e9 vers le haut"
                     },
                     "pushed": {
                         "label": "Appuy\u00e9"

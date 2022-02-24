@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "not sleeping": {
-                        "label": "not sleeping"
+                        "label": "Pas en veille"
                     },
                     "sleeping": {
                         "label": "En veille"

@@ -1,0 +1,98 @@
+{
+    "tag": "en",
+    "label": "Oven Operating State",
+    "attributes": {
+        "completionTime": {
+            "label": "completionTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "operatingState": {
+            "label": "operatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
+        },
+        "progress": {
+            "label": "progress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "ovenJobState": {
+            "label": "ovenJobState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaning": {
+                        "label": "cleaning"
+                    },
+                    "sensing": {
+                        "label": "sensing"
+                    },
+                    "stoneHeating": {
+                        "label": "stoneHeating"
+                    },
+                    "fastPreheat": {
+                        "label": "fastPreheat"
+                    },
+                    "scheduledEnd": {
+                        "label": "scheduledEnd"
+                    },
+                    "finished": {
+                        "label": "finished"
+                    },
+                    "searing": {
+                        "label": "searing"
+                    },
+                    "preheat": {
+                        "label": "preheat"
+                    },
+                    "rinsing": {
+                        "label": "rinsing"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    },
+                    "draining": {
+                        "label": "draining"
+                    },
+                    "cooling": {
+                        "label": "cooling"
+                    },
+                    "warming": {
+                        "label": "warming"
+                    },
+                    "timeHoldPreheat": {
+                        "label": "timeHoldPreheat"
+                    },
+                    "cooking": {
+                        "label": "cooking"
+                    },
+                    "defrosting": {
+                        "label": "defrosting"
+                    },
+                    "scheduledStart": {
+                        "label": "scheduledStart"
+                    }
+                }
+            }
+        },
+        "operationTime": {
+            "label": "operationTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2022-02-11
+#### Last Update: 2022-02-24
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -151,6 +151,7 @@
 | [Robot Cleaner State](./json/robotCleanerState.json) | 1 | deprecated |  | [json](./json/robotCleanerState.i18n.fr.json) |
 | [Robot Cleaner Turbo Mode](./json/robotCleanerTurboMode.json) | 1 | proposed | [json](./json/robotCleanerTurboModePresentation.json) | [json](./json/robotCleanerTurboMode.i18n.fr.json) |
 | [Samsung TV](./json/samsungTV.json) | 1 | live |  | [json](./json/samsungTV.i18n.fr.json) |
+| [Scenes](./json/scenes.json) | 1 | proposed |  | [json](./json/scenes.i18n.en.json) |
 | [Scent](./json/scent.json) | 1 | proposed | [json](./json/scentPresentation.json) | [json](./json/scent.i18n.fr.json) |
 | [Security System](./json/securitySystem.json) | 1 | live | [json](./json/securitySystemPresentation.json) | [json](./json/securitySystem.i18n.fr.json) |
 | [Sensor](./json/sensor.json) | 1 | deprecated |  | [json](./json/sensor.i18n.en.json) |
@@ -367,3 +368,9 @@
 | [View Inside](./json/samsungce.viewInside.json) | 1 | proposed |  | [json](./json/samsungce.viewInside.i18n.en.json) |
 | [Cooktop Operating State](./json/custom.cooktopOperatingState.json) | 1 | proposed | [json](./json/custom.cooktopOperatingStatePresentation.json) | [json](./json/custom.cooktopOperatingState.i18n.fr.json) |
 | [Kids Lock Control](./json/samsungce.kidsLockControl.json) | 1 | proposed | [json](./json/samsungce.kidsLockControlPresentation.json) | [json](./json/samsungce.kidsLockControl.i18n.fr.json) |
+| [Defined Recipe](./json/samsungce.definedRecipe.json) | 1 | proposed |  | [json](./json/samsungce.definedRecipe.i18n.en.json) |
+| [Oven Mode](./json/samsungce.ovenMode.json) | 1 | proposed |  | [json](./json/samsungce.ovenMode.i18n.en.json) |
+| [Oven Operating State](./json/samsungce.ovenOperatingState.json) | 1 | proposed |  | [json](./json/samsungce.ovenOperatingState.i18n.en.json) |
+| [Kitchen Mode Specification](./json/samsungce.kitchenModeSpecification.json) | 1 | proposed |  | [json](./json/samsungce.kitchenModeSpecification.i18n.en.json) |
+| [Kitchen Device Defaults](./json/samsungce.kitchenDeviceDefaults.json) | 1 | proposed |  | [json](./json/samsungce.kitchenDeviceDefaults.i18n.en.json) | 
+| [Meat Probe](./json/samsungce.meatProbe.json) | 1 | proposed |  | [json](./json/samsungce.meatProbe.i18n.en.json) |

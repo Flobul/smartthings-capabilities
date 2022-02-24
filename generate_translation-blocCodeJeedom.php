@@ -2,7 +2,7 @@
 ## Ce script permet de récupérer les traductions fr SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).          ##
 ## Il faut mettre ce script dans un bloc code de scénario Jeedom.                              ##
-## Dernière mise à jour : 10/02/2022                                                           ##
+## Dernière mise à jour : 24/02/2022                                                           ##
 ## Créé par Flobul pour Jeedom                                                                 ##
 #################################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
@@ -154,7 +154,13 @@ $customAdded = array(
 	"samsungce.fridgePantryMode",
 	"samsungce.viewInside",
 	"custom.cooktopOperatingState",
-	"samsungce.kidsLockControl"
+	"samsungce.kidsLockControl",
+	"samsungce.definedRecipe",
+	"samsungce.ovenMode",
+	"samsungce.ovenOperatingState",
+	"samsungce.kitchenModeSpecification",
+	"samsungce.kitchenDeviceDefaults",
+	"samsungce.meatProbe"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/
