@@ -1,0 +1,65 @@
+{
+    "tag": "en",
+    "label": "Oven Programs",
+    "attributes": {
+        "availablePrograms": {
+            "label": "availablePrograms",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "program": {
+            "label": "Programs",
+            "displayTemplate": "None",
+            "i18n": {
+                "value": {
+                    "Cooking_Oven_Program_HeatingMode_PreheatOvenware": {
+                        "label": "Preheat ovenware"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_Defrost": {
+                        "label": "Defrost"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_HotAirGrilling": {
+                        "label": "Hot air grilling"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco": {
+                        "label": "Top\/bottom heating eco"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_IntensiveHeat": {
+                        "label": "Intensive heat"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_HotAir": {
+                        "label": "4D hot air"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_HotAirEco": {
+                        "label": "Hot air eco"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_TopBottomHeating": {
+                        "label": "Top\/bottom heating"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial": {
+                        "label": "CoolStart"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_KeepWarm": {
+                        "label": "Keep warm"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_SlowCook": {
+                        "label": "Slow cook"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_PizzaSetting": {
+                        "label": "Pizza setting"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_BottomHeating": {
+                        "label": "Bottom heating"
+                    },
+                    "UnknownProgram": {
+                        "label": "Unknown program"
+                    },
+                    "None": {
+                        "label": "None"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

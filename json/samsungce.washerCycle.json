@@ -107,7 +107,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "required": []
+                "required": [
+                    "value"
+                ]
             },
             "setter": "setWasherCycle",
             "enumCommands": []
@@ -127,7 +129,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "required": []
+                "required": [
+                    "value"
+                ]
             },
             "enumCommands": []
         }

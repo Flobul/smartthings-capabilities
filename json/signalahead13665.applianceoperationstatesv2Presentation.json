@@ -1,0 +1,175 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{operationState.value}}",
+                "alternatives": [
+                    {
+                        "key": "Inactive",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Inactive.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Ready",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Ready.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Run",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Run.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Pause",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Pause.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Finished",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Finished.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "DelayedStart",
+                        "value": "{{i18n.attributes.operationState.i18n.value.DelayedStart.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ActionRequired",
+                        "value": "{{i18n.attributes.operationState.i18n.value.ActionRequired.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Error",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Error.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Aborting",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Aborting.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.operationState.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{operationState.value}}",
+                "alternatives": [
+                    {
+                        "key": "Inactive",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Inactive.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Ready",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Ready.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Run",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Run.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Pause",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Pause.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Finished",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Finished.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "DelayedStart",
+                        "value": "{{i18n.attributes.operationState.i18n.value.DelayedStart.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ActionRequired",
+                        "value": "{{i18n.attributes.operationState.i18n.value.ActionRequired.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Error",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Error.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Aborting",
+                        "value": "{{i18n.attributes.operationState.i18n.value.Aborting.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.operationState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "Inactive",
+                            "value": "{{i18n.attributes.operationState.i18n.value.Inactive.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Ready",
+                            "value": "{{i18n.attributes.operationState.i18n.value.Ready.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Run",
+                            "value": "{{i18n.attributes.operationState.i18n.value.Run.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Pause",
+                            "value": "{{i18n.attributes.operationState.i18n.value.Pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Finished",
+                            "value": "{{i18n.attributes.operationState.i18n.value.Finished.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "DelayedStart",
+                            "value": "{{i18n.attributes.operationState.i18n.value.DelayedStart.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ActionRequired",
+                            "value": "{{i18n.attributes.operationState.i18n.value.ActionRequired.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Error",
+                            "value": "{{i18n.attributes.operationState.i18n.value.Error.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Aborting",
+                            "value": "{{i18n.attributes.operationState.i18n.value.Aborting.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "operationState.value",
+                    "valueType": "string"
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "signalahead13665.applianceoperationstatesv2",
+    "version": 1
+}

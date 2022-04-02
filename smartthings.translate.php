@@ -800,7 +800,22 @@ class smartthings_translate
                 "messaging"               => __("Messagerie", __FILE__),
                 "findingPet"              => __("Trouve un animal", __FILE__),
                 "powerSaving"             => __("Mode d'économie d'énergie", __FILE__),
-                "reserved"                => __("Réservé", __FILE__)
+                "reserved"                => __("Réservé", __FILE__),
+                "ready"                   => __("Prêt", __FILE__),
+                "running"                 => __("En cours", __FILE__),
+                "pause"                   => __("En pause", __FILE__)
+            ],
+            "operationState" => [
+                "Inactive"       => __("Inactif", __FILE__),
+                "Ready"          => __("Prêt", __FILE__),
+                "DelayedStart"   => __("Départ différé", __FILE__),
+                "Run"            => __("Démarré", __FILE__),
+                "Pause"          => __("En pause", __FILE__),
+                "ActionRequired" => __("Action requise", __FILE__),
+                "Finished"       => __("Terminé", __FILE__),
+                "Error"          => __("En erreur", __FILE__),
+                "Aborting"       => __("Annulé", __FILE__),
+                "Offline"        => __("Déconnecté", __FILE__),
             ],
             "outingMode" => [
                 "off" => __("Désactivé", __FILE__),
@@ -1043,6 +1058,23 @@ class smartthings_translate
                 "not present" => __("Absent", __FILE__),
                 "present"     => __("Présent", __FILE__)
             ],
+            "program" => [
+                "Cooking_Oven_Program_HeatingMode_HotAir"              => __("Convection 3D", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_HotAirEco"           => __("Chaleur tournante éco", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_HotAirGrilling"      => __("Gril à convection", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_TopBottomHeating"    => __("Cuisson", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_PizzaSetting"        => __("Pizza", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_KeepWarm"            => __("Maintien au chaud", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_PreheatOvenware"     => __("Préchauffer le four", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco" => __("Cuisson éco", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial" => __("Réchauffage produit surgelé", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_SlowCook"            => __("Cuisson lente", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_IntensiveHeat"       => __("Chaleur intensive", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_Defrost"             => __("Décongélation", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_BottomHeating"       => __("Résistance de sole", __FILE__),
+                "None"                                                 => __("Aucun", __FILE__),
+                "UnknownProgram"                                       => __("Programme inconnu", __FILE__)
+            ],
             "rapidCooling" => [
                 "off" => __("Désactivé", __FILE__),
                 "on"  => __("Activé", __FILE__)
@@ -1265,6 +1297,10 @@ class smartthings_translate
             "startFeeding" => [
                 "idle"    => __("En veille", __FILE__),
                 "feeding" => __("Distribution", __FILE__)
+            ],
+            "startstop" => [
+                "play" => __("Démarré", __FILE__),
+                "stop" => __("Arrêté", __FILE__)
             ],
             "status" => [
                 "pause"          => __("Pause", __FILE__),
@@ -2244,7 +2280,7 @@ class smartthings_translate
                 "open"  => __("Ouvrir la porte", __FILE__)
             ],
             "drivingStatus" => [
-                "drivingStatus" => __("Statut de conduite",__FILE__)
+                "drivingStatus" => __("Statut de conduite", __FILE__)
             ],
             "dryerMode" => [
                 "dryerMode"    => __("Mode du sèche-linge", __FILE__),
@@ -2763,8 +2799,9 @@ class smartthings_translate
                 "volumeDown"     => __("Volume -", __FILE__)
             ],
             "samsungce.definedRecipe" => [
-                "definedRecipe"    => __("Recette définie", __FILE__),
-                "setDefinedRecipe" => __("Changer la recette définie", __FILE__)
+                "definedRecipe"     => __("Recette définie", __FILE__),
+                "setDefinedRecipe"  => __("Changer la recette définie", __FILE__),
+                "cookDefinedRecipe" => __("Cuisiner la recette définie", __FILE__)
             ],
             "samsungce.deviceIdentification" => [
                 "micomAssayCode"          => __("Code d'analyse Micom", __FILE__),
@@ -3038,8 +3075,13 @@ class smartthings_translate
                 "setAmbientContent"    => __("Contenu Ambient Mode", __FILE__)
             ],
             "samsungvd.firmwareVersion" => [
-                "firmwareVersion"    =>  __("Version du firmware", __FILE__),
+                "firmwareVersion"    => __("Version du firmware", __FILE__),
                 "setFirmwareVersion" => __("Changer la version du firmware", __FILE__)
+            ],
+            "samsungvd.groupInfo" => [
+                "role"       => __("Rôle de groupe", __FILE__),
+                "masterName" => __("Nom du maître du groupe", __FILE__),
+                "status"     => __("État du groupe", __FILE__),
             ],
             "samsungvd.mediaInputSource" => [
                 "supportedInputSources" => __("Sources d'entrée prises en charge (Map)", __FILE__),
@@ -3068,6 +3110,27 @@ class smartthings_translate
             ],
             "shockSensor" => [
                 "shock" => __("Détecteur de choc", __FILE__)
+            ],
+            "signalahead13665.applianceoperationstatesv2" => [
+                "operationState" => __("État de fonctionnement", __FILE__),
+            ],
+            "signalahead13665.ovenprogramsv2" => [
+                "availablePrograms" => __("Programmes disponibles", __FILE__),
+                "program"           => __("Programme actuel", __FILE__),
+                "stop"              => __("Arrêter le programme", __FILE__),
+                "setProgram"        => __("Changer le programme", __FILE__)
+            ],
+            "signalahead13665.pauseresumev2" => [
+                "pauseState"    => __("État de pause", __FILE__),
+                "setPauseState" => __("Mettre en pause", __FILE__)
+            ],
+            "signalahead13665.programdurationv2" => [
+                "duration"           => __("Durée du programme", __FILE__),
+                "setProgramDuration" => __("Changer la durée du programme", __FILE__)
+            ],
+            "signalahead13665.startstopprogramv2" => [
+                "startstop"    => __("État du programme", __FILE__),
+                "setStartstop" => __("Changer l'état du programme", __FILE__)
             ],
             "signalStrength" => [
                 "rssi" => __("RSSI", __FILE__),
@@ -3157,6 +3220,10 @@ class smartthings_translate
             "statelessRobotCleanerToggleButton" => [
                 "availableRobotCleanerToggleButtons" => __("Boutons toggle robot nettoyeur disponibles", __FILE__),
                 "setButton"                          => __("Simuler l'appui sur le bouton toggle robot nettoyeur", __FILE__)
+            ],
+            "statelessScenes" => [
+                "supportedScenes" => __("Scènes supportées", __FILE__),
+                "setScene"        => __("Changer de scène", __FILE__)
             ],
             "statelessSetChannelButton" => [
                 "setChannel" => __("Simuler l'appui sur le bouton changer de chaîne", __FILE__)
@@ -3448,13 +3515,13 @@ class smartthings_translate
                 "lastUpdateTime"        => __("Météo : Date de dernière mise à jour", __FILE__)
             ],
             "webrtc" => [
-                "sdpAnswer"         => __("Live stream",__FILE__),
-                "talkback"          => __("Parler",__FILE__),
-                "supportedFeatures" => __("Fonctionnalités supportés",__FILE__),
-                "audioOnly"         => __("Audio uniquement",__FILE__),
-                "stunUrl"           => __("STUN URL",__FILE__),
-                "sdpOffer"          => __("Démarrer le flux",__FILE__),
-                "end"               => __("Arrêter le flux",__FILE__)
+                "sdpAnswer"         => __("Live stream", __FILE__),
+                "talkback"          => __("Parler", __FILE__),
+                "supportedFeatures" => __("Fonctionnalités supportés", __FILE__),
+                "audioOnly"         => __("Audio uniquement", __FILE__),
+                "stunUrl"           => __("STUN URL", __FILE__),
+                "sdpOffer"          => __("Démarrer le flux", __FILE__),
+                "end"               => __("Arrêter le flux", __FILE__)
             ],
             "wifiMeshRouter" => [
                 "disconnectedRouterCount" => __("Nombre de routeurs déconnectés", __FILE__),

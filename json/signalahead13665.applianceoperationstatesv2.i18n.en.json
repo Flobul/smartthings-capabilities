@@ -1,0 +1,45 @@
+{
+    "tag": "en",
+    "label": "Appliance Operation States",
+    "attributes": {
+        "operationState": {
+            "label": "Operation State",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "Ready": {
+                        "label": "Ready"
+                    },
+                    "Finished": {
+                        "label": "Completed"
+                    },
+                    "Pause": {
+                        "label": "Paused"
+                    },
+                    "DelayedStart": {
+                        "label": "Delayed Start"
+                    },
+                    "ActionRequired": {
+                        "label": "Action Required"
+                    },
+                    "Aborting": {
+                        "label": "Aborting"
+                    },
+                    "Inactive": {
+                        "label": "Inactive"
+                    },
+                    "Error": {
+                        "label": "Error"
+                    },
+                    "Offline": {
+                        "label": "Offline"
+                    },
+                    "Run": {
+                        "label": "Running"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

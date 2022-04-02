@@ -1,0 +1,91 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "startstop.value"
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.startstop.label}}",
+            "displayType": "playStop",
+            "playStop": {
+                "command": {
+                    "name": "setStartstop",
+                    "play": "play",
+                    "stop": "stop",
+                    "argumentType": "string"
+                },
+                "state": {
+                    "value": "startstop.value",
+                    "play": "play",
+                    "stop": "stop",
+                    "alternatives": [
+                        {
+                            "key": "play",
+                            "value": "{{i18n.attributes.startstop.i18n.value.play.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.attributes.startstop.i18n.value.stop.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "valueType": "string"
+                }
+            },
+            "state": null
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.startstop.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "play",
+                            "value": "{{i18n.attributes.startstop.i18n.value.play.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.attributes.startstop.i18n.value.stop.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "startstop.value",
+                    "valueType": "string"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.startstop.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "play",
+                            "value": "{{i18n.attributes.startstop.i18n.value.play.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.attributes.startstop.i18n.value.stop.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "command": "setStartstop",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "signalahead13665.startstopprogramv2",
+    "version": 1
+}

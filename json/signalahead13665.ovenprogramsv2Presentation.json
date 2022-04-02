@@ -1,0 +1,419 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{program.value}}",
+                "alternatives": [
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_HotAir",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_Defrost",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
+                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "None",
+                        "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "UnknownProgram",
+                        "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.program.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setProgram",
+                    "alternatives": [
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAir",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_Defrost",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availablePrograms.value"
+                },
+                "state": {
+                    "value": "program.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAir",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_Defrost",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "None",
+                            "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UnknownProgram",
+                            "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            },
+            "state": null
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.program.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAir",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_Defrost",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "None",
+                            "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UnknownProgram",
+                            "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "availablePrograms.value",
+                    "value": "program.value",
+                    "valueType": "string"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.program.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAir",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_Defrost",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
+                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "availablePrograms.value",
+                    "command": "setProgram",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "signalahead13665.ovenprogramsv2",
+    "version": 1
+}

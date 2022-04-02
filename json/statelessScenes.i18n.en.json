@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Stateless Scenes",
+    "attributes": {
+        "supportedScenes": {
+            "label": "supportedScenes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

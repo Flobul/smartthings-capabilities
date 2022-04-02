@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2022-02-24
+#### Last Update: 2022-04-02
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -179,6 +179,7 @@
 | [Stateless Robot Cleaner Action Button](./json/statelessRobotCleanerActionButton.json) | 1 | proposed | [json](./json/statelessRobotCleanerActionButtonPresentation.json) | [json](./json/statelessRobotCleanerActionButton.i18n.fr.json) |
 | [Stateless Robot Cleaner Home Button](./json/statelessRobotCleanerHomeButton.json) | 1 | proposed | [json](./json/statelessRobotCleanerHomeButtonPresentation.json) | [json](./json/statelessRobotCleanerHomeButton.i18n.fr.json) |
 | [Stateless Robot Cleaner Toggle Button](./json/statelessRobotCleanerToggleButton.json) | 1 | proposed | [json](./json/statelessRobotCleanerToggleButtonPresentation.json) | [json](./json/statelessRobotCleanerToggleButton.i18n.fr.json) |
+| [Stateless Scenes](./json/statelessScenes.json) | 1 | proposed |  | [json](./json/statelessScenes.i18n.en.json) |
 | [Stateless Set Channel Button](./json/statelessSetChannelButton.json) | 1 | proposed | [json](./json/statelessSetChannelButtonPresentation.json) | [json](./json/statelessSetChannelButton.i18n.fr.json) |
 | [Stateless Set Channel By Content Button](./json/statelessSetChannelByContentButton.json) | 1 | proposed | [json](./json/statelessSetChannelByContentButtonPresentation.json) | [json](./json/statelessSetChannelByContentButton.i18n.fr.json) |
 | [Stateless Set Channel By Name Button](./json/statelessSetChannelByNameButton.json) | 1 | proposed | [json](./json/statelessSetChannelByNameButtonPresentation.json) | [json](./json/statelessSetChannelByNameButton.i18n.fr.json) |
@@ -371,6 +372,12 @@
 | [Defined Recipe](./json/samsungce.definedRecipe.json) | 1 | proposed |  | [json](./json/samsungce.definedRecipe.i18n.en.json) |
 | [Oven Mode](./json/samsungce.ovenMode.json) | 1 | proposed |  | [json](./json/samsungce.ovenMode.i18n.en.json) |
 | [Oven Operating State](./json/samsungce.ovenOperatingState.json) | 1 | proposed |  | [json](./json/samsungce.ovenOperatingState.i18n.en.json) |
-| [Kitchen Mode Specification](./json/samsungce.kitchenModeSpecification.json) | 1 | proposed |  | [json](./json/samsungce.kitchenModeSpecification.i18n.en.json) |
-| [Kitchen Device Defaults](./json/samsungce.kitchenDeviceDefaults.json) | 1 | proposed |  | [json](./json/samsungce.kitchenDeviceDefaults.i18n.en.json) | 
+| [Kitchen Mode Specification](./json/samsungce.kitchenModeSpecification.json) | 1 | proposed |  | [json](./json/samsungce.kitchenModeSpecification.i18n.en.json) | 
+| [Kitchen Device Defaults](./json/samsungce.kitchenDeviceDefaults.json) | 1 | proposed |  | [json](./json/samsungce.kitchenDeviceDefaults.i18n.en.json) |
 | [Meat Probe](./json/samsungce.meatProbe.json) | 1 | proposed |  | [json](./json/samsungce.meatProbe.i18n.en.json) |
+| [Group Info](./json/samsungvd.groupInfo.json) | 1 | proposed |  | [json](./json/samsungvd.groupInfo.i18n.en.json) |
+| [pauseResumev2](./json/signalahead13665.pauseresumev2.json) | 1 | proposed | [json](./json/signalahead13665.pauseresumev2Presentation.json) | [json](./json/signalahead13665.pauseresumev2.i18n.en.json) |
+| [StartStopProgramV2](./json/signalahead13665.startstopprogramv2.json) | 1 | proposed | [json](./json/signalahead13665.startstopprogramv2Presentation.json) | [json](./json/signalahead13665.startstopprogramv2.i18n.en.json) |
+| [OvenProgramsv2](./json/signalahead13665.ovenprogramsv2.json) | 1 | proposed | [json](./json/signalahead13665.ovenprogramsv2Presentation.json) | [json](./json/signalahead13665.ovenprogramsv2.i18n.en.json) |
+| [ProgramDurationV2](./json/signalahead13665.programdurationv2.json) | 1 | proposed | [json](./json/signalahead13665.programdurationv2Presentation.json) | [json](./json/signalahead13665.programdurationv2.i18n.en.json) |
+| [applianceOperationStatesV2](./json/signalahead13665.applianceoperationstatesv2.json) | 1 | proposed | [json](./json/signalahead13665.applianceoperationstatesv2Presentation.json) | [json](./json/signalahead13665.applianceoperationstatesv2.i18n.en.json) |

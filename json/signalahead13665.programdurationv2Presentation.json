@@ -1,0 +1,58 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.duration.label}}",
+            "displayType": "numberField",
+            "numberField": {
+                "value": "duration.value",
+                "valueType": "integer",
+                "unit": "duration.unit",
+                "command": "setProgramDuration",
+                "argumentType": "integer",
+                "range": [
+                    1,
+                    120
+                ]
+            },
+            "state": null
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.duration.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "duration.value",
+                    "valueType": "integer",
+                    "unit": "duration.unit",
+                    "range": [
+                        0,
+                        120
+                    ]
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.duration.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "setProgramDuration",
+                    "argumentType": "integer",
+                    "unit": "duration.unit",
+                    "range": [
+                        0,
+                        120
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "signalahead13665.programdurationv2",
+    "version": 1
+}

@@ -2,7 +2,7 @@
 ## Ce script permet de récupérer les capabilities SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).        ##
 ## Il faut mettre ce script dans un bloc code de scénario Jeedom.                            ##
-## Dernière mise à jour : 24/02/2022                                                         ##
+## Dernière mise à jour : 02/04/2022                                                           ##
 ## Créé par Flobul pour Jeedom                                                               ##
 ###############################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
@@ -156,7 +156,13 @@ $customAdded = array(
 	"samsungce.ovenOperatingState",
 	"samsungce.kitchenModeSpecification",
 	"samsungce.kitchenDeviceDefaults",
-	"samsungce.meatProbe"
+	"samsungce.meatProbe",
+	"samsungvd.groupInfo",
+	"signalahead13665.pauseresumev2",
+	"signalahead13665.startstopprogramv2",
+	"signalahead13665.ovenprogramsv2",
+	"signalahead13665.programdurationv2",
+	"signalahead13665.applianceoperationstatesv2"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/

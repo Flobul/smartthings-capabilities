@@ -8,12 +8,13 @@
                     "alternatives": [
                         {
                             "key": "NotAvailable",
-                            "value": "NotAvailable",
-                            "type": "active"
+                            "value": "{{i18n.attributes.emptyInputSources.label}}",
+                            "type": "inactive"
                         }
                     ],
                     "supportedValues": "supportedInputSourcesMap.value",
-                    "value": "inputSource.value"
+                    "value": "inputSource.value",
+                    "valueType": "string"
                 }
             }
         ],
@@ -25,12 +26,13 @@
                     "alternatives": [
                         {
                             "key": "NotAvailable",
-                            "value": "NotAvailable",
+                            "value": "{{i18n.attributes.emptyInputSources.label}}",
                             "type": "active"
                         }
                     ],
                     "supportedValues": "supportedInputSourcesMap.value",
-                    "command": "setInputSource"
+                    "command": "setInputSource",
+                    "argumentType": "string"
                 }
             }
         ]
