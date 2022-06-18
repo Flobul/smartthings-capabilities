@@ -1,0 +1,75 @@
+{
+    "tag": "en",
+    "label": "Diagnostics Information",
+    "attributes": {
+        "logType": {
+            "label": "logType",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "endpoint": {
+            "label": "endpoint",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "NONE": {
+                        "label": "NONE"
+                    },
+                    "SSM": {
+                        "label": "SSM"
+                    },
+                    "PIPER": {
+                        "label": "PIPER"
+                    }
+                }
+            }
+        },
+        "minVersion": {
+            "label": "minVersion",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "setupId": {
+            "label": "setupId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "protocolType": {
+            "label": "protocolType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "ble_stdk": {
+                        "label": "ble_stdk"
+                    },
+                    "ble_ocf": {
+                        "label": "ble_ocf"
+                    },
+                    "wifi_https": {
+                        "label": "wifi_https"
+                    }
+                }
+            }
+        },
+        "mnId": {
+            "label": "mnId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dumpType": {
+            "label": "dumpType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "file": {
+                        "label": "file"
+                    },
+                    "id": {
+                        "label": "id"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

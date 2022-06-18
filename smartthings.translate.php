@@ -3129,8 +3129,10 @@ class smartthings_translate
                 "setProgramDuration" => __("Changer la durée du programme", __FILE__)
             ],
             "signalahead13665.startstopprogramv2" => [
-                "startstop"    => __("État du programme", __FILE__),
-                "setStartstop" => __("Changer l'état du programme", __FILE__)
+                "startstop"        => __("État du programme", __FILE__),
+                "setStartstop"     => __("Changer l'état du programme", __FILE__),
+                "setStartstopplay" => __("Lancer le programme", __FILE__),
+                "setStartstopstop" => __("Stopper le programme", __FILE__),
             ],
             "signalStrength" => [
                 "rssi" => __("RSSI", __FILE__),

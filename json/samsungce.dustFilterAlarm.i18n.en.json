@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Dust Filter Alarm",
+    "attributes": {
+        "alarmThreshold": {
+            "label": "alarmThreshold",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedAlarmThresholds": {
+            "label": "supportedAlarmThresholds",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

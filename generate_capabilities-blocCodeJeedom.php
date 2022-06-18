@@ -162,7 +162,10 @@ $customAdded = array(
 	"signalahead13665.startstopprogramv2",
 	"signalahead13665.ovenprogramsv2",
 	"signalahead13665.programdurationv2",
-	"signalahead13665.applianceoperationstatesv2"
+	"signalahead13665.applianceoperationstatesv2",
+	"samsungce.dustFilterAlarm",
+	"samsungce.individualControlLock",
+	"sec.diagnosticsInformation"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/

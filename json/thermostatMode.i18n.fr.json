@@ -1,9 +1,9 @@
 {
     "tag": "fr",
-    "label": "Mode",
+    "label": "Mode du thermostat",
     "attributes": {
         "thermostatMode": {
-            "label": "Mode",
+            "label": "Mode du thermostat",
             "description": "The current mode of a thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {

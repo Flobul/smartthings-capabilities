@@ -1,9 +1,9 @@
 {
     "tag": "en",
-    "label": "Mode",
+    "label": "Thermostat mode",
     "attributes": {
         "thermostatMode": {
-            "label": "Mode",
+            "label": "Thermostat mode",
             "description": "The current mode of a thermostat",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
@@ -123,7 +123,7 @@
             }
         },
         "supportedThermostatModes": {
-            "label": "supported thermostat modes",
+            "label": "Supported thermostat modes",
             "description": "Modes supported by the thermostat",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []

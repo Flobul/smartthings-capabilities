@@ -18,6 +18,9 @@
                     "all": {
                         "label": "Toutes"
                     },
+                    "individual": {
+                        "label": "individual"
+                    },
                     "indirect": {
                         "label": "Indirecte"
                     },
@@ -32,6 +35,9 @@
                     },
                     "vertical": {
                         "label": "Verticale"
+                    },
+                    "off": {
+                        "label": "off"
                     },
                     "horizontal": {
                         "label": "Horizontale"
