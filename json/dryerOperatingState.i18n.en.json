@@ -10,19 +10,19 @@
             "i18n": []
         },
         "machineState": {
-            "label": "machine state",
+            "label": "Device status",
             "description": "Current state of the dryer machine operation",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "stop"
+                        "label": "Stopped"
                     },
                     "run": {
-                        "label": "run"
+                        "label": "Drying"
                     },
                     "pause": {
-                        "label": "pause"
+                        "label": "Paused"
                     }
                 }
             }
@@ -34,28 +34,28 @@
             "i18n": []
         },
         "dryerJobState": {
-            "label": "dryer job state",
+            "label": "Tumble dryer",
             "description": "The state of the dryer job",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "weightSensing": {
-                        "label": "weightSensing"
+                        "label": "Checking weight"
                     },
                     "wrinklePrevent": {
-                        "label": "wrinklePrevent"
+                        "label": "Wrinkle Prevent"
                     },
                     "sanitizing": {
                         "label": "sanitizing"
                     },
                     "delayWash": {
-                        "label": "delayWash"
+                        "label": "Delay end"
                     },
                     "finished": {
-                        "label": "finished"
+                        "label": "Finished"
                     },
                     "none": {
-                        "label": "none"
+                        "label": "None"
                     },
                     "thawingFrozenInside": {
                         "label": "thawingFrozenInside"
@@ -67,13 +67,13 @@
                         "label": "continuousDehumidifying"
                     },
                     "drying": {
-                        "label": "drying"
+                        "label": "Drying"
                     },
                     "refreshing": {
                         "label": "refreshing"
                     },
                     "cooling": {
-                        "label": "cooling"
+                        "label": "Cooling down"
                     },
                     "internalCare": {
                         "label": "internalCare"

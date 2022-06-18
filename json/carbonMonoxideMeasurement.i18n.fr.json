@@ -4,7 +4,7 @@
     "description": "Measure carbon monoxide levels",
     "attributes": {
         "carbonMonoxideLevel": {
-            "label": "Concentration en dioxyde de carbone",
+            "label": "Concentration en monoxyde de carbone",
             "description": "The level of carbon monoxide detected",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} ppm",
             "i18n": []

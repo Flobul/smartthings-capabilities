@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2022-04-02
+#### Last Update: 2022-06-18
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -70,7 +70,7 @@
 | [Equivalent Carbon Dioxide Measurement](./json/equivalentCarbonDioxideMeasurement.json) | 1 | live | [json](./json/equivalentCarbonDioxideMeasurementPresentation.json) | [json](./json/equivalentCarbonDioxideMeasurement.i18n.fr.json) |
 | [Estimated Time Of Arrival](./json/estimatedTimeOfArrival.json) | 1 | proposed | [json](./json/estimatedTimeOfArrivalPresentation.json) | [json](./json/estimatedTimeOfArrival.i18n.fr.json) |
 | [Execute](./json/execute.json) | 1 | live |  | [json](./json/execute.i18n.fr.json) |
-| [Fan Oscillation Mode](./json/fanOscillationMode.json) | 1 | proposed | [json](./json/fanOscillationModePresentation.json) | [json](./json/fanOscillationMode.i18n.fr.json) |
+| [Fan Oscillation Mode](./json/fanOscillationMode.json) | 1 | live | [json](./json/fanOscillationModePresentation.json) | [json](./json/fanOscillationMode.i18n.fr.json) |
 | [Fan Speed](./json/fanSpeed.json) | 1 | live | [json](./json/fanSpeedPresentation.json) | [json](./json/fanSpeed.i18n.fr.json) |
 | [Feeder Operating State](./json/feederOperatingState.json) | 1 | proposed | [json](./json/feederOperatingStatePresentation.json) | [json](./json/feederOperatingState.i18n.fr.json) |
 | [Feeder Portion](./json/feederPortion.json) | 1 | proposed | [json](./json/feederPortionPresentation.json) | [json](./json/feederPortion.i18n.fr.json) |
@@ -78,7 +78,7 @@
 | [Filter Status](./json/filterStatus.json) | 1 | proposed | [json](./json/filterStatusPresentation.json) | [json](./json/filterStatus.i18n.fr.json) |
 | [Fine Dust Health Concern](./json/fineDustHealthConcern.json) | 1 | proposed | [json](./json/fineDustHealthConcernPresentation.json) | [json](./json/fineDustHealthConcern.i18n.fr.json) |
 | [Fine Dust Sensor](./json/fineDustSensor.json) | 1 | live | [json](./json/fineDustSensorPresentation.json) | [json](./json/fineDustSensor.i18n.fr.json) |
-| [Firmware Update](./json/firmwareUpdate.json) | 1 | proposed |  | [json](./json/firmwareUpdate.i18n.en.json) |
+| [Firmware Update](./json/firmwareUpdate.json) | 1 | live |  | [json](./json/firmwareUpdate.i18n.en.json) |
 | [Formaldehyde Measurement](./json/formaldehydeMeasurement.json) | 1 | live | [json](./json/formaldehydeMeasurementPresentation.json) | [json](./json/formaldehydeMeasurement.i18n.fr.json) |
 | [Garage Door Control](./json/garageDoorControl.json) | 1 | deprecated | [json](./json/garageDoorControlPresentation.json) | [json](./json/garageDoorControl.i18n.fr.json) |
 | [Gas Detector](./json/gasDetector.json) | 1 | proposed | [json](./json/gasDetectorPresentation.json) | [json](./json/gasDetector.i18n.fr.json) |
@@ -230,7 +230,7 @@
 | [webrtc](./json/webrtc.json) | 1 | live |  | [json](./json/webrtc.i18n.fr.json) |
 | [Wifi Mesh Router](./json/wifiMeshRouter.json) | 1 | proposed |  | [json](./json/wifiMeshRouter.i18n.fr.json) |
 | [Wind Speed](./json/windSpeed.json) | 1 | proposed |  | [json](./json/windSpeed.i18n.en.json) |
-| [Window Shade Level](./json/windowShadeLevel.json) | 1 | proposed | [json](./json/windowShadeLevelPresentation.json) | [json](./json/windowShadeLevel.i18n.fr.json) |
+| [Window Shade Level](./json/windowShadeLevel.json) | 1 | live | [json](./json/windowShadeLevelPresentation.json) | [json](./json/windowShadeLevel.i18n.fr.json) |
 | [Window Shade Preset](./json/windowShadePreset.json) | 1 | live | [json](./json/windowShadePresetPresentation.json) | [json](./json/windowShadePreset.i18n.fr.json) |
 | [Window Shade](./json/windowShade.json) | 1 | live | [json](./json/windowShadePresentation.json) | [json](./json/windowShade.i18n.fr.json) |
 | [Wireless Operating Mode](./json/wirelessOperatingMode.json) | 1 | proposed | [json](./json/wirelessOperatingModePresentation.json) | [json](./json/wirelessOperatingMode.i18n.fr.json) |
@@ -372,7 +372,7 @@
 | [Defined Recipe](./json/samsungce.definedRecipe.json) | 1 | proposed |  | [json](./json/samsungce.definedRecipe.i18n.en.json) |
 | [Oven Mode](./json/samsungce.ovenMode.json) | 1 | proposed |  | [json](./json/samsungce.ovenMode.i18n.en.json) |
 | [Oven Operating State](./json/samsungce.ovenOperatingState.json) | 1 | proposed |  | [json](./json/samsungce.ovenOperatingState.i18n.en.json) |
-| [Kitchen Mode Specification](./json/samsungce.kitchenModeSpecification.json) | 1 | proposed |  | [json](./json/samsungce.kitchenModeSpecification.i18n.en.json) | 
+| [Kitchen Mode Specification](./json/samsungce.kitchenModeSpecification.json) | 1 | proposed |  | [json](./json/samsungce.kitchenModeSpecification.i18n.en.json) |
 | [Kitchen Device Defaults](./json/samsungce.kitchenDeviceDefaults.json) | 1 | proposed |  | [json](./json/samsungce.kitchenDeviceDefaults.i18n.en.json) |
 | [Meat Probe](./json/samsungce.meatProbe.json) | 1 | proposed |  | [json](./json/samsungce.meatProbe.i18n.en.json) |
 | [Group Info](./json/samsungvd.groupInfo.json) | 1 | proposed |  | [json](./json/samsungvd.groupInfo.i18n.en.json) |
@@ -381,3 +381,6 @@
 | [OvenProgramsv2](./json/signalahead13665.ovenprogramsv2.json) | 1 | proposed | [json](./json/signalahead13665.ovenprogramsv2Presentation.json) | [json](./json/signalahead13665.ovenprogramsv2.i18n.en.json) |
 | [ProgramDurationV2](./json/signalahead13665.programdurationv2.json) | 1 | proposed | [json](./json/signalahead13665.programdurationv2Presentation.json) | [json](./json/signalahead13665.programdurationv2.i18n.en.json) |
 | [applianceOperationStatesV2](./json/signalahead13665.applianceoperationstatesv2.json) | 1 | proposed | [json](./json/signalahead13665.applianceoperationstatesv2Presentation.json) | [json](./json/signalahead13665.applianceoperationstatesv2.i18n.en.json) |
+| [Dust Filter Alarm](./json/samsungce.dustFilterAlarm.json) | 1 | proposed |  | [json](./json/samsungce.dustFilterAlarm.i18n.en.json) |
+| [Individual Control Lock](./json/samsungce.individualControlLock.json) | 1 | proposed |  | [json](./json/samsungce.individualControlLock.i18n.en.json) |
+| [Diagnostics Information](./json/sec.diagnosticsInformation.json) | 1 | proposed |  | [json](./json/sec.diagnosticsInformation.i18n.en.json) |

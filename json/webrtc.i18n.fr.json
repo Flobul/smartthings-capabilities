@@ -16,8 +16,8 @@
             "i18n": []
         },
         "supportedFeatures": {
-            "label": "supported features",
-            "description": "Indication of 2-way talk support and other features",
+            "label": "SDP offer supported features",
+            "description": "SDP Offer options",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },

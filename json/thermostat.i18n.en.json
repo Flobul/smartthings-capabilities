@@ -109,7 +109,7 @@
             }
         },
         "thermostatMode": {
-            "label": "Mode",
+            "label": "Thermostat mode",
             "description": "The current mode of the thermostat",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -229,7 +229,7 @@
             }
         },
         "supportedThermostatModes": {
-            "label": "supported thermostat modes",
+            "label": "Supported thermostat modes",
             "description": "The modes that the thermostat supports",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
