@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Current Measurement",
+    "attributes": {
+        "current": {
+            "label": "current",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

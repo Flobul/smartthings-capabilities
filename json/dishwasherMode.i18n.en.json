@@ -4,11 +4,14 @@
     "description": "Allows for the control of the dishwasher.",
     "attributes": {
         "dishwasherMode": {
-            "label": "Mode",
+            "label": "dishwasher mode",
             "description": "Current mode of the dishwasher",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
+                    "eco": {
+                        "label": "Eco"
+                    },
                     "auto": {
                         "label": "Auto"
                     },
@@ -20,6 +23,9 @@
                     },
                     "rinse": {
                         "label": "Rinse"
+                    },
+                    "intense": {
+                        "label": "Intense"
                     }
                 }
             }
@@ -31,6 +37,9 @@
             "arguments": {
                 "mode": {
                     "i18n": {
+                        "eco": {
+                            "label": "Eco"
+                        },
                         "quick": {
                             "label": "Quick"
                         },
@@ -42,9 +51,12 @@
                         },
                         "rinse": {
                             "label": "Rinse"
+                        },
+                        "intense": {
+                            "label": "Intense"
                         }
                     },
-                    "description": "Set the dishwasher mode to \"auto\", \"quick\", \"rinse\", or \"dry\" mode"
+                    "description": "Set the dishwasher mode to \"eco\", \"intense\", \"auto\", \"quick\", \"rinse\", or \"dry\" mode"
                 }
             }
         }

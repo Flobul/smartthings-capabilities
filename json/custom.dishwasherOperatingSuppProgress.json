@@ -10,7 +10,6 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
                         "enum": [
                             "none",
                             "delaywash",
@@ -26,8 +25,11 @@
                             "wrinkleprevent",
                             "finish",
                             "waitend",
-                            "predrain"
-                        ]
+                            "predrain",
+                            "sanitizing",
+                            "autoreleasedrying"
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,

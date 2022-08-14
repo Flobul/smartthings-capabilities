@@ -9,6 +9,9 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
+                    "eco": {
+                        "label": "Eco"
+                    },
                     "auto": {
                         "label": "Automatique"
                     },
@@ -20,6 +23,9 @@
                     },
                     "rinse": {
                         "label": "Rin\u00e7age"
+                    },
+                    "intense": {
+                        "label": "Intense"
                     }
                 }
             }
@@ -31,6 +37,9 @@
             "arguments": {
                 "mode": {
                     "i18n": {
+                        "eco": {
+                            "label": "Eco"
+                        },
                         "quick": {
                             "label": "Rapide"
                         },
@@ -42,9 +51,12 @@
                         },
                         "rinse": {
                             "label": "Rin\u00e7age"
+                        },
+                        "intense": {
+                            "label": "Intense"
                         }
                     },
-                    "description": "Set the dishwasher mode to \"auto\", \"quick\", \"rinse\", or \"dry\" mode"
+                    "description": "Set the dishwasher mode to \"eco\", \"intense\", \"auto\", \"quick\", \"rinse\", or \"dry\" mode"
                 }
             }
         }

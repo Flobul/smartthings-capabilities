@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Keypad Input",
+    "attributes": {
+        "supportedKeyCodes": {
+            "label": "supportedKeyCodes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

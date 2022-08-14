@@ -16,6 +16,9 @@
                     "wash": {
                         "label": "Washing"
                     },
+                    "sanitizing": {
+                        "label": "sanitizing"
+                    },
                     "none": {
                         "label": "none"
                     },
@@ -51,6 +54,9 @@
                     },
                     "rinse": {
                         "label": "Rinsing"
+                    },
+                    "autoreleasedrying": {
+                        "label": "autoreleasedrying"
                     }
                 }
             }

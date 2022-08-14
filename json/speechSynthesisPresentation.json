@@ -5,11 +5,27 @@
             "displayType": "textField",
             "textField": {
                 "command": "speak",
-                "value": null
-            },
-            "state": null
+                "argumentType": "string"
+            }
         }
     ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Speech Synthesis",
+                "displayType": "textField",
+                "textField": {
+                    "command": "speak",
+                    "argumentType": "string",
+                    "range": [
+                        0,
+                        1000
+                    ]
+                }
+            }
+        ]
+    },
     "id": "speechSynthesis",
     "version": 1
 }

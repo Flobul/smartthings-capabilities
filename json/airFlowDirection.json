@@ -29,6 +29,7 @@
     },
     "commands": {
         "setAirFlowDirection": {
+            "name": "setAirFlowDirection",
             "arguments": [
                 {
                     "name": "airFlowDirection",
