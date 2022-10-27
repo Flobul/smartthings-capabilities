@@ -40,13 +40,13 @@
             "i18n": {
                 "value": {
                     "sterilizing": {
-                        "label": "D\u00e9sinfection en cours"
+                        "label": "D\u00e9sinfection"
                     },
                     "drying": {
-                        "label": "S\u00e9chage en cours"
+                        "label": "S\u00e9chage"
                     },
                     "airwashing": {
-                        "label": "Nettoyage \u00e0 l'air en cours"
+                        "label": "\u00c9puration de l'air"
                     },
                     "finish": {
                         "label": "Finition"

@@ -5,7 +5,16 @@
         "ovenCavityStatus": {
             "label": "ovenCavityStatus",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "Off"
+                    },
+                    "on": {
+                        "label": "On"
+                    }
+                }
+            }
         }
     },
     "commands": []

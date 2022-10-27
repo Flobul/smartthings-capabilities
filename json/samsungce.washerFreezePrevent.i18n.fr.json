@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Washer Freeze Prevent",
+    "attributes": {
+        "operatingState": {
+            "label": "operatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "Prevent freezing"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

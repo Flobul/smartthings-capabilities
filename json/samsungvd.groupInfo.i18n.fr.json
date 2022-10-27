@@ -1,0 +1,27 @@
+{
+    "tag": "fr",
+    "label": "groupInfo",
+    "attributes": {
+        "role": {
+            "label": "role",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "channel": {
+            "label": "channel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "masterName": {
+            "label": "masterName",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "status": {
+            "label": "status",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

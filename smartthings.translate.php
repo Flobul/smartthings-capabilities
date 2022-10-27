@@ -17,9 +17,9 @@
 
 class smartthings_translate
 {
-    public static $enums;
-    public static $cmdName;
-    public static $cycles;
+    public $enums;
+    public $cmdName;
+    public $cycles;
 
     public function __construct()
     {
@@ -207,6 +207,7 @@ class smartthings_translate
                 "auto"            => __("Auto", __FILE__),
                 "manual"          => __("Manuel", __FILE__),
                 "spot"            => __("Recoin", __FILE__),
+                "creatingMap"     => __("Création de carte", __FILE__),
                 "area"            => __("Zone", __FILE__),
                 "object"          => __("Objet", __FILE__),
                 "map"             => __("Cartographie", __FILE__),
@@ -795,12 +796,15 @@ class smartthings_translate
                 "monitoring"              => __("Surveillance", __FILE__),
                 "patrol"                  => __("Patrouille", __FILE__),
                 "manual"                  => __("Manuel", __FILE__),
-                "processing"              => __("En traitement", __FILE__),
+                "processing"              => __("Localisation", __FILE__),
                 "mediaPlaying"            => __("Lecture de piste", __FILE__),
-                "messaging"               => __("Messagerie", __FILE__),
+                "messaging"               => __("Envoi de la voix", __FILE__),
                 "findingPet"              => __("Trouve un animal", __FILE__),
                 "powerSaving"             => __("Mode d'économie d'énergie", __FILE__),
                 "reserved"                => __("Réservé", __FILE__),
+                "factoryReset"            => __("Remise à zéro", __FILE__),
+                "calibrating"             => __("Etalonnage en cours", __FILE__),
+                "welcoming"               => __("Bienvenue", __FILE__),
                 "ready"                   => __("Prêt", __FILE__),
                 "running"                 => __("En cours", __FILE__),
                 "pause"                   => __("En pause", __FILE__)
@@ -1022,6 +1026,7 @@ class smartthings_translate
                 "stop"            => __("Arrêt", __FILE__),
                 "rewind"          => __("Rembobinage", __FILE__),
                 "rewinding"       => __("Rembobinage en cours", __FILE__),
+                "buffering"       => __("Mise en tampon", __FILE__),
                 "playing"         => __("En lecture", __FILE__),
                 "fast forwarding" => __("Avance rapide en cours", __FILE__),
                 "fastForward"     => __("Avance rapide", __FILE__),
@@ -1352,9 +1357,9 @@ class smartthings_translate
                 "pause" => __("En pause", __FILE__)
             ],
             "steamClosetJobState" => [
-                "sterilizing"   => __("Désinfection en cours", __FILE__),
-                "drying"        => __("Séchage en cours", __FILE__),
-                "airwashing"    => __("Nettoyage à l'air en cours", __FILE__),
+                "sterilizing"   => __("Désinfection", __FILE__),
+                "drying"        => __("Séchage", __FILE__),
+                "airwashing"    => __("Épuration de l'air", __FILE__),
                 "finish"        => __("Finition", __FILE__),
                 "none"          => __("Aucun", __FILE__),
                 "delaywash"     => __("Lavage différé", __FILE__),
@@ -1981,13 +1986,15 @@ class smartthings_translate
                 "dishwasherZoneBooster"    => __("Zone accélérée", __FILE__),
                 "setDishwasherZoneBooster" => __("Définir la zone accélérée", __FILE__)
             ],
-            "custom.doNotDisturbMode" => [
-                "doNotDisturb"        => __("Ne pas déranger", __FILE__),
-                "startTime"           => __("Heure de début", __FILE__),
-                "endTime"             => __("Heure de fin", __FILE__),
-                "setDoNotDisturbMode" => __("Planifier le mode Ne pas déranger", __FILE__),
-                "doNotDisturbOff"     => __("Activer Ne pas déranger", __FILE__),
-                "doNotDisturbOn"      => __("Désactiver Ne pas déranger", __FILE__)
+            "custom.doNotDisturbMode"    => [
+                "doNotDisturb"           => __("Ne pas déranger", __FILE__),
+                "startTime"              => __("Heure de début", __FILE__),
+                "endTime"                => __("Heure de fin", __FILE__),
+                "setDoNotDisturbMode"    => __("Planifier le mode Ne pas déranger", __FILE__),
+                "setDoNotDisturbModeon"  => __("Activer le mode Ne pas déranger", __FILE__),
+                "setDoNotDisturbModeoff" => __("Désactiver le mode Ne pas déranger", __FILE__),
+                "doNotDisturbOff"        => __("Activer Ne pas déranger", __FILE__),
+                "doNotDisturbOn"         => __("Désactiver Ne pas déranger", __FILE__)
             ],
             "custom.dryerDryLevel" => [
                 "dryerDryLevel"          => __("Niveau de séchage", __FILE__),
@@ -2082,6 +2089,8 @@ class smartthings_translate
                 "periodicSensingOn"                  => __("Activer la Détection périodique", __FILE__),
                 "setPeriodicSensingInterval"         => __("Changer l'intervale de détection périodique", __FILE__),
                 "setPeriodicSensing"                 => __("Changer la détection périodique", __FILE__),
+                "setPeriodicSensingoff"              => __("Désactiver la détection périodique 2", __FILE__),
+                "setPeriodicSensingon"               => __("Activer la détection périodique 2", __FILE__),
                 "setAutomaticExecutionMode"          => __("Changer le mode d'exécution automatique", __FILE__),
                 "setAutomaticExecutionSetting"       => __("Changer le paramètre d'exécution automatique", __FILE__),
                 "periodicSensingOff"                 => __("Désactiver la détection périodique", __FILE__),
@@ -2855,6 +2864,11 @@ class smartthings_translate
                 "dryingTime"          => __("Temps de séchage", __FILE__),
                 "setDryingTime"       => __("Changer le temps de séchage", __FILE__)
             ],
+            "samsungce.dustFilterAlarm" => [
+                "alarmThreshold"           => __("Seuil d'alerte du filtre à poussière", __FILE__),
+                "supportedAlarmThresholds" => __("Seuils d'alerte du filtre à poussière supportés", __FILE__),
+                "setAlarmThreshold"        => __("Changer le seuil d'alerte du filtre à poussière", __FILE__),
+            ],
             "samsungce.fridgePantryInfo" => [
                 "name" => __("Nom du garde-manger", __FILE__),
             ],
@@ -2933,15 +2947,26 @@ class smartthings_translate
                 "enableRepeatMode"      => __("Activer le mode de répétition", __FILE__)
             ],
             "samsungce.robotCleanerOperatingState" => [
-                "supportedOperatingState" => __("État de fonctionnement supportés", __FILE__),
-                "operatingState"          => __("État de fonctionnement", __FILE__),
-                "homingReason"            => __("Raison du retour sur la station d'accueil", __FILE__),
-                "resume"                  => __("Reprendre", __FILE__),
-                "setOperatingState"       => __("Changer l'état de fonctionnement", __FILE__),
-                "returnToHome"            => __("Retour sur la station d'accueil", __FILE__),
-                "start"                   => __("Démarrer", __FILE__),
-                "pause"                   => __("Mettre en pause", __FILE__),
-                "cancelRemainingJob"      => __("Annuler nettoyage", __FILE__),
+                "supportedOperatingState"      => __("État de fonctionnement supportés", __FILE__),
+                "operatingState"               => __("État de fonctionnement", __FILE__),
+                "homingReason"                 => __("Raison du retour sur la station d'accueil", __FILE__),
+                "resume"                       => __("Reprendre", __FILE__),
+                "setOperatingState"            => __("Changer l'état de fonctionnement", __FILE__),
+                "returnToHome"                 => __("Retour sur la station d'accueil", __FILE__),
+                "start"                        => __("Démarrer", __FILE__),
+                "pause"                        => __("Mettre en pause", __FILE__),
+                "isMapBasedOperationAvailable" => __("Fonctionnement sur carte disponible ?", __FILE__),
+                "cancelRemainingJob"           => __("Annuler nettoyage", __FILE__),
+            ],
+            "samsungce.selfCheck" => [
+                "result"           => __("Résultat de l'autocontrôle", __FILE__),
+                "supportedActions" => __("Actions d'autocontrôle supportées", __FILE__),
+                "progress"         => __("Progression de l'autocontrôle", __FILE__),
+                "errors"           => __("Erreurs de l'autocontrôle", __FILE__),
+                "status"           => __("État de l'autocontrôle", __FILE__),
+                "cancelSelfCheck"  => __("Annuler l'autocontrôle", __FILE__),
+                "startSelfCheck"   => __("Démarrer l'autocontrôle", __FILE__),
+
             ],
             "samsungce.softenerOrder" => [
                 "enableAlarm"       => __("Activer l'alarme de l'adoucissant", __FILE__),
@@ -3082,6 +3107,7 @@ class smartthings_translate
                 "role"       => __("Rôle de groupe", __FILE__),
                 "masterName" => __("Nom du maître du groupe", __FILE__),
                 "status"     => __("État du groupe", __FILE__),
+                "channel"    => __("Canal du groupe", __FILE__),
             ],
             "samsungvd.mediaInputSource" => [
                 "supportedInputSources" => __("Sources d'entrée prises en charge (Map)", __FILE__),
@@ -3376,7 +3402,7 @@ class smartthings_translate
                 "pause"             => __("Mettre en pause le minuteur", __FILE__)
             ],
             "tone" => [
-                "beep" => __("Emettre un bip", __FILE__)
+                "beep" => __("Recherche du capteur", __FILE__)
             ],
             "tV" => [
                 "volume"      => __("Volume", __FILE__),

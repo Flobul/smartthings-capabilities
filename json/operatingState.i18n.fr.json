@@ -1,0 +1,64 @@
+{
+    "tag": "fr",
+    "label": "Statut de l'appareil",
+    "description": "Allows for the control of the operational state.",
+    "attributes": {
+        "machineState": {
+            "label": "Statut de l'appareil",
+            "description": "Current state of the machine",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "En marche"
+                    },
+                    "paused": {
+                        "label": "Mis en pause"
+                    },
+                    "ready": {
+                        "label": "Pr\u00eat"
+                    }
+                }
+            }
+        },
+        "supportedMachineStates": {
+            "label": "supported machine states",
+            "description": "States supported by the machine",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setMachineState": {
+            "description": "Set the machine state",
+            "arguments": {
+                "state": {
+                    "i18n": {
+                        "running": {
+                            "label": "En marche"
+                        },
+                        "paused": {
+                            "label": "Mis en pause"
+                        },
+                        "ready": {
+                            "label": "Pr\u00eat"
+                        }
+                    },
+                    "description": "Set the machine to this state"
+                }
+            }
+        }
+    }
+}

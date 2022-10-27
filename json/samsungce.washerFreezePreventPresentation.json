@@ -1,0 +1,24 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{operatingState.value}}",
+                "alternatives": [
+                    {
+                        "key": "running",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ready",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.ready.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "id": "samsungce.washerFreezePrevent",
+    "version": 1
+}

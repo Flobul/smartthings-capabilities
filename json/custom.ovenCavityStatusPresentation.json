@@ -1,0 +1,24 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{ovenCavityStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "{{i18n.attributes.ovenCavityStatus.i18n.value.on.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.ovenCavityStatus.i18n.value.off.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "id": "custom.ovenCavityStatus",
+    "version": 1
+}

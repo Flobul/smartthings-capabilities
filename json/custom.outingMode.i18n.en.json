@@ -23,10 +23,10 @@
                 "mode": {
                     "i18n": {
                         "off": {
-                            "label": "Outing "
+                            "label": "Outing Off"
                         },
                         "on": {
-                            "label": "Outing "
+                            "label": "Outing On"
                         }
                     }
                 }

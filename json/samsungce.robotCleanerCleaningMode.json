@@ -23,7 +23,8 @@
                                 "map",
                                 "pet",
                                 "uncleanedObject",
-                                "patternMap"
+                                "patternMap",
+                                "creatingMap"
                             ]
                         }
                     }
@@ -81,7 +82,8 @@
                             "map",
                             "pet",
                             "uncleanedObject",
-                            "patternMap"
+                            "patternMap",
+                            "creatingMap"
                         ]
                     }
                 },
@@ -113,7 +115,8 @@
                             "map",
                             "pet",
                             "uncleanedObject",
-                            "patternMap"
+                            "patternMap",
+                            "creatingMap"
                         ]
                     }
                 }

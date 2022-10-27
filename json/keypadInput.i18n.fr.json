@@ -1,0 +1,51 @@
+{
+    "tag": "fr",
+    "label": "Clavier",
+    "attributes": {
+        "supportedKeyCodes": {
+            "label": "supportedKeyCodes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "sendKey": {
+            "arguments": {
+                "keyCode": {
+                    "i18n": {
+                        "DOWN": {
+                            "label": "Bas"
+                        },
+                        "LEFT": {
+                            "label": "\u00c0 gauche"
+                        },
+                        "BACK": {
+                            "label": "Retour"
+                        },
+                        "RIGHT": {
+                            "label": "\u00c0 droite"
+                        },
+                        "SETTINGS": {
+                            "label": "Param\u00e8tres"
+                        },
+                        "UP": {
+                            "label": "Haut"
+                        },
+                        "MENU": {
+                            "label": "Menu"
+                        },
+                        "EXIT": {
+                            "label": "Quitter"
+                        },
+                        "SELECT": {
+                            "label": "S\u00e9lectionner"
+                        },
+                        "HOME": {
+                            "label": "Maison"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

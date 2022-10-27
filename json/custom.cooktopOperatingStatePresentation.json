@@ -1,4 +1,24 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{cooktopOperatingState.value}}",
+                "alternatives": [
+                    {
+                        "key": "ready",
+                        "value": "{{i18n.attributes.cooktopOperatingState.i18n.value.ready.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "run",
+                        "value": "{{i18n.attributes.cooktopOperatingState.i18n.value.run.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
     "automation": {
         "conditions": [
             {
@@ -17,7 +37,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "cooktopOperatingState.value"
+                    "value": "cooktopOperatingState.value",
+                    "valueType": "string"
                 }
             }
         ],

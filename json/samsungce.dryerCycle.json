@@ -14,7 +14,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "required": []
+                "required": [
+                    "value"
+                ]
             },
             "setter": "setDryerCycle",
             "enumCommands": []
@@ -101,7 +103,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "required": []
+                "required": [
+                    "value"
+                ]
             },
             "enumCommands": []
         }

@@ -2,7 +2,7 @@
 ## Ce script permet de récupérer les traductions fr SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).          ##
 ## Il faut mettre ce script dans un bloc code de scénario Jeedom.                              ##
-## Dernière mise à jour : 02/04/2022                                                           ##
+## Dernière mise à jour : 18/06/2022                                                           ##
 ## Créé par Flobul pour Jeedom                                                                 ##
 #################################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
@@ -13,7 +13,7 @@ if ($custom_token != "") $token = $custom_token;
 elseif($plugin_token != '' ) $token = $plugin_token;
 
 $_version = '1';
-$_language = 'fr'; //spécifiez la langue à télécharger (ex: fr, en, it...)
+$_language = 'en'; //spécifiez la langue à télécharger (ex: fr, en, it...)
 $url_i18n = '/' . $_version . '/i18n/' . $_language;
 
 global $tmp_dir;
@@ -90,7 +90,7 @@ $customAdded = array(
 	"samsungce.washerWaterValve",
 	"samsungce.welcomeMessage",
 	"samsungce.washerDelayEnd",
-  "samsungce.washerFreezePrevent",
+	"samsungce.washerFreezePrevent",
 	"custom.washerRinseCycles",
 	"custom.washerSoilLevel",
 	"custom.washerSpinLevel",
@@ -169,7 +169,8 @@ $customAdded = array(
 	"signalahead13665.applianceoperationstatesv2",
 	"samsungce.dustFilterAlarm",
 	"samsungce.individualControlLock",
-	"sec.diagnosticsInformation"
+	"sec.diagnosticsInformation",
+    "samsungce.selfCheck"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/

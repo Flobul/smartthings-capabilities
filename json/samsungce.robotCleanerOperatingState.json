@@ -34,7 +34,10 @@
                                 "messaging",
                                 "findingPet",
                                 "powerSaving",
-                                "reserved"
+                                "reserved",
+                                "factoryReset",
+                                "calibrating",
+                                "welcoming"
                             ]
                         }
                     }
@@ -73,7 +76,10 @@
                             "messaging",
                             "findingPet",
                             "powerSaving",
-                            "reserved"
+                            "reserved",
+                            "factoryReset",
+                            "calibrating",
+                            "welcoming"
                         ]
                     }
                 },
@@ -101,6 +107,22 @@
                             "mapCreated",
                             "doNotDisturb"
                         ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "isMapBasedOperationAvailable": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean",
+                        "default": false
                     }
                 },
                 "additionalProperties": false,

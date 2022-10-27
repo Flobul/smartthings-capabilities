@@ -1,7 +1,7 @@
 {
     "id": "airConditionerMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Air Conditioner Mode",
     "ephemeral": false,
     "attributes": {

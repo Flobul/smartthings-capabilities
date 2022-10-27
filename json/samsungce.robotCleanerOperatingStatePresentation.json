@@ -60,6 +60,11 @@
                         "type": "active"
                     },
                     {
+                        "key": "patrol",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.patrol.label}}",
+                        "type": "active"
+                    },
+                    {
                         "key": "monitoring",
                         "value": "{{i18n.attributes.operatingState.i18n.value.monitoring.label}}",
                         "type": "active"
@@ -77,6 +82,31 @@
                     {
                         "key": "relocal",
                         "value": "{{i18n.attributes.operatingState.i18n.value.relocal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "processing",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.relocal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "messaging",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.messaging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "calibrating",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.calibrating.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "moving",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.moving.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "welcoming",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.welcoming.label}}",
                         "type": "active"
                     }
                 ]

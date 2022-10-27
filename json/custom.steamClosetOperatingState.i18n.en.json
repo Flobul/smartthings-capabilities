@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Caring progress",
+    "label": "Caring Progress",
     "attributes": {
         "supportedSteamClosetJobState": {
             "label": "supportedSteamClosetJobState",
@@ -40,7 +40,7 @@
             "i18n": {
                 "value": {
                     "sterilizing": {
-                        "label": "Sanitizing"
+                        "label": "Sanitising"
                     },
                     "drying": {
                         "label": "Drying"

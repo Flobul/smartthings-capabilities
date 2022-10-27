@@ -34,6 +34,9 @@
                     "stop": {
                         "label": "stop"
                     },
+                    "creatingMap": {
+                        "label": "creatingMap"
+                    },
                     "spot": {
                         "label": "spot"
                     },

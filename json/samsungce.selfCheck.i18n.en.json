@@ -1,0 +1,53 @@
+{
+    "tag": "en",
+    "label": "Self Check",
+    "attributes": {
+        "result": {
+            "label": "result",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "checking": {
+                        "label": "checking"
+                    },
+                    "passed": {
+                        "label": "passed"
+                    },
+                    "failed": {
+                        "label": "failed"
+                    }
+                }
+            }
+        },
+        "supportedActions": {
+            "label": "supportedActions",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "progress": {
+            "label": "progress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "errors": {
+            "label": "errors",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "status": {
+            "label": "status",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

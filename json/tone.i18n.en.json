@@ -4,6 +4,7 @@
     "attributes": [],
     "commands": {
         "beep": {
+            "label": "Find sensor",
             "description": "Beep the device",
             "arguments": []
         }

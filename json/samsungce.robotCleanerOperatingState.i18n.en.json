@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Running State <state1>\/<remainTime1>",
+    "label": "Device status",
     "attributes": {
         "supportedOperatingState": {
             "label": "supportedOperatingState",
@@ -8,7 +8,7 @@
             "i18n": []
         },
         "operatingState": {
-            "label": "Power",
+            "label": "Device status",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -25,10 +25,13 @@
                         "label": "Waiting"
                     },
                     "findingPet": {
-                        "label": "Monitoring"
+                        "label": "Monitoring\u2026"
                     },
                     "charging": {
                         "label": "Charging"
+                    },
+                    "factoryReset": {
+                        "label": "factoryReset"
                     },
                     "emitDust": {
                         "label": "Emisja py\u0142u"
@@ -37,16 +40,19 @@
                         "label": "Disconnected"
                     },
                     "monitoring": {
-                        "label": "Monitoring"
+                        "label": "Monitoring\u2026"
                     },
                     "manual": {
-                        "label": "Monitoring"
+                        "label": "Monitoring\u2026"
                     },
                     "messaging": {
-                        "label": "messaging"
+                        "label": "Sending voice"
                     },
                     "exploring": {
                         "label": "Exploring"
+                    },
+                    "calibrating": {
+                        "label": "Calibrating"
                     },
                     "mediaPlaying": {
                         "label": "mediaPlaying"
@@ -55,7 +61,10 @@
                         "label": "reserved"
                     },
                     "processing": {
-                        "label": "processing"
+                        "label": "Relocal"
+                    },
+                    "welcoming": {
+                        "label": "Welcoming"
                     },
                     "homing": {
                         "label": "Returning for charging"
@@ -70,10 +79,10 @@
                         "label": "Charged"
                     },
                     "moving": {
-                        "label": "moving"
+                        "label": "Moving"
                     },
                     "relocal": {
-                        "label": "Finding location"
+                        "label": "Relocal"
                     }
                 }
             }
@@ -109,6 +118,11 @@
                     }
                 }
             }
+        },
+        "isMapBasedOperationAvailable": {
+            "label": "isMapBasedOperationAvailable",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
         }
     },
     "commands": {
@@ -117,7 +131,7 @@
             "arguments": []
         },
         "setOperatingState": {
-            "label": "Power",
+            "label": "Device status",
             "arguments": []
         },
         "returnToHome": {

@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Keypad Input",
+    "label": "Keypad",
     "attributes": {
         "supportedKeyCodes": {
             "label": "supportedKeyCodes",
@@ -8,5 +8,44 @@
             "i18n": []
         }
     },
-    "commands": []
+    "commands": {
+        "sendKey": {
+            "arguments": {
+                "keyCode": {
+                    "i18n": {
+                        "DOWN": {
+                            "label": "Down"
+                        },
+                        "LEFT": {
+                            "label": "Left"
+                        },
+                        "BACK": {
+                            "label": "Back"
+                        },
+                        "RIGHT": {
+                            "label": "Right"
+                        },
+                        "SETTINGS": {
+                            "label": "Settings"
+                        },
+                        "UP": {
+                            "label": "Up"
+                        },
+                        "MENU": {
+                            "label": "Menu"
+                        },
+                        "EXIT": {
+                            "label": "Exit"
+                        },
+                        "SELECT": {
+                            "label": "Select"
+                        },
+                        "HOME": {
+                            "label": "Home"
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -50,7 +50,7 @@
                         "label": "Finishing"
                     },
                     "delaywash": {
-                        "label": "delaywash"
+                        "label": "Delay start is set"
                     },
                     "rinse": {
                         "label": "Rinsing"

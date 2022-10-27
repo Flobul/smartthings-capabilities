@@ -1,22 +1,22 @@
 {
     "tag": "en",
-    "label": "Operating State",
+    "label": "Device status",
     "description": "Allows for the control of the operational state.",
     "attributes": {
         "machineState": {
-            "label": "machine state",
+            "label": "Device status",
             "description": "Current state of the machine",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "running"
+                        "label": "Running"
                     },
                     "paused": {
-                        "label": "paused"
+                        "label": "Paused"
                     },
                     "ready": {
-                        "label": "ready"
+                        "label": "Ready"
                     }
                 }
             }
@@ -45,7 +45,17 @@
             "description": "Set the machine state",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {
+                        "running": {
+                            "label": "Running"
+                        },
+                        "paused": {
+                            "label": "Paused"
+                        },
+                        "ready": {
+                            "label": "Ready"
+                        }
+                    },
                     "description": "Set the machine to this state"
                 }
             }

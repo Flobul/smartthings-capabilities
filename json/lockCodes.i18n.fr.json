@@ -1,7 +1,7 @@
 {
     "tag": "fr",
     "label": "Lock Codes",
-    "description": "Allows for the control of the lock codes.",
+    "description": "Allows for the control of the lock codes from the Smart Lock Guest Access service in the SmartThings mobile app. Note that this capability does not appear in the device detail page.",
     "attributes": {
         "codeLength": {
             "label": "Longueur de code",
@@ -121,10 +121,6 @@
                 }
             }
         },
-        "lock": {
-            "description": "Lock the lock",
-            "arguments": []
-        },
         "requestCode": {
             "description": "Request a code",
             "arguments": {
@@ -134,14 +130,9 @@
                 }
             }
         },
-        "deleteCode": {
-            "description": "Delete the code",
-            "arguments": {
-                "codeSlot": {
-                    "i18n": [],
-                    "description": "Delete the code in this code slot"
-                }
-            }
+        "lock": {
+            "description": "Lock the lock",
+            "arguments": []
         },
         "nameSlot": {
             "description": "Set the name slot for the code",
@@ -153,6 +144,15 @@
                 "codeSlot": {
                     "i18n": [],
                     "description": "Code slot number for the code"
+                }
+            }
+        },
+        "deleteCode": {
+            "description": "Delete the code",
+            "arguments": {
+                "codeSlot": {
+                    "i18n": [],
+                    "description": "Delete the code in this code slot"
                 }
             }
         }

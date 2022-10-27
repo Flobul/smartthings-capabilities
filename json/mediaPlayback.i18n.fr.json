@@ -24,6 +24,9 @@
                     "rewinding": {
                         "label": "Rembobinage"
                     },
+                    "buffering": {
+                        "label": "Buffering"
+                    },
                     "playing": {
                         "label": "Lecture"
                     },
@@ -37,25 +40,26 @@
     "commands": {
         "play": {
             "label": "Lecture",
-            "description": "Set the playback status to \"playing\"",
-            "arguments": []
-        },
-        "stop": {
-            "label": "Arr\u00eater",
-            "description": "Set the playback status to \"stopped\"",
+            "description": "Start the media playback",
             "arguments": []
         },
         "rewind": {
             "label": "Rembobinage",
-            "description": "Set the playback status to \"rewinding\"",
+            "description": "Rewind the media playback",
+            "arguments": []
+        },
+        "stop": {
+            "label": "Arr\u00eater",
+            "description": "Stop the media playback",
             "arguments": []
         },
         "fastForward": {
             "label": "Avance rapide",
-            "description": "Set the playback status to \"fast forwarding\"",
+            "description": "Fast forward the media playback",
             "arguments": []
         },
         "setPlaybackStatus": {
+            "label": "Set playback status",
             "description": "Set the playback status",
             "arguments": {
                 "status": {
@@ -66,7 +70,7 @@
         },
         "pause": {
             "label": "Pause",
-            "description": "Set the playback status to \"paused\"",
+            "description": "Pause the media playback",
             "arguments": []
         }
     }

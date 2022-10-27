@@ -1,7 +1,7 @@
 {
     "id": "airConditionerFanMode",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Air Conditioner Fan Mode",
     "ephemeral": false,
     "attributes": {
@@ -55,6 +55,7 @@
     },
     "commands": {
         "setFanMode": {
+            "name": "setFanMode",
             "arguments": [
                 {
                     "name": "fanMode",

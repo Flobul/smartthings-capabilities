@@ -18,7 +18,9 @@
                     }
                 },
                 "additionalProperties": false,
-                "required": []
+                "required": [
+                    "value"
+                ]
             },
             "setter": "setDryerAutoCycleLink",
             "enumCommands": []

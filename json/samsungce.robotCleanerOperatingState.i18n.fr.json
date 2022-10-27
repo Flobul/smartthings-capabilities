@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "Running State <state1>\/<remainTime1>",
+    "label": "\u00c9tat de l'appareil",
     "attributes": {
         "supportedOperatingState": {
             "label": "supportedOperatingState",
@@ -8,7 +8,7 @@
             "i18n": []
         },
         "operatingState": {
-            "label": "Marche\/Arr\u00eat",
+            "label": "\u00c9tat de l'appareil",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -30,6 +30,9 @@
                     "charging": {
                         "label": "En charge"
                     },
+                    "factoryReset": {
+                        "label": "factoryReset"
+                    },
                     "emitDust": {
                         "label": "\u00c9mission de poussi\u00e8re"
                     },
@@ -43,10 +46,13 @@
                         "label": "Surveillance..."
                     },
                     "messaging": {
-                        "label": "messaging"
+                        "label": "Envoi de la voix"
                     },
                     "exploring": {
                         "label": "Exploration"
+                    },
+                    "calibrating": {
+                        "label": "\u00c9talonnage en cours"
                     },
                     "mediaPlaying": {
                         "label": "mediaPlaying"
@@ -55,7 +61,10 @@
                         "label": "reserved"
                     },
                     "processing": {
-                        "label": "processing"
+                        "label": "Localisation"
+                    },
+                    "welcoming": {
+                        "label": "Bienvenue"
                     },
                     "homing": {
                         "label": "Retour pour chargement"
@@ -70,7 +79,7 @@
                         "label": "Charge compl\u00e8te"
                     },
                     "moving": {
-                        "label": "moving"
+                        "label": "En d\u00e9placement"
                     },
                     "relocal": {
                         "label": "Localisation"
@@ -109,6 +118,11 @@
                     }
                 }
             }
+        },
+        "isMapBasedOperationAvailable": {
+            "label": "isMapBasedOperationAvailable",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
         }
     },
     "commands": {
@@ -117,7 +131,7 @@
             "arguments": []
         },
         "setOperatingState": {
-            "label": "Marche\/Arr\u00eat",
+            "label": "\u00c9tat de l'appareil",
             "arguments": []
         },
         "returnToHome": {

@@ -1,0 +1,15 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{i18n.attributes.playingFrom.label}}"
+            },
+            {
+                "label": "{{i18n.attributes.sharingFrom.label}}"
+            }
+        ],
+        "actions": []
+    },
+    "id": "samsungvd.groupInfo",
+    "version": 1
+}
