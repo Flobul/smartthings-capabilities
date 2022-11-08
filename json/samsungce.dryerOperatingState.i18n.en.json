@@ -1,0 +1,102 @@
+{
+    "tag": "en",
+    "label": "Dryer Operating State",
+    "attributes": {
+        "operatingState": {
+            "label": "operatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
+        },
+        "supportedOperatingStates": {
+            "label": "supportedOperatingStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "scheduledJobs": {
+            "label": "scheduledJobs",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "progress": {
+            "label": "progress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "remainingTimeStr": {
+            "label": "remainingTimeStr",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dryerJobState": {
+            "label": "dryerJobState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "weightSensing": {
+                        "label": "weightSensing"
+                    },
+                    "wrinklePrevent": {
+                        "label": "wrinklePrevent"
+                    },
+                    "sanitizing": {
+                        "label": "sanitizing"
+                    },
+                    "finished": {
+                        "label": "finished"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "thawingFrozenInside": {
+                        "label": "thawingFrozenInside"
+                    },
+                    "delayDry": {
+                        "label": "delayDry"
+                    },
+                    "dehumidifying": {
+                        "label": "dehumidifying"
+                    },
+                    "continuousDehumidifying": {
+                        "label": "continuousDehumidifying"
+                    },
+                    "drying": {
+                        "label": "drying"
+                    },
+                    "refreshing": {
+                        "label": "refreshing"
+                    },
+                    "cooling": {
+                        "label": "cooling"
+                    },
+                    "internalCare": {
+                        "label": "internalCare"
+                    },
+                    "aIDrying": {
+                        "label": "aIDrying"
+                    },
+                    "freezeProtection": {
+                        "label": "freezeProtection"
+                    }
+                }
+            }
+        },
+        "remainingTime": {
+            "label": "remainingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

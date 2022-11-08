@@ -484,18 +484,22 @@ class smartthings_translate
                 "lowHeat"  => __("Économique", __FILE__)
             ],
             "dryerJobState" => [
-                "weightSensing"  => __("Vérification du poids", __FILE__),
-                "drying"         => __("Séchage", __FILE__),
-                "refreshing"     => __("Rafraîchissant", __FILE__),
-                "cooling"        => __("Refroidissement", __FILE__),
-                "wrinklePrevent" => __("Anti-froissage", __FILE__),
-                "sanitizing"     => __("Assainissement", __FILE__),
-                "delayWash"      => __("Lavage différé", __FILE__),
-                "finished"       => __("Fin", __FILE__),
-                "internalCare"   => __("Prudence", __FILE__),
-                "none"           => __("Aucun", __FILE__),
-                "dehumidifying"  => __("Déshumidificateur", __FILE__),
-                "aIDrying"       => __("IA séchage", __FILE__)
+                "weightSensing"           => __("Vérification du poids", __FILE__),
+                "drying"                  => __("Séchage", __FILE__),
+                "refreshing"              => __("Rafraîchissant", __FILE__),
+                "cooling"                 => __("Refroidissement", __FILE__),
+                "wrinklePrevent"          => __("Anti-froissage", __FILE__),
+                "sanitizing"              => __("Assainissement", __FILE__),
+                "delayWash"               => __("Lavage différé", __FILE__),
+                "finished"                => __("Fin", __FILE__),
+                "internalCare"            => __("Prudence", __FILE__),
+                "none"                    => __("Aucun", __FILE__),
+                "dehumidifying"           => __("Déshumidificateur", __FILE__),
+                "aIDrying"                => __("IA séchage", __FILE__),
+                "delayDry"                => __("Séchage différé", __FILE__),
+                "continuousDehumidifying" => __("Déshumidification en continu", __FILE__),
+                "thawingFrozenInside"     => __("Décongélation de l'intérieur", __FILE__),
+                "freezeProtection"        => __("Protection contre le gel", __FILE__)
             ],
             "doNotDisturb" => [
                 "off" => __("Désactivé", __FILE__),
@@ -532,6 +536,10 @@ class smartthings_translate
                 "off" => __("Désactivé", __FILE__),
                 "on"  => __("Activé", __FILE__)
             ],
+            "dumpType" => [
+                "file" => __("Fichier", __FILE__),
+                "id"   => __("Identifiant", __FILE__)
+            ],
             "dustHealthConcern" => [
                 "veryUnhealthy"     => __("Très mauvais", __FILE__),
                 "slightlyUnhealthy" => __("Légèrement mauvais", __FILE__),
@@ -559,6 +567,11 @@ class smartthings_translate
             "encryption" => [
                 "off" => __("Désactivé", __FILE__),
                 "on"  => __("Activé", __FILE__)
+            ],
+            "endpoint" => [
+                "NONE"  => __("AUCUN", __FILE__),
+                "PIPER" => __("PIPER", __FILE__),
+                "SSM"   => __("SSM", __FILE__),
             ],
             "engineState" => [
                 "running"  => __("Actif", __FILE__),
@@ -750,6 +763,10 @@ class smartthings_translate
                 "paused"   => __("Pause", __FILE__),
                 "locked"   => __("Verrouillé", __FILE__),
                 "unlocked" => __("Déverrouillé", __FILE__)
+            ],
+            "logType" => [
+                "errCode" => __("Code d'erreur", __FILE__),
+                "dump"    => __("Vidage", __FILE__)
             ],
             "machineState" => [
                 "stop"    => __("Arrêté", __FILE__),
@@ -1079,6 +1096,11 @@ class smartthings_translate
                 "Cooking_Oven_Program_HeatingMode_BottomHeating"       => __("Résistance de sole", __FILE__),
                 "None"                                                 => __("Aucun", __FILE__),
                 "UnknownProgram"                                       => __("Programme inconnu", __FILE__)
+            ],
+            "protocolType" => [
+                "ble_ocf"    => __("BLE OCF", __FILE__),
+                "wifi_https" => __("WiFi https", __FILE__),
+                "ble_stdk"   => __("BLE STDK", __FILE__),
             ],
             "rapidCooling" => [
                 "off" => __("Désactivé", __FILE__),
@@ -1624,21 +1646,23 @@ class smartthings_translate
                 "hot"  => __("Chaud", __FILE__)
             ],
             "washerJobState" => [
-                "aIRinse"        => __("IA rinçage", __FILE__),
-                "weightSensing"  => __("Vérification du poids", __FILE__),
-                "wash"           => __("Lavage", __FILE__),
-                "wrinklePrevent" => __("Anti-froissage", __FILE__),
-                "delayWash"      => __("Lavage différé", __FILE__),
-                "none"           => __("Aucun", __FILE__),
-                "airWash"        => __("Lavage à l'air", __FILE__),
-                "aIWash"         => __("IA lavage", __FILE__),
-                "drying"         => __("Séchage", __FILE__),
-                "spin"           => __("Essorage", __FILE__),
-                "aISpin"         => __("IA essorage", __FILE__),
-                "cooling"        => __("Refroidissement", __FILE__),
-                "preWash"        => __("Prélavage", __FILE__),
-                "finish"         => __("Fin", __FILE__),
-                "rinse"          => __("Rinçage", __FILE__)
+                "aIRinse"          => __("IA rinçage", __FILE__),
+                "weightSensing"    => __("Vérification du poids", __FILE__),
+                "wash"             => __("Lavage", __FILE__),
+                "wrinklePrevent"   => __("Anti-froissage", __FILE__),
+                "delayWash"        => __("Lavage différé", __FILE__),
+                "none"             => __("Aucun", __FILE__),
+                "airWash"          => __("Lavage à l'air", __FILE__),
+                "aIWash"           => __("IA lavage", __FILE__),
+                "drying"           => __("Séchage", __FILE__),
+                "spin"             => __("Essorage", __FILE__),
+                "aISpin"           => __("IA essorage", __FILE__),
+                "cooling"          => __("Refroidissement", __FILE__),
+                "preWash"          => __("Prélavage", __FILE__),
+                "finish"           => __("Fin", __FILE__),
+                "finished"         => __("Fini", __FILE__),
+                "rinse"            => __("Rinçage", __FILE__),
+                "freezeProtection" => __("Protection contre le gel", __FILE__)
             ],
             "washerOperatingState" => [
                 "pause" => __("Pause", __FILE__),
@@ -2033,7 +2057,8 @@ class smartthings_translate
                 "energySavingSupport"          => __("Aide à l'économie d'énergie", __FILE__),
                 "energySavingOperation"        => __("Opération d'économie d'énergie", __FILE__),
                 "energySavingOperationSupport" => __("Aide à l'opération d'économie d'énergie", __FILE__),
-                "drMaxDuration"                => __("Durée maximale de DR", __FILE__)
+                "drMaxDuration"                => __("Durée maximale de DR", __FILE__),
+                "setEnergySavingLevel"         => __("Changer  le niveau d'économie d'énergie", __FILE__),
             ],
             "custom.error" => [
                 "error"    => __("Erreur", __FILE__),
@@ -2864,6 +2889,20 @@ class smartthings_translate
                 "dryingTime"          => __("Temps de séchage", __FILE__),
                 "setDryingTime"       => __("Changer le temps de séchage", __FILE__)
             ],
+            "samsungce.dryerOperatingState" => [
+                "operatingState"            => __("État de fonctionnement", __FILE__),
+                "supportedOperatingStates"  => __("États de fonctionnement pris en charge", __FILE__),
+                "scheduledJobs"             => __("Tâches programmées", __FILE__),
+                "progress"                  => __("Progression du sèchage", __FILE__),
+                "dryerJobState"             => __("Statut de tâche de séchage", __FILE__),
+                "remainingTimeStr"          => __("Temps humain de lavage restant", __FILE__),
+                "remainingTime"             => __("Temps de séchage restant", __FILE__),
+                "resume"                    => __("Reprendre", __FILE__),
+                "cancel"                    => __("Annuler", __FILE__),
+                "start"                     => __("Démarrer", __FILE__),
+                "setDelayEnd"               => __("Changer la fin différée", __FILE__),
+                "pause"                     => __("Mettre en pause", __FILE__),
+            ],
             "samsungce.dustFilterAlarm" => [
                 "alarmThreshold"           => __("Seuil d'alerte du filtre à poussière", __FILE__),
                 "supportedAlarmThresholds" => __("Seuils d'alerte du filtre à poussière supportés", __FILE__),
@@ -3024,6 +3063,22 @@ class smartthings_translate
             "samsungce.washerFreezePrevent" => [
                 "operatingState" => __("État de fonctionnement du déblocage", __FILE__)
             ],
+            "samsungce.washerOperatingState" => [
+                "washerJobState"            => __("Statut de tâche de lavage", __FILE__),
+                "operatingState"            => __("État de fonctionnement", __FILE__),
+                "supportedOperatingStates"  => __("États de fonctionnement pris en charge", __FILE__),
+                "scheduledJobs"             => __("Tâches programmées", __FILE__),
+                "progress"                  => __("Progression du lavage", __FILE__),
+                "remainingTimeStr"          => __("Temps humain de lavage restant", __FILE__),
+                "operationTime"             => __("Temps de fonctionnement", __FILE__),
+                "remainingTime"             => __("Temps de lavage restant", __FILE__),
+                "resume"                    => __("Reprendre", __FILE__),
+                "cancel"                    => __("Annuler", __FILE__),
+                "start"                     => __("Démarrer", __FILE__),
+                "estimateOperationTime"     => __("Temps de fonctionnement estimé", __FILE__),
+                "setDelayEnd"               => __("Changer la fin différée", __FILE__),
+                "pause"                     => __("Mettre en pause", __FILE__),
+            ],
             "samsungce.washerWashingTime" => [
                 "supportedWashingTimes" => __("Temps de lavage pris en charge", __FILE__),
                 "washingTime"           => __("Temps de lavage", __FILE__),
@@ -3126,6 +3181,15 @@ class smartthings_translate
                 "scentName"         => __("Nom de senteur", __FILE__),
                 "scentIntensity"    => __("Intensité de senteur", __FILE__),
                 "setScentIntensity" => __("Changer l'intensité de senteur", __FILE__)
+            ],
+            "sec.diagnosticsInformation" => [
+                "logType"      => __("Type de journal", __FILE__),
+                "endpoint"     => __("Point final", __FILE__),
+                "minVersion"   => __("Version minimale", __FILE__),
+                "setupId"      => __("Identifiant de configuration", __FILE__),
+                "protocolType" => __("Type de protocole", __FILE__),
+                "mnId"         => __("Identifiant du constructeur", __FILE__),
+                "dumpType"     => __("Type de vidage", __FILE__),
             ],
             "securitySystem" => [
                 "alarm"                => __("Alarme", __FILE__),

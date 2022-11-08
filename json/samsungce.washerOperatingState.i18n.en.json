@@ -1,0 +1,104 @@
+{
+    "tag": "en",
+    "label": "Washer Operating State",
+    "attributes": {
+        "washerJobState": {
+            "label": "washerJobState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "aIRinse": {
+                        "label": "aIRinse"
+                    },
+                    "weightSensing": {
+                        "label": "weightSensing"
+                    },
+                    "wash": {
+                        "label": "wash"
+                    },
+                    "delayWash": {
+                        "label": "delayWash"
+                    },
+                    "finished": {
+                        "label": "finished"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "airWash": {
+                        "label": "airWash"
+                    },
+                    "drying": {
+                        "label": "drying"
+                    },
+                    "aIWash": {
+                        "label": "aIWash"
+                    },
+                    "spin": {
+                        "label": "spin"
+                    },
+                    "preWash": {
+                        "label": "preWash"
+                    },
+                    "aISpin": {
+                        "label": "aISpin"
+                    },
+                    "rinse": {
+                        "label": "rinse"
+                    },
+                    "freezeProtection": {
+                        "label": "freezeProtection"
+                    }
+                }
+            }
+        },
+        "operatingState": {
+            "label": "operatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
+        },
+        "supportedOperatingStates": {
+            "label": "supportedOperatingStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "scheduledJobs": {
+            "label": "scheduledJobs",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "progress": {
+            "label": "progress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "remainingTimeStr": {
+            "label": "remainingTimeStr",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "operationTime": {
+            "label": "operationTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "remainingTime": {
+            "label": "remainingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

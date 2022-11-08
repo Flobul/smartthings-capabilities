@@ -72,7 +72,8 @@
                     "value"
                 ]
             },
-            "enumCommands": []
+            "enumCommands": [],
+            "setter": "setEnergySavingLevel"
         },
         "supportedEnergySavingLevels": {
             "schema": {
