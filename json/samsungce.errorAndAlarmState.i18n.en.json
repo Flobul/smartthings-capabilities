@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Error And Alarm State",
+    "attributes": {
+        "events": {
+            "label": "events",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

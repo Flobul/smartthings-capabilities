@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Sound From",
+    "attributes": {
+        "mode": {
+            "label": "mode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "detailName": {
+            "label": "detailName",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

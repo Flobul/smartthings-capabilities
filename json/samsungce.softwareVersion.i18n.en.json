@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Software Version",
+    "attributes": {
+        "versions": {
+            "label": "versions",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

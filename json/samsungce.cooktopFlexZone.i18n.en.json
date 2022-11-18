@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Cooktop Flex Zone",
+    "attributes": {
+        "flexZones": {
+            "label": "flexZones",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,62 @@
+{
+    "tag": "en",
+    "label": "Cooktop Heating Power",
+    "attributes": {
+        "manualLevel": {
+            "label": "manualLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "heatingMode": {
+            "label": "heatingMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "melt": {
+                        "label": "melt"
+                    },
+                    "keepWarm": {
+                        "label": "keepWarm"
+                    },
+                    "quickPreheat": {
+                        "label": "quickPreheat"
+                    },
+                    "defrost": {
+                        "label": "defrost"
+                    },
+                    "boost": {
+                        "label": "boost"
+                    },
+                    "simmer": {
+                        "label": "simmer"
+                    },
+                    "manual": {
+                        "label": "manual"
+                    },
+                    "off": {
+                        "label": "off"
+                    },
+                    "onOff": {
+                        "label": "onOff"
+                    }
+                }
+            }
+        },
+        "manualLevelMin": {
+            "label": "manualLevelMin",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedHeatingModes": {
+            "label": "supportedHeatingModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "manualLevelMax": {
+            "label": "manualLevelMax",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

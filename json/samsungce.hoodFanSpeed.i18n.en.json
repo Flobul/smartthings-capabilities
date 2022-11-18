@@ -1,0 +1,123 @@
+{
+    "tag": "en",
+    "label": "Wind strength",
+    "attributes": {
+        "settableMaxFanSpeed": {
+            "label": "settableMaxFanSpeed",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "hoodFanSpeed": {
+            "label": "hoodFanSpeed",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "14": {
+                        "label": "Smart"
+                    },
+                    "15": {
+                        "label": "Low"
+                    },
+                    "16": {
+                        "label": "Medium"
+                    },
+                    "17": {
+                        "label": "High"
+                    },
+                    "18": {
+                        "label": "Max"
+                    },
+                    "19": {
+                        "label": "Boost"
+                    },
+                    "0": {
+                        "label": "Off"
+                    },
+                    "1": {
+                        "label": "Low"
+                    },
+                    "2": {
+                        "label": "Medium"
+                    },
+                    "3": {
+                        "label": "High"
+                    },
+                    "4": {
+                        "label": "Boost"
+                    },
+                    "5": {
+                        "label": "Auto"
+                    },
+                    "6": {
+                        "label": "Smart"
+                    },
+                    "7": {
+                        "label": "Low"
+                    }
+                }
+            }
+        },
+        "supportedHoodFanSpeed": {
+            "label": "supportedHoodFanSpeed",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "settableMinFanSpeed": {
+            "label": "settableMinFanSpeed",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setHoodFanSpeed": {
+            "arguments": {
+                "speed": {
+                    "i18n": {
+                        "14": {
+                            "label": "Smart"
+                        },
+                        "15": {
+                            "label": "Low"
+                        },
+                        "16": {
+                            "label": "Medium"
+                        },
+                        "17": {
+                            "label": "High"
+                        },
+                        "18": {
+                            "label": "Max"
+                        },
+                        "19": {
+                            "label": "Boost"
+                        },
+                        "0": {
+                            "label": "Off"
+                        },
+                        "1": {
+                            "label": "Low"
+                        },
+                        "2": {
+                            "label": "Medium"
+                        },
+                        "3": {
+                            "label": "High"
+                        },
+                        "4": {
+                            "label": "Boost"
+                        },
+                        "5": {
+                            "label": "Auto"
+                        },
+                        "6": {
+                            "label": "Smart"
+                        },
+                        "7": {
+                            "label": "Low"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

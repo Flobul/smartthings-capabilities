@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "User Notification",
+    "attributes": {
+        "message": {
+            "label": "message",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

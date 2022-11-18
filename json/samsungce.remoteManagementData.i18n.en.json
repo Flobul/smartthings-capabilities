@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Remote Management Data",
+    "attributes": {
+        "reportRawData": {
+            "label": "reportRawData",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "version": {
+            "label": "version",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

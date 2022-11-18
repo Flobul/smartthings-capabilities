@@ -692,6 +692,17 @@ class smartthings_translate
                 "offline" => __("Hors ligne", __FILE__),
                 "online"  => __("En ligne", __FILE__)
             ],
+            "heatingMode" => [
+                "melt"         => __("Faire fondre", __FILE__),
+                "keepWarm"     => __("Maintien au chaud", __FILE__),
+                "quickPreheat" => __("Préchauffage rapide", __FILE__),
+                "defrost"      => __("Décongélation", __FILE__),
+                "boost"        => __("Boost", __FILE__),
+                "simmer"       => __("Mijoter", __FILE__),
+                "manual"       => __("Manuel", __FILE__),
+                "off"          => __("Eteint", __FILE__),
+                "onOff"        => __("On Off", __FILE__)
+            ],
             "hepaFilterStatus" => [
                 "notused" => __("Non utilisé", __FILE__),
                 "normal"  => __("Normal", __FILE__),
@@ -1343,6 +1354,8 @@ class smartthings_translate
                 "installing"     => __("Installation en cours", __FILE__),
                 "completed"      => __("Terminé", __FILE__),
                 "failed"         => __("Échoué", __FILE__),
+                "idle"           => __("Inactif", __FILE__),
+                "running"        => __("En fonctionnement", __FILE__)
             ],
             "steamClosetCourse" => [
                 "standard"         => __("Standard", __FILE__),
@@ -1401,6 +1414,12 @@ class smartthings_translate
                 "ready"   => __("Prêt", __FILE__),
                 "running" => __("Fonctionnement", __FILE__),
                 "paused"  => __("Mis en pause", __FILE__)
+            ],
+            "surfaceResidualHeat" => [
+                "normal"   => __("Normale", __FILE__),
+                "low"      => __("Faible", __FILE__),
+                "high"     => __("Élevée", __FILE__),
+                "veryHigh" => __("Très élévée", __FILE__)
             ],
             "switch" => [
                 "off"    => __("Désactivé", __FILE__),
@@ -1660,7 +1679,7 @@ class smartthings_translate
                 "cooling"          => __("Refroidissement", __FILE__),
                 "preWash"          => __("Prélavage", __FILE__),
                 "finish"           => __("Fin", __FILE__),
-                "finished"         => __("Fini", __FILE__),
+                "finished"         => __("Cycle terminé", __FILE__),
                 "rinse"            => __("Rinçage", __FILE__),
                 "freezeProtection" => __("Protection contre le gel", __FILE__)
             ],
@@ -2223,6 +2242,9 @@ class smartthings_translate
                 "maximumSetpoint" => __("Température de refroidissement maximum", __FILE__),
                 "lowerSetpoint"   => __("Baisser la température de refroidissement", __FILE__),
                 "raiseSetpoint"   => __("Monter la température de refroidissement", __FILE__)
+            ],
+            "custom.userNotification" => [
+                "message" => __("Message de notification", __FILE__)
             ],
             "custom.veryFineDustFilter" => [
                 "veryFineDustFilterStatus"        => __("Statut du filtre à particules fines", __FILE__),
@@ -2832,6 +2854,29 @@ class smartthings_translate
                 "volumeUp"       => __("Volume +", __FILE__),
                 "volumeDown"     => __("Volume -", __FILE__)
             ],
+            "samsungce.connectionState" => [
+                "connectionState" => __("État de la connexion", __FILE__)
+            ],
+            "samsungce.cooktopFlexZone" => [
+                "flexZones" => __("Zones d'induction", __FILE__)
+            ],
+            "samsungce.countDownTimer" => [
+                "startValue"    => __("Valeur initiale du compte à rebours", __FILE__),
+                "currentValue"  => __("Valeur actuelle du compte à rebours", __FILE__),
+                "status"        => __("État du compte à rebours", __FILE__),
+                "resume"        => __("Reprendre le compte à rebours", __FILE__),
+                "cancel"        => __("Annuler le compte à rebours", __FILE__),
+                "start"         => __("Démarrer le compte à rebours", __FILE__),
+                "setStartValue" => __("Changer la valeur intiale du compte à rebours", __FILE__),
+                "pause"         => __("Mettre en pause le compte à rebours", __FILE__)
+            ],
+            "samsungce.cooktopHeatingPower" => [
+                "manualLevel"           => __("Niveau manuel", __FILE__),
+                "heatingMode"           => __("Mode de chauffage", __FILE__),
+                "manualLevelMin"        => __("Niveau manuel minimum", __FILE__),
+                "supportedHeatingModes" => __("Modes de chauffage supportés", __FILE__),
+                "manualLevelMax"        => __("Niveau manuel maximum", __FILE__)
+            ],
             "samsungce.definedRecipe" => [
                 "definedRecipe"     => __("Recette définie", __FILE__),
                 "setDefinedRecipe"  => __("Changer la recette définie", __FILE__),
@@ -2908,6 +2953,9 @@ class smartthings_translate
                 "supportedAlarmThresholds" => __("Seuils d'alerte du filtre à poussière supportés", __FILE__),
                 "setAlarmThreshold"        => __("Changer le seuil d'alerte du filtre à poussière", __FILE__),
             ],
+            "samsungce.errorAndAlarmState" => [
+                "events" => __("Événements pour les états d'erreur et d'alarme", __FILE__)
+            ],
             "samsungce.fridgePantryInfo" => [
                 "name" => __("Nom du garde-manger", __FILE__),
             ],
@@ -2915,6 +2963,13 @@ class smartthings_translate
                 "mode"           => __("Mode du garde-manger", __FILE__),
                 "setMode"        => __("Changer de mode du garde-manger", __FILE__),
                 "supportedModes" => __("Mode du garde-manger pris en charge", __FILE__),
+            ],
+            "samsungce.hoodFanSpeed" => [
+                "settableMaxFanSpeed"   => __("Vitesse maximale du ventilateur réglable de la hotte", __FILE__),
+                "hoodFanSpeed"          => __("Vitesse du ventilateur de la hotte", __FILE__),
+                "supportedHoodFanSpeed" => __("Vitesses du ventilateur de la hotte supportées", __FILE__),
+                "settableMinFanSpeed"   => __("Vitesse minimale du ventilateur réglable de la hotte", __FILE__),
+                "setHoodFanSpeed"       => __("Changer la vitesse du ventilateur de la hotte", __FILE__)
             ],
             "samsungce.kitchenDeviceIdentification" => [
                 "regionCode" => __("Code de région", __FILE__),
@@ -2976,6 +3031,11 @@ class smartthings_translate
                 "activate"   => __("Activer la fonction de gel", __FILE__),
                 "deactivate" => __("Désactiver la fonction de gel", __FILE__)
             ],
+            "samsungce.remoteManagementData" => [
+                "reportRawData" => __("Données brutes de télégestion", __FILE__),
+                "version"       => __("Version de données de télégestion", __FILE__),
+                "rmCommand"     => __("Commande de données de télégestion", __FILE__)
+            ],
             "samsungce.robotCleanerCleaningMode" => [
                 "supportedCleaningMode" => __("Mode de nettoyage supportés", __FILE__),
                 "repeatModeEnabled"     => __("Mode répétition activé", __FILE__),
@@ -3030,6 +3090,12 @@ class smartthings_translate
                 "newVersionAvailable" => __("Mise à jour disponible", __FILE__),
                 "agreeUpdate"         => __("Accepter la mise à jour", __FILE__),
                 "disagreeUpdate"      => __("Refuser la mise à jour", __FILE__),
+            ],
+            "samsungce.softwareVersion" => [
+                "versions" => __("Versions du logiciel", __FILE__)
+            ],
+            "samsungce.surfaceResidualHeat" => [
+                "surfaceResidualHeat" => __("Chaleur résiduelle en surface", __FILE__)
             ],
             "samsungce.viewInside" => [
               "contents"        => __("Contenu du fichier", __FILE__),
@@ -3168,6 +3234,11 @@ class smartthings_translate
                 "supportedInputSources" => __("Sources d'entrée prises en charge (Map)", __FILE__),
                 "inputSource"           => __("Source d'entrée (Map)", __FILE__),
                 "setInputSource"        => __("Changer la source d'entrée (Map)", __FILE__)
+            ],
+            "samsungvd.soundFrom" => [
+                "mode"         => __("Mode de source audio", __FILE__),
+                "detailName"   => __("Nom détaillé de source audio", __FILE__),
+                "setSoundFrom" => __("Changer la source audio", __FILE__)
             ],
             "samsungvd.supportsPowerOnByOcf" => [
                 "supportsPowerOnByOcf" => __("Allumage par OCF pris en charge", __FILE__)

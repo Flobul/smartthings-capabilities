@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Surface Residual Heat",
+    "attributes": {
+        "surfaceResidualHeat": {
+            "label": "surfaceResidualHeat",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "high": {
+                        "label": "high"
+                    },
+                    "low": {
+                        "label": "low"
+                    },
+                    "veryHigh": {
+                        "label": "veryHigh"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}
