@@ -1,0 +1,343 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{program.value}}",
+                "alternatives": [
+                    {
+                        "key": "Dishcare_Dishwasher_Program_Auto2",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Dishcare_Dishwasher_Program_Eco50",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Dishcare_Dishwasher_Program_Kurz60",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Dishcare_Dishwasher_Program_Intensiv70",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Dishcare_Dishwasher_Program_Quick45",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Dishcare_Dishwasher_Program_Auto3",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Dishcare_Dishwasher_Program_NightWash",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Dishcare_Dishwasher_Program_MachineCare",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Dishcare_Dishwasher_Program_PreRinse",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "Dishcare_Dishwasher_Program_Glas40",
+                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "None",
+                        "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "UnknownProgram",
+                        "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.program.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setProgram",
+                    "alternatives": [
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Auto2",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Eco50",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Kurz60",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Intensiv70",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Quick45",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Auto3",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_NightWash",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_MachineCare",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_PreRinse",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Glas40",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "availablePrograms.value"
+                },
+                "state": {
+                    "value": "program.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Auto2",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Eco50",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Kurz60",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Intensiv70",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Quick45",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Auto3",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_NightWash",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_MachineCare",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_PreRinse",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Glas40",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "None",
+                            "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UnknownProgram",
+                            "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.program.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Auto2",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Eco50",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Kurz60",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Intensiv70",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Quick45",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Auto3",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_NightWash",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_MachineCare",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_PreRinse",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Glas40",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "None",
+                            "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UnknownProgram",
+                            "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "availablePrograms.value",
+                    "value": "program.value",
+                    "valueType": "string"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.program.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Auto2",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Eco50",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Kurz60",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Intensiv70",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Quick45",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Auto3",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_NightWash",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_MachineCare",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_PreRinse",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "Dishcare_Dishwasher_Program_Glas40",
+                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "availablePrograms.value",
+                    "command": "setProgram",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "signalahead13665.dishwasherprogramsv2",
+    "version": 1
+}

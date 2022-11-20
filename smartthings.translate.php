@@ -1106,7 +1106,17 @@ class smartthings_translate
                 "Cooking_Oven_Program_HeatingMode_Defrost"             => __("Décongélation", __FILE__),
                 "Cooking_Oven_Program_HeatingMode_BottomHeating"       => __("Résistance de sole", __FILE__),
                 "None"                                                 => __("Aucun", __FILE__),
-                "UnknownProgram"                                       => __("Programme inconnu", __FILE__)
+                "UnknownProgram"                                       => __("Programme inconnu", __FILE__),
+                "Dishcare_Dishwasher_Program_NightWash"                => __("Silence 50 °C", __FILE__),
+                "Dishcare_Dishwasher_Program_Auto3"                    => __("Auto 65-75 °C", __FILE__),
+                "Dishcare_Dishwasher_Program_Auto2"                    => __("Auto 45-65 °C", __FILE__),
+                "Dishcare_Dishwasher_Program_Eco50"                    => __("Eco 50 °C", __FILE__),
+                "Dishcare_Dishwasher_Program_Kurz60"                   => __("Court 60 °C", __FILE__),
+                "Dishcare_Dishwasher_Program_Quick45"                  => __("Rapide 45 °C", __FILE__),
+                "Dishcare_Dishwasher_Program_Intensiv70"               => __("Intensif 70 °C", __FILE__),
+                "Dishcare_Dishwasher_Program_MachineCare"              => __("Soin de la machine", __FILE__),
+                "Dishcare_Dishwasher_Program_PreRinse"                 => __("Pré-rinçage", __FILE__),
+                "Dishcare_Dishwasher_Program_Glas40"                   => __("Verres 40 °C", __FILE__)
             ],
             "protocolType" => [
                 "ble_ocf"    => __("BLE OCF", __FILE__),
@@ -3274,6 +3284,12 @@ class smartthings_translate
             ],
             "signalahead13665.applianceoperationstatesv2" => [
                 "operationState" => __("État de fonctionnement", __FILE__),
+            ],
+            "signalahead13665.dishwasherprogramsv2" => [
+                "availablePrograms" => __("Programmes disponibles", __FILE__),
+                "program"           => __("Programme actuel", __FILE__),
+                "stop"              => __("Arrêter le programme", __FILE__),
+                "setProgram"        => __("Changer le programme", __FILE__)
             ],
             "signalahead13665.ovenprogramsv2" => [
                 "availablePrograms" => __("Programmes disponibles", __FILE__),
