@@ -2,8 +2,18 @@
     "tag": "en",
     "label": "Software Update",
     "attributes": {
+        "targetModule": {
+            "label": "targetModule",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
         "otnDUID": {
             "label": "otnDUID",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "lastUpdatedDate": {
+            "label": "lastUpdatedDate",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
@@ -14,6 +24,37 @@
         },
         "newVersionAvailable": {
             "label": "newVersionAvailable",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "operatingState": {
+            "label": "operatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "preparing": {
+                        "label": "preparing"
+                    },
+                    "available": {
+                        "label": "available"
+                    },
+                    "inprogress": {
+                        "label": "inprogress"
+                    },
+                    "delayed": {
+                        "label": "delayed"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "completed": {
+                        "label": "completed"
+                    }
+                }
+            }
+        },
+        "progress": {
+            "label": "progress",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         }

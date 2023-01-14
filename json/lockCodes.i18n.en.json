@@ -54,16 +54,16 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
-        "codeReport": {
-            "label": "code report",
-            "description": "A report on the code",
-            "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
-        },
         "scanCodes": {
             "label": "scan codes",
             "description": "Scan codes",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "codeReport": {
+            "label": "code report",
+            "description": "A report on the code",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },
         "lockCodes": {
@@ -112,15 +112,6 @@
                 }
             }
         },
-        "updateCodes": {
-            "description": "Update the codes",
-            "arguments": {
-                "codes": {
-                    "i18n": [],
-                    "description": "Update to these codes"
-                }
-            }
-        },
         "requestCode": {
             "description": "Request a code",
             "arguments": {
@@ -134,6 +125,24 @@
             "description": "Lock the lock",
             "arguments": []
         },
+        "updateCodes": {
+            "description": "Update the codes",
+            "arguments": {
+                "codes": {
+                    "i18n": [],
+                    "description": "Update to these codes"
+                }
+            }
+        },
+        "deleteCode": {
+            "description": "Delete the code",
+            "arguments": {
+                "codeSlot": {
+                    "i18n": [],
+                    "description": "Delete the code in this code slot"
+                }
+            }
+        },
         "nameSlot": {
             "description": "Set the name slot for the code",
             "arguments": {
@@ -144,15 +153,6 @@
                 "codeSlot": {
                     "i18n": [],
                     "description": "Code slot number for the code"
-                }
-            }
-        },
-        "deleteCode": {
-            "description": "Delete the code",
-            "arguments": {
-                "codeSlot": {
-                    "i18n": [],
-                    "description": "Delete the code in this code slot"
                 }
             }
         }

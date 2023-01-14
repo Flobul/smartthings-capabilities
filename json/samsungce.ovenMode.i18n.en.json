@@ -12,6 +12,9 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
+                    "ConvectionVegetable": {
+                        "label": "ConvectionVegetable"
+                    },
                     "Healthycook6": {
                         "label": "Healthycook6"
                     },

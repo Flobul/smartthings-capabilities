@@ -1,0 +1,940 @@
+{
+    "tag": "en",
+    "label": "Rice Cooker",
+    "attributes": {
+        "completionTime": {
+            "label": "completion time",
+            "description": "The running completion time for the rice cooker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "schedulingEnabled": {
+            "label": "scheduling support",
+            "description": "Whether the rice cooker supports scheduled cooking",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "scheduledTime": {
+            "label": "scheduled time",
+            "description": "Scheduled start time for rice cooker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "cookerState": {
+            "label": "rice cooker state",
+            "description": "Current state of the rice cooker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    },
+                    "scheduled": {
+                        "label": "scheduled"
+                    },
+                    "error": {
+                        "label": "error"
+                    }
+                }
+            }
+        },
+        "supportedCookerModes": {
+            "label": "supported rice cooker modes",
+            "description": "Modes supported by the rice cooker running state",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "reheating": {
+                        "label": "reheating"
+                    },
+                    "soakInnerPot": {
+                        "label": "soak inner pot"
+                    },
+                    "keepWarm": {
+                        "label": "keep warm"
+                    },
+                    "cooking": {
+                        "label": "cooking"
+                    },
+                    "autoClean": {
+                        "label": "auto clean"
+                    }
+                }
+            }
+        },
+        "schedulableMenus": {
+            "label": "schedulable menu",
+            "description": "Menus for this rice cooker that can be scheduled",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": {
+                "value": {
+                    "superGrains": {
+                        "label": "Super Grains"
+                    },
+                    "plainPorridge": {
+                        "label": "Plain Porridge"
+                    },
+                    "mixedGrainForSaladWithAdlay": {
+                        "label": "Mixed Grain for Salad with Adlay"
+                    },
+                    "scorchedRiceTea": {
+                        "label": "Scorched Rice Tea"
+                    },
+                    "kamutRice": {
+                        "label": "Kamut Rice"
+                    },
+                    "odaemi": {
+                        "label": "Odaemi"
+                    },
+                    "mixedGrainForSaladWithKamut": {
+                        "label": "Mixed Grain for Salad with Kamut"
+                    },
+                    "sousVide": {
+                        "label": "Sous Vide"
+                    },
+                    "mixedGrainsQuick": {
+                        "label": "Mixed Grains Quick"
+                    },
+                    "riceWithRipeKimchiAndAbaloneInHotPot": {
+                        "label": "Rice with Ripe Kimchi and Abalone in Hot Pot"
+                    },
+                    "alchanmi": {
+                        "label": "Alchanmi"
+                    },
+                    "riceWithAssortedMushrommsInHotPot": {
+                        "label": "Rice with Assorted Mushromms in Hot Pot"
+                    },
+                    "riceForGimbap": {
+                        "label": "Rice for Gimbap"
+                    },
+                    "stickyPlainRice": {
+                        "label": "Sticky Plain Rice"
+                    },
+                    "frozenMixedGrain": {
+                        "label": "Frozen Mixed Grain"
+                    },
+                    "broccoliPorridge": {
+                        "label": "Broccoli Porridge"
+                    },
+                    "bakedEgg": {
+                        "label": "Baked Egg"
+                    },
+                    "chickpeaRice": {
+                        "label": "Chickpea Rice"
+                    },
+                    "pineNutPorridge": {
+                        "label": "Pine Nut Porridge"
+                    },
+                    "riceWithBeans": {
+                        "label": "Rice with Beans"
+                    },
+                    "barleyMixedGrainRice": {
+                        "label": "Barley Mixed Grain Rice"
+                    },
+                    "babyFoodStep1": {
+                        "label": "Baby Food Step 1"
+                    },
+                    "babyFoodStep2": {
+                        "label": "Baby Food Step 2"
+                    },
+                    "babyFoodStep3": {
+                        "label": "Baby Food Step 3"
+                    },
+                    "riceWithTruffledBulgogiInHotPot": {
+                        "label": "Rice with Truffled Bulgogi in Hot Pot"
+                    },
+                    "haedeul": {
+                        "label": "Haedeul"
+                    },
+                    "brownRice100": {
+                        "label": "Brown Rice 100%"
+                    },
+                    "riceWithAbaloneInHotPot": {
+                        "label": "Rice with Abalone in Hot Pot"
+                    },
+                    "konjacRice": {
+                        "label": "Konjac Rice"
+                    },
+                    "mixedGrainForSalad": {
+                        "label": "Mixed Grain for Salad"
+                    },
+                    "mixedGrainForSaladWithOatRice": {
+                        "label": "Mixed Grain for Salad with Oat Rice"
+                    },
+                    "steamedSweetPotato": {
+                        "label": "Steamed Sweet Potato"
+                    },
+                    "quinoaRice": {
+                        "label": "Quinoa Rice"
+                    },
+                    "mixedGrainForSaladWithLentilBean": {
+                        "label": "Mixed Grain for Salad with Lentil Bean"
+                    },
+                    "oatRice": {
+                        "label": "Oat Rice"
+                    },
+                    "mixedGrainForSaladWithBrownRice": {
+                        "label": "Mixed Grain for Salad with Brown Rice"
+                    },
+                    "abalonePorridge": {
+                        "label": "Abalone Porridge"
+                    },
+                    "riceWithBrackenAndSteakInHotPot": {
+                        "label": "Rice with Bracken and Steak in Hot Pot"
+                    },
+                    "cauldronRice": {
+                        "label": "Cauldron Rice"
+                    },
+                    "mixedGrainForSaladWithChickpea": {
+                        "label": "Mixed Grain for Salad with Chickpea"
+                    },
+                    "yakbab": {
+                        "label": "Yakbab"
+                    },
+                    "riceWithSteakInHotPot": {
+                        "label": "rice with Steak in Hot Pot"
+                    },
+                    "mixedGrains": {
+                        "label": "Mixed Grains"
+                    },
+                    "riceWithBeefAndBeanSproutsInHotPot": {
+                        "label": "Rice with Beef and Bean Sprouts in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithBarley": {
+                        "label": "Mixed Grain for Salad with Barley"
+                    },
+                    "riceWithSeasonedVegetablesInHotPot": {
+                        "label": "Rice with Seasoned Vegetables in Hot Pot"
+                    },
+                    "galbijjim": {
+                        "label": "Galbijjim"
+                    },
+                    "riceWithWebfootOctopusAndSaussureaInHotPot": {
+                        "label": "Rice with Webfoot Octopus and Saussurea in Hot Pot"
+                    },
+                    "riceWithSpicyWebfootOctopusInHotPot": {
+                        "label": "Rice with Spicy Webfoot Octopus in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithQuinoa": {
+                        "label": "Mixed Grain for Salad with Quinoa"
+                    },
+                    "mixedGrainForSaladWithMillet": {
+                        "label": "Mixed Grain for Salad with Millet"
+                    },
+                    "mixedGrainForVitality": {
+                        "label": "Mixed Grain for Vitality"
+                    },
+                    "scorchedRice": {
+                        "label": "Scorched Rice"
+                    },
+                    "steamedPotato": {
+                        "label": "Steamed Potato"
+                    },
+                    "riceWithBeefAndAssortedMushroomsInHotPot": {
+                        "label": "Rice with Beef and Assorted Mushrooms in Hot Pot"
+                    },
+                    "plainQuick": {
+                        "label": "Plain Quick"
+                    },
+                    "nutritiousRiceInHotPot": {
+                        "label": "Nutritious Rice in Hot Pot"
+                    },
+                    "wellCookedPlainRice": {
+                        "label": "Well Cooked Plain Rice"
+                    },
+                    "potatoCarrotPorridge": {
+                        "label": "Potato Carrot Porridge"
+                    },
+                    "nutritiousPorridge": {
+                        "label": "Nutritious Porridge"
+                    },
+                    "frozenPlainRice": {
+                        "label": "Frozen Plain Rice"
+                    },
+                    "samgyetang": {
+                        "label": "Samgyetang"
+                    },
+                    "mixedGrainForSlim": {
+                        "label": "Mixed Grain for Slim"
+                    },
+                    "boiledEgg": {
+                        "label": "Boiled Egg"
+                    },
+                    "steamedDish": {
+                        "label": "Steamed Dish"
+                    },
+                    "lentilBeanRice": {
+                        "label": "Lentil Bean Rice"
+                    }
+                }
+            }
+        },
+        "startTime": {
+            "label": "start time",
+            "description": "Start time of the rice cooker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "cookerMode": {
+            "label": "rice cooker modes",
+            "description": "The running Modes of the rice cooker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "reheating": {
+                        "label": "reheating"
+                    },
+                    "soakInnerPot": {
+                        "label": "soak inner pot"
+                    },
+                    "keepWarm": {
+                        "label": "keep warm"
+                    },
+                    "cooking": {
+                        "label": "cooking"
+                    },
+                    "autoClean": {
+                        "label": "auto clean"
+                    }
+                }
+            }
+        },
+        "menu": {
+            "label": "menu",
+            "description": "The rice cooker menu",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "mixedGrainForSaladWithAdlay": {
+                        "label": "Mixed Grain for Salad with Adlay"
+                    },
+                    "scorchedRiceTea": {
+                        "label": "Scorched Rice Tea"
+                    },
+                    "odaemi": {
+                        "label": "Odaemi"
+                    },
+                    "mixedGrainsQuick": {
+                        "label": "Mixed Grains Quick"
+                    },
+                    "alchanmi": {
+                        "label": "Alchanmi"
+                    },
+                    "riceWithRipeKimchiAndAbaloneInHotPot": {
+                        "label": "Rice with Ripe Kimchi and Abalone in Hot Pot"
+                    },
+                    "riceForGimbap": {
+                        "label": "Rice for Gimbap"
+                    },
+                    "beef,ShiitakeMushroom,EggPorridge": {
+                        "label": "beef,ShiitakeMushroom,EggPorridge"
+                    },
+                    "stickyPlainRice": {
+                        "label": "Sticky Plain Rice"
+                    },
+                    "frozenMixedGrain": {
+                        "label": "Frozen Mixed Grain"
+                    },
+                    "beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice": {
+                        "label": "beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice"
+                    },
+                    "broccoliPorridge": {
+                        "label": "Broccoli Porridge"
+                    },
+                    "riceWithBeans": {
+                        "label": "Rice with Beans"
+                    },
+                    "barleyMixedGrainRice": {
+                        "label": "Barley Mixed Grain Rice"
+                    },
+                    "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice": {
+                        "label": "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice"
+                    },
+                    "riceWithTruffledBulgogiInHotPot": {
+                        "label": "Rice with Truffled Bulgogi in Hot Pot"
+                    },
+                    "riceWithAbaloneInHotPot": {
+                        "label": "Rice with Abalone in Hot Pot"
+                    },
+                    "mixedGrainForSalad": {
+                        "label": "Mixed Grain for Salad"
+                    },
+                    "mixedGrainForSaladWithQuinoa(2Cup)": {
+                        "label": "mixedGrainForSaladWithQuinoa(2Cup)"
+                    },
+                    "chicken,SweetPumpkin,Cabbage,StickyRicePorridge": {
+                        "label": "chicken,SweetPumpkin,Cabbage,StickyRicePorridge"
+                    },
+                    "steamedSweetPotato": {
+                        "label": "Steamed Sweet Potato"
+                    },
+                    "mixedGrainForSaladWithLentilBean": {
+                        "label": "Mixed Grain for Salad with Lentil Bean"
+                    },
+                    "oatRice": {
+                        "label": "Oat Rice"
+                    },
+                    "mixedGrainForSaladWithBrownRice": {
+                        "label": "Mixed Grain for Salad with Brown Rice"
+                    },
+                    "mixedGrainForSaladWithLentilBean(2Cup)": {
+                        "label": "mixedGrainForSaladWithLentilBean(2Cup)"
+                    },
+                    "riceWithBrackenAndSteakInHotPot": {
+                        "label": "Rice with Bracken and Steak in Hot Pot"
+                    },
+                    "cauldronRice": {
+                        "label": "Cauldron Rice"
+                    },
+                    "mixedGrainForSaladWithChickpea": {
+                        "label": "Mixed Grain for Salad with Chickpea"
+                    },
+                    "riceWithSteakInHotPot": {
+                        "label": "rice with Steak in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithBarley": {
+                        "label": "Mixed Grain for Salad with Barley"
+                    },
+                    "riceWithSeasonedVegetablesInHotPot": {
+                        "label": "Rice with Seasoned Vegetables in Hot Pot"
+                    },
+                    "galbijjim": {
+                        "label": "Galbijjim"
+                    },
+                    "riceWithWebfootOctopusAndSaussureaInHotPot": {
+                        "label": "Rice with Webfoot Octopus and Saussurea in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithQuinoa": {
+                        "label": "Mixed Grain for Salad with Quinoa"
+                    },
+                    "mixedGrainForSaladWithBrownRice(2Cup)": {
+                        "label": "mixedGrainForSaladWithBrownRice(2Cup)"
+                    },
+                    "mixedGrainForVitality": {
+                        "label": "Mixed Grain for Vitality"
+                    },
+                    "plainQuick": {
+                        "label": "Plain Quick"
+                    },
+                    "mixedGrainForSaladWithChickpea(2Cup)": {
+                        "label": "mixedGrainForSaladWithChickpea(2Cup)"
+                    },
+                    "wellCookedPlainRice": {
+                        "label": "Well Cooked Plain Rice"
+                    },
+                    "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice": {
+                        "label": "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice"
+                    },
+                    "frozenPlainRice": {
+                        "label": "Frozen Plain Rice"
+                    },
+                    "customMenu08": {
+                        "label": "customMenu08"
+                    },
+                    "customMenu09": {
+                        "label": "customMenu09"
+                    },
+                    "customMenu02": {
+                        "label": "customMenu02"
+                    },
+                    "mixedGrainForSlim": {
+                        "label": "Mixed Grain for Slim"
+                    },
+                    "customMenu03": {
+                        "label": "customMenu03"
+                    },
+                    "customMenu01": {
+                        "label": "customMenu01"
+                    },
+                    "customMenu06": {
+                        "label": "customMenu06"
+                    },
+                    "customMenu07": {
+                        "label": "customMenu07"
+                    },
+                    "steamedDish": {
+                        "label": "Steamed Dish"
+                    },
+                    "customMenu04": {
+                        "label": "customMenu04"
+                    },
+                    "customMenu05": {
+                        "label": "customMenu05"
+                    },
+                    "superGrains": {
+                        "label": "Super Grains"
+                    },
+                    "customMenu10": {
+                        "label": "customMenu10"
+                    },
+                    "plainPorridge": {
+                        "label": "Plain Porridge"
+                    },
+                    "kamutRice": {
+                        "label": "Kamut Rice"
+                    },
+                    "mixedGrainForSaladWithKamut": {
+                        "label": "Mixed Grain for Salad with Kamut"
+                    },
+                    "sousVide": {
+                        "label": "Sous Vide"
+                    },
+                    "customMenu19": {
+                        "label": "customMenu19"
+                    },
+                    "riceWithAssortedMushrommsInHotPot": {
+                        "label": "Rice with Assorted Mushromms in Hot Pot"
+                    },
+                    "customMenu13": {
+                        "label": "customMenu13"
+                    },
+                    "bakedEgg": {
+                        "label": "Baked Egg"
+                    },
+                    "chickpeaRice": {
+                        "label": "Chickpea Rice"
+                    },
+                    "pineNutPorridge": {
+                        "label": "Pine Nut Porridge"
+                    },
+                    "customMenu14": {
+                        "label": "customMenu14"
+                    },
+                    "customMenu11": {
+                        "label": "customMenu11"
+                    },
+                    "customMenu12": {
+                        "label": "customMenu12"
+                    },
+                    "customMenu17": {
+                        "label": "customMenu17"
+                    },
+                    "customMenu18": {
+                        "label": "customMenu18"
+                    },
+                    "customMenu15": {
+                        "label": "customMenu15"
+                    },
+                    "customMenu16": {
+                        "label": "customMenu16"
+                    },
+                    "mixedGrainForSaladWithQuinoa(1Cup)": {
+                        "label": "mixedGrainForSaladWithQuinoa(1Cup)"
+                    },
+                    "customMenu20": {
+                        "label": "customMenu20"
+                    },
+                    "babyFoodStep1": {
+                        "label": "Baby Food Step 1"
+                    },
+                    "babyFoodStep2": {
+                        "label": "Baby Food Step 2"
+                    },
+                    "babyFoodStep3": {
+                        "label": "Baby Food Step 3"
+                    },
+                    "haedeul": {
+                        "label": "Haedeul"
+                    },
+                    "mixedGrainForSaladWithLentilBean(1Cup)": {
+                        "label": "mixedGrainForSaladWithLentilBean(1Cup)"
+                    },
+                    "brownRice100": {
+                        "label": "Brown Rice 100%"
+                    },
+                    "konjacRice": {
+                        "label": "Konjac Rice"
+                    },
+                    "mixedGrainForSaladWithOatRice": {
+                        "label": "Mixed Grain for Salad with Oat Rice"
+                    },
+                    "beef,Apple,BroccoliPorridge": {
+                        "label": "beef,Apple,BroccoliPorridge"
+                    },
+                    "quinoaRice": {
+                        "label": "Quinoa Rice"
+                    },
+                    "abalonePorridge": {
+                        "label": "Abalone Porridge"
+                    },
+                    "yakbab": {
+                        "label": "Yakbab"
+                    },
+                    "mixedGrains": {
+                        "label": "Mixed Grains"
+                    },
+                    "riceWithBeefAndBeanSproutsInHotPot": {
+                        "label": "Rice with Beef and Bean Sprouts in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithBrownRice(1Cup)": {
+                        "label": "mixedGrainForSaladWithBrownRice(1Cup)"
+                    },
+                    "cod-Meat,Vitamin,CarrotPorridge": {
+                        "label": "cod-Meat,Vitamin,CarrotPorridge"
+                    },
+                    "riceWithSpicyWebfootOctopusInHotPot": {
+                        "label": "Rice with Spicy Webfoot Octopus in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithMillet": {
+                        "label": "Mixed Grain for Salad with Millet"
+                    },
+                    "scorchedRice": {
+                        "label": "Scorched Rice"
+                    },
+                    "steamedPotato": {
+                        "label": "Steamed Potato"
+                    },
+                    "riceWithBeefAndAssortedMushroomsInHotPot": {
+                        "label": "Rice with Beef and Assorted Mushrooms in Hot Pot"
+                    },
+                    "chicken,PineNut,Chestnut,Spinach,SoftBoiledRice": {
+                        "label": "chicken,PineNut,Chestnut,Spinach,SoftBoiledRice"
+                    },
+                    "chicken,Zucchini,SweetPotato,StickyRicePorridge": {
+                        "label": "chicken,Zucchini,SweetPotato,StickyRicePorridge"
+                    },
+                    "beef,KingTrumpetMushroom,BroccoliPorridge": {
+                        "label": "beef,KingTrumpetMushroom,BroccoliPorridge"
+                    },
+                    "nutritiousRiceInHotPot": {
+                        "label": "Nutritious Rice in Hot Pot"
+                    },
+                    "chicken,Cheese,Beet,Eggplant,SoftBoiledRice": {
+                        "label": "chicken,Cheese,Beet,Eggplant,SoftBoiledRice"
+                    },
+                    "chicken,SweetPotato,Beet,BeetPorridge": {
+                        "label": "chicken,SweetPotato,Beet,BeetPorridge"
+                    },
+                    "beef,Zucchini,PearPorridge": {
+                        "label": "beef,Zucchini,PearPorridge"
+                    },
+                    "nutritiousPorridge": {
+                        "label": "Nutritious Porridge"
+                    },
+                    "potatoCarrotPorridge": {
+                        "label": "Potato Carrot Porridge"
+                    },
+                    "chicken,BokChoy,BananaPorridge": {
+                        "label": "chicken,BokChoy,BananaPorridge"
+                    },
+                    "chicken,BeanSprouts,Jujube,StickyRicePorridge": {
+                        "label": "chicken,BeanSprouts,Jujube,StickyRicePorridge"
+                    },
+                    "samgyetang": {
+                        "label": "Samgyetang"
+                    },
+                    "boiledEgg": {
+                        "label": "Boiled Egg"
+                    },
+                    "mixedGrainForSaladWithChickpea(1Cup)": {
+                        "label": "mixedGrainForSaladWithChickpea(1Cup)"
+                    },
+                    "lentilBeanRice": {
+                        "label": "Lentil Bean Rice"
+                    }
+                }
+            }
+        },
+        "supportedMenus": {
+            "label": "supported menus",
+            "description": "Supported menus for this rice cooker to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": {
+                "value": {
+                    "superGrains": {
+                        "label": "Super Grains"
+                    },
+                    "plainPorridge": {
+                        "label": "Plain Porridge"
+                    },
+                    "mixedGrainForSaladWithAdlay": {
+                        "label": "Mixed Grain for Salad with Adlay"
+                    },
+                    "scorchedRiceTea": {
+                        "label": "Scorched Rice Tea"
+                    },
+                    "kamutRice": {
+                        "label": "Kamut Rice"
+                    },
+                    "odaemi": {
+                        "label": "Odaemi"
+                    },
+                    "mixedGrainForSaladWithKamut": {
+                        "label": "Mixed Grain for Salad with Kamut"
+                    },
+                    "sousVide": {
+                        "label": "Sous Vide"
+                    },
+                    "alchanmi": {
+                        "label": "Alchanmi"
+                    },
+                    "mixedGrainsQuick": {
+                        "label": "Mixed Grains Quick"
+                    },
+                    "riceWithRipeKimchiAndAbaloneInHotPot": {
+                        "label": "Rice with Ripe Kimchi and Abalone in Hot Pot"
+                    },
+                    "riceForGimbap": {
+                        "label": "Rice for Gimbap"
+                    },
+                    "riceWithAssortedMushrommsInHotPot": {
+                        "label": "Rice with Assorted Mushromms in Hot Pot"
+                    },
+                    "stickyPlainRice": {
+                        "label": "Sticky Plain Rice"
+                    },
+                    "frozenMixedGrain": {
+                        "label": "Frozen Mixed Grain"
+                    },
+                    "broccoliPorridge": {
+                        "label": "Broccoli Porridge"
+                    },
+                    "bakedEgg": {
+                        "label": "Baked Egg"
+                    },
+                    "chickpeaRice": {
+                        "label": "Chickpea Rice"
+                    },
+                    "pineNutPorridge": {
+                        "label": "Pine Nut Porridge"
+                    },
+                    "riceWithBeans": {
+                        "label": "Rice with Beans"
+                    },
+                    "barleyMixedGrainRice": {
+                        "label": "Barley Mixed Grain Rice"
+                    },
+                    "babyFoodStep1": {
+                        "label": "Baby Food Step 1"
+                    },
+                    "babyFoodStep2": {
+                        "label": "Baby Food Step 2"
+                    },
+                    "riceWithTruffledBulgogiInHotPot": {
+                        "label": "Rice with Truffled Bulgogi in Hot Pot"
+                    },
+                    "babyFoodStep3": {
+                        "label": "Baby Food Step 3"
+                    },
+                    "haedeul": {
+                        "label": "Haedeul"
+                    },
+                    "brownRice100": {
+                        "label": "Brown Rice 100%"
+                    },
+                    "riceWithAbaloneInHotPot": {
+                        "label": "Rice with Abalone in Hot Pot"
+                    },
+                    "konjacRice": {
+                        "label": "Konjac Rice"
+                    },
+                    "mixedGrainForSaladWithOatRice": {
+                        "label": "Mixed Grain for Salad with Oat Rice"
+                    },
+                    "mixedGrainForSalad": {
+                        "label": "Mixed Grain for Salad"
+                    },
+                    "quinoaRice": {
+                        "label": "Quinoa Rice"
+                    },
+                    "steamedSweetPotato": {
+                        "label": "Steamed Sweet Potato"
+                    },
+                    "mixedGrainForSaladWithLentilBean": {
+                        "label": "Mixed Grain for Salad with Lentil Bean"
+                    },
+                    "oatRice": {
+                        "label": "Oat Rice"
+                    },
+                    "mixedGrainForSaladWithBrownRice": {
+                        "label": "Mixed Grain for Salad with Brown Rice"
+                    },
+                    "abalonePorridge": {
+                        "label": "Abalone Porridge"
+                    },
+                    "riceWithBrackenAndSteakInHotPot": {
+                        "label": "Rice with Bracken and Steak in Hot Pot"
+                    },
+                    "cauldronRice": {
+                        "label": "Cauldron Rice"
+                    },
+                    "mixedGrainForSaladWithChickpea": {
+                        "label": "Mixed Grain for Salad with Chickpea"
+                    },
+                    "yakbab": {
+                        "label": "Yakbab"
+                    },
+                    "riceWithSteakInHotPot": {
+                        "label": "rice with Steak in Hot Pot"
+                    },
+                    "mixedGrains": {
+                        "label": "Mixed Grains"
+                    },
+                    "riceWithBeefAndBeanSproutsInHotPot": {
+                        "label": "Rice with Beef and Bean Sprouts in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithBarley": {
+                        "label": "Mixed Grain for Salad with Barley"
+                    },
+                    "riceWithSeasonedVegetablesInHotPot": {
+                        "label": "Rice with Seasoned Vegetables in Hot Pot"
+                    },
+                    "galbijjim": {
+                        "label": "Galbijjim"
+                    },
+                    "riceWithWebfootOctopusAndSaussureaInHotPot": {
+                        "label": "Rice with Webfoot Octopus and Saussurea in Hot Pot"
+                    },
+                    "riceWithSpicyWebfootOctopusInHotPot": {
+                        "label": "Rice with Spicy Webfoot Octopus in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithQuinoa": {
+                        "label": "Mixed Grain for Salad with Quinoa"
+                    },
+                    "mixedGrainForSaladWithMillet": {
+                        "label": "Mixed Grain for Salad with Millet"
+                    },
+                    "mixedGrainForVitality": {
+                        "label": "Mixed Grain for Vitality"
+                    },
+                    "scorchedRice": {
+                        "label": "Scorched Rice"
+                    },
+                    "steamedPotato": {
+                        "label": "Steamed Potato"
+                    },
+                    "riceWithBeefAndAssortedMushroomsInHotPot": {
+                        "label": "Rice with Beef and Assorted Mushrooms in Hot Pot"
+                    },
+                    "plainQuick": {
+                        "label": "Plain Quick"
+                    },
+                    "nutritiousRiceInHotPot": {
+                        "label": "Nutritious Rice in Hot Pot"
+                    },
+                    "wellCookedPlainRice": {
+                        "label": "Well Cooked Plain Rice"
+                    },
+                    "nutritiousPorridge": {
+                        "label": "Nutritious Porridge"
+                    },
+                    "potatoCarrotPorridge": {
+                        "label": "Potato Carrot Porridge"
+                    },
+                    "frozenPlainRice": {
+                        "label": "Frozen Plain Rice"
+                    },
+                    "samgyetang": {
+                        "label": "Samgyetang"
+                    },
+                    "mixedGrainForSlim": {
+                        "label": "Mixed Grain for Slim"
+                    },
+                    "boiledEgg": {
+                        "label": "Boiled Egg"
+                    },
+                    "steamedDish": {
+                        "label": "Steamed Dish"
+                    },
+                    "lentilBeanRice": {
+                        "label": "Lentil Bean Rice"
+                    }
+                }
+            }
+        },
+        "event": {
+            "label": "event",
+            "description": "Event for automation event trigger",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "autoCleanComplete": {
+                        "label": "auto clean complete"
+                    },
+                    "reheatingComplete": {
+                        "label": "reheating complete"
+                    },
+                    "keepWarmComplete": {
+                        "label": "keep warm complete"
+                    },
+                    "cookingComplete": {
+                        "label": "cooking complete"
+                    },
+                    "soakInnerPotComplete": {
+                        "label": "soak inner pot complete"
+                    },
+                    "steamEmission": {
+                        "label": "steam emission"
+                    }
+                }
+            }
+        },
+        "supportedEvents": {
+            "label": "supported events",
+            "description": "All supported events for automation event trigger",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "autoCleanComplete": {
+                        "label": "auto clean complete"
+                    },
+                    "reheatingComplete": {
+                        "label": "reheating complete"
+                    },
+                    "keepWarmComplete": {
+                        "label": "keep warm complete"
+                    },
+                    "cookingComplete": {
+                        "label": "cooking complete"
+                    },
+                    "soakInnerPotComplete": {
+                        "label": "soak inner pot complete"
+                    },
+                    "steamEmission": {
+                        "label": "steam emission"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "stop": {
+            "description": "Stop the rice cooker operation",
+            "arguments": []
+        },
+        "startCooking": {
+            "description": "Start the cooking mode",
+            "arguments": {
+                "menu": {
+                    "i18n": [],
+                    "description": "the menu for rice cooker cooking"
+                }
+            }
+        },
+        "setMode": {
+            "description": "Start the normal mode",
+            "arguments": {
+                "mode": {
+                    "i18n": [],
+                    "description": "the mode for rice cooker running"
+                }
+            }
+        },
+        "scheduleCooking": {
+            "description": "Schedule cooking to start at a later time",
+            "arguments": {
+                "time": {
+                    "i18n": [],
+                    "description": "the scheduled start time of rice cooker"
+                },
+                "menu": {
+                    "i18n": [],
+                    "description": "the scheduled menu of rice cooker"
+                }
+            }
+        }
+    }
+}

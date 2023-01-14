@@ -43,14 +43,14 @@
             "description": "Start the media playback",
             "arguments": []
         },
-        "rewind": {
-            "label": "Rembobinage",
-            "description": "Rewind the media playback",
-            "arguments": []
-        },
         "stop": {
             "label": "Arr\u00eater",
             "description": "Stop the media playback",
+            "arguments": []
+        },
+        "rewind": {
+            "label": "Rembobinage",
+            "description": "Rewind the media playback",
             "arguments": []
         },
         "fastForward": {

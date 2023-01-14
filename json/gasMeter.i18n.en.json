@@ -9,15 +9,15 @@
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },
-        "gasMeterCalorific": {
-            "label": "calorific heat energy",
-            "description": "a measure of the available heat energy, used as part of the calculation to convert gas volume to gas energy. ",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
-        },
         "gasMeterTime": {
             "label": "meter reading time",
             "description": "The timestamp when the measurement was taken",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "gasMeterCalorific": {
+            "label": "calorific heat energy",
+            "description": "a measure of the available heat energy, used as part of the calculation to convert gas volume to gas energy. ",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },

@@ -1,22 +1,22 @@
 {
     "tag": "en",
-    "label": "Bypassable",
+    "label": "Bypass status",
     "description": "A device that is capable of being bypassed during security system arming",
     "attributes": {
         "bypassStatus": {
-            "label": "bypass status",
+            "label": "Bypass status",
             "description": "The bypassed status for a the device",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "ready": {
-                        "label": "ready"
+                        "label": "Ready to arm"
                     },
                     "bypassed": {
-                        "label": "bypassed"
+                        "label": "Bypassed"
                     },
                     "notReady": {
-                        "label": "notReady"
+                        "label": "Not ready to arm"
                     }
                 }
             }

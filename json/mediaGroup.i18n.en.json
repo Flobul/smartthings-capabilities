@@ -10,10 +10,10 @@
             "i18n": {
                 "value": {
                     "unmuted": {
-                        "label": "Off"
+                        "label": "Unmuted"
                     },
                     "muted": {
-                        "label": "On"
+                        "label": "Muted"
                     }
                 }
             }
@@ -65,7 +65,7 @@
             "arguments": []
         },
         "muteGroup": {
-            "label": "On",
+            "label": "Muted",
             "description": "Set the group audio to mute state",
             "arguments": []
         },
@@ -80,7 +80,7 @@
             }
         },
         "unmuteGroup": {
-            "label": "Off",
+            "label": "Unmuted",
             "description": "Set the group audio to unmute state",
             "arguments": []
         },

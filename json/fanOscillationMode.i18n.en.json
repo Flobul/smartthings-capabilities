@@ -19,25 +19,25 @@
                         "label": "All"
                     },
                     "individual": {
-                        "label": "individual"
+                        "label": "Individual"
                     },
                     "indirect": {
                         "label": "Indirect"
                     },
                     "wide": {
-                        "label": "wide"
+                        "label": "Wide"
                     },
                     "direct": {
                         "label": "Direct"
                     },
                     "mid": {
-                        "label": "mid"
+                        "label": "Mid"
                     },
                     "vertical": {
                         "label": "Vertical"
                     },
                     "off": {
-                        "label": "off"
+                        "label": "Off"
                     },
                     "horizontal": {
                         "label": "Horizontal"
@@ -46,13 +46,13 @@
                         "label": "Left"
                     },
                     "swing": {
-                        "label": "swing"
+                        "label": "Swing"
                     },
                     "far": {
                         "label": "Long"
                     },
                     "spot": {
-                        "label": "spot"
+                        "label": "Spot"
                     },
                     "fixedRight": {
                         "label": "Right"
@@ -76,23 +76,44 @@
                         "all": {
                             "label": "All"
                         },
-                        "horizontal": {
-                            "label": "Horizontal"
-                        },
-                        "fixedLeft": {
-                            "label": "Left"
-                        },
                         "indirect": {
                             "label": "Indirect"
                         },
-                        "far": {
-                            "label": "Long"
+                        "individual": {
+                            "label": "Individual"
+                        },
+                        "wide": {
+                            "label": "Wide"
                         },
                         "direct": {
                             "label": "Direct"
                         },
                         "vertcal": {
                             "label": "Vertical"
+                        },
+                        "mid": {
+                            "label": "Mid"
+                        },
+                        "vertical": {
+                            "label": "Vertical"
+                        },
+                        "off": {
+                            "label": "Off"
+                        },
+                        "horizontal": {
+                            "label": "Horizontal"
+                        },
+                        "fixedLeft": {
+                            "label": "Left"
+                        },
+                        "swing": {
+                            "label": "Swing"
+                        },
+                        "far": {
+                            "label": "Long"
+                        },
+                        "spot": {
+                            "label": "Spot"
                         },
                         "fixedRight": {
                             "label": "Right"
@@ -102,9 +123,6 @@
                         },
                         "fixed": {
                             "label": "Fixed"
-                        },
-                        "vertical": {
-                            "label": "Vertical"
                         }
                     },
                     "description": "fan oscillation mode"

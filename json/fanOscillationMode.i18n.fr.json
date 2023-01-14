@@ -19,25 +19,25 @@
                         "label": "Toutes"
                     },
                     "individual": {
-                        "label": "individual"
+                        "label": "Individuelle"
                     },
                     "indirect": {
                         "label": "Indirecte"
                     },
                     "wide": {
-                        "label": "wide"
+                        "label": "Ample"
                     },
                     "direct": {
                         "label": "Directe"
                     },
                     "mid": {
-                        "label": "mid"
+                        "label": "Interm\u00e9diaire"
                     },
                     "vertical": {
                         "label": "Verticale"
                     },
                     "off": {
-                        "label": "off"
+                        "label": "D\u00e9sactiv\u00e9"
                     },
                     "horizontal": {
                         "label": "Horizontale"
@@ -46,13 +46,13 @@
                         "label": "\u00c0 gauche"
                     },
                     "swing": {
-                        "label": "swing"
+                        "label": "Balayage"
                     },
                     "far": {
                         "label": "Longue"
                     },
                     "spot": {
-                        "label": "spot"
+                        "label": "Fixe"
                     },
                     "fixedRight": {
                         "label": "\u00c0 droite"
@@ -76,23 +76,44 @@
                         "all": {
                             "label": "Toutes"
                         },
-                        "horizontal": {
-                            "label": "Horizontale"
-                        },
-                        "fixedLeft": {
-                            "label": "\u00c0 gauche"
-                        },
                         "indirect": {
                             "label": "Indirecte"
                         },
-                        "far": {
-                            "label": "Longue"
+                        "individual": {
+                            "label": "Individuelle"
+                        },
+                        "wide": {
+                            "label": "Ample"
                         },
                         "direct": {
                             "label": "Directe"
                         },
                         "vertcal": {
                             "label": "Verticale"
+                        },
+                        "mid": {
+                            "label": "Interm\u00e9diaire"
+                        },
+                        "vertical": {
+                            "label": "Verticale"
+                        },
+                        "off": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
+                        "horizontal": {
+                            "label": "Horizontale"
+                        },
+                        "fixedLeft": {
+                            "label": "\u00c0 gauche"
+                        },
+                        "swing": {
+                            "label": "Balayage"
+                        },
+                        "far": {
+                            "label": "Longue"
+                        },
+                        "spot": {
+                            "label": "Fixe"
                         },
                         "fixedRight": {
                             "label": "\u00c0 droite"
@@ -102,9 +123,6 @@
                         },
                         "fixed": {
                             "label": "Fixe"
-                        },
-                        "vertical": {
-                            "label": "Verticale"
                         }
                     },
                     "description": "fan oscillation mode"

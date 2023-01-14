@@ -1,9 +1,9 @@
 {
-    "tag": "en",
-    "label": "Electric current",
+    "tag": "fr",
+    "label": "Courant \u00e9lectrique",
     "attributes": {
         "current": {
-            "label": "Electric current",
+            "label": "Courant \u00e9lectrique",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         }

@@ -68,6 +68,11 @@
                         "key": "18",
                         "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.18.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "19",
+                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.4.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -125,6 +130,11 @@
                         {
                             "key": "18",
                             "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.18.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "19",
+                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.4.label}}",
                             "type": "active"
                         },
                         {

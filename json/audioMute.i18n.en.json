@@ -10,10 +10,10 @@
             "i18n": {
                 "value": {
                     "unmuted": {
-                        "label": "Off"
+                        "label": "Unmuted"
                     },
                     "muted": {
-                        "label": "On"
+                        "label": "Muted"
                     }
                 }
             }
@@ -30,12 +30,12 @@
             }
         },
         "mute": {
-            "label": "On",
+            "label": "Muted",
             "description": "Set the audio to mute state",
             "arguments": []
         },
         "unmute": {
-            "label": "Off",
+            "label": "Unmuted",
             "description": "Set the audio to unmute state",
             "arguments": []
         }

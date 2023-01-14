@@ -1,29 +1,29 @@
 {
-    "tag": "en",
-    "label": "Precipitation",
+    "tag": "fr",
+    "label": "Pr\u00e9cipitations",
     "attributes": {
         "precipitationIntensity": {
-            "label": "Precipitation",
+            "label": "Pr\u00e9cipitations",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "violent": {
-                        "label": "Violent"
+                        "label": "Violentes"
                     },
                     "possiblePrecipitation": {
-                        "label": "Possible precipitation"
+                        "label": "Pr\u00e9cipitations possibles"
                     },
                     "light": {
-                        "label": "Light"
+                        "label": "Faibles"
                     },
                     "none": {
-                        "label": "None"
+                        "label": "Aucune"
                     },
                     "moderate": {
-                        "label": "Moderate"
+                        "label": "Mod\u00e9r\u00e9es"
                     },
                     "heavy": {
-                        "label": "Heavy"
+                        "label": "\u00c9lev\u00e9es"
                     }
                 }
             }

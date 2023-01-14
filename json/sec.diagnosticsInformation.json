@@ -63,6 +63,27 @@
             },
             "enumCommands": []
         },
+        "signinPermission": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "immutable",
+                            "updating",
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "setupId": {
             "schema": {
                 "type": "object",
@@ -87,7 +108,8 @@
                         "enum": [
                             "ble_ocf",
                             "wifi_https",
-                            "ble_stdk"
+                            "ble_stdk",
+                            "wifi_stdk"
                         ]
                     }
                 },

@@ -9,15 +9,15 @@
             "displayTemplate": "La {{attribute}} de {{device.label}} a \u00e9t\u00e9 mise \u00e0 jour",
             "i18n": []
         },
-        "gasMeterCalorific": {
-            "label": "\u00e9nergie calorifique",
-            "description": "a measure of the available heat energy, used as part of the calculation to convert gas volume to gas energy. ",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
-            "i18n": []
-        },
         "gasMeterTime": {
             "label": "heure du relev\u00e9 de compteur",
             "description": "The timestamp when the measurement was taken",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "i18n": []
+        },
+        "gasMeterCalorific": {
+            "label": "\u00e9nergie calorifique",
+            "description": "a measure of the available heat energy, used as part of the calculation to convert gas volume to gas energy. ",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": []
         },

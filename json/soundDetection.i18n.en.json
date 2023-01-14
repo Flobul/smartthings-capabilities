@@ -3,12 +3,6 @@
     "label": "Sound detection",
     "description": "Detected Sound",
     "attributes": {
-        "supportedSoundTypes": {
-            "label": "Supported Sound Types",
-            "description": "The sound types that can be detected by this device",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
-        },
         "soundDetectionState": {
             "label": "soundDetectionState",
             "description": "The operational state of sound detection whether enabled or disabled",
@@ -23,6 +17,12 @@
                     }
                 }
             }
+        },
+        "supportedSoundTypes": {
+            "label": "Supported Sound Types",
+            "description": "The sound types that can be detected by this device",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
         },
         "soundDetected": {
             "label": "Sound detection",

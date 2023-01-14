@@ -43,14 +43,14 @@
             "description": "Start the media playback",
             "arguments": []
         },
-        "rewind": {
-            "label": "Rewind",
-            "description": "Rewind the media playback",
-            "arguments": []
-        },
         "stop": {
             "label": "Stop",
             "description": "Stop the media playback",
+            "arguments": []
+        },
+        "rewind": {
+            "label": "Rewind",
+            "description": "Rewind the media playback",
             "arguments": []
         },
         "fastForward": {

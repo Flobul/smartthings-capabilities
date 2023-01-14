@@ -10,10 +10,10 @@
             "i18n": {
                 "value": {
                     "unmuted": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Son activ\u00e9"
                     },
                     "muted": {
-                        "label": "Activ\u00e9"
+                        "label": "D\u00e9sactiv\u00e9s"
                     }
                 }
             }
@@ -65,7 +65,7 @@
             "arguments": []
         },
         "muteGroup": {
-            "label": "Activ\u00e9",
+            "label": "D\u00e9sactiv\u00e9s",
             "description": "Set the group audio to mute state",
             "arguments": []
         },
@@ -80,7 +80,7 @@
             }
         },
         "unmuteGroup": {
-            "label": "D\u00e9sactiv\u00e9",
+            "label": "Son activ\u00e9",
             "description": "Set the group audio to unmute state",
             "arguments": []
         },

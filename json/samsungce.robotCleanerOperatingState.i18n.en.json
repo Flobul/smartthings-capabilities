@@ -37,7 +37,7 @@
                         "label": "Emisja py\u0142u"
                     },
                     "error": {
-                        "label": "Disconnected"
+                        "label": "Check required"
                     },
                     "monitoring": {
                         "label": "Monitoring\u2026"
