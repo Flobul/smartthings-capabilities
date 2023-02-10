@@ -258,6 +258,9 @@
                     "LargeGrill": {
                         "label": "LargeGrill"
                     },
+                    "GuidedCook": {
+                        "label": "GuidedCook"
+                    },
                     "SteamBake": {
                         "label": "SteamBake"
                     },

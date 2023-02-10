@@ -33,6 +33,9 @@
                     "extra": {
                         "label": "extra"
                     },
+                    "custom": {
+                        "label": "custom"
+                    },
                     "none": {
                         "label": "none"
                     },
@@ -61,6 +64,9 @@
                     "extraHigh": {
                         "label": "extraHigh"
                     },
+                    "custom": {
+                        "label": "custom"
+                    },
                     "none": {
                         "label": "none"
                     }
@@ -71,6 +77,25 @@
             "label": "supportedAmount",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
+        },
+        "availableTypes": {
+            "label": "availableTypes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "type": {
+            "label": "type",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "regularDetergent": {
+                        "label": "regularDetergent"
+                    },
+                    "scannedRegularDetergent": {
+                        "label": "scannedRegularDetergent"
+                    }
+                }
+            }
         }
     },
     "commands": []

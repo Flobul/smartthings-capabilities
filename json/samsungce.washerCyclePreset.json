@@ -78,6 +78,9 @@
                                             },
                                             "soak": {
                                                 "type": "string"
+                                            },
+                                            "bubbleSoak": {
+                                                "type": "string"
                                             }
                                         }
                                     }
@@ -152,6 +155,9 @@
                                                 "type": "string"
                                             },
                                             "soak": {
+                                                "type": "string"
+                                            },
+                                            "bubbleSoak": {
                                                 "type": "string"
                                             }
                                         }

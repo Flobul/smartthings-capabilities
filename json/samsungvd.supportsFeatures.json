@@ -1,0 +1,40 @@
+{
+    "id": "samsungvd.supportsFeatures",
+    "version": 1,
+    "status": "proposed",
+    "name": "Supports Features",
+    "ephemeral": false,
+    "attributes": {
+        "imeAdvSupported": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "mobileCamSupported": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

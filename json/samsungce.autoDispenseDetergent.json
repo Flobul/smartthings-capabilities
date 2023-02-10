@@ -36,7 +36,8 @@
                             "none",
                             "less",
                             "standard",
-                            "extra"
+                            "extra",
+                            "custom"
                         ]
                     }
                 },
@@ -60,7 +61,8 @@
                                 "none",
                                 "normal",
                                 "high",
-                                "extraHigh"
+                                "extraHigh",
+                                "custom"
                             ]
                         }
                     }
@@ -82,7 +84,8 @@
                             "none",
                             "normal",
                             "high",
-                            "extraHigh"
+                            "extraHigh",
+                            "custom"
                         ]
                     }
                 },
@@ -91,7 +94,7 @@
                     "value"
                 ]
             },
-            "setter": "setAmount",
+            "setter": "setDensity",
             "enumCommands": []
         },
         "supportedAmount": {
@@ -106,7 +109,8 @@
                                 "none",
                                 "less",
                                 "standard",
-                                "extra"
+                                "extra",
+                                "custom"
                             ]
                         }
                     }
@@ -117,9 +121,96 @@
                 ]
             },
             "enumCommands": []
+        },
+        "availableTypes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "regularDetergent",
+                                "scannedRegularDetergent"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "type": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "regularDetergent",
+                            "scannedRegularDetergent"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setType",
+            "enumCommands": []
         }
     },
     "commands": {
+        "unsetRecommendedAmount": {
+            "name": "unsetRecommendedAmount",
+            "arguments": []
+        },
+        "setRecommendedAmount": {
+            "name": "setRecommendedAmount",
+            "arguments": [
+                {
+                    "name": "type",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "regularDetergent",
+                            "scannedRegularDetergent"
+                        ]
+                    }
+                },
+                {
+                    "name": "amountPerDose",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 10
+                    }
+                }
+            ]
+        },
+        "setType": {
+            "name": "setType",
+            "arguments": [
+                {
+                    "name": "type",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "regularDetergent",
+                            "scannedRegularDetergent"
+                        ]
+                    }
+                }
+            ]
+        },
         "setAmount": {
             "name": "setAmount",
             "arguments": [
@@ -132,7 +223,8 @@
                             "none",
                             "less",
                             "standard",
-                            "extra"
+                            "extra",
+                            "custom"
                         ]
                     }
                 }
@@ -150,7 +242,8 @@
                             "none",
                             "normal",
                             "high",
-                            "extraHigh"
+                            "extraHigh",
+                            "custom"
                         ]
                     }
                 }

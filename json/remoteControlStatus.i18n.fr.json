@@ -1,19 +1,19 @@
 {
     "tag": "fr",
-    "label": "CONTR\u00d4LE INTELLIGENT",
+    "label": "T\u00e9l\u00e9commande",
     "description": "Gets the value of remote control status.",
     "attributes": {
         "remoteControlEnabled": {
-            "label": "CONTR\u00d4LE INTELLIGENT",
+            "label": "T\u00e9l\u00e9commande",
             "description": "Current status of the remote control",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {
                     "false": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Non autoris\u00e9"
                     },
                     "true": {
-                        "label": "Activ\u00e9"
+                        "label": "Autoris\u00e9"
                     }
                 }
             }

@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Start\/Stop program",
+    "attributes": {
+        "startstop": {
+            "label": "Start \/ Stop",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "play": {
+                        "label": "Active"
+                    },
+                    "stop": {
+                        "label": "Inactive"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

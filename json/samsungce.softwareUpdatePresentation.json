@@ -10,6 +10,12 @@
                         "type": "active"
                     }
                 ]
+            },
+            {
+                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_PREPARING}}"
+            },
+            {
+                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_IN_PROGRESS}}"
             }
         ],
         "actions": []

@@ -1,0 +1,86 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.pauseState.label}}",
+            "displayType": "switch",
+            "switch": {
+                "command": {
+                    "name": "setPauseState",
+                    "on": "play",
+                    "off": "pause",
+                    "argumentType": "string"
+                },
+                "state": {
+                    "value": "pauseState.value",
+                    "valueType": "string",
+                    "on": "play",
+                    "off": "pause",
+                    "alternatives": [
+                        {
+                            "key": "play",
+                            "value": "{{i18n.attributes.pauseState.i18n.value.play.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.attributes.pauseState.i18n.value.pause.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.pauseState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "play",
+                            "value": "{{i18n.attributes.pauseState.i18n.value.play.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.attributes.pauseState.i18n.value.pause.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "pauseState.value",
+                    "valueType": "string"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.pauseState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "play",
+                            "value": "{{i18n.attributes.pauseState.i18n.value.play.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.attributes.pauseState.i18n.value.pause.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "command": "setPauseState",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "signalahead13665.pauseresumev3",
+    "version": 1
+}

@@ -5,18 +5,18 @@
     "attributes": {
         "feedPortion": {
             "label": "Portion du distributeur",
-            "description": "A number that represents the portion (in grams, pounds, or ounces) that will dispense.",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}{{unit}}",
+            "description": "A number that represents the portion (in grams, pounds, ounces, or servings) that will dispense.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}} {{unit}}",
             "i18n": []
         }
     },
     "commands": {
         "setPortion": {
-            "description": "Set the portion (in grams, pounds, or ounces) that the feeder will dispense.",
+            "description": "Set the portion (in grams, pounds, ounces, or servings) that the feeder will dispense.",
             "arguments": {
                 "portion": {
                     "i18n": [],
-                    "description": "The portion (in grams, pounds, or ounces) to dispense."
+                    "description": "The portion (in grams, pounds, ounces, or servings) to dispense."
                 }
             }
         }

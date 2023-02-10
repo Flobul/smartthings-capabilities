@@ -1,0 +1,24 @@
+{
+    "tag": "en",
+    "label": "Oven Drainage Requirement",
+    "attributes": {
+        "drainageRequirement": {
+            "label": "drainageRequirement",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "00": {
+                        "label": "00"
+                    },
+                    "01": {
+                        "label": "01"
+                    },
+                    "02": {
+                        "label": "02"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}
