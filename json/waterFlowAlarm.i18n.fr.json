@@ -1,0 +1,67 @@
+{
+    "tag": "fr",
+    "label": "D\u00e9bit d'eau",
+    "attributes": {
+        "volumeAlarm": {
+            "label": "Volume",
+            "description": "Flow volume alarm",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "alarm": {
+                        "label": "Alarme"
+                    },
+                    "warning": {
+                        "label": "Attention"
+                    }
+                }
+            }
+        },
+        "durationAlarm": {
+            "label": "Dur\u00e9e",
+            "description": "Flow duration alarm",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "alarm": {
+                        "label": "Alarme"
+                    },
+                    "warning": {
+                        "label": "Attention"
+                    }
+                }
+            }
+        },
+        "supportedAlarmStatuses": {
+            "label": "Supported Alarm Statuses",
+            "description": "List of alarm statuses supported by a specific device",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "rateAlarm": {
+            "label": "Taux",
+            "description": "Flow rate alarm",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "alarm": {
+                        "label": "Alarme"
+                    },
+                    "warning": {
+                        "label": "Attention"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

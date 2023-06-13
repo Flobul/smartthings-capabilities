@@ -100,11 +100,11 @@
                         "off": {
                             "label": "D\u00e9sactiv\u00e9"
                         },
-                        "horizontal": {
-                            "label": "Horizontale"
-                        },
                         "fixedLeft": {
                             "label": "\u00c0 gauche"
+                        },
+                        "horizontal": {
+                            "label": "Horizontale"
                         },
                         "swing": {
                             "label": "Balayage"

@@ -107,6 +107,9 @@
                     "schedule": {
                         "label": "Schedule"
                     },
+                    "hotwateronly": {
+                        "label": "Hot Water Only"
+                    },
                     "fanonly": {
                         "label": "Fan only"
                     },
@@ -191,14 +194,14 @@
                         "rushhour": {
                             "label": "Heure de pointe"
                         },
-                        "heatingoff": {
-                            "label": "Heating Off"
+                        "asleep": {
+                            "label": "Asleep"
                         },
                         "emergencyheat": {
                             "label": "Urgence"
                         },
-                        "asleep": {
-                            "label": "Asleep"
+                        "heatingoff": {
+                            "label": "Heating Off"
                         },
                         "dryair": {
                             "label": "Dry air"
@@ -218,14 +221,14 @@
                         "in": {
                             "label": "In"
                         },
+                        "cool": {
+                            "label": "Froid"
+                        },
                         "custom": {
                             "label": "Custom"
                         },
                         "dayoff": {
                             "label": "Day Off"
-                        },
-                        "cool": {
-                            "label": "Froid"
                         },
                         "energysaveheat": {
                             "label": "Energy Save Heat"
@@ -241,6 +244,9 @@
                         },
                         "schedule": {
                             "label": "Schedule"
+                        },
+                        "hotwateronly": {
+                            "label": "Hot Water Only"
                         },
                         "fanonly": {
                             "label": "Fan only"

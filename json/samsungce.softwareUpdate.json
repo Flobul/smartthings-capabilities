@@ -114,6 +114,7 @@
                             "preparing",
                             "delayed",
                             "inprogress",
+                            "checking",
                             "completed"
                         ]
                     }

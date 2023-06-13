@@ -9,21 +9,15 @@
             "displayTemplate": "La {{attribute}} de {{device.label}} a \u00e9t\u00e9 mise \u00e0 jour",
             "i18n": []
         },
-        "gasMeterTime": {
-            "label": "heure du relev\u00e9 de compteur",
-            "description": "The timestamp when the measurement was taken",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
-            "i18n": []
-        },
         "gasMeterCalorific": {
             "label": "\u00e9nergie calorifique",
             "description": "a measure of the available heat energy, used as part of the calculation to convert gas volume to gas energy. ",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": []
         },
-        "gasMeterConversion": {
-            "label": "facteur de conversion",
-            "description": "the conversion factor used as part of the calculation to convert gas volume to gas energy. The value used for this calculation is generally defined by local regulations",
+        "gasMeterTime": {
+            "label": "heure du relev\u00e9 de compteur",
+            "description": "The timestamp when the measurement was taken",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": []
         },
@@ -31,6 +25,12 @@
             "label": "volume de gaz",
             "description": "the cumulative gas volume reported by the metering device.",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait \u00e9gal \u00e0 {{value}}m^3.",
+            "i18n": []
+        },
+        "gasMeterConversion": {
+            "label": "facteur de conversion",
+            "description": "the conversion factor used as part of the calculation to convert gas volume to gas energy. The value used for this calculation is generally defined by local regulations",
+            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
             "i18n": []
         },
         "gasMeter": {

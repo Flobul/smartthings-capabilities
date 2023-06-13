@@ -61,11 +61,11 @@
                         "alarm": {
                             "label": "Error"
                         },
-                        "reserve": {
-                            "label": "Scheduled"
-                        },
                         "charging": {
                             "label": "Charging"
+                        },
+                        "reserve": {
+                            "label": "Scheduled"
                         },
                         "after": {
                             "label": "Charging before cleaning"
@@ -73,11 +73,11 @@
                         "homing": {
                             "label": "Returning to dock"
                         },
-                        "point": {
-                            "label": "Point cleaning"
-                        },
                         "pause": {
                             "label": "Pause"
+                        },
+                        "point": {
+                            "label": "Point cleaning"
                         }
                     },
                     "description": "Set the robot cleaner movement mode, to \"homing\""

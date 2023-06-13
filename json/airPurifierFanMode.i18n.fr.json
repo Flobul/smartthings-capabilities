@@ -55,17 +55,17 @@
                         "high": {
                             "label": "Intensif"
                         },
-                        "windFree": {
-                            "label": "Ventilation autonome"
-                        },
                         "low": {
                             "label": "Faible"
                         },
-                        "quiet": {
-                            "label": "Silencieux"
+                        "windFree": {
+                            "label": "Ventilation autonome"
                         },
                         "medium": {
                             "label": "Moyen"
+                        },
+                        "quiet": {
+                            "label": "Silencieux"
                         }
                     }
                 }

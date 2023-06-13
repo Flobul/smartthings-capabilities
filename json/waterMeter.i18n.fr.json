@@ -1,0 +1,25 @@
+{
+    "tag": "fr",
+    "label": "Compteur d'eau",
+    "attributes": {
+        "lastHour": {
+            "label": "Heure pr\u00e9c\u00e9dente",
+            "description": "Water used in the last hour",
+            "displayTemplate": "Water used in the {{attribute}} by {{device.label}} is {{value}} {{unit}}",
+            "i18n": []
+        },
+        "lastTwentyFourHours": {
+            "label": "Derni\u00e8res 24 heures",
+            "description": "Water used in the last 24 hours",
+            "displayTemplate": "Water used in the {{attribute}} by {{device.label}} is {{value}} {{unit}}",
+            "i18n": []
+        },
+        "lastSevenDays": {
+            "label": "7 derniers jours",
+            "description": "Water used in the last 7 days",
+            "displayTemplate": "Water used in the {{attribute}} by {{device.label}} is {{value}} {{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

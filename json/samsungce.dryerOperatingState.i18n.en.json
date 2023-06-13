@@ -45,49 +45,49 @@
             "i18n": {
                 "value": {
                     "weightSensing": {
-                        "label": "weightSensing"
+                        "label": "Sensing the load"
                     },
                     "wrinklePrevent": {
                         "label": "wrinklePrevent"
                     },
                     "sanitizing": {
-                        "label": "sanitizing"
+                        "label": "Sanitizing"
                     },
                     "finished": {
-                        "label": "finished"
+                        "label": "Cycle complete"
                     },
                     "none": {
-                        "label": "none"
+                        "label": "Working"
                     },
                     "thawingFrozenInside": {
-                        "label": "thawingFrozenInside"
+                        "label": "Defrosting"
                     },
                     "delayDry": {
-                        "label": "delayDry"
+                        "label": "End of cycle delayed"
                     },
                     "dehumidifying": {
-                        "label": "dehumidifying"
+                        "label": "Dehumidifying"
                     },
                     "continuousDehumidifying": {
-                        "label": "continuousDehumidifying"
+                        "label": "Dehumidifying"
                     },
                     "drying": {
-                        "label": "drying"
+                        "label": "Drying"
                     },
                     "refreshing": {
-                        "label": "refreshing"
+                        "label": "Refreshing"
                     },
                     "cooling": {
-                        "label": "cooling"
+                        "label": "Cooling"
                     },
                     "internalCare": {
-                        "label": "internalCare"
+                        "label": "Drying"
                     },
                     "aIDrying": {
-                        "label": "aIDrying"
+                        "label": "Drying"
                     },
                     "freezeProtection": {
-                        "label": "freezeProtection"
+                        "label": "Prevent freezing"
                     }
                 }
             }

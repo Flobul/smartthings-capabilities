@@ -9,6 +9,9 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
+                    "extraSilence": {
+                        "label": "extraSilence"
+                    },
                     "silence": {
                         "label": "Silencieux"
                     },
@@ -38,7 +41,7 @@
                             "label": "Activ\u00e9"
                         }
                     },
-                    "description": "Set the robot cleaner movement mode to 'on', 'off' or 'silence' mode"
+                    "description": "Set the robot cleaner movement mode to 'on', 'off', 'silence' or 'extraSilence' mode"
                 }
             }
         }

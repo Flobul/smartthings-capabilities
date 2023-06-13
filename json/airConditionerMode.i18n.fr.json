@@ -27,11 +27,11 @@
                     "aicomfort": {
                         "label": "IA Refroidissement confortable"
                     },
-                    "sleep": {
-                        "label": "sleep"
-                    },
                     "eco": {
                         "label": "eco"
+                    },
+                    "sleep": {
+                        "label": "sleep"
                     },
                     "fan": {
                         "label": "A\u00e9ration"
@@ -54,11 +54,11 @@
                     "heatclean": {
                         "label": "Chaud, purification"
                     },
-                    "std": {
-                        "label": "std"
-                    },
                     "dryclean": {
                         "label": "Sec, purification"
+                    },
+                    "std": {
+                        "label": "std"
                     },
                     "cool": {
                         "label": "Froid"
@@ -107,11 +107,11 @@
                         "auto": {
                             "label": "Automatique"
                         },
-                        "ventilation": {
-                            "label": "ventilation"
-                        },
                         "airconditionermode": {
                             "label": "airConditionerMode"
+                        },
+                        "ventilation": {
+                            "label": "ventilation"
                         },
                         "aicomfort": {
                             "label": "IA Refroidissement confortable"
@@ -125,11 +125,11 @@
                         "fan": {
                             "label": "A\u00e9ration"
                         },
-                        "purification": {
-                            "label": "purification"
-                        },
                         "heatex": {
                             "label": "heatEx"
+                        },
+                        "purification": {
+                            "label": "purification"
                         },
                         "power": {
                             "label": "power"
@@ -158,11 +158,11 @@
                         "dry": {
                             "label": "S\u00e9chage"
                         },
-                        "notsupported": {
-                            "label": "Not Supported"
-                        },
                         "clean": {
                             "label": "Purification"
+                        },
+                        "notsupported": {
+                            "label": "Not Supported"
                         },
                         "bypass": {
                             "label": "Ignorer"

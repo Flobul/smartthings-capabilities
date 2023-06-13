@@ -51,11 +51,11 @@
                     "stopped": {
                         "label": "Arr\u00eat\u00e9"
                     },
-                    "stop": {
-                        "label": "Arr\u00eater"
-                    },
                     "standby": {
                         "label": "En veille"
+                    },
+                    "stop": {
+                        "label": "Arr\u00eater"
                     },
                     "playing": {
                         "label": "Lecture"

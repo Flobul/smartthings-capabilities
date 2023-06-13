@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "Mode Purification",
+    "label": "Purification",
     "attributes": {
         "spiMode": {
             "label": "spiMode",
@@ -23,10 +23,10 @@
                 "mode": {
                     "i18n": {
                         "off": {
-                            "label": "D\u00e9sactiver"
+                            "label": "\u00c9teindre"
                         },
                         "on": {
-                            "label": "Activer"
+                            "label": "Allumer"
                         }
                     }
                 }

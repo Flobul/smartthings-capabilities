@@ -52,7 +52,7 @@
                         "label": "Finition"
                     },
                     "none": {
-                        "label": "none"
+                        "label": "Op\u00e9rationnel"
                     },
                     "delaywash": {
                         "label": "delaywash"
@@ -69,8 +69,23 @@
                 }
             }
         },
+        "progress": {
+            "label": "progress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
         "steamClosetDelayEndTime": {
             "label": "steamClosetDelayEndTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "remainingTimeStr": {
+            "label": "remainingTimeStr",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "remainingTime": {
+            "label": "remainingTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         }

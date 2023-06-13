@@ -8,46 +8,58 @@
             "i18n": {
                 "value": {
                     "aIRinse": {
-                        "label": "aIRinse"
+                        "label": "Rinsing"
                     },
                     "weightSensing": {
-                        "label": "weightSensing"
+                        "label": "Sensing the load"
                     },
                     "wash": {
-                        "label": "wash"
+                        "label": "Washing"
+                    },
+                    "laundrySensing": {
+                        "label": "Detecting laundry"
                     },
                     "delayWash": {
-                        "label": "delayWash"
+                        "label": "End of cycle delayed"
                     },
                     "finished": {
-                        "label": "finished"
+                        "label": "Cycle complete"
                     },
                     "none": {
-                        "label": "none"
+                        "label": "Working"
                     },
                     "airWash": {
-                        "label": "airWash"
+                        "label": "Refreshing"
                     },
                     "drying": {
-                        "label": "drying"
+                        "label": "Drying"
                     },
                     "aIWash": {
-                        "label": "aIWash"
+                        "label": "Washing"
                     },
                     "spin": {
-                        "label": "spin"
+                        "label": "Spinning"
                     },
                     "preWash": {
                         "label": "preWash"
                     },
                     "aISpin": {
-                        "label": "aISpin"
+                        "label": "Spinning"
+                    },
+                    "drumCleaning": {
+                        "label": "Cleaning"
+                    },
+                    "soilLevelSensing": {
+                        "label": "Detecting stains"
                     },
                     "rinse": {
-                        "label": "rinse"
+                        "label": "Rinsing"
                     },
                     "freezeProtection": {
-                        "label": "freezeProtection"
+                        "label": "Prevent freezing"
+                    },
+                    "dispenserCleaning": {
+                        "label": "dispenserCleaning"
                     }
                 }
             }

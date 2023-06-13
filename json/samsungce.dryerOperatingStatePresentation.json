@@ -20,6 +20,86 @@
                         "type": "active"
                     }
                 ]
+            },
+            {
+                "label": "{{dryerJobState.value}}",
+                "alternatives": [
+                    {
+                        "key": "drying",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cooling",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "refreshing",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.refreshing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dehumidifying",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.dehumidifying.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sanitizing",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.sanitizing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "internalCare",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.internalCare.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "weightSensing",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "aIDrying",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.aIDrying.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "humiditySensing",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.humiditySensing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "thawingFrozenInside",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.thawingFrozenInside.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "freezeProtection",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.freezeProtection.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "none",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "continuousDehumidifying",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.continuousDehumidifying.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "finished",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "delayDry",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.delayDry.label}}",
+                        "type": "active"
+                    }
+                ]
             }
         ],
         "actions": []

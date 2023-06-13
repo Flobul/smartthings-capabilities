@@ -46,11 +46,11 @@
                         "auto": {
                             "label": "Auto"
                         },
-                        "on": {
-                            "label": "On"
-                        },
                         "circulate": {
                             "label": "Circulate"
+                        },
+                        "on": {
+                            "label": "On"
                         }
                     },
                     "description": "The mode may be one of the following values:"

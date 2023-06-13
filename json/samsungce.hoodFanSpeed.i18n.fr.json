@@ -13,16 +13,16 @@
             "i18n": {
                 "value": {
                     "14": {
-                        "label": "Smart"
+                        "label": "Intelligente"
                     },
                     "15": {
-                        "label": "Low"
+                        "label": "Faible"
                     },
                     "16": {
-                        "label": "Medium"
+                        "label": "Moyenne"
                     },
                     "17": {
-                        "label": "High"
+                        "label": "\u00c9lev\u00e9e"
                     },
                     "18": {
                         "label": "Max"
@@ -74,16 +74,16 @@
                 "speed": {
                     "i18n": {
                         "14": {
-                            "label": "Smart"
+                            "label": "Intelligente"
                         },
                         "15": {
-                            "label": "Low"
+                            "label": "Faible"
                         },
                         "16": {
-                            "label": "Medium"
+                            "label": "Moyenne"
                         },
                         "17": {
-                            "label": "High"
+                            "label": "\u00c9lev\u00e9e"
                         },
                         "18": {
                             "label": "Max"

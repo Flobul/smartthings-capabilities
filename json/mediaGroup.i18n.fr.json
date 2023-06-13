@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "Media group",
+    "label": "Groupe de haut-parleurs",
     "description": "Allows for the expression of media grouping.",
     "attributes": {
         "groupMute": {
@@ -37,19 +37,19 @@
             "i18n": []
         },
         "groupRole": {
-            "label": "R\u00f4le dans le groupe",
+            "label": "Groupe de haut-parleurs",
             "description": "Current role in the group",
             "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
             "i18n": {
                 "value": {
                     "ungrouped": {
-                        "label": "Sans groupe"
+                        "label": "Non group\u00e9"
                     },
                     "auxilary": {
-                        "label": "Auxiliaire"
+                        "label": "Haut-parleur secondaire"
                     },
                     "primary": {
-                        "label": "Principal"
+                        "label": "Haut-parleur principal"
                     }
                 }
             }

@@ -9,11 +9,11 @@
             "displayTemplate": "{{device.label}} detected {{detected.qty}} {{detected.value}}",
             "i18n": {
                 "value": {
-                    "parcel": {
-                        "label": "Parcel"
-                    },
                     "human_0": {
                         "label": "No person"
+                    },
+                    "parcel": {
+                        "label": "Parcel"
                     },
                     "none": {
                         "label": "None"

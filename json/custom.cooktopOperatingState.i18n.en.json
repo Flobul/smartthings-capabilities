@@ -16,10 +16,10 @@
                         "label": "paused"
                     },
                     "ready": {
-                        "label": "Cooktop off"
+                        "label": "Cooktop Ready"
                     },
                     "run": {
-                        "label": "Cooktop on"
+                        "label": "Cooktop Working"
                     },
                     "finished": {
                         "label": "finished"

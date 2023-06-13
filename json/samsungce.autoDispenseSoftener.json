@@ -36,7 +36,8 @@
                             "none",
                             "less",
                             "standard",
-                            "extra"
+                            "extra",
+                            "custom"
                         ]
                     }
                 },
@@ -60,7 +61,8 @@
                                 "none",
                                 "normal",
                                 "high",
-                                "extraHigh"
+                                "extraHigh",
+                                "custom"
                             ]
                         }
                     }
@@ -82,7 +84,8 @@
                             "none",
                             "normal",
                             "high",
-                            "extraHigh"
+                            "extraHigh",
+                            "custom"
                         ]
                     }
                 },
@@ -106,7 +109,8 @@
                                 "none",
                                 "less",
                                 "standard",
-                                "extra"
+                                "extra",
+                                "custom"
                             ]
                         }
                     }
@@ -132,7 +136,8 @@
                             "none",
                             "less",
                             "standard",
-                            "extra"
+                            "extra",
+                            "custom"
                         ]
                     }
                 }
@@ -150,7 +155,8 @@
                             "none",
                             "normal",
                             "high",
-                            "extraHigh"
+                            "extraHigh",
+                            "custom"
                         ]
                     }
                 }

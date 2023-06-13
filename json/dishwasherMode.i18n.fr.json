@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "eco": {
-                        "label": "Eco"
+                        "label": "\u00c9co"
                     },
                     "auto": {
                         "label": "Automatique"
@@ -38,13 +38,13 @@
                 "mode": {
                     "i18n": {
                         "eco": {
-                            "label": "Eco"
-                        },
-                        "quick": {
-                            "label": "Rapide"
+                            "label": "\u00c9co"
                         },
                         "auto": {
                             "label": "Automatique"
+                        },
+                        "quick": {
+                            "label": "Rapide"
                         },
                         "dry": {
                             "label": "Sec"

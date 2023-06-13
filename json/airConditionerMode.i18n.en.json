@@ -27,11 +27,11 @@
                     "aicomfort": {
                         "label": "AI Comfort Cooling"
                     },
-                    "sleep": {
-                        "label": "sleep"
-                    },
                     "eco": {
                         "label": "eco"
+                    },
+                    "sleep": {
+                        "label": "sleep"
                     },
                     "fan": {
                         "label": "Vent"
@@ -54,11 +54,11 @@
                     "heatclean": {
                         "label": "Heat, Purify"
                     },
-                    "std": {
-                        "label": "std"
-                    },
                     "dryclean": {
                         "label": "Dry, Purify"
+                    },
+                    "std": {
+                        "label": "std"
                     },
                     "cool": {
                         "label": "Cool"
@@ -107,11 +107,11 @@
                         "auto": {
                             "label": "Auto"
                         },
-                        "ventilation": {
-                            "label": "ventilation"
-                        },
                         "airconditionermode": {
                             "label": "airConditionerMode"
+                        },
+                        "ventilation": {
+                            "label": "ventilation"
                         },
                         "aicomfort": {
                             "label": "AI Comfort Cooling"
@@ -125,11 +125,11 @@
                         "fan": {
                             "label": "Vent"
                         },
-                        "purification": {
-                            "label": "Purify"
-                        },
                         "heatex": {
                             "label": "heatEx"
+                        },
+                        "purification": {
+                            "label": "Purify"
                         },
                         "power": {
                             "label": "power"
@@ -158,11 +158,11 @@
                         "dry": {
                             "label": "Dry"
                         },
-                        "notsupported": {
-                            "label": "Not Supported"
-                        },
                         "clean": {
                             "label": "Purify"
+                        },
+                        "notsupported": {
+                            "label": "Not Supported"
                         },
                         "bypass": {
                             "label": "bypass"

@@ -4,19 +4,22 @@
     "description": "Allows for the control of the robot cleaner turbo mode.",
     "attributes": {
         "robotCleanerTurboMode": {
-            "label": "Turbo",
+            "label": "robot cleaner turbo mode",
             "description": "Current status of the robot cleaner turbo mode",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
+                    "extraSilence": {
+                        "label": "extraSilence"
+                    },
                     "silence": {
-                        "label": "Quiet"
+                        "label": "silence"
                     },
                     "off": {
-                        "label": "Off"
+                        "label": "off"
                     },
                     "on": {
-                        "label": "On"
+                        "label": "on"
                     }
                 }
             }
@@ -38,7 +41,7 @@
                             "label": "On"
                         }
                     },
-                    "description": "Set the robot cleaner movement mode to 'on', 'off' or 'silence' mode"
+                    "description": "Set the robot cleaner movement mode to 'on', 'off', 'silence' or 'extraSilence' mode"
                 }
             }
         }

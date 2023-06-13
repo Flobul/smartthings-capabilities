@@ -33,6 +33,9 @@
                     "extra": {
                         "label": "extra"
                     },
+                    "custom": {
+                        "label": "custom"
+                    },
                     "none": {
                         "label": "none"
                     },
@@ -60,6 +63,9 @@
                     },
                     "extraHigh": {
                         "label": "extraHigh"
+                    },
+                    "custom": {
+                        "label": "custom"
                     },
                     "none": {
                         "label": "none"

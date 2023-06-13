@@ -1,0 +1,52 @@
+{
+    "tag": "en",
+    "label": "Softener Auto Replenishment",
+    "attributes": {
+        "regularSoftenerType": {
+            "label": "regularSoftenerType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "capsule": {
+                        "label": "capsule"
+                    },
+                    "liquid": {
+                        "label": "liquid"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "drySheet": {
+                        "label": "drySheet"
+                    }
+                }
+            }
+        },
+        "regularSoftenerAlarmEnabled": {
+            "label": "regularSoftenerAlarmEnabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "regularSoftenerInitialAmount": {
+            "label": "regularSoftenerInitialAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "regularSoftenerRemainingAmount": {
+            "label": "regularSoftenerRemainingAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "regularSoftenerDosage": {
+            "label": "regularSoftenerDosage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "regularSoftenerOrderThreshold": {
+            "label": "regularSoftenerOrderThreshold",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

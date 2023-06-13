@@ -6,7 +6,7 @@
                 "alternatives": [
                     {
                         "key": "true",
-                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_AVAILABLE}}",
+                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPGRADE_AVAILABLE}}",
                         "type": "active"
                     }
                 ]
@@ -16,6 +16,12 @@
             },
             {
                 "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_IN_PROGRESS}}"
+            },
+            {
+                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_IN_PROGRESS_100}}"
+            },
+            {
+                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_CHECKING}}"
             }
         ],
         "actions": []

@@ -7,7 +7,13 @@
             "label": "Portion du distributeur",
             "description": "A number that represents the portion (in grams, pounds, ounces, or servings) that will dispense.",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {
+                "unit": {
+                    "servings": {
+                        "label": "Serving(s)"
+                    }
+                }
+            }
         }
     },
     "commands": {

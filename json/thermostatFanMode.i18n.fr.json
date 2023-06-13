@@ -46,11 +46,11 @@
                         "auto": {
                             "label": "Automatique"
                         },
-                        "on": {
-                            "label": "Activ\u00e9"
-                        },
                         "circulate": {
                             "label": "Circulation"
+                        },
+                        "on": {
+                            "label": "Activ\u00e9"
                         }
                     },
                     "description": "The mode may be one of the following values:"

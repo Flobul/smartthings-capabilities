@@ -12,41 +12,62 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
+                    "paused": {
+                        "label": "Pause"
+                    },
+                    "factoryReset": {
+                        "label": "factoryReset"
+                    },
+                    "error": {
+                        "label": "V\u00e9rification requise"
+                    },
+                    "manual": {
+                        "label": "Surveillance"
+                    },
+                    "mediaPlaying": {
+                        "label": "mediaPlaying"
+                    },
+                    "welcoming": {
+                        "label": "Accueil d'un enfant"
+                    },
+                    "homing": {
+                        "label": "Retour"
+                    },
+                    "powerSaving": {
+                        "label": "Mode d'\u00e9conomie d'\u00e9nergie"
+                    },
+                    "moving": {
+                        "label": "En d\u00e9placement"
+                    },
+                    "relocal": {
+                        "label": "Localisation"
+                    },
                     "cleaning": {
                         "label": "Nettoyage"
                     },
                     "patrol": {
                         "label": "Patrouille"
                     },
-                    "paused": {
-                        "label": "Pause"
-                    },
                     "idle": {
                         "label": "En attente"
                     },
                     "findingPet": {
-                        "label": "Surveillance..."
+                        "label": "Surveillance"
                     },
                     "charging": {
                         "label": "En charge"
                     },
-                    "factoryReset": {
-                        "label": "factoryReset"
-                    },
                     "emitDust": {
                         "label": "\u00c9mission de poussi\u00e8re"
                     },
-                    "error": {
-                        "label": "V\u00e9rification requise"
-                    },
                     "monitoring": {
-                        "label": "Surveillance..."
-                    },
-                    "manual": {
-                        "label": "Surveillance..."
+                        "label": "Surveillance"
                     },
                     "messaging": {
                         "label": "Envoi de la voix"
+                    },
+                    "monitoringAutomation": {
+                        "label": "monitoringAutomation"
                     },
                     "exploring": {
                         "label": "Exploration"
@@ -54,35 +75,17 @@
                     "calibrating": {
                         "label": "\u00c9talonnage en cours"
                     },
-                    "mediaPlaying": {
-                        "label": "mediaPlaying"
-                    },
                     "reserved": {
                         "label": "reserved"
                     },
                     "processing": {
                         "label": "Localisation"
                     },
-                    "welcoming": {
-                        "label": "Bienvenue"
-                    },
-                    "homing": {
-                        "label": "Retour pour chargement"
-                    },
                     "chargingForRemainingJob": {
                         "label": "En charge"
                     },
-                    "powerSaving": {
-                        "label": "Mode d'\u00e9conomie d'\u00e9nergie"
-                    },
                     "charged": {
                         "label": "Charge compl\u00e8te"
-                    },
-                    "moving": {
-                        "label": "En d\u00e9placement"
-                    },
-                    "relocal": {
-                        "label": "Localisation"
                     }
                 }
             }

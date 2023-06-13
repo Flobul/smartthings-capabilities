@@ -27,6 +27,7 @@
                                 "exploring",
                                 "emitDust",
                                 "monitoring",
+                                "monitoringAutomation",
                                 "patrol",
                                 "manual",
                                 "processing",
@@ -69,6 +70,7 @@
                             "exploring",
                             "emitDust",
                             "monitoring",
+                            "monitoringAutomation",
                             "patrol",
                             "manual",
                             "processing",
@@ -150,7 +152,8 @@
                             "homing",
                             "cleaning",
                             "paused",
-                            "findingPet"
+                            "findingPet",
+                            "monitoringAutomation"
                         ]
                     }
                 }

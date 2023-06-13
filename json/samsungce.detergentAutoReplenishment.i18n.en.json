@@ -1,0 +1,142 @@
+{
+    "tag": "en",
+    "label": "Detergent Auto Replenishment",
+    "attributes": {
+        "neutralDetergentType": {
+            "label": "neutralDetergentType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "capsule": {
+                        "label": "capsule"
+                    },
+                    "liquid": {
+                        "label": "liquid"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "drySheet": {
+                        "label": "drySheet"
+                    }
+                }
+            }
+        },
+        "regularDetergentRemainingAmount": {
+            "label": "regularDetergentRemainingAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "babyDetergentRemainingAmount": {
+            "label": "babyDetergentRemainingAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "neutralDetergentRemainingAmount": {
+            "label": "neutralDetergentRemainingAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "neutralDetergentAlarmEnabled": {
+            "label": "neutralDetergentAlarmEnabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "neutralDetergentOrderThreshold": {
+            "label": "neutralDetergentOrderThreshold",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "babyDetergentInitialAmount": {
+            "label": "babyDetergentInitialAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "babyDetergentType": {
+            "label": "babyDetergentType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "capsule": {
+                        "label": "capsule"
+                    },
+                    "liquid": {
+                        "label": "liquid"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "drySheet": {
+                        "label": "drySheet"
+                    }
+                }
+            }
+        },
+        "neutralDetergentInitialAmount": {
+            "label": "neutralDetergentInitialAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "regularDetergentDosage": {
+            "label": "regularDetergentDosage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "babyDetergentDosage": {
+            "label": "babyDetergentDosage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "regularDetergentOrderThreshold": {
+            "label": "regularDetergentOrderThreshold",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "regularDetergentType": {
+            "label": "regularDetergentType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "capsule": {
+                        "label": "capsule"
+                    },
+                    "liquid": {
+                        "label": "liquid"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "drySheet": {
+                        "label": "drySheet"
+                    }
+                }
+            }
+        },
+        "regularDetergentInitialAmount": {
+            "label": "regularDetergentInitialAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "regularDetergentAlarmEnabled": {
+            "label": "regularDetergentAlarmEnabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "neutralDetergentDosage": {
+            "label": "neutralDetergentDosage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "babyDetergentOrderThreshold": {
+            "label": "babyDetergentOrderThreshold",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "babyDetergentAlarmEnabled": {
+            "label": "babyDetergentAlarmEnabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

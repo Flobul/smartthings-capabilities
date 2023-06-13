@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Wind Free",
+    "label": "Options",
     "attributes": {
         "supportedAcOptionalMode": {
             "label": "supportedAcOptionalMode",
@@ -16,10 +16,10 @@
                         "label": "motionDirect"
                     },
                     "windFree": {
-                        "label": "windFree"
+                        "label": "Wind free on"
                     },
                     "windFreeSleep": {
-                        "label": "windFreeSleep"
+                        "label": "Wind free and Good sleep on"
                     },
                     "energySaving": {
                         "label": "energySaving"
@@ -28,10 +28,10 @@
                         "label": "motionIndirect"
                     },
                     "off": {
-                        "label": "off"
+                        "label": "Options off"
                     },
                     "speed": {
-                        "label": "speed"
+                        "label": "Speed on"
                     },
                     "smart": {
                         "label": "smart"
@@ -40,13 +40,13 @@
                         "label": "comfort"
                     },
                     "sleep": {
-                        "label": "sleep"
+                        "label": "Good sleep on"
                     },
                     "longWind": {
                         "label": "longWind"
                     },
                     "quiet": {
-                        "label": "quiet"
+                        "label": "Quiet on"
                     },
                     "cubePurify": {
                         "label": "cubePurify"
@@ -66,14 +66,23 @@
             "arguments": {
                 "mode": {
                     "i18n": {
+                        "sleep": {
+                            "label": "Good sleep on"
+                        },
                         "windFree": {
-                            "label": "Wind free On"
+                            "label": "Wind free on"
                         },
                         "windFreeSleep": {
-                            "label": "On"
+                            "label": "Wind free and Good sleep on"
+                        },
+                        "quiet": {
+                            "label": "Quiet on"
                         },
                         "off": {
-                            "label": "Wind free Off"
+                            "label": "Options off"
+                        },
+                        "speed": {
+                            "label": "Speed on"
                         }
                     }
                 }

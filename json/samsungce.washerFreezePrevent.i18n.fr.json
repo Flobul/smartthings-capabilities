@@ -8,7 +8,7 @@
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "Prevent freezing"
+                        "label": "Mode antigel"
                     },
                     "ready": {
                         "label": "ready"

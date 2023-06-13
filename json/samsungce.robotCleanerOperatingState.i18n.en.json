@@ -12,41 +12,62 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
+                    "paused": {
+                        "label": "Paused"
+                    },
+                    "factoryReset": {
+                        "label": "factoryReset"
+                    },
+                    "error": {
+                        "label": "Check required"
+                    },
+                    "manual": {
+                        "label": "Monitoring"
+                    },
+                    "mediaPlaying": {
+                        "label": "mediaPlaying"
+                    },
+                    "welcoming": {
+                        "label": "Welcoming child"
+                    },
+                    "homing": {
+                        "label": "Returning"
+                    },
+                    "powerSaving": {
+                        "label": "Power saving mode"
+                    },
+                    "moving": {
+                        "label": "Moving"
+                    },
+                    "relocal": {
+                        "label": "Relocal"
+                    },
                     "cleaning": {
                         "label": "Cleaning"
                     },
                     "patrol": {
                         "label": "Patrolling"
                     },
-                    "paused": {
-                        "label": "Paused"
-                    },
                     "idle": {
                         "label": "Waiting"
                     },
                     "findingPet": {
-                        "label": "Monitoring\u2026"
+                        "label": "Monitoring"
                     },
                     "charging": {
                         "label": "Charging"
                     },
-                    "factoryReset": {
-                        "label": "factoryReset"
-                    },
                     "emitDust": {
-                        "label": "Emisja py\u0142u"
-                    },
-                    "error": {
-                        "label": "Check required"
+                        "label": "Emitting Dust"
                     },
                     "monitoring": {
-                        "label": "Monitoring\u2026"
-                    },
-                    "manual": {
-                        "label": "Monitoring\u2026"
+                        "label": "Monitoring"
                     },
                     "messaging": {
                         "label": "Sending voice"
+                    },
+                    "monitoringAutomation": {
+                        "label": "monitoringAutomation"
                     },
                     "exploring": {
                         "label": "Exploring"
@@ -54,35 +75,17 @@
                     "calibrating": {
                         "label": "Calibrating"
                     },
-                    "mediaPlaying": {
-                        "label": "mediaPlaying"
-                    },
                     "reserved": {
                         "label": "reserved"
                     },
                     "processing": {
                         "label": "Relocal"
                     },
-                    "welcoming": {
-                        "label": "Welcoming"
-                    },
-                    "homing": {
-                        "label": "Returning for charging"
-                    },
                     "chargingForRemainingJob": {
                         "label": "Charging"
                     },
-                    "powerSaving": {
-                        "label": "Power saving mode"
-                    },
                     "charged": {
-                        "label": "Charged"
-                    },
-                    "moving": {
-                        "label": "Moving"
-                    },
-                    "relocal": {
-                        "label": "Relocal"
+                        "label": "Fully Charged"
                     }
                 }
             }

@@ -1,0 +1,116 @@
+{
+    "tag": "fr",
+    "label": "Washer Operating State",
+    "attributes": {
+        "washerJobState": {
+            "label": "washerJobState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "aIRinse": {
+                        "label": "Rin\u00e7age"
+                    },
+                    "weightSensing": {
+                        "label": "D\u00e9tection de la charge"
+                    },
+                    "wash": {
+                        "label": "Lavage"
+                    },
+                    "laundrySensing": {
+                        "label": "D\u00e9tection du linge"
+                    },
+                    "delayWash": {
+                        "label": "Fin du cycle diff\u00e9r\u00e9"
+                    },
+                    "finished": {
+                        "label": "Cycle termin\u00e9"
+                    },
+                    "none": {
+                        "label": "En cours"
+                    },
+                    "airWash": {
+                        "label": "Actualisation"
+                    },
+                    "drying": {
+                        "label": "S\u00e9chage"
+                    },
+                    "aIWash": {
+                        "label": "Lavage"
+                    },
+                    "spin": {
+                        "label": "Essorage"
+                    },
+                    "preWash": {
+                        "label": "preWash"
+                    },
+                    "aISpin": {
+                        "label": "Essorage"
+                    },
+                    "drumCleaning": {
+                        "label": "Nettoyage"
+                    },
+                    "soilLevelSensing": {
+                        "label": "D\u00e9tection des taches"
+                    },
+                    "rinse": {
+                        "label": "Rin\u00e7age"
+                    },
+                    "freezeProtection": {
+                        "label": "Mode antigel"
+                    },
+                    "dispenserCleaning": {
+                        "label": "dispenserCleaning"
+                    }
+                }
+            }
+        },
+        "operatingState": {
+            "label": "operatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
+        },
+        "supportedOperatingStates": {
+            "label": "supportedOperatingStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "scheduledJobs": {
+            "label": "scheduledJobs",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "progress": {
+            "label": "progress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "remainingTimeStr": {
+            "label": "remainingTimeStr",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "operationTime": {
+            "label": "operationTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "remainingTime": {
+            "label": "remainingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

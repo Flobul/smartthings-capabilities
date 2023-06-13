@@ -1,0 +1,31 @@
+{
+    "tag": "en",
+    "label": "Water pressure",
+    "attributes": {
+        "pressureAlarm": {
+            "label": "Pressure alarm",
+            "description": "Water pressure alarm status",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "high": {
+                        "label": "High"
+                    },
+                    "low": {
+                        "label": "Low"
+                    }
+                }
+            }
+        },
+        "pressure": {
+            "label": "Pressure",
+            "description": "Water pressure",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}} {{unit}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

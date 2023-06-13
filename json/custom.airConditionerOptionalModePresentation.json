@@ -1,6 +1,48 @@
 {
     "automation": {
-        "conditions": [],
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.acOptionalMode.i18n.value.off.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "speed",
+                            "value": "{{i18n.attributes.acOptionalMode.i18n.value.speed.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quiet",
+                            "value": "{{i18n.attributes.acOptionalMode.i18n.value.quiet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windFree",
+                            "value": "{{i18n.attributes.acOptionalMode.i18n.value.windFree.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.attributes.acOptionalMode.i18n.value.sleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "windFreeSleep",
+                            "value": "{{i18n.attributes.acOptionalMode.i18n.value.windFreeSleep.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedAcOptionalMode.value",
+                    "value": "acOptionalMode.value",
+                    "valueType": "string"
+                }
+            }
+        ],
         "actions": [
             {
                 "label": "{{i18n.label}}",
@@ -13,8 +55,23 @@
                             "type": "active"
                         },
                         {
+                            "key": "speed",
+                            "value": "{{i18n.commands.setAcOptionalMode.arguments.mode.i18n.speed.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quiet",
+                            "value": "{{i18n.commands.setAcOptionalMode.arguments.mode.i18n.quiet.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "windFree",
                             "value": "{{i18n.commands.setAcOptionalMode.arguments.mode.i18n.windFree.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sleep",
+                            "value": "{{i18n.commands.setAcOptionalMode.arguments.mode.i18n.sleep.label}}",
                             "type": "active"
                         },
                         {
@@ -23,7 +80,9 @@
                             "type": "active"
                         }
                     ],
-                    "command": "setAcOptionalMode"
+                    "supportedValues": "supportedAcOptionalMode.value",
+                    "command": "setAcOptionalMode",
+                    "argumentType": "string"
                 }
             }
         ]

@@ -61,11 +61,11 @@
                         "alarm": {
                             "label": "Erreur"
                         },
-                        "reserve": {
-                            "label": "Programm\u00e9"
-                        },
                         "charging": {
                             "label": "Chargement"
+                        },
+                        "reserve": {
+                            "label": "Programm\u00e9"
                         },
                         "after": {
                             "label": "Rechargement avant nettoyage"
@@ -73,11 +73,11 @@
                         "homing": {
                             "label": "Retour sur la station d'accueil"
                         },
-                        "point": {
-                            "label": "Nettoyage cibl\u00e9"
-                        },
                         "pause": {
                             "label": "Pause"
+                        },
+                        "point": {
+                            "label": "Nettoyage cibl\u00e9"
                         }
                     },
                     "description": "Set the robot cleaner movement mode, to \"homing\""

@@ -71,7 +71,7 @@
                     },
                     {
                         "key": "19",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.4.label}}",
+                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.19.label}}",
                         "type": "active"
                     }
                 ]
@@ -80,7 +80,79 @@
         "actions": []
     },
     "automation": {
-        "conditions": [],
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "1",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.1.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "2",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.2.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "3",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.3.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "4",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.4.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "6",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.6.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "7",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.7.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "14",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.14.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "15",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.15.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "16",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.16.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "17",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.17.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "18",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.18.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "19",
+                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.19.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedHoodFanSpeed.value",
+                    "value": "hoodFanSpeed.value",
+                    "valueType": "integer"
+                }
+            }
+        ],
         "actions": [
             {
                 "label": "{{i18n.label}}",
@@ -134,7 +206,7 @@
                         },
                         {
                             "key": "19",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.4.label}}",
+                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.19.label}}",
                             "type": "active"
                         },
                         {

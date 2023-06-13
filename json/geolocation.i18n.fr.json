@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "Geolocation",
+    "label": "G\u00e9olocalisation",
     "description": "Gets the value of the geo location.",
     "attributes": {
         "method": {

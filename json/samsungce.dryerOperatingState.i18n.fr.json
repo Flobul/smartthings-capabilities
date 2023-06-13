@@ -1,0 +1,102 @@
+{
+    "tag": "fr",
+    "label": "Dryer Operating State",
+    "attributes": {
+        "operatingState": {
+            "label": "operatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "paused": {
+                        "label": "paused"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    }
+                }
+            }
+        },
+        "supportedOperatingStates": {
+            "label": "supportedOperatingStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "scheduledJobs": {
+            "label": "scheduledJobs",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "progress": {
+            "label": "progress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "remainingTimeStr": {
+            "label": "remainingTimeStr",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "dryerJobState": {
+            "label": "dryerJobState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "weightSensing": {
+                        "label": "D\u00e9tection de la charge"
+                    },
+                    "wrinklePrevent": {
+                        "label": "wrinklePrevent"
+                    },
+                    "sanitizing": {
+                        "label": "D\u00e9sinfection"
+                    },
+                    "finished": {
+                        "label": "Cycle termin\u00e9"
+                    },
+                    "none": {
+                        "label": "En cours"
+                    },
+                    "thawingFrozenInside": {
+                        "label": "D\u00e9givrage"
+                    },
+                    "delayDry": {
+                        "label": "Fin du cycle diff\u00e9r\u00e9"
+                    },
+                    "dehumidifying": {
+                        "label": "D\u00e9shumidification"
+                    },
+                    "continuousDehumidifying": {
+                        "label": "D\u00e9shumidification"
+                    },
+                    "drying": {
+                        "label": "S\u00e9chage"
+                    },
+                    "refreshing": {
+                        "label": "Actualisation"
+                    },
+                    "cooling": {
+                        "label": "Refroidissement"
+                    },
+                    "internalCare": {
+                        "label": "Nettoyage"
+                    },
+                    "aIDrying": {
+                        "label": "S\u00e9chage"
+                    },
+                    "freezeProtection": {
+                        "label": "Mode antigel"
+                    }
+                }
+            }
+        },
+        "remainingTime": {
+            "label": "remainingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

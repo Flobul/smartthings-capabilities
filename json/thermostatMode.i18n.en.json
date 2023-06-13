@@ -3,7 +3,7 @@
     "label": "Thermostat mode",
     "attributes": {
         "thermostatMode": {
-            "label": "Thermostat mode",
+            "label": "thermostat mode",
             "description": "The current mode of a thermostat",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
@@ -27,7 +27,7 @@
                         "label": "Furnace"
                     },
                     "auxiliaryemergencyheat": {
-                        "label": "Auxillary Emergency Heat"
+                        "label": "Auxiliary Emergency Heat"
                     },
                     "moistair": {
                         "label": "Moistair"
@@ -51,7 +51,7 @@
                         "label": "Rush Hour"
                     },
                     "auxheatonly": {
-                        "label": "Auxillary Heat Only"
+                        "label": "Aux Heat Only"
                     },
                     "rushhour": {
                         "label": "rushhour"
@@ -66,19 +66,19 @@
                         "label": "Heating Off"
                     },
                     "dryair": {
-                        "label": "Dry air"
+                        "label": "Dry Air"
                     },
                     "emergencyheatactive": {
                         "label": "Emergency Heat Active"
                     },
                     "autowitheco": {
-                        "label": "Auto with Eco"
+                        "label": "Auto With Eco"
                     },
                     "resume": {
                         "label": "Resume"
                     },
                     "emergency heat": {
-                        "label": "Emergency"
+                        "label": "Emergency Heat"
                     },
                     "in": {
                         "label": "In"
@@ -96,7 +96,7 @@
                         "label": "Energy Save Heat"
                     },
                     "off": {
-                        "label": "Off"
+                        "label": "off"
                     },
                     "home": {
                         "label": "Home"
@@ -107,8 +107,11 @@
                     "schedule": {
                         "label": "Schedule"
                     },
+                    "hotwateronly": {
+                        "label": "Hot Water Only"
+                    },
                     "fanonly": {
-                        "label": "Fan only"
+                        "label": "Fan Only"
                     },
                     "autochangeover": {
                         "label": "Auto Changeover"
@@ -117,13 +120,13 @@
                         "label": "Frost Guard"
                     },
                     "southernaway": {
-                        "label": "Southern Away"
+                        "label": "Southernaway"
                     }
                 }
             }
         },
         "supportedThermostatModes": {
-            "label": "Supported thermostat modes",
+            "label": "supported thermostat modes",
             "description": "Modes supported by the thermostat",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
@@ -162,7 +165,7 @@
                             "label": "Furnace"
                         },
                         "auxiliaryemergencyheat": {
-                            "label": "Auxillary Emergency Heat"
+                            "label": "Auxiliary Emergency Heat"
                         },
                         "moistair": {
                             "label": "Moistair"
@@ -186,37 +189,40 @@
                             "label": "Rush Hour"
                         },
                         "auxheatonly": {
-                            "label": "Auxillary Heat Only"
+                            "label": "Aux Heat Only"
                         },
                         "rushhour": {
                             "label": "Rush Hour"
                         },
-                        "heatingoff": {
-                            "label": "Heating Off"
-                        },
-                        "emergencyheat": {
-                            "label": "Emergency"
-                        },
                         "asleep": {
                             "label": "Asleep"
                         },
+                        "emergencyheat": {
+                            "label": "Emergency Heat"
+                        },
+                        "heatingoff": {
+                            "label": "Heating Off"
+                        },
                         "dryair": {
-                            "label": "Dry air"
+                            "label": "Dry Air"
                         },
                         "emergencyheatactive": {
                             "label": "Emergency Heat Active"
                         },
                         "autowitheco": {
-                            "label": "Auto with Eco"
+                            "label": "Auto With Eco"
                         },
                         "resume": {
                             "label": "Resume"
                         },
                         "emergency heat": {
-                            "label": "Emergency"
+                            "label": "Emergency Heat"
                         },
                         "in": {
                             "label": "In"
+                        },
+                        "cool": {
+                            "label": "Cool"
                         },
                         "custom": {
                             "label": "Custom"
@@ -224,14 +230,11 @@
                         "dayoff": {
                             "label": "Day Off"
                         },
-                        "cool": {
-                            "label": "Cool"
-                        },
                         "energysaveheat": {
                             "label": "Energy Save Heat"
                         },
                         "off": {
-                            "label": "Off"
+                            "label": "off"
                         },
                         "home": {
                             "label": "Home"
@@ -242,8 +245,11 @@
                         "schedule": {
                             "label": "Schedule"
                         },
+                        "hotwateronly": {
+                            "label": "Hot Water Only"
+                        },
                         "fanonly": {
-                            "label": "Fan only"
+                            "label": "Fan Only"
                         },
                         "autochangeover": {
                             "label": "Auto Changeover"
@@ -252,7 +258,7 @@
                             "label": "Frost Guard"
                         },
                         "southernaway": {
-                            "label": "Southern Away"
+                            "label": "Southernaway"
                         }
                     },
                     "description": "heat.value=Put the thermostat in ``emergency heat`` mode"

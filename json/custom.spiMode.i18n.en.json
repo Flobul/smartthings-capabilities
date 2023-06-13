@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Set Purify",
+    "label": "Purify",
     "attributes": {
         "spiMode": {
             "label": "spiMode",
@@ -23,10 +23,10 @@
                 "mode": {
                     "i18n": {
                         "off": {
-                            "label": "Off"
+                            "label": "Turn off"
                         },
                         "on": {
-                            "label": "On"
+                            "label": "Turn on"
                         }
                     }
                 }

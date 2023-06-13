@@ -31,11 +31,11 @@
             "arguments": {
                 "humidifierMode": {
                     "i18n": {
-                        "high": {
-                            "label": "High"
-                        },
                         "auto": {
                             "label": "Auto"
+                        },
+                        "high": {
+                            "label": "High"
                         },
                         "low": {
                             "label": "Low"

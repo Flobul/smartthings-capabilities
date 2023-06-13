@@ -39,17 +39,17 @@
                     "3": {
                         "label": "3"
                     },
-                    "windfree": {
-                        "label": "windfree"
-                    },
                     "4": {
                         "label": "4"
                     },
-                    "low": {
-                        "label": "Basse"
+                    "windfree": {
+                        "label": "windfree"
                     },
                     "5": {
                         "label": "5"
+                    },
+                    "low": {
+                        "label": "Basse"
                     },
                     "quite": {
                         "label": "quite"
@@ -98,26 +98,26 @@
                         "1": {
                             "label": "1"
                         },
-                        "high": {
-                            "label": "\u00c9lev\u00e9e"
-                        },
                         "2": {
                             "label": "2"
+                        },
+                        "high": {
+                            "label": "\u00c9lev\u00e9e"
                         },
                         "3": {
                             "label": "3"
                         },
-                        "windfree": {
-                            "label": "windfree"
-                        },
                         "4": {
                             "label": "4"
                         },
-                        "low": {
-                            "label": "Basse"
+                        "windfree": {
+                            "label": "windfree"
                         },
                         "5": {
                             "label": "5"
+                        },
+                        "low": {
+                            "label": "Basse"
                         },
                         "quite": {
                             "label": "quite"

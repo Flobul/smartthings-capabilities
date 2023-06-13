@@ -1,0 +1,67 @@
+{
+    "tag": "en",
+    "label": "Water flow",
+    "attributes": {
+        "volumeAlarm": {
+            "label": "Volume",
+            "description": "Flow volume alarm",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "alarm": {
+                        "label": "Alarm"
+                    },
+                    "warning": {
+                        "label": "Warning"
+                    }
+                }
+            }
+        },
+        "durationAlarm": {
+            "label": "Duration",
+            "description": "Flow duration alarm",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "alarm": {
+                        "label": "Alarm"
+                    },
+                    "warning": {
+                        "label": "Warning"
+                    }
+                }
+            }
+        },
+        "supportedAlarmStatuses": {
+            "label": "Supported Alarm Statuses",
+            "description": "List of alarm statuses supported by a specific device",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "rateAlarm": {
+            "label": "Rate",
+            "description": "Flow rate alarm",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "alarm": {
+                        "label": "Alarm"
+                    },
+                    "warning": {
+                        "label": "Warning"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

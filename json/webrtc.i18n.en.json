@@ -35,8 +35,16 @@
         }
     },
     "commands": {
+        "startTalkback": {
+            "description": "Start the talkback",
+            "arguments": []
+        },
         "sdpOffer": {
             "description": "Start the live stream",
+            "arguments": []
+        },
+        "stopTalkback": {
+            "description": "Stop the talkback",
             "arguments": []
         },
         "end": {

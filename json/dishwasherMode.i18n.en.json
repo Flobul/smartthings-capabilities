@@ -40,11 +40,11 @@
                         "eco": {
                             "label": "Eco"
                         },
-                        "quick": {
-                            "label": "Quick"
-                        },
                         "auto": {
                             "label": "Auto"
+                        },
+                        "quick": {
+                            "label": "Quick"
                         },
                         "dry": {
                             "label": "Dry"

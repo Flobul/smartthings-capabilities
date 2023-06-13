@@ -25,23 +25,23 @@
                         "RIGHT": {
                             "label": "Right"
                         },
+                        "MENU": {
+                            "label": "Menu"
+                        },
                         "SETTINGS": {
                             "label": "Settings"
                         },
                         "UP": {
                             "label": "Up"
                         },
-                        "MENU": {
-                            "label": "Menu"
-                        },
                         "EXIT": {
                             "label": "Exit"
                         },
-                        "SELECT": {
-                            "label": "Select"
-                        },
                         "HOME": {
                             "label": "Home"
+                        },
+                        "SELECT": {
+                            "label": "Select"
                         }
                     }
                 }

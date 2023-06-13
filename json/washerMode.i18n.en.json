@@ -31,11 +31,11 @@
             "arguments": {
                 "mode": {
                     "i18n": {
-                        "rinse": {
-                            "label": "Rinse"
-                        },
                         "regular": {
                             "label": "Regular"
+                        },
+                        "rinse": {
+                            "label": "Rinse"
                         },
                         "heavy": {
                             "label": "Heavy"

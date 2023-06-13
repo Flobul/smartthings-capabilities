@@ -100,11 +100,11 @@
                         "off": {
                             "label": "Off"
                         },
-                        "horizontal": {
-                            "label": "Horizontal"
-                        },
                         "fixedLeft": {
                             "label": "Left"
+                        },
+                        "horizontal": {
+                            "label": "Horizontal"
                         },
                         "swing": {
                             "label": "Swing"

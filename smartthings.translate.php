@@ -30,17 +30,17 @@ class smartthings_translate
             ],
             "acOptionalMode" => [
                 "motionDirect"   => __("Mouvement direct", __FILE__),
-                "windFree"       => __("Windfree", __FILE__),
-                "windFreeSleep"  => __("Windfree Nuit", __FILE__),
+                "windFree"       => __("Sans courant d'air", __FILE__),
+                "windFreeSleep"  => __("Sans courant d'air et nuit sereine activés", __FILE__),
                 "energySaving"   => __("Économiseur d'énergie", __FILE__),
                 "motionIndirect" => __("Mouvement indirect", __FILE__),
-                "off"            => __("Désactivé", __FILE__),
-                "speed"          => __("Rapide", __FILE__),
+                "off"            => __("Options désactivées", __FILE__),
+                "speed"          => __("Vitesse activée", __FILE__),
                 "smart"          => __("Intelligent", __FILE__),
                 "comfort"        => __("Confort", __FILE__),
-                "sleep"          => __("Nuit", __FILE__),
+                "sleep"          => __("Nuit sereine activée", __FILE__),
                 "longWind"       => __("Longue portée d’air", __FILE__),
-                "quiet"          => __("Silencieux", __FILE__),
+                "quiet"          => __("Silencieux activé", __FILE__),
                 "cubePurify"     => __("cubePurify", __FILE__),
                 "dlightCool"     => __("Refroidissement progressif", __FILE__),
                 "twoStep"        => __("2 étapes", __FILE__)
@@ -129,11 +129,19 @@ class smartthings_translate
                 "off"        => __("Désactivé", __FILE__),
                 "on"         => __("Activé", __FILE__)
             ],
+            "babyDetergentType" => [
+                "capsule"  => __("Dosette", __FILE__),
+                "liquid"   => __("Liquide", __FILE__),
+                "none"     => __("Aucun", __FILE__),
+                "drySheet" => __("Lingettes", __FILE__)
+            ],
             "brightnessLevel" => [
-                "high" => __("Haute", __FILE__),
-                "low"  => __("Faible", __FILE__),
-                "mid"  => __("Moyenne", __FILE__),
-                "off"  => __("Désactivée", __FILE__)
+                "on"        => __("Activée", __FILE__),
+                "extraHigh" => __("Très haute", __FILE__),
+                "high"      => __("Haute", __FILE__),
+                "low"       => __("Faible", __FILE__),
+                "mid"       => __("Moyenne", __FILE__),
+                "off"       => __("Désactivée", __FILE__)
             ],
             "brightnessIntensity"=> [
                 "1"  => __("Nuit", __FILE__),
@@ -255,23 +263,23 @@ class smartthings_translate
             ],
             "cooktopOperatingState" => [
                 "paused"   => __("En pause", __FILE__),
-                "ready"    => __("Désactivée", __FILE__),
-                "run"      => __("Activée", __FILE__),
-                "finished" => __("Terminée", __FILE__)
+                "ready"    => __("Prêt", __FILE__),
+                "run"      => __("En fonctionnement", __FILE__),
+                "finished" => __("Terminé", __FILE__)
             ],
             "custom.airConditionerOptionalMode"  => [
                 "motionDirect"   => __("Mouvement direct", __FILE__),
-                "windFree"       => __("Ventilation autonome", __FILE__),
-                "windFreeSleep"  => __("Veille ventilation autonome", __FILE__),
+                "windFree"       => __("Sans courant d'air", __FILE__),
+                "windFreeSleep"  => __("Sans courant d'air et nuit sereine activés", __FILE__),
                 "energySaving"   => __("Économiseur d'énergie", __FILE__),
                 "motionIndirect" => __("Mouvement indirect", __FILE__),
-                "off"            => __("Désactivé", __FILE__),
-                "speed"          => __("Rapide", __FILE__),
+                "off"            => __("Options désactivées", __FILE__),
+                "speed"          => __("Vitesse activée", __FILE__),
                 "smart"          => __("Intelligent", __FILE__),
                 "comfort"        => __("Confort", __FILE__),
-                "sleep"          => __("Nuit", __FILE__),
+                "sleep"          => __("Nuit sereine activée", __FILE__),
                 "longWind"       => __("Longue portée d’air", __FILE__),
-                "quiet"          => __("Silencieux", __FILE__),
+                "quiet"          => __("Silencieux activé", __FILE__),
                 "cubePurify"     => __("cubePurify", __FILE__),
                 "dlightCool"     => __("Refroidissemnt d'light", __FILE__),
                 "twoStep"        => __("2 étapes", __FILE__)
@@ -284,7 +292,7 @@ class smartthings_translate
                 "normal"    => __("Normale", __FILE__),
                 "high"      => __("Élevée", __FILE__),
                 "extraHigh" => __("Très élevée", __FILE__),
-                "custom"   => __("Personnalisé", __FILE__),
+                "custom"    => __("Personnalisé", __FILE__),
                 "none"      => __("Aucune", __FILE__)
             ],
             "detected" => [
@@ -334,6 +342,11 @@ class smartthings_translate
             ],
             "dewPoint" => [
                 "dewpoint" =>__("Point de ros\u00e9e", __FILE__)
+            ],
+            "disableAlarm" => [
+                "regularDetergent" => __("Lessive ordinaire", __FILE__),
+                "neutralDetergent" => __("Lessive neutre", __FILE__),
+                "babyDetergent"    => __("Lessive pour bébé", __FILE__)
             ],
             "dishwasherDiagnosis" => [
                 "unkown" => __("Inconnu", __FILE__),
@@ -499,22 +512,22 @@ class smartthings_translate
                 "lowHeat"  => __("Économique", __FILE__)
             ],
             "dryerJobState" => [
-                "weightSensing"           => __("Vérification du poids", __FILE__),
+                "weightSensing"           => __("Détection de la charge", __FILE__),
                 "drying"                  => __("Séchage", __FILE__),
                 "refreshing"              => __("Rafraîchissant", __FILE__),
                 "cooling"                 => __("Refroidissement", __FILE__),
                 "wrinklePrevent"          => __("Anti-froissage", __FILE__),
-                "sanitizing"              => __("Assainissement", __FILE__),
+                "sanitizing"              => __("Désinfection", __FILE__),
                 "delayWash"               => __("Lavage différé", __FILE__),
-                "finished"                => __("Fin", __FILE__),
-                "internalCare"            => __("Prudence", __FILE__),
-                "none"                    => __("Aucun", __FILE__),
+                "finished"                => __("Cycle terminé", __FILE__),
+                "internalCare"            => __("Nettoyage", __FILE__),
+                "none"                    => __("En cours", __FILE__),
                 "dehumidifying"           => __("Déshumidificateur", __FILE__),
                 "aIDrying"                => __("IA séchage", __FILE__),
-                "delayDry"                => __("Séchage différé", __FILE__),
-                "continuousDehumidifying" => __("Déshumidification en continu", __FILE__),
-                "thawingFrozenInside"     => __("Décongélation de l'intérieur", __FILE__),
-                "freezeProtection"        => __("Protection contre le gel", __FILE__)
+                "delayDry"                => __("Fin du cycle différé", __FILE__),
+                "continuousDehumidifying" => __("Déshumidification", __FILE__),
+                "thawingFrozenInside"     => __("Dégivrage", __FILE__),
+                "freezeProtection"        => __("Mode antigel", __FILE__)
             ],
             "doNotDisturb" => [
                 "off" => __("Désactivé", __FILE__),
@@ -555,6 +568,11 @@ class smartthings_translate
                 "file" => __("Fichier", __FILE__),
                 "id"   => __("Identifiant", __FILE__)
             ],
+            "durationAlarm" => [
+                  "normal"  => __("Normal", __FILE__),
+                  "alarm"   => __("Alarme", __FILE__),
+                  "warning" => __("Attention", __FILE__),
+            ],
             "dustHealthConcern" => [
                 "veryUnhealthy"     => __("Très mauvais", __FILE__),
                 "slightlyUnhealthy" => __("Légèrement mauvais", __FILE__),
@@ -578,6 +596,11 @@ class smartthings_translate
                 "normal"  => __("Normal", __FILE__),
                 "replace" => __("À remplacer", __FILE__),
                 "wash"    => __("À nettoyer", __FILE__)
+            ],
+            "enableAlarm" => [
+                "regularDetergent" => __("Lessive ordinaire", __FILE__),
+                "neutralDetergent" => __("Lessive neutre", __FILE__),
+                "babyDetergent"    => __("Lessive pour bébé", __FILE__)
             ],
             "encryption" => [
                 "off" => __("Désactivé", __FILE__),
@@ -868,23 +891,23 @@ class smartthings_translate
                 "riceWithSpicyWebfootOctopusInHotPot" => __("Riz cuit dans un pot en grès avec poulpe ocellé", __FILE__),
                 "kamutRice" => __("Riz avec kamut", __FILE__),
                 "mixedGrainForSaladWithLentilBean" => __("Mélange de céréales et lentilles en salade", __FILE__),
-                "mixedGrainForSaladWithChickpea(1Cup)" => __("Mélange de céréales et pois chiches en salade (1 part)", __FILE__),
+                "mixedGrainForSaladWithChickpea(1Cup)" => __("Mélange de céréales et pois chiches en salade (1 tasse)", __FILE__),
                 "mixedGrainForSaladWithQuinoa" => __("Mélange de céréales et quinoa en salade", __FILE__),
                 "mixedGrainForSaladWithMillet" => __("Mélange de céréales et millet en salade", __FILE__),
-                "mixedGrainForSaladWithChickpea(2Cup)" => __("Mélange de céréales et pois chiches en salade (2 parts)", __FILE__),
+                "mixedGrainForSaladWithChickpea(2Cup)" => __("Mélange de céréales et pois chiches en salade (2 tasses)", __FILE__),
                 "mixedGrainForSaladWithBarley" => __("Mélange de céréales et orge en salade", __FILE__),
-                "mixedGrainForSaladWithBrownRice(1Cup)" => __("Mélange de céréales et riz brun en salade (1 part)", __FILE__),
+                "mixedGrainForSaladWithBrownRice(1Cup)" => __("Mélange de céréales et riz brun en salade (1 tasse)", __FILE__),
                 "mixedGrainForSaladWithOatRice" => __("Mélange de céréales et avoine en salade", __FILE__),
-                "mixedGrainForSaladWithBrownRice(2Cup)" => __("Mélange de céréales et riz brun en salade (2 parts)", __FILE__),
+                "mixedGrainForSaladWithBrownRice(2Cup)" => __("Mélange de céréales et riz brun en salade (2 tasses)", __FILE__),
                 "mixedGrainForSaladWithKamut" => __("Mélange de céréales et kamut en salade", __FILE__),
                 "mixedGrainForSaladWithBrownRice" => __("Mélange de céréales et riz brun en salade", __FILE__),
-                "mixedGrainForSaladWithQuinoa(1Cup)" => __("Mélange de céréales et quinoa en salade (1 part)", __FILE__),
+                "mixedGrainForSaladWithQuinoa(1Cup)" => __("Mélange de céréales et quinoa en salade (1 tasse)", __FILE__),
                 "mixedGrainForSaladWithChickpea" => __("Mélange de céréales et pois chiches en salade", __FILE__),
-                "mixedGrainForSaladWithQuinoa(2Cup)" => __("Mélange de céréales et quinoa en salade (2 parts)", __FILE__),
+                "mixedGrainForSaladWithQuinoa(2Cup)" => __("Mélange de céréales et quinoa en salade (2 tasses)", __FILE__),
                 "mixedGrainForSaladWithAdlay" => __("Mélange de céréales avec herbe à chapelets en salade", __FILE__),
-                "mixedGrainForSaladWithLentilBean(1Cup)" => __("Céréales mélangées pour salade avec lentilles (1 part)", __FILE__),
+                "mixedGrainForSaladWithLentilBean(1Cup)" => __("Céréales mélangées pour salade avec lentilles (1 tasse)", __FILE__),
                 "plainPorridge" => __("Porridge nature", __FILE__),
-                "mixedGrainForSaladWithLentilBean(2Cup)" => __("céréales mélangées pour salade avec lentilles (2 parts)", __FILE__),
+                "mixedGrainForSaladWithLentilBean(2Cup)" => __("céréales mélangées pour salade avec lentilles (2 tasses)", __FILE__),
                 "abalonePorridge" => __("Bouillie de riz à l'ormeau", __FILE__),
                 "pineNutPorridge" => __("Porridge aux pignons de pin", __FILE__),
                 "boiledEgg" => __("Œuf à la coque", __FILE__),
@@ -945,38 +968,52 @@ class smartthings_translate
                 "muted"   => __("Son coupé", __FILE__),
                 "unknown" => __("Inconnu", __FILE__)
             ],
+            "neutralDetergentType" => [
+                "capsule"  => __("Dosette", __FILE__),
+                "liquid"   => __("Liquide", __FILE__),
+                "none"     => __("Aucun", __FILE__),
+                "drySheet" => __("Lingettes", __FILE__)
+            ],
             "occupancy" => [
                 "occupied"   => __("À l'intérieur", __FILE__),
                 "unoccupied" => __("Absent(e)", __FILE__)
             ],
             "operatingState" => [
-                "idle"                    => __("En attente", __FILE__),
-                "homing"                  => __("Retour pour chargement", __FILE__),
+                "available"               => __("Disponible", __FILE__),
+                "calibrating"             => __("Étalonnage en cours", __FILE__),
                 "cleaning"                => __("Nettoyage", __FILE__),
                 "charging"                => __("En charge", __FILE__),
                 "chargingForRemainingJob" => __("En charge pour le travail restant", __FILE__),
                 "charged"                 => __("Charge complète", __FILE__),
-                "moving"                  => __("En déplacement", __FILE__),
-                "paused"                  => __("Pause", __FILE__),
-                "error"                   => __("Vérification requise", __FILE__),
-                "relocal"                 => __("Localisation", __FILE__),
-                "exploring"               => __("Exploration", __FILE__),
+                "checking"                => __("En vérification", __FILE__),
+                "completed"               => __("Effectuée", __FILE__),
+                "delayed"                 => __("Retardée", __FILE__),
                 "emitDust"                => __("Émission de poussière", __FILE__),
-                "monitoring"              => __("Surveillance", __FILE__),
-                "patrol"                  => __("Patrouille", __FILE__),
+                "error"                   => __("Vérification requise", __FILE__),
+                "exploring"               => __("Exploration", __FILE__),
+                "factoryReset"            => __("Remise à zéro", __FILE__),
+                "findingPet"              => __("Trouve un animal", __FILE__),
+                "homing"                  => __("Retour pour chargement", __FILE__),
+                "idle"                    => __("En attente", __FILE__),
+                "inprogress"              => __("En cours", __FILE__),
                 "manual"                  => __("Manuel", __FILE__),
-                "processing"              => __("Localisation", __FILE__),
                 "mediaPlaying"            => __("Lecture de piste", __FILE__),
                 "messaging"               => __("Envoi de la voix", __FILE__),
-                "findingPet"              => __("Trouve un animal", __FILE__),
+                "monitoring"              => __("Contrôle", __FILE__),
+                "monitoringAutomation"    => __("Automatisation du contrôle", __FILE__),
+                "moving"                  => __("En déplacement", __FILE__),
+                "none"                    => __("Aucune", __FILE__),
+                "patrol"                  => __("Patrouille", __FILE__),
+                "pause"                   => __("En pause", __FILE__),
+                "paused"                  => __("Pause", __FILE__),
                 "powerSaving"             => __("Mode d'économie d'énergie", __FILE__),
+                "preparing"               => __("En préparation", __FILE__),
+                "processing"              => __("Localisation", __FILE__),
                 "reserved"                => __("Réservé", __FILE__),
-                "factoryReset"            => __("Remise à zéro", __FILE__),
-                "calibrating"             => __("Etalonnage en cours", __FILE__),
-                "welcoming"               => __("Bienvenue", __FILE__),
                 "ready"                   => __("Prêt", __FILE__),
+                "relocal"                 => __("Localisation", __FILE__),
                 "running"                 => __("En cours", __FILE__),
-                "pause"                   => __("En pause", __FILE__)
+                "welcoming"               => __("Bienvenue", __FILE__),
             ],
             "operationState" => [
                 "Inactive"       => __("Inactif", __FILE__),
@@ -1234,6 +1271,11 @@ class smartthings_translate
                 "not present" => __("Absent", __FILE__),
                 "present"     => __("Présent", __FILE__)
             ],
+            "pressureAlarm" => [
+                "normal" => __("Normal", __FILE__),
+                "high"   => __("Élevée", __FILE__),
+                "low"    => __("Basse", __FILE__)
+            ],
             "program" => [
                 "Cooking_Oven_Program_HeatingMode_HotAir"              => __("Convection 3D", __FILE__),
                 "Cooking_Oven_Program_HeatingMode_HotAirEco"           => __("Chaleur tournante éco", __FILE__),
@@ -1275,6 +1317,23 @@ class smartthings_translate
                 "off" => __("Désactivé", __FILE__),
                 "on"  => __("Activé", __FILE__)
             ],
+            "rateAlarm" => [
+                  "normal"  => __("Normal", __FILE__),
+                  "alarm"   => __("Alarme", __FILE__),
+                  "warning" => __("Attention", __FILE__),
+            ],
+            "regularDetergentType" => [
+                "capsule"  => __("Dosette", __FILE__),
+                "liquid"   => __("Liquide", __FILE__),
+                "none"     => __("Aucun", __FILE__),
+                "drySheet" => __("Lingettes", __FILE__)
+            ],
+            "regularSoftenerType" => [
+                "capsule"  => __("Dosette", __FILE__),
+                "liquid"   => __("Liquide", __FILE__),
+                "none"     => __("Aucun", __FILE__),
+                "drySheet" => __("Lingettes", __FILE__)
+            ],
             "remoteControlEnabled" => [
                 "false" => __("Désactivé", __FILE__),
                 "true"  => __("Activée", __FILE__)
@@ -1314,9 +1373,10 @@ class smartthings_translate
                 "pause"    => __("Pause", __FILE__)
             ],
             "robotCleanerTurboMode" => [
-                "silence" => __("Silencieux", __FILE__),
-                "off"     => __("Normal", __FILE__),
-                "on"      => __("Turbo", __FILE__)
+                "silence"      => __("Silencieux", __FILE__),
+                "off"          => __("Normal", __FILE__),
+                "on"           => __("Turbo", __FILE__),
+                "extraSilence" => __("Très silencieux", __FILE__)
             ],
             "robotCleanerTurboState" => [
                 "turboSilence" => __("Turbo silencieux", __FILE__),
@@ -1448,23 +1508,23 @@ class smartthings_translate
                 "riceWithSpicyWebfootOctopusInHotPot" => __("Riz cuit dans un pot en grès avec poulpe ocellé", __FILE__),
                 "kamutRice" => __("Riz avec kamut", __FILE__),
                 "mixedGrainForSaladWithLentilBean" => __("Mélange de céréales et lentilles en salade", __FILE__),
-                "mixedGrainForSaladWithChickpea(1Cup)" => __("Mélange de céréales et pois chiches en salade (1 part)", __FILE__),
+                "mixedGrainForSaladWithChickpea(1Cup)" => __("Mélange de céréales et pois chiches en salade (1 tasse)", __FILE__),
                 "mixedGrainForSaladWithQuinoa" => __("Mélange de céréales et quinoa en salade", __FILE__),
                 "mixedGrainForSaladWithMillet" => __("Mélange de céréales et millet en salade", __FILE__),
-                "mixedGrainForSaladWithChickpea(2Cup)" => __("Mélange de céréales et pois chiches en salade (2 parts)", __FILE__),
+                "mixedGrainForSaladWithChickpea(2Cup)" => __("Mélange de céréales et pois chiches en salade (2 tasses)", __FILE__),
                 "mixedGrainForSaladWithBarley" => __("Mélange de céréales et orge en salade", __FILE__),
-                "mixedGrainForSaladWithBrownRice(1Cup)" => __("Mélange de céréales et riz brun en salade (1 part)", __FILE__),
+                "mixedGrainForSaladWithBrownRice(1Cup)" => __("Mélange de céréales et riz brun en salade (1 tasse)", __FILE__),
                 "mixedGrainForSaladWithOatRice" => __("Mélange de céréales et avoine en salade", __FILE__),
-                "mixedGrainForSaladWithBrownRice(2Cup)" => __("Mélange de céréales et riz brun en salade (2 parts)", __FILE__),
+                "mixedGrainForSaladWithBrownRice(2Cup)" => __("Mélange de céréales et riz brun en salade (2 tasses)", __FILE__),
                 "mixedGrainForSaladWithKamut" => __("Mélange de céréales et kamut en salade", __FILE__),
                 "mixedGrainForSaladWithBrownRice" => __("Mélange de céréales et riz brun en salade", __FILE__),
-                "mixedGrainForSaladWithQuinoa(1Cup)" => __("Mélange de céréales et quinoa en salade (1 part)", __FILE__),
+                "mixedGrainForSaladWithQuinoa(1Cup)" => __("Mélange de céréales et quinoa en salade (1 tasse)", __FILE__),
                 "mixedGrainForSaladWithChickpea" => __("Mélange de céréales et pois chiches en salade", __FILE__),
-                "mixedGrainForSaladWithQuinoa(2Cup)" => __("Mélange de céréales et quinoa en salade (2 parts)", __FILE__),
+                "mixedGrainForSaladWithQuinoa(2Cup)" => __("Mélange de céréales et quinoa en salade (2 tasses)", __FILE__),
                 "mixedGrainForSaladWithAdlay" => __("Mélange de céréales avec herbe à chapelets en salade", __FILE__),
-                "mixedGrainForSaladWithLentilBean(1Cup)" => __("Céréales mélangées pour salade avec lentilles (1 part)", __FILE__),
+                "mixedGrainForSaladWithLentilBean(1Cup)" => __("Céréales mélangées pour salade avec lentilles (1 tasse)", __FILE__),
                 "plainPorridge" => __("Porridge nature", __FILE__),
-                "mixedGrainForSaladWithLentilBean(2Cup)" => __("céréales mélangées pour salade avec lentilles (2 parts)", __FILE__),
+                "mixedGrainForSaladWithLentilBean(2Cup)" => __("céréales mélangées pour salade avec lentilles (2 tasses)", __FILE__),
                 "abalonePorridge" => __("Bouillie de riz à l'ormeau", __FILE__),
                 "pineNutPorridge" => __("Porridge aux pignons de pin", __FILE__),
                 "boiledEgg" => __("Œuf à la coque", __FILE__),
@@ -1518,6 +1578,12 @@ class smartthings_translate
                 "disarmed"  => __("Désactivé", __FILE__),
                 "armedStay" => __("Activé (présent)", __FILE__),
                 "armedAway" => __("Activé (absent)", __FILE__)
+            ],
+            "setType" => [
+                "capsule"  => __("Dosette", __FILE__),
+                "liquid"   => __("Liquide", __FILE__),
+                "none"     => __("Aucun", __FILE__),
+                "drySheet" => __("Lingettes", __FILE__)
             ],
             "shock" => [
                 "clear"    => __("RÀS", __FILE__),
@@ -1773,7 +1839,8 @@ class smartthings_translate
                 "fanonly"                => __("Aération", __FILE__),
                 "autochangeover"         => __("Permutation automatique", __FILE__),
                 "frostguard"             => __("Hors gel", __FILE__),
-                "southernaway"           => __("southernaway", __FILE__) // à traduire
+                "southernaway"           => __("southernaway", __FILE__), // à traduire
+                "hotwateronly"           => __("Eau chaude uniquement", __FILE__)
             ],
             "tirePressureState" => [
                 "normal" => __("Normal", __FILE__),
@@ -1818,6 +1885,11 @@ class smartthings_translate
             "virusDoctorMode" => [
                 "off" => __("Désactivé", __FILE__),
                 "on"  => __("Activé", __FILE__)
+            ],
+            "volumeAlarm" => [
+                  "normal"  => __("Normal", __FILE__),
+                  "alarm"   => __("Alarme", __FILE__),
+                  "warning" => __("Attention", __FILE__),
             ],
             "washerAutoDetergent" => [
                 "notSupported" => __("Non supporté", __FILE__),
@@ -1936,23 +2008,27 @@ class smartthings_translate
                 "hot"  => __("Chaud", __FILE__)
             ],
             "washerJobState" => [
-                "aIRinse"          => __("IA rinçage", __FILE__),
-                "weightSensing"    => __("Vérification du poids", __FILE__),
-                "wash"             => __("Lavage", __FILE__),
-                "wrinklePrevent"   => __("Anti-froissage", __FILE__),
-                "delayWash"        => __("Lavage différé", __FILE__),
-                "none"             => __("Aucun", __FILE__),
-                "airWash"          => __("Lavage à l'air", __FILE__),
-                "aIWash"           => __("IA lavage", __FILE__),
-                "drying"           => __("Séchage", __FILE__),
-                "spin"             => __("Essorage", __FILE__),
-                "aISpin"           => __("IA essorage", __FILE__),
-                "cooling"          => __("Refroidissement", __FILE__),
-                "preWash"          => __("Prélavage", __FILE__),
-                "finish"           => __("Fin", __FILE__),
-                "finished"         => __("Cycle terminé", __FILE__),
-                "rinse"            => __("Rinçage", __FILE__),
-                "freezeProtection" => __("Protection contre le gel", __FILE__)
+                "aIRinse"           => __("IA rinçage", __FILE__),
+                "drumCleaning"      => __("Nettoyage tambour", __FILE__),
+                "soilLevelSensing"  => __("Détection des taches", __FILE__),
+                "dispenserCleaning" => __("Nettoyage des distributeurs", __FILE__),
+                "weightSensing"     => __("Détection de la charge", __FILE__),
+                "wash"              => __("Lavage", __FILE__),
+                "wrinklePrevent"    => __("Anti-froissage", __FILE__),
+                "delayWash"         => __("Fin du cycle différé", __FILE__),
+                "none"              => __("En cours", __FILE__),
+                "airWash"           => __("Lavage à l'air", __FILE__),
+                "aIWash"            => __("IA lavage", __FILE__),
+                "drying"            => __("Séchage", __FILE__),
+                "spin"              => __("Essorage", __FILE__),
+                "aISpin"            => __("IA essorage", __FILE__),
+                "cooling"           => __("Refroidissement", __FILE__),
+                "preWash"           => __("Prélavage", __FILE__),
+                "finish"            => __("Fin", __FILE__),
+                "finished"          => __("Cycle terminé", __FILE__),
+                "rinse"             => __("Rinçage", __FILE__),
+                "freezeProtection"  => __("Protection contre le gel", __FILE__),
+                "laundrySensing"    => __("Détection du linge", __FILE__)
             ],
             "washerOperatingState" => [
                 "pause" => __("Pause", __FILE__),
@@ -2495,7 +2571,10 @@ class smartthings_translate
                 "steamClosetJobState"              => __("Statut de tâche", __FILE__),
                 "steamClosetDelayEndTime"          => __("Fin différée", __FILE__),
                 "setSteamClosetDelayEndTime"       => __("Changer le délais de fin différée", __FILE__),
-                "setSteamClosetMachineState"       => __("Changer le statut de machine", __FILE__)
+                "setSteamClosetMachineState"       => __("Changer le statut de machine", __FILE__),
+                "progress"                         => __("Progression", __FILE__),
+                "remainingTimeStr"                 => __("Temps humain de lavage restant", __FILE__),
+                "remainingTime"                    => __("Temps de séchage restant", __FILE__)
             ],
             "custom.steamClosetSilentMode" => [
                 "steamClosetSilentMode"       => __("Mode silencieux", __FILE__),
@@ -2864,9 +2943,9 @@ class smartthings_translate
                 "muteGroup"            => __("Désactiver le son pour le groupe", __FILE__),
                 "unmuteGroup"          => __("Activer le son pour le groupe", __FILE__),
                 "groupPrimaryDeviceId" => __("Identification du contrôleur pour le groupe", __FILE__),
-                "groupId"              => __("Identification groupée", __FILE__),
+                "groupId"              => __("Identification pour le groupe", __FILE__),
                 "groupVolume"          => __("Volume pour le groupe", __FILE__),
-                "groupRole"            => __("Rôle dans le groupe", __FILE__),
+                "groupRole"            => __("Groupe de haut-parleurs", __FILE__),
                 "groupVolumeUp"        => __("Volume + pour le groupe", __FILE__),
                 "groupVolumeDown"      => __("Volume - pour le groupe", __FILE__),
                 "setGroupVolume"       => __("Changer le volume du groupe", __FILE__)
@@ -3174,6 +3253,34 @@ class smartthings_translate
                 "setDefinedRecipe"  => __("Changer la recette définie", __FILE__),
                 "cookDefinedRecipe" => __("Cuisiner la recette définie", __FILE__)
             ],
+            "samsungce.detergentAutoReplenishment" => [
+                "neutralDetergentType"            => __("Type de lessive neutre", __FILE__),
+                "regularDetergentRemainingAmount" => __("Quantité restante de lessive ordinaire", __FILE__),
+                "babyDetergentRemainingAmount"    => __("Quantité restante de lessive pour bébés", __FILE__),
+                "neutralDetergentRemainingAmount" => __("Quantité restante de lessive neutre", __FILE__),
+                "neutralDetergentAlarmEnabled"    => __("Alarme lessive neutre activée", __FILE__),
+                "neutralDetergentOrderThreshold"  => __("Seuil de commande de lessive neutre", __FILE__),
+                "babyDetergentInitialAmount"      => __("Quantité initiale de lessive pour bébé", __FILE__),
+                "babyDetergentType"               => __("Type de lessive pour bébé", __FILE__),
+                "neutralDetergentInitialAmount"   => __("Quantité initiale de lessive neutre", __FILE__),
+                "regularDetergentDosage"          => __("Dosage de la lessive ordinaire", __FILE__),
+                "babyDetergentDosage"             => __("Dosage de la lessive pour bébés", __FILE__),
+                "regularDetergentOrderThreshold"  => __("Seuil de commande de lessive ordinaire", __FILE__),
+                "regularDetergentType"            => __("Type de lessive ordinaire", __FILE__),
+                "regularDetergentInitialAmount"   => __("Quantité initiale de lessive ordinaire", __FILE__),
+                "regularDetergentAlarmEnabled"    => __("Alarme lessive ordinaire activée", __FILE__),
+                "neutralDetergentDosage"          => __("Dosage de la lessive neutre", __FILE__),
+                "babyDetergentOrderThreshold"     => __("Seuil de commande de lessive pour bébés", __FILE__),
+                "babyDetergentAlarmEnabled"       => __("Alarme de lessive pour bébé activée", __FILE__),
+                "enableAlarm"                     => __("Activer l'alarme de lessive", __FILE__),
+                "setOrderThreshold"               => __("Fixer le seuil de commande de lessive", __FILE__),
+                "disableAlarm"                    => __("Désactiver l'alarme de lessive", __FILE__),
+                "setAutoReplenishment"            => __("Définir le remplissage automatique de lessive", __FILE__),
+                "setInitialAmount"                => __("Définir la quantité de lessive initiale", __FILE__),
+                "setRemainingAmount"              => __("Définir la quantité de lessive restante", __FILE__),
+                "setDosage"                       => __("Définir le dosage de lessive", __FILE__),
+                "setType"                         => __("Définir le type de lessive", __FILE__)
+            ],
             "samsungce.deviceIdentification" => [
                 "micomAssayCode"          => __("Code d'analyse Micom", __FILE__),
                 "modelName"               => __("Modèle", __FILE__),
@@ -3378,6 +3485,22 @@ class smartthings_translate
                 "setSoftenerType"    => __("Changer le type d'adoucissant", __FILE__),
                 "dosage"             => __("Dosage de l'adoucissant", __FILE__),
                 "setDosage"          => __("Changer le dosage de l'adoucissant", __FILE__)
+            ],
+            "samsungce.softenerAutoReplenishment" => [
+                "regularSoftenerType"            => __("Type d’adoucissant ordinaire", __FILE__),
+                "regularSoftenerAlarmEnabled"    => __("Alarme régulière d'adoucissant ordinaire", __FILE__),
+                "regularSoftenerInitialAmount"   => __("Quantité initiale d'adoucissant ordinaire", __FILE__),
+                "regularSoftenerRemainingAmount" => __("Quantité restante d'adoucissant ordinaire", __FILE__),
+                "regularSoftenerDosage"          => __("Dosage régulier de l'adoucissant ordinaire", __FILE__),
+                "regularSoftenerOrderThreshold"  => __("Seuil de commande d'adoucissant ordinaire", __FILE__),
+                "enableAlarm"                    => __("Activer l'alarme d'adoucissant", __FILE__),
+                "setOrderThreshold" => __("Fixer le seuil de commande d'adoucissant", __FILE__),
+                "disableAlarm"                   => __("Désactiver l'alarme d'adoucissant", __FILE__),
+                "setAutoReplenishment"           => __("Définir le remplissage automatique d'adoucissant", __FILE__),
+                "setInitialAmount"               => __("Définir la quantité d'adoucissant initiale", __FILE__),
+                "setRemainingAmount"             => __("Définir la quantité d'adoucissant restant", __FILE__),
+                "setDosage"                      => __("Définir le dosage d'adoucissant", __FILE__),
+                "setType"                        => __("Définir le type d'adoucissant", __FILE__)
             ],
             "samsungce.softwareUpdate" => [
                 "otnDUID"             => __("Identifiant DHCP OTN", __FILE__),
@@ -3979,6 +4102,21 @@ class smartthings_translate
                 "washerJobState"         => __("Statut de tâche", __FILE__),
                 "supportedMachineStates" => __("Statuts de l'appareil pris en charge", __FILE__)
             ],
+            "waterFlowAlarm" => [
+                "volumeAlarm"            => __("Alarme du volume du débit d'eau", __FILE__),
+                "durationAlarm"          => __("Alarme du durée du débit d'eau", __FILE__),
+                "supportedAlarmStatuses" => __("États d'alarme du débit d'eau supportés", __FILE__),
+                "rateAlarm"              => __("Alarme du taux du débit d'eau", __FILE__)
+            ],
+            "waterMeter" => [
+                "lastHour"            => __("Heure précédente du compteur d'eau", __FILE__),
+                "lastTwentyFourHours" => __("Dernières 24h du compteur d'eau", __FILE__),
+                "lastSevenDays"       => __("7 derniers jours du compteur d'eau", __FILE__),
+            ],
+            "waterPressureMeasurement" => [
+                "pressureAlarm" => __("Alarme de pression", __FILE__),
+                "pressure"      => __("Pression", __FILE__)
+            ],
             "waterSensor" => [
                 "water" => __("Détecteur d'eau", __FILE__)
             ],
@@ -4011,6 +4149,8 @@ class smartthings_translate
                 "audioOnly"         => __("Audio uniquement", __FILE__),
                 "stunUrl"           => __("STUN URL", __FILE__),
                 "sdpOffer"          => __("Démarrer le flux", __FILE__),
+                "startTalkback"     => __("Démarrer le dialogue", __FILE__),
+                "stopTalkback"      => __("Arrêter le dialogue", __FILE__),
                 "end"               => __("Arrêter le flux", __FILE__)
             ],
             "wifiMeshRouter" => [

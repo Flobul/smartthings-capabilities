@@ -55,17 +55,17 @@
                         "high": {
                             "label": "High"
                         },
-                        "windFree": {
-                            "label": "Wind free"
-                        },
                         "low": {
                             "label": "Low"
                         },
-                        "quiet": {
-                            "label": "Quiet"
+                        "windFree": {
+                            "label": "Wind free"
                         },
                         "medium": {
                             "label": "Medium"
+                        },
+                        "quiet": {
+                            "label": "Quiet"
                         }
                     }
                 }

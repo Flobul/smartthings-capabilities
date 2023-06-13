@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Media group",
+    "label": "Speaker group",
     "description": "Allows for the expression of media grouping.",
     "attributes": {
         "groupMute": {
@@ -37,19 +37,19 @@
             "i18n": []
         },
         "groupRole": {
-            "label": "group role",
+            "label": "Speaker group",
             "description": "Current role in the group",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "ungrouped": {
-                        "label": "ungrouped"
+                        "label": "Ungrouped"
                     },
                     "auxilary": {
-                        "label": "auxilary"
+                        "label": "Secondary speaker"
                     },
                     "primary": {
-                        "label": "primary"
+                        "label": "Main speaker"
                     }
                 }
             }

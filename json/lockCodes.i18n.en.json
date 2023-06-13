@@ -54,16 +54,16 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
-        "scanCodes": {
-            "label": "scan codes",
-            "description": "Scan codes",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
-        },
         "codeReport": {
             "label": "code report",
             "description": "A report on the code",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
+        "scanCodes": {
+            "label": "scan codes",
+            "description": "Scan codes",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
         "lockCodes": {
@@ -112,12 +112,12 @@
                 }
             }
         },
-        "requestCode": {
-            "description": "Request a code",
+        "updateCodes": {
+            "description": "Update the codes",
             "arguments": {
-                "codeSlot": {
+                "codes": {
                     "i18n": [],
-                    "description": "Request the code from this code slot"
+                    "description": "Update to these codes"
                 }
             }
         },
@@ -125,12 +125,12 @@
             "description": "Lock the lock",
             "arguments": []
         },
-        "updateCodes": {
-            "description": "Update the codes",
+        "requestCode": {
+            "description": "Request a code",
             "arguments": {
-                "codes": {
+                "codeSlot": {
                     "i18n": [],
-                    "description": "Update to these codes"
+                    "description": "Request the code from this code slot"
                 }
             }
         },

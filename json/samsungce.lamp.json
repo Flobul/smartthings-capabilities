@@ -15,9 +15,11 @@
                                 "type": "string",
                                 "enum": [
                                     "off",
+                                    "on",
                                     "low",
                                     "mid",
-                                    "high"
+                                    "high",
+                                    "extraHigh"
                                 ]
                             },
                             {
@@ -46,9 +48,11 @@
                                     "type": "string",
                                     "enum": [
                                         "off",
+                                        "on",
                                         "low",
                                         "mid",
-                                        "high"
+                                        "high",
+                                        "extraHigh"
                                     ]
                                 },
                                 {
@@ -82,9 +86,11 @@
                                 "type": "string",
                                 "enum": [
                                     "off",
+                                    "on",
                                     "low",
                                     "mid",
-                                    "high"
+                                    "high",
+                                    "extraHigh"
                                 ]
                             },
                             {
