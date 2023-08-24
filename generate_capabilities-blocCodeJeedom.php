@@ -204,7 +204,8 @@ $customAdded = array(
     "samsungce.robotCleanerPetMonitorReport",
     "samsungce.robotCleanerMonitoringAutomation",
     "samsungce.robotCleanerAvpRegistration",
-    "samsungce.robotCleanerReservation"
+    "samsungce.robotCleanerReservation",
+		"samsungce.robotCleanerMapAreaInfo"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/

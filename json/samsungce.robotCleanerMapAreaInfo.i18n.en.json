@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Map Area Info",
+    "attributes": {
+        "areaInfo": {
+            "label": "areaInfo",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

@@ -3531,6 +3531,9 @@ class smartthings_translate
                 "supportedStatus" => __("États du sac à poussière supportés", __FILE__),
                 "status"          => __("État du sac à poussière", __FILE__)
             ],
+            "samsungce.robotCleanerMapAreaInfo" => [
+                "areaInfo" => __("Informations de zone", __FILE__)
+            ],
             "samsungce.robotCleanerMapCleaningInfo" => [
                 "area"          => __("Zone de nettoyage", __FILE__),
                 "cleanedExtent" => __("Superficie néttoyée", __FILE__),
