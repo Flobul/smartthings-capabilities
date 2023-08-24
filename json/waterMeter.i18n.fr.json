@@ -1,6 +1,7 @@
 {
     "tag": "fr",
     "label": "Compteur d'eau",
+    "description": "Get the water usage for hour, day, and week time-periods",
     "attributes": {
         "lastHour": {
             "label": "Heure pr\u00e9c\u00e9dente",

@@ -1,10 +1,10 @@
 {
     "tag": "en",
-    "label": "Filter State",
+    "label": "Filter",
     "description": "Gets the state of the filter.",
     "attributes": {
         "filterLifeRemaining": {
-            "label": "filter life remaining",
+            "label": "Filter",
             "description": "Current remaining life of the filter",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []

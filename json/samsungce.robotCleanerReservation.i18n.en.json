@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Reservation",
+    "attributes": {
+        "reservations": {
+            "label": "reservations",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "maxNumberOfReservations": {
+            "label": "maxNumberOfReservations",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Pet Monitor Report",
+    "attributes": {
+        "report": {
+            "label": "report",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Welcome",
+    "attributes": {
+        "coordinates": {
+            "label": "coordinates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

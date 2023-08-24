@@ -1,6 +1,7 @@
 {
     "tag": "fr",
     "label": "Pression de l'eau",
+    "description": "Get the water pressure and high\/low pressure alarm status",
     "attributes": {
         "pressureAlarm": {
             "label": "Alarme de pression",

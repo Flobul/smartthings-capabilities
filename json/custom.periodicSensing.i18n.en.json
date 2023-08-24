@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Periodic Sensing",
+    "label": "Air quality",
     "attributes": {
         "automaticExecutionSetting": {
             "label": "automaticExecutionSetting",
@@ -49,7 +49,40 @@
         "lastSensingLevel": {
             "label": "lastSensingLevel",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {
+                "value": {
+                    "cn2": {
+                        "label": "Moderate"
+                    },
+                    "cn1": {
+                        "label": "Good"
+                    },
+                    "cn4": {
+                        "label": "Unhealthy"
+                    },
+                    "cn3": {
+                        "label": "Unhealthy for sensitive groups"
+                    },
+                    "cn6": {
+                        "label": "Hazardous"
+                    },
+                    "kr2": {
+                        "label": "Normal"
+                    },
+                    "cn5": {
+                        "label": "Very unhealthy"
+                    },
+                    "kr1": {
+                        "label": "Good"
+                    },
+                    "kr4": {
+                        "label": "Very poor"
+                    },
+                    "kr3": {
+                        "label": "Poor"
+                    }
+                }
+            }
         },
         "periodicSensingStatus": {
             "label": "periodicSensingStatus",

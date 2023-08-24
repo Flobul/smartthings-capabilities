@@ -120,6 +120,21 @@
             },
             "enumCommands": []
         },
+        "tsId": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "mnId": {
             "schema": {
                 "type": "object",

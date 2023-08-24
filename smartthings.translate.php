@@ -135,6 +135,10 @@ class smartthings_translate
                 "none"     => __("Aucun", __FILE__),
                 "drySheet" => __("Lingettes", __FILE__)
             ],
+            "blockingStatus" => [
+                "blocked"   => __("Bloqué", __FILE__),
+                "unblocked" => __("Débloqué", __FILE__)
+            ],
             "brightnessLevel" => [
                 "on"        => __("Activée", __FILE__),
                 "extraHigh" => __("Très haute", __FILE__),
@@ -283,6 +287,15 @@ class smartthings_translate
                 "cubePurify"     => __("cubePurify", __FILE__),
                 "dlightCool"     => __("Refroidissemnt d'light", __FILE__),
                 "twoStep"        => __("2 étapes", __FILE__)
+            ],
+            "dayOfWeek" => [
+                "Sun" => __("Dimanche", __FILE__),
+                "Mon" => __("Lundi", __FILE__),
+                "Tue" => __("Mardi", __FILE__),
+                "Wed" => __("Mercredi", __FILE__),
+                "Thu" => __("Jeudi", __FILE__),
+                "Fri" => __("Vendredi", __FILE__),
+                "Sat" => __("Samedi", __FILE__)
             ],
             "defrost" => [
                 "off" => __("Désactivé", __FILE__),
@@ -524,6 +537,7 @@ class smartthings_translate
                 "none"                    => __("En cours", __FILE__),
                 "dehumidifying"           => __("Déshumidificateur", __FILE__),
                 "aIDrying"                => __("IA séchage", __FILE__),
+                "humiditySensing"         => __("Détection d'humidité" ,__FILE__),
                 "delayDry"                => __("Fin du cycle différé", __FILE__),
                 "continuousDehumidifying" => __("Déshumidification", __FILE__),
                 "thawingFrozenInside"     => __("Dégivrage", __FILE__),
@@ -807,6 +821,24 @@ class smartthings_translate
                 "ReadyToRun" => __("Disponible", __FILE__),
                 "None"       => __("Aucun", __FILE__)
             ],
+            "lastSensingLevel" => [
+                "computer" => __("Ordinateur", __FILE__),
+                "cn2"      => __("Mod\u00e9r\u00e9", __FILE__),
+                "cn1"      => __("Bon", __FILE__),
+                "cn4"      => __("Insalubre", __FILE__),
+                "cn3"      => __("Insalubre pour les populations \u00e0 risque", __FILE__),
+                "cn6"      => __("Dangereux", __FILE__),
+                "kr2"      => __("Normal", __FILE__),
+                "cn5"      => __("Tr\u00e8s insalubre", __FILE__),
+                "kr1"      => __("Bon", __FILE__),
+                "kr4"      => __("Tr\u00e8s mauvais", __FILE__),
+                "kr3"      => __("Mauvais", __FILE__)
+            ],
+            "level" => [
+                "low"    => __("Bas", __FILE__),
+                "medium" => __("Moyen", __FILE__),
+                "high"   => __("Élevé", __FILE__)
+            ],
             "lightingMode" => [
                 "computer"         => __("Ordinateur", __FILE__),
                 "sleepPreparation" => __("Sommeil", __FILE__),
@@ -819,6 +851,7 @@ class smartthings_translate
             ],
             "lock" => [
                 "unlocked with timeout" => __("Déverrouillé temporairement", __FILE__),
+                "not fully locked"      => __("Pas complètement verrouillé", __FILE__),
                 "locked"                => __("Verrouillé", __FILE__),
                 "unlocked"              => __("Déverrouillé", __FILE__),
                 "unknown"               => __("Inconnu", __FILE__)
@@ -959,9 +992,33 @@ class smartthings_translate
                 "good"              => __("Bon", __FILE__),
                 "moderate"          => __("Moyen", __FILE__)
             ],
+            "monitoringStatus" => [
+                "ready"      => __("Prêt", __FILE__),
+                "selected"   => __("Selectionné", __FILE__),
+                "moving"     => __("En mouvement", __FILE__),
+                "monitoring" => __("En surveillance", __FILE__),
+                "finished"   => __("Terminé", __FILE__),
+                "paused"     => __("En pause", __FILE__),
+                "abnormal"   => __("Anormal", __FILE__),
+                "error"      => __("Erreur", __FILE__)
+            ],
             "motion" => [
                 "inactive" => __("Aucun mouvement", __FILE__),
                 "active"   => __("Mouvement détecté", __FILE__)
+            ],
+            "motorFilterResetType" => [
+                "washable" => __("Lavable", __FILE__)
+            ],
+            "motorFilterStatus" => [
+                "normal" => __("Normal", __FILE__),
+                "wash"   => __("Lavage", __FILE__)
+            ],
+            "movement" => [
+                "entering"    => __("Entrée", __FILE__),
+                "inactive"    => __("Inactif", __FILE__),
+                "movingAway"  => __("Eloigner", __FILE__),
+                "approaching" => __("En approche", __FILE__),
+                "leaving"     => __("Partir", __FILE__)
             ],
             "mute" => [
                 "unmuted" => __("Son activé", __FILE__),
@@ -1320,7 +1377,13 @@ class smartthings_translate
             "rateAlarm" => [
                   "normal"  => __("Normal", __FILE__),
                   "alarm"   => __("Alarme", __FILE__),
-                  "warning" => __("Attention", __FILE__),
+                  "warning" => __("Attention", __FILE__)
+            ],
+            "register" => [
+                  "registering"   => __("En cours d'inscription", __FILE__),
+                  "registered"    => __("Inscrit", __FILE__),
+                  "deregistering" => __("En cours de désinscription", __FILE__),
+                  "deregistered"  => __("Désinscrit", __FILE__)
             ],
             "regularDetergentType" => [
                 "capsule"  => __("Dosette", __FILE__),
@@ -2997,6 +3060,9 @@ class smartthings_translate
             "motionSensor" => [
                 "motion" => __("Détecteur de mouvements", __FILE__)
             ],
+            "movementSensor" => [
+                "movement" => __("Etat du détecteur de mouvements", __FILE__)
+            ],
             "musicPlayer" => [
                 "trackDescription" => __("Description de la tâche", __FILE__),
                 "level"            => __("Volume", __FILE__),
@@ -3404,6 +3470,11 @@ class smartthings_translate
                 "status"                 => __("État de la sonde intégrée", __FILE__),
                 "setTemperatureSetpoint" => __("Changer la température de la sonde intégrée", __FILE__)
             ],
+            "samsungce.musicPlaylist" => [
+                "currentTrack" => __("Piste en cours", __FILE__),
+                "playlist"     => __("Liste de lecture", __FILE__),
+                "setPlaylist"  => __("Changer de liste de lecture", __FILE__)
+            ],
             "samsungce.ovenDrainageRequirement" => [
                 "drainageRequirement"   => __("Besoin de drainage du four", __FILE__),
             ],
@@ -3438,6 +3509,15 @@ class smartthings_translate
                 "version"       => __("Version de données de télégestion", __FILE__),
                 "rmCommand"     => __("Commande de données de télégestion", __FILE__)
             ],
+            "samsungce.robotCleanerAudioClip" => [
+                "enabled" => __("État de l'extrait sonore", __FILE__),
+                "enable"  => __("Activer l'extrait sonore", __FILE__),
+                "disable" => __("Désactiver l'extrait sonore", __FILE__)
+            ],
+            "samsungce.robotCleanerAvpRegistration" => [
+                "registrationStatus" => __("Statut d'inscription", __FILE__),
+                "register"           => __("S'inscrire", __FILE__)
+            ],
             "samsungce.robotCleanerCleaningMode" => [
                 "supportedCleaningMode" => __("Mode de nettoyage supportés", __FILE__),
                 "repeatModeEnabled"     => __("Mode répétition activé", __FILE__),
@@ -3446,6 +3526,26 @@ class smartthings_translate
                 "setCleaningMode"       => __("Changer le mode de nettoyage", __FILE__),
                 "disableRepeatMode"     => __("Désactiver le mode de répétition", __FILE__),
                 "enableRepeatMode"      => __("Activer le mode de répétition", __FILE__)
+            ],
+            "samsungce.robotCleanerDustBag" => [
+                "supportedStatus" => __("États du sac à poussière supportés", __FILE__),
+                "status"          => __("État du sac à poussière", __FILE__)
+            ],
+            "samsungce.robotCleanerMapCleaningInfo" => [
+                "area"          => __("Zone de nettoyage", __FILE__),
+                "cleanedExtent" => __("Superficie néttoyée", __FILE__),
+                "nearObject"    => __("Objet proche", __FILE__),
+                "remainingTime" => __("Temps de nettoyage restant", __FILE__)
+            ],
+            "samsungce.robotCleanerMapList" => [
+                "maps" => __("Liste des cartographies", __FILE__)
+            ],
+            "samsungce.robotCleanerMonitoringAutomation" => [
+                "enableMonitoringAutomation" => __("Activer le système de surveillance", __FILE__)
+            ],
+            "samsungce.robotCleanerMotorFilter" => [
+                "motorFilterResetType" => __("Type de réinitialisation du filtre moteur", __FILE__),
+                "motorFilterStatus"    => __("État du filtre moteur", __FILE__)
             ],
             "samsungce.robotCleanerOperatingState" => [
                 "supportedOperatingState"      => __("État de fonctionnement supportés", __FILE__),
@@ -3458,6 +3558,54 @@ class smartthings_translate
                 "pause"                        => __("Mettre en pause", __FILE__),
                 "isMapBasedOperationAvailable" => __("Fonctionnement sur carte disponible ?", __FILE__),
                 "cancelRemainingJob"           => __("Annuler nettoyage", __FILE__),
+            ],
+            "samsungce.robotCleanerPetCleaningSchedule" => [
+                "dayOfWeek"   => __("Jour de la semaine", __FILE__),
+                "mapId"       => __("Identifiant de la carte", __FILE__),
+                "areaIds"     => __("Identifiants de la zone", __FILE__),
+                "startTime"   => __("Heure de début", __FILE__),
+                "originator"  => __("Initiateur", __FILE__),
+                "obsoleted"   => __("Obsolète", __FILE__),
+                "enabled"     => __("État d'activation du planning", __FILE__),
+                "setSchedule" => __("Définir le programme", __FILE__),
+                "enable"      => __("Activer le programme", __FILE__),
+                "disable"     => __("Désactiver le programme", __FILE__)
+            ],
+            "samsungce.robotCleanerPetMonitor" => [
+                "dayOfWeek"         => __("Jour de la semaine (animaux)", __FILE__),
+                "monitoringStatus"  => __("État de la surveillance des animaux", __FILE__),
+                "blockingStatus"    => __("État du blocage", __FILE__),
+                "mapId"             => __("Identifiant de la carte (animaux)", __FILE__),
+                "areaIds"           => __("Identifiants de la zone (animaux)", __FILE__),
+                "startTime"         => __("Heure de début (animaux)", __FILE__),
+                "interval"          => __("Intervalle", __FILE__),
+                "endTime"           => __("Heure de fin", __FILE__),
+                "originator"        => __("Point de départ", __FILE__),
+                "obsoleted"         => __("Obsolète (animaux)", __FILE__),
+                "waypoints"         => __("Repères", __FILE__),
+                "enabled"           => __("État d'activation du planning (animaux)", __FILE__),
+                "setMonitor"        => __("Définir la surveillance", __FILE__),
+                "enable"            => __("Activer le programme (animaux)", __FILE__),
+                "disable"           => __("Désactiver le programme (animaux)", __FILE__)
+            ],
+            "samsungce.robotCleanerPetMonitorReport" => [
+                "report" => __("Rapport de surveillance des animaux", __FILE__)
+            ],
+            "samsungce.robotCleanerRelayCleaning" => [
+                "batonTouch" => __("Relai", __FILE__)
+            ],
+            "samsungce.robotCleanerReservation" => [
+                "reservations"            => __("Réservations", __FILE__),
+                "maxNumberOfReservations" => __("Nombre maximum de réservations", __FILE__),
+                "addReservation"          => __("Ajouter une réservation", __FILE__),
+                "deleteReservations"      => __("Supprimer des réservations", __FILE__),
+                "editReservation"         => __("Éditer une réservation", __FILE__),
+                "deleteReservation"       => __("Supprimer une réservation", __FILE__)
+            ],
+            "samsungce.robotCleanerWelcome" => [
+                "coordinates"    => __("Coordonnées", __FILE__),
+                "setCoordinates" => __("Définir les coordonnées", __FILE__),
+                "start"          => __("Démarrer l'accueil", __FILE__)
             ],
             "samsungce.selfCheck" => [
                 "result"           => __("Résultat de l'autocontrôle", __FILE__),
@@ -3515,6 +3663,11 @@ class smartthings_translate
             ],
             "samsungce.softwareVersion" => [
                 "versions" => __("Versions du logiciel", __FILE__)
+            ],
+            "samsungce.soundDetectionSensitivity" => [
+                "level"           => __("Niveau de sensibilité de détection sonore", __FILE__),
+                "supportedLevels" => __("Niveaux de sensibilité de détection sonore supportés", __FILE__),
+                "setLevel"        => __("Changer le niveau de sensibilité de détection sonore", __FILE__)
             ],
             "samsungce.surfaceResidualHeat" => [
                 "surfaceResidualHeat" => __("Chaleur résiduelle en surface", __FILE__)
@@ -3693,6 +3846,7 @@ class smartthings_translate
                 "setupId"          => __("Identifiant de configuration", __FILE__),
                 "signinPermission" => __("Autorisation d'inscription", __FILE__),
                 "protocolType"     => __("Type de protocole", __FILE__),
+                "tsId"             => __("Identifiant de système", __FILE__),
                 "mnId"             => __("Identifiant du constructeur", __FILE__),
                 "dumpType"         => __("Type de vidage", __FILE__),
             ],

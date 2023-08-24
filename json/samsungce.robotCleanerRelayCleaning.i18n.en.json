@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Relay Cleaning",
+    "attributes": {
+        "batonTouch": {
+            "label": "batonTouch",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

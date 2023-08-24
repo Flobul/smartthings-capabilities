@@ -36,6 +36,9 @@
                     "unlocked with timeout": {
                         "label": "unlocked with timeout"
                     },
+                    "not fully locked": {
+                        "label": "not fully locked"
+                    },
                     "locked": {
                         "label": "Verrouill\u00e9"
                     },

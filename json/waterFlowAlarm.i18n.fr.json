@@ -1,6 +1,7 @@
 {
     "tag": "fr",
     "label": "D\u00e9bit d'eau",
+    "description": "Water flow duration, volume, and rate alarms",
     "attributes": {
         "volumeAlarm": {
             "label": "Volume",

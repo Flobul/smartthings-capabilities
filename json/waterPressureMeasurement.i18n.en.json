@@ -1,9 +1,10 @@
 {
     "tag": "en",
-    "label": "Water pressure",
+    "label": "Water Pressure",
+    "description": "Get the water pressure and high\/low pressure alarm status",
     "attributes": {
         "pressureAlarm": {
-            "label": "Pressure alarm",
+            "label": "Pressure Alarm",
             "description": "Water pressure alarm status",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
@@ -12,10 +13,10 @@
                         "label": "Normal"
                     },
                     "high": {
-                        "label": "High"
+                        "label": "High Pressure"
                     },
                     "low": {
-                        "label": "Low"
+                        "label": "Low Pressure"
                     }
                 }
             }

@@ -1,0 +1,103 @@
+{
+    "tag": "fr",
+    "label": "Qualit\u00e9 de l'air",
+    "attributes": {
+        "automaticExecutionSetting": {
+            "label": "automaticExecutionSetting",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "automaticExecutionMode": {
+            "label": "automaticExecutionMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedAutomaticExecutionSetting": {
+            "label": "supportedAutomaticExecutionSetting",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "supportedAutomaticExecutionMode": {
+            "label": "supportedAutomaticExecutionMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "periodicSensing": {
+            "label": "periodicSensing",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        },
+        "periodicSensingInterval": {
+            "label": "periodicSensingInterval",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "lastSensingTime": {
+            "label": "lastSensingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "lastSensingLevel": {
+            "label": "lastSensingLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "cn2": {
+                        "label": "Mod\u00e9r\u00e9"
+                    },
+                    "cn1": {
+                        "label": "Bon"
+                    },
+                    "cn4": {
+                        "label": "Insalubre"
+                    },
+                    "cn3": {
+                        "label": "Insalubre pour les populations \u00e0 risque"
+                    },
+                    "cn6": {
+                        "label": "Dangereux"
+                    },
+                    "kr2": {
+                        "label": "Normal"
+                    },
+                    "cn5": {
+                        "label": "Tr\u00e8s insalubre"
+                    },
+                    "kr1": {
+                        "label": "Bon"
+                    },
+                    "kr4": {
+                        "label": "Tr\u00e8s mauvais"
+                    },
+                    "kr3": {
+                        "label": "Mauvais"
+                    }
+                }
+            }
+        },
+        "periodicSensingStatus": {
+            "label": "periodicSensingStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "nonprocessing": {
+                        "label": "nonprocessing"
+                    },
+                    "processing": {
+                        "label": "processing"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

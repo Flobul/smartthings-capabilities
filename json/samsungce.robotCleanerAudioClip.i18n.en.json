@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Audio Clip",
+    "attributes": {
+        "enabled": {
+            "label": "enabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

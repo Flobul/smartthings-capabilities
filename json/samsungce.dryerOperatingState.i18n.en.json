@@ -77,6 +77,9 @@
                     "refreshing": {
                         "label": "Refreshing"
                     },
+                    "humiditySensing": {
+                        "label": "Sensing"
+                    },
                     "cooling": {
                         "label": "Cooling"
                     },

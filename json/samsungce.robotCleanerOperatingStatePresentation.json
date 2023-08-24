@@ -181,7 +181,8 @@
                         }
                     ],
                     "value": "operatingState.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

@@ -1,0 +1,22 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "enableMonitoringAutomation",
+                            "value": "{{i18n.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "samsungce.robotCleanerMonitoringAutomation",
+    "version": 1
+}

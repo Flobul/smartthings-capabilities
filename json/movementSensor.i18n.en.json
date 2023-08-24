@@ -1,0 +1,32 @@
+{
+    "tag": "en",
+    "label": "Movement Sensor",
+    "description": "Allows for the ability to read movement sensor device states",
+    "attributes": {
+        "movement": {
+            "label": "activity",
+            "description": "The current state of the movement sensor",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "entering": {
+                        "label": "Entering"
+                    },
+                    "inactive": {
+                        "label": "Inactive"
+                    },
+                    "movingAway": {
+                        "label": "Moving away"
+                    },
+                    "approaching": {
+                        "label": "Approaching"
+                    },
+                    "leaving": {
+                        "label": "Leaving"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

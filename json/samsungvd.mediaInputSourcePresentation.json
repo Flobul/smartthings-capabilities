@@ -14,7 +14,8 @@
                     ],
                     "supportedValues": "supportedInputSourcesMap.value",
                     "value": "inputSource.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

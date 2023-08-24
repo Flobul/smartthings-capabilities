@@ -164,7 +164,8 @@
                         }
                     ],
                     "value": "operationState.value",
-                    "valueType": "string"
+                    "valueType": "string",
+                    "multiSelectable": false
                 }
             }
         ],

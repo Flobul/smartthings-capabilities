@@ -1,0 +1,33 @@
+{
+    "id": "movementSensor",
+    "version": 1,
+    "status": "proposed",
+    "name": "Movement Sensor",
+    "ephemeral": false,
+    "attributes": {
+        "movement": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "MovementType",
+                        "type": "string",
+                        "enum": [
+                            "inactive",
+                            "approaching",
+                            "movingAway",
+                            "entering",
+                            "leaving"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": []
+}

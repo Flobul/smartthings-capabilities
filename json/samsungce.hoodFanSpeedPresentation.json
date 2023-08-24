@@ -149,7 +149,8 @@
                     ],
                     "supportedValues": "supportedHoodFanSpeed.value",
                     "value": "hoodFanSpeed.value",
-                    "valueType": "integer"
+                    "valueType": "integer",
+                    "multiSelectable": false
                 }
             }
         ],

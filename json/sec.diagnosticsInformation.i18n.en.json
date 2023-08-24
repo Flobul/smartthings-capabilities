@@ -74,6 +74,11 @@
                 }
             }
         },
+        "tsId": {
+            "label": "tsId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
         "mnId": {
             "label": "mnId",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",

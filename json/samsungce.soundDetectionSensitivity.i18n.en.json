@@ -1,0 +1,29 @@
+{
+    "tag": "en",
+    "label": "Sound Detection Sensitivity",
+    "attributes": {
+        "level": {
+            "label": "level",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "high": {
+                        "label": "high"
+                    },
+                    "low": {
+                        "label": "low"
+                    },
+                    "medium": {
+                        "label": "medium"
+                    }
+                }
+            }
+        },
+        "supportedLevels": {
+            "label": "supportedLevels",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,76 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Pet Monitor",
+    "attributes": {
+        "dayOfWeek": {
+            "label": "dayOfWeek",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "monitoringStatus": {
+            "label": "monitoringStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "blockingStatus": {
+            "label": "blockingStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "unblocked": {
+                        "label": "unblocked"
+                    },
+                    "blocked": {
+                        "label": "blocked"
+                    }
+                }
+            }
+        },
+        "mapId": {
+            "label": "mapId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "areaIds": {
+            "label": "areaIds",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "startTime": {
+            "label": "startTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "interval": {
+            "label": "interval",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "endTime": {
+            "label": "endTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "originator": {
+            "label": "originator",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "obsoleted": {
+            "label": "obsoleted",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "waypoints": {
+            "label": "waypoints",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "enabled": {
+            "label": "enabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

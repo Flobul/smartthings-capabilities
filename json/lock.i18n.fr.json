@@ -12,6 +12,9 @@
                     "unlocked with timeout": {
                         "label": "D\u00e9verrouill\u00e9(e) temporairement"
                     },
+                    "not fully locked": {
+                        "label": "not fully locked"
+                    },
                     "locked": {
                         "label": "Verrouill\u00e9"
                     },

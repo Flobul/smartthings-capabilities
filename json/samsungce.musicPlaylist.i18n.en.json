@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Music Playlist",
+    "attributes": {
+        "currentTrack": {
+            "label": "currentTrack",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "playlist": {
+            "label": "playlist",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

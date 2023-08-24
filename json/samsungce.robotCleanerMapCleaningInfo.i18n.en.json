@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Robot Cleaner Map Cleaning Info",
+    "attributes": {
+        "area": {
+            "label": "area",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "cleanedExtent": {
+            "label": "cleanedExtent",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "nearObject": {
+            "label": "nearObject",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "remainingTime": {
+            "label": "remainingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -42,7 +42,8 @@
                             "type": "active"
                         }
                     ],
-                    "value": "steamClosetJobState.value"
+                    "value": "steamClosetJobState.value",
+                    "multiSelectable": false
                 }
             }
         ],

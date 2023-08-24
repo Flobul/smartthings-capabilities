@@ -12,6 +12,9 @@
                     "unlocked with timeout": {
                         "label": "Temporarily unlocked"
                     },
+                    "not fully locked": {
+                        "label": "not fully locked"
+                    },
                     "locked": {
                         "label": "Locked"
                     },
