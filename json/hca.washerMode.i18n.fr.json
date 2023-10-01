@@ -1,0 +1,69 @@
+{
+    "tag": "fr",
+    "label": "Mode",
+    "attributes": {
+        "mode": {
+            "label": "Mode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "eco": {
+                        "label": "\u00c9co"
+                    },
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "rinseOnly": {
+                        "label": "Rin\u00e7age uniquement"
+                    },
+                    "quickWash": {
+                        "label": "Lavage rapide"
+                    },
+                    "mix": {
+                        "label": "Charge lourde"
+                    },
+                    "others": {
+                        "label": "Autres"
+                    },
+                    "spinOnly": {
+                        "label": "Essorage uniquement"
+                    }
+                }
+            }
+        },
+        "supportedModes": {
+            "label": "supportedModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setMode": {
+            "label": "Mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "eco": {
+                            "label": "\u00c9co"
+                        },
+                        "normal": {
+                            "label": "Normal"
+                        },
+                        "rinseOnly": {
+                            "label": "Rin\u00e7age uniquement"
+                        },
+                        "quickWash": {
+                            "label": "Lavage rapide"
+                        },
+                        "mix": {
+                            "label": "Charge lourde"
+                        },
+                        "spinOnly": {
+                            "label": "Essorage uniquement"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

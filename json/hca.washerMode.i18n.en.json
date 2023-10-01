@@ -1,0 +1,69 @@
+{
+    "tag": "en",
+    "label": "Mode",
+    "attributes": {
+        "mode": {
+            "label": "Mode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "eco": {
+                        "label": "Eco"
+                    },
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "rinseOnly": {
+                        "label": "Rinse only"
+                    },
+                    "quickWash": {
+                        "label": "Quick wash"
+                    },
+                    "mix": {
+                        "label": "Heavy duty"
+                    },
+                    "others": {
+                        "label": "Others"
+                    },
+                    "spinOnly": {
+                        "label": "Spin only"
+                    }
+                }
+            }
+        },
+        "supportedModes": {
+            "label": "supportedModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setMode": {
+            "label": "Mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "eco": {
+                            "label": "Eco"
+                        },
+                        "normal": {
+                            "label": "Normal"
+                        },
+                        "rinseOnly": {
+                            "label": "Rinse only"
+                        },
+                        "quickWash": {
+                            "label": "Quick wash"
+                        },
+                        "mix": {
+                            "label": "Heavy duty"
+                        },
+                        "spinOnly": {
+                            "label": "Spin only"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

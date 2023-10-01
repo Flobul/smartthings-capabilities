@@ -6,7 +6,7 @@
         "presence": {
             "label": "presence",
             "description": "The presence value of the beacon",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "not present": {

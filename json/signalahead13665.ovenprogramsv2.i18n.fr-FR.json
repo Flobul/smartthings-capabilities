@@ -1,0 +1,65 @@
+{
+    "tag": "fr-FR",
+    "label": "Oven Programs",
+    "attributes": {
+        "availablePrograms": {
+            "label": "availablePrograms",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "program": {
+            "label": "Programmes",
+            "displayTemplate": "Aucun",
+            "i18n": {
+                "value": {
+                    "Cooking_Oven_Program_HeatingMode_PreheatOvenware": {
+                        "label": "Pr\u00e9chauffer des plats allant au four"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_Defrost": {
+                        "label": "D\u00e9cong\u00e9lation"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_HotAirGrilling": {
+                        "label": "Grill chaleur tournante"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco": {
+                        "label": "Convection naturelle eco"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_IntensiveHeat": {
+                        "label": "Chaleur intense"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_HotAir": {
+                        "label": "Chaleur tournante 4D"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_HotAirEco": {
+                        "label": "Chaleur tournante eco"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_TopBottomHeating": {
+                        "label": "Convection naturelle"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial": {
+                        "label": "CoolStart"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_KeepWarm": {
+                        "label": "Maintien au chaud"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_SlowCook": {
+                        "label": "Cuisson lente"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_PizzaSetting": {
+                        "label": "Position pizza"
+                    },
+                    "Cooking_Oven_Program_HeatingMode_BottomHeating": {
+                        "label": "R\u00e9sistance de sole"
+                    },
+                    "UnknownProgram": {
+                        "label": "Programme inconnu"
+                    },
+                    "None": {
+                        "label": "Aucun"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

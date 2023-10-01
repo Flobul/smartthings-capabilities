@@ -1,0 +1,37 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": []
+    },
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "toggle",
+                            "value": "{{i18n.attributes.switch.i18n.value.toggle.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "on",
+                            "value": "{{i18n.attributes.switch.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.switch.i18n.value.off.label}}",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "emphasis": true
+            }
+        ]
+    },
+    "id": "samsungce.toggleSwitch",
+    "version": 1
+}

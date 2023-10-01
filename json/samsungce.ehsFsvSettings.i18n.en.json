@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "EHS FSV Settings",
+    "attributes": {
+        "fsvSettings": {
+            "label": "fsvSettings",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

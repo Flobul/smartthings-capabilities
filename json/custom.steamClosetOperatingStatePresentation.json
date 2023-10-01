@@ -1,4 +1,64 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{operatingState.value}}",
+                "alternatives": [
+                    {
+                        "key": "ready",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.ready.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "running",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "paused",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                        "type": "active"
+                    }
+                ]
+            },
+            {
+                "label": "{{steamClosetJobState.value}}",
+                "alternatives": [
+                    {
+                        "key": "drying",
+                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.drying.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "steaming",
+                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.steaming.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "airwashing",
+                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.airwashing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sterilizing",
+                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.sterilizing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dehumidifying",
+                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.dehumidifying.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "none",
+                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.none.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
     "automation": {
         "conditions": [
             {
@@ -43,6 +103,7 @@
                         }
                     ],
                     "value": "steamClosetJobState.value",
+                    "valueType": "string",
                     "multiSelectable": false
                 }
             }

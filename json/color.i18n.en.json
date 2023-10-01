@@ -4,9 +4,9 @@
     "description": "Allows for control of a color changing device by setting its hue and saturation.",
     "attributes": {
         "colorValue": {
-            "label": "color value",
+            "label": "colorValue",
             "description": "The hue and saturation value",
-            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
         }
     },

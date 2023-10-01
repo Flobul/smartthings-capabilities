@@ -1,0 +1,229 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{mode.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.mode.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "mix",
+                        "value": "{{i18n.attributes.mode.i18n.value.mix.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "quickWash",
+                        "value": "{{i18n.attributes.mode.i18n.value.quickWash.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rinseOnly",
+                        "value": "{{i18n.attributes.mode.i18n.value.rinseOnly.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "spinOnly",
+                        "value": "{{i18n.attributes.mode.i18n.value.spinOnly.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "eco",
+                        "value": "{{i18n.attributes.mode.i18n.value.eco.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "others",
+                        "value": "{{i18n.attributes.mode.i18n.value.others.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setMode",
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mix",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.mix.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quickWash",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.quickWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinseOnly",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.rinseOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spinOnly",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.spinOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.eco.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedModes.value"
+                },
+                "state": {
+                    "value": "mode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.attributes.mode.i18n.value.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mix",
+                            "value": "{{i18n.attributes.mode.i18n.value.mix.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quickWash",
+                            "value": "{{i18n.attributes.mode.i18n.value.quickWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinseOnly",
+                            "value": "{{i18n.attributes.mode.i18n.value.rinseOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spinOnly",
+                            "value": "{{i18n.attributes.mode.i18n.value.spinOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.attributes.mode.i18n.value.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "others",
+                            "value": "{{i18n.attributes.mode.i18n.value.others.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.mode.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.attributes.mode.i18n.value.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mix",
+                            "value": "{{i18n.attributes.mode.i18n.value.mix.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quickWash",
+                            "value": "{{i18n.attributes.mode.i18n.value.quickWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinseOnly",
+                            "value": "{{i18n.attributes.mode.i18n.value.rinseOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spinOnly",
+                            "value": "{{i18n.attributes.mode.i18n.value.spinOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.attributes.mode.i18n.value.eco.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "others",
+                            "value": "{{i18n.attributes.mode.i18n.value.others.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedModes.value",
+                    "value": "mode.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.commands.setMode.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.normal.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mix",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.mix.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quickWash",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.quickWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinseOnly",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.rinseOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spinOnly",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.spinOnly.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.eco.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedModes.value",
+                    "command": "setMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "hca.washerMode",
+    "version": 1
+}

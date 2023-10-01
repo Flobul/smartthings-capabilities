@@ -1,0 +1,21 @@
+{
+    "tag": "fr-FR",
+    "label": "Pause\/Resume program",
+    "attributes": {
+        "pauseState": {
+            "label": "Pause \/ Reprendre",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "play": {
+                        "label": "En fonctionnement"
+                    },
+                    "pause": {
+                        "label": "En cours de pause"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

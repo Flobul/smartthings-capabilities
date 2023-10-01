@@ -4,9 +4,9 @@
     "description": "Gets the status of the geofences.",
     "attributes": {
         "geofences": {
-            "label": "Geofences",
+            "label": "geofences",
             "description": "List of Geofences",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
         }
     },

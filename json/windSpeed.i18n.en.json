@@ -4,9 +4,9 @@
     "description": "Get the value of wind speed from a weather sensor or anemometer",
     "attributes": {
         "windspeed": {
-            "label": "wind speed",
+            "label": "windspeed",
             "description": "A number representing the current measured wind speed",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} m\/s",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         }
     },

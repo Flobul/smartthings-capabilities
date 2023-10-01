@@ -4,9 +4,9 @@
     "description": "Trigger uploading of log information",
     "attributes": {
         "logState": {
-            "label": "log state",
+            "label": "logState",
             "description": "State of the log",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "inProgress": {
@@ -19,9 +19,9 @@
             }
         },
         "logRequestState": {
-            "label": "log request state",
+            "label": "logRequestState",
             "description": "State of the log request",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "idle": {
@@ -34,9 +34,9 @@
             }
         },
         "logInfo": {
-            "label": "log info",
+            "label": "logInfo",
             "description": "Log information",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
         }
     },

@@ -12,40 +12,40 @@
                         "label": "Chaleur"
                     },
                     "autowithreset": {
-                        "label": "Auto With Reset"
+                        "label": "Automatique avec r\u00e9initialisation"
                     },
                     "autochangeoveractive": {
-                        "label": "Auto Changeover Active"
+                        "label": "Basculement automatique actif"
                     },
                     "auto": {
                         "label": "Automatique"
                     },
                     "away": {
-                        "label": "Away"
+                        "label": "Absent"
                     },
                     "furnace": {
-                        "label": "Furnace"
+                        "label": "Four"
                     },
                     "auxiliaryemergencyheat": {
                         "label": "Auxillary Emergency Heat"
                     },
                     "moistair": {
-                        "label": "Moistair"
+                        "label": "Air humide"
                     },
                     "manual": {
-                        "label": "Manual"
+                        "label": "Manuel(le)"
                     },
                     "out": {
-                        "label": "Out"
+                        "label": "\u00c0 l'ext\u00e9rieur"
                     },
                     "eco": {
                         "label": "\u00c9co"
                     },
                     "energysavecool": {
-                        "label": "Energy Save Cool"
+                        "label": "Refroidissement en \u00e9conomie d'\u00e9nergie"
                     },
                     "autoheat": {
-                        "label": "Auto Heat"
+                        "label": "Chauffage automatique"
                     },
                     "rush hour": {
                         "label": "Heure de pointe"
@@ -57,43 +57,43 @@
                         "label": "rushhour"
                     },
                     "asleep": {
-                        "label": "Asleep"
+                        "label": "Endormi"
                     },
                     "emergencyheat": {
                         "label": "emergencyheat"
                     },
                     "heatingoff": {
-                        "label": "Heating Off"
+                        "label": "Chauffage \u00e9teint"
                     },
                     "dryair": {
-                        "label": "Dry air"
+                        "label": "Air sec"
                     },
                     "emergencyheatactive": {
                         "label": "Emergency Heat Active"
                     },
                     "autowitheco": {
-                        "label": "Auto with Eco"
+                        "label": "Automatique avec \u00e9conomie"
                     },
                     "resume": {
-                        "label": "Resume"
+                        "label": "Reprendre"
                     },
                     "emergency heat": {
-                        "label": "Urgence"
+                        "label": "Chauffage d'urgence"
                     },
                     "in": {
-                        "label": "In"
+                        "label": "\u00c0 l'int\u00e9rieur"
                     },
                     "cool": {
                         "label": "Froid"
                     },
                     "custom": {
-                        "label": "Custom"
+                        "label": "Personnalis\u00e9"
                     },
                     "dayoff": {
-                        "label": "Day Off"
+                        "label": "Jour de cong\u00e9"
                     },
                     "energysaveheat": {
-                        "label": "Energy Save Heat"
+                        "label": "Chauffage en \u00e9conomie d'\u00e9nergie"
                     },
                     "off": {
                         "label": "D\u00e9sactiv\u00e9"
@@ -102,25 +102,25 @@
                         "label": "Home"
                     },
                     "autocool": {
-                        "label": "Auto Cool"
+                        "label": "Refroidissement automatique"
                     },
                     "schedule": {
-                        "label": "Schedule"
+                        "label": "Programm\u00e9"
                     },
                     "hotwateronly": {
-                        "label": "Hot Water Only"
+                        "label": "Eau chaude uniquement"
                     },
                     "fanonly": {
-                        "label": "Fan only"
+                        "label": "Ventilateur uniquement"
                     },
                     "autochangeover": {
-                        "label": "Auto Changeover"
+                        "label": "Basculement automatique"
                     },
                     "frostguard": {
-                        "label": "Frost Guard"
+                        "label": "Hors gel"
                     },
                     "southernaway": {
-                        "label": "Southern Away"
+                        "label": "M\u00e9ridional"
                     }
                 }
             }
@@ -150,40 +150,40 @@
                             "label": "Chaleur"
                         },
                         "autochangeoveractive": {
-                            "label": "Auto Changeover Active"
+                            "label": "Basculement automatique actif"
                         },
                         "autowithreset": {
-                            "label": "Auto With Reset"
+                            "label": "Automatique avec r\u00e9initialisation"
                         },
                         "auto": {
                             "label": "Automatique"
                         },
                         "away": {
-                            "label": "Away"
+                            "label": "Absent"
                         },
                         "furnace": {
-                            "label": "Furnace"
+                            "label": "Four"
                         },
                         "auxiliaryemergencyheat": {
                             "label": "Auxillary Emergency Heat"
                         },
                         "moistair": {
-                            "label": "Moistair"
+                            "label": "Air humide"
                         },
                         "manual": {
-                            "label": "Manual"
+                            "label": "Manuel(le)"
                         },
                         "out": {
-                            "label": "Out"
+                            "label": "\u00c0 l'ext\u00e9rieur"
                         },
                         "eco": {
                             "label": "\u00c9co"
                         },
                         "energysavecool": {
-                            "label": "Energy Save Cool"
+                            "label": "Refroidissement en \u00e9conomie d'\u00e9nergie"
                         },
                         "autoheat": {
-                            "label": "Auto Heat"
+                            "label": "Chauffage automatique"
                         },
                         "rush hour": {
                             "label": "Heure de pointe"
@@ -195,43 +195,43 @@
                             "label": "Heure de pointe"
                         },
                         "asleep": {
-                            "label": "Asleep"
+                            "label": "Endormi"
                         },
                         "emergencyheat": {
-                            "label": "Urgence"
+                            "label": "Chauffage d'urgence"
                         },
                         "heatingoff": {
-                            "label": "Heating Off"
+                            "label": "Chauffage \u00e9teint"
                         },
                         "dryair": {
-                            "label": "Dry air"
+                            "label": "Air sec"
                         },
                         "emergencyheatactive": {
                             "label": "Emergency Heat Active"
                         },
                         "autowitheco": {
-                            "label": "Auto with Eco"
+                            "label": "Automatique avec \u00e9conomie"
                         },
                         "resume": {
-                            "label": "Resume"
+                            "label": "Reprendre"
                         },
                         "emergency heat": {
-                            "label": "Urgence"
+                            "label": "Chauffage d'urgence"
                         },
                         "in": {
-                            "label": "In"
+                            "label": "\u00c0 l'int\u00e9rieur"
+                        },
+                        "custom": {
+                            "label": "Personnalis\u00e9"
+                        },
+                        "dayoff": {
+                            "label": "Jour de cong\u00e9"
                         },
                         "cool": {
                             "label": "Froid"
                         },
-                        "custom": {
-                            "label": "Custom"
-                        },
-                        "dayoff": {
-                            "label": "Day Off"
-                        },
                         "energysaveheat": {
-                            "label": "Energy Save Heat"
+                            "label": "Chauffage en \u00e9conomie d'\u00e9nergie"
                         },
                         "off": {
                             "label": "D\u00e9sactiv\u00e9"
@@ -240,25 +240,25 @@
                             "label": "Home"
                         },
                         "autocool": {
-                            "label": "Auto Cool"
+                            "label": "Refroidissement automatique"
                         },
                         "schedule": {
-                            "label": "Schedule"
+                            "label": "Programm\u00e9"
                         },
                         "hotwateronly": {
-                            "label": "Hot Water Only"
+                            "label": "Eau chaude uniquement"
                         },
                         "fanonly": {
-                            "label": "Fan only"
+                            "label": "Ventilateur uniquement"
                         },
                         "autochangeover": {
-                            "label": "Auto Changeover"
+                            "label": "Basculement automatique"
                         },
                         "frostguard": {
-                            "label": "Frost Guard"
+                            "label": "Hors gel"
                         },
                         "southernaway": {
-                            "label": "Southern Away"
+                            "label": "M\u00e9ridional"
                         }
                     },
                     "description": "heat.value=Put the thermostat in ``emergency heat`` mode"

@@ -4,21 +4,21 @@
     "description": "Allows a device firmware to be updated over the network",
     "attributes": {
         "lastUpdateStatusReason": {
-            "label": "Firmware update result reason",
+            "label": "lastUpdateStatusReason",
             "description": "The explanation of the reason for the status of the most recent update attempt.",
-            "displayTemplate": "The reason for the most recent firmware update status on {{device.label}} was {{attribute}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
         "availableVersion": {
-            "label": "Available Version",
+            "label": "availableVersion",
             "description": "version of the firmware to download",
-            "displayTemplate": "Firmware version {{attribute}} was available for {{device.label}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
         "lastUpdateStatus": {
-            "label": "Firmware update status",
+            "label": "lastUpdateStatus",
             "description": "The status of the most recent update attempt.",
-            "displayTemplate": "The status of the most recent firmware update on {{device.label}} was {{attribute}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "updateFailed": {
@@ -31,9 +31,9 @@
             }
         },
         "state": {
-            "label": "Firmware update process state",
+            "label": "state",
             "description": "The state of the firmware update process",
-            "displayTemplate": "The state of the firmware update operation on {{device.label}} was {{attribute}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "updateInProgress": {
@@ -49,15 +49,15 @@
             }
         },
         "currentVersion": {
-            "label": "Current firmware version",
+            "label": "currentVersion",
             "description": "The current version reported by the device firmware, should update after OTA completes",
-            "displayTemplate": "The current firmware version on {{device.label}} was {{attribute}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
         "lastUpdateTime": {
-            "label": "Last update attempt time",
+            "label": "lastUpdateTime",
             "description": "The time of the most recent download or update attempt.",
-            "displayTemplate": "The last update attempt for {{device.label}} was at {{attribute}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         }
     },

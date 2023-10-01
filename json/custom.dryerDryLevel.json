@@ -36,7 +36,10 @@
                             "180",
                             "210",
                             "240",
-                            "270"
+                            "270",
+                            "drum20",
+                            "drum40",
+                            "drum60"
                         ],
                         "type": "string"
                     }
@@ -55,7 +58,6 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
                         "items": {
                             "enum": [
                                 "none",
@@ -82,10 +84,14 @@
                                 "180",
                                 "210",
                                 "240",
-                                "270"
+                                "270",
+                                "drum20",
+                                "drum40",
+                                "drum60"
                             ],
                             "type": "string"
-                        }
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,
@@ -129,7 +135,10 @@
                             "180",
                             "210",
                             "240",
-                            "270"
+                            "270",
+                            "drum20",
+                            "drum40",
+                            "drum60"
                         ],
                         "type": "string"
                     }

@@ -241,6 +241,10 @@ class smartthings_translate
             "connection" => [
                 "connected" => __("Connecté", __FILE__)
             ],
+            "connectionState" => [
+                "connected"    => __("Connecté", __FILE__),
+                "disconnected" => __("Déconnecté", __FILE__)
+            ],
             "consumableStatus" => [
                 "maintenance_required" => __("Maintenance requise", __FILE__),
                 "missing"              => __("Manquant", __FILE__),
@@ -572,7 +576,10 @@ class smartthings_translate
                 "shirt"    => __("Chemise", __FILE__),
                 "4"        => __("4", __FILE__),
                 "5"        => __("5", __FILE__),
-                "60"       => __("60", __FILE__)
+                "60"       => __("60", __FILE__),
+                "drum20"   => __("Tambour 20", __FILE__),
+                "drum40"   => __("Tambour 40", __FILE__),
+                "drum60"   => __("Tambour 60", __FILE__)
             ],
             "dryerWrinklePrevent" => [
                 "off" => __("Désactivé", __FILE__),
@@ -984,6 +991,15 @@ class smartthings_translate
                 "customMenu19" => __("Menu personnalisé 19", __FILE__),
                 "customMenu20" => __("Menu personnalisé 20", __FILE__)
             ],
+            "mode" => [
+                "normal"        => __("Normal", __FILE__),
+                "mix"           => __("Charge lourde", __FILE__),
+                "quickWash"     => __("Lavage rapide", __FILE__),
+                "rinseOnly"     => __("Rinçage uniquement", __FILE__),
+                "spinOnly"      => __("Essorage uniquement", __FILE__),
+                "eco"           => __("Eco", __FILE__),
+                "others"        => __("Autres", __FILE__)
+            ],
             "moldHealthConcern" => [
                 "veryUnhealthy"     => __("Très mauvais", __FILE__),
                 "slightlyUnhealthy" => __("Légèrement mauvais", __FILE__),
@@ -1334,17 +1350,17 @@ class smartthings_translate
                 "low"    => __("Basse", __FILE__)
             ],
             "program" => [
-                "Cooking_Oven_Program_HeatingMode_HotAir"              => __("Convection 3D", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_HotAir"              => __("Chaleur tournante 4D", __FILE__),
                 "Cooking_Oven_Program_HeatingMode_HotAirEco"           => __("Chaleur tournante éco", __FILE__),
                 "Cooking_Oven_Program_HeatingMode_HotAirGrilling"      => __("Gril à convection", __FILE__),
-                "Cooking_Oven_Program_HeatingMode_TopBottomHeating"    => __("Cuisson", __FILE__),
-                "Cooking_Oven_Program_HeatingMode_PizzaSetting"        => __("Pizza", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_TopBottomHeating"    => __("Convection naturelle", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_PizzaSetting"        => __("Position pizza", __FILE__),
                 "Cooking_Oven_Program_HeatingMode_KeepWarm"            => __("Maintien au chaud", __FILE__),
-                "Cooking_Oven_Program_HeatingMode_PreheatOvenware"     => __("Préchauffer le four", __FILE__),
-                "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco" => __("Cuisson éco", __FILE__),
-                "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial" => __("Réchauffage produit surgelé", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_PreheatOvenware"     => __("Préchauffer des plats allant au four", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco" => __("Convection naturelle éco", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial" => __("CoolStart", __FILE__),
                 "Cooking_Oven_Program_HeatingMode_SlowCook"            => __("Cuisson lente", __FILE__),
-                "Cooking_Oven_Program_HeatingMode_IntensiveHeat"       => __("Chaleur intensive", __FILE__),
+                "Cooking_Oven_Program_HeatingMode_IntensiveHeat"       => __("Chaleur intense", __FILE__),
                 "Cooking_Oven_Program_HeatingMode_Defrost"             => __("Décongélation", __FILE__),
                 "Cooking_Oven_Program_HeatingMode_BottomHeating"       => __("Résistance de sole", __FILE__),
                 "None"                                                 => __("Aucun", __FILE__),
@@ -1358,7 +1374,7 @@ class smartthings_translate
                 "Dishcare_Dishwasher_Program_Intensiv70"               => __("Intensif 70 °C", __FILE__),
                 "Dishcare_Dishwasher_Program_MachineCare"              => __("Soin de la machine", __FILE__),
                 "Dishcare_Dishwasher_Program_PreRinse"                 => __("Pré-rinçage", __FILE__),
-                "Dishcare_Dishwasher_Program_Glas40"                   => __("Verres 40 °C", __FILE__)
+                "Dishcare_Dishwasher_Program_Glas40"                   => __("Verre 40 °C", __FILE__)
             ],
             "protocolType" => [
                 "ble_ocf"    => __("BLE OCF", __FILE__),
@@ -1822,8 +1838,11 @@ class smartthings_translate
                 "veryHigh" => __("Très élévée", __FILE__)
             ],
             "switch" => [
-                "off"    => __("Désactivé", __FILE__),
-                "on"     => __("Activé", __FILE__)
+                "off"      => __("Désactivé", __FILE__),
+                "on"       => __("Activé", __FILE__),
+                "hidden"   => __("Caché", __FILE__),
+                "disabled" => __("Désactivé", __FILE__),
+                "enabled"  => __("Activé", __FILE__)
             ],
             "tagButton" => [
                 "pushed_2x" => __("Appuyer deux fois sur la touche", __FILE__),
@@ -1850,6 +1869,10 @@ class smartthings_translate
                 "rateOfRise" => __("Augmente rapidement", __FILE__),
                 "cleared"    => __("Normale", __FILE__)
             ],
+            "temperatureReference" => [
+                "air"   => __("Air", __FILE__),
+                "water" => __("Eau", __FILE__)
+            ],
             "thermostatOperatingState" => [
                 "idle"            => __("Inactif", __FILE__),
                 "pending heat"    => __("En attente de la chauffe", __FILE__),
@@ -1867,42 +1890,42 @@ class smartthings_translate
             ],
             "thermostatMode" => [
                 "heat"                   => __("Chaleur", __FILE__),
-                "autowithreset"          => __("Automatique + reset", __FILE__),
-                "autochangeoveractive"   => __("Permutation automatique activée", __FILE__),
+                "autowithreset"          => __("Automatique avec réinitialisation", __FILE__),
+                "autochangeoveractive"   => __("Basculement automatique actif", __FILE__),
                 "auto"                   => __("Automatique", __FILE__),
-                "away"                   => __("Parti", __FILE__),
-                "furnace"                => __("Air chaud", __FILE__),
+                "away"                   => __("Absent", __FILE__),
+                "furnace"                => __("Four", __FILE__),
                 "auxiliaryemergencyheat" => __("Chauffage d'appoint d'urgence", __FILE__),
                 "moistair"               => __("Air humide", __FILE__),
                 "manual"                 => __("Manuel", __FILE__),
-                "out"                    => __("Sortie", __FILE__),
+                "out"                    => __("A l'extérieur", __FILE__),
                 "eco"                    => __("Éco", __FILE__),
-                "energysavecool"         => __("Froid économiseur d'énergie", __FILE__),
-                "autoheat"               => __("Chaud auto", __FILE__),
-                "rush hour"              => __("rush hour", __FILE__), // à traduire
+                "energysavecool"         => __("Refroidissement avec économie d'énergie", __FILE__),
+                "autoheat"               => __("Chauffage automatique", __FILE__),
+                "rush hour"              => __("Heure de pointe", __FILE__), // à traduire
                 "auxheatonly"            => __("Chauffage d'appoint uniquement", __FILE__),
-                "rushhour"               => __("rushhour", __FILE__),
+                "rushhour"               => __("Heure pointe", __FILE__),
                 "asleep"                 => __("Endormi", __FILE__),
-                "emergencyheat"          => __("Chaleur d'urgence", __FILE__),
+                "emergencyheat"          => __("Chauffage d'urgence", __FILE__),
                 "heatingoff"             => __("Chauffage éteint", __FILE__),
                 "dryair"                 => __("Air sec", __FILE__),
                 "emergencyheatactive"    => __("Chaleur d'urgence active", __FILE__),
                 "autowitheco"            => __("Auto + éco", __FILE__),
                 "resume"                 => __("Reprendre", __FILE__),
                 "emergency heat"         => __("Chaleur urgente", __FILE__),
-                "in"                     => __("Rentré", __FILE__),
+                "in"                     => __("A l'intérieur", __FILE__),
                 "cool"                   => __("Froid", __FILE__),
                 "custom"                 => __("Personalisé", __FILE__),
-                "dayoff"                 => __("Congés", __FILE__),
-                "energysaveheat"         => __("Chaud économiseur d'énergie", __FILE__),
+                "dayoff"                 => __("Jour de congé", __FILE__),
+                "energysaveheat"         => __("Chauffage en économie d'énergie", __FILE__),
                 "off"                    => __("Désactivé", __FILE__),
                 "home"                   => __("Maison", __FILE__),
-                "autocool"               => __("Froid auto", __FILE__),
-                "schedule"               => __("Programme", __FILE__),
-                "fanonly"                => __("Aération", __FILE__),
-                "autochangeover"         => __("Permutation automatique", __FILE__),
+                "autocool"               => __("Refroidissement automatique", __FILE__),
+                "schedule"               => __("Programmé", __FILE__),
+                "fanonly"                => __("Ventilateur uniquement", __FILE__),
+                "autochangeover"         => __("Basculement automatique", __FILE__),
                 "frostguard"             => __("Hors gel", __FILE__),
-                "southernaway"           => __("southernaway", __FILE__), // à traduire
+                "southernaway"           => __("Méridional", __FILE__), // à traduire
                 "hotwateronly"           => __("Eau chaude uniquement", __FILE__)
             ],
             "tirePressureState" => [
@@ -2910,6 +2933,11 @@ class smartthings_translate
                 "longitude"        => __("Longitude de géolocalisation", __FILE__),
                 "lastUpdateTime"   => __("Heure de dernière géolocalisation", __FILE__)
             ],
+            "hca.washerMode" => [
+                "mode"           => __("Mode de lavage", __FILE__),
+                "supportedModes" => __("Modes de lavage supportés", __FILE__),
+                "setMode"        => __("Changer le mode de lavage", __FILE__)
+            ],
             "healthCheck" => [
                 "checkInterval"            => __("Intervalle de vérification", __FILE__),
                 "healthStatus"             => __("État de santé", __FILE__),
@@ -3418,6 +3446,21 @@ class smartthings_translate
                 "supportedAlarmThresholds" => __("Seuils d'alerte du filtre à poussière supportés", __FILE__),
                 "setAlarmThreshold"        => __("Changer le seuil d'alerte du filtre à poussière", __FILE__),
             ],
+            "samsungce.ehsCycleData" => [
+                "outdoor" => __("Données de cycle extérieur", __FILE__),
+                "indoor"  => __("Données de cycle intérieur", __FILE__)
+            ],
+            "samsungce.ehsFsvSettings" => [
+                "fsvSettings" => __("Paramètres de FSV", __FILE__),
+                "setValue"    => __("Valeur de FSV", __FILE__),
+                "refresh"     => __("Rafraîchir FSV", __FILE__)
+            ],
+            "samsungce.ehsTemperatureReference" => [
+                "temperatureReference" => __("Température de référence", __FILE__)
+            ],
+            "samsungce.ehsThermostat" => [
+                "connectionState" => __("État de la connexion du thermostat", __FILE__)
+            ],
             "samsungce.errorAndAlarmState" => [
                 "events" => __("Événements pour les états d'erreur et d'alarme", __FILE__)
             ],
@@ -3610,6 +3653,9 @@ class smartthings_translate
                 "setCoordinates" => __("Définir les coordonnées", __FILE__),
                 "start"          => __("Démarrer l'accueil", __FILE__)
             ],
+            "samsungce.sacDisplayCondition" => [
+                "switch" => __("Interrupteur de condition d'affichage", __FILE__)
+            ],
             "samsungce.selfCheck" => [
                 "result"           => __("Résultat de l'autocontrôle", __FILE__),
                 "supportedActions" => __("Actions d'autocontrôle supportées", __FILE__),
@@ -3674,6 +3720,12 @@ class smartthings_translate
             ],
             "samsungce.surfaceResidualHeat" => [
                 "surfaceResidualHeat" => __("Chaleur résiduelle en surface", __FILE__)
+            ],
+            "samsungce.toggleSwitch" => [
+                "switch" => __("Interrupteur à bascule", __FILE__),
+                "toggle" => __("Basculer", __FILE__),
+                "off"    => __("Allumer", __FILE__),
+                "on"     => __("Éteindre", __FILE__)
             ],
             "samsungce.viewInside" => [
               "contents"        => __("Contenu du fichier", __FILE__),

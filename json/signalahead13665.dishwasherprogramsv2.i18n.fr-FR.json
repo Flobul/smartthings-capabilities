@@ -1,0 +1,56 @@
+{
+    "tag": "fr-FR",
+    "label": "Dishwasher Programs",
+    "attributes": {
+        "availablePrograms": {
+            "label": "availablePrograms",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "program": {
+            "label": "Programmes",
+            "displayTemplate": "Aucun",
+            "i18n": {
+                "value": {
+                    "Dishcare_Dishwasher_Program_NightWash": {
+                        "label": "Programme Silence 50\u00b0C"
+                    },
+                    "Dishcare_Dishwasher_Program_Auto3": {
+                        "label": "Auto 65-75\u00b0C"
+                    },
+                    "Dishcare_Dishwasher_Program_Auto2": {
+                        "label": "Auto 45-65\u00b0C"
+                    },
+                    "Dishcare_Dishwasher_Program_Eco50": {
+                        "label": "Eco 50\u00b0C"
+                    },
+                    "Dishcare_Dishwasher_Program_Kurz60": {
+                        "label": "Court 60\u00b0C"
+                    },
+                    "Dishcare_Dishwasher_Program_Quick45": {
+                        "label": "Lavage rapide 45\u00b0C"
+                    },
+                    "Dishcare_Dishwasher_Program_Intensiv70": {
+                        "label": "Intensif 70\u00b0C"
+                    },
+                    "Dishcare_Dishwasher_Program_MachineCare": {
+                        "label": "Soin de la machine"
+                    },
+                    "UnknownProgram": {
+                        "label": "Programme inconnu"
+                    },
+                    "None": {
+                        "label": "Aucun"
+                    },
+                    "Dishcare_Dishwasher_Program_PreRinse": {
+                        "label": "Pr\u00e9-rin\u00e7age"
+                    },
+                    "Dishcare_Dishwasher_Program_Glas40": {
+                        "label": "Verre 40\u00b0C"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

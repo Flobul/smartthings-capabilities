@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "EHS Cycle Data",
+    "attributes": {
+        "outdoor": {
+            "label": "outdoor",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "indoor": {
+            "label": "indoor",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

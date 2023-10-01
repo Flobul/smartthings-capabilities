@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "EHS Temperature Reference",
+    "attributes": {
+        "temperatureReference": {
+            "label": "temperatureReference",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "air": {
+                        "label": "air"
+                    },
+                    "water": {
+                        "label": "water"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}
