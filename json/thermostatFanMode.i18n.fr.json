@@ -1,10 +1,11 @@
 {
     "tag": "fr",
     "label": "Mode de ventilation",
+    "description": "Set the current mode of the thermostat fan.",
     "attributes": {
         "thermostatFanMode": {
             "label": "Mode de ventilation",
-            "description": "The current mode of the fan on a thermostat",
+            "description": "The current mode of the fan controlled by the thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {
@@ -25,7 +26,7 @@
         },
         "supportedThermostatFanModes": {
             "label": "Modes de ventilation du thermostat pris en charge",
-            "description": "Modes supported by the thermostat",
+            "description": "If set, determines which fan modes are user-selectable options.",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": []
         }

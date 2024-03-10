@@ -4,45 +4,45 @@
     "description": "Trigger uploading of log information",
     "attributes": {
         "logState": {
-            "label": "logState",
+            "label": "log state",
             "description": "State of the log",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "inProgress": {
-                        "label": "inProgress"
+                        "label": "In Progress"
                     },
                     "idle": {
-                        "label": "idle"
+                        "label": "Idle"
                     }
                 }
             }
         },
         "logRequestState": {
-            "label": "logRequestState",
+            "label": "log request state",
             "description": "State of the log request",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "idle": {
-                        "label": "idle"
+                        "label": "Idle"
                     },
                     "triggerRequired": {
-                        "label": "triggerRequired"
+                        "label": "Trigger Required"
                     }
                 }
             }
         },
         "logInfo": {
-            "label": "logInfo",
+            "label": "log info",
             "description": "Log information",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         }
     },
     "commands": {
         "triggerLogWithUrl": {
-            "description": "Trigger uploa dof the log with URL",
+            "description": "Trigger upload of the log with URL",
             "arguments": []
         },
         "triggerLogWithLogInfo": {

@@ -115,7 +115,9 @@
                             "delayed",
                             "inprogress",
                             "checking",
-                            "completed"
+                            "completed",
+                            "rebooting",
+                            "swapRebooting"
                         ]
                     }
                 },

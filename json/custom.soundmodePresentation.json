@@ -13,10 +13,12 @@
                             "type": "active"
                         }
                     ],
+                    "argumentType": "string",
                     "supportedValues": "supportedSoundModes.value"
                 },
                 "state": {
                     "value": "soundMode.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "NotAvailable",
@@ -43,7 +45,8 @@
                         }
                     ],
                     "supportedValues": "supportedSoundModes.value",
-                    "command": "setSoundMode"
+                    "command": "setSoundMode",
+                    "argumentType": "string"
                 }
             }
         ]

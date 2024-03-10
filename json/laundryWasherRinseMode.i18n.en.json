@@ -1,0 +1,59 @@
+{
+    "tag": "en",
+    "label": "Rinse mode",
+    "description": "Allows for the control of the laundry washer rinse mode.",
+    "attributes": {
+        "rinseMode": {
+            "label": "Rinse mode",
+            "description": "Mode representing the number of rinse cycles performed by the washer",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "max": {
+                        "label": "Max"
+                    },
+                    "extra": {
+                        "label": "Extra"
+                    },
+                    "none": {
+                        "label": "None"
+                    }
+                }
+            }
+        },
+        "supportedRinseModes": {
+            "label": "supported rinse modes",
+            "description": "Rinse modes supported by the laundry washer",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setRinseMode": {
+            "description": "Set the laundry washer rinse mode",
+            "arguments": {
+                "rinseMode": {
+                    "i18n": {
+                        "normal": {
+                            "label": "Normal"
+                        },
+                        "max": {
+                            "label": "Max"
+                        },
+                        "extra": {
+                            "label": "Extra"
+                        },
+                        "none": {
+                            "label": "None"
+                        }
+                    },
+                    "label": "Rinse Mode",
+                    "description": "Set the laundry washer rinse mode to rinse, none, normal, extra or max"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "tag": "en",
+    "label": "Battery level",
+    "description": "Get the qualitative level of the battery",
+    "attributes": {
+        "battery": {
+            "label": "battery level",
+            "description": "A qualitative indication of the level of the battery",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "critical": {
+                        "label": "Critical"
+                    },
+                    "warning": {
+                        "label": "Warning"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

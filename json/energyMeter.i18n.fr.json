@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "Consommation d'\u00e9nergie",
+    "label": "Compteur d'\u00e9nergie",
     "description": "Read the energy consumption of an energy metering device",
     "attributes": {
         "energy": {
-            "label": "Consommation d'\u00e9nergie",
+            "label": "Compteur d'\u00e9nergie",
             "description": "Numeric value representing energy consumption",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} kWh",
             "i18n": []

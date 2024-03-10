@@ -15,9 +15,21 @@
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },
+        "turnInfo": {
+            "label": "turn info",
+            "description": "turn server information to be used by the client for webrtc connection",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
         "supportedFeatures": {
             "label": "SDP offer supported features",
             "description": "SDP Offer options",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
+        "deviceIce": {
+            "label": "ice candidate",
+            "description": "An ICE candidate from the video source",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": []
         },
@@ -39,12 +51,20 @@
             "description": "Start the talkback",
             "arguments": []
         },
+        "clientIce": {
+            "description": "Provide an ICE candidate to the video source",
+            "arguments": []
+        },
         "sdpOffer": {
             "description": "Start the live stream",
             "arguments": []
         },
         "stopTalkback": {
             "description": "Stop the talkback",
+            "arguments": []
+        },
+        "requestTurnInfo": {
+            "description": "Request turn server information",
             "arguments": []
         },
         "end": {

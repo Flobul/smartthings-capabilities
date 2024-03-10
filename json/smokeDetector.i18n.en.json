@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "tested": {
-                        "label": "Tested"
+                        "label": "Device tested"
                     },
                     "clear": {
                         "label": "Clear"

@@ -10,23 +10,11 @@
             "i18n": []
         },
         "inputSource": {
-            "label": "inputSource",
+            "label": "input source",
             "description": "Current input source",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
-                    "digital": {
-                        "label": "digital"
-                    },
-                    "CD": {
-                        "label": "CD"
-                    },
-                    "wifi": {
-                        "label": "wifi"
-                    },
-                    "USB": {
-                        "label": "USB"
-                    },
                     "aux": {
                         "label": "aux"
                     },
@@ -42,17 +30,11 @@
                     "HDMI5": {
                         "label": "HDMI5"
                     },
-                    "AM": {
-                        "label": "AM"
-                    },
                     "HDMI2": {
                         "label": "HDMI2"
                     },
                     "HDMI3": {
                         "label": "HDMI3"
-                    },
-                    "YouTube": {
-                        "label": "YouTube"
                     },
                     "HDMI1": {
                         "label": "HDMI1"
@@ -60,14 +42,53 @@
                     "digitalTv": {
                         "label": "digitalTv"
                     },
+                    "network": {
+                        "label": "network"
+                    },
+                    "coaxial": {
+                        "label": "coaxial"
+                    },
+                    "melon": {
+                        "label": "melon"
+                    },
+                    "digital": {
+                        "label": "digital"
+                    },
+                    "CD": {
+                        "label": "CD"
+                    },
+                    "wifi": {
+                        "label": "wifi"
+                    },
+                    "phono": {
+                        "label": "phono"
+                    },
+                    "USB": {
+                        "label": "USB"
+                    },
+                    "AM": {
+                        "label": "AM"
+                    },
+                    "YouTube": {
+                        "label": "YouTube"
+                    },
                     "bluetooth": {
                         "label": "bluetooth"
+                    },
+                    "analog3": {
+                        "label": "analog3"
                     },
                     "HDMI": {
                         "label": "HDMI"
                     },
-                    "melon": {
-                        "label": "melon"
+                    "analog2": {
+                        "label": "analog2"
+                    },
+                    "analog1": {
+                        "label": "analog1"
+                    },
+                    "optical": {
+                        "label": "optical"
                     }
                 }
             }
@@ -80,7 +101,7 @@
             "arguments": {
                 "mode": {
                     "i18n": [],
-                    "description": "Set the input source, to AM, CD, FM, HDMI, HDMI1, HDMI2, HDMI3, HDMI4, HDMI5, HDMI6, digitalTv, USB, YouTube, aux, bluetooth, digital, melon, or wifi"
+                    "description": "Set the input source, to AM, CD, FM, HDMI, HDMI1, HDMI2, HDMI3, HDMI4, HDMI5, HDMI6, digitalTv, USB, YouTube, aux, bluetooth, digital, melon, wifi, network, optical, coaxial, analog1, analog2, analog3 or phono"
                 }
             }
         }

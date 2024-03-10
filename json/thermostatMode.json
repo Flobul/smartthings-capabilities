@@ -25,6 +25,7 @@
                             "auxiliaryemergencyheat",
                             "away",
                             "cool",
+                            "comfort",
                             "custom",
                             "dayoff",
                             "dryair",
@@ -45,12 +46,19 @@
                             "manual",
                             "moistair",
                             "off",
+                            "on",
                             "out",
                             "resume",
                             "rush hour",
                             "rushhour",
                             "schedule",
-                            "southernaway"
+                            "southernaway",
+                            "precooling",
+                            "lukewarm",
+                            "warm",
+                            "hot",
+                            "veryhot",
+                            "ondol"
                         ]
                     },
                     "data": {
@@ -76,6 +84,7 @@
                                         "auxiliaryemergencyheat",
                                         "away",
                                         "cool",
+                                        "comfort",
                                         "custom",
                                         "dayoff",
                                         "dryair",
@@ -96,12 +105,19 @@
                                         "manual",
                                         "moistair",
                                         "off",
+                                        "on",
                                         "out",
                                         "resume",
                                         "rush hour",
                                         "rushhour",
                                         "schedule",
-                                        "southernaway"
+                                        "southernaway",
+                                        "precooling",
+                                        "lukewarm",
+                                        "warm",
+                                        "hot",
+                                        "veryhot",
+                                        "ondol"
                                     ]
                                 }
                             }
@@ -159,6 +175,7 @@
                                 "auxiliaryemergencyheat",
                                 "away",
                                 "cool",
+                                "comfort",
                                 "custom",
                                 "dayoff",
                                 "dryair",
@@ -179,12 +196,19 @@
                                 "manual",
                                 "moistair",
                                 "off",
+                                "on",
                                 "out",
                                 "resume",
                                 "rush hour",
                                 "rushhour",
                                 "schedule",
-                                "southernaway"
+                                "southernaway",
+                                "precooling",
+                                "lukewarm",
+                                "warm",
+                                "hot",
+                                "veryhot",
+                                "ondol"
                             ]
                         }
                     }
@@ -226,6 +250,7 @@
                             "auxiliaryemergencyheat",
                             "away",
                             "cool",
+                            "comfort",
                             "custom",
                             "dayoff",
                             "dryair",
@@ -246,12 +271,19 @@
                             "manual",
                             "moistair",
                             "off",
+                            "on",
                             "out",
                             "resume",
                             "rush hour",
                             "rushhour",
                             "schedule",
-                            "southernaway"
+                            "southernaway",
+                            "precooling",
+                            "lukewarm",
+                            "warm",
+                            "hot",
+                            "veryhot",
+                            "ondol"
                         ]
                     }
                 }

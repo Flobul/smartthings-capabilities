@@ -1,17 +1,32 @@
 {
     "tag": "en",
     "label": "Security mode",
-    "description": "Allows for the control of a security system device",
+    "description": "Allows for the control of a security system",
     "attributes": {
+        "sensorStatus": {
+            "label": "Sensor Status",
+            "description": "Array of sensors that are open or otherwise not functional, requiring a bypass to arm the system",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "ready": {
+                        "label": "Ready"
+                    },
+                    "bypassedNotReady": {
+                        "label": "Bypassed \/ Not Ready"
+                    }
+                }
+            }
+        },
         "alarm": {
             "label": "alarm",
-            "description": "The reference to the device that most recently generated an event to trigger an alarm",
+            "description": "[DEPRECATED] The reference to the device that most recently generated an event to trigger an alarm",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": []
         },
         "securitySystemStatus": {
-            "label": "Security mode",
-            "description": "The current status of the security system",
+            "label": "Arming Status",
+            "description": "The current arming status of the security system",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
@@ -19,10 +34,10 @@
                         "label": "Disarmed"
                     },
                     "armedStay": {
-                        "label": "Armed (stay)"
+                        "label": "Armed (Stay)"
                     },
                     "armedAway": {
-                        "label": "Armed (away)"
+                        "label": "Armed (Away)"
                     }
                 }
             }

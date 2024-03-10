@@ -34,7 +34,7 @@
             "i18n": {
                 "value": {
                     "unlocked with timeout": {
-                        "label": "unlocked with timeout"
+                        "label": "D\u00e9verrouill\u00e9 avec expiration"
                     },
                     "not fully locked": {
                         "label": "not fully locked"

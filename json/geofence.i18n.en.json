@@ -4,9 +4,9 @@
     "description": "Allows for setting parameters of a geofence",
     "attributes": {
         "enableState": {
-            "label": "enableState",
+            "label": "Enable State",
             "description": "The enable state of the geofence",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
             "i18n": {
                 "value": {
                     "disabled": {
@@ -19,15 +19,15 @@
             }
         },
         "geofence": {
-            "label": "geofence",
+            "label": "Geofence",
             "description": "The geographical coordinates of the geofence",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
             "i18n": []
         },
         "name": {
-            "label": "name",
+            "label": "Name",
             "description": "The name of the geofence",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
             "i18n": []
         }
     },

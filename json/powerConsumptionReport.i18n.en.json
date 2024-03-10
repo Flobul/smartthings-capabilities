@@ -4,9 +4,9 @@
     "description": "Allows periodically reporting the energy and power consumption",
     "attributes": {
         "powerConsumption": {
-            "label": "powerConsumption",
+            "label": "power consumption",
             "description": "energy and power consumption during specific time period",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {
                 "value": {
                     "prop": {

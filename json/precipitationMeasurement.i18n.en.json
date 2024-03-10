@@ -4,9 +4,9 @@
     "description": "Allows for reading the level of precipitation from devices that report it.",
     "attributes": {
         "precipitationLevel": {
-            "label": "precipitationLevel",
+            "label": "precipitation level",
             "description": "The level of precipitation measured in millimeters or inches.",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}{{unit}}",
             "i18n": []
         }
     },

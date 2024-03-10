@@ -24,6 +24,9 @@
                     "good": {
                         "label": "Bon"
                     },
+                    "unknown": {
+                        "label": "unknown"
+                    },
                     "moderate": {
                         "label": "Moyen"
                     }

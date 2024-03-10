@@ -1,0 +1,14 @@
+{
+    "tag": "fr",
+    "label": "Vitesse du vent",
+    "description": "Get the value of wind speed from a weather sensor or anemometer",
+    "attributes": {
+        "windspeed": {
+            "label": "Vitesse du vent",
+            "description": "A number representing the current measured wind speed",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} m\/s",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

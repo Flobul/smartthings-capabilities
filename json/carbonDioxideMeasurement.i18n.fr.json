@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "CO2",
+    "label": "Concentration en dioxyde de carbone",
     "description": "Measure carbon dioxide levels",
     "attributes": {
         "carbonDioxide": {
-            "label": "CO2",
+            "label": "Concentration en dioxyde de carbone",
             "description": "The level of carbon dioxide detected",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} ppm",
             "i18n": []

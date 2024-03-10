@@ -1,31 +1,32 @@
 {
     "tag": "en",
     "label": "Fan mode",
+    "description": "Set the current mode of the thermostat fan.",
     "attributes": {
         "thermostatFanMode": {
-            "label": "Fan mode",
-            "description": "The current mode of the fan on a thermostat",
+            "label": "thermostat fan mode",
+            "description": "The current mode of the fan controlled by the thermostat",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "followschedule": {
-                        "label": "Schedule"
+                        "label": "followschedule"
                     },
                     "auto": {
-                        "label": "Auto"
+                        "label": "auto"
                     },
                     "circulate": {
-                        "label": "Circulate"
+                        "label": "circulate"
                     },
                     "on": {
-                        "label": "On"
+                        "label": "on"
                     }
                 }
             }
         },
         "supportedThermostatFanModes": {
             "label": "supported thermostat fan modes",
-            "description": "Modes supported by the thermostat",
+            "description": "If set, determines which fan modes are user-selectable options.",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         }
@@ -41,7 +42,7 @@
                 "mode": {
                     "i18n": {
                         "followschedule": {
-                            "label": "Schedule"
+                            "label": "Follow Schedule"
                         },
                         "auto": {
                             "label": "Auto"

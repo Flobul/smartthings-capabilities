@@ -1,17 +1,32 @@
 {
     "tag": "fr",
     "label": "Mode de s\u00e9curit\u00e9",
-    "description": "Allows for the control of a security system device",
+    "description": "Allows for the control of a security system",
     "attributes": {
+        "sensorStatus": {
+            "label": "Sensor Status",
+            "description": "Array of sensors that are open or otherwise not functional, requiring a bypass to arm the system",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "ready": {
+                        "label": "Ready"
+                    },
+                    "bypassedNotReady": {
+                        "label": "Bypassed \/ Not Ready"
+                    }
+                }
+            }
+        },
         "alarm": {
             "label": "Alarme",
-            "description": "The reference to the device that most recently generated an event to trigger an alarm",
+            "description": "[DEPRECATED] The reference to the device that most recently generated an event to trigger an alarm",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         },
         "securitySystemStatus": {
             "label": "Mode de s\u00e9curit\u00e9",
-            "description": "The current status of the security system",
+            "description": "The current arming status of the security system",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {

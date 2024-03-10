@@ -3,6 +3,12 @@
     "label": "Temp\u00e9rature de refroidissement",
     "description": "Allows for setting the cooling setpoint on a thermostat",
     "attributes": {
+        "coolingSetpointRange": {
+            "label": "cooling setpoint range",
+            "description": "Constraints on the cooling setpoint value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
         "coolingSetpoint": {
             "label": "Temp\u00e9rature de refroidissement",
             "description": "The current cooling setpoint",

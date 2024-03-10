@@ -8,7 +8,7 @@
             "i18n": []
         },
         "cooktopOperatingState": {
-            "label": "cooktopOperatingState",
+            "label": "Cooktop status",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {

@@ -10,41 +10,32 @@
                     "aIRinse": {
                         "label": "Rinsing"
                     },
-                    "weightSensing": {
-                        "label": "Sensing the load"
-                    },
-                    "wash": {
-                        "label": "Washing"
-                    },
                     "laundrySensing": {
                         "label": "Detecting laundry"
                     },
                     "delayWash": {
                         "label": "End of cycle delayed"
                     },
-                    "finished": {
-                        "label": "Cycle complete"
-                    },
                     "none": {
                         "label": "Working"
+                    },
+                    "cleaningCondenser": {
+                        "label": "Cleaning condenser"
                     },
                     "airWash": {
                         "label": "Refreshing"
                     },
-                    "drying": {
-                        "label": "Drying"
-                    },
-                    "aIWash": {
-                        "label": "Washing"
-                    },
-                    "spin": {
-                        "label": "Spinning"
-                    },
                     "preWash": {
-                        "label": "preWash"
+                        "label": "Prewashing"
                     },
                     "aISpin": {
                         "label": "Spinning"
+                    },
+                    "internalCare": {
+                        "label": "Drying"
+                    },
+                    "removingSuds": {
+                        "label": "Removing suds"
                     },
                     "drumCleaning": {
                         "label": "Cleaning"
@@ -57,6 +48,36 @@
                     },
                     "freezeProtection": {
                         "label": "Prevent freezing"
+                    },
+                    "waitingToDry": {
+                        "label": "Waiting to dry"
+                    },
+                    "weightSensing": {
+                        "label": "Sensing the load"
+                    },
+                    "wash": {
+                        "label": "Washing"
+                    },
+                    "sanitizing": {
+                        "label": "Sanitizing"
+                    },
+                    "finished": {
+                        "label": "Cycle complete"
+                    },
+                    "drying": {
+                        "label": "Drying"
+                    },
+                    "aIWash": {
+                        "label": "Washing"
+                    },
+                    "spin": {
+                        "label": "Spinning"
+                    },
+                    "cooling": {
+                        "label": "Cooling"
+                    },
+                    "aIDrying": {
+                        "label": "aIDrying"
                     },
                     "dispenserCleaning": {
                         "label": "dispenserCleaning"

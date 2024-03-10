@@ -4,9 +4,9 @@
     "description": "Allows requests to be made to appliances to temporarily reduce their energy usage to reduce demand on the power grid",
     "attributes": {
         "drlcStatus": {
-            "label": "drlcStatus",
+            "label": "drlc status",
             "description": "The status of the current or last active DRLC request",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {
                 "value": {
                     "prop": {

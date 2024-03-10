@@ -4,9 +4,9 @@
     "description": "Allows for reading the rate of precipitation from devices that report it.",
     "attributes": {
         "precipitationRate": {
-            "label": "precipitationRate",
+            "label": "precipitation rate",
             "description": "The rate of precipitation measured in mm\/hr or in\/hr.",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}{{unit}}",
             "i18n": []
         }
     },

@@ -6,7 +6,7 @@
         "lock": {
             "label": "lock",
             "description": "The state of the lock device",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "unlocked with timeout": {

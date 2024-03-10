@@ -57,6 +57,9 @@
                     "Healthycook4": {
                         "label": "Healthycook4"
                     },
+                    "SensorSelfDiagnosis": {
+                        "label": "SensorSelfDiagnosis"
+                    },
                     "Healthycook3": {
                         "label": "Healthycook3"
                     },
@@ -120,6 +123,9 @@
                     "FavoriteCook": {
                         "label": "FavoriteCook"
                     },
+                    "Turkey": {
+                        "label": "Turkey"
+                    },
                     "Autocook": {
                         "label": "Autocook"
                     },
@@ -128,6 +134,9 @@
                     },
                     "GreenClean": {
                         "label": "GreenClean"
+                    },
+                    "AiReheat": {
+                        "label": "AiReheat"
                     },
                     "AirFry": {
                         "label": "AirFry"
@@ -189,8 +198,14 @@
                     "Easycook3": {
                         "label": "Easycook3"
                     },
+                    "SpareRib": {
+                        "label": "SpareRib"
+                    },
                     "VaporCleaning": {
                         "label": "VaporCleaning"
+                    },
+                    "AiSousvide": {
+                        "label": "AiSousvide"
                     },
                     "WarmHold": {
                         "label": "WarmHold"
@@ -212,6 +227,9 @@
                     },
                     "SpeedBroil": {
                         "label": "SpeedBroil"
+                    },
+                    "AiDefrost": {
+                        "label": "AiDefrost"
                     },
                     "ProveDough": {
                         "label": "ProveDough"
@@ -236,6 +254,15 @@
                     },
                     "ToastSlicedBread": {
                         "label": "ToastSlicedBread"
+                    },
+                    "Brownie": {
+                        "label": "Brownie"
+                    },
+                    "Seafood": {
+                        "label": "Seafood"
+                    },
+                    "PizzaNaan": {
+                        "label": "PizzaNaan"
                     },
                     "SlowCookStew": {
                         "label": "SlowCookStew"

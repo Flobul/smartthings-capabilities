@@ -3,6 +3,12 @@
     "label": "Temp\u00e9rature de couleur",
     "description": "Set the color temperature attribute of a color changing device",
     "attributes": {
+        "colorTemperatureRange": {
+            "label": "color temperature range",
+            "description": "Constraints on the color temperature value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
         "colorTemperature": {
             "label": "Temp\u00e9rature de couleur",
             "description": "A number that represents the color temperature, measured in degrees Kelvin",

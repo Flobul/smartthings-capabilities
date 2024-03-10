@@ -108,6 +108,86 @@
                         "key": "welcoming",
                         "value": "{{i18n.attributes.operatingState.i18n.value.welcoming.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "detachingMopPad",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.detachingMopPad.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "waitingForChangingMopPad",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.idle.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "attachingMopPad",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.attachingMopPad.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "attachingMopPadForRemainingJob",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.attachingMopPad.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "washingMop",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.washingMop.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sterilizingMop",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.sterilizingMop.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dryingMop",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.dryingMop.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "spinDrying",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.spinDrying.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "preparingWater",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.preparingWater.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "supplyingWater",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.supplyingWater.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "flexCharged",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.flexCharged.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "descaling",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.descaling.label}}",
+                        "type": "active"
+                    }
+                ]
+            },
+            {
+                "label": "{{cleaningStep.value}}",
+                "alternatives": [
+                    {
+                        "key": "mopping",
+                        "value": "{{i18n.attributes.cleaningStep.i18n.value.mopping.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "vacuuming",
+                        "value": "{{i18n.attributes.cleaningStep.i18n.value.vacuuming.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "oneStepCleaning",
+                        "value": "{{i18n.attributes.cleaningStep.i18n.value.oneStepCleaning.label}}",
+                        "type": "active"
                     }
                 ]
             }

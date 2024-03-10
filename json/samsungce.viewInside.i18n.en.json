@@ -2,6 +2,11 @@
     "tag": "en",
     "label": "View Inside",
     "attributes": {
+        "supportedFocusAreas": {
+            "label": "supportedFocusAreas",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
         "contents": {
             "label": "contents",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",

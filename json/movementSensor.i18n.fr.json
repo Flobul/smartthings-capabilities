@@ -1,0 +1,32 @@
+{
+    "tag": "fr",
+    "label": "D\u00e9tection du capteur de mouvement",
+    "description": "Allows for the ability to read movement sensor device states",
+    "attributes": {
+        "movement": {
+            "label": "D\u00e9tection du capteur de mouvement",
+            "description": "The current state of the movement sensor",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "entering": {
+                        "label": "Entr\u00e9e"
+                    },
+                    "inactive": {
+                        "label": "Pr\u00eat"
+                    },
+                    "movingAway": {
+                        "label": "\u00c9loignement"
+                    },
+                    "approaching": {
+                        "label": "Approche"
+                    },
+                    "leaving": {
+                        "label": "D\u00e9part"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

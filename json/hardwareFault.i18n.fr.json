@@ -1,0 +1,22 @@
+{
+    "tag": "fr",
+    "label": "Probl\u00e8me mat\u00e9riel",
+    "description": "Gets the state of the hardware fault.",
+    "attributes": {
+        "hardwareFault": {
+            "label": "Probl\u00e8me mat\u00e9riel",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "clear": {
+                        "label": "Absent"
+                    },
+                    "detected": {
+                        "label": "Detected"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

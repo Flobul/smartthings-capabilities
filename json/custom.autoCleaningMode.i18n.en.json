@@ -13,6 +13,9 @@
                     "speedClean": {
                         "label": "speedClean"
                     },
+                    "timedClean": {
+                        "label": "timedClean"
+                    },
                     "off": {
                         "label": "off"
                     },

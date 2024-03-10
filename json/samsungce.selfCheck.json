@@ -15,7 +15,8 @@
                         "enum": [
                             "passed",
                             "failed",
-                            "checking"
+                            "checking",
+                            "cancelled"
                         ]
                     }
                 },

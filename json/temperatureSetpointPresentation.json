@@ -1,0 +1,81 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{temperatureSetpoint.value}} {{temperatureSetpoint.unit}}",
+                "alternatives": [
+                    {
+                        "key": "C",
+                        "value": "\u00b0C",
+                        "type": "active"
+                    },
+                    {
+                        "key": "K",
+                        "value": "\u00b0K",
+                        "type": "active"
+                    },
+                    {
+                        "key": "F",
+                        "value": "\u00b0F",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    -460,
+                    10000
+                ],
+                "unit": "temperatureSetpoint.unit",
+                "supportedValues": "temperatureSetpointRange.value",
+                "command": "setTemperatureSetpoint",
+                "argumentType": "number",
+                "value": "temperatureSetpoint.value",
+                "valueType": "number"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "temperatureSetpoint.value",
+                    "valueType": "number",
+                    "unit": "temperatureSetpoint.unit",
+                    "range": [
+                        -460,
+                        10000
+                    ],
+                    "supportedValues": "temperatureSetpointRange.value"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "setTemperatureSetpoint",
+                    "argumentType": "number",
+                    "unit": "temperatureSetpoint.unit",
+                    "range": [
+                        -460,
+                        10000
+                    ],
+                    "supportedValues": "temperatureSetpointRange.value"
+                }
+            }
+        ]
+    },
+    "id": "temperatureSetpoint",
+    "version": 1
+}

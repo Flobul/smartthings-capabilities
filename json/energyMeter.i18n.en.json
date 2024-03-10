@@ -1,10 +1,10 @@
 {
     "tag": "en",
-    "label": "Energy consumption",
+    "label": "Energy meter",
     "description": "Read the energy consumption of an energy metering device",
     "attributes": {
         "energy": {
-            "label": "Energy consumption",
+            "label": "Energy meter",
             "description": "Numeric value representing energy consumption",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} {{unit}}",
             "i18n": []

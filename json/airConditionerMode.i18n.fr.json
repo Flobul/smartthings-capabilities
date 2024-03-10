@@ -34,13 +34,13 @@
                         "label": "sleep"
                     },
                     "fan": {
-                        "label": "A\u00e9ration"
-                    },
-                    "heatex": {
-                        "label": "heatEx"
+                        "label": "Ventilation"
                     },
                     "purification": {
                         "label": "purification"
+                    },
+                    "heatex": {
+                        "label": "heatEx"
                     },
                     "power": {
                         "label": "power"
@@ -54,11 +54,11 @@
                     "heatclean": {
                         "label": "Chaud, purification"
                     },
-                    "dryclean": {
-                        "label": "Sec, purification"
-                    },
                     "std": {
                         "label": "std"
+                    },
+                    "dryclean": {
+                        "label": "Sec, purification"
                     },
                     "cool": {
                         "label": "Froid"
@@ -69,11 +69,11 @@
                     "dry": {
                         "label": "S\u00e9chage"
                     },
-                    "clean": {
-                        "label": "Purification"
-                    },
                     "notsupported": {
                         "label": "Not Supported"
+                    },
+                    "clean": {
+                        "label": "Purification"
                     },
                     "bypass": {
                         "label": "bypass"
@@ -82,7 +82,7 @@
                         "label": "force"
                     },
                     "fanonly": {
-                        "label": "A\u00e9ration"
+                        "label": "Ventilateur uniquement"
                     },
                     "coolclean": {
                         "label": "Froid, purification"
@@ -116,26 +116,26 @@
                         "aicomfort": {
                             "label": "IA Refroidissement confortable"
                         },
-                        "eco": {
-                            "label": "eco"
-                        },
                         "sleep": {
                             "label": "Nuit"
                         },
-                        "fan": {
-                            "label": "A\u00e9ration"
+                        "eco": {
+                            "label": "eco"
                         },
-                        "heatex": {
-                            "label": "heatEx"
+                        "fan": {
+                            "label": "Ventilation"
                         },
                         "purification": {
                             "label": "purification"
                         },
-                        "power": {
-                            "label": "power"
+                        "heatex": {
+                            "label": "heatEx"
                         },
                         "smartventilation": {
                             "label": "smartVentilation"
+                        },
+                        "power": {
+                            "label": "power"
                         },
                         "comfortcooling": {
                             "label": "Refroidissement confortable"
@@ -143,11 +143,11 @@
                         "heatclean": {
                             "label": "Chaud, purification"
                         },
-                        "dryclean": {
-                            "label": "Sec, purification"
-                        },
                         "std": {
                             "label": "std"
+                        },
+                        "dryclean": {
+                            "label": "Sec, purification"
                         },
                         "cool": {
                             "label": "Froid"
@@ -171,7 +171,7 @@
                             "label": "force"
                         },
                         "fanonly": {
-                            "label": "A\u00e9ration"
+                            "label": "Ventilateur uniquement"
                         },
                         "coolclean": {
                             "label": "Froid, purification"

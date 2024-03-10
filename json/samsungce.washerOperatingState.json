@@ -15,6 +15,7 @@
                             "airWash",
                             "delayWash",
                             "drying",
+                            "cooling",
                             "finished",
                             "none",
                             "preWash",
@@ -29,7 +30,13 @@
                             "aIWash",
                             "aIRinse",
                             "aISpin",
-                            "freezeProtection"
+                            "aIDrying",
+                            "freezeProtection",
+                            "sanitizing",
+                            "internalCare",
+                            "removingSuds",
+                            "waitingToDry",
+                            "cleaningCondenser"
                         ]
                     }
                 },
@@ -98,6 +105,7 @@
                                         "airWash",
                                         "delayWash",
                                         "drying",
+                                        "cooling",
                                         "finished",
                                         "none",
                                         "preWash",
@@ -112,7 +120,13 @@
                                         "aIWash",
                                         "aIRinse",
                                         "aISpin",
-                                        "freezeProtection"
+                                        "aIDrying",
+                                        "freezeProtection",
+                                        "sanitizing",
+                                        "internalCare",
+                                        "removingSuds",
+                                        "waitingToDry",
+                                        "cleaningCondenser"
                                     ]
                                 },
                                 "timeInMin": {

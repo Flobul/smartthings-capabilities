@@ -12,8 +12,26 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
+                    "attachingMopPad": {
+                        "label": "Serpill\u00e8re en train d'\u00eatre fix\u00e9e"
+                    },
+                    "washingMop": {
+                        "label": "Lavage de la serpill\u00e8re"
+                    },
                     "paused": {
                         "label": "Pause"
+                    },
+                    "attachingMopPadForRemainingJob": {
+                        "label": "Serpill\u00e8re en train d'\u00eatre fix\u00e9e"
+                    },
+                    "sterilizingMop": {
+                        "label": "St\u00e9rilisation de la serpill\u00e8re"
+                    },
+                    "spinDrying": {
+                        "label": "Essorage de la serpill\u00e8re"
+                    },
+                    "dryingMop": {
+                        "label": "S\u00e9chage de la serpill\u00e8re"
                     },
                     "factoryReset": {
                         "label": "factoryReset"
@@ -30,6 +48,9 @@
                     "welcoming": {
                         "label": "Accueil d'un enfant"
                     },
+                    "flexCharged": {
+                        "label": "Charg\u00e9"
+                    },
                     "homing": {
                         "label": "Retour"
                     },
@@ -40,7 +61,10 @@
                         "label": "En d\u00e9placement"
                     },
                     "relocal": {
-                        "label": "Localisation"
+                        "label": "Recherche d'emplacement"
+                    },
+                    "descaling": {
+                        "label": "Descaling"
                     },
                     "cleaning": {
                         "label": "Nettoyage"
@@ -48,17 +72,29 @@
                     "patrol": {
                         "label": "Patrouille"
                     },
+                    "waitingForChangingMopPad": {
+                        "label": "En attente"
+                    },
+                    "detachingMopPad": {
+                        "label": "Serpill\u00e8re en train d'\u00eatre retir\u00e9e"
+                    },
                     "idle": {
                         "label": "En attente"
                     },
+                    "preparingWater": {
+                        "label": "Pr\u00e9paration de l'eau"
+                    },
                     "findingPet": {
                         "label": "Surveillance"
+                    },
+                    "supplyingWater": {
+                        "label": "Remplissage de l'eau en cours"
                     },
                     "charging": {
                         "label": "En charge"
                     },
                     "emitDust": {
-                        "label": "\u00c9mission de poussi\u00e8re"
+                        "label": "Vidage du sac \u00e0 poussi\u00e8re"
                     },
                     "monitoring": {
                         "label": "Surveillance"
@@ -79,13 +115,33 @@
                         "label": "reserved"
                     },
                     "processing": {
-                        "label": "Localisation"
+                        "label": "Recherche d'emplacement"
                     },
                     "chargingForRemainingJob": {
                         "label": "En charge"
                     },
                     "charged": {
                         "label": "Charge compl\u00e8te"
+                    }
+                }
+            }
+        },
+        "cleaningStep": {
+            "label": "cleaningStep",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "oneStepCleaning": {
+                        "label": "Nettoyage"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "vacuuming": {
+                        "label": "Passage de l'aspirateur"
+                    },
+                    "mopping": {
+                        "label": "Passage de la serpill\u00e8re"
                     }
                 }
             }
@@ -98,6 +154,9 @@
                     "cleaningCompleted": {
                         "label": "cleaningCompleted"
                     },
+                    "washingMop": {
+                        "label": "washingMop"
+                    },
                     "mapCreated": {
                         "label": "mapCreated"
                     },
@@ -109,6 +168,9 @@
                     },
                     "dustFulled": {
                         "label": "dustFulled"
+                    },
+                    "changingMopPad": {
+                        "label": "changingMopPad"
                     },
                     "none": {
                         "label": "none"

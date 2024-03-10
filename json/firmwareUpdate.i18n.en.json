@@ -4,60 +4,69 @@
     "description": "Allows a device firmware to be updated over the network",
     "attributes": {
         "lastUpdateStatusReason": {
-            "label": "lastUpdateStatusReason",
+            "label": "Firmware update result reason",
             "description": "The explanation of the reason for the status of the most recent update attempt.",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
         "availableVersion": {
-            "label": "availableVersion",
-            "description": "version of the firmware to download",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Available firmware Version",
+            "description": "The firmware version available for an update",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
         "lastUpdateStatus": {
-            "label": "lastUpdateStatus",
+            "label": "Firmware update status",
             "description": "The status of the most recent update attempt.",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "updateFailed": {
-                        "label": "updateFailed"
+                        "label": "Update Failed"
                     },
                     "updateSucceeded": {
-                        "label": "updateSucceeded"
+                        "label": "Update Succeeded"
                     }
                 }
             }
         },
         "state": {
-            "label": "state",
+            "label": "Firmware update process state",
             "description": "The state of the firmware update process",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
+                    "updateRequested": {
+                        "label": "Update Requested"
+                    },
                     "updateInProgress": {
-                        "label": "updateInProgress"
+                        "label": "Update in Progress"
                     },
                     "insufficientStorage": {
-                        "label": "insufficientStorage"
+                        "label": "Insufficient Storage"
                     },
                     "normalOperation": {
-                        "label": "normalOperation"
+                        "label": "Normal Operation"
                     }
                 }
             }
         },
+        "updateAvailable": {
+            "label": "Update available",
+            "description": "Set to true when an update is available for the device and otherwise false",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
         "currentVersion": {
-            "label": "currentVersion",
-            "description": "The current version reported by the device firmware, should update after OTA completes",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Current firmware version",
+            "description": "The current firmware version reported by the device",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
         "lastUpdateTime": {
-            "label": "lastUpdateTime",
+            "label": "Last update attempt time",
             "description": "The time of the most recent download or update attempt.",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         }
     },

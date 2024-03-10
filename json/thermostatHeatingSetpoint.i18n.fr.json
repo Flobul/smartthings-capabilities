@@ -8,6 +8,12 @@
             "description": "The current heating setpoint",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}{{unit}}",
             "i18n": []
+        },
+        "heatingSetpointRange": {
+            "label": "heating setpoint range",
+            "description": "Constraints on the heating setpoint value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
         }
     },
     "commands": {

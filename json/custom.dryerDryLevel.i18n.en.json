@@ -13,6 +13,15 @@
                     "delicate": {
                         "label": "delicate"
                     },
+                    "drum60": {
+                        "label": "drum60"
+                    },
+                    "drum40": {
+                        "label": "drum40"
+                    },
+                    "drum20": {
+                        "label": "drum20"
+                    },
                     "none": {
                         "label": "none"
                     },

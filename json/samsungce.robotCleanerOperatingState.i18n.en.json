@@ -12,8 +12,26 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
+                    "attachingMopPad": {
+                        "label": "Attaching mop"
+                    },
+                    "washingMop": {
+                        "label": "Washing mop"
+                    },
                     "paused": {
                         "label": "Paused"
+                    },
+                    "attachingMopPadForRemainingJob": {
+                        "label": "Attaching mop"
+                    },
+                    "sterilizingMop": {
+                        "label": "Sterilizing mop"
+                    },
+                    "spinDrying": {
+                        "label": "Dehydrating mop"
+                    },
+                    "dryingMop": {
+                        "label": "Drying mop"
                     },
                     "factoryReset": {
                         "label": "factoryReset"
@@ -30,6 +48,9 @@
                     "welcoming": {
                         "label": "Welcoming child"
                     },
+                    "flexCharged": {
+                        "label": "Charged"
+                    },
                     "homing": {
                         "label": "Returning"
                     },
@@ -40,7 +61,10 @@
                         "label": "Moving"
                     },
                     "relocal": {
-                        "label": "Relocal"
+                        "label": "Finding location"
+                    },
+                    "descaling": {
+                        "label": "Descaling"
                     },
                     "cleaning": {
                         "label": "Cleaning"
@@ -48,17 +72,29 @@
                     "patrol": {
                         "label": "Patrolling"
                     },
+                    "waitingForChangingMopPad": {
+                        "label": "Waiting"
+                    },
+                    "detachingMopPad": {
+                        "label": "Removing mop"
+                    },
                     "idle": {
                         "label": "Waiting"
                     },
+                    "preparingWater": {
+                        "label": "Preparing the water"
+                    },
                     "findingPet": {
                         "label": "Monitoring"
+                    },
+                    "supplyingWater": {
+                        "label": "Filling the water in"
                     },
                     "charging": {
                         "label": "Charging"
                     },
                     "emitDust": {
-                        "label": "Emitting Dust"
+                        "label": "Emptying dust"
                     },
                     "monitoring": {
                         "label": "Monitoring"
@@ -79,13 +115,33 @@
                         "label": "reserved"
                     },
                     "processing": {
-                        "label": "Relocal"
+                        "label": "Finding location"
                     },
                     "chargingForRemainingJob": {
                         "label": "Charging"
                     },
                     "charged": {
                         "label": "Fully Charged"
+                    }
+                }
+            }
+        },
+        "cleaningStep": {
+            "label": "cleaningStep",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "oneStepCleaning": {
+                        "label": "Cleaning"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "vacuuming": {
+                        "label": "Vacumming"
+                    },
+                    "mopping": {
+                        "label": "Wet mopping"
                     }
                 }
             }
@@ -98,6 +154,9 @@
                     "cleaningCompleted": {
                         "label": "cleaningCompleted"
                     },
+                    "washingMop": {
+                        "label": "washingMop"
+                    },
                     "mapCreated": {
                         "label": "mapCreated"
                     },
@@ -109,6 +168,9 @@
                     },
                     "dustFulled": {
                         "label": "dustFulled"
+                    },
+                    "changingMopPad": {
+                        "label": "changingMopPad"
                     },
                     "none": {
                         "label": "none"
@@ -146,7 +208,7 @@
             "arguments": []
         },
         "pause": {
-            "label": "Paused",
+            "label": "Pause",
             "arguments": []
         },
         "cancelRemainingJob": {

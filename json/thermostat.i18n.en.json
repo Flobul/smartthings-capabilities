@@ -61,19 +61,19 @@
                         "label": "Idle"
                     },
                     "pending heat": {
-                        "label": "pending heat"
+                        "label": "Pending heat"
                     },
                     "vent economizer": {
-                        "label": "vent economizer"
+                        "label": "Vent economiser"
                     },
                     "cooling": {
                         "label": "Cooling"
                     },
                     "pending cool": {
-                        "label": "pending cool"
+                        "label": "Pending cool"
                     },
                     "fan only": {
-                        "label": "fan only"
+                        "label": "Fan only"
                     },
                     "heating": {
                         "label": "Heating"

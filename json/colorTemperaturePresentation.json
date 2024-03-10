@@ -17,6 +17,7 @@
                     30000
                 ],
                 "unit": "colorTemperature.unit",
+                "supportedValues": "colorTemperatureRange.value",
                 "command": "setColorTemperature",
                 "argumentType": "integer",
                 "value": "colorTemperature.value",
@@ -35,6 +36,7 @@
                         30000
                     ],
                     "unit": "colorTemperature.unit",
+                    "supportedValues": "colorTemperatureRange.value",
                     "value": "colorTemperature.value",
                     "valueType": "integer"
                 }
@@ -50,6 +52,7 @@
                         30000
                     ],
                     "unit": "colorTemperature.unit",
+                    "supportedValues": "colorTemperatureRange.value",
                     "command": "setColorTemperature",
                     "argumentType": "integer"
                 }

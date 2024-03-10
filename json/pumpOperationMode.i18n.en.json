@@ -1,0 +1,79 @@
+{
+    "tag": "en",
+    "label": "Pump Operation Mode",
+    "description": "Allows for setting the operation mode on a pump.",
+    "attributes": {
+        "operationMode": {
+            "label": "Operation Mode",
+            "description": "The operation mode of the pump",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "maximum": {
+                        "label": "Maximum"
+                    },
+                    "minimum": {
+                        "label": "Minimum"
+                    },
+                    "local": {
+                        "label": "Local"
+                    }
+                }
+            }
+        },
+        "supportedOperationModes": {
+            "label": "supported operation modes",
+            "description": "Supported operation modes for this device to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        },
+        "currentOperationMode": {
+            "label": "Operation Mode",
+            "description": "The current effective operation mode of the pump",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "maximum": {
+                        "label": "Maximum"
+                    },
+                    "minimum": {
+                        "label": "Minimum"
+                    },
+                    "local": {
+                        "label": "Local"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setOperationMode": {
+            "description": "Set the operation mode",
+            "arguments": {
+                "operationMode": {
+                    "i18n": {
+                        "normal": {
+                            "label": "Normal"
+                        },
+                        "maximum": {
+                            "label": "Maximum"
+                        },
+                        "minimum": {
+                            "label": "Minimum"
+                        },
+                        "local": {
+                            "label": "Local"
+                        }
+                    },
+                    "description": "The operation mode to set the device to"
+                }
+            }
+        }
+    }
+}

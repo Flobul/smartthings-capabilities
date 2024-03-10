@@ -1,7 +1,7 @@
 {
     "id": "dustHealthConcern",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Dust Health Concern",
     "ephemeral": false,
     "attributes": {
@@ -13,6 +13,7 @@
                         "title": "AirQualityHealthConcern",
                         "type": "string",
                         "enum": [
+                            "unknown",
                             "good",
                             "moderate",
                             "slightlyUnhealthy",

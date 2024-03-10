@@ -1,0 +1,74 @@
+{
+    "tag": "en",
+    "label": "Status",
+    "description": "Allows for the control of the robot cleaner operational state.",
+    "attributes": {
+        "operatingState": {
+            "label": "Status",
+            "description": "State of the robot cleaner operation",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "dustBinFull": {
+                        "label": "Dust bin full"
+                    },
+                    "stopped": {
+                        "label": "Stopped"
+                    },
+                    "paused": {
+                        "label": "Paused"
+                    },
+                    "unableToStartOrResume": {
+                        "label": "Couldn't start"
+                    },
+                    "failedToFindChargingDock": {
+                        "label": "Failed To Find Charging Dock"
+                    },
+                    "charging": {
+                        "label": "Charging"
+                    },
+                    "mopCleaningPadMissing": {
+                        "label": "Mop missing"
+                    },
+                    "running": {
+                        "label": "Cleaning"
+                    },
+                    "seekingCharger": {
+                        "label": "Returning"
+                    },
+                    "unableToCompleteOperation": {
+                        "label": "Couldn't complete"
+                    },
+                    "commandInvalidInState": {
+                        "label": "Couldn't do action"
+                    },
+                    "stuck": {
+                        "label": "Stuck"
+                    },
+                    "waterTankEmpty": {
+                        "label": "Water tank empty"
+                    },
+                    "waterTankMissing": {
+                        "label": "Water tank lid open"
+                    },
+                    "docked": {
+                        "label": "Docked"
+                    },
+                    "dustBinMissing": {
+                        "label": "Dust bin missing"
+                    },
+                    "waterTankLidOpen": {
+                        "label": "Water tank lid open"
+                    }
+                }
+            }
+        },
+        "supportedOperatingStates": {
+            "label": "supported operating states",
+            "description": "Operational states supported by the robot cleaner",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

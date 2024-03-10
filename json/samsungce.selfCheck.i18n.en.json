@@ -10,6 +10,9 @@
                     "checking": {
                         "label": "checking"
                     },
+                    "cancelled": {
+                        "label": "cancelled"
+                    },
                     "passed": {
                         "label": "passed"
                     },

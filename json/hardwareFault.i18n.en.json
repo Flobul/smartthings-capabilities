@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "Hardware problem",
+    "description": "Gets the state of the hardware fault.",
+    "attributes": {
+        "hardwareFault": {
+            "label": "Hardware problem",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "clear": {
+                        "label": "Clear"
+                    },
+                    "detected": {
+                        "label": "Detected"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -13,10 +13,12 @@
                             "type": "active"
                         }
                     ],
+                    "argumentType": "string",
                     "supportedValues": "supportedPictureModes.value"
                 },
                 "state": {
                     "value": "pictureMode.value",
+                    "valueType": "string",
                     "alternatives": [
                         {
                             "key": "NotAvailable",
@@ -43,7 +45,8 @@
                         }
                     ],
                     "supportedValues": "supportedPictureModes.value",
-                    "command": "setPictureMode"
+                    "command": "setPictureMode",
+                    "argumentType": "string"
                 }
             }
         ]

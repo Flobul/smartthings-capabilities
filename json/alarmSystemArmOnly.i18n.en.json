@@ -4,9 +4,9 @@
     "description": "Allows for the control of the alarm system arm only.",
     "attributes": {
         "alarmSystemStatus": {
-            "label": "alarmSystemStatus",
+            "label": "alarm system status",
             "description": "The current status of the alarm system, away, 'off', or stay",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "away": {

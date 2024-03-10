@@ -4,16 +4,19 @@
     "description": "Allows for the control of a feeder device.",
     "attributes": {
         "feederOperatingState": {
-            "label": "Pet feeder",
+            "label": "feeder operating state",
             "description": "The current state of the feeder.",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "idle": {
-                        "label": "Standby"
+                        "label": "idle"
                     },
                     "feeding": {
-                        "label": "Feeding"
+                        "label": "feeding"
+                    },
+                    "error": {
+                        "label": "error"
                     }
                 }
             }

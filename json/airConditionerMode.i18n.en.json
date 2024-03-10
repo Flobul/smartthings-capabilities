@@ -34,13 +34,13 @@
                         "label": "sleep"
                     },
                     "fan": {
-                        "label": "Vent"
-                    },
-                    "heatex": {
-                        "label": "heatEx"
+                        "label": "Fan"
                     },
                     "purification": {
                         "label": "Purify"
+                    },
+                    "heatex": {
+                        "label": "heatEx"
                     },
                     "power": {
                         "label": "power"
@@ -54,11 +54,11 @@
                     "heatclean": {
                         "label": "Heat, Purify"
                     },
-                    "dryclean": {
-                        "label": "Dry, Purify"
-                    },
                     "std": {
                         "label": "std"
+                    },
+                    "dryclean": {
+                        "label": "Dry, Purify"
                     },
                     "cool": {
                         "label": "Cool"
@@ -69,11 +69,11 @@
                     "dry": {
                         "label": "Dry"
                     },
-                    "clean": {
-                        "label": "Purify"
-                    },
                     "notsupported": {
                         "label": "Not Supported"
+                    },
+                    "clean": {
+                        "label": "Purify"
                     },
                     "bypass": {
                         "label": "bypass"
@@ -82,7 +82,7 @@
                         "label": "force"
                     },
                     "fanonly": {
-                        "label": "Vent"
+                        "label": "Fan only"
                     },
                     "coolclean": {
                         "label": "Cool, Purify"
@@ -116,26 +116,26 @@
                         "aicomfort": {
                             "label": "AI Comfort Cooling"
                         },
-                        "eco": {
-                            "label": "eco"
-                        },
                         "sleep": {
                             "label": "sleep"
                         },
-                        "fan": {
-                            "label": "Vent"
+                        "eco": {
+                            "label": "eco"
                         },
-                        "heatex": {
-                            "label": "heatEx"
+                        "fan": {
+                            "label": "Fan"
                         },
                         "purification": {
                             "label": "Purify"
                         },
-                        "power": {
-                            "label": "power"
+                        "heatex": {
+                            "label": "heatEx"
                         },
                         "smartventilation": {
                             "label": "smartVentilation"
+                        },
+                        "power": {
+                            "label": "power"
                         },
                         "comfortcooling": {
                             "label": "comfortCooling"
@@ -143,11 +143,11 @@
                         "heatclean": {
                             "label": "Heat, Purify"
                         },
-                        "dryclean": {
-                            "label": "Dry, Purify"
-                        },
                         "std": {
                             "label": "std"
+                        },
+                        "dryclean": {
+                            "label": "Dry, Purify"
                         },
                         "cool": {
                             "label": "Cool"
@@ -171,7 +171,7 @@
                             "label": "force"
                         },
                         "fanonly": {
-                            "label": "Vent"
+                            "label": "Fan only"
                         },
                         "coolclean": {
                             "label": "Cool, Purify"

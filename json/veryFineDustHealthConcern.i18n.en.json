@@ -4,16 +4,16 @@
     "description": "Health Concern levels of very fine dust sensor measurements.",
     "attributes": {
         "veryFineDustHealthConcern": {
-            "label": "Very fine dust",
+            "label": "very fine dust health concern",
             "description": "Current health concern of very fine dust -- also refered to as PM1.0, based on the relative health hazard",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "veryUnhealthy": {
-                        "label": "Very unhealthy"
+                        "label": "Very Unhealthy"
                     },
                     "slightlyUnhealthy": {
-                        "label": "Slightly unhealthy"
+                        "label": "Slightly Unhealthy"
                     },
                     "unhealthy": {
                         "label": "Unhealthy"
@@ -23,6 +23,9 @@
                     },
                     "good": {
                         "label": "Good"
+                    },
+                    "unknown": {
+                        "label": "Unknown"
                     },
                     "moderate": {
                         "label": "Moderate"

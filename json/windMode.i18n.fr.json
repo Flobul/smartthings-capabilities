@@ -1,0 +1,52 @@
+{
+    "tag": "fr",
+    "label": "Mode Vent",
+    "description": "Maintains and sets the wind mode",
+    "attributes": {
+        "supportedWindModes": {
+            "label": "supported wind modes",
+            "description": "Supported wind modes",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        },
+        "windMode": {
+            "label": "Mode Vent",
+            "description": "The current mode of the wind, an enum of sleepWind or naturalWind",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "sleepWind": {
+                        "label": "Vent Sommeil"
+                    },
+                    "noWind": {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
+                    "naturalWind": {
+                        "label": "Vent Nature"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setWindMode": {
+            "description": "Set the wind mode",
+            "arguments": {
+                "windMode": {
+                    "i18n": {
+                        "sleepWind": {
+                            "label": "Vent Sommeil"
+                        },
+                        "noWind": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
+                        "naturalWind": {
+                            "label": "Vent Nature"
+                        }
+                    },
+                    "description": "The wind mode"
+                }
+            }
+        }
+    }
+}

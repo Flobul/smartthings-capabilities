@@ -108,6 +108,11 @@
                         "key": "pet",
                         "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -226,6 +231,11 @@
                             "key": "pet",
                             "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.pet.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.off.label}}",
+                            "type": "active"
                         }
                     ],
                     "argumentType": "string",
@@ -338,6 +348,11 @@
                         {
                             "key": "pet",
                             "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
                             "type": "active"
                         }
                     ]
@@ -455,6 +470,11 @@
                         {
                             "key": "pet",
                             "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
                             "type": "active"
                         }
                     ],
@@ -574,6 +594,11 @@
                         {
                             "key": "pet",
                             "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.pet.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.off.label}}",
                             "type": "active"
                         }
                     ],

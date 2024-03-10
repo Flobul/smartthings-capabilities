@@ -32,8 +32,14 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
+                    "swapRebooting": {
+                        "label": "swapRebooting"
+                    },
                     "checking": {
                         "label": "checking"
+                    },
+                    "rebooting": {
+                        "label": "rebooting"
                     },
                     "preparing": {
                         "label": "preparing"

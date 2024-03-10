@@ -4,28 +4,31 @@
     "description": "Health Concern levels of carbon dioxide sensor measurements.",
     "attributes": {
         "carbonDioxideHealthConcern": {
-            "label": "Carbon dioxide level",
+            "label": "carbon dioxide health concern",
             "description": "Current health concern of carbon dioxide, based on the relative health hazard",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "veryUnhealthy": {
-                        "label": "Very unhealthy"
+                        "label": "very unhealthy"
                     },
                     "slightlyUnhealthy": {
-                        "label": "Slightly unhealthy"
+                        "label": "slightly unhealthy"
                     },
                     "unhealthy": {
-                        "label": "Unhealthy"
+                        "label": "unhealthy"
                     },
                     "hazardous": {
-                        "label": "Hazardous"
+                        "label": "hazardous"
                     },
                     "good": {
-                        "label": "Good"
+                        "label": "good"
+                    },
+                    "unknown": {
+                        "label": "unknown"
                     },
                     "moderate": {
-                        "label": "Moderate"
+                        "label": "moderate"
                     }
                 }
             }

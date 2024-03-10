@@ -1,10 +1,11 @@
 {
     "tag": "en",
     "label": "Tamper alert",
-    "description": "Gets the value of the tamper alert.",
+    "description": "Detect when a device has been tampered with",
     "attributes": {
         "tamper": {
-            "label": "Tamper alert",
+            "label": "tamper",
+            "description": "The current tamper alert status",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {

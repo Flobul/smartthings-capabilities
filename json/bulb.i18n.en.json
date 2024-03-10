@@ -6,7 +6,7 @@
         "switch": {
             "label": "switch",
             "description": "A string representation of whether the bulb is on or off",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "off": {

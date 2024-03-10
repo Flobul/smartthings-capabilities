@@ -20,10 +20,12 @@
                                 "charging",
                                 "chargingForRemainingJob",
                                 "charged",
+                                "flexCharged",
                                 "moving",
                                 "paused",
                                 "error",
                                 "relocal",
+                                "descaling",
                                 "exploring",
                                 "emitDust",
                                 "monitoring",
@@ -38,7 +40,17 @@
                                 "reserved",
                                 "factoryReset",
                                 "calibrating",
-                                "welcoming"
+                                "welcoming",
+                                "detachingMopPad",
+                                "waitingForChangingMopPad",
+                                "attachingMopPad",
+                                "attachingMopPadForRemainingJob",
+                                "washingMop",
+                                "sterilizingMop",
+                                "dryingMop",
+                                "spinDrying",
+                                "preparingWater",
+                                "supplyingWater"
                             ]
                         }
                     }
@@ -63,10 +75,12 @@
                             "charging",
                             "chargingForRemainingJob",
                             "charged",
+                            "flexCharged",
                             "moving",
                             "paused",
                             "error",
                             "relocal",
+                            "descaling",
                             "exploring",
                             "emitDust",
                             "monitoring",
@@ -81,7 +95,17 @@
                             "reserved",
                             "factoryReset",
                             "calibrating",
-                            "welcoming"
+                            "welcoming",
+                            "detachingMopPad",
+                            "waitingForChangingMopPad",
+                            "attachingMopPad",
+                            "attachingMopPadForRemainingJob",
+                            "washingMop",
+                            "sterilizingMop",
+                            "dryingMop",
+                            "spinDrying",
+                            "preparingWater",
+                            "supplyingWater"
                         ]
                     }
                 },
@@ -91,6 +115,27 @@
                 ]
             },
             "setter": "setOperatingState",
+            "enumCommands": []
+        },
+        "cleaningStep": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "mopping",
+                            "vacuuming",
+                            "oneStepCleaning"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
             "enumCommands": []
         },
         "homingReason": {
@@ -107,7 +152,9 @@
                             "relocalFailed",
                             "dustFulled",
                             "mapCreated",
-                            "doNotDisturb"
+                            "doNotDisturb",
+                            "changingMopPad",
+                            "washingMop"
                         ]
                     }
                 },

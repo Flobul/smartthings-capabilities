@@ -3,6 +3,12 @@
     "label": "Dimmer",
     "description": "Allows for the control of the level of a device like a light or a dimmer switch.",
     "attributes": {
+        "levelRange": {
+            "label": "dimmer range",
+            "description": "Constraints on the level value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        },
         "level": {
             "label": "Dimmer",
             "description": "A number that represents the current level, usually ``0-100`` in percent",

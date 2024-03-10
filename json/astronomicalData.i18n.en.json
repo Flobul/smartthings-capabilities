@@ -6,7 +6,7 @@
         "sunrise": {
             "label": "sunrise",
             "description": "Event generated at sunrise",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "true": {
@@ -16,15 +16,15 @@
             }
         },
         "sunsetTime": {
-            "label": "sunsetTime",
+            "label": "sunset time",
             "description": "Date\/time of the next sunset",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
         "sunset": {
             "label": "sunset",
             "description": "Event generated at sunset",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "true": {
@@ -34,9 +34,9 @@
             }
         },
         "sunriseTime": {
-            "label": "sunriseTime",
+            "label": "sunrise time",
             "description": "Date\/time of the next sunrise",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         }
     },

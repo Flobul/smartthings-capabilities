@@ -1,10 +1,11 @@
 {
     "tag": "fr",
     "label": "Alerte d'alt\u00e9ration",
-    "description": "Gets the value of the tamper alert.",
+    "description": "Detect when a device has been tampered with",
     "attributes": {
         "tamper": {
             "label": "Alerte d'alt\u00e9ration",
+            "description": "The current tamper alert status",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {

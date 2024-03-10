@@ -1,7 +1,7 @@
 {
     "tag": "fr",
     "label": "Mode de ventilation du purificateur d'air",
-    "description": "Maintains and sets the state of an air conditioner's fan",
+    "description": "Maintains and sets the state of an air purifier's fan",
     "attributes": {
         "supportedAirPurifierFanModes": {
             "label": "supported air purifier fan modes",
@@ -35,6 +35,9 @@
                     },
                     "quiet": {
                         "label": "Silencieux"
+                    },
+                    "off": {
+                        "label": "D\u00e9sactiv\u00e9"
                     }
                 }
             }
@@ -49,25 +52,29 @@
                         "sleep": {
                             "label": "Veille"
                         },
-                        "auto": {
-                            "label": "Automatique"
-                        },
                         "high": {
                             "label": "Intensif"
                         },
-                        "low": {
-                            "label": "Faible"
+                        "auto": {
+                            "label": "Automatique"
                         },
                         "windFree": {
                             "label": "Ventilation autonome"
                         },
-                        "medium": {
-                            "label": "Moyen"
+                        "low": {
+                            "label": "Faible"
                         },
                         "quiet": {
                             "label": "Silencieux"
+                        },
+                        "medium": {
+                            "label": "Moyen"
+                        },
+                        "off": {
+                            "label": "D\u00e9sactiv\u00e9"
                         }
-                    }
+                    },
+                    "description": "The air purifier fan mode"
                 }
             }
         }

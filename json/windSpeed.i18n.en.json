@@ -1,12 +1,12 @@
 {
     "tag": "en",
-    "label": "Wind Speed",
+    "label": "Wind speed",
     "description": "Get the value of wind speed from a weather sensor or anemometer",
     "attributes": {
         "windspeed": {
-            "label": "windspeed",
+            "label": "Wind speed",
             "description": "A number representing the current measured wind speed",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} m\/s",
             "i18n": []
         }
     },

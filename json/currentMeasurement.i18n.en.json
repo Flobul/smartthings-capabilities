@@ -1,10 +1,12 @@
 {
     "tag": "en",
     "label": "Electric current",
+    "description": "Get the value of electrical current measured from a device.",
     "attributes": {
         "current": {
-            "label": "Electric current",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "current",
+            "description": "A number representing the current measured.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}A",
             "i18n": []
         }
     },

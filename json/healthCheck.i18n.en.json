@@ -25,13 +25,15 @@
             }
         },
         "DeviceWatch-Enroll": {
-            "label": "DeviceWatch-Enroll",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "enroll in health check",
+            "description": "Event sent to enroll a device in device health.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []
         },
         "DeviceWatch-DeviceStatus": {
-            "label": "DeviceWatch-DeviceStatus",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "device watch- device status",
+            "description": "The current online\/offline status of the device. Deprecated in favor of healthStatus attribute.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "offline": {

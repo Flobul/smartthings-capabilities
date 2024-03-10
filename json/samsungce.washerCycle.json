@@ -18,6 +18,15 @@
                                 "cycle": {
                                     "type": "string"
                                 },
+                                "cycleType": {
+                                    "type": "string",
+                                    "enum": [
+                                        "allInOne",
+                                        "washingOnly",
+                                        "dryingOnly"
+                                    ],
+                                    "default": "washingOnly"
+                                },
                                 "supportedOptions": {
                                     "type": "object",
                                     "additionalProperties": false,
@@ -50,6 +59,7 @@
                             "examples": [
                                 {
                                     "cycle": "01",
+                                    "cycleType": "washingOnly",
                                     "supportedOptions": {
                                         "spinLevel": {
                                             "raw": "A53F",
@@ -126,6 +136,21 @@
                                 "type": "string"
                             }
                         }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "specializedFunctionClassification": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
                     }
                 },
                 "additionalProperties": false,

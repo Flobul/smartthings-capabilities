@@ -151,6 +151,9 @@
                                             "dryingLevel": {
                                                 "type": "string"
                                             },
+                                            "dryingTime": {
+                                                "type": "string"
+                                            },
                                             "soilLevel": {
                                                 "type": "string"
                                             },

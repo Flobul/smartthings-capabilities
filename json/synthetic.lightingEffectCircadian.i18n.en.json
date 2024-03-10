@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Lighting Effect Circadian",
+    "attributes": {
+        "circadian": {
+            "label": "circadian",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -25,6 +25,11 @@
                 "label": "{{washerJobState.value}}",
                 "alternatives": [
                     {
+                        "key": "preWash",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.preWash.label}}",
+                        "type": "active"
+                    },
+                    {
                         "key": "airWash",
                         "value": "{{i18n.attributes.washerJobState.i18n.value.airWash.label}}",
                         "type": "active"
@@ -102,6 +107,36 @@
                     {
                         "key": "none",
                         "value": "{{i18n.attributes.washerJobState.i18n.value.none.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sanitizing",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.sanitizing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "internalCare",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.internalCare.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "removingSuds",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.removingSuds.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "waitingToDry",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.waitingToDry.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cleaningCondenser",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.cleaningCondenser.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cooling",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.cooling.label}}",
                         "type": "active"
                     }
                 ]

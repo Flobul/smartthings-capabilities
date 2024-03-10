@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Lighting Effect Fade",
+    "attributes": {
+        "fade": {
+            "label": "fade",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

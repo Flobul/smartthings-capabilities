@@ -10,13 +10,13 @@
             "i18n": {
                 "value": {
                     "tested": {
-                        "label": "Test\u00e9"
+                        "label": "Appareil test\u00e9"
                     },
                     "clear": {
                         "label": "Sain"
                     },
                     "detected": {
-                        "label": "D\u00e9tect\u00e9"
+                        "label": "Monoxyde de carbone d\u00e9tect\u00e9"
                     }
                 }
             }

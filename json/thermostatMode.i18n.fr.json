@@ -1,10 +1,11 @@
 {
     "tag": "fr",
     "label": "Mode du thermostat",
+    "description": "Set the current mode of the thermostat.",
     "attributes": {
         "thermostatMode": {
             "label": "Mode du thermostat",
-            "description": "The current mode of a thermostat",
+            "description": "The current mode of the thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
@@ -26,6 +27,9 @@
                     "furnace": {
                         "label": "Four"
                     },
+                    "precooling": {
+                        "label": "Pr\u00e9refroidissement"
+                    },
                     "auxiliaryemergencyheat": {
                         "label": "Auxillary Emergency Heat"
                     },
@@ -34,6 +38,12 @@
                     },
                     "manual": {
                         "label": "Manuel(le)"
+                    },
+                    "hot": {
+                        "label": "Hot"
+                    },
+                    "ondol": {
+                        "label": "Ondol"
                     },
                     "out": {
                         "label": "\u00c0 l'ext\u00e9rieur"
@@ -74,8 +84,14 @@
                     "autowitheco": {
                         "label": "Automatique avec \u00e9conomie"
                     },
+                    "on": {
+                        "label": "Activ\u00e9"
+                    },
                     "resume": {
                         "label": "Reprendre"
+                    },
+                    "veryhot": {
+                        "label": "Very Hot"
                     },
                     "emergency heat": {
                         "label": "Chauffage d'urgence"
@@ -95,6 +111,9 @@
                     "energysaveheat": {
                         "label": "Chauffage en \u00e9conomie d'\u00e9nergie"
                     },
+                    "comfort": {
+                        "label": "Refroidissement confortable"
+                    },
                     "off": {
                         "label": "D\u00e9sactiv\u00e9"
                     },
@@ -110,8 +129,14 @@
                     "hotwateronly": {
                         "label": "Eau chaude uniquement"
                     },
+                    "warm": {
+                        "label": "Warm"
+                    },
                     "fanonly": {
                         "label": "Ventilateur uniquement"
+                    },
+                    "lukewarm": {
+                        "label": "Lukewarm"
                     },
                     "autochangeover": {
                         "label": "Basculement automatique"
@@ -127,7 +152,7 @@
         },
         "supportedThermostatModes": {
             "label": "Modes de thermostat pris en charge",
-            "description": "Modes supported by the thermostat",
+            "description": "If set, determines which thermostat modes are user-selectable options.",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": []
         }
@@ -164,14 +189,23 @@
                         "furnace": {
                             "label": "Four"
                         },
+                        "precooling": {
+                            "label": "Pr\u00e9refroidissement"
+                        },
                         "auxiliaryemergencyheat": {
                             "label": "Auxillary Emergency Heat"
                         },
                         "moistair": {
                             "label": "Air humide"
                         },
+                        "hot": {
+                            "label": "Hot"
+                        },
                         "manual": {
                             "label": "Manuel(le)"
+                        },
+                        "ondol": {
+                            "label": "Ondol"
                         },
                         "out": {
                             "label": "\u00c0 l'ext\u00e9rieur"
@@ -209,8 +243,14 @@
                         "emergencyheatactive": {
                             "label": "Emergency Heat Active"
                         },
+                        "on": {
+                            "label": "Activ\u00e9"
+                        },
                         "autowitheco": {
                             "label": "Automatique avec \u00e9conomie"
+                        },
+                        "veryhot": {
+                            "label": "Very Hot"
                         },
                         "resume": {
                             "label": "Reprendre"
@@ -236,6 +276,9 @@
                         "off": {
                             "label": "D\u00e9sactiv\u00e9"
                         },
+                        "comfort": {
+                            "label": "Refroidissement confortable"
+                        },
                         "home": {
                             "label": "Home"
                         },
@@ -245,11 +288,17 @@
                         "schedule": {
                             "label": "Programm\u00e9"
                         },
+                        "warm": {
+                            "label": "Warm"
+                        },
                         "hotwateronly": {
                             "label": "Eau chaude uniquement"
                         },
                         "fanonly": {
                             "label": "Ventilateur uniquement"
+                        },
+                        "lukewarm": {
+                            "label": "Lukewarm"
                         },
                         "autochangeover": {
                             "label": "Basculement automatique"

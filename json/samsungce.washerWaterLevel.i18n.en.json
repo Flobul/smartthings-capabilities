@@ -21,6 +21,9 @@
                     "13": {
                         "label": "13"
                     },
+                    "auto": {
+                        "label": "auto"
+                    },
                     "14": {
                         "label": "14"
                     },
@@ -29,6 +32,9 @@
                     },
                     "noDisplay": {
                         "label": "noDisplay"
+                    },
+                    "medium": {
+                        "label": "medium"
                     },
                     "0": {
                         "label": "0"
@@ -39,14 +45,23 @@
                     "2": {
                         "label": "2"
                     },
+                    "high": {
+                        "label": "high"
+                    },
                     "3": {
                         "label": "3"
+                    },
+                    "extraHigh": {
+                        "label": "extraHigh"
                     },
                     "4": {
                         "label": "4"
                     },
                     "5": {
                         "label": "5"
+                    },
+                    "low": {
+                        "label": "low"
                     },
                     "6": {
                         "label": "6"

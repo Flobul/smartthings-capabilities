@@ -1,0 +1,74 @@
+{
+    "tag": "fr",
+    "label": "\u00c9tat",
+    "description": "Allows for the control of the robot cleaner operational state.",
+    "attributes": {
+        "operatingState": {
+            "label": "\u00c9tat",
+            "description": "State of the robot cleaner operation",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "dustBinFull": {
+                        "label": "Poubelle pleine"
+                    },
+                    "stopped": {
+                        "label": "Arr\u00eat\u00e9"
+                    },
+                    "paused": {
+                        "label": "En pause"
+                    },
+                    "unableToStartOrResume": {
+                        "label": "Impossible de d\u00e9marrer"
+                    },
+                    "failedToFindChargingDock": {
+                        "label": "Failed To Find Charging Dock"
+                    },
+                    "charging": {
+                        "label": "En charge"
+                    },
+                    "mopCleaningPadMissing": {
+                        "label": "Balai manquant"
+                    },
+                    "running": {
+                        "label": "Nettoyage"
+                    },
+                    "seekingCharger": {
+                        "label": "Retour"
+                    },
+                    "unableToCompleteOperation": {
+                        "label": "Impossible de terminer l'op\u00e9ration"
+                    },
+                    "commandInvalidInState": {
+                        "label": "Impossible d'effectuer l\\'action"
+                    },
+                    "stuck": {
+                        "label": "Bloqu\u00e9"
+                    },
+                    "waterTankEmpty": {
+                        "label": "R\u00e9servoir d'eau vide"
+                    },
+                    "waterTankMissing": {
+                        "label": "Couvercle du r\u00e9servoir d'eau ouvert"
+                    },
+                    "docked": {
+                        "label": "Docked"
+                    },
+                    "dustBinMissing": {
+                        "label": "Poubelle manquante"
+                    },
+                    "waterTankLidOpen": {
+                        "label": "Couvercle du r\u00e9servoir d'eau ouvert"
+                    }
+                }
+            }
+        },
+        "supportedOperatingStates": {
+            "label": "supported operating states",
+            "description": "Operational states supported by the robot cleaner",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

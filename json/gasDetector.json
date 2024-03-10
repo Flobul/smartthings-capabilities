@@ -1,7 +1,7 @@
 {
     "id": "gasDetector",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Gas Detector",
     "ephemeral": false,
     "attributes": {

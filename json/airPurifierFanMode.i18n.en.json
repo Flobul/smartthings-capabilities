@@ -1,7 +1,7 @@
 {
     "tag": "en",
     "label": "Air purifier fan mode",
-    "description": "Maintains and sets the state of an air conditioner's fan",
+    "description": "Maintains and sets the state of an air purifier's fan",
     "attributes": {
         "supportedAirPurifierFanModes": {
             "label": "supported air purifier fan modes",
@@ -10,31 +10,34 @@
             "i18n": []
         },
         "airPurifierFanMode": {
-            "label": "Air purifier fan mode",
+            "label": "air purifier fan state",
             "description": "The current mode of the air purifier fan, an enum of auto, low, medium, high, sleep, quiet or windFree",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "sleep": {
-                        "label": "Sleep"
+                        "label": "sleep"
                     },
                     "auto": {
-                        "label": "Auto"
+                        "label": "auto"
                     },
                     "high": {
-                        "label": "High"
+                        "label": "high"
                     },
                     "low": {
-                        "label": "Low"
+                        "label": "low"
                     },
                     "windFree": {
-                        "label": "Wind free"
+                        "label": "wind free"
                     },
                     "medium": {
-                        "label": "Medium"
+                        "label": "medium"
                     },
                     "quiet": {
-                        "label": "Quiet"
+                        "label": "quiet"
+                    },
+                    "off": {
+                        "label": "Off"
                     }
                 }
             }
@@ -47,27 +50,31 @@
                 "airPurifierFanMode": {
                     "i18n": {
                         "sleep": {
-                            "label": "Sleep"
-                        },
-                        "auto": {
-                            "label": "Auto"
+                            "label": "sleep"
                         },
                         "high": {
-                            "label": "High"
+                            "label": "high"
                         },
-                        "low": {
-                            "label": "Low"
+                        "auto": {
+                            "label": "auto"
                         },
                         "windFree": {
-                            "label": "Wind free"
+                            "label": "wind free"
                         },
-                        "medium": {
-                            "label": "Medium"
+                        "low": {
+                            "label": "low"
                         },
                         "quiet": {
-                            "label": "Quiet"
+                            "label": "quiet"
+                        },
+                        "medium": {
+                            "label": "medium"
+                        },
+                        "off": {
+                            "label": "Off"
                         }
-                    }
+                    },
+                    "description": "The air purifier fan mode"
                 }
             }
         }

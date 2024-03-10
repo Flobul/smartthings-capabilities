@@ -1,0 +1,61 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{percent.value}} {{percent.unit}}"
+            }
+        ],
+        "actions": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "unit": "percent.unit",
+                "command": "setPercent",
+                "argumentType": "integer",
+                "value": "percent.value",
+                "valueType": "integer"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "percent.unit",
+                    "value": "percent.value",
+                    "valueType": "integer"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "percent.unit",
+                    "command": "setPercent",
+                    "argumentType": "integer"
+                }
+            }
+        ]
+    },
+    "id": "fanSpeedPercent",
+    "version": 1
+}

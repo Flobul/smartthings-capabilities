@@ -1,0 +1,30 @@
+{
+    "tag": "en",
+    "label": "Set temperature",
+    "description": "Allows for setting the temperature setpoint",
+    "attributes": {
+        "temperatureSetpoint": {
+            "label": "Set temperature",
+            "description": "The current temperature setpoint",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
+            "i18n": []
+        },
+        "temperatureSetpointRange": {
+            "label": "temperature setpoint range",
+            "description": "User Interface constraints on the temperature setpoint value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setTemperatureSetpoint": {
+            "description": "Set the temperature setpoint",
+            "arguments": {
+                "setpoint": {
+                    "i18n": [],
+                    "description": "A value that the temperature setpoint should be set to"
+                }
+            }
+        }
+    }
+}

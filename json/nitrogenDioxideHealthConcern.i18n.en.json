@@ -1,0 +1,38 @@
+{
+    "tag": "en",
+    "label": "Nitrogen dioxide level",
+    "description": "Get the health concern level from a nitrogen dioxide sensor",
+    "attributes": {
+        "nitrogenDioxideHealthConcern": {
+            "label": "nitrogen dioxide health concern",
+            "description": "The current health concern level due to nitrogen dioxide.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "veryUnhealthy": {
+                        "label": "very unhealthy"
+                    },
+                    "slightlyUnhealthy": {
+                        "label": "slightly unhealthy"
+                    },
+                    "unhealthy": {
+                        "label": "unhealthy"
+                    },
+                    "hazardous": {
+                        "label": "hazardous"
+                    },
+                    "good": {
+                        "label": "good"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    },
+                    "moderate": {
+                        "label": "moderate"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

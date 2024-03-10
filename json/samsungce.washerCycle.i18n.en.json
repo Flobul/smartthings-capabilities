@@ -16,6 +16,11 @@
             "label": "referenceTable",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
+        },
+        "specializedFunctionClassification": {
+            "label": "specializedFunctionClassification",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
         }
     },
     "commands": []

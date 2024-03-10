@@ -1,0 +1,23 @@
+{
+    "tag": "en",
+    "label": "Appliance Utilization",
+    "description": "Indicates whether or not an appliance is being used",
+    "attributes": {
+        "status": {
+            "label": "Appliance status",
+            "description": "Whether or not the appliance is in use",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {
+                "value": {
+                    "notInUse": {
+                        "label": "Not in use"
+                    },
+                    "inUse": {
+                        "label": "In use"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

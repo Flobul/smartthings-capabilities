@@ -21,6 +21,9 @@
                     "medium": {
                         "label": "Moyenne"
                     },
+                    "off": {
+                        "label": "D\u00e9sactiv\u00e9"
+                    },
                     "smart": {
                         "label": "Intelligent"
                     },
@@ -45,11 +48,11 @@
                     "windfree": {
                         "label": "windfree"
                     },
-                    "5": {
-                        "label": "5"
-                    },
                     "low": {
                         "label": "Basse"
+                    },
+                    "5": {
+                        "label": "5"
                     },
                     "quite": {
                         "label": "quite"
@@ -92,6 +95,9 @@
                         "smart": {
                             "label": "Intelligent"
                         },
+                        "off": {
+                            "label": "D\u00e9sactiv\u00e9"
+                        },
                         "sleep": {
                             "label": "Veille"
                         },
@@ -107,17 +113,17 @@
                         "3": {
                             "label": "3"
                         },
-                        "4": {
-                            "label": "4"
-                        },
                         "windfree": {
                             "label": "windfree"
                         },
-                        "5": {
-                            "label": "5"
+                        "4": {
+                            "label": "4"
                         },
                         "low": {
                             "label": "Basse"
+                        },
+                        "5": {
+                            "label": "5"
                         },
                         "quite": {
                             "label": "quite"

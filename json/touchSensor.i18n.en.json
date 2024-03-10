@@ -6,7 +6,7 @@
         "touch": {
             "label": "touch",
             "description": "Whether or not the device was touched",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "touched": {

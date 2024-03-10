@@ -10,41 +10,32 @@
                     "aIRinse": {
                         "label": "Rin\u00e7age"
                     },
-                    "weightSensing": {
-                        "label": "D\u00e9tection de la charge"
-                    },
-                    "wash": {
-                        "label": "Lavage"
-                    },
                     "laundrySensing": {
                         "label": "D\u00e9tection du linge"
                     },
                     "delayWash": {
                         "label": "Fin du cycle diff\u00e9r\u00e9"
                     },
-                    "finished": {
-                        "label": "Cycle termin\u00e9"
-                    },
                     "none": {
                         "label": "En cours"
+                    },
+                    "cleaningCondenser": {
+                        "label": "Cleaning condenser"
                     },
                     "airWash": {
                         "label": "Actualisation"
                     },
-                    "drying": {
-                        "label": "S\u00e9chage"
-                    },
-                    "aIWash": {
-                        "label": "Lavage"
-                    },
-                    "spin": {
-                        "label": "Essorage"
-                    },
                     "preWash": {
-                        "label": "preWash"
+                        "label": "Pr\u00e9lavage"
                     },
                     "aISpin": {
                         "label": "Essorage"
+                    },
+                    "internalCare": {
+                        "label": "Nettoyage"
+                    },
+                    "removingSuds": {
+                        "label": "Removing suds"
                     },
                     "drumCleaning": {
                         "label": "Nettoyage"
@@ -57,6 +48,36 @@
                     },
                     "freezeProtection": {
                         "label": "Mode antigel"
+                    },
+                    "waitingToDry": {
+                        "label": "Waiting to dry"
+                    },
+                    "weightSensing": {
+                        "label": "D\u00e9tection de la charge"
+                    },
+                    "wash": {
+                        "label": "Lavage"
+                    },
+                    "sanitizing": {
+                        "label": "D\u00e9sinfection"
+                    },
+                    "finished": {
+                        "label": "Cycle termin\u00e9"
+                    },
+                    "drying": {
+                        "label": "S\u00e9chage"
+                    },
+                    "aIWash": {
+                        "label": "Lavage"
+                    },
+                    "spin": {
+                        "label": "Essorage"
+                    },
+                    "cooling": {
+                        "label": "Refroidit"
+                    },
+                    "aIDrying": {
+                        "label": "aIDrying"
                     },
                     "dispenserCleaning": {
                         "label": "dispenserCleaning"
