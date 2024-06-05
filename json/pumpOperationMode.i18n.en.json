@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Pump Operation Mode",
+    "label": "Operation mode",
     "description": "Allows for setting the operation mode on a pump.",
     "attributes": {
         "operationMode": {
@@ -12,14 +12,14 @@
                     "normal": {
                         "label": "Normal"
                     },
+                    "localSetting": {
+                        "label": "localSetting"
+                    },
                     "maximum": {
                         "label": "Maximum"
                     },
                     "minimum": {
                         "label": "Minimum"
-                    },
-                    "local": {
-                        "label": "Local"
                     }
                 }
             }
@@ -31,7 +31,7 @@
             "i18n": []
         },
         "currentOperationMode": {
-            "label": "Operation Mode",
+            "label": "Operation mode",
             "description": "The current effective operation mode of the pump",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -39,14 +39,14 @@
                     "normal": {
                         "label": "Normal"
                     },
+                    "localSetting": {
+                        "label": "Local"
+                    },
                     "maximum": {
                         "label": "Maximum"
                     },
                     "minimum": {
                         "label": "Minimum"
-                    },
-                    "local": {
-                        "label": "Local"
                     }
                 }
             }
@@ -60,6 +60,9 @@
                     "i18n": {
                         "normal": {
                             "label": "Normal"
+                        },
+                        "localSetting": {
+                            "label": "Local"
                         },
                         "maximum": {
                             "label": "Maximum"

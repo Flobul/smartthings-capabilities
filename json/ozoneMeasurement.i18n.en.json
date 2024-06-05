@@ -4,7 +4,7 @@
     "description": "Measure ozone levels",
     "attributes": {
         "ozone": {
-            "label": "ozone",
+            "label": "Ozone",
             "description": "The level of ozone detected",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}ppm",
             "i18n": []

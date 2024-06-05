@@ -4,30 +4,30 @@
     "description": "Allows for the control of the light controller mode.",
     "attributes": {
         "lightControllerMode": {
-            "label": "light controller mode",
+            "label": "lightControllerMode",
             "description": "The mode of operation that the light controller is set to",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "rgb": {
-                        "label": "RGB"
+                        "label": "rgb"
                     },
                     "dimmer": {
-                        "label": "Dimmer"
+                        "label": "dimmer"
                     },
                     "rgbw": {
-                        "label": "RGBW"
+                        "label": "rgbw"
                     },
                     "colorTemperature": {
-                        "label": "Color Temperature"
+                        "label": "colorTemperature"
                     }
                 }
             }
         },
         "supportedLightControllerModes": {
-            "label": "supported light controller modes",
+            "label": "supportedLightControllerModes",
             "description": "The modes supported by this light controller",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
         }
     },

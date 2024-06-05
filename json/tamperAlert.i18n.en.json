@@ -4,7 +4,7 @@
     "description": "Detect when a device has been tampered with",
     "attributes": {
         "tamper": {
-            "label": "tamper",
+            "label": "Tamper alert",
             "description": "The current tamper alert status",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {

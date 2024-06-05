@@ -16,7 +16,7 @@
                             "normal",
                             "minimum",
                             "maximum",
-                            "local"
+                            "localSetting"
                         ]
                     },
                     "data": {
@@ -33,7 +33,7 @@
                                         "normal",
                                         "minimum",
                                         "maximum",
-                                        "local"
+                                        "localSetting"
                                     ]
                                 }
                             }
@@ -61,7 +61,7 @@
                                 "normal",
                                 "minimum",
                                 "maximum",
-                                "local"
+                                "localSetting"
                             ]
                         }
                     }
@@ -82,7 +82,7 @@
                             "normal",
                             "minimum",
                             "maximum",
-                            "local"
+                            "localSetting"
                         ]
                     }
                 },
@@ -108,7 +108,7 @@
                             "normal",
                             "minimum",
                             "maximum",
-                            "local"
+                            "localSetting"
                         ]
                     }
                 }

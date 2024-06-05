@@ -25,7 +25,7 @@
             "i18n": []
         },
         "securitySystemStatus": {
-            "label": "Arming Status",
+            "label": "Security mode",
             "description": "The current arming status of the security system",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
@@ -34,10 +34,10 @@
                         "label": "Disarmed"
                     },
                     "armedStay": {
-                        "label": "Armed (Stay)"
+                        "label": "Armed (stay)"
                     },
                     "armedAway": {
-                        "label": "Armed (Away)"
+                        "label": "Armed (away)"
                     }
                 }
             }

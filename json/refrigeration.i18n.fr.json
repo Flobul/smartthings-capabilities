@@ -52,29 +52,12 @@
     "commands": {
         "setDefrost": {
             "description": "Sets the defrost on or off",
-            "arguments": {
-                "rapidCooling": {
-                    "i18n": [],
-                    "description": "The on or off value for the defrost"
-                }
-            }
+            "arguments": []
         },
         "setRapidFreezing": {
             "label": "Refroidissement rapide",
             "description": "Sets the rapid freezing on or off",
-            "arguments": {
-                "rapidCooling": {
-                    "i18n": {
-                        "off": {
-                            "label": "D\u00e9sactiv\u00e9"
-                        },
-                        "on": {
-                            "label": "Activ\u00e9"
-                        }
-                    },
-                    "description": "The on or off value for the rapid freezing"
-                }
-            }
+            "arguments": []
         },
         "setRapidCooling": {
             "label": "Refroidissement rapide",

@@ -28,20 +28,20 @@
                         "MENU": {
                             "label": "Menu"
                         },
+                        "UP": {
+                            "label": "Haut"
+                        },
                         "SETTINGS": {
                             "label": "Param\u00e8tres"
                         },
-                        "UP": {
-                            "label": "Haut"
+                        "SELECT": {
+                            "label": "S\u00e9lectionner"
                         },
                         "EXIT": {
                             "label": "Quitter"
                         },
                         "HOME": {
                             "label": "Maison"
-                        },
-                        "SELECT": {
-                            "label": "S\u00e9lectionner"
                         }
                     }
                 }

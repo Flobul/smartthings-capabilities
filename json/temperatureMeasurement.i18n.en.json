@@ -10,7 +10,7 @@
             "i18n": []
         },
         "temperature": {
-            "label": "temperature",
+            "label": "Temperature",
             "description": "A number that usually represents the current temperature",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}{{unit}}",
             "i18n": []

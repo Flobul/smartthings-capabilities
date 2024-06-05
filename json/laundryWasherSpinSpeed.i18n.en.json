@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Laundry Washer Spin Speed",
+    "label": "Spin speed",
     "description": "Allows for control of the laundry washer spin speed.",
     "attributes": {
         "supportedSpinSpeeds": {
@@ -10,7 +10,7 @@
             "i18n": []
         },
         "spinSpeed": {
-            "label": "spin speed",
+            "label": "Spin speed",
             "description": "Current spin speed of the laundry washer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []

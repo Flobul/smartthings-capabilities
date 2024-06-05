@@ -20,7 +20,7 @@
                         "label": "En cours"
                     },
                     "cleaningCondenser": {
-                        "label": "Cleaning condenser"
+                        "label": "Nettoyage en cours du condensateur"
                     },
                     "airWash": {
                         "label": "Actualisation"
@@ -35,7 +35,7 @@
                         "label": "Nettoyage"
                     },
                     "removingSuds": {
-                        "label": "Removing suds"
+                        "label": "Retrait en cours de la mousse"
                     },
                     "drumCleaning": {
                         "label": "Nettoyage"
@@ -50,7 +50,7 @@
                         "label": "Mode antigel"
                     },
                     "waitingToDry": {
-                        "label": "Waiting to dry"
+                        "label": "En attente du s\u00e9chage"
                     },
                     "weightSensing": {
                         "label": "D\u00e9tection de la charge"
@@ -77,7 +77,7 @@
                         "label": "Refroidit"
                     },
                     "aIDrying": {
-                        "label": "aIDrying"
+                        "label": "S\u00e9chage"
                     },
                     "dispenserCleaning": {
                         "label": "dispenserCleaning"

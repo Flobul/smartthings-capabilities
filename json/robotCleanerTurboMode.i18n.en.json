@@ -4,7 +4,7 @@
     "description": "Allows for the control of the robot cleaner turbo mode.",
     "attributes": {
         "robotCleanerTurboMode": {
-            "label": "robot cleaner turbo mode",
+            "label": "Turbo",
             "description": "Current status of the robot cleaner turbo mode",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -13,13 +13,13 @@
                         "label": "extraSilence"
                     },
                     "silence": {
-                        "label": "silence"
+                        "label": "Quiet"
                     },
                     "off": {
-                        "label": "off"
+                        "label": "Off"
                     },
                     "on": {
-                        "label": "on"
+                        "label": "On"
                     }
                 }
             }

@@ -4,31 +4,31 @@
     "description": "Get the health concern level from a nitrogen dioxide sensor",
     "attributes": {
         "nitrogenDioxideHealthConcern": {
-            "label": "nitrogen dioxide health concern",
+            "label": "Nitrogen dioxide level",
             "description": "The current health concern level due to nitrogen dioxide.",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "veryUnhealthy": {
-                        "label": "very unhealthy"
+                        "label": "Very unhealthy"
                     },
                     "slightlyUnhealthy": {
-                        "label": "slightly unhealthy"
+                        "label": "Slightly unhealthy"
                     },
                     "unhealthy": {
-                        "label": "unhealthy"
+                        "label": "Unhealthy"
                     },
                     "hazardous": {
-                        "label": "hazardous"
+                        "label": "Hazardous"
                     },
                     "good": {
-                        "label": "good"
+                        "label": "Good"
                     },
                     "unknown": {
                         "label": "unknown"
                     },
                     "moderate": {
-                        "label": "moderate"
+                        "label": "Moderate"
                     }
                 }
             }

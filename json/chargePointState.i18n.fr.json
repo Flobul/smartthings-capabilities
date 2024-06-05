@@ -1,0 +1,50 @@
+{
+    "tag": "fr",
+    "label": "Charge Point State",
+    "attributes": {
+        "chargePointState": {
+            "label": "Charge Point State",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "finishing": {
+                        "label": "Finishing"
+                    },
+                    "preparing": {
+                        "label": "Preparing"
+                    },
+                    "discharging": {
+                        "label": "Discharging"
+                    },
+                    "faulted": {
+                        "label": "Faulted"
+                    },
+                    "suspendedEV": {
+                        "label": "Suspended EV"
+                    },
+                    "reserved": {
+                        "label": "Reserved"
+                    },
+                    "unavailable": {
+                        "label": "Unavailable"
+                    },
+                    "available": {
+                        "label": "Available"
+                    },
+                    "charging": {
+                        "label": "Charging"
+                    },
+                    "suspendedEVSE": {
+                        "label": "Suspended EVSE"
+                    }
+                }
+            }
+        },
+        "supportedChargePointStates": {
+            "label": "supportedChargePointStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

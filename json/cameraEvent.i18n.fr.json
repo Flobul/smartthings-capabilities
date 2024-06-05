@@ -1,0 +1,65 @@
+{
+    "tag": "fr",
+    "label": "Camera Event",
+    "attributes": {
+        "event": {
+            "label": "Camera Event",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "loitering": {
+                        "label": "Rodeur d\u00e9tect\u00e9"
+                    },
+                    "gestureOk": {
+                        "label": "Geste d'accord d\u00e9tect\u00e9"
+                    },
+                    "package": {
+                        "label": "Colis d\u00e9tect\u00e9"
+                    },
+                    "loiteringDisappear": {
+                        "label": "Rodeur hors de vue"
+                    },
+                    "gestureV": {
+                        "label": "Geste de la victoire d\u00e9tect\u00e9"
+                    },
+                    "gestureFive": {
+                        "label": "Geste Tope l\u00e0 d\u00e9tect\u00e9"
+                    },
+                    "vehicle": {
+                        "label": "V\u00e9hicule d\u00e9tect\u00e9"
+                    },
+                    "vehicleDisappear": {
+                        "label": "V\u00e9hicule hors de vue"
+                    },
+                    "petDisappear": {
+                        "label": "Animal hors de vue"
+                    },
+                    "gestureGun": {
+                        "label": "Geste du tir avec les doigts d\u00e9tect\u00e9"
+                    },
+                    "person": {
+                        "label": "Personne d\u00e9tect\u00e9e"
+                    },
+                    "packageDisappear": {
+                        "label": "Colis hors de vue"
+                    },
+                    "personDisappear": {
+                        "label": "Personne hors de vue"
+                    },
+                    "gestureFour": {
+                        "label": "Geste des quatre doigts d\u00e9tect\u00e9"
+                    },
+                    "pet": {
+                        "label": "Animal d\u00e9tect\u00e9"
+                    }
+                }
+            }
+        },
+        "supportedEvents": {
+            "label": "supportedEvents",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

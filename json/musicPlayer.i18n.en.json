@@ -45,17 +45,17 @@
                     "play": {
                         "label": "Play"
                     },
-                    "paused": {
-                        "label": "Paused"
-                    },
                     "stopped": {
                         "label": "Stopped"
                     },
-                    "standby": {
-                        "label": "Standby"
+                    "paused": {
+                        "label": "Paused"
                     },
                     "stop": {
                         "label": "Stop"
+                    },
+                    "standby": {
+                        "label": "Standby"
                     },
                     "playing": {
                         "label": "Playing"

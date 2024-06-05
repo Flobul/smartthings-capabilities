@@ -1,0 +1,44 @@
+{
+    "tag": "en",
+    "label": "Lock Alarm",
+    "description": "The current status of the lock alarm",
+    "attributes": {
+        "alarm": {
+            "label": "alarm",
+            "description": "The current lock alarm status",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "forcedOpeningAttempt": {
+                        "label": "forcedOpeningAttempt"
+                    },
+                    "highTemperature": {
+                        "label": "highTemperature"
+                    },
+                    "damaged": {
+                        "label": "damaged"
+                    },
+                    "notClosedForALongTime": {
+                        "label": "notClosedForALongTime"
+                    },
+                    "clear": {
+                        "label": "clear"
+                    },
+                    "physicalImpact": {
+                        "label": "physicalImpact"
+                    },
+                    "unableToLockTheDoor": {
+                        "label": "unableToLockTheDoor"
+                    },
+                    "attemptsExceeded": {
+                        "label": "attemptsExceeded"
+                    },
+                    "lockFactoryReset": {
+                        "label": "lockFactoryReset"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

@@ -4,7 +4,7 @@
     "description": "Allows for the control of the dishwasher.",
     "attributes": {
         "dishwasherMode": {
-            "label": "dishwasher mode",
+            "label": "Mode",
             "description": "Current mode of the dishwasher",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -40,11 +40,11 @@
                         "eco": {
                             "label": "Eco"
                         },
-                        "auto": {
-                            "label": "Auto"
-                        },
                         "quick": {
                             "label": "Quick"
+                        },
+                        "auto": {
+                            "label": "Auto"
                         },
                         "dry": {
                             "label": "Dry"

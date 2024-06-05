@@ -4,16 +4,16 @@
     "description": "Shows whether the device is connected to the utility power grid",
     "attributes": {
         "grid": {
-            "label": "contact",
+            "label": "grid",
             "description": "The current state of the contact sensor",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "OnGrid": {
-                        "label": "On Grid"
+                        "label": "OnGrid"
                     },
                     "OffGrid": {
-                        "label": "Off Grid"
+                        "label": "OffGrid"
                     }
                 }
             }

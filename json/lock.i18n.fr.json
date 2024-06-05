@@ -30,12 +30,12 @@
     },
     "commands": {
         "unlock": {
-            "label": "D\u00e9verrouill\u00e9",
+            "label": "D\u00e9verr.",
             "description": "Unlock the device",
             "arguments": []
         },
         "lock": {
-            "label": "Verrouill\u00e9",
+            "label": "Verr.",
             "description": "Lock the device",
             "arguments": []
         }

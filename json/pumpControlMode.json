@@ -53,7 +53,53 @@
                 "required": []
             },
             "enumCommands": []
+        },
+        "currentControlMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "PumpControlMode",
+                        "type": "string",
+                        "enum": [
+                            "constantSpeed",
+                            "constantPressure",
+                            "proportionalPressure",
+                            "constantFlow",
+                            "constantTemperature",
+                            "automatic"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {
+        "setControlMode": {
+            "name": "setControlMode",
+            "arguments": [
+                {
+                    "name": "controlMode",
+                    "optional": false,
+                    "schema": {
+                        "title": "PumpControlMode",
+                        "type": "string",
+                        "enum": [
+                            "constantSpeed",
+                            "constantPressure",
+                            "proportionalPressure",
+                            "constantFlow",
+                            "constantTemperature",
+                            "automatic"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
 }

@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Water Flow Alarm",
+    "label": "Water flow",
     "description": "Water flow duration, volume, and rate alarms",
     "attributes": {
         "volumeAlarm": {
@@ -13,7 +13,7 @@
                         "label": "Normal"
                     },
                     "alarm": {
-                        "label": "Alarm!"
+                        "label": "Alarm"
                     },
                     "warning": {
                         "label": "Warning"
@@ -31,7 +31,7 @@
                         "label": "Normal"
                     },
                     "alarm": {
-                        "label": "Alarm!"
+                        "label": "Alarm"
                     },
                     "warning": {
                         "label": "Warning"
@@ -55,7 +55,7 @@
                         "label": "Normal"
                     },
                     "alarm": {
-                        "label": "Alarm!"
+                        "label": "Alarm"
                     },
                     "warning": {
                         "label": "Warning"

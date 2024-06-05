@@ -22,7 +22,7 @@
                         "label": "Couldn't start"
                     },
                     "failedToFindChargingDock": {
-                        "label": "Failed To Find Charging Dock"
+                        "label": "Stuck"
                     },
                     "charging": {
                         "label": "Charging"
@@ -49,10 +49,10 @@
                         "label": "Water tank empty"
                     },
                     "waterTankMissing": {
-                        "label": "Water tank lid open"
+                        "label": "Water tank missing"
                     },
                     "docked": {
-                        "label": "Docked"
+                        "label": "Fully charged"
                     },
                     "dustBinMissing": {
                         "label": "Dust bin missing"

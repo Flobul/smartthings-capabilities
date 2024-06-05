@@ -1,0 +1,46 @@
+{
+    "tag": "en",
+    "label": "Status",
+    "description": "Allows for the control of the operational state.",
+    "attributes": {
+        "supportedOperationalStates": {
+            "label": "Supported Operational States",
+            "description": "Supported operational state commands for this machine to receive",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        },
+        "supportedCommands": {
+            "label": "supportedCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "operationalState": {
+            "label": "Status",
+            "description": "Current state of the machine",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "Running"
+                    },
+                    "stopped": {
+                        "label": "Stopped"
+                    },
+                    "paused": {
+                        "label": "Paused"
+                    },
+                    "unableToCompleteOperation": {
+                        "label": "Couldn't complete"
+                    },
+                    "unableToStartOrResume": {
+                        "label": "Couldn't start"
+                    },
+                    "commandInvalidInCurrentState": {
+                        "label": "Couldn't do action"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

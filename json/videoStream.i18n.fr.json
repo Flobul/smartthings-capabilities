@@ -3,6 +3,12 @@
     "label": "Video Stream",
     "description": "Allows for the control of the video stream.",
     "attributes": {
+        "supportedFeatures": {
+            "label": "supported features",
+            "description": "Media directions from camera device",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": []
+        },
         "stream": {
             "label": "stream",
             "description": "Current status of the video stream",

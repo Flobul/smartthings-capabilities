@@ -10,10 +10,10 @@
             "i18n": {
                 "value": {
                     "disabled": {
-                        "label": "D\u00e9sactiver"
+                        "label": "D\u00e9sactiv\u00e9"
                     },
                     "enabled": {
-                        "label": "Activer"
+                        "label": "Activ\u00e9"
                     }
                 }
             }
@@ -26,10 +26,10 @@
                 "shuffle": {
                     "i18n": {
                         "disabled": {
-                            "label": "D\u00e9sactiver"
+                            "label": "D\u00e9sactiv\u00e9"
                         },
                         "enabled": {
-                            "label": "Activer"
+                            "label": "Activ\u00e9"
                         }
                     },
                     "description": "Set the shuffle playback to enabled or disabled"

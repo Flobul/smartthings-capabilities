@@ -30,12 +30,12 @@
     },
     "commands": {
         "unlock": {
-            "label": "Unlocked",
+            "label": "Unlock",
             "description": "Unlock the device",
             "arguments": []
         },
         "lock": {
-            "label": "Locked",
+            "label": "Lock",
             "description": "Lock the device",
             "arguments": []
         }

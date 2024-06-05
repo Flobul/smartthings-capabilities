@@ -64,7 +64,7 @@
                         "label": "Recherche d'emplacement"
                     },
                     "descaling": {
-                        "label": "Descaling"
+                        "label": "D\u00e9tartrage"
                     },
                     "cleaning": {
                         "label": "Nettoyage"
@@ -113,6 +113,9 @@
                     },
                     "reserved": {
                         "label": "reserved"
+                    },
+                    "mopWashingPaused": {
+                        "label": "Mop-washing paused"
                     },
                     "processing": {
                         "label": "Recherche d'emplacement"

@@ -1,0 +1,35 @@
+{
+    "tag": "en",
+    "label": "Charging State",
+    "attributes": {
+        "supportedChargingStates": {
+            "label": "supportedChargingStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "chargingState": {
+            "label": "chargingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "stopped": {
+                        "label": "stopped"
+                    },
+                    "discharging": {
+                        "label": "discharging"
+                    },
+                    "charging": {
+                        "label": "charging"
+                    },
+                    "fullyCharged": {
+                        "label": "fullyCharged"
+                    },
+                    "error": {
+                        "label": "error"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

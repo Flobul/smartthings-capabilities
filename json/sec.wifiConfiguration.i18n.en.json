@@ -1,0 +1,32 @@
+{
+    "tag": "en",
+    "label": "Wifi configuration",
+    "attributes": {
+        "autoReconnection": {
+            "label": "autoReconnection",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "minVersion": {
+            "label": "minVersion",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedWiFiFreq": {
+            "label": "supportedWiFiFreq",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "supportedAuthType": {
+            "label": "supportedAuthType",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "protocolType": {
+            "label": "protocolType",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -10,7 +10,7 @@
             "i18n": []
         },
         "coolingSetpoint": {
-            "label": "cooling setpoint",
+            "label": "Cooling temperature",
             "description": "The current cooling setpoint",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
             "i18n": []

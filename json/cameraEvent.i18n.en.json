@@ -1,0 +1,65 @@
+{
+    "tag": "en",
+    "label": "Camera Event",
+    "attributes": {
+        "event": {
+            "label": "Camera Event",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "loitering": {
+                        "label": "Loitering detected"
+                    },
+                    "gestureOk": {
+                        "label": "OK gesture detected"
+                    },
+                    "package": {
+                        "label": "Parcel detected"
+                    },
+                    "loiteringDisappear": {
+                        "label": "Loitering out of view"
+                    },
+                    "gestureV": {
+                        "label": "V gesture detected"
+                    },
+                    "gestureFive": {
+                        "label": "High five gesture detected"
+                    },
+                    "vehicle": {
+                        "label": "Vehicle detected"
+                    },
+                    "vehicleDisappear": {
+                        "label": "Vehicle out of view"
+                    },
+                    "petDisappear": {
+                        "label": "Pet out of view"
+                    },
+                    "gestureGun": {
+                        "label": "Finger gun gesture detected"
+                    },
+                    "person": {
+                        "label": "Person detected"
+                    },
+                    "packageDisappear": {
+                        "label": "Parcel out of view"
+                    },
+                    "personDisappear": {
+                        "label": "Person out of view"
+                    },
+                    "gestureFour": {
+                        "label": "Four gesture detected"
+                    },
+                    "pet": {
+                        "label": "Pet detected"
+                    }
+                }
+            }
+        },
+        "supportedEvents": {
+            "label": "supportedEvents",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

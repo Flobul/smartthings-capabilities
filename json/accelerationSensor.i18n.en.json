@@ -1,10 +1,10 @@
 {
     "tag": "en",
-    "label": "Acceleration Sensor",
+    "label": "Vibration sensor",
     "description": "The Acceleration Sensor capability allows for acceleration detection. Use cases for this capability may include detecting machinery vibration or object movement.",
     "attributes": {
         "acceleration": {
-            "label": "vibration",
+            "label": "Vibration sensor",
             "description": "A string representation of whether the sensor is active or not",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {

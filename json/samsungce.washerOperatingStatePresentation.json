@@ -138,6 +138,11 @@
                         "key": "cooling",
                         "value": "{{i18n.attributes.washerJobState.i18n.value.cooling.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "aIDrying",
+                        "value": "{{i18n.attributes.washerJobState.i18n.value.aIDrying.label}}",
+                        "type": "active"
                     }
                 ]
             }

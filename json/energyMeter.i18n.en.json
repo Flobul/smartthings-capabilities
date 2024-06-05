@@ -12,7 +12,7 @@
     },
     "commands": {
         "resetEnergyMeter": {
-            "label": "Reset energy meter",
+            "label": "Energy meter reset",
             "description": "Reset the energy consumption of a device",
             "arguments": []
         }

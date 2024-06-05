@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Stateless Temperature Button",
+    "label": "__PO_CODE_STATELESSSTEMPERATUREBUTTON_TEMPERATURE",
     "description": "Allows for the control of a device with stateless temperature control buttons",
     "attributes": {
         "availableTemperatureButtons": {

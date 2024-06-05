@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "audioInputSource",
+    "attributes": {
+        "supportedInputSources": {
+            "label": "supportedInputSources",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "inputSource": {
+            "label": "inputSource",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -168,6 +168,11 @@
                         "key": "descaling",
                         "value": "{{i18n.attributes.operatingState.i18n.value.descaling.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "mopWashingPaused",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.mopWashingPaused.label}}",
+                        "type": "active"
                     }
                 ]
             },

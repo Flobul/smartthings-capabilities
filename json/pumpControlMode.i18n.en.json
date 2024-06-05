@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Pump Control Mode",
+    "label": "Control mode",
     "description": "Allows to view the current effective control mode of the pump.",
     "attributes": {
         "controlMode": {
@@ -45,18 +45,74 @@
                     "automatic": {
                         "label": "Automatic"
                     },
+                    "proportionalPressure": {
+                        "label": "Proportional Pressure"
+                    },
                     "constantPressure": {
                         "label": "Constant Pressure"
                     },
                     "constantSpeed": {
                         "label": "Constant Speed"
+                    }
+                }
+            }
+        },
+        "currentControlMode": {
+            "label": "Control mode",
+            "description": "The current effective control mode of the pump",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "constantTemperature": {
+                        "label": "Constant temperature"
+                    },
+                    "constantFlow": {
+                        "label": "Constant flow"
+                    },
+                    "automatic": {
+                        "label": "Automatic"
+                    },
+                    "constantSpeed": {
+                        "label": "Constant speed"
+                    },
+                    "constantPressure": {
+                        "label": "Constant pressure"
                     },
                     "proportionalPressure": {
-                        "label": "Proportional Pressure"
+                        "label": "Automatic pressure"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {
+        "setControlMode": {
+            "description": "Set the control mode",
+            "arguments": {
+                "controlMode": {
+                    "i18n": {
+                        "constantTemperature": {
+                            "label": "Constant temperature"
+                        },
+                        "constantFlow": {
+                            "label": "Constant flow"
+                        },
+                        "automatic": {
+                            "label": "Automatic"
+                        },
+                        "constantSpeed": {
+                            "label": "Constant speed"
+                        },
+                        "constantPressure": {
+                            "label": "Constant pressure"
+                        },
+                        "proportionalPressure": {
+                            "label": "Automatic pressure"
+                        }
+                    },
+                    "description": "The control mode to set the device to"
+                }
+            }
+        }
+    }
 }

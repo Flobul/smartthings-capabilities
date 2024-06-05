@@ -4,15 +4,15 @@
     "description": "Allows for the control of the timed session.",
     "attributes": {
         "completionTime": {
-            "label": "completion time",
+            "label": "completionTime",
             "description": "The date time that the timed session will complete complete",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
         "sessionStatus": {
-            "label": "session status",
+            "label": "sessionStatus",
             "description": "Current status of the timed session",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "running": {

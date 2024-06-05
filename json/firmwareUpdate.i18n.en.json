@@ -4,69 +4,69 @@
     "description": "Allows a device firmware to be updated over the network",
     "attributes": {
         "lastUpdateStatusReason": {
-            "label": "Firmware update result reason",
+            "label": "lastUpdateStatusReason",
             "description": "The explanation of the reason for the status of the most recent update attempt.",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
         "availableVersion": {
-            "label": "Available firmware Version",
+            "label": "availableVersion",
             "description": "The firmware version available for an update",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
         "lastUpdateStatus": {
-            "label": "Firmware update status",
+            "label": "lastUpdateStatus",
             "description": "The status of the most recent update attempt.",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "updateFailed": {
-                        "label": "Update Failed"
+                        "label": "updateFailed"
                     },
                     "updateSucceeded": {
-                        "label": "Update Succeeded"
+                        "label": "updateSucceeded"
                     }
                 }
             }
         },
         "state": {
-            "label": "Firmware update process state",
+            "label": "state",
             "description": "The state of the firmware update process",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "updateRequested": {
-                        "label": "Update Requested"
+                        "label": "updateRequested"
                     },
                     "updateInProgress": {
-                        "label": "Update in Progress"
+                        "label": "updateInProgress"
                     },
                     "insufficientStorage": {
-                        "label": "Insufficient Storage"
+                        "label": "insufficientStorage"
                     },
                     "normalOperation": {
-                        "label": "Normal Operation"
+                        "label": "normalOperation"
                     }
                 }
             }
         },
         "updateAvailable": {
-            "label": "Update available",
+            "label": "updateAvailable",
             "description": "Set to true when an update is available for the device and otherwise false",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
         "currentVersion": {
-            "label": "Current firmware version",
+            "label": "currentVersion",
             "description": "The current firmware version reported by the device",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
         "lastUpdateTime": {
-            "label": "Last update attempt time",
+            "label": "lastUpdateTime",
             "description": "The time of the most recent download or update attempt.",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         }
     },

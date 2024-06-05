@@ -106,11 +106,11 @@
                         "warming": {
                             "label": "Warming"
                         },
-                        "defrosting": {
-                            "label": "Defrosting"
-                        },
                         "heating": {
                             "label": "Heating"
+                        },
+                        "defrosting": {
+                            "label": "Defrosting"
                         },
                         "grill": {
                             "label": "Grill"

@@ -31,11 +31,11 @@
                         "highHeat": {
                             "label": "High"
                         },
-                        "lowHeat": {
-                            "label": "Low"
-                        },
                         "regular": {
                             "label": "Medium"
+                        },
+                        "lowHeat": {
+                            "label": "Low"
                         }
                     },
                     "description": "The mode to which the dryer should be set to"

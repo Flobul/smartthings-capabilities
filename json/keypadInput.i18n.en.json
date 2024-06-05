@@ -28,20 +28,20 @@
                         "MENU": {
                             "label": "Menu"
                         },
+                        "UP": {
+                            "label": "Up"
+                        },
                         "SETTINGS": {
                             "label": "Settings"
                         },
-                        "UP": {
-                            "label": "Up"
+                        "SELECT": {
+                            "label": "Select"
                         },
                         "EXIT": {
                             "label": "Exit"
                         },
                         "HOME": {
                             "label": "Home"
-                        },
-                        "SELECT": {
-                            "label": "Select"
                         }
                     }
                 }

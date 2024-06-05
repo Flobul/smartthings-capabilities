@@ -31,11 +31,11 @@
                         "highHeat": {
                             "label": "Intensif"
                         },
-                        "lowHeat": {
-                            "label": "\u00c9conomique"
-                        },
                         "regular": {
                             "label": "Moyen"
+                        },
+                        "lowHeat": {
+                            "label": "\u00c9conomique"
                         }
                     },
                     "description": "The mode to which the dryer should be set to"

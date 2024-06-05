@@ -2,6 +2,11 @@
     "tag": "en",
     "label": "Energy Type",
     "attributes": {
+        "energyType": {
+            "label": "energyType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
         "energySavingSupport": {
             "label": "energySavingSupport",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
@@ -12,14 +17,14 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },
-        "energyType": {
-            "label": "energyType",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
-        },
         "energySavingLevel": {
             "label": "energySavingLevel",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "energySavingInfo": {
+            "label": "energySavingInfo",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": []
         },
         "supportedEnergySavingLevels": {
@@ -29,6 +34,11 @@
         },
         "energySavingOperation": {
             "label": "energySavingOperation",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "notificationTemplateID": {
+            "label": "notificationTemplateID",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": []
         },

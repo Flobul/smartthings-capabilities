@@ -5,6 +5,21 @@
     "name": "Energy Type",
     "ephemeral": false,
     "attributes": {
+        "energyType": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "energySavingSupport": {
             "schema": {
                 "type": "object",
@@ -25,9 +40,9 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "maximum": 99999999,
                         "minimum": 0,
-                        "type": "integer",
-                        "maximum": 99999999
+                        "type": "integer"
                     },
                     "unit": {
                         "type": "string",
@@ -35,21 +50,6 @@
                             "min"
                         ],
                         "default": "min"
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "energyType": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -72,8 +72,41 @@
                     "value"
                 ]
             },
-            "enumCommands": [],
-            "setter": "setEnergySavingLevel"
+            "enumCommands": []
+        },
+        "energySavingInfo": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "items": {
+                            "required": [
+                                "energySavingLevel",
+                                "maxEnergySavingRate"
+                            ],
+                            "properties": {
+                                "maxEnergySavingRate": {
+                                    "maximum": 100,
+                                    "minimum": 0,
+                                    "type": "integer"
+                                },
+                                "energySavingLevel": {
+                                    "minimum": 0,
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object",
+                            "additionalProperties": false
+                        },
+                        "type": "array"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
         },
         "supportedEnergySavingLevels": {
             "schema": {
@@ -99,6 +132,21 @@
                 "properties": {
                     "value": {
                         "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "notificationTemplateID": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,

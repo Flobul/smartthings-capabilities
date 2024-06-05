@@ -1,0 +1,118 @@
+{
+    "tag": "fr",
+    "label": "Mode de contr\u00f4le",
+    "description": "Allows to view the current effective control mode of the pump.",
+    "attributes": {
+        "controlMode": {
+            "label": "Control Mode",
+            "description": "The control mode of the pump",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "constantTemperature": {
+                        "label": "Constant Temperature"
+                    },
+                    "constantFlow": {
+                        "label": "Constant Flow"
+                    },
+                    "automatic": {
+                        "label": "Automatic"
+                    },
+                    "constantSpeed": {
+                        "label": "Constant Speed"
+                    },
+                    "constantPressure": {
+                        "label": "Constant Pressure"
+                    },
+                    "proportionalPressure": {
+                        "label": "Proportional Pressure"
+                    }
+                }
+            }
+        },
+        "supportedControlModes": {
+            "label": "Supported Control Modes",
+            "description": "Supported control modes for this device to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": {
+                "value": {
+                    "constantTemperature": {
+                        "label": "Constant Temperature"
+                    },
+                    "constantFlow": {
+                        "label": "Constant Flow"
+                    },
+                    "automatic": {
+                        "label": "Automatic"
+                    },
+                    "proportionalPressure": {
+                        "label": "Proportional Pressure"
+                    },
+                    "constantPressure": {
+                        "label": "Constant Pressure"
+                    },
+                    "constantSpeed": {
+                        "label": "Constant Speed"
+                    }
+                }
+            }
+        },
+        "currentControlMode": {
+            "label": "Mode de contr\u00f4le",
+            "description": "The current effective control mode of the pump",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "constantTemperature": {
+                        "label": "Temp\u00e9rature constante"
+                    },
+                    "constantFlow": {
+                        "label": "Flux constant"
+                    },
+                    "automatic": {
+                        "label": "Automatique"
+                    },
+                    "constantSpeed": {
+                        "label": "Rythme constant"
+                    },
+                    "constantPressure": {
+                        "label": "Pression constante"
+                    },
+                    "proportionalPressure": {
+                        "label": "Pression automatique"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setControlMode": {
+            "description": "Set the control mode",
+            "arguments": {
+                "controlMode": {
+                    "i18n": {
+                        "constantTemperature": {
+                            "label": "Temp\u00e9rature constante"
+                        },
+                        "constantFlow": {
+                            "label": "Flux constant"
+                        },
+                        "automatic": {
+                            "label": "Automatique"
+                        },
+                        "constantSpeed": {
+                            "label": "Rythme constant"
+                        },
+                        "constantPressure": {
+                            "label": "Pression constante"
+                        },
+                        "proportionalPressure": {
+                            "label": "Pression automatique"
+                        }
+                    },
+                    "description": "The control mode to set the device to"
+                }
+            }
+        }
+    }
+}

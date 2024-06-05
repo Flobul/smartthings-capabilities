@@ -76,14 +76,14 @@
                         "all": {
                             "label": "Toutes"
                         },
-                        "indirect": {
-                            "label": "Indirecte"
+                        "wide": {
+                            "label": "Ample"
                         },
                         "individual": {
                             "label": "Individuelle"
                         },
-                        "wide": {
-                            "label": "Ample"
+                        "indirect": {
+                            "label": "Indirecte"
                         },
                         "direct": {
                             "label": "Directe"

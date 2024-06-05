@@ -28,7 +28,8 @@
                     "state": {
                         "value": "mute.value",
                         "on": "muted",
-                        "off": "unmuted"
+                        "off": "unmuted",
+                        "valueType": "string"
                     }
                 }
             }
@@ -45,6 +46,7 @@
                 },
                 "state": {
                     "value": "mute.value",
+                    "valueType": "string",
                     "on": "muted",
                     "off": "unmuted",
                     "label": "{{mute.value}}",
@@ -83,6 +85,7 @@
                         }
                     ],
                     "value": "mute.value",
+                    "valueType": "string",
                     "multiSelectable": false
                 }
             }

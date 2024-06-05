@@ -4,22 +4,22 @@
     "description": "Set the current mode of the thermostat fan.",
     "attributes": {
         "thermostatFanMode": {
-            "label": "thermostat fan mode",
+            "label": "Fan mode",
             "description": "The current mode of the fan controlled by the thermostat",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "followschedule": {
-                        "label": "followschedule"
+                        "label": "Schedule"
                     },
                     "auto": {
-                        "label": "auto"
+                        "label": "Auto"
                     },
                     "circulate": {
-                        "label": "circulate"
+                        "label": "Circulate"
                     },
                     "on": {
-                        "label": "on"
+                        "label": "On"
                     }
                 }
             }
@@ -42,7 +42,7 @@
                 "mode": {
                     "i18n": {
                         "followschedule": {
-                            "label": "Follow Schedule"
+                            "label": "Schedule"
                         },
                         "auto": {
                             "label": "Auto"

@@ -22,7 +22,7 @@
                         "label": "Impossible de d\u00e9marrer"
                     },
                     "failedToFindChargingDock": {
-                        "label": "Failed To Find Charging Dock"
+                        "label": "Bloqu\u00e9"
                     },
                     "charging": {
                         "label": "En charge"
@@ -49,10 +49,10 @@
                         "label": "R\u00e9servoir d'eau vide"
                     },
                     "waterTankMissing": {
-                        "label": "Couvercle du r\u00e9servoir d'eau ouvert"
+                        "label": "R\u00e9servoir d'eau manquant"
                     },
                     "docked": {
-                        "label": "Docked"
+                        "label": "Charge termin\u00e9e"
                     },
                     "dustBinMissing": {
                         "label": "Poubelle manquante"

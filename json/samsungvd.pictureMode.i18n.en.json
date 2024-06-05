@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "picturemode",
+    "attributes": {
+        "pictureMode": {
+            "label": "pictureMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedPictureModes": {
+            "label": "supportedPictureModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "supportedPictureModesMap": {
+            "label": "supportedPictureModesMap",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setPictureMode": {
+            "label": "Change Picture Mode",
+            "arguments": []
+        }
+    }
+}

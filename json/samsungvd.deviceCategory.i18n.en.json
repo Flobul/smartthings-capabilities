@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Device Category",
+    "attributes": {
+        "category": {
+            "label": "category",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

@@ -1,0 +1,56 @@
+{
+    "detailView": [
+        {
+            "label": "Picture mode",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setPictureMode",
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedPictureModes.value"
+                },
+                "state": {
+                    "value": "pictureMode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.commands.setPictureMode.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedPictureModesMap.value",
+                    "command": "setPictureMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "samsungvd.pictureMode",
+    "version": 1
+}

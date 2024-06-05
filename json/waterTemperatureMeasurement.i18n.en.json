@@ -1,0 +1,20 @@
+{
+    "tag": "en",
+    "label": "Water Temperature Measurement",
+    "description": "Get the water temperature from a Device",
+    "attributes": {
+        "temperatureRange": {
+            "label": "temperatureRange",
+            "description": "Constraints on the temperature value",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "temperature": {
+            "label": "temperature",
+            "description": "A number that usually represents the current water temperature",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": []
+}

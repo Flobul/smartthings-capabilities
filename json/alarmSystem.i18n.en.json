@@ -4,9 +4,9 @@
     "description": "Allows for the control of the alarm system.",
     "attributes": {
         "alarmSystemStatus": {
-            "label": "alarm system status",
+            "label": "alarmSystemStatus",
             "description": "Current status of the alarm system",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "away": {

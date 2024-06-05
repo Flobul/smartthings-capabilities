@@ -1,0 +1,30 @@
+{
+    "tag": "en",
+    "label": "Thermostat Water Heating Setpoint",
+    "description": "Allows for setting the water heating setpoint on a thermostat",
+    "attributes": {
+        "heatingSetpoint": {
+            "label": "heatingSetpoint",
+            "description": "The current water heating setpoint",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "heatingSetpointRange": {
+            "label": "heatingSetpointRange",
+            "description": "Constraints on the water heating setpoint value",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setHeatingSetpoint": {
+            "description": "Set the water heating setpoint",
+            "arguments": {
+                "setpoint": {
+                    "i18n": [],
+                    "description": "A value that the water heating setpoint should be set to"
+                }
+            }
+        }
+    }
+}

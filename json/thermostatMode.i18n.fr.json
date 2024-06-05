@@ -40,7 +40,7 @@
                         "label": "Manuel(le)"
                     },
                     "hot": {
-                        "label": "Hot"
+                        "label": "Tr\u00e8s chaud"
                     },
                     "ondol": {
                         "label": "Ondol"
@@ -91,7 +91,7 @@
                         "label": "Reprendre"
                     },
                     "veryhot": {
-                        "label": "Very Hot"
+                        "label": "Extr\u00eamement chaud"
                     },
                     "emergency heat": {
                         "label": "Chauffage d'urgence"
@@ -130,13 +130,13 @@
                         "label": "Eau chaude uniquement"
                     },
                     "warm": {
-                        "label": "Warm"
+                        "label": "Chaud"
                     },
                     "fanonly": {
                         "label": "Ventilateur uniquement"
                     },
                     "lukewarm": {
-                        "label": "Lukewarm"
+                        "label": "L\u00e9g\u00e8rement chaud"
                     },
                     "autochangeover": {
                         "label": "Basculement automatique"
@@ -199,7 +199,7 @@
                             "label": "Air humide"
                         },
                         "hot": {
-                            "label": "Hot"
+                            "label": "Tr\u00e8s chaud"
                         },
                         "manual": {
                             "label": "Manuel(le)"
@@ -250,7 +250,7 @@
                             "label": "Automatique avec \u00e9conomie"
                         },
                         "veryhot": {
-                            "label": "Very Hot"
+                            "label": "Extr\u00eamement chaud"
                         },
                         "resume": {
                             "label": "Reprendre"
@@ -289,7 +289,7 @@
                             "label": "Programm\u00e9"
                         },
                         "warm": {
-                            "label": "Warm"
+                            "label": "Chaud"
                         },
                         "hotwateronly": {
                             "label": "Eau chaude uniquement"
@@ -298,7 +298,7 @@
                             "label": "Ventilateur uniquement"
                         },
                         "lukewarm": {
-                            "label": "Lukewarm"
+                            "label": "L\u00e9g\u00e8rement chaud"
                         },
                         "autochangeover": {
                             "label": "Basculement automatique"

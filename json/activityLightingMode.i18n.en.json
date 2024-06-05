@@ -42,11 +42,11 @@
             "arguments": {
                 "lightingMode": {
                     "i18n": {
-                        "sleepPreparation": {
-                            "label": "Sleep"
-                        },
                         "writing description": {
                             "label": "5000K white light that makes it easy to focus on your work."
+                        },
+                        "sleepPreparation": {
+                            "label": "Sleep"
                         },
                         "cozy": {
                             "label": "Cosy"
@@ -75,11 +75,11 @@
                         "computer": {
                             "label": "Computer"
                         },
-                        "soft description": {
-                            "label": "Gentle light to set the mood."
-                        },
                         "writing": {
                             "label": "Writing"
+                        },
+                        "soft description": {
+                            "label": "Gentle light to set the mood."
                         },
                         "reading description": {
                             "label": "4000K natural light for comfortable reading."

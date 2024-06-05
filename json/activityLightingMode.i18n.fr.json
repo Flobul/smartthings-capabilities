@@ -42,11 +42,11 @@
             "arguments": {
                 "lightingMode": {
                     "i18n": {
-                        "sleepPreparation": {
-                            "label": "Sommeil"
-                        },
                         "writing description": {
                             "label": "Lumi\u00e8re blanche de 5000K qui vous permet de vous concentrer facilement sur votre travail."
+                        },
+                        "sleepPreparation": {
+                            "label": "Sommeil"
                         },
                         "cozy": {
                             "label": "Cosy"
@@ -75,11 +75,11 @@
                         "computer": {
                             "label": "Ordinateur"
                         },
-                        "soft description": {
-                            "label": "Lumi\u00e8re douce pour cr\u00e9er l'ambiance."
-                        },
                         "writing": {
                             "label": "\u00c9criture"
+                        },
+                        "soft description": {
+                            "label": "Lumi\u00e8re douce pour cr\u00e9er l'ambiance."
                         },
                         "reading description": {
                             "label": "Lumi\u00e8re naturelle de 4000K pour une lecture confortable."

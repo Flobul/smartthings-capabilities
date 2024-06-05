@@ -10,10 +10,15 @@
     "detailView": [
         {
             "label": "{{i18n.label}}",
-            "displayType": "state",
-            "state": {
-                "label": "{{nitrogenDioxide.value}}",
-                "unit": "nitrogenDioxide.unit"
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    1000000
+                ],
+                "unit": "nitrogenDioxide.unit",
+                "value": "nitrogenDioxide.value",
+                "valueType": "number"
             }
         }
     ],

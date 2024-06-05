@@ -26,6 +26,9 @@
             "displayTemplate": "{{device.label}} {{attribute}}: {{value}}",
             "i18n": {
                 "value": {
+                    "paused": {
+                        "label": "paused"
+                    },
                     "closing": {
                         "label": "Closing\u2026"
                     },

@@ -18,10 +18,16 @@
                 "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_IN_PROGRESS}}"
             },
             {
-                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_IN_PROGRESS_100}}"
+                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_COMPLETE}}"
             },
             {
                 "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_CHECKING}}"
+            },
+            {
+                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_REBOOTING}}"
+            },
+            {
+                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_SWAP_REBOOTING}}"
             }
         ],
         "actions": []

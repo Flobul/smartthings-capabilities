@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Media Input Source",
+    "label": "Media input source",
     "description": "Allows for the control of the media input source.",
     "attributes": {
         "supportedInputSources": {
@@ -10,13 +10,13 @@
             "i18n": []
         },
         "inputSource": {
-            "label": "input source",
+            "label": "Media input source",
             "description": "Current input source",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "aux": {
-                        "label": "aux"
+                        "label": "Aux"
                     },
                     "FM": {
                         "label": "FM"
@@ -40,28 +40,28 @@
                         "label": "HDMI1"
                     },
                     "digitalTv": {
-                        "label": "digitalTv"
+                        "label": "Digital TV"
                     },
                     "network": {
-                        "label": "network"
+                        "label": "Network"
                     },
                     "coaxial": {
-                        "label": "coaxial"
+                        "label": "Coaxial"
                     },
                     "melon": {
-                        "label": "melon"
+                        "label": "Melon"
                     },
                     "digital": {
-                        "label": "digital"
+                        "label": "Digital"
                     },
                     "CD": {
                         "label": "CD"
                     },
                     "wifi": {
-                        "label": "wifi"
+                        "label": "Wi-Fi"
                     },
                     "phono": {
-                        "label": "phono"
+                        "label": "Phono"
                     },
                     "USB": {
                         "label": "USB"
@@ -73,22 +73,22 @@
                         "label": "YouTube"
                     },
                     "bluetooth": {
-                        "label": "bluetooth"
+                        "label": "Bluetooth"
                     },
                     "analog3": {
-                        "label": "analog3"
+                        "label": "Analogue 3"
                     },
                     "HDMI": {
                         "label": "HDMI"
                     },
                     "analog2": {
-                        "label": "analog2"
+                        "label": "Analogue 2"
                     },
                     "analog1": {
-                        "label": "analog1"
+                        "label": "Analogue 1"
                     },
                     "optical": {
-                        "label": "optical"
+                        "label": "Optical"
                     }
                 }
             }
@@ -96,7 +96,7 @@
     },
     "commands": {
         "setInputSource": {
-            "label": "setInputSource",
+            "label": "Media input source",
             "description": "Set the input source for the media",
             "arguments": {
                 "mode": {

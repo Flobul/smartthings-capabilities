@@ -96,6 +96,11 @@
                     }
                 }
             }
+        },
+        "recommendedAmount": {
+            "label": "recommendedAmount",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
         }
     },
     "commands": []

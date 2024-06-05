@@ -1,0 +1,12 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{i18n.attributes.updating.label}}"
+            }
+        ],
+        "actions": []
+    },
+    "id": "samsungvd.thingStatus",
+    "version": 1
+}

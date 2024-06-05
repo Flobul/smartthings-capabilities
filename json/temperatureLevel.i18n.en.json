@@ -1,10 +1,10 @@
 {
     "tag": "en",
-    "label": "Temperature Level",
+    "label": "Temperature level",
     "description": "Allows for control of the temperature level that the device supports.",
     "attributes": {
         "temperatureLevel": {
-            "label": "mode",
+            "label": "Temperature level",
             "description": "Current temperature level",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": []

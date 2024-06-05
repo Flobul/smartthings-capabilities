@@ -10,31 +10,31 @@
             "i18n": []
         },
         "airPurifierFanMode": {
-            "label": "air purifier fan state",
+            "label": "Air purifier fan mode",
             "description": "The current mode of the air purifier fan, an enum of auto, low, medium, high, sleep, quiet or windFree",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "sleep": {
-                        "label": "sleep"
+                        "label": "Sleep"
                     },
                     "auto": {
-                        "label": "auto"
+                        "label": "Auto"
                     },
                     "high": {
-                        "label": "high"
+                        "label": "High"
                     },
                     "low": {
-                        "label": "low"
+                        "label": "Low"
                     },
                     "windFree": {
-                        "label": "wind free"
+                        "label": "Wind free"
                     },
                     "medium": {
-                        "label": "medium"
+                        "label": "Medium"
                     },
                     "quiet": {
-                        "label": "quiet"
+                        "label": "Quiet"
                     },
                     "off": {
                         "label": "Off"
@@ -50,25 +50,25 @@
                 "airPurifierFanMode": {
                     "i18n": {
                         "sleep": {
-                            "label": "sleep"
+                            "label": "Sleep"
                         },
                         "high": {
-                            "label": "high"
+                            "label": "High"
                         },
                         "auto": {
-                            "label": "auto"
+                            "label": "Auto"
                         },
                         "windFree": {
-                            "label": "wind free"
+                            "label": "Wind free"
                         },
                         "low": {
-                            "label": "low"
+                            "label": "Low"
                         },
                         "quiet": {
-                            "label": "quiet"
+                            "label": "Quiet"
                         },
                         "medium": {
-                            "label": "medium"
+                            "label": "Medium"
                         },
                         "off": {
                             "label": "Off"

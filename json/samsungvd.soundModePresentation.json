@@ -1,0 +1,56 @@
+{
+    "detailView": [
+        {
+            "label": "Sound mode",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setSoundMode",
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedSoundModes.value"
+                },
+                "state": {
+                    "value": "soundMode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "{{i18n.commands.setSoundMode.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "NotAvailable",
+                            "value": "NotAvailable",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedSoundModesMap.value",
+                    "command": "setSoundMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "samsungvd.soundMode",
+    "version": 1
+}

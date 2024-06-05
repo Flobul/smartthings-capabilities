@@ -1,22 +1,22 @@
 {
     "tag": "en",
-    "label": "Water Meter",
+    "label": "Water meter",
     "description": "Get the water usage for hour, day, and week time-periods",
     "attributes": {
         "lastHour": {
-            "label": "Last Hour",
+            "label": "Last hour",
             "description": "Water used in the last hour",
             "displayTemplate": "Water used in the {{attribute}} by {{device.label}} is {{value}} {{unit}}",
             "i18n": []
         },
         "lastTwentyFourHours": {
-            "label": "Last 24 Hours",
+            "label": "Last 24 hours",
             "description": "Water used in the last 24 hours",
             "displayTemplate": "Water used in the {{attribute}} by {{device.label}} is {{value}} {{unit}}",
             "i18n": []
         },
         "lastSevenDays": {
-            "label": "Last 7 Days",
+            "label": "Last 7 days",
             "description": "Water used in the last 7 days",
             "displayTemplate": "Water used in the {{attribute}} by {{device.label}} is {{value}} {{unit}}",
             "i18n": []

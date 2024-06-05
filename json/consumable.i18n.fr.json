@@ -34,11 +34,11 @@
             "arguments": {
                 "status": {
                     "i18n": {
-                        "maintenance required": {
-                            "label": "Maintenance requise"
-                        },
                         "missing": {
                             "label": "Manquant"
+                        },
+                        "maintenance required": {
+                            "label": "Maintenance requise"
                         },
                         "replace": {
                             "label": "Remplacement"

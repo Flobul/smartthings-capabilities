@@ -106,11 +106,11 @@
                         "warming": {
                             "label": "R\u00e9chauffage"
                         },
-                        "defrosting": {
-                            "label": "D\u00e9cong\u00e9lation"
-                        },
                         "heating": {
                             "label": "Chauffage"
+                        },
+                        "defrosting": {
+                            "label": "D\u00e9cong\u00e9lation"
                         },
                         "grill": {
                             "label": "Grill"

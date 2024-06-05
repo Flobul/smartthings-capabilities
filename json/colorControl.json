@@ -62,7 +62,7 @@
                     "name": "color",
                     "optional": false,
                     "schema": {
-                        "title": "COLOR_MAP",
+                        "title": "ColorMap",
                         "type": "object",
                         "additionalProperties": false,
                         "properties": {

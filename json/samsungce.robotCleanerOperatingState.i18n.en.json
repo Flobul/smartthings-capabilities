@@ -25,7 +25,7 @@
                         "label": "Attaching mop"
                     },
                     "sterilizingMop": {
-                        "label": "Sterilizing mop"
+                        "label": "Steam-washing mop"
                     },
                     "spinDrying": {
                         "label": "Dehydrating mop"
@@ -113,6 +113,9 @@
                     },
                     "reserved": {
                         "label": "reserved"
+                    },
+                    "mopWashingPaused": {
+                        "label": "Mop-washing paused"
                     },
                     "processing": {
                         "label": "Finding location"

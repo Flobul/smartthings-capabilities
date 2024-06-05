@@ -98,6 +98,11 @@
                         "key": "delayDry",
                         "value": "{{i18n.attributes.dryerJobState.i18n.value.delayDry.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "laundrySensing",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.laundrySensing.label}}",
+                        "type": "active"
                     }
                 ]
             }

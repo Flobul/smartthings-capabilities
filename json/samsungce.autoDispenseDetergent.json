@@ -163,6 +163,29 @@
             },
             "setter": "setType",
             "enumCommands": []
+        },
+        "recommendedAmount": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 20
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "cc"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
         }
     },
     "commands": {

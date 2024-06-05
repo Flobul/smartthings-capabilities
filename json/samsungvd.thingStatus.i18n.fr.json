@@ -1,0 +1,26 @@
+{
+    "tag": "fr",
+    "label": "thingStatus",
+    "attributes": {
+        "updatedTime": {
+            "label": "updatedTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "status": {
+            "label": "status",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "Idle": {
+                        "label": "Idle"
+                    },
+                    "AgentUpdate Started": {
+                        "label": "AgentUpdate Started"
+                    }
+                }
+            }
+        }
+    },
+    "commands": []
+}

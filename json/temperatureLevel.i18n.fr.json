@@ -1,0 +1,30 @@
+{
+    "tag": "fr",
+    "label": "Niveau de temp\u00e9rature",
+    "description": "Allows for control of the temperature level that the device supports.",
+    "attributes": {
+        "temperatureLevel": {
+            "label": "Niveau de temp\u00e9rature",
+            "description": "Current temperature level",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": []
+        },
+        "supportedTemperatureLevels": {
+            "label": "supported temperature levels",
+            "description": "Supported temperature levels for this device to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setTemperatureLevel": {
+            "description": "Set the temperature level",
+            "arguments": {
+                "temperatureLevel": {
+                    "i18n": [],
+                    "description": "The temperature level to set the device to"
+                }
+            }
+        }
+    }
+}

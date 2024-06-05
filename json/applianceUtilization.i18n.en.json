@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Appliance Utilization",
+    "label": "Appliance status",
     "description": "Indicates whether or not an appliance is being used",
     "attributes": {
         "status": {

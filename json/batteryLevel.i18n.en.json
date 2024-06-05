@@ -4,7 +4,7 @@
     "description": "Get the qualitative level of the battery",
     "attributes": {
         "battery": {
-            "label": "battery level",
+            "label": "Battery level",
             "description": "A qualitative indication of the level of the battery",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {

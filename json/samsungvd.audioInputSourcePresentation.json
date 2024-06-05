@@ -1,0 +1,42 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{i18n.attributes.bluetooth.label}}"
+            },
+            {
+                "label": "{{i18n.attributes.wifi3pda.label}}"
+            },
+            {
+                "label": "Wi-Fi"
+            },
+            {
+                "label": "AUX"
+            },
+            {
+                "label": "HDMI"
+            },
+            {
+                "label": "HDMI1"
+            },
+            {
+                "label": "HDMI2"
+            },
+            {
+                "label": "USB"
+            },
+            {
+                "label": "D.IN\/HDMI(ARC)"
+            },
+            {
+                "label": "Sound Share"
+            },
+            {
+                "label": "Smart View"
+            }
+        ],
+        "actions": []
+    },
+    "id": "samsungvd.audioInputSource",
+    "version": 1
+}

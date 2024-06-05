@@ -10,10 +10,15 @@
     "detailView": [
         {
             "label": "{{i18n.label}}",
-            "displayType": "state",
-            "state": {
-                "label": "{{ozone.value}}",
-                "unit": "ozone.unit"
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    1000000
+                ],
+                "unit": "ozone.unit",
+                "value": "ozone.value",
+                "valueType": "number"
             }
         }
     ],

@@ -123,6 +123,16 @@
                             },
                             "portrait": {
                                 "type": "boolean"
+                            },
+                            "width": {
+                                "type": "integer",
+                                "minimum": 240,
+                                "maximum": 4096
+                            },
+                            "height": {
+                                "type": "integer",
+                                "minimum": 240,
+                                "maximum": 4096
                             }
                         }
                     }

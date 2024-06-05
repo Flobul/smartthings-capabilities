@@ -1,0 +1,27 @@
+{
+    "tag": "fr",
+    "label": "soundmode",
+    "attributes": {
+        "supportedSoundModesMap": {
+            "label": "supportedSoundModesMap",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        },
+        "soundMode": {
+            "label": "soundMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": []
+        },
+        "supportedSoundModes": {
+            "label": "supportedSoundModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": []
+        }
+    },
+    "commands": {
+        "setSoundMode": {
+            "label": "Modifier le Mode Son",
+            "arguments": []
+        }
+    }
+}
