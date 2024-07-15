@@ -2589,8 +2589,8 @@ class smartthings_translate
                 "bypassStatus" => __("Statut de contournement", __FILE__)
             ],
             "cameraEvent" => [
-                "event"           => __("Événement de caméra", __FILE),
-                "supportedEvents" => __("Événements de caméra supportés", __FILE)
+                "event"           => __("Événement de caméra", __FILE__),
+                "supportedEvents" => __("Événements de caméra supportés", __FILE__)
             ],
             "carbonDioxideHealthConcern" => [
                 "carbonDioxideHealthConcern" => __("Niveau de dioxide de carbone", __FILE__)
@@ -3263,7 +3263,7 @@ class smartthings_translate
                 "lastUpdateTime"   => __("Heure de dernière géolocalisation", __FILE__)
             ],
             "gridState" => [
-                "grid" => __("Statut du réseau électrique", __FILE)
+                "grid" => __("Statut du réseau électrique", __FILE__)
             ],
             "hardwareFault" => [
                 "hardwareFault" => __("Problème matériel", __FILE__)
@@ -4356,7 +4356,7 @@ class smartthings_translate
                 "minVersion"        => __("Version minimale Wi-Fi", __FILE__),
                 "supportedWiFiFreq" => __("Bandes Wi-Fi supportées", __FILE__),
                 "supportedAuthType" => __("Types d'authentification supportés", __FILE__),
-                "protocolType"      => __("Type de protocole", __FILE__)
+                "protocolType"      => __("Type de protocole Wi-Fi", __FILE__)
             ],
             "securitySystem" => [
                 "alarm"                => __("Alarme", __FILE__),
