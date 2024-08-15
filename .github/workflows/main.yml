@@ -39,23 +39,20 @@ jobs:
           echo '${{ env.CAPABILITIES }}' | jq -c '.[]' | while read capability; do
             id=$(echo $capability | jq -r '.id')
             version=$(echo $capability | jq -r '.version')
-            echo "Processing ID: $id"
 
-            # Ici tu peux exécuter ta commande bash avec l'id
-            # Remplace 'echo' par ta commande réelle
             ./smartthings capabilities $id -s -j --token ${{ env.SMARTTHINGS_TOKEN }} > json/$id.json
             ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json
             ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json
           done
 
       - name: "List json directory"
-        run: ls -lh json/
+        run: ls json/*.json | wc -l
 
-      - name: "Create Pull Request to plugin..."
+      - name: "Create Pull Request"
         uses: peter-evans/create-pull-request@v6
         with:
-          path: 'json'
-          branch: translations
+          add-paths: 'json/*.json'
+          branch: update
           delete-branch: true
           title: "Update capabilities"
           body: "Automated capabilities update"
