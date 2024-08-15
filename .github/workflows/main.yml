@@ -27,7 +27,6 @@ jobs:
       - name: "Use first secret"
         run: |
           SMARTTHINGS_TOKEN=$(echo ${{ secrets.SMARTTHINGS_TOKENS }} | head -n 1)
-          echo $SMARTTHINGS_TOKEN
           echo "SMARTTHINGS_TOKEN=$SMARTTHINGS_TOKEN" >> $GITHUB_ENV
 
       - name: "Download smartthings capabilities"
@@ -35,6 +34,7 @@ jobs:
           ./smartthings capabilities -s -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o capabilities.json
           CAPABILITIES=$(cat capabilities.json)
           echo "CAPABILITIES=${{ env.CAPABILITIES }}" >> $GITHUB_ENV
+          cat capabilities.json
 
       - name: "Process each capability"
         run: |
