@@ -49,4 +49,14 @@ jobs:
           done
 
       - name: "List json directory"
-        run: ls json/
+        run: ls -lh json/
+
+      - name: "Create Pull Request to plugin..."
+        uses: peter-evans/create-pull-request@v6
+        with:
+          path: 'json'
+          branch: translations
+          delete-branch: true
+          title: "Update capabilities"
+          body: "Automated capabilities update"
+          commit-message: "Auto update capabilities"
