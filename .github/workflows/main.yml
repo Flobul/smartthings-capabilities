@@ -39,6 +39,7 @@ jobs:
           done
           cat extra_capabilities.json | jq -c '.[]' | while read capability; do
             echo "Processing $capability"
+            capability=$(echo $capability | tr -d \")
             ./smartthings capabilities $capability -s -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capability.json
             ./smartthings capabilities:translations $capability 1 fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capability.i18n.fr.json
             ./smartthings capabilities:translations $capability 1 en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capability.i18n.en.json
