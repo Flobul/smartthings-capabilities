@@ -14,9 +14,6 @@ jobs:
       - name: "Checkout files"
         uses: actions/checkout@v3
 
-      - name: "Setup php"
-        run: sudo apt-get install php libapache2-mod-php php-cli
-
       - name: "Setup smartthings-cli"
         run: |
           wget "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%401.8.2/smartthings-linux-x64.tar.gz"
