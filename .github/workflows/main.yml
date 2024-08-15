@@ -23,14 +23,12 @@ jobs:
         run: |
           wget "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%401.8.2/smartthings-linux-x64.tar.gz"
           tar -xvf smartthings-linux-x64.tar.gz
+
       - name: "Use first secret"
         run: |
           SMARTTHINGS_TOKEN=$(echo ${{ secrets.SMARTTHINGS_TOKENS }} | head -n 1)
+          echo $SMARTTHINGS_TOKEN
           echo "SMARTTHINGS_TOKEN=$SMARTTHINGS_TOKEN" >> $GITHUB_ENV
-
-      - name: "Ls"
-        run: |
-          ls ${GITHUB_WORKSPACE} -lh
 
       - name: "Download smartthings capabilities"
         run: |
