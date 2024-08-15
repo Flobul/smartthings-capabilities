@@ -37,6 +37,12 @@ jobs:
             ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json
             ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json
           done
+          cat extra_capabilities.json | jq -c '.[]' | while read capability; do
+            echo "Processing $capability"
+            ./smartthings capabilities $capability -s -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capability.json
+            ./smartthings capabilities:translations $capability 1 fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capability.i18n.fr.json
+            ./smartthings capabilities:translations $capability 1 en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capability.i18n.en.json
+          done
 
       - name: "List json directory"
         run: |
@@ -45,7 +51,9 @@ jobs:
       - name: "Create Pull Request"
         uses: peter-evans/create-pull-request@v6
         with:
-          add-paths: 'json/*.json'
+          add-paths: |
+            'json/*.json'
+            capabilities.json
           branch: update
           delete-branch: true
           title: "Update capabilities"
