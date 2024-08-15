@@ -14,11 +14,6 @@ jobs:
       - name: "Checkout files"
         uses: actions/checkout@v3
 
-      - name: "List json directory"
-        run: |
-          ls json/*.json | wc -l
-          rm json/*.json
-
       - name: "Setup smartthings-cli"
         run: |
           wget "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%401.8.2/smartthings-linux-x64.tar.gz"
@@ -30,8 +25,7 @@ jobs:
           echo "SMARTTHINGS_TOKEN=$SMARTTHINGS_TOKEN" >> $GITHUB_ENV
 
       - name: "Download smartthings capabilities"
-        run: |
-          ./smartthings capabilities -s -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o capabilities.json
+        run: ./smartthings capabilities -s -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o capabilities.json
 
       - name: "Process each capability"
         run: |
