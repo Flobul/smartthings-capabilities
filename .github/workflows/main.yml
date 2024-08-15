@@ -17,6 +17,7 @@ jobs:
       - name: "List json directory"
         run: |
           ls ${GITHUB_WORKSPACE}/json/*.json | wc -l
+          rm ${GITHUB_WORKSPACE}/json/*.json
 
       - name: "Setup smartthings-cli"
         run: |
