@@ -32,8 +32,9 @@ jobs:
       - name: "Download smartthings capabilities"
         run: |
           ./smartthings capabilities -s -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o capabilities.json
-          CAPABILITIES=$(cat capabilities.json)
-          echo "CAPABILITIES=$CAPABILITIES" >> $GITHUB_ENV
+          echo "CAPABILITIES<<EOF" >> $GITHUB_ENV
+          echo "$(cat capabilities.json)" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: "Process each capability"
         run: |
