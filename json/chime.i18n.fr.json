@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "off": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "chime": {
                         "label": "Carillon"
@@ -21,14 +21,14 @@
     },
     "commands": {
         "off": {
-            "label": "D\u00e9sactiv\u00e9",
+            "label": "Désactivé",
             "description": "Disable the chime",
-            "arguments": []
+            "arguments": {}
         },
         "chime": {
             "label": "Carillon",
             "description": "Enable the chime",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -1,7 +1,7 @@
 {
     "tag": "fr",
     "label": "Pression de l'eau",
-    "description": "Get the water pressure and high\/low pressure alarm status",
+    "description": "Get the water pressure and high/low pressure alarm status",
     "attributes": {
         "pressureAlarm": {
             "label": "Alarme de pression",
@@ -13,7 +13,7 @@
                         "label": "Normal"
                     },
                     "high": {
-                        "label": "\u00c9lev\u00e9e"
+                        "label": "Élevée"
                     },
                     "low": {
                         "label": "Basse"
@@ -25,8 +25,8 @@
             "label": "Pression",
             "description": "Water pressure",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

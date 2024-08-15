@@ -1,23 +1,23 @@
 {
     "tag": "fr",
-    "label": "Alerte d'alt\u00e9ration",
+    "label": "Alerte d'altération",
     "description": "Detect when a device has been tampered with",
     "attributes": {
         "tamper": {
-            "label": "Alerte d'alt\u00e9ration",
+            "label": "Alerte d'altération",
             "description": "The current tamper alert status",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {
                     "clear": {
-                        "label": "Non trafiqu\u00e9"
+                        "label": "Non trafiqué"
                     },
                     "detected": {
-                        "label": "Trafiqu\u00e9"
+                        "label": "Trafiqué"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

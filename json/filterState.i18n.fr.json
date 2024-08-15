@@ -7,8 +7,8 @@
             "label": "Filtre",
             "description": "Current remaining life of the filter",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

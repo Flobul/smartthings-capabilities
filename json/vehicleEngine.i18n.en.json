@@ -29,12 +29,12 @@
         "startEngine": {
             "label": "Start",
             "description": "Turn the engine on",
-            "arguments": []
+            "arguments": {}
         },
         "stopEngine": {
             "label": "Stop",
             "description": "Turn the engine off",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

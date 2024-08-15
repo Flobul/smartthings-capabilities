@@ -1,9 +1,9 @@
 {
     "tag": "fr",
-    "label": "Pr\u00e9sence des personnes par zone",
+    "label": "Présence des personnes par zone",
     "attributes": {
         "zoneState": {
-            "label": "Pr\u00e9sence des personnes par zone",
+            "label": "Présence des personnes par zone",
             "description": "A Json representation of the zone tate It will be a JSON array of objects containing 'state', 'id', 'name' as mandatory fields. Format, '``[{\"id\":\"<id>\",\"name\":\"<name>\",\"state\":\"<state>\"},{}..]``'",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {
@@ -12,10 +12,10 @@
                         "label": "Left"
                     },
                     "not_present": {
-                        "label": "Non pr\u00e9sent"
+                        "label": "Non présent"
                     },
                     "present": {
-                        "label": "Pr\u00e9sent"
+                        "label": "Présent"
                     }
                 }
             }
@@ -26,7 +26,7 @@
             "description": "Delete a zone",
             "arguments": {
                 "id": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The id of the zone to delete"
                 }
             }
@@ -35,11 +35,11 @@
             "description": "Create a zone",
             "arguments": {
                 "name": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Name for the new zone"
                 },
                 "id": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The id of the zone to create"
                 }
             }
@@ -48,11 +48,11 @@
             "description": "Update a zone",
             "arguments": {
                 "name": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "New name for the zone"
                 },
                 "id": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The id of the zone to update"
                 }
             }

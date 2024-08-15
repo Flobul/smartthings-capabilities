@@ -10,17 +10,17 @@
             "i18n": {
                 "value": {
                     "ready": {
-                        "label": "Pr\u00eat pour l'activation"
+                        "label": "Prêt pour l'activation"
                     },
                     "bypassed": {
-                        "label": "Contourn\u00e9"
+                        "label": "Contourné"
                     },
                     "notReady": {
-                        "label": "Pas pr\u00eat pour l'activation"
+                        "label": "Pas prêt pour l'activation"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

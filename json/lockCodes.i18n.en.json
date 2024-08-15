@@ -7,25 +7,25 @@
             "label": "code length",
             "description": "Length of the code, an integer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "maxCodes": {
             "label": "max codes",
             "description": "Maximum number of codes, an integer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "maxCodeLength": {
             "label": "max code length",
             "description": "Maximum code length, an integer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "codeChanged": {
             "label": "code changed",
             "description": "Indicator if the code has changed",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "lock": {
             "label": "lock",
@@ -38,6 +38,9 @@
                     },
                     "not fully locked": {
                         "label": "not fully locked"
+                    },
+                    "unlatched": {
+                        "label": "unlatched"
                     },
                     "locked": {
                         "label": "locked"
@@ -55,25 +58,25 @@
             "label": "min code length",
             "description": "Minimum code length, an integer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "codeReport": {
             "label": "code report",
             "description": "A report on the code",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "scanCodes": {
             "label": "scan codes",
             "description": "Scan codes",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "lockCodes": {
             "label": "lock codes",
             "description": "Lock codes",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -81,36 +84,36 @@
             "description": "Set the code length for the code",
             "arguments": {
                 "length": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Length to which the code should be set"
                 }
             }
         },
         "reloadAllCodes": {
             "description": "Reload all the codes",
-            "arguments": []
+            "arguments": {}
         },
         "unlock": {
             "description": "Unlock the lock",
-            "arguments": []
+            "arguments": {}
         },
         "unlockWithTimeout": {
             "description": "Unlock the lock with a timeout",
-            "arguments": []
+            "arguments": {}
         },
         "setCode": {
             "description": "Set a code",
             "arguments": {
                 "codeName": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the code name"
                 },
                 "codeSlot": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the code in this code slot"
                 },
                 "codePIN": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the code pin"
                 }
             }
@@ -119,20 +122,20 @@
             "description": "Update the codes",
             "arguments": {
                 "codes": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Update to these codes"
                 }
             }
         },
         "lock": {
             "description": "Lock the lock",
-            "arguments": []
+            "arguments": {}
         },
         "requestCode": {
             "description": "Request a code",
             "arguments": {
                 "codeSlot": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Request the code from this code slot"
                 }
             }
@@ -141,7 +144,7 @@
             "description": "Delete the code",
             "arguments": {
                 "codeSlot": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Delete the code in this code slot"
                 }
             }
@@ -150,11 +153,11 @@
             "description": "Set the name slot for the code",
             "arguments": {
                 "codeName": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Code name for the code"
                 },
                 "codeSlot": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Code slot number for the code"
                 }
             }

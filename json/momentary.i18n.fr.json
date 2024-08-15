@@ -1,12 +1,12 @@
 {
     "tag": "fr",
     "label": "Momentary",
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "push": {
-            "label": "Appuyer momentan\u00e9ment",
+            "label": "Appuyer momentanément",
             "description": "Push the momentary switch",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

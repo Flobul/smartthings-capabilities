@@ -7,8 +7,8 @@
             "label": "Odometer",
             "description": "A number that represents the current odometer reading",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

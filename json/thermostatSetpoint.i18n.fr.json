@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "D\u00e9finissez la temp\u00e9rature",
+    "label": "Définissez la température",
     "description": "Gives the ability to read the current setpoint on a thermostat",
     "attributes": {
         "thermostatSetpoint": {
-            "label": "D\u00e9finissez la temp\u00e9rature",
+            "label": "Définissez la température",
             "description": "The current setpoint value",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -1,56 +1,56 @@
 {
     "tag": "fr",
-    "label": "G\u00e9olocalisation",
+    "label": "Géolocalisation",
     "description": "Gets the value of the geo location.",
     "attributes": {
         "method": {
-            "label": "M\u00e9thode",
+            "label": "Méthode",
             "description": "Description of the method",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "heading": {
             "label": "Direction",
             "description": "Description of the heading",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "latitude": {
             "label": "Latitude",
             "description": "Latitude value",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "accuracy": {
-            "label": "Pr\u00e9cision",
+            "label": "Précision",
             "description": "Description of accuracy",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "altitudeAccuracy": {
-            "label": "Pr\u00e9cision de l'altitude",
+            "label": "Précision de l'altitude",
             "description": "Description of the altitudeAccuracy",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "speed": {
             "label": "Vitesse",
             "description": "Description of the speed",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "longitude": {
             "label": "Longitude",
             "description": "Longitude value",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "lastUpdateTime": {
-            "label": "Heure de derni\u00e8re mise \u00e0 jour",
+            "label": "Heure de dernière mise à jour",
             "description": "Last update time",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -1,0 +1,118 @@
+{
+    "tag": "en",
+    "label": "EVSE state",
+    "attributes": {
+        "supplyState": {
+            "label": "EV supply state",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "chargingEnabled": {
+                        "label": "Charging enabled"
+                    },
+                    "dischargingEnabled": {
+                        "label": "Discharging enabled"
+                    },
+                    "disabledError": {
+                        "label": "Error"
+                    },
+                    "disabledDiagnostics": {
+                        "label": "Diagnostics error"
+                    },
+                    "disabled": {
+                        "label": "Disabled"
+                    }
+                }
+            }
+        },
+        "faultState": {
+            "label": "Fault detector",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "overTemperature": {
+                        "label": "overTemperature"
+                    },
+                    "emergencyStop": {
+                        "label": "Emergency stop"
+                    },
+                    "other": {
+                        "label": "Others"
+                    },
+                    "contactWetFailure": {
+                        "label": "Contact wet failure"
+                    },
+                    "overCurrent": {
+                        "label": "Over current"
+                    },
+                    "powerQuality": {
+                        "label": "Power quality"
+                    },
+                    "liveNeutralSwap": {
+                        "label": "Live/neutral swap"
+                    },
+                    "contactDryFailure": {
+                        "label": "Contact dry failure"
+                    },
+                    "underVoltage": {
+                        "label": "Under voltage"
+                    },
+                    "groundFault": {
+                        "label": "Ground fault"
+                    },
+                    "powerLoss": {
+                        "label": "Power loss"
+                    },
+                    "eVDisconnected": {
+                        "label": "EV disconnected"
+                    },
+                    "pilotShortCircuit": {
+                        "label": "Pilot short circuit"
+                    },
+                    "overVoltage": {
+                        "label": "Over voltage"
+                    },
+                    "noError": {
+                        "label": "Clear"
+                    },
+                    "meterFailure": {
+                        "label": "Metre failure"
+                    },
+                    "wrongPowerSupply": {
+                        "label": "Wrong power supply"
+                    }
+                }
+            }
+        },
+        "state": {
+            "label": "EVSE state",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "pluggedInCharging": {
+                        "label": "Charging"
+                    },
+                    "notPluggedIn": {
+                        "label": "Available"
+                    },
+                    "sessionEnding": {
+                        "label": "Finished"
+                    },
+                    "fault": {
+                        "label": "Faulted"
+                    },
+                    "pluggedInDemand": {
+                        "label": "Suspended EVSE"
+                    },
+                    "pluggedInDischarging": {
+                        "label": "Discharging"
+                    },
+                    "pluggedInNoDemand": {
+                        "label": "Suspended EV"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

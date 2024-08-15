@@ -6,13 +6,13 @@
         "supportedAcModes": {
             "label": "modes de climatiseur pris en charge",
             "description": "Supported states for this air conditioner to be in",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
+            "i18n": {}
         },
         "airConditionerMode": {
             "label": "Mode",
             "description": "Current mode of the air conditioner",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
             "i18n": {
                 "value": {
                     "heat": {
@@ -67,7 +67,7 @@
                         "label": "AI"
                     },
                     "dry": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "notsupported": {
                         "label": "Not Supported"
@@ -156,7 +156,7 @@
                             "label": "AI"
                         },
                         "dry": {
-                            "label": "S\u00e9chage"
+                            "label": "Séchage"
                         },
                         "clean": {
                             "label": "Purification"

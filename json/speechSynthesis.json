@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "Speech Synthesis",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "speak": {
             "name": "speak",

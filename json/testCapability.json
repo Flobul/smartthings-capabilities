@@ -4,6 +4,6 @@
     "status": "live",
     "name": "Test Capability",
     "ephemeral": false,
-    "attributes": [],
-    "commands": []
+    "attributes": {},
+    "commands": {}
 }

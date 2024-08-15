@@ -4,7 +4,7 @@
     "description": "Allows for the control of the refrigeration.",
     "attributes": {
         "defrost": {
-            "label": "D\u00e9cong\u00e9lation",
+            "label": "Décongélation",
             "description": "Status of the defrost",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
@@ -34,7 +34,7 @@
             }
         },
         "rapidFreezing": {
-            "label": "Cong\u00e9lation rapide",
+            "label": "Congélation rapide",
             "description": "Status of the rapid freezing",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
@@ -52,12 +52,12 @@
     "commands": {
         "setDefrost": {
             "description": "Sets the defrost on or off",
-            "arguments": []
+            "arguments": {}
         },
         "setRapidFreezing": {
             "label": "Refroidissement rapide",
             "description": "Sets the rapid freezing on or off",
-            "arguments": []
+            "arguments": {}
         },
         "setRapidCooling": {
             "label": "Refroidissement rapide",
@@ -66,10 +66,10 @@
                 "rapidCooling": {
                     "i18n": {
                         "off": {
-                            "label": "D\u00e9sactiv\u00e9"
+                            "label": "Désactivé"
                         },
                         "on": {
-                            "label": "Activ\u00e9"
+                            "label": "Activé"
                         }
                     },
                     "description": "The on or off value for the rapid cooling"

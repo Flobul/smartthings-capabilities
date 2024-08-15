@@ -6,14 +6,14 @@
         "button": {
             "label": "Touche",
             "description": "The state of the holdable button",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "held": {
-                        "label": "Maintenue appuy\u00e9e"
+                        "label": "Maintenue appuyée"
                     },
                     "pushed": {
-                        "label": "Appuy\u00e9e"
+                        "label": "Appuyée"
                     }
                 }
             }
@@ -21,9 +21,9 @@
         "numberOfButtons": {
             "label": "Nombre de touches",
             "description": "The number of buttons on the device",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

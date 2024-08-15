@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "Statut des appareils \u00e9lectrom\u00e9nagers",
+    "label": "Statut des appareils électroménagers",
     "description": "Indicates whether or not an appliance is being used",
     "attributes": {
         "status": {
-            "label": "Statut des appareils \u00e9lectrom\u00e9nagers",
+            "label": "Statut des appareils électroménagers",
             "description": "Whether or not the appliance is in use",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
@@ -19,5 +19,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

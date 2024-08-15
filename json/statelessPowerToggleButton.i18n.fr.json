@@ -4,10 +4,10 @@
     "description": "Allows for the control of a device with a stateless power button",
     "attributes": {
         "availablePowerToggleButtons": {
-            "label": "Touches configur\u00e9es",
-            "description": "A list of commands\/buttons that have been configured in the device",
+            "label": "Touches configurées",
+            "description": "A list of commands/buttons that have been configured in the device",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {

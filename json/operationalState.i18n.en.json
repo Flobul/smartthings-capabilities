@@ -7,12 +7,12 @@
             "label": "Supported Operational States",
             "description": "Supported operational state commands for this machine to receive",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "supportedCommands": {
             "label": "supportedCommands",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "operationalState": {
             "label": "Status",
@@ -42,5 +42,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

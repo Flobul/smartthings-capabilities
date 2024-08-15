@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "Formald\u00e9hyde",
+    "label": "Formaldéhyde",
     "description": "Measure formaldehyde levels",
     "attributes": {
         "formaldehydeLevel": {
-            "label": "Formald\u00e9hyde",
+            "label": "Formaldéhyde",
             "description": "The level of formaldehyde detected",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

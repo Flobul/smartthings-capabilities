@@ -6,14 +6,14 @@
         "stream": {
             "label": "Flux",
             "description": "Video stream details",
-            "displayTemplate": "{{attribute}} de {{device.label}} est mis \u00e0 jour",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} est mis à jour",
+            "i18n": {}
         },
         "clip": {
             "label": "Clip",
             "description": "Video clip details",
-            "displayTemplate": "{{attribute}} de {{device.label}} est mis \u00e0 jour",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} est mis à jour",
+            "i18n": {}
         }
     },
     "commands": {
@@ -22,15 +22,15 @@
             "description": "Set the video capture schedule",
             "arguments": {
                 "captureTime": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Video capture time, in ISO 8601 format"
                 },
                 "startTime": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Time, in ISO 8601 format, when the video capture should start"
                 },
                 "endTime": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Time, in ISO 8601 format, when the video capture should end"
                 }
             }

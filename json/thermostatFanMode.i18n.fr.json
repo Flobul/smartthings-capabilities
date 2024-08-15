@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "Mode de ventilation",
+    "label": "Mode ventilation du thermostat",
     "description": "Set the current mode of the thermostat fan.",
     "attributes": {
         "thermostatFanMode": {
-            "label": "Mode de ventilation",
+            "label": "Mode ventilation du thermostat",
             "description": "The current mode of the fan controlled by the thermostat",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
@@ -19,7 +19,7 @@
                         "label": "Circulation"
                     },
                     "on": {
-                        "label": "Activ\u00e9"
+                        "label": "Activé"
                     }
                 }
             }
@@ -28,13 +28,13 @@
             "label": "Modes de ventilation du thermostat pris en charge",
             "description": "If set, determines which fan modes are user-selectable options.",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "fanOn": {
             "description": "Set the fan mode to ``on``",
-            "arguments": []
+            "arguments": {}
         },
         "setThermostatFanMode": {
             "description": "Set the thermostat fan mode",
@@ -51,7 +51,7 @@
                             "label": "Circulation"
                         },
                         "on": {
-                            "label": "Activ\u00e9"
+                            "label": "Activé"
                         }
                     },
                     "description": "The mode may be one of the following values:"
@@ -60,11 +60,11 @@
         },
         "fanAuto": {
             "description": "Set the fan mode to ``auto``",
-            "arguments": []
+            "arguments": {}
         },
         "fanCirculate": {
             "description": "Set the fan mode to ``circulate``",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

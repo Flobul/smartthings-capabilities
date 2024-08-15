@@ -49,7 +49,7 @@
             "label": "supported robot cleaner states",
             "description": "The states supported by the Robot Cleaner",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "robotCleanerControlState": {
             "label": "robot cleaner control state",
@@ -94,19 +94,19 @@
     "commands": {
         "setRobotCleanerCleaningState": {
             "description": "Set the cleaning state of the Robot Cleaner",
-            "arguments": []
+            "arguments": {}
         },
         "stop": {
             "description": "Provide the description",
-            "arguments": []
+            "arguments": {}
         },
         "setRobotCleanerControlState": {
             "description": "Set the control state of the Robot Cleaner",
-            "arguments": []
+            "arguments": {}
         },
         "setRobotCleanerTurboState": {
             "description": "Set the turbo state of the Robot Cleaner",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

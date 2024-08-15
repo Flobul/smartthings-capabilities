@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "Alerte de temp\u00e9rature",
+    "label": "Alerte de température",
     "description": "Supports temperature driven alarms",
     "attributes": {
         "temperatureAlarm": {
-            "label": "Alerte de temp\u00e9rature",
+            "label": "Alerte de température",
             "description": "The current status of the temperature alarm",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
@@ -25,5 +25,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

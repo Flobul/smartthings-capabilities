@@ -7,14 +7,14 @@
             "label": "uplink speed",
             "description": "Current reading of the uplink speed from the network meter.",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "downlinkSpeed": {
             "label": "downlink speed",
             "description": "Current reading of the downlink speed from the network meter.",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

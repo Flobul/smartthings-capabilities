@@ -7,8 +7,8 @@
             "label": "Niveau sonore",
             "description": "Level of the sound pressure",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} dB",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -7,13 +7,13 @@
             "label": "color temperature range",
             "description": "Constraints on the color temperature value",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "colorTemperature": {
             "label": "Colour temperature",
             "description": "A number that represents the color temperature, measured in degrees Kelvin",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}K",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -21,7 +21,7 @@
             "description": "Set the color temperature to the specified value",
             "arguments": {
                 "temperature": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The value to set the color temperature attribute to, in Kelvin"
                 }
             }

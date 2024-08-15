@@ -6,17 +6,17 @@
         "completionTime": {
             "label": "Heure de fin",
             "description": "Completion time for the current dishwasher operation",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "machineState": {
             "label": "Statut de machine",
             "description": "State of the dishwasher operation",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "Arr\u00eat"
+                        "label": "Arrêt"
                     },
                     "run": {
                         "label": "Marche"
@@ -30,23 +30,23 @@
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
             "description": "Operating states supported by the dishwasher machine",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "dishwasherJobState": {
-            "label": "Statut de t\u00e2che du lave-vaisselle",
+            "label": "Statut de tâche du lave-vaisselle",
             "description": "Current status of the dishwasher machine",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "preDrain": {
                         "label": "Trempage"
                     },
                     "drying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "spin": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "cooling": {
                         "label": "Refroidissement"
@@ -61,13 +61,13 @@
                         "label": "Fin"
                     },
                     "prewash": {
-                        "label": "Pr\u00e9lavage"
+                        "label": "Prélavage"
                     },
                     "airwash": {
                         "label": "Purification d'air"
                     },
                     "rinse": {
-                        "label": "Rin\u00e7age"
+                        "label": "Rinçage"
                     },
                     "unknown": {
                         "label": "Inconnu"
@@ -81,7 +81,7 @@
             "description": "Set the dishwasher machine state",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the dishwasher machine in an operational state, pause, run or stop"
                 }
             }

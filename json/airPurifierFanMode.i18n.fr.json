@@ -7,7 +7,7 @@
             "label": "supported air purifier fan modes",
             "description": "Supported states for this air purifier fan to be in",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "airPurifierFanMode": {
             "label": "Mode de ventilation du purificateur d'air",
@@ -37,7 +37,7 @@
                         "label": "Silencieux"
                     },
                     "off": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     }
                 }
             }
@@ -71,7 +71,7 @@
                             "label": "Moyen"
                         },
                         "off": {
-                            "label": "D\u00e9sactiv\u00e9"
+                            "label": "Désactivé"
                         }
                     },
                     "description": "The air purifier fan mode"

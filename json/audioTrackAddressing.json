@@ -4,7 +4,7 @@
     "status": "deprecated",
     "name": "Audio Track Addressing",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "setAudioTrack": {
             "name": "setAudioTrack",

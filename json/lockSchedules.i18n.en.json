@@ -1,0 +1,32 @@
+{
+    "tag": "en",
+    "label": "Lock Schedules",
+    "attributes": {
+        "commandResult": {
+            "label": "commandResult",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "weekDaySchedules": {
+            "label": "weekDaySchedules",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "yearDaySchedules": {
+            "label": "yearDaySchedules",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "weekDaySchedulesPerUser": {
+            "label": "weekDaySchedulesPerUser",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "yearDaySchedulesPerUser": {
+            "label": "yearDaySchedulesPerUser",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

@@ -7,7 +7,7 @@
             "label": "Oven temperature",
             "description": "Current value of the oven set point",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -15,7 +15,7 @@
             "description": "Set the oven set point.",
             "arguments": {
                 "setpoint": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the oven set point to this number"
                 }
             }

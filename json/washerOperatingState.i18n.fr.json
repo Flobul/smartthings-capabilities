@@ -6,17 +6,17 @@
         "completionTime": {
             "label": "Heure de fin",
             "description": "The completion time for the washer job",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "machineState": {
             "label": "Statut de l'appareil",
             "description": "Current status of the washer",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "Arr\u00eat\u00e9"
+                        "label": "Arrêté"
                     },
                     "run": {
                         "label": "Lavage"
@@ -30,14 +30,14 @@
         "washerJobState": {
             "label": "Lave-linge",
             "description": "The job states supported by the washer",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "aIRinse": {
                         "label": "aIRinse"
                     },
                     "weightSensing": {
-                        "label": "V\u00e9rification du poids"
+                        "label": "Vérification du poids"
                     },
                     "wash": {
                         "label": "Lavage"
@@ -46,19 +46,19 @@
                         "label": "Anti-froissage"
                     },
                     "delayWash": {
-                        "label": "Fin diff\u00e9r\u00e9e"
+                        "label": "Fin différée"
                     },
                     "none": {
                         "label": "Aucun(e)"
                     },
                     "airWash": {
-                        "label": "Lavage \u00e0 l'air"
+                        "label": "Lavage à l'air"
                     },
                     "aIWash": {
                         "label": "aIWash"
                     },
                     "drying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "spin": {
                         "label": "Essorage"
@@ -73,10 +73,10 @@
                         "label": "Lavage"
                     },
                     "finish": {
-                        "label": "Termin\u00e9"
+                        "label": "Terminé"
                     },
                     "rinse": {
-                        "label": "Rin\u00e7age"
+                        "label": "Rinçage"
                     },
                     "freezeProtection": {
                         "label": "freezeProtection"
@@ -87,8 +87,8 @@
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
             "description": "The states supported by the washer machine",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         }
     },
     "commands": {
@@ -98,7 +98,7 @@
                 "state": {
                     "i18n": {
                         "stop": {
-                            "label": "Arr\u00eat\u00e9"
+                            "label": "Arrêté"
                         },
                         "run": {
                             "label": "Lavage"

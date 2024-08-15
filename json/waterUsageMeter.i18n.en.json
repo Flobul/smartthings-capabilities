@@ -7,14 +7,14 @@
             "label": "This month",
             "description": "Water used this month",
             "displayTemplate": "Water used this month by {{device.label}} is {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         },
         "waterUsageDay": {
             "label": "Today",
             "description": "Water used today",
             "displayTemplate": "Water used today by {{device.label}} is {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

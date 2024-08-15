@@ -1,18 +1,18 @@
 {
     "tag": "fr",
-    "label": "Source d'entr\u00e9e multim\u00e9dia",
+    "label": "Source d'entrée multimédia",
     "description": "Allows for the control of the media input source.",
     "attributes": {
         "supportedInputSources": {
-            "label": "Sources d'entr\u00e9e prises en charge",
+            "label": "Sources d'entrée prises en charge",
             "description": "Supported input sources",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "inputSource": {
-            "label": "Source d'entr\u00e9e",
+            "label": "Source d'entrée",
             "description": "Current input source",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "aux": {
@@ -40,10 +40,10 @@
                         "label": "HDMI1"
                     },
                     "digitalTv": {
-                        "label": "TV num\u00e9rique"
+                        "label": "TV numérique"
                     },
                     "network": {
-                        "label": "R\u00e9seau"
+                        "label": "Réseau"
                     },
                     "coaxial": {
                         "label": "Coaxial"
@@ -52,7 +52,7 @@
                         "label": "Melon"
                     },
                     "digital": {
-                        "label": "Num\u00e9rique"
+                        "label": "Numérique"
                     },
                     "CD": {
                         "label": "CD"
@@ -96,11 +96,11 @@
     },
     "commands": {
         "setInputSource": {
-            "label": "Source d'entr\u00e9e multim\u00e9dia",
+            "label": "Source d'entrée multimédia",
             "description": "Set the input source for the media",
             "arguments": {
                 "mode": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the input source, to AM, CD, FM, HDMI, HDMI1, HDMI2, HDMI3, HDMI4, HDMI5, HDMI6, digitalTv, USB, YouTube, aux, bluetooth, digital, melon, wifi, network, optical, coaxial, analog1, analog2, analog3 or phono"
                 }
             }

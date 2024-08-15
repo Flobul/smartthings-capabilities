@@ -6,15 +6,15 @@
         "goal": {
             "label": "Objectif",
             "description": "The current step goal",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "steps": {
             "label": "Pas",
             "description": "The current step count",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

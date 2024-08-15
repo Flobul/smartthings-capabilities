@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "D\u00e9tecteur d'odeurs",
+    "label": "Détecteur d'odeurs",
     "description": "Gets the odor sensor reading.",
     "attributes": {
         "odorLevel": {
-            "label": "D\u00e9tecteur d'odeurs",
+            "label": "Détecteur d'odeurs",
             "description": "The current oder sensor level reading",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

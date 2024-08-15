@@ -1,13 +1,13 @@
 {
     "tag": "fr",
-    "label": "Niveau d'inclinaison du store de fen\u00eatre",
+    "label": "Niveau d'inclinaison du store de fenêtre",
     "description": "Allows for the control of the tilt level of a window shade.",
     "attributes": {
         "shadeTiltLevel": {
-            "label": "Niveau d'inclinaison du store de fen\u00eatre",
+            "label": "Niveau d'inclinaison du store de fenêtre",
             "description": "A number that represents the current tilt level as a function of being open, ``0-100`` in percent; 0 representing completely closed, and 100 representing completely open.",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}%",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -15,7 +15,7 @@
             "description": "Set the shade tilt level to the given value.",
             "arguments": {
                 "level": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The level value as a function of being open, ``0-100`` in percent; 0 is equivalent to completely closed and 100 is equivalent to completely open"
                 }
             }

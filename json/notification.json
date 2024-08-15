@@ -4,7 +4,7 @@
     "status": "live",
     "name": "Notification",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "deviceNotification": {
             "name": "deviceNotification",

@@ -7,7 +7,7 @@
             "label": "completion time",
             "description": "The completion time for the washer job",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "machineState": {
             "label": "machine state",
@@ -76,7 +76,7 @@
             "label": "supported machine states",
             "description": "The states supported by the washer machine",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -84,7 +84,7 @@
             "description": "Set the washer machine state",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the washer machine state to \"pause\", \"run\", or \"stop\" state"
                 }
             }

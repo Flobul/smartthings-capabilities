@@ -7,8 +7,8 @@
             "label": "Capteur 3 axes",
             "description": "A Vector3 ``(x,y,z)`` representation of the three axis coordinates",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} mG",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

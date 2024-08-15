@@ -13,6 +13,7 @@
                         "title": "ThermostatMode",
                         "type": "string",
                         "enum": [
+                            "antifreezing",
                             "asleep",
                             "auto",
                             "autowitheco",
@@ -58,7 +59,10 @@
                             "warm",
                             "hot",
                             "veryhot",
-                            "ondol"
+                            "ondol",
+                            "bath",
+                            "iterativeReservation",
+                            "24hourReservation"
                         ]
                     },
                     "data": {
@@ -72,6 +76,7 @@
                                     "title": "ThermostatMode",
                                     "type": "string",
                                     "enum": [
+                                        "antifreezing",
                                         "asleep",
                                         "auto",
                                         "autowitheco",
@@ -117,7 +122,10 @@
                                         "warm",
                                         "hot",
                                         "veryhot",
-                                        "ondol"
+                                        "ondol",
+                                        "bath",
+                                        "iterativeReservation",
+                                        "24hourReservation"
                                     ]
                                 }
                             }
@@ -163,6 +171,7 @@
                             "title": "ThermostatMode",
                             "type": "string",
                             "enum": [
+                                "antifreezing",
                                 "asleep",
                                 "auto",
                                 "autowitheco",
@@ -208,7 +217,10 @@
                                 "warm",
                                 "hot",
                                 "veryhot",
-                                "ondol"
+                                "ondol",
+                                "bath",
+                                "iterativeReservation",
+                                "24hourReservation"
                             ]
                         }
                     }
@@ -238,6 +250,7 @@
                         "title": "ThermostatMode",
                         "type": "string",
                         "enum": [
+                            "antifreezing",
                             "asleep",
                             "auto",
                             "autowitheco",
@@ -283,7 +296,10 @@
                             "warm",
                             "hot",
                             "veryhot",
-                            "ondol"
+                            "ondol",
+                            "bath",
+                            "iterativeReservation",
+                            "24hourReservation"
                         ]
                     }
                 }

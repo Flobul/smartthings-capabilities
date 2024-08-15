@@ -4,21 +4,21 @@
     "description": "Allows for control of a music playing device",
     "attributes": {
         "trackDescription": {
-            "label": "Description de la t\u00e2che",
+            "label": "Description de la tâche",
             "description": "Description of the current playing track",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "level": {
             "label": "Volume",
             "description": "``0-100`` (percent)",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "mute": {
             "label": "Muet",
             "description": "A string representation of whether the music player is muted or not",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "unmuted": {
@@ -31,28 +31,28 @@
             }
         },
         "trackData": {
-            "label": "Contr\u00f4le des pistes m\u00e9dia",
+            "label": "Contrôle des pistes média",
             "description": "A JSON data structure that represents current track data",
-            "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} a été mis à jour",
+            "i18n": {}
         },
         "status": {
             "label": "Statut",
             "description": "State of the music player as a string",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "play": {
                         "label": "Lecture"
                     },
                     "stopped": {
-                        "label": "Arr\u00eat\u00e9"
+                        "label": "Arrêté"
                     },
                     "paused": {
                         "label": "En pause"
                     },
                     "stop": {
-                        "label": "Arr\u00eater"
+                        "label": "Arrêter"
                     },
                     "standby": {
                         "label": "En veille"
@@ -71,13 +71,13 @@
         "play": {
             "label": "Lecture",
             "description": "Start playback",
-            "arguments": []
+            "arguments": {}
         },
         "restoreTrack": {
             "description": "Restore the playlist position to the given track",
             "arguments": {
                 "trackToRestore": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A URI String representing the track to restore"
                 }
             }
@@ -86,36 +86,36 @@
             "description": "Restore the playlist position to the given track and start playback",
             "arguments": {
                 "trackToResume": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A URI String representing the track to resume"
                 }
             }
         },
         "stop": {
-            "label": "Arr\u00eater",
+            "label": "Arrêter",
             "description": "Stop playback",
-            "arguments": []
+            "arguments": {}
         },
         "previousTrack": {
-            "label": "Pr\u00e9c\u00e9dent",
+            "label": "Précédent",
             "description": "Revert to the previous track",
-            "arguments": []
+            "arguments": {}
         },
         "nextTrack": {
             "label": "Suivant",
             "description": "Advance to the next track",
-            "arguments": []
+            "arguments": {}
         },
         "mute": {
             "label": "Muet",
             "description": "Mute playback",
-            "arguments": []
+            "arguments": {}
         },
         "setTrack": {
             "description": "Set the current track",
             "arguments": {
                 "trackToSet": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the given track to the given URI String"
                 }
             }
@@ -123,13 +123,13 @@
         "unmute": {
             "label": "Activer le son",
             "description": "Unmute playback",
-            "arguments": []
+            "arguments": {}
         },
         "playTrack": {
             "description": "Play the given track",
             "arguments": {
                 "trackToPlay": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A URI String representing the track to play"
                 }
             }
@@ -137,13 +137,13 @@
         "pause": {
             "label": "Pause",
             "description": "Pause playback",
-            "arguments": []
+            "arguments": {}
         },
         "setLevel": {
             "description": "Set the level to the specified value",
             "arguments": {
                 "level": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The level to set playback to in the range ``0-100`` as a percent"
                 }
             }

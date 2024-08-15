@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "Store de fen\u00eatre",
+    "label": "Store de fenêtre",
     "description": "Allows for the control of the window shade.",
     "attributes": {
         "supportedWindowShadeCommands": {
@@ -22,24 +22,24 @@
             }
         },
         "windowShade": {
-            "label": "Store de fen\u00eatre",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "label": "Store de fenêtre",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "paused": {
                         "label": "paused"
                     },
                     "closing": {
-                        "label": "Fermeture\u2026"
+                        "label": "Fermeture…"
                     },
                     "partially open": {
                         "label": "Partiellement ouvert"
                     },
                     "closed": {
-                        "label": "Ferm\u00e9"
+                        "label": "Fermé"
                     },
                     "opening": {
-                        "label": "Ouverture\u2026"
+                        "label": "Ouverture…"
                     },
                     "open": {
                         "label": "Ouvert"
@@ -55,17 +55,17 @@
         "close": {
             "label": "Fermer",
             "description": "Close the window shade",
-            "arguments": []
+            "arguments": {}
         },
         "open": {
             "label": "Ouvert",
             "description": "Open the window shade",
-            "arguments": []
+            "arguments": {}
         },
         "pause": {
             "label": "Pause",
             "description": "Pause opening or closing the window shade",
-            "arguments": []
+            "arguments": {}
         }
     }
 }
