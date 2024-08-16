@@ -4,6 +4,6 @@
     "status": "deprecated",
     "name": "Sensor",
     "ephemeral": false,
-    "attributes": [],
-    "commands": []
+    "attributes": {},
+    "commands": {}
 }

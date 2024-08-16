@@ -7,14 +7,14 @@
             "label": "Vitesse de la liaison montante",
             "description": "Current reading of the uplink speed from the network meter.",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "downlinkSpeed": {
             "label": "Vitesse de la liaison descendante",
             "description": "Current reading of the downlink speed from the network meter.",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

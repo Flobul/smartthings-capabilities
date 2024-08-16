@@ -3,6 +3,11 @@
     "label": "Movement sensor detection",
     "description": "Allows for the ability to read movement sensor device states",
     "attributes": {
+        "supportedMovements": {
+            "label": "supportedMovements",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "movement": {
             "label": "Movement sensor detection",
             "description": "The current state of the movement sensor",
@@ -13,13 +18,25 @@
                         "label": "Entering"
                     },
                     "inactive": {
-                        "label": "Ready"
+                        "label": "No movement"
+                    },
+                    "leavingRight": {
+                        "label": "Leaving right"
                     },
                     "movingAway": {
                         "label": "Moving away"
                     },
                     "approaching": {
                         "label": "Approaching"
+                    },
+                    "enteringRight": {
+                        "label": "Entering right"
+                    },
+                    "enteringLeft": {
+                        "label": "Entering left"
+                    },
+                    "leavingLeft": {
+                        "label": "Leaving left"
                     },
                     "leaving": {
                         "label": "Leaving"
@@ -28,5 +45,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

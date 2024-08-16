@@ -7,7 +7,7 @@
             "label": "volume",
             "description": "Status of the volume",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "pictureMode": {
             "label": "picture mode",
@@ -34,7 +34,7 @@
             "label": "message button",
             "description": "Message description",
             "displayTemplate": "{{attribute}} of {{device.label}} is updated",
-            "i18n": []
+            "i18n": {}
         },
         "soundMode": {
             "label": "sound mode",
@@ -97,43 +97,43 @@
     "commands": {
         "setPictureMode": {
             "description": "Set the picture mode",
-            "arguments": []
+            "arguments": {}
         },
         "volumeDown": {
             "description": "Turn the volume down",
-            "arguments": []
+            "arguments": {}
         },
         "setSoundMode": {
             "description": "Set the sound mode",
-            "arguments": []
+            "arguments": {}
         },
         "showMessage": {
             "description": "Set to show the message",
-            "arguments": []
+            "arguments": {}
         },
         "volumeUp": {
             "description": "Turn the volume up",
-            "arguments": []
+            "arguments": {}
         },
         "mute": {
             "description": "Set the mute status",
-            "arguments": []
+            "arguments": {}
         },
         "unmute": {
             "description": "Unmute the TV sound",
-            "arguments": []
+            "arguments": {}
         },
         "setVolume": {
             "description": "Set the volume",
-            "arguments": []
+            "arguments": {}
         },
         "off": {
             "description": "Set the TV to off",
-            "arguments": []
+            "arguments": {}
         },
         "on": {
             "description": "Set the TV to on",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

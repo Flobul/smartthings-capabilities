@@ -7,8 +7,8 @@
             "label": "Formaldehyde",
             "description": "The level of formaldehyde detected",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

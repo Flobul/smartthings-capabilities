@@ -1,25 +1,25 @@
 {
     "tag": "fr",
-    "label": "S\u00e8che-linge",
+    "label": "Sèche-linge",
     "description": "Allows for the control of the dryer operational state.",
     "attributes": {
         "completionTime": {
             "label": "Heure de fin",
             "description": "The completion time for the dryer job",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "machineState": {
             "label": "Statut de l'appareil",
             "description": "Current state of the dryer machine operation",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "Arr\u00eat\u00e9"
+                        "label": "Arrêté"
                     },
                     "run": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "pause": {
                         "label": "Mis en pause"
@@ -30,17 +30,17 @@
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
             "description": "The states supported by the dryer machine",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "dryerJobState": {
-            "label": "S\u00e8che-linge",
+            "label": "Sèche-linge",
             "description": "The state of the dryer job",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "weightSensing": {
-                        "label": "V\u00e9rification du poids"
+                        "label": "Vérification du poids"
                     },
                     "wrinklePrevent": {
                         "label": "Anti-froissage"
@@ -49,10 +49,10 @@
                         "label": "sanitizing"
                     },
                     "delayWash": {
-                        "label": "Fin diff\u00e9r\u00e9e"
+                        "label": "Fin différée"
                     },
                     "finished": {
-                        "label": "Termin\u00e9"
+                        "label": "Terminé"
                     },
                     "none": {
                         "label": "Aucun(e)"
@@ -67,7 +67,7 @@
                         "label": "continuousDehumidifying"
                     },
                     "drying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "refreshing": {
                         "label": "refreshing"
@@ -95,10 +95,10 @@
                 "state": {
                     "i18n": {
                         "stop": {
-                            "label": "Arr\u00eat\u00e9"
+                            "label": "Arrêté"
                         },
                         "run": {
-                            "label": "S\u00e9chage"
+                            "label": "Séchage"
                         },
                         "pause": {
                             "label": "Mis en pause"

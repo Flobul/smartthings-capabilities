@@ -17,7 +17,7 @@
                         "enum": [
                             "kg",
                             "lbs",
-                            "\u65a4"
+                            "斤"
                         ],
                         "default": "kg"
                     }
@@ -31,5 +31,5 @@
             "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {}
 }

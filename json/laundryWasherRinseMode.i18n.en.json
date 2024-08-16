@@ -28,7 +28,7 @@
             "label": "supported rinse modes",
             "description": "Rinse modes supported by the laundry washer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {

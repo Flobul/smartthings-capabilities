@@ -5,7 +5,7 @@
         "supportedOperatingState": {
             "label": "supportedOperatingState",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "operatingState": {
             "label": "Device status",
@@ -190,33 +190,33 @@
         "isMapBasedOperationAvailable": {
             "label": "isMapBasedOperationAvailable",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "resume": {
             "label": "Start",
-            "arguments": []
+            "arguments": {}
         },
         "setOperatingState": {
             "label": "Device status",
-            "arguments": []
+            "arguments": {}
         },
         "returnToHome": {
             "label": "Return To Charging Station",
-            "arguments": []
+            "arguments": {}
         },
         "start": {
             "label": "Start",
-            "arguments": []
+            "arguments": {}
         },
         "pause": {
             "label": "Pause",
-            "arguments": []
+            "arguments": {}
         },
         "cancelRemainingJob": {
             "label": "Stop",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

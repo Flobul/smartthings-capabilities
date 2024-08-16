@@ -1,12 +1,12 @@
 {
     "tag": "en",
     "label": "Refresh",
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "refresh": {
             "label": "Refresh",
             "description": "Send the refresh command to the device",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

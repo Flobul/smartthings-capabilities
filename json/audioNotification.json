@@ -4,7 +4,7 @@
     "status": "live",
     "name": "Audio Notification",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "playTrackAndResume": {
             "name": "playTrackAndResume",

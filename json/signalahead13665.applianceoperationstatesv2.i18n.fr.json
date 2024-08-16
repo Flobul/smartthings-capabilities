@@ -1,0 +1,45 @@
+{
+    "tag": "fr-FR",
+    "label": "Appliance Operation States",
+    "attributes": {
+        "operationState": {
+            "label": "Statut de fonctionnement",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "Ready": {
+                        "label": "Prêt"
+                    },
+                    "Finished": {
+                        "label": "Terminé"
+                    },
+                    "Pause": {
+                        "label": "En Cours De Pause"
+                    },
+                    "DelayedStart": {
+                        "label": "Démarrage Différé"
+                    },
+                    "ActionRequired": {
+                        "label": "Action Requise"
+                    },
+                    "Aborting": {
+                        "label": "Abandonner"
+                    },
+                    "Inactive": {
+                        "label": "Inactif"
+                    },
+                    "Error": {
+                        "label": "Défaut"
+                    },
+                    "Offline": {
+                        "label": "Offline"
+                    },
+                    "Run": {
+                        "label": "En Fonctionnement"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

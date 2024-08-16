@@ -7,8 +7,8 @@
             "label": "Nitrogen dioxide",
             "description": "The level of nitrogen dioxide detected",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}ppm",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

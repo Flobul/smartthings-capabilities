@@ -7,7 +7,7 @@
             "label": "supported oven modes",
             "description": "The modes supported by this oven",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "ovenMode": {
             "label": "Mode",

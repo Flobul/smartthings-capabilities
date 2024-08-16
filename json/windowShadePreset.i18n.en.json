@@ -1,12 +1,12 @@
 {
     "tag": "en",
     "label": "Window Shade Preset",
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "presetPosition": {
             "label": "Preset position",
             "description": "Open window shade to a preset position",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

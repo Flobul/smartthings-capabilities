@@ -31,8 +31,8 @@
             "label": "supported values",
             "description": "The set of allowable values that the detected attribute can hold.",
             "displayTemplate": "{{device.label}} detected {{detected.qty}} {{detected.value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "Heure d'arriv\u00e9e estim\u00e9e",
+    "label": "Heure d'arrivée estimée",
     "description": "Allow access to estimated time of arrival values for devices that support it, for example automobiles",
     "attributes": {
         "eta": {
-            "label": "Heure d'arriv\u00e9e estim\u00e9e",
+            "label": "Heure d'arrivée estimée",
             "description": "A date representing the estimated time of arrival",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

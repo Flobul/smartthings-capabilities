@@ -6,15 +6,15 @@
         "dustLevel": {
             "label": "PM 10",
             "description": "Current dust level -- also refered to as PM10, measured in micrograms per cubic meter",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}\u03bcg\/m^3",
-            "i18n": []
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}μg/m^3",
+            "i18n": {}
         },
         "fineDustLevel": {
             "label": "PM 2.5",
             "description": "Current level of fine dust -- also refered to as PM2.5, measured in micrograms per cubic meter",
-            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}\u03bcg\/m^3",
-            "i18n": []
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}μg/m^3",
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

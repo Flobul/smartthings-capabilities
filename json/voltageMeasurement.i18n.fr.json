@@ -7,8 +7,8 @@
             "label": "Tension",
             "description": "A number representing the current voltage measured",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} V",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

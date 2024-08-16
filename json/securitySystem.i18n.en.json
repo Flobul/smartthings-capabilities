@@ -13,7 +13,7 @@
                         "label": "Ready"
                     },
                     "bypassedNotReady": {
-                        "label": "Bypassed \/ Not Ready"
+                        "label": "Bypassed / Not Ready"
                     }
                 }
             }
@@ -22,7 +22,7 @@
             "label": "alarm",
             "description": "[DEPRECATED] The reference to the device that most recently generated an event to trigger an alarm",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "securitySystemStatus": {
             "label": "Security mode",
@@ -47,17 +47,17 @@
         "armStay": {
             "label": "Armed (stay)",
             "description": "Set the security system to ``armedStay``",
-            "arguments": []
+            "arguments": {}
         },
         "disarm": {
             "label": "Disarmed",
             "description": "Set the security system to ``disarmed``",
-            "arguments": []
+            "arguments": {}
         },
         "armAway": {
             "label": "Armed (away)",
             "description": "Set the security system to ``armedAway``",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

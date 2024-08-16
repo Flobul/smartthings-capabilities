@@ -1,0 +1,118 @@
+{
+    "tag": "fr",
+    "label": "État de la station de recharge pour véhicule électrique",
+    "attributes": {
+        "supplyState": {
+            "label": "État de l'alimentation du véhicule électrique",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "chargingEnabled": {
+                        "label": "Chargement activé"
+                    },
+                    "dischargingEnabled": {
+                        "label": "Déchargement activé"
+                    },
+                    "disabledError": {
+                        "label": "Erreur"
+                    },
+                    "disabledDiagnostics": {
+                        "label": "Erreur de diagnostic"
+                    },
+                    "disabled": {
+                        "label": "Désactivé"
+                    }
+                }
+            }
+        },
+        "faultState": {
+            "label": "Détecteur de défaut",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "overTemperature": {
+                        "label": "overTemperature"
+                    },
+                    "emergencyStop": {
+                        "label": "Arrêt d'urgence"
+                    },
+                    "other": {
+                        "label": "Autres"
+                    },
+                    "contactWetFailure": {
+                        "label": "Défaut d'étanchéité du contact"
+                    },
+                    "overCurrent": {
+                        "label": "Surintensité"
+                    },
+                    "powerQuality": {
+                        "label": "Qualité énergétique"
+                    },
+                    "liveNeutralSwap": {
+                        "label": "Permutation en direct/neutre"
+                    },
+                    "contactDryFailure": {
+                        "label": "Défaut de contact sec"
+                    },
+                    "underVoltage": {
+                        "label": "Sous-tension"
+                    },
+                    "groundFault": {
+                        "label": "Défaut de masse"
+                    },
+                    "powerLoss": {
+                        "label": "Perte de puissance"
+                    },
+                    "eVDisconnected": {
+                        "label": "Véhicule électrique déconnecté"
+                    },
+                    "pilotShortCircuit": {
+                        "label": "Court-circuit du pilote"
+                    },
+                    "overVoltage": {
+                        "label": "Surtension"
+                    },
+                    "noError": {
+                        "label": "Absent"
+                    },
+                    "meterFailure": {
+                        "label": "Défaillance du compteur"
+                    },
+                    "wrongPowerSupply": {
+                        "label": "Alimentation défectueuse"
+                    }
+                }
+            }
+        },
+        "state": {
+            "label": "État de la station de recharge pour véhicule électrique",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "pluggedInCharging": {
+                        "label": "Chargement"
+                    },
+                    "notPluggedIn": {
+                        "label": "Disponibles"
+                    },
+                    "sessionEnding": {
+                        "label": "Terminé"
+                    },
+                    "fault": {
+                        "label": "Faulted"
+                    },
+                    "pluggedInDemand": {
+                        "label": "Station de recharge pour véhicule électrique suspendue"
+                    },
+                    "pluggedInDischarging": {
+                        "label": "Déchargement"
+                    },
+                    "pluggedInNoDemand": {
+                        "label": "Véhicule électrique suspendu"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

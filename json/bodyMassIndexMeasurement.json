@@ -15,9 +15,9 @@
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "kg\/m^2"
+                            "kg/m^2"
                         ],
-                        "default": "kg\/m^2"
+                        "default": "kg/m^2"
                     }
                 },
                 "additionalProperties": false,
@@ -28,5 +28,5 @@
             "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {}
 }

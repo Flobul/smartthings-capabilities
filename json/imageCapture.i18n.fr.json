@@ -6,26 +6,26 @@
         "image": {
             "label": "Image",
             "description": "String value representing the image captured",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "encrypted": {
             "label": "encrypted",
             "description": "Flag to indicate that the image is encrypted",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "captureTime": {
             "label": "captureTime",
             "description": "Date representing the time the image was captured",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "take": {
             "description": "Capture an image",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

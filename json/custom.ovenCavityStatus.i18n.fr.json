@@ -8,7 +8,7 @@
             "i18n": {
                 "value": {
                     "off": {
-                        "label": "D\u00e9sactiver"
+                        "label": "Désactiver"
                     },
                     "on": {
                         "label": "Activer"
@@ -17,5 +17,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

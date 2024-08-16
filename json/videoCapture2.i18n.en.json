@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Video Capture 2",
+    "attributes": {
+        "clip": {
+            "label": "clip",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

@@ -6,8 +6,8 @@
         "schedule": {
             "label": "Programme",
             "description": "The current schedule of the thermostat",
-            "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} a été mis à jour",
+            "i18n": {}
         }
     },
     "commands": {
@@ -15,7 +15,7 @@
             "description": "Set the thermostat schedule",
             "arguments": {
                 "schedule": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The schedule to which the thermostat should be set"
                 }
             }

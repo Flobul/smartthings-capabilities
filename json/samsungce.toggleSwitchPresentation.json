@@ -1,7 +1,8 @@
 {
     "dashboard": {
         "states": [],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "automation": {
         "conditions": [],

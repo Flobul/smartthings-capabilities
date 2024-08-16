@@ -6,17 +6,17 @@
         "completionTime": {
             "label": "Heure de fin",
             "description": "The completion time for the washer job",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "machineState": {
             "label": "Statut de machine",
             "description": "Current status of the washer",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "Arr\u00eat"
+                        "label": "Arrêt"
                     },
                     "run": {
                         "label": "Marche"
@@ -28,28 +28,28 @@
             }
         },
         "washerJobState": {
-            "label": "Statut de t\u00e2che du lave-linge",
+            "label": "Statut de tâche du lave-linge",
             "description": "The job states supported by the washer",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "airWash": {
-                        "label": "Lavage \u00e0 l'air"
+                        "label": "Lavage à l'air"
                     },
                     "weightSensing": {
-                        "label": "D\u00e9tection de poids"
+                        "label": "Détection de poids"
                     },
                     "drying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "spin": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "cooling": {
                         "label": "Refroidissement"
                     },
                     "preWash": {
-                        "label": "Pr\u00e9lavage"
+                        "label": "Prélavage"
                     },
                     "wash": {
                         "label": "Lavage"
@@ -58,7 +58,7 @@
                         "label": "Traitement anti-traces"
                     },
                     "delayWash": {
-                        "label": "Lavage diff\u00e9r\u00e9"
+                        "label": "Lavage différé"
                     },
                     "finish": {
                         "label": "Fin"
@@ -67,7 +67,7 @@
                         "label": "Aucun"
                     },
                     "rinse": {
-                        "label": "Rin\u00e7age"
+                        "label": "Rinçage"
                     }
                 }
             }
@@ -75,8 +75,8 @@
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
             "description": "The states supported by the washer machine",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         }
     },
     "commands": {
@@ -84,7 +84,7 @@
             "description": "Set the washer machine state",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the washer machine state to \"pause\", \"run\", or \"stop\" state"
                 }
             }

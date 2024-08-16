@@ -1,12 +1,12 @@
 {
     "tag": "fr",
-    "label": "R\u00e9p\u00e9ter",
+    "label": "Répéter",
     "description": "Allows for the control of the media playback repeat.",
     "attributes": {
         "playbackRepeatMode": {
-            "label": "R\u00e9p\u00e9ter",
+            "label": "Répéter",
             "description": "The current mode of the playback repeat mode, \"all\", \"off\" or \"one\"",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "all": {
@@ -16,7 +16,7 @@
                         "label": "Un"
                     },
                     "off": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     }
                 }
             }
@@ -35,7 +35,7 @@
                             "label": "Un"
                         },
                         "off": {
-                            "label": "D\u00e9sactiv\u00e9"
+                            "label": "Désactivé"
                         }
                     },
                     "description": "Mode to which to the playback repeat mode should be set, \"all\", \"off\" or \"one\""

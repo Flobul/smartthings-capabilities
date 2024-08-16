@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "Stateless Set Channel Button",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "setChannel": {
             "name": "setChannel",

@@ -34,7 +34,7 @@
         "supportedModes": {
             "label": "supportedModes",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {

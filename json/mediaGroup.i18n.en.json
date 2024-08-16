@@ -22,19 +22,19 @@
             "label": "group controller identifier",
             "description": "Reference to the main controller of the group",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "groupId": {
             "label": "group identifier",
             "description": "An identifier for the group",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "groupVolume": {
             "label": "Group volume",
             "description": "The current group volume setting of the audio group",
             "displayTemplate": "{{attribute}} of {{device.label}}: {{value}}%",
-            "i18n": []
+            "i18n": {}
         },
         "groupRole": {
             "label": "Speaker group",
@@ -58,23 +58,23 @@
     "commands": {
         "groupVolumeUp": {
             "description": "Turn the group volume up",
-            "arguments": []
+            "arguments": {}
         },
         "groupVolumeDown": {
             "description": "Turn the group volume down",
-            "arguments": []
+            "arguments": {}
         },
         "muteGroup": {
             "label": "Muted",
             "description": "Set the group audio to mute state",
-            "arguments": []
+            "arguments": {}
         },
         "setGroupVolume": {
             "label": "Group volume",
             "description": "Set the group volume level",
             "arguments": {
                 "groupVolume": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A value to which the group volume level should be set"
                 }
             }
@@ -82,13 +82,13 @@
         "unmuteGroup": {
             "label": "Unmuted",
             "description": "Set the group audio to unmute state",
-            "arguments": []
+            "arguments": {}
         },
         "setGroupMute": {
             "description": "Set the group audio mute state",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the group audio mute state to \"muted\" or \"unmuted\""
                 }
             }

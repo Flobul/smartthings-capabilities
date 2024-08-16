@@ -28,7 +28,7 @@
             "label": "supported operation modes",
             "description": "Supported operation modes for this device to be in",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "currentOperationMode": {
             "label": "Mode de fonctionnement",

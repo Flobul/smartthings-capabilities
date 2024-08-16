@@ -1,0 +1,59 @@
+{
+    "tag": "en",
+    "label": "Fan mode",
+    "attributes": {
+        "fanMode": {
+            "label": "Fan mode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "label": "Auto"
+                    },
+                    "high": {
+                        "label": "High"
+                    },
+                    "low": {
+                        "label": "Low"
+                    },
+                    "medium": {
+                        "label": "Medium"
+                    },
+                    "off": {
+                        "label": "Off"
+                    }
+                }
+            }
+        },
+        "supportedFanModes": {
+            "label": "supportedFanModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setFanMode": {
+            "arguments": {
+                "fanMode": {
+                    "i18n": {
+                        "auto": {
+                            "label": "Auto"
+                        },
+                        "high": {
+                            "label": "High"
+                        },
+                        "low": {
+                            "label": "Low"
+                        },
+                        "medium": {
+                            "label": "Medium"
+                        },
+                        "off": {
+                            "label": "Off"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,23 +1,23 @@
 {
     "tag": "fr",
-    "label": "T\u00e9l\u00e9commande",
+    "label": "Télécommande",
     "description": "Gets the value of remote control status.",
     "attributes": {
         "remoteControlEnabled": {
-            "label": "T\u00e9l\u00e9commande",
+            "label": "Télécommande",
             "description": "Current status of the remote control",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
                 "value": {
                     "false": {
-                        "label": "Non autoris\u00e9"
+                        "label": "Non autorisé"
                     },
                     "true": {
-                        "label": "Autoris\u00e9"
+                        "label": "Autorisé"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

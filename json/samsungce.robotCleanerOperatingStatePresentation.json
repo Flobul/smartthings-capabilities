@@ -173,6 +173,11 @@
                         "key": "mopWashingPaused",
                         "value": "{{i18n.attributes.operatingState.i18n.value.mopWashingPaused.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "drainingWater",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.drainingWater.label}}",
+                        "type": "active"
                     }
                 ]
             },
@@ -220,7 +225,8 @@
                     }
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "automation": {
         "conditions": [

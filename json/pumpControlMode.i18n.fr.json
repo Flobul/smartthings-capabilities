@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "Mode de contr\u00f4le",
+    "label": "Mode de contrôle",
     "description": "Allows to view the current effective control mode of the pump.",
     "attributes": {
         "controlMode": {
@@ -58,13 +58,13 @@
             }
         },
         "currentControlMode": {
-            "label": "Mode de contr\u00f4le",
+            "label": "Mode de contrôle",
             "description": "The current effective control mode of the pump",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "constantTemperature": {
-                        "label": "Temp\u00e9rature constante"
+                        "label": "Température constante"
                     },
                     "constantFlow": {
                         "label": "Flux constant"
@@ -92,7 +92,7 @@
                 "controlMode": {
                     "i18n": {
                         "constantTemperature": {
-                            "label": "Temp\u00e9rature constante"
+                            "label": "Température constante"
                         },
                         "constantFlow": {
                             "label": "Flux constant"

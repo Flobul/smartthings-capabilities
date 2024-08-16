@@ -7,8 +7,8 @@
             "label": "Concentration en monoxyde de carbone",
             "description": "The level of carbon monoxide detected",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} ppm",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -33,6 +33,38 @@
                     }
                 }
             }
+        ],
+        "panelItems": [
+            {
+                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOMUTE_DEFAULT_DC_UN_MUTE",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "mute",
+                    "iconUrl": "icon://unmute",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOMUTE_DEFAULT_DC_MUTE",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "unmute",
+                    "iconUrl": "icon://mute",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "2x2"
+                    ]
+                }
+            }
         ]
     },
     "detailView": [

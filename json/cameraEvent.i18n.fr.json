@@ -8,37 +8,37 @@
             "i18n": {
                 "value": {
                     "loitering": {
-                        "label": "Rodeur d\u00e9tect\u00e9"
+                        "label": "Rodeur détecté"
                     },
                     "gestureOk": {
-                        "label": "Geste d'accord d\u00e9tect\u00e9"
+                        "label": "Geste d'accord détecté"
                     },
                     "package": {
-                        "label": "Colis d\u00e9tect\u00e9"
+                        "label": "Colis détecté"
                     },
                     "loiteringDisappear": {
                         "label": "Rodeur hors de vue"
                     },
                     "gestureV": {
-                        "label": "Geste de la victoire d\u00e9tect\u00e9"
+                        "label": "Geste de la victoire détecté"
                     },
                     "gestureFive": {
-                        "label": "Geste Tope l\u00e0 d\u00e9tect\u00e9"
+                        "label": "Geste Tope là détecté"
                     },
                     "vehicle": {
-                        "label": "V\u00e9hicule d\u00e9tect\u00e9"
+                        "label": "Véhicule détecté"
                     },
                     "vehicleDisappear": {
-                        "label": "V\u00e9hicule hors de vue"
+                        "label": "Véhicule hors de vue"
                     },
                     "petDisappear": {
                         "label": "Animal hors de vue"
                     },
                     "gestureGun": {
-                        "label": "Geste du tir avec les doigts d\u00e9tect\u00e9"
+                        "label": "Geste du tir avec les doigts détecté"
                     },
                     "person": {
-                        "label": "Personne d\u00e9tect\u00e9e"
+                        "label": "Personne détectée"
                     },
                     "packageDisappear": {
                         "label": "Colis hors de vue"
@@ -47,10 +47,13 @@
                         "label": "Personne hors de vue"
                     },
                     "gestureFour": {
-                        "label": "Geste des quatre doigts d\u00e9tect\u00e9"
+                        "label": "Geste des quatre doigts détecté"
+                    },
+                    "lensObstruction": {
+                        "label": "lensObstruction"
                     },
                     "pet": {
-                        "label": "Animal d\u00e9tect\u00e9"
+                        "label": "Animal détecté"
                     }
                 }
             }
@@ -58,8 +61,8 @@
         "supportedEvents": {
             "label": "supportedEvents",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

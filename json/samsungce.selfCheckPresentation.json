@@ -12,7 +12,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "id": "samsungce.selfCheck",
     "version": 1

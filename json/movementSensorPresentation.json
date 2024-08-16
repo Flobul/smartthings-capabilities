@@ -28,11 +28,32 @@
                         "key": "leaving",
                         "value": "{{i18n.attributes.movement.i18n.value.leaving.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "enteringLeft",
+                        "value": "{{i18n.attributes.movement.i18n.value.enteringLeft.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "enteringRight",
+                        "value": "{{i18n.attributes.movement.i18n.value.enteringRight.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leavingLeft",
+                        "value": "{{i18n.attributes.movement.i18n.value.leavingLeft.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leavingRight",
+                        "value": "{{i18n.attributes.movement.i18n.value.leavingRight.label}}",
+                        "type": "active"
                     }
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {
@@ -64,6 +85,26 @@
                     {
                         "key": "leaving",
                         "value": "{{i18n.attributes.movement.i18n.value.leaving.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "enteringLeft",
+                        "value": "{{i18n.attributes.movement.i18n.value.enteringLeft.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "enteringRight",
+                        "value": "{{i18n.attributes.movement.i18n.value.enteringRight.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leavingLeft",
+                        "value": "{{i18n.attributes.movement.i18n.value.leavingLeft.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leavingRight",
+                        "value": "{{i18n.attributes.movement.i18n.value.leavingRight.label}}",
                         "type": "active"
                     }
                 ]
@@ -101,8 +142,29 @@
                             "key": "leaving",
                             "value": "{{i18n.attributes.movement.i18n.value.leaving.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "enteringLeft",
+                            "value": "{{i18n.attributes.movement.i18n.value.enteringLeft.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "enteringRight",
+                            "value": "{{i18n.attributes.movement.i18n.value.enteringRight.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leavingLeft",
+                            "value": "{{i18n.attributes.movement.i18n.value.leavingLeft.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leavingRight",
+                            "value": "{{i18n.attributes.movement.i18n.value.leavingRight.label}}",
+                            "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedMovements.value",
                     "value": "movement.value",
                     "valueType": "string",
                     "multiSelectable": false

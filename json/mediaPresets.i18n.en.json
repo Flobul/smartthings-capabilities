@@ -7,7 +7,7 @@
             "label": "presets",
             "description": "A Json representation of all the presets for the player. It will be a JSON array of objects containing 'id' and 'name' as mandatory fields. Format, '``[{\"id\":\"<id>\",\"name\":\"<name>\"},{}..]``'",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -15,7 +15,7 @@
             "description": "Play a preset",
             "arguments": {
                 "presetId": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Id of the preset to be played"
                 }
             }

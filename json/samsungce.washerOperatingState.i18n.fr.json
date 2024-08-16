@@ -8,13 +8,13 @@
             "i18n": {
                 "value": {
                     "aIRinse": {
-                        "label": "Rin\u00e7age"
+                        "label": "Rinçage"
                     },
                     "laundrySensing": {
-                        "label": "D\u00e9tection du linge"
+                        "label": "Détection du linge"
                     },
                     "delayWash": {
-                        "label": "Fin du cycle diff\u00e9r\u00e9"
+                        "label": "Fin du cycle différé"
                     },
                     "none": {
                         "label": "En cours"
@@ -26,7 +26,7 @@
                         "label": "Actualisation"
                     },
                     "preWash": {
-                        "label": "Pr\u00e9lavage"
+                        "label": "Prélavage"
                     },
                     "aISpin": {
                         "label": "Essorage"
@@ -41,31 +41,31 @@
                         "label": "Nettoyage"
                     },
                     "soilLevelSensing": {
-                        "label": "D\u00e9tection des taches"
+                        "label": "Détection des taches"
                     },
                     "rinse": {
-                        "label": "Rin\u00e7age"
+                        "label": "Rinçage"
                     },
                     "freezeProtection": {
                         "label": "Mode antigel"
                     },
                     "waitingToDry": {
-                        "label": "En attente du s\u00e9chage"
+                        "label": "En attente du séchage"
                     },
                     "weightSensing": {
-                        "label": "D\u00e9tection de la charge"
+                        "label": "Détection de la charge"
                     },
                     "wash": {
                         "label": "Lavage"
                     },
                     "sanitizing": {
-                        "label": "D\u00e9sinfection"
+                        "label": "Désinfection"
                     },
                     "finished": {
-                        "label": "Cycle termin\u00e9"
+                        "label": "Cycle terminé"
                     },
                     "drying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "aIWash": {
                         "label": "Lavage"
@@ -77,7 +77,7 @@
                         "label": "Refroidit"
                     },
                     "aIDrying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "dispenserCleaning": {
                         "label": "dispenserCleaning"
@@ -105,33 +105,33 @@
         "supportedOperatingStates": {
             "label": "supportedOperatingStates",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "scheduledJobs": {
             "label": "scheduledJobs",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "progress": {
             "label": "progress",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "remainingTimeStr": {
             "label": "remainingTimeStr",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "operationTime": {
             "label": "operationTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "remainingTime": {
             "label": "remainingTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

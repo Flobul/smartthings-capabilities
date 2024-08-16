@@ -26,7 +26,7 @@
         "call": {
             "label": "Call",
             "description": "Call an elevator",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

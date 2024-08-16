@@ -7,31 +7,31 @@
             "label": "Channel",
             "description": "Current status of the TV channel",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "tvChannelName": {
             "label": "tv channel name",
             "description": "Current status of the TV channel name",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "channelDown": {
             "description": "Move the TV channel down",
-            "arguments": []
+            "arguments": {}
         },
         "setTvChannel": {
             "description": "Set the TV channel",
-            "arguments": []
+            "arguments": {}
         },
         "channelUp": {
             "description": "Move the TV channel up",
-            "arguments": []
+            "arguments": {}
         },
         "setTvChannelName": {
             "description": "Set the TV channel Name",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

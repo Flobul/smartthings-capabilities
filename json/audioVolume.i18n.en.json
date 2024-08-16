@@ -7,23 +7,23 @@
             "label": "Volume",
             "description": "The current volume setting of the audio",
             "displayTemplate": "{{attribute}} of {{device.label}}: {{value}}%",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "volumeDown": {
             "description": "Turn the audio volume down",
-            "arguments": []
+            "arguments": {}
         },
         "volumeUp": {
             "description": "Turn the audio volume up",
-            "arguments": []
+            "arguments": {}
         },
         "setVolume": {
             "description": "Set the audio volume level",
             "arguments": {
                 "volume": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A value to which the audio volume level should be set"
                 }
             }

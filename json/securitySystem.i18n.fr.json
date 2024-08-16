@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "Mode de s\u00e9curit\u00e9",
+    "label": "Mode de sécurité",
     "description": "Allows for the control of a security system",
     "attributes": {
         "sensorStatus": {
@@ -13,7 +13,7 @@
                         "label": "Ready"
                     },
                     "bypassedNotReady": {
-                        "label": "Bypassed \/ Not Ready"
+                        "label": "Bypassed / Not Ready"
                     }
                 }
             }
@@ -22,22 +22,22 @@
             "label": "Alarme",
             "description": "[DEPRECATED] The reference to the device that most recently generated an event to trigger an alarm",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "securitySystemStatus": {
-            "label": "Mode de s\u00e9curit\u00e9",
+            "label": "Mode de sécurité",
             "description": "The current arming status of the security system",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
                 "value": {
                     "disarmed": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "armedStay": {
-                        "label": "Activ\u00e9 (pr\u00e9sent)"
+                        "label": "Activé (présent)"
                     },
                     "armedAway": {
-                        "label": "Activ\u00e9 (absent)"
+                        "label": "Activé (absent)"
                     }
                 }
             }
@@ -45,19 +45,19 @@
     },
     "commands": {
         "armStay": {
-            "label": "Activ\u00e9 (pr\u00e9sent)",
+            "label": "Activé (présent)",
             "description": "Set the security system to ``armedStay``",
-            "arguments": []
+            "arguments": {}
         },
         "disarm": {
-            "label": "D\u00e9sactiv\u00e9",
+            "label": "Désactivé",
             "description": "Set the security system to ``disarmed``",
-            "arguments": []
+            "arguments": {}
         },
         "armAway": {
-            "label": "Activ\u00e9 (absent)",
+            "label": "Activé (absent)",
             "description": "Set the security system to ``armedAway``",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

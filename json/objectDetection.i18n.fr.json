@@ -1,12 +1,12 @@
 {
     "tag": "fr",
-    "label": "D\u00e9tecteur d'objets",
+    "label": "Détecteur d'objets",
     "description": "Allows for the ability to read object detection device state",
     "attributes": {
         "detected": {
-            "label": "D\u00e9tecteur d'objets",
+            "label": "Détecteur d'objets",
             "description": "The current objects that are detected",
-            "displayTemplate": "{{device.label}} d\u00e9tect\u00e9(e) : {{detected.qty}} {{detected.value}}",
+            "displayTemplate": "{{device.label}} détecté(e) : {{detected.qty}} {{detected.value}}",
             "i18n": {
                 "value": {
                     "human_0": {
@@ -22,7 +22,7 @@
                         "label": "Personne"
                     },
                     "pet": {
-                        "label": "Pr\u00e9f\u00e9r\u00e9"
+                        "label": "Préféré"
                     }
                 }
             }
@@ -30,9 +30,9 @@
         "supportedValues": {
             "label": "Valeurs prises en charge",
             "description": "The set of allowable values that the detected attribute can hold.",
-            "displayTemplate": "{{device.label}} d\u00e9tect\u00e9(e) : {{detected.qty}} {{detected.value}}",
-            "i18n": []
+            "displayTemplate": "{{device.label}} détecté(e) : {{detected.qty}} {{detected.value}}",
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

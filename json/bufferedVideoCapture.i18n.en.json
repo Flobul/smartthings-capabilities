@@ -7,7 +7,7 @@
             "label": "clip",
             "description": "Buffered video clip details",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -15,15 +15,15 @@
             "description": "Set the buffered video capture schedule",
             "arguments": {
                 "captureTime": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Buffered video capture time, in ISO 8601 format"
                 },
                 "startTime": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Time, in ISO 8601 format, when the buffered video capture should start"
                 },
                 "endTime": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Time, in ISO 8601 format, when the buffered video capture should end"
                 }
             }

@@ -13,11 +13,11 @@
                         "label": "Aucun son"
                     },
                     "detected": {
-                        "label": "Son d\u00e9tect\u00e9"
+                        "label": "Son détecté"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -5,13 +5,13 @@
         "brightnessLevel": {
             "label": "brightnessLevel",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "supportedBrightnessLevel": {
             "label": "supportedBrightnessLevel",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

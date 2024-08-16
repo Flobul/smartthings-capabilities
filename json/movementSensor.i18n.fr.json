@@ -1,32 +1,49 @@
 {
     "tag": "fr",
-    "label": "D\u00e9tection du capteur de mouvement",
+    "label": "Détection du capteur de mouvement",
     "description": "Allows for the ability to read movement sensor device states",
     "attributes": {
+        "supportedMovements": {
+            "label": "supportedMovements",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "movement": {
-            "label": "D\u00e9tection du capteur de mouvement",
+            "label": "Détection du capteur de mouvement",
             "description": "The current state of the movement sensor",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "entering": {
-                        "label": "Entr\u00e9e"
+                        "label": "Entrée"
                     },
                     "inactive": {
-                        "label": "Pr\u00eat"
+                        "label": "Aucun mouvement"
+                    },
+                    "leavingRight": {
+                        "label": "Quitter à droite"
                     },
                     "movingAway": {
-                        "label": "\u00c9loignement"
+                        "label": "Éloignement"
                     },
                     "approaching": {
                         "label": "Approche"
                     },
+                    "enteringRight": {
+                        "label": "Entrée à droite"
+                    },
+                    "enteringLeft": {
+                        "label": "Entrée à gauche"
+                    },
+                    "leavingLeft": {
+                        "label": "Quitter à gauche"
+                    },
                     "leaving": {
-                        "label": "D\u00e9part"
+                        "label": "Départ"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

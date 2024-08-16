@@ -6,7 +6,7 @@
         "robotCleanerMovement": {
             "label": "Mouvement",
             "description": "Current status of the robot cleaner movement",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "cleaning": {
@@ -16,7 +16,7 @@
                         "label": "En veille"
                     },
                     "powerOff": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "charging": {
                         "label": "Chargement"
@@ -25,7 +25,7 @@
                         "label": "Erreur"
                     },
                     "reserve": {
-                        "label": "Programm\u00e9"
+                        "label": "Programmé"
                     },
                     "homing": {
                         "label": "Retour sur la station d'accueil"
@@ -34,7 +34,7 @@
                         "label": "Rechargement avant nettoyage"
                     },
                     "point": {
-                        "label": "Nettoyage cibl\u00e9"
+                        "label": "Nettoyage ciblé"
                     },
                     "pause": {
                         "label": "Pause"
@@ -56,10 +56,10 @@
                             "label": "En veille"
                         },
                         "powerOff": {
-                            "label": "D\u00e9sactiv\u00e9"
+                            "label": "Désactivé"
                         },
                         "reserve": {
-                            "label": "Programm\u00e9"
+                            "label": "Programmé"
                         },
                         "charging": {
                             "label": "Chargement"
@@ -74,7 +74,7 @@
                             "label": "Rechargement avant nettoyage"
                         },
                         "point": {
-                            "label": "Nettoyage cibl\u00e9"
+                            "label": "Nettoyage ciblé"
                         },
                         "pause": {
                             "label": "Pause"

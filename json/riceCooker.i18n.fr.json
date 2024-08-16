@@ -6,19 +6,19 @@
             "label": "Temps restant",
             "description": "The running completion time for the rice cooker",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "schedulingEnabled": {
             "label": "Programmer",
             "description": "Whether the rice cooker supports scheduled cooking",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "scheduledTime": {
-            "label": "Heure de fin programm\u00e9e",
+            "label": "Heure de fin programmée",
             "description": "Scheduled start time for rice cooker",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "cookerState": {
             "label": "Statut du cuiseur",
@@ -30,13 +30,13 @@
                         "label": "Actif"
                     },
                     "ready": {
-                        "label": "Pr\u00eat"
+                        "label": "Prêt"
                     },
                     "scheduled": {
-                        "label": "Cuisson programm\u00e9e"
+                        "label": "Cuisson programmée"
                     },
                     "error": {
-                        "label": "Il y a un probl\u00e8me"
+                        "label": "Il y a un problème"
                     }
                 }
             }
@@ -345,7 +345,7 @@
             "label": "Temps de chauffe",
             "description": "Start time of the rice cooker",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "cookerMode": {
             "label": "Mode",
@@ -354,10 +354,10 @@
             "i18n": {
                 "value": {
                     "reheating": {
-                        "label": "R\u00e9chauffage"
+                        "label": "Réchauffage"
                     },
                     "soakInnerPot": {
-                        "label": "Trempage dans le pot int\u00e9rieur"
+                        "label": "Trempage dans le pot intérieur"
                     },
                     "keepWarm": {
                         "label": "Chauffage"
@@ -378,37 +378,37 @@
             "i18n": {
                 "value": {
                     "mixedGrainForSaladWithAdlay": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales avec herbe \u00e0 chapelets en salade"
+                        "label": "Mélange de céréales avec herbe à chapelets en salade"
                     },
                     "scorchedRiceTea": {
-                        "label": "Th\u00e9 de cro\u00fbte de riz"
+                        "label": "Thé de croûte de riz"
                     },
                     "odaemi": {
                         "label": "Odaemi"
                     },
                     "mixedGrainsQuick": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales rapide"
+                        "label": "Mélange de céréales rapide"
                     },
                     "alchanmi": {
                         "label": "Alchanmi"
                     },
                     "riceWithRipeKimchiAndAbaloneInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec ormeau et kimchi m\u00fbr"
+                        "label": "Riz cuit dans un pot en grès avec ormeau et kimchi mûr"
                     },
                     "riceForGimbap": {
                         "label": "Riz pour gimbap"
                     },
                     "beef,ShiitakeMushroom,EggPorridge": {
-                        "label": "B\u0153uf, champignons shiitake, porridge aux \u0153ufs"
+                        "label": "Bœuf, champignons shiitake, porridge aux œufs"
                     },
                     "stickyPlainRice": {
                         "label": "Riz blanc gluant"
                     },
                     "frozenMixedGrain": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales surgel\u00e9"
+                        "label": "Mélange de céréales surgelé"
                     },
                     "beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice": {
-                        "label": "B\u0153uf, chou, champignons blancs, riz cuit au jujube"
+                        "label": "Bœuf, chou, champignons blancs, riz cuit au jujube"
                     },
                     "broccoliPorridge": {
                         "label": "Porridge au brocoli"
@@ -417,88 +417,88 @@
                         "label": "Riz avec haricots"
                     },
                     "barleyMixedGrainRice": {
-                        "label": "Riz avec orge et m\u00e9lange de c\u00e9r\u00e9ales"
+                        "label": "Riz avec orge et mélange de céréales"
                     },
                     "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice": {
-                        "label": "Cabillaud, citrouille douce, germes de haricot, riz cuit au s\u00e9same"
+                        "label": "Cabillaud, citrouille douce, germes de haricot, riz cuit au sésame"
                     },
                     "riceWithTruffledBulgogiInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec steak"
+                        "label": "Riz cuit dans un pot en grès avec steak"
                     },
                     "riceWithAbaloneInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec ormeau"
+                        "label": "Riz cuit dans un pot en grès avec ormeau"
                     },
                     "mixedGrainForSalad": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales en salade"
+                        "label": "Mélange de céréales en salade"
                     },
                     "mixedGrainForSaladWithQuinoa(2Cup)": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et quinoa en salade (2 tasses)"
+                        "label": "Mélange de céréales et quinoa en salade (2 tasses)"
                     },
                     "chicken,SweetPumpkin,Cabbage,StickyRicePorridge": {
                         "label": "Poulet, citrouille douce, chou, porridge de riz gluant"
                     },
                     "steamedSweetPotato": {
-                        "label": "Patates douces \u00e0 la vapeur"
+                        "label": "Patates douces à la vapeur"
                     },
                     "mixedGrainForSaladWithLentilBean": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et lentilles en salade"
+                        "label": "Mélange de céréales et lentilles en salade"
                     },
                     "oatRice": {
                         "label": "Riz avec avoine"
                     },
                     "mixedGrainForSaladWithBrownRice": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et riz brun en salade"
+                        "label": "Mélange de céréales et riz brun en salade"
                     },
                     "mixedGrainForSaladWithLentilBean(2Cup)": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales avec lentilles en salade (2 tasses)"
+                        "label": "Mélange de céréales avec lentilles en salade (2 tasses)"
                     },
                     "riceWithBrackenAndSteakInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec steak et foug\u00e8res"
+                        "label": "Riz cuit dans un pot en grès avec steak et fougères"
                     },
                     "cauldronRice": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s"
+                        "label": "Riz cuit dans un pot en grès"
                     },
                     "mixedGrainForSaladWithChickpea": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et pois chiches en salade"
+                        "label": "Mélange de céréales et pois chiches en salade"
                     },
                     "riceWithSteakInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec steak"
+                        "label": "Riz cuit dans un pot en grès avec steak"
                     },
                     "mixedGrainForSaladWithBarley": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et orge en salade"
+                        "label": "Mélange de céréales et orge en salade"
                     },
                     "riceWithSeasonedVegetablesInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec l\u00e9gumes de saison"
+                        "label": "Riz cuit dans un pot en grès avec légumes de saison"
                     },
                     "galbijjim": {
                         "label": "Galbijjim"
                     },
                     "riceWithWebfootOctopusAndSaussureaInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec poulpe ocell\u00e9 et un saussurea"
+                        "label": "Riz cuit dans un pot en grès avec poulpe ocellé et un saussurea"
                     },
                     "mixedGrainForSaladWithQuinoa": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et quinoa en salade"
+                        "label": "Mélange de céréales et quinoa en salade"
                     },
                     "mixedGrainForSaladWithBrownRice(2Cup)": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et riz brun en salade (2 tasses)"
+                        "label": "Mélange de céréales et riz brun en salade (2 tasses)"
                     },
                     "mixedGrainForVitality": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales pour la vitalit\u00e9"
+                        "label": "Mélange de céréales pour la vitalité"
                     },
                     "plainQuick": {
                         "label": "Riz blanc rapide"
                     },
                     "mixedGrainForSaladWithChickpea(2Cup)": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et pois chiches en salade (2 tasses)"
+                        "label": "Mélange de céréales et pois chiches en salade (2 tasses)"
                     },
                     "wellCookedPlainRice": {
                         "label": "Riz blanc bien cuit"
                     },
                     "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice": {
-                        "label": "B\u0153uf, betterave, champignons enoki, riz cuit aux graines de p\u00e9rille"
+                        "label": "Bœuf, betterave, champignons enoki, riz cuit aux graines de pérille"
                     },
                     "frozenPlainRice": {
-                        "label": "Riz blanc surgel\u00e9"
+                        "label": "Riz blanc surgelé"
                     },
                     "customMenu08": {
                         "label": "customMenu08"
@@ -510,7 +510,7 @@
                         "label": "customMenu02"
                     },
                     "mixedGrainForSlim": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales pour r\u00e9gime"
+                        "label": "Mélange de céréales pour régime"
                     },
                     "customMenu03": {
                         "label": "customMenu03"
@@ -525,7 +525,7 @@
                         "label": "customMenu07"
                     },
                     "steamedDish": {
-                        "label": "Plat \u00e0 la vapeur"
+                        "label": "Plat à la vapeur"
                     },
                     "customMenu04": {
                         "label": "customMenu04"
@@ -534,7 +534,7 @@
                         "label": "customMenu05"
                     },
                     "superGrains": {
-                        "label": "Riz avec super c\u00e9r\u00e9ales"
+                        "label": "Riz avec super céréales"
                     },
                     "customMenu10": {
                         "label": "customMenu10"
@@ -546,7 +546,7 @@
                         "label": "Riz avec kamut"
                     },
                     "mixedGrainForSaladWithKamut": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et kamut en salade"
+                        "label": "Mélange de céréales et kamut en salade"
                     },
                     "sousVide": {
                         "label": "Sous-vide"
@@ -555,13 +555,13 @@
                         "label": "customMenu19"
                     },
                     "riceWithAssortedMushrommsInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec un assortiment de champignons"
+                        "label": "Riz cuit dans un pot en grès avec un assortiment de champignons"
                     },
                     "customMenu13": {
                         "label": "customMenu13"
                     },
                     "bakedEgg": {
-                        "label": "\u0152ufs cuits"
+                        "label": "Œufs cuits"
                     },
                     "chickpeaRice": {
                         "label": "Riz avec pois chiches"
@@ -591,25 +591,25 @@
                         "label": "customMenu16"
                     },
                     "mixedGrainForSaladWithQuinoa(1Cup)": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et quinoa en salade (1 tasse)"
+                        "label": "Mélange de céréales et quinoa en salade (1 tasse)"
                     },
                     "customMenu20": {
                         "label": "customMenu20"
                     },
                     "babyFoodStep1": {
-                        "label": "Nourriture pour b\u00e9b\u00e9 \u00e9tape 1"
+                        "label": "Nourriture pour bébé étape 1"
                     },
                     "babyFoodStep2": {
-                        "label": "Nourriture pour b\u00e9b\u00e9 \u00e9tape 2"
+                        "label": "Nourriture pour bébé étape 2"
                     },
                     "babyFoodStep3": {
-                        "label": "Nourriture pour b\u00e9b\u00e9 \u00e9tape 3"
+                        "label": "Nourriture pour bébé étape 3"
                     },
                     "haedeul": {
                         "label": "Haedeul"
                     },
                     "mixedGrainForSaladWithLentilBean(1Cup)": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales avec lentilles en salade (1 tasse)"
+                        "label": "Mélange de céréales avec lentilles en salade (1 tasse)"
                     },
                     "brownRice100": {
                         "label": "100 % de riz brun"
@@ -618,58 +618,58 @@
                         "label": "Riz de Konjac"
                     },
                     "mixedGrainForSaladWithOatRice": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et avoine en salade"
+                        "label": "Mélange de céréales et avoine en salade"
                     },
                     "beef,Apple,BroccoliPorridge": {
-                        "label": "B\u0153uf, pomme, porridge au brocoli"
+                        "label": "Bœuf, pomme, porridge au brocoli"
                     },
                     "quinoaRice": {
                         "label": "Riz avec quinoa"
                     },
                     "abalonePorridge": {
-                        "label": "Bouillie de riz \u00e0 l'ormeau"
+                        "label": "Bouillie de riz à l'ormeau"
                     },
                     "yakbab": {
                         "label": "Yakbap"
                     },
                     "mixedGrains": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales"
+                        "label": "Mélange de céréales"
                     },
                     "riceWithBeefAndBeanSproutsInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec du b\u0153uf et des germes de soja"
+                        "label": "Riz cuit dans un pot en grès avec du bœuf et des germes de soja"
                     },
                     "mixedGrainForSaladWithBrownRice(1Cup)": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et riz brun en salade (1 tasse)"
+                        "label": "Mélange de céréales et riz brun en salade (1 tasse)"
                     },
                     "cod-Meat,Vitamin,CarrotPorridge": {
                         "label": "Cabillaud, vitamine, porridge carotte"
                     },
                     "riceWithSpicyWebfootOctopusInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec poulpe ocell\u00e9"
+                        "label": "Riz cuit dans un pot en grès avec poulpe ocellé"
                     },
                     "mixedGrainForSaladWithMillet": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et millet en salade"
+                        "label": "Mélange de céréales et millet en salade"
                     },
                     "scorchedRice": {
-                        "label": "Cro\u00fbte de riz"
+                        "label": "Croûte de riz"
                     },
                     "steamedPotato": {
-                        "label": "Pommes de terre \u00e0 la vapeur"
+                        "label": "Pommes de terre à la vapeur"
                     },
                     "riceWithBeefAndAssortedMushroomsInHotPot": {
-                        "label": "Riz cuit dans un pot en gr\u00e8s avec du b\u0153uf et un assortiment de champignons"
+                        "label": "Riz cuit dans un pot en grès avec du bœuf et un assortiment de champignons"
                     },
                     "chicken,PineNut,Chestnut,Spinach,SoftBoiledRice": {
-                        "label": "Poulet, pignons, ch\u00e2taignes, riz cuit aux \u00e9pinards"
+                        "label": "Poulet, pignons, châtaignes, riz cuit aux épinards"
                     },
                     "chicken,Zucchini,SweetPotato,StickyRicePorridge": {
                         "label": "Poulet, courgette, patate douce, porridge de riz gluant"
                     },
                     "beef,KingTrumpetMushroom,BroccoliPorridge": {
-                        "label": "B\u0153uf, pleurotes du panicaut, porridge au brocoli"
+                        "label": "Bœuf, pleurotes du panicaut, porridge au brocoli"
                     },
                     "nutritiousRiceInHotPot": {
-                        "label": "Riz nutritif cuit dans un pot en gr\u00e8s"
+                        "label": "Riz nutritif cuit dans un pot en grès"
                     },
                     "chicken,Cheese,Beet,Eggplant,SoftBoiledRice": {
                         "label": "Poulet, fromage, betterave, riz cuit aux aubergines"
@@ -678,7 +678,7 @@
                         "label": "Poulet, patate douce, betterave, porridge aux feuilles de betterave"
                     },
                     "beef,Zucchini,PearPorridge": {
-                        "label": "B\u0153uf, courgette, porridge aux poires"
+                        "label": "Bœuf, courgette, porridge aux poires"
                     },
                     "nutritiousPorridge": {
                         "label": "Porridge nutritif"
@@ -687,7 +687,7 @@
                         "label": "Porridge carotte et pomme de terre"
                     },
                     "chicken,BokChoy,BananaPorridge": {
-                        "label": "Poulet, bok choy, porridge \u00e0 la banane"
+                        "label": "Poulet, bok choy, porridge à la banane"
                     },
                     "chicken,BeanSprouts,Jujube,StickyRicePorridge": {
                         "label": "Poulet, germes de soja, jujube, porridge de riz gluant"
@@ -696,10 +696,10 @@
                         "label": "Samgyetang"
                     },
                     "boiledEgg": {
-                        "label": "\u0152ufs \u00e0 la coque"
+                        "label": "Œufs à la coque"
                     },
                     "mixedGrainForSaladWithChickpea(1Cup)": {
-                        "label": "M\u00e9lange de c\u00e9r\u00e9ales et pois chiches en salade (1 tasse)"
+                        "label": "Mélange de céréales et pois chiches en salade (1 tasse)"
                     },
                     "lentilBeanRice": {
                         "label": "Riz avec lentilles"
@@ -990,22 +990,22 @@
             "i18n": {
                 "value": {
                     "autoCleanComplete": {
-                        "label": "Nettoyage automatique termin\u00e9"
+                        "label": "Nettoyage automatique terminé"
                     },
                     "reheatingComplete": {
-                        "label": "R\u00e9chauffage termin\u00e9"
+                        "label": "Réchauffage terminé"
                     },
                     "keepWarmComplete": {
-                        "label": "Maintien au chaud arr\u00eat\u00e9"
+                        "label": "Maintien au chaud arrêté"
                     },
                     "cookingComplete": {
-                        "label": "Cuisson termin\u00e9e"
+                        "label": "Cuisson terminée"
                     },
                     "soakInnerPotComplete": {
-                        "label": "Trempage dans le pot int\u00e9rieur termin\u00e9"
+                        "label": "Trempage dans le pot intérieur terminé"
                     },
                     "steamEmission": {
-                        "label": "Lib\u00e9ration de la vapeur"
+                        "label": "Libération de la vapeur"
                     }
                 }
             }
@@ -1041,14 +1041,14 @@
     "commands": {
         "stop": {
             "description": "Stop the rice cooker operation",
-            "arguments": []
+            "arguments": {}
         },
         "startCooking": {
-            "label": "D\u00e9marrer",
+            "label": "Démarrer",
             "description": "Start the cooking mode",
             "arguments": {
                 "menu": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "the menu for rice cooker cooking"
                 }
             }
@@ -1060,10 +1060,10 @@
                 "mode": {
                     "i18n": {
                         "reheating": {
-                            "label": "R\u00e9chauffage"
+                            "label": "Réchauffage"
                         },
                         "soakInnerPot": {
-                            "label": "Trempage dans le pot int\u00e9rieur"
+                            "label": "Trempage dans le pot intérieur"
                         },
                         "keepWarm": {
                             "label": "Chauffage"
@@ -1084,11 +1084,11 @@
             "description": "Schedule cooking to start at a later time",
             "arguments": {
                 "time": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "the scheduled start time of rice cooker"
                 },
                 "menu": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "the scheduled menu of rice cooker"
                 }
             }

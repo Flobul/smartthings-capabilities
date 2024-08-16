@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Level",
+    "attributes": {
+        "levelRange": {
+            "label": "levelRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "level": {
+            "label": "Level",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

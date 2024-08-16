@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "S\u00e9curit\u00e9 enfant",
+    "label": "Sécurité enfant",
     "attributes": {
         "lockState": {
             "label": "lockState",
@@ -22,12 +22,12 @@
     },
     "commands": {
         "unlock": {
-            "label": "D\u00e9sactiver",
-            "arguments": []
+            "label": "Désactiver",
+            "arguments": {}
         },
         "lock": {
             "label": "Activer",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

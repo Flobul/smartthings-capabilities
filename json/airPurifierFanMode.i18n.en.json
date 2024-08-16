@@ -7,7 +7,7 @@
             "label": "supported air purifier fan modes",
             "description": "Supported states for this air purifier fan to be in",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "airPurifierFanMode": {
             "label": "Air purifier fan mode",

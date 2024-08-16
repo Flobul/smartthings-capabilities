@@ -1,0 +1,21 @@
+{
+    "tag": "en",
+    "label": "Rain sensor",
+    "attributes": {
+        "rain": {
+            "label": "Rain sensor",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "undetected": {
+                        "label": "Not detected"
+                    },
+                    "detected": {
+                        "label": "Detected"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

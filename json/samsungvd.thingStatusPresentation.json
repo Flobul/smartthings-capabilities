@@ -5,7 +5,8 @@
                 "label": "{{i18n.attributes.updating.label}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "id": "samsungvd.thingStatus",
     "version": 1

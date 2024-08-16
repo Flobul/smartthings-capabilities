@@ -147,7 +147,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "id": "samsungce.washerOperatingState",
     "version": 1

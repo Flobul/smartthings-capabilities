@@ -5,7 +5,8 @@
                 "label": "{{nitrogenDioxide.value}} {{nitrogenDioxide.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

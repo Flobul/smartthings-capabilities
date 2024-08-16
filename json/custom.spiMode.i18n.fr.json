@@ -23,7 +23,7 @@
                 "mode": {
                     "i18n": {
                         "off": {
-                            "label": "\u00c9teindre"
+                            "label": "Éteindre"
                         },
                         "on": {
                             "label": "Allumer"

@@ -15,9 +15,9 @@
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "pCi\/L"
+                            "pCi/L"
                         ],
-                        "default": "pCi\/L"
+                        "default": "pCi/L"
                     }
                 },
                 "additionalProperties": false,
@@ -29,5 +29,5 @@
             "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {}
 }

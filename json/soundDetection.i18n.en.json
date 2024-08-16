@@ -22,7 +22,7 @@
             "label": "Supported Sound Types",
             "description": "The sound types that can be detected by this device",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "soundDetected": {
             "label": "Sound detection",
@@ -68,12 +68,12 @@
         "disableSoundDetection": {
             "label": "Off",
             "description": "Set sound detection to the disabled state",
-            "arguments": []
+            "arguments": {}
         },
         "enableSoundDetection": {
             "label": "On",
             "description": "Set sound detection to the enabled state",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

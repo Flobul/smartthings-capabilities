@@ -1,25 +1,25 @@
 {
     "tag": "fr",
-    "label": "Lecture de fichiers multim\u00e9dia",
+    "label": "Lecture de fichiers multimédia",
     "description": "Allows for the control of the media playback.",
     "attributes": {
         "supportedPlaybackCommands": {
             "label": "Commandes de lecture prises en charge",
             "description": "Media playback commands which are supported",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "playbackStatus": {
-            "label": "Lecture de fichiers multim\u00e9dia",
+            "label": "Lecture de fichiers multimédia",
             "description": "Status of the media playback",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "paused": {
                         "label": "Pause"
                     },
                     "stopped": {
-                        "label": "Arr\u00eater"
+                        "label": "Arrêter"
                     },
                     "rewinding": {
                         "label": "Rembobinage"
@@ -41,29 +41,29 @@
         "play": {
             "label": "Lecture",
             "description": "Start the media playback",
-            "arguments": []
+            "arguments": {}
         },
         "stop": {
-            "label": "Arr\u00eater",
+            "label": "Arrêter",
             "description": "Stop the media playback",
-            "arguments": []
+            "arguments": {}
         },
         "rewind": {
             "label": "Rembobinage",
             "description": "Rewind the media playback",
-            "arguments": []
+            "arguments": {}
         },
         "fastForward": {
             "label": "Avance rapide",
             "description": "Fast forward the media playback",
-            "arguments": []
+            "arguments": {}
         },
         "setPlaybackStatus": {
             "label": "Set playback status",
             "description": "Set the playback status",
             "arguments": {
                 "status": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the playback status to \"paused\", \"playing\", \"stopped\", \"fast forwarding\" or \"rewinding\" state."
                 }
             }
@@ -71,7 +71,7 @@
         "pause": {
             "label": "Pause",
             "description": "Pause the media playback",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

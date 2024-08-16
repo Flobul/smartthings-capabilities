@@ -27,7 +27,8 @@
                             "gestureFour",
                             "gestureFive",
                             "gestureGun",
-                            "gestureOk"
+                            "gestureOk",
+                            "lensObstruction"
                         ]
                     }
                 },
@@ -62,7 +63,8 @@
                                 "gestureFour",
                                 "gestureFive",
                                 "gestureGun",
-                                "gestureOk"
+                                "gestureOk",
+                                "lensObstruction"
                             ]
                         }
                     }
@@ -73,5 +75,5 @@
             "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -5,8 +5,8 @@
         "duration": {
             "label": "Adjust duration (min)",
             "displayTemplate": "{{attribute}} von {{device.label}}: {{value}} %",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

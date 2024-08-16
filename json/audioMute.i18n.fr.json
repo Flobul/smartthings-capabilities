@@ -10,10 +10,10 @@
             "i18n": {
                 "value": {
                     "unmuted": {
-                        "label": "Son activ\u00e9"
+                        "label": "Son activé"
                     },
                     "muted": {
-                        "label": "D\u00e9sactiv\u00e9s"
+                        "label": "Désactivés"
                     }
                 }
             }
@@ -24,20 +24,20 @@
             "description": "Set the state of the audio mute",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the audio mute state to \"muted\" or \"unmuted\""
                 }
             }
         },
         "mute": {
-            "label": "D\u00e9sactiv\u00e9s",
+            "label": "Désactiver le son",
             "description": "Set the audio to mute state",
-            "arguments": []
+            "arguments": {}
         },
         "unmute": {
-            "label": "Son activ\u00e9",
+            "label": "Activer le son",
             "description": "Set the audio to unmute state",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

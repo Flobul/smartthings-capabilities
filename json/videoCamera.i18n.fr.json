@@ -4,10 +4,10 @@
     "description": "Allows for the control of the video camera.",
     "attributes": {
         "settings": {
-            "label": "Param\u00e8tres",
+            "label": "Paramètres",
             "description": "The current state of the settings",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "mute": {
             "label": "Coupure du son",
@@ -31,16 +31,16 @@
             "i18n": {
                 "value": {
                     "restarting": {
-                        "label": "Red\u00e9marrage"
+                        "label": "Redémarrage"
                     },
                     "unavailable": {
                         "label": "Non disponible"
                     },
                     "off": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "on": {
-                        "label": "Activ\u00e9"
+                        "label": "Activé"
                     }
                 }
             }
@@ -49,29 +49,29 @@
             "label": "Message de statut",
             "description": "The status message",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "mute": {
             "description": "Mute the video camera",
-            "arguments": []
+            "arguments": {}
         },
         "unmute": {
             "description": "Unmute the video camera",
-            "arguments": []
+            "arguments": {}
         },
         "flip": {
             "description": "Flip the picture display",
-            "arguments": []
+            "arguments": {}
         },
         "off": {
             "description": "Turn off the video camera",
-            "arguments": []
+            "arguments": {}
         },
         "on": {
             "description": "Turn on the video camera",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -22,22 +22,22 @@
         "supportedOperatingStates": {
             "label": "supportedOperatingStates",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "scheduledJobs": {
             "label": "scheduledJobs",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "progress": {
             "label": "progress",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "remainingTimeStr": {
             "label": "remainingTimeStr",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "dryerJobState": {
             "label": "dryerJobState",
@@ -98,8 +98,8 @@
         "remainingTime": {
             "label": "remainingTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

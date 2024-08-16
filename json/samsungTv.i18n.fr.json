@@ -7,7 +7,7 @@
             "label": "Volume",
             "description": "Status of the volume",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "pictureMode": {
             "label": "Mode Photo",
@@ -33,8 +33,8 @@
         "messageButton": {
             "label": "Touche Message",
             "description": "Message description",
-            "displayTemplate": "{{attribute}} de {{device.label}} est mise \u00e0 jour",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} est mise à jour",
+            "i18n": {}
         },
         "soundMode": {
             "label": "Mode Son",
@@ -61,7 +61,7 @@
             }
         },
         "mute": {
-            "label": "D\u00e9sactivation du son",
+            "label": "Désactivation du son",
             "description": "Status of the mute",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
@@ -97,43 +97,43 @@
     "commands": {
         "setPictureMode": {
             "description": "Set the picture mode",
-            "arguments": []
+            "arguments": {}
         },
         "volumeDown": {
             "description": "Turn the volume down",
-            "arguments": []
+            "arguments": {}
         },
         "setSoundMode": {
             "description": "Set the sound mode",
-            "arguments": []
+            "arguments": {}
         },
         "showMessage": {
             "description": "Set to show the message",
-            "arguments": []
+            "arguments": {}
         },
         "volumeUp": {
             "description": "Turn the volume up",
-            "arguments": []
+            "arguments": {}
         },
         "mute": {
             "description": "Set the mute status",
-            "arguments": []
+            "arguments": {}
         },
         "unmute": {
             "description": "Unmute the TV sound",
-            "arguments": []
+            "arguments": {}
         },
         "setVolume": {
             "description": "Set the volume",
-            "arguments": []
+            "arguments": {}
         },
         "off": {
             "description": "Set the TV to off",
-            "arguments": []
+            "arguments": {}
         },
         "on": {
             "description": "Set the TV to on",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

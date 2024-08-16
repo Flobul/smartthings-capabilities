@@ -7,19 +7,19 @@
             "label": "supported track control commands",
             "description": "Media track control commands which are supported",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "previousTrack": {
             "label": "Previous",
             "description": "Go to the previous track",
-            "arguments": []
+            "arguments": {}
         },
         "nextTrack": {
             "label": "Next",
             "description": "Go to the next track",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

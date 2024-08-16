@@ -5,7 +5,7 @@
         "availablePrograms": {
             "label": "availablePrograms",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "program": {
             "label": "Programs",
@@ -22,7 +22,7 @@
                         "label": "Hot air grilling"
                     },
                     "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco": {
-                        "label": "Top\/bottom heating eco"
+                        "label": "Top/bottom heating eco"
                     },
                     "Cooking_Oven_Program_HeatingMode_IntensiveHeat": {
                         "label": "Intensive heat"
@@ -34,7 +34,7 @@
                         "label": "Hot air eco"
                     },
                     "Cooking_Oven_Program_HeatingMode_TopBottomHeating": {
-                        "label": "Top\/bottom heating"
+                        "label": "Top/bottom heating"
                     },
                     "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial": {
                         "label": "CoolStart"
@@ -61,5 +61,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

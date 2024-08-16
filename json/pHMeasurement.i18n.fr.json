@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "Acidit\u00e9",
+    "label": "Acidité",
     "description": "Read the pH value off of a pH measurement capable device",
     "attributes": {
         "pH": {
-            "label": "Acidit\u00e9",
+            "label": "Acidité",
             "description": "A number representing the current pH level measured by the device",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} pH",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

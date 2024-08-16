@@ -4,7 +4,7 @@
     "status": "live",
     "name": "Momentary",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "push": {
             "name": "push",

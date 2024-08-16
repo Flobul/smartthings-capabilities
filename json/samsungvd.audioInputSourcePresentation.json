@@ -26,7 +26,7 @@
                 "label": "USB"
             },
             {
-                "label": "D.IN\/HDMI(ARC)"
+                "label": "D.IN/HDMI(ARC)"
             },
             {
                 "label": "Sound Share"
@@ -35,7 +35,8 @@
                 "label": "Smart View"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "id": "samsungvd.audioInputSource",
     "version": 1

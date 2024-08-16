@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "D\u00e9tection de son",
+    "label": "Détection de son",
     "description": "Detected Sound",
     "attributes": {
         "soundDetectionState": {
@@ -10,10 +10,10 @@
             "i18n": {
                 "value": {
                     "disabled": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "enabled": {
-                        "label": "Activ\u00e9"
+                        "label": "Activé"
                     }
                 }
             }
@@ -22,10 +22,10 @@
             "label": "supportedSoundTypes",
             "description": "The sound types that can be detected by this device",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "soundDetected": {
-            "label": "D\u00e9tection de son",
+            "label": "Détection de son",
             "description": "The detected sound type from the DetectedSoundType datatype",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
@@ -37,7 +37,7 @@
                         "label": "Aucun son"
                     },
                     "siren": {
-                        "label": "Sir\u00e8ne"
+                        "label": "Sirène"
                     },
                     "catMeowing": {
                         "label": "Miaulement de chat"
@@ -46,10 +46,10 @@
                         "label": "Ronflement"
                     },
                     "doorKnocking": {
-                        "label": "Frappement \u00e0 la porte"
+                        "label": "Frappement à la porte"
                     },
                     "babyCrying": {
-                        "label": "B\u00e9b\u00e9 en train de pleurer"
+                        "label": "Bébé en train de pleurer"
                     },
                     "glassBreaking": {
                         "label": "Bris de verre"
@@ -66,14 +66,14 @@
     },
     "commands": {
         "disableSoundDetection": {
-            "label": "D\u00e9sactiv\u00e9",
+            "label": "Désactivé",
             "description": "Set sound detection to the disabled state",
-            "arguments": []
+            "arguments": {}
         },
         "enableSoundDetection": {
-            "label": "Activ\u00e9",
+            "label": "Activé",
             "description": "Set sound detection to the enabled state",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

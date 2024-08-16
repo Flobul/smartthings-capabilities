@@ -5,22 +5,22 @@
         "automaticExecutionSetting": {
             "label": "automaticExecutionSetting",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "automaticExecutionMode": {
             "label": "automaticExecutionMode",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "supportedAutomaticExecutionSetting": {
             "label": "supportedAutomaticExecutionSetting",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "supportedAutomaticExecutionMode": {
             "label": "supportedAutomaticExecutionMode",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "periodicSensing": {
             "label": "periodicSensing",
@@ -39,12 +39,12 @@
         "periodicSensingInterval": {
             "label": "periodicSensingInterval",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "lastSensingTime": {
             "label": "lastSensingTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "lastSensingLevel": {
             "label": "lastSensingLevel",
@@ -99,5 +99,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

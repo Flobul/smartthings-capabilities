@@ -1,9 +1,9 @@
 {
     "tag": "en",
-    "label": "Start\/Stop program",
+    "label": "Start/Stop program",
     "attributes": {
         "startstop": {
-            "label": "Start \/ Stop",
+            "label": "Start / Stop",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -17,5 +17,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

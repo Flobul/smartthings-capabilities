@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "Lock Users",
+    "attributes": {
+        "commandResult": {
+            "label": "commandResult",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "totalUsersSupported": {
+            "label": "totalUsersSupported",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "users": {
+            "label": "users",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

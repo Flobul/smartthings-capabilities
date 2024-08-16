@@ -7,7 +7,7 @@
             "label": "supported ac modes",
             "description": "Supported states for this air conditioner to be in",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "airConditionerMode": {
             "label": "Mode",

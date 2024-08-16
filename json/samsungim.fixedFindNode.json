@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "Fixed Find Node",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "refresh": {
             "name": "refresh",

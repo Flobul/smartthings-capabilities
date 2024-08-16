@@ -5,25 +5,25 @@
     "attributes": {
         "fanSpeed": {
             "label": "Vitesse de ventilation",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
-                "value": [
-                    {
-                        "label": "D\u00e9sactiv\u00e9"
+                "value": {
+                    "0": {
+                        "label": "Désactivé"
                     },
-                    {
+                    "1": {
                         "label": "Basse"
                     },
-                    {
+                    "2": {
                         "label": "Moyenne"
                     },
-                    {
-                        "label": "\u00c9lev\u00e9e"
+                    "3": {
+                        "label": "Élevée"
                     },
-                    {
+                    "4": {
                         "label": "Maximale"
                     }
-                ]
+                }
             }
         }
     },
@@ -32,23 +32,23 @@
             "description": "Set the fan speed",
             "arguments": {
                 "speed": {
-                    "i18n": [
-                        {
-                            "label": "D\u00e9sactiv\u00e9"
+                    "i18n": {
+                        "0": {
+                            "label": "Désactivé"
                         },
-                        {
+                        "1": {
                             "label": "Basse"
                         },
-                        {
+                        "2": {
                             "label": "Moyenne"
                         },
-                        {
-                            "label": "\u00c9lev\u00e9e"
+                        "3": {
+                            "label": "Élevée"
                         },
-                        {
+                        "4": {
                             "label": "Maximale"
                         }
-                    ],
+                    },
                     "description": "Set the fan to this speed"
                 }
             }

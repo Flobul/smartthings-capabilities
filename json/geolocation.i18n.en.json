@@ -7,50 +7,50 @@
             "label": "method",
             "description": "Description of the method",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "heading": {
             "label": "heading",
             "description": "Description of the heading",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "latitude": {
             "label": "Latitude",
             "description": "Latitude value",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "accuracy": {
             "label": "accuracy",
             "description": "Description of accuracy",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "altitudeAccuracy": {
             "label": "altitude accuracy",
             "description": "Description of the altitudeAccuracy",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "speed": {
             "label": "speed",
             "description": "Description of the speed",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "longitude": {
             "label": "Longitude",
             "description": "Longitude value",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "lastUpdateTime": {
             "label": "last update time",
             "description": "Last update time",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

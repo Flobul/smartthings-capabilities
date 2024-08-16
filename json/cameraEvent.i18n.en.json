@@ -49,6 +49,9 @@
                     "gestureFour": {
                         "label": "Four gesture detected"
                     },
+                    "lensObstruction": {
+                        "label": "lensObstruction"
+                    },
                     "pet": {
                         "label": "Pet detected"
                     }
@@ -58,8 +61,8 @@
         "supportedEvents": {
             "label": "supportedEvents",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

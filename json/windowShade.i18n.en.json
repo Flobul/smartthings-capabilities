@@ -30,7 +30,7 @@
                         "label": "paused"
                     },
                     "closing": {
-                        "label": "Closing\u2026"
+                        "label": "Closing…"
                     },
                     "partially open": {
                         "label": "Partially open"
@@ -39,7 +39,7 @@
                         "label": "Closed"
                     },
                     "opening": {
-                        "label": "Opening\u2026"
+                        "label": "Opening…"
                     },
                     "open": {
                         "label": "Open"
@@ -55,17 +55,17 @@
         "close": {
             "label": "Close",
             "description": "Close the window shade",
-            "arguments": []
+            "arguments": {}
         },
         "open": {
             "label": "Open",
             "description": "Open the window shade",
-            "arguments": []
+            "arguments": {}
         },
         "pause": {
             "label": "Pause",
             "description": "Pause opening or closing the window shade",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -7,7 +7,7 @@
             "label": "completion time",
             "description": "Completion time for the current dishwasher operation",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "machineState": {
             "label": "Device status",
@@ -31,7 +31,7 @@
             "label": "supported machine states",
             "description": "Operating states supported by the dishwasher machine",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "dishwasherJobState": {
             "label": "Dishwasher",
@@ -61,7 +61,7 @@
                         "label": "Finished"
                     },
                     "prewash": {
-                        "label": "Wash"
+                        "label": "Pre-washing"
                     },
                     "airwash": {
                         "label": "Air Wash"
