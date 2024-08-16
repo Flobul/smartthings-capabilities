@@ -33,17 +33,17 @@ jobs:
             id=$(echo $capability | jq -r '.id')
             version=$(echo $capability | jq -r '.version')
             echo "Processing $id version $version"
-            ./smartthings capabilities $id -s -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.json
+            ./smartthings capabilities $id -s -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.json || true
             ./smartthings capabilities:presentation $id 1 -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${id}Presentation.json || true
-            ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json
-            ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json
+            ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json || true
+            ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json || true
           done
           cat extra_capabilities.json | jq -r -c '.[]' | while read capa; do
             echo "Processing capability: $capa"
-            ./smartthings capabilities $capa --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.json
-            ./smartthings capabilities:presentation $capa 1 -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${capa}Presentation.json || true
-            ./smartthings capabilities:translations $capa 1 fr -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.i18n.fr.json || true
-            ./smartthings capabilities:translations $capa 1 en -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.i18n.en.json || true
+            ./smartthings capabilities $capa --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capa.json
+            ./smartthings capabilities:presentation $capa 1 -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/${capa}Presentation.json || true
+            ./smartthings capabilities:translations $capa 1 fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capa.i18n.fr.json || true
+            ./smartthings capabilities:translations $capa 1 en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capa.i18n.en.json || true
           done
 
       - name: "Print README.md"
@@ -83,7 +83,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           add-paths: |
-            'json/*.json'
+            json/*.json
             capabilities.json
           branch: update
           delete-branch: true
