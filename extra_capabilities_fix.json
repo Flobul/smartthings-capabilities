@@ -1,0 +1,1214 @@
+[
+    {
+        "id": "custom.accessibility",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.airConditionerOdorController",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.airConditionerOptionalMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.airConditionerTropicalNightMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.autoCleaningMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.deodorFilter",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.deviceInfo",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.deviceDependencyStatus",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.deviceReportStateConfiguration",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.doNotDisturbMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dryerWrinklePrevent",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dryerDryLevel",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dthVersion",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dustFilter",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.electricHepaFilter",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.energyType",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.error",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.fridgeMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.hepaFilter",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.jobBeginningStatus",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.launchapp",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.outingMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.ovenCavityStatus",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.periodicSensing",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.picturemode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.recording",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.spiMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.supportedOptions",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.thermostatSetpointControl",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.soundmode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.tvsearch",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.veryFineDustFilter",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.washerAutoDetergent",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.washerAutoSoftener",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.washerRinseCycles",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.washerSoilLevel",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.washerSpinLevel",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.washerWaterTemperature",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.waterFilter",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherDelayStartTime",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherDiagnosis",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherSuppSelectedZone",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherSelectedZone",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherSuppZoneBooster",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherZoneBooster",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherSuppSpeedBooster",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherSpeedBooster",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherSuppSanitize",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherSanitize",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherSuppHighTempDry",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherHighTempDry",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherSuppOptions",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherOperatingPercentage",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherOperatingProgress",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherOperatingSuppProgress",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.dishwasherKidsLock",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.virusDoctorMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.disabledCapabilities",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.disabledComponents",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerSmartTurboMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerSoundSet",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerSmartControl",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerRepeatCleanOption",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerBatteryFullStatus",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerRepeatCleanSupport",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerSuctionType",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerHistorySupport",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerEnergyMonitorSupport",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerReserveCleanType",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerHrmSupport",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.robotCleanerBehavior",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.steamClosetOperatingState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.steamClosetCourse",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.steamClosetWrinklePrevent",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.steamClosetSilentMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.lowerDevicePower",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.airQualityMaxLevel",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.airPurifierOperationMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.welcomeCareMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.filterUsageTime",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.washerAddwashAlarm",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.userNotification",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "custom.cooktopOperatingState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "hca.washerMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.dryerDryingTime",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.dryerCyclePreset",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.dryerDryingTemperature",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.powerFreeze",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.powerCool",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.supportsPowerOnByOcf",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerCleaningMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerOperatingState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.softwareUpdate",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.dongleSoftwareInstallation",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.fridgePantryInfo",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.fridgePantryMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.viewInside",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.kidsLockControl",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.definedRecipe",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.ovenMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.ovenOperatingState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.kitchenModeSpecification",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.kitchenDeviceDefaults",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.meatProbe",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.groupInfo",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.dustFilterAlarm",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.individualControlLock",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "sec.diagnosticsInformation",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.selfCheck",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.washerOperatingState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.dryerOperatingState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.soundFrom",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.errorAndAlarmState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.cooktopFlexZone",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.remoteManagementData",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.softwareVersion",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.countDownTimer",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.cooktopHeatingPower",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.surfaceResidualHeat",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.connectionState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.hoodFanSpeed",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.detergentAutoReplenishment",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.softenerAutoReplenishment",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.waterReservoir",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.ovenDrainageRequirement",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.supportsFeatures",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungim.fixedFindNode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerMapCleaningInfo",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerRelayCleaning",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.musicPlaylist",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerMapList",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerMotorFilter",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerPetCleaningSchedule",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerReservation",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerDustBag",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerWelcome",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerPetMonitor",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerAudioClip",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.soundDetectionSensitivity",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerPetMonitorReport",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerMonitoringAutomation",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerAvpRegistration",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.robotCleanerReservation",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.toggleSwitch",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.ehsFsvSettings",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.ehsCycleData",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.ehsTemperatureReference",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.ehsThermostat",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.sacDisplayCondition",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.thingStatus",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.audioInputSource",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.deviceCategory",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.pictureMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.lightControl",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.soundMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.thingStatus",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.ambient",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.ambient18",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.ambientContent",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.autoDispenseDetergent",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.autoDispenseSoftener",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.customRecipe",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.detergentState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.doorState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.driverVersion",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.softenerOrder",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.softenerState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungtv.supportsPowerOnByOcf",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.firmwareVersion",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungtv.firmwareVersion",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.kidsLock",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungvd.mediaInputSource",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.dryerAutoCycleLink",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.dryerCycle",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.deviceIdentification",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.washerBubbleSoak",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.washerCycle",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.washerCyclePreset",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.waterConsumptionReport",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.washerWashingTime",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.washerWaterLevel",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.washerWaterValve",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.welcomeMessage",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.washerDelayEnd",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.washerFreezePrevent",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "samsungce.lamp",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "sec.wifiConfiguration",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "signalahead13665.pauseresumev2",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "signalahead13665.startstopprogramv2",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "signalahead13665.ovenprogramsv2",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "signalahead13665.programdurationv2",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "signalahead13665.applianceoperationstatesv2",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "signalahead13665.dishwasherprogramsv2",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "signalahead13665.pauseresumev3",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "signalahead13665.startstopprogramv3",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "tag.e2eEncryption",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "tag.factoryReset",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "tag.searchingStatus",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "tag.tagStatus",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "tag.tagButton",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "tag.updatedInfo",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    },
+    {
+        "id": "tag.uwbActivation",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false
+    }
+]
