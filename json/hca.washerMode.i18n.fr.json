@@ -8,13 +8,13 @@
             "i18n": {
                 "value": {
                     "eco": {
-                        "label": "\u00c9co"
+                        "label": "Éco"
                     },
                     "normal": {
                         "label": "Normal"
                     },
                     "rinseOnly": {
-                        "label": "Rin\u00e7age uniquement"
+                        "label": "Rinçage uniquement"
                     },
                     "quickWash": {
                         "label": "Lavage rapide"
@@ -34,7 +34,7 @@
         "supportedModes": {
             "label": "supportedModes",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -44,13 +44,13 @@
                 "mode": {
                     "i18n": {
                         "eco": {
-                            "label": "\u00c9co"
+                            "label": "Éco"
                         },
                         "normal": {
                             "label": "Normal"
                         },
                         "rinseOnly": {
-                            "label": "Rin\u00e7age uniquement"
+                            "label": "Rinçage uniquement"
                         },
                         "quickWash": {
                             "label": "Lavage rapide"

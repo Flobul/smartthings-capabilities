@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "tvSearch",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "search": {
             "name": "search",

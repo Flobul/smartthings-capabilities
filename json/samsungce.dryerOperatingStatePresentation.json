@@ -107,7 +107,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "id": "samsungce.dryerOperatingState",
     "version": 1

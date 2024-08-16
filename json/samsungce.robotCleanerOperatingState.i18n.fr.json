@@ -1,43 +1,43 @@
 {
     "tag": "fr",
-    "label": "\u00c9tat de l'appareil",
+    "label": "État de l'appareil",
     "attributes": {
         "supportedOperatingState": {
             "label": "supportedOperatingState",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "operatingState": {
-            "label": "\u00c9tat de l'appareil",
+            "label": "État de l'appareil",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "attachingMopPad": {
-                        "label": "Serpill\u00e8re en train d'\u00eatre fix\u00e9e"
+                        "label": "Serpillère en train d'être fixée"
                     },
                     "washingMop": {
-                        "label": "Lavage de la serpill\u00e8re"
+                        "label": "Lavage de la serpillère"
                     },
                     "paused": {
                         "label": "Pause"
                     },
                     "attachingMopPadForRemainingJob": {
-                        "label": "Serpill\u00e8re en train d'\u00eatre fix\u00e9e"
+                        "label": "Serpillère en train d'être fixée"
                     },
                     "sterilizingMop": {
-                        "label": "St\u00e9rilisation de la serpill\u00e8re"
+                        "label": "Stérilisation de la serpillère"
                     },
                     "spinDrying": {
-                        "label": "Essorage de la serpill\u00e8re"
+                        "label": "Essorage de la serpillère"
                     },
                     "dryingMop": {
-                        "label": "S\u00e9chage de la serpill\u00e8re"
+                        "label": "Séchage de la serpillère"
                     },
                     "factoryReset": {
                         "label": "factoryReset"
                     },
                     "error": {
-                        "label": "V\u00e9rification requise"
+                        "label": "Vérification requise"
                     },
                     "manual": {
                         "label": "Surveillance"
@@ -49,22 +49,22 @@
                         "label": "Accueil d'un enfant"
                     },
                     "flexCharged": {
-                        "label": "Charg\u00e9"
+                        "label": "Chargé"
                     },
                     "homing": {
                         "label": "Retour"
                     },
                     "powerSaving": {
-                        "label": "Mode d'\u00e9conomie d'\u00e9nergie"
+                        "label": "Mode d'économie d'énergie"
                     },
                     "moving": {
-                        "label": "En d\u00e9placement"
+                        "label": "En déplacement"
                     },
                     "relocal": {
                         "label": "Recherche d'emplacement"
                     },
                     "descaling": {
-                        "label": "D\u00e9tartrage"
+                        "label": "Détartrage"
                     },
                     "cleaning": {
                         "label": "Nettoyage"
@@ -76,13 +76,13 @@
                         "label": "En attente"
                     },
                     "detachingMopPad": {
-                        "label": "Serpill\u00e8re en train d'\u00eatre retir\u00e9e"
+                        "label": "Serpillère en train d'être retirée"
                     },
                     "idle": {
                         "label": "En attente"
                     },
                     "preparingWater": {
-                        "label": "Pr\u00e9paration de l'eau"
+                        "label": "Préparation de l'eau"
                     },
                     "findingPet": {
                         "label": "Surveillance"
@@ -94,7 +94,7 @@
                         "label": "En charge"
                     },
                     "emitDust": {
-                        "label": "Vidage du sac \u00e0 poussi\u00e8re"
+                        "label": "Vidage du sac à poussière"
                     },
                     "monitoring": {
                         "label": "Surveillance"
@@ -109,7 +109,7 @@
                         "label": "Exploration"
                     },
                     "calibrating": {
-                        "label": "\u00c9talonnage en cours"
+                        "label": "Étalonnage en cours"
                     },
                     "reserved": {
                         "label": "reserved"
@@ -124,7 +124,7 @@
                         "label": "En charge"
                     },
                     "charged": {
-                        "label": "Charge compl\u00e8te"
+                        "label": "Charge complète"
                     }
                 }
             }
@@ -144,7 +144,7 @@
                         "label": "Passage de l'aspirateur"
                     },
                     "mopping": {
-                        "label": "Passage de la serpill\u00e8re"
+                        "label": "Passage de la serpillère"
                     }
                 }
             }
@@ -190,33 +190,33 @@
         "isMapBasedOperationAvailable": {
             "label": "isMapBasedOperationAvailable",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "resume": {
             "label": "Start",
-            "arguments": []
+            "arguments": {}
         },
         "setOperatingState": {
-            "label": "\u00c9tat de l'appareil",
-            "arguments": []
+            "label": "État de l'appareil",
+            "arguments": {}
         },
         "returnToHome": {
             "label": "Return To Charging Station",
-            "arguments": []
+            "arguments": {}
         },
         "start": {
             "label": "Start",
-            "arguments": []
+            "arguments": {}
         },
         "pause": {
             "label": "Pause",
-            "arguments": []
+            "arguments": {}
         },
         "cancelRemainingJob": {
-            "label": "Arr\u00eat nettoyage",
-            "arguments": []
+            "label": "Arrêt nettoyage",
+            "arguments": {}
         }
     }
 }

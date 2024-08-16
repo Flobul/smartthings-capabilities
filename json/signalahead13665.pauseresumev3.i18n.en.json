@@ -1,9 +1,9 @@
 {
     "tag": "en",
-    "label": "Pause\/Resume program",
+    "label": "Pause/Resume program",
     "attributes": {
         "pauseState": {
-            "label": "Pause \/ Resume",
+            "label": "Pause / Resume",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -17,5 +17,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

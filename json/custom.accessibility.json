@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "Accessibility",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "setAccessibility": {
             "name": "setAccessibility",

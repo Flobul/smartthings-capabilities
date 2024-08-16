@@ -5,7 +5,7 @@
         "supportedCooktopOperatingState": {
             "label": "supportedCooktopOperatingState",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "cooktopOperatingState": {
             "label": "Cooktop status",
@@ -28,5 +28,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

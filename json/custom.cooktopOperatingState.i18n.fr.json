@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "\u00c9tat de la table de cuisson",
+    "label": "État de la table de cuisson",
     "attributes": {
         "supportedCooktopOperatingState": {
             "label": "supportedCooktopOperatingState",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "cooktopOperatingState": {
-            "label": "\u00c9tat de la table de cuisson",
+            "label": "État de la table de cuisson",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -16,10 +16,10 @@
                         "label": "paused"
                     },
                     "ready": {
-                        "label": "Table de cuisson d\u00e9sactiv\u00e9e"
+                        "label": "Table de cuisson désactivée"
                     },
                     "run": {
-                        "label": "Table de cuisson activ\u00e9e"
+                        "label": "Table de cuisson activée"
                     },
                     "finished": {
                         "label": "finished"
@@ -28,5 +28,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

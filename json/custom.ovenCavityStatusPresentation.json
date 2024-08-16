@@ -17,7 +17,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "id": "custom.ovenCavityStatus",
     "version": 1

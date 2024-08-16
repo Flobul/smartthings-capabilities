@@ -5,7 +5,7 @@
         "supportedAcOptionalMode": {
             "label": "supportedAcOptionalMode",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "acOptionalMode": {
             "label": "acOptionalMode",

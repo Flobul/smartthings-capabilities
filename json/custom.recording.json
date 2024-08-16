@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "Recording",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "recordStart": {
             "name": "recordStart",

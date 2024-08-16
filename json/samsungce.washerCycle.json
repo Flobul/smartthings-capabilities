@@ -50,6 +50,54 @@
                                             }
                                         }
                                     }
+                                },
+                                "supportedWashingOnlyOptions": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "patternProperties": {
+                                        "^.{1,32}$": {
+                                            "type": "object",
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "raw": {
+                                                    "type": "string"
+                                                },
+                                                "default": {
+                                                    "type": "string"
+                                                },
+                                                "options": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "supportedDryingOnlyOptions": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "patternProperties": {
+                                        "^.{1,32}$": {
+                                            "type": "object",
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "raw": {
+                                                    "type": "string"
+                                                },
+                                                "default": {
+                                                    "type": "string"
+                                                },
+                                                "options": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             },
                             "required": [
