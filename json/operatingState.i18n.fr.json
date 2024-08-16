@@ -16,7 +16,7 @@
                         "label": "Mis en pause"
                     },
                     "ready": {
-                        "label": "Pr\u00eat"
+                        "label": "Prêt"
                     }
                 }
             }
@@ -53,7 +53,7 @@
                             "label": "Mis en pause"
                         },
                         "ready": {
-                            "label": "Pr\u00eat"
+                            "label": "Prêt"
                         }
                     },
                     "description": "Set the machine to this state"

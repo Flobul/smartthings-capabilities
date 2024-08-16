@@ -29,22 +29,22 @@
         "siren": {
             "label": "Siren",
             "description": "Sound the siren on the alarm",
-            "arguments": []
+            "arguments": {}
         },
         "strobe": {
             "label": "Strobe",
             "description": "Strobe the alarm",
-            "arguments": []
+            "arguments": {}
         },
         "off": {
             "label": "Off",
             "description": "Turn the alarm (siren and strobe) off",
-            "arguments": []
+            "arguments": {}
         },
         "both": {
             "label": "Siren and strobe",
             "description": "Strobe and sound the alarm",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

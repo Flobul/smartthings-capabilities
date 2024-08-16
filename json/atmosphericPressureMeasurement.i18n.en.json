@@ -7,8 +7,8 @@
             "label": "Atmospheric pressure",
             "description": "The level of Atmospheric Pressure",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}kPa",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

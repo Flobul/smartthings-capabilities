@@ -13,11 +13,11 @@
                         "label": "Sans vibration"
                     },
                     "active": {
-                        "label": "Vibration d\u00e9tect\u00e9e"
+                        "label": "Vibration détectée"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

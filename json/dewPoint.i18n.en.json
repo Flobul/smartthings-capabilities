@@ -7,8 +7,8 @@
             "label": "Dew point",
             "description": "Current dew point, measured as a temperature value",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

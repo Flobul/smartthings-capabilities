@@ -7,14 +7,14 @@
             "label": "RSSI",
             "description": "A number representing the Received Signal Strength Indication",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} dBm",
-            "i18n": []
+            "i18n": {}
         },
         "lqi": {
-            "label": "Indicateur de qualit\u00e9 de la liaison",
+            "label": "Indicateur de qualité de la liaison",
             "description": "A number representing the Link Quality Indication",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

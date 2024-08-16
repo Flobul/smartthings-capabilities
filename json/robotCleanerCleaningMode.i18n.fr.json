@@ -13,13 +13,13 @@
                         "label": "Automatique"
                     },
                     "stop": {
-                        "label": "Arr\u00eater"
+                        "label": "Arrêter"
                     },
                     "part": {
                         "label": "Zone"
                     },
                     "repeat": {
-                        "label": "R\u00e9p\u00e9tition"
+                        "label": "Répétition"
                     },
                     "manual": {
                         "label": "Manuel"
@@ -41,13 +41,13 @@
                             "label": "Automatique"
                         },
                         "stop": {
-                            "label": "Arr\u00eater"
+                            "label": "Arrêter"
                         },
                         "part": {
                             "label": "Zone"
                         },
                         "repeat": {
-                            "label": "R\u00e9p\u00e9tition"
+                            "label": "Répétition"
                         },
                         "manual": {
                             "label": "Manuel"

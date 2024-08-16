@@ -4,22 +4,22 @@
     "description": "Allows for control of a color changing device by setting its hue, saturation, and color values",
     "attributes": {
         "saturation": {
-            "label": "saturation",
+            "label": "Saturation",
             "description": "``0-100`` (percent)",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "color": {
-            "label": "color",
+            "label": "Colour",
             "description": "``{\"hue\":\"0-100 (percent)\", \"saturation\":\"0-100 (percent)\"}``",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "hue": {
-            "label": "hue",
+            "label": "Hue",
             "description": "``0-100`` (percent)",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -35,7 +35,7 @@
                             "label": "hue"
                         }
                     },
-                    "description": "The color map supports the following key\/value pairs:"
+                    "description": "The color map supports the following key/value pairs:"
                 }
             }
         },
@@ -43,7 +43,7 @@
             "description": "Set the hue value of the color",
             "arguments": {
                 "hue": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A number in the range ``0-100`` representing the hue as a value of percent"
                 }
             }
@@ -52,7 +52,7 @@
             "description": "Set the saturation value of the color",
             "arguments": {
                 "saturation": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A number in the range ``0-100`` representing the saturation as a value of percent"
                 }
             }

@@ -1,43 +1,56 @@
 {
     "tag": "fr",
-    "label": "\u00c9tat de verrouillage",
+    "label": "État de verrouillage",
     "description": "Allow for the control of a lock device",
     "attributes": {
+        "supportedLockValues": {
+            "label": "supportedLockValues",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "lock": {
-            "label": "\u00c9tat de verrouillage",
+            "label": "État de verrouillage",
             "description": "The state of the lock device",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "unlocked with timeout": {
-                        "label": "D\u00e9verrouill\u00e9(e) temporairement"
+                        "label": "Déverrouillé(e) temporairement"
                     },
                     "not fully locked": {
-                        "label": "Pas compl\u00e8tement verrouill\u00e9(e)"
+                        "label": "Pas complètement verrouillé(e)"
+                    },
+                    "unlatched": {
+                        "label": "unlatched"
                     },
                     "locked": {
-                        "label": "Verrouill\u00e9"
+                        "label": "Verrouillé"
                     },
                     "unlocked": {
-                        "label": "D\u00e9verrouill\u00e9"
+                        "label": "Déverrouillé"
                     },
                     "unknown": {
                         "label": "Inconnu"
                     }
                 }
             }
+        },
+        "supportedLockCommands": {
+            "label": "supportedLockCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
         }
     },
     "commands": {
         "unlock": {
-            "label": "D\u00e9verr.",
+            "label": "Déverr.",
             "description": "Unlock the device",
-            "arguments": []
+            "arguments": {}
         },
         "lock": {
             "label": "Verr.",
             "description": "Lock the device",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

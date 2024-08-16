@@ -10,13 +10,13 @@
             "i18n": {
                 "value": {
                     "closing": {
-                        "label": "Fermeture\u2026"
+                        "label": "Fermeture…"
                     },
                     "closed": {
-                        "label": "Ferm\u00e9"
+                        "label": "Fermé"
                     },
                     "opening": {
-                        "label": "Ouverture\u2026"
+                        "label": "Ouverture…"
                     },
                     "open": {
                         "label": "Ouvert"
@@ -30,14 +30,14 @@
     },
     "commands": {
         "close": {
-            "label": "Ferm\u00e9",
+            "label": "Fermé",
             "description": "Close the door",
-            "arguments": []
+            "arguments": {}
         },
         "open": {
             "label": "Ouvert",
             "description": "Open the door",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

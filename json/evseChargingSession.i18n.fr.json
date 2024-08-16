@@ -1,0 +1,63 @@
+{
+    "tag": "fr",
+    "label": "État de préparation de la station de recharge pour véhicule électrique",
+    "attributes": {
+        "targetEndTime": {
+            "label": "Heure de fin",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "maxCurrent": {
+            "label": "Courant maximal",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedChargingCommands": {
+            "label": "supportedChargingCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "energyDelivered": {
+            "label": "Energy Delivered",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "sessionTime": {
+            "label": "Connected for",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "minCurrent": {
+            "label": "Courant minimal",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "chargingState": {
+            "label": "État de préparation de la station de recharge pour véhicule électrique",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "stopped": {
+                        "label": "Stopped"
+                    },
+                    "charging": {
+                        "label": "Charging"
+                    },
+                    "disabled": {
+                        "label": "Disabled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "enableCharging": {
+            "label": "Enable Charging",
+            "arguments": {}
+        },
+        "disableCharging": {
+            "label": "Disable Charging",
+            "arguments": {}
+        }
+    }
+}

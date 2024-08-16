@@ -43,7 +43,7 @@
             "label": "Supported Alarm Statuses",
             "description": "List of alarm statuses supported by a specific device",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "rateAlarm": {
             "label": "Rate",
@@ -64,5 +64,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

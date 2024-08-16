@@ -7,55 +7,55 @@
             "label": "Volume",
             "description": "Current volume setting",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "movieMode": {
             "label": "Mode Film",
             "description": "Current movie mode setting",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "sound": {
             "label": "Son",
             "description": "Current sound setting",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "channel": {
-            "label": "Cha\u00eene",
+            "label": "Chaîne",
             "description": "Current channel setting",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "power": {
             "label": "Marche",
             "description": "Current power setting",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "picture": {
             "label": "Photo",
             "description": "Current picture setting",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "volumeDown": {
             "description": "Set volume lower",
-            "arguments": []
+            "arguments": {}
         },
         "volumeUp": {
             "description": "Set volume higher",
-            "arguments": []
+            "arguments": {}
         },
         "channelDown": {
             "description": "Move a channel down",
-            "arguments": []
+            "arguments": {}
         },
         "channelUp": {
             "description": "Move a channel up",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

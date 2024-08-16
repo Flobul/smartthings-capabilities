@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "Qualit\u00e9 de l'air",
+    "label": "Qualité de l'air",
     "description": "Gets the air quality number.",
     "attributes": {
         "airQuality": {
-            "label": "Qualit\u00e9 de l'air",
+            "label": "Qualité de l'air",
             "description": "Current air quality number",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -7,49 +7,49 @@
             "label": "thermostat setpoint range",
             "description": "Two element array containing minimum and maximum supported setpoint",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "heatingSetpointRange": {
             "label": "heating setpoint range",
             "description": "Two element array containing minimum and maximum supported heating setpoint",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "thermostatSetpoint": {
             "label": "Set temperature",
             "description": "The current setpoint value",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         },
         "supportedThermostatFanModes": {
             "label": "supported thermostat fan modes",
             "description": "The fan modes that the thermostat supports",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "schedule": {
             "label": "schedule",
             "description": "The schedule for the thermostat",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "coolingSetpointRange": {
             "label": "cooling setpoint range",
             "description": "Two element array containing minimum and maximum supported cooling setpoint",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "heatingSetpoint": {
             "label": "Heating temperature",
             "description": "The current heating setpoint",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         },
         "coolingSetpoint": {
             "label": "Cooling temperature",
             "description": "The current cooling setpoint",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         },
         "thermostatOperatingState": {
             "label": "State",
@@ -85,7 +85,7 @@
             "label": "temperature",
             "description": "The current temperature measurement of the thermostat",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         },
         "thermostatFanMode": {
             "label": "Fan mode",
@@ -232,34 +232,34 @@
             "label": "Supported thermostat modes",
             "description": "The modes that the thermostat supports",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "heat": {
             "description": "Set the mode to ``heat``",
-            "arguments": []
+            "arguments": {}
         },
         "setSchedule": {
             "description": "Set the schedule",
             "arguments": {
                 "schedule": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A value that the schedule should be set to"
                 }
             }
         },
         "auto": {
             "description": "Set the mode to ``auto``",
-            "arguments": []
+            "arguments": {}
         },
         "cool": {
             "description": "Set the mode to ``cool``",
-            "arguments": []
+            "arguments": {}
         },
         "emergencyHeat": {
             "description": "Set the mode to ``emergency heat``",
-            "arguments": []
+            "arguments": {}
         },
         "setThermostatFanMode": {
             "label": "Fan mode",
@@ -286,22 +286,22 @@
         },
         "fanAuto": {
             "description": "Set the fan mode to ``auto``",
-            "arguments": []
+            "arguments": {}
         },
         "fanCirculate": {
             "description": "Set the fan mode to ``circulate``",
-            "arguments": []
+            "arguments": {}
         },
         "off": {
             "description": "Set the mode to ``off``",
-            "arguments": []
+            "arguments": {}
         },
         "setCoolingSetpoint": {
             "label": "Cooling temperature",
             "description": "Set the cooling setpoint",
             "arguments": {
                 "setpoint": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A value that the cooling setpoint should be set to"
                 }
             }
@@ -311,7 +311,7 @@
             "description": "Set the heating setpoint",
             "arguments": {
                 "setpoint": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A value that the heating setpoint should be set to"
                 }
             }
@@ -424,6 +424,9 @@
                         "hotwateronly": {
                             "label": "Hot water only"
                         },
+                        "antifreezing": {
+                            "label": "Anti-freezing"
+                        },
                         "fanonly": {
                             "label": "Fan only"
                         },
@@ -443,7 +446,7 @@
         },
         "fanOn": {
             "description": "Set the fan mode to ``on``",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "Courant \u00e9lectrique",
+    "label": "Courant électrique",
     "description": "Get the value of electrical current measured from a device.",
     "attributes": {
         "current": {
-            "label": "Courant \u00e9lectrique",
+            "label": "Courant électrique",
             "description": "A number representing the current measured.",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}A",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -7,8 +7,8 @@
             "label": "Carbon dioxide concentration",
             "description": "The level of carbon dioxide detected",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}ppm",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

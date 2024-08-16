@@ -1,11 +1,11 @@
 {
     "tag": "fr",
-    "label": "Mode d'\u00e9clairage",
+    "label": "Mode d'éclairage",
     "attributes": {
         "lightingMode": {
-            "label": "Mode d'\u00e9clairage",
+            "label": "Mode d'éclairage",
             "description": "Current lighting mode of the device",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
             "i18n": {
                 "value": {
                     "computer": {
@@ -18,7 +18,7 @@
                         "label": "Cosy"
                     },
                     "writing": {
-                        "label": "\u00c9criture"
+                        "label": "Écriture"
                     },
                     "night": {
                         "label": "Nuit"
@@ -27,7 +27,7 @@
                         "label": "Lecture"
                     },
                     "day": {
-                        "label": "Lumi\u00e8re du jour"
+                        "label": "Lumière du jour"
                     },
                     "soft": {
                         "label": "Doux"
@@ -43,7 +43,7 @@
                 "lightingMode": {
                     "i18n": {
                         "writing description": {
-                            "label": "Lumi\u00e8re blanche de 5000K qui vous permet de vous concentrer facilement sur votre travail."
+                            "label": "Lumière blanche de 5000K qui vous permet de vous concentrer facilement sur votre travail."
                         },
                         "sleepPreparation": {
                             "label": "Sommeil"
@@ -55,37 +55,37 @@
                             "label": "Nuit"
                         },
                         "night description": {
-                            "label": "Baissez la lumi\u00e8re pour vous aider \u00e0 vous d\u00e9tendre."
+                            "label": "Baissez la lumière pour vous aider à vous détendre."
                         },
                         "computer description": {
-                            "label": "Utilisez le r\u00e9tro\u00e9clairage uniquement pour vous aider \u00e0 vous plonger dans les films et les jeux."
+                            "label": "Utilisez le rétroéclairage uniquement pour vous aider à vous plonger dans les films et les jeux."
                         },
                         "reading": {
                             "label": "Lecture"
                         },
                         "sleeppreparation description": {
-                            "label": "Obtenez un guide de respiration pour vous aider \u00e0 vous d\u00e9tendre et vous endormir. Inspirez pendant 4 secondes lorsque la lumi\u00e8re est plus intense, maintenez votre respiration pendant 7 secondes lorsqu'elle se stabilise, puis expirez pendant 8 secondes lorsqu\\'elle s\\'assombrit. La lumi\u00e8re s\\'\u00e9teindra au bout de 4 respirations."
+                            "label": "Obtenez un guide de respiration pour vous aider à vous détendre et vous endormir. Inspirez pendant 4 secondes lorsque la lumière est plus intense, maintenez votre respiration pendant 7 secondes lorsqu'elle se stabilise, puis expirez pendant 8 secondes lorsqu\\'elle s\\'assombrit. La lumière s\\'éteindra au bout de 4 respirations."
                         },
                         "day description": {
-                            "label": "Lumi\u00e8re \u00e9nergisante similaire \u00e0 la lumi\u00e8re du soleil."
+                            "label": "Lumière énergisante similaire à la lumière du soleil."
                         },
                         "cozy description": {
-                            "label": "Lumi\u00e8re chaleureuse pour que vous vous sentiez \u00e0 l'aise."
+                            "label": "Lumière chaleureuse pour que vous vous sentiez à l'aise."
                         },
                         "computer": {
                             "label": "Ordinateur"
                         },
                         "writing": {
-                            "label": "\u00c9criture"
+                            "label": "Écriture"
                         },
                         "soft description": {
-                            "label": "Lumi\u00e8re douce pour cr\u00e9er l'ambiance."
+                            "label": "Lumière douce pour créer l'ambiance."
                         },
                         "reading description": {
-                            "label": "Lumi\u00e8re naturelle de 4000K pour une lecture confortable."
+                            "label": "Lumière naturelle de 4000K pour une lecture confortable."
                         },
                         "day": {
-                            "label": "Lumi\u00e8re du jour"
+                            "label": "Lumière du jour"
                         },
                         "soft": {
                             "label": "Doux"

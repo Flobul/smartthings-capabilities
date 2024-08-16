@@ -7,13 +7,13 @@
             "label": "supported spin speeds",
             "description": "Spin speeds supported by the laundry washer",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "spinSpeed": {
             "label": "Vitesse d'essorage",
             "description": "Current spin speed of the laundry washer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -21,7 +21,7 @@
             "description": "Set the laundry washer spin speed",
             "arguments": {
                 "spinSpeed": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The spin speed to set the laundry washer to"
                 }
             }

@@ -1,0 +1,59 @@
+{
+    "tag": "fr",
+    "label": "Mode de ventilation",
+    "attributes": {
+        "fanMode": {
+            "label": "Mode de ventilation",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "label": "Automatique"
+                    },
+                    "high": {
+                        "label": "Élevée"
+                    },
+                    "low": {
+                        "label": "Faible"
+                    },
+                    "medium": {
+                        "label": "Moyenne"
+                    },
+                    "off": {
+                        "label": "Désactivé"
+                    }
+                }
+            }
+        },
+        "supportedFanModes": {
+            "label": "supportedFanModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setFanMode": {
+            "arguments": {
+                "fanMode": {
+                    "i18n": {
+                        "auto": {
+                            "label": "Automatique"
+                        },
+                        "high": {
+                            "label": "Élevée"
+                        },
+                        "low": {
+                            "label": "Faible"
+                        },
+                        "medium": {
+                            "label": "Moyenne"
+                        },
+                        "off": {
+                            "label": "Désactivé"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

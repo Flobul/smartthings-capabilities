@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "D\u00e9tecteur de veille",
+    "label": "Détecteur de veille",
     "description": "A Device that senses whether or not someone is sleeping",
     "attributes": {
         "sleeping": {
-            "label": "D\u00e9tecteur de veille",
+            "label": "Détecteur de veille",
             "description": "A representation of the sleeping value from the Device",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
@@ -19,5 +19,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

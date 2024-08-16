@@ -7,7 +7,7 @@
             "label": "supported input sources",
             "description": "Supported input sources",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "inputSource": {
             "label": "Media input source",
@@ -100,7 +100,7 @@
             "description": "Set the input source for the media",
             "arguments": {
                 "mode": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the input source, to AM, CD, FM, HDMI, HDMI1, HDMI2, HDMI3, HDMI4, HDMI5, HDMI6, digitalTv, USB, YouTube, aux, bluetooth, digital, melon, wifi, network, optical, coaxial, analog1, analog2, analog3 or phono"
                 }
             }

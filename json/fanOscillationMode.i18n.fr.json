@@ -7,7 +7,7 @@
             "label": "supported oscillating fan modes",
             "description": "Supported states for this oscillating fan to be in",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "fanOscillationMode": {
             "label": "Oscillation du ventilateur",
@@ -31,19 +31,19 @@
                         "label": "Directe"
                     },
                     "mid": {
-                        "label": "Interm\u00e9diaire"
+                        "label": "Intermédiaire"
                     },
                     "vertical": {
                         "label": "Verticale"
                     },
                     "off": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "horizontal": {
                         "label": "Horizontale"
                     },
                     "fixedLeft": {
-                        "label": "\u00c0 gauche"
+                        "label": "À gauche"
                     },
                     "swing": {
                         "label": "Balayage"
@@ -55,7 +55,7 @@
                         "label": "Fixe"
                     },
                     "fixedRight": {
-                        "label": "\u00c0 droite"
+                        "label": "À droite"
                     },
                     "fixedCenter": {
                         "label": "Au centre"
@@ -92,16 +92,16 @@
                             "label": "Verticale"
                         },
                         "mid": {
-                            "label": "Interm\u00e9diaire"
+                            "label": "Intermédiaire"
                         },
                         "vertical": {
                             "label": "Verticale"
                         },
                         "off": {
-                            "label": "D\u00e9sactiv\u00e9"
+                            "label": "Désactivé"
                         },
                         "fixedLeft": {
-                            "label": "\u00c0 gauche"
+                            "label": "À gauche"
                         },
                         "horizontal": {
                             "label": "Horizontale"
@@ -116,7 +116,7 @@
                             "label": "Fixe"
                         },
                         "fixedRight": {
-                            "label": "\u00c0 droite"
+                            "label": "À droite"
                         },
                         "fixedCenter": {
                             "label": "Au centre"

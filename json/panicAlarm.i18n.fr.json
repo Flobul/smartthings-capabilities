@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "Alarme de d\u00e9tresse",
+    "label": "Alarme de détresse",
     "description": "Allows for monitoring the status of a panic alarm",
     "attributes": {
         "panicAlarm": {
-            "label": "Alarme de d\u00e9tresse",
+            "label": "Alarme de détresse",
             "description": "The current status of the panic alarm",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {
@@ -13,11 +13,11 @@
                         "label": "En veille"
                     },
                     "panic": {
-                        "label": "D\u00e9tresse"
+                        "label": "Détresse"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -7,8 +7,8 @@
             "label": "Range",
             "description": "A number that represents the estimated remaining range",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

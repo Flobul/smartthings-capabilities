@@ -7,14 +7,14 @@
             "label": "Energy meter",
             "description": "Numeric value representing energy consumption",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "resetEnergyMeter": {
             "label": "Energy meter reset",
             "description": "Reset the energy consumption of a device",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

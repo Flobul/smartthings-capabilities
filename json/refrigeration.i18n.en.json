@@ -52,12 +52,12 @@
     "commands": {
         "setDefrost": {
             "description": "Sets the defrost on or off",
-            "arguments": []
+            "arguments": {}
         },
         "setRapidFreezing": {
             "label": "Power cool",
             "description": "Sets the rapid freezing on or off",
-            "arguments": []
+            "arguments": {}
         },
         "setRapidCooling": {
             "label": "Power cool",

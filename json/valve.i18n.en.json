@@ -23,12 +23,12 @@
         "close": {
             "label": "Closed",
             "description": "Close the valve",
-            "arguments": []
+            "arguments": {}
         },
         "open": {
             "label": "Open",
             "description": "Open the valve",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

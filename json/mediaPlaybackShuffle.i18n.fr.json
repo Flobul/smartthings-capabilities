@@ -1,19 +1,19 @@
 {
     "tag": "fr",
-    "label": "Mode al\u00e9atoire",
+    "label": "Mode aléatoire",
     "description": "Allows for the control of media playback shuffle.",
     "attributes": {
         "playbackShuffle": {
-            "label": "Mode al\u00e9atoire",
+            "label": "Mode aléatoire",
             "description": "The current state of the playback shuffle",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "disabled": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "enabled": {
-                        "label": "Activ\u00e9"
+                        "label": "Activé"
                     }
                 }
             }
@@ -26,10 +26,10 @@
                 "shuffle": {
                     "i18n": {
                         "disabled": {
-                            "label": "D\u00e9sactiv\u00e9"
+                            "label": "Désactivé"
                         },
                         "enabled": {
-                            "label": "Activ\u00e9"
+                            "label": "Activé"
                         }
                     },
                     "description": "Set the shuffle playback to enabled or disabled"

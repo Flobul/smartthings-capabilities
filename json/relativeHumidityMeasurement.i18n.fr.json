@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "Humidit\u00e9",
+    "label": "Humidité",
     "description": "Allow reading the relative humidity from devices that support it",
     "attributes": {
         "humidity": {
-            "label": "Humidit\u00e9",
+            "label": "Humidité",
             "description": "A numerical representation of the relative humidity measurement taken by the device",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} %",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

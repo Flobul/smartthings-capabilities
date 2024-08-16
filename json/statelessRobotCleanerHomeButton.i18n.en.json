@@ -5,9 +5,9 @@
     "attributes": {
         "availableRobotCleanerHomeButtons": {
             "label": "configured buttons",
-            "description": "A list of commands\/buttons that have been configured in the device",
+            "description": "A list of commands/buttons that have been configured in the device",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {

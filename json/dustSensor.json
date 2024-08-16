@@ -17,9 +17,9 @@
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "\u03bcg\/m^3"
+                            "μg/m^3"
                         ],
-                        "default": "\u03bcg\/m^3"
+                        "default": "μg/m^3"
                     }
                 },
                 "additionalProperties": false,
@@ -41,9 +41,9 @@
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "\u03bcg\/m^3"
+                            "μg/m^3"
                         ],
-                        "default": "\u03bcg\/m^3"
+                        "default": "μg/m^3"
                     }
                 },
                 "additionalProperties": false,
@@ -54,5 +54,5 @@
             "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {}
 }

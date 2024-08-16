@@ -1,10 +1,10 @@
 {
     "tag": "en",
-    "label": "Fan mode",
+    "label": "Thermostat fan mode",
     "description": "Set the current mode of the thermostat fan.",
     "attributes": {
         "thermostatFanMode": {
-            "label": "Fan mode",
+            "label": "Thermostat fan mode",
             "description": "The current mode of the fan controlled by the thermostat",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -28,13 +28,13 @@
             "label": "supported thermostat fan modes",
             "description": "If set, determines which fan modes are user-selectable options.",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "fanOn": {
             "description": "Set the fan mode to ``on``",
-            "arguments": []
+            "arguments": {}
         },
         "setThermostatFanMode": {
             "description": "Set the thermostat fan mode",
@@ -60,11 +60,11 @@
         },
         "fanAuto": {
             "description": "Set the fan mode to ``auto``",
-            "arguments": []
+            "arguments": {}
         },
         "fanCirculate": {
             "description": "Set the fan mode to ``circulate``",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -7,19 +7,19 @@
             "label": "URI",
             "description": "Current status of the audio stream",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "startAudio": {
             "label": "Turn on microphone",
             "description": "Start the audio stream",
-            "arguments": []
+            "arguments": {}
         },
         "stopAudio": {
             "label": "Turn off microphone",
             "description": "Stop the audio stream",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

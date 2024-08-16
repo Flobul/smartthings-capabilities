@@ -7,20 +7,20 @@
             "label": "Last hour",
             "description": "Water used in the last hour",
             "displayTemplate": "Water used in the {{attribute}} by {{device.label}} is {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         },
         "lastTwentyFourHours": {
             "label": "Last 24 hours",
             "description": "Water used in the last 24 hours",
             "displayTemplate": "Water used in the {{attribute}} by {{device.label}} is {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         },
         "lastSevenDays": {
             "label": "Last 7 days",
             "description": "Water used in the last 7 days",
             "displayTemplate": "Water used in the {{attribute}} by {{device.label}} is {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

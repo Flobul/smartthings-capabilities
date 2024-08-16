@@ -10,13 +10,13 @@
             "i18n": {
                 "value": {
                     "closing": {
-                        "label": "Closing\u2026"
+                        "label": "Closing…"
                     },
                     "closed": {
                         "label": "Closed"
                     },
                     "opening": {
-                        "label": "Opening\u2026"
+                        "label": "Opening…"
                     },
                     "open": {
                         "label": "Open"
@@ -32,12 +32,12 @@
         "close": {
             "label": "Closed",
             "description": "Close the door",
-            "arguments": []
+            "arguments": {}
         },
         "open": {
             "label": "Open",
             "description": "Open the door",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -4,46 +4,46 @@
     "description": "Allows for the expression of media grouping.",
     "attributes": {
         "groupMute": {
-            "label": "D\u00e9sactiver le son pour le groupe",
+            "label": "Désactiver le son pour le groupe",
             "description": "Current status of group audio mute",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "unmuted": {
-                        "label": "Son activ\u00e9"
+                        "label": "Son activé"
                     },
                     "muted": {
-                        "label": "D\u00e9sactiv\u00e9s"
+                        "label": "Désactivés"
                     }
                 }
             }
         },
         "groupPrimaryDeviceId": {
-            "label": "Identification du contr\u00f4leur du groupe",
+            "label": "Identification du contrôleur du groupe",
             "description": "Reference to the main controller of the group",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "groupId": {
-            "label": "Identification group\u00e9e",
+            "label": "Identification groupée",
             "description": "An identifier for the group",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "groupVolume": {
             "label": "Volume du groupe",
             "description": "The current group volume setting of the audio group",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} %",
-            "i18n": []
+            "i18n": {}
         },
         "groupRole": {
             "label": "Groupe de haut-parleurs",
             "description": "Current role in the group",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "ungrouped": {
-                        "label": "Non group\u00e9"
+                        "label": "Non groupé"
                     },
                     "auxilary": {
                         "label": "Haut-parleur secondaire"
@@ -58,37 +58,37 @@
     "commands": {
         "groupVolumeUp": {
             "description": "Turn the group volume up",
-            "arguments": []
+            "arguments": {}
         },
         "groupVolumeDown": {
             "description": "Turn the group volume down",
-            "arguments": []
+            "arguments": {}
         },
         "muteGroup": {
-            "label": "D\u00e9sactiv\u00e9s",
+            "label": "Désactivés",
             "description": "Set the group audio to mute state",
-            "arguments": []
+            "arguments": {}
         },
         "setGroupVolume": {
             "label": "Volume du groupe",
             "description": "Set the group volume level",
             "arguments": {
                 "groupVolume": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A value to which the group volume level should be set"
                 }
             }
         },
         "unmuteGroup": {
-            "label": "Son activ\u00e9",
+            "label": "Son activé",
             "description": "Set the group audio to unmute state",
-            "arguments": []
+            "arguments": {}
         },
         "setGroupMute": {
             "description": "Set the group audio mute state",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the group audio mute state to \"muted\" or \"unmuted\""
                 }
             }

@@ -10,16 +10,16 @@
             "i18n": {
                 "value": {
                     "siren": {
-                        "label": "Sir\u00e8ne"
+                        "label": "Sirène"
                     },
                     "strobe": {
                         "label": "Clignotement"
                     },
                     "off": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "both": {
-                        "label": "Sir\u00e8ne et clignotement"
+                        "label": "Sirène et clignotement"
                     }
                 }
             }
@@ -27,24 +27,24 @@
     },
     "commands": {
         "siren": {
-            "label": "Sir\u00e8ne",
+            "label": "Sirène",
             "description": "Sound the siren on the alarm",
-            "arguments": []
+            "arguments": {}
         },
         "strobe": {
             "label": "Clignotement",
             "description": "Strobe the alarm",
-            "arguments": []
+            "arguments": {}
         },
         "off": {
-            "label": "D\u00e9sactiv\u00e9",
+            "label": "Désactivé",
             "description": "Turn the alarm (siren and strobe) off",
-            "arguments": []
+            "arguments": {}
         },
         "both": {
-            "label": "Sir\u00e8ne et clignotement",
+            "label": "Sirène et clignotement",
             "description": "Strobe and sound the alarm",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

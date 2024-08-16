@@ -7,7 +7,7 @@
             "label": "refrigeration setpoint",
             "description": "The temperature at which refrigeration should trigger",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -15,7 +15,7 @@
             "description": "Set the refrigeration setpoint.",
             "arguments": {
                 "setpoint": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A temperature value to which the refrigeration setpoint should be set to"
                 }
             }

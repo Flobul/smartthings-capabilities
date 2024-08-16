@@ -24,20 +24,20 @@
             "description": "Set the state of the audio mute",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the audio mute state to \"muted\" or \"unmuted\""
                 }
             }
         },
         "mute": {
-            "label": "Muted",
+            "label": "Sound off",
             "description": "Set the audio to mute state",
-            "arguments": []
+            "arguments": {}
         },
         "unmute": {
-            "label": "Unmuted",
+            "label": "Sound on",
             "description": "Set the audio to unmute state",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

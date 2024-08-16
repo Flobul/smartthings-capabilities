@@ -4,16 +4,16 @@
     "description": "Allows for the control of a media controller device",
     "attributes": {
         "currentActivity": {
-            "label": "Activit\u00e9 actuelle",
+            "label": "Activité actuelle",
             "description": "The currently active activity on the media controller",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "activities": {
-            "label": "Activit\u00e9s",
+            "label": "Activités",
             "description": "A list of all of the configured activities on the media controller",
-            "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} a été mis à jour",
+            "i18n": {}
         }
     },
     "commands": {
@@ -21,7 +21,7 @@
             "description": "Start an activity",
             "arguments": {
                 "activityId": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The identification number of the activity to start"
                 }
             }

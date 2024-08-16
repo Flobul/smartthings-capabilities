@@ -10,10 +10,10 @@
             "i18n": {
                 "value": {
                     "veryUnhealthy": {
-                        "label": "Tr\u00e8s mauvais"
+                        "label": "Très mauvais"
                     },
                     "slightlyUnhealthy": {
-                        "label": "L\u00e9g\u00e8rement mauvais"
+                        "label": "Légèrement mauvais"
                     },
                     "unhealthy": {
                         "label": "Mauvais"
@@ -25,14 +25,14 @@
                         "label": "Bon"
                     },
                     "unknown": {
-                        "label": "unknown"
+                        "label": "Inconnu"
                     },
                     "moderate": {
-                        "label": "Mod\u00e9r\u00e9es"
+                        "label": "Modérées"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

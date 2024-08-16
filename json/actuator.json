@@ -4,6 +4,6 @@
     "status": "deprecated",
     "name": "Actuator",
     "ephemeral": false,
-    "attributes": [],
-    "commands": []
+    "attributes": {},
+    "commands": {}
 }

@@ -7,11 +7,11 @@
             "label": "check interval",
             "description": "The current value of checkInterval",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}s",
-            "i18n": []
+            "i18n": {}
         },
         "healthStatus": {
             "label": "health status",
-            "description": "The current online\/offline status of the device",
+            "description": "The current online/offline status of the device",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
@@ -28,11 +28,11 @@
             "label": "enroll in health check",
             "description": "Event sent to enroll a device in device health.",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "DeviceWatch-DeviceStatus": {
             "label": "device watch- device status",
-            "description": "The current online\/offline status of the device. Deprecated in favor of healthStatus attribute.",
+            "description": "The current online/offline status of the device. Deprecated in favor of healthStatus attribute.",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
@@ -49,7 +49,7 @@
     "commands": {
         "ping": {
             "description": "Ping the device",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

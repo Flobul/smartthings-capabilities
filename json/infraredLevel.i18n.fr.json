@@ -7,16 +7,16 @@
             "label": "Niveau d'infrarouge",
             "description": "A number that represents the current infrared light level, ``0-100`` in percent",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} %",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "setInfraredLevel": {
-            "label": "D\u00e9finissez le niveau d'infrarouge",
+            "label": "Définissez le niveau d'infrarouge",
             "description": "Set the infrared level to the given value",
             "arguments": {
                 "level": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The infrared level value, ``0-100`` in percent"
                 }
             }

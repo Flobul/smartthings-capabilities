@@ -1,0 +1,63 @@
+{
+    "tag": "en",
+    "label": "EVSE charging readiness state",
+    "attributes": {
+        "targetEndTime": {
+            "label": "End time",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "maxCurrent": {
+            "label": "Max current",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedChargingCommands": {
+            "label": "supportedChargingCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "energyDelivered": {
+            "label": "Energy Delivered",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "sessionTime": {
+            "label": "Connected for",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "minCurrent": {
+            "label": "Min current",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "chargingState": {
+            "label": "EVSE charging readiness state",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "stopped": {
+                        "label": "Stopped"
+                    },
+                    "charging": {
+                        "label": "Charging"
+                    },
+                    "disabled": {
+                        "label": "Disabled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "enableCharging": {
+            "label": "Enable Charging",
+            "arguments": {}
+        },
+        "disableCharging": {
+            "label": "Disable Charging",
+            "arguments": {}
+        }
+    }
+}

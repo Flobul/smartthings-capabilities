@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "\u00c9clairement",
+    "label": "Éclairement",
     "description": "Gives the illuminance reading from devices that support it",
     "attributes": {
         "illuminance": {
-            "label": "\u00c9clairement",
+            "label": "Éclairement",
             "description": "The illuminance measurement in LUX",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} lux",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

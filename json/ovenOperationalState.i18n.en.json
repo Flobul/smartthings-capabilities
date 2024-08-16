@@ -7,7 +7,7 @@
             "label": "completion time",
             "description": "The completion time for the oven job",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "machineState": {
             "label": "machine state",
@@ -31,7 +31,7 @@
             "label": "progress",
             "description": "The percentage complete for the oven job",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}%",
-            "i18n": []
+            "i18n": {}
         },
         "supportedMachineStates": {
             "label": "supported machine states",
@@ -115,19 +115,19 @@
             "label": "operation time",
             "description": "Operation time of the oven job",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "stop": {
             "description": "Stop the oven operation",
-            "arguments": []
+            "arguments": {}
         },
         "setMachineState": {
             "description": "Set the oven state",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the oven to this state"
                 }
             }

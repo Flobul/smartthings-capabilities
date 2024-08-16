@@ -23,12 +23,12 @@
         "off": {
             "label": "Turn off",
             "description": "Turn a switch off",
-            "arguments": []
+            "arguments": {}
         },
         "on": {
             "label": "Turn on",
             "description": "Turn a switch on",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

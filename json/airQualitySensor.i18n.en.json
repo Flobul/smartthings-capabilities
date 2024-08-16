@@ -7,8 +7,8 @@
             "label": "Air quality",
             "description": "Current air quality number",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

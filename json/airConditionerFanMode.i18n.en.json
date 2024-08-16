@@ -1,14 +1,29 @@
 {
     "tag": "en",
-    "label": "Fan speed",
+    "label": "Air conditioner fan mode",
     "description": "Maintains and sets the state of an air conditioner's fan",
     "attributes": {
         "fanMode": {
-            "label": "Fan speed",
+            "label": "Air conditioner fan mode",
             "description": "The current mode of the fan",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
+                    "1": {
+                        "label": "1"
+                    },
+                    "2": {
+                        "label": "2"
+                    },
+                    "3": {
+                        "label": "3"
+                    },
+                    "4": {
+                        "label": "4"
+                    },
+                    "5": {
+                        "label": "5"
+                    },
                     "auto": {
                         "label": "Auto"
                     },
@@ -30,29 +45,14 @@
                     "sleep": {
                         "label": "sleep"
                     },
-                    "1": {
-                        "label": "1"
-                    },
-                    "2": {
-                        "label": "2"
-                    },
                     "high": {
                         "label": "High"
-                    },
-                    "3": {
-                        "label": "3"
-                    },
-                    "4": {
-                        "label": "4"
                     },
                     "windfree": {
                         "label": "windfree"
                     },
                     "low": {
                         "label": "Low"
-                    },
-                    "5": {
-                        "label": "5"
                     },
                     "quite": {
                         "label": "quite"
@@ -70,16 +70,31 @@
             "label": "supported ac fan modes",
             "description": "Supported states for this air conditioner fan to be in",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "setFanMode": {
-            "label": "Fan speed",
+            "label": "Air conditioner fan mode",
             "description": "Set the fan's mode",
             "arguments": {
                 "fanMode": {
                     "i18n": {
+                        "1": {
+                            "label": "1"
+                        },
+                        "2": {
+                            "label": "2"
+                        },
+                        "3": {
+                            "label": "3"
+                        },
+                        "4": {
+                            "label": "4"
+                        },
+                        "5": {
+                            "label": "5"
+                        },
                         "auto": {
                             "label": "Auto"
                         },
@@ -101,29 +116,14 @@
                         "sleep": {
                             "label": "sleep"
                         },
-                        "1": {
-                            "label": "1"
-                        },
-                        "2": {
-                            "label": "2"
-                        },
                         "high": {
                             "label": "High"
-                        },
-                        "3": {
-                            "label": "3"
                         },
                         "windfree": {
                             "label": "windfree"
                         },
-                        "4": {
-                            "label": "4"
-                        },
                         "low": {
                             "label": "Low"
-                        },
-                        "5": {
-                            "label": "5"
                         },
                         "quite": {
                             "label": "quite"

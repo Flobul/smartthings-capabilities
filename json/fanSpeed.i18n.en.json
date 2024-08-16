@@ -7,23 +7,23 @@
             "label": "Fan speed",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
-                "value": [
-                    {
+                "value": {
+                    "0": {
                         "label": "Off"
                     },
-                    {
+                    "1": {
                         "label": "Low"
                     },
-                    {
+                    "2": {
                         "label": "Medium"
                     },
-                    {
+                    "3": {
                         "label": "High"
                     },
-                    {
+                    "4": {
                         "label": "Max"
                     }
-                ]
+                }
             }
         }
     },
@@ -32,23 +32,23 @@
             "description": "Set the fan speed",
             "arguments": {
                 "speed": {
-                    "i18n": [
-                        {
+                    "i18n": {
+                        "0": {
                             "label": "Off"
                         },
-                        {
+                        "1": {
                             "label": "Low"
                         },
-                        {
+                        "2": {
                             "label": "Medium"
                         },
-                        {
+                        "3": {
                             "label": "High"
                         },
-                        {
+                        "4": {
                             "label": "Max"
                         }
-                    ],
+                    },
                     "description": "Set the fan to this speed"
                 }
             }

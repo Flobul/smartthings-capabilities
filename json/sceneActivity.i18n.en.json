@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Scene Activity",
+    "attributes": {
+        "activatedScene": {
+            "label": "activatedScene",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedScenes": {
+            "label": "supportedScenes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

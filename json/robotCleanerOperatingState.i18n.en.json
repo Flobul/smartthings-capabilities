@@ -22,7 +22,7 @@
                         "label": "Couldn't start"
                     },
                     "failedToFindChargingDock": {
-                        "label": "Stuck"
+                        "label": "Couldn't find location"
                     },
                     "charging": {
                         "label": "Charging"
@@ -67,8 +67,8 @@
             "label": "supported operating states",
             "description": "Operational states supported by the robot cleaner",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

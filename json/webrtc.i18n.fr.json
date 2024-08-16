@@ -7,69 +7,69 @@
             "label": "live stream",
             "description": "Signaling info for a video source",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "talkback": {
             "label": "Parler",
             "description": "Whether audio is streaming from client to video source",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "turnInfo": {
             "label": "turn info",
             "description": "turn server information to be used by the client for webrtc connection",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "supportedFeatures": {
             "label": "SDP offer supported features",
             "description": "SDP Offer options",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "deviceIce": {
             "label": "ice candidate",
             "description": "An ICE candidate from the video source",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "audioOnly": {
             "label": "audio only",
             "description": "The stream is audio only",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "stunUrl": {
             "label": "STUN URL",
             "description": "URL used for STUN connection from the client",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "startTalkback": {
             "description": "Start the talkback",
-            "arguments": []
+            "arguments": {}
         },
         "clientIce": {
             "description": "Provide an ICE candidate to the video source",
-            "arguments": []
+            "arguments": {}
         },
         "sdpOffer": {
             "description": "Start the live stream",
-            "arguments": []
+            "arguments": {}
         },
         "stopTalkback": {
             "description": "Stop the talkback",
-            "arguments": []
+            "arguments": {}
         },
         "requestTurnInfo": {
             "description": "Request turn server information",
-            "arguments": []
+            "arguments": {}
         },
         "end": {
             "description": "Stop the live stream",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

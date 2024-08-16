@@ -6,14 +6,14 @@
         "scentName": {
             "label": "nom",
             "description": "A string that represents the name of the scent",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
+            "i18n": {}
         },
         "scentIntensity": {
-            "label": "intensit\u00e9",
+            "label": "intensité",
             "description": "A number that represents the current scent intensity, usually ``0-100`` in percent",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} %",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -21,7 +21,7 @@
             "description": "Set the intensity to the given value",
             "arguments": {
                 "intensity": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The intensity value, usually ``0-100`` in percent"
                 }
             }

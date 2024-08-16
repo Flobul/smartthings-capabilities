@@ -19,7 +19,7 @@
                         "enum": [
                             "ppm",
                             "ppb",
-                            "ug\/m3"
+                            "ug/m3"
                         ],
                         "default": "ppm"
                     }
@@ -33,5 +33,5 @@
             "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "eco": {
-                        "label": "\u00c9co"
+                        "label": "Éco"
                     },
                     "auto": {
                         "label": "Automatique"
@@ -22,7 +22,7 @@
                         "label": "Sec"
                     },
                     "rinse": {
-                        "label": "Rin\u00e7age"
+                        "label": "Rinçage"
                     },
                     "intense": {
                         "label": "Intense"
@@ -38,7 +38,7 @@
                 "mode": {
                     "i18n": {
                         "eco": {
-                            "label": "\u00c9co"
+                            "label": "Éco"
                         },
                         "quick": {
                             "label": "Rapide"
@@ -50,7 +50,7 @@
                             "label": "Sec"
                         },
                         "rinse": {
-                            "label": "Rin\u00e7age"
+                            "label": "Rinçage"
                         },
                         "intense": {
                             "label": "Intense"

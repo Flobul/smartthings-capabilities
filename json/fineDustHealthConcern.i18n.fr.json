@@ -1,19 +1,19 @@
 {
     "tag": "fr",
-    "label": "Poussi\u00e8re fine",
+    "label": "Poussière fine",
     "description": "Health Concern levels of fine dust sensor measurements.",
     "attributes": {
         "fineDustHealthConcern": {
-            "label": "Poussi\u00e8re fine",
+            "label": "Poussière fine",
             "description": "Current health concern of fine dust -- also refered to as PM2.5, based on the relative health hazard",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "veryUnhealthy": {
-                        "label": "Tr\u00e8s mauvais"
+                        "label": "Très mauvais"
                     },
                     "slightlyUnhealthy": {
-                        "label": "L\u00e9g\u00e8rement mauvais"
+                        "label": "Légèrement mauvais"
                     },
                     "unhealthy": {
                         "label": "Mauvais"
@@ -25,7 +25,7 @@
                         "label": "Bon"
                     },
                     "unknown": {
-                        "label": "unknown"
+                        "label": "Inconnu"
                     },
                     "moderate": {
                         "label": "Moyen"
@@ -34,5 +34,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -7,13 +7,13 @@
             "label": "data",
             "description": "A Json Object of results from commands being executed.",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "execute": {
             "description": "Execute a command.",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

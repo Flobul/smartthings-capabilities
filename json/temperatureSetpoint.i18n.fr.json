@@ -1,19 +1,19 @@
 {
     "tag": "fr",
-    "label": "D\u00e9finissez la temp\u00e9rature",
+    "label": "Définissez la température",
     "description": "Allows for setting the temperature setpoint",
     "attributes": {
         "temperatureSetpoint": {
-            "label": "D\u00e9finissez la temp\u00e9rature",
+            "label": "Définissez la température",
             "description": "The current temperature setpoint",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         },
         "temperatureSetpointRange": {
             "label": "temperature setpoint range",
             "description": "User Interface constraints on the temperature setpoint value",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -21,7 +21,7 @@
             "description": "Set the temperature setpoint",
             "arguments": {
                 "setpoint": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A value that the temperature setpoint should be set to"
                 }
             }

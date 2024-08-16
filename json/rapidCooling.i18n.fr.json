@@ -10,10 +10,10 @@
             "i18n": {
                 "value": {
                     "off": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "on": {
-                        "label": "Activ\u00e9"
+                        "label": "Activé"
                     }
                 }
             }
@@ -26,10 +26,10 @@
                 "rapidCooling": {
                     "i18n": {
                         "off": {
-                            "label": "D\u00e9sactiv\u00e9"
+                            "label": "Désactivé"
                         },
                         "on": {
-                            "label": "Activ\u00e9"
+                            "label": "Activé"
                         }
                     },
                     "description": "Set the rapid cooling to \"off\" or \"on\" state"

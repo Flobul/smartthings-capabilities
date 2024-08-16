@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "Point de ros\u00e9e",
+    "label": "Point de rosée",
     "description": "Gets the dew point temperature reading.",
     "attributes": {
         "dewpoint": {
-            "label": "Point de ros\u00e9e",
+            "label": "Point de rosée",
             "description": "Current dew point, measured as a temperature value",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

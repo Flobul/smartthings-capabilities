@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "extraSilence": {
-                        "label": "extraSilence"
+                        "label": "Extra Silence"
                     },
                     "silence": {
                         "label": "Quiet"
@@ -31,6 +31,9 @@
             "arguments": {
                 "mode": {
                     "i18n": {
+                        "extraSilence": {
+                            "label": "Extra Silence"
+                        },
                         "silence": {
                             "label": "Quiet"
                         },

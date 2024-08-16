@@ -6,14 +6,14 @@
         "humidifierMode": {
             "label": "Mode de l'humidificateur",
             "description": "The current mode of the humidifier, an enum of auto, low, medium, or high",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
             "i18n": {
                 "value": {
                     "auto": {
                         "label": "Automatique"
                     },
                     "high": {
-                        "label": "\u00c9lev\u00e9"
+                        "label": "Élevé"
                     },
                     "low": {
                         "label": "Faible"
@@ -32,7 +32,7 @@
                 "humidifierMode": {
                     "i18n": {
                         "high": {
-                            "label": "\u00c9lev\u00e9"
+                            "label": "Élevé"
                         },
                         "auto": {
                             "label": "Automatique"

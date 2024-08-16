@@ -28,31 +28,5 @@
             }
         }
     },
-    "commands": {
-        "setConsumableStatus": {
-            "description": "Set the consumable status",
-            "arguments": {
-                "status": {
-                    "i18n": {
-                        "missing": {
-                            "label": "Manquant"
-                        },
-                        "maintenance required": {
-                            "label": "Maintenance requise"
-                        },
-                        "replace": {
-                            "label": "Remplacement"
-                        },
-                        "good": {
-                            "label": "Bon"
-                        },
-                        "order": {
-                            "label": "Commande"
-                        }
-                    },
-                    "description": "Should be one of ``good``, ``maintenance_required``, ``missing``, ``order``, or ``replace``"
-                }
-            }
-        }
-    }
+    "commands": {}
 }

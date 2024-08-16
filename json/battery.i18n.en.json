@@ -7,8 +7,8 @@
             "label": "Battery",
             "description": "An indication of the status of the battery",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }
