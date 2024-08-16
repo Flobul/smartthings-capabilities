@@ -1,7 +1,9 @@
 name: "Generate capabilities"
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+  schedule:
+    - cron: '13 05 */7 * *'
 
 jobs:
   build:
