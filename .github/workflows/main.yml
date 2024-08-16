@@ -29,14 +29,36 @@ jobs:
 
       - name: "Process each capability"
         run: |
+          PRINT="## SmartThings Capabilities\n"
+          PRINT+="#### Last Update: "$(date -I)"\n"
+          PRINT+="#### Edited by Flobul for Jeedom solution\n\n"
+          PRINT+="* [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)\n"
+          PRINT+="* [SmartThings API](https://smartthings.developer.samsung.com/docs/api-ref/st-api.html#tag/capabilities)\n"
+          PRINT+="* [SmartThings CLI](https://github.com/SmartThingsCommunity/smartthings-cli)\n"
+          PRINT+="* [Create Personal Access Token](https://account.smartthings.com/tokens)\n"
+          PRINT+="* [Plugin Documentation](https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom/)\n"
+          PRINT+="* [Plugin Jeedom Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4099)\n"
 
-          cat extra_capabilities.json | jq -r -c '.[]' | while read capa; do
-            echo "Processing capability: $capa"
-            ./smartthings capabilities $capa --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.json
-            ./smartthings capabilities:translations $capa 1 fr -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.i18n.fr.json || true
-            ./smartthings capabilities:translations $capa 1 en -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.i18n.en.json || true
+          PRINT+="| Capability | Version | Status | Capability Presentation | Translation i18n\n"
+          PRINT+="| ---- | ---- | ---- | ---- | ---- |\n\n"
+
+          ls json/*.json | grep -v i18n | grep -v Presentation.json | while read file; do
+            cat $file | jq -c '.[]' | while read capability; do
+              id=$(echo $capability | jq -r '.id')
+              version=$(echo $capability | jq -r '.version')
+              status=$(echo $capability | jq -r '.status')
+              name=$(echo $capability | jq -r '.name')
+              presentation=""
+              i18n=""
+              if [ -f json/${id}Presentation.json ]; then
+                presentation="[json](./json/${id}Presentation.json)"
+              fi
+              if [ -f json/${id}.i18n.fr.json ]; then
+                i18n="[json](./json/${id}.i18n.fr.json)"
+              fi
+              echo "| [$name](./json/$id.json) | $version | $status | $presentation | $i18n |"
+            done
           done
-
       - name: "Create Pull Request"
         uses: peter-evans/create-pull-request@v6
         with:
