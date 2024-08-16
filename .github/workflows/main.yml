@@ -31,9 +31,10 @@ jobs:
         run: |
 
           cat extra_capabilities.json | jq -r -c '.[]' | while read capa; do
-            ./smartthings capabilities $capa -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capability.json
-            ./smartthings capabilities:translations $capa 1 fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capa.i18n.fr.json
-            ./smartthings capabilities:translations $capa 1 en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$capa.i18n.en.json
+            echo "Processing capability: $capa"
+            ./smartthings capabilities $capa -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capability.json
+            ./smartthings capabilities:translations $capa 1 fr -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.i18n.fr.json
+            ./smartthings capabilities:translations $capa 1 en -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.i18n.en.json
           done
 
       - name: "Create Pull Request"
