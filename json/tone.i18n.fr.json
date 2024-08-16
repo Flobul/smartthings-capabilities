@@ -1,12 +1,12 @@
 {
     "tag": "fr",
     "label": "Tone",
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "beep": {
-            "label": "\u00c9mission d'un son",
+            "label": "Émission d'un son",
             "description": "Beep the device",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -7,8 +7,8 @@
             "label": "TCOV",
             "description": "The level of total volatile organic compounds detected",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} ppm",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

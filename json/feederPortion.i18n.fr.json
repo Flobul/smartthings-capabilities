@@ -21,7 +21,7 @@
             "description": "Set the portion (in grams, pounds, ounces, or servings) that the feeder will dispense.",
             "arguments": {
                 "portion": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The portion (in grams, pounds, ounces, or servings) to dispense."
                 }
             }

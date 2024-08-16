@@ -7,12 +7,12 @@
             "label": "supportedOvenModes",
             "description": "The modes supported by this oven",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "ovenMode": {
             "label": "Mode",
             "description": "The mode of operation that the oven is set to",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "Microwave": {
@@ -67,7 +67,7 @@
                         "label": "Broil"
                     },
                     "warming": {
-                        "label": "R\u00e9chauffage"
+                        "label": "Réchauffage"
                     },
                     "Proof": {
                         "label": "Proof"
@@ -82,7 +82,7 @@
                         "label": "ConvectionRoast"
                     },
                     "defrosting": {
-                        "label": "D\u00e9cong\u00e9lation"
+                        "label": "Décongélation"
                     },
                     "grill": {
                         "label": "Grill"
@@ -104,13 +104,13 @@
                 "mode": {
                     "i18n": {
                         "warming": {
-                            "label": "R\u00e9chauffage"
+                            "label": "Réchauffage"
                         },
                         "heating": {
                             "label": "Chauffage"
                         },
                         "defrosting": {
-                            "label": "D\u00e9cong\u00e9lation"
+                            "label": "Décongélation"
                         },
                         "grill": {
                             "label": "Grill"

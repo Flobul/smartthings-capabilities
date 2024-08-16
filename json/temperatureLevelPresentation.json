@@ -5,7 +5,8 @@
                 "label": "{{temperatureLevel.value}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

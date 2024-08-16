@@ -6,7 +6,7 @@
                 "alternatives": [
                     {
                         "key": "true",
-                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPGRADE_AVAILABLE}}",
+                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_AVAILABLE}}",
                         "type": "active"
                     }
                 ]
@@ -30,7 +30,8 @@
                 "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_SWAP_REBOOTING}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "id": "samsungce.softwareUpdate",
     "version": 1

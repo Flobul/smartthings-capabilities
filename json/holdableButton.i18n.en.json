@@ -22,8 +22,8 @@
             "label": "number of buttons",
             "description": "The number of buttons on the device",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

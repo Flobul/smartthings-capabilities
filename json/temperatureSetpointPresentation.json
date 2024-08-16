@@ -6,23 +6,24 @@
                 "alternatives": [
                     {
                         "key": "C",
-                        "value": "\u00b0C",
+                        "value": "°C",
                         "type": "active"
                     },
                     {
                         "key": "K",
-                        "value": "\u00b0K",
+                        "value": "°K",
                         "type": "active"
                     },
                     {
                         "key": "F",
-                        "value": "\u00b0F",
+                        "value": "°F",
                         "type": "active"
                     }
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

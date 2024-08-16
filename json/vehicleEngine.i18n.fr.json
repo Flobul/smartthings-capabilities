@@ -13,10 +13,10 @@
                         "label": "Actif"
                     },
                     "starting": {
-                        "label": "D\u00e9marrage"
+                        "label": "Démarrage"
                     },
                     "off": {
-                        "label": "Arr\u00eat\u00e9"
+                        "label": "Arrêté"
                     },
                     "unknown": {
                         "label": "Inconnu"
@@ -27,14 +27,14 @@
     },
     "commands": {
         "startEngine": {
-            "label": "D\u00e9marrer",
+            "label": "Démarrer",
             "description": "Turn the engine on",
-            "arguments": []
+            "arguments": {}
         },
         "stopEngine": {
-            "label": "Arr\u00eater",
+            "label": "Arrêter",
             "description": "Turn the engine off",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

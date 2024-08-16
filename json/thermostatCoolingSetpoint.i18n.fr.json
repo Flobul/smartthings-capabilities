@@ -1,28 +1,28 @@
 {
     "tag": "fr",
-    "label": "Temp\u00e9rature de refroidissement",
+    "label": "Température de refroidissement",
     "description": "Allows for setting the cooling setpoint on a thermostat",
     "attributes": {
         "coolingSetpointRange": {
             "label": "cooling setpoint range",
             "description": "Constraints on the cooling setpoint value",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "coolingSetpoint": {
-            "label": "Temp\u00e9rature de refroidissement",
+            "label": "Température de refroidissement",
             "description": "The current cooling setpoint",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}} {{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "setCoolingSetpoint": {
-            "label": "Temp\u00e9rature de refroidissement",
+            "label": "Température de refroidissement",
             "description": "Set the cooling setpoint",
             "arguments": {
                 "setpoint": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A value that the cooling setpoint should be set to"
                 }
             }

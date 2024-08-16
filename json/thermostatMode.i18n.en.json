@@ -9,6 +9,54 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
+                    "auto": {
+                        "label": "Auto"
+                    },
+                    "furnace": {
+                        "label": "Furnace"
+                    },
+                    "eco": {
+                        "label": "Eco"
+                    },
+                    "rush hour": {
+                        "label": "Rush Hour"
+                    },
+                    "rushhour": {
+                        "label": "rushhour"
+                    },
+                    "asleep": {
+                        "label": "Asleep"
+                    },
+                    "dryair": {
+                        "label": "Dry air"
+                    },
+                    "emergencyheatactive": {
+                        "label": "Emergency Heat Active"
+                    },
+                    "24hourReservation": {
+                        "label": "24-hour reservation"
+                    },
+                    "veryhot": {
+                        "label": "Very hot"
+                    },
+                    "in": {
+                        "label": "In"
+                    },
+                    "autocool": {
+                        "label": "Auto cool"
+                    },
+                    "warm": {
+                        "label": "Warm"
+                    },
+                    "antifreezing": {
+                        "label": "Anti-freezing"
+                    },
+                    "fanonly": {
+                        "label": "Fan only"
+                    },
+                    "lukewarm": {
+                        "label": "Slightly warm"
+                    },
                     "heat": {
                         "label": "Heat"
                     },
@@ -18,14 +66,8 @@
                     "autochangeoveractive": {
                         "label": "Auto changeover active"
                     },
-                    "auto": {
-                        "label": "Auto"
-                    },
                     "away": {
                         "label": "Away"
-                    },
-                    "furnace": {
-                        "label": "Furnace"
                     },
                     "precooling": {
                         "label": "Pre-cooling"
@@ -48,26 +90,14 @@
                     "out": {
                         "label": "Out"
                     },
-                    "eco": {
-                        "label": "Eco"
-                    },
                     "energysavecool": {
                         "label": "Energy save cool"
                     },
                     "autoheat": {
                         "label": "Auto heat"
                     },
-                    "rush hour": {
-                        "label": "Rush Hour"
-                    },
                     "auxheatonly": {
                         "label": "Auxillary Heat Only"
-                    },
-                    "rushhour": {
-                        "label": "rushhour"
-                    },
-                    "asleep": {
-                        "label": "Asleep"
                     },
                     "emergencyheat": {
                         "label": "emergencyheat"
@@ -75,11 +105,8 @@
                     "heatingoff": {
                         "label": "Heating off"
                     },
-                    "dryair": {
-                        "label": "Dry air"
-                    },
-                    "emergencyheatactive": {
-                        "label": "Emergency Heat Active"
+                    "bath": {
+                        "label": "Bath"
                     },
                     "autowitheco": {
                         "label": "Auto with eco"
@@ -90,14 +117,8 @@
                     "resume": {
                         "label": "Resume"
                     },
-                    "veryhot": {
-                        "label": "Very hot"
-                    },
                     "emergency heat": {
                         "label": "Emergency heat"
-                    },
-                    "in": {
-                        "label": "In"
                     },
                     "cool": {
                         "label": "Cool"
@@ -120,23 +141,14 @@
                     "home": {
                         "label": "Home"
                     },
-                    "autocool": {
-                        "label": "Auto cool"
-                    },
                     "schedule": {
                         "label": "Scheduled"
                     },
                     "hotwateronly": {
                         "label": "Hot water only"
                     },
-                    "warm": {
-                        "label": "Warm"
-                    },
-                    "fanonly": {
-                        "label": "Fan only"
-                    },
-                    "lukewarm": {
-                        "label": "Slightly warm"
+                    "iterativeReservation": {
+                        "label": "Iterative reservation"
                     },
                     "autochangeover": {
                         "label": "Auto changeover"
@@ -154,23 +166,71 @@
             "label": "Supported thermostat modes",
             "description": "If set, determines which thermostat modes are user-selectable options.",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "heat": {
             "description": "Set the mode to ``heat``",
-            "arguments": []
+            "arguments": {}
         },
         "auto": {
             "description": "Set the mode to ``auto``",
-            "arguments": []
+            "arguments": {}
         },
         "setThermostatMode": {
             "description": "Set the thermostat mode",
             "arguments": {
                 "mode": {
                     "i18n": {
+                        "auto": {
+                            "label": "Auto"
+                        },
+                        "furnace": {
+                            "label": "Furnace"
+                        },
+                        "eco": {
+                            "label": "Eco"
+                        },
+                        "rush hour": {
+                            "label": "Rush Hour"
+                        },
+                        "rushhour": {
+                            "label": "Rush Hour"
+                        },
+                        "asleep": {
+                            "label": "Asleep"
+                        },
+                        "dryair": {
+                            "label": "Dry air"
+                        },
+                        "emergencyheatactive": {
+                            "label": "Emergency Heat Active"
+                        },
+                        "24hourReservation": {
+                            "label": "24-hour reservation"
+                        },
+                        "veryhot": {
+                            "label": "Very hot"
+                        },
+                        "in": {
+                            "label": "In"
+                        },
+                        "autocool": {
+                            "label": "Auto cool"
+                        },
+                        "warm": {
+                            "label": "Warm"
+                        },
+                        "antifreezing": {
+                            "label": "Anti-freezing"
+                        },
+                        "fanonly": {
+                            "label": "Fan only"
+                        },
+                        "lukewarm": {
+                            "label": "Slightly warm"
+                        },
                         "heat": {
                             "label": "Heat"
                         },
@@ -180,14 +240,8 @@
                         "autowithreset": {
                             "label": "Auto with reset"
                         },
-                        "auto": {
-                            "label": "Auto"
-                        },
                         "away": {
                             "label": "Away"
-                        },
-                        "furnace": {
-                            "label": "Furnace"
                         },
                         "precooling": {
                             "label": "Pre-cooling"
@@ -210,26 +264,14 @@
                         "out": {
                             "label": "Out"
                         },
-                        "eco": {
-                            "label": "Eco"
-                        },
                         "energysavecool": {
                             "label": "Energy save cool"
                         },
                         "autoheat": {
                             "label": "Auto heat"
                         },
-                        "rush hour": {
-                            "label": "Rush Hour"
-                        },
                         "auxheatonly": {
                             "label": "Auxillary Heat Only"
-                        },
-                        "rushhour": {
-                            "label": "Rush Hour"
-                        },
-                        "asleep": {
-                            "label": "Asleep"
                         },
                         "emergencyheat": {
                             "label": "Emergency heat"
@@ -237,11 +279,8 @@
                         "heatingoff": {
                             "label": "Heating off"
                         },
-                        "dryair": {
-                            "label": "Dry air"
-                        },
-                        "emergencyheatactive": {
-                            "label": "Emergency Heat Active"
+                        "bath": {
+                            "label": "Bath"
                         },
                         "on": {
                             "label": "On"
@@ -249,17 +288,11 @@
                         "autowitheco": {
                             "label": "Auto with eco"
                         },
-                        "veryhot": {
-                            "label": "Very hot"
-                        },
                         "resume": {
                             "label": "Resume"
                         },
                         "emergency heat": {
                             "label": "Emergency heat"
-                        },
-                        "in": {
-                            "label": "In"
                         },
                         "custom": {
                             "label": "Custom"
@@ -282,23 +315,14 @@
                         "home": {
                             "label": "Home"
                         },
-                        "autocool": {
-                            "label": "Auto cool"
-                        },
                         "schedule": {
                             "label": "Scheduled"
-                        },
-                        "warm": {
-                            "label": "Warm"
                         },
                         "hotwateronly": {
                             "label": "Hot water only"
                         },
-                        "fanonly": {
-                            "label": "Fan only"
-                        },
-                        "lukewarm": {
-                            "label": "Slightly warm"
+                        "iterativeReservation": {
+                            "label": "Iterative reservation"
                         },
                         "autochangeover": {
                             "label": "Auto changeover"
@@ -316,15 +340,15 @@
         },
         "cool": {
             "description": "Set the mode to ``cool``",
-            "arguments": []
+            "arguments": {}
         },
         "emergencyHeat": {
             "description": "Set the mode to ``emergency heat``",
-            "arguments": []
+            "arguments": {}
         },
         "off": {
             "description": "Set the mode to ``off``",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

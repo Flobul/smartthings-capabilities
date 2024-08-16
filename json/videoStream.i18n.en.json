@@ -7,23 +7,23 @@
             "label": "supported features",
             "description": "Media directions from camera device",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "stream": {
             "label": "stream",
             "description": "Current status of the video stream",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "stopStream": {
             "description": "Stop the video stream",
-            "arguments": []
+            "arguments": {}
         },
         "startStream": {
             "description": "Start the video stream",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

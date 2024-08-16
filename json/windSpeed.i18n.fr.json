@@ -6,9 +6,9 @@
         "windspeed": {
             "label": "Vitesse du vent",
             "description": "A number representing the current measured wind speed",
-            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} m\/s",
-            "i18n": []
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} m/s",
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

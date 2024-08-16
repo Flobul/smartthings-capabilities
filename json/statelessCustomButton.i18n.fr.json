@@ -5,9 +5,9 @@
     "attributes": {
         "availableCustomButtons": {
             "label": "configured buttons",
-            "description": "A list of commands\/buttons that have been configured in the device",
+            "description": "A list of commands/buttons that have been configured in the device",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -15,7 +15,7 @@
             "description": "Emulate the pressing of a supported button",
             "arguments": {
                 "button": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The button in availableButtons to send to the device"
                 }
             }

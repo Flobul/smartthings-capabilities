@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Face Recognition",
+    "attributes": {
+        "userList": {
+            "label": "userList",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "faceRecognizedEvent": {
+            "label": "faceRecognizedEvent",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

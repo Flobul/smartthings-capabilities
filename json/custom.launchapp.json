@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "launchApp",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "launchApp": {
             "name": "launchApp",

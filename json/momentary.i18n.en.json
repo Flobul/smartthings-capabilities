@@ -1,12 +1,12 @@
 {
     "tag": "en",
     "label": "Momentary",
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "push": {
             "label": "Press momentary",
             "description": "Push the momentary switch",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

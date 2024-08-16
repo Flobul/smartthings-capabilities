@@ -7,7 +7,7 @@
             "label": "completion time",
             "description": "Completion time for the current dishwasher operation",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "machineState": {
             "label": "machine state",
@@ -31,7 +31,7 @@
             "label": "supported machine states",
             "description": "Operating states supported by the dishwasher machine",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "dishwasherJobState": {
             "label": "dishwasher job state",
@@ -81,7 +81,7 @@
             "description": "Set the dishwasher machine state",
             "arguments": {
                 "state": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the dishwasher machine in an operational state, pause, run or stop"
                 }
             }

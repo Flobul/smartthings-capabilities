@@ -29,7 +29,8 @@
                     "command": "startFeeding"
                 }
             }
-        ]
+        ],
+        "panelItems": []
     },
     "detailView": [
         {

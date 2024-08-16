@@ -5,7 +5,7 @@
         "connectedUserId": {
             "label": "connectedUserId",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "tagStatus": {
             "label": "Statut",
@@ -16,7 +16,7 @@
                         "label": "Lieux proches"
                     },
                     "disconnected": {
-                        "label": "Pas \u00e0 proximit\u00e9 de vous"
+                        "label": "Pas à proximité de vous"
                     },
                     "found": {
                         "label": "found"
@@ -25,13 +25,13 @@
                         "label": "lost"
                     },
                     "d2dConnected": {
-                        "label": "Connect\u00e9"
+                        "label": "Connecté"
                     },
                     "d2dScanned": {
                         "label": "Lieux proches"
                     },
                     "d2dDisconnected": {
-                        "label": "Pas \u00e0 proximit\u00e9 de vous"
+                        "label": "Pas à proximité de vous"
                     }
                 }
             }
@@ -39,8 +39,8 @@
         "connectedDeviceId": {
             "label": "connectedDeviceId",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

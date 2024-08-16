@@ -1,20 +1,20 @@
 {
     "tag": "fr",
-    "label": "Temp\u00e9rature",
+    "label": "Température",
     "description": "Get the temperature from a Device that reports current temperature",
     "attributes": {
         "temperatureRange": {
             "label": "temperature range",
             "description": "Constraints on the temperature value",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "temperature": {
-            "label": "Temp\u00e9rature",
+            "label": "Température",
             "description": "A number that usually represents the current temperature",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

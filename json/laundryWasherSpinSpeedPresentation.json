@@ -5,7 +5,8 @@
                 "label": "{{spinSpeed.value}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

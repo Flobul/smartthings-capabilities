@@ -6,7 +6,7 @@
         "robotCleanerTurboState": {
             "label": "Statut turbo du robot de nettoyage",
             "description": "The turbo state of the Robot Cleaner",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "turboSilence": {
@@ -24,7 +24,7 @@
         "robotCleanerCleaningState": {
             "label": "Statut de nettoyage du robot de nettoyage",
             "description": "The cleaning state of the Robot Cleaner",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "cleaningPart": {
@@ -48,13 +48,13 @@
         "supportedRobotCleanerStates": {
             "label": "Statut de nettoyage du robot pris en charge",
             "description": "The states supported by the Robot Cleaner",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "robotCleanerControlState": {
-            "label": "Statut de contr\u00f4le du robot de nettoyage",
+            "label": "Statut de contrôle du robot de nettoyage",
             "description": "The control state of the Robot Cleaner",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "controlPowerOff": {
@@ -94,19 +94,19 @@
     "commands": {
         "setRobotCleanerCleaningState": {
             "description": "Set the cleaning state of the Robot Cleaner",
-            "arguments": []
+            "arguments": {}
         },
         "stop": {
             "description": "Provide the description",
-            "arguments": []
+            "arguments": {}
         },
         "setRobotCleanerControlState": {
             "description": "Set the control state of the Robot Cleaner",
-            "arguments": []
+            "arguments": {}
         },
         "setRobotCleanerTurboState": {
             "description": "Set the turbo state of the Robot Cleaner",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

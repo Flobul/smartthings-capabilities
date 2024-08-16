@@ -7,14 +7,14 @@
             "label": "goal",
             "description": "The current step goal",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "steps": {
             "label": "steps",
             "description": "The current step count",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

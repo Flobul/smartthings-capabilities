@@ -5,22 +5,22 @@
     "attributes": {
         "totalTime": {
             "label": "total time",
-            "description": "Total time in seconds of the current song\/track",
+            "description": "Total time in seconds of the current song/track",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "audioTrackData": {
             "label": "audio track data",
             "description": "A JSON representation of the current audio track data",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "elapsedTime": {
             "label": "elapsed time",
-            "description": "Elapsed time in seconds of the current song\/track",
+            "description": "Elapsed time in seconds of the current song/track",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

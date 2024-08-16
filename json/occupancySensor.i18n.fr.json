@@ -6,11 +6,11 @@
         "occupancy": {
             "label": "Occupation",
             "description": "The current state of the occupancy sensor",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
             "i18n": {
                 "value": {
                     "occupied": {
-                        "label": "\u00c0 l'int\u00e9rieur"
+                        "label": "À l'intérieur"
                     },
                     "unoccupied": {
                         "label": "Absent(e)"
@@ -19,5 +19,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

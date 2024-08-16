@@ -4,10 +4,10 @@
     "description": "Allows for the control of a device with a stateless power button",
     "attributes": {
         "availablePowerButtons": {
-            "label": "touches configur\u00e9es",
-            "description": "A list of commands\/buttons that have been configured in the device",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
-            "i18n": []
+            "label": "touches configurées",
+            "description": "A list of commands/buttons that have been configured in the device",
+            "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
+            "i18n": {}
         }
     },
     "commands": {
@@ -17,10 +17,10 @@
                 "button": {
                     "i18n": {
                         "powerOn": {
-                            "label": "Activ\u00e9"
+                            "label": "Activé"
                         },
                         "powerOff": {
-                            "label": "D\u00e9sactiv\u00e9"
+                            "label": "Désactivé"
                         }
                     },
                     "description": "The button in availablePowerButtons to send to the device"

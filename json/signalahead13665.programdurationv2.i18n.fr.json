@@ -1,0 +1,12 @@
+{
+    "tag": "fr-FR",
+    "label": "Program Duration",
+    "attributes": {
+        "duration": {
+            "label": "Ajuster la durée (min)",
+            "displayTemplate": "{{attribute}} von {{device.label}}: {{value}} %",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

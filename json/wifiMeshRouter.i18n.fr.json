@@ -4,15 +4,15 @@
     "description": "Allows for basic control of a mesh router",
     "attributes": {
         "disconnectedRouterCount": {
-            "label": "Nombre de routeurs d\u00e9connect\u00e9s",
+            "label": "Nombre de routeurs déconnectés",
             "description": "A numeric representation of the quantity of disconnected routers in the mesh network",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "wifiGuestNetworkStatus": {
-            "label": "Statut du r\u00e9seau d'invit\u00e9 Wi-Fi",
+            "label": "Statut du réseau d'invité Wi-Fi",
             "description": "The current state of the guest network.  Possible values are \"enabled\", \"disabled\", and \"not configured\"",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "disabled": {
@@ -28,33 +28,33 @@
             }
         },
         "connectedRouterCount": {
-            "label": "Nombre de routeurs connect\u00e9s",
+            "label": "Nombre de routeurs connectés",
             "description": "A numeric representation of the quantity of connected routers in the mesh network",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "connectedDeviceCount": {
-            "label": "Nombre d'appareils connect\u00e9s",
+            "label": "Nombre d'appareils connectés",
             "description": "A numeric representation of the quantity of connected WiFi devices in the network",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "wifiNetworkName": {
-            "label": "Nom du r\u00e9seau Wi-Fi",
+            "label": "Nom du réseau Wi-Fi",
             "description": "A string representation of the primary WiFi network name",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "wifiGuestNetworkName": {
-            "label": "Nom du r\u00e9seau d'invit\u00e9 Wi-Fi",
+            "label": "Nom du réseau d'invité Wi-Fi",
             "description": "A string representation of the guest WiFi network name",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "wifiNetworkStatus": {
-            "label": "Statut du r\u00e9seau Wi-Fi",
+            "label": "Statut du réseau Wi-Fi",
             "description": "The current state of the primary network.  Possible values are \"enabled\", \"disabled\", and \"not configured\"",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "disabled": {
@@ -73,19 +73,19 @@
     "commands": {
         "enableWifiGuestNetwork": {
             "description": "Enable the guest WiFi network",
-            "arguments": []
+            "arguments": {}
         },
         "disableWifiNetwork": {
             "description": "Disable the primary WiFi network",
-            "arguments": []
+            "arguments": {}
         },
         "enableWifiNetwork": {
             "description": "Enable the primary WiFi network",
-            "arguments": []
+            "arguments": {}
         },
         "disableWifiGuestNetwork": {
             "description": "Disable the guest WiFi network",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "\u00c9tat",
+    "label": "État",
     "description": "Gives the ability to see the current state that the thermostat is operating in",
     "attributes": {
         "thermostatOperatingState": {
-            "label": "\u00c9tat",
+            "label": "État",
             "description": "The current state that the thermostat is operating in",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
@@ -16,7 +16,7 @@
                         "label": "En attente de la chauffe"
                     },
                     "vent economizer": {
-                        "label": "\u00c9conomiseur d'a\u00e9ration"
+                        "label": "Économiseur d'aération"
                     },
                     "cooling": {
                         "label": "Refroidissement"
@@ -34,5 +34,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

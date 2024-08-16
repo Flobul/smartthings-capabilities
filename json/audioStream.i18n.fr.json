@@ -6,20 +6,20 @@
         "uri": {
             "label": "URI",
             "description": "Current status of the audio stream",
-            "displayTemplate": "{{attribute}} de {{device.label}} a \u00e9t\u00e9 mis \u00e0 jour",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} a été mis à jour",
+            "i18n": {}
         }
     },
     "commands": {
         "startAudio": {
             "label": "Activer le microphone",
             "description": "Start the audio stream",
-            "arguments": []
+            "arguments": {}
         },
         "stopAudio": {
-            "label": "D\u00e9sactiver le microphone",
+            "label": "Désactiver le microphone",
             "description": "Stop the audio stream",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

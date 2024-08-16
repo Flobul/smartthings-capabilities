@@ -7,7 +7,7 @@
             "label": "supported oscillating fan modes",
             "description": "Supported states for this oscillating fan to be in",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "fanOscillationMode": {
             "label": "Fan oscillation",

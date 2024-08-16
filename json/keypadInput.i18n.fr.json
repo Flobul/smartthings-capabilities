@@ -5,7 +5,7 @@
         "supportedKeyCodes": {
             "label": "supportedKeyCodes",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -17,13 +17,13 @@
                             "label": "Bas"
                         },
                         "LEFT": {
-                            "label": "\u00c0 gauche"
+                            "label": "À gauche"
                         },
                         "BACK": {
                             "label": "Retour"
                         },
                         "RIGHT": {
-                            "label": "\u00c0 droite"
+                            "label": "À droite"
                         },
                         "MENU": {
                             "label": "Menu"
@@ -32,10 +32,10 @@
                             "label": "Haut"
                         },
                         "SETTINGS": {
-                            "label": "Param\u00e8tres"
+                            "label": "Paramètres"
                         },
                         "SELECT": {
-                            "label": "S\u00e9lectionner"
+                            "label": "Sélectionner"
                         },
                         "EXIT": {
                             "label": "Quitter"

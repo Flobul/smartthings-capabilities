@@ -5,7 +5,7 @@
         "connectedUserId": {
             "label": "connectedUserId",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "tagStatus": {
             "label": "Status",
@@ -39,8 +39,8 @@
         "connectedDeviceId": {
             "label": "connectedDeviceId",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

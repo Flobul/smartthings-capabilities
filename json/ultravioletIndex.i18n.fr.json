@@ -7,8 +7,8 @@
             "label": "Indice UV",
             "description": "A number representing the ultraviolet index",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

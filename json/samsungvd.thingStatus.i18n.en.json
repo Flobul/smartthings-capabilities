@@ -5,7 +5,7 @@
         "updatedTime": {
             "label": "updatedTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "status": {
             "label": "status",
@@ -22,5 +22,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

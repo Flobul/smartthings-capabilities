@@ -5,7 +5,7 @@
         "supportedAcOptionalMode": {
             "label": "supportedAcOptionalMode",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "acOptionalMode": {
             "label": "acOptionalMode",
@@ -16,10 +16,10 @@
                         "label": "motionDirect"
                     },
                     "windFree": {
-                        "label": "Sans courant d'air activ\u00e9"
+                        "label": "Sans courant d'air activé"
                     },
                     "windFreeSleep": {
-                        "label": "Sans courant d'air et nuit sereine activ\u00e9s"
+                        "label": "Sans courant d'air et nuit sereine activés"
                     },
                     "energySaving": {
                         "label": "energySaving"
@@ -28,10 +28,10 @@
                         "label": "motionIndirect"
                     },
                     "off": {
-                        "label": "Options d\u00e9sactiv\u00e9es"
+                        "label": "Options désactivées"
                     },
                     "speed": {
-                        "label": "Vitesse activ\u00e9e"
+                        "label": "Vitesse activée"
                     },
                     "smart": {
                         "label": "smart"
@@ -40,13 +40,13 @@
                         "label": "comfort"
                     },
                     "sleep": {
-                        "label": "Nuit sereine activ\u00e9e"
+                        "label": "Nuit sereine activée"
                     },
                     "longWind": {
                         "label": "longWind"
                     },
                     "quiet": {
-                        "label": "Silencieux activ\u00e9"
+                        "label": "Silencieux activé"
                     },
                     "cubePurify": {
                         "label": "cubePurify"
@@ -67,22 +67,22 @@
                 "mode": {
                     "i18n": {
                         "sleep": {
-                            "label": "Nuit sereine activ\u00e9e"
+                            "label": "Nuit sereine activée"
                         },
                         "windFree": {
-                            "label": "Sans courant d'air activ\u00e9"
+                            "label": "Sans courant d'air activé"
                         },
                         "windFreeSleep": {
-                            "label": "Sans courant d'air et nuit sereine activ\u00e9s"
+                            "label": "Sans courant d'air et nuit sereine activés"
                         },
                         "quiet": {
-                            "label": "Silencieux activ\u00e9"
+                            "label": "Silencieux activé"
                         },
                         "off": {
-                            "label": "Options d\u00e9sactiv\u00e9es"
+                            "label": "Options désactivées"
                         },
                         "speed": {
-                            "label": "Vitesse activ\u00e9e"
+                            "label": "Vitesse activée"
                         }
                     }
                 }

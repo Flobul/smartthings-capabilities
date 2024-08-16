@@ -5,17 +5,17 @@
         "activated": {
             "label": "activated",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "activate": {
             "label": "Turn On",
-            "arguments": []
+            "arguments": {}
         },
         "deactivate": {
             "label": "Turn Off",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

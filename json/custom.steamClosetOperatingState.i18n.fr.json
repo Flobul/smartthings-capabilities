@@ -5,12 +5,12 @@
         "supportedSteamClosetJobState": {
             "label": "supportedSteamClosetJobState",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "completionTime": {
             "label": "completionTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "steamClosetMachineState": {
             "label": "steamClosetMachineState",
@@ -32,7 +32,7 @@
         "supportedSteamClosetMachineState": {
             "label": "supportedSteamClosetMachineState",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "steamClosetJobState": {
             "label": "steamClosetJobState",
@@ -40,28 +40,28 @@
             "i18n": {
                 "value": {
                     "sterilizing": {
-                        "label": "D\u00e9sinfection"
+                        "label": "Désinfection"
                     },
                     "drying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "airwashing": {
-                        "label": "\u00c9puration de l'air"
+                        "label": "Épuration de l'air"
                     },
                     "finish": {
                         "label": "Finition"
                     },
                     "none": {
-                        "label": "Op\u00e9rationnel"
+                        "label": "Opérationnel"
                     },
                     "delaywash": {
                         "label": "delaywash"
                     },
                     "keepFresh": {
-                        "label": "Pr\u00e9servation de la fra\u00eecheur"
+                        "label": "Préservation de la fraîcheur"
                     },
                     "dehumidifying": {
-                        "label": "D\u00e9shumidification en cours"
+                        "label": "Déshumidification en cours"
                     },
                     "steaming": {
                         "label": "Application de vapeur en cours"
@@ -72,23 +72,23 @@
         "progress": {
             "label": "progress",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "steamClosetDelayEndTime": {
             "label": "steamClosetDelayEndTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "remainingTimeStr": {
             "label": "remainingTimeStr",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "remainingTime": {
             "label": "remainingTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

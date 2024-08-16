@@ -32,7 +32,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "automation": {
         "conditions": [

@@ -52,7 +52,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

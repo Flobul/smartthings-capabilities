@@ -5,10 +5,10 @@
     "attributes": {
         "bodyWeightMeasurement": {
             "label": "Poids",
-            "description": "Current body weight measured in kg, lbs, or \u65a4",
+            "description": "Current body weight measured in kg, lbs, or 斤",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -122,7 +122,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

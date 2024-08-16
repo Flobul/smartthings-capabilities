@@ -7,7 +7,7 @@
             "label": "Vit. venti.",
             "description": "The current fan speed represented as a percent value.",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -15,7 +15,7 @@
             "description": "Set the fan speed percent.",
             "arguments": {
                 "percent": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The percent value to set the fan speed to."
                 }
             }

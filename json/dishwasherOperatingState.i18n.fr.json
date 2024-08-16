@@ -6,20 +6,20 @@
         "completionTime": {
             "label": "Heure de fin",
             "description": "Completion time for the current dishwasher operation",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "machineState": {
             "label": "Statut de l'appareil",
             "description": "State of the dishwasher operation",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "Arr\u00eat\u00e9"
+                        "label": "Arrêté"
                     },
                     "run": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "pause": {
                         "label": "Mis en pause"
@@ -30,20 +30,20 @@
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
             "description": "Operating states supported by the dishwasher machine",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "dishwasherJobState": {
             "label": "Lave-vaisselle",
             "description": "Current status of the dishwasher machine",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "preDrain": {
                         "label": "Trempage"
                     },
                     "drying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "spin": {
                         "label": "Essorage"
@@ -58,16 +58,16 @@
                         "label": "Anti-froissage"
                     },
                     "finish": {
-                        "label": "Termin\u00e9"
+                        "label": "Terminé"
                     },
                     "prewash": {
-                        "label": "Lavage"
+                        "label": "Prélavage"
                     },
                     "airwash": {
-                        "label": "Lavage \u00e0 l'air"
+                        "label": "Lavage à l'air"
                     },
                     "rinse": {
-                        "label": "Rin\u00e7age"
+                        "label": "Rinçage"
                     },
                     "unknown": {
                         "label": "Inconnu"
@@ -83,10 +83,10 @@
                 "state": {
                     "i18n": {
                         "stop": {
-                            "label": "Arr\u00eat\u00e9"
+                            "label": "Arrêté"
                         },
                         "run": {
-                            "label": "S\u00e9chage"
+                            "label": "Séchage"
                         },
                         "pause": {
                             "label": "Mis en pause"

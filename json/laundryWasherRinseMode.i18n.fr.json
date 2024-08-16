@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "Mode rin\u00e7age",
+    "label": "Mode rinçage",
     "description": "Allows for the control of the laundry washer rinse mode.",
     "attributes": {
         "rinseMode": {
-            "label": "Mode rin\u00e7age",
+            "label": "Mode rinçage",
             "description": "Mode representing the number of rinse cycles performed by the washer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -28,7 +28,7 @@
             "label": "supported rinse modes",
             "description": "Rinse modes supported by the laundry washer",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {

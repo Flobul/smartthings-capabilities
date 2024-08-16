@@ -7,7 +7,7 @@
             "label": "settings",
             "description": "The current state of the settings",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "mute": {
             "label": "mute",
@@ -49,29 +49,29 @@
             "label": "status message",
             "description": "The status message",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "mute": {
             "description": "Mute the video camera",
-            "arguments": []
+            "arguments": {}
         },
         "unmute": {
             "description": "Unmute the video camera",
-            "arguments": []
+            "arguments": {}
         },
         "flip": {
             "description": "Flip the picture display",
-            "arguments": []
+            "arguments": {}
         },
         "off": {
             "description": "Turn off the video camera",
-            "arguments": []
+            "arguments": {}
         },
         "on": {
             "description": "Turn on the video camera",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -35,7 +35,7 @@
                         "label": "waitend"
                     },
                     "drying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "spin": {
                         "label": "spin"
@@ -53,7 +53,7 @@
                         "label": "Delay start is set"
                     },
                     "rinse": {
-                        "label": "Rin\u00e7age"
+                        "label": "Rinçage"
                     },
                     "autoreleasedrying": {
                         "label": "autoreleasedrying"
@@ -62,5 +62,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

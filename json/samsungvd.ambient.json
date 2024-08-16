@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "Ambient",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "setAmbientOn": {
             "name": "setAmbientOn",

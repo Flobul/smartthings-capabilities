@@ -6,7 +6,7 @@
         "dryerMode": {
             "label": "Mode",
             "description": "The operational mode that the dryer is in",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "highHeat": {
@@ -16,7 +16,7 @@
                         "label": "Moyen"
                     },
                     "lowHeat": {
-                        "label": "\u00c9conomique"
+                        "label": "Économique"
                     }
                 }
             }
@@ -35,7 +35,7 @@
                             "label": "Moyen"
                         },
                         "lowHeat": {
-                            "label": "\u00c9conomique"
+                            "label": "Économique"
                         }
                     },
                     "description": "The mode to which the dryer should be set to"

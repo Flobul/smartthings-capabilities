@@ -1,0 +1,49 @@
+{
+    "tag": "fr",
+    "label": "Alerte de verrouillage",
+    "description": "The current status of the lock alarm",
+    "attributes": {
+        "supportedAlarmValues": {
+            "label": "supportedAlarmValues",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "alarm": {
+            "label": "Alerte de verrouillage",
+            "description": "The current lock alarm status",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "forcedOpeningAttempt": {
+                        "label": "Tentative d'ouverture forcée détectée."
+                    },
+                    "highTemperature": {
+                        "label": "Température élevée détectée."
+                    },
+                    "damaged": {
+                        "label": "Serrure de porte endommagée."
+                    },
+                    "notClosedForALongTime": {
+                        "label": "La porte est déverrouillée depuis longtemps."
+                    },
+                    "clear": {
+                        "label": "Alerte de verrouillage effacée"
+                    },
+                    "physicalImpact": {
+                        "label": "Un impact physique a été détecté."
+                    },
+                    "unableToLockTheDoor": {
+                        "label": "Échec du verrouillage de la porte."
+                    },
+                    "attemptsExceeded": {
+                        "label": "Vous avez effectué un trop grand nombre de tentatives de déverrouillage."
+                    },
+                    "lockFactoryReset": {
+                        "label": "La serrure de la porte a été réinitialisée."
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

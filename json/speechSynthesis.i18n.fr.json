@@ -1,13 +1,13 @@
 {
     "tag": "fr",
     "label": "Speech Synthesis",
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "speak": {
             "description": "Speak the control phrase",
             "arguments": {
                 "phrase": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The control phrase spoken"
                 }
             }

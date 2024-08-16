@@ -5,7 +5,8 @@
                 "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_WP_NEED_REPLACEMENT}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "id": "custom.waterFilter",
     "version": 1

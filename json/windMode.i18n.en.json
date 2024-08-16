@@ -7,7 +7,7 @@
             "label": "supported wind modes",
             "description": "Supported wind modes",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "windMode": {
             "label": "Wind mode",

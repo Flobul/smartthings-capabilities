@@ -6,14 +6,14 @@
         "button": {
             "label": "Touche",
             "description": "The state of the button",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {
                 "value": {
                     "up_6x": {
-                        "label": "Bascul\u00e9 vers le haut 6 fois"
+                        "label": "Basculé vers le haut 6 fois"
                     },
                     "held": {
-                        "label": "Maintenue appuy\u00e9e"
+                        "label": "Maintenue appuyée"
                     },
                     "swipe_left": {
                         "label": "swipe_left"
@@ -22,28 +22,28 @@
                         "label": "swipe_right"
                     },
                     "down": {
-                        "label": "Bascul\u00e9 vers le bas"
+                        "label": "Basculé vers le bas"
                     },
                     "up_4x": {
-                        "label": "Bascul\u00e9 vers le haut 4 fois"
+                        "label": "Basculé vers le haut 4 fois"
                     },
                     "up_2x": {
-                        "label": "Bascul\u00e9 vers le haut 2 fois"
+                        "label": "Basculé vers le haut 2 fois"
                     },
                     "pushed_5x": {
-                        "label": "5 appuis effectu\u00e9s"
+                        "label": "5 appuis effectués"
                     },
                     "pushed_3x": {
-                        "label": "3 appuis effectu\u00e9s"
+                        "label": "3 appuis effectués"
                     },
                     "down_4x": {
-                        "label": "Bascul\u00e9 vers le bas 4 fois"
+                        "label": "Basculé vers le bas 4 fois"
                     },
                     "down_2x": {
-                        "label": "Bascul\u00e9 vers le bas 2 fois"
+                        "label": "Basculé vers le bas 2 fois"
                     },
                     "up": {
-                        "label": "Bascul\u00e9 vers le haut"
+                        "label": "Basculé vers le haut"
                     },
                     "up_hold": {
                         "label": "Maintenu vers le haut"
@@ -52,40 +52,40 @@
                         "label": "swipe_down"
                     },
                     "up_5x": {
-                        "label": "Bascul\u00e9 vers le haut 5 fois"
+                        "label": "Basculé vers le haut 5 fois"
                     },
                     "double": {
-                        "label": "Vous avez appuy\u00e9 deux fois"
+                        "label": "Vous avez appuyé deux fois"
                     },
                     "down_6x": {
-                        "label": "Bascul\u00e9 vers le bas 6 fois"
+                        "label": "Basculé vers le bas 6 fois"
                     },
                     "up_3x": {
-                        "label": "Bascul\u00e9 vers le haut 3 fois"
+                        "label": "Basculé vers le haut 3 fois"
                     },
                     "pushed_2x": {
-                        "label": "2 appuis effectu\u00e9s"
+                        "label": "2 appuis effectués"
                     },
                     "swipe_up": {
                         "label": "swipe_up"
                     },
                     "pushed_6x": {
-                        "label": "6 appuis effectu\u00e9s"
+                        "label": "6 appuis effectués"
                     },
                     "pushed_4x": {
-                        "label": "4 appuis effectu\u00e9s"
+                        "label": "4 appuis effectués"
                     },
                     "down_hold": {
                         "label": "Maintenu vers le bas"
                     },
                     "down_5x": {
-                        "label": "Bascul\u00e9 vers le bas 5 fois"
+                        "label": "Basculé vers le bas 5 fois"
                     },
                     "down_3x": {
-                        "label": "Bascul\u00e9 vers le bas 3 fois"
+                        "label": "Basculé vers le bas 3 fois"
                     },
                     "pushed": {
-                        "label": "Appuy\u00e9"
+                        "label": "Appuyé"
                     }
                 }
             }
@@ -93,15 +93,15 @@
         "numberOfButtons": {
             "label": "Nombre de touches",
             "description": "The number of buttons on the device",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         },
         "supportedButtonValues": {
             "label": "Valeurs de touche prises en charge",
             "description": "List of valid button attribute values",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

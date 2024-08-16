@@ -1,28 +1,28 @@
 {
     "tag": "fr",
-    "label": "Temp\u00e9rature de chauffe",
+    "label": "Température de chauffe",
     "description": "Allows for setting the heating setpoint on a thermostat",
     "attributes": {
         "heatingSetpoint": {
-            "label": "Temp\u00e9rature de chauffe",
+            "label": "Température de chauffe",
             "description": "The current heating setpoint",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}{{unit}}",
-            "i18n": []
+            "i18n": {}
         },
         "heatingSetpointRange": {
             "label": "heating setpoint range",
             "description": "Constraints on the heating setpoint value",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "setHeatingSetpoint": {
-            "label": "Temp\u00e9rature de chauffe",
+            "label": "Température de chauffe",
             "description": "Set the heating setpoint",
             "arguments": {
                 "setpoint": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A value that the heating setpoint should be set to"
                 }
             }

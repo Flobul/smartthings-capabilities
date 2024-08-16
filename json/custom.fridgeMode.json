@@ -34,7 +34,38 @@
                 ]
             },
             "enumCommands": []
+        },
+        "supportedFridgeModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {
+        "setFridgeMode": {
+            "name": "setFridgeMode",
+            "arguments": [
+                {
+                    "name": "fridgeMode",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
 }

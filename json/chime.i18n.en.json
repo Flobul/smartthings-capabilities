@@ -23,12 +23,12 @@
         "off": {
             "label": "Off",
             "description": "Disable the chime",
-            "arguments": []
+            "arguments": {}
         },
         "chime": {
             "label": "Chime",
             "description": "Enable the chime",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

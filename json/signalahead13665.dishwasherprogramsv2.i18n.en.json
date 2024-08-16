@@ -5,7 +5,7 @@
         "availablePrograms": {
             "label": "availablePrograms",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "program": {
             "label": "Programs",
@@ -13,25 +13,25 @@
             "i18n": {
                 "value": {
                     "Dishcare_Dishwasher_Program_NightWash": {
-                        "label": "Night program 50\u00b0C"
+                        "label": "Night program 50°C"
                     },
                     "Dishcare_Dishwasher_Program_Auto3": {
-                        "label": "Auto 65-75\u00b0C"
+                        "label": "Auto 65-75°C"
                     },
                     "Dishcare_Dishwasher_Program_Auto2": {
-                        "label": "Auto 45-65\u00b0"
+                        "label": "Auto 45-65°"
                     },
                     "Dishcare_Dishwasher_Program_Eco50": {
-                        "label": "Eco 50\u00b0"
+                        "label": "Eco 50°"
                     },
                     "Dishcare_Dishwasher_Program_Kurz60": {
-                        "label": "Short 60\u00b0C"
+                        "label": "Short 60°C"
                     },
                     "Dishcare_Dishwasher_Program_Quick45": {
-                        "label": "Quick wash 45\u00b0C"
+                        "label": "Quick wash 45°C"
                     },
                     "Dishcare_Dishwasher_Program_Intensiv70": {
-                        "label": "Intensive 70\u00b0"
+                        "label": "Intensive 70°"
                     },
                     "Dishcare_Dishwasher_Program_MachineCare": {
                         "label": "Machine Care"
@@ -46,11 +46,11 @@
                         "label": "Pre-rinse"
                     },
                     "Dishcare_Dishwasher_Program_Glas40": {
-                        "label": "Glass 40\u00b0"
+                        "label": "Glass 40°"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

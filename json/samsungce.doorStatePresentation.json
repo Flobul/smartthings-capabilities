@@ -17,7 +17,8 @@
                 ]
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "id": "samsungce.doorState",
     "version": 1

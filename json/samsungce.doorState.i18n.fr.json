@@ -8,7 +8,7 @@
             "i18n": {
                 "value": {
                     "closed": {
-                        "label": "Porte ferm\u00e9e"
+                        "label": "Porte fermée"
                     },
                     "open": {
                         "label": "Porte ouverte"
@@ -17,5 +17,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

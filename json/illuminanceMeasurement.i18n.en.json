@@ -7,8 +7,8 @@
             "label": "Illuminance",
             "description": "The illuminance measurement in LUX",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} lux",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

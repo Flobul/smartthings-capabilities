@@ -1,14 +1,29 @@
 {
     "tag": "fr",
-    "label": "Vitesse de ventilation",
+    "label": "Mode ventilation du climatiseur",
     "description": "Maintains and sets the state of an air conditioner's fan",
     "attributes": {
         "fanMode": {
-            "label": "Vitesse de ventilation",
+            "label": "Mode ventilation du climatiseur",
             "description": "The current mode of the fan",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait {{value}}.",
+            "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
             "i18n": {
                 "value": {
+                    "1": {
+                        "label": "1"
+                    },
+                    "2": {
+                        "label": "2"
+                    },
+                    "3": {
+                        "label": "3"
+                    },
+                    "4": {
+                        "label": "4"
+                    },
+                    "5": {
+                        "label": "5"
+                    },
                     "auto": {
                         "label": "Automatique"
                     },
@@ -22,7 +37,7 @@
                         "label": "Moyenne"
                     },
                     "off": {
-                        "label": "D\u00e9sactiv\u00e9"
+                        "label": "Désactivé"
                     },
                     "smart": {
                         "label": "Intelligent"
@@ -30,29 +45,14 @@
                     "sleep": {
                         "label": "Veille"
                     },
-                    "1": {
-                        "label": "1"
-                    },
-                    "2": {
-                        "label": "2"
-                    },
                     "high": {
-                        "label": "\u00c9lev\u00e9e"
-                    },
-                    "3": {
-                        "label": "3"
-                    },
-                    "4": {
-                        "label": "4"
+                        "label": "Élevée"
                     },
                     "windfree": {
                         "label": "windfree"
                     },
                     "low": {
                         "label": "Basse"
-                    },
-                    "5": {
-                        "label": "5"
                     },
                     "quite": {
                         "label": "quite"
@@ -70,16 +70,31 @@
             "label": "supportedAcFanModes",
             "description": "Supported states for this air conditioner fan to be in",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
         "setFanMode": {
-            "label": "Vitesse de ventilation",
+            "label": "Mode ventilation du climatiseur",
             "description": "Set the fan's mode",
             "arguments": {
                 "fanMode": {
                     "i18n": {
+                        "1": {
+                            "label": "1"
+                        },
+                        "2": {
+                            "label": "2"
+                        },
+                        "3": {
+                            "label": "3"
+                        },
+                        "4": {
+                            "label": "4"
+                        },
+                        "5": {
+                            "label": "5"
+                        },
                         "auto": {
                             "label": "Automatique"
                         },
@@ -96,34 +111,19 @@
                             "label": "Intelligent"
                         },
                         "off": {
-                            "label": "D\u00e9sactiv\u00e9"
+                            "label": "Désactivé"
                         },
                         "sleep": {
                             "label": "Veille"
                         },
-                        "1": {
-                            "label": "1"
-                        },
-                        "2": {
-                            "label": "2"
-                        },
                         "high": {
-                            "label": "\u00c9lev\u00e9e"
-                        },
-                        "3": {
-                            "label": "3"
+                            "label": "Élevée"
                         },
                         "windfree": {
                             "label": "windfree"
                         },
-                        "4": {
-                            "label": "4"
-                        },
                         "low": {
                             "label": "Basse"
-                        },
-                        "5": {
-                            "label": "5"
                         },
                         "quite": {
                             "label": "quite"

@@ -5,7 +5,8 @@
                 "label": "{{ozone.value}} {{ozone.unit}}"
             }
         ],
-        "actions": []
+        "actions": [],
+        "panelItems": []
     },
     "detailView": [
         {

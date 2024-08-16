@@ -23,11 +23,11 @@
     "commands": {
         "unlock": {
             "label": "Off",
-            "arguments": []
+            "arguments": {}
         },
         "lock": {
             "label": "On",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

@@ -5,13 +5,37 @@
         "settableMaxFanSpeed": {
             "label": "settableMaxFanSpeed",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "hoodFanSpeed": {
             "label": "hoodFanSpeed",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
+                    "0": {
+                        "label": "Désactiver"
+                    },
+                    "1": {
+                        "label": "Faible"
+                    },
+                    "2": {
+                        "label": "Moyen"
+                    },
+                    "3": {
+                        "label": "Élevé"
+                    },
+                    "4": {
+                        "label": "Chauffage éclair"
+                    },
+                    "5": {
+                        "label": "Automatique"
+                    },
+                    "6": {
+                        "label": "Smart"
+                    },
+                    "7": {
+                        "label": "Low"
+                    },
                     "14": {
                         "label": "Intelligente"
                     },
@@ -22,37 +46,13 @@
                         "label": "Moyenne"
                     },
                     "17": {
-                        "label": "\u00c9lev\u00e9e"
+                        "label": "Élevée"
                     },
                     "18": {
                         "label": "Max"
                     },
                     "19": {
                         "label": "Boost"
-                    },
-                    "0": {
-                        "label": "D\u00e9sactiver"
-                    },
-                    "1": {
-                        "label": "Faible"
-                    },
-                    "2": {
-                        "label": "Moyen"
-                    },
-                    "3": {
-                        "label": "\u00c9lev\u00e9"
-                    },
-                    "4": {
-                        "label": "Chauffage \u00e9clair"
-                    },
-                    "5": {
-                        "label": "Automatique"
-                    },
-                    "6": {
-                        "label": "Smart"
-                    },
-                    "7": {
-                        "label": "Low"
                     }
                 }
             }
@@ -60,12 +60,12 @@
         "supportedHoodFanSpeed": {
             "label": "supportedHoodFanSpeed",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "settableMinFanSpeed": {
             "label": "settableMinFanSpeed",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -73,6 +73,30 @@
             "arguments": {
                 "speed": {
                     "i18n": {
+                        "0": {
+                            "label": "Désactiver"
+                        },
+                        "1": {
+                            "label": "Faible"
+                        },
+                        "2": {
+                            "label": "Moyen"
+                        },
+                        "3": {
+                            "label": "Élevé"
+                        },
+                        "4": {
+                            "label": "Chauffage éclair"
+                        },
+                        "5": {
+                            "label": "Automatique"
+                        },
+                        "6": {
+                            "label": "Smart"
+                        },
+                        "7": {
+                            "label": "Low"
+                        },
                         "14": {
                             "label": "Intelligente"
                         },
@@ -83,37 +107,13 @@
                             "label": "Moyenne"
                         },
                         "17": {
-                            "label": "\u00c9lev\u00e9e"
+                            "label": "Élevée"
                         },
                         "18": {
                             "label": "Max"
                         },
                         "19": {
                             "label": "Boost"
-                        },
-                        "0": {
-                            "label": "D\u00e9sactiver"
-                        },
-                        "1": {
-                            "label": "Faible"
-                        },
-                        "2": {
-                            "label": "Moyen"
-                        },
-                        "3": {
-                            "label": "\u00c9lev\u00e9"
-                        },
-                        "4": {
-                            "label": "Chauffage \u00e9clair"
-                        },
-                        "5": {
-                            "label": "Automatique"
-                        },
-                        "6": {
-                            "label": "Smart"
-                        },
-                        "7": {
-                            "label": "Low"
                         }
                     }
                 }

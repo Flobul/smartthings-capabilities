@@ -1,0 +1,30 @@
+{
+    "tag": "fr",
+    "label": "Réglage de la température de l'eau",
+    "description": "Allows for setting the water heating setpoint on a thermostat",
+    "attributes": {
+        "heatingSetpoint": {
+            "label": "Réglage de la température de l'eau",
+            "description": "The current water heating setpoint",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}{{unit}}",
+            "i18n": {}
+        },
+        "heatingSetpointRange": {
+            "label": "water heating setpoint range",
+            "description": "Constraints on the water heating setpoint value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setHeatingSetpoint": {
+            "description": "Set the water heating setpoint",
+            "arguments": {
+                "setpoint": {
+                    "i18n": {},
+                    "description": "A value that the water heating setpoint should be set to"
+                }
+            }
+        }
+    }
+}

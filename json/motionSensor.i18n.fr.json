@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "D\u00e9tecteur de mouvements",
+    "label": "Détecteur de mouvements",
     "description": "Allows for the ability to read motion sensor device states",
     "attributes": {
         "motion": {
-            "label": "D\u00e9tecteur de mouvements",
+            "label": "Détecteur de mouvements",
             "description": "The current state of the motion sensor",
             "displayTemplate": "{{attribute}} de {{device.label}} sont : {{value}}",
             "i18n": {
@@ -13,11 +13,11 @@
                         "label": "Aucun mouvement"
                     },
                     "active": {
-                        "label": "Mouvement d\u00e9tect\u00e9"
+                        "label": "Mouvement détecté"
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

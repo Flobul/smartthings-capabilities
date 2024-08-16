@@ -17,8 +17,8 @@
                     "unit": {
                         "type": "string",
                         "enum": [
-                            "mm\/h",
-                            "in\/h"
+                            "mm/h",
+                            "in/h"
                         ]
                     }
                 },
@@ -31,5 +31,5 @@
             "enumCommands": []
         }
     },
-    "commands": []
+    "commands": {}
 }

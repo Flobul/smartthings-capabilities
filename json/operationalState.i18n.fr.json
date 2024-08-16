@@ -1,21 +1,21 @@
 {
     "tag": "fr",
-    "label": "\u00c9tat",
+    "label": "État",
     "description": "Allows for the control of the operational state.",
     "attributes": {
         "supportedOperationalStates": {
             "label": "Supported Operational States",
             "description": "Supported operational state commands for this machine to receive",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "supportedCommands": {
             "label": "supportedCommands",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "operationalState": {
-            "label": "\u00c9tat",
+            "label": "État",
             "description": "Current state of the machine",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -24,16 +24,16 @@
                         "label": "Actif"
                     },
                     "stopped": {
-                        "label": "Arr\u00eat\u00e9"
+                        "label": "Arrêté"
                     },
                     "paused": {
                         "label": "Pause"
                     },
                     "unableToCompleteOperation": {
-                        "label": "Impossible de terminer l'op\u00e9ration"
+                        "label": "Impossible de terminer l'opération"
                     },
                     "unableToStartOrResume": {
-                        "label": "Impossible de d\u00e9marrer"
+                        "label": "Impossible de démarrer"
                     },
                     "commandInvalidInCurrentState": {
                         "label": "Impossible d'effectuer l\\'action"
@@ -42,5 +42,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

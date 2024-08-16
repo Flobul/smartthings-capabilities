@@ -1,11 +1,11 @@
 {
     "tag": "en",
     "label": "Ambient",
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "setAmbientOn": {
             "label": "Ambient Mode On",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

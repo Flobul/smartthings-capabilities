@@ -3,6 +3,11 @@
     "label": "Lock state",
     "description": "Allow for the control of a lock device",
     "attributes": {
+        "supportedLockValues": {
+            "label": "supportedLockValues",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "lock": {
             "label": "Lock state",
             "description": "The state of the lock device",
@@ -15,6 +20,9 @@
                     "not fully locked": {
                         "label": "Not fully locked"
                     },
+                    "unlatched": {
+                        "label": "unlatched"
+                    },
                     "locked": {
                         "label": "Locked"
                     },
@@ -26,18 +34,23 @@
                     }
                 }
             }
+        },
+        "supportedLockCommands": {
+            "label": "supportedLockCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
         }
     },
     "commands": {
         "unlock": {
             "label": "Unlock",
             "description": "Unlock the device",
-            "arguments": []
+            "arguments": {}
         },
         "lock": {
             "label": "Lock",
             "description": "Lock the device",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

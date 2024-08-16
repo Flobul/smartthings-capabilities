@@ -6,19 +6,19 @@
             "label": "Remaining time",
             "description": "The running completion time for the rice cooker",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "schedulingEnabled": {
             "label": "Schedule",
             "description": "Whether the rice cooker supports scheduled cooking",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "scheduledTime": {
             "label": "Scheduled end time",
             "description": "Scheduled start time for rice cooker",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "cookerState": {
             "label": "Cooker status",
@@ -345,7 +345,7 @@
             "label": "Warm time",
             "description": "Start time of the rice cooker",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "cookerMode": {
             "label": "Mode",
@@ -1041,14 +1041,14 @@
     "commands": {
         "stop": {
             "description": "Stop the rice cooker operation",
-            "arguments": []
+            "arguments": {}
         },
         "startCooking": {
             "label": "Start",
             "description": "Start the cooking mode",
             "arguments": {
                 "menu": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "the menu for rice cooker cooking"
                 }
             }
@@ -1084,11 +1084,11 @@
             "description": "Schedule cooking to start at a later time",
             "arguments": {
                 "time": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "the scheduled start time of rice cooker"
                 },
                 "menu": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "the scheduled menu of rice cooker"
                 }
             }

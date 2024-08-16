@@ -7,8 +7,8 @@
             "label": "phrase spoken",
             "description": "The string value of the spoken phrase",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "D\u00e9bit d'eau",
+    "label": "Débit d'eau",
     "description": "Water flow duration, volume, and rate alarms",
     "attributes": {
         "volumeAlarm": {
@@ -22,7 +22,7 @@
             }
         },
         "durationAlarm": {
-            "label": "Dur\u00e9e",
+            "label": "Durée",
             "description": "Flow duration alarm",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
@@ -43,7 +43,7 @@
             "label": "Supported Alarm Statuses",
             "description": "List of alarm statuses supported by a specific device",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "rateAlarm": {
             "label": "Taux",
@@ -64,5 +64,5 @@
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

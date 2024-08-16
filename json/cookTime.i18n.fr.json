@@ -1,0 +1,17 @@
+{
+    "tag": "fr",
+    "label": "Temps de cuisson",
+    "attributes": {
+        "cookTimeRange": {
+            "label": "cookTimeRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "cookTime": {
+            "label": "Temps de cuisson",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

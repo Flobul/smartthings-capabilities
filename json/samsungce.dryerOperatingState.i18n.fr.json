@@ -22,22 +22,22 @@
         "supportedOperatingStates": {
             "label": "supportedOperatingStates",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "scheduledJobs": {
             "label": "scheduledJobs",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "progress": {
             "label": "progress",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "remainingTimeStr": {
             "label": "remainingTimeStr",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "dryerJobState": {
             "label": "dryerJobState",
@@ -45,40 +45,40 @@
             "i18n": {
                 "value": {
                     "weightSensing": {
-                        "label": "D\u00e9tection de la charge"
+                        "label": "Détection de la charge"
                     },
                     "wrinklePrevent": {
                         "label": "wrinklePrevent"
                     },
                     "sanitizing": {
-                        "label": "D\u00e9sinfection"
+                        "label": "Désinfection"
                     },
                     "finished": {
-                        "label": "Cycle termin\u00e9"
+                        "label": "Cycle terminé"
                     },
                     "none": {
                         "label": "En cours"
                     },
                     "thawingFrozenInside": {
-                        "label": "D\u00e9givrage"
+                        "label": "Dégivrage"
                     },
                     "delayDry": {
-                        "label": "Fin du cycle diff\u00e9r\u00e9"
+                        "label": "Fin du cycle différé"
                     },
                     "dehumidifying": {
-                        "label": "D\u00e9shumidification"
+                        "label": "Déshumidification"
                     },
                     "continuousDehumidifying": {
-                        "label": "D\u00e9shumidification"
+                        "label": "Déshumidification"
                     },
                     "drying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "refreshing": {
                         "label": "Actualisation"
                     },
                     "humiditySensing": {
-                        "label": "D\u00e9tection"
+                        "label": "Détection"
                     },
                     "cooling": {
                         "label": "Refroidit"
@@ -87,7 +87,7 @@
                         "label": "Nettoyage"
                     },
                     "aIDrying": {
-                        "label": "S\u00e9chage"
+                        "label": "Séchage"
                     },
                     "freezeProtection": {
                         "label": "Mode antigel"
@@ -98,8 +98,8 @@
         "remainingTime": {
             "label": "remainingTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

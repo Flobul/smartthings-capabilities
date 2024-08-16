@@ -7,13 +7,13 @@
             "label": "track description",
             "description": "Description of the current playing track",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "level": {
             "label": "Volume",
             "description": "``0-100`` (percent)",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "mute": {
             "label": "Mute",
@@ -34,7 +34,7 @@
             "label": "Media track control",
             "description": "A JSON data structure that represents current track data",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
-            "i18n": []
+            "i18n": {}
         },
         "status": {
             "label": "status",
@@ -71,13 +71,13 @@
         "play": {
             "label": "Play",
             "description": "Start playback",
-            "arguments": []
+            "arguments": {}
         },
         "restoreTrack": {
             "description": "Restore the playlist position to the given track",
             "arguments": {
                 "trackToRestore": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A URI String representing the track to restore"
                 }
             }
@@ -86,7 +86,7 @@
             "description": "Restore the playlist position to the given track and start playback",
             "arguments": {
                 "trackToResume": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A URI String representing the track to resume"
                 }
             }
@@ -94,28 +94,28 @@
         "stop": {
             "label": "Stop",
             "description": "Stop playback",
-            "arguments": []
+            "arguments": {}
         },
         "previousTrack": {
             "label": "Previous",
             "description": "Revert to the previous track",
-            "arguments": []
+            "arguments": {}
         },
         "nextTrack": {
             "label": "Next",
             "description": "Advance to the next track",
-            "arguments": []
+            "arguments": {}
         },
         "mute": {
             "label": "Mute",
             "description": "Mute playback",
-            "arguments": []
+            "arguments": {}
         },
         "setTrack": {
             "description": "Set the current track",
             "arguments": {
                 "trackToSet": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the given track to the given URI String"
                 }
             }
@@ -123,13 +123,13 @@
         "unmute": {
             "label": "Unmute",
             "description": "Unmute playback",
-            "arguments": []
+            "arguments": {}
         },
         "playTrack": {
             "description": "Play the given track",
             "arguments": {
                 "trackToPlay": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "A URI String representing the track to play"
                 }
             }
@@ -137,13 +137,13 @@
         "pause": {
             "label": "Pause",
             "description": "Pause playback",
-            "arguments": []
+            "arguments": {}
         },
         "setLevel": {
             "description": "Set the level to the specified value",
             "arguments": {
                 "level": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The level to set playback to in the range ``0-100`` as a percent"
                 }
             }

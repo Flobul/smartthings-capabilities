@@ -4,7 +4,7 @@
     "status": "proposed",
     "name": "Factory reset",
     "ephemeral": false,
-    "attributes": [],
+    "attributes": {},
     "commands": {
         "reset": {
             "name": "reset",

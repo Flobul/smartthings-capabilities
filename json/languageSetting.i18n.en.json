@@ -7,13 +7,13 @@
             "label": "supported languages",
             "description": "Languages supported by the device",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "language": {
             "label": "language",
             "description": "The current language of a device",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         }
     },
     "commands": {
@@ -21,7 +21,7 @@
             "description": "Set the language",
             "arguments": {
                 "language": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "The language to set the device to"
                 }
             }

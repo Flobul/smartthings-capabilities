@@ -1,14 +1,14 @@
 {
     "tag": "fr",
-    "label": "eCO\u2082",
+    "label": "eCO₂",
     "description": "Measure equivalent carbon dioxide levels",
     "attributes": {
         "equivalentCarbonDioxideMeasurement": {
-            "label": "eCO\u2082",
+            "label": "eCO₂",
             "description": "The equivalent carbon dioxide level detected in ppm by volume",
             "displayTemplate": "{{attribute}} de {{device.label}} : {{value}} ppm",
-            "i18n": []
+            "i18n": {}
         }
     },
-    "commands": []
+    "commands": {}
 }

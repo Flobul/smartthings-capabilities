@@ -1,44 +1,49 @@
 {
     "tag": "en",
-    "label": "Lock Alarm",
+    "label": "Lock alert",
     "description": "The current status of the lock alarm",
     "attributes": {
+        "supportedAlarmValues": {
+            "label": "supportedAlarmValues",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "alarm": {
-            "label": "alarm",
+            "label": "Lock alert",
             "description": "The current lock alarm status",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "forcedOpeningAttempt": {
-                        "label": "forcedOpeningAttempt"
+                        "label": "Forced open attempt detected."
                     },
                     "highTemperature": {
-                        "label": "highTemperature"
+                        "label": "High temperature detected."
                     },
                     "damaged": {
-                        "label": "damaged"
+                        "label": "Door lock damaged."
                     },
                     "notClosedForALongTime": {
-                        "label": "notClosedForALongTime"
+                        "label": "The door has been unlocked for a long time."
                     },
                     "clear": {
-                        "label": "clear"
+                        "label": "Lock alert cleared"
                     },
                     "physicalImpact": {
-                        "label": "physicalImpact"
+                        "label": "Physical impact detected."
                     },
                     "unableToLockTheDoor": {
-                        "label": "unableToLockTheDoor"
+                        "label": "Couldn't lock door."
                     },
                     "attemptsExceeded": {
-                        "label": "attemptsExceeded"
+                        "label": "Too many unlock attempts have been made."
                     },
                     "lockFactoryReset": {
-                        "label": "lockFactoryReset"
+                        "label": "Door lock has been reset."
                     }
                 }
             }
         }
     },
-    "commands": []
+    "commands": {}
 }

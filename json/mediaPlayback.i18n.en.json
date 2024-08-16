@@ -7,7 +7,7 @@
             "label": "supported playback commands",
             "description": "Media playback commands which are supported",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
-            "i18n": []
+            "i18n": {}
         },
         "playbackStatus": {
             "label": "Media playback",
@@ -41,29 +41,29 @@
         "play": {
             "label": "Play",
             "description": "Start the media playback",
-            "arguments": []
+            "arguments": {}
         },
         "stop": {
             "label": "Stop",
             "description": "Stop the media playback",
-            "arguments": []
+            "arguments": {}
         },
         "rewind": {
             "label": "Rewind",
             "description": "Rewind the media playback",
-            "arguments": []
+            "arguments": {}
         },
         "fastForward": {
             "label": "Fast forward",
             "description": "Fast forward the media playback",
-            "arguments": []
+            "arguments": {}
         },
         "setPlaybackStatus": {
             "label": "Set playback status",
             "description": "Set the playback status",
             "arguments": {
                 "status": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the playback status to \"paused\", \"playing\", \"stopped\", \"fast forwarding\" or \"rewinding\" state."
                 }
             }
@@ -71,7 +71,7 @@
         "pause": {
             "label": "Pause",
             "description": "Pause the media playback",
-            "arguments": []
+            "arguments": {}
         }
     }
 }

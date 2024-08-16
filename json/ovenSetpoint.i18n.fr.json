@@ -1,13 +1,13 @@
 {
     "tag": "fr",
-    "label": "Temp\u00e9rature du four",
+    "label": "Température du four",
     "description": "Allows for the control of the oven set point.",
     "attributes": {
         "ovenSetpoint": {
-            "label": "Temp\u00e9rature du four",
+            "label": "Température du four",
             "description": "Current value of the oven set point",
-            "displayTemplate": "{{attribute}} de {{device.label}} \u00e9tait : {{value}}",
-            "i18n": []
+            "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
+            "i18n": {}
         }
     },
     "commands": {
@@ -15,7 +15,7 @@
             "description": "Set the oven set point.",
             "arguments": {
                 "setpoint": {
-                    "i18n": [],
+                    "i18n": {},
                     "description": "Set the oven set point to this number"
                 }
             }
