@@ -43,22 +43,22 @@ jobs:
           PRINT+="| ---- | ---- | ---- | ---- | ---- |\n\n"
 
           ls json/*.json | grep -v i18n | grep -v Presentation.json | while read file; do
-            cat $file | jq -c '.[]' | while read capability; do
-              id=$(echo $capability | jq -r '.id')
-              version=$(echo $capability | jq -r '.version')
-              status=$(echo $capability | jq -r '.status')
-              name=$(echo $capability | jq -r '.name')
-              presentation=""
-              i18n=""
-              if [ -f json/${id}Presentation.json ]; then
-                presentation="[json](./json/${id}Presentation.json)"
-              fi
-              if [ -f json/${id}.i18n.fr.json ]; then
-                i18n="[json](./json/${id}.i18n.fr.json)"
-              fi
-              echo "| [$name](./json/$id.json) | $version | $status | $presentation | $i18n |"
-            done
+            json=$(cat $file | sed 's/\\//g')
+            name=$(echo "$json" | jq -r '.name' || true
+            id=$(echo "$json" | jq -r '.id') || true
+            statuses=$(echo "$json" | jq -r '.status') || true
+            versions=$(echo "$json" | jq -r '.version') || true
+            presentation=""
+            i18n=""
+            if [ -f json/${id}Presentation.json ]; then
+              presentation="[json](./json/${id}Presentation.json)"
+            fi
+            if [ -f json/${id}.i18n.fr.json ]; then
+              i18n="[json](./json/${id}.i18n.fr.json)"
+            fi
+            PRINT+="| [$name](./json/$id.json) | $versions | $statuses | $presentation | $i18n |\n"
           done
+          echo $PRINT > README.md
 
       - name: "Create Pull Request"
         uses: peter-evans/create-pull-request@v6
