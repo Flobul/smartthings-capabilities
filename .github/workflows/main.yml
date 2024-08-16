@@ -29,6 +29,25 @@ jobs:
 
       - name: "Process each capability"
         run: |
+          cat capabilities.json | jq -c '.[]' | while read capability; do
+            id=$(echo $capability | jq -r '.id')
+            version=$(echo $capability | jq -r '.version')
+            echo "Processing $id version $version"
+            ./smartthings capabilities $id -s -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.json
+            ./smartthings capabilities:presentation $id 1 -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${id}Presentation.json || true
+            ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json
+            ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json
+          done
+          cat extra_capabilities.json | jq -r -c '.[]' | while read capa; do
+            echo "Processing capability: $capa"
+            ./smartthings capabilities $capa --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.json
+            ./smartthings capabilities:presentation $capa 1 -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${capa}Presentation.json || true
+            ./smartthings capabilities:translations $capa 1 fr -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.i18n.fr.json || true
+            ./smartthings capabilities:translations $capa 1 en -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$capa.i18n.en.json || true
+          done
+
+      - name: "Print README.md"
+        run: |
           PRINT="## SmartThings Capabilities\n"
           PRINT+="#### Last Update: "$(date -I)"\n"
           PRINT+="#### Edited by Flobul for Jeedom solution\n\n"
@@ -44,7 +63,7 @@ jobs:
 
           ls json/*.json | grep -v i18n | grep -v Presentation.json | while read file; do
             json=$(cat $file | sed 's/\\//g')
-            name=$(echo "$json" | jq -r '.name' || true
+            name=$(echo "$json" | jq -r '.name') || true
             id=$(echo "$json" | jq -r '.id') || true
             statuses=$(echo "$json" | jq -r '.status') || true
             versions=$(echo "$json" | jq -r '.version') || true
