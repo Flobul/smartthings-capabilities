@@ -41,10 +41,10 @@ jobs:
           body: |
             ## $this->enums
             ```
-            `${{ env.ENUMS_VAR }}`
+            ${{ env.ENUMS_VAR }}
             ```
             ## $this->cmdName
             ```
-            `${{ env.CMDNAME_VAR }}`
+            ${{ env.CMDNAME_VAR }}
             ```
           commit-message: "Auto check cmdname and enums of php file"
