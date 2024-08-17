@@ -22,11 +22,11 @@ jobs:
         run: |
           php check_capabilities_and_translations.php
           echo "ENUMS_VAR<<EOF" >> $GITHUB_ENV
-          echo $(cat enums.php) >> $GITHUB_ENV
+          cat enums.php >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
           echo "CMDNAME_VAR<<EOF" >> $GITHUB_ENV
-          echo $(cat cmdName.php) >> $GITHUB_ENV
+          cat cmdName.php >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
       - name: "Create Pull Request"
