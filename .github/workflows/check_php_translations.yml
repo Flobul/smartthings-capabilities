@@ -1,0 +1,45 @@
+name: "Check php translations of cmdName and enums"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: "Build"
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: write
+
+    steps:
+      - name: "Checkout files"
+        uses: actions/checkout@v3
+
+      - name: "Install PHP"
+        uses: |
+          apt install php libapache2-mod-php php-cli
+
+      - name: "Launch check"
+        run: |
+          php check_capabilities_and_translations.php
+          echo "ENUMS_VAR<<EOF" >> $GITHUB_ENV
+          echo $(cat enums.php) >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+          echo "CMDNAME_VAR<<EOF" >> $GITHUB_ENV
+          echo $(cat cmdName.php) >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: "Create Pull Request"
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: |
+            enums.php
+            cmdName.php
+          branch: update
+          delete-branch: true
+          title: "Check cmdname and enums"
+          body: |
+            ${{ env.ENUMS_VAR }}
+            ${{ env.CMDNAME_VAR }}
+          commit-message: "Auto check cmdname and enums of php file"
