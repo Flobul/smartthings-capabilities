@@ -2,6 +2,7 @@ name: "Check php translations of cmdName and enums"
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   build:
