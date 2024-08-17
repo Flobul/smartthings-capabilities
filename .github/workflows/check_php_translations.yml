@@ -35,7 +35,7 @@ jobs:
           add-paths: |
             enums.php
             cmdName.php
-          branch: update
+          branch: translations
           delete-branch: true
           title: "Check cmdname and enums"
           body: |

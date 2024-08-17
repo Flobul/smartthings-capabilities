@@ -80,9 +80,9 @@ foreach ($scanned_directory as $filename) {
 }
 
 $newEnums = str_replace(array('\'__(',', __FILE__)\'','\''),array('__("','", __FILE__)','"'), var_export(array_filter($arrayEnum), true));
-file_put_contents('/enums.php', '<?php return '.$newEnums.";\n" );
+file_put_contents('enums.php', '<?php return '.$newEnums.";\n" );
 
 $newCmdname = str_replace(array('\'__(',', __FILE__)\'','\''),array('__("','", __FILE__)','"'), var_export(array_filter($arrayCmdname), true));
-file_put_contents('/cmdName.php', '<?php return '.$newCmdname.";\n" );
+file_put_contents('cmdName.php', '<?php return '.$newCmdname.";\n" );
 
 ?>
