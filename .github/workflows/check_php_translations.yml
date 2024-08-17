@@ -37,14 +37,14 @@ jobs:
             cmdName.php
           branch: translations
           delete-branch: true
-          title: "Check cmdname and enums"
+          title: "Missing cmdname or enums"
           body: |
-            ## $this->enum
+            ## $this->enums
             ```
-            ${{ env.ENUMS_VAR }}
+            `${{ env.ENUMS_VAR }}`
             ```
             ## $this->cmdName
             ```
-            ${{ env.CMDNAME_VAR }}
+            `${{ env.CMDNAME_VAR }}`
             ```
           commit-message: "Auto check cmdname and enums of php file"
