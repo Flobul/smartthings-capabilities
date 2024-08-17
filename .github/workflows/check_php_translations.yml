@@ -39,8 +39,12 @@ jobs:
           delete-branch: true
           title: "Check cmdname and enums"
           body: |
+            ## $this->enum
             ```
             ${{ env.ENUMS_VAR }}
+            ```
+            ## $this->cmdName
+            ```
             ${{ env.CMDNAME_VAR }}
             ```
           commit-message: "Auto check cmdname and enums of php file"
