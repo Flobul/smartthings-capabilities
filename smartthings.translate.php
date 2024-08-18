@@ -2180,6 +2180,17 @@ class smartthings_translate
                 "disabledError"       => __("Désactivé, erreur", __FILE__),
                 "disabledDiagnostics" => __("Désactivé, diagnostiques", __FILE__),
             ],
+            "supportedAcModes" => [
+                "auto"         => __("Auto", __FILE__),
+                "cool"         => __("Froid", __FILE__),
+                "dry"          => __("Sec", __FILE__),
+                "coolClean"    => __("Froid, purification", __FILE__),
+                "dryClean"     => __("Sec, purification", __FILE__),
+                "fanOnly"      => __("Ventilateur uniquement", __FILE__),
+                "heat"         => __("Chaud", __FILE__),
+                "heatClean"    => __("Chaud, purification", __FILE__),
+                "notSupported" => __("Non supporté", __FILE__)
+            ],
             "supportedAuthType" => [
                 "OPEN"     => __("Ouvert", __FILE__),
                 "WEP"      => __("WEP", __FILE__),
