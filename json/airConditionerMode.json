@@ -10,10 +10,18 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "items": {
-                            "type": "string"
-                        },
-                        "type": "array"
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "cool",
+                            "dry",
+                            "coolClean",
+                            "dryClean",
+                            "fanOnly",
+                            "heat",
+                            "heatClean",
+                            "notSupported"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -26,9 +34,20 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "maxLength": 255,
                         "title": "String",
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "cool",
+                            "dry",
+                            "coolClean",
+                            "dryClean",
+                            "fanOnly",
+                            "heat",
+                            "heatClean",
+                            "notSupported"
+                        ],
+                        "maxLength": 255
                     }
                 },
                 "additionalProperties": false,
@@ -48,9 +67,20 @@
                     "name": "mode",
                     "optional": false,
                     "schema": {
-                        "maxLength": 255,
                         "title": "String",
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "cool",
+                            "dry",
+                            "coolClean",
+                            "dryClean",
+                            "fanOnly",
+                            "heat",
+                            "heatClean",
+                            "notSupported"
+                        ],
+                        "maxLength": 255
                     }
                 }
             ]
