@@ -36,7 +36,7 @@ jobs:
           add-paths: |
             enums.php
             cmdName.php
-          branch: translations_${{ env.GITHUB_RUN_ATTEMPT }}
+          branch: translations_${{ env.GITHUB_RUN_ID }}
           delete-branch: true
           title: "Missing cmdname or enums"
           body: |
