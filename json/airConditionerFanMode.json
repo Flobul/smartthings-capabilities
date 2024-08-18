@@ -12,12 +12,20 @@
                     "value": {
                         "title": "String",
                         "type": "string",
+                        "enum":[
+                            "auto",
+                            "low",
+                            "medium",
+                            "high",
+                            "turbo"
+                        ],
                         "maxLength": 255
                     }
                 },
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setFanMode",
             "enumCommands": []
         },
         "supportedAcFanModes": {
@@ -27,13 +35,21 @@
                     "value": {
                         "type": "array",
                         "items": {
-                            "type": "string"
+                            "type": "string",
+                                "enum":[
+                                "auto",
+                                "low",
+                                "medium",
+                                "high",
+                                "turbo"
+                            ]
                         }
                     }
                 },
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setFanMode",
             "enumCommands": []
         }
     },
@@ -45,8 +61,15 @@
                     "name": "fanMode",
                     "optional": false,
                     "schema": {
-                        "title": "String",
+                        "title": "fanMode",
                         "type": "string",
+                        "enum":[
+                            "auto",
+                            "low",
+                            "medium",
+                            "high",
+                            "turbo"
+                        ],
                         "maxLength": 255
                     }
                 }
