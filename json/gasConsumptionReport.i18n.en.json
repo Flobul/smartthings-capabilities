@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Gas Consumption Report",
+    "attributes": {
+        "gasConsumption": {
+            "label": "gasConsumption",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

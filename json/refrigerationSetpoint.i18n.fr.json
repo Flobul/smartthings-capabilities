@@ -4,7 +4,7 @@
     "description": "Allows for the control of the refrigeration set point.",
     "attributes": {
         "refrigerationSetpoint": {
-            "label": "Température de réfrigération",
+            "label": "Définissez la température",
             "description": "The temperature at which refrigeration should trigger",
             "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}} {{unit}}",
             "i18n": {}
@@ -12,6 +12,7 @@
     },
     "commands": {
         "setRefrigerationSetpoint": {
+            "label": "Définissez la température",
             "description": "Set the refrigeration setpoint.",
             "arguments": {
                 "setpoint": {

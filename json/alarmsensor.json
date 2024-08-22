@@ -1,39 +1,43 @@
 {
-    "id": "custom.dryerWrinklePrevent",
+    "id": "alarmsensor",
     "version": 1,
     "status": "proposed",
-    "name": "Dryer Wrinkle Prevent",
+    "name": "AlarmSensor",
     "ephemeral": false,
     "attributes": {
-        "operatingState": {
+        "supportedAlarmSensorStates": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
-                        "enum": [
-                            "ready",
-                            "running"
-                        ]
+                        "type": "array",
+                        "items": {
+                            "title": "AlarmSensorState",
+                            "type": "string",
+                            "enum": [
+                                "off",
+                                "enabled",
+                                "suppressed"
+                            ]
+                        }
                     }
                 },
                 "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
+                "required": []
             },
             "enumCommands": []
         },
-        "dryerWrinklePrevent": {
+        "alarmSensorState": {
             "schema": {
-                "title": "WrinklePrevent",
                 "type": "object",
                 "properties": {
                     "value": {
+                        "title": "AlarmSensorState",
                         "type": "string",
                         "enum": [
-                            "on",
-                            "off"
+                            "off",
+                            "enabled",
+                            "suppressed"
                         ]
                     }
                 },
@@ -46,17 +50,19 @@
         }
     },
     "commands": {
-        "setDryerWrinklePrevent": {
-            "name": "setDryerWrinklePrevent",
+        "setAlarmSensorState": {
+            "name": "setAlarmSensorState",
             "arguments": [
                 {
-                    "name": "WrinklePrevent",
+                    "name": "alarmSensorState",
                     "optional": false,
                     "schema": {
+                        "title": "AlarmSensorState",
                         "type": "string",
                         "enum": [
-                            "on",
-                            "off"
+                            "off",
+                            "enabled",
+                            "suppressed"
                         ]
                     }
                 }

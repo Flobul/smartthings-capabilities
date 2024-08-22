@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "Batch Gas Consumption Report",
+    "attributes": {
+        "hourlyGasConsumptions": {
+            "label": "hourlyGasConsumptions",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "hourlyUsageViewAvailable": {
+            "label": "hourlyUsageViewAvailable",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "todayUsageViewAvailable": {
+            "label": "todayUsageViewAvailable",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

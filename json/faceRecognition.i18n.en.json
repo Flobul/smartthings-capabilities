@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Face Recognition",
+    "label": "Face recognition",
     "attributes": {
         "userList": {
             "label": "userList",
@@ -8,7 +8,7 @@
             "i18n": {}
         },
         "faceRecognizedEvent": {
-            "label": "faceRecognizedEvent",
+            "label": "Face recognition",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         }
