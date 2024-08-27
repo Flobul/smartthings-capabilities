@@ -70,6 +70,7 @@
                     "value"
                 ]
             },
+            "setter": "setAcOptionalMode",
             "enumCommands": []
         }
     },
