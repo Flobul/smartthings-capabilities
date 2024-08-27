@@ -34,6 +34,7 @@
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setColor",
             "enumCommands": []
         },
         "hue": {
