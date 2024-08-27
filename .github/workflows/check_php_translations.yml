@@ -30,13 +30,17 @@ jobs:
           cat cmdName.php >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
+      - name: "Set up date variable"
+        id: date
+        run: echo "DATE=$(date +'%Y%m%d%H%M')" >> $GITHUB_ENV
+
       - name: "Create Pull Request"
         uses: peter-evans/create-pull-request@v6
         with:
           add-paths: |
             enums.php
             cmdName.php
-          branch: translations_${{ env.GITHUB_RUN_ID }}
+          branch: translations_${{ env.DATE }}
           delete-branch: true
           title: "Missing cmdname or enums"
           body: |
