@@ -22,7 +22,7 @@
                     "value"
                 ]
             },
-            "setter":"setVirusDoctorMode",
+            "setter": "setVirusDoctorMode",
             "enumCommands": []
         }
     },

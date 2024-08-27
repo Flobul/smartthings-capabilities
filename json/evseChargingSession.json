@@ -20,6 +20,7 @@
                     "value"
                 ]
             },
+            "setter": "setTargetEndTime",
             "enumCommands": []
         },
         "maxCurrent": {
@@ -43,6 +44,7 @@
                     "value"
                 ]
             },
+            "setter": "setMaxCurrent",
             "enumCommands": []
         },
         "supportedChargingCommands": {
@@ -132,6 +134,7 @@
                     "value"
                 ]
             },
+            "setter": "setMinCurrent",
             "enumCommands": []
         },
         "chargingState": {

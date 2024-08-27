@@ -68,6 +68,7 @@
                     "value"
                 ]
             },
+            "setter": "setSteamClosetMachineState",
             "enumCommands": []
         },
         "supportedSteamClosetMachineState": {
@@ -157,6 +158,7 @@
                     "value"
                 ]
             },
+            "setter": "setSteamClosetDelayEndTime",
             "enumCommands": []
         },
         "remainingTimeStr": {
