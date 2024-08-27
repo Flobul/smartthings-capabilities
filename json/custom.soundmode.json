@@ -35,6 +35,13 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "enum": [
+                            "clear voice",
+                            "movie",
+                            "music",
+                            "standard",
+                            "unknown"
+                        ],
                         "type": "string"
                     }
                 },
@@ -57,6 +64,7 @@
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setSoundMode",
             "enumCommands": []
         }
     },
@@ -68,6 +76,12 @@
                     "name": "mode",
                     "optional": false,
                     "schema": {
+                        "enum": [
+                            "clear voice",
+                            "movie",
+                            "music",
+                            "standard"
+                        ],
                         "type": "string"
                     }
                 }
