@@ -185,6 +185,7 @@
                     "value"
                 ]
             },
+            "setter": "setRecommendedAmount",
             "enumCommands": []
         }
     },
