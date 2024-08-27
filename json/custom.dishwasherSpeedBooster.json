@@ -22,7 +22,7 @@
                     "value"
                 ]
             },
-            "setter":"setDishwasherSpeedBooster",
+            "setter": "setDishwasherSpeedBooster",
             "enumCommands": []
         }
     },

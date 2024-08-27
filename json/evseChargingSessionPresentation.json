@@ -70,16 +70,34 @@
         },
         {
             "label": "{{i18n.attributes.targetEndTime.label}}",
-            "displayType": "state",
-            "state": {
-                "label": "{{targetEndTime.value}}"
+            "displayType": "textField",
+            "textField": {
+                "command": "setTargetEndTime",
+                "argumentType": "string",
+                "value": "targetEndTime.value",
+                "valueType": "string"
             }
         },
         {
             "label": "{{i18n.attributes.maxCurrent.label}}",
-            "displayType": "state",
-            "state": {
-                "label": "{{maxCurrent.value}}{{maxCurrent.unit}}"
+            "displayType": "numberField",
+            "numberField": {
+                "value": "maxCurrent.value",
+                "valueType": "integer",
+                "unit": "maxCurrent.unit",
+                "command": "setMaxCurrent",
+                "argumentType": "integer"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.minCurrent.label}}",
+            "displayType": "numberField",
+            "numberField": {
+                "value": "minCurrent.value",
+                "valueType": "integer",
+                "unit": "minCurrent.unit",
+                "command": "setMinCurrent",
+                "argumentType": "integer"
             }
         },
         {
@@ -94,13 +112,6 @@
             "displayType": "state",
             "state": {
                 "label": "{{sessionTime.value}}{{sessionTime.unit}}"
-            }
-        },
-        {
-            "label": "{{i18n.attributes.minCurrent.label}}",
-            "displayType": "state",
-            "state": {
-                "label": "{{minCurrent.value}}{{minCurrent.unit}}"
             }
         }
     ],

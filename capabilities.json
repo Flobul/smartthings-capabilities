@@ -77,6 +77,13 @@
         "namespace": "st"
     },
     {
+        "id": "alarmsensor",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "alarmSystem",
         "version": 1,
         "status": "dead",
@@ -157,6 +164,13 @@
         "id": "audioVolume",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "batchGasConsumptionReport",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -591,6 +605,13 @@
         "id": "garageDoorControl",
         "version": 1,
         "status": "deprecated",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "gasConsumptionReport",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },

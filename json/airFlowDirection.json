@@ -23,6 +23,7 @@
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setAirFlowDirection",
             "enumCommands": []
         }
     },
