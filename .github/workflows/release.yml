@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: Build
+    name: "Generate release on version change"
     runs-on: ubuntu-latest
     permissions:
       contents: write
