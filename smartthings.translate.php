@@ -125,6 +125,11 @@ class smartthings_translate
                 "attemptsExceeded"      => __("Nombre de tentatives dépassées", __FILE__),
                 "physicalImpact"        => __("Impact physique", __FILE__)
             ],
+            "alarmSensorState" => [
+                "off"        => __("Éteint", __FILE__),
+                "enabled"    => __("Activé", __FILE__),
+                "suppressed" => __("Supprimé", __FILE__)
+            ],
             "alarmSystemArmOnly" =>  [
                 "away" => __("Absent", __FILE__),
                 "off"  => __("Éteint", __FILE__),
@@ -2647,6 +2652,11 @@ class smartthings_translate
                 "off"    => __("Désactiver l'alarme", __FILE__),
                 "both"   => __("Alarme : Sirène et clignotement", __FILE__)
             ],
+            "alarmsensor" => [
+                "supportedAlarmSensorStates" => __("États du capteur d'alarme supportés", __FILE__),
+                "alarmSensorState"           => __("État du capteur d'alarme", __FILE__),
+                "setAlarmSensorState"        => __("Changer l'état du capteur d'alarme", __FILE__)
+            ],
             "alarmSystem" => [
                "alarmSystemStatus" => __("État du système d'alarme", __FILE__),
             ],
@@ -2704,6 +2714,11 @@ class smartthings_translate
                 "volumeDown" => __("Volume -", __FILE__),
                 "volumeUp"   => __("Volume +", __FILE__),
                 "setVolume"  => __("Changer le volume", __FILE__)
+            ],
+            "batchGasConsumptionReport" => [
+                "hourlyGasConsumptions"    => __("Consommations horaires de gaz", __FILE__),
+                "hourlyUsageViewAvailable" => __("Affichage de l'utilisation horaire disponible", __FILE__),
+                "todayUsageViewAvailable"  => __("Vue d'utilisation disponible du jour", __FILE__)
             ],
             "battery" => [
                 "battery" => __("Batterie", __FILE__)
@@ -3444,6 +3459,9 @@ class smartthings_translate
                 "door"  => __("Porte de garage", __FILE__),
                 "close" => __("Ouvrir la porte de garage", __FILE__),
                 "open"  => __("Fermer la porte de garage", __FILE__)
+            ],
+            "gasConsumptionReport" => [
+                "gasConsumption" => __("Consommtion de gaz", __FILE__)
             ],
             "gasDetector" => [
                 "gas" => __("Détecteur de gaz", __FILE__),
