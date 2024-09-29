@@ -8,7 +8,17 @@
             "description": "Current remaining life of the filter",
             "displayTemplate": "{{attribute}} de {{device.label}} est : {{value}}",
             "i18n": {}
+        },
+        "supportedFilterCommands": {
+            "label": "supportedFilterCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "resetFilter": {
+            "label": "resetFilter",
+            "arguments": {}
+        }
+    }
 }

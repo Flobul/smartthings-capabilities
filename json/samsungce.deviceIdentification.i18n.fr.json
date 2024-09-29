@@ -32,6 +32,11 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
+        "releaseYear": {
+            "label": "releaseYear",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "binaryId": {
             "label": "binaryId",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",

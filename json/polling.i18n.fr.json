@@ -4,6 +4,7 @@
     "attributes": {},
     "commands": {
         "poll": {
+            "label": "poll",
             "description": "Poll the device",
             "arguments": {}
         }

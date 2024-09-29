@@ -27,6 +27,7 @@
     },
     "commands": {
         "lock": {
+            "label": "lock",
             "description": "Lock the device",
             "arguments": {}
         }

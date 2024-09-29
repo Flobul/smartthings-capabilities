@@ -48,26 +48,32 @@
     },
     "commands": {
         "startTalkback": {
+            "label": "startTalkback",
             "description": "Start the talkback",
             "arguments": {}
         },
         "clientIce": {
+            "label": "clientIce",
             "description": "Provide an ICE candidate to the video source",
             "arguments": {}
         },
         "sdpOffer": {
+            "label": "sdpOffer",
             "description": "Start the live stream",
             "arguments": {}
         },
         "stopTalkback": {
+            "label": "stopTalkback",
             "description": "Stop the talkback",
             "arguments": {}
         },
         "requestTurnInfo": {
+            "label": "requestTurnInfo",
             "description": "Request turn server information",
             "arguments": {}
         },
         "end": {
+            "label": "end",
             "description": "Stop the live stream",
             "arguments": {}
         }

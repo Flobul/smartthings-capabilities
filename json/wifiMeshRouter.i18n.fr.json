@@ -72,18 +72,22 @@
     },
     "commands": {
         "enableWifiGuestNetwork": {
+            "label": "enableWifiGuestNetwork",
             "description": "Enable the guest WiFi network",
             "arguments": {}
         },
         "disableWifiNetwork": {
+            "label": "disableWifiNetwork",
             "description": "Disable the primary WiFi network",
             "arguments": {}
         },
         "enableWifiNetwork": {
+            "label": "enableWifiNetwork",
             "description": "Enable the primary WiFi network",
             "arguments": {}
         },
         "disableWifiGuestNetwork": {
+            "label": "disableWifiGuestNetwork",
             "description": "Disable the guest WiFi network",
             "arguments": {}
         }

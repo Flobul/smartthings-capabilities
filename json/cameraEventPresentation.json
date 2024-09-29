@@ -78,6 +78,11 @@
                         "key": "gestureOk",
                         "value": "{{i18n.attributes.event.i18n.value.gestureOk.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "lensObstruction",
+                        "value": "{{i18n.attributes.event.i18n.value.lensObstruction.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -166,6 +171,11 @@
                         "key": "gestureOk",
                         "value": "{{i18n.attributes.event.i18n.value.gestureOk.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "lensObstruction",
+                        "value": "{{i18n.attributes.event.i18n.value.lensObstruction.label}}",
+                        "type": "active"
                     }
                 ]
             }
@@ -251,6 +261,11 @@
                         {
                             "key": "gestureOk",
                             "value": "{{i18n.attributes.event.i18n.value.gestureOk.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lensObstruction",
+                            "value": "{{i18n.attributes.event.i18n.value.lensObstruction.label}}",
                             "type": "active"
                         }
                     ],

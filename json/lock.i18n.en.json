@@ -3,6 +3,11 @@
     "label": "Lock state",
     "description": "Allow for the control of a lock device",
     "attributes": {
+        "supportedUnlockDirections": {
+            "label": "supportedUnlockDirections",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "supportedLockValues": {
             "label": "supportedLockValues",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
@@ -45,6 +50,10 @@
         "unlock": {
             "label": "Unlock",
             "description": "Unlock the device",
+            "arguments": {}
+        },
+        "unlatch": {
+            "label": "unlatch",
             "arguments": {}
         },
         "lock": {

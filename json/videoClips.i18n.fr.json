@@ -12,6 +12,7 @@
     },
     "commands": {
         "captureClip": {
+            "label": "captureClip",
             "description": "Capture the video clip",
             "arguments": {
                 "duration": {

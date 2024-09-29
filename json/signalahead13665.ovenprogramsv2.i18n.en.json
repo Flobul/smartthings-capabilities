@@ -61,5 +61,14 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "stop": {
+            "label": "stop",
+            "arguments": {}
+        },
+        "setProgram": {
+            "label": "setProgram",
+            "arguments": {}
+        }
+    }
 }

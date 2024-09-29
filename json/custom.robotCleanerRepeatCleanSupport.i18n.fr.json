@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setRobotCleanerRepeatCleanSupport": {
+            "label": "setRobotCleanerRepeatCleanSupport",
+            "arguments": {}
+        }
+    }
 }

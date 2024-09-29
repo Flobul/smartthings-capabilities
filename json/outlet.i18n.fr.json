@@ -21,10 +21,12 @@
     },
     "commands": {
         "off": {
+            "label": "off",
             "description": "Turn an outlet off",
             "arguments": {}
         },
         "on": {
+            "label": "on",
             "description": "Turn an outlet on",
             "arguments": {}
         }

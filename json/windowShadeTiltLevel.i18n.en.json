@@ -12,6 +12,7 @@
     },
     "commands": {
         "setShadeTiltLevel": {
+            "label": "setShadeTiltLevel",
             "description": "Set the shade tilt level to the given value.",
             "arguments": {
                 "level": {

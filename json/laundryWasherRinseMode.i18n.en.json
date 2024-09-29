@@ -33,6 +33,7 @@
     },
     "commands": {
         "setRinseMode": {
+            "label": "setRinseMode",
             "description": "Set the laundry washer rinse mode",
             "arguments": {
                 "rinseMode": {

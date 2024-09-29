@@ -12,6 +12,7 @@
     },
     "commands": {
         "setMode": {
+            "label": "setMode",
             "description": "Set the mode for the location",
             "arguments": {
                 "mode": {

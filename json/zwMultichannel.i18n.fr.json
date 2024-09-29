@@ -18,6 +18,7 @@
     },
     "commands": {
         "enableEpEvents": {
+            "label": "enableEpEvents",
             "description": "Enable the endpoint Events",
             "arguments": {
                 "enabledEndpoints": {
@@ -27,6 +28,7 @@
             }
         },
         "epCmd": {
+            "label": "epCmd",
             "description": "The command for the endpoint",
             "arguments": {
                 "endpoint": {

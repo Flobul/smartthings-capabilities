@@ -13,5 +13,22 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "addReservation": {
+            "label": "addReservation",
+            "arguments": {}
+        },
+        "deleteReservations": {
+            "label": "deleteReservations",
+            "arguments": {}
+        },
+        "editReservation": {
+            "label": "editReservation",
+            "arguments": {}
+        },
+        "deleteReservation": {
+            "label": "deleteReservation",
+            "arguments": {}
+        }
+    }
 }

@@ -91,5 +91,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setWasherWaterTemperature": {
+            "label": "setWasherWaterTemperature",
+            "arguments": {}
+        }
+    }
 }

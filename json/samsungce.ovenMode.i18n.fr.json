@@ -463,5 +463,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setOvenMode": {
+            "label": "setOvenMode",
+            "arguments": {}
+        }
+    }
 }

@@ -93,18 +93,22 @@
     },
     "commands": {
         "setRobotCleanerCleaningState": {
+            "label": "setRobotCleanerCleaningState",
             "description": "Set the cleaning state of the Robot Cleaner",
             "arguments": {}
         },
         "stop": {
+            "label": "stop",
             "description": "Provide the description",
             "arguments": {}
         },
         "setRobotCleanerControlState": {
+            "label": "setRobotCleanerControlState",
             "description": "Set the control state of the Robot Cleaner",
             "arguments": {}
         },
         "setRobotCleanerTurboState": {
+            "label": "setRobotCleanerTurboState",
             "description": "Set the turbo state of the Robot Cleaner",
             "arguments": {}
         }

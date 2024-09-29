@@ -33,6 +33,7 @@
     },
     "commands": {
         "setLightControllerMode": {
+            "label": "setLightControllerMode",
             "description": "Set the light controller mode",
             "arguments": {
                 "mode": {

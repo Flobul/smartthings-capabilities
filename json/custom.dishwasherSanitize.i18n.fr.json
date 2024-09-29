@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setDishwasherSanitize": {
+            "label": "setDishwasherSanitize",
+            "arguments": {}
+        }
+    }
 }

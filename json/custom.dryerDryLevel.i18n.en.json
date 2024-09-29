@@ -100,5 +100,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setDryerDryLevel": {
+            "label": "setDryerDryLevel",
+            "arguments": {}
+        }
+    }
 }

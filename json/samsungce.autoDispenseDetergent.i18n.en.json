@@ -103,5 +103,26 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "unsetRecommendedAmount": {
+            "label": "unsetRecommendedAmount",
+            "arguments": {}
+        },
+        "setRecommendedAmount": {
+            "label": "setRecommendedAmount",
+            "arguments": {}
+        },
+        "setType": {
+            "label": "setType",
+            "arguments": {}
+        },
+        "setAmount": {
+            "label": "setAmount",
+            "arguments": {}
+        },
+        "setDensity": {
+            "label": "setDensity",
+            "arguments": {}
+        }
+    }
 }

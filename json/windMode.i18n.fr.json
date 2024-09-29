@@ -30,6 +30,7 @@
     },
     "commands": {
         "setWindMode": {
+            "label": "setWindMode",
             "description": "Set the wind mode",
             "arguments": {
                 "windMode": {

@@ -30,6 +30,11 @@
                 }
             }
         },
+        "supportedCommands": {
+            "label": "supportedCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "state": {
             "label": "Firmware update process state",
             "description": "The state of the firmware update process",

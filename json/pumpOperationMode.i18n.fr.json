@@ -54,6 +54,7 @@
     },
     "commands": {
         "setOperationMode": {
+            "label": "setOperationMode",
             "description": "Set the operation mode",
             "arguments": {
                 "operationMode": {

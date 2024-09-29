@@ -12,6 +12,7 @@
     },
     "commands": {
         "create": {
+            "label": "create",
             "description": "Create a preset",
             "arguments": {
                 "data": {
@@ -29,6 +30,7 @@
             }
         },
         "update": {
+            "label": "update",
             "description": "Update a preset",
             "arguments": {
                 "data": {
@@ -46,6 +48,7 @@
             }
         },
         "execute": {
+            "label": "execute",
             "description": "Go to a preset",
             "arguments": {
                 "id": {
@@ -55,6 +58,7 @@
             }
         },
         "delete": {
+            "label": "delete",
             "description": "Delete a preset",
             "arguments": {
                 "id": {

@@ -2,5 +2,10 @@
     "tag": "en",
     "label": "Factory reset",
     "attributes": {},
-    "commands": {}
+    "commands": {
+        "reset": {
+            "label": "reset",
+            "arguments": {}
+        }
+    }
 }

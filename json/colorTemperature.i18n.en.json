@@ -18,6 +18,7 @@
     },
     "commands": {
         "setColorTemperature": {
+            "label": "setColorTemperature",
             "description": "Set the color temperature to the specified value",
             "arguments": {
                 "temperature": {

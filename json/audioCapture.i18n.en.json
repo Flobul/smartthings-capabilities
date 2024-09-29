@@ -18,6 +18,7 @@
     },
     "commands": {
         "capture": {
+            "label": "capture",
             "description": "Set the audio capture schedule",
             "arguments": {
                 "captureTime": {

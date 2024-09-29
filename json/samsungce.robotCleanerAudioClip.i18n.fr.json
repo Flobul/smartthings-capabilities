@@ -8,5 +8,14 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "enable": {
+            "label": "enable",
+            "arguments": {}
+        },
+        "disable": {
+            "label": "disable",
+            "arguments": {}
+        }
+    }
 }

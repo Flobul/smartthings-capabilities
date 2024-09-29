@@ -18,6 +18,7 @@
     },
     "commands": {
         "startActivity": {
+            "label": "startActivity",
             "description": "Start an activity",
             "arguments": {
                 "activityId": {

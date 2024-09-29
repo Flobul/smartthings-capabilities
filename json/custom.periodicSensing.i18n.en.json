@@ -99,5 +99,34 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "periodicSensingOn": {
+            "label": "periodicSensingOn",
+            "arguments": {}
+        },
+        "setPeriodicSensingInterval": {
+            "label": "setPeriodicSensingInterval",
+            "arguments": {}
+        },
+        "setPeriodicSensing": {
+            "label": "setPeriodicSensing",
+            "arguments": {}
+        },
+        "setAutomaticExecutionMode": {
+            "label": "setAutomaticExecutionMode",
+            "arguments": {}
+        },
+        "setAutomaticExecutionSetting": {
+            "label": "setAutomaticExecutionSetting",
+            "arguments": {}
+        },
+        "periodicSensingOff": {
+            "label": "periodicSensingOff",
+            "arguments": {}
+        },
+        "triggerManualSensing": {
+            "label": "triggerManualSensing",
+            "arguments": {}
+        }
+    }
 }

@@ -26,5 +26,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setAutoCleaningMode": {
+            "label": "setAutoCleaningMode",
+            "arguments": {}
+        }
+    }
 }

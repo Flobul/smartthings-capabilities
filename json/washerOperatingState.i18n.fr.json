@@ -34,7 +34,7 @@
             "i18n": {
                 "value": {
                     "aIRinse": {
-                        "label": "aIRinse"
+                        "label": "Rinçage IA"
                     },
                     "weightSensing": {
                         "label": "Vérification du poids"
@@ -55,7 +55,7 @@
                         "label": "Lavage à l'air"
                     },
                     "aIWash": {
-                        "label": "aIWash"
+                        "label": "Lavage IA"
                     },
                     "drying": {
                         "label": "Séchage"
@@ -64,13 +64,13 @@
                         "label": "Essorage"
                     },
                     "aISpin": {
-                        "label": "aISpin"
+                        "label": "Essorage IA"
                     },
                     "cooling": {
                         "label": "Refroidissement"
                     },
                     "preWash": {
-                        "label": "Lavage"
+                        "label": "Prélavage"
                     },
                     "finish": {
                         "label": "Terminé"
@@ -79,7 +79,7 @@
                         "label": "Rinçage"
                     },
                     "freezeProtection": {
-                        "label": "freezeProtection"
+                        "label": "Protection contre le gel"
                     }
                 }
             }
@@ -93,6 +93,7 @@
     },
     "commands": {
         "setMachineState": {
+            "label": "setMachineState",
             "description": "Set the washer machine state",
             "arguments": {
                 "state": {

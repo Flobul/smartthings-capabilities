@@ -101,5 +101,26 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "resume": {
+            "label": "resume",
+            "arguments": {}
+        },
+        "cancel": {
+            "label": "cancel",
+            "arguments": {}
+        },
+        "start": {
+            "label": "start",
+            "arguments": {}
+        },
+        "setDelayEnd": {
+            "label": "setDelayEnd",
+            "arguments": {}
+        },
+        "pause": {
+            "label": "pause",
+            "arguments": {}
+        }
+    }
 }

@@ -68,5 +68,14 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "agreeUpdate": {
+            "label": "agreeUpdate",
+            "arguments": {}
+        },
+        "disagreeUpdate": {
+            "label": "disagreeUpdate",
+            "arguments": {}
+        }
+    }
 }

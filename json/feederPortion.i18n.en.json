@@ -18,6 +18,7 @@
     },
     "commands": {
         "setPortion": {
+            "label": "setPortion",
             "description": "Set the portion (in grams, pounds, ounces, or servings) that the feeder will dispense.",
             "arguments": {
                 "portion": {

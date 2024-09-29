@@ -13,5 +13,14 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "refreshMinimumReservableTime": {
+            "label": "refreshMinimumReservableTime",
+            "arguments": {}
+        },
+        "setDelayTime": {
+            "label": "setDelayTime",
+            "arguments": {}
+        }
+    }
 }

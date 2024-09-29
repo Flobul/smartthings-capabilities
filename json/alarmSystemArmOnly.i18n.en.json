@@ -22,5 +22,14 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "sendEvent(alarmSystemStatus,away)": {
+            "label": "sendEvent(alarmSystemStatus,away)",
+            "arguments": {}
+        },
+        "sendEvent(alarmSystemStatus,stay)": {
+            "label": "sendEvent(alarmSystemStatus,stay)",
+            "arguments": {}
+        }
+    }
 }

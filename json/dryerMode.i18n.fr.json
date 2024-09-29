@@ -24,6 +24,7 @@
     },
     "commands": {
         "setDryerMode": {
+            "label": "setDryerMode",
             "description": "Set the operational mode of the dryer",
             "arguments": {
                 "mode": {

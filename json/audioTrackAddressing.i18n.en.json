@@ -4,6 +4,7 @@
     "attributes": {},
     "commands": {
         "setAudioTrack": {
+            "label": "setAudioTrack",
             "description": "Set the audio track",
             "arguments": {
                 "trackToSet": {

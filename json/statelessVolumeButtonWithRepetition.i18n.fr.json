@@ -4,6 +4,7 @@
     "attributes": {},
     "commands": {
         "volumeDown": {
+            "label": "volumeDown",
             "description": "Emulate pressing 'volume down' X number of times, where X is the 'repetition' value",
             "arguments": {
                 "repetition": {
@@ -13,6 +14,7 @@
             }
         },
         "volumeUp": {
+            "label": "volumeUp",
             "description": "Emulate pressing 'volume up' X number of times, where X is the 'repetition' value",
             "arguments": {
                 "repetition": {

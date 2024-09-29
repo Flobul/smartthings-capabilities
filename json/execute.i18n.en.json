@@ -12,6 +12,7 @@
     },
     "commands": {
         "execute": {
+            "label": "execute",
             "description": "Execute a command.",
             "arguments": {}
         }

@@ -57,10 +57,12 @@
     },
     "commands": {
         "groupVolumeUp": {
+            "label": "groupVolumeUp",
             "description": "Turn the group volume up",
             "arguments": {}
         },
         "groupVolumeDown": {
+            "label": "groupVolumeDown",
             "description": "Turn the group volume down",
             "arguments": {}
         },
@@ -85,6 +87,7 @@
             "arguments": {}
         },
         "setGroupMute": {
+            "label": "setGroupMute",
             "description": "Set the group audio mute state",
             "arguments": {
                 "state": {

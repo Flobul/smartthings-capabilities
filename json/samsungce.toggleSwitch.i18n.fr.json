@@ -17,5 +17,18 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "toggle": {
+            "label": "toggle",
+            "arguments": {}
+        },
+        "off": {
+            "label": "off",
+            "arguments": {}
+        },
+        "on": {
+            "label": "on",
+            "arguments": {}
+        }
+    }
 }

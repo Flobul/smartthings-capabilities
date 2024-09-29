@@ -63,6 +63,7 @@
     },
     "commands": {
         "setAcOptionalMode": {
+            "label": "setAcOptionalMode",
             "arguments": {
                 "mode": {
                     "i18n": {

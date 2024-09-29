@@ -4,6 +4,7 @@
     "attributes": {},
     "commands": {
         "configure": {
+            "label": "configure",
             "description": "This is where the device specific configuration commands can be implemented",
             "arguments": {}
         }

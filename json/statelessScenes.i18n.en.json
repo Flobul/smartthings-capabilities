@@ -8,5 +8,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setScene": {
+            "label": "setScene",
+            "arguments": {}
+        }
+    }
 }

@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setRobotCleanerRepeatCleanOption": {
+            "label": "setRobotCleanerRepeatCleanOption",
+            "arguments": {}
+        }
+    }
 }

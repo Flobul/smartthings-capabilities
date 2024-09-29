@@ -1,17 +1,35 @@
 {
     "tag": "en",
     "label": "Level",
+    "description": "Allows for the control of the level of a device.",
     "attributes": {
         "levelRange": {
-            "label": "levelRange",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "level range",
+            "description": "Constraints on the level value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
         "level": {
             "label": "Level",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "A number that represents the current level, usually ``0-100`` in percent",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setLevel": {
+            "label": "setLevel",
+            "description": "Set the level to the given value. If the device supports being turned on and off then it will be turned on if ``level`` is greater than 0 and turned off if ``level`` is equal to 0.",
+            "arguments": {
+                "level": {
+                    "i18n": {},
+                    "description": "The level value, usually ``0-100`` in percent"
+                },
+                "rate": {
+                    "i18n": {},
+                    "description": "The rate at which to change the level"
+                }
+            }
+        }
+    }
 }

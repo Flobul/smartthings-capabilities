@@ -18,6 +18,7 @@
     },
     "commands": {
         "setHeatingSetpoint": {
+            "label": "setHeatingSetpoint",
             "description": "Set the water heating setpoint",
             "arguments": {
                 "setpoint": {

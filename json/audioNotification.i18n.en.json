@@ -4,6 +4,7 @@
     "attributes": {},
     "commands": {
         "playTrackAndResume": {
+            "label": "playTrackAndResume",
             "description": "Play the given track and resume playback of the previously playing track",
             "arguments": {
                 "level": {
@@ -17,6 +18,7 @@
             }
         },
         "playTrackAndRestore": {
+            "label": "playTrackAndRestore",
             "description": "Play the given track and restore the volume to its previous level",
             "arguments": {
                 "level": {
@@ -30,6 +32,7 @@
             }
         },
         "playTrack": {
+            "label": "playTrack",
             "description": "Play the given track",
             "arguments": {
                 "level": {
