@@ -23,7 +23,7 @@
             "i18n": {}
         },
         "sessionTime": {
-            "label": "Connected for",
+            "label": "Date de connexion",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
@@ -38,25 +38,37 @@
             "i18n": {
                 "value": {
                     "stopped": {
-                        "label": "Stopped"
+                        "label": "Pas prêt"
                     },
                     "charging": {
-                        "label": "Charging"
+                        "label": "Prêt"
                     },
                     "disabled": {
-                        "label": "Disabled"
+                        "label": "Non disponibles"
                     }
                 }
             }
         }
     },
     "commands": {
+        "setMinCurrent": {
+            "label": "setMinCurrent",
+            "arguments": {}
+        },
+        "setTargetEndTime": {
+            "label": "setTargetEndTime",
+            "arguments": {}
+        },
         "enableCharging": {
-            "label": "Enable Charging",
+            "label": "Activer prépa. station chargement",
             "arguments": {}
         },
         "disableCharging": {
-            "label": "Disable Charging",
+            "label": "Désactiver prépa. station chargement",
+            "arguments": {}
+        },
+        "setMaxCurrent": {
+            "label": "setMaxCurrent",
             "arguments": {}
         }
     }

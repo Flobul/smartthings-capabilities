@@ -33,18 +33,22 @@
     },
     "commands": {
         "cancel": {
+            "label": "cancel",
             "description": "Cancel the timed session",
             "arguments": {}
         },
         "stop": {
+            "label": "stop",
             "description": "Stop the timed session",
             "arguments": {}
         },
         "start": {
+            "label": "start",
             "description": "Start the timed session",
             "arguments": {}
         },
         "setCompletionTime": {
+            "label": "setCompletionTime",
             "description": "Set the completion time for the timed session",
             "arguments": {
                 "completionTime": {
@@ -54,6 +58,7 @@
             }
         },
         "pause": {
+            "label": "pause",
             "description": "Pause the timed session",
             "arguments": {}
         }

@@ -132,22 +132,22 @@
                     "alternatives": [
                         {
                             "key": "start",
-                            "value": "{{i18n.commands.setOperationalState.arguments.operationalState.i18n.start.label}}",
+                            "value": "{{i18n.commands.start.label}}",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.setOperationalState.arguments.operationalState.i18n.stop.label}}",
+                            "value": "{{i18n.commands.stop.label}}",
                             "type": "inactive"
                         },
                         {
                             "key": "resume",
-                            "value": "{{i18n.commands.setOperationalState.arguments.operationalState.i18n.resume.label}}",
+                            "value": "{{i18n.commands.resume.label}}",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.setOperationalState.arguments.operationalState.i18n.pause.label}}",
+                            "value": "{{i18n.commands.pause.label}}",
                             "type": "active"
                         }
                     ],

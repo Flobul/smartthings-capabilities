@@ -90,6 +90,7 @@
     },
     "commands": {
         "setMachineState": {
+            "label": "setMachineState",
             "description": "Set the dryer machine state",
             "arguments": {
                 "state": {

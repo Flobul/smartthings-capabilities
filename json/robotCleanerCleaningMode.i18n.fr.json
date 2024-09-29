@@ -33,6 +33,7 @@
     },
     "commands": {
         "setRobotCleanerCleaningMode": {
+            "label": "setRobotCleanerCleaningMode",
             "description": "Set the robot cleaner cleaning mode",
             "arguments": {
                 "mode": {

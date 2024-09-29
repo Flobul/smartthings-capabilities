@@ -38,6 +38,7 @@
     },
     "commands": {
         "setLightingMode": {
+            "label": "setLightingMode",
             "description": "Set the lighting mode of a device",
             "arguments": {
                 "lightingMode": {

@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "idle": {
-                        "label": "Standby"
+                        "label": "On"
                     },
                     "feeding": {
                         "label": "Feeding"

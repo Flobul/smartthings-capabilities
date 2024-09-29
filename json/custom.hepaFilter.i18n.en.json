@@ -48,5 +48,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "resetHepaFilter": {
+            "label": "resetHepaFilter",
+            "arguments": {}
+        }
+    }
 }

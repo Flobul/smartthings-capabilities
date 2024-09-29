@@ -17,5 +17,14 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "off": {
+            "label": "off",
+            "arguments": {}
+        },
+        "on": {
+            "label": "on",
+            "arguments": {}
+        }
+    }
 }

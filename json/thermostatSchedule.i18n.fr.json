@@ -12,6 +12,7 @@
     },
     "commands": {
         "setSchedule": {
+            "label": "setSchedule",
             "description": "Set the thermostat schedule",
             "arguments": {
                 "schedule": {

@@ -4,6 +4,7 @@
     "attributes": {},
     "commands": {
         "speak": {
+            "label": "speak",
             "description": "Speak the control phrase",
             "arguments": {
                 "phrase": {

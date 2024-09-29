@@ -21,6 +21,7 @@
     },
     "commands": {
         "setMute": {
+            "label": "setMute",
             "description": "Set the state of the audio mute",
             "arguments": {
                 "state": {

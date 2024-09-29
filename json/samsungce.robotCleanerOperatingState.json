@@ -20,6 +20,7 @@
                                 "charging",
                                 "chargingForRemainingJob",
                                 "charged",
+                                "drainingWater",
                                 "flexCharged",
                                 "moving",
                                 "paused",
@@ -76,6 +77,7 @@
                             "charging",
                             "chargingForRemainingJob",
                             "charged",
+                            "drainingWater",
                             "flexCharged",
                             "moving",
                             "paused",
@@ -156,7 +158,8 @@
                             "mapCreated",
                             "doNotDisturb",
                             "changingMopPad",
-                            "washingMop"
+                            "washingMop",
+                            "supplyingWater"
                         ]
                     }
                 },

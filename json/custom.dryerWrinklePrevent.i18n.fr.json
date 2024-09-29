@@ -31,5 +31,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setDryerWrinklePrevent": {
+            "label": "setDryerWrinklePrevent",
+            "arguments": {}
+        }
+    }
 }

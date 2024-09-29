@@ -12,6 +12,7 @@
     },
     "commands": {
         "setOvenSetpoint": {
+            "label": "setOvenSetpoint",
             "description": "Set the oven set point.",
             "arguments": {
                 "setpoint": {

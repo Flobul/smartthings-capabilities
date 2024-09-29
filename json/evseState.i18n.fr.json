@@ -31,7 +31,7 @@
             "i18n": {
                 "value": {
                     "overTemperature": {
-                        "label": "overTemperature"
+                        "label": "Surchauffe"
                     },
                     "emergencyStop": {
                         "label": "Arrêt d'urgence"
@@ -85,7 +85,7 @@
             }
         },
         "state": {
-            "label": "État de la station de recharge pour véhicule électrique",
+            "label": "État du point de charge",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -99,7 +99,7 @@
                         "label": "Terminé"
                     },
                     "fault": {
-                        "label": "Faulted"
+                        "label": "Défectueux"
                     },
                     "pluggedInDemand": {
                         "label": "Station de recharge pour véhicule électrique suspendue"

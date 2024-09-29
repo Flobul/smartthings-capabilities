@@ -18,10 +18,12 @@
     },
     "commands": {
         "stopStream": {
+            "label": "stopStream",
             "description": "Stop the video stream",
             "arguments": {}
         },
         "startStream": {
+            "label": "startStream",
             "description": "Start the video stream",
             "arguments": {}
         }

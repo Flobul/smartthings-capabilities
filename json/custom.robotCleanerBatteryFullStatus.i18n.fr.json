@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setRobotCleanerBatteryFullStatus": {
+            "label": "setRobotCleanerBatteryFullStatus",
+            "arguments": {}
+        }
+    }
 }

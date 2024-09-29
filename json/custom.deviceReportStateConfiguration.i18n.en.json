@@ -36,5 +36,18 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setReportStatePeriod": {
+            "label": "setReportStatePeriod",
+            "arguments": {}
+        },
+        "setReportStateRealtime": {
+            "label": "setReportStateRealtime",
+            "arguments": {}
+        },
+        "setReportStateRealtimePeriod": {
+            "label": "setReportStateRealtimePeriod",
+            "arguments": {}
+        }
+    }
 }

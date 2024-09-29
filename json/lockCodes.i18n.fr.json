@@ -81,6 +81,7 @@
     },
     "commands": {
         "setCodeLength": {
+            "label": "setCodeLength",
             "description": "Set the code length for the code",
             "arguments": {
                 "length": {
@@ -90,18 +91,22 @@
             }
         },
         "reloadAllCodes": {
+            "label": "reloadAllCodes",
             "description": "Reload all the codes",
             "arguments": {}
         },
         "unlock": {
+            "label": "unlock",
             "description": "Unlock the lock",
             "arguments": {}
         },
         "unlockWithTimeout": {
+            "label": "unlockWithTimeout",
             "description": "Unlock the lock with a timeout",
             "arguments": {}
         },
         "setCode": {
+            "label": "setCode",
             "description": "Set a code",
             "arguments": {
                 "codeName": {
@@ -119,6 +124,7 @@
             }
         },
         "updateCodes": {
+            "label": "updateCodes",
             "description": "Update the codes",
             "arguments": {
                 "codes": {
@@ -128,10 +134,12 @@
             }
         },
         "lock": {
+            "label": "lock",
             "description": "Lock the lock",
             "arguments": {}
         },
         "requestCode": {
+            "label": "requestCode",
             "description": "Request a code",
             "arguments": {
                 "codeSlot": {
@@ -141,6 +149,7 @@
             }
         },
         "deleteCode": {
+            "label": "deleteCode",
             "description": "Delete the code",
             "arguments": {
                 "codeSlot": {
@@ -150,6 +159,7 @@
             }
         },
         "nameSlot": {
+            "label": "nameSlot",
             "description": "Set the name slot for the code",
             "arguments": {
                 "codeName": {

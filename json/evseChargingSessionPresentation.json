@@ -12,7 +12,7 @@
                     {
                         "key": "stopped",
                         "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "disabled",
@@ -57,7 +57,7 @@
                         {
                             "key": "stopped",
                             "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "disabled",
@@ -130,7 +130,7 @@
                         {
                             "key": "stopped",
                             "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "disabled",

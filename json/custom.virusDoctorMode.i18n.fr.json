@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setVirusDoctorMode": {
+            "label": "setVirusDoctorMode",
+            "arguments": {}
+        }
+    }
 }

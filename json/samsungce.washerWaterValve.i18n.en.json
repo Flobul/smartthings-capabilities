@@ -28,5 +28,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setWaterValve": {
+            "label": "setWaterValve",
+            "arguments": {}
+        }
+    }
 }

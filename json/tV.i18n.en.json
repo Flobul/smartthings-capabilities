@@ -42,18 +42,22 @@
     },
     "commands": {
         "volumeDown": {
+            "label": "volumeDown",
             "description": "Set volume lower",
             "arguments": {}
         },
         "volumeUp": {
+            "label": "volumeUp",
             "description": "Set volume higher",
             "arguments": {}
         },
         "channelDown": {
+            "label": "channelDown",
             "description": "Move a channel down",
             "arguments": {}
         },
         "channelUp": {
+            "label": "channelUp",
             "description": "Move a channel up",
             "arguments": {}
         }

@@ -38,5 +38,18 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setSchedule": {
+            "label": "setSchedule",
+            "arguments": {}
+        },
+        "enable": {
+            "label": "enable",
+            "arguments": {}
+        },
+        "disable": {
+            "label": "disable",
+            "arguments": {}
+        }
+    }
 }

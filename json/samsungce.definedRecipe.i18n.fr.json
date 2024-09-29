@@ -8,5 +8,14 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setDefinedRecipe": {
+            "label": "setDefinedRecipe",
+            "arguments": {}
+        },
+        "cookDefinedRecipe": {
+            "label": "cookDefinedRecipe",
+            "arguments": {}
+        }
+    }
 }

@@ -2,5 +2,10 @@
     "tag": "en",
     "label": "Custom Recipe",
     "attributes": {},
-    "commands": {}
+    "commands": {
+        "cookCustomRecipe": {
+            "label": "cookCustomRecipe",
+            "arguments": {}
+        }
+    }
 }

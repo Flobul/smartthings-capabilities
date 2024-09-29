@@ -27,6 +27,7 @@
     },
     "commands": {
         "setAirFlowDirection": {
+            "label": "setAirFlowDirection",
             "description": "set direction of air flow",
             "arguments": {
                 "airFlowDirection": {

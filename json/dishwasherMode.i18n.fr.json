@@ -33,6 +33,7 @@
     },
     "commands": {
         "setDishwasherMode": {
+            "label": "setDishwasherMode",
             "description": "Set the dishwasher mode",
             "arguments": {
                 "mode": {

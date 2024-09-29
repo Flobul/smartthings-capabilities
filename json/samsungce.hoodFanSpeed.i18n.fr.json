@@ -70,6 +70,7 @@
     },
     "commands": {
         "setHoodFanSpeed": {
+            "label": "setHoodFanSpeed",
             "arguments": {
                 "speed": {
                     "i18n": {

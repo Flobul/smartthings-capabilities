@@ -51,6 +51,7 @@
     },
     "commands": {
         "setDefrost": {
+            "label": "setDefrost",
             "description": "Sets the defrost on or off",
             "arguments": {}
         },

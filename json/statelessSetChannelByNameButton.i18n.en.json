@@ -4,6 +4,7 @@
     "attributes": {},
     "commands": {
         "setChannelByName": {
+            "label": "setChannelByName",
             "description": "Emulate the setting of the channel by specifying the channel name",
             "arguments": {
                 "channel": {

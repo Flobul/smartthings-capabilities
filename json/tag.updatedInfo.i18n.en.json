@@ -14,5 +14,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "update": {
+            "label": "update",
+            "arguments": {}
+        }
+    }
 }

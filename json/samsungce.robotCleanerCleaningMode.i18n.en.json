@@ -59,5 +59,18 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setCleaningMode": {
+            "label": "setCleaningMode",
+            "arguments": {}
+        },
+        "disableRepeatMode": {
+            "label": "disableRepeatMode",
+            "arguments": {}
+        },
+        "enableRepeatMode": {
+            "label": "enableRepeatMode",
+            "arguments": {}
+        }
+    }
 }

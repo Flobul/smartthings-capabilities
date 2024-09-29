@@ -18,6 +18,7 @@
     },
     "commands": {
         "setLanguage": {
+            "label": "setLanguage",
             "description": "Set the language",
             "arguments": {
                 "language": {

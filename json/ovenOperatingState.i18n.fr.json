@@ -120,10 +120,12 @@
     },
     "commands": {
         "stop": {
+            "label": "stop",
             "description": "Stop the oven operation",
             "arguments": {}
         },
         "setMachineState": {
+            "label": "setMachineState",
             "description": "Set the oven state",
             "arguments": {
                 "state": {
@@ -143,6 +145,7 @@
             }
         },
         "start": {
+            "label": "start",
             "description": "Start the oven operation",
             "arguments": {
                 "mode": {

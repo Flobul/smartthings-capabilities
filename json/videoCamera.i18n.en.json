@@ -54,22 +54,27 @@
     },
     "commands": {
         "mute": {
+            "label": "mute",
             "description": "Mute the video camera",
             "arguments": {}
         },
         "unmute": {
+            "label": "unmute",
             "description": "Unmute the video camera",
             "arguments": {}
         },
         "flip": {
+            "label": "flip",
             "description": "Flip the picture display",
             "arguments": {}
         },
         "off": {
+            "label": "off",
             "description": "Turn off the video camera",
             "arguments": {}
         },
         "on": {
+            "label": "on",
             "description": "Turn on the video camera",
             "arguments": {}
         }

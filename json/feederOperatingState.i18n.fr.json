@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "idle": {
-                        "label": "En veille"
+                        "label": "Activé"
                     },
                     "feeding": {
                         "label": "Distribution"

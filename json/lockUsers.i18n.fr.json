@@ -18,5 +18,22 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "addUser": {
+            "label": "addUser",
+            "arguments": {}
+        },
+        "deleteAllUsers": {
+            "label": "deleteAllUsers",
+            "arguments": {}
+        },
+        "deleteUser": {
+            "label": "deleteUser",
+            "arguments": {}
+        },
+        "updateUser": {
+            "label": "updateUser",
+            "arguments": {}
+        }
+    }
 }

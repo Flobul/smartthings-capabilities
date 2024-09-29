@@ -23,5 +23,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setWasherCycle": {
+            "label": "setWasherCycle",
+            "arguments": {}
+        }
+    }
 }

@@ -40,5 +40,22 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "sendEvent(sunriseTime)": {
+            "label": "sendEvent(sunriseTime)",
+            "arguments": {}
+        },
+        "sendEvent(sunrise)": {
+            "label": "sendEvent(sunrise)",
+            "arguments": {}
+        },
+        "sendEvent(sunset)": {
+            "label": "sendEvent(sunset)",
+            "arguments": {}
+        },
+        "sendEvent(sunsetTime)": {
+            "label": "sendEvent(sunsetTime)",
+            "arguments": {}
+        }
+    }
 }

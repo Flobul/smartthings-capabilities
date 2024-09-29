@@ -10,6 +10,7 @@
     },
     "commands": {
         "sendKey": {
+            "label": "sendKey",
             "arguments": {
                 "keyCode": {
                     "i18n": {

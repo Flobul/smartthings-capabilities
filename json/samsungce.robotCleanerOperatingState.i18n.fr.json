@@ -105,6 +105,9 @@
                     "monitoringAutomation": {
                         "label": "monitoringAutomation"
                     },
+                    "drainingWater": {
+                        "label": "Emptying water"
+                    },
                     "exploring": {
                         "label": "Exploration"
                     },
@@ -168,6 +171,9 @@
                     },
                     "doNotDisturb": {
                         "label": "doNotDisturb"
+                    },
+                    "supplyingWater": {
+                        "label": "supplyingWater"
                     },
                     "dustFulled": {
                         "label": "dustFulled"

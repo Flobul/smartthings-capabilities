@@ -42,5 +42,22 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "resume": {
+            "label": "resume",
+            "arguments": {}
+        },
+        "stop": {
+            "label": "stop",
+            "arguments": {}
+        },
+        "start": {
+            "label": "start",
+            "arguments": {}
+        },
+        "pause": {
+            "label": "pause",
+            "arguments": {}
+        }
+    }
 }

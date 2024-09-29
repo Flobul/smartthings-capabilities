@@ -21,6 +21,7 @@
     },
     "commands": {
         "setRapidCooling": {
+            "label": "setRapidCooling",
             "description": "Set the rapid cooling",
             "arguments": {
                 "rapidCooling": {

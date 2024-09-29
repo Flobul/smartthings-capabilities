@@ -18,5 +18,18 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "refreshSpecificArea": {
+            "label": "refreshSpecificArea",
+            "arguments": {}
+        },
+        "refreshAll": {
+            "label": "refreshAll",
+            "arguments": {}
+        },
+        "refresh": {
+            "label": "refresh",
+            "arguments": {}
+        }
+    }
 }
