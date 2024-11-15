@@ -12,6 +12,7 @@
     },
     "commands": {
         "setButton": {
+            "label": "setButton",
             "description": "Emulate the pressing of a supported button",
             "arguments": {
                 "button": {

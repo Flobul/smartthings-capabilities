@@ -5,6 +5,21 @@
     "name": "Supports Features",
     "ephemeral": false,
     "attributes": {
+        "mediaOutputSupported": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "imeAdvSupported": {
             "schema": {
                 "type": "object",
@@ -26,6 +41,24 @@
                 "properties": {
                     "value": {
                         "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "executableServiceList": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,

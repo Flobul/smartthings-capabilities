@@ -150,6 +150,193 @@
         "actions": [],
         "panelItems": []
     },
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.operatingState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "ready",
+                            "value": "{{i18n.attributes.operatingState.i18n.value.ready.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "running",
+                            "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "paused",
+                            "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "operatingState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.washerJobState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "preWash",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.preWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "airWash",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.airWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "drying",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.drying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rinse",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.rinse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "spin",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.spin.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wash",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.wash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "weightSensing",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.weightSensing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "soilLevelSensing",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.soilLevelSensing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "laundrySensing",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.laundrySensing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "drumCleaning",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.drumCleaning.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIWash",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.aIWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIRinse",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.aIRinse.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aISpin",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.aISpin.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "freezeProtection",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.freezeProtection.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "finished",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.finished.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "delayWash",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.delayWash.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "none",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.none.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sanitizing",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.sanitizing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "internalCare",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.internalCare.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "removingSuds",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.removingSuds.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "waitingToDry",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.waitingToDry.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cleaningCondenser",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.cleaningCondenser.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cooling",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.cooling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIDrying",
+                            "value": "{{i18n.attributes.washerJobState.i18n.value.aIDrying.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "washerJobState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.operatingState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "{{i18n.commands.start.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cancel",
+                            "value": "{{i18n.commands.cancel.label}}",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "emphasis": true
+            }
+        ]
+    },
     "id": "samsungce.washerOperatingState",
     "version": 1
 }

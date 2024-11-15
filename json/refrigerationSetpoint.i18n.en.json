@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Refrigeration Temperature",
+    "label": "Set temperature",
     "description": "Allows for the control of the refrigeration set point.",
     "attributes": {
         "refrigerationSetpoint": {

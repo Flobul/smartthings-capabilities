@@ -1,0 +1,1596 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "panelItems": [
+            {
+                "label": "Mode",
+                "displayType": "list",
+                "list": {
+                    "command": {
+                        "name": "setFridgeMode",
+                        "alternatives": [
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_NORMAL_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_LOW_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_DONGCHIMI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_KKAKDUGI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_GAT_KIMCHI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_YOUNG_RADISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_RIPENED",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_CRUNFCH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_BUY",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_GENERAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_VEGETABLES_FRUIT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_DRINK",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRESH_CEREAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRESH_SOUP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRESH_POTATO_BANANA",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRESH_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_MEAT_FISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_RICE_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_VEGETABLE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_MEAT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_MEAT_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_OFF",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_SCAN_NC_P",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_NORMAL_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_LOW_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_DONGCHIMI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_KKAKDUGI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_GAT_KIMCHI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_YOUNG_RADISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_RIPENED",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_CRUNFCH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_BUY",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_GENERAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_VEGETABLES_FRUIT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_DRINK",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRESH_CEREAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRESH_SOUP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRESH_POTATO_BANANA",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRESH_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_MEAT_FISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_RICE_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_VEGETABLE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_MEAT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_MEAT_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_OFF",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_SCAN_NC_P",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_NORMAL_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_LOW_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_DONGCHIMI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_KKAKDUGI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_GAT_KIMCHI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_YOUNG_RADISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_RIPENED",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_CRUNFCH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_BUY",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_GENERAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_VEGETABLES_FRUIT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_DRINK",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRESH_CEREAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRESH_SOUP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRESH_POTATO_BANANA",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRESH_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_MEAT_FISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_RICE_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_VEGETABLE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_MEAT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_MEAT_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_OFF",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_SCAN_NC_P",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_NORMAL_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_LOW_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_DONGCHIMI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_KKAKDUGI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_GAT_KIMCHI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_YOUNG_RADISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_RIPENED",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_CRUNFCH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_BUY",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_GENERAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_VEGETABLES_FRUIT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_DRINK",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRESH_CEREAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRESH_SOUP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRESH_POTATO_BANANA",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRESH_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_MEAT_FISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_RICE_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_VEGETABLE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_MEAT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_MEAT_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_OFF",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_SCAN_NC_P",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "type": "active"
+                            }
+                        ],
+                        "argumentType": "string",
+                        "supportedValues": "supportedFridgeModes.value"
+                    },
+                    "state": {
+                        "value": "fridgeMode.value",
+                        "valueType": "string",
+                        "alternatives": [
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_NORMAL_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_LOW_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_DONGCHIMI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_KKAKDUGI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_GAT_KIMCHI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_YOUNG_RADISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_RIPENED",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_CRUNFCH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_BUY",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_GENERAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_VEGETABLES_FRUIT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_DRINK",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRESH_CEREAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRESH_SOUP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRESH_POTATO_BANANA",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRESH_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_MEAT_FISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_RICE_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_VEGETABLE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_MEAT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_MEAT_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_OFF",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_STORAGE_SCAN_NC_P",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_NORMAL_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_LOW_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_DONGCHIMI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_KKAKDUGI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_GAT_KIMCHI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_YOUNG_RADISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_RIPENED",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_CRUNFCH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_BUY",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_GENERAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_VEGETABLES_FRUIT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_DRINK",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRESH_CEREAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRESH_SOUP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRESH_POTATO_BANANA",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRESH_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_MEAT_FISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_RICE_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_VEGETABLE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_MEAT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_MEAT_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_OFF",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_STORAGE_SCAN_NC_P",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_NORMAL_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_LOW_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_DONGCHIMI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_KKAKDUGI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_GAT_KIMCHI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_YOUNG_RADISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_RIPENED",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_CRUNFCH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_BUY",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_GENERAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_VEGETABLES_FRUIT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_DRINK",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRESH_CEREAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRESH_SOUP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRESH_POTATO_BANANA",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRESH_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_MEAT_FISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_RICE_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_VEGETABLE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_MEAT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_MEAT_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_OFF",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_STORAGE_SCAN_NC_P",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_NORMAL_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_LOW_TEMP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_DONGCHIMI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_KKAKDUGI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_GAT_KIMCHI",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_YOUNG_RADISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_RIPENED",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_CRUNFCH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_BUY",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_GENERAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_VEGETABLES_FRUIT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_DRINK",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRESH_CEREAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRESH_SOUP",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRESH_POTATO_BANANA",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRESH_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_MEAT_FISH",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_RICE_WINE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_VEGETABLE",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_MEAT",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_COLD",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_WARM",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_MEAT_RIPE_NORMAL",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_OFF",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_STORAGE_SCAN_NC_P",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "type": "active"
+                            }
+                        ]
+                    },
+                    "availableSizes": [
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "custom.fridgeMode",
+    "version": 1
+}

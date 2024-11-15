@@ -12,6 +12,7 @@
     },
     "commands": {
         "playPreset": {
+            "label": "playPreset",
             "description": "Play a preset",
             "arguments": {
                 "presetId": {

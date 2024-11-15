@@ -87,6 +87,7 @@
     },
     "commands": {
         "setControlMode": {
+            "label": "setControlMode",
             "description": "Set the control mode",
             "arguments": {
                 "controlMode": {

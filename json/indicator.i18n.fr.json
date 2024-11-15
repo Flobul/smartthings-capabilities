@@ -24,14 +24,17 @@
     },
     "commands": {
         "indicatorNever": {
+            "label": "indicatorNever",
             "description": "Set the indicator LED to be always off",
             "arguments": {}
         },
         "indicatorWhenOn": {
+            "label": "indicatorWhenOn",
             "description": "Set the indicator LED to on when the switch is on",
             "arguments": {}
         },
         "indicatorWhenOff": {
+            "label": "indicatorWhenOff",
             "description": "Set the indicator LED to off when the switch is on",
             "arguments": {}
         }

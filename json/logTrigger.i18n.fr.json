@@ -42,14 +42,17 @@
     },
     "commands": {
         "triggerLogWithUrl": {
+            "label": "triggerLogWithUrl",
             "description": "Trigger upload of the log with URL",
             "arguments": {}
         },
         "triggerLogWithLogInfo": {
+            "label": "triggerLogWithLogInfo",
             "description": "Trigger upload of the log with log info",
             "arguments": {}
         },
         "triggerLog": {
+            "label": "triggerLog",
             "description": "Trigger upload of the log",
             "arguments": {}
         }

@@ -9,6 +9,11 @@
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         },
+        "availableFanOscillationModes": {
+            "label": "availableFanOscillationModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "fanOscillationMode": {
             "label": "Fan oscillation",
             "description": "The current mode of oscillation; an enum of fixed, vertical, horizontal, direct, indirect, fixedCenter, fixedLeft, fixedRight, far,  all",
@@ -69,6 +74,7 @@
     },
     "commands": {
         "setFanOscillationMode": {
+            "label": "setFanOscillationMode",
             "description": "set oscillation mode",
             "arguments": {
                 "fanOscillationMode": {

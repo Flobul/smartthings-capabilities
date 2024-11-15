@@ -2,5 +2,10 @@
     "tag": "en",
     "label": "Fixed Find Node",
     "attributes": {},
-    "commands": {}
+    "commands": {
+        "refresh": {
+            "label": "refresh",
+            "arguments": {}
+        }
+    }
 }

@@ -28,5 +28,22 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "clearWeekDaySchedules": {
+            "label": "clearWeekDaySchedules",
+            "arguments": {}
+        },
+        "setWeekDaySchedule": {
+            "label": "setWeekDaySchedule",
+            "arguments": {}
+        },
+        "setYearDaySchedule": {
+            "label": "setYearDaySchedule",
+            "arguments": {}
+        },
+        "clearYearDaySchedules": {
+            "label": "clearYearDaySchedules",
+            "arguments": {}
+        }
+    }
 }

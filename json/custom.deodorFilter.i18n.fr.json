@@ -2,13 +2,13 @@
     "tag": "en",
     "label": "Deodor Filter",
     "attributes": {
-        "deodorFilterLastResetDate": {
-            "label": "deodorFilterLastResetDate",
+        "deodorFilterCapacity": {
+            "label": "deodorFilterCapacity",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
-        "deodorFilterCapacity": {
-            "label": "deodorFilterCapacity",
+        "deodorFilterLastResetDate": {
+            "label": "deodorFilterLastResetDate",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
@@ -28,6 +28,9 @@
                     },
                     "wash": {
                         "label": "wash"
+                    },
+                    "uvregeneration": {
+                        "label": "uvregeneration"
                     }
                 }
             }
@@ -48,5 +51,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "resetDeodorFilter": {
+            "label": "resetDeodorFilter",
+            "arguments": {}
+        }
+    }
 }

@@ -8,5 +8,22 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "uploadComplete": {
+            "label": "uploadComplete",
+            "arguments": {}
+        },
+        "capture": {
+            "label": "capture",
+            "arguments": {}
+        },
+        "uploadFailed": {
+            "label": "uploadFailed",
+            "arguments": {}
+        },
+        "stopCapture": {
+            "label": "stopCapture",
+            "arguments": {}
+        }
+    }
 }

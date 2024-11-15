@@ -99,6 +99,7 @@
     },
     "commands": {
         "setOvenMode": {
+            "label": "setOvenMode",
             "description": "Set the operation mode of the oven",
             "arguments": {
                 "mode": {

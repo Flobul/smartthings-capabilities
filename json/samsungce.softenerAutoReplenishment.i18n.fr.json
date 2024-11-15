@@ -48,5 +48,38 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "enableAlarm": {
+            "label": "enableAlarm",
+            "arguments": {}
+        },
+        "setOrderThreshold": {
+            "label": "setOrderThreshold",
+            "arguments": {}
+        },
+        "disableAlarm": {
+            "label": "disableAlarm",
+            "arguments": {}
+        },
+        "setAutoReplenishment": {
+            "label": "setAutoReplenishment",
+            "arguments": {}
+        },
+        "setInitialAmount": {
+            "label": "setInitialAmount",
+            "arguments": {}
+        },
+        "setRemainingAmount": {
+            "label": "setRemainingAmount",
+            "arguments": {}
+        },
+        "setDosage": {
+            "label": "setDosage",
+            "arguments": {}
+        },
+        "setType": {
+            "label": "setType",
+            "arguments": {}
+        }
+    }
 }
