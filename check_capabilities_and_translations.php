@@ -77,6 +77,16 @@ foreach ($scanned_directory as $filename) {
       }
     }
   }
+  if (isset($arrayfile['commands'])) {
+    foreach ($arrayfile['commands'] as $attributesName => $attribute) {
+      $cmdAttrName = lcfirst(str_replace('set', '', $attributesName));
+      if (isset($arrayfile['attributes'][$cmdAttrName])) {
+        if (!isset($arrayfile['attributes'][$cmdAttrName]['setter'])) {
+            echo $filename . '  =>  "setter": "' . $cmdAttrName . "\"\n";
+        }
+      }
+    }
+  }
 }
 
 $newEnums = str_replace(array('\'__(',', __FILE__)\'','\''),array('__("','", __FILE__)','"'), var_export(array_filter($arrayEnum), true));
