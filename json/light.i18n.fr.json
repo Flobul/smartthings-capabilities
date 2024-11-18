@@ -21,10 +21,12 @@
     },
     "commands": {
         "off": {
+            "label": "off",
             "description": "Turn a light off",
             "arguments": {}
         },
         "on": {
+            "label": "on",
             "description": "Turn a light on",
             "arguments": {}
         }
