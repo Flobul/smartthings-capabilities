@@ -25,5 +25,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setLevel": {
+            "label": "setLevel",
+            "arguments": {}
+        }
+    }
 }
