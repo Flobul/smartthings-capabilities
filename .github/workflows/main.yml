@@ -12,7 +12,6 @@ jobs:
     permissions:
       pull-requests: write
       contents: write
-
     steps:
       - name: "Checkout files"
         uses: actions/checkout@v3
@@ -84,14 +83,17 @@ jobs:
           done
           echo $PRINT > README.md
 
-      - name: "Create Pull Request"
-        uses: peter-evans/create-pull-request@v6
-        with:
-          add-paths: |
-            json/*.json
-            capabilities.json
-          branch: update
-          delete-branch: true
-          title: "Update capabilities"
-          body: "Automated capabilities update"
-          commit-message: "Auto update capabilities"
+      - name: "Create Pull Request for each file"
+        run: |
+          for file in $(git diff --name-only --diff-filter=M); do
+            git add $file
+            branch_name="update-${file//\//-}"
+            git checkout -b $branch_name
+            git commit -m "Update $file"
+            git push origin $branch_name
+            gh pr create --title "Update $file" --body "Automated update for $file" --base main
+            git checkout main
+            git branch -D $branch_name
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
