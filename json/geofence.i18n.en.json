@@ -33,6 +33,7 @@
     },
     "commands": {
         "setName": {
+            "label": "setName",
             "description": "Set the name of a geofence",
             "arguments": {
                 "name": {
@@ -42,6 +43,7 @@
             }
         },
         "setEnableState": {
+            "label": "setEnableState",
             "description": "Enable or disable a geofencee",
             "arguments": {
                 "enableState": {
@@ -51,6 +53,7 @@
             }
         },
         "setGeofence": {
+            "label": "setGeofence",
             "description": "Set the geofence coordinates",
             "arguments": {}
         }
