@@ -8,5 +8,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setDishwasherDelayStartTime": {
+            "label": "setDishwasherDelayStartTime",
+            "arguments": {}
+        }
+    }
 }
