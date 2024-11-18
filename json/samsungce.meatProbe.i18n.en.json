@@ -18,5 +18,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setTemperatureSetpoint": {
+            "label": "setTemperatureSetpoint",
+            "arguments": {}
+        }
+    }
 }
