@@ -21,6 +21,7 @@
     },
     "commands": {
         "setWirelessOperatingMode": {
+            "label": "setWirelessOperatingMode",
             "description": "Set the wireless operating mode of a device",
             "arguments": {
                 "wirelessOperatingMode": {
