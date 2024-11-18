@@ -82,6 +82,12 @@ jobs:
             PRINT+="| [$name](./json/$id.json) | $versions | $statuses | $presentation | $i18n |\n"
           done
           echo $PRINT > README.md
+
+      - name: "Set Git user"
+        run: |
+          git config --local user.email "flobul.jeedom@gmail.com"
+          git config --local user.name "Flobul"
+
       - name: "Commit changes"
         run: |
           for file in $(git diff --name-only --diff-filter=M | grep '\.json$'); do
