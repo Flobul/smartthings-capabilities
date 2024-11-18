@@ -51,14 +51,14 @@
     {
         "id": "airPurifierFanMode",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "airQualityHealthConcern",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -114,7 +114,7 @@
     {
         "id": "atmosphericPressureMeasurement",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -156,7 +156,7 @@
     {
         "id": "audioTrackData",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -184,7 +184,7 @@
     {
         "id": "batteryLevel",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -588,9 +588,16 @@
         "namespace": "st"
     },
     {
-        "id": "formaldehydeHealthConcern",
+        "id": "flowMeasurement",
         "version": 1,
         "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "formaldehydeHealthConcern",
+        "version": 1,
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -660,7 +667,7 @@
     {
         "id": "hardwareFault",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -730,14 +737,14 @@
     {
         "id": "laundryWasherRinseMode",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "laundryWasherSpinSpeed",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -940,14 +947,14 @@
     {
         "id": "nitrogenDioxideHealthConcern",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "nitrogenDioxideMeasurement",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1038,14 +1045,14 @@
     {
         "id": "ozoneHealthConcern",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "ozoneMeasurement",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1059,7 +1066,7 @@
     {
         "id": "pestControl",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1241,7 +1248,7 @@
     {
         "id": "robotCleanerOperatingState",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1563,7 +1570,7 @@
     {
         "id": "temperatureLevel",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1577,7 +1584,7 @@
     {
         "id": "temperatureSetpoint",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1899,7 +1906,7 @@
     {
         "id": "windMode",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
