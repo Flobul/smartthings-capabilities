@@ -24,6 +24,7 @@
     },
     "commands": {
         "setColor": {
+            "label": "setColor",
             "description": "Sets the color based on the values passed in with the given map",
             "arguments": {
                 "color": {
@@ -40,6 +41,7 @@
             }
         },
         "setHue": {
+            "label": "setHue",
             "description": "Set the hue value of the color",
             "arguments": {
                 "hue": {
@@ -49,6 +51,7 @@
             }
         },
         "setSaturation": {
+            "label": "setSaturation",
             "description": "Set the saturation value of the color",
             "arguments": {
                 "saturation": {
