@@ -23,5 +23,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setRobotCleanerBehavior": {
+            "label": "setRobotCleanerBehavior",
+            "arguments": {}
+        }
+    }
 }
