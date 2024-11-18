@@ -99,6 +99,9 @@ jobs:
             git commit -m "Update $file"
           done
 
+      - name: "Pull latest changes from remote"
+        run: git pull --rebase origin update-capabilities
+
       - name: "Push changes"
         run: git push origin update-capabilities
 
