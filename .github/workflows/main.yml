@@ -99,8 +99,14 @@ jobs:
             git commit -m "Update $file"
           done
 
+      - name: "Stash changes"
+        run: git stash
+
       - name: "Pull latest changes from remote"
         run: git pull --rebase origin update-capabilities
+
+      - name: "Apply stashed changes"
+        run: git stash pop
 
       - name: "Push changes"
         run: git push origin update-capabilities
