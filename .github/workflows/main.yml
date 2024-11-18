@@ -88,6 +88,10 @@ jobs:
           git config --local user.email "flobul.jeedom@gmail.com"
           git config --local user.name "Flobul"
 
+      - name: "Create a new branch for changes"
+        run: |
+          git checkout -b update-capabilities
+
       - name: "Commit changes"
         run: |
           for file in $(git diff --name-only --diff-filter=M | grep '\.json$'); do
@@ -96,13 +100,13 @@ jobs:
           done
 
       - name: "Push changes"
-        run: git push origin main
+        run: git push origin update-capabilities
 
       - name: "Create Pull Requests"
         uses: peter-evans/create-pull-request@v6
         with:
-          branch: main
-          delete-branch: false
+          branch: update-capabilities
+          delete-branch: true
           title: "Update capabilities"
           commit-message: "Auto update capabilities"
           body: "Automated capabilities update"
