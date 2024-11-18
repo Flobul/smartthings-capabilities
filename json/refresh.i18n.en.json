@@ -1,6 +1,7 @@
 {
     "tag": "en",
     "label": "Refresh",
+    "description": "Allow the execution of the refresh command for devices that support it",
     "attributes": {},
     "commands": {
         "refresh": {
