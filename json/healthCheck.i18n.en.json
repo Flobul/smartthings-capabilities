@@ -48,6 +48,7 @@
     },
     "commands": {
         "ping": {
+            "label": "ping",
             "description": "Ping the device",
             "arguments": {}
         }
