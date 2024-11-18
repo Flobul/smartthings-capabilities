@@ -52,5 +52,14 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "cancelSelfCheck": {
+            "label": "cancelSelfCheck",
+            "arguments": {}
+        },
+        "startSelfCheck": {
+            "label": "startSelfCheck",
+            "arguments": {}
+        }
+    }
 }
