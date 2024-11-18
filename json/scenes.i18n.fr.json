@@ -18,6 +18,7 @@
     },
     "commands": {
         "setScene": {
+            "label": "setScene",
             "description": "Set the scene",
             "arguments": {
                 "scene": {
