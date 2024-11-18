@@ -25,5 +25,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setAlarmSensorState": {
+            "label": "setAlarmSensorState",
+            "arguments": {}
+        }
+    }
 }
