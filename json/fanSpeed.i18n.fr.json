@@ -29,6 +29,7 @@
     },
     "commands": {
         "setFanSpeed": {
+            "label": "setFanSpeed",
             "description": "Set the fan speed",
             "arguments": {
                 "speed": {
