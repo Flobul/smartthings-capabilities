@@ -1,5 +1,4 @@
 name: "Generate capabilities"
-
 on:
   workflow_dispatch:
   schedule:
@@ -31,6 +30,7 @@ jobs:
 
       - name: "Process each capability"
         run: |
+          mkdir -p json
           cat capabilities.json | jq -c '.[]' | while read capability; do
             id=$(echo $capability | jq -r '.id')
             version=$(echo $capability | jq -r '.version')
@@ -61,10 +61,8 @@ jobs:
           PRINT+="* [Create Personal Access Token](https://account.smartthings.com/tokens)\n"
           PRINT+="* [Plugin Documentation](https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom/)\n"
           PRINT+="* [Plugin Jeedom Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4099)\n"
-
           PRINT+="| Capability | Version | Status | Capability Presentation | Translation i18n\n"
           PRINT+="| ---- | ---- | ---- | ---- | ---- |\n\n"
-
           ls json/*.json | grep -v i18n | grep -v Presentation.json | while read file; do
             json=$(cat $file | sed 's/\\//g')
             name=$(echo "$json" | jq -r '.name') || true
@@ -83,24 +81,18 @@ jobs:
           done
           echo $PRINT > README.md
 
-      - name: "Set Git user"
+      - name: "Create Pull Request for each modified file"
         run: |
-          git config --local user.email "flobul.jeedom@gmail.com"
-          git config --local user.name "Flobul"
-
-      - name: "Create Pull Requests for each modified file"
-        run: |
-          for file in $(git diff --name-only --diff-filter=M | grep '\.json$'); do
-            branch_name="update-$(basename $file .json)"
-            git checkout -b $branch_name
-            git add "$file"
-            git commit -m "Update $file"
-            git push origin $branch_name
-
-            gh pr create --title "Update $file" --body "Automated update for $file" --base main
-
-            git checkout main
-            git branch -D $branch_name
+          for file in json/*.json; do
+            if git diff --quiet HEAD -- $file; then
+              echo "No changes in $file"
+            else
+              git add $file
+              git commit -m "Update $file"
+              git push origin HEAD:update-$file
+              gh pr create --title "Update $file" --body "Automated update for $file" --base main --head update-$file
+              git push origin --delete update-$file
+            fi
           done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
