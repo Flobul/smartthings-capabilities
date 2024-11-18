@@ -45,6 +45,9 @@
                     "mediaPlaying": {
                         "label": "mediaPlaying"
                     },
+                    "waitingForDescaling": {
+                        "label": "En attente de détartrage"
+                    },
                     "welcoming": {
                         "label": "Accueil d'un enfant"
                     },
@@ -105,6 +108,9 @@
                     "monitoringAutomation": {
                         "label": "monitoringAutomation"
                     },
+                    "drainingWater": {
+                        "label": "Vidage de l'eau"
+                    },
                     "exploring": {
                         "label": "Exploration"
                     },
@@ -115,7 +121,7 @@
                         "label": "reserved"
                     },
                     "mopWashingPaused": {
-                        "label": "Mop-washing paused"
+                        "label": "Lavage de la serpillère en pause"
                     },
                     "processing": {
                         "label": "Recherche d'emplacement"
@@ -169,6 +175,9 @@
                     "doNotDisturb": {
                         "label": "doNotDisturb"
                     },
+                    "supplyingWater": {
+                        "label": "supplyingWater"
+                    },
                     "dustFulled": {
                         "label": "dustFulled"
                     },
@@ -195,7 +204,7 @@
     },
     "commands": {
         "resume": {
-            "label": "Start",
+            "label": "Démarrer",
             "arguments": {}
         },
         "setOperatingState": {
@@ -203,11 +212,11 @@
             "arguments": {}
         },
         "returnToHome": {
-            "label": "Return To Charging Station",
+            "label": "Retour à la station de charge",
             "arguments": {}
         },
         "start": {
-            "label": "Start",
+            "label": "Démarrer",
             "arguments": {}
         },
         "pause": {
