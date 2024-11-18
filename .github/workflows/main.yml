@@ -110,5 +110,3 @@ jobs:
           title: "Update capabilities"
           commit-message: "Auto update capabilities"
           body: "Automated capabilities update"
-          path: |
-            json/*.json
