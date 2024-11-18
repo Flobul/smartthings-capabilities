@@ -83,6 +83,11 @@ jobs:
           done
           echo $PRINT > README.md
 
+      - name: "Set Git user"
+        run: |
+          git config --local user.email "flobul.jeedom@gmail.com"
+          git config --local user.name "Flobul"
+
       - name: "Create Pull Requests for each modified file"
         run: |
           for file in $(git diff --name-only --diff-filter=M | grep '\.json$'); do
