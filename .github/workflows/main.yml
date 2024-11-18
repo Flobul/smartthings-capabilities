@@ -83,39 +83,19 @@ jobs:
           done
           echo $PRINT > README.md
 
-      - name: "Set Git user"
-        run: |
-          git config --local user.email "flobul.jeedom@gmail.com"
-          git config --local user.name "Flobul"
-
-      - name: "Create a new branch for changes"
-        run: |
-          git checkout -b update-capabilities
-
-      - name: "Commit changes"
+      - name: "Create Pull Requests for each modified file"
         run: |
           for file in $(git diff --name-only --diff-filter=M | grep '\.json$'); do
+            branch_name="update-$(basename $file .json)"
+            git checkout -b $branch_name
             git add "$file"
             git commit -m "Update $file"
+            git push origin $branch_name
+
+            gh pr create --title "Update $file" --body "Automated update for $file" --base main
+
+            git checkout main
+            git branch -D $branch_name
           done
-
-      - name: "Stash changes"
-        run: git stash
-
-      - name: "Pull latest changes from remote"
-        run: git pull --rebase origin update-capabilities
-
-      - name: "Apply stashed changes"
-        run: git stash pop
-
-      - name: "Push changes"
-        run: git push origin update-capabilities
-
-      - name: "Create Pull Requests"
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: update-capabilities
-          delete-branch: true
-          title: "Update capabilities"
-          commit-message: "Auto update capabilities"
-          body: "Automated capabilities update"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
