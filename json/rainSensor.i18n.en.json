@@ -1,10 +1,12 @@
 {
     "tag": "en",
     "label": "Rain sensor",
+    "description": "Allows reading the value of a rain sensor device",
     "attributes": {
         "rain": {
             "label": "Rain sensor",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "The current state of the rain sensor",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "undetected": {
