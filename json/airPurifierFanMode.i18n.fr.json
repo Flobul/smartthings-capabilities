@@ -45,6 +45,7 @@
     },
     "commands": {
         "setAirPurifierFanMode": {
+            "label": "setAirPurifierFanMode",
             "description": "Set the air purifier fan's mode",
             "arguments": {
                 "airPurifierFanMode": {
