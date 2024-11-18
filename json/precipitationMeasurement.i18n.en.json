@@ -12,6 +12,7 @@
     },
     "commands": {
         "resetPrecipitationLevel": {
+            "label": "resetPrecipitationLevel",
             "description": "Set the reported precipitation level back to 0.",
             "arguments": {}
         }
