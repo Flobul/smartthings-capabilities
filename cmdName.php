@@ -1,14 +1,14 @@
 <?php return array (
   "alarmSystem" => 
   array (
-    "sendEvent(alarmSystemStatus,off)" => __("sendOffEvent", __FILE__),
-    "sendEvent(alarmSystemStatus,away)" => __("sendAwayEvent", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendStayEvent", __FILE__),
+    "sendEvent(alarmSystemStatus,off)" => __("sendEvent(alarmSystemStatus,off)", __FILE__),
+    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
+    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
   ),
   "alarmSystemArmOnly" => 
   array (
-    "sendEvent(alarmSystemStatus,away)" => __("sendAwayEvent", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendStayEvent", __FILE__),
+    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
+    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
   ),
   "astronomicalData" => 
   array (
@@ -16,6 +16,19 @@
     "sendEvent(sunrise)" => __("sendEvent(sunrise)", __FILE__),
     "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
     "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
+  ),
+  "custom.autoCleaningMode" => 
+  array (
+    "supportedAutoCleaningModes" => __("supportedAutoCleaningModes", __FILE__),
+    "timedCleanDuration" => __("timedCleanDuration", __FILE__),
+    "operatingState" => __("operatingState", __FILE__),
+    "timedCleanDurationRange" => __("timedCleanDurationRange", __FILE__),
+    "supportedOperatingStates" => __("supportedOperatingStates", __FILE__),
+    "progress" => __("progress", __FILE__),
+    "setOperatingState" => __("setOperatingState", __FILE__),
+    "stop" => __("stop", __FILE__),
+    "setTimedCleanDuration" => __("setTimedCleanDuration", __FILE__),
+    "start" => __("start", __FILE__),
   ),
   "samsungTV" => 
   array (
