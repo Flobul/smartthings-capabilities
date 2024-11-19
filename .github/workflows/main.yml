@@ -33,7 +33,7 @@ jobs:
           mkdir -p json
           count=0
           cat capabilities.json | jq -c '.[]' | while read capability; do
-            if [ $count -ge 20 ]; then
+            if [ $count -ge 10 ]; then
               break
             fi
             id=$(echo $capability | jq -r '.id')
@@ -47,7 +47,7 @@ jobs:
           done
           count=0
           cat extra_capabilities_fix.json | jq -c '.[]' | while read capa; do
-            if [ $count -ge 20 ]; then
+            if [ $count -ge 10 ]; then
               break
             fi
             id=$(echo $capa | jq -r '.id')
@@ -109,11 +109,15 @@ jobs:
               git checkout -b $branch_name
               git add $file
               git commit -m "Update $file"
-              git push origin $branch_name
-              gh pr create --title "Update $file" --body "Automated update for $file" --base main --head $branch_name
+              if git ls-remote --heads origin $branch_name | grep -q $branch_name; then
+                git push origin $branch_name --force
+              else
+                git push origin $branch_name
+              fi
+              gh pr create --title "Update $file" --body "Automated update for $file" --base master --head $branch_name
               git checkout master
               git branch -D $branch_name
             fi
-          done
+          done 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
