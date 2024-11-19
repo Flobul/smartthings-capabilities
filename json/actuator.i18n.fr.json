@@ -1,6 +1,7 @@
 {
     "tag": "en",
     "label": "Actuator",
+    "description": "The Actuator capability is a \"tagging\" capability. It defines no attributes or commands. In SmartThings terms, it represents that a Device has commands.",
     "attributes": {},
     "commands": {}
 }
