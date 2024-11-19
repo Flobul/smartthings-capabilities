@@ -31,7 +31,11 @@ jobs:
       - name: "Process each capability"
         run: |
           mkdir -p json
+          count=0
           cat capabilities.json | jq -c '.[]' | while read capability; do
+            if [ $count -ge 20 ]; then
+              break
+            fi
             id=$(echo $capability | jq -r '.id')
             version=$(echo $capability | jq -r '.version')
             echo "Processing $id version $version"
@@ -39,8 +43,13 @@ jobs:
             ./smartthings capabilities:presentation $id $version -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${id}Presentation.json || true
             ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json || true
             ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json || true
+            count=$((count+1))
           done
+          count=0
           cat extra_capabilities_fix.json | jq -c '.[]' | while read capa; do
+            if [ $count -ge 20 ]; then
+              break
+            fi
             id=$(echo $capa | jq -r '.id')
             version=$(echo $capa | jq -r '.version')
             echo "Processing $id version $version"
@@ -48,6 +57,7 @@ jobs:
             ./smartthings capabilities:presentation $id $version -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${id}Presentation.json || true
             ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json || true
             ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json || true
+            count=$((count+1))
           done
 
       - name: "Print README.md"
