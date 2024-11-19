@@ -117,7 +117,7 @@ jobs:
             if ! gh pr view --json headRefName -q .headRefName | grep -q $branch_name; then
               gh pr create --title "Update $file" --body "Automated update for $file\n\n```diff\n$diff\n```" --base master --head $branch_name
             else
-              pr_url=$(gh pr view --json url -q .url | grep $branch_name)
+              pr_url=$(gh pr view --json url -q .url)
               gh pr edit $pr_url --body "Automated update for $file\n\n```diff\n$diff\n```"
             fi
             git checkout master
@@ -138,7 +138,7 @@ jobs:
             if ! gh pr view --json headRefName -q .headRefName | grep -q $branch_name; then
               gh pr create --title "Update combined files" --body "Automated update for combined files\n\n```diff\n$diff\n```" --base master --head $branch_name
             else
-              pr_url=$(gh pr view --json url -q .url | grep $branch_name)
+              pr_url=$(gh pr view --json url -q .url)
               gh pr edit $pr_url --body "Automated update for combined files\n\n```diff\n$diff\n```"
             fi
             git checkout master
