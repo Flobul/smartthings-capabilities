@@ -3,6 +3,11 @@
     "label": "Mode",
     "description": "Allows for the control of the air conditioner.",
     "attributes": {
+        "availableAcModes": {
+            "label": "availableAcModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "supportedAcModes": {
             "label": "supported ac modes",
             "description": "Supported states for this air conditioner to be in",
