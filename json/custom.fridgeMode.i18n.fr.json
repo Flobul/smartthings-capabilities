@@ -10,7 +10,127 @@
         "fridgeMode": {
             "label": "fridgeMode",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": {}
+            "i18n": {
+                "value": {
+                    "storage_fridge": {
+                        "label": "Fridge"
+                    },
+                    "kimchi_ripe_normal": {
+                        "label": "Ferment kimchi"
+                    },
+                    "storage_freezer_cold": {
+                        "label": "Freezer (Cold+)"
+                    },
+                    "kimchi_storage_crunfch": {
+                        "label": "1hr Cold+"
+                    },
+                    "kimchi_ripe_normal_temp": {
+                        "label": "Normal fermenting"
+                    },
+                    "storage_vegetable": {
+                        "label": "Vegetables/fruits"
+                    },
+                    "kimchi_storage_cold": {
+                        "label": "Regular kimchi (Cold+)"
+                    },
+                    "storage_freezer_meat_fish": {
+                        "label": "Meat/fish"
+                    },
+                    "meat_ripe_normal": {
+                        "label": "Meat aging"
+                    },
+                    "kimchi_storage_warm": {
+                        "label": "Regular kimchi (Cool)"
+                    },
+                    "kimchi_ripe_kkakdugi": {
+                        "label": "Ferment radish kimchi"
+                    },
+                    "kimchi_ripe_low_temp": {
+                        "label": "Slow fermenting"
+                    },
+                    "kimchi_storage_low_salt_cold": {
+                        "label": "Low salt kimchi (Cold+)"
+                    },
+                    "kimchi_ripe_gat_kimchi": {
+                        "label": "갓 김치 숙성"
+                    },
+                    "kimchi_storage_low_salt_normal": {
+                        "label": "Low salt kimchi (Cold) "
+                    },
+                    "storage_fridge_drink": {
+                        "label": "Drinks"
+                    },
+                    "kimchi_ripe_young_radish": {
+                        "label": "열무 숙성"
+                    },
+                    "storage_fresh_cereal": {
+                        "label": "Grains"
+                    },
+                    "kimchi_ripe_dongchimi": {
+                        "label": "Ferment watery kimchi"
+                    },
+                    "kimchi_storage_normal": {
+                        "label": "Regular kimchi (Cold) "
+                    },
+                    "storage_freezer_normal": {
+                        "label": "Freezer (Cold)"
+                    },
+                    "storage_fridge_cold": {
+                        "label": "Fridge (Cold+)"
+                    },
+                    "kimchi_storage_buy": {
+                        "label": "Packaged kimchi"
+                    },
+                    "storage_fresh_wine": {
+                        "label": "Wine"
+                    },
+                    "kimchi_storage_scan_nc_p": {
+                        "label": "Scan keep"
+                    },
+                    "storage_fresh_potato_banana": {
+                        "label": "Rood vegetables"
+                    },
+                    "off": {
+                        "label": "Off"
+                    },
+                    "storage_fridge_normal": {
+                        "label": "Fridge (Cold)"
+                    },
+                    "storage_fridge_vegetables_fruit": {
+                        "label": "Vegetables/fruits"
+                    },
+                    "kimchi_storage_low_salt": {
+                        "label": "Low salt kimchi"
+                    },
+                    "kimchi_ripe_ripened": {
+                        "label": "묵은지 숙성"
+                    },
+                    "storage_freezer": {
+                        "label": "Freezer"
+                    },
+                    "storage_meat": {
+                        "label": "Meat/fish"
+                    },
+                    "storage_fridge_general": {
+                        "label": "Fridge"
+                    },
+                    "storage_rice_wine": {
+                        "label": "Wine/rice"
+                    },
+                    "kimchi_storage_low_salt_warm": {
+                        "label": "Low salt kimchi (Cool)"
+                    },
+                    "storage_fridge_warm": {
+                        "label": "Fridge (Cool)"
+                    },
+                    "storage_fresh_soup": {
+                        "label": "Sauces"
+                    },
+                    "storage_freezer_warm": {
+                        "label": "Freezer (Cool)"
+                    }
+                }
+            }
         },
         "supportedFridgeModes": {
             "label": "supportedFridgeModes",
@@ -18,5 +138,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setFridgeMode": {
+            "label": "setFridgeMode",
+            "arguments": {}
+        }
+    }
 }
