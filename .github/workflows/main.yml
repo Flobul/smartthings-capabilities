@@ -28,35 +28,35 @@ jobs:
       - name: "Download smartthings capabilities"
         run: ./smartthings capabilities -s -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o capabilities.json
 
-      - name: "Process each capability"
+      - name: "Process capabilities"
         run: |
           mkdir -p json
           count=0
-          cat capabilities.json | jq -c '.[]' | while read capability; do
-            if [ $count -ge 10 ]; then
-              break
-            fi
-            id=$(echo $capability | jq -r '.id')
-            version=$(echo $capability | jq -r '.version')
+          process_capability() {
+            local id=$1
+            local version=$2
             echo "Processing $id version $version"
             ./smartthings capabilities $id -s -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.json || true
             ./smartthings capabilities:presentation $id $version -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${id}Presentation.json || true
             ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json || true
             ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json || true
+          }
+          cat capabilities.json | jq -c '.[]' | while read capability; do
+            if [ $count -ge 20 ]; then
+              break
+            fi
+            id=$(echo $capability | jq -r '.id')
+            version=$(echo $capability | jq -r '.version')
+            process_capability $id $version
             count=$((count+1))
           done
-          count=0
           cat extra_capabilities_fix.json | jq -c '.[]' | while read capa; do
-            if [ $count -ge 10 ]; then
+            if [ $count -ge 20 ]; then
               break
             fi
             id=$(echo $capa | jq -r '.id')
             version=$(echo $capa | jq -r '.version')
-            echo "Processing $id version $version"
-            ./smartthings capabilities $id --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.json
-            ./smartthings capabilities:presentation $id $version -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${id}Presentation.json || true
-            ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json || true
-            ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json || true
+            process_capability $id $version
             count=$((count+1))
           done
 
