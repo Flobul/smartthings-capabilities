@@ -12,14 +12,17 @@
     },
     "commands": {
         "volumeDown": {
+            "label": "volumeDown",
             "description": "Turn the audio volume down",
             "arguments": {}
         },
         "volumeUp": {
+            "label": "volumeUp",
             "description": "Turn the audio volume up",
             "arguments": {}
         },
         "setVolume": {
+            "label": "setVolume",
             "description": "Set the audio volume level",
             "arguments": {
                 "volume": {
