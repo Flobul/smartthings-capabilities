@@ -17,6 +17,19 @@
     "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
     "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
   ),
+  "custom.autoCleaningMode" => 
+  array (
+    "supportedAutoCleaningModes" => __("supportedAutoCleaningModes", __FILE__),
+    "timedCleanDuration" => __("timedCleanDuration", __FILE__),
+    "operatingState" => __("operatingState", __FILE__),
+    "timedCleanDurationRange" => __("timedCleanDurationRange", __FILE__),
+    "supportedOperatingStates" => __("supportedOperatingStates", __FILE__),
+    "progress" => __("progress", __FILE__),
+    "setOperatingState" => __("setOperatingState", __FILE__),
+    "stop" => __("stop", __FILE__),
+    "setTimedCleanDuration" => __("setTimedCleanDuration", __FILE__),
+    "start" => __("setOperatingState", __FILE__),
+  ),
   "samsungTV" => 
   array (
     "setPictureMode" => __("setPictureMode", __FILE__),
