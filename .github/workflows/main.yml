@@ -101,23 +101,28 @@ jobs:
           git fetch origin
           git checkout master
           git pull origin master
+          create_pr() {
+            local file=$1
+            branch_name="update-$(basename $file)"
+            git checkout -b $branch_name
+            git add $file
+            git commit -m "Update $file"
+            diff=$(git diff HEAD~1 -- $file)
+            if git ls-remote --heads origin $branch_name | grep -q $branch_name; then
+              git push origin $branch_name --force
+            else
+              git push origin $branch_name
+            fi
+            gh pr create --title "Update $file" --body "Automated update for $file\n\n```diff\n$diff\n```" --base master --head $branch_name
+            git checkout master
+            git branch -D $branch_name
+          }
           for file in json/*.json; do
             if git diff --quiet HEAD -- $file; then
               echo "No changes in $file"
             else
-              branch_name="update-$(basename $file)"
-              git checkout -b $branch_name
-              git add $file
-              git commit -m "Update $file"
-              if git ls-remote --heads origin $branch_name | grep -q $branch_name; then
-                git push origin $branch_name --force
-              else
-                git push origin $branch_name
-              fi
-              gh pr create --title "Update $file" --body "Automated update for $file" --base master --head $branch_name
-              git checkout master
-              git branch -D $branch_name
+              create_pr $file
             fi
-          done 
+          done
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
