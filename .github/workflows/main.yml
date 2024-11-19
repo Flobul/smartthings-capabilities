@@ -45,7 +45,7 @@ jobs:
             version=$(echo $capa | jq -r '.version')
             echo "Processing $id version $version"
             ./smartthings capabilities $id --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.json
-            ./smartthings capabilities:presentation $id $version -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/${id}Presentation.json || true
+            ./smartthings capabilities:presentation $id $version -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${id}Presentation.json || true
             ./smartthings capabilities:translations $id $version fr -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.fr.json || true
             ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json || true
           done
@@ -81,10 +81,16 @@ jobs:
           done
           echo $PRINT > README.md
 
-      - name: "Create Pull Request for each modified file"
+      - name: "Set up git config"
         run: |
           git config --global user.name "Github Actions"
           git config --global user.email "flobul.jeedom@gmail.com"
+
+      - name: "Create Pull Request for each modified file"
+        run: |
+          git fetch origin
+          git checkout main
+          git pull origin main
           for file in json/*.json; do
             if git diff --quiet HEAD -- $file; then
               echo "No changes in $file"
