@@ -109,6 +109,7 @@ jobs:
             git add $file
             git commit -m "Update $file"
             diff=$(git diff HEAD~1 -- $file)
+            echo "$diff"
             if git ls-remote --heads origin $branch_name | grep -q $branch_name; then
               git push origin $branch_name --force
             else
@@ -130,6 +131,7 @@ jobs:
             git add json/*.i18n.fr.json json/*.i18n.en.json json/*Presentation.json
             git commit -m "Update combined files"
             diff=$(git diff HEAD~1 -- json/*.i18n.fr.json json/*.i18n.en.json json/*Presentation.json)
+            echo "$diff"
             if git ls-remote --heads origin $branch_name | grep -q $branch_name; then
               git push origin $branch_name --force
             else
