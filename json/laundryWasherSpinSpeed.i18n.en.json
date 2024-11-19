@@ -18,6 +18,7 @@
     },
     "commands": {
         "setSpinSpeed": {
+            "label": "setSpinSpeed",
             "description": "Set the laundry washer spin speed",
             "arguments": {
                 "spinSpeed": {

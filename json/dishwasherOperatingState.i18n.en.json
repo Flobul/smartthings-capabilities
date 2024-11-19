@@ -78,6 +78,7 @@
     },
     "commands": {
         "setMachineState": {
+            "label": "setMachineState",
             "description": "Set the dishwasher machine state",
             "arguments": {
                 "state": {

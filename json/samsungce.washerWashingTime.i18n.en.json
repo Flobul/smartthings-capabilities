@@ -13,5 +13,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setWashingTime": {
+            "label": "setWashingTime",
+            "arguments": {}
+        }
+    }
 }

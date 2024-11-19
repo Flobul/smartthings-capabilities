@@ -12,6 +12,7 @@
     },
     "commands": {
         "setPercent": {
+            "label": "setPercent",
             "description": "Set the fan speed percent.",
             "arguments": {
                 "percent": {

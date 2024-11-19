@@ -21,10 +21,12 @@
     },
     "commands": {
         "off": {
+            "label": "off",
             "description": "Turn a relay switch off",
             "arguments": {}
         },
         "on": {
+            "label": "on",
             "description": "Turn a relay switch on",
             "arguments": {}
         }

@@ -1,17 +1,31 @@
 {
     "tag": "en",
     "label": "Cook time",
+    "description": "Allows for the control of the cooking time.",
     "attributes": {
         "cookTimeRange": {
-            "label": "cookTimeRange",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "cook time range",
+            "description": "Constraints on the cook time value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
         "cookTime": {
             "label": "Cook time",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "Total cooking time in seconds",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}s",
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setCookTime": {
+            "label": "setCookTime",
+            "description": "Set the cook time to the specified value",
+            "arguments": {
+                "time": {
+                    "i18n": {},
+                    "description": "The value to set the cook time attribute to"
+                }
+            }
+        }
+    }
 }

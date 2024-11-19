@@ -8,5 +8,14 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setCoordinates": {
+            "label": "setCoordinates",
+            "arguments": {}
+        },
+        "start": {
+            "label": "start",
+            "arguments": {}
+        }
+    }
 }

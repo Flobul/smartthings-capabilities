@@ -13,7 +13,7 @@
                         "label": "Normal"
                     },
                     "alarm": {
-                        "label": "Alarme"
+                        "label": "Dangereuses"
                     },
                     "warning": {
                         "label": "Attention"
@@ -31,7 +31,7 @@
                         "label": "Normal"
                     },
                     "alarm": {
-                        "label": "Alarme"
+                        "label": "Dangereuses"
                     },
                     "warning": {
                         "label": "Attention"
@@ -55,7 +55,7 @@
                         "label": "Normal"
                     },
                     "alarm": {
-                        "label": "Alarme"
+                        "label": "Dangereuses"
                     },
                     "warning": {
                         "label": "Attention"

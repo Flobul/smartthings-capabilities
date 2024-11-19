@@ -1,6 +1,11 @@
 {
     "tag": "fr",
-    "label": "Robot Cleaner Monitoring Automation",
+    "label": "Surveillance",
     "attributes": {},
-    "commands": {}
+    "commands": {
+        "enableMonitoringAutomation": {
+            "label": "enableMonitoringAutomation",
+            "arguments": {}
+        }
+    }
 }

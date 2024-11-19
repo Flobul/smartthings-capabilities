@@ -1,6 +1,7 @@
 {
     "tag": "fr",
-    "label": "Tone",
+    "label": "Émission d'un son",
+    "description": "Allows for the control of a device that can make an audible tone",
     "attributes": {},
     "commands": {
         "beep": {

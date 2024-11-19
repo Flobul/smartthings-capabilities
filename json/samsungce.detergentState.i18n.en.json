@@ -41,5 +41,22 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setDetergentType": {
+            "label": "setDetergentType",
+            "arguments": {}
+        },
+        "setInitialAmount": {
+            "label": "setInitialAmount",
+            "arguments": {}
+        },
+        "setRemainingAmount": {
+            "label": "setRemainingAmount",
+            "arguments": {}
+        },
+        "setDosage": {
+            "label": "setDosage",
+            "arguments": {}
+        }
+    }
 }

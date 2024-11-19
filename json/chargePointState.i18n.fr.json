@@ -1,48 +1,51 @@
 {
     "tag": "fr",
-    "label": "Charge Point State",
+    "label": "État du point de charge",
+    "description": "State of the Charge Point (EV Charger)",
     "attributes": {
         "chargePointState": {
-            "label": "Charge Point State",
+            "label": "État du point de charge",
+            "description": "State of the Charge Point",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "finishing": {
-                        "label": "Finishing"
+                        "label": "Terminé"
                     },
                     "preparing": {
-                        "label": "Preparing"
+                        "label": "Préparation"
                     },
                     "discharging": {
-                        "label": "Discharging"
+                        "label": "Déchargement"
                     },
                     "faulted": {
-                        "label": "Faulted"
+                        "label": "Défectueux"
                     },
                     "suspendedEV": {
-                        "label": "Suspended EV"
+                        "label": "Véhicule électrique suspendu"
                     },
                     "reserved": {
-                        "label": "Reserved"
+                        "label": "Programmé"
                     },
                     "unavailable": {
-                        "label": "Unavailable"
+                        "label": "Non disponible"
                     },
                     "available": {
-                        "label": "Available"
+                        "label": "Disponibles"
                     },
                     "charging": {
-                        "label": "Charging"
+                        "label": "Chargement"
                     },
                     "suspendedEVSE": {
-                        "label": "Suspended EVSE"
+                        "label": "Station de recharge pour véhicule électrique suspendue"
                     }
                 }
             }
         },
         "supportedChargePointStates": {
-            "label": "supportedChargePointStates",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported charge point states",
+            "description": "The list of the charge point states that the device supports. Optional, defaults to all states if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         }
     },

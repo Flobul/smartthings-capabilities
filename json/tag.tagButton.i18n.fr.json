@@ -23,5 +23,22 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setButtonDoublePush": {
+            "label": "setButtonDoublePush",
+            "arguments": {}
+        },
+        "setButtonTriplePush": {
+            "label": "setButtonTriplePush",
+            "arguments": {}
+        },
+        "setButtonPush": {
+            "label": "setButtonPush",
+            "arguments": {}
+        },
+        "setButtonHold": {
+            "label": "setButtonHold",
+            "arguments": {}
+        }
+    }
 }

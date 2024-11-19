@@ -1,6 +1,7 @@
 {
     "tag": "en",
     "label": "Bridge",
+    "description": "The Bridge capability is a \"tagging\" capability. It defines no attributes or commands. In SmartThings terms, it represents that a Device is a bridge to other devices.",
     "attributes": {},
     "commands": {}
 }

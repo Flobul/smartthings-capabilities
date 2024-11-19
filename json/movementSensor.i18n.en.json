@@ -4,8 +4,9 @@
     "description": "Allows for the ability to read movement sensor device states",
     "attributes": {
         "supportedMovements": {
-            "label": "supportedMovements",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported movements",
+            "description": "The list of movements that the device supports. Optional, defaults to all states if not set.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         },
         "movement": {
