@@ -2,6 +2,54 @@
     "tag": "en",
     "label": "Auto Cleaning Mode",
     "attributes": {
+        "supportedAutoCleaningModes": {
+            "label": "supportedAutoCleaningModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "timedCleanDuration": {
+            "label": "timedCleanDuration",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "operatingState": {
+            "label": "operatingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "quietClean": {
+                        "label": "quietClean"
+                    },
+                    "speedClean": {
+                        "label": "speedClean"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    },
+                    "timedClean": {
+                        "label": "timedClean"
+                    },
+                    "autoClean": {
+                        "label": "autoClean"
+                    }
+                }
+            }
+        },
+        "timedCleanDurationRange": {
+            "label": "timedCleanDurationRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "supportedOperatingStates": {
+            "label": "supportedOperatingStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "progress": {
+            "label": "progress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "autoCleaningMode": {
             "label": "autoCleaningMode",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
@@ -26,5 +74,26 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setOperatingState": {
+            "label": "setOperatingState",
+            "arguments": {}
+        },
+        "stop": {
+            "label": "stop",
+            "arguments": {}
+        },
+        "setTimedCleanDuration": {
+            "label": "setTimedCleanDuration",
+            "arguments": {}
+        },
+        "start": {
+            "label": "start",
+            "arguments": {}
+        },
+        "setAutoCleaningMode": {
+            "label": "setAutoCleaningMode",
+            "arguments": {}
+        }
+    }
 }
