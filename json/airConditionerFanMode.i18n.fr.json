@@ -71,6 +71,11 @@
             "description": "Supported states for this air conditioner fan to be in",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
+        },
+        "availableAcFanModes": {
+            "label": "availableAcFanModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
         }
     },
     "commands": {
