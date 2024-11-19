@@ -81,6 +81,11 @@ jobs:
           done
           echo $PRINT > README.md
 
+     - name: "Set up git config"
+        run: |
+          git config --global user.email "flobul.jeedom@gmail.com"
+          git config --global user.name "Flobul"
+
       - name: "Create Pull Request for each modified file"
         run: |
           for file in json/*.json; do
