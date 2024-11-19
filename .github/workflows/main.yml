@@ -42,7 +42,7 @@ jobs:
             ./smartthings capabilities:translations $id $version en -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.i18n.en.json || true
           }
           cat capabilities.json | jq -c '.[]' | while read capability; do
-            if [ $count -ge 20 ]; then
+            if [ $count -ge 5 ]; then
               break
             fi
             id=$(echo $capability | jq -r '.id')
@@ -51,7 +51,7 @@ jobs:
             count=$((count+1))
           done
           cat extra_capabilities_fix.json | jq -c '.[]' | while read capa; do
-            if [ $count -ge 20 ]; then
+            if [ $count -ge 5 ]; then
               break
             fi
             id=$(echo $capa | jq -r '.id')
@@ -113,7 +113,9 @@ jobs:
             else
               git push origin $branch_name
             fi
-            gh pr create --title "Update $file" --body "Automated update for $file\n\n```diff\n$diff\n```" --base master --head $branch_name
+            if ! gh pr view --json headRefName -q .headRefName | grep -q $branch_name; then
+              gh pr create --title "Update $file" --body "Automated update for $file\n\n```diff\n$diff\n```" --base master --head $branch_name
+            fi
             git checkout master
             git branch -D $branch_name
           }
