@@ -27,5 +27,18 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "doNotDisturbOff": {
+            "label": "doNotDisturbOff",
+            "arguments": {}
+        },
+        "doNotDisturbOn": {
+            "label": "doNotDisturbOn",
+            "arguments": {}
+        },
+        "setDoNotDisturbMode": {
+            "label": "setDoNotDisturbMode",
+            "arguments": {}
+        }
+    }
 }
