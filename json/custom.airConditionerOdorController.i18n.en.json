@@ -22,5 +22,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setAirConditionerOdorControllerState": {
+            "label": "setAirConditionerOdorControllerState",
+            "arguments": {}
+        }
+    }
 }
