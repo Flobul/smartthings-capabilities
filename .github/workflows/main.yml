@@ -20,7 +20,7 @@ jobs:
           wget "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%401.8.2/smartthings-linux-x64.tar.gz"
           tar -xvf smartthings-linux-x64.tar.gz
 
-      - name: "Use first secret"
+      - name: "Set up environment variables"
         run: |
           SMARTTHINGS_TOKEN=$(echo ${{ secrets.SMARTTHINGS_TOKENS }} | head -n 1)
           echo "SMARTTHINGS_TOKEN=$SMARTTHINGS_TOKEN" >> $GITHUB_ENV
@@ -32,29 +32,34 @@ jobs:
         run: |
           mkdir -p json
           count=0
+
           process_capability() {
             local id=$1
             local version=$2
             echo "Processing $id version $version"
-            ./smartthings capabilities $id -s -j --token ${{ env.SMARTTHINGS_TOKEN }} -o json/$id.json || true
+            ./smartthings capabilities $id -s -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$id.json || true
             ./smartthings capabilities:presentation $id $version -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/${id}Presentation.json || true
             ./smartthings capabilities:translations $id $version fr -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$id.i18n.fr.json || true
             ./smartthings capabilities:translations $id $version en -j --token "${{ env.SMARTTHINGS_TOKEN }}" -o json/$id.i18n.en.json || true
           }
-          cat capabilities.json | jq -c '.[]' | while read capability; do
+
+          jq -c '.[]' capabilities.json | while read capability; do
             id=$(echo $capability | jq -r '.id')
             version=$(echo $capability | jq -r '.version')
             process_capability $id $version
             count=$((count+1))
           done
-          cat extra_capabilities_fix.json | jq -c '.[]' | while read capa; do
-            id=$(echo $capa | jq -r '.id')
-            version=$(echo $capa | jq -r '.version')
-            process_capability $id $version
-            count=$((count+1))
-          done
 
-      - name: "Print README.md"
+          if [ -f extra_capabilities_fix.json ]; then
+            jq -c '.[]' extra_capabilities_fix.json | while read capa; do
+              id=$(echo $capa | jq -r '.id')
+              version=$(echo $capa | jq -r '.version')
+              process_capability $id $version
+              count=$((count+1))
+            done
+          fi
+
+      - name: "Generate README.md"
         run: |
           PRINT="## SmartThings Capabilities\n"
           PRINT+="#### Last Update: "$(date -I)"\n"
@@ -65,32 +70,36 @@ jobs:
           PRINT+="* [Create Personal Access Token](https://account.smartthings.com/tokens)\n"
           PRINT+="* [Plugin Documentation](https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom/)\n"
           PRINT+="* [Plugin Jeedom Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4099)\n"
-          PRINT+="| Capability | Version | Status | Capability Presentation | Translation i18n\n"
+          PRINT+="| Capability | Version | Status | Capability Presentation | Translation i18n |\n"
           PRINT+="| ---- | ---- | ---- | ---- | ---- |\n\n"
-          ls json/*.json | grep -v i18n | grep -v Presentation.json | while read file; do
-            json=$(cat $file | sed 's/\\//g')
-            name=$(echo "$json" | jq -r '.name') || true
-            id=$(echo "$json" | jq -r '.id') || true
-            statuses=$(echo "$json" | jq -r '.status') || true
-            versions=$(echo "$json" | jq -r '.version') || true
+
+          for file in json/*.json; do
+            if [[ $file == *i18n* || $file == *Presentation.json ]]; then
+              continue
+            fi
+
+            json=$(cat "$file" | sed 's/\\//g')
+            name=$(echo "$json" | jq -r '.name')
+            id=$(echo "$json" | jq -r '.id')
+            statuses=$(echo "$json" | jq -r '.status')
+            versions=$(echo "$json" | jq -r '.version')
+
             presentation=""
             i18n=""
-            if [ -f json/${id}Presentation.json ]; then
-              presentation="[json](./json/${id}Presentation.json)"
-            fi
-            if [ -f json/${id}.i18n.fr.json ]; then
-              i18n="[json](./json/${id}.i18n.fr.json)"
-            fi
+            [ -f "json/${id}Presentation.json" ] && presentation="[json](./json/${id}Presentation.json)"
+            [ -f "json/${id}.i18n.fr.json" ] && i18n="[json](./json/${id}.i18n.fr.json)"
+
             PRINT+="| [$name](./json/$id.json) | $versions | $statuses | $presentation | $i18n |\n"
           done
-          echo $PRINT > README.md
+
+          echo -e "$PRINT" > README.md
 
       - name: "Set up git config"
         run: |
-          git config --global user.name "Github Actions"
+          git config --global user.name "GitHub Actions"
           git config --global user.email "flobul.jeedom@gmail.com"
 
-      - name: "Create Pull Request for each modified file"
+      - name: "Create Pull Requests"
         run: |
           git fetch origin
           git checkout master
@@ -98,65 +107,35 @@ jobs:
 
           create_pr() {
             local file=$1
-            branch_name="update-$(basename $file)"
-            git checkout -b $branch_name
-            git add $file
+            local branch_name="update-$(basename "$file")"
+            git checkout -b "$branch_name"
+            git add "$file"
             git commit -m "Update $file"
-            diff=$(git diff HEAD~1 -- $file)
+            diff=$(git diff HEAD~1 -- "$file")
             echo "$diff"
-            if git ls-remote --heads origin $branch_name | grep -q $branch_name; then
-              git push origin $branch_name --force
-            else
-              git push origin $branch_name
-            fi
-            if ! gh pr view --json headRefName -q .headRefName | grep -q $branch_name; then
-              gh pr create --title "Update $file" --body "Automated update for $file\n\n```diff\n$diff\n```" --base master --head $branch_name
-            else
-              pr_url=$(gh pr view --json url -q .url)
-              gh pr edit $pr_url --body "Automated update for $file\n\n```diff\n$diff\n```"
-            fi
-            git checkout master
-            git branch -D $branch_name
-          }
 
-          create_combined_pr() {
-            local branch_name="update-combined"
-            git checkout -b $branch_name
-            git add json/*.i18n.fr.json json/*.i18n.en.json json/*Presentation.json
-            git commit -m "Update combined files"
-            diff=$(git diff HEAD~1 -- json/*.i18n.fr.json json/*.i18n.en.json json/*Presentation.json)
-            echo "$diff"
-            if git ls-remote --heads origin $branch_name | grep -q $branch_name; then
-              git push origin $branch_name --force
+            if git ls-remote --heads origin "$branch_name" | grep -q "$branch_name"; then
+              git push origin "$branch_name" --force
             else
-              git push origin $branch_name
+              git push origin "$branch_name"
             fi
-            if ! gh pr view --json headRefName -q .headRefName | grep -q $branch_name; then
-              gh pr create --title "Update combined files" --body "Automated update for combined files\n\n```diff\n$diff\n```" --base master --head $branch_name
+
+            if ! gh pr view --json headRefName -q .headRefName | grep -q "$branch_name"; then
+              gh pr create --title "Update $file" --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" --base master --head "$branch_name"
             else
               pr_url=$(gh pr view --json url -q .url)
-              gh pr edit $pr_url --body "Automated update for combined files\n\n```diff\n$diff\n```"
+              gh pr edit "$pr_url" --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")"
             fi
+
             git checkout master
-            git branch -D $branch_name
+            git branch -D "$branch_name"
           }
 
           for file in json/*.json; do
             if [[ $file == *.i18n.fr.json || $file == *.i18n.en.json || $file == *Presentation.json ]]; then
               continue
             fi
-            if git diff --quiet HEAD -- $file; then
-              echo "No changes in $file"
-            else
-              create_pr $file
+            if ! git diff --quiet HEAD -- "$file"; then
+              create_pr "$file"
             fi
           done
-
-          # Create a combined PR for the excluded files
-          if git diff --quiet HEAD -- json/*.i18n.fr.json json/*.i18n.en.json json/*Presentation.json; then
-            echo "No changes in combined files"
-          else
-            create_combined_pr
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
