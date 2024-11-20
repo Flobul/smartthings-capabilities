@@ -139,3 +139,5 @@ jobs:
               create_pr "$file"
             fi
           done
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
