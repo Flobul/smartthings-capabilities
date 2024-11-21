@@ -11,7 +11,6 @@
                 "properties": {
                     "value": {
                         "items": {
-                            "type": "string",
                             "enum": [
                                 "none",
                                 "steaming",
@@ -21,8 +20,11 @@
                                 "dehumidifying",
                                 "delaywash",
                                 "finish",
-                                "keepFresh"
-                            ]
+                                "keepFresh",
+                                "descaling",
+                                "descalingFinish"
+                            ],
+                            "type": "string"
                         },
                         "type": "array"
                     }
@@ -39,8 +41,8 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
-                        "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                        "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$",
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -55,12 +57,12 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
                         "enum": [
                             "pause",
                             "run",
                             "stop"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -77,12 +79,12 @@
                 "properties": {
                     "value": {
                         "items": {
-                            "type": "string",
                             "enum": [
                                 "pause",
                                 "run",
                                 "stop"
-                            ]
+                            ],
+                            "type": "string"
                         },
                         "type": "array"
                     }
@@ -109,7 +111,9 @@
                             "dehumidifying",
                             "delaywash",
                             "finish",
-                            "keepFresh"
+                            "keepFresh",
+                            "descaling",
+                            "descalingFinish"
                         ]
                     }
                 },
@@ -125,9 +129,9 @@
                 "type": "object",
                 "properties": {
                     "value": {
+                        "maximum": 100,
                         "minimum": 0,
-                        "type": "integer",
-                        "maximum": 100
+                        "type": "integer"
                     },
                     "unit": {
                         "type": "string",
@@ -141,6 +145,22 @@
                 "required": [
                     "value",
                     "unit"
+                ]
+            },
+            "enumCommands": []
+        },
+        "remainingTimeStr": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "pattern": "^[0-2]{0,1}[0-9]:[0-5][0-9]$"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
                 ]
             },
             "enumCommands": []
@@ -161,30 +181,14 @@
             "setter": "setSteamClosetDelayEndTime",
             "enumCommands": []
         },
-        "remainingTimeStr": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "pattern": "^[0-2]{0,1}[0-9]:[0-5][0-9]$"
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
         "remainingTime": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
+                        "maximum": 1440,
                         "minimum": 0,
-                        "type": "integer",
-                        "maximum": 1440
+                        "type": "integer"
                     },
                     "unit": {
                         "type": "string",
@@ -223,12 +227,12 @@
                     "name": "state",
                     "optional": false,
                     "schema": {
-                        "type": "string",
                         "enum": [
                             "pause",
                             "run",
                             "stop"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 }
             ]

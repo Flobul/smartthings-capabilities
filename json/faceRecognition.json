@@ -30,6 +30,7 @@
                         }
                     }
                 },
+                "sensitive": true,
                 "additionalProperties": false,
                 "required": [
                     "value"
@@ -59,6 +60,7 @@
                         ]
                     }
                 },
+                "sensitive": true,
                 "additionalProperties": false,
                 "required": [
                     "value"
