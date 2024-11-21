@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: "Generate capabilities, presentation and translations"
+    name: "Generate capabilities, presentation, and translations"
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
@@ -131,6 +131,7 @@ jobs:
             git branch -D "$branch_name"
           }
 
+          # Process each {id}.json file individually
           for file in json/*.json; do
             if [[ $file == *.i18n.fr.json || $file == *.i18n.en.json || $file == *Presentation.json ]]; then
               continue
@@ -139,5 +140,23 @@ jobs:
               create_pr "$file"
             fi
           done
+
+          # Group PR for i18n.*.json and Presentation.json
+          if ! git diff --quiet HEAD -- json/*.i18n.*.json json/*Presentation.json; then
+            git checkout -b "update-translations-and-presentations"
+            git add json/*.i18n.*.json json/*Presentation.json
+            git commit -m "Update translations and presentations"
+            git push origin "update-translations-and-presentations"
+            gh pr create --title "Update translations and presentations" --body "Automated update for translation and presentation files." --base master --head "update-translations-and-presentations"
+          fi
+
+          # PR for README.md
+          if ! git diff --quiet HEAD -- README.md; then
+            git checkout -b "update-readme"
+            git add README.md
+            git commit -m "Update README.md"
+            git push origin "update-readme"
+            gh pr create --title "Update README.md" --body "Automated update for README.md" --base master --head "update-readme"
+          fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
