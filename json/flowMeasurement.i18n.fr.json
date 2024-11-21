@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Flow Measurement",
+    "attributes": {
+        "flowRange": {
+            "label": "flowRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "flow": {
+            "label": "flow",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

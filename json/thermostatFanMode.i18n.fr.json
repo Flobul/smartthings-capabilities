@@ -33,10 +33,12 @@
     },
     "commands": {
         "fanOn": {
+            "label": "fanOn",
             "description": "Set the fan mode to ``on``",
             "arguments": {}
         },
         "setThermostatFanMode": {
+            "label": "setThermostatFanMode",
             "description": "Set the thermostat fan mode",
             "arguments": {
                 "mode": {
@@ -59,10 +61,12 @@
             }
         },
         "fanAuto": {
+            "label": "fanAuto",
             "description": "Set the fan mode to ``auto``",
             "arguments": {}
         },
         "fanCirculate": {
+            "label": "fanCirculate",
             "description": "Set the fan mode to ``circulate``",
             "arguments": {}
         }

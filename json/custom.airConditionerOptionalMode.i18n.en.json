@@ -42,6 +42,9 @@
                     "sleep": {
                         "label": "Good sleep on"
                     },
+                    "dryComfort": {
+                        "label": "dryComfort"
+                    },
                     "longWind": {
                         "label": "longWind"
                     },

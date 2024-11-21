@@ -48,5 +48,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "resetWaterFilter": {
+            "label": "resetWaterFilter",
+            "arguments": {}
+        }
+    }
 }

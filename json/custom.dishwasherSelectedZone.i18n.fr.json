@@ -23,5 +23,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setDishwasherSelectedZone": {
+            "label": "setDishwasherSelectedZone",
+            "arguments": {}
+        }
+    }
 }

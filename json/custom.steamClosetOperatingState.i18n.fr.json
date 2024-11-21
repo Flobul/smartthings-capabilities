@@ -39,6 +39,9 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
+                    "descalingFinish": {
+                        "label": "descalingFinish"
+                    },
                     "sterilizing": {
                         "label": "Désinfection"
                     },
@@ -63,6 +66,9 @@
                     "dehumidifying": {
                         "label": "Déshumidification en cours"
                     },
+                    "descaling": {
+                        "label": "descaling"
+                    },
                     "steaming": {
                         "label": "Application de vapeur en cours"
                     }
@@ -74,13 +80,13 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
-        "steamClosetDelayEndTime": {
-            "label": "steamClosetDelayEndTime",
+        "remainingTimeStr": {
+            "label": "remainingTimeStr",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
-        "remainingTimeStr": {
-            "label": "remainingTimeStr",
+        "steamClosetDelayEndTime": {
+            "label": "steamClosetDelayEndTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
@@ -90,5 +96,14 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setSteamClosetDelayEndTime": {
+            "label": "setSteamClosetDelayEndTime",
+            "arguments": {}
+        },
+        "setSteamClosetMachineState": {
+            "label": "setSteamClosetMachineState",
+            "arguments": {}
+        }
+    }
 }

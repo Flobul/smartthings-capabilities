@@ -88,5 +88,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setDryingTemperature": {
+            "label": "setDryingTemperature",
+            "arguments": {}
+        }
+    }
 }

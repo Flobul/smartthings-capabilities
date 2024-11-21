@@ -18,6 +18,7 @@
     },
     "commands": {
         "setTemperatureLevel": {
+            "label": "setTemperatureLevel",
             "description": "Set the temperature level",
             "arguments": {
                 "temperatureLevel": {

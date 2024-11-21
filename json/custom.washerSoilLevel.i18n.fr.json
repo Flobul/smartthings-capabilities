@@ -40,5 +40,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setWasherSoilLevel": {
+            "label": "setWasherSoilLevel",
+            "arguments": {}
+        }
+    }
 }

@@ -13,7 +13,7 @@
                         "label": "Normal"
                     },
                     "alarm": {
-                        "label": "Alarm"
+                        "label": "Critical"
                     },
                     "warning": {
                         "label": "Warning"
@@ -31,7 +31,7 @@
                         "label": "Normal"
                     },
                     "alarm": {
-                        "label": "Alarm"
+                        "label": "Critical"
                     },
                     "warning": {
                         "label": "Warning"
@@ -55,7 +55,7 @@
                         "label": "Normal"
                     },
                     "alarm": {
-                        "label": "Alarm"
+                        "label": "Critical"
                     },
                     "warning": {
                         "label": "Warning"

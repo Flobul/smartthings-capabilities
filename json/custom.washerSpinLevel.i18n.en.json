@@ -88,5 +88,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setWasherSpinLevel": {
+            "label": "setWasherSpinLevel",
+            "arguments": {}
+        }
+    }
 }

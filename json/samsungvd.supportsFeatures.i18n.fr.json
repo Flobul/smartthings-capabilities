@@ -2,6 +2,11 @@
     "tag": "en",
     "label": "Supports Features",
     "attributes": {
+        "mediaOutputSupported": {
+            "label": "mediaOutputSupported",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "imeAdvSupported": {
             "label": "imeAdvSupported",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
@@ -10,6 +15,11 @@
         "wifiUpdateSupport": {
             "label": "wifiUpdateSupport",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "executableServiceList": {
+            "label": "executableServiceList",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         },
         "mobileCamSupported": {

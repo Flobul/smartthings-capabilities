@@ -13,5 +13,14 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setDryerCyclePreset": {
+            "label": "setDryerCyclePreset",
+            "arguments": {}
+        },
+        "delete": {
+            "label": "delete",
+            "arguments": {}
+        }
+    }
 }

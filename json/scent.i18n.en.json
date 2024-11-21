@@ -18,6 +18,7 @@
     },
     "commands": {
         "setScentIntensity": {
+            "label": "setScentIntensity",
             "description": "Set the intensity to the given value",
             "arguments": {
                 "intensity": {

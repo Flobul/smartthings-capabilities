@@ -1,10 +1,12 @@
 {
     "tag": "fr",
     "label": "Précipitations",
+    "description": "Allows for reading the state of precipitation from devices that report it.",
     "attributes": {
         "precipitationIntensity": {
             "label": "Précipitations",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "A human readable representation of the presence of precipitation or the precipitation intensity (values based on definitions for rainfall from U.S. N.O.A.A. or U.K. Met Office).",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "violent": {

@@ -21,6 +21,7 @@
     },
     "commands": {
         "setPlaybackShuffle": {
+            "label": "setPlaybackShuffle",
             "description": "Set the shuffle playback mode",
             "arguments": {
                 "shuffle": {

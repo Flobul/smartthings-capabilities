@@ -1,9 +1,11 @@
 {
     "tag": "fr",
     "label": "Speech Synthesis",
+    "description": "Allows for the control by speech.",
     "attributes": {},
     "commands": {
         "speak": {
+            "label": "speak",
             "description": "Speak the control phrase",
             "arguments": {
                 "phrase": {

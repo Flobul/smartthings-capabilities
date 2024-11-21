@@ -8,5 +8,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setFirmwareVersion": {
+            "label": "setFirmwareVersion",
+            "arguments": {}
+        }
+    }
 }

@@ -27,6 +27,7 @@
     },
     "commands": {
         "setHumidifierMode": {
+            "label": "setHumidifierMode",
             "description": "Set the humidifier's mode",
             "arguments": {
                 "humidifierMode": {

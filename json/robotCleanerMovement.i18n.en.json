@@ -45,6 +45,7 @@
     },
     "commands": {
         "setRobotCleanerMovement": {
+            "label": "setRobotCleanerMovement",
             "description": "Set the robot cleaner movement",
             "arguments": {
                 "mode": {

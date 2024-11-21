@@ -17,5 +17,14 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "linkDryerCycle": {
+            "label": "linkDryerCycle",
+            "arguments": {}
+        },
+        "setDryerAutoCycleLink": {
+            "label": "setDryerAutoCycleLink",
+            "arguments": {}
+        }
+    }
 }

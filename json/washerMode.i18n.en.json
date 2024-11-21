@@ -27,6 +27,7 @@
     },
     "commands": {
         "setWasherMode": {
+            "label": "setWasherMode",
             "description": "Set the washer mode",
             "arguments": {
                 "mode": {
