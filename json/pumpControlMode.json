@@ -27,7 +27,6 @@
                     "value"
                 ]
             },
-            "setter": "setControlMode",
             "enumCommands": []
         },
         "supportedControlModes": {
