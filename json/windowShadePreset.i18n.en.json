@@ -1,6 +1,7 @@
 {
     "tag": "en",
-    "label": "Window Shade Preset",
+    "label": "Preset position",
+    "description": "Allows for the control of the preset of a window shade.",
     "attributes": {},
     "commands": {
         "presetPosition": {

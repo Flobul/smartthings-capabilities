@@ -74,6 +74,7 @@
             "arguments": {}
         },
         "restoreTrack": {
+            "label": "restoreTrack",
             "description": "Restore the playlist position to the given track",
             "arguments": {
                 "trackToRestore": {
@@ -83,6 +84,7 @@
             }
         },
         "resumeTrack": {
+            "label": "resumeTrack",
             "description": "Restore the playlist position to the given track and start playback",
             "arguments": {
                 "trackToResume": {
@@ -112,6 +114,7 @@
             "arguments": {}
         },
         "setTrack": {
+            "label": "setTrack",
             "description": "Set the current track",
             "arguments": {
                 "trackToSet": {
@@ -126,6 +129,7 @@
             "arguments": {}
         },
         "playTrack": {
+            "label": "playTrack",
             "description": "Play the given track",
             "arguments": {
                 "trackToPlay": {
@@ -140,6 +144,7 @@
             "arguments": {}
         },
         "setLevel": {
+            "label": "setLevel",
             "description": "Set the level to the specified value",
             "arguments": {
                 "level": {

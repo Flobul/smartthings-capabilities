@@ -23,6 +23,7 @@
     },
     "commands": {
         "deleteZone": {
+            "label": "deleteZone",
             "description": "Delete a zone",
             "arguments": {
                 "id": {
@@ -32,6 +33,7 @@
             }
         },
         "createZone": {
+            "label": "createZone",
             "description": "Create a zone",
             "arguments": {
                 "name": {
@@ -45,6 +47,7 @@
             }
         },
         "updateZoneName": {
+            "label": "updateZoneName",
             "description": "Update a zone",
             "arguments": {
                 "name": {

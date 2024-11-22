@@ -13,5 +13,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setPlaylist": {
+            "label": "setPlaylist",
+            "arguments": {}
+        }
+    }
 }

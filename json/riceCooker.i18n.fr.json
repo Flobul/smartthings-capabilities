@@ -1040,6 +1040,7 @@
     },
     "commands": {
         "stop": {
+            "label": "stop",
             "description": "Stop the rice cooker operation",
             "arguments": {}
         },

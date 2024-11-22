@@ -96,42 +96,52 @@
     },
     "commands": {
         "setPictureMode": {
+            "label": "setPictureMode",
             "description": "Set the picture mode",
             "arguments": {}
         },
         "volumeDown": {
+            "label": "volumeDown",
             "description": "Turn the volume down",
             "arguments": {}
         },
         "setSoundMode": {
+            "label": "setSoundMode",
             "description": "Set the sound mode",
             "arguments": {}
         },
         "showMessage": {
+            "label": "showMessage",
             "description": "Set to show the message",
             "arguments": {}
         },
         "volumeUp": {
+            "label": "volumeUp",
             "description": "Turn the volume up",
             "arguments": {}
         },
         "mute": {
+            "label": "mute",
             "description": "Set the mute status",
             "arguments": {}
         },
         "unmute": {
+            "label": "unmute",
             "description": "Unmute the TV sound",
             "arguments": {}
         },
         "setVolume": {
+            "label": "setVolume",
             "description": "Set the volume",
             "arguments": {}
         },
         "off": {
+            "label": "off",
             "description": "Set the TV to off",
             "arguments": {}
         },
         "on": {
+            "label": "on",
             "description": "Set the TV to on",
             "arguments": {}
         }

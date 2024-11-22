@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Notification",
+    "label": "Affichage du texte",
+    "description": "Allows for displaying notifications on devices that allow notifications to be displayed",
     "attributes": {},
     "commands": {
         "deviceNotification": {
+            "label": "deviceNotification",
             "description": "Send a notification to the device, which will in turn be displayed by the device",
             "arguments": {
                 "notification": {

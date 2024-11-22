@@ -23,5 +23,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setWasherAutoSoftener": {
+            "label": "setWasherAutoSoftener",
+            "arguments": {}
+        }
+    }
 }

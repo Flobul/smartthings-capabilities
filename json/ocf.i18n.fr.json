@@ -102,6 +102,7 @@
     },
     "commands": {
         "postOcfCommand": {
+            "label": "postOcfCommand",
             "description": "Send raw OCF command",
             "arguments": {
                 "href": {

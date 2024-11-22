@@ -178,6 +178,11 @@
                         "key": "drainingWater",
                         "value": "{{i18n.attributes.operatingState.i18n.value.drainingWater.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "waitingForDescaling",
+                        "value": "{{i18n.attributes.operatingState.i18n.value.waitingForDescaling.label}}",
+                        "type": "active"
                     }
                 ]
             },

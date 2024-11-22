@@ -42,6 +42,7 @@
     },
     "commands": {
         "setMachineState": {
+            "label": "setMachineState",
             "description": "Set the machine state",
             "arguments": {
                 "state": {

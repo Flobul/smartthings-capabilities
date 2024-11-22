@@ -12,6 +12,7 @@
     },
     "commands": {
         "capture": {
+            "label": "capture",
             "description": "Set the buffered video capture schedule",
             "arguments": {
                 "captureTime": {

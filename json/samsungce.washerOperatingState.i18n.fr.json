@@ -3,12 +3,12 @@
     "label": "Washer Operating State",
     "attributes": {
         "washerJobState": {
-            "label": "washerJobState",
+            "label": "Lavage en cours",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "aIRinse": {
-                        "label": "Rinçage"
+                        "label": "Rinçage en cours"
                     },
                     "laundrySensing": {
                         "label": "Détection du linge"
@@ -17,22 +17,22 @@
                         "label": "Fin du cycle différé"
                     },
                     "none": {
-                        "label": "En cours"
+                        "label": "Préparation en cours"
                     },
                     "cleaningCondenser": {
                         "label": "Nettoyage en cours du condensateur"
                     },
                     "airWash": {
-                        "label": "Actualisation"
+                        "label": "Actualisation en cours"
                     },
                     "preWash": {
                         "label": "Prélavage"
                     },
                     "aISpin": {
-                        "label": "Essorage"
+                        "label": "Essorage en cours"
                     },
                     "internalCare": {
-                        "label": "Nettoyage"
+                        "label": "Séchage en cours"
                     },
                     "removingSuds": {
                         "label": "Retrait en cours de la mousse"
@@ -44,7 +44,7 @@
                         "label": "Détection des taches"
                     },
                     "rinse": {
-                        "label": "Rinçage"
+                        "label": "Rinçage en cours"
                     },
                     "freezeProtection": {
                         "label": "Mode antigel"
@@ -56,28 +56,28 @@
                         "label": "Détection de la charge"
                     },
                     "wash": {
-                        "label": "Lavage"
+                        "label": "Lavage en cours"
                     },
                     "sanitizing": {
-                        "label": "Désinfection"
+                        "label": "Stérilisation en cours"
                     },
                     "finished": {
                         "label": "Cycle terminé"
                     },
                     "drying": {
-                        "label": "Séchage"
+                        "label": "Séchage en cours"
                     },
                     "aIWash": {
-                        "label": "Lavage"
+                        "label": "Lavage en cours"
                     },
                     "spin": {
-                        "label": "Essorage"
+                        "label": "Essorage en cours"
                     },
                     "cooling": {
-                        "label": "Refroidit"
+                        "label": "Refroidissement en cours"
                     },
                     "aIDrying": {
-                        "label": "Séchage"
+                        "label": "Séchage en cours"
                     },
                     "dispenserCleaning": {
                         "label": "dispenserCleaning"
@@ -86,18 +86,18 @@
             }
         },
         "operatingState": {
-            "label": "operatingState",
+            "label": "État de l'appareil",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "running"
+                        "label": "Lavage en cours"
                     },
                     "paused": {
-                        "label": "paused"
+                        "label": "Pause"
                     },
                     "ready": {
-                        "label": "ready"
+                        "label": "Prêt"
                     }
                 }
             }
@@ -112,6 +112,11 @@
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         },
+        "scheduledPhases": {
+            "label": "scheduledPhases",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "progress": {
             "label": "progress",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
@@ -121,6 +126,89 @@
             "label": "remainingTimeStr",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
+        },
+        "washerJobPhase": {
+            "label": "washerJobPhase",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "aIRinse": {
+                        "label": "aIRinse"
+                    },
+                    "laundrySensing": {
+                        "label": "laundrySensing"
+                    },
+                    "delayWash": {
+                        "label": "delayWash"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "cleaningCondenser": {
+                        "label": "cleaningCondenser"
+                    },
+                    "airWash": {
+                        "label": "airWash"
+                    },
+                    "preWash": {
+                        "label": "preWash"
+                    },
+                    "aISpin": {
+                        "label": "aISpin"
+                    },
+                    "internalCare": {
+                        "label": "internalCare"
+                    },
+                    "removingSuds": {
+                        "label": "removingSuds"
+                    },
+                    "drumCleaning": {
+                        "label": "drumCleaning"
+                    },
+                    "soilLevelSensing": {
+                        "label": "soilLevelSensing"
+                    },
+                    "rinse": {
+                        "label": "rinse"
+                    },
+                    "freezeProtection": {
+                        "label": "freezeProtection"
+                    },
+                    "waitingToDry": {
+                        "label": "waitingToDry"
+                    },
+                    "weightSensing": {
+                        "label": "weightSensing"
+                    },
+                    "wash": {
+                        "label": "wash"
+                    },
+                    "sanitizing": {
+                        "label": "sanitizing"
+                    },
+                    "finished": {
+                        "label": "finished"
+                    },
+                    "drying": {
+                        "label": "drying"
+                    },
+                    "aIWash": {
+                        "label": "aIWash"
+                    },
+                    "spin": {
+                        "label": "spin"
+                    },
+                    "cooling": {
+                        "label": "cooling"
+                    },
+                    "aIDrying": {
+                        "label": "aIDrying"
+                    },
+                    "dispenserCleaning": {
+                        "label": "dispenserCleaning"
+                    }
+                }
+            }
         },
         "operationTime": {
             "label": "operationTime",
@@ -133,5 +221,30 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "resume": {
+            "label": "resume",
+            "arguments": {}
+        },
+        "cancel": {
+            "label": "Annuler le cycle",
+            "arguments": {}
+        },
+        "start": {
+            "label": "Lancer le cycle",
+            "arguments": {}
+        },
+        "estimateOperationTime": {
+            "label": "estimateOperationTime",
+            "arguments": {}
+        },
+        "setDelayEnd": {
+            "label": "setDelayEnd",
+            "arguments": {}
+        },
+        "pause": {
+            "label": "Mettre en pause le cycle",
+            "arguments": {}
+        }
+    }
 }

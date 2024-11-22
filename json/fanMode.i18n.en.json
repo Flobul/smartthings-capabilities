@@ -1,10 +1,12 @@
 {
     "tag": "en",
     "label": "Fan mode",
+    "description": "Maintains and sets the state of a fan",
     "attributes": {
         "fanMode": {
             "label": "Fan mode",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "The current mode of the fan, an enum of off, low, medium, high, or auto",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "auto": {
@@ -26,13 +28,16 @@
             }
         },
         "supportedFanModes": {
-            "label": "supportedFanModes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "supported fan modes",
+            "description": "Supported states for this fan to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "setFanMode": {
+            "label": "setFanMode",
+            "description": "Set the fan's mode",
             "arguments": {
                 "fanMode": {
                     "i18n": {
@@ -48,10 +53,26 @@
                         "medium": {
                             "label": "Medium"
                         },
+                        "off description": {
+                            "label": "The fan is off"
+                        },
+                        "low description": {
+                            "label": "The fan is on low"
+                        },
+                        "medium description": {
+                            "label": "The fan is on medium"
+                        },
+                        "auto description": {
+                            "label": "The fan is on auto"
+                        },
                         "off": {
                             "label": "Off"
+                        },
+                        "high description": {
+                            "label": "The fan is on high"
                         }
-                    }
+                    },
+                    "description": "The fan mode"
                 }
             }
         }

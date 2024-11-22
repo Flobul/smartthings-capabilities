@@ -34,5 +34,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setWasherRinseCycles": {
+            "label": "setWasherRinseCycles",
+            "arguments": {}
+        }
+    }
 }

@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setSteamClosetWrinklePrevent": {
+            "label": "setSteamClosetWrinklePrevent",
+            "arguments": {}
+        }
+    }
 }

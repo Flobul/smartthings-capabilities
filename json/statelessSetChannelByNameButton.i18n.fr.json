@@ -1,9 +1,11 @@
 {
     "tag": "fr",
-    "label": "Stateless Set Channel By Name Button",
+    "label": "Set Channel By Name Button",
+    "description": "Allows for the setting of a tv channel by channel name",
     "attributes": {},
     "commands": {
         "setChannelByName": {
+            "label": "setChannelByName",
             "description": "Emulate the setting of the channel by specifying the channel name",
             "arguments": {
                 "channel": {

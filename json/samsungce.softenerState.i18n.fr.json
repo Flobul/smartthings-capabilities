@@ -35,5 +35,22 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setInitialAmount": {
+            "label": "setInitialAmount",
+            "arguments": {}
+        },
+        "setRemainingAmount": {
+            "label": "setRemainingAmount",
+            "arguments": {}
+        },
+        "setDosage": {
+            "label": "setDosage",
+            "arguments": {}
+        },
+        "setSoftenerType": {
+            "label": "setSoftenerType",
+            "arguments": {}
+        }
+    }
 }

@@ -18,18 +18,22 @@
     },
     "commands": {
         "channelDown": {
+            "label": "channelDown",
             "description": "Move the TV channel down",
             "arguments": {}
         },
         "setTvChannel": {
+            "label": "setTvChannel",
             "description": "Set the TV channel",
             "arguments": {}
         },
         "channelUp": {
+            "label": "channelUp",
             "description": "Move the TV channel up",
             "arguments": {}
         },
         "setTvChannelName": {
+            "label": "setTvChannelName",
             "description": "Set the TV channel Name",
             "arguments": {}
         }

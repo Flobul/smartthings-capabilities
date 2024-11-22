@@ -1,6 +1,6 @@
 {
     "tag": "fr",
-    "label": "Ambient",
+    "label": "Ambient Mode",
     "attributes": {},
     "commands": {
         "setAmbientOn": {

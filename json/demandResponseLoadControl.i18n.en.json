@@ -18,10 +18,12 @@
     },
     "commands": {
         "overrideDrlcAction": {
+            "label": "overrideDrlcAction",
             "description": "Override the requested load reduction request",
             "arguments": {}
         },
         "requestDrlcAction": {
+            "label": "requestDrlcAction",
             "description": "Request an appliance to reduce its load to aleviate power grid demmand",
             "arguments": {
                 "duration": {
