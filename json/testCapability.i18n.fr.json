@@ -1,6 +1,7 @@
 {
     "tag": "en",
     "label": "Test Capability",
+    "description": "test capability",
     "attributes": {},
     "commands": {}
 }

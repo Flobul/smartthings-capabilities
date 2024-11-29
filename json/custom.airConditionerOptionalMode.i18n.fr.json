@@ -42,6 +42,9 @@
                     "sleep": {
                         "label": "Nuit sereine activée"
                     },
+                    "dryComfort": {
+                        "label": "dryComfort"
+                    },
                     "longWind": {
                         "label": "longWind"
                     },

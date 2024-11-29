@@ -31,7 +31,7 @@
             "i18n": {
                 "value": {
                     "overTemperature": {
-                        "label": "overTemperature"
+                        "label": "Over temperature"
                     },
                     "emergencyStop": {
                         "label": "Emergency stop"
@@ -85,7 +85,7 @@
             }
         },
         "state": {
-            "label": "EVSE state",
+            "label": "Charging point state",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {

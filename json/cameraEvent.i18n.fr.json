@@ -1,10 +1,12 @@
 {
     "tag": "fr",
-    "label": "Camera Event",
+    "label": "Événements d'appareil photo",
+    "description": "Set of camera events",
     "attributes": {
         "event": {
-            "label": "Camera Event",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Événements d'appareil photo",
+            "description": "An event notification that can occur on a camera.",
+            "displayTemplate": "{{device.label}} {{attribute}} : {{value}}",
             "i18n": {
                 "value": {
                     "loitering": {
@@ -50,7 +52,7 @@
                         "label": "Geste des quatre doigts détecté"
                     },
                     "lensObstruction": {
-                        "label": "lensObstruction"
+                        "label": "Obstruction de l'objectif"
                     },
                     "pet": {
                         "label": "Animal détecté"
@@ -59,9 +61,61 @@
             }
         },
         "supportedEvents": {
-            "label": "supportedEvents",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
+            "label": "Supported camera events",
+            "description": "Supported camera events",
+            "displayTemplate": "{{device.label}} {{attribute}} : {{value}}",
+            "i18n": {
+                "value": {
+                    "loitering": {
+                        "label": "Camera detects loitering"
+                    },
+                    "gestureOk": {
+                        "label": "Camera detects OK gesture"
+                    },
+                    "package": {
+                        "label": "Camera detects package"
+                    },
+                    "gestureV": {
+                        "label": "Camera detects victory gesture"
+                    },
+                    "loiteringDisappear": {
+                        "label": "Camera detects loitering disappearance"
+                    },
+                    "gestureFive": {
+                        "label": "Camera detects five fingers gesture"
+                    },
+                    "vehicle": {
+                        "label": "Camera detects vehicle"
+                    },
+                    "vehicleDisappear": {
+                        "label": "Camera detects vehicle disappearance"
+                    },
+                    "petDisappear": {
+                        "label": "Camera detects pet disappearance"
+                    },
+                    "gestureGun": {
+                        "label": "Camera detects gun gesture"
+                    },
+                    "person": {
+                        "label": "Camera detects person"
+                    },
+                    "packageDisappear": {
+                        "label": "Camera detects missing package"
+                    },
+                    "personDisappear": {
+                        "label": "Camera detects person disappearance"
+                    },
+                    "gestureFour": {
+                        "label": "Camera detects four fingers gesture"
+                    },
+                    "lensObstruction": {
+                        "label": "Camera detects lens obstruction"
+                    },
+                    "pet": {
+                        "label": "Camera detects pet"
+                    }
+                }
+            }
         }
     },
     "commands": {}

@@ -1,6 +1,7 @@
 {
     "tag": "fr",
-    "label": "Momentary",
+    "label": "Momentané",
+    "description": "Allows for the control of a momentary switch device",
     "attributes": {},
     "commands": {
         "push": {

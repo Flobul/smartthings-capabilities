@@ -13,5 +13,18 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "enableAlarm": {
+            "label": "enableAlarm",
+            "arguments": {}
+        },
+        "setOrderThreshold": {
+            "label": "setOrderThreshold",
+            "arguments": {}
+        },
+        "disableAlarm": {
+            "label": "disableAlarm",
+            "arguments": {}
+        }
+    }
 }

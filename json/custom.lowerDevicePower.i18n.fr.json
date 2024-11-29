@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setPowerState": {
+            "label": "setPowerState",
+            "arguments": {}
+        }
+    }
 }

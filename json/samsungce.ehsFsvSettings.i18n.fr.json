@@ -8,5 +8,14 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setValue": {
+            "label": "setValue",
+            "arguments": {}
+        },
+        "refresh": {
+            "label": "refresh",
+            "arguments": {}
+        }
+    }
 }

@@ -79,5 +79,14 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setAmount": {
+            "label": "setAmount",
+            "arguments": {}
+        },
+        "setDensity": {
+            "label": "setDensity",
+            "arguments": {}
+        }
+    }
 }

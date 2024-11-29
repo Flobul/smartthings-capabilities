@@ -24,6 +24,11 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
+        "supportedSecuritySystemCommands": {
+            "label": "supportedSecuritySystemCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "securitySystemStatus": {
             "label": "Security mode",
             "description": "The current arming status of the security system",
@@ -41,6 +46,11 @@
                     }
                 }
             }
+        },
+        "supportedSecuritySystemStatuses": {
+            "label": "supportedSecuritySystemStatuses",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
         }
     },
     "commands": {
