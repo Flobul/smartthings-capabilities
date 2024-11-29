@@ -94,5 +94,22 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setOperationTime": {
+            "label": "setOperationTime",
+            "arguments": {}
+        },
+        "stop": {
+            "label": "stop",
+            "arguments": {}
+        },
+        "start": {
+            "label": "start",
+            "arguments": {}
+        },
+        "pause": {
+            "label": "pause",
+            "arguments": {}
+        }
+    }
 }

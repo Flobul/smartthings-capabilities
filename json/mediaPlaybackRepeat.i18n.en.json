@@ -24,6 +24,7 @@
     },
     "commands": {
         "setPlaybackRepeatMode": {
+            "label": "setPlaybackRepeatMode",
             "description": "Set the playback repeat mode",
             "arguments": {
                 "mode": {

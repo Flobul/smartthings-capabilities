@@ -30,6 +30,9 @@
                     "dryair": {
                         "label": "Air sec"
                     },
+                    "radiatingfloorandhotair": {
+                        "label": "radiatingfloorandhotair"
+                    },
                     "emergencyheatactive": {
                         "label": "Emergency Heat Active"
                     },
@@ -41,6 +44,9 @@
                     },
                     "in": {
                         "label": "À l'intérieur"
+                    },
+                    "coolingfloorandcoldair": {
+                        "label": "coolingfloorandcoldair"
                     },
                     "autocool": {
                         "label": "Refroidissement automatique"
@@ -105,6 +111,9 @@
                     "heatingoff": {
                         "label": "Chauffage éteint"
                     },
+                    "radiatingfloor": {
+                        "label": "radiatingfloor"
+                    },
                     "bath": {
                         "label": "Bain"
                     },
@@ -133,7 +142,7 @@
                         "label": "Chauffage en économie d'énergie"
                     },
                     "comfort": {
-                        "label": "Refroidissement confortable"
+                        "label": "Confort"
                     },
                     "off": {
                         "label": "Désactivé"
@@ -171,14 +180,17 @@
     },
     "commands": {
         "heat": {
+            "label": "heat",
             "description": "Set the mode to ``heat``",
             "arguments": {}
         },
         "auto": {
+            "label": "auto",
             "description": "Set the mode to ``auto``",
             "arguments": {}
         },
         "setThermostatMode": {
+            "label": "setThermostatMode",
             "description": "Set the thermostat mode",
             "arguments": {
                 "mode": {
@@ -310,7 +322,7 @@
                             "label": "Désactivé"
                         },
                         "comfort": {
-                            "label": "Refroidissement confortable"
+                            "label": "Confort"
                         },
                         "home": {
                             "label": "Home"
@@ -339,14 +351,17 @@
             }
         },
         "cool": {
+            "label": "cool",
             "description": "Set the mode to ``cool``",
             "arguments": {}
         },
         "emergencyHeat": {
+            "label": "emergencyHeat",
             "description": "Set the mode to ``emergency heat``",
             "arguments": {}
         },
         "off": {
+            "label": "off",
             "description": "Set the mode to ``off``",
             "arguments": {}
         }

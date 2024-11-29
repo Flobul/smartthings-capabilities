@@ -18,6 +18,7 @@
     },
     "commands": {
         "setTemperatureSetpoint": {
+            "label": "setTemperatureSetpoint",
             "description": "Set the temperature setpoint",
             "arguments": {
                 "setpoint": {

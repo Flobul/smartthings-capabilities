@@ -82,5 +82,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setWaterLevel": {
+            "label": "setWaterLevel",
+            "arguments": {}
+        }
+    }
 }

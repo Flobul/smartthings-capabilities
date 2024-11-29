@@ -46,6 +46,9 @@
                     "cooling": {
                         "label": "cooling"
                     },
+                    "dryingautoreleasedelay": {
+                        "label": "dryingautoreleasedelay"
+                    },
                     "finish": {
                         "label": "Finition"
                     },

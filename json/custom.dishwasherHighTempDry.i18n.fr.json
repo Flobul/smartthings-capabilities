@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setDishwasherHighTempDry": {
+            "label": "setDishwasherHighTempDry",
+            "arguments": {}
+        }
+    }
 }

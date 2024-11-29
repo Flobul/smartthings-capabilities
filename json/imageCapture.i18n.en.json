@@ -23,8 +23,17 @@
         }
     },
     "commands": {
+        "uploadComplete": {
+            "label": "uploadComplete",
+            "arguments": {}
+        },
         "take": {
+            "label": "take",
             "description": "Capture an image",
+            "arguments": {}
+        },
+        "uploadFailed": {
+            "label": "uploadFailed",
             "arguments": {}
         }
     }

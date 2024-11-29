@@ -45,6 +45,9 @@
                     "mediaPlaying": {
                         "label": "mediaPlaying"
                     },
+                    "waitingForDescaling": {
+                        "label": "Waiting for descaling"
+                    },
                     "welcoming": {
                         "label": "Welcoming child"
                     },
@@ -104,6 +107,9 @@
                     },
                     "monitoringAutomation": {
                         "label": "monitoringAutomation"
+                    },
+                    "drainingWater": {
+                        "label": "Emptying water"
                     },
                     "exploring": {
                         "label": "Exploring"
@@ -168,6 +174,9 @@
                     },
                     "doNotDisturb": {
                         "label": "doNotDisturb"
+                    },
+                    "supplyingWater": {
+                        "label": "supplyingWater"
                     },
                     "dustFulled": {
                         "label": "dustFulled"

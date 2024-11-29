@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setDishwasherSpeedBooster": {
+            "label": "setDishwasherSpeedBooster",
+            "arguments": {}
+        }
+    }
 }

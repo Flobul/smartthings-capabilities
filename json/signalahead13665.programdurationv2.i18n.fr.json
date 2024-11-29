@@ -8,5 +8,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setProgramDuration": {
+            "label": "setProgramDuration",
+            "arguments": {}
+        }
+    }
 }

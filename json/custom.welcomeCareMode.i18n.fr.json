@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "turnWelcomeCareOn": {
+            "label": "turnWelcomeCareOn",
+            "arguments": {}
+        }
+    }
 }

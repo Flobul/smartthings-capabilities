@@ -23,5 +23,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setDryerCycle": {
+            "label": "setDryerCycle",
+            "arguments": {}
+        }
+    }
 }

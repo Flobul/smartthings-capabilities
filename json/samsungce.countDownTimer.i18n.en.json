@@ -30,5 +30,26 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "resume": {
+            "label": "resume",
+            "arguments": {}
+        },
+        "cancel": {
+            "label": "cancel",
+            "arguments": {}
+        },
+        "start": {
+            "label": "start",
+            "arguments": {}
+        },
+        "setStartValue": {
+            "label": "setStartValue",
+            "arguments": {}
+        },
+        "pause": {
+            "label": "pause",
+            "arguments": {}
+        }
+    }
 }

@@ -17,5 +17,10 @@
             }
         }
     },
-    "commands": {}
+    "commands": {
+        "setRobotCleanerSmartTurboMode": {
+            "label": "setRobotCleanerSmartTurboMode",
+            "arguments": {}
+        }
+    }
 }

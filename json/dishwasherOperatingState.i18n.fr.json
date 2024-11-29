@@ -27,6 +27,11 @@
                 }
             }
         },
+        "progress": {
+            "label": "progress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "supportedMachineStates": {
             "label": "Statut de machine pris en charge",
             "description": "Operating states supported by the dishwasher machine",
@@ -78,6 +83,7 @@
     },
     "commands": {
         "setMachineState": {
+            "label": "setMachineState",
             "description": "Set the dishwasher machine state",
             "arguments": {
                 "state": {

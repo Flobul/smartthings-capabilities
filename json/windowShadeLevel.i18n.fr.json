@@ -12,6 +12,7 @@
     },
     "commands": {
         "setShadeLevel": {
+            "label": "setShadeLevel",
             "description": "Set the shade level to the given value.",
             "arguments": {}
         }

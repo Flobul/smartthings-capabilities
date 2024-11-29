@@ -10,7 +10,7 @@
             "i18n": {
                 "value": {
                     "extraSilence": {
-                        "label": "Extra Silence"
+                        "label": "Extra silence"
                     },
                     "silence": {
                         "label": "Quiet"
@@ -27,12 +27,13 @@
     },
     "commands": {
         "setRobotCleanerTurboMode": {
+            "label": "setRobotCleanerTurboMode",
             "description": "Set the robot cleaner turbo mode",
             "arguments": {
                 "mode": {
                     "i18n": {
                         "extraSilence": {
-                            "label": "Extra Silence"
+                            "label": "Extra silence"
                         },
                         "silence": {
                             "label": "Quiet"

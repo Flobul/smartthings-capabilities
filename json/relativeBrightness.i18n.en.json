@@ -7,7 +7,13 @@
             "label": "Illuminance level",
             "description": "A numerical representation of the relative brightness intensity taken by the device. Example references: 0 = complete dark, 1 = overcast night, 2 = full moon, 3 = deep twilight, 4 = twilight, 5 = very dark day, 6 = overcast day, 7 = full daylight",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}} {{unit}}",
-            "i18n": {}
+            "i18n": {
+                "unit": {
+                    "level": {
+                        "label": "Level"
+                    }
+                }
+            }
         }
     },
     "commands": {}
