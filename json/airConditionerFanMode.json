@@ -12,20 +12,12 @@
                     "value": {
                         "title": "String",
                         "type": "string",
-                        "enum":[
-                            "auto",
-                            "low",
-                            "medium",
-                            "high",
-                            "turbo"
-                        ],
                         "maxLength": 255
                     }
                 },
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setFanMode",
             "enumCommands": []
         },
         "supportedAcFanModes": {
@@ -35,21 +27,29 @@
                     "value": {
                         "type": "array",
                         "items": {
-                            "type": "string",
-                                "enum":[
-                                "auto",
-                                "low",
-                                "medium",
-                                "high",
-                                "turbo"
-                            ]
+                            "type": "string"
                         }
                     }
                 },
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setFanMode",
+            "enumCommands": []
+        },
+        "availableAcFanModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
             "enumCommands": []
         }
     },
@@ -61,15 +61,8 @@
                     "name": "fanMode",
                     "optional": false,
                     "schema": {
-                        "title": "fanMode",
+                        "title": "String",
                         "type": "string",
-                        "enum":[
-                            "auto",
-                            "low",
-                            "medium",
-                            "high",
-                            "turbo"
-                        ],
                         "maxLength": 255
                     }
                 }
