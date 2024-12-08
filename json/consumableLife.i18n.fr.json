@@ -1,0 +1,39 @@
+{
+    "tag": "en",
+    "label": "Consumable Life",
+    "attributes": {
+        "lifespan": {
+            "label": "lifespan",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "type": {
+            "label": "type",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "filter": {
+                        "label": "filter"
+                    },
+                    "diffuser": {
+                        "label": "diffuser"
+                    },
+                    "desiccant": {
+                        "label": "desiccant"
+                    }
+                }
+            }
+        },
+        "startDate": {
+            "label": "startDate",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "reset": {
+            "label": "reset",
+            "arguments": {}
+        }
+    }
+}

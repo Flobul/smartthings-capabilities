@@ -1,15 +1,18 @@
 {
     "tag": "en",
-    "label": "Flow Measurement",
+    "label": "Flow measurement",
+    "description": "Measure flow rate",
     "attributes": {
         "flowRange": {
-            "label": "flowRange",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "flow range",
+            "description": "Constraints on the flow value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
         "flow": {
-            "label": "flow",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Flow measurement",
+            "description": "The measured flow rate",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}{{unit}}",
             "i18n": {}
         }
     },

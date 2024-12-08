@@ -1,0 +1,56 @@
+{
+    "tag": "en",
+    "label": "Pet Activity",
+    "attributes": {
+        "supportedPetActivities": {
+            "label": "supportedPetActivities",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "petActivity": {
+            "label": "petActivity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "resting": {
+                        "label": "resting"
+                    },
+                    "idle": {
+                        "label": "idle"
+                    },
+                    "pooping": {
+                        "label": "pooping"
+                    },
+                    "walking": {
+                        "label": "walking"
+                    },
+                    "meowing": {
+                        "label": "meowing"
+                    },
+                    "drinkingWater": {
+                        "label": "drinkingWater"
+                    },
+                    "playing": {
+                        "label": "playing"
+                    },
+                    "barking": {
+                        "label": "barking"
+                    },
+                    "eating": {
+                        "label": "eating"
+                    },
+                    "sleeping": {
+                        "label": "sleeping"
+                    },
+                    "peeing": {
+                        "label": "peeing"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

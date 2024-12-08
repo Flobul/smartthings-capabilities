@@ -29,6 +29,12 @@
                     }
                 }
             }
+        },
+        "supportedDishwasherModes": {
+            "label": "supported dishwasher modes",
+            "description": "The modes supported by this dishwasher",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {}
         }
     },
     "commands": {

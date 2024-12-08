@@ -22,6 +22,11 @@
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         },
+        "remotelessSupported": {
+            "label": "remotelessSupported",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "mobileCamSupported": {
             "label": "mobileCamSupported",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",

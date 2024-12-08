@@ -1,17 +1,19 @@
 {
-    "tag": "en",
-    "label": "Switch State",
+    "tag": "fr",
+    "label": "Marche",
+    "description": "Allows reading the value of switch state of device",
     "attributes": {
         "switchState": {
-            "label": "switchState",
+            "label": "Marche",
+            "description": "A string representation of whether the switch is on or off",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "off": {
-                        "label": "off"
+                        "label": "Désactivé"
                     },
                     "on": {
-                        "label": "on"
+                        "label": "Activé"
                     }
                 }
             }

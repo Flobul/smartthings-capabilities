@@ -25,8 +25,9 @@
             "i18n": {}
         },
         "supportedSecuritySystemCommands": {
-            "label": "supportedSecuritySystemCommands",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "supported security system commands",
+            "description": "The complete list of security system commands that are fully supported by a given device\n",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         },
         "securitySystemStatus": {
@@ -48,8 +49,9 @@
             }
         },
         "supportedSecuritySystemStatuses": {
-            "label": "supportedSecuritySystemStatuses",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "supported security system statuses",
+            "description": "The complete list of security system statuses that are fully supported by a given device\n",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         }
     },
