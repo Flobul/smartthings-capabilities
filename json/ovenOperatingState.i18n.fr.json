@@ -16,7 +16,7 @@
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "Cuisson"
+                        "label": "En marche"
                     },
                     "paused": {
                         "label": "Mis en pause"
@@ -131,13 +131,13 @@
                 "state": {
                     "i18n": {
                         "running": {
-                            "label": "Cuisson"
+                            "label": "Lancer"
                         },
                         "ready": {
-                            "label": "Prêt"
+                            "label": "Annuler"
                         },
                         "pause": {
-                            "label": "Mis en pause"
+                            "label": "Pause"
                         }
                     },
                     "description": "Set the oven to this state"

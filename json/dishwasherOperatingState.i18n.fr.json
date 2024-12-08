@@ -16,20 +16,21 @@
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "Arrêté"
+                        "label": "Prêt"
                     },
                     "run": {
-                        "label": "Séchage"
+                        "label": "En marche"
                     },
                     "pause": {
-                        "label": "Mis en pause"
+                        "label": "En pause"
                     }
                 }
             }
         },
         "progress": {
             "label": "progress",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "The percentage complete for the dishwasher job",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}%",
             "i18n": {}
         },
         "supportedMachineStates": {
@@ -89,13 +90,13 @@
                 "state": {
                     "i18n": {
                         "stop": {
-                            "label": "Arrêté"
+                            "label": "Annuler"
                         },
                         "run": {
-                            "label": "Séchage"
+                            "label": "Lancer"
                         },
                         "pause": {
-                            "label": "Mis en pause"
+                            "label": "Pause"
                         }
                     },
                     "description": "Set the dishwasher machine in an operational state, pause, run or stop"

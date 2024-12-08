@@ -1,19 +1,19 @@
 {
-    "tag": "en",
-    "label": "Grid State",
+    "tag": "fr",
+    "label": "État du réseau",
     "description": "Shows whether the device is connected to the utility power grid",
     "attributes": {
         "grid": {
-            "label": "contact",
+            "label": "État du réseau",
             "description": "The current state of the contact sensor",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "OnGrid": {
-                        "label": "On Grid"
+                        "label": "Sur réseau"
                     },
                     "OffGrid": {
-                        "label": "Off Grid"
+                        "label": "Hors réseau"
                     }
                 }
             }

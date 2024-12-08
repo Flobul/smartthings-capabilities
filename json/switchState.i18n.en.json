@@ -1,17 +1,19 @@
 {
     "tag": "en",
-    "label": "Switch State",
+    "label": "Power",
+    "description": "Allows reading the value of switch state of device",
     "attributes": {
         "switchState": {
-            "label": "switchState",
+            "label": "Power",
+            "description": "A string representation of whether the switch is on or off",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "off": {
-                        "label": "off"
+                        "label": "Off"
                     },
                     "on": {
-                        "label": "on"
+                        "label": "On"
                     }
                 }
             }
