@@ -29,6 +29,31 @@
             },
             "setter": "setDishwasherMode",
             "enumCommands": []
+        },
+        "supportedDishwasherModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "DishwasherMode",
+                            "type": "string",
+                            "enum": [
+                                "eco",
+                                "intense",
+                                "auto",
+                                "quick",
+                                "rinse",
+                                "dry"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
         }
     },
     "commands": {
