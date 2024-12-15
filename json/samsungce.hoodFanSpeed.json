@@ -33,7 +33,6 @@
                     "value"
                 ]
             },
-            "setter": "setHoodFanSpeed",
             "enumCommands": []
         },
         "supportedHoodFanSpeed": {
