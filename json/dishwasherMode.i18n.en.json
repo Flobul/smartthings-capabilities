@@ -18,11 +18,26 @@
                     "quick": {
                         "label": "Quick"
                     },
+                    "superClean": {
+                        "label": "SuperClean"
+                    },
+                    "daily": {
+                        "label": "Daily"
+                    },
+                    "brightening": {
+                        "label": "Brightening"
+                    },
                     "dry": {
                         "label": "Dry"
                     },
+                    "prewash": {
+                        "label": "Prewash"
+                    },
                     "rinse": {
                         "label": "Rinse"
+                    },
+                    "smart": {
+                        "label": "Smart"
                     },
                     "intense": {
                         "label": "Intense"
@@ -53,8 +68,23 @@
                         "auto": {
                             "label": "Auto"
                         },
+                        "superClean": {
+                            "label": "SuperClean"
+                        },
+                        "brightening": {
+                            "label": "Brightening"
+                        },
+                        "daily": {
+                            "label": "Daily"
+                        },
                         "dry": {
                             "label": "Dry"
+                        },
+                        "prewash": {
+                            "label": "Prewash"
+                        },
+                        "smart": {
+                            "label": "Smart"
                         },
                         "rinse": {
                             "label": "Rinse"
@@ -63,7 +93,7 @@
                             "label": "Intense"
                         }
                     },
-                    "description": "Set the dishwasher mode to \"eco\", \"intense\", \"auto\", \"quick\", \"rinse\", or \"dry\" mode"
+                    "description": "Set the dishwasher mode to \"eco\", \"intense\", \"auto\", \"quick\", \"rinse\", \"dry\", \"smart\", \"daily\", \"superClean\", \"brightening\" or \"prewash\" mode"
                 }
             }
         }

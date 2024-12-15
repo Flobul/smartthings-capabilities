@@ -21,8 +21,14 @@
                     "SteamRoast": {
                         "label": "Steam Roast"
                     },
+                    "Descale": {
+                        "label": "Descale"
+                    },
                     "Conventional": {
                         "label": "Conventional"
+                    },
+                    "StrongSteam": {
+                        "label": "Strong Steam"
                     },
                     "BottomHeat": {
                         "label": "Bottom Heat"
@@ -84,6 +90,9 @@
                     "defrosting": {
                         "label": "Defrosting"
                     },
+                    "Rinse": {
+                        "label": "Rinse"
+                    },
                     "grill": {
                         "label": "Grill"
                     },
@@ -104,17 +113,92 @@
             "arguments": {
                 "mode": {
                     "i18n": {
-                        "warming": {
-                            "label": "Warming"
+                        "Microwave": {
+                            "label": "Microwave"
+                        },
+                        "SteamRoast": {
+                            "label": "Steam Roast"
+                        },
+                        "Descale": {
+                            "label": "Descale"
+                        },
+                        "Conventional": {
+                            "label": "Conventional"
+                        },
+                        "StrongSteam": {
+                            "label": "Strong Steam"
+                        },
+                        "BottomHeat": {
+                            "label": "Bottom Heat"
+                        },
+                        "MWplusHotBlast2": {
+                            "label": "Microwave + Hot Blast 2"
+                        },
+                        "SteamBake": {
+                            "label": "Steam Bake"
                         },
                         "heating": {
                             "label": "Heating"
                         },
+                        "SlimStrong": {
+                            "label": "Slim Strong"
+                        },
+                        "Others": {
+                            "label": "Others"
+                        },
+                        "MWplusHotBlast": {
+                            "label": "Microwave + Hot Blast"
+                        },
+                        "ConvectionBake": {
+                            "label": "Convection Bake"
+                        },
+                        "Bake": {
+                            "label": "Bake"
+                        },
+                        "SteamBottomHeatplusConvection": {
+                            "label": "Steam Bottom Heat + Convection"
+                        },
+                        "SteamCook": {
+                            "label": "Steam Cook"
+                        },
+                        "Dehydrate": {
+                            "label": "Dehydrate"
+                        },
+                        "SlowCook": {
+                            "label": "Slow Cook"
+                        },
+                        "Broil": {
+                            "label": "Broil"
+                        },
+                        "Proof": {
+                            "label": "Proof"
+                        },
+                        "warming": {
+                            "label": "Warming"
+                        },
+                        "ConvectionBroil": {
+                            "label": "Convection Broil"
+                        },
+                        "MWplusGrill": {
+                            "label": "Microwave + Grill"
+                        },
+                        "ConvectionRoast": {
+                            "label": "Convection Roast"
+                        },
                         "defrosting": {
                             "label": "Defrosting"
                         },
+                        "Rinse": {
+                            "label": "Rinse"
+                        },
                         "grill": {
                             "label": "Grill"
+                        },
+                        "SlimMiddle": {
+                            "label": "Slim Middle"
+                        },
+                        "MWplusConvection": {
+                            "label": "Microwave + Convection"
                         }
                     },
                     "description": "The mode to which oven operation should be set to"

@@ -3,6 +3,12 @@
     "label": "Température du four",
     "description": "Allows for the control of the oven set point.",
     "attributes": {
+        "ovenSetpointRange": {
+            "label": "Oven setpoint range",
+            "description": "User Interface constraints on the oven setpoint value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
+            "i18n": {}
+        },
         "ovenSetpoint": {
             "label": "Température du four",
             "description": "Current value of the oven set point",

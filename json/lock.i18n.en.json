@@ -4,13 +4,15 @@
     "description": "Allow for the control of a lock device",
     "attributes": {
         "supportedUnlockDirections": {
-            "label": "supportedUnlockDirections",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported unlock directions",
+            "description": "The list of direction that the device could be unlocked from",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         },
         "supportedLockValues": {
-            "label": "supportedLockValues",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported lock values",
+            "description": "The list of states that the lock can be in",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         },
         "lock": {
@@ -26,7 +28,7 @@
                         "label": "Not fully locked"
                     },
                     "unlatched": {
-                        "label": "unlatched"
+                        "label": "Unlatched"
                     },
                     "locked": {
                         "label": "Locked"
@@ -41,8 +43,9 @@
             }
         },
         "supportedLockCommands": {
-            "label": "supportedLockCommands",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported lock commands",
+            "description": "The list of commands supported by the lock",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         }
     },
@@ -53,7 +56,8 @@
             "arguments": {}
         },
         "unlatch": {
-            "label": "unlatch",
+            "label": "Unlatch",
+            "description": "Unlatch the device",
             "arguments": {}
         },
         "lock": {
