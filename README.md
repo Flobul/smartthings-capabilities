@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2024-12-01
+#### Last Update: 2024-12-15
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -56,7 +56,7 @@
 | [Carbon Monoxide Health Concern](./json/carbonMonoxideHealthConcern.json) | 1 | proposed | [json](./json/carbonMonoxideHealthConcernPresentation.json) | [json](./json/carbonMonoxideHealthConcern.i18n.fr.json) |
 | [Carbon Monoxide Measurement](./json/carbonMonoxideMeasurement.json) | 1 | live | [json](./json/carbonMonoxideMeasurementPresentation.json) | [json](./json/carbonMonoxideMeasurement.i18n.fr.json) |
 | [Charge Point State](./json/chargePointState.json) | 1 | proposed | [json](./json/chargePointStatePresentation.json) | [json](./json/chargePointState.i18n.fr.json) |
-| [Charging State](./json/chargingState.json) | 1 | proposed |  | [json](./json/chargingState.i18n.fr.json) |
+| [Charging State](./json/chargingState.json) | 1 | proposed | [json](./json/chargingStatePresentation.json) | [json](./json/chargingState.i18n.fr.json) |
 | [Chime](./json/chime.json) | 1 | live | [json](./json/chimePresentation.json) | [json](./json/chime.i18n.fr.json) |
 | [Color](./json/color.json) | 1 | proposed |  | [json](./json/color.i18n.fr.json) |
 | [Color Control](./json/colorControl.json) | 1 | live | [json](./json/colorControlPresentation.json) | [json](./json/colorControl.i18n.fr.json) |
@@ -64,7 +64,9 @@
 | [Color Temperature](./json/colorTemperature.json) | 1 | live | [json](./json/colorTemperaturePresentation.json) | [json](./json/colorTemperature.i18n.fr.json) |
 | [Configuration](./json/configuration.json) | 1 | live |  | [json](./json/configuration.i18n.fr.json) |
 | [Consumable](./json/consumable.json) | 1 | proposed | [json](./json/consumablePresentation.json) | [json](./json/consumable.i18n.fr.json) |
+| [Consumable Life](./json/consumableLife.json) | 1 | proposed |  | [json](./json/consumableLife.i18n.fr.json) |
 | [Contact Sensor](./json/contactSensor.json) | 1 | live | [json](./json/contactSensorPresentation.json) | [json](./json/contactSensor.i18n.fr.json) |
+| [Container State](./json/containerState.json) | 1 | proposed |  | [json](./json/containerState.i18n.fr.json) |
 | [Cook Time](./json/cookTime.json) | 1 | proposed | [json](./json/cookTimePresentation.json) | [json](./json/cookTime.i18n.fr.json) |
 | [Current Measurement](./json/currentMeasurement.json) | 1 | live | [json](./json/currentMeasurementPresentation.json) | [json](./json/currentMeasurement.i18n.fr.json) |
 | [Accessibility](./json/custom.accessibility.json) | 1 | proposed |  |  |
@@ -182,7 +184,7 @@
 | [Fine Dust Health Concern](./json/fineDustHealthConcern.json) | 1 | live | [json](./json/fineDustHealthConcernPresentation.json) | [json](./json/fineDustHealthConcern.i18n.fr.json) |
 | [Fine Dust Sensor](./json/fineDustSensor.json) | 1 | live | [json](./json/fineDustSensorPresentation.json) | [json](./json/fineDustSensor.i18n.fr.json) |
 | [Firmware Update](./json/firmwareUpdate.json) | 1 | live |  | [json](./json/firmwareUpdate.i18n.fr.json) |
-| [Flow Measurement](./json/flowMeasurement.json) | 1 | proposed |  | [json](./json/flowMeasurement.i18n.fr.json) |
+| [Flow Measurement](./json/flowMeasurement.json) | 1 | proposed | [json](./json/flowMeasurementPresentation.json) | [json](./json/flowMeasurement.i18n.fr.json) |
 | [Formaldehyde Health Concern](./json/formaldehydeHealthConcern.json) | 1 | live | [json](./json/formaldehydeHealthConcernPresentation.json) | [json](./json/formaldehydeHealthConcern.i18n.fr.json) |
 | [Formaldehyde Measurement](./json/formaldehydeMeasurement.json) | 1 | live | [json](./json/formaldehydeMeasurementPresentation.json) | [json](./json/formaldehydeMeasurement.i18n.fr.json) |
 | [Garage Door Control](./json/garageDoorControl.json) | 1 | deprecated | [json](./json/garageDoorControlPresentation.json) | [json](./json/garageDoorControl.i18n.fr.json) |
@@ -192,7 +194,7 @@
 | [Geofence](./json/geofence.json) | 1 | proposed |  | [json](./json/geofence.i18n.fr.json) |
 | [Geofences](./json/geofences.json) | 1 | deprecated |  | [json](./json/geofences.i18n.fr.json) |
 | [Geolocation](./json/geolocation.json) | 1 | proposed | [json](./json/geolocationPresentation.json) | [json](./json/geolocation.i18n.fr.json) |
-| [Grid State](./json/gridState.json) | 1 | proposed |  | [json](./json/gridState.i18n.fr.json) |
+| [Grid State](./json/gridState.json) | 1 | proposed | [json](./json/gridStatePresentation.json) | [json](./json/gridState.i18n.fr.json) |
 | [Hardware Fault](./json/hardwareFault.json) | 1 | live | [json](./json/hardwareFaultPresentation.json) | [json](./json/hardwareFault.i18n.fr.json) |
 | [Washer Mode](./json/hca.washerMode.json) | 1 | proposed | [json](./json/hca.washerModePresentation.json) | [json](./json/hca.washerMode.i18n.fr.json) |
 | [Health Check](./json/healthCheck.json) | 1 | live |  | [json](./json/healthCheck.i18n.fr.json) |
@@ -253,6 +255,7 @@
 | [pH Measurement](./json/pHMeasurement.json) | 1 | live | [json](./json/pHMeasurementPresentation.json) | [json](./json/pHMeasurement.i18n.fr.json) |
 | [Panic Alarm](./json/panicAlarm.json) | 1 | live | [json](./json/panicAlarmPresentation.json) | [json](./json/panicAlarm.i18n.fr.json) |
 | [Pest Control](./json/pestControl.json) | 1 | live | [json](./json/pestControlPresentation.json) | [json](./json/pestControl.i18n.fr.json) |
+| [Pet Activity](./json/petActivity.json) | 1 | proposed |  | [json](./json/petActivity.i18n.fr.json) |
 | [Polling](./json/polling.json) | 1 | deprecated |  | [json](./json/polling.i18n.fr.json) |
 | [Power Consumption Report](./json/powerConsumptionReport.json) | 1 | live |  | [json](./json/powerConsumptionReport.i18n.fr.json) |
 | [Power Meter](./json/powerMeter.json) | 1 | live | [json](./json/powerMeterPresentation.json) | [json](./json/powerMeter.i18n.fr.json) |
@@ -433,7 +436,7 @@
 | [Step Sensor](./json/stepSensor.json) | 1 | deprecated |  | [json](./json/stepSensor.i18n.fr.json) |
 | [Switch](./json/switch.json) | 1 | live | [json](./json/switchPresentation.json) | [json](./json/switch.i18n.fr.json) |
 | [Switch Level](./json/switchLevel.json) | 1 | live | [json](./json/switchLevelPresentation.json) | [json](./json/switchLevel.i18n.fr.json) |
-| [Switch State](./json/switchState.json) | 1 | proposed |  | [json](./json/switchState.i18n.fr.json) |
+| [Switch State](./json/switchState.json) | 1 | proposed | [json](./json/switchStatePresentation.json) | [json](./json/switchState.i18n.fr.json) |
 | [Lighting Effect Circadian](./json/synthetic.lightingEffectCircadian.json) | 1 | proposed |  |  |
 | [Lighting Effect Fade](./json/synthetic.lightingEffectFade.json) | 1 | proposed |  |  |
 | [TV](./json/tV.json) | 1 | deprecated |  | [json](./json/tV.i18n.fr.json) |
