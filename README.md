@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2024-12-15
+#### Last Update: 2024-12-22
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -75,7 +75,7 @@
 | [Air Conditioner Tropical Night Mode](./json/custom.airConditionerTropicalNightMode.json) | 1 | proposed |  | [json](./json/custom.airConditionerTropicalNightMode.i18n.fr.json) |
 | [Air Purifier Operation Mode](./json/custom.airPurifierOperationMode.json) | 1 | proposed |  | [json](./json/custom.airPurifierOperationMode.i18n.fr.json) |
 | [Air Quality Max Level](./json/custom.airQualityMaxLevel.json) | 1 | proposed |  | [json](./json/custom.airQualityMaxLevel.i18n.fr.json) |
-| [Auto Cleaning Mode](./json/custom.autoCleaningMode.json) | 1 | proposed |  | [json](./json/custom.autoCleaningMode.i18n.fr.json) |
+| [Auto Cleaning Mode](./json/custom.autoCleaningMode.json) | 1 | proposed | [json](./json/custom.autoCleaningModePresentation.json) | [json](./json/custom.autoCleaningMode.i18n.fr.json) |
 | [Cooktop Operating State](./json/custom.cooktopOperatingState.json) | 1 | proposed | [json](./json/custom.cooktopOperatingStatePresentation.json) | [json](./json/custom.cooktopOperatingState.i18n.fr.json) |
 | [Deodor Filter](./json/custom.deodorFilter.json) | 1 | proposed |  | [json](./json/custom.deodorFilter.i18n.fr.json) |
 | [Device Dependency Status](./json/custom.deviceDependencyStatus.json) | 1 | proposed |  | [json](./json/custom.deviceDependencyStatus.i18n.fr.json) |
@@ -166,6 +166,7 @@
 | [Dust Health Concern](./json/dustHealthConcern.json) | 1 | live | [json](./json/dustHealthConcernPresentation.json) | [json](./json/dustHealthConcern.i18n.fr.json) |
 | [Dust Sensor](./json/dustSensor.json) | 1 | live | [json](./json/dustSensorPresentation.json) | [json](./json/dustSensor.i18n.fr.json) |
 | [Elevator Call](./json/elevatorCall.json) | 1 | live | [json](./json/elevatorCallPresentation.json) | [json](./json/elevatorCall.i18n.fr.json) |
+| [End to End Encryption](./json/endToEndEncryption.json) | 1 | proposed |  | [json](./json/endToEndEncryption.i18n.fr.json) |
 | [Energy Meter](./json/energyMeter.json) | 1 | live | [json](./json/energyMeterPresentation.json) | [json](./json/energyMeter.i18n.fr.json) |
 | [Equivalent Carbon Dioxide Measurement](./json/equivalentCarbonDioxideMeasurement.json) | 1 | live | [json](./json/equivalentCarbonDioxideMeasurementPresentation.json) | [json](./json/equivalentCarbonDioxideMeasurement.i18n.fr.json) |
 | [Estimated Time Of Arrival](./json/estimatedTimeOfArrival.json) | 1 | proposed | [json](./json/estimatedTimeOfArrivalPresentation.json) | [json](./json/estimatedTimeOfArrival.i18n.fr.json) |
@@ -316,7 +317,7 @@
 | [Fridge Pantry Info](./json/samsungce.fridgePantryInfo.json) | 1 | proposed |  | [json](./json/samsungce.fridgePantryInfo.i18n.fr.json) |
 | [Fridge Pantry Mode](./json/samsungce.fridgePantryMode.json) | 1 | proposed |  | [json](./json/samsungce.fridgePantryMode.i18n.fr.json) |
 | [Hood Fan Speed](./json/samsungce.hoodFanSpeed.json) | 1 | proposed | [json](./json/samsungce.hoodFanSpeedPresentation.json) | [json](./json/samsungce.hoodFanSpeed.i18n.fr.json) |
-| [Individual Control Lock](./json/samsungce.individualControlLock.json) | 1 | proposed |  | [json](./json/samsungce.individualControlLock.i18n.fr.json) |
+| [Individual Control Lock](./json/samsungce.individualControlLock.json) | 1 | proposed | [json](./json/samsungce.individualControlLockPresentation.json) | [json](./json/samsungce.individualControlLock.i18n.fr.json) |
 | [Kids Lock](./json/samsungce.kidsLock.json) | 1 | proposed |  | [json](./json/samsungce.kidsLock.i18n.fr.json) |
 | [Kids Lock Control](./json/samsungce.kidsLockControl.json) | 1 | proposed | [json](./json/samsungce.kidsLockControlPresentation.json) | [json](./json/samsungce.kidsLockControl.i18n.fr.json) |
 | [Kitchen Device Defaults](./json/samsungce.kitchenDeviceDefaults.json) | 1 | proposed |  | [json](./json/samsungce.kitchenDeviceDefaults.i18n.fr.json) |
