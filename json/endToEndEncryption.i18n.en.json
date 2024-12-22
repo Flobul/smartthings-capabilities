@@ -1,0 +1,26 @@
+{
+    "tag": "en",
+    "label": "End to End Encryption",
+    "attributes": {
+        "nonce": {
+            "label": "nonce",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "encryptedKek": {
+            "label": "encryptedKek",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "generateNonce": {
+            "label": "generateNonce",
+            "arguments": {}
+        },
+        "encryptKek": {
+            "label": "encryptKek",
+            "arguments": {}
+        }
+    }
+}

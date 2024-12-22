@@ -43,7 +43,7 @@
                         "label": "Good sleep on"
                     },
                     "dryComfort": {
-                        "label": "dryComfort"
+                        "label": "Dry Comfort on"
                     },
                     "longWind": {
                         "label": "longWind"
@@ -72,6 +72,9 @@
                     "i18n": {
                         "sleep": {
                             "label": "Good sleep on"
+                        },
+                        "dryComfort": {
+                            "label": "Dry Comfort on"
                         },
                         "windFree": {
                             "label": "Wind free on"

@@ -35,6 +35,11 @@
                             "key": "windFreeSleep",
                             "value": "{{i18n.attributes.acOptionalMode.i18n.value.windFreeSleep.label}}",
                             "type": "active"
+                        },
+                        {
+                            "key": "dryComfort",
+                            "value": "{{i18n.attributes.acOptionalMode.i18n.value.dryComfort.label}}",
+                            "type": "active"
                         }
                     ],
                     "supportedValues": "supportedAcOptionalMode.value",
@@ -78,6 +83,11 @@
                         {
                             "key": "windFreeSleep",
                             "value": "{{i18n.commands.setAcOptionalMode.arguments.mode.i18n.windFreeSleep.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dryComfort",
+                            "value": "{{i18n.commands.setAcOptionalMode.arguments.mode.i18n.dryComfort.label}}",
                             "type": "active"
                         }
                     ],

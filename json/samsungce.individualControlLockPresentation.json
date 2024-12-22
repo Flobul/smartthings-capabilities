@@ -1,0 +1,13 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_AC_DEVICE_CARD_UNDER_CENTRAL_CONTROL}}"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "id": "samsungce.individualControlLock",
+    "version": 1
+}
