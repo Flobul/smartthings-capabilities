@@ -4723,7 +4723,7 @@ class smartthings_translate
                 "setDensity"                                  => __("Changer la densité du distributeur de produit de lavage", __FILE__),
                 "availableTypes"                              => __("Types de distributeurs de produit de lavage disponibles", __FILE__),
                 "recommendedAmount"                           => __("Quantité recommandée de produit de lavage", __FILE__),
-                "type"                                        => __("Type de produit de lavage", __FILE__),
+                "type"                                        => __("Type de distributeur automatique de produit de lavage", __FILE__),
                 "setTyperegularDetergent"                     => __("Utiliser le produit de lavage classique", __FILE__),
                 "setTypescannedRegularDetergent"              => __("Utiliser le produit de lavage scanné", __FILE__),
                 "setRecommendedAmountregularDetergent"        => __("Changer la quantité recommandée de produit de lavage classique", __FILE__),
