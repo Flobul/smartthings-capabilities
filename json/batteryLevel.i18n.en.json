@@ -3,6 +3,12 @@
     "label": "Battery level",
     "description": "Get the qualitative level of the battery",
     "attributes": {
+        "quantity": {
+            "label": "quantity",
+            "description": "Quantity of batteries. Optional",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "battery": {
             "label": "Battery level",
             "description": "A qualitative indication of the level of the battery",
@@ -17,6 +23,453 @@
                     },
                     "warning": {
                         "label": "Warning"
+                    }
+                }
+            }
+        },
+        "type": {
+            "label": "type",
+            "description": "Battery type. Optional",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "523": {
+                        "label": "523"
+                    },
+                    "531": {
+                        "label": "531"
+                    },
+                    "4680": {
+                        "label": "4680"
+                    },
+                    "4695": {
+                        "label": "4695"
+                    },
+                    "7540": {
+                        "label": "7540"
+                    },
+                    "8570": {
+                        "label": "8570"
+                    },
+                    "10180": {
+                        "label": "10180"
+                    },
+                    "10280": {
+                        "label": "10280"
+                    },
+                    "10440": {
+                        "label": "10440"
+                    },
+                    "10850": {
+                        "label": "10850"
+                    },
+                    "13400": {
+                        "label": "13400"
+                    },
+                    "14250": {
+                        "label": "14250"
+                    },
+                    "14300": {
+                        "label": "14300"
+                    },
+                    "14430": {
+                        "label": "14430"
+                    },
+                    "14500": {
+                        "label": "14500"
+                    },
+                    "14650": {
+                        "label": "14650"
+                    },
+                    "15270": {
+                        "label": "15270"
+                    },
+                    "16340": {
+                        "label": "16340"
+                    },
+                    "16650": {
+                        "label": "16650"
+                    },
+                    "17500": {
+                        "label": "17500"
+                    },
+                    "17650": {
+                        "label": "17650"
+                    },
+                    "17670": {
+                        "label": "17670"
+                    },
+                    "18350": {
+                        "label": "18350"
+                    },
+                    "18490": {
+                        "label": "18490"
+                    },
+                    "18500": {
+                        "label": "18500"
+                    },
+                    "18650": {
+                        "label": "18650"
+                    },
+                    "19670": {
+                        "label": "19670"
+                    },
+                    "20700": {
+                        "label": "20700"
+                    },
+                    "21700": {
+                        "label": "21700"
+                    },
+                    "25500": {
+                        "label": "25500"
+                    },
+                    "26500": {
+                        "label": "26500"
+                    },
+                    "26650": {
+                        "label": "26650"
+                    },
+                    "26700": {
+                        "label": "26700"
+                    },
+                    "26800": {
+                        "label": "26800"
+                    },
+                    "32600": {
+                        "label": "32600"
+                    },
+                    "32650": {
+                        "label": "32650"
+                    },
+                    "32700": {
+                        "label": "32700"
+                    },
+                    "38120": {
+                        "label": "38120"
+                    },
+                    "38140": {
+                        "label": "38140"
+                    },
+                    "40152": {
+                        "label": "40152"
+                    },
+                    "46120": {
+                        "label": "46120"
+                    },
+                    "SubC": {
+                        "label": "SubC"
+                    },
+                    "CR2020": {
+                        "label": "CR2020"
+                    },
+                    "SR48": {
+                        "label": "SR48"
+                    },
+                    "PP11": {
+                        "label": "PP11"
+                    },
+                    "SR45": {
+                        "label": "SR45"
+                    },
+                    "Customed": {
+                        "label": "Customed"
+                    },
+                    "A5": {
+                        "label": "A5"
+                    },
+                    "CR1616": {
+                        "label": "CR1616"
+                    },
+                    "SR54": {
+                        "label": "SR54"
+                    },
+                    "67v5": {
+                        "label": "67v5"
+                    },
+                    "SR55": {
+                        "label": "SR55"
+                    },
+                    "1_2AA": {
+                        "label": "1_2AA"
+                    },
+                    "CR1216": {
+                        "label": "CR1216"
+                    },
+                    "CR2025": {
+                        "label": "CR2025"
+                    },
+                    "AA": {
+                        "label": "AA"
+                    },
+                    "A10": {
+                        "label": "A10"
+                    },
+                    "AAA": {
+                        "label": "AAA"
+                    },
+                    "CR2012": {
+                        "label": "CR2012"
+                    },
+                    "2CR5": {
+                        "label": "2CR5"
+                    },
+                    "A13": {
+                        "label": "A13"
+                    },
+                    "SR416": {
+                        "label": "SR416"
+                    },
+                    "6v0": {
+                        "label": "6v0"
+                    },
+                    "PP1": {
+                        "label": "PP1"
+                    },
+                    "PP3": {
+                        "label": "PP3"
+                    },
+                    "CR11108": {
+                        "label": "CR11108"
+                    },
+                    "PP4": {
+                        "label": "PP4"
+                    },
+                    "PP7": {
+                        "label": "PP7"
+                    },
+                    "PP6": {
+                        "label": "PP6"
+                    },
+                    "SR43": {
+                        "label": "SR43"
+                    },
+                    "PP9": {
+                        "label": "PP9"
+                    },
+                    "SR44": {
+                        "label": "SR44"
+                    },
+                    "PP8": {
+                        "label": "PP8"
+                    },
+                    "SR41": {
+                        "label": "SR41"
+                    },
+                    "PP10": {
+                        "label": "PP10"
+                    },
+                    "SR42": {
+                        "label": "SR42"
+                    },
+                    "CR2016": {
+                        "label": "CR2016"
+                    },
+                    "CR2412": {
+                        "label": "CR2412"
+                    },
+                    "A": {
+                        "label": "A"
+                    },
+                    "B": {
+                        "label": "B"
+                    },
+                    "A23": {
+                        "label": "A23"
+                    },
+                    "C": {
+                        "label": "C"
+                    },
+                    "D": {
+                        "label": "D"
+                    },
+                    "SR69": {
+                        "label": "SR69"
+                    },
+                    "F": {
+                        "label": "F"
+                    },
+                    "A27": {
+                        "label": "A27"
+                    },
+                    "SR67": {
+                        "label": "SR67"
+                    },
+                    "SR68": {
+                        "label": "SR68"
+                    },
+                    "LR932": {
+                        "label": "LR932"
+                    },
+                    "J": {
+                        "label": "J"
+                    },
+                    "N": {
+                        "label": "N"
+                    },
+                    "Duplex": {
+                        "label": "Duplex"
+                    },
+                    "4SR44": {
+                        "label": "4SR44"
+                    },
+                    "AAAA": {
+                        "label": "AAAA"
+                    },
+                    "CR2354": {
+                        "label": "CR2354"
+                    },
+                    "CR_P2": {
+                        "label": "CR_P2"
+                    },
+                    "SR58": {
+                        "label": "SR58"
+                    },
+                    "SR59": {
+                        "label": "SR59"
+                    },
+                    "SR56": {
+                        "label": "SR56"
+                    },
+                    "SR57": {
+                        "label": "SR57"
+                    },
+                    "Unspecified": {
+                        "label": "Unspecified"
+                    },
+                    "SR712": {
+                        "label": "SR712"
+                    },
+                    "LR9": {
+                        "label": "LR9"
+                    },
+                    "9v0": {
+                        "label": "9v0"
+                    },
+                    "No6": {
+                        "label": "No6"
+                    },
+                    "SR65": {
+                        "label": "SR65"
+                    },
+                    "SR66": {
+                        "label": "SR66"
+                    },
+                    "SR63": {
+                        "label": "SR63"
+                    },
+                    "SR64": {
+                        "label": "SR64"
+                    },
+                    "SR62": {
+                        "label": "SR62"
+                    },
+                    "CR1025": {
+                        "label": "CR1025"
+                    },
+                    "CR2477": {
+                        "label": "CR2477"
+                    },
+                    "SR60": {
+                        "label": "SR60"
+                    },
+                    "30v0": {
+                        "label": "30v0"
+                    },
+                    "LR52": {
+                        "label": "LR52"
+                    },
+                    "CR1130": {
+                        "label": "CR1130"
+                    },
+                    "15v0": {
+                        "label": "15v0"
+                    },
+                    "BR2335": {
+                        "label": "BR2335"
+                    },
+                    "CR3032": {
+                        "label": "CR3032"
+                    },
+                    "SR731": {
+                        "label": "SR731"
+                    },
+                    "CR2": {
+                        "label": "CR2"
+                    },
+                    "CR2330": {
+                        "label": "CR2330"
+                    },
+                    "45v0": {
+                        "label": "45v0"
+                    },
+                    "CR2450": {
+                        "label": "CR2450"
+                    },
+                    "CR2050": {
+                        "label": "CR2050"
+                    },
+                    "22v5": {
+                        "label": "22v5"
+                    },
+                    "A312": {
+                        "label": "A312"
+                    },
+                    "A675": {
+                        "label": "A675"
+                    },
+                    "4v5": {
+                        "label": "4v5"
+                    },
+                    "AC41E": {
+                        "label": "AC41E"
+                    },
+                    "CR927": {
+                        "label": "CR927"
+                    },
+                    "CR_V3": {
+                        "label": "CR_V3"
+                    },
+                    "RCR123A": {
+                        "label": "RCR123A"
+                    },
+                    "CR2320": {
+                        "label": "CR2320"
+                    },
+                    "CR2040": {
+                        "label": "CR2040"
+                    },
+                    "CR123A": {
+                        "label": "CR123A"
+                    },
+                    "CR1632": {
+                        "label": "CR1632"
+                    },
+                    "CR2325": {
+                        "label": "CR2325"
+                    },
+                    "SR512": {
+                        "label": "SR512"
+                    },
+                    "CR1220": {
+                        "label": "CR1220"
+                    },
+                    "CR2430": {
+                        "label": "CR2430"
+                    },
+                    "CR2032": {
+                        "label": "CR2032"
+                    },
+                    "SR516": {
+                        "label": "SR516"
+                    },
+                    "BA5800": {
+                        "label": "BA5800"
+                    },
+                    "CR1225": {
+                        "label": "CR1225"
+                    },
+                    "CR1620": {
+                        "label": "CR1620"
                     }
                 }
             }

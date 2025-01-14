@@ -43,7 +43,7 @@
                         "label": "Nuit sereine activée"
                     },
                     "dryComfort": {
-                        "label": "dryComfort"
+                        "label": "Dry Comfort activé"
                     },
                     "longWind": {
                         "label": "longWind"
@@ -72,6 +72,9 @@
                     "i18n": {
                         "sleep": {
                             "label": "Nuit sereine activée"
+                        },
+                        "dryComfort": {
+                            "label": "Dry Comfort activé"
                         },
                         "windFree": {
                             "label": "Sans courant d'air activé"
