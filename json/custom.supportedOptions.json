@@ -5,18 +5,33 @@
     "name": "Supported Options",
     "ephemeral": false,
     "attributes": {
+        "course": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "referenceTable": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
                         "type": "object",
+                        "additionalProperties": false,
                         "properties": {
                             "id": {
                                 "type": "string"
                             }
-                        },
-                        "additionalProperties": false
+                        }
                     }
                 },
                 "additionalProperties": false,
@@ -29,10 +44,10 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
                         "items": {
                             "type": "string"
-                        }
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,
@@ -43,5 +58,18 @@
             "enumCommands": []
         }
     },
-    "commands": {}
+    "commands": {
+        "setCourse": {
+            "name": "setCourse",
+            "arguments": [
+                {
+                    "name": "course",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        }
+    }
 }
