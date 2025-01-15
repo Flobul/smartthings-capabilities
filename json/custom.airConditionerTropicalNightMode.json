@@ -13,13 +13,6 @@
                         "minimum": 0,
                         "type": "integer",
                         "maximum": 35
-                    },
-                    "unit": {
-                        "type": "string",
-                        "enum": [
-                            "h"
-                        ],
-                        "default": "h"
                     }
                 },
                 "additionalProperties": false,
@@ -27,7 +20,6 @@
                     "value"
                 ]
             },
-            "setter": "setAcTropicalNightModeLevel",
             "enumCommands": []
         }
     },
@@ -42,13 +34,6 @@
                         "minimum": 0,
                         "type": "integer",
                         "maximum": 35
-                    },
-                    "unit": {
-                        "type": "string",
-                        "enum": [
-                            "h"
-                        ],
-                        "default": "h"
                     }
                 }
             ]
