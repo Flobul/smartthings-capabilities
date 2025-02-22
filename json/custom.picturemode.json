@@ -10,19 +10,12 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
-                        "enum": [
-                            "dynamic",
-                            "movie",
-                            "standard",
-                            "unknown"
-                        ]
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setPictureMode",
             "enumCommands": []
         },
         "supportedPictureModes": {
@@ -30,13 +23,7 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
-                        "enum": [
-                            "dynamic",
-                            "movie",
-                            "standard",
-                            "unknown"
-                        ]
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,
@@ -54,13 +41,7 @@
                             "type": "object",
                             "properties": {
                                 "id": {
-                                    "type": "string",
-                                    "enum": [
-                                        "dynamic",
-                                        "movie",
-                                        "standard",
-                                        "unknown"
-                                    ]
+                                    "type": "string"
                                 },
                                 "name": {
                                     "type": "string"
@@ -84,13 +65,7 @@
                     "name": "mode",
                     "optional": false,
                     "schema": {
-                        "type": "string",
-                        "enum": [
-                            "dynamic",
-                            "movie",
-                            "standard",
-                            "unknown"
-                        ]
+                        "type": "string"
                     }
                 }
             ]
