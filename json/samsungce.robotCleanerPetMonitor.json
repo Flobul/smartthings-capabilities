@@ -154,7 +154,7 @@
                         "type": "string",
                         "enum": [
                             "hour",
-                            "minute"
+                            "min"
                         ],
                         "default": "hour"
                     }
