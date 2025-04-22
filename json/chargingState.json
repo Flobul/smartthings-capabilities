@@ -19,7 +19,8 @@
                                 "discharging",
                                 "stopped",
                                 "fullyCharged",
-                                "error"
+                                "error",
+                                "other"
                             ]
                         }
                     }
@@ -41,7 +42,8 @@
                             "discharging",
                             "stopped",
                             "fullyCharged",
-                            "error"
+                            "error",
+                            "other"
                         ]
                     }
                 },
