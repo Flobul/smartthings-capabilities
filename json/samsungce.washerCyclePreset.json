@@ -70,7 +70,13 @@
                                             "spinLevel": {
                                                 "type": "string"
                                             },
+                                            "dryingTime": {
+                                                "type": "string"
+                                            },
                                             "dryingLevel": {
+                                                "type": "string"
+                                            },
+                                            "dryingTemperature": {
                                                 "type": "string"
                                             },
                                             "soilLevel": {
@@ -148,10 +154,13 @@
                                             "spinLevel": {
                                                 "type": "string"
                                             },
+                                            "dryingTime": {
+                                                "type": "string"
+                                            },
                                             "dryingLevel": {
                                                 "type": "string"
                                             },
-                                            "dryingTime": {
+                                            "dryingTemperature": {
                                                 "type": "string"
                                             },
                                             "soilLevel": {
