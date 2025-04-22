@@ -4,7 +4,23 @@
     "status": "proposed",
     "name": "Ambient",
     "ephemeral": false,
-    "attributes": {},
+    "attributes": {
+        "info": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
     "commands": {
         "setAmbientOn": {
             "name": "setAmbientOn",
