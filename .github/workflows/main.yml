@@ -98,42 +98,37 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "flobul.jeedom@gmail.com"
-
+          
       - name: "Create Pull Requests"
         run: |
           git fetch origin
           git checkout master
       
-          # Ajouter les modifications non validées pour éviter les conflits
-          if ! git diff --quiet; then
-            git add .
-            git commit -m "Temp commit for rebase"
-          fi
-      
-          # Effectuer le pull avec rebase
-          git pull origin master --rebase
+          # Vérifier les modifications
+          git status
+          git diff
       
           create_pr() {
             local file=$1
             local branch_name="update-$(basename "$file")"
+            echo "Creating PR for $file on branch $branch_name"
+      
+            # Nettoyage des branches existantes
+            git branch -D "$branch_name" || true
+            git push origin --delete "$branch_name" || true
+      
+            # Création de la branche et commit
             git checkout -b "$branch_name"
             git add "$file"
             git commit -m "Update $file"
-            diff=$(git diff HEAD~1 -- "$file")
-            echo "$diff"
+            git push origin "$branch_name"
       
-            if git ls-remote --heads origin "$branch_name" | grep -q "$branch_name"; then
-              git pull origin "$branch_name" --rebase || true
-              git push origin "$branch_name" --force-with-lease
-            else
-              git push origin "$branch_name"
-            fi
-      
+            # Création ou mise à jour de la PR
             if ! gh pr view --json headRefName -q .headRefName | grep -q "$branch_name"; then
-              gh pr create --title "Update $file" --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" --base master --head "$branch_name"
+              gh pr create --title "Update $file" --body "Automated update for $file" --base master --head "$branch_name" --verbose
             else
               pr_url=$(gh pr view --json url -q .url)
-              gh pr edit "$pr_url" --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")"
+              gh pr edit "$pr_url" --body "Automated update for $file" --verbose
             fi
       
             git checkout master
@@ -150,24 +145,28 @@ jobs:
             fi
           done
       
-          # Group PR pour les fichiers de traduction et de présentation
+          # PR groupée pour les traductions et présentations
           if ! git diff --quiet HEAD -- json/*.i18n.*.json json/*Presentation.json; then
+            git branch -D "update-translations-and-presentations" || true
+            git push origin --delete "update-translations-and-presentations" || true
+      
             git checkout -b "update-translations-and-presentations"
             git add json/*.i18n.*.json json/*Presentation.json
             git commit -m "Update translations and presentations"
-            git pull origin "update-translations-and-presentations" --rebase || true
-            git push origin "update-translations-and-presentations" --force-with-lease
-            gh pr create --title "Update translations and presentations" --body "Automated update for translation and presentation files." --base master --head "update-translations-and-presentations"
+            git push origin "update-translations-and-presentations"
+            gh pr create --title "Update translations and presentations" --body "Automated update for translation and presentation files." --base master --head "update-translations-and-presentations" --verbose
           fi
       
           # PR pour README.md
           if ! git diff --quiet HEAD -- README.md; then
+            git branch -D "update-readme" || true
+            git push origin --delete "update-readme" || true
+      
             git checkout -b "update-readme"
             git add README.md
             git commit -m "Update README.md"
-            git pull origin "update-readme" --rebase || true
-            git push origin "update-readme" --force-with-lease
-            gh pr create --title "Update README.md" --body "Automated update for README.md" --base master --head "update-readme"
+            git push origin "update-readme"
+            gh pr create --title "Update README.md" --body "Automated update for README.md" --base master --head "update-readme" --verbose
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
