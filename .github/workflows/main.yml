@@ -103,7 +103,15 @@ jobs:
         run: |
           git fetch origin
           git checkout master
-          git pull origin master
+      
+          # Ajouter les modifications non validées pour éviter les conflits
+          if ! git diff --quiet; then
+            git add .
+            git commit -m "Temp commit for rebase"
+          fi
+      
+          # Effectuer le pull avec rebase
+          git pull origin master --rebase
       
           create_pr() {
             local file=$1
@@ -115,7 +123,7 @@ jobs:
             echo "$diff"
       
             if git ls-remote --heads origin "$branch_name" | grep -q "$branch_name"; then
-              git pull origin "$branch_name" --rebase
+              git pull origin "$branch_name" --rebase || true
               git push origin "$branch_name" --force-with-lease
             else
               git push origin "$branch_name"
@@ -132,7 +140,7 @@ jobs:
             git branch -D "$branch_name"
           }
       
-          # Process each {id}.json file individually
+          # Traiter chaque fichier JSON individuellement
           for file in json/*.json; do
             if [[ $file == *.i18n.fr.json || $file == *.i18n.en.json || $file == *Presentation.json ]]; then
               continue
@@ -142,7 +150,7 @@ jobs:
             fi
           done
       
-          # Group PR for i18n.*.json and Presentation.json
+          # Group PR pour les fichiers de traduction et de présentation
           if ! git diff --quiet HEAD -- json/*.i18n.*.json json/*Presentation.json; then
             git checkout -b "update-translations-and-presentations"
             git add json/*.i18n.*.json json/*Presentation.json
@@ -152,7 +160,7 @@ jobs:
             gh pr create --title "Update translations and presentations" --body "Automated update for translation and presentation files." --base master --head "update-translations-and-presentations"
           fi
       
-          # PR for README.md
+          # PR pour README.md
           if ! git diff --quiet HEAD -- README.md; then
             git checkout -b "update-readme"
             git add README.md
