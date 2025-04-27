@@ -2,7 +2,7 @@
 ## Ce script permet de récupérer les traductions fr SmartThings depuis son compte SmartThings. ##
 ## Il permet aussi de récupérer les capabilities ajoutés manuellement ($customAdded).          ##
 ## Il faut mettre ce script dans un bloc code de scénario Jeedom.                              ##
-## Dernière mise à jour : 04/06/2024                                                           ##
+## Dernière mise à jour : 27/04/2025                                                           ##
 ## Créé par Flobul pour Jeedom                                                                 ##
 #################################################################################################
 $url_capabilities = 'https://api.smartthings.com/v1/capabilities';
@@ -197,7 +197,7 @@ $customAdded = array(
 	"samsungce.robotCleanerRelayCleaning",
 	"samsungce.musicPlaylist",
 	"samsungce.robotCleanerMapList",
-  "samsungce.robotCleanerMotorFilter",
+	"samsungce.robotCleanerMotorFilter",
 	"samsungce.robotCleanerPetCleaningSchedule",
 	"samsungce.robotCleanerReservation",
 	"samsungce.robotCleanerDustBag",
@@ -223,7 +223,13 @@ $customAdded = array(
 	"samsungvd.lightControl",
 	"samsungvd.soundMode",
 	"samsungvd.thingStatus",
-	"sec.wifiConfiguration"
+	"sec.wifiConfiguration",
+        "abateachieve62503.statelessPowerOff",
+        "abateachieve62503.statelessPowerOn",
+        "abateachieve62503.statelessTemperatureDown",
+        "abateachieve62503.statelessTemperatureUp",
+        "abateachieve62503.statelessFanspeedIncrease",
+        "abateachieve62503.statelessFanspeedDecrease"
 );
 
 /** création du dossier qui va contenir les fichiers capabilities **/
