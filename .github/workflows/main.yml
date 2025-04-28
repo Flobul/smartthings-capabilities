@@ -108,18 +108,21 @@ jobs:
           create_pr() {
             local file=$1
             local branch_name="update-$(basename "$file")"
+            
+            # Supprimer la branche locale si elle existe
+            git branch -D "$branch_name" 2>/dev/null || true
+            
+            # Créer une nouvelle branche
             git checkout -b "$branch_name"
             git add "$file"
             git commit -m "Update $file"
             diff=$(git diff HEAD~1 -- "$file")
             echo "$diff"
 
-            if git ls-remote --heads origin "$branch_name" | grep -q "$branch_name"; then
-              git push origin "$branch_name" --force
-            else
-              git push origin "$branch_name"
-            fi
+            # Forcer la mise à jour de la branche distante
+            git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
 
+            # Créer ou mettre à jour la PR
             if ! gh pr view --json headRefName -q .headRefName | grep -q "$branch_name"; then
               gh pr create --title "Update $file" --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" --base master --head "$branch_name"
             else
@@ -131,7 +134,7 @@ jobs:
             git branch -D "$branch_name"
           }
 
-          # Process each {id}.json file individually
+          # Traiter les fichiers JSON individuellement
           for file in json/*.json; do
             if [[ $file == *.i18n.fr.json || $file == *.i18n.en.json || $file == *Presentation.json ]]; then
               continue
@@ -141,22 +144,54 @@ jobs:
             fi
           done
 
-          # Group PR for i18n.*.json and Presentation.json
+          # Groupe PR pour les traductions et présentations
           if ! git diff --quiet HEAD -- json/*.i18n.*.json json/*Presentation.json; then
+            # Nettoyer la branche existante
+            git branch -D "update-translations-and-presentations" 2>/dev/null || true
+            
+            # Créer une nouvelle branche
             git checkout -b "update-translations-and-presentations"
             git add json/*.i18n.*.json json/*Presentation.json
             git commit -m "Update translations and presentations"
-            git push origin "update-translations-and-presentations"
-            gh pr create --title "Update translations and presentations" --body "Automated update for translation and presentation files." --base master --head "update-translations-and-presentations"
+
+            # Essayer de synchroniser avec la branche distante
+            if git ls-remote --heads origin "update-translations-and-presentations" | grep -q "update-translations-and-presentations"; then
+              git fetch origin update-translations-and-presentations:update-translations-and-presentations || true
+              git pull origin update-translations-and-presentations --rebase || true
+            fi
+
+            # Forcer la mise à jour de la branche
+            git push origin "update-translations-and-presentations" --force-with-lease || git push origin "update-translations-and-presentations" --force
+
+            # Créer la PR
+            gh pr create --title "Update translations and presentations" \
+              --body "Automated update for translation and presentation files." \
+              --base master \
+              --head "update-translations-and-presentations" || true
+
+            git checkout master
           fi
 
-          # PR for README.md
+          # PR pour README.md
           if ! git diff --quiet HEAD -- README.md; then
+            # Nettoyer la branche existante
+            git branch -D "update-readme" 2>/dev/null || true
+            
+            # Créer une nouvelle branche
             git checkout -b "update-readme"
             git add README.md
             git commit -m "Update README.md"
-            git push origin "update-readme"
-            gh pr create --title "Update README.md" --body "Automated update for README.md" --base master --head "update-readme"
+
+            # Forcer la mise à jour de la branche
+            git push origin "update-readme" --force-with-lease || git push origin "update-readme" --force
+
+            # Créer la PR
+            gh pr create --title "Update README.md" \
+              --body "Automated update for README.md" \
+              --base master \
+              --head "update-readme" || true
+
+            git checkout master
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
