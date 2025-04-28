@@ -1,0 +1,48 @@
+{
+    "tag": "en",
+    "label": "Massage",
+    "attributes": {
+        "intensityFoot": {
+            "label": "Foot intensity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedPositions": {
+            "label": "Supported Positions",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "intensityWhole": {
+            "label": "Intensity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "intensityHead": {
+            "label": "Head intensity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "intensityRange": {
+            "label": "Intensity of Range",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setIntensityFoot": {
+            "label": "setIntensityFoot",
+            "description": "Set the massage intensity for a foot part of the bed.",
+            "arguments": {}
+        },
+        "setIntensityWhole": {
+            "label": "setIntensityWhole",
+            "description": "Set the massage intensity for a whole part of the bed.",
+            "arguments": {}
+        },
+        "setIntensityHead": {
+            "label": "setIntensityHead",
+            "description": "Set the massage intensity for a head part of the bed.",
+            "arguments": {}
+        }
+    }
+}

@@ -97,7 +97,7 @@
                         "label": "Paused"
                     },
                     "ready": {
-                        "label": "Ready"
+                        "label": "On"
                     }
                 }
             }

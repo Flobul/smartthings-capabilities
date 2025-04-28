@@ -1,0 +1,26 @@
+{
+    "tag": "en",
+    "label": "Safety Switch",
+    "attributes": {
+        "switch": {
+            "label": "switch",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "off": {
+            "label": "off",
+            "arguments": {}
+        }
+    }
+}

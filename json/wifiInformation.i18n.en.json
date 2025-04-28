@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "Wifi Information",
+    "attributes": {
+        "supportedWiFiAuthTypes": {
+            "label": "supportedWiFiAuthTypes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "ssid": {
+            "label": "ssid",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedWiFiFrequencies": {
+            "label": "supportedWiFiFrequencies",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

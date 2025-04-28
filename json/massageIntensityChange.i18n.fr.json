@@ -1,0 +1,34 @@
+{
+    "tag": "fr",
+    "label": "Massage",
+    "attributes": {
+        "supportedPositions": {
+            "label": "Supported Positions",
+            "description": "A list of supported massage intensity positions.",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "nextIntensity": {
+            "label": "Massage",
+            "description": "Move to the next intensity level.",
+            "arguments": {
+                "position": {
+                    "i18n": {
+                        "head": {
+                            "label": "Intensité à la tête"
+                        },
+                        "whole": {
+                            "label": "Intensité"
+                        },
+                        "foot": {
+                            "label": "Intensité aux pieds"
+                        }
+                    },
+                    "description": "The position to move to the next intensity level."
+                }
+            }
+        }
+    }
+}

@@ -1,38 +1,43 @@
 {
     "tag": "en",
-    "label": "Consumable Life",
+    "label": "Consumable replacement",
+    "description": "Allows consumable management",
     "attributes": {
         "lifespan": {
             "label": "lifespan",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "How long the consumable can be used",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         },
         "type": {
-            "label": "type",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Consumable replacement",
+            "description": "What type of consumable it is",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {
                 "value": {
                     "filter": {
-                        "label": "filter"
+                        "label": "Filter"
                     },
                     "diffuser": {
-                        "label": "diffuser"
+                        "label": "Diffuser"
                     },
                     "desiccant": {
-                        "label": "desiccant"
+                        "label": "Desiccant"
                     }
                 }
             }
         },
         "startDate": {
-            "label": "startDate",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Last replacement date",
+            "description": "When the consumable was started using",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "reset": {
-            "label": "reset",
+            "label": "Reset",
+            "description": "Reset start date",
             "arguments": {}
         }
     }

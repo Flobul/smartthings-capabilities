@@ -1,15 +1,18 @@
 {
-    "tag": "en",
-    "label": "Scene Activity",
+    "tag": "fr",
+    "label": "Scène",
+    "description": "Allows SmartThings to handle an event indicating that a scene that was activated in the external system",
     "attributes": {
         "activatedScene": {
-            "label": "activatedScene",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Scène",
+            "description": "A name of a scene that was activated in the external system",
+            "displayTemplate": "Scene: {{value}} was activated in {{device.label}}",
             "i18n": {}
         },
         "supportedScenes": {
-            "label": "supportedScenes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "supported scenes",
+            "description": "If set, determines which scenes are user-selectable options.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         }
     },

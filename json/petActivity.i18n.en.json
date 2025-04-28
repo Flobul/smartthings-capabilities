@@ -1,52 +1,94 @@
 {
     "tag": "en",
-    "label": "Pet Activity",
+    "label": "Pet activity",
+    "description": "Allows a device to detect pet activities",
     "attributes": {
         "supportedPetActivities": {
-            "label": "supportedPetActivities",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
-        },
-        "petActivity": {
-            "label": "petActivity",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Supported pet activities",
+            "description": "Supported activities of a pet",
+            "displayTemplate": "{{device.label}} {{attribute}} : {{value}}",
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "running"
+                        "label": "Pet is running"
                     },
                     "resting": {
-                        "label": "resting"
+                        "label": "Pet is resting"
                     },
                     "idle": {
-                        "label": "idle"
-                    },
-                    "pooping": {
-                        "label": "pooping"
-                    },
-                    "walking": {
-                        "label": "walking"
+                        "label": "Pet activity is not found"
                     },
                     "meowing": {
-                        "label": "meowing"
+                        "label": "Pet is meowing"
+                    },
+                    "pooping": {
+                        "label": "Pet is defecating"
+                    },
+                    "walking": {
+                        "label": "Pet is walking"
                     },
                     "drinkingWater": {
-                        "label": "drinkingWater"
+                        "label": "Pet is drinking water"
                     },
                     "playing": {
-                        "label": "playing"
+                        "label": "Pet is playing"
                     },
                     "barking": {
-                        "label": "barking"
+                        "label": "Pet is barking"
                     },
                     "eating": {
-                        "label": "eating"
+                        "label": "Pet is eating food"
                     },
                     "sleeping": {
-                        "label": "sleeping"
+                        "label": "Pet is sleeping"
                     },
                     "peeing": {
-                        "label": "peeing"
+                        "label": "Pet is urinating"
+                    }
+                }
+            }
+        },
+        "petActivity": {
+            "label": "Pet activity",
+            "description": "The current activity of a pet",
+            "displayTemplate": "{{device.label}} {{attribute}} : {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "Running"
+                    },
+                    "resting": {
+                        "label": "Resting"
+                    },
+                    "idle": {
+                        "label": "Standby"
+                    },
+                    "pooping": {
+                        "label": "Toilet (solid waste)"
+                    },
+                    "walking": {
+                        "label": "Walking"
+                    },
+                    "meowing": {
+                        "label": "Meowing"
+                    },
+                    "drinkingWater": {
+                        "label": "Drinking"
+                    },
+                    "playing": {
+                        "label": "Playing"
+                    },
+                    "barking": {
+                        "label": "Barking"
+                    },
+                    "eating": {
+                        "label": "Eating"
+                    },
+                    "sleeping": {
+                        "label": "Sleeping"
+                    },
+                    "peeing": {
+                        "label": "Toilet (urine)"
                     }
                 }
             }

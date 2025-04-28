@@ -1,0 +1,43 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "temperatureDown"
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Temperature Down",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "temperatureDown"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Temperature Down",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "temperatureDown",
+                            "value": "temperatureDown",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "abateachieve62503.statelessTemperatureDown",
+    "version": 1
+}

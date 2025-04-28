@@ -70,6 +70,9 @@
                     },
                     "wifi_stdk": {
                         "label": "wifi_stdk"
+                    },
+                    "l3_ocf": {
+                        "label": "l3_ocf"
                     }
                 }
             }

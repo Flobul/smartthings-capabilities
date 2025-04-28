@@ -21,6 +21,9 @@
                     "paused": {
                         "label": "Paused"
                     },
+                    "sabbath": {
+                        "label": "sabbath"
+                    },
                     "attachingMopPadForRemainingJob": {
                         "label": "Attaching mop"
                     },
@@ -77,6 +80,9 @@
                     },
                     "waitingForChangingMopPad": {
                         "label": "Waiting"
+                    },
+                    "suspend": {
+                        "label": "suspend"
                     },
                     "detachingMopPad": {
                         "label": "Removing mop"

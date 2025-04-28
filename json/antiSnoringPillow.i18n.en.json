@@ -1,0 +1,66 @@
+{
+    "tag": "en",
+    "label": "Anti Snoring Pillow",
+    "attributes": {
+        "snoringTime": {
+            "label": "snoringTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportPillowOperationTimeGraph": {
+            "label": "supportPillowOperationTimeGraph",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "snoringTimeDelta": {
+            "label": "snoringTimeDelta",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "pillowOperationTime": {
+            "label": "pillowOperationTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "state": {
+            "label": "state",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "stopped": {
+                        "label": "stopped"
+                    },
+                    "preparing": {
+                        "label": "preparing"
+                    },
+                    "off": {
+                        "label": "off"
+                    }
+                }
+            }
+        },
+        "supportSnoringTimeGraph": {
+            "label": "supportSnoringTimeGraph",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "pillowOperationTimeDelta": {
+            "label": "pillowOperationTimeDelta",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "off": {
+            "label": "off",
+            "arguments": {}
+        },
+        "on": {
+            "label": "on",
+            "arguments": {}
+        }
+    }
+}

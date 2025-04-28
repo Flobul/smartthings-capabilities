@@ -1,0 +1,52 @@
+{
+    "tag": "fr",
+    "label": "Massage",
+    "attributes": {
+        "completionTime": {
+            "label": "Temps",
+            "description": "The completion time of the massage.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedSetTimes": {
+            "label": "Supported Set Times",
+            "description": "The list of supported set times that can be used to control the massage time in minutes.",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setTime": {
+            "label": "Temps",
+            "description": "Set the massage time for motion bed.",
+            "arguments": {
+                "massageTime": {
+                    "i18n": {
+                        "0": {
+                            "label": "Désactivé"
+                        },
+                        "10": {
+                            "label": "10 minutes"
+                        },
+                        "20": {
+                            "label": "20 minutes"
+                        },
+                        "30": {
+                            "label": "30 minutes"
+                        },
+                        "40": {
+                            "label": "40 minutes"
+                        },
+                        "50": {
+                            "label": "50 minutes"
+                        },
+                        "60": {
+                            "label": "1 heure"
+                        }
+                    },
+                    "description": "The desired massage time in minutes."
+                }
+            }
+        }
+    }
+}

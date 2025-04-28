@@ -27,6 +27,11 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
+        "artSupported": {
+            "label": "artSupported",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "mobileCamSupported": {
             "label": "mobileCamSupported",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",

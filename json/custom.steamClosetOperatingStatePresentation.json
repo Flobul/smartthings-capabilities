@@ -53,12 +53,112 @@
                         "key": "none",
                         "value": "{{i18n.attributes.steamClosetJobState.i18n.value.none.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "descaling",
+                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.descaling.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "descalingFinish",
+                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.descalingFinish.label}}",
+                        "type": "active"
                     }
                 ]
             }
         ],
         "actions": [],
-        "panelItems": []
+        "panelItems": [
+            {
+                "label": "{{i18n.commands.start.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "setSteamClosetMachineState",
+                    "argument": "run",
+                    "argumentType": "string",
+                    "iconUrl": "icon://play",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.cancel.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "setSteamClosetMachineState",
+                    "argument": "stop",
+                    "argumentType": "string",
+                    "iconUrl": "icon://cancel",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.pause.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "setSteamClosetMachineState",
+                    "argument": "pause",
+                    "argumentType": "string",
+                    "iconUrl": "icon://pause",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.resume.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "setSteamClosetMachineState",
+                    "argument": "run",
+                    "argumentType": "string",
+                    "iconUrl": "icon://play",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.ok.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "setSteamClosetMachineState",
+                    "argument": "stop",
+                    "argumentType": "string",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
     },
     "automation": {
         "conditions": [

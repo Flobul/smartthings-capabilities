@@ -1,0 +1,43 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "powerOn"
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Power On",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "powerOn"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Power On",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "powerOn",
+                            "value": "PowerOn",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "abateachieve62503.statelessPowerOn",
+    "version": 1
+}

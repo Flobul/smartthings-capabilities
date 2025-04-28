@@ -19,7 +19,7 @@
                         "label": "Running"
                     },
                     "paused": {
-                        "label": "paused"
+                        "label": "Paused"
                     },
                     "ready": {
                         "label": "Ready"

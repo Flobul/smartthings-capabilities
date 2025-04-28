@@ -9,6 +9,11 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         },
+        "imageTransferProgress": {
+            "label": "imageTransferProgress",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "availableVersion": {
             "label": "Available firmware Version",
             "description": "The firmware version available for an update",
@@ -56,6 +61,11 @@
                 }
             }
         },
+        "estimatedTimeRemaining": {
+            "label": "estimatedTimeRemaining",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "updateAvailable": {
             "label": "Update available",
             "description": "Set to true when an update is available for the device and otherwise false",
@@ -72,6 +82,11 @@
             "label": "Last update attempt time",
             "description": "The time of the most recent download or update attempt.",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {}
+        },
+        "supportsProgressReports": {
+            "label": "supportsProgressReports",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         }
     },

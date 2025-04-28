@@ -28,6 +28,11 @@
                         "key": "error",
                         "value": "{{i18n.attributes.chargingState.i18n.value.error.label}}",
                         "type": "inactive"
+                    },
+                    {
+                        "key": "other",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.other.label}}",
+                        "type": "inactive"
                     }
                 ]
             }
@@ -66,6 +71,11 @@
                         "key": "error",
                         "value": "{{i18n.attributes.chargingState.i18n.value.error.label}}",
                         "type": "inactive"
+                    },
+                    {
+                        "key": "other",
+                        "value": "{{i18n.attributes.chargingState.i18n.value.other.label}}",
+                        "type": "inactive"
                     }
                 ]
             }
@@ -101,6 +111,11 @@
                         {
                             "key": "error",
                             "value": "{{i18n.attributes.chargingState.i18n.value.error.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "other",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.other.label}}",
                             "type": "inactive"
                         }
                     ],

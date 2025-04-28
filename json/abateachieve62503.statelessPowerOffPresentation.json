@@ -1,0 +1,43 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "powerOff"
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Power Off",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "powerOff"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Power Off",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "powerOff",
+                            "value": "powerOff",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "abateachieve62503.statelessPowerOff",
+    "version": 1
+}

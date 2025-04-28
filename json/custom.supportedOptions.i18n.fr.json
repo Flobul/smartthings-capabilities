@@ -2,6 +2,11 @@
     "tag": "en",
     "label": "Supported Options",
     "attributes": {
+        "course": {
+            "label": "course",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "referenceTable": {
             "label": "referenceTable",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
@@ -13,5 +18,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setCourse": {
+            "label": "setCourse",
+            "arguments": {}
+        }
+    }
 }

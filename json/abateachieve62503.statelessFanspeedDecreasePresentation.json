@@ -1,0 +1,43 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "fanspeedDown"
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Decrease Fan Speed",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "fanspeedDown"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Decrease Fan Speed",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "fanspeedDown",
+                            "value": "fanspeedDown",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "abateachieve62503.statelessFanspeedDecrease",
+    "version": 1
+}

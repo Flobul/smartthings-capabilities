@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedAirQualityValues.value",
                     "value": "airQualityHealthConcern.value",
                     "valueType": "string",
                     "multiSelectable": false

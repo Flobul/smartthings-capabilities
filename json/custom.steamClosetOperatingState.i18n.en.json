@@ -40,10 +40,10 @@
             "i18n": {
                 "value": {
                     "descalingFinish": {
-                        "label": "descalingFinish"
+                        "label": "Cycle complete"
                     },
                     "sterilizing": {
-                        "label": "Sanitising"
+                        "label": "Sanitizing"
                     },
                     "drying": {
                         "label": "Drying"
@@ -52,10 +52,10 @@
                         "label": "Aircleaning"
                     },
                     "finish": {
-                        "label": "Finishing"
+                        "label": "Cycle complete"
                     },
                     "none": {
-                        "label": "Working"
+                        "label": "Preparing"
                     },
                     "delaywash": {
                         "label": "delaywash"
@@ -67,7 +67,7 @@
                         "label": "Dehumidifying"
                     },
                     "descaling": {
-                        "label": "descaling"
+                        "label": "Descaling"
                     },
                     "steaming": {
                         "label": "Steaming"

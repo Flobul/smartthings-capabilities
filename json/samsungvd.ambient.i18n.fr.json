@@ -1,7 +1,13 @@
 {
     "tag": "fr",
     "label": "Ambient Mode",
-    "attributes": {},
+    "attributes": {
+        "info": {
+            "label": "info",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
     "commands": {
         "setAmbientOn": {
             "label": "Ambient Mode Activé",

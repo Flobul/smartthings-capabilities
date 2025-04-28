@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "label": "Stateless Power Off",
+    "attributes": {},
+    "commands": {
+        "powerOff": {
+            "label": "powerOff",
+            "arguments": {}
+        }
+    }
+}
