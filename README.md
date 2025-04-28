@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2024-12-22
+#### Last Update: 2025-04-28
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -11,6 +11,12 @@
 | Capability | Version | Status | Capability Presentation | Translation i18n |
 | ---- | ---- | ---- | ---- | ---- |
 
+| [Stateless Fanspeed Decrease](./json/abateachieve62503.statelessFanspeedDecrease.json) | 1 | proposed | [json](./json/abateachieve62503.statelessFanspeedDecreasePresentation.json) | [json](./json/abateachieve62503.statelessFanspeedDecrease.i18n.fr.json) |
+| [Stateless Fanspeed Increase](./json/abateachieve62503.statelessFanspeedIncrease.json) | 1 | proposed | [json](./json/abateachieve62503.statelessFanspeedIncreasePresentation.json) | [json](./json/abateachieve62503.statelessFanspeedIncrease.i18n.fr.json) |
+| [Stateless Power Off](./json/abateachieve62503.statelessPowerOff.json) | 1 | proposed | [json](./json/abateachieve62503.statelessPowerOffPresentation.json) | [json](./json/abateachieve62503.statelessPowerOff.i18n.fr.json) |
+| [Stateless Power On](./json/abateachieve62503.statelessPowerOn.json) | 1 | proposed | [json](./json/abateachieve62503.statelessPowerOnPresentation.json) | [json](./json/abateachieve62503.statelessPowerOn.i18n.fr.json) |
+| [Stateless Temperature Down](./json/abateachieve62503.statelessTemperatureDown.json) | 1 | proposed | [json](./json/abateachieve62503.statelessTemperatureDownPresentation.json) | [json](./json/abateachieve62503.statelessTemperatureDown.i18n.fr.json) |
+| [Stateless Temperature Up](./json/abateachieve62503.statelessTemperatureUp.json) | 1 | proposed | [json](./json/abateachieve62503.statelessTemperatureUpPresentation.json) | [json](./json/abateachieve62503.statelessTemperatureUp.i18n.fr.json) |
 | [Acceleration Sensor](./json/accelerationSensor.json) | 1 | live | [json](./json/accelerationSensorPresentation.json) | [json](./json/accelerationSensor.i18n.fr.json) |
 | [Activity Lighting Mode](./json/activityLightingMode.json) | 1 | live | [json](./json/activityLightingModePresentation.json) | [json](./json/activityLightingMode.i18n.fr.json) |
 | [Activity Sensor](./json/activitySensor.json) | 1 | live | [json](./json/activitySensorPresentation.json) | [json](./json/activitySensor.i18n.fr.json) |
@@ -27,6 +33,7 @@
 | [Alarm System](./json/alarmSystem.json) | 1 | dead |  | [json](./json/alarmSystem.i18n.fr.json) |
 | [Alarm System Arm Only](./json/alarmSystemArmOnly.json) | 1 | dead |  | [json](./json/alarmSystemArmOnly.i18n.fr.json) |
 | [AlarmSensor](./json/alarmsensor.json) | 1 | proposed |  | [json](./json/alarmsensor.i18n.fr.json) |
+| [Anti Snoring Pillow](./json/antiSnoringPillow.json) | 1 | proposed |  | [json](./json/antiSnoringPillow.i18n.fr.json) |
 | [Appliance Utilization](./json/applianceUtilization.json) | 1 | proposed | [json](./json/applianceUtilizationPresentation.json) | [json](./json/applianceUtilization.i18n.fr.json) |
 | [Astronomical Data](./json/astronomicalData.json) | 1 | dead |  | [json](./json/astronomicalData.i18n.fr.json) |
 | [Atmospheric Pressure Measurement](./json/atmosphericPressureMeasurement.json) | 1 | live | [json](./json/atmosphericPressureMeasurementPresentation.json) | [json](./json/atmosphericPressureMeasurement.i18n.fr.json) |
@@ -58,15 +65,16 @@
 | [Charge Point State](./json/chargePointState.json) | 1 | proposed | [json](./json/chargePointStatePresentation.json) | [json](./json/chargePointState.i18n.fr.json) |
 | [Charging State](./json/chargingState.json) | 1 | proposed | [json](./json/chargingStatePresentation.json) | [json](./json/chargingState.i18n.fr.json) |
 | [Chime](./json/chime.json) | 1 | live | [json](./json/chimePresentation.json) | [json](./json/chime.i18n.fr.json) |
+| [Coffee Maker Operation](./json/coffeeMakerOperation.json) | 1 | proposed |  | [json](./json/coffeeMakerOperation.i18n.fr.json) |
 | [Color](./json/color.json) | 1 | proposed |  | [json](./json/color.i18n.fr.json) |
 | [Color Control](./json/colorControl.json) | 1 | live | [json](./json/colorControlPresentation.json) | [json](./json/colorControl.i18n.fr.json) |
 | [Color Mode](./json/colorMode.json) | 1 | proposed | [json](./json/colorModePresentation.json) | [json](./json/colorMode.i18n.fr.json) |
 | [Color Temperature](./json/colorTemperature.json) | 1 | live | [json](./json/colorTemperaturePresentation.json) | [json](./json/colorTemperature.i18n.fr.json) |
 | [Configuration](./json/configuration.json) | 1 | live |  | [json](./json/configuration.i18n.fr.json) |
 | [Consumable](./json/consumable.json) | 1 | proposed | [json](./json/consumablePresentation.json) | [json](./json/consumable.i18n.fr.json) |
-| [Consumable Life](./json/consumableLife.json) | 1 | proposed |  | [json](./json/consumableLife.i18n.fr.json) |
+| [Consumable Life](./json/consumableLife.json) | 1 | proposed | [json](./json/consumableLifePresentation.json) | [json](./json/consumableLife.i18n.fr.json) |
 | [Contact Sensor](./json/contactSensor.json) | 1 | live | [json](./json/contactSensorPresentation.json) | [json](./json/contactSensor.i18n.fr.json) |
-| [Container State](./json/containerState.json) | 1 | proposed |  | [json](./json/containerState.i18n.fr.json) |
+| [Container State](./json/containerState.json) | 1 | proposed | [json](./json/containerStatePresentation.json) | [json](./json/containerState.i18n.fr.json) |
 | [Cook Time](./json/cookTime.json) | 1 | proposed | [json](./json/cookTimePresentation.json) | [json](./json/cookTime.i18n.fr.json) |
 | [Current Measurement](./json/currentMeasurement.json) | 1 | live | [json](./json/currentMeasurementPresentation.json) | [json](./json/currentMeasurement.i18n.fr.json) |
 | [Accessibility](./json/custom.accessibility.json) | 1 | proposed |  |  |
@@ -139,7 +147,7 @@
 | [Steam Closet Operating State](./json/custom.steamClosetOperatingState.json) | 1 | proposed | [json](./json/custom.steamClosetOperatingStatePresentation.json) | [json](./json/custom.steamClosetOperatingState.i18n.fr.json) |
 | [Steam Closet Silent Mode](./json/custom.steamClosetSilentMode.json) | 1 | proposed |  | [json](./json/custom.steamClosetSilentMode.i18n.fr.json) |
 | [Steam Closet Wrinkle Prevent](./json/custom.steamClosetWrinklePrevent.json) | 1 | proposed |  | [json](./json/custom.steamClosetWrinklePrevent.i18n.fr.json) |
-| [Supported Options](./json/custom.supportedOptions.json) | 1 | proposed |  | [json](./json/custom.supportedOptions.i18n.fr.json) |
+| [Supported Options](./json/custom.supportedOptions.json) | 1 | proposed | [json](./json/custom.supportedOptionsPresentation.json) | [json](./json/custom.supportedOptions.i18n.fr.json) |
 | [Thermostat Setpoint Control](./json/custom.thermostatSetpointControl.json) | 1 | proposed |  | [json](./json/custom.thermostatSetpointControl.i18n.fr.json) |
 | [tvSearch](./json/custom.tvsearch.json) | 1 | proposed |  |  |
 | [User Notification](./json/custom.userNotification.json) | 1 | proposed |  | [json](./json/custom.userNotification.i18n.fr.json) |
@@ -154,6 +162,7 @@
 | [Washer Water Temperature](./json/custom.washerWaterTemperature.json) | 1 | proposed |  | [json](./json/custom.washerWaterTemperature.i18n.fr.json) |
 | [Water Filter](./json/custom.waterFilter.json) | 1 | proposed | [json](./json/custom.waterFilterPresentation.json) | [json](./json/custom.waterFilter.i18n.fr.json) |
 | [Welcome Care Mode](./json/custom.welcomeCareMode.json) | 1 | proposed |  | [json](./json/custom.welcomeCareMode.i18n.fr.json) |
+| [Delivery Robot Call](./json/deliveryRobotCall.json) | 1 | proposed | [json](./json/deliveryRobotCallPresentation.json) | [json](./json/deliveryRobotCall.i18n.fr.json) |
 | [Demand Response Load Control](./json/demandResponseLoadControl.json) | 1 | live |  | [json](./json/demandResponseLoadControl.i18n.fr.json) |
 | [Dew Point](./json/dewPoint.json) | 1 | live | [json](./json/dewPointPresentation.json) | [json](./json/dewPoint.i18n.fr.json) |
 | [Dishwasher Mode](./json/dishwasherMode.json) | 1 | proposed | [json](./json/dishwasherModePresentation.json) | [json](./json/dishwasherMode.i18n.fr.json) |
@@ -211,7 +220,7 @@
 | [Laundry Washer Spin Speed](./json/laundryWasherSpinSpeed.json) | 1 | live | [json](./json/laundryWasherSpinSpeedPresentation.json) | [json](./json/laundryWasherSpinSpeed.i18n.fr.json) |
 | [Level](./json/level.json) | 1 | proposed | [json](./json/levelPresentation.json) | [json](./json/level.i18n.fr.json) |
 | [Light](./json/light.json) | 1 | deprecated |  | [json](./json/light.i18n.fr.json) |
-| [Light Controller Mode](./json/lightControllerMode.json) | 1 | proposed |  | [json](./json/lightControllerMode.i18n.fr.json) |
+| [Light Controller Mode](./json/lightControllerMode.json) | 1 | proposed | [json](./json/lightControllerModePresentation.json) | [json](./json/lightControllerMode.i18n.fr.json) |
 | [Location Mode](./json/locationMode.json) | 1 | live |  | [json](./json/locationMode.i18n.fr.json) |
 | [Lock](./json/lock.json) | 1 | live | [json](./json/lockPresentation.json) | [json](./json/lock.i18n.fr.json) |
 | [Lock Alarm](./json/lockAlarm.json) | 1 | proposed | [json](./json/lockAlarmPresentation.json) | [json](./json/lockAlarm.i18n.fr.json) |
@@ -221,6 +230,12 @@
 | [Lock Schedules](./json/lockSchedules.json) | 1 | proposed |  | [json](./json/lockSchedules.i18n.fr.json) |
 | [Lock Users](./json/lockUsers.json) | 1 | proposed |  | [json](./json/lockUsers.i18n.fr.json) |
 | [Log Trigger](./json/logTrigger.json) | 1 | proposed |  | [json](./json/logTrigger.i18n.fr.json) |
+| [Massage Intensity Change](./json/massageIntensityChange.json) | 1 | proposed | [json](./json/massageIntensityChangePresentation.json) | [json](./json/massageIntensityChange.i18n.fr.json) |
+| [Massage Intensity Control](./json/massageIntensityControl.json) | 1 | proposed | [json](./json/massageIntensityControlPresentation.json) | [json](./json/massageIntensityControl.i18n.fr.json) |
+| [Massage Operating](./json/massageOperating.json) | 1 | proposed | [json](./json/massageOperatingPresentation.json) | [json](./json/massageOperating.i18n.fr.json) |
+| [Massage Operating State](./json/massageOperatingState.json) | 1 | proposed | [json](./json/massageOperatingStatePresentation.json) | [json](./json/massageOperatingState.i18n.fr.json) |
+| [Massage Time Change](./json/massageTimeChange.json) | 1 | proposed | [json](./json/massageTimeChangePresentation.json) | [json](./json/massageTimeChange.i18n.fr.json) |
+| [Massage Time Control](./json/massageTimeControl.json) | 1 | proposed | [json](./json/massageTimeControlPresentation.json) | [json](./json/massageTimeControl.i18n.fr.json) |
 | [Media Controller](./json/mediaController.json) | 1 | proposed |  | [json](./json/mediaController.i18n.fr.json) |
 | [Media Group](./json/mediaGroup.json) | 1 | proposed | [json](./json/mediaGroupPresentation.json) | [json](./json/mediaGroup.i18n.fr.json) |
 | [Media Input Source](./json/mediaInputSource.json) | 1 | live | [json](./json/mediaInputSourcePresentation.json) | [json](./json/mediaInputSource.i18n.fr.json) |
@@ -232,6 +247,7 @@
 | [Mode](./json/mode.json) | 1 | live | [json](./json/modePresentation.json) | [json](./json/mode.i18n.fr.json) |
 | [Mold Health Concern](./json/moldHealthConcern.json) | 1 | live | [json](./json/moldHealthConcernPresentation.json) | [json](./json/moldHealthConcern.i18n.fr.json) |
 | [Momentary](./json/momentary.json) | 1 | live | [json](./json/momentaryPresentation.json) | [json](./json/momentary.i18n.fr.json) |
+| [Motion Bed](./json/motionBed.json) | 1 | proposed | [json](./json/motionBedPresentation.json) | [json](./json/motionBed.i18n.fr.json) |
 | [Motion Sensor](./json/motionSensor.json) | 1 | live | [json](./json/motionSensorPresentation.json) | [json](./json/motionSensor.i18n.fr.json) |
 | [Movement Sensor](./json/movementSensor.json) | 1 | proposed | [json](./json/movementSensorPresentation.json) | [json](./json/movementSensor.i18n.fr.json) |
 | [Multiple Zone Presence](./json/multipleZonePresence.json) | 1 | proposed | [json](./json/multipleZonePresencePresentation.json) | [json](./json/multipleZonePresence.i18n.fr.json) |
@@ -256,7 +272,7 @@
 | [pH Measurement](./json/pHMeasurement.json) | 1 | live | [json](./json/pHMeasurementPresentation.json) | [json](./json/pHMeasurement.i18n.fr.json) |
 | [Panic Alarm](./json/panicAlarm.json) | 1 | live | [json](./json/panicAlarmPresentation.json) | [json](./json/panicAlarm.i18n.fr.json) |
 | [Pest Control](./json/pestControl.json) | 1 | live | [json](./json/pestControlPresentation.json) | [json](./json/pestControl.i18n.fr.json) |
-| [Pet Activity](./json/petActivity.json) | 1 | proposed |  | [json](./json/petActivity.i18n.fr.json) |
+| [Pet Activity](./json/petActivity.json) | 1 | proposed | [json](./json/petActivityPresentation.json) | [json](./json/petActivity.i18n.fr.json) |
 | [Polling](./json/polling.json) | 1 | deprecated |  | [json](./json/polling.i18n.fr.json) |
 | [Power Consumption Report](./json/powerConsumptionReport.json) | 1 | live |  | [json](./json/powerConsumptionReport.i18n.fr.json) |
 | [Power Meter](./json/powerMeter.json) | 1 | live | [json](./json/powerMeterPresentation.json) | [json](./json/powerMeter.i18n.fr.json) |
@@ -284,6 +300,8 @@
 | [Robot Cleaner Operating State](./json/robotCleanerOperatingState.json) | 1 | live | [json](./json/robotCleanerOperatingStatePresentation.json) | [json](./json/robotCleanerOperatingState.i18n.fr.json) |
 | [Robot Cleaner State](./json/robotCleanerState.json) | 1 | deprecated |  | [json](./json/robotCleanerState.i18n.fr.json) |
 | [Robot Cleaner Turbo Mode](./json/robotCleanerTurboMode.json) | 1 | live | [json](./json/robotCleanerTurboModePresentation.json) | [json](./json/robotCleanerTurboMode.i18n.fr.json) |
+| [Safety Switch](./json/safetySwitch.json) | 1 | proposed |  | [json](./json/safetySwitch.i18n.fr.json) |
+| [Safety Valve](./json/safetyValve.json) | 1 | proposed |  | [json](./json/safetyValve.i18n.fr.json) |
 | [Samsung TV](./json/samsungTV.json) | 1 | deprecated |  | [json](./json/samsungTV.i18n.fr.json) |
 | [Samsung TV](./json/samsungTv.json) | 1 | live |  | [json](./json/samsungTv.i18n.fr.json) |
 | [Auto Dispense Detergent](./json/samsungce.autoDispenseDetergent.json) | 1 | proposed |  | [json](./json/samsungce.autoDispenseDetergent.i18n.fr.json) |
@@ -389,13 +407,14 @@
 | [Supports Features](./json/samsungvd.supportsFeatures.json) | 1 | proposed |  | [json](./json/samsungvd.supportsFeatures.i18n.fr.json) |
 | [Supports Power On By OCF](./json/samsungvd.supportsPowerOnByOcf.json) | 1 | proposed |  | [json](./json/samsungvd.supportsPowerOnByOcf.i18n.fr.json) |
 | [Thing Status](./json/samsungvd.thingStatus.json) | 1 | proposed | [json](./json/samsungvd.thingStatusPresentation.json) | [json](./json/samsungvd.thingStatus.i18n.fr.json) |
-| [Scene Activity](./json/sceneActivity.json) | 1 | proposed |  | [json](./json/sceneActivity.i18n.fr.json) |
+| [Scene Activity](./json/sceneActivity.json) | 1 | proposed | [json](./json/sceneActivityPresentation.json) | [json](./json/sceneActivity.i18n.fr.json) |
 | [Scenes](./json/scenes.json) | 1 | proposed |  | [json](./json/scenes.i18n.fr.json) |
 | [Scent](./json/scent.json) | 1 | proposed | [json](./json/scentPresentation.json) | [json](./json/scent.i18n.fr.json) |
 | [Diagnostics Information](./json/sec.diagnosticsInformation.json) | 1 | proposed |  | [json](./json/sec.diagnosticsInformation.i18n.fr.json) |
 | [Wifi configuration](./json/sec.wifiConfiguration.json) | 1 | proposed |  | [json](./json/sec.wifiConfiguration.i18n.fr.json) |
 | [Security System](./json/securitySystem.json) | 1 | live | [json](./json/securitySystemPresentation.json) | [json](./json/securitySystem.i18n.fr.json) |
 | [Sensor](./json/sensor.json) | 1 | deprecated |  | [json](./json/sensor.i18n.fr.json) |
+| [Service Area](./json/serviceArea.json) | 1 | proposed | [json](./json/serviceAreaPresentation.json) | [json](./json/serviceArea.i18n.fr.json) |
 | [Shock Sensor](./json/shockSensor.json) | 1 | deprecated |  | [json](./json/shockSensor.i18n.fr.json) |
 | [Signal Strength](./json/signalStrength.json) | 1 | live | [json](./json/signalStrengthPresentation.json) | [json](./json/signalStrength.i18n.fr.json) |
 | [applianceOperationStatesV2](./json/signalahead13665.applianceoperationstatesv2.json) | 1 | proposed | [json](./json/signalahead13665.applianceoperationstatesv2Presentation.json) | [json](./json/signalahead13665.applianceoperationstatesv2.i18n.fr.json) |
@@ -496,6 +515,7 @@
 | [Water Temperature Measurement](./json/waterTemperatureMeasurement.json) | 1 | proposed | [json](./json/waterTemperatureMeasurementPresentation.json) | [json](./json/waterTemperatureMeasurement.i18n.fr.json) |
 | [Water Usage Meter](./json/waterUsageMeter.json) | 1 | proposed | [json](./json/waterUsageMeterPresentation.json) | [json](./json/waterUsageMeter.i18n.fr.json) |
 | [webrtc](./json/webrtc.json) | 1 | live | [json](./json/webrtcPresentation.json) | [json](./json/webrtc.i18n.fr.json) |
+| [Wifi Information](./json/wifiInformation.json) | 1 | proposed |  | [json](./json/wifiInformation.i18n.fr.json) |
 | [Wifi Mesh Router](./json/wifiMeshRouter.json) | 1 | deprecated |  | [json](./json/wifiMeshRouter.i18n.fr.json) |
 | [Wind Mode](./json/windMode.json) | 1 | live | [json](./json/windModePresentation.json) | [json](./json/windMode.i18n.fr.json) |
 | [Wind Speed](./json/windSpeed.json) | 1 | proposed | [json](./json/windSpeedPresentation.json) | [json](./json/windSpeed.i18n.fr.json) |
