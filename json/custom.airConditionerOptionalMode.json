@@ -10,9 +10,7 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
                         "items": {
-                            "type": "string",
                             "enum": [
                                 "off",
                                 "energySaving",
@@ -25,12 +23,15 @@
                                 "twoStep",
                                 "comfort",
                                 "dlightCool",
+                                "dryComfort",
                                 "cubePurify",
                                 "longWind",
                                 "motionIndirect",
                                 "motionDirect"
-                            ]
-                        }
+                            ],
+                            "type": "string"
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,
@@ -45,7 +46,6 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
                         "enum": [
                             "off",
                             "energySaving",
@@ -58,11 +58,13 @@
                             "twoStep",
                             "comfort",
                             "dlightCool",
+                            "dryComfort",
                             "cubePurify",
                             "longWind",
                             "motionIndirect",
                             "motionDirect"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -70,7 +72,6 @@
                     "value"
                 ]
             },
-            "setter": "setAcOptionalMode",
             "enumCommands": []
         }
     },
@@ -82,7 +83,6 @@
                     "name": "mode",
                     "optional": false,
                     "schema": {
-                        "type": "string",
                         "enum": [
                             "off",
                             "energySaving",
@@ -95,11 +95,13 @@
                             "twoStep",
                             "comfort",
                             "dlightCool",
+                            "dryComfort",
                             "cubePurify",
                             "longWind",
                             "motionIndirect",
                             "motionDirect"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 }
             ]
