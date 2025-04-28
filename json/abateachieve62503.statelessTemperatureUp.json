@@ -1,0 +1,14 @@
+{
+    "id": "abateachieve62503.statelessTemperatureUp",
+    "version": 1,
+    "status": "proposed",
+    "name": "Stateless Temperature Up",
+    "ephemeral": false,
+    "attributes": {},
+    "commands": {
+        "temperatureUp": {
+            "name": "temperatureUp",
+            "arguments": []
+        }
+    }
+}
