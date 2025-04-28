@@ -1,0 +1,39 @@
+{
+    "id": "safetyValve",
+    "version": 1,
+    "status": "proposed",
+    "name": "Safety Valve",
+    "ephemeral": false,
+    "attributes": {
+        "valve": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "closed",
+                            "open"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": [
+                {
+                    "command": "close",
+                    "value": "closed"
+                }
+            ]
+        }
+    },
+    "commands": {
+        "close": {
+            "name": "close",
+            "arguments": []
+        }
+    }
+}
