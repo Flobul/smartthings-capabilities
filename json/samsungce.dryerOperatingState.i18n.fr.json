@@ -3,18 +3,18 @@
     "label": "Dryer Operating State",
     "attributes": {
         "operatingState": {
-            "label": "operatingState",
+            "label": "État de l'appareil",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "running"
+                        "label": "Séchage en cours"
                     },
                     "paused": {
-                        "label": "paused"
+                        "label": "Pause"
                     },
                     "ready": {
-                        "label": "ready"
+                        "label": "Activation"
                     }
                 }
             }
@@ -40,7 +40,7 @@
             "i18n": {}
         },
         "dryerJobState": {
-            "label": "dryerJobState",
+            "label": "Progression du séchage",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -48,16 +48,19 @@
                         "label": "Détection de la charge"
                     },
                     "wrinklePrevent": {
-                        "label": "wrinklePrevent"
+                        "label": "Prévention des faux-plis"
                     },
                     "sanitizing": {
-                        "label": "Désinfection"
+                        "label": "Stérilisation en cours"
+                    },
+                    "laundrySensing": {
+                        "label": "Détection du linge"
                     },
                     "finished": {
                         "label": "Cycle terminé"
                     },
                     "none": {
-                        "label": "En cours"
+                        "label": "Préparation en cours"
                     },
                     "thawingFrozenInside": {
                         "label": "Dégivrage"
@@ -72,22 +75,22 @@
                         "label": "Déshumidification"
                     },
                     "drying": {
-                        "label": "Séchage"
+                        "label": "Séchage en cours"
                     },
                     "refreshing": {
-                        "label": "Actualisation"
+                        "label": "Actualisation en cours"
                     },
                     "humiditySensing": {
                         "label": "Détection"
                     },
                     "cooling": {
-                        "label": "Refroidit"
+                        "label": "Refroidissement en cours"
                     },
                     "internalCare": {
-                        "label": "Nettoyage"
+                        "label": "Séchage en cours"
                     },
                     "aIDrying": {
-                        "label": "Séchage"
+                        "label": "Séchage en cours"
                     },
                     "freezeProtection": {
                         "label": "Mode antigel"
@@ -107,11 +110,11 @@
             "arguments": {}
         },
         "cancel": {
-            "label": "cancel",
+            "label": "Annuler le cycle",
             "arguments": {}
         },
         "start": {
-            "label": "start",
+            "label": "Lancer le cycle",
             "arguments": {}
         },
         "setDelayEnd": {
@@ -119,7 +122,7 @@
             "arguments": {}
         },
         "pause": {
-            "label": "pause",
+            "label": "Mettre en pause le cycle",
             "arguments": {}
         }
     }

@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "label": "Stateless Temperature Up",
+    "attributes": {},
+    "commands": {
+        "temperatureUp": {
+            "label": "temperatureUp",
+            "arguments": {}
+        }
+    }
+}

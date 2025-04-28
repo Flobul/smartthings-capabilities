@@ -1,0 +1,54 @@
+{
+    "tag": "en",
+    "label": "Delivery robot",
+    "attributes": {
+        "robotState": {
+            "label": "Delivery robot",
+            "description": "The current status of the delivery robot",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "using": {
+                        "label": "In use"
+                    },
+                    "called": {
+                        "label": "Called"
+                    },
+                    "available": {
+                        "label": "Standing by for delivery"
+                    },
+                    "callFailed": {
+                        "label": "Couldn't contact robot"
+                    },
+                    "error": {
+                        "label": "Error"
+                    }
+                }
+            }
+        },
+        "supportedRobotStates": {
+            "label": "Supported delivery robot states",
+            "description": "The list of supported delivery robot states",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": {}
+        },
+        "supportedRobotCommands": {
+            "label": "Supported delivery robot commands",
+            "description": "The list of supported delivery robot commands",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "call": {
+            "label": "Call",
+            "description": "Call a delivery robot",
+            "arguments": {}
+        },
+        "cancel": {
+            "label": "Cancelled",
+            "description": "Cancel a delivery robot call",
+            "arguments": {}
+        }
+    }
+}

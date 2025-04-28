@@ -1,33 +1,67 @@
 {
-    "tag": "en",
-    "label": "Container State",
+    "tag": "fr",
+    "label": "État du conteneur",
+    "description": "Allows presentation of a container state",
     "attributes": {
         "containerState": {
-            "label": "containerState",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "État du conteneur",
+            "description": "How much of the container is filled",
+            "displayTemplate": "{{device.label}} {{attribute}} : {{value}}",
             "i18n": {
                 "value": {
                     "normal": {
-                        "label": "normal"
+                        "label": "Normal"
                     },
                     "empty": {
-                        "label": "empty"
+                        "label": "Vide"
                     },
                     "full": {
-                        "label": "full"
+                        "label": "Pleine"
                     }
                 }
             }
         },
         "supportedContainerStates": {
-            "label": "supportedContainerStates",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
+            "label": "supported container states",
+            "description": "Supported container states",
+            "displayTemplate": "{{device.label}} {{attribute}} : {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "full": {
+                        "label": "full"
+                    },
+                    "empty": {
+                        "label": "empty"
+                    }
+                }
+            }
         },
         "content": {
-            "label": "content",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
+            "label": "État du conteneur",
+            "description": "The content of the container",
+            "displayTemplate": "{{device.label}} {{attribute}} : {{value}}",
+            "i18n": {
+                "value": {
+                    "liquid": {
+                        "label": "Liquide"
+                    },
+                    "consumable": {
+                        "label": "Produit consommable"
+                    },
+                    "excretions": {
+                        "label": "Déjection animale"
+                    },
+                    "water": {
+                        "label": "Eau"
+                    },
+                    "food": {
+                        "label": "Nourriture"
+                    }
+                }
+            }
         }
     },
     "commands": {}

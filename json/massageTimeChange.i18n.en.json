@@ -1,0 +1,12 @@
+{
+    "tag": "en",
+    "label": "Massage",
+    "attributes": {},
+    "commands": {
+        "nextTime": {
+            "label": "Time",
+            "description": "Command to set the next time for the massage duration.",
+            "arguments": {}
+        }
+    }
+}

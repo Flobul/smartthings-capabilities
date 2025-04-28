@@ -1,0 +1,31 @@
+{
+    "tag": "en",
+    "label": "Cleaning area",
+    "description": "Allows for selection of the areas that the device supports",
+    "attributes": {
+        "selectedAreas": {
+            "label": "Cleaning area",
+            "description": "Set of areas where the device should attempt to operate",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
+            "i18n": {}
+        },
+        "supportedAreas": {
+            "label": "supported areas",
+            "description": "Supported areas for this device to be in",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "selectAreas": {
+            "label": "select areas",
+            "description": "Set up areas where the device should attempt to operate",
+            "arguments": {
+                "areas": {
+                    "i18n": {},
+                    "description": "Set of areas where the device should attempt to operate"
+                }
+            }
+        }
+    }
+}

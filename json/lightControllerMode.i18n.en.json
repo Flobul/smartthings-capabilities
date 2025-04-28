@@ -1,10 +1,10 @@
 {
     "tag": "en",
-    "label": "Light Controller Mode",
+    "label": "Light controller mode",
     "description": "Allows for the control of the light controller mode.",
     "attributes": {
         "lightControllerMode": {
-            "label": "light controller mode",
+            "label": "Light controller mode",
             "description": "The mode of operation that the light controller is set to",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
@@ -19,7 +19,7 @@
                         "label": "RGBW"
                     },
                     "colorTemperature": {
-                        "label": "Color Temperature"
+                        "label": "Colour temp"
                     }
                 }
             }
@@ -37,7 +37,20 @@
             "description": "Set the light controller mode",
             "arguments": {
                 "mode": {
-                    "i18n": {},
+                    "i18n": {
+                        "rgb": {
+                            "label": "RGB"
+                        },
+                        "dimmer": {
+                            "label": "Dimmer"
+                        },
+                        "rgbw": {
+                            "label": "RGBW"
+                        },
+                        "colorTemperature": {
+                            "label": "Colour temp"
+                        }
+                    },
                     "description": "The mode to which light controller operation should be set to"
                 }
             }

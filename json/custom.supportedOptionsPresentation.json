@@ -1,0 +1,1911 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "panelItems": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "command": {
+                        "name": "setCourse",
+                        "alternatives": [
+                            {
+                                "key": "01",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.01.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "02",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.02.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "03",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.03.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "04",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.04.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "05",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.05.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "06",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.06.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "07",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.07.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "08",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.08.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "09",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.09.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.0A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.0B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.0C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.0D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.0E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.0F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "10",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.10.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "11",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.11.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "12",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.12.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "13",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.13.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "14",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.14.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "15",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.15.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "16",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.16.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "17",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.17.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "18",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.18.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "19",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.19.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.1A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.1B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.1C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.1D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.1E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.1F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "20",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.20.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "21",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.21.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "22",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.22.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "23",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.23.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "24",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.24.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "25",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.25.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "26",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.26.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "27",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.27.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "28",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.28.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "29",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.29.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.2A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.2B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.2C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.2D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.2E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.2F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "30",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.30.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "31",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.31.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "32",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.32.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "33",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.33.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "34",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.34.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "35",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.35.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "36",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.36.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "37",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.37.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "38",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.38.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "39",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.39.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.3A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.3B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.3C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.3D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.3E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.3F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "40",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.40.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "41",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.41.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "42",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.42.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "43",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.43.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "44",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.44.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "45",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.45.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "46",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.46.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "47",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.47.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "48",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.48.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "49",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.49.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.4A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.4B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.4C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.4D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.4E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.4F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "50",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.50.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "51",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.51.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "52",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.52.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "53",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.53.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "54",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.54.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "55",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.55.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "56",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.56.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "57",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.57.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "58",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.58.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "59",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.59.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.5A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.5B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.5C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.5D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.5E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.5F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "60",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.60.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "61",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.61.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "62",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.62.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "63",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.63.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "64",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.64.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "65",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.65.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "66",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.66.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "67",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.67.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "68",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.68.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "69",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.69.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.6A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.6B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.6C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.6D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.6E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.6F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "70",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.70.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "71",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.71.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "72",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.72.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "73",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.73.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "74",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.74.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "75",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.75.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "76",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.76.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "77",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.77.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "78",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.78.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "79",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.79.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.7A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.7B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.7C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.7D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.7E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.7F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "80",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.80.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "81",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.81.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "82",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.82.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "83",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.83.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "84",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.84.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "85",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.85.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "86",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.86.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "87",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.87.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "88",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.88.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "89",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.89.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.8A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.8B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.8C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.8D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.8E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.8F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "90",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.90.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "91",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.91.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "92",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.92.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "93",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.93.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "94",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.94.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "95",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.95.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "96",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.96.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "97",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.97.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "98",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.98.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "99",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.99.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9A",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.9A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9B",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.9B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9C",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.9C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9D",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.9D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9E",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.9E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9F",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.9F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A0",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A0.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A1",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A1.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A2",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A2.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A3",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A3.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A4",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A4.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A5",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A5.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A6",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A6.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A7",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A7.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A8",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A8.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A9",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.A9.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AA",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.AA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AB",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.AB.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AC",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.AC.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AD",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.AD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AE",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.AE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AF",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.AF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B0",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.B0.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B1",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.B1.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B2",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.B2.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B3",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.B3.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B4",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.B4.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B5",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.B5.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B6",
+                                "value": "{{i18n.commands.setCourse.arguments.course.i18n.B6.label}}",
+                                "type": "active"
+                            }
+                        ],
+                        "argumentType": "string",
+                        "supportedValues": "supportedCourses.value"
+                    },
+                    "state": {
+                        "value": "course.value",
+                        "valueType": "string",
+                        "alternatives": [
+                            {
+                                "key": "01",
+                                "value": "{{i18n.attributes.course.i18n.value.01.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "02",
+                                "value": "{{i18n.attributes.course.i18n.value.02.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "03",
+                                "value": "{{i18n.attributes.course.i18n.value.03.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "04",
+                                "value": "{{i18n.attributes.course.i18n.value.04.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "05",
+                                "value": "{{i18n.attributes.course.i18n.value.05.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "06",
+                                "value": "{{i18n.attributes.course.i18n.value.06.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "07",
+                                "value": "{{i18n.attributes.course.i18n.value.07.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "08",
+                                "value": "{{i18n.attributes.course.i18n.value.08.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "09",
+                                "value": "{{i18n.attributes.course.i18n.value.09.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0A",
+                                "value": "{{i18n.attributes.course.i18n.value.0A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0B",
+                                "value": "{{i18n.attributes.course.i18n.value.0B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0C",
+                                "value": "{{i18n.attributes.course.i18n.value.0C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0D",
+                                "value": "{{i18n.attributes.course.i18n.value.0D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0E",
+                                "value": "{{i18n.attributes.course.i18n.value.0E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "0F",
+                                "value": "{{i18n.attributes.course.i18n.value.0F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "10",
+                                "value": "{{i18n.attributes.course.i18n.value.10.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "11",
+                                "value": "{{i18n.attributes.course.i18n.value.11.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "12",
+                                "value": "{{i18n.attributes.course.i18n.value.12.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "13",
+                                "value": "{{i18n.attributes.course.i18n.value.13.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "14",
+                                "value": "{{i18n.attributes.course.i18n.value.14.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "15",
+                                "value": "{{i18n.attributes.course.i18n.value.15.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "16",
+                                "value": "{{i18n.attributes.course.i18n.value.16.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "17",
+                                "value": "{{i18n.attributes.course.i18n.value.17.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "18",
+                                "value": "{{i18n.attributes.course.i18n.value.18.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "19",
+                                "value": "{{i18n.attributes.course.i18n.value.19.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1A",
+                                "value": "{{i18n.attributes.course.i18n.value.1A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1B",
+                                "value": "{{i18n.attributes.course.i18n.value.1B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1C",
+                                "value": "{{i18n.attributes.course.i18n.value.1C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1D",
+                                "value": "{{i18n.attributes.course.i18n.value.1D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1E",
+                                "value": "{{i18n.attributes.course.i18n.value.1E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "1F",
+                                "value": "{{i18n.attributes.course.i18n.value.1F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "20",
+                                "value": "{{i18n.attributes.course.i18n.value.20.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "21",
+                                "value": "{{i18n.attributes.course.i18n.value.21.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "22",
+                                "value": "{{i18n.attributes.course.i18n.value.22.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "23",
+                                "value": "{{i18n.attributes.course.i18n.value.23.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "24",
+                                "value": "{{i18n.attributes.course.i18n.value.24.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "25",
+                                "value": "{{i18n.attributes.course.i18n.value.25.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "26",
+                                "value": "{{i18n.attributes.course.i18n.value.26.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "27",
+                                "value": "{{i18n.attributes.course.i18n.value.27.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "28",
+                                "value": "{{i18n.attributes.course.i18n.value.28.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "29",
+                                "value": "{{i18n.attributes.course.i18n.value.29.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2A",
+                                "value": "{{i18n.attributes.course.i18n.value.2A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2B",
+                                "value": "{{i18n.attributes.course.i18n.value.2B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2C",
+                                "value": "{{i18n.attributes.course.i18n.value.2C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2D",
+                                "value": "{{i18n.attributes.course.i18n.value.2D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2E",
+                                "value": "{{i18n.attributes.course.i18n.value.2E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "2F",
+                                "value": "{{i18n.attributes.course.i18n.value.2F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "30",
+                                "value": "{{i18n.attributes.course.i18n.value.30.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "31",
+                                "value": "{{i18n.attributes.course.i18n.value.31.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "32",
+                                "value": "{{i18n.attributes.course.i18n.value.32.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "33",
+                                "value": "{{i18n.attributes.course.i18n.value.33.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "34",
+                                "value": "{{i18n.attributes.course.i18n.value.34.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "35",
+                                "value": "{{i18n.attributes.course.i18n.value.35.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "36",
+                                "value": "{{i18n.attributes.course.i18n.value.36.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "37",
+                                "value": "{{i18n.attributes.course.i18n.value.37.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "38",
+                                "value": "{{i18n.attributes.course.i18n.value.38.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "39",
+                                "value": "{{i18n.attributes.course.i18n.value.39.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3A",
+                                "value": "{{i18n.attributes.course.i18n.value.3A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3B",
+                                "value": "{{i18n.attributes.course.i18n.value.3B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3C",
+                                "value": "{{i18n.attributes.course.i18n.value.3C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3D",
+                                "value": "{{i18n.attributes.course.i18n.value.3D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3E",
+                                "value": "{{i18n.attributes.course.i18n.value.3E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "3F",
+                                "value": "{{i18n.attributes.course.i18n.value.3F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "40",
+                                "value": "{{i18n.attributes.course.i18n.value.40.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "41",
+                                "value": "{{i18n.attributes.course.i18n.value.41.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "42",
+                                "value": "{{i18n.attributes.course.i18n.value.42.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "43",
+                                "value": "{{i18n.attributes.course.i18n.value.43.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "44",
+                                "value": "{{i18n.attributes.course.i18n.value.44.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "45",
+                                "value": "{{i18n.attributes.course.i18n.value.45.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "46",
+                                "value": "{{i18n.attributes.course.i18n.value.46.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "47",
+                                "value": "{{i18n.attributes.course.i18n.value.47.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "48",
+                                "value": "{{i18n.attributes.course.i18n.value.48.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "49",
+                                "value": "{{i18n.attributes.course.i18n.value.49.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4A",
+                                "value": "{{i18n.attributes.course.i18n.value.4A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4B",
+                                "value": "{{i18n.attributes.course.i18n.value.4B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4C",
+                                "value": "{{i18n.attributes.course.i18n.value.4C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4D",
+                                "value": "{{i18n.attributes.course.i18n.value.4D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4E",
+                                "value": "{{i18n.attributes.course.i18n.value.4E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "4F",
+                                "value": "{{i18n.attributes.course.i18n.value.4F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "50",
+                                "value": "{{i18n.attributes.course.i18n.value.50.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "51",
+                                "value": "{{i18n.attributes.course.i18n.value.51.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "52",
+                                "value": "{{i18n.attributes.course.i18n.value.52.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "53",
+                                "value": "{{i18n.attributes.course.i18n.value.53.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "54",
+                                "value": "{{i18n.attributes.course.i18n.value.54.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "55",
+                                "value": "{{i18n.attributes.course.i18n.value.55.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "56",
+                                "value": "{{i18n.attributes.course.i18n.value.56.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "57",
+                                "value": "{{i18n.attributes.course.i18n.value.57.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "58",
+                                "value": "{{i18n.attributes.course.i18n.value.58.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "59",
+                                "value": "{{i18n.attributes.course.i18n.value.59.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5A",
+                                "value": "{{i18n.attributes.course.i18n.value.5A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5B",
+                                "value": "{{i18n.attributes.course.i18n.value.5B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5C",
+                                "value": "{{i18n.attributes.course.i18n.value.5C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5D",
+                                "value": "{{i18n.attributes.course.i18n.value.5D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5E",
+                                "value": "{{i18n.attributes.course.i18n.value.5E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "5F",
+                                "value": "{{i18n.attributes.course.i18n.value.5F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "60",
+                                "value": "{{i18n.attributes.course.i18n.value.60.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "61",
+                                "value": "{{i18n.attributes.course.i18n.value.61.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "62",
+                                "value": "{{i18n.attributes.course.i18n.value.62.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "63",
+                                "value": "{{i18n.attributes.course.i18n.value.63.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "64",
+                                "value": "{{i18n.attributes.course.i18n.value.64.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "65",
+                                "value": "{{i18n.attributes.course.i18n.value.65.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "66",
+                                "value": "{{i18n.attributes.course.i18n.value.66.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "67",
+                                "value": "{{i18n.attributes.course.i18n.value.67.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "68",
+                                "value": "{{i18n.attributes.course.i18n.value.68.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "69",
+                                "value": "{{i18n.attributes.course.i18n.value.69.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6A",
+                                "value": "{{i18n.attributes.course.i18n.value.6A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6B",
+                                "value": "{{i18n.attributes.course.i18n.value.6B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6C",
+                                "value": "{{i18n.attributes.course.i18n.value.6C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6D",
+                                "value": "{{i18n.attributes.course.i18n.value.6D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6E",
+                                "value": "{{i18n.attributes.course.i18n.value.6E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "6F",
+                                "value": "{{i18n.attributes.course.i18n.value.6F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "70",
+                                "value": "{{i18n.attributes.course.i18n.value.70.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "71",
+                                "value": "{{i18n.attributes.course.i18n.value.71.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "72",
+                                "value": "{{i18n.attributes.course.i18n.value.72.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "73",
+                                "value": "{{i18n.attributes.course.i18n.value.73.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "74",
+                                "value": "{{i18n.attributes.course.i18n.value.74.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "75",
+                                "value": "{{i18n.attributes.course.i18n.value.75.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "76",
+                                "value": "{{i18n.attributes.course.i18n.value.76.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "77",
+                                "value": "{{i18n.attributes.course.i18n.value.77.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "78",
+                                "value": "{{i18n.attributes.course.i18n.value.78.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "79",
+                                "value": "{{i18n.attributes.course.i18n.value.79.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7A",
+                                "value": "{{i18n.attributes.course.i18n.value.7A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7B",
+                                "value": "{{i18n.attributes.course.i18n.value.7B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7C",
+                                "value": "{{i18n.attributes.course.i18n.value.7C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7D",
+                                "value": "{{i18n.attributes.course.i18n.value.7D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7E",
+                                "value": "{{i18n.attributes.course.i18n.value.7E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "7F",
+                                "value": "{{i18n.attributes.course.i18n.value.7F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "80",
+                                "value": "{{i18n.attributes.course.i18n.value.80.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "81",
+                                "value": "{{i18n.attributes.course.i18n.value.81.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "82",
+                                "value": "{{i18n.attributes.course.i18n.value.82.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "83",
+                                "value": "{{i18n.attributes.course.i18n.value.83.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "84",
+                                "value": "{{i18n.attributes.course.i18n.value.84.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "85",
+                                "value": "{{i18n.attributes.course.i18n.value.85.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "86",
+                                "value": "{{i18n.attributes.course.i18n.value.86.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "87",
+                                "value": "{{i18n.attributes.course.i18n.value.87.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "88",
+                                "value": "{{i18n.attributes.course.i18n.value.88.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "89",
+                                "value": "{{i18n.attributes.course.i18n.value.89.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8A",
+                                "value": "{{i18n.attributes.course.i18n.value.8A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8B",
+                                "value": "{{i18n.attributes.course.i18n.value.8B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8C",
+                                "value": "{{i18n.attributes.course.i18n.value.8C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8D",
+                                "value": "{{i18n.attributes.course.i18n.value.8D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8E",
+                                "value": "{{i18n.attributes.course.i18n.value.8E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "8F",
+                                "value": "{{i18n.attributes.course.i18n.value.8F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "90",
+                                "value": "{{i18n.attributes.course.i18n.value.90.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "91",
+                                "value": "{{i18n.attributes.course.i18n.value.91.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "92",
+                                "value": "{{i18n.attributes.course.i18n.value.92.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "93",
+                                "value": "{{i18n.attributes.course.i18n.value.93.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "94",
+                                "value": "{{i18n.attributes.course.i18n.value.94.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "95",
+                                "value": "{{i18n.attributes.course.i18n.value.95.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "96",
+                                "value": "{{i18n.attributes.course.i18n.value.96.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "97",
+                                "value": "{{i18n.attributes.course.i18n.value.97.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "98",
+                                "value": "{{i18n.attributes.course.i18n.value.98.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "99",
+                                "value": "{{i18n.attributes.course.i18n.value.99.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9A",
+                                "value": "{{i18n.attributes.course.i18n.value.9A.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9B",
+                                "value": "{{i18n.attributes.course.i18n.value.9B.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9C",
+                                "value": "{{i18n.attributes.course.i18n.value.9C.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9D",
+                                "value": "{{i18n.attributes.course.i18n.value.9D.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9E",
+                                "value": "{{i18n.attributes.course.i18n.value.9E.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "9F",
+                                "value": "{{i18n.attributes.course.i18n.value.9F.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A0",
+                                "value": "{{i18n.attributes.course.i18n.value.A0.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A1",
+                                "value": "{{i18n.attributes.course.i18n.value.A1.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A2",
+                                "value": "{{i18n.attributes.course.i18n.value.A2.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A3",
+                                "value": "{{i18n.attributes.course.i18n.value.A3.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A4",
+                                "value": "{{i18n.attributes.course.i18n.value.A4.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A5",
+                                "value": "{{i18n.attributes.course.i18n.value.A5.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A6",
+                                "value": "{{i18n.attributes.course.i18n.value.A6.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A7",
+                                "value": "{{i18n.attributes.course.i18n.value.A7.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A8",
+                                "value": "{{i18n.attributes.course.i18n.value.A8.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "A9",
+                                "value": "{{i18n.attributes.course.i18n.value.A9.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AA",
+                                "value": "{{i18n.attributes.course.i18n.value.AA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AB",
+                                "value": "{{i18n.attributes.course.i18n.value.AB.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AC",
+                                "value": "{{i18n.attributes.course.i18n.value.AC.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AD",
+                                "value": "{{i18n.attributes.course.i18n.value.AD.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AE",
+                                "value": "{{i18n.attributes.course.i18n.value.AE.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "AF",
+                                "value": "{{i18n.attributes.course.i18n.value.AF.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B0",
+                                "value": "{{i18n.attributes.course.i18n.value.B0.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B1",
+                                "value": "{{i18n.attributes.course.i18n.value.B1.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B2",
+                                "value": "{{i18n.attributes.course.i18n.value.B2.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B3",
+                                "value": "{{i18n.attributes.course.i18n.value.B3.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B4",
+                                "value": "{{i18n.attributes.course.i18n.value.B4.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B5",
+                                "value": "{{i18n.attributes.course.i18n.value.B5.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B6",
+                                "value": "{{i18n.attributes.course.i18n.value.B6.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F1",
+                                "value": "{{i18n.attributes.course.i18n.value.F1.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F2",
+                                "value": "{{i18n.attributes.course.i18n.value.F2.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F3",
+                                "value": "{{i18n.attributes.course.i18n.value.F3.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F4",
+                                "value": "{{i18n.attributes.course.i18n.value.F4.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F5",
+                                "value": "{{i18n.attributes.course.i18n.value.F5.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F6",
+                                "value": "{{i18n.attributes.course.i18n.value.F6.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F7",
+                                "value": "{{i18n.attributes.course.i18n.value.F7.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F8",
+                                "value": "{{i18n.attributes.course.i18n.value.F8.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "F9",
+                                "value": "{{i18n.attributes.course.i18n.value.F9.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "FA",
+                                "value": "{{i18n.attributes.course.i18n.value.FA.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "FB",
+                                "value": "{{i18n.attributes.course.i18n.value.FB.label}}",
+                                "type": "active"
+                            }
+                        ]
+                    },
+                    "availableSizes": [
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "custom.supportedOptions",
+    "version": 1
+}

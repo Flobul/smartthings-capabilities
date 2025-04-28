@@ -1,0 +1,149 @@
+{
+    "tag": "fr",
+    "label": "Mouvement",
+    "attributes": {
+        "mode": {
+            "label": "Mouvement",
+            "description": "The current mode of the motion bed",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "antiSnore": {
+                        "label": "Anti-ronflement"
+                    },
+                    "noMode": {
+                        "label": "noMode"
+                    },
+                    "tv": {
+                        "label": "TV"
+                    },
+                    "preset2": {
+                        "label": "Preset 2"
+                    },
+                    "preset1": {
+                        "label": "Ma trousse"
+                    },
+                    "flat": {
+                        "label": "Plat"
+                    },
+                    "zeroG": {
+                        "label": "Gravité zéro"
+                    },
+                    "reading": {
+                        "label": "Lecture"
+                    }
+                }
+            }
+        },
+        "supportedMotionPositions": {
+            "label": "Supported Motion Positions",
+            "description": "List of supported motion positions for the motion bed",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "statelessMode": {
+            "label": "Stateless Mode",
+            "description": "stateless modes for the motion bed",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedModes": {
+            "label": "Supported Modes",
+            "description": "List of supported preset modes for the motion bed",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "stop": {
+            "label": "stop",
+            "description": "Stop the motion bed",
+            "arguments": {
+                "position": {
+                    "i18n": {
+                        "elevationUp": {
+                            "label": "Elevation up"
+                        },
+                        "headDown": {
+                            "label": "Head down"
+                        },
+                        "footUp": {
+                            "label": "Foot up"
+                        },
+                        "footDown": {
+                            "label": "Foot down"
+                        },
+                        "elevationDown": {
+                            "label": "Elevation down"
+                        },
+                        "headUp": {
+                            "label": "Head up"
+                        }
+                    },
+                    "description": "Position of the motion bed to stop"
+                }
+            }
+        },
+        "setMode": {
+            "label": "Set mode",
+            "description": "Set the mode of the motion bed",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "antiSnore": {
+                            "label": "Anti-ronflement"
+                        },
+                        "tv": {
+                            "label": "TV"
+                        },
+                        "preset2": {
+                            "label": "Preset 2"
+                        },
+                        "preset1": {
+                            "label": "Ma trousse"
+                        },
+                        "flat": {
+                            "label": "Plat"
+                        },
+                        "zeroG": {
+                            "label": "Gravité zéro"
+                        },
+                        "reading": {
+                            "label": "Lecture"
+                        }
+                    },
+                    "description": "Mode to set"
+                }
+            }
+        },
+        "start": {
+            "label": "start",
+            "description": "Start the motion bed",
+            "arguments": {
+                "position": {
+                    "i18n": {
+                        "elevationUp": {
+                            "label": "Elevation up"
+                        },
+                        "headDown": {
+                            "label": "Head down"
+                        },
+                        "footUp": {
+                            "label": "Foot up"
+                        },
+                        "footDown": {
+                            "label": "Foot down"
+                        },
+                        "elevationDown": {
+                            "label": "Elevation down"
+                        },
+                        "headUp": {
+                            "label": "Head up"
+                        }
+                    },
+                    "description": "Position of the motion bed to stop"
+                }
+            }
+        }
+    }
+}

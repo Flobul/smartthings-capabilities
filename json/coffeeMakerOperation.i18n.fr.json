@@ -1,0 +1,62 @@
+{
+    "tag": "en",
+    "label": "Coffee Maker Operation",
+    "attributes": {
+        "errorState": {
+            "label": "errorState",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "coffeeMakerOperationStatus": {
+            "label": "coffeeMakerOperationStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "making": {
+                        "label": "making"
+                    },
+                    "stopped": {
+                        "label": "stopped"
+                    },
+                    "ready": {
+                        "label": "ready"
+                    },
+                    "initializing": {
+                        "label": "initializing"
+                    },
+                    "complete": {
+                        "label": "complete"
+                    },
+                    "error": {
+                        "label": "error"
+                    }
+                }
+            }
+        },
+        "supportedCommands": {
+            "label": "supportedCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "supportedCoffeeMakerOperationStatus": {
+            "label": "supportedCoffeeMakerOperationStatus",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "supportedMenu": {
+            "label": "supportedMenu",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "stop": {
+            "label": "stop",
+            "arguments": {}
+        },
+        "makeCoffee": {
+            "label": "makeCoffee",
+            "arguments": {}
+        }
+    }
+}

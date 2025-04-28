@@ -10,7 +10,7 @@
             "i18n": {}
         },
         "inputSource": {
-            "label": "Source d'entrée",
+            "label": "Source d'entrée multimédia",
             "description": "Current input source",
             "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {

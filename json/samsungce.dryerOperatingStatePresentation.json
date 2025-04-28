@@ -103,12 +103,249 @@
                         "key": "laundrySensing",
                         "value": "{{i18n.attributes.dryerJobState.i18n.value.laundrySensing.label}}",
                         "type": "active"
+                    },
+                    {
+                        "key": "wrinklePrevent",
+                        "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
+                        "type": "active"
                     }
                 ]
             }
         ],
         "actions": [],
-        "panelItems": []
+        "panelItems": [
+            {
+                "label": "{{i18n.commands.panelStart.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "start",
+                    "iconUrl": "icon://play",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.panelCancel.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "cancel",
+                    "iconUrl": "icon://cancel",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.panelPause.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "pause",
+                    "iconUrl": "icon://pause",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.panelResume.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "start",
+                    "iconUrl": "icon://play",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.panelOk.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "cancel",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
+    },
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.operatingState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "ready",
+                            "value": "{{i18n.attributes.operatingState.i18n.value.ready.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "running",
+                            "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "paused",
+                            "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "operatingState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.dryerJobState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "drying",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cooling",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "refreshing",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.refreshing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dehumidifying",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.dehumidifying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sanitizing",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.sanitizing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "internalCare",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.internalCare.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "weightSensing",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIDrying",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.aIDrying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "humiditySensing",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.humiditySensing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "thawingFrozenInside",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.thawingFrozenInside.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "freezeProtection",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.freezeProtection.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "none",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "continuousDehumidifying",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.continuousDehumidifying.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "finished",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "delayDry",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.delayDry.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "laundrySensing",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.laundrySensing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wrinklePrevent",
+                            "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "dryerJobState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.operatingState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "{{i18n.commands.start.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cancel",
+                            "value": "{{i18n.commands.cancel.label}}",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "emphasis": true
+            }
+        ]
     },
     "id": "samsungce.dryerOperatingState",
     "version": 1

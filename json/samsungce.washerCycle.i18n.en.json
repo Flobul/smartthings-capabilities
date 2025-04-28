@@ -2,6 +2,23 @@
     "tag": "en",
     "label": "Washer Cycle",
     "attributes": {
+        "cycleType": {
+            "label": "cycleType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "washingOnly": {
+                        "label": "washingOnly"
+                    },
+                    "allInOne": {
+                        "label": "allInOne"
+                    },
+                    "dryingOnly": {
+                        "label": "dryingOnly"
+                    }
+                }
+            }
+        },
         "supportedCycles": {
             "label": "supportedCycles",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",

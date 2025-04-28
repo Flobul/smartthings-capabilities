@@ -18,6 +18,9 @@
                     "stopped": {
                         "label": "Not ready"
                     },
+                    "other": {
+                        "label": "Other"
+                    },
                     "discharging": {
                         "label": "Discharging"
                     },

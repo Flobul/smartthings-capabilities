@@ -1,25 +1,25 @@
 {
-    "tag": "en",
-    "label": "Light Controller Mode",
+    "tag": "fr",
+    "label": "Mode Contrôleur d'éclairage",
     "description": "Allows for the control of the light controller mode.",
     "attributes": {
         "lightControllerMode": {
-            "label": "light controller mode",
+            "label": "Mode Contrôleur d'éclairage",
             "description": "The mode of operation that the light controller is set to",
             "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "rgb": {
-                        "label": "RGB"
+                        "label": "RVB"
                     },
                     "dimmer": {
-                        "label": "Dimmer"
+                        "label": "Variateur de lumière"
                     },
                     "rgbw": {
-                        "label": "RGBW"
+                        "label": "RVB et blanc"
                     },
                     "colorTemperature": {
-                        "label": "Color Temperature"
+                        "label": "Temp. coul."
                     }
                 }
             }
@@ -37,7 +37,20 @@
             "description": "Set the light controller mode",
             "arguments": {
                 "mode": {
-                    "i18n": {},
+                    "i18n": {
+                        "rgb": {
+                            "label": "RVB"
+                        },
+                        "dimmer": {
+                            "label": "Variateur de lumière"
+                        },
+                        "rgbw": {
+                            "label": "RVB et blanc"
+                        },
+                        "colorTemperature": {
+                            "label": "Temp. coul."
+                        }
+                    },
                     "description": "The mode to which light controller operation should be set to"
                 }
             }

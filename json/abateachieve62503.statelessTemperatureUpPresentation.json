@@ -1,0 +1,43 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "temperatureUp"
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Temperature Up",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "temperatureUp"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Temperature Up",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "temperatureUp",
+                            "value": "temperatureUp",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "abateachieve62503.statelessTemperatureUp",
+    "version": 1
+}

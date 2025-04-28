@@ -1,0 +1,26 @@
+{
+    "tag": "en",
+    "label": "Safety Valve",
+    "attributes": {
+        "valve": {
+            "label": "valve",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "close": {
+            "label": "close",
+            "arguments": {}
+        }
+    }
+}

@@ -21,6 +21,9 @@
                     "paused": {
                         "label": "Pause"
                     },
+                    "sabbath": {
+                        "label": "sabbath"
+                    },
                     "attachingMopPadForRemainingJob": {
                         "label": "Serpillère en train d'être fixée"
                     },
@@ -77,6 +80,9 @@
                     },
                     "waitingForChangingMopPad": {
                         "label": "En attente"
+                    },
+                    "suspend": {
+                        "label": "suspend"
                     },
                     "detachingMopPad": {
                         "label": "Serpillère en train d'être retirée"

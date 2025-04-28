@@ -1,0 +1,21 @@
+{
+    "tag": "fr",
+    "label": "Massage",
+    "attributes": {
+        "massageState": {
+            "label": "Massage",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "Désactivé"
+                    },
+                    "on": {
+                        "label": "Activé"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

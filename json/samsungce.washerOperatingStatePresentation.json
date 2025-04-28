@@ -148,7 +148,87 @@
             }
         ],
         "actions": [],
-        "panelItems": []
+        "panelItems": [
+            {
+                "label": "{{i18n.commands.panelStart.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "start",
+                    "iconUrl": "icon://play",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.panelCancel.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "cancel",
+                    "iconUrl": "icon://cancel",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.panelPause.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "pause",
+                    "iconUrl": "icon://pause",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.panelResume.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "start",
+                    "iconUrl": "icon://play",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "{{i18n.commands.panelOk.label}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "cancel",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
     },
     "automation": {
         "conditions": [

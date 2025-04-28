@@ -19,7 +19,7 @@
                         "label": "En marche"
                     },
                     "paused": {
-                        "label": "Mis en pause"
+                        "label": "En pause"
                     },
                     "ready": {
                         "label": "Prêt"

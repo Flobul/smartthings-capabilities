@@ -3,18 +3,18 @@
     "label": "Dryer Operating State",
     "attributes": {
         "operatingState": {
-            "label": "operatingState",
+            "label": "Device status",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "running"
+                        "label": "Drying"
                     },
                     "paused": {
-                        "label": "paused"
+                        "label": "Paused"
                     },
                     "ready": {
-                        "label": "ready"
+                        "label": "On"
                     }
                 }
             }
@@ -40,7 +40,7 @@
             "i18n": {}
         },
         "dryerJobState": {
-            "label": "dryerJobState",
+            "label": "Drying progress",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -48,16 +48,19 @@
                         "label": "Sensing the load"
                     },
                     "wrinklePrevent": {
-                        "label": "wrinklePrevent"
+                        "label": "Wrinkle Preventing"
                     },
                     "sanitizing": {
                         "label": "Sanitizing"
+                    },
+                    "laundrySensing": {
+                        "label": "Detecting laundry"
                     },
                     "finished": {
                         "label": "Cycle complete"
                     },
                     "none": {
-                        "label": "Working"
+                        "label": "Preparing"
                     },
                     "thawingFrozenInside": {
                         "label": "Defrosting"
@@ -107,11 +110,11 @@
             "arguments": {}
         },
         "cancel": {
-            "label": "cancel",
+            "label": "Cancel cycle",
             "arguments": {}
         },
         "start": {
-            "label": "start",
+            "label": "Start cycle",
             "arguments": {}
         },
         "setDelayEnd": {
@@ -119,7 +122,7 @@
             "arguments": {}
         },
         "pause": {
-            "label": "pause",
+            "label": "Pause cycle",
             "arguments": {}
         }
     }

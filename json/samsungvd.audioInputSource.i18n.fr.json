@@ -13,5 +13,10 @@
             "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "setNextInputSource": {
+            "label": "setNextInputSource",
+            "arguments": {}
+        }
+    }
 }

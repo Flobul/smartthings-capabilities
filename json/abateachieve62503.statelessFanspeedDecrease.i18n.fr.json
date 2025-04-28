@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "label": "Stateless Fanspeed Decrease",
+    "attributes": {},
+    "commands": {
+        "fanspeedDown": {
+            "label": "fanspeedDown",
+            "arguments": {}
+        }
+    }
+}

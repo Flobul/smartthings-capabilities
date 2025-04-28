@@ -36,7 +36,24 @@
             }
         ],
         "actions": [],
-        "panelItems": []
+        "panelItems": [
+            {
+                "label": "{{inputSource.value}}",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "setNextInputSource",
+                    "iconUrl": "icon://source",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
     },
     "id": "samsungvd.audioInputSource",
     "version": 1

@@ -1,10 +1,16 @@
 {
     "tag": "en",
-    "label": "Air quality",
+    "label": "Air quality level",
     "description": "Health Concern levels of air quality sensor measurements.",
     "attributes": {
+        "supportedAirQualityValues": {
+            "label": "Supported air quality values",
+            "description": "The list of air quality health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "airQualityHealthConcern": {
-            "label": "Air quality",
+            "label": "Air quality level",
             "description": "Current health concern of air quality, based on the relative health hazard",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {

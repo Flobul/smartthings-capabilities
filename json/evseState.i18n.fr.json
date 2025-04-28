@@ -1,10 +1,12 @@
 {
     "tag": "fr",
     "label": "État de la station de recharge pour véhicule électrique",
+    "description": "State of the Electric Vehicle Supply Equipment",
     "attributes": {
         "supplyState": {
             "label": "État de l'alimentation du véhicule électrique",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "Whether the EV is currently allowed to charge from or discharge to the EVSE.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "chargingEnabled": {
@@ -27,7 +29,8 @@
         },
         "faultState": {
             "label": "Détecteur de défaut",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "The type of fault detected by the EVSE.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "overTemperature": {
@@ -86,7 +89,8 @@
         },
         "state": {
             "label": "État du point de charge",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "The current status of the EVSE",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "pluggedInCharging": {

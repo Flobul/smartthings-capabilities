@@ -97,6 +97,11 @@
                 }
             }
         },
+        "supportedTypes": {
+            "label": "supportedTypes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "recommendedAmount": {
             "label": "recommendedAmount",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
