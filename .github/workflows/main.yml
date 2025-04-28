@@ -108,41 +108,64 @@ jobs:
           create_pr() {
             local file=$1
             local branch_name="update-$(basename "$file")"
-            
-            # Supprimer la branche locale si elle existe
+            echo "Processing PR for $file"
+
+            # Nettoyage des branches existantes
             git branch -D "$branch_name" 2>/dev/null || true
-            
-            # Créer une nouvelle branche
+            git push origin --delete "$branch_name" 2>/dev/null || true
+
+            # Création de la nouvelle branche
             git checkout -b "$branch_name"
+            
+            # Réinitialiser pour s'assurer qu'il n'y a pas de modifications non validées
+            git reset --hard HEAD
+            
+            # Ajouter uniquement le fichier spécifié
             git add "$file"
+            
+            # Vérifier s'il y a des modifications à valider
+            if git diff --staged --quiet; then
+              echo "No changes to commit for $file"
+              git checkout master
+              return 0
+            fi
+
+            # Créer le commit et la PR
             git commit -m "Update $file"
             diff=$(git diff HEAD~1 -- "$file")
+            echo "Changes detected in $file:"
             echo "$diff"
 
-            # Forcer la mise à jour de la branche distante
+            # Push avec force si nécessaire
             git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
 
             # Créer ou mettre à jour la PR
-            if ! gh pr view --json headRefName -q .headRefName | grep -q "$branch_name"; then
-              gh pr create --title "Update $file" --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" --base master --head "$branch_name"
-            else
-              pr_url=$(gh pr view --json url -q .url)
-              gh pr edit "$pr_url" --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")"
+            if ! gh pr view --json headRefName -q .headRefName 2>/dev/null | grep -q "$branch_name"; then
+              gh pr create --title "Update $file" \
+                         --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" \
+                         --base master \
+                         --head "$branch_name" || true
             fi
 
             git checkout master
-            git branch -D "$branch_name"
           }
 
-          # Traiter les fichiers JSON individuellement
+          # Traiter d'abord les fichiers JSON non i18n et non Presentation
           for file in json/*.json; do
-            if [[ $file == *.i18n.fr.json || $file == *.i18n.en.json || $file == *Presentation.json ]]; then
+            # Ignorer les fichiers de traduction et de présentation
+            if [[ $file == *".i18n."* || $file == *"Presentation.json" ]]; then
               continue
             fi
-            if ! git diff --quiet HEAD -- "$file"; then
+            
+            # Vérifier si le fichier a été modifié
+            if git status -s "$file" | grep -q "^.M"; then
+              echo "Found modified file: $file"
               create_pr "$file"
             fi
           done
+
+          # Attendre un peu avant de créer les autres PR
+          sleep 2
 
           # Groupe PR pour les traductions et présentations
           if ! git diff --quiet HEAD -- json/*.i18n.*.json json/*Presentation.json; then
