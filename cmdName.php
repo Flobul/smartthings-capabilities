@@ -17,4 +17,75 @@
     "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
     "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
   ),
+  "custom.supportedOptions" => 
+  array (
+    "course" => __("course", __FILE__),
+    "setCourse" => __("setCourse", __FILE__),
+  ),
+  "dishwasherMode" => 
+  array (
+    "supportedDishwasherModes" => __("supported dishwasher modes", __FILE__),
+  ),
+  "dishwasherOperatingState" => 
+  array (
+    "progress" => __("progress", __FILE__),
+  ),
+  "motionBed" => 
+  array (
+    "mode" => __("Mouvement", __FILE__),
+    "supportedMotionPositions" => __("Supported Motion Positions", __FILE__),
+    "statelessMode" => __("Stateless Mode", __FILE__),
+    "supportedModes" => __("Supported Modes", __FILE__),
+    "stop" => __("stop", __FILE__),
+    "setMode" => __("Set mode", __FILE__),
+    "start" => __("start", __FILE__),
+  ),
+  "ovenSetpoint" => 
+  array (
+    "ovenSetpointRange" => __("Oven setpoint range", __FILE__),
+  ),
+  "petActivity" => 
+  array (
+    "supportedPetActivities" => __("Supported pet activities", __FILE__),
+    "petActivity" => __("Activité de l\"animal", __FILE__),
+  ),
+  "safetySwitch" => 
+  array (
+    "switch" => __("switch", __FILE__),
+    "off" => __("off", __FILE__),
+  ),
+  "safetyValve" => 
+  array (
+    "valve" => __("valve", __FILE__),
+    "close" => __("close", __FILE__),
+  ),
+  "samsungce.washerCycle" => 
+  array (
+    "cycleType" => __("cycleType", __FILE__),
+  ),
+  "samsungvd.ambient" => 
+  array (
+    "info" => __("info", __FILE__),
+  ),
+  "samsungvd.audioInputSource" => 
+  array (
+    "setNextInputSource" => __("setNextInputSource", __FILE__),
+  ),
+  "securitySystem" => 
+  array (
+    "supportedSecuritySystemCommands" => __("supported security system commands", __FILE__),
+    "supportedSecuritySystemStatuses" => __("supported security system statuses", __FILE__),
+  ),
+  "serviceArea" => 
+  array (
+    "selectedAreas" => __("Zone de nettoyage", __FILE__),
+    "supportedAreas" => __("supported areas", __FILE__),
+    "selectAreas" => __("select areas", __FILE__),
+  ),
+  "wifiInformation" => 
+  array (
+    "supportedWiFiAuthTypes" => __("supportedWiFiAuthTypes", __FILE__),
+    "ssid" => __("ssid", __FILE__),
+    "supportedWiFiFrequencies" => __("supportedWiFiFrequencies", __FILE__),
+  ),
 );
