@@ -98,7 +98,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "flobul.jeedom@gmail.com"
-
+          
       - name: "Create Pull Requests"
         run: |
           git fetch origin
@@ -116,51 +116,57 @@ jobs:
 
             # Création de la nouvelle branche
             git checkout -b "$branch_name"
-            
-            # Réinitialiser pour s'assurer qu'il n'y a pas de modifications non validées
-            git reset --hard HEAD
-            
+
             # Ajouter uniquement le fichier spécifié
             git add "$file"
-            
-            # Vérifier s'il y a des modifications à valider
-            if git diff --staged --quiet; then
+
+            # Vérifier s'il y a des modifications à valider (incluant les nouveaux fichiers)
+            if ! git diff --cached --quiet; then
+              # Créer le commit et la PR
+              git commit -m "Update $file"
+              
+              # Capturer les différences
+              if git rev-parse HEAD~1 >/dev/null 2>&1; then
+                diff=$(git diff HEAD~1 -- "$file" || git diff --no-index /dev/null "$file")
+              else
+                diff=$(git diff --no-index /dev/null "$file" 2>/dev/null || echo "New file added")
+              fi
+              
+              echo "Changes detected in $file:"
+              echo "$diff"
+
+              # Push avec force si nécessaire
+              git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
+
+              # Créer ou mettre à jour la PR
+              if ! gh pr view --json headRefName -q .headRefName 2>/dev/null | grep -q "$branch_name"; then
+                gh pr create --title "Update $file" \
+                           --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" \
+                           --base master \
+                           --head "$branch_name" || true
+              fi
+            else
               echo "No changes to commit for $file"
-              git checkout master
-              return 0
-            fi
-
-            # Créer le commit et la PR
-            git commit -m "Update $file"
-            diff=$(git diff HEAD~1 -- "$file")
-            echo "Changes detected in $file:"
-            echo "$diff"
-
-            # Push avec force si nécessaire
-            git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
-
-            # Créer ou mettre à jour la PR
-            if ! gh pr view --json headRefName -q .headRefName 2>/dev/null | grep -q "$branch_name"; then
-              gh pr create --title "Update $file" \
-                         --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" \
-                         --base master \
-                         --head "$branch_name" || true
             fi
 
             git checkout master
           }
 
-          # Traiter d'abord les fichiers JSON non i18n et non Presentation
-          for file in json/*.json; do
-            # Ignorer les fichiers de traduction et de présentation
-            if [[ $file == *".i18n."* || $file == *"Presentation.json" ]]; then
-              continue
-            fi
+          # Traiter les fichiers modifiés et nouveaux
+          git status --porcelain | while read -r status file; do
+            # Extraire le statut et le nom du fichier
+            status_code="${status:0:2}"
             
-            # Vérifier si le fichier a été modifié
-            if git status -s "$file" | grep -q "^.M"; then
-              echo "Found modified file: $file"
-              create_pr "$file"
+            # Ne traiter que les fichiers .json qui ne sont pas des traductions ou des présentations
+            if [[ "$file" == json/*.json ]] && \
+               [[ ! "$file" == *".i18n."* ]] && \
+               [[ ! "$file" == *"Presentation.json" ]]; then
+              
+              # Traiter les fichiers modifiés (M), ajoutés (A), ou nouveaux (??)
+              if [[ "$status_code" =~ ^(M|A|\?\?)$ ]]; then
+                echo "Processing file with status $status_code: $file"
+                create_pr "$file"
+              fi
             fi
           done
 
