@@ -98,7 +98,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "flobul.jeedom@gmail.com"
-          
+
       - name: "Create Pull Requests"
         run: |
           git fetch origin
@@ -110,43 +110,57 @@ jobs:
             local branch_name="update-$(basename "$file")"
             echo "Processing PR for $file"
 
-            # Nettoyage des branches existantes
-            git branch -D "$branch_name" 2>/dev/null || true
-            git push origin --delete "$branch_name" 2>/dev/null || true
-
-            # Création de la nouvelle branche
-            git checkout -b "$branch_name"
-
-            # Ajouter uniquement le fichier spécifié
-            git add "$file"
-
-            # Vérifier s'il y a des modifications à valider (incluant les nouveaux fichiers)
-            if ! git diff --cached --quiet; then
-              # Créer le commit et la PR
-              git commit -m "Update $file"
+            # Vérifier si une PR existe déjà pour ce fichier
+            existing_pr=$(gh pr list --state open --head "$branch_name" --json number,url -q '.[0].number')
+            
+            if [ ! -z "$existing_pr" ]; then
+              echo "Found existing PR #$existing_pr for $file"
               
-              # Capturer les différences
-              if git rev-parse HEAD~1 >/dev/null 2>&1; then
-                diff=$(git diff HEAD~1 -- "$file" || git diff --no-index /dev/null "$file")
+              # Récupérer la branche existante
+              git fetch origin "$branch_name"
+              git checkout -B "$branch_name" "origin/$branch_name"
+              
+              # Ajouter les nouvelles modifications
+              git add "$file"
+              
+              if ! git diff --cached --quiet; then
+                # Commit les nouvelles modifications
+                git commit -m "Update $file"
+                diff=$(git diff HEAD~1 -- "$file")
+                
+                # Mettre à jour la PR existante
+                git push origin "$branch_name"
+                gh pr edit "$existing_pr" --body "$(echo -e "Updated changes for $file\n\n\`\`\`diff\n$diff\n\`\`\`")"
+                echo "Updated existing PR #$existing_pr"
               else
-                diff=$(git diff --no-index /dev/null "$file" 2>/dev/null || echo "New file added")
+                echo "No new changes for existing PR #$existing_pr"
               fi
+            else
+              # Créer une nouvelle branche
+              git checkout -b "$branch_name"
+              git add "$file"
               
-              echo "Changes detected in $file:"
-              echo "$diff"
-
-              # Push avec force si nécessaire
-              git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
-
-              # Créer ou mettre à jour la PR
-              if ! gh pr view --json headRefName -q .headRefName 2>/dev/null | grep -q "$branch_name"; then
+              if ! git diff --cached --quiet; then
+                # Nouveau commit
+                git commit -m "Update $file"
+                
+                # Générer le diff
+                if git rev-parse HEAD~1 >/dev/null 2>&1; then
+                  diff=$(git diff HEAD~1 -- "$file")
+                else
+                  diff=$(git diff --no-index /dev/null "$file" 2>/dev/null || echo "New file added")
+                fi
+                
+                # Push et création de la PR
+                git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
+                
                 gh pr create --title "Update $file" \
                            --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" \
                            --base master \
                            --head "$branch_name" || true
+                
+                echo "Created new PR for $file"
               fi
-            else
-              echo "No changes to commit for $file"
             fi
 
             git checkout master
@@ -154,15 +168,12 @@ jobs:
 
           # Traiter les fichiers modifiés et nouveaux
           git status --porcelain | while read -r status file; do
-            # Extraire le statut et le nom du fichier
             status_code="${status:0:2}"
             
-            # Ne traiter que les fichiers .json qui ne sont pas des traductions ou des présentations
             if [[ "$file" == json/*.json ]] && \
                [[ ! "$file" == *".i18n."* ]] && \
                [[ ! "$file" == *"Presentation.json" ]]; then
               
-              # Traiter les fichiers modifiés (M), ajoutés (A), ou nouveaux (??)
               if [[ "$status_code" =~ ^(M|A|\?\?)$ ]]; then
                 echo "Processing file with status $status_code: $file"
                 create_pr "$file"
@@ -172,7 +183,7 @@ jobs:
 
           # Attendre un peu avant de créer les autres PR
           sleep 2
-
+          
           # Groupe PR pour les traductions et présentations
           if ! git diff --quiet HEAD -- json/*.i18n.*.json json/*Presentation.json; then
             # Nettoyer la branche existante
