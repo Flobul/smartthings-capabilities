@@ -164,6 +164,28 @@
             "setter": "setType",
             "enumCommands": []
         },
+        "supportedTypes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "regularDetergent",
+                                "scannedRegularDetergent"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "recommendedAmount": {
             "schema": {
                 "type": "object",
@@ -185,7 +207,6 @@
                     "value"
                 ]
             },
-            "setter": "setRecommendedAmount",
             "enumCommands": []
         }
     },
