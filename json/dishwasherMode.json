@@ -18,7 +18,12 @@
                             "auto",
                             "quick",
                             "rinse",
-                            "dry"
+                            "dry",
+                            "smart",
+                            "daily",
+                            "superClean",
+                            "brightening",
+                            "prewash"
                         ]
                     }
                 },
@@ -45,7 +50,12 @@
                                 "auto",
                                 "quick",
                                 "rinse",
-                                "dry"
+                                "dry",
+                                "smart",
+                                "daily",
+                                "superClean",
+                                "brightening",
+                                "prewash"
                             ]
                         }
                     }
@@ -72,7 +82,12 @@
                             "auto",
                             "quick",
                             "rinse",
-                            "dry"
+                            "dry",
+                            "smart",
+                            "daily",
+                            "superClean",
+                            "brightening",
+                            "prewash"
                         ]
                     }
                 }
