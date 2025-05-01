@@ -115,15 +115,15 @@ jobs:
             if [ ! -z "$existing_pr" ]; then
               echo "Found existing PR #$existing_pr for $file"
           
-              # Stasher les modifications locales pour éviter les conflits
-              git stash push -m "Temporary stash before switching to $branch_name"
+              # Sauvegarder les modifications locales pour éviter les conflits
+              git stash push -m "Temporary stash before switching to $branch_name" || true
           
               # Récupérer la branche existante
               git fetch origin "$branch_name"
               git checkout -B "$branch_name" "origin/$branch_name"
           
-              # Réappliquer les modifications stachées
-              git stash pop || true
+              # Restaurer les modifications sauvegardées
+              git stash pop || echo "No stash to pop, continuing"
           
               # Ajouter les nouvelles modifications
               git add "$file"
@@ -133,8 +133,10 @@ jobs:
                 git commit -m "Update $file"
                 diff=$(git diff HEAD~1 -- "$file")
           
+                # Push les modifications
+                git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
+          
                 # Mettre à jour la PR existante
-                git push origin "$branch_name"
                 gh pr edit "$existing_pr" --body "$(echo -e "Updated changes for $file\n\n\`\`\`diff\n$diff\n\`\`\`")"
                 echo "Updated existing PR #$existing_pr"
               else
@@ -143,6 +145,8 @@ jobs:
             else
               # Créer une nouvelle branche
               git checkout -b "$branch_name"
+          
+              # Ajouter le fichier
               git add "$file"
           
               if ! git diff --cached --quiet; then
@@ -168,10 +172,10 @@ jobs:
               fi
             fi
           
-            # Retour à la branche master
+            # Retourner à la branche master
             git checkout master
           }
-
+          
           # Traiter les fichiers modifiés et nouveaux
           git status --porcelain | while read -r status file; do
             status_code="${status:0:2}"
