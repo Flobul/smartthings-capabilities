@@ -2934,6 +2934,11 @@ class smartthings_translate
                 "off"    => __("Désactiver l'alarme", __FILE__),
                 "both"   => __("Alarme : Sirène et clignotement", __FILE__)
             ],
+            "alarmsensor" => [
+                "supportedAlarmSensorStates" => __("États du capteur d'alarme pris en charge 1", __FILE__),
+                "alarmSensorState"           => __("État du capteur d'alarme 1", __FILE__),
+                "setAlarmSensorState"        => __("Changer l'état du capteur d'alarme 1", __FILE__)
+            ],
             "alarmSensor" => [
                 "supportedAlarmSensorStates" => __("États du capteur d'alarme pris en charge", __FILE__),
                 "alarmSensorState"           => __("État du capteur d'alarme", __FILE__),
@@ -3626,7 +3631,8 @@ class smartthings_translate
                 "machineState"           => __("Statut de machine", __FILE__),
                 "supportedMachineStates" => __("Statuts de machine pris en charge", __FILE__),
                 "dishwasherJobState"     => __("Statut de tâche", __FILE__),
-                "setMachineState"        => __("Changer le statut de machine", __FILE__)
+                "setMachineState"        => __("Changer le statut de machine", __FILE__),
+                "progress"               => __("Progression", __FILE__)
             ],
             "dishwasherOperationalState" => [
                 "completionTime"         => __("Heure de fin", __FILE__),
@@ -4432,7 +4438,7 @@ class smartthings_translate
                 "close" => __("Fermer la valve", __FILE__)
             ],
             "samsungce.autoDispenseDetergent" => [
-                "supportedTypes" => __("Types pris en charge", __FILE__),
+                "supportedTypes" => __("Types pris en charge", __FILE__)
             ],
             "samsungce.connectionState" => [
                 "connectionState" => __("État de la connexion", __FILE__)
