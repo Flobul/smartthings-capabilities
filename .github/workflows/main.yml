@@ -69,7 +69,7 @@ jobs:
           PRINT+="* [SmartThings CLI](https://github.com/SmartThingsCommunity/smartthings-cli)\n"
           PRINT+="* [Create Personal Access Token](https://account.smartthings.com/tokens)\n"
           PRINT+="* [Plugin Documentation](https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom/)\n"
-          PRINT+="* [Plugin Jeedom Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4099)\n"
+          PRINT+="* [Plugin Jeedom Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4099)\n\n\n"
           PRINT+="| Capability | Version | Status | Capability Presentation | Translation i18n |\n"
           PRINT+="| ---- | ---- | ---- | ---- | ---- |\n\n"
 
