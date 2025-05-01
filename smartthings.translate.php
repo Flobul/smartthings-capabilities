@@ -5517,8 +5517,8 @@ class smartthings_translate
                 "setTvChannelName" => __("Changer le nom de la chaîne", __FILE__)
             ],
             "tvocHealthConcern" => [
-                "supportedTvocValues" => __("Valeurs de total des composés organiques volatiles pris en charge", __FILE__)
-                "tvocHealthConcern"   => __("Total des composés organiques volatiles", __FILE__),
+                "supportedTvocValues" => __("Valeurs de total des composés organiques volatiles pris en charge", __FILE__),
+                "tvocHealthConcern"   => __("Total des composés organiques volatiles", __FILE__)
             ],
             "tvocMeasurement" => [
                 "tvocLevel" => __("Niveau du total des composés organiques volatiles", __FILE__)
