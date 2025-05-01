@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedRadonValues.value",
                     "value": "radonHealthConcern.value",
                     "valueType": "string",
                     "multiSelectable": false

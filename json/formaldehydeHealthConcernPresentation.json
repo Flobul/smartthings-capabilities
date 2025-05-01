@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedFormaldehydeValues.value",
                     "value": "formaldehydeHealthConcern.value",
                     "valueType": "string",
                     "multiSelectable": false

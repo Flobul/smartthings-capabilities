@@ -3,6 +3,12 @@
     "label": "Poussière",
     "description": "Health Concern levels of PM10 dust sensor measurements.",
     "attributes": {
+        "supportedDustValues": {
+            "label": "Supported dust values",
+            "description": "The list of dust health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "dustHealthConcern": {
             "label": "Poussière",
             "description": "Current health concern of dust -- also refered to as PM10, based on the relative health hazard",

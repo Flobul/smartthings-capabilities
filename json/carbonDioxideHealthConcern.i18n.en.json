@@ -3,6 +3,12 @@
     "label": "Carbon dioxide level",
     "description": "Health Concern levels of carbon dioxide sensor measurements.",
     "attributes": {
+        "supportedCarbonDioxideValues": {
+            "label": "Supported carbon dioxide values",
+            "description": "The list of carbon dioxide health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "carbonDioxideHealthConcern": {
             "label": "Carbon dioxide level",
             "description": "Current health concern of carbon dioxide, based on the relative health hazard",

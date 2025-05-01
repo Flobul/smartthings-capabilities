@@ -3,6 +3,12 @@
     "label": "Niveau de formaldéhyde",
     "description": "Get the health concern level from a formaldehyde sensor",
     "attributes": {
+        "supportedFormaldehydeValues": {
+            "label": "Supported formaldehyde values",
+            "description": "The list of formaldehyde health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "formaldehydeHealthConcern": {
             "label": "Niveau de formaldéhyde",
             "description": "The current health concern level due to formaldehyde.",

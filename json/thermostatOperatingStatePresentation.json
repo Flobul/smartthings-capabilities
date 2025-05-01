@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedThermostatOperatingStates.value",
                     "value": "thermostatOperatingState.value",
                     "valueType": "string",
                     "multiSelectable": false

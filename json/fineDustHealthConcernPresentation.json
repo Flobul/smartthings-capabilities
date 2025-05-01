@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedFineDustValues.value",
                     "value": "fineDustHealthConcern.value",
                     "valueType": "string",
                     "multiSelectable": false

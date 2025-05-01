@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedCarbonDioxideValues.value",
                     "value": "carbonDioxideHealthConcern.value",
                     "valueType": "string",
                     "multiSelectable": false

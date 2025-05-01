@@ -3,6 +3,12 @@
     "label": "Radon level",
     "description": "Health Concern levels of radon sensor measurements.",
     "attributes": {
+        "supportedRadonValues": {
+            "label": "Supported radon values",
+            "description": "The list of radon health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "radonHealthConcern": {
             "label": "Radon level",
             "description": "Current health concern of radon sensor measurement, based on the relative health hazard",

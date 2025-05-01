@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedNitrogenDioxideValues.value",
                     "value": "nitrogenDioxideHealthConcern.value",
                     "valueType": "string",
                     "multiSelectable": false

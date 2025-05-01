@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedTvocValues.value",
                     "value": "tvocHealthConcern.value",
                     "valueType": "string",
                     "multiSelectable": false

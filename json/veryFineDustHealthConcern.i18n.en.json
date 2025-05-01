@@ -3,6 +3,12 @@
     "label": "Very fine dust",
     "description": "Health Concern levels of very fine dust sensor measurements.",
     "attributes": {
+        "supportedVeryFineDustValues": {
+            "label": "Supported very fine dust values",
+            "description": "The list of very fine dust health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "veryFineDustHealthConcern": {
             "label": "Very fine dust",
             "description": "Current health concern of very fine dust -- also refered to as PM1.0, based on the relative health hazard",

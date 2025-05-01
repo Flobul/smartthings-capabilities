@@ -32,6 +32,12 @@
                     }
                 }
             }
+        },
+        "supportedFineDustValues": {
+            "label": "Supported fine dust values",
+            "description": "The list of fine dust health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
         }
     },
     "commands": {}
