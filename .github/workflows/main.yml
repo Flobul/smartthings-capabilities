@@ -104,30 +104,35 @@ jobs:
           git fetch origin
           git checkout master
           git pull origin master
-
           create_pr() {
             local file=$1
             local branch_name="update-$(basename "$file")"
             echo "Processing PR for $file"
-
+          
             # Vérifier si une PR existe déjà pour ce fichier
             existing_pr=$(gh pr list --state open --head "$branch_name" --json number,url -q '.[0].number')
-            
+          
             if [ ! -z "$existing_pr" ]; then
               echo "Found existing PR #$existing_pr for $file"
-              
+          
+              # Stasher les modifications locales pour éviter les conflits
+              git stash push -m "Temporary stash before switching to $branch_name"
+          
               # Récupérer la branche existante
               git fetch origin "$branch_name"
               git checkout -B "$branch_name" "origin/$branch_name"
-              
+          
+              # Réappliquer les modifications stachées
+              git stash pop || true
+          
               # Ajouter les nouvelles modifications
               git add "$file"
-              
+          
               if ! git diff --cached --quiet; then
                 # Commit les nouvelles modifications
                 git commit -m "Update $file"
                 diff=$(git diff HEAD~1 -- "$file")
-                
+          
                 # Mettre à jour la PR existante
                 git push origin "$branch_name"
                 gh pr edit "$existing_pr" --body "$(echo -e "Updated changes for $file\n\n\`\`\`diff\n$diff\n\`\`\`")"
@@ -139,30 +144,31 @@ jobs:
               # Créer une nouvelle branche
               git checkout -b "$branch_name"
               git add "$file"
-              
+          
               if ! git diff --cached --quiet; then
                 # Nouveau commit
                 git commit -m "Update $file"
-                
+          
                 # Générer le diff
                 if git rev-parse HEAD~1 >/dev/null 2>&1; then
                   diff=$(git diff HEAD~1 -- "$file")
                 else
                   diff=$(git diff --no-index /dev/null "$file" 2>/dev/null || echo "New file added")
                 fi
-                
+          
                 # Push et création de la PR
                 git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
-                
+          
                 gh pr create --title "Update $file" \
                            --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" \
                            --base master \
                            --head "$branch_name" || true
-                
+          
                 echo "Created new PR for $file"
               fi
             fi
-
+          
+            # Retour à la branche master
             git checkout master
           }
 
