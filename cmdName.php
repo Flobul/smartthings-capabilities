@@ -1,20 +1,49 @@
 <?php return array (
-  "alarmSystem" => 
+  "carbonDioxideHealthConcern" => 
   array (
-    "sendEvent(alarmSystemStatus,off)" => __("sendEvent(alarmSystemStatus,off)", __FILE__),
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "supportedCarbonDioxideValues" => __("supportedCarbonDioxideValues", __FILE__),
   ),
-  "alarmSystemArmOnly" => 
+  "carbonMonoxideHealthConcern" => 
   array (
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "supportedCarbonMonoxideValues" => __("supportedCarbonMonoxideValues", __FILE__),
   ),
-  "astronomicalData" => 
+  "dustHealthConcern" => 
   array (
-    "sendEvent(sunriseTime)" => __("sendEvent(sunriseTime)", __FILE__),
-    "sendEvent(sunrise)" => __("sendEvent(sunrise)", __FILE__),
-    "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
-    "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
+    "supportedDustValues" => __("supportedDustValues", __FILE__),
+  ),
+  "nitrogenDioxideHealthConcern" => 
+  array (
+    "supportedNitrogenDioxideValues" => __("supportedNitrogenDioxideValues", __FILE__),
+  ),
+  "ozoneHealthConcern" => 
+  array (
+    "supportedOzoneValues" => __("supportedOzoneValues", __FILE__),
+  ),
+  "radonHealthConcern" => 
+  array (
+    "supportedRadonValues" => __("supportedRadonValues", __FILE__),
+  ),
+  "robotCleanerOperatingState" => 
+  array (
+    "supportedOperatingStateCommands" => __("supportedOperatingStateCommands", __FILE__),
+    "goHome" => __("goHome", __FILE__),
+    "start" => __("start", __FILE__),
+    "pause" => __("pause", __FILE__),
+  ),
+  "samsungce.autoDispenseDetergent" => 
+  array (
+    "supportedTypes" => __("supportedTypes", __FILE__),
+  ),
+  "thermostatOperatingState" => 
+  array (
+    "supportedThermostatOperatingStates" => __("supportedThermostatOperatingStates", __FILE__),
+  ),
+  "tvocHealthConcern" => 
+  array (
+    "supportedTvocValues" => __("supportedTvocValues", __FILE__),
+  ),
+  "veryFineDustHealthConcern" => 
+  array (
+    "supportedVeryFineDustValues" => __("supportedVeryFineDustValues", __FILE__),
   ),
 );
