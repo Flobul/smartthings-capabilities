@@ -98,12 +98,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "flobul.jeedom@gmail.com"
-
-      - name: "Create Pull Requests"
-        run: |
-          git fetch origin
-          git checkout master
-          git pull origin master
           create_pr() {
             local file=$1
             local branch_name="update-$(basename "$file")"
@@ -120,7 +114,11 @@ jobs:
           
               # Récupérer la branche existante
               git fetch origin "$branch_name"
-              git checkout -B "$branch_name" "origin/$branch_name"
+              git checkout -B "$branch_name" "origin/$branch_name" || {
+                echo "Failed to switch to branch $branch_name. Restoring master branch."
+                git checkout master
+                return 1
+              }
           
               # Restaurer les modifications sauvegardées
               git stash pop || echo "No stash to pop, continuing"
@@ -147,7 +145,11 @@ jobs:
               git stash push --include-untracked -m "Temporary stash before creating new branch $branch_name"
           
               # Créer une nouvelle branche
-              git checkout -b "$branch_name"
+              git checkout -b "$branch_name" || {
+                echo "Failed to create branch $branch_name. Restoring master branch."
+                git checkout master
+                return 1
+              }
           
               # Restaurer les modifications sauvegardées
               git stash pop || echo "No stash to pop, continuing"
@@ -179,7 +181,7 @@ jobs:
             fi
           
             # Retourner à la branche master
-            git checkout master
+            git checkout master || echo "Failed to switch back to master branch. Please check manually."
           }
           
           # Traiter les fichiers modifiés et nouveaux
