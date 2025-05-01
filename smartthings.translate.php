@@ -4278,7 +4278,7 @@ class smartthings_translate
             ],
             "petActivity" => [
                 "supportedPetActivities" => __("Activités de l'animal prises en charge", __FILE__),
-                "petActivity"            => __("Activité de l"animal", __FILE__),
+                "petActivity"            => __("Activité de l'animal", __FILE__),
             ],
             "polling" => [
                 "poll" => __("Questionner", __FILE__)
