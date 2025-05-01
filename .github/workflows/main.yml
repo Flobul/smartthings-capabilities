@@ -115,8 +115,8 @@ jobs:
             if [ ! -z "$existing_pr" ]; then
               echo "Found existing PR #$existing_pr for $file"
           
-              # Sauvegarder les modifications locales pour éviter les conflits
-              git stash push -m "Temporary stash before switching to $branch_name" || true
+              # Sauvegarder toutes les modifications locales pour éviter les conflits
+              git stash push --include-untracked -m "Temporary stash before switching to $branch_name"
           
               # Récupérer la branche existante
               git fetch origin "$branch_name"
@@ -143,8 +143,14 @@ jobs:
                 echo "No new changes for existing PR #$existing_pr"
               fi
             else
+              # Sauvegarder toutes les modifications locales pour éviter les conflits
+              git stash push --include-untracked -m "Temporary stash before creating new branch $branch_name"
+          
               # Créer une nouvelle branche
               git checkout -b "$branch_name"
+          
+              # Restaurer les modifications sauvegardées
+              git stash pop || echo "No stash to pop, continuing"
           
               # Ajouter le fichier
               git add "$file"
@@ -164,9 +170,9 @@ jobs:
                 git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
           
                 gh pr create --title "Update $file" \
-                           --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" \
-                           --base master \
-                           --head "$branch_name" || true
+                             --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" \
+                             --base master \
+                             --head "$branch_name" || true
           
                 echo "Created new PR for $file"
               fi
