@@ -3087,7 +3087,8 @@ class smartthings_translate
                 "carbonMonoxide" => __("Détecteur de monoxyde de carbone", __FILE__)
             ],
             "carbonMonoxideHealthConcern" => [
-                "carbonMonoxideHealthConcern" => __("Niveau de monoxyde de carbone", __FILE__)
+                "carbonMonoxideHealthConcern"   => __("Niveau de monoxyde de carbone", __FILE__),
+                "supportedCarbonMonoxideValues" => __("Valeurs de monoxyde de carbone prises en charge", __FILE__)
             ],
             "carbonMonoxideMeasurement" => [
                 "carbonMonoxideLevel" => __("Concentration en monoxyde de carbone", __FILE__)
