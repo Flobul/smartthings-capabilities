@@ -2967,8 +2967,8 @@ class smartthings_translate
                 "state"                           => __("État", __FILE__),
                 "supportSnoringTimeGraph"         => __("Supporte le ronflement graphique du temps", __FILE__),
                 "pillowOperationTimeDelta"        => __("Delta de temps de fonctionnement de l'oreiller", __FILE__),
-                "off"                             => __("Désactiver l'orreiller", __FILE__),
-                "on"                              => __("Activer l'orreiller", __FILE__)
+                "off"                             => __("Désactiver l'oreiller", __FILE__),
+                "on"                              => __("Activer l'oreiller", __FILE__)
             ],
             "applianceUtilization" => [
                 "status" => __("Statut des appareils électroménagers", __FILE__)
