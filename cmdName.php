@@ -1,20 +1,16 @@
 <?php return array (
-  "alarmSystem" => 
+  "alarmsensor" => 
   array (
-    "sendEvent(alarmSystemStatus,off)" => __("sendEvent(alarmSystemStatus,off)", __FILE__),
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "supportedAlarmSensorStates" => __("supportedAlarmSensorStates", __FILE__),
+    "alarmSensorState" => __("alarmSensorState", __FILE__),
+    "setAlarmSensorState" => __("setAlarmSensorState", __FILE__),
   ),
-  "alarmSystemArmOnly" => 
+  "dishwasherOperatingState" => 
   array (
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "progress" => __("progress", __FILE__),
   ),
-  "astronomicalData" => 
+  "samsungce.autoDispenseDetergent" => 
   array (
-    "sendEvent(sunriseTime)" => __("sendEvent(sunriseTime)", __FILE__),
-    "sendEvent(sunrise)" => __("sendEvent(sunrise)", __FILE__),
-    "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
-    "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
+    "supportedTypes" => __("supportedTypes", __FILE__),
   ),
 );
