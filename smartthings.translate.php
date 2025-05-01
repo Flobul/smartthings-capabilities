@@ -3524,7 +3524,7 @@ class smartthings_translate
             ],
             "custom.supportedOptions" => [
                 "referenceTable"   => __("Options prises en charge : Table de référence", __FILE__),
-                "supportedCourses" => __("Options prises en charge : Cycles", __FILE__)
+                "supportedCourses" => __("Options prises en charge : Cycles", __FILE__),
                 "course"           => __("Cycle", __FILE__),
                 "setCourse"        => __("Changer le cycle", __FILE__)
             ],
@@ -3783,7 +3783,7 @@ class smartthings_translate
                 "updateFirmware"          => __("Mettre à jour le firmware", __FILE__),
                 "updateAvailable"         => __("Mise à jour disponible", __FILE__),
                 "checkForFirmwareUpdate"  => __("Vérifier la mise à jour du firmware", __FILE__),
-                "supportedCommands"       => __("Commandes prises en charge", __FILE__)
+                "supportedCommands"       => __("Commandes prises en charge", __FILE__),
                 "imageTransferProgress"   => __("Progression du transfert de l'image", __FILE__),
                 "estimatedTimeRemaining"  => __("Temps restant estimé", __FILE__),
                 "supportsProgressReports" => __("Supporte les rapports d'avancement", __FILE__)
