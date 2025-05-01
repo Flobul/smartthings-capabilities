@@ -25,12 +25,15 @@
                                 "twoStep",
                                 "comfort",
                                 "dlightCool",
+                                "dryComfort",
                                 "cubePurify",
                                 "longWind",
                                 "motionIndirect",
                                 "motionDirect"
-                            ]
-                        }
+                            ],
+                            "type": "string"
+                        },
+                        "type": "array"
                     }
                 },
                 "additionalProperties": false,
@@ -58,11 +61,13 @@
                             "twoStep",
                             "comfort",
                             "dlightCool",
+                            "dryComfort",
                             "cubePurify",
                             "longWind",
                             "motionIndirect",
                             "motionDirect"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
@@ -95,11 +100,13 @@
                             "twoStep",
                             "comfort",
                             "dlightCool",
+                            "dryComfort",
                             "cubePurify",
                             "longWind",
                             "motionIndirect",
                             "motionDirect"
-                        ]
+                        ],
+                        "type": "string"
                     }
                 }
             ]
