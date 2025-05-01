@@ -8,9 +8,10 @@
 * [Create Personal Access Token](https://account.smartthings.com/tokens)
 * [Plugin Documentation](https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom/)
 * [Plugin Jeedom Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4099)
+
+
 | Capability | Version | Status | Capability Presentation | Translation i18n |
 | ---- | ---- | ---- | ---- | ---- |
-
 | [Stateless Fanspeed Decrease](./json/abateachieve62503.statelessFanspeedDecrease.json) | 1 | proposed | [json](./json/abateachieve62503.statelessFanspeedDecreasePresentation.json) | [json](./json/abateachieve62503.statelessFanspeedDecrease.i18n.fr.json) |
 | [Stateless Fanspeed Increase](./json/abateachieve62503.statelessFanspeedIncrease.json) | 1 | proposed | [json](./json/abateachieve62503.statelessFanspeedIncreasePresentation.json) | [json](./json/abateachieve62503.statelessFanspeedIncrease.i18n.fr.json) |
 | [Stateless Power Off](./json/abateachieve62503.statelessPowerOff.json) | 1 | proposed | [json](./json/abateachieve62503.statelessPowerOffPresentation.json) | [json](./json/abateachieve62503.statelessPowerOff.i18n.fr.json) |
