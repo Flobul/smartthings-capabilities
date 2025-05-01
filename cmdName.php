@@ -1,20 +1,57 @@
 <?php return array (
-  "alarmSystem" => 
+  "carbonDioxideHealthConcern" => 
   array (
-    "sendEvent(alarmSystemStatus,off)" => __("sendEvent(alarmSystemStatus,off)", __FILE__),
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "supportedCarbonDioxideValues" => __("Supported carbon dioxide values", __FILE__),
   ),
-  "alarmSystemArmOnly" => 
+  "carbonMonoxideHealthConcern" => 
   array (
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "supportedCarbonMonoxideValues" => __("Supported carbon monoxide values", __FILE__),
   ),
-  "astronomicalData" => 
+  "dustHealthConcern" => 
   array (
-    "sendEvent(sunriseTime)" => __("sendEvent(sunriseTime)", __FILE__),
-    "sendEvent(sunrise)" => __("sendEvent(sunrise)", __FILE__),
-    "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
-    "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
+    "supportedDustValues" => __("Supported dust values", __FILE__),
+  ),
+  "fineDustHealthConcern" => 
+  array (
+    "supportedFineDustValues" => __("Supported fine dust values", __FILE__),
+  ),
+  "formaldehydeHealthConcern" => 
+  array (
+    "supportedFormaldehydeValues" => __("Supported formaldehyde values", __FILE__),
+  ),
+  "nitrogenDioxideHealthConcern" => 
+  array (
+    "supportedNitrogenDioxideValues" => __("Supported nitrogen dioxide values", __FILE__),
+  ),
+  "ozoneHealthConcern" => 
+  array (
+    "supportedOzoneValues" => __("Supported ozone values", __FILE__),
+  ),
+  "radonHealthConcern" => 
+  array (
+    "supportedRadonValues" => __("Supported radon values", __FILE__),
+  ),
+  "robotCleanerOperatingState" => 
+  array (
+    "supportedOperatingStateCommands" => __("supported operating state commands", __FILE__),
+    "goHome" => __("Go Home", __FILE__),
+    "start" => __("Start", __FILE__),
+    "pause" => __("Pause", __FILE__),
+  ),
+  "samsungce.autoDispenseDetergent" => 
+  array (
+    "supportedTypes" => __("supportedTypes", __FILE__),
+  ),
+  "thermostatOperatingState" => 
+  array (
+    "supportedThermostatOperatingStates" => __("Supported thermostat operating states", __FILE__),
+  ),
+  "tvocHealthConcern" => 
+  array (
+    "supportedTvocValues" => __("Supported tvoc values", __FILE__),
+  ),
+  "veryFineDustHealthConcern" => 
+  array (
+    "supportedVeryFineDustValues" => __("Supported very fine dust values", __FILE__),
   ),
 );
