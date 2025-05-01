@@ -3,6 +3,12 @@
     "label": "Nitrogen dioxide level",
     "description": "Get the health concern level from a nitrogen dioxide sensor",
     "attributes": {
+        "supportedNitrogenDioxideValues": {
+            "label": "Supported nitrogen dioxide values",
+            "description": "The list of nitrogen dioxide health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "nitrogenDioxideHealthConcern": {
             "label": "Nitrogen dioxide level",
             "description": "The current health concern level due to nitrogen dioxide.",

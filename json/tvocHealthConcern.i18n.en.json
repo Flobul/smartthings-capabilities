@@ -3,6 +3,12 @@
     "label": "TVOC level",
     "description": "Health Concern levels of TVOC sensor measurements.",
     "attributes": {
+        "supportedTvocValues": {
+            "label": "Supported tvoc values",
+            "description": "The list of tvoc health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "tvocHealthConcern": {
             "label": "TVOC level",
             "description": "Current health concern of TVOC, based on the relative health hazard",

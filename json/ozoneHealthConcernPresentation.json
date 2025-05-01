@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedOzoneValues.value",
                     "value": "ozoneHealthConcern.value",
                     "valueType": "string",
                     "multiSelectable": false

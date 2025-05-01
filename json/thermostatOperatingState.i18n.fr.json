@@ -3,6 +3,12 @@
     "label": "État",
     "description": "Gives the ability to see the current state that the thermostat is operating in",
     "attributes": {
+        "supportedThermostatOperatingStates": {
+            "label": "Supported thermostat operating states",
+            "description": "The list of thermostat operating states that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "thermostatOperatingState": {
             "label": "État",
             "description": "The current state that the thermostat is operating in",

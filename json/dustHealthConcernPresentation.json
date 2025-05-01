@@ -134,6 +134,7 @@
                             "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedDustValues.value",
                     "value": "dustHealthConcern.value",
                     "valueType": "string",
                     "multiSelectable": false
