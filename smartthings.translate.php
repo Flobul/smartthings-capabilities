@@ -3076,10 +3076,12 @@ class smartthings_translate
                 "delete"  => __("Supprimer un préréglage", __FILE__)
             ],
             "carbonDioxideHealthConcern" => [
-                "carbonDioxideHealthConcern" => __("Niveau de dioxide de carbone", __FILE__)
+                "carbonDioxideHealthConcern"   => __("Niveau de dioxide de carbone", __FILE__),
+                "supportedCarbonDioxideValues" => __("Niveaux de dioxide de carbone pris en charge", __FILE__)
             ],
             "carbonDioxideMeasurement" => [
-                "carbonDioxide" => __("Concentration en dioxyde de carbone", __FILE__)
+                "carbonDioxide"                 => __("Concentration en dioxyde de carbone", __FILE__),
+                "supportedCarbonMonoxideValues" => __("Valeur de concentration en dioxyde de carbone prises en charge", __FILE__)
             ],
             "carbonMonoxideDetector" => [
                 "carbonMonoxide" => __("Détecteur de monoxyde de carbone", __FILE__)
@@ -3662,7 +3664,8 @@ class smartthings_translate
                 "setMachineState"        => __("Changer le statut de machine", __FILE__)
             ],
             "dustHealthConcern" => [
-                "dustHealthConcern" => __("Poussière", __FILE__)
+                "dustHealthConcern"   => __("Poussière", __FILE__),
+                "supportedDustValues" => __("Valeurs de poussière prises en charge", __FILE__),
             ],
             "dustSensor" => [
                 "dustLevel"     => __("Quantité de poussière", __FILE__),
@@ -3774,7 +3777,8 @@ class smartthings_translate
                 "fineDustLevel" => __("Capteur de poussières fine", __FILE__)
             ],
             "fineDustHealthConcern" => [
-                "fineDustHealthConcern" => __("Poussière fine", __FILE__)
+                "fineDustHealthConcern"   => __("Poussière fine", __FILE__),
+                "supportedFineDustValues" => __("Valeurs de poussière fine prises en charge", __FILE__)
             ],
             "fineDustSensor" => [
                 "fineDustLevel" => __("PM 2,5", __FILE__)
@@ -3823,7 +3827,8 @@ class smartthings_translate
                 "formaldehydeLevel" => __("Formaldéhyde", __FILE__)
             ],
             "formaldehydeHealthConcern" => [
-                "formaldehydeHealthConcern" => __("Niveau de formaldéhyde", __FILE__)
+                "formaldehydeHealthConcern"   => __("Niveau de formaldéhyde", __FILE__),
+                "supportedFormaldehydeValues" => __("Valeurs de formaldehyde prises en charge", __FILE__)
             ],
             "garageDoorControl" => [
                 "door"  => __("Porte de garage", __FILE__),
@@ -4178,7 +4183,8 @@ class smartthings_translate
                 "downlinkSpeed" => __("Vitesse de la liaison descendante", __FILE__)
             ],
             "nitrogenDioxideHealthConcern" => [
-                "nitrogenDioxideHealthConcern" => __("Niveau de dioxyde d'azote", __FILE__)
+                "nitrogenDioxideHealthConcern"   => __("Niveau de dioxyde d'azote", __FILE__),
+                "supportedNitrogenDioxideValues" => __("Valeurs de dioxyde d'azote prises en charge", __FILE__)
             ],
             "nitrogenDioxideMeasurement" => [
                 "nitrogenDioxide" => __("Dioxyde d'azote", __FILE__)
@@ -4268,7 +4274,8 @@ class smartthings_translate
                 "setOvenSetpoint"   => __("Changer la température du four", __FILE__)
             ],
             "ozoneHealthConcern" => [
-                "ozoneHealthConcern" => __("Niveau d'ozone", __FILE__)
+                "ozoneHealthConcern"   => __("Niveau d'ozone", __FILE__),
+                "supportedOzoneValues" => __("Valeurs d'ozone prises en charge", __FILE__)
             ],
             "ozoneMeasurement" => [
                 "ozone" => __("Ozone", __FILE__)
@@ -4334,7 +4341,8 @@ class smartthings_translate
                 "setOperationMode"        => __("Changer le mode de fonctionnement de la pompe", __FILE__)
             ],
             "radonHealthConcern" => [
-                "radonHealthConcern" => __("Niveau de radon", __FILE__)
+                "radonHealthConcern"   => __("Niveau de radon", __FILE__),
+                "supportedRadonValues" => __("Valeurs de radon prises en charge", __FILE__)
             ],
             "radonMeasurement" => [
                 "radonLevel" => __("Radon", __FILE__)
@@ -4422,8 +4430,12 @@ class smartthings_translate
                 "setRobotCleanerCleaningStatecleaningStop" => __("Arrêter le statut de nettoyage du robot de nettoyage", __FILE__)
             ],
             "robotCleanerOperatingState" => [
-                "operatingState"           => __("État de fonctionnement du robot nettoyeur", __FILE__),
-                "supportedOperatingStates" => __("État de fonctionnement du robot nettoyeur pris en charge", __FILE__)
+                "operatingState"                  => __("État de fonctionnement du robot nettoyeur", __FILE__),
+                "supportedOperatingStates"        => __("États de fonctionnement du robot nettoyeur pris en charge", __FILE__),
+                "supportedOperatingStateCommands" => __("Commandes de fonctionnement du robot nettoyeur prises en charge", __FILE__),
+                "goHome"                          => __("Retour à la maison", __FILE__),
+                "start"                           => __("Démarrer", __FILE__),
+                "pause"                           => __("Pause", __FILE__)
             ],
             "robotCleanerTurboMode" => [
                 "robotCleanerTurboMode"    => __("Puissance d'aspiration", __FILE__),
@@ -5451,7 +5463,8 @@ class smartthings_translate
                 "off"                      => __("Mode du thermostat : Arrêt", __FILE__)
             ],
             "thermostatOperatingState" => [
-                "thermostatOperatingState" => __("Statut de tâche", __FILE__)
+                "supportedThermostatOperatingStates" => __("Statuts de tâche pris en charge", __FILE__),
+                "thermostatOperatingState"           => __("Statut de tâche", __FILE__)
             ],
             "thermostatSetpoint" => [
                 "thermostatSetpoint" => __("Définissez la température", __FILE__)
@@ -5504,7 +5517,8 @@ class smartthings_translate
                 "setTvChannelName" => __("Changer le nom de la chaîne", __FILE__)
             ],
             "tvocHealthConcern" => [
-                "tvocHealthConcern" => __("Total des composés organiques volatiles", __FILE__)
+                "supportedTvocValues" => __("Valeurs de total des composés organiques volatiles pris en charge", __FILE__)
+                "tvocHealthConcern"   => __("Total des composés organiques volatiles", __FILE__),
             ],
             "tvocMeasurement" => [
                 "tvocLevel" => __("Niveau du total des composés organiques volatiles", __FILE__)
@@ -5548,7 +5562,8 @@ class smartthings_translate
                 "veryFineDustLevel" => __("PM 1,0", __FILE__)
             ],
             "veryFineDustHealthConcern" => [
-                "veryFineDustHealthConcern" => __("Poussière très fine", __FILE__)
+                "supportedVeryFineDustValues" => __("Valeurs de poussière très fine prises en charge", __FILE__),
+                "veryFineDustHealthConcern"   => __("Poussière très fine", __FILE__)
             ],
             "videoCapture" => [
                 "stream"  => __("Flux", __FILE__),
