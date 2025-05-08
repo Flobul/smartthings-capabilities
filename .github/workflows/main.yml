@@ -123,6 +123,17 @@ jobs:
               # Restaurer les modifications sauvegardées
               git stash pop || echo "No stash to pop, continuing"
           
+              # Fusionner les dernières modifications de `master`
+              git merge master --no-edit || {
+                echo "Merge conflict detected. Attempting to resolve automatically."
+          
+                # Tenter de résoudre automatiquement les conflits
+                git merge --abort
+                git reset --hard HEAD
+                git checkout master
+                return 1
+              }
+          
               # Ajouter les nouvelles modifications
               git add "$file"
           
