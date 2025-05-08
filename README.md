@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-04-28
+#### Last Update: 2025-05-08
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -8,6 +8,8 @@
 * [Create Personal Access Token](https://account.smartthings.com/tokens)
 * [Plugin Documentation](https://flobul-domotique.fr/documentation-du-plugin-smartthings-pour-jeedom/)
 * [Plugin Jeedom Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=4099)
+
+
 | Capability | Version | Status | Capability Presentation | Translation i18n |
 | ---- | ---- | ---- | ---- | ---- |
 
