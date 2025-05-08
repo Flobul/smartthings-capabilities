@@ -45,7 +45,6 @@
                     "value"
                 ]
             },
-            "setter": "setWindMode",
             "enumCommands": []
         }
     },
