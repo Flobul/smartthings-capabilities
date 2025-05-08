@@ -130,6 +130,9 @@ jobs:
                 git add .
               }
           
+              # Supprimer les fichiers non pertinents de l'index
+              git rm --cached -r --ignore-unmatch smartthings smartthings-linux-x64.tar.gz || true
+          
               # Ajouter les nouvelles modifications
               git add "$file"
           
@@ -160,6 +163,9 @@ jobs:
           
               # Restaurer les modifications sauvegardées
               git stash pop || echo "No stash to pop, continuing"
+          
+              # Supprimer les fichiers non pertinents de l'index
+              git rm --cached -r --ignore-unmatch smartthings smartthings-linux-x64.tar.gz || true
           
               # Ajouter le fichier
               git add "$file"
