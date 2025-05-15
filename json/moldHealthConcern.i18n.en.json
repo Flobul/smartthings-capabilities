@@ -32,6 +32,11 @@
                     }
                 }
             }
+        },
+        "supportedMoldValues": {
+            "label": "supportedMoldValues",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
         }
     },
     "commands": {}
