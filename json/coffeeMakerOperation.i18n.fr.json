@@ -1,62 +1,265 @@
 {
-    "tag": "en",
-    "label": "Coffee Maker Operation",
+    "tag": "fr",
+    "label": "État",
+    "description": "Allows for the control of the coffee maker.",
     "attributes": {
         "errorState": {
-            "label": "errorState",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
+            "label": "Erreur",
+            "description": "Status supported by the coffee maker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "pipelineBlockage": {
+                        "label": "Tuyau bloqué"
+                    },
+                    "grindingSystemAbnormality": {
+                        "label": "Vérifier le système de broyage"
+                    },
+                    "coffeeBeansRunOut": {
+                        "label": "En rupture de café"
+                    },
+                    "wasteWaterTrayFull": {
+                        "label": "Bac à eau plein"
+                    },
+                    "coffeeGroundsTankFull": {
+                        "label": "Récipient à marc de café plein"
+                    },
+                    "wasteWaterTrayError": {
+                        "label": "Vérifier le bac à eau"
+                    },
+                    "ntcAbnormality": {
+                        "label": "Vérifier le capteur de température"
+                    },
+                    "brewingBoilerError": {
+                        "label": "Vérifier la chaudière"
+                    },
+                    "abnormalCommunication": {
+                        "label": "Problème de connexion"
+                    },
+                    "transmissionSystemAbnormality": {
+                        "label": "Problème de signal"
+                    },
+                    "waterTankShortOfWater": {
+                        "label": "Manque d'eau dans le réservoir"
+                    },
+                    "coffeeSpoutCoverError": {
+                        "label": "Vérifier le couvercle du bec de la cafetière"
+                    },
+                    "coffeeGroundsTankError": {
+                        "label": "Vérifier le récipient à marc de café"
+                    },
+                    "valveFaulty": {
+                        "label": "Vérifier la vanne"
+                    },
+                    "brewingUnitError": {
+                        "label": "Vérifier l'unité de chauffage"
+                    },
+                    "temperatureIsTooLow": {
+                        "label": "La température est trop basse"
+                    },
+                    "noError": {
+                        "label": "No error"
+                    },
+                    "brewingDoorOpen": {
+                        "label": "Trappe de l'unité de chauffage ouverte"
+                    },
+                    "temperatureIsTooHigh": {
+                        "label": "La température est trop élevée"
+                    },
+                    "boilerDisconnection": {
+                        "label": "Cafetière électrique déconnectée"
+                    }
+                }
+            }
         },
         "coffeeMakerOperationStatus": {
-            "label": "coffeeMakerOperationStatus",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "État",
+            "description": "Current state of the coffee maker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "making": {
-                        "label": "making"
+                        "label": "Préparation"
                     },
                     "stopped": {
-                        "label": "stopped"
+                        "label": "Arrêté"
                     },
                     "ready": {
-                        "label": "ready"
+                        "label": "Prêt"
                     },
                     "initializing": {
-                        "label": "initializing"
+                        "label": "Initialisation en cours…"
                     },
                     "complete": {
-                        "label": "complete"
+                        "label": "Terminé"
                     },
                     "error": {
-                        "label": "error"
+                        "label": "Erreur"
                     }
                 }
             }
         },
         "supportedCommands": {
-            "label": "supportedCommands",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
+            "label": "supported extra commands by the coffee maker",
+            "description": "Extra commands supported by the coffee maker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "stop": {
+                        "label": "Stop"
+                    }
+                }
+            }
         },
         "supportedCoffeeMakerOperationStatus": {
-            "label": "supportedCoffeeMakerOperationStatus",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
+            "label": "supported machine statuses",
+            "description": "Status supported by the coffee maker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "stopped": {
+                        "label": "Stopped"
+                    },
+                    "making": {
+                        "label": "Making"
+                    },
+                    "ready": {
+                        "label": "Ready"
+                    },
+                    "initializing": {
+                        "label": "Initializing"
+                    },
+                    "error": {
+                        "label": "Error"
+                    },
+                    "complete": {
+                        "label": "Complete"
+                    }
+                }
+            }
         },
         "supportedMenu": {
-            "label": "supportedMenu",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
+            "label": "supported menu by the coffee maker",
+            "description": "Menu supported by the coffee maker",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "hotMilkFoam": {
+                        "label": "Hot Milk Foam"
+                    },
+                    "espresso": {
+                        "label": "Espresso"
+                    },
+                    "cappuccino": {
+                        "label": "Cappuccino"
+                    },
+                    "aPotOfCoffee": {
+                        "label": "A Pot Of Coffee"
+                    },
+                    "ristretto": {
+                        "label": "Ristretto"
+                    },
+                    "demitasse": {
+                        "label": "Demitasse"
+                    },
+                    "americano": {
+                        "label": "Americano"
+                    },
+                    "latteMacchiato": {
+                        "label": "Latte Macchiato"
+                    },
+                    "hotMilk": {
+                        "label": "Hot Milk"
+                    },
+                    "cremaCoffee": {
+                        "label": "Crema Coffee"
+                    },
+                    "coffeeLatte": {
+                        "label": "Coffee Latte"
+                    },
+                    "doubleEspresso": {
+                        "label": "Double Espresso"
+                    },
+                    "cafeaulait": {
+                        "label": "Cafe au Lait"
+                    },
+                    "classicCoffee": {
+                        "label": "Classic Coffee"
+                    },
+                    "flatWhite": {
+                        "label": "Flat White"
+                    },
+                    "hotWater": {
+                        "label": "Hot Water"
+                    }
+                }
+            }
         }
     },
     "commands": {
         "stop": {
-            "label": "stop",
+            "label": "Arrêter",
+            "description": "Stop making coffee",
             "arguments": {}
         },
         "makeCoffee": {
-            "label": "makeCoffee",
-            "arguments": {}
+            "label": "Menu",
+            "description": "Make coffee with menu",
+            "arguments": {
+                "state": {
+                    "i18n": {
+                        "hotMilkFoam": {
+                            "label": "Mousse de lait chaud"
+                        },
+                        "espresso": {
+                            "label": "Expresso"
+                        },
+                        "cappuccino": {
+                            "label": "Cappuccino"
+                        },
+                        "aPotOfCoffee": {
+                            "label": "Pot de café"
+                        },
+                        "americano": {
+                            "label": "Allongé"
+                        },
+                        "demitasse": {
+                            "label": "Demi-tasse"
+                        },
+                        "latteMacchiato": {
+                            "label": "Latte macchiato"
+                        },
+                        "ristretto": {
+                            "label": "Ristretto"
+                        },
+                        "hotMilk": {
+                            "label": "Lait chaud"
+                        },
+                        "coffeeLatte": {
+                            "label": "Café latte"
+                        },
+                        "cremaCoffee": {
+                            "label": "Café crème"
+                        },
+                        "doubleEspresso": {
+                            "label": "Double expresso"
+                        },
+                        "cafeaulait": {
+                            "label": "Café au lait"
+                        },
+                        "classicCoffee": {
+                            "label": "Café classique"
+                        },
+                        "flatWhite": {
+                            "label": "Flat white"
+                        },
+                        "hotWater": {
+                            "label": "Eau chaude"
+                        }
+                    },
+                    "description": "The menu to be made"
+                }
+            }
         }
     }
 }

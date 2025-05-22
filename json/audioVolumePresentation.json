@@ -12,8 +12,7 @@
                 "displayType": "stepper",
                 "stepper": {
                     "command": {
-                        "name": "setVolume",
-                        "argumentType": "integer"
+                        "name": "setVolume"
                     },
                     "step": 1,
                     "range": [
@@ -22,8 +21,7 @@
                     ],
                     "state": {
                         "value": "volume.value",
-                        "valueType": "integer",
-                        "label": "{{volume.value}}{{volume.unit}}"
+                        "unit": "volume.unit"
                     },
                     "availableSizes": [
                         "2x1",
@@ -39,7 +37,8 @@
                 "displayType": "stepper",
                 "stepper": {
                     "command": {
-                        "name": "setVolume"
+                        "increase": "volumeUp",
+                        "decrease": "volumeDown"
                     },
                     "step": 1,
                     "range": [
@@ -47,7 +46,36 @@
                         100
                     ],
                     "state": {
-                        "value": "volume.value"
+                        "value": "volume.value",
+                        "unit": "volume.unit"
+                    },
+                    "availableSizes": [
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1x2",
+                        "2x2"
+                    ]
+                }
+            },
+            {
+                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOVOLUME_DEFAULT_DC_VOL",
+                "displayType": "stepper",
+                "stepper": {
+                    "command": {
+                        "name": "setVolume",
+                        "argumentType": "integer"
+                    },
+                    "step": 1,
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "state": {
+                        "value": "volume.value",
+                        "unit": "volume.unit",
+                        "valueType": "integer",
+                        "label": "{{volume.value}}{{volume.unit}}"
                     },
                     "availableSizes": [
                         "2x1",
