@@ -1,0 +1,96 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{switch.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "{{i18n.attributes.switch.i18n.value.on.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.switch.i18n.value.off.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "off"
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.off.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "{{WARNING_MESSAGE}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.SAFETYSWITCH_DEFAULT_WARNING_MESSAGE",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "switch.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "{{i18n.attributes.switch.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.switch.i18n.value.off.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "{{i18n.attributes.switch.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.switch.i18n.value.off.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "switch.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "safetySwitch",
+    "version": 1
+}
