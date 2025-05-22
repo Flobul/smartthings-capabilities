@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-05-15
+#### Last Update: 2025-05-22
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -35,7 +35,7 @@
 | [Alarm System](./json/alarmSystem.json) | 1 | dead |  | [json](./json/alarmSystem.i18n.fr.json) |
 | [Alarm System Arm Only](./json/alarmSystemArmOnly.json) | 1 | dead |  | [json](./json/alarmSystemArmOnly.i18n.fr.json) |
 | [AlarmSensor](./json/alarmsensor.json) | 1 | proposed |  | [json](./json/alarmsensor.i18n.fr.json) |
-| [Anti Snoring Pillow](./json/antiSnoringPillow.json) | 1 | proposed |  | [json](./json/antiSnoringPillow.i18n.fr.json) |
+| [Anti Snoring Pillow](./json/antiSnoringPillow.json) | 1 | proposed | [json](./json/antiSnoringPillowPresentation.json) | [json](./json/antiSnoringPillow.i18n.fr.json) |
 | [Appliance Utilization](./json/applianceUtilization.json) | 1 | proposed | [json](./json/applianceUtilizationPresentation.json) | [json](./json/applianceUtilization.i18n.fr.json) |
 | [Astronomical Data](./json/astronomicalData.json) | 1 | dead |  | [json](./json/astronomicalData.i18n.fr.json) |
 | [Atmospheric Pressure Measurement](./json/atmosphericPressureMeasurement.json) | 1 | live | [json](./json/atmosphericPressureMeasurementPresentation.json) | [json](./json/atmosphericPressureMeasurement.i18n.fr.json) |
@@ -67,7 +67,7 @@
 | [Charge Point State](./json/chargePointState.json) | 1 | proposed | [json](./json/chargePointStatePresentation.json) | [json](./json/chargePointState.i18n.fr.json) |
 | [Charging State](./json/chargingState.json) | 1 | proposed | [json](./json/chargingStatePresentation.json) | [json](./json/chargingState.i18n.fr.json) |
 | [Chime](./json/chime.json) | 1 | live | [json](./json/chimePresentation.json) | [json](./json/chime.i18n.fr.json) |
-| [Coffee Maker Operation](./json/coffeeMakerOperation.json) | 1 | proposed |  | [json](./json/coffeeMakerOperation.i18n.fr.json) |
+| [Coffee Maker Operation](./json/coffeeMakerOperation.json) | 1 | proposed | [json](./json/coffeeMakerOperationPresentation.json) | [json](./json/coffeeMakerOperation.i18n.fr.json) |
 | [Color](./json/color.json) | 1 | proposed |  | [json](./json/color.i18n.fr.json) |
 | [Color Control](./json/colorControl.json) | 1 | live | [json](./json/colorControlPresentation.json) | [json](./json/colorControl.i18n.fr.json) |
 | [Color Mode](./json/colorMode.json) | 1 | proposed | [json](./json/colorModePresentation.json) | [json](./json/colorMode.i18n.fr.json) |
@@ -302,8 +302,8 @@
 | [Robot Cleaner Operating State](./json/robotCleanerOperatingState.json) | 1 | live | [json](./json/robotCleanerOperatingStatePresentation.json) | [json](./json/robotCleanerOperatingState.i18n.fr.json) |
 | [Robot Cleaner State](./json/robotCleanerState.json) | 1 | deprecated |  | [json](./json/robotCleanerState.i18n.fr.json) |
 | [Robot Cleaner Turbo Mode](./json/robotCleanerTurboMode.json) | 1 | live | [json](./json/robotCleanerTurboModePresentation.json) | [json](./json/robotCleanerTurboMode.i18n.fr.json) |
-| [Safety Switch](./json/safetySwitch.json) | 1 | proposed |  | [json](./json/safetySwitch.i18n.fr.json) |
-| [Safety Valve](./json/safetyValve.json) | 1 | proposed |  | [json](./json/safetyValve.i18n.fr.json) |
+| [Safety Switch](./json/safetySwitch.json) | 1 | proposed | [json](./json/safetySwitchPresentation.json) | [json](./json/safetySwitch.i18n.fr.json) |
+| [Safety Valve](./json/safetyValve.json) | 1 | proposed | [json](./json/safetyValvePresentation.json) | [json](./json/safetyValve.i18n.fr.json) |
 | [Samsung TV](./json/samsungTV.json) | 1 | deprecated |  | [json](./json/samsungTV.i18n.fr.json) |
 | [Samsung TV](./json/samsungTv.json) | 1 | live |  | [json](./json/samsungTv.i18n.fr.json) |
 | [Auto Dispense Detergent](./json/samsungce.autoDispenseDetergent.json) | 1 | proposed |  | [json](./json/samsungce.autoDispenseDetergent.i18n.fr.json) |
