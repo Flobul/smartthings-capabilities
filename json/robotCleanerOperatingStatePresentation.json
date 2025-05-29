@@ -189,6 +189,32 @@
                     }
                 ]
             }
+        },
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "{{i18n.commands.start.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "goHome",
+                            "value": "{{i18n.commands.goHome.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedOperatingStateCommands.value"
+                }
+            }
         }
     ],
     "automation": {
@@ -291,7 +317,32 @@
                 }
             }
         ],
-        "actions": []
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "{{i18n.commands.start.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "{{i18n.commands.pause.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "goHome",
+                            "value": "{{i18n.commands.goHome.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedOperatingStateCommands.value"
+                }
+            }
+        ]
     },
     "id": "robotCleanerOperatingState",
     "version": 1
