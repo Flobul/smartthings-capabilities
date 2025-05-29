@@ -1,0 +1,185 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{state.value}}",
+                "alternatives": [
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.state.i18n.value.off.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "stopped",
+                        "value": "{{i18n.attributes.state.i18n.value.stopped.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "preparing",
+                        "value": "{{i18n.attributes.state.i18n.value.preparing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "running",
+                        "value": "{{i18n.attributes.state.i18n.value.running.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "standbyPowerSwitch",
+                "standbyPowerSwitch": {
+                    "command": {
+                        "on": "on",
+                        "off": "off"
+                    },
+                    "state": {
+                        "value": "state.value",
+                        "valueType": "string",
+                        "on": "running",
+                        "off": "stopped",
+                        "alternatives": [
+                            {
+                                "key": "off",
+                                "value": "{{i18n.attributes.state.i18n.value.off.label}}",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "stopped",
+                                "value": "{{i18n.attributes.state.i18n.value.stopped.label}}",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "preparing",
+                                "value": "{{i18n.attributes.state.i18n.value.preparing.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "running",
+                                "value": "{{i18n.attributes.state.i18n.value.running.label}}",
+                                "type": "active"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.state.label}}",
+            "displayType": "standbyPowerSwitch",
+            "standbyPowerSwitch": {
+                "command": {
+                    "on": "on",
+                    "off": "off"
+                },
+                "state": {
+                    "value": "state.value",
+                    "valueType": "string",
+                    "on": "running",
+                    "off": "stopped",
+                    "label": "{{state.value}}",
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.state.i18n.value.off.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.state.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "preparing",
+                            "value": "{{i18n.attributes.state.i18n.value.preparing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "running",
+                            "value": "{{i18n.attributes.state.i18n.value.running.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "{{i18n.attributes.snoringTime.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{snoringTime.value}}",
+                "unit": "snoringTime.unit"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.pillowOperationTime.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{pillowOperationTime.value}}",
+                "unit": "pillowOperationTime.unit"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.state.i18n.value.off.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.state.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "preparing",
+                            "value": "{{i18n.attributes.state.i18n.value.preparing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "running",
+                            "value": "{{i18n.attributes.state.i18n.value.running.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "state.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "{{i18n.commands.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.off.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "antiSnoringPillow",
+    "version": 1
+}
