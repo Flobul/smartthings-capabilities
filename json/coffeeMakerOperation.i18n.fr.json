@@ -60,11 +60,11 @@
                     "noError": {
                         "label": "No error"
                     },
-                    "brewingDoorOpen": {
-                        "label": "Trappe de l'unité de chauffage ouverte"
-                    },
                     "temperatureIsTooHigh": {
                         "label": "La température est trop élevée"
+                    },
+                    "brewingDoorOpen": {
+                        "label": "Trappe de l'unité de chauffage ouverte"
                     },
                     "boilerDisconnection": {
                         "label": "Cafetière électrique déconnectée"
