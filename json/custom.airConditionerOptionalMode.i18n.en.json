@@ -16,10 +16,10 @@
                         "label": "motionDirect"
                     },
                     "windFree": {
-                        "label": "Wind free on"
+                        "label": "WindFree on"
                     },
                     "windFreeSleep": {
-                        "label": "Wind free and Good sleep on"
+                        "label": "WindFree and Good sleep on"
                     },
                     "energySaving": {
                         "label": "energySaving"
@@ -77,10 +77,10 @@
                             "label": "Dry Comfort on"
                         },
                         "windFree": {
-                            "label": "Wind free on"
+                            "label": "WindFree on"
                         },
                         "windFreeSleep": {
-                            "label": "Wind free and Good sleep on"
+                            "label": "WindFree and Good sleep on"
                         },
                         "quiet": {
                             "label": "Quiet on"
