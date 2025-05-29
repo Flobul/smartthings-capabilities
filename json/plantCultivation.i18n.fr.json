@@ -1,0 +1,171 @@
+{
+    "tag": "en",
+    "label": "Plant Cultivation",
+    "attributes": {
+        "supportedPlantType": {
+            "label": "supportedPlantType",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "supportedCommands": {
+            "label": "supportedCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "startTime": {
+            "label": "startTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "plantType": {
+            "label": "plantType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "pepper": {
+                        "label": "pepper"
+                    },
+                    "philodendron": {
+                        "label": "philodendron"
+                    },
+                    "catnip": {
+                        "label": "catnip"
+                    },
+                    "rucola": {
+                        "label": "rucola"
+                    },
+                    "cilantro": {
+                        "label": "cilantro"
+                    },
+                    "newGreen": {
+                        "label": "newGreen"
+                    },
+                    "lemonBalm": {
+                        "label": "lemonBalm"
+                    },
+                    "burningBushSpindletree": {
+                        "label": "burningBushSpindletree"
+                    },
+                    "redVeinedSorrel": {
+                        "label": "redVeinedSorrel"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "pakchoi": {
+                        "label": "pakchoi"
+                    },
+                    "endive": {
+                        "label": "endive"
+                    },
+                    "tatsoi_vitamin": {
+                        "label": "tatsoi_vitamin"
+                    },
+                    "thyme": {
+                        "label": "thyme"
+                    },
+                    "thaiBasil": {
+                        "label": "thaiBasil"
+                    },
+                    "cherryTomato": {
+                        "label": "cherryTomato"
+                    },
+                    "lettuce_multiGreen": {
+                        "label": "lettuce_multiGreen"
+                    },
+                    "mint": {
+                        "label": "mint"
+                    },
+                    "lettuce_caesarsGreen": {
+                        "label": "lettuce_caesarsGreen"
+                    },
+                    "parsley": {
+                        "label": "parsley"
+                    },
+                    "lettuce_miniRomaine": {
+                        "label": "lettuce_miniRomaine"
+                    },
+                    "garlicChives": {
+                        "label": "garlicChives"
+                    },
+                    "leafRedChicory": {
+                        "label": "leafRedChicory"
+                    },
+                    "sage": {
+                        "label": "sage"
+                    },
+                    "lolloBionda_Bartimer": {
+                        "label": "lolloBionda_Bartimer"
+                    },
+                    "collardLeafKale": {
+                        "label": "collardLeafKale"
+                    },
+                    "eggplant": {
+                        "label": "eggplant"
+                    },
+                    "leafMustard": {
+                        "label": "leafMustard"
+                    },
+                    "basil": {
+                        "label": "basil"
+                    },
+                    "lettuce_jeokOak": {
+                        "label": "lettuce_jeokOak"
+                    },
+                    "napaCabbage": {
+                        "label": "napaCabbage"
+                    },
+                    "strawberry": {
+                        "label": "strawberry"
+                    },
+                    "dill": {
+                        "label": "dill"
+                    },
+                    "peperomia": {
+                        "label": "peperomia"
+                    },
+                    "sansevieria": {
+                        "label": "sansevieria"
+                    },
+                    "lettuce": {
+                        "label": "lettuce"
+                    },
+                    "rosemary": {
+                        "label": "rosemary"
+                    },
+                    "paprika": {
+                        "label": "paprika"
+                    },
+                    "monstera": {
+                        "label": "monstera"
+                    },
+                    "peppermint": {
+                        "label": "peppermint"
+                    },
+                    "appleMint": {
+                        "label": "appleMint"
+                    },
+                    "UNKNOWN": {
+                        "label": "UNKNOWN"
+                    },
+                    "garlandChrysanthemum": {
+                        "label": "garlandChrysanthemum"
+                    },
+                    "peaceLily": {
+                        "label": "peaceLily"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "resetStartTime": {
+            "label": "resetStartTime",
+            "arguments": {}
+        },
+        "setPlantType": {
+            "label": "setPlantType",
+            "arguments": {}
+        }
+    }
+}
