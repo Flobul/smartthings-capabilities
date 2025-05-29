@@ -60,11 +60,11 @@
                     "noError": {
                         "label": "No error"
                     },
-                    "brewingDoorOpen": {
-                        "label": "Brewing door open"
-                    },
                     "temperatureIsTooHigh": {
                         "label": "Temperature is too high"
+                    },
+                    "brewingDoorOpen": {
+                        "label": "Brewing door open"
                     },
                     "boilerDisconnection": {
                         "label": "Coffee boiler disconnected"

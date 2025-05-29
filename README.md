@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-05-22
+#### Last Update: 2025-05-29
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -275,6 +275,7 @@
 | [Panic Alarm](./json/panicAlarm.json) | 1 | live | [json](./json/panicAlarmPresentation.json) | [json](./json/panicAlarm.i18n.fr.json) |
 | [Pest Control](./json/pestControl.json) | 1 | live | [json](./json/pestControlPresentation.json) | [json](./json/pestControl.i18n.fr.json) |
 | [Pet Activity](./json/petActivity.json) | 1 | proposed | [json](./json/petActivityPresentation.json) | [json](./json/petActivity.i18n.fr.json) |
+| [Plant Cultivation](./json/plantCultivation.json) | 1 | proposed |  | [json](./json/plantCultivation.i18n.fr.json) |
 | [Polling](./json/polling.json) | 1 | deprecated |  | [json](./json/polling.i18n.fr.json) |
 | [Power Consumption Report](./json/powerConsumptionReport.json) | 1 | live |  | [json](./json/powerConsumptionReport.i18n.fr.json) |
 | [Power Meter](./json/powerMeter.json) | 1 | live | [json](./json/powerMeterPresentation.json) | [json](./json/powerMeter.i18n.fr.json) |
