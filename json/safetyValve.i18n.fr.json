@@ -1,17 +1,19 @@
 {
-    "tag": "en",
-    "label": "Safety Valve",
+    "tag": "fr",
+    "label": "Vanne",
+    "description": "Allows for the control of a safety valve device",
     "attributes": {
         "valve": {
-            "label": "valve",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Vanne",
+            "description": "A string representation of whether the safety valve is open or closed",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {
                 "value": {
                     "closed": {
-                        "label": "closed"
+                        "label": "Fermé"
                     },
                     "open": {
-                        "label": "open"
+                        "label": "Ouvert"
                     }
                 }
             }
@@ -19,7 +21,8 @@
     },
     "commands": {
         "close": {
-            "label": "close",
+            "label": "Fermer",
+            "description": "Close the safety valve",
             "arguments": {}
         }
     }

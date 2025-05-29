@@ -1183,6 +1183,13 @@
         "namespace": "st"
     },
     {
+        "id": "plantCultivation",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "polling",
         "version": 1,
         "status": "deprecated",
