@@ -1,2 +1,25 @@
 <?php return array (
+  "errorState" => 
+  array (
+    "noError" => __("noError", __FILE__),
+    "abnormalCommunication" => __("abnormalCommunication", __FILE__),
+    "boilerDisconnection" => __("boilerDisconnection", __FILE__),
+    "ntcAbnormality" => __("ntcAbnormality", __FILE__),
+    "transmissionSystemAbnormality" => __("transmissionSystemAbnormality", __FILE__),
+    "grindingSystemAbnormality" => __("grindingSystemAbnormality", __FILE__),
+    "pipelineBlockage" => __("pipelineBlockage", __FILE__),
+    "coffeeBeansRunOut" => __("coffeeBeansRunOut", __FILE__),
+    "temperatureIsTooLow" => __("temperatureIsTooLow", __FILE__),
+    "temperatureIsTooHigh" => __("temperatureIsTooHigh", __FILE__),
+    "waterTankShortOfWater" => __("waterTankShortOfWater", __FILE__),
+    "valveFaulty" => __("valveFaulty", __FILE__),
+    "brewingDoorOpen" => __("brewingDoorOpen", __FILE__),
+    "wasteWaterTrayError" => __("wasteWaterTrayError", __FILE__),
+    "wasteWaterTrayFull" => __("wasteWaterTrayFull", __FILE__),
+    "coffeeGroundsTankError" => __("coffeeGroundsTankError", __FILE__),
+    "coffeeGroundsTankFull" => __("coffeeGroundsTankFull", __FILE__),
+    "coffeeSpoutCoverError" => __("coffeeSpoutCoverError", __FILE__),
+    "brewingUnitError" => __("brewingUnitError", __FILE__),
+    "brewingBoilerError" => __("brewingBoilerError", __FILE__),
+  ),
 );
