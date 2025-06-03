@@ -1,20 +1,15 @@
 <?php return array (
-  "alarmSystem" => 
+  "plantCultivation" => 
   array (
-    "sendEvent(alarmSystemStatus,off)" => __("sendEvent(alarmSystemStatus,off)", __FILE__),
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "supportedPlantType" => __("supportedPlantType", __FILE__),
+    "supportedCommands" => __("supportedCommands", __FILE__),
+    "startTime" => __("startTime", __FILE__),
+    "plantType" => __("plantType", __FILE__),
+    "resetStartTime" => __("resetStartTime", __FILE__),
+    "setPlantType" => __("setPlantType", __FILE__),
   ),
-  "alarmSystemArmOnly" => 
+  "samsungce.autoDispenseDetergent" => 
   array (
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
-  ),
-  "astronomicalData" => 
-  array (
-    "sendEvent(sunriseTime)" => __("sendEvent(sunriseTime)", __FILE__),
-    "sendEvent(sunrise)" => __("sendEvent(sunrise)", __FILE__),
-    "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
-    "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
+    "supportedTypes" => __("supportedTypes", __FILE__),
   ),
 );
