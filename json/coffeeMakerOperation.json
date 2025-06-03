@@ -10,33 +10,30 @@
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
-                        "items": {
-                            "title": "CoffeeMakerError",
-                            "type": "string",
-                            "enum": [
-                                "noError",
-                                "abnormalCommunication",
-                                "boilerDisconnection",
-                                "ntcAbnormality",
-                                "transmissionSystemAbnormality",
-                                "grindingSystemAbnormality",
-                                "pipelineBlockage",
-                                "coffeeBeansRunOut",
-                                "temperatureIsTooLow",
-                                "temperatureIsTooHigh",
-                                "waterTankShortOfWater",
-                                "valveFaulty",
-                                "brewingDoorOpen",
-                                "wasteWaterTrayError",
-                                "wasteWaterTrayFull",
-                                "coffeeGroundsTankError",
-                                "coffeeGroundsTankFull",
-                                "coffeeSpoutCoverError",
-                                "brewingUnitError",
-                                "brewingBoilerError"
-                            ]
-                        }
+                        "title": "CoffeeMakerError",
+                        "type": "string",
+                        "enum": [
+                            "noError",
+                            "abnormalCommunication",
+                            "boilerDisconnection",
+                            "ntcAbnormality",
+                            "transmissionSystemAbnormality",
+                            "grindingSystemAbnormality",
+                            "pipelineBlockage",
+                            "coffeeBeansRunOut",
+                            "temperatureIsTooLow",
+                            "temperatureIsTooHigh",
+                            "waterTankShortOfWater",
+                            "valveFaulty",
+                            "brewingDoorOpen",
+                            "wasteWaterTrayError",
+                            "wasteWaterTrayFull",
+                            "coffeeGroundsTankError",
+                            "coffeeGroundsTankFull",
+                            "coffeeSpoutCoverError",
+                            "brewingUnitError",
+                            "brewingBoilerError"
+                        ]
                     }
                 },
                 "additionalProperties": false,
