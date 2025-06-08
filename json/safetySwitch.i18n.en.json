@@ -1,17 +1,19 @@
 {
     "tag": "en",
-    "label": "Safety Switch",
+    "label": "Power",
+    "description": "Allow for the control of a safety switch device",
     "attributes": {
         "switch": {
-            "label": "switch",
+            "label": "Power",
+            "description": "A string representation of whether the safety switch is on or off",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "off": {
-                        "label": "off"
+                        "label": "Off"
                     },
                     "on": {
-                        "label": "on"
+                        "label": "On"
                     }
                 }
             }
@@ -19,7 +21,8 @@
     },
     "commands": {
         "off": {
-            "label": "off",
+            "label": "Turn Off",
+            "description": "Turn a safety switch off",
             "arguments": {}
         }
     }
