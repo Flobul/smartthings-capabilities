@@ -1,65 +1,75 @@
 {
-    "tag": "en",
-    "label": "Anti Snoring Pillow",
+    "tag": "fr",
+    "label": "État de l'oreiller",
+    "description": "Allows for the operation of the anti snoring pillow",
     "attributes": {
         "snoringTime": {
-            "label": "snoringTime",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Temps de ronflement",
+            "description": "Total snoring time. Unit is minute.",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {}
         },
         "supportPillowOperationTimeGraph": {
-            "label": "supportPillowOperationTimeGraph",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Pillow operation time graph support",
+            "description": "Whether device supports pillow operation time graph",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {}
         },
         "snoringTimeDelta": {
-            "label": "snoringTimeDelta",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Snoring time delta",
+            "description": "Snoring time measured after last report. Rcommended time between reports is less than 10 mins. Unit is minute.",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {}
         },
         "pillowOperationTime": {
-            "label": "pillowOperationTime",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Temps de soin des ronflements",
+            "description": "Total pillow operation time. Unit is minute.",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {}
         },
         "state": {
-            "label": "state",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "État de l'oreiller",
+            "description": "State of pillow",
+            "displayTemplate": "{{device.label}} {{attribute}}: {{value}}",
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "running"
+                        "label": "Activé"
                     },
                     "stopped": {
-                        "label": "stopped"
+                        "label": "Arrêté"
                     },
                     "preparing": {
-                        "label": "preparing"
+                        "label": "Préparation"
                     },
                     "off": {
-                        "label": "off"
+                        "label": "Désactivé"
                     }
                 }
             }
         },
         "supportSnoringTimeGraph": {
-            "label": "supportSnoringTimeGraph",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Snoring graph support",
+            "description": "Whether device supports snoring time graph",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {}
         },
         "pillowOperationTimeDelta": {
-            "label": "pillowOperationTimeDelta",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Pillow operation time delta",
+            "description": "Pillow operation time measured after last report. Rcommended time between reports is less than 10 mins. Unit is minute.",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "off": {
-            "label": "off",
+            "label": "Désactiver",
+            "description": "Turn off pillow operation",
             "arguments": {}
         },
         "on": {
-            "label": "on",
+            "label": "Activer",
+            "description": "Turn on pillow operation",
             "arguments": {}
         }
     }
