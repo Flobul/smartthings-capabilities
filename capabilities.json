@@ -840,6 +840,13 @@
         "namespace": "st"
     },
     {
+        "id": "lockAliro",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "lockCodes",
         "version": 1,
         "status": "live",
@@ -1179,6 +1186,13 @@
         "id": "pHMeasurement",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "plantCultivation",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
