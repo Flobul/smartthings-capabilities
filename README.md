@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-06-01
+#### Last Update: 2025-06-08
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -226,6 +226,7 @@
 | [Location Mode](./json/locationMode.json) | 1 | live |  | [json](./json/locationMode.i18n.fr.json) |
 | [Lock](./json/lock.json) | 1 | live | [json](./json/lockPresentation.json) | [json](./json/lock.i18n.fr.json) |
 | [Lock Alarm](./json/lockAlarm.json) | 1 | proposed | [json](./json/lockAlarmPresentation.json) | [json](./json/lockAlarm.i18n.fr.json) |
+| [Lock Aliro](./json/lockAliro.json) | 1 | proposed |  | [json](./json/lockAliro.i18n.fr.json) |
 | [Lock Codes](./json/lockCodes.json) | 1 | live |  | [json](./json/lockCodes.i18n.fr.json) |
 | [Lock Credentials](./json/lockCredentials.json) | 1 | proposed |  | [json](./json/lockCredentials.i18n.fr.json) |
 | [Lock Only](./json/lockOnly.json) | 1 | deprecated |  | [json](./json/lockOnly.i18n.fr.json) |
@@ -275,7 +276,7 @@
 | [Panic Alarm](./json/panicAlarm.json) | 1 | live | [json](./json/panicAlarmPresentation.json) | [json](./json/panicAlarm.i18n.fr.json) |
 | [Pest Control](./json/pestControl.json) | 1 | live | [json](./json/pestControlPresentation.json) | [json](./json/pestControl.i18n.fr.json) |
 | [Pet Activity](./json/petActivity.json) | 1 | proposed | [json](./json/petActivityPresentation.json) | [json](./json/petActivity.i18n.fr.json) |
-| [Plant Cultivation](./json/plantCultivation.json) | 1 | proposed |  | [json](./json/plantCultivation.i18n.fr.json) |
+| [Plant Cultivation](./json/plantCultivation.json) | 1 | proposed | [json](./json/plantCultivationPresentation.json) | [json](./json/plantCultivation.i18n.fr.json) |
 | [Polling](./json/polling.json) | 1 | deprecated |  | [json](./json/polling.i18n.fr.json) |
 | [Power Consumption Report](./json/powerConsumptionReport.json) | 1 | live |  | [json](./json/powerConsumptionReport.i18n.fr.json) |
 | [Power Meter](./json/powerMeter.json) | 1 | live | [json](./json/powerMeterPresentation.json) | [json](./json/powerMeter.i18n.fr.json) |
