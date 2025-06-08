@@ -840,6 +840,13 @@
         "namespace": "st"
     },
     {
+        "id": "lockAliro",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "lockCodes",
         "version": 1,
         "status": "live",
