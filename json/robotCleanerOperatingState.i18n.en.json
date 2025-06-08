@@ -78,7 +78,7 @@
     },
     "commands": {
         "goHome": {
-            "label": "Go Home",
+            "label": "Return",
             "description": "Return the robot cleaner to the charging dock",
             "arguments": {}
         },

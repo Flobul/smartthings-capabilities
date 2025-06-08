@@ -78,12 +78,12 @@
     },
     "commands": {
         "goHome": {
-            "label": "Go Home",
+            "label": "Retour",
             "description": "Return the robot cleaner to the charging dock",
             "arguments": {}
         },
         "start": {
-            "label": "Start",
+            "label": "Lancer",
             "description": "Start the robot cleaner",
             "arguments": {}
         },

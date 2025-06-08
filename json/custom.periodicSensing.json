@@ -16,7 +16,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setAutomaticExecutionSetting",
             "enumCommands": []
         },
         "automaticExecutionMode": {
@@ -30,7 +29,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setAutomaticExecutionMode",
             "enumCommands": []
         },
         "supportedAutomaticExecutionSetting": {
@@ -82,7 +80,6 @@
                     "value"
                 ]
             },
-            "setter": "setPeriodicSensing",
             "enumCommands": []
         },
         "periodicSensingInterval": {
@@ -96,7 +93,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setPeriodicSensingInterval",
             "enumCommands": []
         },
         "lastSensingTime": {
