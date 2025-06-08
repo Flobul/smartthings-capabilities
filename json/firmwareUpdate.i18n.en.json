@@ -11,7 +11,7 @@
         },
         "imageTransferProgress": {
             "label": "imageTransferProgress",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
         "availableVersion": {
