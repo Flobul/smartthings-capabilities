@@ -68,7 +68,29 @@
             "description": "Operational states supported by the robot cleaner",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
+        },
+        "supportedOperatingStateCommands": {
+            "label": "supported operating state commands",
+            "description": "Current available operational state commands",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "goHome": {
+            "label": "Return",
+            "description": "Return the robot cleaner to the charging dock",
+            "arguments": {}
+        },
+        "start": {
+            "label": "Start",
+            "description": "Start the robot cleaner",
+            "arguments": {}
+        },
+        "pause": {
+            "label": "Pause",
+            "description": "Pause the robot cleaner",
+            "arguments": {}
+        }
+    }
 }
