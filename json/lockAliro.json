@@ -1,0 +1,356 @@
+{
+    "id": "lockAliro",
+    "version": 1,
+    "status": "proposed",
+    "name": "Lock Aliro",
+    "ephemeral": false,
+    "attributes": {
+        "commandResult": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "commandName": {
+                                "type": "string",
+                                "enum": [
+                                    "setReaderConfig",
+                                    "setCardId",
+                                    "setCredential",
+                                    "clearCredential"
+                                ]
+                            },
+                            "userIndex": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "keyId": {
+                                "type": "string",
+                                "minimum": 1
+                            },
+                            "statusCode": {
+                                "type": "string",
+                                "enum": [
+                                    "success",
+                                    "failure",
+                                    "occupied",
+                                    "duplicate",
+                                    "invalidCommand",
+                                    "resourceExhausted",
+                                    "busy"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "commandName",
+                            "statusCode"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "groupResolvingKey": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "setter": "setReaderConfig",
+            "enumCommands": []
+        },
+        "expeditedTransactionProtocolVersions": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "credentials": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "userIndex": {
+                                    "type": "integer",
+                                    "minimum": 1
+                                },
+                                "keyId": {
+                                    "type": "string",
+                                    "minimum": 1
+                                },
+                                "issuerKeyIndex": {
+                                    "type": "integer",
+                                    "minimum": 1
+                                },
+                                "endpointKeyIndex": {
+                                    "type": "integer",
+                                    "minimum": 1
+                                }
+                            },
+                            "required": [
+                                "userIndex",
+                                "keyId",
+                                "issuerKeyIndex",
+                                "endpointKeyIndex"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "readerGroupIdentifier": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setReaderConfig",
+            "enumCommands": []
+        },
+        "bleAdvertisingVersion": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "cardId": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setCardId",
+            "enumCommands": []
+        },
+        "bleUWBProtocolVersions": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "maxCredentialIssuerKeys": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "maxEndpointKeys": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "readerVerificationKey": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setReaderConfig",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setCredential": {
+            "name": "setCredential",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                {
+                    "name": "keyId",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                },
+                {
+                    "name": "issuerKey",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 130
+                    }
+                },
+                {
+                    "name": "nonEvictableEndpointKey",
+                    "optional": true,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 130
+                    }
+                },
+                {
+                    "name": "evictableEndpointKey",
+                    "optional": true,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 130
+                    }
+                }
+            ]
+        },
+        "setCardId": {
+            "name": "setCardId",
+            "arguments": [
+                {
+                    "name": "cardId",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        },
+        "setReaderConfig": {
+            "name": "setReaderConfig",
+            "arguments": [
+                {
+                    "name": "signingKey",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 64
+                    }
+                },
+                {
+                    "name": "verificationKey",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 130
+                    }
+                },
+                {
+                    "name": "groupId",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 32
+                    }
+                },
+                {
+                    "name": "groupResolvingKey",
+                    "optional": true,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 32
+                    }
+                }
+            ]
+        },
+        "clearCredential": {
+            "name": "clearCredential",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                },
+                {
+                    "name": "keyId",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 255
+                    }
+                }
+            ]
+        }
+    }
+}
