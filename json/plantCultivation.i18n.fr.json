@@ -1,158 +1,162 @@
 {
-    "tag": "en",
-    "label": "Plant Cultivation",
+    "tag": "fr",
+    "label": "Type de plante",
     "attributes": {
         "supportedPlantType": {
-            "label": "supportedPlantType",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported plant types",
+            "description": "The list of plant types this device can support",
+            "displayTemplate": "{{device.label}} supports {{value}}",
             "i18n": {}
         },
         "supportedCommands": {
-            "label": "supportedCommands",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported commands",
+            "description": "List of commands this device supports",
+            "displayTemplate": "{{device.label}} supports the following commands: {{value}}",
             "i18n": {}
         },
         "startTime": {
-            "label": "startTime",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Jours de plantation",
+            "description": "The date cultivation began",
+            "displayTemplate": "{{device.label}} started growing at {{value}}",
             "i18n": {}
         },
         "plantType": {
-            "label": "plantType",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Type de plante",
+            "description": "The currently selected plant type for cultivation",
+            "displayTemplate": "{{device.label}} is growing {{value}}",
             "i18n": {
                 "value": {
                     "pepper": {
-                        "label": "pepper"
+                        "label": "Poivre"
                     },
                     "philodendron": {
-                        "label": "philodendron"
+                        "label": "Philodendron"
                     },
                     "catnip": {
-                        "label": "catnip"
+                        "label": "Cataire"
                     },
                     "rucola": {
-                        "label": "rucola"
+                        "label": "Roquette"
                     },
                     "cilantro": {
-                        "label": "cilantro"
+                        "label": "Coriandre"
                     },
                     "newGreen": {
-                        "label": "newGreen"
+                        "label": "Jeunes pousses"
                     },
                     "lemonBalm": {
-                        "label": "lemonBalm"
+                        "label": "Mélisse"
                     },
                     "burningBushSpindletree": {
-                        "label": "burningBushSpindletree"
+                        "label": "Buisson ardent"
                     },
                     "redVeinedSorrel": {
-                        "label": "redVeinedSorrel"
+                        "label": "Oseille à veines rouges"
                     },
                     "none": {
-                        "label": "none"
+                        "label": "Aucun(e)"
                     },
                     "pakchoi": {
-                        "label": "pakchoi"
+                        "label": "Bok choy"
                     },
                     "endive": {
-                        "label": "endive"
+                        "label": "Endive"
                     },
                     "tatsoi_vitamin": {
-                        "label": "tatsoi_vitamin"
+                        "label": "Tatsoi"
                     },
                     "thyme": {
-                        "label": "thyme"
+                        "label": "Thym"
                     },
                     "thaiBasil": {
-                        "label": "thaiBasil"
+                        "label": "Basilic thaï"
                     },
                     "cherryTomato": {
-                        "label": "cherryTomato"
+                        "label": "Tomate cerise"
                     },
                     "lettuce_multiGreen": {
-                        "label": "lettuce_multiGreen"
+                        "label": "Laitue multifeuille"
                     },
                     "mint": {
-                        "label": "mint"
+                        "label": "Menthe"
                     },
                     "lettuce_caesarsGreen": {
-                        "label": "lettuce_caesarsGreen"
+                        "label": "Laitue verte César"
                     },
                     "parsley": {
-                        "label": "parsley"
+                        "label": "Persil"
                     },
                     "lettuce_miniRomaine": {
-                        "label": "lettuce_miniRomaine"
+                        "label": "Mini laitue romaine"
                     },
                     "garlicChives": {
-                        "label": "garlicChives"
+                        "label": "Ciboule"
                     },
                     "leafRedChicory": {
-                        "label": "leafRedChicory"
+                        "label": "Chicorée à feuilles rouges"
                     },
                     "sage": {
-                        "label": "sage"
+                        "label": "Sauge"
                     },
                     "lolloBionda_Bartimer": {
-                        "label": "lolloBionda_Bartimer"
+                        "label": "Laitue lollo verte"
                     },
                     "collardLeafKale": {
-                        "label": "collardLeafKale"
+                        "label": "Feuilles de chou vert"
                     },
                     "eggplant": {
-                        "label": "eggplant"
+                        "label": "Aubergine"
                     },
                     "leafMustard": {
-                        "label": "leafMustard"
+                        "label": "Moutarde brune"
                     },
                     "basil": {
-                        "label": "basil"
+                        "label": "Basilic"
                     },
                     "lettuce_jeokOak": {
-                        "label": "lettuce_jeokOak"
+                        "label": "Laitue rouge coréenne"
                     },
                     "napaCabbage": {
-                        "label": "napaCabbage"
+                        "label": "Chou chinois"
                     },
                     "strawberry": {
-                        "label": "strawberry"
+                        "label": "Fraise"
                     },
                     "dill": {
-                        "label": "dill"
+                        "label": "Aneth"
                     },
                     "peperomia": {
-                        "label": "peperomia"
+                        "label": "Pépéromie"
                     },
                     "sansevieria": {
-                        "label": "sansevieria"
+                        "label": "Langue de belle-mère"
                     },
                     "lettuce": {
-                        "label": "lettuce"
+                        "label": "Laitue"
                     },
                     "rosemary": {
-                        "label": "rosemary"
+                        "label": "Romarin"
                     },
                     "paprika": {
-                        "label": "paprika"
+                        "label": "Paprika"
                     },
                     "monstera": {
-                        "label": "monstera"
+                        "label": "Monstera"
                     },
                     "peppermint": {
-                        "label": "peppermint"
+                        "label": "Menthe poivrée"
                     },
                     "appleMint": {
-                        "label": "appleMint"
+                        "label": "Menthe à feuilles rondes"
                     },
                     "UNKNOWN": {
-                        "label": "UNKNOWN"
+                        "label": "Inconnu"
                     },
                     "garlandChrysanthemum": {
-                        "label": "garlandChrysanthemum"
+                        "label": "Chrysanthème de guirlande"
                     },
                     "peaceLily": {
-                        "label": "peaceLily"
+                        "label": "Lys de la paix"
                     }
                 }
             }
@@ -160,12 +164,152 @@
     },
     "commands": {
         "resetStartTime": {
-            "label": "resetStartTime",
+            "label": "Ajouter date plantation",
+            "description": "Reset the cultivation start date",
             "arguments": {}
         },
         "setPlantType": {
-            "label": "setPlantType",
-            "arguments": {}
+            "label": "Set plant type",
+            "description": "Select a plant type to grow",
+            "arguments": {
+                "plantType": {
+                    "i18n": {
+                        "pepper": {
+                            "label": "Poivre"
+                        },
+                        "philodendron": {
+                            "label": "Philodendron"
+                        },
+                        "catnip": {
+                            "label": "Cataire"
+                        },
+                        "rucola": {
+                            "label": "Roquette"
+                        },
+                        "lettuce miniromaine": {
+                            "label": "Mini laitue romaine"
+                        },
+                        "newGreen": {
+                            "label": "Jeunes pousses"
+                        },
+                        "cilantro": {
+                            "label": "Coriandre"
+                        },
+                        "lemonBalm": {
+                            "label": "Mélisse"
+                        },
+                        "redVeinedSorrel": {
+                            "label": "Oseille à veines rouges"
+                        },
+                        "burningBushSpindletree": {
+                            "label": "Buisson ardent"
+                        },
+                        "endive": {
+                            "label": "Endive"
+                        },
+                        "pakchoi": {
+                            "label": "Bok choy"
+                        },
+                        "none": {
+                            "label": "Aucun(e)"
+                        },
+                        "thyme": {
+                            "label": "Thym"
+                        },
+                        "thaiBasil": {
+                            "label": "Basilic thaï"
+                        },
+                        "cherryTomato": {
+                            "label": "Tomate cerise"
+                        },
+                        "lettuce caesarsgreen": {
+                            "label": "Laitue verte César"
+                        },
+                        "mint": {
+                            "label": "Menthe"
+                        },
+                        "parsley": {
+                            "label": "Persil"
+                        },
+                        "tatsoi vitamin": {
+                            "label": "Tatsoi"
+                        },
+                        "garlicChives": {
+                            "label": "Ciboule"
+                        },
+                        "leafRedChicory": {
+                            "label": "Chicorée à feuilles rouges"
+                        },
+                        "sage": {
+                            "label": "Sauge"
+                        },
+                        "lollobionda bartimer": {
+                            "label": "Laitue lollo verte"
+                        },
+                        "eggplant": {
+                            "label": "Aubergine"
+                        },
+                        "collardLeafKale": {
+                            "label": "Feuilles de chou vert"
+                        },
+                        "leafMustard": {
+                            "label": "Moutarde brune"
+                        },
+                        "basil": {
+                            "label": "Basilic"
+                        },
+                        "napaCabbage": {
+                            "label": "Chou chinois"
+                        },
+                        "strawberry": {
+                            "label": "Fraise"
+                        },
+                        "dill": {
+                            "label": "Aneth"
+                        },
+                        "peperomia": {
+                            "label": "Pépéromie"
+                        },
+                        "sansevieria": {
+                            "label": "Langue de belle-mère"
+                        },
+                        "lettuce": {
+                            "label": "Laitue"
+                        },
+                        "rosemary": {
+                            "label": "Romarin"
+                        },
+                        "paprika": {
+                            "label": "Paprika"
+                        },
+                        "monstera": {
+                            "label": "Monstera"
+                        },
+                        "peppermint": {
+                            "label": "Menthe poivrée"
+                        },
+                        "appleMint": {
+                            "label": "Menthe à feuilles rondes"
+                        },
+                        "lettuce multigreen": {
+                            "label": "Laitue multifeuille"
+                        },
+                        "UNKNOWN": {
+                            "label": "Inconnu"
+                        },
+                        "lettuce jeokoak": {
+                            "label": "Laitue rouge coréenne"
+                        },
+                        "garlandChrysanthemum": {
+                            "label": "Chrysanthème de guirlande"
+                        },
+                        "peaceLily": {
+                            "label": "Lys de la paix"
+                        }
+                    },
+                    "description": "A plant type"
+                }
+            }
         }
     }
 }
