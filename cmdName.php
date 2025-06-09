@@ -1,20 +1,33 @@
 <?php return array (
-  "alarmSystem" => 
+  "lockAliro" => 
   array (
-    "sendEvent(alarmSystemStatus,off)" => __("sendEvent(alarmSystemStatus,off)", __FILE__),
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "commandResult" => __("commandResult", __FILE__),
+    "groupResolvingKey" => __("groupResolvingKey", __FILE__),
+    "expeditedTransactionProtocolVersions" => __("expeditedTransactionProtocolVersions", __FILE__),
+    "credentials" => __("credentials", __FILE__),
+    "readerGroupIdentifier" => __("readerGroupIdentifier", __FILE__),
+    "bleAdvertisingVersion" => __("bleAdvertisingVersion", __FILE__),
+    "cardId" => __("cardId", __FILE__),
+    "bleUWBProtocolVersions" => __("bleUWBProtocolVersions", __FILE__),
+    "maxCredentialIssuerKeys" => __("maxCredentialIssuerKeys", __FILE__),
+    "maxEndpointKeys" => __("maxEndpointKeys", __FILE__),
+    "readerVerificationKey" => __("readerVerificationKey", __FILE__),
+    "setCredential" => __("setCredential", __FILE__),
+    "setCardId" => __("setCardId", __FILE__),
+    "setReaderConfig" => __("setReaderConfig", __FILE__),
+    "clearCredential" => __("clearCredential", __FILE__),
   ),
-  "alarmSystemArmOnly" => 
+  "plantCultivation" => 
   array (
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "supportedPlantType" => __("supportedPlantType", __FILE__),
+    "supportedCommands" => __("supportedCommands", __FILE__),
+    "startTime" => __("startTime", __FILE__),
+    "plantType" => __("plantType", __FILE__),
+    "resetStartTime" => __("resetStartTime", __FILE__),
+    "setPlantType" => __("setPlantType", __FILE__),
   ),
-  "astronomicalData" => 
+  "samsungce.autoDispenseDetergent" => 
   array (
-    "sendEvent(sunriseTime)" => __("sendEvent(sunriseTime)", __FILE__),
-    "sendEvent(sunrise)" => __("sendEvent(sunrise)", __FILE__),
-    "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
-    "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
+    "supportedTypes" => __("supportedTypes", __FILE__),
   ),
 );
