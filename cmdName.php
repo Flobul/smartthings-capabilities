@@ -1,20 +1,37 @@
 <?php return array (
-  "alarmSystem" => 
+  "lockAliro" => 
   array (
-    "sendEvent(alarmSystemStatus,off)" => __("sendEvent(alarmSystemStatus,off)", __FILE__),
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "commandResult" => __("commandResult", __FILE__),
+    "groupResolvingKey" => __("groupResolvingKey", __FILE__),
+    "expeditedTransactionProtocolVersions" => __("expeditedTransactionProtocolVersions", __FILE__),
+    "credentials" => __("credentials", __FILE__),
+    "readerGroupIdentifier" => __("readerGroupIdentifier", __FILE__),
+    "bleAdvertisingVersion" => __("bleAdvertisingVersion", __FILE__),
+    "cardId" => __("cardId", __FILE__),
+    "bleUWBProtocolVersions" => __("bleUWBProtocolVersions", __FILE__),
+    "maxCredentialIssuerKeys" => __("maxCredentialIssuerKeys", __FILE__),
+    "maxEndpointKeys" => __("maxEndpointKeys", __FILE__),
+    "readerVerificationKey" => __("readerVerificationKey", __FILE__),
+    "setCredential" => __("setCredential", __FILE__),
+    "setCardId" => __("setCardId", __FILE__),
+    "setReaderConfig" => __("setReaderConfig", __FILE__),
+    "clearCredential" => __("clearCredential", __FILE__),
   ),
-  "alarmSystemArmOnly" => 
+  "moldHealthConcern" => 
   array (
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "supportedMoldValues" => __("supportedMoldValues", __FILE__),
   ),
-  "astronomicalData" => 
+  "plantCultivation" => 
   array (
-    "sendEvent(sunriseTime)" => __("sendEvent(sunriseTime)", __FILE__),
-    "sendEvent(sunrise)" => __("sendEvent(sunrise)", __FILE__),
-    "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
-    "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
+    "supportedPlantType" => __("Supported plant types", __FILE__),
+    "supportedCommands" => __("Supported commands", __FILE__),
+    "startTime" => __("Jours de plantation", __FILE__),
+    "plantType" => __("Type de plante", __FILE__),
+    "resetStartTime" => __("Ajouter date plantation", __FILE__),
+    "setPlantType" => __("Set plant type", __FILE__),
+  ),
+  "samsungce.autoDispenseDetergent" => 
+  array (
+    "supportedTypes" => __("supportedTypes", __FILE__),
   ),
 );
