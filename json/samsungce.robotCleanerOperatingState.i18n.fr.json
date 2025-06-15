@@ -18,6 +18,9 @@
                     "washingMop": {
                         "label": "Lavage de la serpillère"
                     },
+                    "internalWash": {
+                        "label": "internalWash"
+                    },
                     "paused": {
                         "label": "Pause"
                     },
@@ -39,11 +42,17 @@
                     "factoryReset": {
                         "label": "factoryReset"
                     },
+                    "emptyStation": {
+                        "label": "emptyStation"
+                    },
                     "error": {
                         "label": "Vérification requise"
                     },
                     "manual": {
                         "label": "Surveillance"
+                    },
+                    "cleaningStart": {
+                        "label": "cleaningStart"
                     },
                     "mediaPlaying": {
                         "label": "mediaPlaying"
@@ -122,6 +131,9 @@
                     },
                     "calibrating": {
                         "label": "Étalonnage en cours"
+                    },
+                    "cleaningEnd": {
+                        "label": "cleaningEnd"
                     },
                     "reserved": {
                         "label": "reserved"
