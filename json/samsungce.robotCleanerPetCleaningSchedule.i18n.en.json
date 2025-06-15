@@ -2,6 +2,11 @@
     "tag": "en",
     "label": "Robot Cleaner Pet Cleaning Schedule",
     "attributes": {
+        "excludeHolidays": {
+            "label": "excludeHolidays",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "dayOfWeek": {
             "label": "dayOfWeek",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
@@ -49,6 +54,10 @@
         },
         "disable": {
             "label": "disable",
+            "arguments": {}
+        },
+        "setExcludeHolidays": {
+            "label": "setExcludeHolidays",
             "arguments": {}
         }
     }
