@@ -1,0 +1,89 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{valve.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.valve.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.valve.i18n.value.closed.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "close",
+                            "value": "{{i18n.commands.close.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "{{WARNING_MESSAGE}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.SAFETYVALVE_DEFAULT_WARNING_MESSAGE",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "valve.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.valve.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.valve.i18n.value.closed.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.valve.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.valve.i18n.value.closed.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "valve.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "safetyValve",
+    "version": 1
+}
