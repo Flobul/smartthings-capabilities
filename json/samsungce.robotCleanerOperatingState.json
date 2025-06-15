@@ -53,7 +53,13 @@
                                 "mopWashingPaused",
                                 "spinDrying",
                                 "preparingWater",
-                                "supplyingWater"
+                                "supplyingWater",
+                                "sabbath",
+                                "suspend",
+                                "emptyStation",
+                                "internalWash",
+                                "cleaningStart",
+                                "cleaningEnd"
                             ]
                         }
                     }
@@ -111,7 +117,13 @@
                             "mopWashingPaused",
                             "spinDrying",
                             "preparingWater",
-                            "supplyingWater"
+                            "supplyingWater",
+                            "sabbath",
+                            "suspend",
+                            "emptyStation",
+                            "internalWash",
+                            "cleaningStart",
+                            "cleaningEnd"
                         ]
                     }
                 },
