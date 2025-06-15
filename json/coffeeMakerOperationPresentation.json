@@ -1,0 +1,450 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{coffeeMakerOperationStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "initializing",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.initializing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ready",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.ready.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "making",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.making.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "complete",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.complete.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "error",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.error.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "stopped",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.stopped.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "stop"
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.coffeeMakerOperationStatus.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{coffeeMakerOperationStatus.value}}",
+                "alternatives": [
+                    {
+                        "key": "initializing",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.initializing.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ready",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.ready.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "making",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.making.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "complete",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.complete.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "error",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.error.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "stopped",
+                        "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.stopped.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.commands.makeCoffee.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "makeCoffee",
+                    "alternatives": [
+                        {
+                            "key": "espresso",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.espresso.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "doubleEspresso",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.doubleEspresso.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "americano",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.americano.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotWater",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.hotWater.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "latteMacchiato",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.latteMacchiato.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cappuccino",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.cappuccino.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "coffeeLatte",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.coffeeLatte.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotMilk",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.hotMilk.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "classicCoffee",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.classicCoffee.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cremaCoffee",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.cremaCoffee.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ristretto",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.ristretto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "flatWhite",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.flatWhite.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aPotOfCoffee",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.aPotOfCoffee.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotMilkFoam",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.hotMilkFoam.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cafeaulait",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.cafeaulait.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "demitasse",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.demitasse.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedMenu.value"
+                }
+            }
+        },
+        {
+            "label": "{{i18n.commands.stop.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.commands.stop.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedCommands.value"
+                }
+            }
+        },
+        {
+            "label": "{{i18n.attributes.errorState.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{errorState.value}}",
+                "alternatives": [
+                    {
+                        "key": "noError",
+                        "value": "{{i18n.attributes.errorState.i18n.value.noError.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "abnormalCommunication",
+                        "value": "{{i18n.attributes.errorState.i18n.value.abnormalCommunication.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "boilerDisconnection",
+                        "value": "{{i18n.attributes.errorState.i18n.value.boilerDisconnection.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ntcAbnormality",
+                        "value": "{{i18n.attributes.errorState.i18n.value.ntcAbnormality.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "transmissionSystemAbnormality",
+                        "value": "{{i18n.attributes.errorState.i18n.value.transmissionSystemAbnormality.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "grindingSystemAbnormality",
+                        "value": "{{i18n.attributes.errorState.i18n.value.grindingSystemAbnormality.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pipelineBlockage",
+                        "value": "{{i18n.attributes.errorState.i18n.value.pipelineBlockage.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "coffeeBeansRunOut",
+                        "value": "{{i18n.attributes.errorState.i18n.value.coffeeBeansRunOut.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "temperatureIsTooLow",
+                        "value": "{{i18n.attributes.errorState.i18n.value.temperatureIsTooLow.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "temperatureIsTooHigh",
+                        "value": "{{i18n.attributes.errorState.i18n.value.temperatureIsTooHigh.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "waterTankShortOfWater",
+                        "value": "{{i18n.attributes.errorState.i18n.value.waterTankShortOfWater.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "valveFaulty",
+                        "value": "{{i18n.attributes.errorState.i18n.value.valveFaulty.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "brewingDoorOpen",
+                        "value": "{{i18n.attributes.errorState.i18n.value.brewingDoorOpen.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "wasteWaterTrayError",
+                        "value": "{{i18n.attributes.errorState.i18n.value.wasteWaterTrayError.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "wasteWaterTrayFull",
+                        "value": "{{i18n.attributes.errorState.i18n.value.wasteWaterTrayFull.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "coffeeGroundsTankError",
+                        "value": "{{i18n.attributes.errorState.i18n.value.coffeeGroundsTankError.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "coffeeGroundsTankFull",
+                        "value": "{{i18n.attributes.errorState.i18n.value.coffeeGroundsTankFull.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "coffeeSpoutCoverError",
+                        "value": "{{i18n.attributes.errorState.i18n.value.coffeeSpoutCoverError.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "brewingUnitError",
+                        "value": "{{i18n.attributes.errorState.i18n.value.brewingUnitError.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "brewingBoilerError",
+                        "value": "{{i18n.attributes.errorState.i18n.value.brewingBoilerError.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.coffeeMakerOperationStatus.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "initializing",
+                            "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.initializing.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ready",
+                            "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.ready.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "making",
+                            "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.making.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "complete",
+                            "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.complete.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "error",
+                            "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.error.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "supportedValues": "supportedCoffeeMakerOperationStatus.value",
+                    "value": "coffeeMakerOperationStatus.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.commands.makeCoffee.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "espresso",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.espresso.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "doubleEspresso",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.doubleEspresso.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "americano",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.americano.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotWater",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.hotWater.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "latteMacchiato",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.latteMacchiato.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cappuccino",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.cappuccino.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "coffeeLatte",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.coffeeLatte.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotMilk",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.hotMilk.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "classicCoffee",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.classicCoffee.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cremaCoffee",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.cremaCoffee.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ristretto",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.ristretto.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "flatWhite",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.flatWhite.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aPotOfCoffee",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.aPotOfCoffee.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hotMilkFoam",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.hotMilkFoam.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cafeaulait",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.cafeaulait.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "demitasse",
+                            "value": "{{i18n.commands.makeCoffee.arguments.state.i18n.demitasse.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedMenu.value",
+                    "command": "makeCoffee",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "coffeeMakerOperation",
+    "version": 1
+}
