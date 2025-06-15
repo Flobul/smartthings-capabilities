@@ -27,7 +27,7 @@
                     {
                         "key": "error",
                         "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.error.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "stopped",
@@ -77,7 +77,7 @@
                     {
                         "key": "error",
                         "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.error.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "stopped",
@@ -336,7 +336,7 @@
                         {
                             "key": "error",
                             "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.error.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "stopped",
