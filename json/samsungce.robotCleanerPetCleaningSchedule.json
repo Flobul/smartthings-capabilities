@@ -5,6 +5,22 @@
     "name": "Robot Cleaner Pet Cleaning Schedule",
     "ephemeral": false,
     "attributes": {
+        "excludeHolidays": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean",
+                        "default": false
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "dayOfWeek": {
             "schema": {
                 "type": "object",
@@ -200,6 +216,18 @@
         "disable": {
             "name": "disable",
             "arguments": []
+        },
+        "setExcludeHolidays": {
+            "name": "setExcludeHolidays",
+            "arguments": [
+                {
+                    "name": "excludeHolidays",
+                    "optional": false,
+                    "schema": {
+                        "type": "boolean"
+                    }
+                }
+            ]
         }
     }
 }
