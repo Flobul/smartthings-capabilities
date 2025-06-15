@@ -21,7 +21,8 @@
                                 "WPA2-PSK",
                                 "EAP",
                                 "SAE",
-                                "OWE"
+                                "OWE",
+                                "FT-PSK"
                             ]
                         }
                     }
