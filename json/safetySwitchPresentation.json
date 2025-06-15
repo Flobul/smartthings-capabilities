@@ -17,14 +17,7 @@
                 ]
             }
         ],
-        "actions": [
-            {
-                "displayType": "pushButton",
-                "pushButton": {
-                    "command": "off"
-                }
-            }
-        ],
+        "actions": [],
         "panelItems": []
     },
     "detailView": [
