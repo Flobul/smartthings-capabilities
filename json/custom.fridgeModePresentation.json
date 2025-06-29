@@ -51,6 +51,11 @@
                                 "type": "active"
                             },
                             {
+                                "key": "KIMCHIT_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_CRUNCH_LAB.label}}",
+                                "type": "active"
+                            },
+                            {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_NORMAL",
                                 "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
                                 "type": "active"
@@ -243,6 +248,11 @@
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_RIPENED",
                                 "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_CRUNCH_LAB.label}}",
                                 "type": "active"
                             },
                             {
@@ -441,6 +451,11 @@
                                 "type": "active"
                             },
                             {
+                                "key": "KIMCHIB_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_CRUNCH_LAB.label}}",
+                                "type": "active"
+                            },
+                            {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_NORMAL",
                                 "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
                                 "type": "active"
@@ -633,6 +648,11 @@
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_RIPENED",
                                 "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_CRUNCH_LAB.label}}",
                                 "type": "active"
                             },
                             {
@@ -839,6 +859,11 @@
                                 "type": "active"
                             },
                             {
+                                "key": "KIMCHIT_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_CRUNCH_LAB.label}}",
+                                "type": "active"
+                            },
+                            {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_NORMAL",
                                 "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
                                 "type": "active"
@@ -1031,6 +1056,11 @@
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_RIPENED",
                                 "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_CRUNCH_LAB.label}}",
                                 "type": "active"
                             },
                             {
@@ -1229,6 +1259,11 @@
                                 "type": "active"
                             },
                             {
+                                "key": "KIMCHIB_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_CRUNCH_LAB.label}}",
+                                "type": "active"
+                            },
+                            {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_NORMAL",
                                 "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
                                 "type": "active"
@@ -1421,6 +1456,11 @@
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_RIPENED",
                                 "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_CRUNCH_LAB.label}}",
                                 "type": "active"
                             },
                             {
