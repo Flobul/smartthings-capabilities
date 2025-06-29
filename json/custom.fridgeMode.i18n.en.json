@@ -69,6 +69,9 @@
                     "kimchi_ripe_dongchimi": {
                         "label": "Ferment watery kimchi"
                     },
+                    "kimchi_ripe_crunch_lab": {
+                        "label": "6 days Cold+"
+                    },
                     "kimchi_storage_normal": {
                         "label": "Regular kimchi (Cold) "
                     },
