@@ -25,6 +25,11 @@
                         "type": "active"
                     },
                     {
+                        "key": "turbo",
+                        "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                        "type": "active"
+                    },
+                    {
                         "key": "off",
                         "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
                         "type": "inactive"
@@ -64,6 +69,11 @@
                             "type": "active"
                         },
                         {
+                            "key": "turbo",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.turbo.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "off",
                             "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.off.label}}",
                             "type": "inactive"
@@ -94,6 +104,11 @@
                         {
                             "key": "high",
                             "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "turbo",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
                             "type": "active"
                         },
                         {
@@ -134,6 +149,11 @@
                             "type": "active"
                         },
                         {
+                            "key": "turbo",
+                            "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                            "type": "active"
+                        },
+                        {
                             "key": "off",
                             "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
                             "type": "inactive"
@@ -170,6 +190,11 @@
                         {
                             "key": "high",
                             "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.high.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "turbo",
+                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.turbo.label}}",
                             "type": "active"
                         },
                         {
