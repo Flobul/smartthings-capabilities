@@ -5,7 +5,7 @@
     "attributes": {
         "fanMode": {
             "label": "Mode de ventilation",
-            "description": "The current mode of the fan, an enum of off, low, medium, high, or auto",
+            "description": "The current mode of the fan, an enum of off, low, medium, high, auto or turbo",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
@@ -47,8 +47,14 @@
                         "high": {
                             "label": "Élevée"
                         },
+                        "turbo description": {
+                            "label": "The fan is on turbo mode"
+                        },
                         "low": {
                             "label": "Faible"
+                        },
+                        "turbo": {
+                            "label": "Turbo"
                         },
                         "medium": {
                             "label": "Moyenne"
