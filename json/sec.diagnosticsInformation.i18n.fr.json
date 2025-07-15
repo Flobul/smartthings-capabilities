@@ -71,6 +71,9 @@
                     "wifi_stdk": {
                         "label": "wifi_stdk"
                     },
+                    "ble_stdk_hub": {
+                        "label": "ble_stdk_hub"
+                    },
                     "l3_ocf": {
                         "label": "l3_ocf"
                     }
