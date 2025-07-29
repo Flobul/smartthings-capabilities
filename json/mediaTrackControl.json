@@ -30,11 +30,13 @@
     "commands": {
         "previousTrack": {
             "name": "previousTrack",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "nextTrack": {
             "name": "nextTrack",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
