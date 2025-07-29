@@ -24,7 +24,8 @@
     "commands": {
         "resetFilterUsageTime": {
             "name": "resetFilterUsageTime",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

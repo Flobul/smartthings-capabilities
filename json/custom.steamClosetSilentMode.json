@@ -42,7 +42,8 @@
                         "title": "SteamClosetSilentMode"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
