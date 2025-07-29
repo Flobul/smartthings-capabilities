@@ -1,0 +1,50 @@
+{
+    "id": "hdr",
+    "version": 1,
+    "status": "proposed",
+    "name": "Hdr",
+    "ephemeral": false,
+    "attributes": {
+        "hdr": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setHdr",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setHdr": {
+            "name": "setHdr",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}

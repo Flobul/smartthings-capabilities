@@ -147,7 +147,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "deleteReservations": {
             "name": "deleteReservations",
@@ -163,7 +164,8 @@
                         }
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "editReservation": {
             "name": "editReservation",
@@ -226,7 +228,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "deleteReservation": {
             "name": "deleteReservation",
@@ -239,7 +242,8 @@
                         "additionalProperties": false
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
