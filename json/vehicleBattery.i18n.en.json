@@ -1,0 +1,89 @@
+{
+    "tag": "en",
+    "label": "Vehicle Battery",
+    "attributes": {
+        "chargingRemainTime": {
+            "label": "chargingRemainTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "chargingDetail": {
+            "label": "chargingDetail",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "v2xDischarge": {
+                        "label": "v2xDischarge"
+                    },
+                    "reseveredCharging": {
+                        "label": "reseveredCharging"
+                    },
+                    "v2lCharging": {
+                        "label": "v2lCharging"
+                    },
+                    "v2lDischarge": {
+                        "label": "v2lDischarge"
+                    },
+                    "v2xCharging": {
+                        "label": "v2xCharging"
+                    },
+                    "v2lStop": {
+                        "label": "v2lStop"
+                    },
+                    "noCharging": {
+                        "label": "noCharging"
+                    },
+                    "veryFastCharging": {
+                        "label": "veryFastCharging"
+                    },
+                    "fastCharging": {
+                        "label": "fastCharging"
+                    }
+                }
+            }
+        },
+        "chargingPlug": {
+            "label": "chargingPlug",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "connected": {
+                        "label": "connected"
+                    },
+                    "disconnected": {
+                        "label": "disconnected"
+                    }
+                }
+            }
+        },
+        "batteryLevel": {
+            "label": "batteryLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "chargingState": {
+            "label": "chargingState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "stopped": {
+                        "label": "stopped"
+                    },
+                    "charging": {
+                        "label": "charging"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "charge": {
+            "label": "charge",
+            "arguments": {}
+        },
+        "stop": {
+            "label": "stop",
+            "arguments": {}
+        }
+    }
+}
