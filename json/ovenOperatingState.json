@@ -138,7 +138,8 @@
     "commands": {
         "stop": {
             "name": "stop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setMachineState": {
             "name": "setMachineState",
@@ -153,7 +154,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "start": {
             "name": "start",
@@ -215,7 +217,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

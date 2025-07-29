@@ -33,7 +33,8 @@
                         "type": "object"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

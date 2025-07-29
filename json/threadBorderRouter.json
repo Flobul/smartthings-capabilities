@@ -1,0 +1,61 @@
+{
+    "id": "threadBorderRouter",
+    "version": 1,
+    "status": "proposed",
+    "name": "Thread Border Router",
+    "ephemeral": false,
+    "attributes": {
+        "threadVersion": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9])?$"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "borderRouterName": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "threadInterfaceState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "disabled",
+                            "enabled"
+                        ],
+                        "default": "disabled"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {}
+}

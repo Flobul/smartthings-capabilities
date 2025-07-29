@@ -141,7 +141,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setDensity": {
             "name": "setDensity",
@@ -160,7 +161,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
