@@ -52,15 +52,18 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "mute": {
             "name": "mute",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "unmute": {
             "name": "unmute",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

@@ -48,19 +48,23 @@
     "commands": {
         "siren": {
             "name": "siren",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "strobe": {
             "name": "strobe",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "off": {
             "name": "off",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "both": {
             "name": "both",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

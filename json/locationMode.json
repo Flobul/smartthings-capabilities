@@ -37,7 +37,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

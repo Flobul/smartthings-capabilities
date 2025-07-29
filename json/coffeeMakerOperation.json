@@ -157,7 +157,8 @@
     "commands": {
         "stop": {
             "name": "stop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "makeCoffee": {
             "name": "makeCoffee",
@@ -188,7 +189,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
