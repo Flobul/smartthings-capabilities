@@ -124,11 +124,13 @@
     "commands": {
         "cancelSelfCheck": {
             "name": "cancelSelfCheck",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "startSelfCheck": {
             "name": "startSelfCheck",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

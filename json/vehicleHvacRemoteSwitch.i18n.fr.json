@@ -1,0 +1,15 @@
+{
+    "tag": "en",
+    "label": "Vehicle Hvac Remote Switch",
+    "attributes": {},
+    "commands": {
+        "off": {
+            "label": "off",
+            "arguments": {}
+        },
+        "on": {
+            "label": "on",
+            "arguments": {}
+        }
+    }
+}

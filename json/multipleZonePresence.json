@@ -64,7 +64,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "createZone": {
             "name": "createZone",
@@ -87,7 +88,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "updateZoneName": {
             "name": "updateZoneName",
@@ -110,7 +112,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
