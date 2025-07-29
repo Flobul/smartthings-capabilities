@@ -27,7 +27,8 @@
     "commands": {
         "update": {
             "name": "update",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

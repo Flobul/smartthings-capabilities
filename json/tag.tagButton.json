@@ -43,7 +43,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setButtonTriplePush": {
             "name": "setButtonTriplePush",
@@ -60,7 +61,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setButtonPush": {
             "name": "setButtonPush",
@@ -77,7 +79,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setButtonHold": {
             "name": "setButtonHold",
@@ -94,7 +97,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
