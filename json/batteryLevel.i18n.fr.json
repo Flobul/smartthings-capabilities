@@ -4,7 +4,7 @@
     "description": "Get the qualitative level of the battery",
     "attributes": {
         "quantity": {
-            "label": "quantity",
+            "label": "Quantité",
             "description": "Quantity of batteries. Optional",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
@@ -28,7 +28,7 @@
             }
         },
         "type": {
-            "label": "type",
+            "label": "Type",
             "description": "Battery type. Optional",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
