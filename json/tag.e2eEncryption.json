@@ -37,11 +37,13 @@
     "commands": {
         "off": {
             "name": "off",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "on": {
             "name": "on",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

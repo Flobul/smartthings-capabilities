@@ -1,0 +1,31 @@
+{
+    "tag": "en",
+    "label": "Thread Border Router",
+    "attributes": {
+        "threadVersion": {
+            "label": "threadVersion",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "borderRouterName": {
+            "label": "borderRouterName",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "threadInterfaceState": {
+            "label": "threadInterfaceState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

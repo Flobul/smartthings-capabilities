@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-07-22
+#### Last Update: 2025-07-29
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -59,6 +59,7 @@
 | [Bypassable](./json/bypassable.json) | 1 | live | [json](./json/bypassablePresentation.json) | [json](./json/bypassable.i18n.fr.json) |
 | [Camera Event](./json/cameraEvent.json) | 1 | proposed | [json](./json/cameraEventPresentation.json) | [json](./json/cameraEvent.i18n.fr.json) |
 | [Camera Preset](./json/cameraPreset.json) | 1 | proposed | [json](./json/cameraPresetPresentation.json) | [json](./json/cameraPreset.i18n.fr.json) |
+| [Camera Privacy Mode](./json/cameraPrivacyMode.json) | 1 | proposed |  | [json](./json/cameraPrivacyMode.i18n.fr.json) |
 | [Carbon Dioxide Health Concern](./json/carbonDioxideHealthConcern.json) | 1 | live | [json](./json/carbonDioxideHealthConcernPresentation.json) | [json](./json/carbonDioxideHealthConcern.i18n.fr.json) |
 | [Carbon Dioxide Measurement](./json/carbonDioxideMeasurement.json) | 1 | live | [json](./json/carbonDioxideMeasurementPresentation.json) | [json](./json/carbonDioxideMeasurement.i18n.fr.json) |
 | [Carbon Monoxide Detector](./json/carbonMonoxideDetector.json) | 1 | live | [json](./json/carbonMonoxideDetectorPresentation.json) | [json](./json/carbonMonoxideDetector.i18n.fr.json) |
@@ -67,6 +68,7 @@
 | [Charge Point State](./json/chargePointState.json) | 1 | proposed | [json](./json/chargePointStatePresentation.json) | [json](./json/chargePointState.i18n.fr.json) |
 | [Charging State](./json/chargingState.json) | 1 | proposed | [json](./json/chargingStatePresentation.json) | [json](./json/chargingState.i18n.fr.json) |
 | [Chime](./json/chime.json) | 1 | live | [json](./json/chimePresentation.json) | [json](./json/chime.i18n.fr.json) |
+| [Coffee Maker Manual Operation](./json/coffeeMakerManualOperation.json) | 1 | proposed |  | [json](./json/coffeeMakerManualOperation.i18n.fr.json) |
 | [Coffee Maker Operation](./json/coffeeMakerOperation.json) | 1 | proposed | [json](./json/coffeeMakerOperationPresentation.json) | [json](./json/coffeeMakerOperation.i18n.fr.json) |
 | [Color](./json/color.json) | 1 | proposed |  | [json](./json/color.i18n.fr.json) |
 | [Color Control](./json/colorControl.json) | 1 | live | [json](./json/colorControlPresentation.json) | [json](./json/colorControl.i18n.fr.json) |
@@ -209,11 +211,13 @@
 | [Grid State](./json/gridState.json) | 1 | proposed | [json](./json/gridStatePresentation.json) | [json](./json/gridState.i18n.fr.json) |
 | [Hardware Fault](./json/hardwareFault.json) | 1 | live | [json](./json/hardwareFaultPresentation.json) | [json](./json/hardwareFault.i18n.fr.json) |
 | [Washer Mode](./json/hca.washerMode.json) | 1 | proposed | [json](./json/hca.washerModePresentation.json) | [json](./json/hca.washerMode.i18n.fr.json) |
+| [Hdr](./json/hdr.json) | 1 | proposed |  | [json](./json/hdr.i18n.fr.json) |
 | [Health Check](./json/healthCheck.json) | 1 | live |  | [json](./json/healthCheck.i18n.fr.json) |
 | [Holdable Button](./json/holdableButton.json) | 1 | deprecated |  | [json](./json/holdableButton.i18n.fr.json) |
 | [Humidifier Mode](./json/humidifierMode.json) | 1 | live | [json](./json/humidifierModePresentation.json) | [json](./json/humidifierMode.i18n.fr.json) |
 | [Illuminance Measurement](./json/illuminanceMeasurement.json) | 1 | live | [json](./json/illuminanceMeasurementPresentation.json) | [json](./json/illuminanceMeasurement.i18n.fr.json) |
 | [Image Capture](./json/imageCapture.json) | 1 | live | [json](./json/imageCapturePresentation.json) | [json](./json/imageCapture.i18n.fr.json) |
+| [Image Control](./json/imageControl.json) | 1 | proposed |  | [json](./json/imageControl.i18n.fr.json) |
 | [Indicator](./json/indicator.json) | 1 | deprecated |  | [json](./json/indicator.i18n.fr.json) |
 | [Infrared Level](./json/infraredLevel.json) | 1 | live | [json](./json/infraredLevelPresentation.json) | [json](./json/infraredLevel.i18n.fr.json) |
 | [Keypad Input](./json/keypadInput.json) | 1 | live | [json](./json/keypadInputPresentation.json) | [json](./json/keypadInput.i18n.fr.json) |
@@ -239,6 +243,7 @@
 | [Massage Operating State](./json/massageOperatingState.json) | 1 | proposed | [json](./json/massageOperatingStatePresentation.json) | [json](./json/massageOperatingState.i18n.fr.json) |
 | [Massage Time Change](./json/massageTimeChange.json) | 1 | proposed | [json](./json/massageTimeChangePresentation.json) | [json](./json/massageTimeChange.i18n.fr.json) |
 | [Massage Time Control](./json/massageTimeControl.json) | 1 | proposed | [json](./json/massageTimeControlPresentation.json) | [json](./json/massageTimeControl.i18n.fr.json) |
+| [Mechanical Pan Tilt Zoom](./json/mechanicalPanTiltZoom.json) | 1 | proposed |  | [json](./json/mechanicalPanTiltZoom.i18n.fr.json) |
 | [Media Controller](./json/mediaController.json) | 1 | proposed |  | [json](./json/mediaController.i18n.fr.json) |
 | [Media Group](./json/mediaGroup.json) | 1 | proposed | [json](./json/mediaGroupPresentation.json) | [json](./json/mediaGroup.i18n.fr.json) |
 | [Media Input Source](./json/mediaInputSource.json) | 1 | live | [json](./json/mediaInputSourcePresentation.json) | [json](./json/mediaInputSource.i18n.fr.json) |
@@ -256,6 +261,7 @@
 | [Multiple Zone Presence](./json/multipleZonePresence.json) | 1 | proposed | [json](./json/multipleZonePresencePresentation.json) | [json](./json/multipleZonePresence.i18n.fr.json) |
 | [Music Player](./json/musicPlayer.json) | 1 | deprecated | [json](./json/musicPlayerPresentation.json) | [json](./json/musicPlayer.i18n.fr.json) |
 | [Network Meter](./json/networkMeter.json) | 1 | live |  | [json](./json/networkMeter.i18n.fr.json) |
+| [Night Vision](./json/nightVision.json) | 1 | proposed |  | [json](./json/nightVision.i18n.fr.json) |
 | [Nitrogen Dioxide Health Concern](./json/nitrogenDioxideHealthConcern.json) | 1 | live | [json](./json/nitrogenDioxideHealthConcernPresentation.json) | [json](./json/nitrogenDioxideHealthConcern.i18n.fr.json) |
 | [Nitrogen Dioxide Measurement](./json/nitrogenDioxideMeasurement.json) | 1 | live | [json](./json/nitrogenDioxideMeasurementPresentation.json) | [json](./json/nitrogenDioxideMeasurement.i18n.fr.json) |
 | [Notification](./json/notification.json) | 1 | live | [json](./json/notificationPresentation.json) | [json](./json/notification.i18n.fr.json) |
@@ -486,6 +492,8 @@
 | [Thermostat Schedule](./json/thermostatSchedule.json) | 1 | deprecated |  | [json](./json/thermostatSchedule.i18n.fr.json) |
 | [Thermostat Setpoint](./json/thermostatSetpoint.json) | 1 | deprecated | [json](./json/thermostatSetpointPresentation.json) | [json](./json/thermostatSetpoint.i18n.fr.json) |
 | [Thermostat Water Heating Setpoint](./json/thermostatWaterHeatingSetpoint.json) | 1 | proposed | [json](./json/thermostatWaterHeatingSetpointPresentation.json) | [json](./json/thermostatWaterHeatingSetpoint.i18n.fr.json) |
+| [Thread Border Router](./json/threadBorderRouter.json) | 1 | proposed |  | [json](./json/threadBorderRouter.i18n.fr.json) |
+| [Thread Network](./json/threadNetwork.json) | 1 | proposed |  | [json](./json/threadNetwork.i18n.fr.json) |
 | [Three Axis](./json/threeAxis.json) | 1 | live | [json](./json/threeAxisPresentation.json) | [json](./json/threeAxis.i18n.fr.json) |
 | [Timed Session](./json/timedSession.json) | 1 | deprecated |  | [json](./json/timedSession.i18n.fr.json) |
 | [Tone](./json/tone.json) | 1 | live | [json](./json/tonePresentation.json) | [json](./json/tone.i18n.fr.json) |
@@ -495,12 +503,18 @@
 | [Tvoc Measurement](./json/tvocMeasurement.json) | 1 | live | [json](./json/tvocMeasurementPresentation.json) | [json](./json/tvocMeasurement.i18n.fr.json) |
 | [Ultraviolet Index](./json/ultravioletIndex.json) | 1 | live | [json](./json/ultravioletIndexPresentation.json) | [json](./json/ultravioletIndex.i18n.fr.json) |
 | [Valve](./json/valve.json) | 1 | live | [json](./json/valvePresentation.json) | [json](./json/valve.i18n.fr.json) |
+| [Vehicle Battery](./json/vehicleBattery.json) | 1 | proposed |  | [json](./json/vehicleBattery.i18n.fr.json) |
+| [Vehicle Door State](./json/vehicleDoorState.json) | 1 | proposed |  | [json](./json/vehicleDoorState.i18n.fr.json) |
 | [Vehicle Engine](./json/vehicleEngine.json) | 1 | proposed | [json](./json/vehicleEnginePresentation.json) | [json](./json/vehicleEngine.i18n.fr.json) |
 | [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | 1 | proposed | [json](./json/vehicleFuelLevelPresentation.json) | [json](./json/vehicleFuelLevel.i18n.fr.json) |
+| [Vehicle Hvac](./json/vehicleHvac.json) | 1 | proposed |  | [json](./json/vehicleHvac.i18n.fr.json) |
+| [Vehicle Hvac Remote Switch](./json/vehicleHvacRemoteSwitch.json) | 1 | proposed |  | [json](./json/vehicleHvacRemoteSwitch.i18n.fr.json) |
 | [Vehicle Information](./json/vehicleInformation.json) | 1 | proposed | [json](./json/vehicleInformationPresentation.json) | [json](./json/vehicleInformation.i18n.fr.json) |
 | [Vehicle Odometer](./json/vehicleOdometer.json) | 1 | proposed | [json](./json/vehicleOdometerPresentation.json) | [json](./json/vehicleOdometer.i18n.fr.json) |
 | [Vehicle Range](./json/vehicleRange.json) | 1 | proposed | [json](./json/vehicleRangePresentation.json) | [json](./json/vehicleRange.i18n.fr.json) |
 | [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | 1 | proposed | [json](./json/vehicleTirePressureMonitorPresentation.json) | [json](./json/vehicleTirePressureMonitor.i18n.fr.json) |
+| [Vehicle Warning](./json/vehicleWarning.json) | 1 | proposed |  | [json](./json/vehicleWarning.i18n.fr.json) |
+| [Vehicle Window State](./json/vehicleWindowState.json) | 1 | proposed |  | [json](./json/vehicleWindowState.i18n.fr.json) |
 | [Very Fine Dust Health Concern](./json/veryFineDustHealthConcern.json) | 1 | live | [json](./json/veryFineDustHealthConcernPresentation.json) | [json](./json/veryFineDustHealthConcern.i18n.fr.json) |
 | [Very Fine Dust Sensor](./json/veryFineDustSensor.json) | 1 | live | [json](./json/veryFineDustSensorPresentation.json) | [json](./json/veryFineDustSensor.i18n.fr.json) |
 | [Video Camera](./json/videoCamera.json) | 1 | live | [json](./json/videoCameraPresentation.json) | [json](./json/videoCamera.i18n.fr.json) |
