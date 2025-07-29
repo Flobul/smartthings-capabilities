@@ -36,7 +36,8 @@
                         "maximum": 35
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

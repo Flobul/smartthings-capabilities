@@ -1,0 +1,32 @@
+{
+    "tag": "en",
+    "label": "Thread Network",
+    "attributes": {
+        "panId": {
+            "label": "panId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "extendedPanId": {
+            "label": "extendedPanId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "networkName": {
+            "label": "networkName",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "channel": {
+            "label": "channel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "networkKey": {
+            "label": "networkKey",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}
