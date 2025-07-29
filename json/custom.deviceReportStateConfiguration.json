@@ -100,7 +100,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setReportStateRealtime": {
             "name": "setReportStateRealtime",
@@ -138,7 +139,8 @@
                         }
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setReportStateRealtimePeriod": {
             "name": "setReportStateRealtimePeriod",
@@ -154,7 +156,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
