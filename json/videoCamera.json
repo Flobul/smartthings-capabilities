@@ -95,23 +95,28 @@
     "commands": {
         "mute": {
             "name": "mute",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "unmute": {
             "name": "unmute",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "flip": {
             "name": "flip",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "off": {
             "name": "off",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "on": {
             "name": "on",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
