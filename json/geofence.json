@@ -83,7 +83,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setEnableState": {
             "name": "setEnableState",
@@ -100,7 +101,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setGeofence": {
             "name": "setGeofence",
@@ -125,7 +127,8 @@
                         }
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
