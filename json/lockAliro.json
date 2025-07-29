@@ -279,7 +279,8 @@
                         "maxLength": 130
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setCardId": {
             "name": "setCardId",
@@ -292,7 +293,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setReaderConfig": {
             "name": "setReaderConfig",
@@ -329,7 +331,8 @@
                         "maxLength": 32
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "clearCredential": {
             "name": "clearCredential",
@@ -350,7 +353,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

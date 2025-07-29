@@ -99,19 +99,23 @@
     "commands": {
         "volumeDown": {
             "name": "volumeDown",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "volumeUp": {
             "name": "volumeUp",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "channelDown": {
             "name": "channelDown",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "channelUp": {
             "name": "channelUp",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

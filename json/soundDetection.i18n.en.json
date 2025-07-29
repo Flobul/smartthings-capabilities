@@ -33,8 +33,8 @@
                     "dogBarking": {
                         "label": "Dog barking"
                     },
-                    "noSound": {
-                        "label": "No sound"
+                    "applianceAlarm": {
+                        "label": "Appliance alarm"
                     },
                     "siren": {
                         "label": "Siren"
@@ -42,17 +42,56 @@
                     "catMeowing": {
                         "label": "Cat meowing"
                     },
-                    "snoring": {
-                        "label": "Snoring"
+                    "faucetRunning": {
+                        "label": "Faucet running"
                     },
                     "doorKnocking": {
                         "label": "Knock on door"
                     },
+                    "kettleBoiling": {
+                        "label": "Kettle boiling"
+                    },
                     "babyCrying": {
                         "label": "Baby crying"
                     },
+                    "emergencyAlarm": {
+                        "label": "Emergency alarm"
+                    },
+                    "screaming": {
+                        "label": "Screaming"
+                    },
+                    "clapping": {
+                        "label": "Clapping"
+                    },
+                    "noSound": {
+                        "label": "No sound"
+                    },
+                    "coughing": {
+                        "label": "Coughing"
+                    },
+                    "dogHowling": {
+                        "label": "Dog howling"
+                    },
+                    "catPurring": {
+                        "label": "Cat purring"
+                    },
+                    "speech": {
+                        "label": "Speech"
+                    },
+                    "doorbell": {
+                        "label": "Doorbell"
+                    },
+                    "hairDrying": {
+                        "label": "Hair drying"
+                    },
+                    "snoring": {
+                        "label": "Snoring"
+                    },
                     "glassBreaking": {
                         "label": "Breaking glass"
+                    },
+                    "dogGrowling": {
+                        "label": "Dog growling"
                     },
                     "fireAlarm": {
                         "label": "Fire alarm"
