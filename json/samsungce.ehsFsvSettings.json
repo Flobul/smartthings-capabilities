@@ -92,11 +92,13 @@
                         "type": "number"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "refresh": {
             "name": "refresh",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

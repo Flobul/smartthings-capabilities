@@ -38,7 +38,8 @@
                         "pattern": "^AutoLinkCycle(_([A-Z]|[a-z]|\\d){4})+$"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setDryerAutoCycleLink": {
             "name": "setDryerAutoCycleLink",
@@ -54,7 +55,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

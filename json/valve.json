@@ -37,11 +37,13 @@
     "commands": {
         "close": {
             "name": "close",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "open": {
             "name": "open",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

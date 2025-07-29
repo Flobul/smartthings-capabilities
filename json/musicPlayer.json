@@ -96,7 +96,8 @@
     "commands": {
         "play": {
             "name": "play",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "restoreTrack": {
             "name": "restoreTrack",
@@ -110,7 +111,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "resumeTrack": {
             "name": "resumeTrack",
@@ -124,23 +126,28 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "stop": {
             "name": "stop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "previousTrack": {
             "name": "previousTrack",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "nextTrack": {
             "name": "nextTrack",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "mute": {
             "name": "mute",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setTrack": {
             "name": "setTrack",
@@ -154,11 +161,13 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "unmute": {
             "name": "unmute",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "playTrack": {
             "name": "playTrack",
@@ -172,11 +181,13 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "pause": {
             "name": "pause",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setLevel": {
             "name": "setLevel",
@@ -190,7 +201,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
