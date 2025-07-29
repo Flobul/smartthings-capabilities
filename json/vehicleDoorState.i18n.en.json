@@ -1,0 +1,106 @@
+{
+    "tag": "en",
+    "label": "Vehicle Door State",
+    "attributes": {
+        "frontLeftDoor": {
+            "label": "frontLeftDoor",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "locked": {
+                        "label": "locked"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        },
+        "rearRightDoor": {
+            "label": "rearRightDoor",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "locked": {
+                        "label": "locked"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        },
+        "rearLeftDoor": {
+            "label": "rearLeftDoor",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "locked": {
+                        "label": "locked"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "supportedAttributes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "lockState": {
+            "label": "lockState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "locked": {
+                        "label": "locked"
+                    },
+                    "unlocked": {
+                        "label": "unlocked"
+                    },
+                    "unknown": {
+                        "label": "unknown"
+                    }
+                }
+            }
+        },
+        "frontRightDoor": {
+            "label": "frontRightDoor",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "locked": {
+                        "label": "locked"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "unlock": {
+            "label": "unlock",
+            "arguments": {}
+        },
+        "lock": {
+            "label": "lock",
+            "arguments": {}
+        }
+    }
+}
