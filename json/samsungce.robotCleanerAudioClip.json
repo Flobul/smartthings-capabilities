@@ -25,11 +25,13 @@
     "commands": {
         "enable": {
             "name": "enable",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "disable": {
             "name": "disable",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

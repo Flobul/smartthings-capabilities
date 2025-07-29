@@ -517,7 +517,8 @@
     "commands": {
         "heat": {
             "name": "heat",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setSchedule": {
             "name": "setSchedule",
@@ -530,19 +531,23 @@
                         "type": "object"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "auto": {
             "name": "auto",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "cool": {
             "name": "cool",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "emergencyHeat": {
             "name": "emergencyHeat",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setThermostatFanMode": {
             "name": "setThermostatFanMode",
@@ -561,19 +566,23 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "fanAuto": {
             "name": "fanAuto",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "fanCirculate": {
             "name": "fanCirculate",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "off": {
             "name": "off",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setCoolingSetpoint": {
             "name": "setCoolingSetpoint",
@@ -588,7 +597,8 @@
                         "maximum": 10000
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setHeatingSetpoint": {
             "name": "setHeatingSetpoint",
@@ -603,7 +613,8 @@
                         "maximum": 10000
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setThermostatMode": {
             "name": "setThermostatMode",
@@ -655,11 +666,13 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "fanOn": {
             "name": "fanOn",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
