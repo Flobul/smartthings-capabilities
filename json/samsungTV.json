@@ -147,11 +147,13 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "volumeDown": {
             "name": "volumeDown",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setSoundMode": {
             "name": "setSoundMode",
@@ -169,7 +171,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "showMessage": {
             "name": "showMessage",
@@ -210,19 +213,23 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "volumeUp": {
             "name": "volumeUp",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "mute": {
             "name": "mute",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "unmute": {
             "name": "unmute",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setVolume": {
             "name": "setVolume",
@@ -236,15 +243,18 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "off": {
             "name": "off",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "on": {
             "name": "on",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

@@ -2,8 +2,26 @@
     "tag": "en",
     "label": "Preset position",
     "description": "Allows for the control of the preset of a window shade.",
-    "attributes": {},
+    "attributes": {
+        "supportedCommands": {
+            "label": "Supported commands",
+            "description": "List of commands this device supports",
+            "displayTemplate": "{{device.label}} supports the following commands: {{value}}",
+            "i18n": {}
+        },
+        "position": {
+            "label": "Prset position",
+            "description": "A number that represents the preset position level as a function of being preset position, ``0-100`` in percent; 0 representing completely closed, and 100 representing completely open.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}%",
+            "i18n": {}
+        }
+    },
     "commands": {
+        "setPresetPosition": {
+            "label": "Set preset position",
+            "description": "Set a preset position level",
+            "arguments": {}
+        },
         "presetPosition": {
             "label": "Preset position",
             "description": "Open window shade to a preset position",
