@@ -8,7 +8,8 @@
     "commands": {
         "push": {
             "name": "push",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

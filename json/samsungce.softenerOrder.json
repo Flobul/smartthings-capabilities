@@ -47,7 +47,8 @@
     "commands": {
         "enableAlarm": {
             "name": "enableAlarm",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setOrderThreshold": {
             "name": "setOrderThreshold",
@@ -59,11 +60,13 @@
                         "type": "number"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "disableAlarm": {
             "name": "disableAlarm",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
