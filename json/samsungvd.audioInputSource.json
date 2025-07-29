@@ -41,7 +41,8 @@
     "commands": {
         "setNextInputSource": {
             "name": "setNextInputSource",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
