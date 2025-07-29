@@ -61,7 +61,8 @@
                         "type": "boolean"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "requestDrlcAction": {
             "name": "requestDrlcAction",
@@ -113,7 +114,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
