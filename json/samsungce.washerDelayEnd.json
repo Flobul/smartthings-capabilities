@@ -59,7 +59,8 @@
     "commands": {
         "refreshMinimumReservableTime": {
             "name": "refreshMinimumReservableTime",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setDelayTime": {
             "name": "setDelayTime",
@@ -73,7 +74,8 @@
                         "maximum": 1440
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

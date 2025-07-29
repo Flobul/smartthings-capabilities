@@ -1,0 +1,58 @@
+{
+    "tag": "en",
+    "label": "Image Control",
+    "attributes": {
+        "imageRotation": {
+            "label": "imageRotation",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "imageFlipVertical": {
+            "label": "imageFlipVertical",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "imageFlipHorizontal": {
+            "label": "imageFlipHorizontal",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "supportedAttributes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setImageFlipVertical": {
+            "label": "setImageFlipVertical",
+            "arguments": {}
+        },
+        "setImageRotation": {
+            "label": "setImageRotation",
+            "arguments": {}
+        },
+        "setImageFlipHorizontal": {
+            "label": "setImageFlipHorizontal",
+            "arguments": {}
+        }
+    }
+}

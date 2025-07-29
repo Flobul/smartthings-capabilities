@@ -273,6 +273,13 @@
         "namespace": "st"
     },
     {
+        "id": "cameraPrivacyMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "carbonDioxideHealthConcern",
         "version": 1,
         "status": "live",
@@ -325,6 +332,13 @@
         "id": "chime",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "coffeeMakerManualOperation",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -721,6 +735,13 @@
         "namespace": "st"
     },
     {
+        "id": "hdr",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "healthCheck",
         "version": 1,
         "status": "live",
@@ -752,6 +773,13 @@
         "id": "imageCapture",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "imageControl",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -931,6 +959,13 @@
         "namespace": "st"
     },
     {
+        "id": "mechanicalPanTiltZoom",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "mediaController",
         "version": 1,
         "status": "proposed",
@@ -1046,6 +1081,13 @@
         "id": "networkMeter",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "nightVision",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1799,6 +1841,20 @@
         "namespace": "st"
     },
     {
+        "id": "threadBorderRouter",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "threadNetwork",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "threeAxis",
         "version": 1,
         "status": "live",
@@ -1869,6 +1925,20 @@
         "namespace": "st"
     },
     {
+        "id": "vehicleBattery",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleDoorState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "vehicleEngine",
         "version": 1,
         "status": "proposed",
@@ -1877,6 +1947,20 @@
     },
     {
         "id": "vehicleFuelLevel",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleHvac",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleHvacRemoteSwitch",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -1905,6 +1989,20 @@
     },
     {
         "id": "vehicleTirePressureMonitor",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleWarning",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleWindowState",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
