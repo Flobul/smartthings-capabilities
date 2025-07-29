@@ -161,11 +161,13 @@
                         "type": "boolean"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "disarm": {
             "name": "disarm",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "armAway": {
             "name": "armAway",
@@ -177,7 +179,8 @@
                         "type": "boolean"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

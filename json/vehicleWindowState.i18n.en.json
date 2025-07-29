@@ -1,0 +1,68 @@
+{
+    "tag": "en",
+    "label": "Vehicle Window State",
+    "attributes": {
+        "frontRightWindow": {
+            "label": "frontRightWindow",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        },
+        "rearRightWindow": {
+            "label": "rearRightWindow",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "supportedAttributes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "frontLeftWindow": {
+            "label": "frontLeftWindow",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        },
+        "rearLeftWindow": {
+            "label": "rearLeftWindow",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}
