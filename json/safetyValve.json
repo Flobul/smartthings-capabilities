@@ -33,7 +33,8 @@
     "commands": {
         "close": {
             "name": "close",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

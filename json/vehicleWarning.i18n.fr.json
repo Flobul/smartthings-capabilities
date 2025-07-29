@@ -1,0 +1,166 @@
+{
+    "tag": "en",
+    "label": "Vehicle Warning",
+    "attributes": {
+        "lampWire": {
+            "label": "lampWire",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "auxiliaryBattery": {
+            "label": "auxiliaryBattery",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "brakeFluid": {
+            "label": "brakeFluid",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "fuel": {
+            "label": "fuel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "tirePressureFrontLeft": {
+            "label": "tirePressureFrontLeft",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "tirePressureFrontRight": {
+            "label": "tirePressureFrontRight",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "washerFluid": {
+            "label": "washerFluid",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "smartKeyBattery": {
+            "label": "smartKeyBattery",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "engineOil": {
+            "label": "engineOil",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "supportedAttributes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "tirePressureRearLeft": {
+            "label": "tirePressureRearLeft",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        },
+        "tirePressureRearRight": {
+            "label": "tirePressureRearRight",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "normal"
+                    },
+                    "warning": {
+                        "label": "warning"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

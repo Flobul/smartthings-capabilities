@@ -24,7 +24,8 @@
     "commands": {
         "setAmbientOn": {
             "name": "setAmbientOn",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
