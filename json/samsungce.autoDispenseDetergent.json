@@ -213,7 +213,8 @@
     "commands": {
         "unsetRecommendedAmount": {
             "name": "unsetRecommendedAmount",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setRecommendedAmount": {
             "name": "setRecommendedAmount",
@@ -238,7 +239,8 @@
                         "maximum": 20
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setType": {
             "name": "setType",
@@ -254,7 +256,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setAmount": {
             "name": "setAmount",
@@ -273,7 +276,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setDensity": {
             "name": "setDensity",
@@ -292,7 +296,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
