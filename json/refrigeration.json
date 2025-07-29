@@ -75,7 +75,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setRapidFreezing": {
             "name": "setRapidFreezing",
@@ -91,7 +92,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setRapidCooling": {
             "name": "setRapidCooling",
@@ -107,7 +109,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
