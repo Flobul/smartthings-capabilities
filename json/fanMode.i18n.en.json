@@ -18,6 +18,9 @@
                     "low": {
                         "label": "Low"
                     },
+                    "turbo": {
+                        "label": "Turbo"
+                    },
                     "medium": {
                         "label": "Medium"
                     },
