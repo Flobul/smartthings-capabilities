@@ -42,15 +42,18 @@
     "commands": {
         "indicatorNever": {
             "name": "indicatorNever",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "indicatorWhenOn": {
             "name": "indicatorWhenOn",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "indicatorWhenOff": {
             "name": "indicatorWhenOff",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

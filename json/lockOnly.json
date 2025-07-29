@@ -36,7 +36,8 @@
     "commands": {
         "lock": {
             "name": "lock",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
