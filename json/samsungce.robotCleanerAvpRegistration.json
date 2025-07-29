@@ -30,7 +30,8 @@
     "commands": {
         "register": {
             "name": "register",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
