@@ -158,15 +158,18 @@
     "commands": {
         "unlock": {
             "name": "unlock",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "unlatch": {
             "name": "unlatch",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "lock": {
             "name": "lock",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

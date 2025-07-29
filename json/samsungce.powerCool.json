@@ -24,11 +24,13 @@
     "commands": {
         "activate": {
             "name": "activate",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "deactivate": {
             "name": "deactivate",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
