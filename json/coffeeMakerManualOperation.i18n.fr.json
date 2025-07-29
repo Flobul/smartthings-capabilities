@@ -1,0 +1,42 @@
+{
+    "tag": "en",
+    "label": "Coffee Maker Manual Operation",
+    "attributes": {
+        "temperatureRange": {
+            "label": "temperatureRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "supportedArgument": {
+            "label": "supportedArgument",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "waterAmountRange": {
+            "label": "waterAmountRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "coffeeAmountRange": {
+            "label": "coffeeAmountRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "coffeeStrengthRange": {
+            "label": "coffeeStrengthRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "milkAmountRange": {
+            "label": "milkAmountRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "makeCoffee": {
+            "label": "makeCoffee",
+            "arguments": {}
+        }
+    }
+}

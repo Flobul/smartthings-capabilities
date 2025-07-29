@@ -73,7 +73,8 @@
                         "type": "object"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "update": {
             "name": "update",
@@ -104,7 +105,8 @@
                         "type": "object"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "execute": {
             "name": "execute",
@@ -116,7 +118,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "delete": {
             "name": "delete",
@@ -128,7 +131,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
