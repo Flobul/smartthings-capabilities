@@ -34,7 +34,8 @@
     "commands": {
         "off": {
             "name": "off",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

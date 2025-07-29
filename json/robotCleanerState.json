@@ -110,11 +110,13 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "stop": {
             "name": "stop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setRobotCleanerControlState": {
             "name": "setRobotCleanerControlState",
@@ -129,7 +131,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setRobotCleanerTurboState": {
             "name": "setRobotCleanerTurboState",
@@ -146,7 +149,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
