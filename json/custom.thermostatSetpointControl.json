@@ -53,11 +53,13 @@
     "commands": {
         "raiseSetpoint": {
             "name": "raiseSetpoint",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "lowerSetpoint": {
             "name": "lowerSetpoint",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
