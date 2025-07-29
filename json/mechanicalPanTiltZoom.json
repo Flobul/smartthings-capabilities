@@ -1,0 +1,430 @@
+{
+    "id": "mechanicalPanTiltZoom",
+    "version": 1,
+    "status": "proposed",
+    "name": "Mechanical Pan Tilt Zoom",
+    "ephemeral": false,
+    "attributes": {
+        "maxPresets": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "tiltRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer",
+                                "minimum": -180,
+                                "maximum": 179
+                            },
+                            "maximum": {
+                                "type": "integer",
+                                "minimum": -179,
+                                "maximum": 180
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "°"
+                        ],
+                        "default": "°"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "presets": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "id": {
+                                    "type": "integer"
+                                },
+                                "label": {
+                                    "type": "string"
+                                },
+                                "pan": {
+                                    "type": "integer",
+                                    "minimum": -180,
+                                    "maximum": 180
+                                },
+                                "tilt": {
+                                    "type": "integer",
+                                    "minimum": -180,
+                                    "maximum": 180
+                                },
+                                "zoom": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 100
+                                }
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "panRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer",
+                                "minimum": -180,
+                                "maximum": 179
+                            },
+                            "maximum": {
+                                "type": "integer",
+                                "minimum": -179,
+                                "maximum": 180
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "°"
+                        ],
+                        "default": "°"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "zoom": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 100
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setZoom",
+            "enumCommands": []
+        },
+        "tilt": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": -180,
+                        "maximum": 180
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "°"
+                        ],
+                        "default": "°"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setTilt",
+            "enumCommands": []
+        },
+        "pan": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": -180,
+                        "maximum": 180
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "°"
+                        ],
+                        "default": "°"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setPan",
+            "enumCommands": []
+        },
+        "supportedAttributes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "pan",
+                                "panRange",
+                                "tilt",
+                                "tiltRange",
+                                "zoom",
+                                "zoomRange",
+                                "presets",
+                                "maxPresets"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "zoomRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 99
+                            },
+                            "maximum": {
+                                "type": "integer",
+                                "minimum": 2,
+                                "maximum": 100
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "panRelative": {
+            "name": "panRelative",
+            "arguments": [
+                {
+                    "name": "delta",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": -360,
+                        "maximum": 360
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "tiltRelative": {
+            "name": "tiltRelative",
+            "arguments": [
+                {
+                    "name": "delta",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": -360,
+                        "maximum": 360
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "zoomRelative": {
+            "name": "zoomRelative",
+            "arguments": [
+                {
+                    "name": "delta",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": -99,
+                        "maximum": 99
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setPanTiltZoom": {
+            "name": "setPanTiltZoom",
+            "arguments": [
+                {
+                    "name": "pan",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": -180,
+                        "maximum": 180
+                    }
+                },
+                {
+                    "name": "tilt",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": -180,
+                        "maximum": 180
+                    }
+                },
+                {
+                    "name": "zoom",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 100
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setZoom": {
+            "name": "setZoom",
+            "arguments": [
+                {
+                    "name": "zoom",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 100
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setPan": {
+            "name": "setPan",
+            "arguments": [
+                {
+                    "name": "pan",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": -180,
+                        "maximum": 180
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "savePreset": {
+            "name": "savePreset",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer"
+                    }
+                },
+                {
+                    "name": "label",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "moveToPreset": {
+            "name": "moveToPreset",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setTilt": {
+            "name": "setTilt",
+            "arguments": [
+                {
+                    "name": "tilt",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": -180,
+                        "maximum": 180
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
