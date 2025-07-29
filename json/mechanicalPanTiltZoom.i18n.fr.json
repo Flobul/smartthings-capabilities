@@ -1,0 +1,89 @@
+{
+    "tag": "en",
+    "label": "Mechanical Pan Tilt Zoom",
+    "attributes": {
+        "maxPresets": {
+            "label": "maxPresets",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "tiltRange": {
+            "label": "tiltRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "presets": {
+            "label": "presets",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "panRange": {
+            "label": "panRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "zoom": {
+            "label": "zoom",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "tilt": {
+            "label": "tilt",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "pan": {
+            "label": "pan",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedAttributes": {
+            "label": "supportedAttributes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "zoomRange": {
+            "label": "zoomRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "panRelative": {
+            "label": "panRelative",
+            "arguments": {}
+        },
+        "tiltRelative": {
+            "label": "tiltRelative",
+            "arguments": {}
+        },
+        "zoomRelative": {
+            "label": "zoomRelative",
+            "arguments": {}
+        },
+        "setPanTiltZoom": {
+            "label": "setPanTiltZoom",
+            "arguments": {}
+        },
+        "setZoom": {
+            "label": "setZoom",
+            "arguments": {}
+        },
+        "setPan": {
+            "label": "setPan",
+            "arguments": {}
+        },
+        "savePreset": {
+            "label": "savePreset",
+            "arguments": {}
+        },
+        "moveToPreset": {
+            "label": "moveToPreset",
+            "arguments": {}
+        },
+        "setTilt": {
+            "label": "setTilt",
+            "arguments": {}
+        }
+    }
+}

@@ -112,7 +112,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setInitialAmount": {
             "name": "setInitialAmount",
@@ -124,7 +125,8 @@
                         "type": "number"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setRemainingAmount": {
             "name": "setRemainingAmount",
@@ -136,7 +138,8 @@
                         "type": "number"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setDosage": {
             "name": "setDosage",
@@ -148,7 +151,8 @@
                         "type": "number"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

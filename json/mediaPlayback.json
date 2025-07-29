@@ -76,19 +76,23 @@
     "commands": {
         "play": {
             "name": "play",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "stop": {
             "name": "stop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "rewind": {
             "name": "rewind",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "fastForward": {
             "name": "fastForward",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setPlaybackStatus": {
             "name": "setPlaybackStatus",
@@ -107,11 +111,13 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "pause": {
             "name": "pause",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
