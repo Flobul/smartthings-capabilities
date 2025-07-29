@@ -48,7 +48,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
