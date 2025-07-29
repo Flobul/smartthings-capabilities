@@ -28,11 +28,13 @@
     "commands": {
         "stop": {
             "name": "stop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "start": {
             "name": "start",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
