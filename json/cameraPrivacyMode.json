@@ -1,0 +1,154 @@
+{
+    "id": "cameraPrivacyMode",
+    "version": 1,
+    "status": "proposed",
+    "name": "Camera Privacy Mode",
+    "ephemeral": false,
+    "attributes": {
+        "softLivestreamPrivacyMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSoftLivestreamPrivacyMode",
+            "enumCommands": []
+        },
+        "softRecordingPrivacyMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSoftRecordingPrivacyMode",
+            "enumCommands": []
+        },
+        "supportedCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "setSoftRecordingPrivacyMode",
+                                "setSoftLivestreamPrivacyMode"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "hardPrivacyMode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedAttributes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "softRecordingPrivacyMode",
+                                "softLivestreamPrivacyMode",
+                                "hardPrivacyMode"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setSoftLivestreamPrivacyMode": {
+            "name": "setSoftLivestreamPrivacyMode",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setSoftRecordingPrivacyMode": {
+            "name": "setSoftRecordingPrivacyMode",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}

@@ -53,7 +53,8 @@
     "commands": {
         "resetFilter": {
             "name": "resetFilter",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
