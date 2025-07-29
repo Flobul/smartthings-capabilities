@@ -39,11 +39,13 @@
     "commands": {
         "startEngine": {
             "name": "startEngine",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "stopEngine": {
             "name": "stopEngine",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

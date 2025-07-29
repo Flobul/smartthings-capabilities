@@ -1,0 +1,55 @@
+{
+    "tag": "en",
+    "label": "Night Vision",
+    "attributes": {
+        "illumination": {
+            "label": "illumination",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "label": "auto"
+                    },
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        },
+        "nightVision": {
+            "label": "nightVision",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "auto": {
+                        "label": "auto"
+                    },
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "supportedAttributes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setIllumination": {
+            "label": "setIllumination",
+            "arguments": {}
+        },
+        "setNightVision": {
+            "label": "setNightVision",
+            "arguments": {}
+        }
+    }
+}
