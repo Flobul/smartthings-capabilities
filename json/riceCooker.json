@@ -568,7 +568,8 @@
     "commands": {
         "stop": {
             "name": "stop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "startCooking": {
             "name": "startCooking",
@@ -582,7 +583,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setMode": {
             "name": "setMode",
@@ -601,7 +603,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "scheduleCooking": {
             "name": "scheduleCooking",
@@ -624,7 +627,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

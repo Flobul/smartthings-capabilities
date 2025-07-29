@@ -69,7 +69,8 @@
                         "pattern": "^(https?):\\/\\/((?:[a-zA-Z0-9.-]|%[0-9A-F]{2}){3,})(?::(\\d+))?((?:\\/(?:[a-zA-Z0-9-._~!$&'()*+,;=:@]|%[0-9A-F]{2})*)*)(?:\\?((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\/?@]|%[0-9A-F]{2})*))?(?:#((?:[a-zA-Z0-9-._~!$&'()*+,;=:\\/?@]|%[0-9A-F]{2})*))?$"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "triggerLogWithLogInfo": {
             "name": "triggerLogWithLogInfo",
@@ -82,11 +83,13 @@
                         "type": "object"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "triggerLog": {
             "name": "triggerLog",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
