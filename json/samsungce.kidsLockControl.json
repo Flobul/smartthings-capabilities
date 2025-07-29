@@ -29,11 +29,13 @@
     "commands": {
         "unlock": {
             "name": "unlock",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "lock": {
             "name": "lock",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

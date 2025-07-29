@@ -62,11 +62,13 @@
     "commands": {
         "stopStream": {
             "name": "stopStream",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "startStream": {
             "name": "startStream",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

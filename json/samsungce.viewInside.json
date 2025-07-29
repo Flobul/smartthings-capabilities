@@ -108,11 +108,13 @@
                         "default": "mainShelves"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "refreshAll": {
             "name": "refreshAll",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "refresh": {
             "name": "refresh",
@@ -124,7 +126,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

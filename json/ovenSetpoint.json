@@ -93,7 +93,8 @@
                         "maximum": 10000
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

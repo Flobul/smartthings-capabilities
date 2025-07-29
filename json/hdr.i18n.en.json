@@ -1,0 +1,26 @@
+{
+    "tag": "en",
+    "label": "Hdr",
+    "attributes": {
+        "hdr": {
+            "label": "hdr",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setHdr": {
+            "label": "setHdr",
+            "arguments": {}
+        }
+    }
+}
