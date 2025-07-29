@@ -120,15 +120,18 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "disableRepeatMode": {
             "name": "disableRepeatMode",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "enableRepeatMode": {
             "name": "enableRepeatMode",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
