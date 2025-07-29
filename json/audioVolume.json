@@ -35,11 +35,13 @@
     "commands": {
         "volumeDown": {
             "name": "volumeDown",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "volumeUp": {
             "name": "volumeUp",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setVolume": {
             "name": "setVolume",
@@ -53,7 +55,8 @@
                         "maximum": 100
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
