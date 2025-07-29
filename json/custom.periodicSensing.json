@@ -152,7 +152,8 @@
     "commands": {
         "periodicSensingOn": {
             "name": "periodicSensingOn",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setPeriodicSensingInterval": {
             "name": "setPeriodicSensingInterval",
@@ -164,7 +165,8 @@
                         "type": "integer"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setPeriodicSensing": {
             "name": "setPeriodicSensing",
@@ -187,7 +189,8 @@
                         "type": "integer"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setAutomaticExecutionMode": {
             "name": "setAutomaticExecutionMode",
@@ -199,7 +202,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setAutomaticExecutionSetting": {
             "name": "setAutomaticExecutionSetting",
@@ -211,15 +215,18 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "periodicSensingOff": {
             "name": "periodicSensingOff",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "triggerManualSensing": {
             "name": "triggerManualSensing",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
