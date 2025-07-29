@@ -18,6 +18,9 @@
                     "low": {
                         "label": "Faible"
                     },
+                    "turbo": {
+                        "label": "Turbo"
+                    },
                     "medium": {
                         "label": "Moyenne"
                     },
