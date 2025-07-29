@@ -132,7 +132,8 @@
                         }
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "delete": {
             "name": "delete",
@@ -148,7 +149,8 @@
                         }
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
