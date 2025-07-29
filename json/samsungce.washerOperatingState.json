@@ -341,19 +341,23 @@
     "commands": {
         "resume": {
             "name": "resume",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "cancel": {
             "name": "cancel",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "start": {
             "name": "start",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "estimateOperationTime": {
             "name": "estimateOperationTime",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setDelayEnd": {
             "name": "setDelayEnd",
@@ -367,11 +371,13 @@
                         "maximum": 1440
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "pause": {
             "name": "pause",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
