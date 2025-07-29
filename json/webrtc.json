@@ -236,7 +236,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "clientIce": {
             "name": "clientIce",
@@ -272,7 +273,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "sdpOffer": {
             "name": "sdpOffer",
@@ -316,7 +318,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "stopTalkback": {
             "name": "stopTalkback",
@@ -328,7 +331,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "requestTurnInfo": {
             "name": "requestTurnInfo",
@@ -340,7 +344,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "end": {
             "name": "end",
@@ -352,7 +357,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
