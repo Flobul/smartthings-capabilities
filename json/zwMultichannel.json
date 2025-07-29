@@ -49,7 +49,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "epCmd": {
             "name": "epCmd",
@@ -71,7 +72,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

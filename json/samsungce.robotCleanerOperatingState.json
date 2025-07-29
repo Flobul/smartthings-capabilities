@@ -204,7 +204,8 @@
     "commands": {
         "resume": {
             "name": "resume",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setOperatingState": {
             "name": "setOperatingState",
@@ -223,23 +224,28 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "returnToHome": {
             "name": "returnToHome",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "start": {
             "name": "start",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "pause": {
             "name": "pause",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "cancelRemainingJob": {
             "name": "cancelRemainingJob",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

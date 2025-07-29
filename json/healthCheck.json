@@ -218,7 +218,8 @@
     "commands": {
         "ping": {
             "name": "ping",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

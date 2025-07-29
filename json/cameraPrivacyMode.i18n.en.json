@@ -1,0 +1,68 @@
+{
+    "tag": "en",
+    "label": "Camera Privacy Mode",
+    "attributes": {
+        "softLivestreamPrivacyMode": {
+            "label": "softLivestreamPrivacyMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "softRecordingPrivacyMode": {
+            "label": "softRecordingPrivacyMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "supportedCommands": {
+            "label": "supportedCommands",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "hardPrivacyMode": {
+            "label": "hardPrivacyMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "supportedAttributes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setSoftLivestreamPrivacyMode": {
+            "label": "setSoftLivestreamPrivacyMode",
+            "arguments": {}
+        },
+        "setSoftRecordingPrivacyMode": {
+            "label": "setSoftRecordingPrivacyMode",
+            "arguments": {}
+        }
+    }
+}
