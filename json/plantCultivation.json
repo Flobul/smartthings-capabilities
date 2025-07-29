@@ -1,0 +1,249 @@
+{
+    "id": "plantCultivation",
+    "version": 1,
+    "status": "proposed",
+    "name": "Plant Cultivation",
+    "ephemeral": false,
+    "attributes": {
+        "supportedPlantType": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "none",
+                                "lettuce_caesarsGreen",
+                                "lettuce_jeokOak",
+                                "tatsoi_vitamin",
+                                "collardLeafKale",
+                                "leafRedChicory",
+                                "garlandChrysanthemum",
+                                "pakchoi",
+                                "leafMustard",
+                                "basil",
+                                "rucola",
+                                "cilantro",
+                                "dill",
+                                "thyme",
+                                "lemonBalm",
+                                "catnip",
+                                "endive",
+                                "lettuce_multiGreen",
+                                "napaCabbage",
+                                "appleMint",
+                                "thaiBasil",
+                                "peppermint",
+                                "burningBushSpindletree",
+                                "lolloBionda_Bartimer",
+                                "lettuce_miniRomaine",
+                                "newGreen",
+                                "redVeinedSorrel",
+                                "sage",
+                                "eggplant",
+                                "pepper",
+                                "strawberry",
+                                "rosemary",
+                                "monstera",
+                                "mint",
+                                "cherryTomato",
+                                "garlicChives",
+                                "sansevieria",
+                                "lettuce",
+                                "peaceLily",
+                                "parsley",
+                                "paprika",
+                                "peperomia",
+                                "philodendron",
+                                "UNKNOWN"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedCommands": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "setPlantType",
+                                "resetStartTime"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "startTime": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "Iso8601Date",
+                        "type": "string",
+                        "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "plantType": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "lettuce_caesarsGreen",
+                            "lettuce_jeokOak",
+                            "tatsoi_vitamin",
+                            "collardLeafKale",
+                            "leafRedChicory",
+                            "garlandChrysanthemum",
+                            "pakchoi",
+                            "leafMustard",
+                            "basil",
+                            "rucola",
+                            "cilantro",
+                            "dill",
+                            "thyme",
+                            "lemonBalm",
+                            "catnip",
+                            "endive",
+                            "lettuce_multiGreen",
+                            "napaCabbage",
+                            "appleMint",
+                            "thaiBasil",
+                            "peppermint",
+                            "burningBushSpindletree",
+                            "lolloBionda_Bartimer",
+                            "lettuce_miniRomaine",
+                            "newGreen",
+                            "redVeinedSorrel",
+                            "sage",
+                            "eggplant",
+                            "pepper",
+                            "strawberry",
+                            "rosemary",
+                            "monstera",
+                            "mint",
+                            "cherryTomato",
+                            "garlicChives",
+                            "sansevieria",
+                            "lettuce",
+                            "peaceLily",
+                            "parsley",
+                            "paprika",
+                            "peperomia",
+                            "philodendron",
+                            "UNKNOWN"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "resetStartTime": {
+            "name": "resetStartTime",
+            "arguments": [
+                {
+                    "name": "time",
+                    "optional": false,
+                    "schema": {
+                        "title": "Iso8601Date",
+                        "type": "string",
+                        "pattern": "^(?:[1-9]\\d{3}-?(?:(?:0[1-9]|1[0-2])-?(?:0[1-9]|1\\d|2[0-8])|(?:0[13-9]|1[0-2])-?(?:29|30)|(?:0[13578]|1[02])-?31)|(?:[1-9]\\d(?:0[48]|[2468][048]|[13579][26])|(?:[2468][048]|[13579][26])00)-?02-?29)T(?:[01]\\d|2[0-3]):?[0-5]\\d:?[0-5]\\d(?:\\.\\d{3})?(?:Z|[+-][01]\\d(?::?[0-5]\\d)?)$"
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setPlantType": {
+            "name": "setPlantType",
+            "arguments": [
+                {
+                    "name": "plantType",
+                    "optional": true,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "none",
+                            "lettuce_caesarsGreen",
+                            "lettuce_jeokOak",
+                            "tatsoi_vitamin",
+                            "collardLeafKale",
+                            "leafRedChicory",
+                            "garlandChrysanthemum",
+                            "pakchoi",
+                            "leafMustard",
+                            "basil",
+                            "rucola",
+                            "cilantro",
+                            "dill",
+                            "thyme",
+                            "lemonBalm",
+                            "catnip",
+                            "endive",
+                            "lettuce_multiGreen",
+                            "napaCabbage",
+                            "appleMint",
+                            "thaiBasil",
+                            "peppermint",
+                            "burningBushSpindletree",
+                            "lolloBionda_Bartimer",
+                            "lettuce_miniRomaine",
+                            "newGreen",
+                            "redVeinedSorrel",
+                            "sage",
+                            "eggplant",
+                            "pepper",
+                            "strawberry",
+                            "rosemary",
+                            "monstera",
+                            "mint",
+                            "cherryTomato",
+                            "garlicChives",
+                            "sansevieria",
+                            "lettuce",
+                            "peaceLily",
+                            "parsley",
+                            "paprika",
+                            "peperomia",
+                            "philodendron",
+                            "UNKNOWN"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
