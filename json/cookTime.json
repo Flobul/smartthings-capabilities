@@ -81,7 +81,8 @@
                         "maximum": 86400
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
