@@ -65,7 +65,8 @@
                         "default": "g"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

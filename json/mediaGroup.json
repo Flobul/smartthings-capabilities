@@ -119,15 +119,18 @@
     "commands": {
         "groupVolumeUp": {
             "name": "groupVolumeUp",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "groupVolumeDown": {
             "name": "groupVolumeDown",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "muteGroup": {
             "name": "muteGroup",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setGroupVolume": {
             "name": "setGroupVolume",
@@ -141,11 +144,13 @@
                         "maximum": 100
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "unmuteGroup": {
             "name": "unmuteGroup",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setGroupMute": {
             "name": "setGroupMute",
@@ -162,7 +167,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

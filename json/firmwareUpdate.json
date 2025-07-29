@@ -192,11 +192,13 @@
     "commands": {
         "updateFirmware": {
             "name": "updateFirmware",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "checkForFirmwareUpdate": {
             "name": "checkForFirmwareUpdate",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

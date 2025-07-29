@@ -41,7 +41,8 @@
     "commands": {
         "channelDown": {
             "name": "channelDown",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setTvChannel": {
             "name": "setTvChannel",
@@ -55,11 +56,13 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "channelUp": {
             "name": "channelUp",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setTvChannelName": {
             "name": "setTvChannelName",
@@ -73,7 +76,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
