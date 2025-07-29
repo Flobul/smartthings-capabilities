@@ -56,11 +56,13 @@
                         "type": "number"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "start": {
             "name": "start",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

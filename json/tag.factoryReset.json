@@ -8,7 +8,8 @@
     "commands": {
         "reset": {
             "name": "reset",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
