@@ -8,11 +8,13 @@
     "commands": {
         "recordStart": {
             "name": "recordStart",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "recordStop": {
             "name": "recordStop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

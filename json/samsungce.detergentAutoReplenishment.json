@@ -406,7 +406,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setOrderThreshold": {
             "name": "setOrderThreshold",
@@ -431,7 +432,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "disableAlarm": {
             "name": "disableAlarm",
@@ -448,7 +450,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setAutoReplenishment": {
             "name": "setAutoReplenishment",
@@ -523,7 +526,8 @@
                         }
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setInitialAmount": {
             "name": "setInitialAmount",
@@ -548,7 +552,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setRemainingAmount": {
             "name": "setRemainingAmount",
@@ -573,7 +578,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setDosage": {
             "name": "setDosage",
@@ -598,7 +604,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setType": {
             "name": "setType",
@@ -628,7 +635,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
