@@ -1,0 +1,87 @@
+{
+    "tag": "en",
+    "label": "Lock Aliro",
+    "attributes": {
+        "commandResult": {
+            "label": "commandResult",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "groupResolvingKey": {
+            "label": "groupResolvingKey",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "expeditedTransactionProtocolVersions": {
+            "label": "expeditedTransactionProtocolVersions",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "credentials": {
+            "label": "credentials",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "readerGroupIdentifier": {
+            "label": "readerGroupIdentifier",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "bleAdvertisingVersion": {
+            "label": "bleAdvertisingVersion",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "cardId": {
+            "label": "cardId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "bleUWBProtocolVersions": {
+            "label": "bleUWBProtocolVersions",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "maxCredentialIssuerKeys": {
+            "label": "maxCredentialIssuerKeys",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "maxEndpointKeys": {
+            "label": "maxEndpointKeys",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "readerVerificationKey": {
+            "label": "readerVerificationKey",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setEndpointKey": {
+            "label": "setEndpointKey",
+            "arguments": {}
+        },
+        "setCardId": {
+            "label": "setCardId",
+            "arguments": {}
+        },
+        "setReaderConfig": {
+            "label": "setReaderConfig",
+            "arguments": {}
+        },
+        "setIssuerKey": {
+            "label": "setIssuerKey",
+            "arguments": {}
+        },
+        "clearIssuerKey": {
+            "label": "clearIssuerKey",
+            "arguments": {}
+        },
+        "clearEndpointKey": {
+            "label": "clearEndpointKey",
+            "arguments": {}
+        }
+    }
+}
