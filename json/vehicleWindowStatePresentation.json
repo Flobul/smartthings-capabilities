@@ -1,0 +1,171 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.frontLeftWindow.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{frontLeftWindow.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.frontLeftWindow.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.frontLeftWindow.i18n.value.closed.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.frontRightWindow.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{frontRightWindow.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.frontRightWindow.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.frontRightWindow.i18n.value.closed.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.rearLeftWindow.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{rearLeftWindow.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.rearLeftWindow.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.rearLeftWindow.i18n.value.closed.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.rearRightWindow.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{rearRightWindow.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.rearRightWindow.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.rearRightWindow.i18n.value.closed.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.frontLeftWindow.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.frontLeftWindow.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.frontLeftWindow.i18n.value.closed.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "frontLeftWindow.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.frontRightWindow.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.frontRightWindow.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.frontRightWindow.i18n.value.closed.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "frontRightWindow.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.rearLeftWindow.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.rearLeftWindow.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.rearLeftWindow.i18n.value.closed.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "rearLeftWindow.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.rearRightWindow.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.rearRightWindow.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.rearRightWindow.i18n.value.closed.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "rearRightWindow.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "vehicleWindowState",
+    "version": 1
+}
