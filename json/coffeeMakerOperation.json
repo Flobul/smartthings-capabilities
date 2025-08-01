@@ -5,6 +5,79 @@
     "name": "Coffee Maker Operation",
     "ephemeral": false,
     "attributes": {
+        "temperatureRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            },
+                            "maximum": {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            },
+                            "step": {
+                                "title": "TemperatureValue",
+                                "type": "number",
+                                "minimum": -460,
+                                "maximum": 10000
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "F",
+                            "C"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedArgument": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "CoffeeMakerManualSetting",
+                            "type": "string",
+                            "enum": [
+                                "coffeeStrength",
+                                "coffeeAmount",
+                                "waterAmount",
+                                "milkAmount",
+                                "temperature"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "errorState": {
             "schema": {
                 "type": "object",
@@ -46,6 +119,48 @@
             },
             "enumCommands": []
         },
+        "waterAmountRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            "maximum": {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            "step": {
+                                "type": "integer",
+                                "minimum": 1
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "ml",
+                            "oz"
+                        ],
+                        "default": "ml"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "coffeeMakerOperationStatus": {
             "schema": {
                 "type": "object",
@@ -70,6 +185,48 @@
             },
             "enumCommands": []
         },
+        "coffeeAmountRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            "maximum": {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            "step": {
+                                "type": "integer",
+                                "minimum": 1
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "ml",
+                            "oz"
+                        ],
+                        "default": "ml"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "supportedCommands": {
             "schema": {
                 "type": "object",
@@ -80,7 +237,8 @@
                             "title": "CoffeeMakerCommand",
                             "type": "string",
                             "enum": [
-                                "stop"
+                                "stop",
+                                "makeCustomizedCoffee"
                             ]
                         }
                     }
@@ -110,6 +268,43 @@
                                 "stopped"
                             ]
                         }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "coffeeStrengthRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 5
+                            },
+                            "maximum": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 5
+                            },
+                            "step": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 5
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -155,12 +350,55 @@
                 ]
             },
             "enumCommands": []
+        },
+        "milkAmountRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            "maximum": {
+                                "type": "integer",
+                                "minimum": 0
+                            },
+                            "step": {
+                                "type": "integer",
+                                "minimum": 1
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": [
+                            "ml",
+                            "oz"
+                        ],
+                        "default": "ml"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
         }
     },
     "commands": {
         "stop": {
             "name": "stop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "makeCoffee": {
             "name": "makeCoffee",
@@ -191,7 +429,40 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
+        },
+        "makeCustomizedCoffee": {
+            "name": "makeCustomizedCoffee",
+            "arguments": [
+                {
+                    "name": "beverageSetting",
+                    "optional": false,
+                    "schema": {
+                        "title": "CoffeeMakerManualSettingArgument",
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "coffeeStrength": {
+                                "type": "number"
+                            },
+                            "coffeeAmount": {
+                                "type": "number"
+                            },
+                            "waterAmount": {
+                                "type": "number"
+                            },
+                            "milkAmount": {
+                                "type": "number"
+                            },
+                            "temperature": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                }
+            ],
+            "sensitive": false
         }
     }
 }
