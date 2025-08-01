@@ -1,0 +1,215 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.fuel.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{fuel.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.fuel.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.fuel.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.smartKeyBattery.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{smartKeyBattery.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.smartKeyBattery.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.smartKeyBattery.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.washerFluid.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{washerFluid.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.washerFluid.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.washerFluid.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.brakeFluid.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{brakeFluid.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.brakeFluid.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.brakeFluid.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.engineOil.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{engineOil.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.engineOil.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.engineOil.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.lampWire.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{lampWire.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.lampWire.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.lampWire.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.tirePressureFrontLeft.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{tirePressureFrontLeft.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.tirePressureFrontLeft.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.tirePressureFrontLeft.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.tirePressureFrontRight.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{tirePressureFrontRight.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.tirePressureFrontRight.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.tirePressureFrontRight.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.tirePressureRearLeft.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{tirePressureRearLeft.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.tirePressureRearLeft.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.tirePressureRearLeft.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.tirePressureRearRight.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{tirePressureRearRight.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.tirePressureRearRight.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.tirePressureRearRight.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.auxiliaryBattery.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{auxiliaryBattery.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.auxiliaryBattery.i18n.value.normal.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "{{i18n.attributes.auxiliaryBattery.i18n.value.warning.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "id": "vehicleWarning",
+    "version": 1
+}

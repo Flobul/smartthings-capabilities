@@ -1,0 +1,78 @@
+{
+    "detailView": [
+        {
+            "label": "{{i18n.commands.on.arguments.hvacRemote.i18n.ignitionDuration.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "alternatives": [
+                    {
+                        "key": "{{ARGUMENT_NAME}}",
+                        "value": "hvacRemote.ignitionDuration",
+                        "type": "active"
+                    }
+                ],
+                "command": "on",
+                "argumentType": "object"
+            }
+        },
+        {
+            "label": "{{i18n.commands.on.arguments.hvacRemote.i18n.temperature.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    16,
+                    30
+                ],
+                "alternatives": [
+                    {
+                        "key": "{{ARGUMENT_NAME}}",
+                        "value": "hvacRemote.temperature",
+                        "type": "active"
+                    }
+                ],
+                "command": "on",
+                "argumentType": "object"
+            }
+        },
+        {
+            "label": "{{i18n.commands.on.arguments.hvacRemote.i18n.defog.label}}",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "on",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "{{i18n.commands.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.commands.off.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "{{ARGUMENT_NAME}}",
+                            "value": "hvacRemote.defog",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "object"
+                }
+            }
+        },
+        {
+            "label": "{{i18n.commands.off.label}}",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "off"
+            }
+        }
+    ],
+    "id": "vehicleHvacRemoteSwitch",
+    "version": 1
+}
