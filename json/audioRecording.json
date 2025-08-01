@@ -1,0 +1,50 @@
+{
+    "id": "audioRecording",
+    "version": 1,
+    "status": "proposed",
+    "name": "Audio Recording",
+    "ephemeral": false,
+    "attributes": {
+        "audioRecording": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setAudioRecording",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setAudioRecording": {
+            "name": "setAudioRecording",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
