@@ -98,6 +98,17 @@
                             "userIndex": {
                                 "type": "integer"
                             },
+                            "userName": {
+                                "type": "string"
+                            },
+                            "userType": {
+                                "type": "string",
+                                "enum": [
+                                    "adminMember",
+                                    "controlOnlyMember",
+                                    "guest"
+                                ]
+                            },
                             "timeout": {
                                 "title": "Iso8601Date",
                                 "type": "string",
@@ -113,6 +124,7 @@
                         }
                     }
                 },
+                "sensitive": true,
                 "additionalProperties": false,
                 "required": [
                     "value"
