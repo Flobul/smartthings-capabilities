@@ -18,8 +18,10 @@
                                 "enum": [
                                     "setReaderConfig",
                                     "setCardId",
-                                    "setCredential",
-                                    "clearCredential"
+                                    "setIssuerKey",
+                                    "setEndpointKey",
+                                    "clearIssuerKey",
+                                    "clearEndpointKey"
                                 ]
                             },
                             "userIndex": {
@@ -27,8 +29,10 @@
                                 "minimum": 1
                             },
                             "keyId": {
-                                "type": "string",
-                                "minimum": 1
+                                "type": "string"
+                            },
+                            "requestId": {
+                                "type": "string"
                             },
                             "statusCode": {
                                 "type": "string",
@@ -98,24 +102,26 @@
                                     "type": "integer",
                                     "minimum": 1
                                 },
-                                "keyId": {
+                                "keyIndex": {
+                                    "type": "integer",
+                                    "minimum": 1
+                                },
+                                "keyType": {
                                     "type": "string",
-                                    "minimum": 1
+                                    "enum": [
+                                        "issuerKey",
+                                        "evictableEndpointKey",
+                                        "nonEvictableEndpointKey"
+                                    ]
                                 },
-                                "issuerKeyIndex": {
-                                    "type": "integer",
-                                    "minimum": 1
-                                },
-                                "endpointKeyIndex": {
-                                    "type": "integer",
-                                    "minimum": 1
+                                "keyId": {
+                                    "type": "string"
                                 }
                             },
                             "required": [
                                 "userIndex",
-                                "keyId",
-                                "issuerKeyIndex",
-                                "endpointKeyIndex"
+                                "keyIndex",
+                                "keyType"
                             ]
                         }
                     }
@@ -236,8 +242,8 @@
         }
     },
     "commands": {
-        "setCredential": {
-            "name": "setCredential",
+        "setEndpointKey": {
+            "name": "setEndpointKey",
             "arguments": [
                 {
                     "name": "userIndex",
@@ -256,7 +262,18 @@
                     }
                 },
                 {
-                    "name": "issuerKey",
+                    "name": "keyType",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "evictableEndpointKey",
+                            "nonEvictableEndpointKey"
+                        ]
+                    }
+                },
+                {
+                    "name": "endpointKey",
                     "optional": false,
                     "schema": {
                         "type": "string",
@@ -264,19 +281,11 @@
                     }
                 },
                 {
-                    "name": "nonEvictableEndpointKey",
-                    "optional": true,
+                    "name": "requestId",
+                    "optional": false,
                     "schema": {
                         "type": "string",
-                        "maxLength": 130
-                    }
-                },
-                {
-                    "name": "evictableEndpointKey",
-                    "optional": true,
-                    "schema": {
-                        "type": "string",
-                        "maxLength": 130
+                        "maxLength": 65
                     }
                 }
             ],
@@ -334,8 +343,60 @@
             ],
             "sensitive": false
         },
-        "clearCredential": {
-            "name": "clearCredential",
+        "setIssuerKey": {
+            "name": "setIssuerKey",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                {
+                    "name": "issuerKey",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 130
+                    }
+                },
+                {
+                    "name": "requestId",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 65
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "clearIssuerKey": {
+            "name": "clearIssuerKey",
+            "arguments": [
+                {
+                    "name": "userIndex",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1
+                    }
+                },
+                {
+                    "name": "requestId",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 65
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "clearEndpointKey": {
+            "name": "clearEndpointKey",
             "arguments": [
                 {
                     "name": "userIndex",
@@ -351,6 +412,25 @@
                     "schema": {
                         "type": "string",
                         "maxLength": 255
+                    }
+                },
+                {
+                    "name": "keyType",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "evictableEndpointKey",
+                            "nonEvictableEndpointKey"
+                        ]
+                    }
+                },
+                {
+                    "name": "requestId",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 65
                     }
                 }
             ],
