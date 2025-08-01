@@ -59,8 +59,8 @@
         }
     },
     "commands": {
-        "setCredential": {
-            "label": "setCredential",
+        "setEndpointKey": {
+            "label": "setEndpointKey",
             "arguments": {}
         },
         "setCardId": {
@@ -71,8 +71,16 @@
             "label": "setReaderConfig",
             "arguments": {}
         },
-        "clearCredential": {
-            "label": "clearCredential",
+        "setIssuerKey": {
+            "label": "setIssuerKey",
+            "arguments": {}
+        },
+        "clearIssuerKey": {
+            "label": "clearIssuerKey",
+            "arguments": {}
+        },
+        "clearEndpointKey": {
+            "label": "clearEndpointKey",
             "arguments": {}
         }
     }
