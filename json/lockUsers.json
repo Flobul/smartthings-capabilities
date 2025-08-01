@@ -86,6 +86,9 @@
                                         "controlOnlyMember",
                                         "guest"
                                     ]
+                                },
+                                "userName": {
+                                    "type": "string"
                                 }
                             },
                             "required": [
@@ -95,6 +98,7 @@
                         }
                     }
                 },
+                "sensitive": true,
                 "additionalProperties": false,
                 "required": []
             },
