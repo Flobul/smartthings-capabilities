@@ -23,7 +23,6 @@
                     "value"
                 ]
             },
-            "setter": "setSteamClosetWrinklePrevent",
             "enumCommands": []
         }
     },
@@ -43,7 +42,8 @@
                         "title": "SteamClosetWrinklePrevent"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

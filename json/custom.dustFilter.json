@@ -126,7 +126,8 @@
     "commands": {
         "resetDustFilter": {
             "name": "resetDustFilter",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

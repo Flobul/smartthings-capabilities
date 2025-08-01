@@ -35,7 +35,6 @@
                     "value"
                 ]
             },
-            "setter": "setBrightnessLevel",
             "enumCommands": []
         },
         "supportedBrightnessLevel": {
@@ -102,7 +101,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

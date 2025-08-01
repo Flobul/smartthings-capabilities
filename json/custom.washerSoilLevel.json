@@ -59,7 +59,6 @@
                     "value"
                 ]
             },
-            "setter": "setWasherSoilLevel",
             "enumCommands": []
         }
     },
@@ -84,7 +83,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

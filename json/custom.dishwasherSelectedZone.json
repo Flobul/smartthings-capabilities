@@ -24,7 +24,6 @@
                     "value"
                 ]
             },
-            "setter": "setDishwasherSelectedZone",
             "enumCommands": []
         }
     },
@@ -45,7 +44,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

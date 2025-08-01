@@ -26,7 +26,6 @@
                     "value"
                 ]
             },
-            "setter": "setRobotCleanerSoundSet",
             "enumCommands": []
         }
     },
@@ -49,7 +48,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
