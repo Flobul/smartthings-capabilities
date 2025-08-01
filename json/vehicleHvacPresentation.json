@@ -1,0 +1,141 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{hvacState.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "{{i18n.attributes.hvacState.i18n.value.on.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.hvacState.i18n.value.off.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.hvacState.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{hvacState.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "{{i18n.attributes.hvacState.i18n.value.on.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.hvacState.i18n.value.off.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.hvacSpeed.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{hvacSpeed.value}}"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.temperature.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{temperature.value}}",
+                "unit": "temperature.unit"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.defogState.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{defogState.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "{{i18n.attributes.defogState.i18n.value.on.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "{{i18n.attributes.defogState.i18n.value.off.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.hvacState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "{{i18n.attributes.hvacState.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.hvacState.i18n.value.off.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "hvacState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.temperature.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        -20,
+                        50
+                    ],
+                    "unit": "temperature.unit",
+                    "supportedValues": "temperatureRange.value",
+                    "value": "temperature.value",
+                    "valueType": "number"
+                }
+            },
+            {
+                "label": "{{i18n.attributes.defogState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "{{i18n.attributes.defogState.i18n.value.on.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "{{i18n.attributes.defogState.i18n.value.off.label}}",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "defogState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "vehicleHvac",
+    "version": 1
+}
