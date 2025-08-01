@@ -154,6 +154,13 @@
         "namespace": "st"
     },
     {
+        "id": "audioRecording",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "audioStream",
         "version": 1,
         "status": "live",
@@ -332,13 +339,6 @@
         "id": "chime",
         "version": 1,
         "status": "live",
-        "ephemeral": false,
-        "namespace": "st"
-    },
-    {
-        "id": "coffeeMakerManualOperation",
-        "version": 1,
-        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
