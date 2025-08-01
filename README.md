@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-07-29
+#### Last Update: 2025-08-01
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -42,6 +42,7 @@
 | [Audio Capture](./json/audioCapture.json) | 1 | proposed | [json](./json/audioCapturePresentation.json) | [json](./json/audioCapture.i18n.fr.json) |
 | [Audio Mute](./json/audioMute.json) | 1 | live | [json](./json/audioMutePresentation.json) | [json](./json/audioMute.i18n.fr.json) |
 | [Audio Notification](./json/audioNotification.json) | 1 | live | [json](./json/audioNotificationPresentation.json) | [json](./json/audioNotification.i18n.fr.json) |
+| [Audio Recording](./json/audioRecording.json) | 1 | proposed |  | [json](./json/audioRecording.i18n.fr.json) |
 | [Audio Stream](./json/audioStream.json) | 1 | live | [json](./json/audioStreamPresentation.json) | [json](./json/audioStream.i18n.fr.json) |
 | [Audio Track Addressing](./json/audioTrackAddressing.json) | 1 | deprecated |  | [json](./json/audioTrackAddressing.i18n.fr.json) |
 | [Audio Track Data](./json/audioTrackData.json) | 1 | live | [json](./json/audioTrackDataPresentation.json) | [json](./json/audioTrackData.i18n.fr.json) |
@@ -68,7 +69,6 @@
 | [Charge Point State](./json/chargePointState.json) | 1 | proposed | [json](./json/chargePointStatePresentation.json) | [json](./json/chargePointState.i18n.fr.json) |
 | [Charging State](./json/chargingState.json) | 1 | proposed | [json](./json/chargingStatePresentation.json) | [json](./json/chargingState.i18n.fr.json) |
 | [Chime](./json/chime.json) | 1 | live | [json](./json/chimePresentation.json) | [json](./json/chime.i18n.fr.json) |
-| [Coffee Maker Manual Operation](./json/coffeeMakerManualOperation.json) | 1 | proposed |  | [json](./json/coffeeMakerManualOperation.i18n.fr.json) |
 | [Coffee Maker Operation](./json/coffeeMakerOperation.json) | 1 | proposed | [json](./json/coffeeMakerOperationPresentation.json) | [json](./json/coffeeMakerOperation.i18n.fr.json) |
 | [Color](./json/color.json) | 1 | proposed |  | [json](./json/color.i18n.fr.json) |
 | [Color Control](./json/colorControl.json) | 1 | live | [json](./json/colorControlPresentation.json) | [json](./json/colorControl.i18n.fr.json) |
@@ -503,18 +503,18 @@
 | [Tvoc Measurement](./json/tvocMeasurement.json) | 1 | live | [json](./json/tvocMeasurementPresentation.json) | [json](./json/tvocMeasurement.i18n.fr.json) |
 | [Ultraviolet Index](./json/ultravioletIndex.json) | 1 | live | [json](./json/ultravioletIndexPresentation.json) | [json](./json/ultravioletIndex.i18n.fr.json) |
 | [Valve](./json/valve.json) | 1 | live | [json](./json/valvePresentation.json) | [json](./json/valve.i18n.fr.json) |
-| [Vehicle Battery](./json/vehicleBattery.json) | 1 | proposed |  | [json](./json/vehicleBattery.i18n.fr.json) |
-| [Vehicle Door State](./json/vehicleDoorState.json) | 1 | proposed |  | [json](./json/vehicleDoorState.i18n.fr.json) |
+| [Vehicle Battery](./json/vehicleBattery.json) | 1 | proposed | [json](./json/vehicleBatteryPresentation.json) | [json](./json/vehicleBattery.i18n.fr.json) |
+| [Vehicle Door State](./json/vehicleDoorState.json) | 1 | proposed | [json](./json/vehicleDoorStatePresentation.json) | [json](./json/vehicleDoorState.i18n.fr.json) |
 | [Vehicle Engine](./json/vehicleEngine.json) | 1 | proposed | [json](./json/vehicleEnginePresentation.json) | [json](./json/vehicleEngine.i18n.fr.json) |
 | [Vehicle Fuel Level](./json/vehicleFuelLevel.json) | 1 | proposed | [json](./json/vehicleFuelLevelPresentation.json) | [json](./json/vehicleFuelLevel.i18n.fr.json) |
-| [Vehicle Hvac](./json/vehicleHvac.json) | 1 | proposed |  | [json](./json/vehicleHvac.i18n.fr.json) |
-| [Vehicle Hvac Remote Switch](./json/vehicleHvacRemoteSwitch.json) | 1 | proposed |  | [json](./json/vehicleHvacRemoteSwitch.i18n.fr.json) |
+| [Vehicle Hvac](./json/vehicleHvac.json) | 1 | proposed | [json](./json/vehicleHvacPresentation.json) | [json](./json/vehicleHvac.i18n.fr.json) |
+| [Vehicle Hvac Remote Switch](./json/vehicleHvacRemoteSwitch.json) | 1 | proposed | [json](./json/vehicleHvacRemoteSwitchPresentation.json) | [json](./json/vehicleHvacRemoteSwitch.i18n.fr.json) |
 | [Vehicle Information](./json/vehicleInformation.json) | 1 | proposed | [json](./json/vehicleInformationPresentation.json) | [json](./json/vehicleInformation.i18n.fr.json) |
 | [Vehicle Odometer](./json/vehicleOdometer.json) | 1 | proposed | [json](./json/vehicleOdometerPresentation.json) | [json](./json/vehicleOdometer.i18n.fr.json) |
 | [Vehicle Range](./json/vehicleRange.json) | 1 | proposed | [json](./json/vehicleRangePresentation.json) | [json](./json/vehicleRange.i18n.fr.json) |
 | [Vehicle Tire Pressure Monitor](./json/vehicleTirePressureMonitor.json) | 1 | proposed | [json](./json/vehicleTirePressureMonitorPresentation.json) | [json](./json/vehicleTirePressureMonitor.i18n.fr.json) |
-| [Vehicle Warning](./json/vehicleWarning.json) | 1 | proposed |  | [json](./json/vehicleWarning.i18n.fr.json) |
-| [Vehicle Window State](./json/vehicleWindowState.json) | 1 | proposed |  | [json](./json/vehicleWindowState.i18n.fr.json) |
+| [Vehicle Warning](./json/vehicleWarning.json) | 1 | proposed | [json](./json/vehicleWarningPresentation.json) | [json](./json/vehicleWarning.i18n.fr.json) |
+| [Vehicle Window State](./json/vehicleWindowState.json) | 1 | proposed | [json](./json/vehicleWindowStatePresentation.json) | [json](./json/vehicleWindowState.i18n.fr.json) |
 | [Very Fine Dust Health Concern](./json/veryFineDustHealthConcern.json) | 1 | live | [json](./json/veryFineDustHealthConcernPresentation.json) | [json](./json/veryFineDustHealthConcern.i18n.fr.json) |
 | [Very Fine Dust Sensor](./json/veryFineDustSensor.json) | 1 | live | [json](./json/veryFineDustSensorPresentation.json) | [json](./json/veryFineDustSensor.i18n.fr.json) |
 | [Video Camera](./json/videoCamera.json) | 1 | live | [json](./json/videoCameraPresentation.json) | [json](./json/videoCamera.i18n.fr.json) |
