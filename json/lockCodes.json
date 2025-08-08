@@ -158,6 +158,21 @@
             },
             "enumCommands": []
         },
+        "migrated": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "codeReport": {
             "schema": {
                 "type": "object",
@@ -339,6 +354,11 @@
                     }
                 }
             ],
+            "sensitive": false
+        },
+        "migrate": {
+            "name": "migrate",
+            "arguments": [],
             "sensitive": false
         }
     }
