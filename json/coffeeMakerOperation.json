@@ -62,11 +62,11 @@
                             "title": "CoffeeMakerManualSetting",
                             "type": "string",
                             "enum": [
-                                "coffeeStrength",
-                                "coffeeAmount",
-                                "waterAmount",
-                                "milkAmount",
-                                "temperature"
+                                "beverageSetting.coffeeStrength",
+                                "beverageSetting.coffeeAmount",
+                                "beverageSetting.waterAmount",
+                                "beverageSetting.milkAmount",
+                                "beverageSetting.temperature"
                             ]
                         }
                     }
