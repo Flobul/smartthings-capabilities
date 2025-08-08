@@ -14,23 +14,7 @@
             "description": "Arguments supported by the coffee maker",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
-                "value": {
-                    "temperature": {
-                        "label": "Temperature"
-                    },
-                    "coffeeStrength": {
-                        "label": "Coffee strength"
-                    },
-                    "coffeeAmount": {
-                        "label": "Coffee amount"
-                    },
-                    "milkAmount": {
-                        "label": "Milk amount"
-                    },
-                    "waterAmount": {
-                        "label": "Water amount"
-                    }
-                }
+                "value": {}
             }
         },
         "errorState": {
