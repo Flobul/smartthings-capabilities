@@ -60,6 +60,11 @@
             "displayTemplate": "{{attribute}} de {{device.label}} était : {{value}}",
             "i18n": {}
         },
+        "migrated": {
+            "label": "migrated",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "codeReport": {
             "label": "Rapport de code",
             "description": "A report on the code",
@@ -171,6 +176,10 @@
                     "description": "Code slot number for the code"
                 }
             }
+        },
+        "migrate": {
+            "label": "migrate",
+            "arguments": {}
         }
     }
 }
