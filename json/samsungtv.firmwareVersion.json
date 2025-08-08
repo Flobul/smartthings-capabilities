@@ -16,7 +16,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setFirmwareVersion",
             "enumCommands": []
         }
     },
@@ -31,7 +30,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

@@ -1,0 +1,179 @@
+{
+    "tag": "fr",
+    "label": "Avertissements",
+    "description": "Get the warning state of a vehicle",
+    "attributes": {
+        "lampWire": {
+            "label": "Lighting system warning",
+            "description": "Current warning state of the lamp wire",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Vérifier le câble de lampe"
+                    }
+                }
+            }
+        },
+        "auxiliaryBattery": {
+            "label": "Auxiliary battery warning",
+            "description": "Current warning state of the auxiliary battery",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Avertissement"
+                    }
+                }
+            }
+        },
+        "brakeFluid": {
+            "label": "Brake fluid warning",
+            "description": "Current warning state of the brake fluid",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Vérifier le liquide de frein"
+                    }
+                }
+            }
+        },
+        "fuel": {
+            "label": "Niveau de carburant",
+            "description": "Current warning state of the fuel",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Niveau de carburant bas"
+                    }
+                }
+            }
+        },
+        "tirePressureFrontLeft": {
+            "label": "Front left tire pressure warning",
+            "description": "Current warning state of the tire pressure of front left",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Check tire pressure: %s"
+                    }
+                }
+            }
+        },
+        "tirePressureFrontRight": {
+            "label": "Front right tire pressure warning",
+            "description": "Current warning state of the pressure of front right",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Check tire pressure: %s"
+                    }
+                }
+            }
+        },
+        "washerFluid": {
+            "label": "Washer fluid warning",
+            "description": "Current warning state of the washer fluid",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Niveau de liquide lave-glace faible"
+                    }
+                }
+            }
+        },
+        "smartKeyBattery": {
+            "label": "Smart key battery warning",
+            "description": "Current warning state of the smart key battery",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Pile de clé faible"
+                    }
+                }
+            }
+        },
+        "engineOil": {
+            "label": "Engine oil warning",
+            "description": "Current warning state of the engine oil",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Vérifier l'huile moteur"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "Supported attributes",
+            "description": "List of attributes this vehicle supports",
+            "displayTemplate": "{{device.label}} supports the following attributes: {{value}}",
+            "i18n": {}
+        },
+        "tirePressureRearLeft": {
+            "label": "Rear left tire pressure warning",
+            "description": "Current warning state of the pressure of rear left",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Check tire pressure: %s"
+                    }
+                }
+            }
+        },
+        "tirePressureRearRight": {
+            "label": "Rear right tire pressure warning",
+            "description": "Current warning state of the pressure of rear right",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Check tire pressure: %s"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

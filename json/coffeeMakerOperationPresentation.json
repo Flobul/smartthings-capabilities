@@ -27,7 +27,7 @@
                     {
                         "key": "error",
                         "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.error.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "stopped",
@@ -77,7 +77,7 @@
                     {
                         "key": "error",
                         "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.error.label}}",
-                        "type": "active"
+                        "type": "inactive"
                     },
                     {
                         "key": "stopped",
@@ -336,7 +336,7 @@
                         {
                             "key": "error",
                             "value": "{{i18n.attributes.coffeeMakerOperationStatus.i18n.value.error.label}}",
-                            "type": "active"
+                            "type": "inactive"
                         },
                         {
                             "key": "stopped",
@@ -441,6 +441,85 @@
                     "supportedValues": "supportedMenu.value",
                     "command": "makeCoffee",
                     "argumentType": "string"
+                }
+            },
+            {
+                "label": "{{i18n.commands.makeCustomizedCoffee.label}}",
+                "displayType": "multiArgCommand",
+                "multiArgCommand": {
+                    "command": "makeCustomizedCoffee",
+                    "arguments": [
+                        {
+                            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.coffeeStrength.label}}",
+                            "displayType": "slider",
+                            "slider": {
+                                "range": [
+                                    1,
+                                    5
+                                ],
+                                "unit": "coffeeStrengthRange.unit",
+                                "supportedValues": "coffeeStrengthRange.value",
+                                "name": "beverageSetting.coffeeStrength",
+                                "argumentType": "number"
+                            }
+                        },
+                        {
+                            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.coffeeAmount.label}}",
+                            "displayType": "slider",
+                            "slider": {
+                                "range": [
+                                    0,
+                                    10
+                                ],
+                                "unit": "coffeeAmountRange.unit",
+                                "supportedValues": "coffeeAmountRange.value",
+                                "name": "beverageSetting.coffeeAmount",
+                                "argumentType": "number"
+                            }
+                        },
+                        {
+                            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.waterAmount.label}}",
+                            "displayType": "slider",
+                            "slider": {
+                                "range": [
+                                    0,
+                                    10
+                                ],
+                                "unit": "waterAmountRange.unit",
+                                "supportedValues": "waterAmountRange.value",
+                                "name": "beverageSetting.waterAmount",
+                                "argumentType": "number"
+                            }
+                        },
+                        {
+                            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.milkAmount.label}}",
+                            "displayType": "slider",
+                            "slider": {
+                                "range": [
+                                    0,
+                                    10
+                                ],
+                                "unit": "milkAmountRange.unit",
+                                "supportedValues": "milkAmountRange.value",
+                                "name": "beverageSetting.milkAmount",
+                                "argumentType": "number"
+                            }
+                        },
+                        {
+                            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.temperature.label}}",
+                            "displayType": "slider",
+                            "slider": {
+                                "range": [
+                                    20,
+                                    80
+                                ],
+                                "unit": "temperatureRange.unit",
+                                "supportedValues": "temperatureRange.value",
+                                "name": "beverageSetting.temperature",
+                                "argumentType": "number"
+                            }
+                        }
+                    ]
                 }
             }
         ]

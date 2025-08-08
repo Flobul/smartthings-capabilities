@@ -91,7 +91,6 @@
                     "value"
                 ]
             },
-            "setter": "setWasherSpinLevel",
             "enumCommands": []
         }
     },
@@ -125,7 +124,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

@@ -41,7 +41,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setSoundMode",
             "enumCommands": []
         },
         "supportedSoundModes": {
@@ -72,7 +71,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

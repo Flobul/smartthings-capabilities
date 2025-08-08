@@ -107,7 +107,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setFanOscillationMode",
             "enumCommands": []
         }
     },
@@ -141,7 +140,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

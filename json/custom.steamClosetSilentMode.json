@@ -23,7 +23,6 @@
                     "value"
                 ]
             },
-            "setter": "setSteamClosetSilentMode",
             "enumCommands": []
         }
     },
@@ -43,7 +42,8 @@
                         "title": "SteamClosetSilentMode"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

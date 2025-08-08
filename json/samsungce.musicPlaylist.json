@@ -97,7 +97,6 @@
                     "value"
                 ]
             },
-            "setter": "setPlaylist",
             "enumCommands": []
         }
     },
@@ -148,7 +147,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

@@ -25,7 +25,6 @@
                     "value"
                 ]
             },
-            "setter": "setLightControllerMode",
             "enumCommands": []
         },
         "supportedLightControllerModes": {
@@ -70,7 +69,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

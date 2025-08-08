@@ -1,0 +1,338 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{lockState.value}}",
+                "alternatives": [
+                    {
+                        "key": "locked",
+                        "value": "{{i18n.attributes.lockState.i18n.value.locked.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "unlocked",
+                        "value": "{{i18n.attributes.lockState.i18n.value.unlocked.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "{{i18n.attributes.lockState.i18n.value.unknown.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "toggleSwitch",
+                "toggleSwitch": {
+                    "command": {
+                        "on": "lock",
+                        "off": "unlock"
+                    },
+                    "state": {
+                        "value": "lockState.value",
+                        "on": "locked",
+                        "off": "unlocked",
+                        "valueType": "string",
+                        "alternatives": [
+                            {
+                                "key": "unknown",
+                                "value": "{{i18n.attributes.lockState.i18n.value.unknown.label}}",
+                                "type": "inactive"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.lockState.label}}",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "lock",
+                    "off": "unlock"
+                },
+                "state": {
+                    "value": "lockState.value",
+                    "valueType": "string",
+                    "on": "locked",
+                    "off": "unlocked",
+                    "alternatives": [
+                        {
+                            "key": "locked",
+                            "value": "{{i18n.attributes.lockState.i18n.value.locked.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "unlocked",
+                            "value": "{{i18n.attributes.lockState.i18n.value.unlocked.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "{{i18n.attributes.lockState.i18n.value.unknown.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "{{i18n.attributes.frontLeftDoor.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{frontLeftDoor.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.frontLeftDoor.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.frontLeftDoor.i18n.value.closed.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "locked",
+                        "value": "{{i18n.attributes.frontLeftDoor.i18n.value.locked.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.frontRightDoor.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{frontRightDoor.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.frontRightDoor.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.frontRightDoor.i18n.value.closed.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "locked",
+                        "value": "{{i18n.attributes.frontRightDoor.i18n.value.locked.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.rearLeftDoor.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{rearLeftDoor.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.rearLeftDoor.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.rearLeftDoor.i18n.value.closed.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "locked",
+                        "value": "{{i18n.attributes.rearLeftDoor.i18n.value.locked.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.rearRightDoor.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{rearRightDoor.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "{{i18n.attributes.rearRightDoor.i18n.value.open.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "{{i18n.attributes.rearRightDoor.i18n.value.closed.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "locked",
+                        "value": "{{i18n.attributes.rearRightDoor.i18n.value.locked.label}}",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.lockState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "locked",
+                            "value": "{{i18n.attributes.lockState.i18n.value.locked.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "unlocked",
+                            "value": "{{i18n.attributes.lockState.i18n.value.unlocked.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "{{i18n.attributes.lockState.i18n.value.unknown.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "lockState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.frontLeftDoor.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.frontLeftDoor.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.frontLeftDoor.i18n.value.closed.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "locked",
+                            "value": "{{i18n.attributes.frontLeftDoor.i18n.value.locked.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "frontLeftDoor.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.frontRightDoor.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.frontRightDoor.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.frontRightDoor.i18n.value.closed.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "locked",
+                            "value": "{{i18n.attributes.frontRightDoor.i18n.value.locked.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "frontRightDoor.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.rearLeftDoor.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.rearLeftDoor.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.rearLeftDoor.i18n.value.closed.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "locked",
+                            "value": "{{i18n.attributes.rearLeftDoor.i18n.value.locked.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "rearLeftDoor.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.rearRightDoor.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "{{i18n.attributes.rearRightDoor.i18n.value.open.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "{{i18n.attributes.rearRightDoor.i18n.value.closed.label}}",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "locked",
+                            "value": "{{i18n.attributes.rearRightDoor.i18n.value.locked.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "rearRightDoor.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.attributes.lockState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "lock",
+                            "value": "{{i18n.commands.lock.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unlock",
+                            "value": "{{i18n.commands.unlock.label}}",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "vehicleDoorState",
+    "version": 1
+}

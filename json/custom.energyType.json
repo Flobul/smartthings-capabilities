@@ -72,7 +72,6 @@
                     "value"
                 ]
             },
-            "setter": "setEnergySavingLevel",
             "enumCommands": []
         },
         "energySavingInfo": {
@@ -184,7 +183,8 @@
                         "type": "integer"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
