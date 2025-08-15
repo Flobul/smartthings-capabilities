@@ -304,6 +304,111 @@
                     }
                 ]
             }
+        },
+        {
+            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.coffeeStrength.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    1,
+                    5
+                ],
+                "unit": "coffeeStrengthRange.unit",
+                "supportedValues": "coffeeStrengthRange.value",
+                "alternatives": [
+                    {
+                        "key": "{{ARGUMENT_NAME}}",
+                        "value": "beverageSetting.coffeeStrength",
+                        "type": "active"
+                    }
+                ],
+                "command": "makeCustomizedCoffee",
+                "argumentType": "object"
+            }
+        },
+        {
+            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.coffeeAmount.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    10
+                ],
+                "unit": "coffeeAmountRange.unit",
+                "supportedValues": "coffeeAmountRange.value",
+                "alternatives": [
+                    {
+                        "key": "{{ARGUMENT_NAME}}",
+                        "value": "beverageSetting.coffeeAmount",
+                        "type": "active"
+                    }
+                ],
+                "command": "makeCustomizedCoffee",
+                "argumentType": "object"
+            }
+        },
+        {
+            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.waterAmount.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    10
+                ],
+                "unit": "waterAmountRange.unit",
+                "supportedValues": "waterAmountRange.value",
+                "alternatives": [
+                    {
+                        "key": "{{ARGUMENT_NAME}}",
+                        "value": "beverageSetting.waterAmount",
+                        "type": "active"
+                    }
+                ],
+                "command": "makeCustomizedCoffee",
+                "argumentType": "object"
+            }
+        },
+        {
+            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.milkAmount.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    10
+                ],
+                "unit": "milkAmountRange.unit",
+                "supportedValues": "milkAmountRange.value",
+                "alternatives": [
+                    {
+                        "key": "{{ARGUMENT_NAME}}",
+                        "value": "beverageSetting.milkAmount",
+                        "type": "active"
+                    }
+                ],
+                "command": "makeCustomizedCoffee",
+                "argumentType": "object"
+            }
+        },
+        {
+            "label": "{{i18n.commands.makeCustomizedCoffee.arguments.beverageSetting.i18n.temperature.label}}",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    20,
+                    80
+                ],
+                "unit": "temperatureRange.unit",
+                "supportedValues": "temperatureRange.value",
+                "alternatives": [
+                    {
+                        "key": "{{ARGUMENT_NAME}}",
+                        "value": "beverageSetting.temperature",
+                        "type": "active"
+                    }
+                ],
+                "command": "makeCustomizedCoffee",
+                "argumentType": "object"
+            }
         }
     ],
     "automation": {
