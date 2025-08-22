@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Scene",
             "displayType": "state",
             "state": {
                 "label": "{{activatedScene.value}}"
@@ -20,7 +20,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Scene",
                 "displayType": "dynamicList",
                 "dynamicList": {
                     "value": "activatedScene.value",

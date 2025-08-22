@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Channel",
             "displayType": "textField",
             "textField": {
                 "command": "setTvChannel"
@@ -20,7 +20,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Channel",
                 "displayType": "textField",
                 "textField": {
                     "value": "tvChannel.value"
@@ -29,7 +29,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Channel",
                 "displayType": "textField",
                 "textField": {
                     "command": "setTvChannel"

@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "ready",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.ready.label}}",
+                        "value": "On",
                         "type": "active"
                     },
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                        "value": "Drying",
                         "type": "active"
                     },
                     {
                         "key": "paused",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                        "value": "Paused",
                         "type": "active"
                     }
                 ]
@@ -26,87 +26,87 @@
                 "alternatives": [
                     {
                         "key": "drying",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
+                        "value": "Drying",
                         "type": "active"
                     },
                     {
                         "key": "cooling",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
+                        "value": "Cooling",
                         "type": "active"
                     },
                     {
                         "key": "refreshing",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.refreshing.label}}",
+                        "value": "Refreshing",
                         "type": "active"
                     },
                     {
                         "key": "dehumidifying",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.dehumidifying.label}}",
+                        "value": "Dehumidifying",
                         "type": "active"
                     },
                     {
                         "key": "sanitizing",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.sanitizing.label}}",
+                        "value": "Sanitizing",
                         "type": "active"
                     },
                     {
                         "key": "internalCare",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.internalCare.label}}",
+                        "value": "Drying",
                         "type": "active"
                     },
                     {
                         "key": "weightSensing",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
+                        "value": "Sensing the load",
                         "type": "active"
                     },
                     {
                         "key": "aIDrying",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.aIDrying.label}}",
+                        "value": "Drying",
                         "type": "active"
                     },
                     {
                         "key": "humiditySensing",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.humiditySensing.label}}",
+                        "value": "Sensing",
                         "type": "active"
                     },
                     {
                         "key": "thawingFrozenInside",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.thawingFrozenInside.label}}",
+                        "value": "Defrosting",
                         "type": "active"
                     },
                     {
                         "key": "freezeProtection",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.freezeProtection.label}}",
+                        "value": "Prevent freezing",
                         "type": "active"
                     },
                     {
                         "key": "none",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
+                        "value": "Preparing",
                         "type": "active"
                     },
                     {
                         "key": "continuousDehumidifying",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.continuousDehumidifying.label}}",
+                        "value": "Dehumidifying",
                         "type": "active"
                     },
                     {
                         "key": "finished",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
+                        "value": "Cycle complete",
                         "type": "active"
                     },
                     {
                         "key": "delayDry",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.delayDry.label}}",
+                        "value": "End of cycle delayed",
                         "type": "active"
                     },
                     {
                         "key": "laundrySensing",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.laundrySensing.label}}",
+                        "value": "Detecting laundry",
                         "type": "active"
                     },
                     {
                         "key": "wrinklePrevent",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
+                        "value": "Wrinkle Preventing",
                         "type": "active"
                     }
                 ]
@@ -115,7 +115,7 @@
         "actions": [],
         "panelItems": [
             {
-                "label": "{{i18n.commands.panelStart.label}}",
+                "label": "Start",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "start",
@@ -131,7 +131,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.panelCancel.label}}",
+                "label": "Cancel",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "cancel",
@@ -147,7 +147,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.panelPause.label}}",
+                "label": "Pause",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "pause",
@@ -163,7 +163,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.panelResume.label}}",
+                "label": "Resume",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "start",
@@ -179,7 +179,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.panelOk.label}}",
+                "label": "OK",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "cancel",
@@ -198,23 +198,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.operatingState.label}}",
+                "label": "Device status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "ready",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.ready.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                            "value": "Paused",
                             "type": "active"
                         }
                     ],
@@ -224,93 +224,93 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.dryerJobState.label}}",
+                "label": "Drying progress",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "drying",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "cooling",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
+                            "value": "Cooling",
                             "type": "active"
                         },
                         {
                             "key": "refreshing",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.refreshing.label}}",
+                            "value": "Refreshing",
                             "type": "active"
                         },
                         {
                             "key": "dehumidifying",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.dehumidifying.label}}",
+                            "value": "Dehumidifying",
                             "type": "active"
                         },
                         {
                             "key": "sanitizing",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.sanitizing.label}}",
+                            "value": "Sanitizing",
                             "type": "active"
                         },
                         {
                             "key": "internalCare",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.internalCare.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "weightSensing",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
+                            "value": "Sensing the load",
                             "type": "active"
                         },
                         {
                             "key": "aIDrying",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.aIDrying.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "humiditySensing",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.humiditySensing.label}}",
+                            "value": "Sensing",
                             "type": "active"
                         },
                         {
                             "key": "thawingFrozenInside",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.thawingFrozenInside.label}}",
+                            "value": "Defrosting",
                             "type": "active"
                         },
                         {
                             "key": "freezeProtection",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.freezeProtection.label}}",
+                            "value": "Prevent freezing",
                             "type": "active"
                         },
                         {
                             "key": "none",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
+                            "value": "Preparing",
                             "type": "active"
                         },
                         {
                             "key": "continuousDehumidifying",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.continuousDehumidifying.label}}",
+                            "value": "Dehumidifying",
                             "type": "active"
                         },
                         {
                             "key": "finished",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
+                            "value": "Cycle complete",
                             "type": "active"
                         },
                         {
                             "key": "delayDry",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.delayDry.label}}",
+                            "value": "End of cycle delayed",
                             "type": "active"
                         },
                         {
                             "key": "laundrySensing",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.laundrySensing.label}}",
+                            "value": "Detecting laundry",
                             "type": "active"
                         },
                         {
                             "key": "wrinklePrevent",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
+                            "value": "Wrinkle Preventing",
                             "type": "active"
                         }
                     ],
@@ -322,23 +322,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.operatingState.label}}",
+                "label": "Device status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "start",
-                            "value": "{{i18n.commands.start.label}}",
+                            "value": "Start cycle",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause cycle",
                             "type": "active"
                         },
                         {
                             "key": "cancel",
-                            "value": "{{i18n.commands.cancel.label}}",
+                            "value": "Cancel cycle",
                             "type": "active"
                         }
                     ]

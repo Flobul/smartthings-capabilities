@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Oven temperature",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -21,7 +21,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Oven temperature",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setOvenSetpoint",
