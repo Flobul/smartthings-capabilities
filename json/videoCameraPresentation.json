@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "on",
-                        "value": "{{i18n.attributes.camera.i18n.value.on.label}}",
+                        "value": "On",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.camera.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     }
                 ]
@@ -37,7 +37,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Power",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -52,12 +52,12 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.camera.i18n.value.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.camera.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]

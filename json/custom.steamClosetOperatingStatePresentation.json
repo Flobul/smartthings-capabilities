@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "ready",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.ready.label}}",
+                        "value": "___PO_CODE_CAPABILITY.CUSTOM.STEAMCLOSETOPERATINGSTATE_DEFAULT_ATTRIBUTES_OPERATINGSTATE_READY",
                         "type": "active"
                     },
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                        "value": "___PO_CODE_CAPABILITY.CUSTOM.STEAMCLOSETOPERATINGSTATE_DEFAULT_ATTRIBUTES_OPERATINGSTATE_RUNNING",
                         "type": "active"
                     },
                     {
                         "key": "paused",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                        "value": "___PO_CODE_CAPABILITY.CUSTOM.STEAMCLOSETOPERATINGSTATE_DEFAULT_ATTRIBUTES_OPERATINGSTATE_PAUSED",
                         "type": "active"
                     }
                 ]
@@ -26,42 +26,42 @@
                 "alternatives": [
                     {
                         "key": "drying",
-                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.drying.label}}",
+                        "value": "Drying",
                         "type": "active"
                     },
                     {
                         "key": "steaming",
-                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.steaming.label}}",
+                        "value": "Steaming",
                         "type": "active"
                     },
                     {
                         "key": "airwashing",
-                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.airwashing.label}}",
+                        "value": "Aircleaning",
                         "type": "active"
                     },
                     {
                         "key": "sterilizing",
-                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.sterilizing.label}}",
+                        "value": "Sanitizing",
                         "type": "active"
                     },
                     {
                         "key": "dehumidifying",
-                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.dehumidifying.label}}",
+                        "value": "Dehumidifying",
                         "type": "active"
                     },
                     {
                         "key": "none",
-                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.none.label}}",
+                        "value": "Preparing",
                         "type": "active"
                     },
                     {
                         "key": "descaling",
-                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.descaling.label}}",
+                        "value": "Descaling",
                         "type": "active"
                     },
                     {
                         "key": "descalingFinish",
-                        "value": "{{i18n.attributes.steamClosetJobState.i18n.value.descalingFinish.label}}",
+                        "value": "Cycle complete",
                         "type": "active"
                     }
                 ]
@@ -70,7 +70,7 @@
         "actions": [],
         "panelItems": [
             {
-                "label": "{{i18n.commands.start.label}}",
+                "label": "Start",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "setSteamClosetMachineState",
@@ -88,7 +88,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.cancel.label}}",
+                "label": "Cancel",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "setSteamClosetMachineState",
@@ -106,7 +106,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.pause.label}}",
+                "label": "Pause",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "setSteamClosetMachineState",
@@ -124,7 +124,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.resume.label}}",
+                "label": "Resume",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "setSteamClosetMachineState",
@@ -142,7 +142,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.ok.label}}",
+                "label": "OK",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "setSteamClosetMachineState",
@@ -163,43 +163,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Caring Progress",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "drying",
-                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.drying.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "steaming",
-                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.steaming.label}}",
+                            "value": "Steaming",
                             "type": "active"
                         },
                         {
                             "key": "airwashing",
-                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.airwashing.label}}",
+                            "value": "Aircleaning",
                             "type": "active"
                         },
                         {
                             "key": "sterilizing",
-                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.sterilizing.label}}",
+                            "value": "Sanitizing",
                             "type": "active"
                         },
                         {
                             "key": "dehumidifying",
-                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.dehumidifying.label}}",
+                            "value": "Dehumidifying",
                             "type": "active"
                         },
                         {
                             "key": "finish",
-                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.finish.label}}",
+                            "value": "Cycle complete",
                             "type": "active"
                         },
                         {
                             "key": "keepFresh",
-                            "value": "{{i18n.attributes.steamClosetJobState.i18n.value.keepFresh.label}}",
+                            "value": "Keep fresh",
                             "type": "active"
                         }
                     ],

@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.cooling.label}}",
+                        "value": "Cooling",
                         "type": "active"
                     },
                     {
                         "key": "fan only",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.fan only.label}}",
+                        "value": "Fan only",
                         "type": "active"
                     },
                     {
                         "key": "heating",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.heating.label}}",
+                        "value": "Heating",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
+                        "value": "Idle",
                         "type": "inactive"
                     },
                     {
                         "key": "pending cool",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending cool.label}}",
+                        "value": "Pending cool",
                         "type": "active"
                     },
                     {
                         "key": "pending heat",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending heat.label}}",
+                        "value": "Pending heat",
                         "type": "active"
                     },
                     {
                         "key": "vent economizer",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.vent economizer.label}}",
+                        "value": "Vent economiser",
                         "type": "active"
                     }
                 ]
@@ -47,44 +47,44 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "State",
             "displayType": "state",
             "state": {
                 "label": "{{thermostatOperatingState.value}}",
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.cooling.label}}",
+                        "value": "Cooling",
                         "type": "active"
                     },
                     {
                         "key": "fan only",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.fan only.label}}",
+                        "value": "Fan only",
                         "type": "active"
                     },
                     {
                         "key": "heating",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.heating.label}}",
+                        "value": "Heating",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
+                        "value": "Idle",
                         "type": "inactive"
                     },
                     {
                         "key": "pending cool",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending cool.label}}",
+                        "value": "Pending cool",
                         "type": "active"
                     },
                     {
                         "key": "pending heat",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending heat.label}}",
+                        "value": "Pending heat",
                         "type": "active"
                     },
                     {
                         "key": "vent economizer",
-                        "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.vent economizer.label}}",
+                        "value": "Vent economiser",
                         "type": "active"
                     }
                 ]
@@ -94,43 +94,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "State",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cooling",
-                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.cooling.label}}",
+                            "value": "Cooling",
                             "type": "active"
                         },
                         {
                             "key": "fan only",
-                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.fan only.label}}",
+                            "value": "Fan only",
                             "type": "active"
                         },
                         {
                             "key": "heating",
-                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.heating.label}}",
+                            "value": "Heating",
                             "type": "active"
                         },
                         {
                             "key": "idle",
-                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.idle.label}}",
+                            "value": "Idle",
                             "type": "inactive"
                         },
                         {
                             "key": "pending cool",
-                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending cool.label}}",
+                            "value": "Pending cool",
                             "type": "active"
                         },
                         {
                             "key": "pending heat",
-                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.pending heat.label}}",
+                            "value": "Pending heat",
                             "type": "active"
                         },
                         {
                             "key": "vent economizer",
-                            "value": "{{i18n.attributes.thermostatOperatingState.i18n.value.vent economizer.label}}",
+                            "value": "Vent economiser",
                             "type": "active"
                         }
                     ],
