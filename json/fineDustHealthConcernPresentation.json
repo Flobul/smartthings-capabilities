@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "good",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.good.label}}",
+                        "value": "Good",
                         "type": "active"
                     },
                     {
                         "key": "moderate",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.moderate.label}}",
+                        "value": "Moderate",
                         "type": "active"
                     },
                     {
                         "key": "slightlyUnhealthy",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.slightlyUnhealthy.label}}",
+                        "value": "Slightly unhealthy",
                         "type": "active"
                     },
                     {
                         "key": "unhealthy",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.unhealthy.label}}",
+                        "value": "Unhealthy",
                         "type": "active"
                     },
                     {
                         "key": "veryUnhealthy",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.veryUnhealthy.label}}",
+                        "value": "Very unhealthy",
                         "type": "active"
                     },
                     {
                         "key": "hazardous",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.hazardous.label}}",
+                        "value": "Hazardous",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "active"
                     }
                 ]
@@ -47,44 +47,44 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Fine dust",
             "displayType": "state",
             "state": {
                 "label": "{{fineDustHealthConcern.value}}",
                 "alternatives": [
                     {
                         "key": "good",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.good.label}}",
+                        "value": "Good",
                         "type": "active"
                     },
                     {
                         "key": "moderate",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.moderate.label}}",
+                        "value": "Moderate",
                         "type": "active"
                     },
                     {
                         "key": "slightlyUnhealthy",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.slightlyUnhealthy.label}}",
+                        "value": "Slightly unhealthy",
                         "type": "active"
                     },
                     {
                         "key": "unhealthy",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.unhealthy.label}}",
+                        "value": "Unhealthy",
                         "type": "active"
                     },
                     {
                         "key": "veryUnhealthy",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.veryUnhealthy.label}}",
+                        "value": "Very unhealthy",
                         "type": "active"
                     },
                     {
                         "key": "hazardous",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.hazardous.label}}",
+                        "value": "Hazardous",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "active"
                     }
                 ]
@@ -94,43 +94,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Fine dust",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "good",
-                            "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.good.label}}",
+                            "value": "Good",
                             "type": "active"
                         },
                         {
                             "key": "moderate",
-                            "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.moderate.label}}",
+                            "value": "Moderate",
                             "type": "active"
                         },
                         {
                             "key": "slightlyUnhealthy",
-                            "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.slightlyUnhealthy.label}}",
+                            "value": "Slightly unhealthy",
                             "type": "active"
                         },
                         {
                             "key": "unhealthy",
-                            "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.unhealthy.label}}",
+                            "value": "Unhealthy",
                             "type": "active"
                         },
                         {
                             "key": "veryUnhealthy",
-                            "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.veryUnhealthy.label}}",
+                            "value": "Very unhealthy",
                             "type": "active"
                         },
                         {
                             "key": "hazardous",
-                            "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.hazardous.label}}",
+                            "value": "Hazardous",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.fineDustHealthConcern.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "active"
                         }
                     ],

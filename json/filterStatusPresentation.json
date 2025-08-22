@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.filterStatus.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "replace",
-                        "value": "{{i18n.attributes.filterStatus.i18n.value.replace.label}}",
+                        "value": "Replacement needed",
                         "type": "active"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Filter state",
             "displayType": "state",
             "state": {
                 "label": "{{filterStatus.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.filterStatus.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "replace",
-                        "value": "{{i18n.attributes.filterStatus.i18n.value.replace.label}}",
+                        "value": "Replacement needed",
                         "type": "active"
                     }
                 ]
