@@ -1,14 +1,14 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Scents",
             "displayType": "state",
             "state": {
                 "label": "{{scentName.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Scents",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -26,7 +26,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Scents",
                 "displayType": "textField",
                 "textField": {
                     "value": "scentName.value",
@@ -36,7 +36,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Scents",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setScentIntensity",

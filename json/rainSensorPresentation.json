@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "detected",
-                        "value": "{{i18n.attributes.rain.i18n.value.detected.label}}",
+                        "value": "Detected",
                         "type": "active"
                     },
                     {
                         "key": "undetected",
-                        "value": "{{i18n.attributes.rain.i18n.value.undetected.label}}",
+                        "value": "Not detected",
                         "type": "inactive"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Rain sensor",
             "displayType": "state",
             "state": {
                 "label": "{{rain.value}}",
                 "alternatives": [
                     {
                         "key": "detected",
-                        "value": "{{i18n.attributes.rain.i18n.value.detected.label}}",
+                        "value": "Detected",
                         "type": "active"
                     },
                     {
                         "key": "undetected",
-                        "value": "{{i18n.attributes.rain.i18n.value.undetected.label}}",
+                        "value": "Not detected",
                         "type": "inactive"
                     }
                 ]
@@ -44,18 +44,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Rain sensor",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "detected",
-                            "value": "{{i18n.attributes.rain.i18n.value.detected.label}}",
+                            "value": "Detected",
                             "type": "active"
                         },
                         {
                             "key": "undetected",
-                            "value": "{{i18n.attributes.rain.i18n.value.undetected.label}}",
+                            "value": "Not detected",
                             "type": "inactive"
                         }
                     ],

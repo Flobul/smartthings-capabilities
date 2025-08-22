@@ -29,20 +29,20 @@
                         "MENU": {
                             "label": "Menu"
                         },
-                        "UP": {
-                            "label": "Haut"
-                        },
                         "SETTINGS": {
                             "label": "Paramètres"
                         },
-                        "SELECT": {
-                            "label": "Sélectionner"
+                        "UP": {
+                            "label": "Haut"
                         },
                         "EXIT": {
                             "label": "Quitter"
                         },
                         "HOME": {
                             "label": "Maison"
+                        },
+                        "SELECT": {
+                            "label": "Sélectionner"
                         }
                     }
                 }

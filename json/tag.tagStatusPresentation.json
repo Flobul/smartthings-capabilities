@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "connected",
-                        "value": "{{i18n.attributes.tagStatus.i18n.value.connected.label}}",
+                        "value": "Nearby",
                         "type": "active"
                     },
                     {
                         "key": "disconnected",
-                        "value": "{{i18n.attributes.tagStatus.i18n.value.disconnected.label}}",
+                        "value": "Not near you",
                         "type": "inactive"
                     },
                     {
                         "key": "d2dConnected",
-                        "value": "{{i18n.attributes.tagStatus.i18n.value.d2dConnected.label}}",
+                        "value": "Connected",
                         "type": "active"
                     },
                     {
                         "key": "d2dScanned",
-                        "value": "{{i18n.attributes.tagStatus.i18n.value.d2dScanned.label}}",
+                        "value": "Nearby",
                         "type": "active"
                     },
                     {
                         "key": "d2dDisconnected",
-                        "value": "{{i18n.attributes.tagStatus.i18n.value.d2dDisconnected.label}}",
+                        "value": "Not near you",
                         "type": "inactive"
                     }
                 ]

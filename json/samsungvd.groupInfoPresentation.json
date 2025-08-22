@@ -2,10 +2,10 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{i18n.attributes.playingFrom.label}}"
+                "label": "Playing from {{masterName.value}}"
             },
             {
-                "label": "{{i18n.attributes.sharingFrom.label}}"
+                "label": "Sharing from {{masterName.value}}"
             }
         ],
         "actions": [],

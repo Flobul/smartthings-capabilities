@@ -6,117 +6,117 @@
                 "alternatives": [
                     {
                         "key": "pushed",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed.label}}",
+                        "value": "Pressed",
                         "type": "active"
                     },
                     {
                         "key": "double",
-                        "value": "{{i18n.attributes.button.i18n.value.double.label}}",
+                        "value": "Double pressed",
                         "type": "active"
                     },
                     {
                         "key": "held",
-                        "value": "{{i18n.attributes.button.i18n.value.held.label}}",
+                        "value": "Held",
                         "type": "active"
                     },
                     {
                         "key": "Ready",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.BUTTON_DEFAULT_STANDBY",
+                        "value": "Standby",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_2x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_2x.label}}",
+                        "value": "Pressed 2 times",
                         "type": "active"
                     },
                     {
                         "key": "pushed_3x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_3x.label}}",
+                        "value": "Pressed 3 times",
                         "type": "active"
                     },
                     {
                         "key": "pushed_4x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_4x.label}}",
+                        "value": "Pressed 4 times",
                         "type": "active"
                     },
                     {
                         "key": "pushed_5x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_5x.label}}",
+                        "value": "Pressed 5 times",
                         "type": "active"
                     },
                     {
                         "key": "pushed_6x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_6x.label}}",
+                        "value": "Pressed 6 times",
                         "type": "active"
                     },
                     {
                         "key": "down",
-                        "value": "{{i18n.attributes.button.i18n.value.down.label}}",
+                        "value": "Toggled down",
                         "type": "active"
                     },
                     {
                         "key": "down_2x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_2x.label}}",
+                        "value": "Toggled down 2 times",
                         "type": "active"
                     },
                     {
                         "key": "down_3x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_3x.label}}",
+                        "value": "Toggled down 3 times",
                         "type": "active"
                     },
                     {
                         "key": "down_4x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_4x.label}}",
+                        "value": "Toggled down 4 times",
                         "type": "active"
                     },
                     {
                         "key": "down_5x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_5x.label}}",
+                        "value": "Toggled down 5 times",
                         "type": "active"
                     },
                     {
                         "key": "down_6x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_6x.label}}",
+                        "value": "Toggled down 6 times",
                         "type": "active"
                     },
                     {
                         "key": "down_hold",
-                        "value": "{{i18n.attributes.button.i18n.value.down_hold.label}}",
+                        "value": "Held down",
                         "type": "active"
                     },
                     {
                         "key": "up",
-                        "value": "{{i18n.attributes.button.i18n.value.up.label}}",
+                        "value": "Toggled up",
                         "type": "active"
                     },
                     {
                         "key": "up_2x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_2x.label}}",
+                        "value": "Toggled up 2 times",
                         "type": "active"
                     },
                     {
                         "key": "up_3x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_3x.label}}",
+                        "value": "Toggled up 3 times",
                         "type": "active"
                     },
                     {
                         "key": "up_4x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_4x.label}}",
+                        "value": "Toggled up 4 times",
                         "type": "active"
                     },
                     {
                         "key": "up_5x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_5x.label}}",
+                        "value": "Toggled up 5 times",
                         "type": "active"
                     },
                     {
                         "key": "up_6x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_6x.label}}",
+                        "value": "Toggled up 6 times",
                         "type": "active"
                     },
                     {
                         "key": "up_hold",
-                        "value": "{{i18n.attributes.button.i18n.value.up_hold.label}}",
+                        "value": "Held up",
                         "type": "active"
                     }
                 ]
@@ -127,124 +127,124 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Button",
             "displayType": "state",
             "state": {
                 "label": "{{button.value}}",
                 "alternatives": [
                     {
                         "key": "pushed",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed.label}}",
+                        "value": "Pressed",
                         "type": "active"
                     },
                     {
                         "key": "double",
-                        "value": "{{i18n.attributes.button.i18n.value.double.label}}",
+                        "value": "Double pressed",
                         "type": "active"
                     },
                     {
                         "key": "held",
-                        "value": "{{i18n.attributes.button.i18n.value.held.label}}",
+                        "value": "Held",
                         "type": "active"
                     },
                     {
                         "key": "Ready",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.BUTTON_DEFAULT_STANDBY",
+                        "value": "Standby",
                         "type": "inactive"
                     },
                     {
                         "key": "pushed_2x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_2x.label}}",
+                        "value": "Pressed 2 times",
                         "type": "active"
                     },
                     {
                         "key": "pushed_3x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_3x.label}}",
+                        "value": "Pressed 3 times",
                         "type": "active"
                     },
                     {
                         "key": "pushed_4x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_4x.label}}",
+                        "value": "Pressed 4 times",
                         "type": "active"
                     },
                     {
                         "key": "pushed_5x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_5x.label}}",
+                        "value": "Pressed 5 times",
                         "type": "active"
                     },
                     {
                         "key": "pushed_6x",
-                        "value": "{{i18n.attributes.button.i18n.value.pushed_6x.label}}",
+                        "value": "Pressed 6 times",
                         "type": "active"
                     },
                     {
                         "key": "down",
-                        "value": "{{i18n.attributes.button.i18n.value.down.label}}",
+                        "value": "Toggled down",
                         "type": "active"
                     },
                     {
                         "key": "down_2x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_2x.label}}",
+                        "value": "Toggled down 2 times",
                         "type": "active"
                     },
                     {
                         "key": "down_3x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_3x.label}}",
+                        "value": "Toggled down 3 times",
                         "type": "active"
                     },
                     {
                         "key": "down_4x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_4x.label}}",
+                        "value": "Toggled down 4 times",
                         "type": "active"
                     },
                     {
                         "key": "down_5x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_5x.label}}",
+                        "value": "Toggled down 5 times",
                         "type": "active"
                     },
                     {
                         "key": "down_6x",
-                        "value": "{{i18n.attributes.button.i18n.value.down_6x.label}}",
+                        "value": "Toggled down 6 times",
                         "type": "active"
                     },
                     {
                         "key": "down_hold",
-                        "value": "{{i18n.attributes.button.i18n.value.down_hold.label}}",
+                        "value": "Held down",
                         "type": "active"
                     },
                     {
                         "key": "up",
-                        "value": "{{i18n.attributes.button.i18n.value.up.label}}",
+                        "value": "Toggled up",
                         "type": "active"
                     },
                     {
                         "key": "up_2x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_2x.label}}",
+                        "value": "Toggled up 2 times",
                         "type": "active"
                     },
                     {
                         "key": "up_3x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_3x.label}}",
+                        "value": "Toggled up 3 times",
                         "type": "active"
                     },
                     {
                         "key": "up_4x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_4x.label}}",
+                        "value": "Toggled up 4 times",
                         "type": "active"
                     },
                     {
                         "key": "up_5x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_5x.label}}",
+                        "value": "Toggled up 5 times",
                         "type": "active"
                     },
                     {
                         "key": "up_6x",
-                        "value": "{{i18n.attributes.button.i18n.value.up_6x.label}}",
+                        "value": "Toggled up 6 times",
                         "type": "active"
                     },
                     {
                         "key": "up_hold",
-                        "value": "{{i18n.attributes.button.i18n.value.up_hold.label}}",
+                        "value": "Held up",
                         "type": "active"
                     }
                 ]
@@ -254,118 +254,118 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Button",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "pushed",
-                            "value": "{{i18n.attributes.button.i18n.value.pushed.label}}",
+                            "value": "Pressed",
                             "type": "active"
                         },
                         {
                             "key": "double",
-                            "value": "{{i18n.attributes.button.i18n.value.double.label}}",
+                            "value": "Double pressed",
                             "type": "active"
                         },
                         {
                             "key": "held",
-                            "value": "{{i18n.attributes.button.i18n.value.held.label}}",
+                            "value": "Held",
                             "type": "active"
                         },
                         {
                             "key": "pushed_2x",
-                            "value": "{{i18n.attributes.button.i18n.value.pushed_2x.label}}",
+                            "value": "Pressed 2 times",
                             "type": "active"
                         },
                         {
                             "key": "pushed_3x",
-                            "value": "{{i18n.attributes.button.i18n.value.pushed_3x.label}}",
+                            "value": "Pressed 3 times",
                             "type": "active"
                         },
                         {
                             "key": "pushed_4x",
-                            "value": "{{i18n.attributes.button.i18n.value.pushed_4x.label}}",
+                            "value": "Pressed 4 times",
                             "type": "active"
                         },
                         {
                             "key": "pushed_5x",
-                            "value": "{{i18n.attributes.button.i18n.value.pushed_5x.label}}",
+                            "value": "Pressed 5 times",
                             "type": "active"
                         },
                         {
                             "key": "pushed_6x",
-                            "value": "{{i18n.attributes.button.i18n.value.pushed_6x.label}}",
+                            "value": "Pressed 6 times",
                             "type": "active"
                         },
                         {
                             "key": "down",
-                            "value": "{{i18n.attributes.button.i18n.value.down.label}}",
+                            "value": "Toggled down",
                             "type": "active"
                         },
                         {
                             "key": "down_2x",
-                            "value": "{{i18n.attributes.button.i18n.value.down_2x.label}}",
+                            "value": "Toggled down 2 times",
                             "type": "active"
                         },
                         {
                             "key": "down_3x",
-                            "value": "{{i18n.attributes.button.i18n.value.down_3x.label}}",
+                            "value": "Toggled down 3 times",
                             "type": "active"
                         },
                         {
                             "key": "down_4x",
-                            "value": "{{i18n.attributes.button.i18n.value.down_4x.label}}",
+                            "value": "Toggled down 4 times",
                             "type": "active"
                         },
                         {
                             "key": "down_5x",
-                            "value": "{{i18n.attributes.button.i18n.value.down_5x.label}}",
+                            "value": "Toggled down 5 times",
                             "type": "active"
                         },
                         {
                             "key": "down_6x",
-                            "value": "{{i18n.attributes.button.i18n.value.down_6x.label}}",
+                            "value": "Toggled down 6 times",
                             "type": "active"
                         },
                         {
                             "key": "down_hold",
-                            "value": "{{i18n.attributes.button.i18n.value.down_hold.label}}",
+                            "value": "Held down",
                             "type": "active"
                         },
                         {
                             "key": "up",
-                            "value": "{{i18n.attributes.button.i18n.value.up.label}}",
+                            "value": "Toggled up",
                             "type": "active"
                         },
                         {
                             "key": "up_2x",
-                            "value": "{{i18n.attributes.button.i18n.value.up_2x.label}}",
+                            "value": "Toggled up 2 times",
                             "type": "active"
                         },
                         {
                             "key": "up_3x",
-                            "value": "{{i18n.attributes.button.i18n.value.up_3x.label}}",
+                            "value": "Toggled up 3 times",
                             "type": "active"
                         },
                         {
                             "key": "up_4x",
-                            "value": "{{i18n.attributes.button.i18n.value.up_4x.label}}",
+                            "value": "Toggled up 4 times",
                             "type": "active"
                         },
                         {
                             "key": "up_5x",
-                            "value": "{{i18n.attributes.button.i18n.value.up_5x.label}}",
+                            "value": "Toggled up 5 times",
                             "type": "active"
                         },
                         {
                             "key": "up_6x",
-                            "value": "{{i18n.attributes.button.i18n.value.up_6x.label}}",
+                            "value": "Toggled up 6 times",
                             "type": "active"
                         },
                         {
                             "key": "up_hold",
-                            "value": "{{i18n.attributes.button.i18n.value.up_hold.label}}",
+                            "value": "Held up",
                             "type": "active"
                         }
                     ],

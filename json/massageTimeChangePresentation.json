@@ -13,7 +13,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.commands.nextTime.label}}",
+            "label": "Time",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "nextTime"
