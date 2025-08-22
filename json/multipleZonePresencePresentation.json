@@ -1,19 +1,19 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Presence of people by zone",
             "displayType": "state",
             "state": {
                 "label": "{{zoneState.value}}",
                 "alternatives": [
                     {
                         "key": "present",
-                        "value": "{{i18n.attributes.zoneState.i18n.value.present.label}}",
+                        "value": "Present",
                         "type": "active"
                     },
                     {
                         "key": "not present",
-                        "value": "{{i18n.attributes.zoneState.i18n.value.not present.label}}",
+                        "value": "Not present",
                         "type": "inactive"
                     }
                 ]
@@ -23,18 +23,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Presence of people by zone",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "present",
-                            "value": "{{i18n.attributes.zoneState.i18n.value.present.label}}",
+                            "value": "Present",
                             "type": "active"
                         },
                         {
                             "key": "not present",
-                            "value": "{{i18n.attributes.zoneState.i18n.value.not present.label}}",
+                            "value": "Not present",
                             "type": "inactive"
                         }
                     ],

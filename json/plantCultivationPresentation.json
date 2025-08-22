@@ -6,222 +6,222 @@
                 "alternatives": [
                     {
                         "key": "none",
-                        "value": "{{i18n.attributes.plantType.i18n.value.none.label}}",
+                        "value": "None",
                         "type": "active"
                     },
                     {
                         "key": "lettuce_caesarsGreen",
-                        "value": "{{i18n.attributes.plantType.i18n.value.lettuce_caesarsGreen.label}}",
+                        "value": "Caesar's green lettuce",
                         "type": "active"
                     },
                     {
                         "key": "lettuce_jeokOak",
-                        "value": "{{i18n.attributes.plantType.i18n.value.lettuce_jeokOak.label}}",
+                        "value": "Korean red lettuce",
                         "type": "active"
                     },
                     {
                         "key": "tatsoi_vitamin",
-                        "value": "{{i18n.attributes.plantType.i18n.value.tatsoi_vitamin.label}}",
+                        "value": "Tatsoi",
                         "type": "active"
                     },
                     {
                         "key": "collardLeafKale",
-                        "value": "{{i18n.attributes.plantType.i18n.value.collardLeafKale.label}}",
+                        "value": "Collard greens",
                         "type": "active"
                     },
                     {
                         "key": "leafRedChicory",
-                        "value": "{{i18n.attributes.plantType.i18n.value.leafRedChicory.label}}",
+                        "value": "Red leaf chicory",
                         "type": "active"
                     },
                     {
                         "key": "garlandChrysanthemum",
-                        "value": "{{i18n.attributes.plantType.i18n.value.garlandChrysanthemum.label}}",
+                        "value": "Garland chrysanthemum",
                         "type": "active"
                     },
                     {
                         "key": "pakchoi",
-                        "value": "{{i18n.attributes.plantType.i18n.value.pakchoi.label}}",
+                        "value": "Bok choy",
                         "type": "active"
                     },
                     {
                         "key": "leafMustard",
-                        "value": "{{i18n.attributes.plantType.i18n.value.leafMustard.label}}",
+                        "value": "Leaf mustard",
                         "type": "active"
                     },
                     {
                         "key": "basil",
-                        "value": "{{i18n.attributes.plantType.i18n.value.basil.label}}",
+                        "value": "Basil",
                         "type": "active"
                     },
                     {
                         "key": "rucola",
-                        "value": "{{i18n.attributes.plantType.i18n.value.rucola.label}}",
+                        "value": "Arugula",
                         "type": "active"
                     },
                     {
                         "key": "cilantro",
-                        "value": "{{i18n.attributes.plantType.i18n.value.cilantro.label}}",
+                        "value": "Cilantro",
                         "type": "active"
                     },
                     {
                         "key": "dill",
-                        "value": "{{i18n.attributes.plantType.i18n.value.dill.label}}",
+                        "value": "Dill",
                         "type": "active"
                     },
                     {
                         "key": "thyme",
-                        "value": "{{i18n.attributes.plantType.i18n.value.thyme.label}}",
+                        "value": "Thyme",
                         "type": "active"
                     },
                     {
                         "key": "lemonBalm",
-                        "value": "{{i18n.attributes.plantType.i18n.value.lemonBalm.label}}",
+                        "value": "Lemon balm",
                         "type": "active"
                     },
                     {
                         "key": "catnip",
-                        "value": "{{i18n.attributes.plantType.i18n.value.catnip.label}}",
+                        "value": "Catnip",
                         "type": "active"
                     },
                     {
                         "key": "endive",
-                        "value": "{{i18n.attributes.plantType.i18n.value.endive.label}}",
+                        "value": "Endive",
                         "type": "active"
                     },
                     {
                         "key": "lettuce_multiGreen",
-                        "value": "{{i18n.attributes.plantType.i18n.value.lettuce_multiGreen.label}}",
+                        "value": "Multigreen lettuce",
                         "type": "active"
                     },
                     {
                         "key": "napaCabbage",
-                        "value": "{{i18n.attributes.plantType.i18n.value.napaCabbage.label}}",
+                        "value": "Napa cabbage",
                         "type": "active"
                     },
                     {
                         "key": "appleMint",
-                        "value": "{{i18n.attributes.plantType.i18n.value.appleMint.label}}",
+                        "value": "Apple mint",
                         "type": "active"
                     },
                     {
                         "key": "thaiBasil",
-                        "value": "{{i18n.attributes.plantType.i18n.value.thaiBasil.label}}",
+                        "value": "Thai basil",
                         "type": "active"
                     },
                     {
                         "key": "peppermint",
-                        "value": "{{i18n.attributes.plantType.i18n.value.peppermint.label}}",
+                        "value": "Peppermint",
                         "type": "active"
                     },
                     {
                         "key": "burningBushSpindletree",
-                        "value": "{{i18n.attributes.plantType.i18n.value.burningBushSpindletree.label}}",
+                        "value": "Burning bush",
                         "type": "active"
                     },
                     {
                         "key": "lolloBionda_Bartimer",
-                        "value": "{{i18n.attributes.plantType.i18n.value.lolloBionda_Bartimer.label}}",
+                        "value": "Bartimer lettuce",
                         "type": "active"
                     },
                     {
                         "key": "lettuce_miniRomaine",
-                        "value": "{{i18n.attributes.plantType.i18n.value.lettuce_miniRomaine.label}}",
+                        "value": "Mini romaine lettuce",
                         "type": "active"
                     },
                     {
                         "key": "newGreen",
-                        "value": "{{i18n.attributes.plantType.i18n.value.newGreen.label}}",
+                        "value": "New green",
                         "type": "active"
                     },
                     {
                         "key": "redVeinedSorrel",
-                        "value": "{{i18n.attributes.plantType.i18n.value.redVeinedSorrel.label}}",
+                        "value": "Red veined sorrel",
                         "type": "active"
                     },
                     {
                         "key": "sage",
-                        "value": "{{i18n.attributes.plantType.i18n.value.sage.label}}",
+                        "value": "Sage",
                         "type": "active"
                     },
                     {
                         "key": "eggplant",
-                        "value": "{{i18n.attributes.plantType.i18n.value.eggplant.label}}",
+                        "value": "Aubergine",
                         "type": "active"
                     },
                     {
                         "key": "pepper",
-                        "value": "{{i18n.attributes.plantType.i18n.value.pepper.label}}",
+                        "value": "Pepper",
                         "type": "active"
                     },
                     {
                         "key": "strawberry",
-                        "value": "{{i18n.attributes.plantType.i18n.value.strawberry.label}}",
+                        "value": "Strawberry",
                         "type": "active"
                     },
                     {
                         "key": "rosemary",
-                        "value": "{{i18n.attributes.plantType.i18n.value.rosemary.label}}",
+                        "value": "Rosemary",
                         "type": "active"
                     },
                     {
                         "key": "monstera",
-                        "value": "{{i18n.attributes.plantType.i18n.value.monstera.label}}",
+                        "value": "Monstera",
                         "type": "active"
                     },
                     {
                         "key": "mint",
-                        "value": "{{i18n.attributes.plantType.i18n.value.mint.label}}",
+                        "value": "Mint",
                         "type": "active"
                     },
                     {
                         "key": "cherryTomato",
-                        "value": "{{i18n.attributes.plantType.i18n.value.cherryTomato.label}}",
+                        "value": "Cherry tomato",
                         "type": "active"
                     },
                     {
                         "key": "garlicChives",
-                        "value": "{{i18n.attributes.plantType.i18n.value.garlicChives.label}}",
+                        "value": "Garlic chives",
                         "type": "active"
                     },
                     {
                         "key": "sansevieria",
-                        "value": "{{i18n.attributes.plantType.i18n.value.sansevieria.label}}",
+                        "value": "Snake plant",
                         "type": "active"
                     },
                     {
                         "key": "lettuce",
-                        "value": "{{i18n.attributes.plantType.i18n.value.lettuce.label}}",
+                        "value": "Lettuce",
                         "type": "active"
                     },
                     {
                         "key": "peaceLily",
-                        "value": "{{i18n.attributes.plantType.i18n.value.peaceLily.label}}",
+                        "value": "Peace lily",
                         "type": "active"
                     },
                     {
                         "key": "parsley",
-                        "value": "{{i18n.attributes.plantType.i18n.value.parsley.label}}",
+                        "value": "Parsley",
                         "type": "active"
                     },
                     {
                         "key": "paprika",
-                        "value": "{{i18n.attributes.plantType.i18n.value.paprika.label}}",
+                        "value": "Paprika",
                         "type": "active"
                     },
                     {
                         "key": "peperomia",
-                        "value": "{{i18n.attributes.plantType.i18n.value.peperomia.label}}",
+                        "value": "Peperomia",
                         "type": "active"
                     },
                     {
                         "key": "philodendron",
-                        "value": "{{i18n.attributes.plantType.i18n.value.philodendron.label}}",
+                        "value": "Philodendron",
                         "type": "active"
                     },
                     {
                         "key": "UNKNOWN",
-                        "value": "{{i18n.attributes.plantType.i18n.value.UNKNOWN.label}}",
+                        "value": "Unknown",
                         "type": "active"
                     }
                 ]
@@ -232,7 +232,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Plant type",
             "displayType": "list",
             "list": {
                 "command": {
@@ -240,222 +240,222 @@
                     "alternatives": [
                         {
                             "key": "none",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.none.label}}",
+                            "value": "None",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_caesarsGreen",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.lettuce_caesarsGreen.label}}",
+                            "value": "Caesar's green lettuce",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_jeokOak",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.lettuce_jeokOak.label}}",
+                            "value": "Korean red lettuce",
                             "type": "active"
                         },
                         {
                             "key": "tatsoi_vitamin",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.tatsoi_vitamin.label}}",
+                            "value": "Tatsoi",
                             "type": "active"
                         },
                         {
                             "key": "collardLeafKale",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.collardLeafKale.label}}",
+                            "value": "Collard greens",
                             "type": "active"
                         },
                         {
                             "key": "leafRedChicory",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.leafRedChicory.label}}",
+                            "value": "Red leaf chicory",
                             "type": "active"
                         },
                         {
                             "key": "garlandChrysanthemum",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.garlandChrysanthemum.label}}",
+                            "value": "Garland chrysanthemum",
                             "type": "active"
                         },
                         {
                             "key": "pakchoi",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.pakchoi.label}}",
+                            "value": "Bok choy",
                             "type": "active"
                         },
                         {
                             "key": "leafMustard",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.leafMustard.label}}",
+                            "value": "Leaf mustard",
                             "type": "active"
                         },
                         {
                             "key": "basil",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.basil.label}}",
+                            "value": "Basil",
                             "type": "active"
                         },
                         {
                             "key": "rucola",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.rucola.label}}",
+                            "value": "Arugula",
                             "type": "active"
                         },
                         {
                             "key": "cilantro",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.cilantro.label}}",
+                            "value": "Cilantro",
                             "type": "active"
                         },
                         {
                             "key": "dill",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.dill.label}}",
+                            "value": "Dill",
                             "type": "active"
                         },
                         {
                             "key": "thyme",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.thyme.label}}",
+                            "value": "Thyme",
                             "type": "active"
                         },
                         {
                             "key": "lemonBalm",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.lemonBalm.label}}",
+                            "value": "Lemon balm",
                             "type": "active"
                         },
                         {
                             "key": "catnip",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.catnip.label}}",
+                            "value": "Catnip",
                             "type": "active"
                         },
                         {
                             "key": "endive",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.endive.label}}",
+                            "value": "Endive",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_multiGreen",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.lettuce_multiGreen.label}}",
+                            "value": "Multigreen lettuce",
                             "type": "active"
                         },
                         {
                             "key": "napaCabbage",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.napaCabbage.label}}",
+                            "value": "Napa cabbage",
                             "type": "active"
                         },
                         {
                             "key": "appleMint",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.appleMint.label}}",
+                            "value": "Apple mint",
                             "type": "active"
                         },
                         {
                             "key": "thaiBasil",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.thaiBasil.label}}",
+                            "value": "Thai basil",
                             "type": "active"
                         },
                         {
                             "key": "peppermint",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.peppermint.label}}",
+                            "value": "Peppermint",
                             "type": "active"
                         },
                         {
                             "key": "burningBushSpindletree",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.burningBushSpindletree.label}}",
+                            "value": "Burning bush",
                             "type": "active"
                         },
                         {
                             "key": "lolloBionda_Bartimer",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.lolloBionda_Bartimer.label}}",
+                            "value": "Bartimer lettuce",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_miniRomaine",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.lettuce_miniRomaine.label}}",
+                            "value": "Mini romaine lettuce",
                             "type": "active"
                         },
                         {
                             "key": "newGreen",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.newGreen.label}}",
+                            "value": "New green",
                             "type": "active"
                         },
                         {
                             "key": "redVeinedSorrel",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.redVeinedSorrel.label}}",
+                            "value": "Red veined sorrel",
                             "type": "active"
                         },
                         {
                             "key": "sage",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.sage.label}}",
+                            "value": "Sage",
                             "type": "active"
                         },
                         {
                             "key": "eggplant",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.eggplant.label}}",
+                            "value": "Aubergine",
                             "type": "active"
                         },
                         {
                             "key": "pepper",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.pepper.label}}",
+                            "value": "Pepper",
                             "type": "active"
                         },
                         {
                             "key": "strawberry",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.strawberry.label}}",
+                            "value": "Strawberry",
                             "type": "active"
                         },
                         {
                             "key": "rosemary",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.rosemary.label}}",
+                            "value": "Rosemary",
                             "type": "active"
                         },
                         {
                             "key": "monstera",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.monstera.label}}",
+                            "value": "Monstera",
                             "type": "active"
                         },
                         {
                             "key": "mint",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.mint.label}}",
+                            "value": "Mint",
                             "type": "active"
                         },
                         {
                             "key": "cherryTomato",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.cherryTomato.label}}",
+                            "value": "Cherry tomato",
                             "type": "active"
                         },
                         {
                             "key": "garlicChives",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.garlicChives.label}}",
+                            "value": "Garlic chives",
                             "type": "active"
                         },
                         {
                             "key": "sansevieria",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.sansevieria.label}}",
+                            "value": "Snake plant",
                             "type": "active"
                         },
                         {
                             "key": "lettuce",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.lettuce.label}}",
+                            "value": "Lettuce",
                             "type": "active"
                         },
                         {
                             "key": "peaceLily",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.peaceLily.label}}",
+                            "value": "Peace lily",
                             "type": "active"
                         },
                         {
                             "key": "parsley",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.parsley.label}}",
+                            "value": "Parsley",
                             "type": "active"
                         },
                         {
                             "key": "paprika",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.paprika.label}}",
+                            "value": "Paprika",
                             "type": "active"
                         },
                         {
                             "key": "peperomia",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.peperomia.label}}",
+                            "value": "Peperomia",
                             "type": "active"
                         },
                         {
                             "key": "philodendron",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.philodendron.label}}",
+                            "value": "Philodendron",
                             "type": "active"
                         },
                         {
                             "key": "UNKNOWN",
-                            "value": "{{i18n.commands.setPlantType.arguments.plantType.i18n.UNKNOWN.label}}",
+                            "value": "Unknown",
                             "type": "active"
                         }
                     ],
@@ -468,222 +468,222 @@
                     "alternatives": [
                         {
                             "key": "none",
-                            "value": "{{i18n.attributes.plantType.i18n.value.none.label}}",
+                            "value": "None",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_caesarsGreen",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce_caesarsGreen.label}}",
+                            "value": "Caesar's green lettuce",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_jeokOak",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce_jeokOak.label}}",
+                            "value": "Korean red lettuce",
                             "type": "active"
                         },
                         {
                             "key": "tatsoi_vitamin",
-                            "value": "{{i18n.attributes.plantType.i18n.value.tatsoi_vitamin.label}}",
+                            "value": "Tatsoi",
                             "type": "active"
                         },
                         {
                             "key": "collardLeafKale",
-                            "value": "{{i18n.attributes.plantType.i18n.value.collardLeafKale.label}}",
+                            "value": "Collard greens",
                             "type": "active"
                         },
                         {
                             "key": "leafRedChicory",
-                            "value": "{{i18n.attributes.plantType.i18n.value.leafRedChicory.label}}",
+                            "value": "Red leaf chicory",
                             "type": "active"
                         },
                         {
                             "key": "garlandChrysanthemum",
-                            "value": "{{i18n.attributes.plantType.i18n.value.garlandChrysanthemum.label}}",
+                            "value": "Garland chrysanthemum",
                             "type": "active"
                         },
                         {
                             "key": "pakchoi",
-                            "value": "{{i18n.attributes.plantType.i18n.value.pakchoi.label}}",
+                            "value": "Bok choy",
                             "type": "active"
                         },
                         {
                             "key": "leafMustard",
-                            "value": "{{i18n.attributes.plantType.i18n.value.leafMustard.label}}",
+                            "value": "Leaf mustard",
                             "type": "active"
                         },
                         {
                             "key": "basil",
-                            "value": "{{i18n.attributes.plantType.i18n.value.basil.label}}",
+                            "value": "Basil",
                             "type": "active"
                         },
                         {
                             "key": "rucola",
-                            "value": "{{i18n.attributes.plantType.i18n.value.rucola.label}}",
+                            "value": "Arugula",
                             "type": "active"
                         },
                         {
                             "key": "cilantro",
-                            "value": "{{i18n.attributes.plantType.i18n.value.cilantro.label}}",
+                            "value": "Cilantro",
                             "type": "active"
                         },
                         {
                             "key": "dill",
-                            "value": "{{i18n.attributes.plantType.i18n.value.dill.label}}",
+                            "value": "Dill",
                             "type": "active"
                         },
                         {
                             "key": "thyme",
-                            "value": "{{i18n.attributes.plantType.i18n.value.thyme.label}}",
+                            "value": "Thyme",
                             "type": "active"
                         },
                         {
                             "key": "lemonBalm",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lemonBalm.label}}",
+                            "value": "Lemon balm",
                             "type": "active"
                         },
                         {
                             "key": "catnip",
-                            "value": "{{i18n.attributes.plantType.i18n.value.catnip.label}}",
+                            "value": "Catnip",
                             "type": "active"
                         },
                         {
                             "key": "endive",
-                            "value": "{{i18n.attributes.plantType.i18n.value.endive.label}}",
+                            "value": "Endive",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_multiGreen",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce_multiGreen.label}}",
+                            "value": "Multigreen lettuce",
                             "type": "active"
                         },
                         {
                             "key": "napaCabbage",
-                            "value": "{{i18n.attributes.plantType.i18n.value.napaCabbage.label}}",
+                            "value": "Napa cabbage",
                             "type": "active"
                         },
                         {
                             "key": "appleMint",
-                            "value": "{{i18n.attributes.plantType.i18n.value.appleMint.label}}",
+                            "value": "Apple mint",
                             "type": "active"
                         },
                         {
                             "key": "thaiBasil",
-                            "value": "{{i18n.attributes.plantType.i18n.value.thaiBasil.label}}",
+                            "value": "Thai basil",
                             "type": "active"
                         },
                         {
                             "key": "peppermint",
-                            "value": "{{i18n.attributes.plantType.i18n.value.peppermint.label}}",
+                            "value": "Peppermint",
                             "type": "active"
                         },
                         {
                             "key": "burningBushSpindletree",
-                            "value": "{{i18n.attributes.plantType.i18n.value.burningBushSpindletree.label}}",
+                            "value": "Burning bush",
                             "type": "active"
                         },
                         {
                             "key": "lolloBionda_Bartimer",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lolloBionda_Bartimer.label}}",
+                            "value": "Bartimer lettuce",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_miniRomaine",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce_miniRomaine.label}}",
+                            "value": "Mini romaine lettuce",
                             "type": "active"
                         },
                         {
                             "key": "newGreen",
-                            "value": "{{i18n.attributes.plantType.i18n.value.newGreen.label}}",
+                            "value": "New green",
                             "type": "active"
                         },
                         {
                             "key": "redVeinedSorrel",
-                            "value": "{{i18n.attributes.plantType.i18n.value.redVeinedSorrel.label}}",
+                            "value": "Red veined sorrel",
                             "type": "active"
                         },
                         {
                             "key": "sage",
-                            "value": "{{i18n.attributes.plantType.i18n.value.sage.label}}",
+                            "value": "Sage",
                             "type": "active"
                         },
                         {
                             "key": "eggplant",
-                            "value": "{{i18n.attributes.plantType.i18n.value.eggplant.label}}",
+                            "value": "Aubergine",
                             "type": "active"
                         },
                         {
                             "key": "pepper",
-                            "value": "{{i18n.attributes.plantType.i18n.value.pepper.label}}",
+                            "value": "Pepper",
                             "type": "active"
                         },
                         {
                             "key": "strawberry",
-                            "value": "{{i18n.attributes.plantType.i18n.value.strawberry.label}}",
+                            "value": "Strawberry",
                             "type": "active"
                         },
                         {
                             "key": "rosemary",
-                            "value": "{{i18n.attributes.plantType.i18n.value.rosemary.label}}",
+                            "value": "Rosemary",
                             "type": "active"
                         },
                         {
                             "key": "monstera",
-                            "value": "{{i18n.attributes.plantType.i18n.value.monstera.label}}",
+                            "value": "Monstera",
                             "type": "active"
                         },
                         {
                             "key": "mint",
-                            "value": "{{i18n.attributes.plantType.i18n.value.mint.label}}",
+                            "value": "Mint",
                             "type": "active"
                         },
                         {
                             "key": "cherryTomato",
-                            "value": "{{i18n.attributes.plantType.i18n.value.cherryTomato.label}}",
+                            "value": "Cherry tomato",
                             "type": "active"
                         },
                         {
                             "key": "garlicChives",
-                            "value": "{{i18n.attributes.plantType.i18n.value.garlicChives.label}}",
+                            "value": "Garlic chives",
                             "type": "active"
                         },
                         {
                             "key": "sansevieria",
-                            "value": "{{i18n.attributes.plantType.i18n.value.sansevieria.label}}",
+                            "value": "Snake plant",
                             "type": "active"
                         },
                         {
                             "key": "lettuce",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce.label}}",
+                            "value": "Lettuce",
                             "type": "active"
                         },
                         {
                             "key": "peaceLily",
-                            "value": "{{i18n.attributes.plantType.i18n.value.peaceLily.label}}",
+                            "value": "Peace lily",
                             "type": "active"
                         },
                         {
                             "key": "parsley",
-                            "value": "{{i18n.attributes.plantType.i18n.value.parsley.label}}",
+                            "value": "Parsley",
                             "type": "active"
                         },
                         {
                             "key": "paprika",
-                            "value": "{{i18n.attributes.plantType.i18n.value.paprika.label}}",
+                            "value": "Paprika",
                             "type": "active"
                         },
                         {
                             "key": "peperomia",
-                            "value": "{{i18n.attributes.plantType.i18n.value.peperomia.label}}",
+                            "value": "Peperomia",
                             "type": "active"
                         },
                         {
                             "key": "philodendron",
-                            "value": "{{i18n.attributes.plantType.i18n.value.philodendron.label}}",
+                            "value": "Philodendron",
                             "type": "active"
                         },
                         {
                             "key": "UNKNOWN",
-                            "value": "{{i18n.attributes.plantType.i18n.value.UNKNOWN.label}}",
+                            "value": "Unknown",
                             "type": "active"
                         }
                     ]
@@ -691,14 +691,14 @@
             }
         },
         {
-            "label": "{{i18n.attributes.startTime.label}}",
+            "label": "Planting days",
             "displayType": "state",
             "state": {
                 "label": "{{startTime.value}}"
             }
         },
         {
-            "label": "{{i18n.commands.resetStartTime.label}}",
+            "label": "Add planting date",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "resetStartTime"
@@ -708,228 +708,228 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Plant type",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "none",
-                            "value": "{{i18n.attributes.plantType.i18n.value.none.label}}",
+                            "value": "None",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_caesarsGreen",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce_caesarsGreen.label}}",
+                            "value": "Caesar's green lettuce",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_jeokOak",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce_jeokOak.label}}",
+                            "value": "Korean red lettuce",
                             "type": "active"
                         },
                         {
                             "key": "tatsoi_vitamin",
-                            "value": "{{i18n.attributes.plantType.i18n.value.tatsoi_vitamin.label}}",
+                            "value": "Tatsoi",
                             "type": "active"
                         },
                         {
                             "key": "collardLeafKale",
-                            "value": "{{i18n.attributes.plantType.i18n.value.collardLeafKale.label}}",
+                            "value": "Collard greens",
                             "type": "active"
                         },
                         {
                             "key": "leafRedChicory",
-                            "value": "{{i18n.attributes.plantType.i18n.value.leafRedChicory.label}}",
+                            "value": "Red leaf chicory",
                             "type": "active"
                         },
                         {
                             "key": "garlandChrysanthemum",
-                            "value": "{{i18n.attributes.plantType.i18n.value.garlandChrysanthemum.label}}",
+                            "value": "Garland chrysanthemum",
                             "type": "active"
                         },
                         {
                             "key": "pakchoi",
-                            "value": "{{i18n.attributes.plantType.i18n.value.pakchoi.label}}",
+                            "value": "Bok choy",
                             "type": "active"
                         },
                         {
                             "key": "leafMustard",
-                            "value": "{{i18n.attributes.plantType.i18n.value.leafMustard.label}}",
+                            "value": "Leaf mustard",
                             "type": "active"
                         },
                         {
                             "key": "basil",
-                            "value": "{{i18n.attributes.plantType.i18n.value.basil.label}}",
+                            "value": "Basil",
                             "type": "active"
                         },
                         {
                             "key": "rucola",
-                            "value": "{{i18n.attributes.plantType.i18n.value.rucola.label}}",
+                            "value": "Arugula",
                             "type": "active"
                         },
                         {
                             "key": "cilantro",
-                            "value": "{{i18n.attributes.plantType.i18n.value.cilantro.label}}",
+                            "value": "Cilantro",
                             "type": "active"
                         },
                         {
                             "key": "dill",
-                            "value": "{{i18n.attributes.plantType.i18n.value.dill.label}}",
+                            "value": "Dill",
                             "type": "active"
                         },
                         {
                             "key": "thyme",
-                            "value": "{{i18n.attributes.plantType.i18n.value.thyme.label}}",
+                            "value": "Thyme",
                             "type": "active"
                         },
                         {
                             "key": "lemonBalm",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lemonBalm.label}}",
+                            "value": "Lemon balm",
                             "type": "active"
                         },
                         {
                             "key": "catnip",
-                            "value": "{{i18n.attributes.plantType.i18n.value.catnip.label}}",
+                            "value": "Catnip",
                             "type": "active"
                         },
                         {
                             "key": "endive",
-                            "value": "{{i18n.attributes.plantType.i18n.value.endive.label}}",
+                            "value": "Endive",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_multiGreen",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce_multiGreen.label}}",
+                            "value": "Multigreen lettuce",
                             "type": "active"
                         },
                         {
                             "key": "napaCabbage",
-                            "value": "{{i18n.attributes.plantType.i18n.value.napaCabbage.label}}",
+                            "value": "Napa cabbage",
                             "type": "active"
                         },
                         {
                             "key": "appleMint",
-                            "value": "{{i18n.attributes.plantType.i18n.value.appleMint.label}}",
+                            "value": "Apple mint",
                             "type": "active"
                         },
                         {
                             "key": "thaiBasil",
-                            "value": "{{i18n.attributes.plantType.i18n.value.thaiBasil.label}}",
+                            "value": "Thai basil",
                             "type": "active"
                         },
                         {
                             "key": "peppermint",
-                            "value": "{{i18n.attributes.plantType.i18n.value.peppermint.label}}",
+                            "value": "Peppermint",
                             "type": "active"
                         },
                         {
                             "key": "burningBushSpindletree",
-                            "value": "{{i18n.attributes.plantType.i18n.value.burningBushSpindletree.label}}",
+                            "value": "Burning bush",
                             "type": "active"
                         },
                         {
                             "key": "lolloBionda_Bartimer",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lolloBionda_Bartimer.label}}",
+                            "value": "Bartimer lettuce",
                             "type": "active"
                         },
                         {
                             "key": "lettuce_miniRomaine",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce_miniRomaine.label}}",
+                            "value": "Mini romaine lettuce",
                             "type": "active"
                         },
                         {
                             "key": "newGreen",
-                            "value": "{{i18n.attributes.plantType.i18n.value.newGreen.label}}",
+                            "value": "New green",
                             "type": "active"
                         },
                         {
                             "key": "redVeinedSorrel",
-                            "value": "{{i18n.attributes.plantType.i18n.value.redVeinedSorrel.label}}",
+                            "value": "Red veined sorrel",
                             "type": "active"
                         },
                         {
                             "key": "sage",
-                            "value": "{{i18n.attributes.plantType.i18n.value.sage.label}}",
+                            "value": "Sage",
                             "type": "active"
                         },
                         {
                             "key": "eggplant",
-                            "value": "{{i18n.attributes.plantType.i18n.value.eggplant.label}}",
+                            "value": "Aubergine",
                             "type": "active"
                         },
                         {
                             "key": "pepper",
-                            "value": "{{i18n.attributes.plantType.i18n.value.pepper.label}}",
+                            "value": "Pepper",
                             "type": "active"
                         },
                         {
                             "key": "strawberry",
-                            "value": "{{i18n.attributes.plantType.i18n.value.strawberry.label}}",
+                            "value": "Strawberry",
                             "type": "active"
                         },
                         {
                             "key": "rosemary",
-                            "value": "{{i18n.attributes.plantType.i18n.value.rosemary.label}}",
+                            "value": "Rosemary",
                             "type": "active"
                         },
                         {
                             "key": "monstera",
-                            "value": "{{i18n.attributes.plantType.i18n.value.monstera.label}}",
+                            "value": "Monstera",
                             "type": "active"
                         },
                         {
                             "key": "mint",
-                            "value": "{{i18n.attributes.plantType.i18n.value.mint.label}}",
+                            "value": "Mint",
                             "type": "active"
                         },
                         {
                             "key": "cherryTomato",
-                            "value": "{{i18n.attributes.plantType.i18n.value.cherryTomato.label}}",
+                            "value": "Cherry tomato",
                             "type": "active"
                         },
                         {
                             "key": "garlicChives",
-                            "value": "{{i18n.attributes.plantType.i18n.value.garlicChives.label}}",
+                            "value": "Garlic chives",
                             "type": "active"
                         },
                         {
                             "key": "sansevieria",
-                            "value": "{{i18n.attributes.plantType.i18n.value.sansevieria.label}}",
+                            "value": "Snake plant",
                             "type": "active"
                         },
                         {
                             "key": "lettuce",
-                            "value": "{{i18n.attributes.plantType.i18n.value.lettuce.label}}",
+                            "value": "Lettuce",
                             "type": "active"
                         },
                         {
                             "key": "peaceLily",
-                            "value": "{{i18n.attributes.plantType.i18n.value.peaceLily.label}}",
+                            "value": "Peace lily",
                             "type": "active"
                         },
                         {
                             "key": "parsley",
-                            "value": "{{i18n.attributes.plantType.i18n.value.parsley.label}}",
+                            "value": "Parsley",
                             "type": "active"
                         },
                         {
                             "key": "paprika",
-                            "value": "{{i18n.attributes.plantType.i18n.value.paprika.label}}",
+                            "value": "Paprika",
                             "type": "active"
                         },
                         {
                             "key": "peperomia",
-                            "value": "{{i18n.attributes.plantType.i18n.value.peperomia.label}}",
+                            "value": "Peperomia",
                             "type": "active"
                         },
                         {
                             "key": "philodendron",
-                            "value": "{{i18n.attributes.plantType.i18n.value.philodendron.label}}",
+                            "value": "Philodendron",
                             "type": "active"
                         },
                         {
                             "key": "UNKNOWN",
-                            "value": "{{i18n.attributes.plantType.i18n.value.UNKNOWN.label}}",
+                            "value": "Unknown",
                             "type": "active"
                         }
                     ],

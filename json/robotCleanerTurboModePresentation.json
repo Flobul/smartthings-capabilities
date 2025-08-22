@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "on",
-                        "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.on.label}}",
+                        "value": "On",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "active"
                     },
                     {
                         "key": "silence",
-                        "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.silence.label}}",
+                        "value": "Quiet",
                         "type": "active"
                     },
                     {
                         "key": "extraSilence",
-                        "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.extraSilence.label}}",
+                        "value": "Extra silence",
                         "type": "active"
                     }
                 ]
@@ -44,12 +44,12 @@
                         "alternatives": [
                             {
                                 "key": "silence",
-                                "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.silence.label}}",
+                                "value": "Quiet",
                                 "type": "active"
                             },
                             {
                                 "key": "extraSilence",
-                                "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.extraSilence.label}}",
+                                "value": "Extra silence",
                                 "type": "active"
                             }
                         ],
@@ -60,7 +60,7 @@
         ],
         "panelItems": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Turbo",
                 "displayType": "list",
                 "list": {
                     "command": {
@@ -68,22 +68,22 @@
                         "alternatives": [
                             {
                                 "key": "on",
-                                "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.on.label}}",
+                                "value": "On",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "silence",
-                                "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.silence.label}}",
+                                "value": "Quiet",
                                 "type": "active"
                             },
                             {
                                 "key": "extraSilence",
-                                "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.extraSilence.label}}",
+                                "value": "Extra silence",
                                 "type": "active"
                             }
                         ],
@@ -95,22 +95,22 @@
                         "alternatives": [
                             {
                                 "key": "on",
-                                "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.on.label}}",
+                                "value": "On",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "silence",
-                                "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.silence.label}}",
+                                "value": "Quiet",
                                 "type": "active"
                             },
                             {
                                 "key": "extraSilence",
-                                "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.extraSilence.label}}",
+                                "value": "Extra silence",
                                 "type": "active"
                             }
                         ]
@@ -128,7 +128,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Turbo",
             "displayType": "list",
             "list": {
                 "command": {
@@ -136,22 +136,22 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "silence",
-                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.silence.label}}",
+                            "value": "Quiet",
                             "type": "active"
                         },
                         {
                             "key": "extraSilence",
-                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.extraSilence.label}}",
+                            "value": "Extra silence",
                             "type": "active"
                         }
                     ],
@@ -163,22 +163,22 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "silence",
-                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.silence.label}}",
+                            "value": "Quiet",
                             "type": "active"
                         },
                         {
                             "key": "extraSilence",
-                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.extraSilence.label}}",
+                            "value": "Extra silence",
                             "type": "active"
                         }
                     ]
@@ -189,28 +189,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Turbo",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "silence",
-                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.silence.label}}",
+                            "value": "Quiet",
                             "type": "active"
                         },
                         {
                             "key": "extraSilence",
-                            "value": "{{i18n.attributes.robotCleanerTurboMode.i18n.value.extraSilence.label}}",
+                            "value": "Extra silence",
                             "type": "active"
                         }
                     ],
@@ -222,28 +222,28 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Turbo",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "silence",
-                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.silence.label}}",
+                            "value": "Quiet",
                             "type": "active"
                         },
                         {
                             "key": "extraSilence",
-                            "value": "{{i18n.commands.setRobotCleanerTurboMode.arguments.mode.i18n.extraSilence.label}}",
+                            "value": "Extra silence",
                             "type": "active"
                         }
                     ],
