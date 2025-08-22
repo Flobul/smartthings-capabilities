@@ -62,11 +62,11 @@
                         "eco": {
                             "label": "Eco"
                         },
-                        "quick": {
-                            "label": "Quick"
-                        },
                         "auto": {
                             "label": "Auto"
+                        },
+                        "quick": {
+                            "label": "Quick"
                         },
                         "superClean": {
                             "label": "SuperClean"
@@ -83,11 +83,11 @@
                         "prewash": {
                             "label": "Prewash"
                         },
-                        "smart": {
-                            "label": "Smart"
-                        },
                         "rinse": {
                             "label": "Rinse"
+                        },
+                        "smart": {
+                            "label": "Smart"
                         },
                         "intense": {
                             "label": "Intense"

@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.startstop.label}}",
+            "label": "Start / Stop",
             "displayType": "playStop",
             "playStop": {
                 "command": {
@@ -26,12 +26,12 @@
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.attributes.startstop.i18n.value.play.label}}",
+                            "value": "Active",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.attributes.startstop.i18n.value.stop.label}}",
+                            "value": "Inactive",
                             "type": "inactive"
                         }
                     ],
@@ -43,18 +43,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.startstop.label}}",
+                "label": "Start / Stop",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.attributes.startstop.i18n.value.play.label}}",
+                            "value": "Active",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.attributes.startstop.i18n.value.stop.label}}",
+                            "value": "Inactive",
                             "type": "inactive"
                         }
                     ],
@@ -66,18 +66,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.startstop.label}}",
+                "label": "Start / Stop",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.attributes.startstop.i18n.value.play.label}}",
+                            "value": "Active",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.attributes.startstop.i18n.value.stop.label}}",
+                            "value": "Inactive",
                             "type": "inactive"
                         }
                     ],
