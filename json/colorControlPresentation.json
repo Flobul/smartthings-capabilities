@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Colour control",
             "displayType": "numberField",
             "numberField": {
                 "value": "hue.value",
@@ -15,7 +15,7 @@
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Colour control",
             "displayType": "numberField",
             "numberField": {
                 "value": "saturation.value",
@@ -33,7 +33,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Colour control",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setColor",
