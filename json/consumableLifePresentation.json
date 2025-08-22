@@ -1,45 +1,45 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Consumable replacement",
             "displayType": "state",
             "state": {
                 "label": "{{lifespan.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.type.label}}",
+            "label": "Consumable replacement",
             "displayType": "state",
             "state": {
                 "label": "{{type.value}}",
                 "alternatives": [
                     {
                         "key": "desiccant",
-                        "value": "{{i18n.attributes.type.i18n.value.desiccant.label}}",
+                        "value": "Desiccant",
                         "type": "active"
                     },
                     {
                         "key": "diffuser",
-                        "value": "{{i18n.attributes.type.i18n.value.diffuser.label}}",
+                        "value": "Diffuser",
                         "type": "active"
                     },
                     {
                         "key": "filter",
-                        "value": "{{i18n.attributes.type.i18n.value.filter.label}}",
+                        "value": "Filter",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.startDate.label}}",
+            "label": "Last replacement date",
             "displayType": "state",
             "state": {
                 "label": "{{startDate.value}}"
             }
         },
         {
-            "label": "{{i18n.commands.reset.label}}",
+            "label": "Reset",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "reset"

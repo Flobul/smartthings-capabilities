@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Odometer",
             "displayType": "state",
             "state": {
                 "label": "{{odometerReading.value}} {{odometerReading.unit}}"
@@ -20,12 +20,16 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Odometer",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "odometerReading.value",
                     "valueType": "number",
-                    "unit": "odometerReading.unit"
+                    "unit": "odometerReading.unit",
+                    "range": [
+                        1,
+                        4094
+                    ]
                 }
             }
         ],

@@ -6,7 +6,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.pauseState.label}}",
+            "label": "Pause / Resume",
             "displayType": "switch",
             "switch": {
                 "command": {
@@ -23,12 +23,12 @@
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.attributes.pauseState.i18n.value.play.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.attributes.pauseState.i18n.value.pause.label}}",
+                            "value": "Paused",
                             "type": "inactive"
                         }
                     ]
@@ -39,18 +39,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.pauseState.label}}",
+                "label": "Pause / Resume",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.attributes.pauseState.i18n.value.play.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.attributes.pauseState.i18n.value.pause.label}}",
+                            "value": "Paused",
                             "type": "inactive"
                         }
                     ],
@@ -62,18 +62,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.pauseState.label}}",
+                "label": "Pause / Resume",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.attributes.pauseState.i18n.value.play.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.attributes.pauseState.i18n.value.pause.label}}",
+                            "value": "Paused",
                             "type": "inactive"
                         }
                     ],

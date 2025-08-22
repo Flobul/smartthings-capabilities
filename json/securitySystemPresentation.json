@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "armedAway",
-                        "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedAway.label}}",
+                        "value": "Armed (away)",
                         "type": "active"
                     },
                     {
                         "key": "armedStay",
-                        "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedStay.label}}",
+                        "value": "Armed (stay)",
                         "type": "active"
                     },
                     {
                         "key": "disarmed",
-                        "value": "{{i18n.attributes.securitySystemStatus.i18n.value.disarmed.label}}",
+                        "value": "Disarmed",
                         "type": "active"
                     }
                 ]
@@ -27,24 +27,24 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Security mode",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "armAway",
-                            "value": "{{i18n.commands.armAway.label}}",
+                            "value": "Armed (away)",
                             "type": "active"
                         },
                         {
                             "key": "armStay",
-                            "value": "{{i18n.commands.armStay.label}}",
+                            "value": "Armed (stay)",
                             "type": "active"
                         },
                         {
                             "key": "disarm",
-                            "value": "{{i18n.commands.disarm.label}}",
+                            "value": "Disarmed",
                             "type": "active"
                         }
                     ],
@@ -56,17 +56,17 @@
                     "alternatives": [
                         {
                             "key": "armedAway",
-                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedAway.label}}",
+                            "value": "Armed (away)",
                             "type": "active"
                         },
                         {
                             "key": "armedStay",
-                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedStay.label}}",
+                            "value": "Armed (stay)",
                             "type": "active"
                         },
                         {
                             "key": "disarmed",
-                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.disarmed.label}}",
+                            "value": "Disarmed",
                             "type": "active"
                         }
                     ]
@@ -77,23 +77,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Security mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "armedAway",
-                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedAway.label}}",
+                            "value": "Armed (away)",
                             "type": "active"
                         },
                         {
                             "key": "armedStay",
-                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.armedStay.label}}",
+                            "value": "Armed (stay)",
                             "type": "active"
                         },
                         {
                             "key": "disarmed",
-                            "value": "{{i18n.attributes.securitySystemStatus.i18n.value.disarmed.label}}",
+                            "value": "Disarmed",
                             "type": "active"
                         }
                     ],
@@ -106,23 +106,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Security mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "armAway",
-                            "value": "{{i18n.commands.armAway.label}}",
+                            "value": "Armed (away)",
                             "type": "active"
                         },
                         {
                             "key": "armStay",
-                            "value": "{{i18n.commands.armStay.label}}",
+                            "value": "Armed (stay)",
                             "type": "active"
                         },
                         {
                             "key": "disarm",
-                            "value": "{{i18n.commands.disarm.label}}",
+                            "value": "Disarmed",
                             "type": "active"
                         }
                     ],
