@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "rgbw",
-                        "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.label}}",
+                        "value": "RGBW",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                        "description": "Red, green, blue, and white"
                     },
                     {
                         "key": "rgb",
-                        "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.label}}",
+                        "value": "RGB",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                        "description": "Red, green, and blue"
                     },
                     {
                         "key": "colorTemperature",
-                        "value": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.label}}",
+                        "value": "Colour temp",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                        "description": "Warm and cool"
                     },
                     {
                         "key": "dimmer",
-                        "value": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.label}}",
+                        "value": "Dimmer",
                         "type": "active",
-                        "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                        "description": "Dimmer pins"
                     }
                 ]
             }
@@ -36,7 +36,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Light controller mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -44,27 +44,27 @@
                     "alternatives": [
                         {
                             "key": "rgbw",
-                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.rgbw.label}}",
+                            "value": "RGBW",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                            "description": "Red, green, blue, and white"
                         },
                         {
                             "key": "rgb",
-                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.rgb.label}}",
+                            "value": "RGB",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                            "description": "Red, green, and blue"
                         },
                         {
                             "key": "colorTemperature",
-                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.colorTemperature.label}}",
+                            "value": "Colour temp",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                            "description": "Warm and cool"
                         },
                         {
                             "key": "dimmer",
-                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.dimmer.label}}",
+                            "value": "Dimmer",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                            "description": "Dimmer pins"
                         }
                     ],
                     "argumentType": "string",
@@ -76,27 +76,27 @@
                     "alternatives": [
                         {
                             "key": "rgbw",
-                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.label}}",
+                            "value": "RGBW",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                            "description": "Red, green, blue, and white"
                         },
                         {
                             "key": "rgb",
-                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.label}}",
+                            "value": "RGB",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                            "description": "Red, green, and blue"
                         },
                         {
                             "key": "colorTemperature",
-                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.label}}",
+                            "value": "Colour temp",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                            "description": "Warm and cool"
                         },
                         {
                             "key": "dimmer",
-                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.label}}",
+                            "value": "Dimmer",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                            "description": "Dimmer pins"
                         }
                     ]
                 }
@@ -106,33 +106,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Light controller mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "rgbw",
-                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.label}}",
+                            "value": "RGBW",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                            "description": "Red, green, blue, and white"
                         },
                         {
                             "key": "rgb",
-                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.label}}",
+                            "value": "RGB",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                            "description": "Red, green, and blue"
                         },
                         {
                             "key": "colorTemperature",
-                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.label}}",
+                            "value": "Colour temp",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                            "description": "Warm and cool"
                         },
                         {
                             "key": "dimmer",
-                            "value": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.label}}",
+                            "value": "Dimmer",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                            "description": "Dimmer pins"
                         }
                     ],
                     "supportedValues": "supportedLightControllerModes.value",
@@ -144,33 +144,33 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Light controller mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "rgbw",
-                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.rgbw.label}}",
+                            "value": "RGBW",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgbw.description}}"
+                            "description": "Red, green, blue, and white"
                         },
                         {
                             "key": "rgb",
-                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.rgb.label}}",
+                            "value": "RGB",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.rgb.description}}"
+                            "description": "Red, green, and blue"
                         },
                         {
                             "key": "colorTemperature",
-                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.colorTemperature.label}}",
+                            "value": "Colour temp",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.colorTemperature.description}}"
+                            "description": "Warm and cool"
                         },
                         {
                             "key": "dimmer",
-                            "value": "{{i18n.commands.setLightControllerMode.arguments.mode.i18n.dimmer.label}}",
+                            "value": "Dimmer",
                             "type": "active",
-                            "description": "{{i18n.attributes.lightControllerMode.i18n.value.dimmer.description}}"
+                            "description": "Dimmer pins"
                         }
                     ],
                     "supportedValues": "supportedLightControllerModes.value",
