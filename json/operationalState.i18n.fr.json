@@ -5,13 +5,14 @@
     "attributes": {
         "supportedOperationalStates": {
             "label": "Supported Operational States",
-            "description": "Supported operational state commands for this machine to receive",
+            "description": "Supported operational states for this machine",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         },
         "supportedCommands": {
-            "label": "supportedCommands",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported Commands",
+            "description": "Supported commands for this machine to receive",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         },
         "operationalState": {
@@ -35,6 +36,9 @@
                     "unableToStartOrResume": {
                         "label": "Impossible de démarrer"
                     },
+                    "standby": {
+                        "label": "Standby"
+                    },
                     "commandInvalidInCurrentState": {
                         "label": "Impossible d'effectuer l\\'action"
                     }
@@ -44,19 +48,23 @@
     },
     "commands": {
         "resume": {
-            "label": "resume",
+            "label": "Resume",
+            "description": "Resume the machine",
             "arguments": {}
         },
         "stop": {
-            "label": "stop",
+            "label": "Stop",
+            "description": "Stop the machine",
             "arguments": {}
         },
         "start": {
-            "label": "start",
+            "label": "Start",
+            "description": "Start the machine",
             "arguments": {}
         },
         "pause": {
-            "label": "pause",
+            "label": "Pause",
+            "description": "Pause the machine",
             "arguments": {}
         }
     }

@@ -3,7 +3,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Turn camera to waypoint",
                 "displayType": "textField",
                 "textField": {
                     "command": "execute"

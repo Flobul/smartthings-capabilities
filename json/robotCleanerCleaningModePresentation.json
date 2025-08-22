@@ -6,32 +6,32 @@
                 "alternatives": [
                     {
                         "key": "auto",
-                        "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.auto.label}}",
+                        "value": "Auto",
                         "type": "active"
                     },
                     {
                         "key": "part",
-                        "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.part.label}}",
+                        "value": "Spot",
                         "type": "active"
                     },
                     {
                         "key": "repeat",
-                        "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.repeat.label}}",
+                        "value": "Repeat",
                         "type": "active"
                     },
                     {
                         "key": "manual",
-                        "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.manual.label}}",
+                        "value": "Manual",
                         "type": "active"
                     },
                     {
                         "key": "stop",
-                        "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.stop.label}}",
+                        "value": "Stop",
                         "type": "active"
                     },
                     {
                         "key": "map",
-                        "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.map.label}}",
+                        "value": "Map",
                         "type": "active"
                     }
                 ]
@@ -54,22 +54,22 @@
                         "alternatives": [
                             {
                                 "key": "part",
-                                "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.part.label}}",
+                                "value": "Spot",
                                 "type": "active"
                             },
                             {
                                 "key": "repeat",
-                                "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.repeat.label}}",
+                                "value": "Repeat",
                                 "type": "active"
                             },
                             {
                                 "key": "manual",
-                                "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.manual.label}}",
+                                "value": "Manual",
                                 "type": "active"
                             },
                             {
                                 "key": "map",
-                                "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.map.label}}",
+                                "value": "Map",
                                 "type": "active"
                             }
                         ],
@@ -82,7 +82,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Cleaning",
             "displayType": "list",
             "list": {
                 "command": {
@@ -90,32 +90,32 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "part",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.part.label}}",
+                            "value": "Spot",
                             "type": "active"
                         },
                         {
                             "key": "repeat",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.repeat.label}}",
+                            "value": "Repeat",
                             "type": "active"
                         },
                         {
                             "key": "manual",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.manual.label}}",
+                            "value": "Manual",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.stop.label}}",
+                            "value": "Stop",
                             "type": "active"
                         },
                         {
                             "key": "map",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.map.label}}",
+                            "value": "Map",
                             "type": "active"
                         }
                     ],
@@ -127,32 +127,32 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "part",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.part.label}}",
+                            "value": "Spot",
                             "type": "active"
                         },
                         {
                             "key": "repeat",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.repeat.label}}",
+                            "value": "Repeat",
                             "type": "active"
                         },
                         {
                             "key": "manual",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.manual.label}}",
+                            "value": "Manual",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.stop.label}}",
+                            "value": "Stop",
                             "type": "active"
                         },
                         {
                             "key": "map",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.map.label}}",
+                            "value": "Map",
                             "type": "active"
                         }
                     ]
@@ -163,38 +163,38 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Cleaning",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "part",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.part.label}}",
+                            "value": "Spot",
                             "type": "active"
                         },
                         {
                             "key": "repeat",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.repeat.label}}",
+                            "value": "Repeat",
                             "type": "active"
                         },
                         {
                             "key": "manual",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.manual.label}}",
+                            "value": "Manual",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.stop.label}}",
+                            "value": "Stop",
                             "type": "active"
                         },
                         {
                             "key": "map",
-                            "value": "{{i18n.attributes.robotCleanerCleaningMode.i18n.value.map.label}}",
+                            "value": "Map",
                             "type": "active"
                         }
                     ],
@@ -206,38 +206,38 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Cleaning",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "part",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.part.label}}",
+                            "value": "Spot",
                             "type": "active"
                         },
                         {
                             "key": "repeat",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.repeat.label}}",
+                            "value": "Repeat",
                             "type": "active"
                         },
                         {
                             "key": "manual",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.manual.label}}",
+                            "value": "Manual",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.stop.label}}",
+                            "value": "Stop",
                             "type": "active"
                         },
                         {
                             "key": "map",
-                            "value": "{{i18n.commands.setRobotCleanerCleaningMode.arguments.mode.i18n.map.label}}",
+                            "value": "Map",
                             "type": "active"
                         }
                     ],
