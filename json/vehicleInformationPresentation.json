@@ -1,56 +1,56 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.attributes.vehicleColor.label}}",
+            "label": "Vehicle Color",
             "displayType": "state",
             "state": {
                 "label": "{{vehicleColor.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.vehicleYear.label}}",
+            "label": "Vehicle Year",
             "displayType": "state",
             "state": {
                 "label": "{{vehicleYear.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.vehicleImage.label}}",
+            "label": "Vehicle Image",
             "displayType": "state",
             "state": {
                 "label": "{{vehicleImage.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.vehicleTrim.label}}",
+            "label": "Vehicle Trim",
             "displayType": "state",
             "state": {
                 "label": "{{vehicleTrim.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.vehiclePlate.label}}",
+            "label": "Number plate",
             "displayType": "state",
             "state": {
                 "label": "{{vehiclePlate.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.vehicleModel.label}}",
+            "label": "Vehicle Model",
             "displayType": "state",
             "state": {
                 "label": "{{vehicleModel.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.vehicleId.label}}",
+            "label": "VIN",
             "displayType": "state",
             "state": {
                 "label": "{{vehicleId.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.vehicleMake.label}}",
+            "label": "Vehicle Make",
             "displayType": "state",
             "state": {
                 "label": "{{vehicleMake.value}}"

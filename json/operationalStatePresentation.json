@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.operationalState.i18n.value.running.label}}",
+                        "value": "Running",
                         "type": "active"
                     },
                     {
                         "key": "stopped",
-                        "value": "{{i18n.attributes.operationalState.i18n.value.stopped.label}}",
+                        "value": "Stopped",
                         "type": "inactive"
                     },
                     {
                         "key": "paused",
-                        "value": "{{i18n.attributes.operationalState.i18n.value.paused.label}}",
+                        "value": "Paused",
                         "type": "active"
                     }
                 ]
@@ -27,29 +27,29 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Status",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "start",
-                            "value": "{{i18n.commands.start.label}}",
+                            "value": "Start",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.stop.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         },
                         {
                             "key": "resume",
-                            "value": "{{i18n.commands.resume.label}}",
+                            "value": "Resume",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         }
                     ],
@@ -61,32 +61,32 @@
                     "alternatives": [
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.operationalState.i18n.value.running.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.operationalState.i18n.value.stopped.label}}",
+                            "value": "Stopped",
                             "type": "inactive"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.operationalState.i18n.value.paused.label}}",
+                            "value": "Paused",
                             "type": "active"
                         },
                         {
                             "key": "unableToStartOrResume",
-                            "value": "{{i18n.attributes.operationalState.i18n.value.unableToStartOrResume.label}}",
+                            "value": "Couldn't start",
                             "type": "active"
                         },
                         {
                             "key": "unableToCompleteOperation",
-                            "value": "{{i18n.attributes.operationalState.i18n.value.unableToCompleteOperation.label}}",
+                            "value": "Couldn't complete",
                             "type": "active"
                         },
                         {
                             "key": "commandInvalidInCurrentState",
-                            "value": "{{i18n.attributes.operationalState.i18n.value.commandInvalidInCurrentState.label}}",
+                            "value": "Couldn't do action",
                             "type": "active"
                         }
                     ]
@@ -97,23 +97,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.operationalState.i18n.value.running.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.operationalState.i18n.value.stopped.label}}",
+                            "value": "Stopped",
                             "type": "inactive"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.operationalState.i18n.value.paused.label}}",
+                            "value": "Paused",
                             "type": "active"
                         }
                     ],
@@ -126,28 +126,28 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "start",
-                            "value": "{{i18n.commands.start.label}}",
+                            "value": "Start",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.stop.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         },
                         {
                             "key": "resume",
-                            "value": "{{i18n.commands.resume.label}}",
+                            "value": "Resume",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         }
                     ],
