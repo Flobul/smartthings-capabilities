@@ -59,11 +59,11 @@
                     "heatclean": {
                         "label": "Heat, Purify"
                     },
-                    "std": {
-                        "label": "std"
-                    },
                     "dryclean": {
                         "label": "Dry, Purify"
+                    },
+                    "std": {
+                        "label": "std"
                     },
                     "cool": {
                         "label": "Cool"
@@ -112,11 +112,11 @@
                         "auto": {
                             "label": "Auto"
                         },
-                        "airconditionermode": {
-                            "label": "airConditionerMode"
-                        },
                         "ventilation": {
                             "label": "ventilation"
+                        },
+                        "airconditionermode": {
+                            "label": "airConditionerMode"
                         },
                         "aicomfort": {
                             "label": "AI Comfort Cooling"
@@ -148,11 +148,11 @@
                         "heatclean": {
                             "label": "Heat, Purify"
                         },
-                        "std": {
-                            "label": "std"
-                        },
                         "dryclean": {
                             "label": "Dry, Purify"
+                        },
+                        "std": {
+                            "label": "std"
                         },
                         "cool": {
                             "label": "Cool"

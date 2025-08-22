@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "ready",
-                        "value": "{{i18n.attributes.cooktopOperatingState.i18n.value.ready.label}}",
+                        "value": "Cooktop Ready",
                         "type": "active"
                     },
                     {
                         "key": "run",
-                        "value": "{{i18n.attributes.cooktopOperatingState.i18n.value.run.label}}",
+                        "value": "Cooktop Working",
                         "type": "active"
                     }
                 ]
@@ -23,18 +23,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Cooktop status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "ready",
-                            "value": "{{i18n.attributes.cooktopOperatingState.i18n.value.ready.label}}",
+                            "value": "Cooktop Ready",
                             "type": "active"
                         },
                         {
                             "key": "run",
-                            "value": "{{i18n.attributes.cooktopOperatingState.i18n.value.run.label}}",
+                            "value": "Cooktop Working",
                             "type": "active"
                         }
                     ],

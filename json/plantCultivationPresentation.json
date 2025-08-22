@@ -1,0 +1,947 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{plantType.value}}",
+                "alternatives": [
+                    {
+                        "key": "none",
+                        "value": "None",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lettuce_caesarsGreen",
+                        "value": "Caesar's green lettuce",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lettuce_jeokOak",
+                        "value": "Korean red lettuce",
+                        "type": "active"
+                    },
+                    {
+                        "key": "tatsoi_vitamin",
+                        "value": "Tatsoi",
+                        "type": "active"
+                    },
+                    {
+                        "key": "collardLeafKale",
+                        "value": "Collard greens",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leafRedChicory",
+                        "value": "Red leaf chicory",
+                        "type": "active"
+                    },
+                    {
+                        "key": "garlandChrysanthemum",
+                        "value": "Garland chrysanthemum",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pakchoi",
+                        "value": "Bok choy",
+                        "type": "active"
+                    },
+                    {
+                        "key": "leafMustard",
+                        "value": "Leaf mustard",
+                        "type": "active"
+                    },
+                    {
+                        "key": "basil",
+                        "value": "Basil",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rucola",
+                        "value": "Arugula",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cilantro",
+                        "value": "Cilantro",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dill",
+                        "value": "Dill",
+                        "type": "active"
+                    },
+                    {
+                        "key": "thyme",
+                        "value": "Thyme",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lemonBalm",
+                        "value": "Lemon balm",
+                        "type": "active"
+                    },
+                    {
+                        "key": "catnip",
+                        "value": "Catnip",
+                        "type": "active"
+                    },
+                    {
+                        "key": "endive",
+                        "value": "Endive",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lettuce_multiGreen",
+                        "value": "Multigreen lettuce",
+                        "type": "active"
+                    },
+                    {
+                        "key": "napaCabbage",
+                        "value": "Napa cabbage",
+                        "type": "active"
+                    },
+                    {
+                        "key": "appleMint",
+                        "value": "Apple mint",
+                        "type": "active"
+                    },
+                    {
+                        "key": "thaiBasil",
+                        "value": "Thai basil",
+                        "type": "active"
+                    },
+                    {
+                        "key": "peppermint",
+                        "value": "Peppermint",
+                        "type": "active"
+                    },
+                    {
+                        "key": "burningBushSpindletree",
+                        "value": "Burning bush",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lolloBionda_Bartimer",
+                        "value": "Bartimer lettuce",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lettuce_miniRomaine",
+                        "value": "Mini romaine lettuce",
+                        "type": "active"
+                    },
+                    {
+                        "key": "newGreen",
+                        "value": "New green",
+                        "type": "active"
+                    },
+                    {
+                        "key": "redVeinedSorrel",
+                        "value": "Red veined sorrel",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sage",
+                        "value": "Sage",
+                        "type": "active"
+                    },
+                    {
+                        "key": "eggplant",
+                        "value": "Aubergine",
+                        "type": "active"
+                    },
+                    {
+                        "key": "pepper",
+                        "value": "Pepper",
+                        "type": "active"
+                    },
+                    {
+                        "key": "strawberry",
+                        "value": "Strawberry",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rosemary",
+                        "value": "Rosemary",
+                        "type": "active"
+                    },
+                    {
+                        "key": "monstera",
+                        "value": "Monstera",
+                        "type": "active"
+                    },
+                    {
+                        "key": "mint",
+                        "value": "Mint",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cherryTomato",
+                        "value": "Cherry tomato",
+                        "type": "active"
+                    },
+                    {
+                        "key": "garlicChives",
+                        "value": "Garlic chives",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sansevieria",
+                        "value": "Snake plant",
+                        "type": "active"
+                    },
+                    {
+                        "key": "lettuce",
+                        "value": "Lettuce",
+                        "type": "active"
+                    },
+                    {
+                        "key": "peaceLily",
+                        "value": "Peace lily",
+                        "type": "active"
+                    },
+                    {
+                        "key": "parsley",
+                        "value": "Parsley",
+                        "type": "active"
+                    },
+                    {
+                        "key": "paprika",
+                        "value": "Paprika",
+                        "type": "active"
+                    },
+                    {
+                        "key": "peperomia",
+                        "value": "Peperomia",
+                        "type": "active"
+                    },
+                    {
+                        "key": "philodendron",
+                        "value": "Philodendron",
+                        "type": "active"
+                    },
+                    {
+                        "key": "UNKNOWN",
+                        "value": "Unknown",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Plant type",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setPlantType",
+                    "alternatives": [
+                        {
+                            "key": "none",
+                            "value": "None",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_caesarsGreen",
+                            "value": "Caesar's green lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_jeokOak",
+                            "value": "Korean red lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "tatsoi_vitamin",
+                            "value": "Tatsoi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "collardLeafKale",
+                            "value": "Collard greens",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leafRedChicory",
+                            "value": "Red leaf chicory",
+                            "type": "active"
+                        },
+                        {
+                            "key": "garlandChrysanthemum",
+                            "value": "Garland chrysanthemum",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pakchoi",
+                            "value": "Bok choy",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leafMustard",
+                            "value": "Leaf mustard",
+                            "type": "active"
+                        },
+                        {
+                            "key": "basil",
+                            "value": "Basil",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rucola",
+                            "value": "Arugula",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cilantro",
+                            "value": "Cilantro",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dill",
+                            "value": "Dill",
+                            "type": "active"
+                        },
+                        {
+                            "key": "thyme",
+                            "value": "Thyme",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lemonBalm",
+                            "value": "Lemon balm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "catnip",
+                            "value": "Catnip",
+                            "type": "active"
+                        },
+                        {
+                            "key": "endive",
+                            "value": "Endive",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_multiGreen",
+                            "value": "Multigreen lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "napaCabbage",
+                            "value": "Napa cabbage",
+                            "type": "active"
+                        },
+                        {
+                            "key": "appleMint",
+                            "value": "Apple mint",
+                            "type": "active"
+                        },
+                        {
+                            "key": "thaiBasil",
+                            "value": "Thai basil",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peppermint",
+                            "value": "Peppermint",
+                            "type": "active"
+                        },
+                        {
+                            "key": "burningBushSpindletree",
+                            "value": "Burning bush",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lolloBionda_Bartimer",
+                            "value": "Bartimer lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_miniRomaine",
+                            "value": "Mini romaine lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "newGreen",
+                            "value": "New green",
+                            "type": "active"
+                        },
+                        {
+                            "key": "redVeinedSorrel",
+                            "value": "Red veined sorrel",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sage",
+                            "value": "Sage",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eggplant",
+                            "value": "Aubergine",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pepper",
+                            "value": "Pepper",
+                            "type": "active"
+                        },
+                        {
+                            "key": "strawberry",
+                            "value": "Strawberry",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rosemary",
+                            "value": "Rosemary",
+                            "type": "active"
+                        },
+                        {
+                            "key": "monstera",
+                            "value": "Monstera",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mint",
+                            "value": "Mint",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cherryTomato",
+                            "value": "Cherry tomato",
+                            "type": "active"
+                        },
+                        {
+                            "key": "garlicChives",
+                            "value": "Garlic chives",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sansevieria",
+                            "value": "Snake plant",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce",
+                            "value": "Lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peaceLily",
+                            "value": "Peace lily",
+                            "type": "active"
+                        },
+                        {
+                            "key": "parsley",
+                            "value": "Parsley",
+                            "type": "active"
+                        },
+                        {
+                            "key": "paprika",
+                            "value": "Paprika",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peperomia",
+                            "value": "Peperomia",
+                            "type": "active"
+                        },
+                        {
+                            "key": "philodendron",
+                            "value": "Philodendron",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UNKNOWN",
+                            "value": "Unknown",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedPlantType.value"
+                },
+                "state": {
+                    "value": "plantType.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "none",
+                            "value": "None",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_caesarsGreen",
+                            "value": "Caesar's green lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_jeokOak",
+                            "value": "Korean red lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "tatsoi_vitamin",
+                            "value": "Tatsoi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "collardLeafKale",
+                            "value": "Collard greens",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leafRedChicory",
+                            "value": "Red leaf chicory",
+                            "type": "active"
+                        },
+                        {
+                            "key": "garlandChrysanthemum",
+                            "value": "Garland chrysanthemum",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pakchoi",
+                            "value": "Bok choy",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leafMustard",
+                            "value": "Leaf mustard",
+                            "type": "active"
+                        },
+                        {
+                            "key": "basil",
+                            "value": "Basil",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rucola",
+                            "value": "Arugula",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cilantro",
+                            "value": "Cilantro",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dill",
+                            "value": "Dill",
+                            "type": "active"
+                        },
+                        {
+                            "key": "thyme",
+                            "value": "Thyme",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lemonBalm",
+                            "value": "Lemon balm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "catnip",
+                            "value": "Catnip",
+                            "type": "active"
+                        },
+                        {
+                            "key": "endive",
+                            "value": "Endive",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_multiGreen",
+                            "value": "Multigreen lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "napaCabbage",
+                            "value": "Napa cabbage",
+                            "type": "active"
+                        },
+                        {
+                            "key": "appleMint",
+                            "value": "Apple mint",
+                            "type": "active"
+                        },
+                        {
+                            "key": "thaiBasil",
+                            "value": "Thai basil",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peppermint",
+                            "value": "Peppermint",
+                            "type": "active"
+                        },
+                        {
+                            "key": "burningBushSpindletree",
+                            "value": "Burning bush",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lolloBionda_Bartimer",
+                            "value": "Bartimer lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_miniRomaine",
+                            "value": "Mini romaine lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "newGreen",
+                            "value": "New green",
+                            "type": "active"
+                        },
+                        {
+                            "key": "redVeinedSorrel",
+                            "value": "Red veined sorrel",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sage",
+                            "value": "Sage",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eggplant",
+                            "value": "Aubergine",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pepper",
+                            "value": "Pepper",
+                            "type": "active"
+                        },
+                        {
+                            "key": "strawberry",
+                            "value": "Strawberry",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rosemary",
+                            "value": "Rosemary",
+                            "type": "active"
+                        },
+                        {
+                            "key": "monstera",
+                            "value": "Monstera",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mint",
+                            "value": "Mint",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cherryTomato",
+                            "value": "Cherry tomato",
+                            "type": "active"
+                        },
+                        {
+                            "key": "garlicChives",
+                            "value": "Garlic chives",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sansevieria",
+                            "value": "Snake plant",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce",
+                            "value": "Lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peaceLily",
+                            "value": "Peace lily",
+                            "type": "active"
+                        },
+                        {
+                            "key": "parsley",
+                            "value": "Parsley",
+                            "type": "active"
+                        },
+                        {
+                            "key": "paprika",
+                            "value": "Paprika",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peperomia",
+                            "value": "Peperomia",
+                            "type": "active"
+                        },
+                        {
+                            "key": "philodendron",
+                            "value": "Philodendron",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UNKNOWN",
+                            "value": "Unknown",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "Planting days",
+            "displayType": "state",
+            "state": {
+                "label": "{{startTime.value}}"
+            }
+        },
+        {
+            "label": "Add planting date",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "resetStartTime"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Plant type",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "none",
+                            "value": "None",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_caesarsGreen",
+                            "value": "Caesar's green lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_jeokOak",
+                            "value": "Korean red lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "tatsoi_vitamin",
+                            "value": "Tatsoi",
+                            "type": "active"
+                        },
+                        {
+                            "key": "collardLeafKale",
+                            "value": "Collard greens",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leafRedChicory",
+                            "value": "Red leaf chicory",
+                            "type": "active"
+                        },
+                        {
+                            "key": "garlandChrysanthemum",
+                            "value": "Garland chrysanthemum",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pakchoi",
+                            "value": "Bok choy",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leafMustard",
+                            "value": "Leaf mustard",
+                            "type": "active"
+                        },
+                        {
+                            "key": "basil",
+                            "value": "Basil",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rucola",
+                            "value": "Arugula",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cilantro",
+                            "value": "Cilantro",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dill",
+                            "value": "Dill",
+                            "type": "active"
+                        },
+                        {
+                            "key": "thyme",
+                            "value": "Thyme",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lemonBalm",
+                            "value": "Lemon balm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "catnip",
+                            "value": "Catnip",
+                            "type": "active"
+                        },
+                        {
+                            "key": "endive",
+                            "value": "Endive",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_multiGreen",
+                            "value": "Multigreen lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "napaCabbage",
+                            "value": "Napa cabbage",
+                            "type": "active"
+                        },
+                        {
+                            "key": "appleMint",
+                            "value": "Apple mint",
+                            "type": "active"
+                        },
+                        {
+                            "key": "thaiBasil",
+                            "value": "Thai basil",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peppermint",
+                            "value": "Peppermint",
+                            "type": "active"
+                        },
+                        {
+                            "key": "burningBushSpindletree",
+                            "value": "Burning bush",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lolloBionda_Bartimer",
+                            "value": "Bartimer lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce_miniRomaine",
+                            "value": "Mini romaine lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "newGreen",
+                            "value": "New green",
+                            "type": "active"
+                        },
+                        {
+                            "key": "redVeinedSorrel",
+                            "value": "Red veined sorrel",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sage",
+                            "value": "Sage",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eggplant",
+                            "value": "Aubergine",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pepper",
+                            "value": "Pepper",
+                            "type": "active"
+                        },
+                        {
+                            "key": "strawberry",
+                            "value": "Strawberry",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rosemary",
+                            "value": "Rosemary",
+                            "type": "active"
+                        },
+                        {
+                            "key": "monstera",
+                            "value": "Monstera",
+                            "type": "active"
+                        },
+                        {
+                            "key": "mint",
+                            "value": "Mint",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cherryTomato",
+                            "value": "Cherry tomato",
+                            "type": "active"
+                        },
+                        {
+                            "key": "garlicChives",
+                            "value": "Garlic chives",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sansevieria",
+                            "value": "Snake plant",
+                            "type": "active"
+                        },
+                        {
+                            "key": "lettuce",
+                            "value": "Lettuce",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peaceLily",
+                            "value": "Peace lily",
+                            "type": "active"
+                        },
+                        {
+                            "key": "parsley",
+                            "value": "Parsley",
+                            "type": "active"
+                        },
+                        {
+                            "key": "paprika",
+                            "value": "Paprika",
+                            "type": "active"
+                        },
+                        {
+                            "key": "peperomia",
+                            "value": "Peperomia",
+                            "type": "active"
+                        },
+                        {
+                            "key": "philodendron",
+                            "value": "Philodendron",
+                            "type": "active"
+                        },
+                        {
+                            "key": "UNKNOWN",
+                            "value": "Unknown",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedPlantType.value",
+                    "value": "plantType.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "plantCultivation",
+    "version": 1
+}

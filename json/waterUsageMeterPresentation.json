@@ -13,7 +13,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.waterUsageDay.label}}",
+            "label": "Today",
             "displayType": "state",
             "state": {
                 "label": "{{waterUsageDay.value}}",
@@ -21,7 +21,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.waterUsageMonth.label}}",
+            "label": "This month",
             "displayType": "state",
             "state": {
                 "label": "{{waterUsageMonth.value}}",
@@ -32,7 +32,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.waterUsageDay.label}}",
+                "label": "Today",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "waterUsageDay.value",
@@ -41,7 +41,7 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.waterUsageMonth.label}}",
+                "label": "This month",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "waterUsageMonth.value",
