@@ -1,45 +1,45 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Speaker group",
             "displayType": "state",
             "state": {
                 "label": "{{groupRole.value}}",
                 "alternatives": [
                     {
                         "key": "primary",
-                        "value": "{{i18n.attributes.groupRole.i18n.value.primary.label}}",
+                        "value": "Main speaker",
                         "type": "active"
                     },
                     {
                         "key": "auxilary",
-                        "value": "{{i18n.attributes.groupRole.i18n.value.auxilary.label}}",
+                        "value": "Secondary speaker",
                         "type": "active"
                     },
                     {
                         "key": "ungrouped",
-                        "value": "{{i18n.attributes.groupRole.i18n.value.ungrouped.label}}",
+                        "value": "Ungrouped",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Speaker group",
             "displayType": "state",
             "state": {
                 "label": "{{groupPrimaryDeviceId.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Speaker group",
             "displayType": "state",
             "state": {
                 "label": "{{groupId.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.groupVolume.label}}",
+            "label": "Group volume",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -54,7 +54,7 @@
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Speaker group",
             "displayType": "list",
             "list": {
                 "command": {
@@ -74,7 +74,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.groupMute.label}}",
+            "label": "Mute group",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -90,12 +90,12 @@
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "{{i18n.attributes.groupMute.i18n.value.muted.label}}",
+                            "value": "Muted",
                             "type": "inactive"
                         },
                         {
                             "key": "unmuted",
-                            "value": "{{i18n.attributes.groupMute.i18n.value.unmuted.label}}",
+                            "value": "Unmuted",
                             "type": "active"
                         }
                     ]
@@ -106,7 +106,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.groupVolume.label}}",
+                "label": "Group volume",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -119,18 +119,18 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.groupMute.label}}",
+                "label": "Mute group",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "{{i18n.attributes.groupMute.i18n.value.muted.label}}",
+                            "value": "Muted",
                             "type": "inactive"
                         },
                         {
                             "key": "unmuted",
-                            "value": "{{i18n.attributes.groupMute.i18n.value.unmuted.label}}",
+                            "value": "Unmuted",
                             "type": "active"
                         }
                     ],
@@ -142,7 +142,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.groupVolume.label}}",
+                "label": "Group volume",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -155,18 +155,18 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.groupMute.label}}",
+                "label": "Mute group",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "muteGroup",
-                            "value": "{{i18n.commands.muteGroup.label}}",
+                            "value": "Muted",
                             "type": "inactive"
                         },
                         {
                             "key": "unmuteGroup",
-                            "value": "{{i18n.commands.unmuteGroup.label}}",
+                            "value": "Unmuted",
                             "type": "active"
                         }
                     ]

@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Ozone",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -26,7 +26,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Ozone",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "ozone.value",

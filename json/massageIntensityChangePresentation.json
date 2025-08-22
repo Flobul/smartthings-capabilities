@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Massage",
             "displayType": "list",
             "list": {
                 "command": {
@@ -9,17 +9,17 @@
                     "alternatives": [
                         {
                             "key": "head",
-                            "value": "{{i18n.commands.nextIntensity.arguments.position.i18n.head.label}}",
+                            "value": "Head intensity",
                             "type": "active"
                         },
                         {
                             "key": "foot",
-                            "value": "{{i18n.commands.nextIntensity.arguments.position.i18n.foot.label}}",
+                            "value": "Foot intensity",
                             "type": "active"
                         },
                         {
                             "key": "whole",
-                            "value": "{{i18n.commands.nextIntensity.arguments.position.i18n.whole.label}}",
+                            "value": "Intensity",
                             "type": "active"
                         }
                     ],

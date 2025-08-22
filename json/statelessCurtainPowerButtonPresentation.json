@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Curtain",
             "displayType": "list",
             "list": {
                 "command": {
@@ -9,17 +9,17 @@
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "close",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.close.label}}",
+                            "value": "Close",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         }
                     ],
@@ -33,23 +33,23 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Curtain",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "close",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.close.label}}",
+                            "value": "Close",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         }
                     ],

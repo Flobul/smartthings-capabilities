@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Volume",
             "displayType": "list",
             "list": {
                 "command": {
@@ -28,7 +28,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Volume",
                 "displayType": "list",
                 "list": {
                     "alternatives": [

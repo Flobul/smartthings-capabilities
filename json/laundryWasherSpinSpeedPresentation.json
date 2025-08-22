@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Spin speed",
             "displayType": "list",
             "list": {
                 "command": {
@@ -62,7 +62,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Spin speed",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -91,7 +91,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Spin speed",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
