@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.attributes.stunUrl.label}}",
+            "label": "STUN URL",
             "displayType": "state",
             "state": {
                 "label": "{{stunUrl.value}}"

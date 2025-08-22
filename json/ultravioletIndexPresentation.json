@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "UV index",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -16,7 +16,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "UV index",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "ultravioletIndex.value",
