@@ -6,72 +6,72 @@
                 "alternatives": [
                     {
                         "key": "0",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.0.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     },
                     {
                         "key": "1",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.1.label}}",
+                        "value": "Low",
                         "type": "active"
                     },
                     {
                         "key": "2",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.2.label}}",
+                        "value": "Medium",
                         "type": "active"
                     },
                     {
                         "key": "3",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.3.label}}",
+                        "value": "High",
                         "type": "active"
                     },
                     {
                         "key": "4",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.4.label}}",
+                        "value": "Boost",
                         "type": "active"
                     },
                     {
                         "key": "5",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.5.label}}",
+                        "value": "Auto",
                         "type": "active"
                     },
                     {
                         "key": "6",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.6.label}}",
+                        "value": "Smart",
                         "type": "active"
                     },
                     {
                         "key": "7",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.7.label}}",
+                        "value": "Low",
                         "type": "active"
                     },
                     {
                         "key": "14",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.14.label}}",
+                        "value": "Smart",
                         "type": "active"
                     },
                     {
                         "key": "15",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.15.label}}",
+                        "value": "Low",
                         "type": "active"
                     },
                     {
                         "key": "16",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.16.label}}",
+                        "value": "Medium",
                         "type": "active"
                     },
                     {
                         "key": "17",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.17.label}}",
+                        "value": "High",
                         "type": "active"
                     },
                     {
                         "key": "18",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.18.label}}",
+                        "value": "Max",
                         "type": "active"
                     },
                     {
                         "key": "19",
-                        "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.19.label}}",
+                        "value": "Boost",
                         "type": "active"
                     }
                 ]
@@ -83,68 +83,68 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "1",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.1.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "2",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.2.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "3",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.3.label}}",
+                            "value": "High",
                             "type": "active"
                         },
                         {
                             "key": "4",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.4.label}}",
+                            "value": "Boost",
                             "type": "active"
                         },
                         {
                             "key": "6",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.6.label}}",
+                            "value": "Smart",
                             "type": "active"
                         },
                         {
                             "key": "7",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.7.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "14",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.14.label}}",
+                            "value": "Smart",
                             "type": "active"
                         },
                         {
                             "key": "15",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.15.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "16",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.16.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "17",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.17.label}}",
+                            "value": "High",
                             "type": "active"
                         },
                         {
                             "key": "18",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.18.label}}",
+                            "value": "Max",
                             "type": "active"
                         },
                         {
                             "key": "19",
-                            "value": "{{i18n.attributes.hoodFanSpeed.i18n.value.19.label}}",
+                            "value": "Boost",
                             "type": "active"
                         }
                     ],
@@ -157,73 +157,73 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "0",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.0.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "1",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.1.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "2",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.2.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "3",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.3.label}}",
+                            "value": "High",
                             "type": "active"
                         },
                         {
                             "key": "4",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.4.label}}",
+                            "value": "Boost",
                             "type": "active"
                         },
                         {
                             "key": "6",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.6.label}}",
+                            "value": "Smart",
                             "type": "active"
                         },
                         {
                             "key": "7",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.7.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "14",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.14.label}}",
+                            "value": "Smart",
                             "type": "active"
                         },
                         {
                             "key": "18",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.18.label}}",
+                            "value": "Max",
                             "type": "active"
                         },
                         {
                             "key": "19",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.19.label}}",
+                            "value": "Boost",
                             "type": "active"
                         },
                         {
                             "key": "17",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.17.label}}",
+                            "value": "High",
                             "type": "active"
                         },
                         {
                             "key": "16",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.16.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "15",
-                            "value": "{{i18n.commands.setHoodFanSpeed.arguments.speed.i18n.15.label}}",
+                            "value": "Low",
                             "type": "active"
                         }
                     ],
