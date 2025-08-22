@@ -65,11 +65,11 @@
                         "low": {
                             "label": "Faible"
                         },
-                        "quiet": {
-                            "label": "Silencieux"
-                        },
                         "medium": {
                             "label": "Moyen"
+                        },
+                        "quiet": {
+                            "label": "Silencieux"
                         },
                         "off": {
                             "label": "Désactivé"

@@ -204,14 +204,14 @@
                         "burningBushSpindletree": {
                             "label": "Burning bush"
                         },
-                        "endive": {
-                            "label": "Endive"
-                        },
                         "pakchoi": {
                             "label": "Bok choy"
                         },
                         "none": {
                             "label": "None"
+                        },
+                        "endive": {
+                            "label": "Endive"
                         },
                         "thyme": {
                             "label": "Thyme"
@@ -240,11 +240,11 @@
                         "leafRedChicory": {
                             "label": "Red leaf chicory"
                         },
-                        "sage": {
-                            "label": "Sage"
-                        },
                         "lollobionda bartimer": {
                             "label": "Bartimer lettuce"
+                        },
+                        "sage": {
+                            "label": "Sage"
                         },
                         "eggplant": {
                             "label": "Aubergine"
@@ -276,11 +276,11 @@
                         "lettuce": {
                             "label": "Lettuce"
                         },
-                        "rosemary": {
-                            "label": "Rosemary"
-                        },
                         "paprika": {
                             "label": "Paprika"
+                        },
+                        "rosemary": {
+                            "label": "Rosemary"
                         },
                         "monstera": {
                             "label": "Monstera"
@@ -297,11 +297,11 @@
                         "UNKNOWN": {
                             "label": "Unknown"
                         },
-                        "lettuce jeokoak": {
-                            "label": "Korean red lettuce"
-                        },
                         "garlandChrysanthemum": {
                             "label": "Garland chrysanthemum"
+                        },
+                        "lettuce jeokoak": {
+                            "label": "Korean red lettuce"
                         },
                         "peaceLily": {
                             "label": "Peace lily"

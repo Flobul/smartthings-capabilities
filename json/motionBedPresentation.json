@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "preset1",
-                        "value": "{{i18n.attributes.mode.i18n.value.preset1.label}}",
+                        "value": "Preset",
                         "type": "active"
                     },
                     {
                         "key": "preset2",
-                        "value": "{{i18n.attributes.mode.i18n.value.preset2.label}}",
+                        "value": "Preset 2",
                         "type": "active"
                     },
                     {
                         "key": "zeroG",
-                        "value": "{{i18n.attributes.mode.i18n.value.zeroG.label}}",
+                        "value": "Zero gravity",
                         "type": "active"
                     },
                     {
                         "key": "flat",
-                        "value": "{{i18n.attributes.mode.i18n.value.flat.label}}",
+                        "value": "Flat",
                         "type": "active"
                     },
                     {
                         "key": "tv",
-                        "value": "{{i18n.attributes.mode.i18n.value.tv.label}}",
+                        "value": "TV",
                         "type": "active"
                     },
                     {
                         "key": "reading",
-                        "value": "{{i18n.attributes.mode.i18n.value.reading.label}}",
+                        "value": "Reading",
                         "type": "active"
                     },
                     {
                         "key": "antiSnore",
-                        "value": "{{i18n.attributes.mode.i18n.value.antiSnore.label}}",
+                        "value": "Anti-snore",
                         "type": "active"
                     }
                 ]
@@ -47,7 +47,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Motion",
             "displayType": "list",
             "list": {
                 "command": {
@@ -55,37 +55,37 @@
                     "alternatives": [
                         {
                             "key": "preset1",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.preset1.label}}",
+                            "value": "Preset",
                             "type": "active"
                         },
                         {
                             "key": "preset2",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.preset2.label}}",
+                            "value": "Preset 2",
                             "type": "active"
                         },
                         {
                             "key": "zeroG",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.zeroG.label}}",
+                            "value": "Zero gravity",
                             "type": "active"
                         },
                         {
                             "key": "flat",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.flat.label}}",
+                            "value": "Flat",
                             "type": "active"
                         },
                         {
                             "key": "tv",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.tv.label}}",
+                            "value": "TV",
                             "type": "active"
                         },
                         {
                             "key": "reading",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.reading.label}}",
+                            "value": "Reading",
                             "type": "active"
                         },
                         {
                             "key": "antiSnore",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.antiSnore.label}}",
+                            "value": "Anti-snore",
                             "type": "active"
                         }
                     ],
@@ -98,37 +98,37 @@
                     "alternatives": [
                         {
                             "key": "preset1",
-                            "value": "{{i18n.attributes.mode.i18n.value.preset1.label}}",
+                            "value": "Preset",
                             "type": "active"
                         },
                         {
                             "key": "preset2",
-                            "value": "{{i18n.attributes.mode.i18n.value.preset2.label}}",
+                            "value": "Preset 2",
                             "type": "active"
                         },
                         {
                             "key": "zeroG",
-                            "value": "{{i18n.attributes.mode.i18n.value.zeroG.label}}",
+                            "value": "Zero gravity",
                             "type": "active"
                         },
                         {
                             "key": "flat",
-                            "value": "{{i18n.attributes.mode.i18n.value.flat.label}}",
+                            "value": "Flat",
                             "type": "active"
                         },
                         {
                             "key": "tv",
-                            "value": "{{i18n.attributes.mode.i18n.value.tv.label}}",
+                            "value": "TV",
                             "type": "active"
                         },
                         {
                             "key": "reading",
-                            "value": "{{i18n.attributes.mode.i18n.value.reading.label}}",
+                            "value": "Reading",
                             "type": "active"
                         },
                         {
                             "key": "antiSnore",
-                            "value": "{{i18n.attributes.mode.i18n.value.antiSnore.label}}",
+                            "value": "Anti-snore",
                             "type": "active"
                         }
                     ]
@@ -136,7 +136,7 @@
             }
         },
         {
-            "label": "{{i18n.commands.start.label}}",
+            "label": "start",
             "displayType": "list",
             "list": {
                 "command": {
@@ -144,32 +144,32 @@
                     "alternatives": [
                         {
                             "key": "headUp",
-                            "value": "{{i18n.commands.start.arguments.position.i18n.headUp.label}}",
+                            "value": "Head up",
                             "type": "active"
                         },
                         {
                             "key": "headDown",
-                            "value": "{{i18n.commands.start.arguments.position.i18n.headDown.label}}",
+                            "value": "Head down",
                             "type": "active"
                         },
                         {
                             "key": "footUp",
-                            "value": "{{i18n.commands.start.arguments.position.i18n.footUp.label}}",
+                            "value": "Foot up",
                             "type": "active"
                         },
                         {
                             "key": "footDown",
-                            "value": "{{i18n.commands.start.arguments.position.i18n.footDown.label}}",
+                            "value": "Foot down",
                             "type": "active"
                         },
                         {
                             "key": "elevationUp",
-                            "value": "{{i18n.commands.start.arguments.position.i18n.elevationUp.label}}",
+                            "value": "Elevation up",
                             "type": "active"
                         },
                         {
                             "key": "elevationDown",
-                            "value": "{{i18n.commands.start.arguments.position.i18n.elevationDown.label}}",
+                            "value": "Elevation down",
                             "type": "active"
                         }
                     ],
@@ -179,7 +179,7 @@
             }
         },
         {
-            "label": "{{i18n.commands.stop.label}}",
+            "label": "stop",
             "displayType": "list",
             "list": {
                 "command": {
@@ -187,32 +187,32 @@
                     "alternatives": [
                         {
                             "key": "headUp",
-                            "value": "{{i18n.commands.stop.arguments.position.i18n.headUp.label}}",
+                            "value": "Head up",
                             "type": "active"
                         },
                         {
                             "key": "headDown",
-                            "value": "{{i18n.commands.stop.arguments.position.i18n.headDown.label}}",
+                            "value": "Head down",
                             "type": "active"
                         },
                         {
                             "key": "footUp",
-                            "value": "{{i18n.commands.stop.arguments.position.i18n.footUp.label}}",
+                            "value": "Foot up",
                             "type": "active"
                         },
                         {
                             "key": "footDown",
-                            "value": "{{i18n.commands.stop.arguments.position.i18n.footDown.label}}",
+                            "value": "Foot down",
                             "type": "active"
                         },
                         {
                             "key": "elevationUp",
-                            "value": "{{i18n.commands.stop.arguments.position.i18n.elevationUp.label}}",
+                            "value": "Elevation up",
                             "type": "active"
                         },
                         {
                             "key": "elevationDown",
-                            "value": "{{i18n.commands.stop.arguments.position.i18n.elevationDown.label}}",
+                            "value": "Elevation down",
                             "type": "active"
                         }
                     ],
@@ -225,43 +225,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Motion",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "preset1",
-                            "value": "{{i18n.attributes.mode.i18n.value.preset1.label}}",
+                            "value": "Preset",
                             "type": "active"
                         },
                         {
                             "key": "preset2",
-                            "value": "{{i18n.attributes.mode.i18n.value.preset2.label}}",
+                            "value": "Preset 2",
                             "type": "active"
                         },
                         {
                             "key": "zeroG",
-                            "value": "{{i18n.attributes.mode.i18n.value.zeroG.label}}",
+                            "value": "Zero gravity",
                             "type": "active"
                         },
                         {
                             "key": "flat",
-                            "value": "{{i18n.attributes.mode.i18n.value.flat.label}}",
+                            "value": "Flat",
                             "type": "active"
                         },
                         {
                             "key": "tv",
-                            "value": "{{i18n.attributes.mode.i18n.value.tv.label}}",
+                            "value": "TV",
                             "type": "active"
                         },
                         {
                             "key": "reading",
-                            "value": "{{i18n.attributes.mode.i18n.value.reading.label}}",
+                            "value": "Reading",
                             "type": "active"
                         },
                         {
                             "key": "antiSnore",
-                            "value": "{{i18n.attributes.mode.i18n.value.antiSnore.label}}",
+                            "value": "Anti-snore",
                             "type": "active"
                         }
                     ],
@@ -274,43 +274,43 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Motion",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "preset1",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.preset1.label}}",
+                            "value": "Preset",
                             "type": "active"
                         },
                         {
                             "key": "preset2",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.preset2.label}}",
+                            "value": "Preset 2",
                             "type": "active"
                         },
                         {
                             "key": "zeroG",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.zeroG.label}}",
+                            "value": "Zero gravity",
                             "type": "active"
                         },
                         {
                             "key": "flat",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.flat.label}}",
+                            "value": "Flat",
                             "type": "active"
                         },
                         {
                             "key": "tv",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.tv.label}}",
+                            "value": "TV",
                             "type": "active"
                         },
                         {
                             "key": "reading",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.reading.label}}",
+                            "value": "Reading",
                             "type": "active"
                         },
                         {
                             "key": "antiSnore",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.antiSnore.label}}",
+                            "value": "Anti-snore",
                             "type": "active"
                         }
                     ],
