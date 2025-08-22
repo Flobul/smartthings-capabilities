@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.volumeAlarm.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.volumeAlarm.i18n.value.warning.label}}",
+                        "value": "Warning",
                         "type": "active"
                     },
                     {
                         "key": "alarm",
-                        "value": "{{i18n.attributes.volumeAlarm.i18n.value.alarm.label}}",
+                        "value": "Critical",
                         "type": "active"
                     }
                 ]
@@ -26,17 +26,17 @@
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.durationAlarm.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.durationAlarm.i18n.value.warning.label}}",
+                        "value": "Warning",
                         "type": "active"
                     },
                     {
                         "key": "alarm",
-                        "value": "{{i18n.attributes.durationAlarm.i18n.value.alarm.label}}",
+                        "value": "Critical",
                         "type": "active"
                     }
                 ]
@@ -46,17 +46,17 @@
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.rateAlarm.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.rateAlarm.i18n.value.warning.label}}",
+                        "value": "Warning",
                         "type": "active"
                     },
                     {
                         "key": "alarm",
-                        "value": "{{i18n.attributes.rateAlarm.i18n.value.alarm.label}}",
+                        "value": "Critical",
                         "type": "active"
                     }
                 ]
@@ -67,72 +67,72 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.volumeAlarm.label}}",
+            "label": "Volume",
             "displayType": "state",
             "state": {
                 "label": "{{volumeAlarm.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.volumeAlarm.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.volumeAlarm.i18n.value.warning.label}}",
+                        "value": "Warning",
                         "type": "active"
                     },
                     {
                         "key": "alarm",
-                        "value": "{{i18n.attributes.volumeAlarm.i18n.value.alarm.label}}",
+                        "value": "Critical",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.durationAlarm.label}}",
+            "label": "Duration",
             "displayType": "state",
             "state": {
                 "label": "{{durationAlarm.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.durationAlarm.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.durationAlarm.i18n.value.warning.label}}",
+                        "value": "Warning",
                         "type": "active"
                     },
                     {
                         "key": "alarm",
-                        "value": "{{i18n.attributes.durationAlarm.i18n.value.alarm.label}}",
+                        "value": "Critical",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.rateAlarm.label}}",
+            "label": "Rate",
             "displayType": "state",
             "state": {
                 "label": "{{rateAlarm.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.rateAlarm.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.rateAlarm.i18n.value.warning.label}}",
+                        "value": "Warning",
                         "type": "active"
                     },
                     {
                         "key": "alarm",
-                        "value": "{{i18n.attributes.rateAlarm.i18n.value.alarm.label}}",
+                        "value": "Critical",
                         "type": "active"
                     }
                 ]
@@ -142,23 +142,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.volumeAlarm.label}}",
+                "label": "Volume",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "normal",
-                            "value": "{{i18n.attributes.volumeAlarm.i18n.value.normal.label}}",
+                            "value": "Normal",
                             "type": "inactive"
                         },
                         {
                             "key": "warning",
-                            "value": "{{i18n.attributes.volumeAlarm.i18n.value.warning.label}}",
+                            "value": "Warning",
                             "type": "active"
                         },
                         {
                             "key": "alarm",
-                            "value": "{{i18n.attributes.volumeAlarm.i18n.value.alarm.label}}",
+                            "value": "Critical",
                             "type": "active"
                         }
                     ],
@@ -169,23 +169,23 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.durationAlarm.label}}",
+                "label": "Duration",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "normal",
-                            "value": "{{i18n.attributes.durationAlarm.i18n.value.normal.label}}",
+                            "value": "Normal",
                             "type": "inactive"
                         },
                         {
                             "key": "warning",
-                            "value": "{{i18n.attributes.durationAlarm.i18n.value.warning.label}}",
+                            "value": "Warning",
                             "type": "active"
                         },
                         {
                             "key": "alarm",
-                            "value": "{{i18n.attributes.durationAlarm.i18n.value.alarm.label}}",
+                            "value": "Critical",
                             "type": "active"
                         }
                     ],
@@ -196,23 +196,23 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.rateAlarm.label}}",
+                "label": "Rate",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "normal",
-                            "value": "{{i18n.attributes.rateAlarm.i18n.value.normal.label}}",
+                            "value": "Normal",
                             "type": "inactive"
                         },
                         {
                             "key": "warning",
-                            "value": "{{i18n.attributes.rateAlarm.i18n.value.warning.label}}",
+                            "value": "Warning",
                             "type": "active"
                         },
                         {
                             "key": "alarm",
-                            "value": "{{i18n.attributes.rateAlarm.i18n.value.alarm.label}}",
+                            "value": "Critical",
                             "type": "active"
                         }
                     ],
