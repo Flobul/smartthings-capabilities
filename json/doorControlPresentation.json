@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "closed",
-                        "value": "{{i18n.attributes.door.i18n.value.closed.label}}",
+                        "value": "Closed",
                         "type": "inactive"
                     },
                     {
                         "key": "open",
-                        "value": "{{i18n.attributes.door.i18n.value.open.label}}",
+                        "value": "Open",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.door.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "active"
                     },
                     {
                         "key": "opening",
-                        "value": "{{i18n.attributes.door.i18n.value.opening.label}}",
+                        "value": "Opening…",
                         "type": "active"
                     },
                     {
                         "key": "closing",
-                        "value": "{{i18n.attributes.door.i18n.value.closing.label}}",
+                        "value": "Closing…",
                         "type": "active"
                     }
                 ]
@@ -52,7 +52,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Door",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -67,27 +67,27 @@
                     "alternatives": [
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.door.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.door.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.door.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "active"
                         },
                         {
                             "key": "opening",
-                            "value": "{{i18n.attributes.door.i18n.value.opening.label}}",
+                            "value": "Opening…",
                             "type": "active"
                         },
                         {
                             "key": "closing",
-                            "value": "{{i18n.attributes.door.i18n.value.closing.label}}",
+                            "value": "Closing…",
                             "type": "active"
                         }
                     ]
@@ -98,33 +98,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Door",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "closing",
-                            "value": "{{i18n.attributes.door.i18n.value.closing.label}}",
+                            "value": "Closing…",
                             "type": "active"
                         },
                         {
                             "key": "opening",
-                            "value": "{{i18n.attributes.door.i18n.value.opening.label}}",
+                            "value": "Opening…",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.door.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.door.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.door.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "active"
                         }
                     ],
@@ -135,18 +135,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Door",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "close",
-                            "value": "{{i18n.commands.close.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "{{i18n.commands.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         }
                     ]

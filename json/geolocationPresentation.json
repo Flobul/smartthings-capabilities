@@ -1,56 +1,56 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.attributes.latitude.label}}",
+            "label": "Latitude",
             "displayType": "state",
             "state": {
                 "label": "{{latitude.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.longitude.label}}",
+            "label": "Longitude",
             "displayType": "state",
             "state": {
                 "label": "{{longitude.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Geolocation",
             "displayType": "state",
             "state": {
                 "label": "{{method.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Geolocation",
             "displayType": "state",
             "state": {
                 "label": "{{heading.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Geolocation",
             "displayType": "state",
             "state": {
                 "label": "{{accuracy.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Geolocation",
             "displayType": "state",
             "state": {
                 "label": "{{altitudeAccuracy.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Geolocation",
             "displayType": "state",
             "state": {
                 "label": "{{speed.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Geolocation",
             "displayType": "state",
             "state": {
                 "label": "{{lastUpdateTime.value}}"

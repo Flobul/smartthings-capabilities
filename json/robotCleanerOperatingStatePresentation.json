@@ -6,87 +6,87 @@
                 "alternatives": [
                     {
                         "key": "stopped",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.stopped.label}}",
+                        "value": "Stopped",
                         "type": "active"
                     },
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                        "value": "Cleaning",
                         "type": "active"
                     },
                     {
                         "key": "paused",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                        "value": "Paused",
                         "type": "active"
                     },
                     {
                         "key": "seekingCharger",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.seekingCharger.label}}",
+                        "value": "Returning",
                         "type": "active"
                     },
                     {
                         "key": "charging",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.charging.label}}",
+                        "value": "Charging",
                         "type": "active"
                     },
                     {
                         "key": "docked",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.docked.label}}",
+                        "value": "Fully charged",
                         "type": "active"
                     },
                     {
                         "key": "unableToStartOrResume",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.unableToStartOrResume.label}}",
+                        "value": "Couldn't start",
                         "type": "active"
                     },
                     {
                         "key": "unableToCompleteOperation",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.unableToCompleteOperation.label}}",
+                        "value": "Couldn't complete",
                         "type": "active"
                     },
                     {
                         "key": "commandInvalidInState",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.commandInvalidInState.label}}",
+                        "value": "Couldn't do action",
                         "type": "active"
                     },
                     {
                         "key": "failedToFindChargingDock",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.failedToFindChargingDock.label}}",
+                        "value": "Couldn't find location",
                         "type": "active"
                     },
                     {
                         "key": "stuck",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.stuck.label}}",
+                        "value": "Stuck",
                         "type": "active"
                     },
                     {
                         "key": "dustBinMissing",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.dustBinMissing.label}}",
+                        "value": "Dust bin missing",
                         "type": "active"
                     },
                     {
                         "key": "dustBinFull",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.dustBinFull.label}}",
+                        "value": "Dust bin full",
                         "type": "active"
                     },
                     {
                         "key": "waterTankEmpty",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.waterTankEmpty.label}}",
+                        "value": "Water tank empty",
                         "type": "active"
                     },
                     {
                         "key": "waterTankMissing",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.waterTankMissing.label}}",
+                        "value": "Water tank missing",
                         "type": "active"
                     },
                     {
                         "key": "waterTankLidOpen",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.waterTankLidOpen.label}}",
+                        "value": "Water tank lid open",
                         "type": "active"
                     },
                     {
                         "key": "mopCleaningPadMissing",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.mopCleaningPadMissing.label}}",
+                        "value": "Mop missing",
                         "type": "active"
                     }
                 ]
@@ -97,118 +97,118 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Status",
             "displayType": "state",
             "state": {
                 "label": "{{operatingState.value}}",
                 "alternatives": [
                     {
                         "key": "stopped",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.stopped.label}}",
+                        "value": "Stopped",
                         "type": "active"
                     },
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                        "value": "Cleaning",
                         "type": "active"
                     },
                     {
                         "key": "paused",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                        "value": "Paused",
                         "type": "active"
                     },
                     {
                         "key": "seekingCharger",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.seekingCharger.label}}",
+                        "value": "Returning",
                         "type": "active"
                     },
                     {
                         "key": "charging",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.charging.label}}",
+                        "value": "Charging",
                         "type": "active"
                     },
                     {
                         "key": "docked",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.docked.label}}",
+                        "value": "Fully charged",
                         "type": "active"
                     },
                     {
                         "key": "unableToStartOrResume",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.unableToStartOrResume.label}}",
+                        "value": "Couldn't start",
                         "type": "active"
                     },
                     {
                         "key": "unableToCompleteOperation",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.unableToCompleteOperation.label}}",
+                        "value": "Couldn't complete",
                         "type": "active"
                     },
                     {
                         "key": "commandInvalidInState",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.commandInvalidInState.label}}",
+                        "value": "Couldn't do action",
                         "type": "active"
                     },
                     {
                         "key": "failedToFindChargingDock",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.failedToFindChargingDock.label}}",
+                        "value": "Couldn't find location",
                         "type": "active"
                     },
                     {
                         "key": "stuck",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.stuck.label}}",
+                        "value": "Stuck",
                         "type": "active"
                     },
                     {
                         "key": "dustBinMissing",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.dustBinMissing.label}}",
+                        "value": "Dust bin missing",
                         "type": "active"
                     },
                     {
                         "key": "dustBinFull",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.dustBinFull.label}}",
+                        "value": "Dust bin full",
                         "type": "active"
                     },
                     {
                         "key": "waterTankEmpty",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.waterTankEmpty.label}}",
+                        "value": "Water tank empty",
                         "type": "active"
                     },
                     {
                         "key": "waterTankMissing",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.waterTankMissing.label}}",
+                        "value": "Water tank missing",
                         "type": "active"
                     },
                     {
                         "key": "waterTankLidOpen",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.waterTankLidOpen.label}}",
+                        "value": "Water tank lid open",
                         "type": "active"
                     },
                     {
                         "key": "mopCleaningPadMissing",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.mopCleaningPadMissing.label}}",
+                        "value": "Mop missing",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Status",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "start",
-                            "value": "{{i18n.commands.start.label}}",
+                            "value": "Start",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         },
                         {
                             "key": "goHome",
-                            "value": "{{i18n.commands.goHome.label}}",
+                            "value": "Return",
                             "type": "active"
                         }
                     ],
@@ -220,93 +220,93 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.stopped.label}}",
+                            "value": "Stopped",
                             "type": "active"
                         },
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                            "value": "Cleaning",
                             "type": "active"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                            "value": "Paused",
                             "type": "active"
                         },
                         {
                             "key": "seekingCharger",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.seekingCharger.label}}",
+                            "value": "Returning",
                             "type": "active"
                         },
                         {
                             "key": "charging",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.charging.label}}",
+                            "value": "Charging",
                             "type": "active"
                         },
                         {
                             "key": "docked",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.docked.label}}",
+                            "value": "Fully charged",
                             "type": "active"
                         },
                         {
                             "key": "unableToStartOrResume",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.unableToStartOrResume.label}}",
+                            "value": "Couldn't start",
                             "type": "active"
                         },
                         {
                             "key": "unableToCompleteOperation",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.unableToCompleteOperation.label}}",
+                            "value": "Couldn't complete",
                             "type": "active"
                         },
                         {
                             "key": "commandInvalidInState",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.commandInvalidInState.label}}",
+                            "value": "Couldn't do action",
                             "type": "active"
                         },
                         {
                             "key": "failedToFindChargingDock",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.failedToFindChargingDock.label}}",
+                            "value": "Couldn't find location",
                             "type": "active"
                         },
                         {
                             "key": "stuck",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.stuck.label}}",
+                            "value": "Stuck",
                             "type": "active"
                         },
                         {
                             "key": "dustBinMissing",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.dustBinMissing.label}}",
+                            "value": "Dust bin missing",
                             "type": "active"
                         },
                         {
                             "key": "dustBinFull",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.dustBinFull.label}}",
+                            "value": "Dust bin full",
                             "type": "active"
                         },
                         {
                             "key": "waterTankEmpty",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.waterTankEmpty.label}}",
+                            "value": "Water tank empty",
                             "type": "active"
                         },
                         {
                             "key": "waterTankMissing",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.waterTankMissing.label}}",
+                            "value": "Water tank missing",
                             "type": "active"
                         },
                         {
                             "key": "waterTankLidOpen",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.waterTankLidOpen.label}}",
+                            "value": "Water tank lid open",
                             "type": "active"
                         },
                         {
                             "key": "mopCleaningPadMissing",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.mopCleaningPadMissing.label}}",
+                            "value": "Mop missing",
                             "type": "active"
                         }
                     ],
@@ -319,23 +319,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "start",
-                            "value": "{{i18n.commands.start.label}}",
+                            "value": "Start",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         },
                         {
                             "key": "goHome",
-                            "value": "{{i18n.commands.goHome.label}}",
+                            "value": "Return",
                             "type": "active"
                         }
                     ],

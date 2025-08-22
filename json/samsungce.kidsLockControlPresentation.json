@@ -3,18 +3,18 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Child lock",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "lock",
-                            "value": "{{i18n.commands.lock.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "unlock",
-                            "value": "{{i18n.commands.unlock.label}}",
+                            "value": "Off",
                             "type": "active"
                         }
                     ]
