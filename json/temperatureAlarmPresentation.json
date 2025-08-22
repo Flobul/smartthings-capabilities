@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "cleared",
-                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.cleared.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "heat",
-                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.heat.label}}",
+                        "value": "Overheating",
                         "type": "active"
                     },
                     {
                         "key": "freeze",
-                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.freeze.label}}",
+                        "value": "Freezing",
                         "type": "active"
                     },
                     {
                         "key": "rateOfRise",
-                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.rateOfRise.label}}",
+                        "value": "Rapidly rising",
                         "type": "active"
                     }
                 ]
@@ -32,29 +32,29 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Temperature alert",
             "displayType": "state",
             "state": {
                 "label": "{{temperatureAlarm.value}}",
                 "alternatives": [
                     {
                         "key": "cleared",
-                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.cleared.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "heat",
-                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.heat.label}}",
+                        "value": "Overheating",
                         "type": "active"
                     },
                     {
                         "key": "freeze",
-                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.freeze.label}}",
+                        "value": "Freezing",
                         "type": "active"
                     },
                     {
                         "key": "rateOfRise",
-                        "value": "{{i18n.attributes.temperatureAlarm.i18n.value.rateOfRise.label}}",
+                        "value": "Rapidly rising",
                         "type": "active"
                     }
                 ]
@@ -64,28 +64,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Temperature alert",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cleared",
-                            "value": "{{i18n.attributes.temperatureAlarm.i18n.value.cleared.label}}",
+                            "value": "Normal",
                             "type": "inactive"
                         },
                         {
                             "key": "heat",
-                            "value": "{{i18n.attributes.temperatureAlarm.i18n.value.heat.label}}",
+                            "value": "Overheating",
                             "type": "active"
                         },
                         {
                             "key": "freeze",
-                            "value": "{{i18n.attributes.temperatureAlarm.i18n.value.freeze.label}}",
+                            "value": "Freezing",
                             "type": "active"
                         },
                         {
                             "key": "rateOfRise",
-                            "value": "{{i18n.attributes.temperatureAlarm.i18n.value.rateOfRise.label}}",
+                            "value": "Rapidly rising",
                             "type": "active"
                         }
                     ],

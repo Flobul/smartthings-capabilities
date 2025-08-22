@@ -3,13 +3,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Auto record sounds",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "capture",
-                            "value": "{{i18n.label}}",
+                            "value": "Auto record sounds",
                             "type": "active"
                         }
                     ]

@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "playing",
-                        "value": "{{i18n.attributes.playbackStatus.i18n.value.playing.label}}",
+                        "value": "Play",
                         "type": "active"
                     },
                     {
                         "key": "stopped",
-                        "value": "{{i18n.attributes.playbackStatus.i18n.value.stopped.label}}",
+                        "value": "Stop",
                         "type": "inactive"
                     },
                     {
                         "key": "paused",
-                        "value": "{{i18n.attributes.playbackStatus.i18n.value.paused.label}}",
+                        "value": "Pause",
                         "type": "inactive"
                     },
                     {
                         "key": "fast forwarding",
-                        "value": "{{i18n.attributes.playbackStatus.i18n.value.fast forwarding.label}}",
+                        "value": "Fast forward",
                         "type": "active"
                     },
                     {
                         "key": "rewinding",
-                        "value": "{{i18n.attributes.playbackStatus.i18n.value.rewinding.label}}",
+                        "value": "Rewind",
                         "type": "active"
                     }
                 ]
@@ -48,17 +48,17 @@
                         "alternatives": [
                             {
                                 "key": "stopped",
-                                "value": "{{i18n.attributes.playbackStatus.i18n.value.stopped.label}}",
+                                "value": "Stop",
                                 "type": "inactive"
                             },
                             {
                                 "key": "fast forwarding",
-                                "value": "{{i18n.attributes.playbackStatus.i18n.value.fast forwarding.label}}",
+                                "value": "Fast forward",
                                 "type": "active"
                             },
                             {
                                 "key": "rewinding",
-                                "value": "{{i18n.attributes.playbackStatus.i18n.value.rewinding.label}}",
+                                "value": "Rewind",
                                 "type": "active"
                             }
                         ]
@@ -79,17 +79,17 @@
                         "alternatives": [
                             {
                                 "key": "paused",
-                                "value": "{{i18n.attributes.playbackStatus.i18n.value.paused.label}}",
+                                "value": "Pause",
                                 "type": "inactive"
                             },
                             {
                                 "key": "fast forwarding",
-                                "value": "{{i18n.attributes.playbackStatus.i18n.value.fast forwarding.label}}",
+                                "value": "Fast forward",
                                 "type": "active"
                             },
                             {
                                 "key": "rewinding",
-                                "value": "{{i18n.attributes.playbackStatus.i18n.value.rewinding.label}}",
+                                "value": "Rewind",
                                 "type": "active"
                             }
                         ],
@@ -102,34 +102,34 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Media playback",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.commands.play.label}}",
+                            "value": "Play",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.stop.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         },
                         {
                             "key": "rewind",
-                            "value": "{{i18n.commands.rewind.label}}",
+                            "value": "Rewind",
                             "type": "active"
                         },
                         {
                             "key": "fastForward",
-                            "value": "{{i18n.commands.fastForward.label}}",
+                            "value": "Fast forward",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "inactive"
                         }
                     ],
@@ -141,27 +141,27 @@
                     "alternatives": [
                         {
                             "key": "playing",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.playing.label}}",
+                            "value": "Play",
                             "type": "active"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.stopped.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.paused.label}}",
+                            "value": "Pause",
                             "type": "inactive"
                         },
                         {
                             "key": "fast forwarding",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.fast forwarding.label}}",
+                            "value": "Fast forward",
                             "type": "active"
                         },
                         {
                             "key": "rewinding",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.rewinding.label}}",
+                            "value": "Rewind",
                             "type": "active"
                         }
                     ]
@@ -172,33 +172,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Media playback",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "playing",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.playing.label}}",
+                            "value": "Play",
                             "type": "active"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.stopped.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.paused.label}}",
+                            "value": "Pause",
                             "type": "inactive"
                         },
                         {
                             "key": "fast forwarding",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.fast forwarding.label}}",
+                            "value": "Fast forward",
                             "type": "active"
                         },
                         {
                             "key": "rewinding",
-                            "value": "{{i18n.attributes.playbackStatus.i18n.value.rewinding.label}}",
+                            "value": "Rewind",
                             "type": "active"
                         }
                     ],
@@ -210,33 +210,33 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Media playback",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.commands.play.label}}",
+                            "value": "Play",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.stop.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         },
                         {
                             "key": "rewind",
-                            "value": "{{i18n.commands.rewind.label}}",
+                            "value": "Rewind",
                             "type": "active"
                         },
                         {
                             "key": "fastForward",
-                            "value": "{{i18n.commands.fastForward.label}}",
+                            "value": "Fast forward",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "inactive"
                         }
                     ],

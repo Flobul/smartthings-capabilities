@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Dew point",
             "displayType": "state",
             "state": {
                 "label": "{{dewpoint.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Dew point",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "dewpoint.value",

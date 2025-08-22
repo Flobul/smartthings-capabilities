@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "clear",
-                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.clear.label}}",
+                        "value": "Clear",
                         "type": "inactive"
                     },
                     {
                         "key": "detected",
-                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.detected.label}}",
+                        "value": "Carbon monoxide detected",
                         "type": "active"
                     },
                     {
                         "key": "tested",
-                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.tested.label}}",
+                        "value": "Device tested",
                         "type": "inactive"
                     }
                 ]
@@ -27,24 +27,24 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Carbon monoxide detector",
             "displayType": "state",
             "state": {
                 "label": "{{carbonMonoxide.value}}",
                 "alternatives": [
                     {
                         "key": "clear",
-                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.clear.label}}",
+                        "value": "Clear",
                         "type": "inactive"
                     },
                     {
                         "key": "detected",
-                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.detected.label}}",
+                        "value": "Carbon monoxide detected",
                         "type": "active"
                     },
                     {
                         "key": "tested",
-                        "value": "{{i18n.attributes.carbonMonoxide.i18n.value.tested.label}}",
+                        "value": "Device tested",
                         "type": "inactive"
                     }
                 ]
@@ -54,23 +54,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Carbon monoxide detector",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "clear",
-                            "value": "{{i18n.attributes.carbonMonoxide.i18n.value.clear.label}}",
+                            "value": "Clear",
                             "type": "inactive"
                         },
                         {
                             "key": "detected",
-                            "value": "{{i18n.attributes.carbonMonoxide.i18n.value.detected.label}}",
+                            "value": "Carbon monoxide detected",
                             "type": "active"
                         },
                         {
                             "key": "tested",
-                            "value": "{{i18n.attributes.carbonMonoxide.i18n.value.tested.label}}",
+                            "value": "Device tested",
                             "type": "inactive"
                         }
                     ],

@@ -9,29 +9,14 @@
             "displayTemplate": "{{device.label}} {{attribute}} : {{value}}",
             "i18n": {
                 "value": {
-                    "running": {
-                        "label": "Pet is running"
-                    },
                     "resting": {
                         "label": "Pet is resting"
                     },
                     "idle": {
                         "label": "Pet activity is not found"
                     },
-                    "meowing": {
-                        "label": "Pet is meowing"
-                    },
-                    "pooping": {
-                        "label": "Pet is defecating"
-                    },
-                    "walking": {
-                        "label": "Pet is walking"
-                    },
                     "drinkingWater": {
                         "label": "Pet is drinking water"
-                    },
-                    "playing": {
-                        "label": "Pet is playing"
                     },
                     "barking": {
                         "label": "Pet is barking"
@@ -44,6 +29,24 @@
                     },
                     "peeing": {
                         "label": "Pet is urinating"
+                    },
+                    "running": {
+                        "label": "Pet is running"
+                    },
+                    "toileting": {
+                        "label": "Toileting"
+                    },
+                    "meowing": {
+                        "label": "Pet is meowing"
+                    },
+                    "pooping": {
+                        "label": "Pet is defecating"
+                    },
+                    "walking": {
+                        "label": "Pet is walking"
+                    },
+                    "playing": {
+                        "label": "Pet is playing"
                     }
                 }
             }
@@ -54,29 +57,14 @@
             "displayTemplate": "{{device.label}} {{attribute}} : {{value}}",
             "i18n": {
                 "value": {
-                    "running": {
-                        "label": "Course"
-                    },
                     "resting": {
                         "label": "Repos"
                     },
                     "idle": {
                         "label": "En veille"
                     },
-                    "pooping": {
-                        "label": "Toilettes (déchets solides)"
-                    },
-                    "walking": {
-                        "label": "Marche"
-                    },
-                    "meowing": {
-                        "label": "Miaulement"
-                    },
                     "drinkingWater": {
                         "label": "Hydratation"
-                    },
-                    "playing": {
-                        "label": "Jeu"
                     },
                     "barking": {
                         "label": "Aboiement"
@@ -89,6 +77,24 @@
                     },
                     "peeing": {
                         "label": "Toilettes (urine)"
+                    },
+                    "running": {
+                        "label": "Course"
+                    },
+                    "toileting": {
+                        "label": "Toileting"
+                    },
+                    "pooping": {
+                        "label": "Toilettes (déchets solides)"
+                    },
+                    "walking": {
+                        "label": "Marche"
+                    },
+                    "meowing": {
+                        "label": "Miaulement"
+                    },
+                    "playing": {
+                        "label": "Jeu"
                     }
                 }
             }
