@@ -6,32 +6,32 @@
                 "alternatives": [
                     {
                         "key": "noActivity",
-                        "value": "{{i18n.attributes.activity.i18n.value.noActivity.label}}",
+                        "value": "No activity",
                         "type": "inactive"
                     },
                     {
                         "key": "falling",
-                        "value": "{{i18n.attributes.activity.i18n.value.falling.label}}",
+                        "value": "Falling",
                         "type": "active"
                     },
                     {
                         "key": "lying",
-                        "value": "{{i18n.attributes.activity.i18n.value.lying.label}}",
+                        "value": "Lying",
                         "type": "active"
                     },
                     {
                         "key": "sitting",
-                        "value": "{{i18n.attributes.activity.i18n.value.sitting.label}}",
+                        "value": "Sitting",
                         "type": "active"
                     },
                     {
                         "key": "standing",
-                        "value": "{{i18n.attributes.activity.i18n.value.standing.label}}",
+                        "value": "Standing",
                         "type": "active"
                     },
                     {
                         "key": "eating",
-                        "value": "{{i18n.attributes.activity.i18n.value.eating.label}}",
+                        "value": "Eating",
                         "type": "active"
                     }
                 ]
@@ -42,39 +42,39 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Activity sensor",
             "displayType": "state",
             "state": {
                 "label": "{{activity.value}}",
                 "alternatives": [
                     {
                         "key": "noActivity",
-                        "value": "{{i18n.attributes.activity.i18n.value.noActivity.label}}",
+                        "value": "No activity",
                         "type": "inactive"
                     },
                     {
                         "key": "falling",
-                        "value": "{{i18n.attributes.activity.i18n.value.falling.label}}",
+                        "value": "Falling",
                         "type": "active"
                     },
                     {
                         "key": "lying",
-                        "value": "{{i18n.attributes.activity.i18n.value.lying.label}}",
+                        "value": "Lying",
                         "type": "active"
                     },
                     {
                         "key": "sitting",
-                        "value": "{{i18n.attributes.activity.i18n.value.sitting.label}}",
+                        "value": "Sitting",
                         "type": "active"
                     },
                     {
                         "key": "standing",
-                        "value": "{{i18n.attributes.activity.i18n.value.standing.label}}",
+                        "value": "Standing",
                         "type": "active"
                     },
                     {
                         "key": "eating",
-                        "value": "{{i18n.attributes.activity.i18n.value.eating.label}}",
+                        "value": "Eating",
                         "type": "active"
                     }
                 ]
@@ -84,38 +84,38 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Activity sensor",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "noActivity",
-                            "value": "{{i18n.attributes.activity.i18n.value.noActivity.label}}",
+                            "value": "No activity",
                             "type": "inactive"
                         },
                         {
                             "key": "falling",
-                            "value": "{{i18n.attributes.activity.i18n.value.falling.label}}",
+                            "value": "Falling",
                             "type": "active"
                         },
                         {
                             "key": "lying",
-                            "value": "{{i18n.attributes.activity.i18n.value.lying.label}}",
+                            "value": "Lying",
                             "type": "active"
                         },
                         {
                             "key": "sitting",
-                            "value": "{{i18n.attributes.activity.i18n.value.sitting.label}}",
+                            "value": "Sitting",
                             "type": "active"
                         },
                         {
                             "key": "standing",
-                            "value": "{{i18n.attributes.activity.i18n.value.standing.label}}",
+                            "value": "Standing",
                             "type": "active"
                         },
                         {
                             "key": "eating",
-                            "value": "{{i18n.attributes.activity.i18n.value.eating.label}}",
+                            "value": "Eating",
                             "type": "active"
                         }
                     ],

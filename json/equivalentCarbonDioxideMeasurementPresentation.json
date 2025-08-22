@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "eCO₂",
             "displayType": "state",
             "state": {
                 "label": "{{equivalentCarbonDioxideMeasurement.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "eCO₂",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "equivalentCarbonDioxideMeasurement.value",

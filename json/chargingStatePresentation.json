@@ -6,32 +6,32 @@
                 "alternatives": [
                     {
                         "key": "charging",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                        "value": "Charging",
                         "type": "active"
                     },
                     {
                         "key": "fullyCharged",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.fullyCharged.label}}",
+                        "value": "Fully charged",
                         "type": "active"
                     },
                     {
                         "key": "discharging",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.discharging.label}}",
+                        "value": "Discharging",
                         "type": "inactive"
                     },
                     {
                         "key": "stopped",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                        "value": "Not ready",
                         "type": "inactive"
                     },
                     {
                         "key": "error",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.error.label}}",
+                        "value": "Unavailable",
                         "type": "inactive"
                     },
                     {
                         "key": "other",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.other.label}}",
+                        "value": "Other",
                         "type": "inactive"
                     }
                 ]
@@ -42,39 +42,39 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Charging status",
             "displayType": "state",
             "state": {
                 "label": "{{chargingState.value}}",
                 "alternatives": [
                     {
                         "key": "charging",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                        "value": "Charging",
                         "type": "active"
                     },
                     {
                         "key": "fullyCharged",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.fullyCharged.label}}",
+                        "value": "Fully charged",
                         "type": "active"
                     },
                     {
                         "key": "discharging",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.discharging.label}}",
+                        "value": "Discharging",
                         "type": "inactive"
                     },
                     {
                         "key": "stopped",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                        "value": "Not ready",
                         "type": "inactive"
                     },
                     {
                         "key": "error",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.error.label}}",
+                        "value": "Unavailable",
                         "type": "inactive"
                     },
                     {
                         "key": "other",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.other.label}}",
+                        "value": "Other",
                         "type": "inactive"
                     }
                 ]
@@ -84,38 +84,38 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Charging status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "charging",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "value": "Charging",
                             "type": "active"
                         },
                         {
                             "key": "fullyCharged",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.fullyCharged.label}}",
+                            "value": "Fully charged",
                             "type": "active"
                         },
                         {
                             "key": "discharging",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.discharging.label}}",
+                            "value": "Discharging",
                             "type": "inactive"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "value": "Not ready",
                             "type": "inactive"
                         },
                         {
                             "key": "error",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.error.label}}",
+                            "value": "Unavailable",
                             "type": "inactive"
                         },
                         {
                             "key": "other",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.other.label}}",
+                            "value": "Other",
                             "type": "inactive"
                         }
                     ],

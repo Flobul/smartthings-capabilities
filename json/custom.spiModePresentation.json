@@ -3,18 +3,18 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Purify",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.commands.setSpiMode.arguments.mode.i18n.on.label}}",
+                            "value": "Turn on",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setSpiMode.arguments.mode.i18n.off.label}}",
+                            "value": "Turn off",
                             "type": "active"
                         }
                     ],

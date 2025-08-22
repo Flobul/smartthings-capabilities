@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.running.label}}",
+                        "value": "Prevent freezing",
                         "type": "active"
                     },
                     {
                         "key": "ready",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.ready.label}}",
+                        "value": "ready",
                         "type": "active"
                     }
                 ]
