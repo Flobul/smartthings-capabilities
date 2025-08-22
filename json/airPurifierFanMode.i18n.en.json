@@ -65,11 +65,11 @@
                         "low": {
                             "label": "Low"
                         },
-                        "quiet": {
-                            "label": "Quiet"
-                        },
                         "medium": {
                             "label": "Medium"
+                        },
+                        "quiet": {
+                            "label": "Quiet"
                         },
                         "off": {
                             "label": "Off"
