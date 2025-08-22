@@ -1,38 +1,4 @@
 {
-    "dashboard": {
-        "states": [
-            {
-                "label": "{{newVersionAvailable.value}}",
-                "alternatives": [
-                    {
-                        "key": "true",
-                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_AVAILABLE}}",
-                        "type": "active"
-                    }
-                ]
-            },
-            {
-                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_PREPARING}}"
-            },
-            {
-                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_IN_PROGRESS}}"
-            },
-            {
-                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_COMPLETE}}"
-            },
-            {
-                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_CHECKING}}"
-            },
-            {
-                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_REBOOTING}}"
-            },
-            {
-                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_UPDATE_SWAP_REBOOTING}}"
-            }
-        ],
-        "actions": [],
-        "panelItems": []
-    },
     "id": "samsungce.softwareUpdate",
     "version": 1
 }

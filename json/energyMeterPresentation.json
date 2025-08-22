@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Energy meter",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -23,7 +23,7 @@
             }
         },
         {
-            "label": "{{i18n.commands.resetEnergyMeter.label}}",
+            "label": "Energy meter reset",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "resetEnergyMeter"
@@ -33,7 +33,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Energy meter",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "energy.value",
@@ -44,13 +44,13 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Energy meter",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "resetEnergyMeter",
-                            "value": "{{i18n.commands.resetEnergyMeter.label}}",
+                            "value": "Energy meter reset",
                             "type": "active"
                         }
                     ]
