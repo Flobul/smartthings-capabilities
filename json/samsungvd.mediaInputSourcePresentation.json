@@ -2,13 +2,13 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.inputSource.label}}",
+                "label": "Source",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "NotAvailable",
-                            "value": "{{i18n.attributes.emptyInputSources.label}}",
+                            "value": "No devices found",
                             "type": "inactive"
                         }
                     ],
@@ -21,13 +21,13 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.setInputSource.label}}",
+                "label": "Change Source",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "NotAvailable",
-                            "value": "{{i18n.attributes.emptyInputSources.label}}",
+                            "value": "No devices found",
                             "type": "active"
                         }
                     ],

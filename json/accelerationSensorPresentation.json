@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "active",
-                        "value": "{{i18n.attributes.acceleration.i18n.value.active.label}}",
+                        "value": "Vibration detected",
                         "type": "active"
                     },
                     {
                         "key": "inactive",
-                        "value": "{{i18n.attributes.acceleration.i18n.value.inactive.label}}",
+                        "value": "No vibration",
                         "type": "inactive"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Vibration sensor",
             "displayType": "state",
             "state": {
                 "label": "{{acceleration.value}}",
                 "alternatives": [
                     {
                         "key": "active",
-                        "value": "{{i18n.attributes.acceleration.i18n.value.active.label}}",
+                        "value": "Vibration detected",
                         "type": "active"
                     },
                     {
                         "key": "inactive",
-                        "value": "{{i18n.attributes.acceleration.i18n.value.inactive.label}}",
+                        "value": "No vibration",
                         "type": "inactive"
                     }
                 ]
@@ -44,18 +44,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Vibration sensor",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "active",
-                            "value": "{{i18n.attributes.acceleration.i18n.value.active.label}}",
+                            "value": "Vibration detected",
                             "type": "active"
                         },
                         {
                             "key": "inactive",
-                            "value": "{{i18n.attributes.acceleration.i18n.value.inactive.label}}",
+                            "value": "No vibration",
                             "type": "inactive"
                         }
                     ],

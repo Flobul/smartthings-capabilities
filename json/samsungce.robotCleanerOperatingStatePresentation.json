@@ -6,182 +6,182 @@
                 "alternatives": [
                     {
                         "key": "charging",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.charging.label}}",
+                        "value": "Charging",
                         "type": "active"
                     },
                     {
                         "key": "charged",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.charged.label}}",
+                        "value": "Fully Charged",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.idle.label}}",
+                        "value": "Waiting",
                         "type": "active"
                     },
                     {
                         "key": "cleaning",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.cleaning.label}}",
+                        "value": "Cleaning",
                         "type": "active"
                     },
                     {
                         "key": "paused",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                        "value": "Paused",
                         "type": "active"
                     },
                     {
                         "key": "homing",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.homing.label}}",
+                        "value": "Returning",
                         "type": "active"
                     },
                     {
                         "key": "error",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.error.label}}",
+                        "value": "Check required",
                         "type": "active"
                     },
                     {
                         "key": "chargingForRemainingJob",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.chargingForRemainingJob.label}}",
+                        "value": "Charging",
                         "type": "active"
                     },
                     {
                         "key": "exploring",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.exploring.label}}",
+                        "value": "Exploring",
                         "type": "active"
                     },
                     {
                         "key": "emitDust",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.emitDust.label}}",
+                        "value": "Emptying dust",
                         "type": "active"
                     },
                     {
                         "key": "manual",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.manual.label}}",
+                        "value": "Monitoring",
                         "type": "active"
                     },
                     {
                         "key": "patrol",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.patrol.label}}",
+                        "value": "Patrolling",
                         "type": "active"
                     },
                     {
                         "key": "monitoring",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.monitoring.label}}",
+                        "value": "Monitoring",
                         "type": "active"
                     },
                     {
                         "key": "findingPet",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.findingPet.label}}",
+                        "value": "Monitoring",
                         "type": "active"
                     },
                     {
                         "key": "powerSaving",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.powerSaving.label}}",
+                        "value": "Power saving mode",
                         "type": "active"
                     },
                     {
                         "key": "relocal",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.relocal.label}}",
+                        "value": "Finding location",
                         "type": "active"
                     },
                     {
                         "key": "processing",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.relocal.label}}",
+                        "value": "Finding location",
                         "type": "active"
                     },
                     {
                         "key": "messaging",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.messaging.label}}",
+                        "value": "Sending voice",
                         "type": "active"
                     },
                     {
                         "key": "calibrating",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.calibrating.label}}",
+                        "value": "Calibrating",
                         "type": "active"
                     },
                     {
                         "key": "moving",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.moving.label}}",
+                        "value": "Moving",
                         "type": "active"
                     },
                     {
                         "key": "welcoming",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.welcoming.label}}",
+                        "value": "Welcoming child",
                         "type": "active"
                     },
                     {
                         "key": "detachingMopPad",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.detachingMopPad.label}}",
+                        "value": "Removing mop",
                         "type": "active"
                     },
                     {
                         "key": "waitingForChangingMopPad",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.idle.label}}",
+                        "value": "Waiting",
                         "type": "active"
                     },
                     {
                         "key": "attachingMopPad",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.attachingMopPad.label}}",
+                        "value": "Attaching mop",
                         "type": "active"
                     },
                     {
                         "key": "attachingMopPadForRemainingJob",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.attachingMopPad.label}}",
+                        "value": "Attaching mop",
                         "type": "active"
                     },
                     {
                         "key": "washingMop",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.washingMop.label}}",
+                        "value": "Washing mop",
                         "type": "active"
                     },
                     {
                         "key": "sterilizingMop",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.sterilizingMop.label}}",
+                        "value": "Steam-washing mop",
                         "type": "active"
                     },
                     {
                         "key": "dryingMop",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.dryingMop.label}}",
+                        "value": "Drying mop",
                         "type": "active"
                     },
                     {
                         "key": "spinDrying",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.spinDrying.label}}",
+                        "value": "Dehydrating mop",
                         "type": "active"
                     },
                     {
                         "key": "preparingWater",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.preparingWater.label}}",
+                        "value": "Preparing the water",
                         "type": "active"
                     },
                     {
                         "key": "supplyingWater",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.supplyingWater.label}}",
+                        "value": "Filling the water in",
                         "type": "active"
                     },
                     {
                         "key": "flexCharged",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.flexCharged.label}}",
+                        "value": "Charged",
                         "type": "active"
                     },
                     {
                         "key": "descaling",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.descaling.label}}",
+                        "value": "Descaling",
                         "type": "active"
                     },
                     {
                         "key": "mopWashingPaused",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.mopWashingPaused.label}}",
+                        "value": "Mop-washing paused",
                         "type": "active"
                     },
                     {
                         "key": "drainingWater",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.drainingWater.label}}",
+                        "value": "Emptying water",
                         "type": "active"
                     },
                     {
                         "key": "waitingForDescaling",
-                        "value": "{{i18n.attributes.operatingState.i18n.value.waitingForDescaling.label}}",
+                        "value": "Waiting for descaling",
                         "type": "active"
                     }
                 ]
@@ -191,17 +191,17 @@
                 "alternatives": [
                     {
                         "key": "mopping",
-                        "value": "{{i18n.attributes.cleaningStep.i18n.value.mopping.label}}",
+                        "value": "Wet mopping",
                         "type": "active"
                     },
                     {
                         "key": "vacuuming",
-                        "value": "{{i18n.attributes.cleaningStep.i18n.value.vacuuming.label}}",
+                        "value": "Vacumming",
                         "type": "active"
                     },
                     {
                         "key": "oneStepCleaning",
-                        "value": "{{i18n.attributes.cleaningStep.i18n.value.oneStepCleaning.label}}",
+                        "value": "Cleaning",
                         "type": "active"
                     }
                 ]
@@ -236,43 +236,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.operatingState.label}}",
+                "label": "Device status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "charging",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.charging.label}}",
+                            "value": "Charging",
                             "type": "active"
                         },
                         {
                             "key": "charged",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.charged.label}}",
+                            "value": "Fully Charged",
                             "type": "active"
                         },
                         {
                             "key": "idle",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.idle.label}}",
+                            "value": "Waiting",
                             "type": "active"
                         },
                         {
                             "key": "cleaning",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.cleaning.label}}",
+                            "value": "Cleaning",
                             "type": "active"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.paused.label}}",
+                            "value": "Paused",
                             "type": "active"
                         },
                         {
                             "key": "homing",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.homing.label}}",
+                            "value": "Returning",
                             "type": "active"
                         },
                         {
                             "key": "error",
-                            "value": "{{i18n.attributes.operatingState.i18n.value.error.label}}",
+                            "value": "Check required",
                             "type": "active"
                         }
                     ],
@@ -284,33 +284,33 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.operatingState.label}}",
+                "label": "Device status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "start",
-                            "value": "{{i18n.commands.start.label}}",
+                            "value": "Start",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         },
                         {
                             "key": "resume",
-                            "value": "{{i18n.commands.resume.label}}",
+                            "value": "Start",
                             "type": "active"
                         },
                         {
                             "key": "returnToHome",
-                            "value": "{{i18n.commands.returnToHome.label}}",
+                            "value": "Return To Charging Station",
                             "type": "active"
                         },
                         {
                             "key": "cancelRemainingJob",
-                            "value": "{{i18n.commands.cancelRemainingJob.label}}",
+                            "value": "Stop",
                             "type": "active"
                         }
                     ]

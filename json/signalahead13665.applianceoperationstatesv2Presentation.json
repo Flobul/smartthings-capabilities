@@ -6,47 +6,47 @@
                 "alternatives": [
                     {
                         "key": "Inactive",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Inactive.label}}",
+                        "value": "Inactive",
                         "type": "active"
                     },
                     {
                         "key": "Ready",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Ready.label}}",
+                        "value": "Ready",
                         "type": "active"
                     },
                     {
                         "key": "Run",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Run.label}}",
+                        "value": "Running",
                         "type": "active"
                     },
                     {
                         "key": "Pause",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Pause.label}}",
+                        "value": "Paused",
                         "type": "active"
                     },
                     {
                         "key": "Finished",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Finished.label}}",
+                        "value": "Completed",
                         "type": "active"
                     },
                     {
                         "key": "DelayedStart",
-                        "value": "{{i18n.attributes.operationState.i18n.value.DelayedStart.label}}",
+                        "value": "Delayed Start",
                         "type": "active"
                     },
                     {
                         "key": "ActionRequired",
-                        "value": "{{i18n.attributes.operationState.i18n.value.ActionRequired.label}}",
+                        "value": "Action Required",
                         "type": "active"
                     },
                     {
                         "key": "Error",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Error.label}}",
+                        "value": "Error",
                         "type": "active"
                     },
                     {
                         "key": "Aborting",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Aborting.label}}",
+                        "value": "Aborting",
                         "type": "active"
                     }
                 ]
@@ -57,54 +57,54 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.operationState.label}}",
+            "label": "Operation State",
             "displayType": "state",
             "state": {
                 "label": "{{operationState.value}}",
                 "alternatives": [
                     {
                         "key": "Inactive",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Inactive.label}}",
+                        "value": "Inactive",
                         "type": "active"
                     },
                     {
                         "key": "Ready",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Ready.label}}",
+                        "value": "Ready",
                         "type": "active"
                     },
                     {
                         "key": "Run",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Run.label}}",
+                        "value": "Running",
                         "type": "active"
                     },
                     {
                         "key": "Pause",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Pause.label}}",
+                        "value": "Paused",
                         "type": "active"
                     },
                     {
                         "key": "Finished",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Finished.label}}",
+                        "value": "Completed",
                         "type": "active"
                     },
                     {
                         "key": "DelayedStart",
-                        "value": "{{i18n.attributes.operationState.i18n.value.DelayedStart.label}}",
+                        "value": "Delayed Start",
                         "type": "active"
                     },
                     {
                         "key": "ActionRequired",
-                        "value": "{{i18n.attributes.operationState.i18n.value.ActionRequired.label}}",
+                        "value": "Action Required",
                         "type": "active"
                     },
                     {
                         "key": "Error",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Error.label}}",
+                        "value": "Error",
                         "type": "active"
                     },
                     {
                         "key": "Aborting",
-                        "value": "{{i18n.attributes.operationState.i18n.value.Aborting.label}}",
+                        "value": "Aborting",
                         "type": "active"
                     }
                 ]
@@ -114,53 +114,53 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.operationState.label}}",
+                "label": "Operation State",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "Inactive",
-                            "value": "{{i18n.attributes.operationState.i18n.value.Inactive.label}}",
+                            "value": "Inactive",
                             "type": "active"
                         },
                         {
                             "key": "Ready",
-                            "value": "{{i18n.attributes.operationState.i18n.value.Ready.label}}",
+                            "value": "Ready",
                             "type": "active"
                         },
                         {
                             "key": "Run",
-                            "value": "{{i18n.attributes.operationState.i18n.value.Run.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "Pause",
-                            "value": "{{i18n.attributes.operationState.i18n.value.Pause.label}}",
+                            "value": "Paused",
                             "type": "active"
                         },
                         {
                             "key": "Finished",
-                            "value": "{{i18n.attributes.operationState.i18n.value.Finished.label}}",
+                            "value": "Completed",
                             "type": "active"
                         },
                         {
                             "key": "DelayedStart",
-                            "value": "{{i18n.attributes.operationState.i18n.value.DelayedStart.label}}",
+                            "value": "Delayed Start",
                             "type": "active"
                         },
                         {
                             "key": "ActionRequired",
-                            "value": "{{i18n.attributes.operationState.i18n.value.ActionRequired.label}}",
+                            "value": "Action Required",
                             "type": "active"
                         },
                         {
                             "key": "Error",
-                            "value": "{{i18n.attributes.operationState.i18n.value.Error.label}}",
+                            "value": "Error",
                             "type": "active"
                         },
                         {
                             "key": "Aborting",
-                            "value": "{{i18n.attributes.operationState.i18n.value.Aborting.label}}",
+                            "value": "Aborting",
                             "type": "active"
                         }
                     ],
