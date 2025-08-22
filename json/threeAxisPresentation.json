@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "3-axis sensor",
             "displayType": "state",
             "state": {
                 "label": "{{threeAxis.value}}",

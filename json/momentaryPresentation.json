@@ -1,23 +1,7 @@
 {
-    "dashboard": {
-        "states": [
-            {
-                "label": "{{___PO_CODE_CAPABILITY.SMARTTHINGS.MOMENTARY_DEFAULT_STANDBY}}"
-            }
-        ],
-        "actions": [
-            {
-                "displayType": "pushButton",
-                "pushButton": {
-                    "command": "push"
-                }
-            }
-        ],
-        "panelItems": []
-    },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Momentary",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "push"
@@ -28,13 +12,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Momentary",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "push",
-                            "value": "{{i18n.commands.push.label}}",
+                            "value": "Press momentary",
                             "type": "active"
                         }
                     ]

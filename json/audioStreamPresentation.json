@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Audio stream",
             "displayType": "state",
             "state": {
                 "label": "{{uri.value}}"
@@ -12,18 +12,18 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Audio stream",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "startAudio",
-                            "value": "{{i18n.commands.startAudio.label}}",
+                            "value": "Turn on microphone",
                             "type": "active"
                         },
                         {
                             "key": "stopAudio",
-                            "value": "{{i18n.commands.stopAudio.label}}",
+                            "value": "Turn off microphone",
                             "type": "inactive"
                         }
                     ]

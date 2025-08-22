@@ -2,10 +2,10 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{i18n.attributes.bluetooth.label}}"
+                "label": "Bluetooth"
             },
             {
-                "label": "{{i18n.attributes.wifi3pda.label}}"
+                "label": "Playing from Amazon Alexa"
             },
             {
                 "label": "Wi-Fi"
