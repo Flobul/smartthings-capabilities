@@ -19,7 +19,7 @@
                         "label": "Éco"
                     },
                     "rush hour": {
-                        "label": "Heure de pointe"
+                        "label": "Rush Hour"
                     },
                     "rushhour": {
                         "label": "rushhour"
@@ -127,7 +127,7 @@
                         "label": "Reprendre"
                     },
                     "emergency heat": {
-                        "label": "Chauffage d'urgence"
+                        "label": "Emergency Heat"
                     },
                     "cool": {
                         "label": "Froid"

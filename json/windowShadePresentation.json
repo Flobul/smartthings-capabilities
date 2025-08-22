@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "closed",
-                        "value": "{{i18n.attributes.windowShade.i18n.value.closed.label}}",
+                        "value": "Closed",
                         "type": "inactive"
                     },
                     {
                         "key": "open",
-                        "value": "{{i18n.attributes.windowShade.i18n.value.open.label}}",
+                        "value": "Open",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.windowShade.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "active"
                     },
                     {
                         "key": "opening",
-                        "value": "{{i18n.attributes.windowShade.i18n.value.opening.label}}",
+                        "value": "Opening…",
                         "type": "active"
                     },
                     {
                         "key": "closing",
-                        "value": "{{i18n.attributes.windowShade.i18n.value.closing.label}}",
+                        "value": "Closing…",
                         "type": "inactive"
                     },
                     {
                         "key": "partially open",
-                        "value": "{{i18n.attributes.windowShade.i18n.value.partially open.label}}",
+                        "value": "Partially open",
                         "type": "active"
                     },
                     {
                         "key": "pause",
-                        "value": "{{i18n.commands.pause.label}}",
+                        "value": "Pause",
                         "type": "inactive"
                     }
                 ]
@@ -58,22 +58,22 @@
                         "alternatives": [
                             {
                                 "key": "unknown",
-                                "value": "{{i18n.attributes.windowShade.i18n.value.unknown.label}}",
+                                "value": "Unknown",
                                 "type": "active"
                             },
                             {
                                 "key": "opening",
-                                "value": "{{i18n.attributes.windowShade.i18n.value.opening.label}}",
+                                "value": "Opening…",
                                 "type": "active"
                             },
                             {
                                 "key": "closing",
-                                "value": "{{i18n.attributes.windowShade.i18n.value.closing.label}}",
+                                "value": "Closing…",
                                 "type": "inactive"
                             },
                             {
                                 "key": "partially open",
-                                "value": "{{i18n.attributes.windowShade.i18n.value.partially open.label}}",
+                                "value": "Partially open",
                                 "type": "active"
                             }
                         ]
@@ -83,7 +83,7 @@
         ],
         "panelItems": [
             {
-                "label": "{{i18n.commands.open.label}}",
+                "label": "Open",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "open",
@@ -99,7 +99,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.close.label}}",
+                "label": "Close",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "close",
@@ -115,7 +115,7 @@
                 }
             },
             {
-                "label": "{{i18n.commands.pause.label}}",
+                "label": "Pause",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "pause",
@@ -134,24 +134,24 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Window shade",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "close",
-                            "value": "{{i18n.commands.close.label}}",
+                            "value": "Close",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "{{i18n.commands.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         }
                     ],
@@ -163,37 +163,37 @@
                     "alternatives": [
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "active"
                         },
                         {
                             "key": "opening",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.opening.label}}",
+                            "value": "Opening…",
                             "type": "active"
                         },
                         {
                             "key": "closing",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.closing.label}}",
+                            "value": "Closing…",
                             "type": "inactive"
                         },
                         {
                             "key": "partially open",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.partially open.label}}",
+                            "value": "Partially open",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "inactive"
                         }
                     ]
@@ -204,33 +204,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Window shade",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         },
                         {
                             "key": "closing",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.closing.label}}",
+                            "value": "Closing…",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "opening",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.opening.label}}",
+                            "value": "Opening…",
                             "type": "active"
                         },
                         {
                             "key": "partially open",
-                            "value": "{{i18n.attributes.windowShade.i18n.value.partially open.label}}",
+                            "value": "Partially open",
                             "type": "active"
                         }
                     ],
@@ -242,23 +242,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Window shade",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "close",
-                            "value": "{{i18n.commands.close.label}}",
+                            "value": "Close",
                             "type": "inactive"
                         },
                         {
                             "key": "open",
-                            "value": "{{i18n.commands.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         }
                     ],

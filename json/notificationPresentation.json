@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Text display",
             "displayType": "textField",
             "textField": {
                 "command": "deviceNotification"
@@ -12,7 +12,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Text display",
                 "displayType": "textField",
                 "textField": {
                     "command": "deviceNotification"

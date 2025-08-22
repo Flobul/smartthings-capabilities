@@ -6,32 +6,32 @@
                 "alternatives": [
                     {
                         "key": "constantSpeed",
-                        "value": "{{i18n.attributes.currentControlMode.i18n.value.constantSpeed.label}}",
+                        "value": "Constant speed",
                         "type": "active"
                     },
                     {
                         "key": "constantPressure",
-                        "value": "{{i18n.attributes.currentControlMode.i18n.value.constantPressure.label}}",
+                        "value": "Constant pressure",
                         "type": "active"
                     },
                     {
                         "key": "proportionalPressure",
-                        "value": "{{i18n.attributes.currentControlMode.i18n.value.proportionalPressure.label}}",
+                        "value": "Automatic pressure",
                         "type": "active"
                     },
                     {
                         "key": "constantFlow",
-                        "value": "{{i18n.attributes.currentControlMode.i18n.value.constantFlow.label}}",
+                        "value": "Constant flow",
                         "type": "active"
                     },
                     {
                         "key": "constantTemperature",
-                        "value": "{{i18n.attributes.currentControlMode.i18n.value.constantTemperature.label}}",
+                        "value": "Constant temperature",
                         "type": "active"
                     },
                     {
                         "key": "automatic",
-                        "value": "{{i18n.attributes.currentControlMode.i18n.value.automatic.label}}",
+                        "value": "Automatic",
                         "type": "active"
                     }
                 ]
@@ -42,7 +42,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Control mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -50,32 +50,32 @@
                     "alternatives": [
                         {
                             "key": "constantSpeed",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantSpeed.label}}",
+                            "value": "Constant speed",
                             "type": "active"
                         },
                         {
                             "key": "constantPressure",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantPressure.label}}",
+                            "value": "Constant pressure",
                             "type": "active"
                         },
                         {
                             "key": "proportionalPressure",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.proportionalPressure.label}}",
+                            "value": "Automatic pressure",
                             "type": "active"
                         },
                         {
                             "key": "constantFlow",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantFlow.label}}",
+                            "value": "Constant flow",
                             "type": "active"
                         },
                         {
                             "key": "constantTemperature",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantTemperature.label}}",
+                            "value": "Constant temperature",
                             "type": "active"
                         },
                         {
                             "key": "automatic",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.automatic.label}}",
+                            "value": "Automatic",
                             "type": "active"
                         }
                     ],
@@ -88,32 +88,32 @@
                     "alternatives": [
                         {
                             "key": "constantSpeed",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantSpeed.label}}",
+                            "value": "Constant speed",
                             "type": "active"
                         },
                         {
                             "key": "constantPressure",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantPressure.label}}",
+                            "value": "Constant pressure",
                             "type": "active"
                         },
                         {
                             "key": "proportionalPressure",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.proportionalPressure.label}}",
+                            "value": "Automatic pressure",
                             "type": "active"
                         },
                         {
                             "key": "constantFlow",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantFlow.label}}",
+                            "value": "Constant flow",
                             "type": "active"
                         },
                         {
                             "key": "constantTemperature",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantTemperature.label}}",
+                            "value": "Constant temperature",
                             "type": "active"
                         },
                         {
                             "key": "automatic",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.automatic.label}}",
+                            "value": "Automatic",
                             "type": "active"
                         }
                     ]
@@ -124,38 +124,38 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Control mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "constantSpeed",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantSpeed.label}}",
+                            "value": "Constant speed",
                             "type": "active"
                         },
                         {
                             "key": "constantPressure",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantPressure.label}}",
+                            "value": "Constant pressure",
                             "type": "active"
                         },
                         {
                             "key": "proportionalPressure",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.proportionalPressure.label}}",
+                            "value": "Automatic pressure",
                             "type": "active"
                         },
                         {
                             "key": "constantFlow",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantFlow.label}}",
+                            "value": "Constant flow",
                             "type": "active"
                         },
                         {
                             "key": "constantTemperature",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.constantTemperature.label}}",
+                            "value": "Constant temperature",
                             "type": "active"
                         },
                         {
                             "key": "automatic",
-                            "value": "{{i18n.attributes.currentControlMode.i18n.value.automatic.label}}",
+                            "value": "Automatic",
                             "type": "active"
                         }
                     ],
@@ -168,38 +168,38 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Control mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "constantSpeed",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantSpeed.label}}",
+                            "value": "Constant speed",
                             "type": "active"
                         },
                         {
                             "key": "constantPressure",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantPressure.label}}",
+                            "value": "Constant pressure",
                             "type": "active"
                         },
                         {
                             "key": "proportionalPressure",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.proportionalPressure.label}}",
+                            "value": "Automatic pressure",
                             "type": "active"
                         },
                         {
                             "key": "constantFlow",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantFlow.label}}",
+                            "value": "Constant flow",
                             "type": "active"
                         },
                         {
                             "key": "constantTemperature",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.constantTemperature.label}}",
+                            "value": "Constant temperature",
                             "type": "active"
                         },
                         {
                             "key": "automatic",
-                            "value": "{{i18n.commands.setControlMode.arguments.controlMode.i18n.automatic.label}}",
+                            "value": "Automatic",
                             "type": "active"
                         }
                     ],

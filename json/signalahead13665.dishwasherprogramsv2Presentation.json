@@ -6,62 +6,62 @@
                 "alternatives": [
                     {
                         "key": "Dishcare_Dishwasher_Program_Auto2",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                        "value": "Auto 45-65°",
                         "type": "active"
                     },
                     {
                         "key": "Dishcare_Dishwasher_Program_Eco50",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                        "value": "Eco 50°",
                         "type": "active"
                     },
                     {
                         "key": "Dishcare_Dishwasher_Program_Kurz60",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                        "value": "Short 60°C",
                         "type": "active"
                     },
                     {
                         "key": "Dishcare_Dishwasher_Program_Intensiv70",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                        "value": "Intensive 70°",
                         "type": "active"
                     },
                     {
                         "key": "Dishcare_Dishwasher_Program_Quick45",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                        "value": "Quick wash 45°C",
                         "type": "active"
                     },
                     {
                         "key": "Dishcare_Dishwasher_Program_Auto3",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                        "value": "Auto 65-75°C",
                         "type": "active"
                     },
                     {
                         "key": "Dishcare_Dishwasher_Program_NightWash",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                        "value": "Night program 50°C",
                         "type": "active"
                     },
                     {
                         "key": "Dishcare_Dishwasher_Program_MachineCare",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                        "value": "Machine Care",
                         "type": "active"
                     },
                     {
                         "key": "Dishcare_Dishwasher_Program_PreRinse",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                        "value": "Pre-rinse",
                         "type": "active"
                     },
                     {
                         "key": "Dishcare_Dishwasher_Program_Glas40",
-                        "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                        "value": "Glass 40°",
                         "type": "active"
                     },
                     {
                         "key": "None",
-                        "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                        "value": "None",
                         "type": "active"
                     },
                     {
                         "key": "UnknownProgram",
-                        "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                        "value": "Unknown program",
                         "type": "active"
                     }
                 ]
@@ -72,7 +72,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.program.label}}",
+            "label": "Programs",
             "displayType": "list",
             "list": {
                 "command": {
@@ -80,52 +80,52 @@
                     "alternatives": [
                         {
                             "key": "Dishcare_Dishwasher_Program_Auto2",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                            "value": "Auto 45-65°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Eco50",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                            "value": "Eco 50°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Kurz60",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                            "value": "Short 60°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Intensiv70",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                            "value": "Intensive 70°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Quick45",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                            "value": "Quick wash 45°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Auto3",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                            "value": "Auto 65-75°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_NightWash",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                            "value": "Night program 50°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_MachineCare",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                            "value": "Machine Care",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_PreRinse",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                            "value": "Pre-rinse",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Glas40",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                            "value": "Glass 40°",
                             "type": "active"
                         }
                     ],
@@ -138,62 +138,62 @@
                     "alternatives": [
                         {
                             "key": "Dishcare_Dishwasher_Program_Auto2",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                            "value": "Auto 45-65°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Eco50",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                            "value": "Eco 50°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Kurz60",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                            "value": "Short 60°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Intensiv70",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                            "value": "Intensive 70°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Quick45",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                            "value": "Quick wash 45°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Auto3",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                            "value": "Auto 65-75°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_NightWash",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                            "value": "Night program 50°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_MachineCare",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                            "value": "Machine Care",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_PreRinse",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                            "value": "Pre-rinse",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Glas40",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                            "value": "Glass 40°",
                             "type": "active"
                         },
                         {
                             "key": "None",
-                            "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                            "value": "None",
                             "type": "active"
                         },
                         {
                             "key": "UnknownProgram",
-                            "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                            "value": "Unknown program",
                             "type": "active"
                         }
                     ]
@@ -204,68 +204,68 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.program.label}}",
+                "label": "Programs",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "Dishcare_Dishwasher_Program_Auto2",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                            "value": "Auto 45-65°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Eco50",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                            "value": "Eco 50°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Kurz60",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                            "value": "Short 60°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Intensiv70",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                            "value": "Intensive 70°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Quick45",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                            "value": "Quick wash 45°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Auto3",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                            "value": "Auto 65-75°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_NightWash",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                            "value": "Night program 50°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_MachineCare",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                            "value": "Machine Care",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_PreRinse",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                            "value": "Pre-rinse",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Glas40",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                            "value": "Glass 40°",
                             "type": "active"
                         },
                         {
                             "key": "None",
-                            "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                            "value": "None",
                             "type": "active"
                         },
                         {
                             "key": "UnknownProgram",
-                            "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                            "value": "Unknown program",
                             "type": "active"
                         }
                     ],
@@ -278,58 +278,58 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.program.label}}",
+                "label": "Programs",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "Dishcare_Dishwasher_Program_Auto2",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto2.label}}",
+                            "value": "Auto 45-65°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Eco50",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Eco50.label}}",
+                            "value": "Eco 50°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Kurz60",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Kurz60.label}}",
+                            "value": "Short 60°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Intensiv70",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Intensiv70.label}}",
+                            "value": "Intensive 70°",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Quick45",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Quick45.label}}",
+                            "value": "Quick wash 45°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Auto3",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Auto3.label}}",
+                            "value": "Auto 65-75°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_NightWash",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_NightWash.label}}",
+                            "value": "Night program 50°C",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_MachineCare",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_MachineCare.label}}",
+                            "value": "Machine Care",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_PreRinse",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_PreRinse.label}}",
+                            "value": "Pre-rinse",
                             "type": "active"
                         },
                         {
                             "key": "Dishcare_Dishwasher_Program_Glas40",
-                            "value": "{{i18n.attributes.program.i18n.value.Dishcare_Dishwasher_Program_Glas40.label}}",
+                            "value": "Glass 40°",
                             "type": "active"
                         }
                     ],
