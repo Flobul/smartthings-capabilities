@@ -34,7 +34,7 @@
                         "label": "Aboiement de chien"
                     },
                     "applianceAlarm": {
-                        "label": "Appliance alarm"
+                        "label": "Alarme d'un appareil"
                     },
                     "siren": {
                         "label": "Sirène"
@@ -55,19 +55,19 @@
                         "label": "Bébé en train de pleurer"
                     },
                     "emergencyAlarm": {
-                        "label": "Emergency alarm"
+                        "label": "Alarme d'urgence"
                     },
                     "screaming": {
-                        "label": "Screaming"
+                        "label": "Hurlement"
                     },
                     "clapping": {
-                        "label": "Clapping"
+                        "label": "Applaudissements"
                     },
                     "noSound": {
                         "label": "Aucun son"
                     },
                     "coughing": {
-                        "label": "Coughing"
+                        "label": "Toux"
                     },
                     "dogHowling": {
                         "label": "Dog howling"
@@ -79,7 +79,7 @@
                         "label": "Speech"
                     },
                     "doorbell": {
-                        "label": "Doorbell"
+                        "label": "Sonnette"
                     },
                     "hairDrying": {
                         "label": "Hair drying"

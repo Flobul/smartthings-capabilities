@@ -3,7 +3,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.commands.setLightControlMode.label}}",
+                "label": "Hue Sync",
                 "displayType": "list",
                 "list": {
                     "alternatives": [

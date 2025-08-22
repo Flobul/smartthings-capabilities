@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "muted",
-                        "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
+                        "value": "Muted",
                         "type": "active"
                     },
                     {
                         "key": "unmuted",
-                        "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
+                        "value": "Unmuted",
                         "type": "inactive"
                     }
                 ]
@@ -36,7 +36,7 @@
         ],
         "panelItems": [
             {
-                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOMUTE_DEFAULT_DC_UN_MUTE",
+                "label": "Unmuted",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "mute",
@@ -52,7 +52,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOMUTE_DEFAULT_DC_MUTE",
+                "label": "Muted",
                 "displayType": "pushButton",
                 "pushButton": {
                     "command": "unmute",
@@ -71,7 +71,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Audio mute",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -87,12 +87,12 @@
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
+                            "value": "Muted",
                             "type": "active"
                         },
                         {
                             "key": "unmuted",
-                            "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
+                            "value": "Unmuted",
                             "type": "inactive"
                         }
                     ]
@@ -103,18 +103,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Audio mute",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
+                            "value": "Muted",
                             "type": "active"
                         },
                         {
                             "key": "unmuted",
-                            "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
+                            "value": "Unmuted",
                             "type": "inactive"
                         }
                     ],
@@ -126,18 +126,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Audio mute",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "mute",
-                            "value": "{{i18n.commands.mute.label}}",
+                            "value": "Sound off",
                             "type": "active"
                         },
                         {
                             "key": "unmute",
-                            "value": "{{i18n.commands.unmute.label}}",
+                            "value": "Sound on",
                             "type": "inactive"
                         }
                     ]
