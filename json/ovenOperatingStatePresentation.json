@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "cleaning",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cleaning.label}}",
+                        "value": "Cleaning",
                         "type": "active"
                     },
                     {
                         "key": "cooking",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cooking.label}}",
+                        "value": "Cooking",
                         "type": "active"
                     },
                     {
                         "key": "cooling",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cooling.label}}",
+                        "value": "Cooling down",
                         "type": "active"
                     },
                     {
                         "key": "draining",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.draining.label}}",
+                        "value": "Draining",
                         "type": "active"
                     },
                     {
                         "key": "preheat",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.preheat.label}}",
+                        "value": "Preheating",
                         "type": "active"
                     },
                     {
                         "key": "ready",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.ready.label}}",
-                        "type": "inactive"
+                        "value": "Ready",
+                        "type": "active"
                     },
                     {
                         "key": "rinsing",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.rinsing.label}}",
+                        "value": "Rinsing",
                         "type": "active"
                     }
                 ]
@@ -46,17 +46,17 @@
                 "alternatives": [
                     {
                         "key": "ready",
-                        "value": "{{i18n.attributes.machineState.i18n.value.ready.label}}",
-                        "type": "inactive"
+                        "value": "Ready",
+                        "type": "active"
                     },
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.machineState.i18n.value.running.label}}",
+                        "value": "Running",
                         "type": "active"
                     },
                     {
                         "key": "paused",
-                        "value": "{{i18n.attributes.machineState.i18n.value.paused.label}}",
+                        "value": "Paused",
                         "type": "active"
                     }
                 ]
@@ -77,51 +77,51 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Oven",
             "displayType": "state",
             "state": {
                 "label": "{{ovenJobState.value}}",
                 "alternatives": [
                     {
                         "key": "cleaning",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cleaning.label}}",
+                        "value": "Cleaning",
                         "type": "active"
                     },
                     {
                         "key": "cooking",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cooking.label}}",
+                        "value": "Cooking",
                         "type": "active"
                     },
                     {
                         "key": "cooling",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.cooling.label}}",
+                        "value": "Cooling down",
                         "type": "active"
                     },
                     {
                         "key": "draining",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.draining.label}}",
+                        "value": "Draining",
                         "type": "active"
                     },
                     {
                         "key": "preheat",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.preheat.label}}",
+                        "value": "Preheating",
                         "type": "active"
                     },
                     {
                         "key": "ready",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.ready.label}}",
-                        "type": "inactive"
+                        "value": "Ready",
+                        "type": "active"
                     },
                     {
                         "key": "rinsing",
-                        "value": "{{i18n.attributes.ovenJobState.i18n.value.rinsing.label}}",
+                        "value": "Rinsing",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.machineState.label}}",
+            "label": "Device status",
             "displayType": "list",
             "list": {
                 "command": {
@@ -129,7 +129,7 @@
                     "alternatives": [
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.OVENOPERATINGSTATE_DEFAULT_COMMANDS_SETMACHINESTATE_STATE_STOP",
                             "type": "inactive"
                         }
                     ],
@@ -142,17 +142,17 @@
                     "alternatives": [
                         {
                             "key": "ready",
-                            "value": "{{i18n.attributes.machineState.i18n.value.ready.label}}",
-                            "type": "inactive"
+                            "value": "Ready",
+                            "type": "active"
                         },
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.machineState.i18n.value.running.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.machineState.i18n.value.paused.label}}",
+                            "value": "Paused",
                             "type": "active"
                         }
                     ]
@@ -160,7 +160,7 @@
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Oven",
             "displayType": "state",
             "state": {
                 "label": "{{completionTime.value}}"
@@ -170,23 +170,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.machineState.label}}",
+                "label": "Device status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "ready",
-                            "value": "{{i18n.attributes.machineState.i18n.value.ready.label}}",
-                            "type": "inactive"
+                            "value": "Ready",
+                            "type": "active"
                         },
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.machineState.i18n.value.running.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.machineState.i18n.value.paused.label}}",
+                            "value": "Paused",
                             "type": "active"
                         }
                     ],
@@ -196,43 +196,43 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.ovenJobState.label}}",
+                "label": "Oven",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cleaning",
-                            "value": "{{i18n.attributes.ovenJobState.i18n.value.cleaning.label}}",
+                            "value": "Cleaning",
                             "type": "active"
                         },
                         {
                             "key": "cooking",
-                            "value": "{{i18n.attributes.ovenJobState.i18n.value.cooking.label}}",
+                            "value": "Cooking",
                             "type": "active"
                         },
                         {
                             "key": "cooling",
-                            "value": "{{i18n.attributes.ovenJobState.i18n.value.cooling.label}}",
+                            "value": "Cooling down",
                             "type": "active"
                         },
                         {
                             "key": "draining",
-                            "value": "{{i18n.attributes.ovenJobState.i18n.value.draining.label}}",
+                            "value": "Draining",
                             "type": "active"
                         },
                         {
                             "key": "preheat",
-                            "value": "{{i18n.attributes.ovenJobState.i18n.value.preheat.label}}",
+                            "value": "Preheating",
                             "type": "active"
                         },
                         {
                             "key": "ready",
-                            "value": "{{i18n.attributes.ovenJobState.i18n.value.ready.label}}",
-                            "type": "inactive"
+                            "value": "Ready",
+                            "type": "active"
                         },
                         {
                             "key": "rinsing",
-                            "value": "{{i18n.attributes.ovenJobState.i18n.value.rinsing.label}}",
+                            "value": "Rinsing",
                             "type": "active"
                         }
                     ],
@@ -244,13 +244,13 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.machineState.label}}",
+                "label": "Device status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.OVENOPERATINGSTATE_DEFAULT_COMMANDS_SETMACHINESTATE_STATE_STOP",
                             "type": "inactive"
                         }
                     ]

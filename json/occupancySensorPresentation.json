@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "unoccupied",
-                        "value": "{{i18n.attributes.occupancy.i18n.value.unoccupied.label}}",
+                        "value": "Away",
                         "type": "inactive"
                     },
                     {
                         "key": "occupied",
-                        "value": "{{i18n.attributes.occupancy.i18n.value.occupied.label}}",
+                        "value": "Inside",
                         "type": "active"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Occupancy",
             "displayType": "state",
             "state": {
                 "label": "{{occupancy.value}}",
                 "alternatives": [
                     {
                         "key": "unoccupied",
-                        "value": "{{i18n.attributes.occupancy.i18n.value.unoccupied.label}}",
+                        "value": "Away",
                         "type": "inactive"
                     },
                     {
                         "key": "occupied",
-                        "value": "{{i18n.attributes.occupancy.i18n.value.occupied.label}}",
+                        "value": "Inside",
                         "type": "active"
                     }
                 ]
@@ -44,18 +44,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Occupancy",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "unoccupied",
-                            "value": "{{i18n.attributes.occupancy.i18n.value.unoccupied.label}}",
+                            "value": "Away",
                             "type": "inactive"
                         },
                         {
                             "key": "occupied",
-                            "value": "{{i18n.attributes.occupancy.i18n.value.occupied.label}}",
+                            "value": "Inside",
                             "type": "active"
                         }
                     ],

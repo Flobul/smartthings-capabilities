@@ -6,32 +6,32 @@
                 "alternatives": [
                     {
                         "key": "auto",
-                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.auto.label}}",
+                        "value": "Auto",
                         "type": "active"
                     },
                     {
                         "key": "quick",
-                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.quick.label}}",
+                        "value": "Quick",
                         "type": "active"
                     },
                     {
                         "key": "rinse",
-                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.rinse.label}}",
+                        "value": "Rinse",
                         "type": "active"
                     },
                     {
                         "key": "dry",
-                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.dry.label}}",
+                        "value": "Dry",
                         "type": "active"
                     },
                     {
                         "key": "eco",
-                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.eco.label}}",
+                        "value": "Eco",
                         "type": "active"
                     },
                     {
                         "key": "intense",
-                        "value": "{{i18n.attributes.dishwasherMode.i18n.value.intense.label}}",
+                        "value": "Intense",
                         "type": "active"
                     }
                 ]
@@ -42,7 +42,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -50,32 +50,32 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "quick",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.quick.label}}",
+                            "value": "Quick",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.rinse.label}}",
+                            "value": "Rinse",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.dry.label}}",
+                            "value": "Dry",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.eco.label}}",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "intense",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.intense.label}}",
+                            "value": "Intense",
                             "type": "active"
                         }
                     ],
@@ -87,32 +87,32 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "quick",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.quick.label}}",
+                            "value": "Quick",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.rinse.label}}",
+                            "value": "Rinse",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.dry.label}}",
+                            "value": "Dry",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.eco.label}}",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "intense",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.intense.label}}",
+                            "value": "Intense",
                             "type": "active"
                         }
                     ]
@@ -123,38 +123,38 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "quick",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.quick.label}}",
+                            "value": "Quick",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.rinse.label}}",
+                            "value": "Rinse",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.dry.label}}",
+                            "value": "Dry",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.eco.label}}",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "intense",
-                            "value": "{{i18n.attributes.dishwasherMode.i18n.value.intense.label}}",
+                            "value": "Intense",
                             "type": "active"
                         }
                     ],
@@ -166,38 +166,38 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "quick",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.quick.label}}",
+                            "value": "Quick",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.rinse.label}}",
+                            "value": "Rinse",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.dry.label}}",
+                            "value": "Dry",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.eco.label}}",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "intense",
-                            "value": "{{i18n.commands.setDishwasherMode.arguments.mode.i18n.intense.label}}",
+                            "value": "Intense",
                             "type": "active"
                         }
                     ],

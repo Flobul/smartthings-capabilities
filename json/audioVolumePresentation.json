@@ -8,7 +8,7 @@
         "actions": [],
         "panelItems": [
             {
-                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOVOLUME_DEFAULT_DC_VOL",
+                "label": "VOL",
                 "displayType": "stepper",
                 "stepper": {
                     "command": {
@@ -32,7 +32,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOVOLUME_DEFAULT_DC_VOL",
+                "label": "VOL",
                 "displayType": "stepper",
                 "stepper": {
                     "command": {
@@ -57,7 +57,7 @@
                 }
             },
             {
-                "label": "___PO_CODE_CAPABILITY.SMARTTHINGS.AUDIOVOLUME_DEFAULT_DC_VOL",
+                "label": "VOL",
                 "displayType": "stepper",
                 "stepper": {
                     "command": {
@@ -87,7 +87,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Volume",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -106,7 +106,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Volume",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -121,7 +121,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Volume",
                 "displayType": "slider",
                 "slider": {
                     "range": [
