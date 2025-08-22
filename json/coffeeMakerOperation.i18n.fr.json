@@ -134,6 +134,9 @@
                     "stop": {
                         "label": "Stop"
                     },
+                    "makeCoffee": {
+                        "label": "Make Coffee"
+                    },
                     "makeCustomizedCoffee": {
                         "label": "Make Manual Coffee"
                     }
@@ -264,14 +267,14 @@
                         "americano": {
                             "label": "Allongé"
                         },
-                        "demitasse": {
-                            "label": "Demi-tasse"
+                        "ristretto": {
+                            "label": "Ristretto"
                         },
                         "latteMacchiato": {
                             "label": "Latte macchiato"
                         },
-                        "ristretto": {
-                            "label": "Ristretto"
+                        "demitasse": {
+                            "label": "Demi-tasse"
                         },
                         "hotMilk": {
                             "label": "Lait chaud"
