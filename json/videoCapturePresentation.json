@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Record",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "capture"
@@ -12,13 +12,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Record",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "capture",
-                            "value": "{{i18n.label}}",
+                            "value": "Record",
                             "type": "active"
                         }
                     ]

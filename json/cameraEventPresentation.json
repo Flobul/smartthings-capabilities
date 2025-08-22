@@ -6,82 +6,82 @@
                 "alternatives": [
                     {
                         "key": "package",
-                        "value": "{{i18n.attributes.event.i18n.value.package.label}}",
+                        "value": "Parcel detected",
                         "type": "active"
                     },
                     {
                         "key": "packageDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.packageDisappear.label}}",
+                        "value": "Parcel out of view",
                         "type": "active"
                     },
                     {
                         "key": "person",
-                        "value": "{{i18n.attributes.event.i18n.value.person.label}}",
+                        "value": "Person detected",
                         "type": "active"
                     },
                     {
                         "key": "personDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.personDisappear.label}}",
+                        "value": "Person out of view",
                         "type": "active"
                     },
                     {
                         "key": "vehicle",
-                        "value": "{{i18n.attributes.event.i18n.value.vehicle.label}}",
+                        "value": "Vehicle detected",
                         "type": "active"
                     },
                     {
                         "key": "vehicleDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.vehicleDisappear.label}}",
+                        "value": "Vehicle out of view",
                         "type": "active"
                     },
                     {
                         "key": "pet",
-                        "value": "{{i18n.attributes.event.i18n.value.pet.label}}",
+                        "value": "Pet detected",
                         "type": "active"
                     },
                     {
                         "key": "petDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.petDisappear.label}}",
+                        "value": "Pet out of view",
                         "type": "active"
                     },
                     {
                         "key": "loitering",
-                        "value": "{{i18n.attributes.event.i18n.value.loitering.label}}",
+                        "value": "Loitering detected",
                         "type": "active"
                     },
                     {
                         "key": "loiteringDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.loiteringDisappear.label}}",
+                        "value": "Loitering out of view",
                         "type": "active"
                     },
                     {
                         "key": "gestureV",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureV.label}}",
+                        "value": "V gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "gestureFour",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureFour.label}}",
+                        "value": "Four gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "gestureFive",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureFive.label}}",
+                        "value": "High five gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "gestureGun",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureGun.label}}",
+                        "value": "Finger gun gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "gestureOk",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureOk.label}}",
+                        "value": "OK gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "lensObstruction",
-                        "value": "{{i18n.attributes.event.i18n.value.lensObstruction.label}}",
+                        "value": "Lens obstruction",
                         "type": "active"
                     }
                 ]
@@ -92,89 +92,89 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Camera events",
             "displayType": "state",
             "state": {
                 "label": "{{event.value}}",
                 "alternatives": [
                     {
                         "key": "package",
-                        "value": "{{i18n.attributes.event.i18n.value.package.label}}",
+                        "value": "Parcel detected",
                         "type": "active"
                     },
                     {
                         "key": "packageDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.packageDisappear.label}}",
+                        "value": "Parcel out of view",
                         "type": "active"
                     },
                     {
                         "key": "person",
-                        "value": "{{i18n.attributes.event.i18n.value.person.label}}",
+                        "value": "Person detected",
                         "type": "active"
                     },
                     {
                         "key": "personDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.personDisappear.label}}",
+                        "value": "Person out of view",
                         "type": "active"
                     },
                     {
                         "key": "vehicle",
-                        "value": "{{i18n.attributes.event.i18n.value.vehicle.label}}",
+                        "value": "Vehicle detected",
                         "type": "active"
                     },
                     {
                         "key": "vehicleDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.vehicleDisappear.label}}",
+                        "value": "Vehicle out of view",
                         "type": "active"
                     },
                     {
                         "key": "pet",
-                        "value": "{{i18n.attributes.event.i18n.value.pet.label}}",
+                        "value": "Pet detected",
                         "type": "active"
                     },
                     {
                         "key": "petDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.petDisappear.label}}",
+                        "value": "Pet out of view",
                         "type": "active"
                     },
                     {
                         "key": "loitering",
-                        "value": "{{i18n.attributes.event.i18n.value.loitering.label}}",
+                        "value": "Loitering detected",
                         "type": "active"
                     },
                     {
                         "key": "loiteringDisappear",
-                        "value": "{{i18n.attributes.event.i18n.value.loiteringDisappear.label}}",
+                        "value": "Loitering out of view",
                         "type": "active"
                     },
                     {
                         "key": "gestureV",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureV.label}}",
+                        "value": "V gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "gestureFour",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureFour.label}}",
+                        "value": "Four gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "gestureFive",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureFive.label}}",
+                        "value": "High five gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "gestureGun",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureGun.label}}",
+                        "value": "Finger gun gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "gestureOk",
-                        "value": "{{i18n.attributes.event.i18n.value.gestureOk.label}}",
+                        "value": "OK gesture detected",
                         "type": "active"
                     },
                     {
                         "key": "lensObstruction",
-                        "value": "{{i18n.attributes.event.i18n.value.lensObstruction.label}}",
+                        "value": "Lens obstruction",
                         "type": "active"
                     }
                 ]
@@ -184,88 +184,88 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Camera events",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "package",
-                            "value": "{{i18n.attributes.event.i18n.value.package.label}}",
+                            "value": "Parcel detected",
                             "type": "active"
                         },
                         {
                             "key": "packageDisappear",
-                            "value": "{{i18n.attributes.event.i18n.value.packageDisappear.label}}",
+                            "value": "Parcel out of view",
                             "type": "active"
                         },
                         {
                             "key": "person",
-                            "value": "{{i18n.attributes.event.i18n.value.person.label}}",
+                            "value": "Person detected",
                             "type": "active"
                         },
                         {
                             "key": "personDisappear",
-                            "value": "{{i18n.attributes.event.i18n.value.personDisappear.label}}",
+                            "value": "Person out of view",
                             "type": "active"
                         },
                         {
                             "key": "vehicle",
-                            "value": "{{i18n.attributes.event.i18n.value.vehicle.label}}",
+                            "value": "Vehicle detected",
                             "type": "active"
                         },
                         {
                             "key": "vehicleDisappear",
-                            "value": "{{i18n.attributes.event.i18n.value.vehicleDisappear.label}}",
+                            "value": "Vehicle out of view",
                             "type": "active"
                         },
                         {
                             "key": "pet",
-                            "value": "{{i18n.attributes.event.i18n.value.pet.label}}",
+                            "value": "Pet detected",
                             "type": "active"
                         },
                         {
                             "key": "petDisappear",
-                            "value": "{{i18n.attributes.event.i18n.value.petDisappear.label}}",
+                            "value": "Pet out of view",
                             "type": "active"
                         },
                         {
                             "key": "loitering",
-                            "value": "{{i18n.attributes.event.i18n.value.loitering.label}}",
+                            "value": "Loitering detected",
                             "type": "active"
                         },
                         {
                             "key": "loiteringDisappear",
-                            "value": "{{i18n.attributes.event.i18n.value.loiteringDisappear.label}}",
+                            "value": "Loitering out of view",
                             "type": "active"
                         },
                         {
                             "key": "gestureV",
-                            "value": "{{i18n.attributes.event.i18n.value.gestureV.label}}",
+                            "value": "V gesture detected",
                             "type": "active"
                         },
                         {
                             "key": "gestureFour",
-                            "value": "{{i18n.attributes.event.i18n.value.gestureFour.label}}",
+                            "value": "Four gesture detected",
                             "type": "active"
                         },
                         {
                             "key": "gestureFive",
-                            "value": "{{i18n.attributes.event.i18n.value.gestureFive.label}}",
+                            "value": "High five gesture detected",
                             "type": "active"
                         },
                         {
                             "key": "gestureGun",
-                            "value": "{{i18n.attributes.event.i18n.value.gestureGun.label}}",
+                            "value": "Finger gun gesture detected",
                             "type": "active"
                         },
                         {
                             "key": "gestureOk",
-                            "value": "{{i18n.attributes.event.i18n.value.gestureOk.label}}",
+                            "value": "OK gesture detected",
                             "type": "active"
                         },
                         {
                             "key": "lensObstruction",
-                            "value": "{{i18n.attributes.event.i18n.value.lensObstruction.label}}",
+                            "value": "Lens obstruction",
                             "type": "active"
                         }
                     ],

@@ -3,28 +3,28 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Light",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setBrightnessLevel.arguments.mode.i18n.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.commands.setBrightnessLevel.arguments.mode.i18n.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "mid",
-                            "value": "{{i18n.commands.setBrightnessLevel.arguments.mode.i18n.mid.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.commands.setBrightnessLevel.arguments.mode.i18n.high.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ],
