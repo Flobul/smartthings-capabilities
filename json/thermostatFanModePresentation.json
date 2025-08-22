@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Thermostat fan mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -9,22 +9,22 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "circulate",
-                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.circulate.label}}",
+                            "value": "Circulate",
                             "type": "active"
                         },
                         {
                             "key": "followschedule",
-                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.followschedule.label}}",
+                            "value": "Schedule",
                             "type": "active"
                         }
                     ],
@@ -35,22 +35,22 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "circulate",
-                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.circulate.label}}",
+                            "value": "Circulate",
                             "type": "active"
                         },
                         {
                             "key": "followschedule",
-                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.followschedule.label}}",
+                            "value": "Schedule",
                             "type": "active"
                         }
                     ]
@@ -61,28 +61,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Thermostat fan mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "circulate",
-                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.circulate.label}}",
+                            "value": "Circulate",
                             "type": "active"
                         },
                         {
                             "key": "followschedule",
-                            "value": "{{i18n.attributes.thermostatFanMode.i18n.value.followschedule.label}}",
+                            "value": "Schedule",
                             "type": "active"
                         }
                     ],
@@ -94,28 +94,28 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Thermostat fan mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "circulate",
-                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.circulate.label}}",
+                            "value": "Circulate",
                             "type": "active"
                         },
                         {
                             "key": "followschedule",
-                            "value": "{{i18n.commands.setThermostatFanMode.arguments.mode.i18n.followschedule.label}}",
+                            "value": "Schedule",
                             "type": "active"
                         }
                     ],

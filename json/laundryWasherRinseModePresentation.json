@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "none",
-                        "value": "{{i18n.attributes.rinseMode.i18n.value.none.label}}",
+                        "value": "None",
                         "type": "inactive"
                     },
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.rinseMode.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "extra",
-                        "value": "{{i18n.attributes.rinseMode.i18n.value.extra.label}}",
+                        "value": "Extra",
                         "type": "active"
                     },
                     {
                         "key": "max",
-                        "value": "{{i18n.attributes.rinseMode.i18n.value.max.label}}",
+                        "value": "Max",
                         "type": "active"
                     }
                 ]
@@ -32,7 +32,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Rinse mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -40,22 +40,22 @@
                     "alternatives": [
                         {
                             "key": "none",
-                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.none.label}}",
+                            "value": "None",
                             "type": "inactive"
                         },
                         {
                             "key": "normal",
-                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.normal.label}}",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "extra",
-                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.extra.label}}",
+                            "value": "Extra",
                             "type": "active"
                         },
                         {
                             "key": "max",
-                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.max.label}}",
+                            "value": "Max",
                             "type": "active"
                         }
                     ],
@@ -68,22 +68,22 @@
                     "alternatives": [
                         {
                             "key": "none",
-                            "value": "{{i18n.attributes.rinseMode.i18n.value.none.label}}",
+                            "value": "None",
                             "type": "inactive"
                         },
                         {
                             "key": "normal",
-                            "value": "{{i18n.attributes.rinseMode.i18n.value.normal.label}}",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "extra",
-                            "value": "{{i18n.attributes.rinseMode.i18n.value.extra.label}}",
+                            "value": "Extra",
                             "type": "active"
                         },
                         {
                             "key": "max",
-                            "value": "{{i18n.attributes.rinseMode.i18n.value.max.label}}",
+                            "value": "Max",
                             "type": "active"
                         }
                     ]
@@ -94,28 +94,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Rinse mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "none",
-                            "value": "{{i18n.attributes.rinseMode.i18n.value.none.label}}",
+                            "value": "None",
                             "type": "inactive"
                         },
                         {
                             "key": "normal",
-                            "value": "{{i18n.attributes.rinseMode.i18n.value.normal.label}}",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "extra",
-                            "value": "{{i18n.attributes.rinseMode.i18n.value.extra.label}}",
+                            "value": "Extra",
                             "type": "active"
                         },
                         {
                             "key": "max",
-                            "value": "{{i18n.attributes.rinseMode.i18n.value.max.label}}",
+                            "value": "Max",
                             "type": "active"
                         }
                     ],
@@ -128,28 +128,28 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Rinse mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "none",
-                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.none.label}}",
+                            "value": "None",
                             "type": "inactive"
                         },
                         {
                             "key": "normal",
-                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.normal.label}}",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "extra",
-                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.extra.label}}",
+                            "value": "Extra",
                             "type": "active"
                         },
                         {
                             "key": "max",
-                            "value": "{{i18n.commands.setRinseMode.arguments.rinseMode.i18n.max.label}}",
+                            "value": "Max",
                             "type": "active"
                         }
                     ],

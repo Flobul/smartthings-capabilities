@@ -3,13 +3,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.commands.setAmbientOn.label}}",
+                "label": "Ambient Mode On",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "setAmbientOn",
-                            "value": "{{i18n.commands.setAmbientOn.arguments.id.i18n.on.label}}",
+                            "value": "On",
                             "type": "active"
                         }
                     ]
