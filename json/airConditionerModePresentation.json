@@ -6,112 +6,112 @@
                 "alternatives": [
                     {
                         "key": "cool",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.cool.label}}",
+                        "value": "Cool",
                         "type": "active"
                     },
                     {
                         "key": "dry",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.dry.label}}",
+                        "value": "Dry",
                         "type": "active"
                     },
                     {
                         "key": "wind",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.wind.label}}",
+                        "value": "Purify",
                         "type": "active"
                     },
                     {
                         "key": "heat",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.heat.label}}",
+                        "value": "Heat",
                         "type": "active"
                     },
                     {
                         "key": "coolClean",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.coolClean.label}}",
+                        "value": "Cool, Purify",
                         "type": "active"
                     },
                     {
                         "key": "dryClean",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.dryClean.label}}",
+                        "value": "Dry, Purify",
                         "type": "active"
                     },
                     {
                         "key": "heatClean",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatClean.label}}",
+                        "value": "Heat, Purify",
                         "type": "active"
                     },
                     {
                         "key": "auto",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.auto.label}}",
+                        "value": "Auto",
                         "type": "active"
                     },
                     {
                         "key": "fanOnly",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.fanOnly.label}}",
+                        "value": "Fan only",
                         "type": "active"
                     },
                     {
                         "key": "fan",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.fan.label}}",
+                        "value": "Fan",
                         "type": "active"
                     },
                     {
                         "key": "aIComfort",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.aIComfort.label}}",
+                        "value": "AI Comfort Cooling",
                         "type": "active"
                     },
                     {
                         "key": "comfortCooling",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.comfortCooling.label}}",
+                        "value": "comfortCooling",
                         "type": "active"
                     },
                     {
                         "key": "eco",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.eco.label}}",
+                        "value": "eco",
                         "type": "active"
                     },
                     {
                         "key": "std",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.std.label}}",
+                        "value": "std",
                         "type": "active"
                     },
                     {
                         "key": "power",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.power.label}}",
+                        "value": "power",
                         "type": "active"
                     },
                     {
                         "key": "force",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.force.label}}",
+                        "value": "force",
                         "type": "active"
                     },
                     {
                         "key": "heatEx",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatEx.label}}",
+                        "value": "heatEx",
                         "type": "active"
                     },
                     {
                         "key": "bypass",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.bypass.label}}",
+                        "value": "bypass",
                         "type": "active"
                     },
                     {
                         "key": "sleep",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.sleep.label}}",
+                        "value": "sleep",
                         "type": "active"
                     },
                     {
                         "key": "purification",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.purification.label}}",
+                        "value": "Purify",
                         "type": "active"
                     },
                     {
                         "key": "ventilation",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.ventilation.label}}",
+                        "value": "ventilation",
                         "type": "active"
                     },
                     {
                         "key": "smartVentilation",
-                        "value": "{{i18n.attributes.airConditionerMode.i18n.value.smartVentilation.label}}",
+                        "value": "smartVentilation",
                         "type": "active"
                     }
                 ]
@@ -120,7 +120,7 @@
         "actions": [],
         "panelItems": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "command": {
@@ -128,112 +128,112 @@
                         "alternatives": [
                             {
                                 "key": "cool",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.cool.label}}",
+                                "value": "Cool",
                                 "type": "active"
                             },
                             {
                                 "key": "dry",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dry.label}}",
+                                "value": "Dry",
                                 "type": "active"
                             },
                             {
                                 "key": "wind",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.wind.label}}",
+                                "value": "Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "heat",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heat.label}}",
+                                "value": "Heat",
                                 "type": "active"
                             },
                             {
                                 "key": "coolClean",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.coolClean.label}}",
+                                "value": "Cool, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "dryClean",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dryClean.label}}",
+                                "value": "Dry, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "heatClean",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatClean.label}}",
+                                "value": "Heat, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "auto",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.auto.label}}",
+                                "value": "Auto",
                                 "type": "active"
                             },
                             {
                                 "key": "fanOnly",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fanOnly.label}}",
+                                "value": "Fan only",
                                 "type": "active"
                             },
                             {
                                 "key": "fan",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fan.label}}",
+                                "value": "Fan",
                                 "type": "active"
                             },
                             {
                                 "key": "aIComfort",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.aIComfort.label}}",
+                                "value": "AI Comfort Cooling",
                                 "type": "active"
                             },
                             {
                                 "key": "comfortCooling",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.comfortCooling.label}}",
+                                "value": "comfortCooling",
                                 "type": "active"
                             },
                             {
                                 "key": "eco",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.eco.label}}",
+                                "value": "eco",
                                 "type": "active"
                             },
                             {
                                 "key": "std",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.std.label}}",
+                                "value": "std",
                                 "type": "active"
                             },
                             {
                                 "key": "power",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.power.label}}",
+                                "value": "power",
                                 "type": "active"
                             },
                             {
                                 "key": "force",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.force.label}}",
+                                "value": "force",
                                 "type": "active"
                             },
                             {
                                 "key": "heatEx",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatEx.label}}",
+                                "value": "heatEx",
                                 "type": "active"
                             },
                             {
                                 "key": "bypass",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.bypass.label}}",
+                                "value": "bypass",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.sleep.label}}",
+                                "value": "sleep",
                                 "type": "active"
                             },
                             {
                                 "key": "purification",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.purification.label}}",
+                                "value": "Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "ventilation",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.ventilation.label}}",
+                                "value": "ventilation",
                                 "type": "active"
                             },
                             {
                                 "key": "smartVentilation",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.smartVentilation.label}}",
+                                "value": "smartVentilation",
                                 "type": "active"
                             }
                         ],
@@ -246,112 +246,112 @@
                         "alternatives": [
                             {
                                 "key": "cool",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.cool.label}}",
+                                "value": "Cool",
                                 "type": "active"
                             },
                             {
                                 "key": "dry",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.dry.label}}",
+                                "value": "Dry",
                                 "type": "active"
                             },
                             {
                                 "key": "wind",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.wind.label}}",
+                                "value": "Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "heat",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.heat.label}}",
+                                "value": "Heat",
                                 "type": "active"
                             },
                             {
                                 "key": "coolClean",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.coolClean.label}}",
+                                "value": "Cool, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "dryClean",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.dryClean.label}}",
+                                "value": "Dry, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "heatClean",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatClean.label}}",
+                                "value": "Heat, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "auto",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.auto.label}}",
+                                "value": "Auto",
                                 "type": "active"
                             },
                             {
                                 "key": "fanOnly",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.fanOnly.label}}",
+                                "value": "Fan only",
                                 "type": "active"
                             },
                             {
                                 "key": "fan",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.fan.label}}",
+                                "value": "Fan",
                                 "type": "active"
                             },
                             {
                                 "key": "aIComfort",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.aIComfort.label}}",
+                                "value": "AI Comfort Cooling",
                                 "type": "active"
                             },
                             {
                                 "key": "comfortCooling",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.comfortCooling.label}}",
+                                "value": "comfortCooling",
                                 "type": "active"
                             },
                             {
                                 "key": "eco",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.eco.label}}",
+                                "value": "eco",
                                 "type": "active"
                             },
                             {
                                 "key": "std",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.std.label}}",
+                                "value": "std",
                                 "type": "active"
                             },
                             {
                                 "key": "power",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.power.label}}",
+                                "value": "power",
                                 "type": "active"
                             },
                             {
                                 "key": "force",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.force.label}}",
+                                "value": "force",
                                 "type": "active"
                             },
                             {
                                 "key": "heatEx",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatEx.label}}",
+                                "value": "heatEx",
                                 "type": "active"
                             },
                             {
                                 "key": "bypass",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.bypass.label}}",
+                                "value": "bypass",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.sleep.label}}",
+                                "value": "sleep",
                                 "type": "active"
                             },
                             {
                                 "key": "purification",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.purification.label}}",
+                                "value": "Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "ventilation",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.ventilation.label}}",
+                                "value": "ventilation",
                                 "type": "active"
                             },
                             {
                                 "key": "smartVentilation",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.smartVentilation.label}}",
+                                "value": "smartVentilation",
                                 "type": "active"
                             }
                         ]
@@ -366,7 +366,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "command": {
@@ -374,112 +374,112 @@
                         "alternatives": [
                             {
                                 "key": "cool",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.cool.label}}",
+                                "value": "Cool",
                                 "type": "active"
                             },
                             {
                                 "key": "dry",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dry.label}}",
+                                "value": "Dry",
                                 "type": "active"
                             },
                             {
                                 "key": "wind",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.wind.label}}",
+                                "value": "Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "heat",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heat.label}}",
+                                "value": "Heat",
                                 "type": "active"
                             },
                             {
                                 "key": "coolClean",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.coolClean.label}}",
+                                "value": "Cool, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "dryClean",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dryClean.label}}",
+                                "value": "Dry, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "heatClean",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatClean.label}}",
+                                "value": "Heat, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "auto",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.auto.label}}",
+                                "value": "Auto",
                                 "type": "active"
                             },
                             {
                                 "key": "fanOnly",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fanOnly.label}}",
+                                "value": "Fan only",
                                 "type": "active"
                             },
                             {
                                 "key": "fan",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fan.label}}",
+                                "value": "Fan",
                                 "type": "active"
                             },
                             {
                                 "key": "aIComfort",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.aIComfort.label}}",
+                                "value": "AI Comfort Cooling",
                                 "type": "active"
                             },
                             {
                                 "key": "comfortCooling",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.comfortCooling.label}}",
+                                "value": "comfortCooling",
                                 "type": "active"
                             },
                             {
                                 "key": "eco",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.eco.label}}",
+                                "value": "eco",
                                 "type": "active"
                             },
                             {
                                 "key": "std",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.std.label}}",
+                                "value": "std",
                                 "type": "active"
                             },
                             {
                                 "key": "power",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.power.label}}",
+                                "value": "power",
                                 "type": "active"
                             },
                             {
                                 "key": "force",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.force.label}}",
+                                "value": "force",
                                 "type": "active"
                             },
                             {
                                 "key": "heatEx",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatEx.label}}",
+                                "value": "heatEx",
                                 "type": "active"
                             },
                             {
                                 "key": "bypass",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.bypass.label}}",
+                                "value": "bypass",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.sleep.label}}",
+                                "value": "sleep",
                                 "type": "active"
                             },
                             {
                                 "key": "purification",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.purification.label}}",
+                                "value": "Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "ventilation",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.ventilation.label}}",
+                                "value": "ventilation",
                                 "type": "active"
                             },
                             {
                                 "key": "smartVentilation",
-                                "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.smartVentilation.label}}",
+                                "value": "smartVentilation",
                                 "type": "active"
                             }
                         ],
@@ -492,112 +492,112 @@
                         "alternatives": [
                             {
                                 "key": "cool",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.cool.label}}",
+                                "value": "Cool",
                                 "type": "active"
                             },
                             {
                                 "key": "dry",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.dry.label}}",
+                                "value": "Dry",
                                 "type": "active"
                             },
                             {
                                 "key": "wind",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.wind.label}}",
+                                "value": "Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "heat",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.heat.label}}",
+                                "value": "Heat",
                                 "type": "active"
                             },
                             {
                                 "key": "coolClean",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.coolClean.label}}",
+                                "value": "Cool, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "dryClean",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.dryClean.label}}",
+                                "value": "Dry, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "heatClean",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatClean.label}}",
+                                "value": "Heat, Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "auto",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.auto.label}}",
+                                "value": "Auto",
                                 "type": "active"
                             },
                             {
                                 "key": "fanOnly",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.fanOnly.label}}",
+                                "value": "Fan only",
                                 "type": "active"
                             },
                             {
                                 "key": "fan",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.fan.label}}",
+                                "value": "Fan",
                                 "type": "active"
                             },
                             {
                                 "key": "aIComfort",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.aIComfort.label}}",
+                                "value": "AI Comfort Cooling",
                                 "type": "active"
                             },
                             {
                                 "key": "comfortCooling",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.comfortCooling.label}}",
+                                "value": "comfortCooling",
                                 "type": "active"
                             },
                             {
                                 "key": "eco",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.eco.label}}",
+                                "value": "eco",
                                 "type": "active"
                             },
                             {
                                 "key": "std",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.std.label}}",
+                                "value": "std",
                                 "type": "active"
                             },
                             {
                                 "key": "power",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.power.label}}",
+                                "value": "power",
                                 "type": "active"
                             },
                             {
                                 "key": "force",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.force.label}}",
+                                "value": "force",
                                 "type": "active"
                             },
                             {
                                 "key": "heatEx",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatEx.label}}",
+                                "value": "heatEx",
                                 "type": "active"
                             },
                             {
                                 "key": "bypass",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.bypass.label}}",
+                                "value": "bypass",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.sleep.label}}",
+                                "value": "sleep",
                                 "type": "active"
                             },
                             {
                                 "key": "purification",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.purification.label}}",
+                                "value": "Purify",
                                 "type": "active"
                             },
                             {
                                 "key": "ventilation",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.ventilation.label}}",
+                                "value": "ventilation",
                                 "type": "active"
                             },
                             {
                                 "key": "smartVentilation",
-                                "value": "{{i18n.attributes.airConditionerMode.i18n.value.smartVentilation.label}}",
+                                "value": "smartVentilation",
                                 "type": "active"
                             }
                         ]
@@ -615,7 +615,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -623,112 +623,112 @@
                     "alternatives": [
                         {
                             "key": "cool",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.cool.label}}",
+                            "value": "Cool",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dry.label}}",
+                            "value": "Dry",
                             "type": "active"
                         },
                         {
                             "key": "wind",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.wind.label}}",
+                            "value": "Purify",
                             "type": "active"
                         },
                         {
                             "key": "heat",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heat.label}}",
+                            "value": "Heat",
                             "type": "active"
                         },
                         {
                             "key": "coolClean",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.coolClean.label}}",
+                            "value": "Cool, Purify",
                             "type": "active"
                         },
                         {
                             "key": "dryClean",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dryClean.label}}",
+                            "value": "Dry, Purify",
                             "type": "active"
                         },
                         {
                             "key": "heatClean",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatClean.label}}",
+                            "value": "Heat, Purify",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "fanOnly",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fanOnly.label}}",
+                            "value": "Fan only",
                             "type": "active"
                         },
                         {
                             "key": "fan",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fan.label}}",
+                            "value": "Fan",
                             "type": "active"
                         },
                         {
                             "key": "aIComfort",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.aIComfort.label}}",
+                            "value": "AI Comfort Cooling",
                             "type": "active"
                         },
                         {
                             "key": "comfortCooling",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.comfortCooling.label}}",
+                            "value": "comfortCooling",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.eco.label}}",
+                            "value": "eco",
                             "type": "active"
                         },
                         {
                             "key": "std",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.std.label}}",
+                            "value": "std",
                             "type": "active"
                         },
                         {
                             "key": "power",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.power.label}}",
+                            "value": "power",
                             "type": "active"
                         },
                         {
                             "key": "force",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.force.label}}",
+                            "value": "force",
                             "type": "active"
                         },
                         {
                             "key": "heatEx",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatEx.label}}",
+                            "value": "heatEx",
                             "type": "active"
                         },
                         {
                             "key": "bypass",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.bypass.label}}",
+                            "value": "bypass",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.sleep.label}}",
+                            "value": "sleep",
                             "type": "active"
                         },
                         {
                             "key": "purification",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.purification.label}}",
+                            "value": "Purify",
                             "type": "active"
                         },
                         {
                             "key": "ventilation",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.ventilation.label}}",
+                            "value": "ventilation",
                             "type": "active"
                         },
                         {
                             "key": "smartVentilation",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.smartVentilation.label}}",
+                            "value": "smartVentilation",
                             "type": "active"
                         }
                     ],
@@ -741,112 +741,112 @@
                     "alternatives": [
                         {
                             "key": "cool",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.cool.label}}",
+                            "value": "Cool",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.dry.label}}",
+                            "value": "Dry",
                             "type": "active"
                         },
                         {
                             "key": "wind",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.wind.label}}",
+                            "value": "Purify",
                             "type": "active"
                         },
                         {
                             "key": "heat",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.heat.label}}",
+                            "value": "Heat",
                             "type": "active"
                         },
                         {
                             "key": "coolClean",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.coolClean.label}}",
+                            "value": "Cool, Purify",
                             "type": "active"
                         },
                         {
                             "key": "dryClean",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.dryClean.label}}",
+                            "value": "Dry, Purify",
                             "type": "active"
                         },
                         {
                             "key": "heatClean",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatClean.label}}",
+                            "value": "Heat, Purify",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "fanOnly",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.fanOnly.label}}",
+                            "value": "Fan only",
                             "type": "active"
                         },
                         {
                             "key": "fan",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.fan.label}}",
+                            "value": "Fan",
                             "type": "active"
                         },
                         {
                             "key": "aIComfort",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.aIComfort.label}}",
+                            "value": "AI Comfort Cooling",
                             "type": "active"
                         },
                         {
                             "key": "comfortCooling",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.comfortCooling.label}}",
+                            "value": "comfortCooling",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.eco.label}}",
+                            "value": "eco",
                             "type": "active"
                         },
                         {
                             "key": "std",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.std.label}}",
+                            "value": "std",
                             "type": "active"
                         },
                         {
                             "key": "power",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.power.label}}",
+                            "value": "power",
                             "type": "active"
                         },
                         {
                             "key": "force",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.force.label}}",
+                            "value": "force",
                             "type": "active"
                         },
                         {
                             "key": "heatEx",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatEx.label}}",
+                            "value": "heatEx",
                             "type": "active"
                         },
                         {
                             "key": "bypass",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.bypass.label}}",
+                            "value": "bypass",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.sleep.label}}",
+                            "value": "sleep",
                             "type": "active"
                         },
                         {
                             "key": "purification",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.purification.label}}",
+                            "value": "Purify",
                             "type": "active"
                         },
                         {
                             "key": "ventilation",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.ventilation.label}}",
+                            "value": "ventilation",
                             "type": "active"
                         },
                         {
                             "key": "smartVentilation",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.smartVentilation.label}}",
+                            "value": "smartVentilation",
                             "type": "active"
                         }
                     ]
@@ -857,118 +857,118 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cool",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.cool.label}}",
+                            "value": "Cool",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.dry.label}}",
+                            "value": "Dry",
                             "type": "active"
                         },
                         {
                             "key": "wind",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.wind.label}}",
+                            "value": "Purify",
                             "type": "active"
                         },
                         {
                             "key": "heat",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.heat.label}}",
+                            "value": "Heat",
                             "type": "active"
                         },
                         {
                             "key": "coolClean",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.coolClean.label}}",
+                            "value": "Cool, Purify",
                             "type": "active"
                         },
                         {
                             "key": "dryClean",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.dryClean.label}}",
+                            "value": "Dry, Purify",
                             "type": "active"
                         },
                         {
                             "key": "heatClean",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatClean.label}}",
+                            "value": "Heat, Purify",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "fanOnly",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.fanOnly.label}}",
+                            "value": "Fan only",
                             "type": "active"
                         },
                         {
                             "key": "fan",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.fan.label}}",
+                            "value": "Fan",
                             "type": "active"
                         },
                         {
                             "key": "aIComfort",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.aIComfort.label}}",
+                            "value": "AI Comfort Cooling",
                             "type": "active"
                         },
                         {
                             "key": "comfortCooling",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.comfortCooling.label}}",
+                            "value": "comfortCooling",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.eco.label}}",
+                            "value": "eco",
                             "type": "active"
                         },
                         {
                             "key": "std",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.std.label}}",
+                            "value": "std",
                             "type": "active"
                         },
                         {
                             "key": "power",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.power.label}}",
+                            "value": "power",
                             "type": "active"
                         },
                         {
                             "key": "force",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.force.label}}",
+                            "value": "force",
                             "type": "active"
                         },
                         {
                             "key": "heatEx",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.heatEx.label}}",
+                            "value": "heatEx",
                             "type": "active"
                         },
                         {
                             "key": "bypass",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.bypass.label}}",
+                            "value": "bypass",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.sleep.label}}",
+                            "value": "sleep",
                             "type": "active"
                         },
                         {
                             "key": "purification",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.purification.label}}",
+                            "value": "Purify",
                             "type": "active"
                         },
                         {
                             "key": "ventilation",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.ventilation.label}}",
+                            "value": "ventilation",
                             "type": "active"
                         },
                         {
                             "key": "smartVentilation",
-                            "value": "{{i18n.attributes.airConditionerMode.i18n.value.smartVentilation.label}}",
+                            "value": "smartVentilation",
                             "type": "active"
                         }
                     ],
@@ -981,118 +981,118 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.setAirConditionerMode.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cool",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.cool.label}}",
+                            "value": "Cool",
                             "type": "active"
                         },
                         {
                             "key": "dry",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dry.label}}",
+                            "value": "Dry",
                             "type": "active"
                         },
                         {
                             "key": "wind",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.wind.label}}",
+                            "value": "Purify",
                             "type": "active"
                         },
                         {
                             "key": "heat",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heat.label}}",
+                            "value": "Heat",
                             "type": "active"
                         },
                         {
                             "key": "coolClean",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.coolClean.label}}",
+                            "value": "Cool, Purify",
                             "type": "active"
                         },
                         {
                             "key": "dryClean",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.dryClean.label}}",
+                            "value": "Dry, Purify",
                             "type": "active"
                         },
                         {
                             "key": "heatClean",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatClean.label}}",
+                            "value": "Heat, Purify",
                             "type": "active"
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "fanOnly",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fanOnly.label}}",
+                            "value": "Fan only",
                             "type": "active"
                         },
                         {
                             "key": "fan",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.fan.label}}",
+                            "value": "Fan",
                             "type": "active"
                         },
                         {
                             "key": "aIComfort",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.aIComfort.label}}",
+                            "value": "AI Comfort Cooling",
                             "type": "active"
                         },
                         {
                             "key": "comfortCooling",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.comfortCooling.label}}",
+                            "value": "comfortCooling",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.eco.label}}",
+                            "value": "eco",
                             "type": "active"
                         },
                         {
                             "key": "std",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.std.label}}",
+                            "value": "std",
                             "type": "active"
                         },
                         {
                             "key": "power",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.power.label}}",
+                            "value": "power",
                             "type": "active"
                         },
                         {
                             "key": "force",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.force.label}}",
+                            "value": "force",
                             "type": "active"
                         },
                         {
                             "key": "heatEx",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.heatEx.label}}",
+                            "value": "heatEx",
                             "type": "active"
                         },
                         {
                             "key": "bypass",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.bypass.label}}",
+                            "value": "bypass",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.sleep.label}}",
+                            "value": "sleep",
                             "type": "active"
                         },
                         {
                             "key": "purification",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.purification.label}}",
+                            "value": "Purify",
                             "type": "active"
                         },
                         {
                             "key": "ventilation",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.ventilation.label}}",
+                            "value": "ventilation",
                             "type": "active"
                         },
                         {
                             "key": "smartVentilation",
-                            "value": "{{i18n.commands.setAirConditionerMode.arguments.mode.i18n.smartVentilation.label}}",
+                            "value": "smartVentilation",
                             "type": "active"
                         }
                     ],
