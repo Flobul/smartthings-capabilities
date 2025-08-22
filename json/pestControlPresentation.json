@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "idle",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.idle.label}}",
+                        "value": "Trap unarmed",
                         "type": "active"
                     },
                     {
                         "key": "trapArmed",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.trapArmed.label}}",
+                        "value": "Trap armed",
                         "type": "active"
                     },
                     {
                         "key": "trapRearmRequired",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.trapRearmRequired.label}}",
+                        "value": "Trap rearm required",
                         "type": "active"
                     },
                     {
                         "key": "pestDetected",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.pestDetected.label}}",
+                        "value": "Pest detected",
                         "type": "active"
                     },
                     {
                         "key": "pestExterminated",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.pestExterminated.label}}",
+                        "value": "Pest exterminated",
                         "type": "active"
                     }
                 ]
@@ -37,34 +37,34 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Pest control",
             "displayType": "state",
             "state": {
                 "label": "{{pestControl.value}}",
                 "alternatives": [
                     {
                         "key": "idle",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.idle.label}}",
+                        "value": "Trap unarmed",
                         "type": "active"
                     },
                     {
                         "key": "trapArmed",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.trapArmed.label}}",
+                        "value": "Trap armed",
                         "type": "active"
                     },
                     {
                         "key": "trapRearmRequired",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.trapRearmRequired.label}}",
+                        "value": "Trap rearm required",
                         "type": "active"
                     },
                     {
                         "key": "pestDetected",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.pestDetected.label}}",
+                        "value": "Pest detected",
                         "type": "active"
                     },
                     {
                         "key": "pestExterminated",
-                        "value": "{{i18n.attributes.pestControl.i18n.value.pestExterminated.label}}",
+                        "value": "Pest exterminated",
                         "type": "active"
                     }
                 ]
@@ -74,33 +74,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Pest control",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "idle",
-                            "value": "{{i18n.attributes.pestControl.i18n.value.idle.label}}",
+                            "value": "Trap unarmed",
                             "type": "active"
                         },
                         {
                             "key": "trapArmed",
-                            "value": "{{i18n.attributes.pestControl.i18n.value.trapArmed.label}}",
+                            "value": "Trap armed",
                             "type": "active"
                         },
                         {
                             "key": "trapRearmRequired",
-                            "value": "{{i18n.attributes.pestControl.i18n.value.trapRearmRequired.label}}",
+                            "value": "Trap rearm required",
                             "type": "active"
                         },
                         {
                             "key": "pestDetected",
-                            "value": "{{i18n.attributes.pestControl.i18n.value.pestDetected.label}}",
+                            "value": "Pest detected",
                             "type": "active"
                         },
                         {
                             "key": "pestExterminated",
-                            "value": "{{i18n.attributes.pestControl.i18n.value.pestExterminated.label}}",
+                            "value": "Pest exterminated",
                             "type": "active"
                         }
                     ],
