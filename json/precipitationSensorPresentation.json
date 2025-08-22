@@ -6,32 +6,32 @@
                 "alternatives": [
                     {
                         "key": "none",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.none.label}}",
+                        "value": "None",
                         "type": "inactive"
                     },
                     {
                         "key": "possiblePrecipitation",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.possiblePrecipitation.label}}",
+                        "value": "Possible precipitation",
                         "type": "active"
                     },
                     {
                         "key": "light",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.light.label}}",
+                        "value": "Light",
                         "type": "active"
                     },
                     {
                         "key": "moderate",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.moderate.label}}",
+                        "value": "Moderate",
                         "type": "active"
                     },
                     {
                         "key": "heavy",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.heavy.label}}",
+                        "value": "Heavy",
                         "type": "active"
                     },
                     {
                         "key": "violent",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.violent.label}}",
+                        "value": "Violent",
                         "type": "active"
                     }
                 ]
@@ -42,39 +42,39 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Precipitation",
             "displayType": "state",
             "state": {
                 "label": "{{precipitationIntensity.value}}",
                 "alternatives": [
                     {
                         "key": "none",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.none.label}}",
+                        "value": "None",
                         "type": "inactive"
                     },
                     {
                         "key": "possiblePrecipitation",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.possiblePrecipitation.label}}",
+                        "value": "Possible precipitation",
                         "type": "active"
                     },
                     {
                         "key": "light",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.light.label}}",
+                        "value": "Light",
                         "type": "active"
                     },
                     {
                         "key": "moderate",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.moderate.label}}",
+                        "value": "Moderate",
                         "type": "active"
                     },
                     {
                         "key": "heavy",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.heavy.label}}",
+                        "value": "Heavy",
                         "type": "active"
                     },
                     {
                         "key": "violent",
-                        "value": "{{i18n.attributes.precipitationIntensity.i18n.value.violent.label}}",
+                        "value": "Violent",
                         "type": "active"
                     }
                 ]
@@ -84,38 +84,38 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Precipitation",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "none",
-                            "value": "{{i18n.attributes.precipitationIntensity.i18n.value.none.label}}",
+                            "value": "None",
                             "type": "inactive"
                         },
                         {
                             "key": "possiblePrecipitation",
-                            "value": "{{i18n.attributes.precipitationIntensity.i18n.value.possiblePrecipitation.label}}",
+                            "value": "Possible precipitation",
                             "type": "active"
                         },
                         {
                             "key": "light",
-                            "value": "{{i18n.attributes.precipitationIntensity.i18n.value.light.label}}",
+                            "value": "Light",
                             "type": "active"
                         },
                         {
                             "key": "moderate",
-                            "value": "{{i18n.attributes.precipitationIntensity.i18n.value.moderate.label}}",
+                            "value": "Moderate",
                             "type": "active"
                         },
                         {
                             "key": "heavy",
-                            "value": "{{i18n.attributes.precipitationIntensity.i18n.value.heavy.label}}",
+                            "value": "Heavy",
                             "type": "active"
                         },
                         {
                             "key": "violent",
-                            "value": "{{i18n.attributes.precipitationIntensity.i18n.value.violent.label}}",
+                            "value": "Violent",
                             "type": "active"
                         }
                     ],

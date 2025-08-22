@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Power",
             "displayType": "list",
             "list": {
                 "command": {
@@ -9,12 +9,12 @@
                     "alternatives": [
                         {
                             "key": "powerOn",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.powerOn.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "powerOff",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.powerOff.label}}",
+                            "value": "Off",
                             "type": "active"
                         }
                     ],
@@ -28,18 +28,18 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Power",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "powerOn",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.powerOn.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "powerOff",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.powerOff.label}}",
+                            "value": "Off",
                             "type": "active"
                         }
                     ],

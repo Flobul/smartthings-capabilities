@@ -27,7 +27,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Temperature",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -44,7 +44,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Temperature",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "temperature.value",
