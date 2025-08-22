@@ -8,23 +8,23 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Toggle Switch",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "toggle",
-                            "value": "{{i18n.attributes.switch.i18n.value.toggle.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SAMSUNGCE.TOGGLESWITCH_DEFAULT_ATTRIBUTES_SWITCH_TOGGLE",
                             "type": "active"
                         },
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.switch.i18n.value.on.label}}",
+                            "value": "on",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.switch.i18n.value.off.label}}",
+                            "value": "off",
                             "type": "active"
                         }
                     ]

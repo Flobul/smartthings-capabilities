@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Wind speed",
             "displayType": "state",
             "state": {
                 "label": "{{windspeed.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Wind speed",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "windspeed.value",
