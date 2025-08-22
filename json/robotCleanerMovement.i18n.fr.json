@@ -59,26 +59,26 @@
                         "powerOff": {
                             "label": "Désactivé"
                         },
-                        "reserve": {
-                            "label": "Programmé"
+                        "alarm": {
+                            "label": "Erreur"
                         },
                         "charging": {
                             "label": "Chargement"
                         },
-                        "alarm": {
-                            "label": "Erreur"
-                        },
-                        "homing": {
-                            "label": "Retour sur la station d'accueil"
+                        "reserve": {
+                            "label": "Programmé"
                         },
                         "after": {
                             "label": "Rechargement avant nettoyage"
                         },
-                        "point": {
-                            "label": "Nettoyage ciblé"
+                        "homing": {
+                            "label": "Retour sur la station d'accueil"
                         },
                         "pause": {
                             "label": "Pause"
+                        },
+                        "point": {
+                            "label": "Nettoyage ciblé"
                         }
                     },
                     "description": "Set the robot cleaner movement mode, to \"homing\""

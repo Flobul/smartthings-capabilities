@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Play a favourite",
             "displayType": "state",
             "state": {
                 "label": "{{presets.value}}"
@@ -12,7 +12,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Play a favourite",
                 "displayType": "textField",
                 "textField": {
                     "command": "playPreset",

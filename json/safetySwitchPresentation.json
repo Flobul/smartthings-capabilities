@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "on",
-                        "value": "{{i18n.attributes.switch.i18n.value.on.label}}",
+                        "value": "On",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.switch.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Power",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.off.label}}",
+                            "value": "Turn Off",
                             "type": "inactive"
                         },
                         {
                             "key": "{{WARNING_MESSAGE}}",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.SAFETYSWITCH_DEFAULT_WARNING_MESSAGE",
+                            "value": "For your safety, remote control for the {{DEVICE_NAME}} can only be used to turn it off, not to turn it on. After using the remote control, always make sure that the power is actually off.",
                             "type": "active"
                         }
                     ]
@@ -45,12 +45,12 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.switch.i18n.value.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.switch.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]
@@ -61,18 +61,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Power",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.switch.i18n.value.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.switch.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ],
