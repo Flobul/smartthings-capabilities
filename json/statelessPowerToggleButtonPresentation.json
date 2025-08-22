@@ -15,7 +15,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Switch power state",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "setButton",
@@ -28,13 +28,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.commands.setButton.arguments.button.i18n.powerToggle.label}}",
+                "label": "Switch power state",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "powerToggle",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.powerToggle.label}}",
+                            "value": "Switch power state",
                             "type": "active"
                         }
                     ],
