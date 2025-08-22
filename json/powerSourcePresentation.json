@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "battery",
-                        "value": "{{i18n.attributes.powerSource.i18n.value.battery.label}}",
+                        "value": "Battery",
                         "type": "active"
                     },
                     {
                         "key": "dc",
-                        "value": "{{i18n.attributes.powerSource.i18n.value.dc.label}}",
+                        "value": "DC power supply",
                         "type": "active"
                     },
                     {
                         "key": "mains",
-                        "value": "{{i18n.attributes.powerSource.i18n.value.mains.label}}",
+                        "value": "AC power supply",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.powerSource.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "active"
                     }
                 ]
@@ -32,29 +32,29 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Power source",
             "displayType": "state",
             "state": {
                 "label": "{{powerSource.value}}",
                 "alternatives": [
                     {
                         "key": "battery",
-                        "value": "{{i18n.attributes.powerSource.i18n.value.battery.label}}",
+                        "value": "Battery",
                         "type": "active"
                     },
                     {
                         "key": "dc",
-                        "value": "{{i18n.attributes.powerSource.i18n.value.dc.label}}",
+                        "value": "DC power supply",
                         "type": "active"
                     },
                     {
                         "key": "mains",
-                        "value": "{{i18n.attributes.powerSource.i18n.value.mains.label}}",
+                        "value": "AC power supply",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.powerSource.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "active"
                     }
                 ]
@@ -64,28 +64,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Power source",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "battery",
-                            "value": "{{i18n.attributes.powerSource.i18n.value.battery.label}}",
+                            "value": "Battery",
                             "type": "active"
                         },
                         {
                             "key": "dc",
-                            "value": "{{i18n.attributes.powerSource.i18n.value.dc.label}}",
+                            "value": "DC power supply",
                             "type": "active"
                         },
                         {
                             "key": "mains",
-                            "value": "{{i18n.attributes.powerSource.i18n.value.mains.label}}",
+                            "value": "AC power supply",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.powerSource.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "active"
                         }
                     ],
