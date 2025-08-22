@@ -1,0 +1,185 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{state.value}}",
+                "alternatives": [
+                    {
+                        "key": "off",
+                        "value": "Off",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "stopped",
+                        "value": "Stopped",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "preparing",
+                        "value": "Preparing",
+                        "type": "active"
+                    },
+                    {
+                        "key": "running",
+                        "value": "On",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "standbyPowerSwitch",
+                "standbyPowerSwitch": {
+                    "command": {
+                        "on": "on",
+                        "off": "off"
+                    },
+                    "state": {
+                        "value": "state.value",
+                        "valueType": "string",
+                        "on": "running",
+                        "off": "stopped",
+                        "alternatives": [
+                            {
+                                "key": "off",
+                                "value": "Off",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "stopped",
+                                "value": "Stopped",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "preparing",
+                                "value": "Preparing",
+                                "type": "active"
+                            },
+                            {
+                                "key": "running",
+                                "value": "On",
+                                "type": "active"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Pillow state",
+            "displayType": "standbyPowerSwitch",
+            "standbyPowerSwitch": {
+                "command": {
+                    "on": "on",
+                    "off": "off"
+                },
+                "state": {
+                    "value": "state.value",
+                    "valueType": "string",
+                    "on": "running",
+                    "off": "stopped",
+                    "label": "{{state.value}}",
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "Off",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "Stopped",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "preparing",
+                            "value": "Preparing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "running",
+                            "value": "On",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "Snoring time",
+            "displayType": "state",
+            "state": {
+                "label": "{{snoringTime.value}}",
+                "unit": "snoringTime.unit"
+            }
+        },
+        {
+            "label": "Snore care time",
+            "displayType": "state",
+            "state": {
+                "label": "{{pillowOperationTime.value}}",
+                "unit": "pillowOperationTime.unit"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Pillow state",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "Off",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "Stopped",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "preparing",
+                            "value": "Preparing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "running",
+                            "value": "On",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "state.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Pillow state",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "Turn on",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "Turn off",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "antiSnoringPillow",
+    "version": 1
+}

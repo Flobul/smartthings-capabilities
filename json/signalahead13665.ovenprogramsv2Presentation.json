@@ -6,77 +6,77 @@
                 "alternatives": [
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_HotAir",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                        "value": "4D hot air",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                        "value": "Top/bottom heating",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                        "value": "Hot air grilling",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                        "value": "Pizza setting",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                        "value": "Hot air eco",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                        "value": "Keep warm",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                        "value": "Preheat ovenware",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                        "value": "Top/bottom heating eco",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                        "value": "CoolStart",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                        "value": "Slow cook",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                        "value": "Intensive heat",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_Defrost",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                        "value": "Defrost",
                         "type": "active"
                     },
                     {
                         "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
-                        "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                        "value": "Bottom heating",
                         "type": "active"
                     },
                     {
                         "key": "None",
-                        "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                        "value": "None",
                         "type": "active"
                     },
                     {
                         "key": "UnknownProgram",
-                        "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                        "value": "Unknown program",
                         "type": "active"
                     }
                 ]
@@ -87,7 +87,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.program.label}}",
+            "label": "Programs",
             "displayType": "list",
             "list": {
                 "command": {
@@ -95,67 +95,67 @@
                     "alternatives": [
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAir",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                            "value": "4D hot air",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                            "value": "Top/bottom heating",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                            "value": "Hot air grilling",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                            "value": "Pizza setting",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                            "value": "Hot air eco",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                            "value": "Keep warm",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                            "value": "Preheat ovenware",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                            "value": "Top/bottom heating eco",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                            "value": "CoolStart",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                            "value": "Slow cook",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                            "value": "Intensive heat",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_Defrost",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                            "value": "Defrost",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                            "value": "Bottom heating",
                             "type": "active"
                         }
                     ],
@@ -168,77 +168,77 @@
                     "alternatives": [
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAir",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                            "value": "4D hot air",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                            "value": "Top/bottom heating",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                            "value": "Hot air grilling",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                            "value": "Pizza setting",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                            "value": "Hot air eco",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                            "value": "Keep warm",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                            "value": "Preheat ovenware",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                            "value": "Top/bottom heating eco",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                            "value": "CoolStart",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                            "value": "Slow cook",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                            "value": "Intensive heat",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_Defrost",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                            "value": "Defrost",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                            "value": "Bottom heating",
                             "type": "active"
                         },
                         {
                             "key": "None",
-                            "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                            "value": "None",
                             "type": "active"
                         },
                         {
                             "key": "UnknownProgram",
-                            "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                            "value": "Unknown program",
                             "type": "active"
                         }
                     ]
@@ -249,83 +249,83 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.program.label}}",
+                "label": "Programs",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAir",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                            "value": "4D hot air",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                            "value": "Top/bottom heating",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                            "value": "Hot air grilling",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                            "value": "Pizza setting",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                            "value": "Hot air eco",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                            "value": "Keep warm",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                            "value": "Preheat ovenware",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                            "value": "Top/bottom heating eco",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                            "value": "CoolStart",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                            "value": "Slow cook",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                            "value": "Intensive heat",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_Defrost",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                            "value": "Defrost",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                            "value": "Bottom heating",
                             "type": "active"
                         },
                         {
                             "key": "None",
-                            "value": "{{i18n.attributes.program.i18n.value.None.label}}",
+                            "value": "None",
                             "type": "active"
                         },
                         {
                             "key": "UnknownProgram",
-                            "value": "{{i18n.attributes.program.i18n.value.UnknownProgram.label}}",
+                            "value": "Unknown program",
                             "type": "active"
                         }
                     ],
@@ -338,73 +338,73 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.program.label}}",
+                "label": "Programs",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAir",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAir.label}}",
+                            "value": "4D hot air",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeating",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeating.label}}",
+                            "value": "Top/bottom heating",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAirGrilling",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirGrilling.label}}",
+                            "value": "Hot air grilling",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_PizzaSetting",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PizzaSetting.label}}",
+                            "value": "Pizza setting",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_HotAirEco",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_HotAirEco.label}}",
+                            "value": "Hot air eco",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_KeepWarm",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_KeepWarm.label}}",
+                            "value": "Keep warm",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_PreheatOvenware",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_PreheatOvenware.label}}",
+                            "value": "Preheat ovenware",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_TopBottomHeatingEco.label}}",
+                            "value": "Top/bottom heating eco",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_FrozenHeatupSpecial.label}}",
+                            "value": "CoolStart",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_SlowCook",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_SlowCook.label}}",
+                            "value": "Slow cook",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_IntensiveHeat",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_IntensiveHeat.label}}",
+                            "value": "Intensive heat",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_Defrost",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_Defrost.label}}",
+                            "value": "Defrost",
                             "type": "active"
                         },
                         {
                             "key": "Cooking_Oven_Program_HeatingMode_BottomHeating",
-                            "value": "{{i18n.attributes.program.i18n.value.Cooking_Oven_Program_HeatingMode_BottomHeating.label}}",
+                            "value": "Bottom heating",
                             "type": "active"
                         }
                     ],

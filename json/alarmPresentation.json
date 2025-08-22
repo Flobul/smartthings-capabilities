@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.alarm.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     },
                     {
                         "key": "both",
-                        "value": "{{i18n.attributes.alarm.i18n.value.both.label}}",
+                        "value": "Siren and strobe",
                         "type": "active"
                     },
                     {
                         "key": "strobe",
-                        "value": "{{i18n.attributes.alarm.i18n.value.strobe.label}}",
+                        "value": "Strobe",
                         "type": "active"
                     },
                     {
                         "key": "siren",
-                        "value": "{{i18n.attributes.alarm.i18n.value.siren.label}}",
+                        "value": "Siren",
                         "type": "active"
                     }
                 ]
@@ -43,12 +43,12 @@
                         "alternatives": [
                             {
                                 "key": "strobe",
-                                "value": "{{i18n.attributes.alarm.i18n.value.strobe.label}}",
+                                "value": "Strobe",
                                 "type": "active"
                             },
                             {
                                 "key": "siren",
-                                "value": "{{i18n.attributes.alarm.i18n.value.siren.label}}",
+                                "value": "Siren",
                                 "type": "active"
                             }
                         ]
@@ -70,12 +70,12 @@
                         "alternatives": [
                             {
                                 "key": "both",
-                                "value": "{{i18n.attributes.alarm.i18n.value.both.label}}",
+                                "value": "Siren and strobe",
                                 "type": "active"
                             },
                             {
                                 "key": "strobe",
-                                "value": "{{i18n.attributes.alarm.i18n.value.strobe.label}}",
+                                "value": "Strobe",
                                 "type": "active"
                             }
                         ]
@@ -97,12 +97,12 @@
                         "alternatives": [
                             {
                                 "key": "both",
-                                "value": "{{i18n.attributes.alarm.i18n.value.both.label}}",
+                                "value": "Siren and strobe",
                                 "type": "active"
                             },
                             {
                                 "key": "siren",
-                                "value": "{{i18n.attributes.alarm.i18n.value.siren.label}}",
+                                "value": "Siren",
                                 "type": "active"
                             }
                         ]
@@ -114,29 +114,29 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Alarm type",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "strobe",
-                            "value": "{{i18n.commands.strobe.label}}",
+                            "value": "Strobe",
                             "type": "active"
                         },
                         {
                             "key": "both",
-                            "value": "{{i18n.commands.both.label}}",
+                            "value": "Siren and strobe",
                             "type": "active"
                         },
                         {
                             "key": "siren",
-                            "value": "{{i18n.commands.siren.label}}",
+                            "value": "Siren",
                             "type": "active"
                         }
                     ]
@@ -147,22 +147,22 @@
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.alarm.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "strobe",
-                            "value": "{{i18n.attributes.alarm.i18n.value.strobe.label}}",
+                            "value": "Strobe",
                             "type": "active"
                         },
                         {
                             "key": "both",
-                            "value": "{{i18n.attributes.alarm.i18n.value.both.label}}",
+                            "value": "Siren and strobe",
                             "type": "active"
                         },
                         {
                             "key": "siren",
-                            "value": "{{i18n.attributes.alarm.i18n.value.siren.label}}",
+                            "value": "Siren",
                             "type": "active"
                         }
                     ]
@@ -173,28 +173,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Alarm type",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.alarm.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "strobe",
-                            "value": "{{i18n.attributes.alarm.i18n.value.strobe.label}}",
+                            "value": "Strobe",
                             "type": "active"
                         },
                         {
                             "key": "both",
-                            "value": "{{i18n.attributes.alarm.i18n.value.both.label}}",
+                            "value": "Siren and strobe",
                             "type": "active"
                         },
                         {
                             "key": "siren",
-                            "value": "{{i18n.attributes.alarm.i18n.value.siren.label}}",
+                            "value": "Siren",
                             "type": "active"
                         }
                     ],
@@ -206,28 +206,28 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Alarm type",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "strobe",
-                            "value": "{{i18n.commands.strobe.label}}",
+                            "value": "Strobe",
                             "type": "active"
                         },
                         {
                             "key": "both",
-                            "value": "{{i18n.commands.both.label}}",
+                            "value": "Siren and strobe",
                             "type": "active"
                         },
                         {
                             "key": "siren",
-                            "value": "{{i18n.commands.siren.label}}",
+                            "value": "Siren",
                             "type": "active"
                         }
                     ]
