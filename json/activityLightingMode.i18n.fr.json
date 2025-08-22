@@ -43,11 +43,11 @@
             "arguments": {
                 "lightingMode": {
                     "i18n": {
-                        "writing description": {
-                            "label": "Lumière blanche de 5000K qui vous permet de vous concentrer facilement sur votre travail."
-                        },
                         "sleepPreparation": {
                             "label": "Sommeil"
+                        },
+                        "writing description": {
+                            "label": "Lumière blanche de 5000K qui vous permet de vous concentrer facilement sur votre travail."
                         },
                         "cozy": {
                             "label": "Cosy"
@@ -76,11 +76,11 @@
                         "computer": {
                             "label": "Ordinateur"
                         },
-                        "writing": {
-                            "label": "Écriture"
-                        },
                         "soft description": {
                             "label": "Lumière douce pour créer l'ambiance."
+                        },
+                        "writing": {
+                            "label": "Écriture"
                         },
                         "reading description": {
                             "label": "Lumière naturelle de 4000K pour une lecture confortable."
