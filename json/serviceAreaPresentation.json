@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Cleaning area",
             "displayType": "state",
             "state": {
                 "label": "{{selectedAreas.value}}"

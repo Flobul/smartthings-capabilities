@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.chime.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     },
                     {
                         "key": "chime",
-                        "value": "{{i18n.label}}",
+                        "value": "Chime",
                         "type": "active"
                     }
                 ]
@@ -37,7 +37,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Chime",
             "displayType": "switch",
             "switch": {
                 "command": {
@@ -52,12 +52,12 @@
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.chime.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "chime",
-                            "value": "{{i18n.label}}",
+                            "value": "Chime",
                             "type": "active"
                         }
                     ]
@@ -68,18 +68,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Chime",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.chime.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "chime",
-                            "value": "{{i18n.label}}",
+                            "value": "Chime",
                             "type": "active"
                         }
                     ],
@@ -90,18 +90,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Chime",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "chime",
-                            "value": "{{i18n.label}}",
+                            "value": "Chime",
                             "type": "active"
                         }
                     ]

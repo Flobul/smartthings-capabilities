@@ -10,14 +10,14 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Image capture",
             "displayType": "state",
             "state": {
                 "label": "{{image.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Image capture",
             "displayType": "state",
             "state": {
                 "label": "{{captureTime.value}}"
@@ -28,13 +28,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Image capture",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "take",
-                            "value": "{{i18n.label}}",
+                            "value": "Image capture",
                             "type": "active"
                         }
                     ]

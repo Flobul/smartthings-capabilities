@@ -3,13 +3,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Monitoring",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "enableMonitoringAutomation",
-                            "value": "{{i18n.label}}",
+                            "value": "Monitoring",
                             "type": "active"
                         }
                     ]

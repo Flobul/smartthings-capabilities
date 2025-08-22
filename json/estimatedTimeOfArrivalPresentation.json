@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "ETA",
             "displayType": "state",
             "state": {
                 "label": "{{eta.value}}"
