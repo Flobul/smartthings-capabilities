@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "feeding",
-                        "value": "{{i18n.attributes.feederOperatingState.i18n.value.feeding.label}}",
+                        "value": "Feeding",
                         "type": "active"
                     },
                     {
                         "key": "idle",
-                        "value": "{{i18n.attributes.feederOperatingState.i18n.value.idle.label}}",
+                        "value": "On",
                         "type": "active"
                     },
                     {
                         "key": "error",
-                        "value": "{{i18n.attributes.feederOperatingState.i18n.value.error.label}}",
+                        "value": "Something's wrong",
                         "type": "inactive"
                     }
                 ]
@@ -34,14 +34,14 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Pet feeder",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "startFeeding",
-                            "value": "{{i18n.commands.startFeeding.label}}",
+                            "value": "Feeding",
                             "type": "active"
                         }
                     ]
@@ -52,17 +52,17 @@
                     "alternatives": [
                         {
                             "key": "feeding",
-                            "value": "{{i18n.attributes.feederOperatingState.i18n.value.feeding.label}}",
+                            "value": "Feeding",
                             "type": "active"
                         },
                         {
                             "key": "idle",
-                            "value": "{{i18n.attributes.feederOperatingState.i18n.value.idle.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "error",
-                            "value": "{{i18n.attributes.feederOperatingState.i18n.value.error.label}}",
+                            "value": "Something's wrong",
                             "type": "inactive"
                         }
                     ]
@@ -73,23 +73,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Pet feeder",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "feeding",
-                            "value": "{{i18n.attributes.feederOperatingState.i18n.value.feeding.label}}",
+                            "value": "Feeding",
                             "type": "active"
                         },
                         {
                             "key": "idle",
-                            "value": "{{i18n.attributes.feederOperatingState.i18n.value.idle.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "error",
-                            "value": "{{i18n.attributes.feederOperatingState.i18n.value.error.label}}",
+                            "value": "Something's wrong",
                             "type": "inactive"
                         }
                     ],
@@ -101,13 +101,13 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Pet feeder",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "startFeeding",
-                            "value": "{{i18n.commands.startFeeding.label}}",
+                            "value": "Feeding",
                             "type": "active"
                         }
                     ]
