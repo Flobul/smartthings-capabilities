@@ -1,45 +1,4 @@
 {
-    "dashboard": {
-        "states": [
-            {
-                "label": "{{lastSensingLevel.value}}",
-                "alternatives": [
-                    {
-                        "key": "Kr0",
-                        "value": "Off",
-                        "type": "inactive"
-                    },
-                    {
-                        "key": "Kr1",
-                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_AIR_SENSOR_INDOOR_GOOD}}",
-                        "type": "inactive"
-                    },
-                    {
-                        "key": "Kr2",
-                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_AIR_SENSOR_INDOOR_NORMAL}}",
-                        "type": "inactive"
-                    },
-                    {
-                        "key": "Kr3",
-                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_AIR_SENSOR_INDOOR_POOR}}",
-                        "type": "inactive"
-                    },
-                    {
-                        "key": "Kr4",
-                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_AIR_SENSOR_INDOOR_VERY_POOR}}",
-                        "type": "inactive"
-                    },
-                    {
-                        "key": "Kr5",
-                        "value": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_AIR_SENSOR_INDOOR_VERY_POOR}}",
-                        "type": "inactive"
-                    }
-                ]
-            }
-        ],
-        "actions": [],
-        "panelItems": []
-    },
     "id": "custom.periodicSensing",
     "version": 1
 }

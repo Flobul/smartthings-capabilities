@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Keypad",
             "displayType": "list",
             "list": {
                 "command": {
@@ -9,52 +9,52 @@
                     "alternatives": [
                         {
                             "key": "UP",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.UP.label}}",
+                            "value": "Up",
                             "type": "active"
                         },
                         {
                             "key": "DOWN",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.DOWN.label}}",
+                            "value": "Down",
                             "type": "active"
                         },
                         {
                             "key": "LEFT",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.LEFT.label}}",
+                            "value": "Left",
                             "type": "active"
                         },
                         {
                             "key": "RIGHT",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.RIGHT.label}}",
+                            "value": "Right",
                             "type": "active"
                         },
                         {
                             "key": "SELECT",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.SELECT.label}}",
+                            "value": "Select",
                             "type": "active"
                         },
                         {
                             "key": "BACK",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.BACK.label}}",
+                            "value": "Back",
                             "type": "active"
                         },
                         {
                             "key": "EXIT",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.EXIT.label}}",
+                            "value": "Exit",
                             "type": "active"
                         },
                         {
                             "key": "MENU",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.MENU.label}}",
+                            "value": "Menu",
                             "type": "active"
                         },
                         {
                             "key": "SETTINGS",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.SETTINGS.label}}",
+                            "value": "Settings",
                             "type": "active"
                         },
                         {
                             "key": "HOME",
-                            "value": "{{i18n.commands.sendKey.arguments.keyCode.i18n.HOME.label}}",
+                            "value": "Home",
                             "type": "active"
                         },
                         {

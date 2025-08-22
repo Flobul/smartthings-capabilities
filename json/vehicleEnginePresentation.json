@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "starting",
-                        "value": "{{i18n.attributes.engineState.i18n.value.starting.label}}",
+                        "value": "Starting",
                         "type": "active"
                     },
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.engineState.i18n.value.running.label}}",
+                        "value": "Running",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.engineState.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "inactive"
                     },
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.engineState.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     }
                 ]
@@ -47,7 +47,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Engine",
             "displayType": "standbyPowerSwitch",
             "standbyPowerSwitch": {
                 "command": {
@@ -62,22 +62,22 @@
                     "alternatives": [
                         {
                             "key": "starting",
-                            "value": "{{i18n.attributes.engineState.i18n.value.starting.label}}",
+                            "value": "Starting",
                             "type": "active"
                         },
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.engineState.i18n.value.running.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.engineState.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "inactive"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.engineState.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]
@@ -88,28 +88,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Engine",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "starting",
-                            "value": "{{i18n.attributes.engineState.i18n.value.starting.label}}",
+                            "value": "Starting",
                             "type": "active"
                         },
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.engineState.i18n.value.running.label}}",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.engineState.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "inactive"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.engineState.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ],
@@ -120,18 +120,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Engine",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "startEngine",
-                            "value": "{{i18n.commands.startEngine.label}}",
+                            "value": "Start",
                             "type": "active"
                         },
                         {
                             "key": "stopEngine",
-                            "value": "{{i18n.commands.stopEngine.label}}",
+                            "value": "Stop",
                             "type": "active"
                         }
                     ]

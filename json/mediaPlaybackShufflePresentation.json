@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "enabled",
-                        "value": "{{i18n.attributes.playbackShuffle.i18n.value.enabled.label}}",
+                        "value": "On",
                         "type": "active"
                     },
                     {
                         "key": "disabled",
-                        "value": "{{i18n.attributes.playbackShuffle.i18n.value.disabled.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     }
                 ]
@@ -22,7 +22,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Shuffle",
             "displayType": "list",
             "list": {
                 "command": {
@@ -30,12 +30,12 @@
                     "alternatives": [
                         {
                             "key": "enabled",
-                            "value": "{{i18n.commands.setPlaybackShuffle.arguments.shuffle.i18n.enabled.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "disabled",
-                            "value": "{{i18n.commands.setPlaybackShuffle.arguments.shuffle.i18n.disabled.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]
@@ -45,12 +45,12 @@
                     "alternatives": [
                         {
                             "key": "enabled",
-                            "value": "{{i18n.attributes.playbackShuffle.i18n.value.enabled.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "disabled",
-                            "value": "{{i18n.attributes.playbackShuffle.i18n.value.disabled.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]
@@ -61,18 +61,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Shuffle",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "enabled",
-                            "value": "{{i18n.attributes.playbackShuffle.i18n.value.enabled.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "disabled",
-                            "value": "{{i18n.attributes.playbackShuffle.i18n.value.disabled.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ],
@@ -83,18 +83,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Shuffle",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "enabled",
-                            "value": "{{i18n.commands.setPlaybackShuffle.arguments.shuffle.i18n.enabled.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "disabled",
-                            "value": "{{i18n.commands.setPlaybackShuffle.arguments.shuffle.i18n.disabled.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ],

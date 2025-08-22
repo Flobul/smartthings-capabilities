@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "called",
-                        "value": "{{i18n.attributes.callStatus.i18n.value.called.label}}",
+                        "value": "Called",
                         "type": "active"
                     },
                     {
                         "key": "standby",
-                        "value": "{{i18n.attributes.callStatus.i18n.value.standby.label}}",
+                        "value": "Not called",
                         "type": "inactive"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.callStatus.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "inactive"
                     }
                 ]
@@ -34,31 +34,31 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Lift status",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "call"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Lift status",
             "displayType": "state",
             "state": {
                 "label": "{{callStatus.value}}",
                 "alternatives": [
                     {
                         "key": "called",
-                        "value": "{{i18n.attributes.callStatus.i18n.value.called.label}}",
+                        "value": "Called",
                         "type": "active"
                     },
                     {
                         "key": "standby",
-                        "value": "{{i18n.attributes.callStatus.i18n.value.standby.label}}",
+                        "value": "Not called",
                         "type": "inactive"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.callStatus.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "inactive"
                     }
                 ]
@@ -68,23 +68,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Lift status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "called",
-                            "value": "{{i18n.attributes.callStatus.i18n.value.called.label}}",
+                            "value": "Called",
                             "type": "active"
                         },
                         {
                             "key": "standby",
-                            "value": "{{i18n.attributes.callStatus.i18n.value.standby.label}}",
+                            "value": "Not called",
                             "type": "inactive"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.callStatus.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "inactive"
                         }
                     ],
@@ -95,13 +95,13 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Lift status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "call",
-                            "value": "{{i18n.commands.call.label}}",
+                            "value": "Call",
                             "type": "active"
                         }
                     ]

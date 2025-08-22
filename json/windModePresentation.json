@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "sleepWind",
-                        "value": "{{i18n.attributes.windMode.i18n.value.sleepWind.label}}",
+                        "value": "Sleep wind",
                         "type": "active"
                     },
                     {
                         "key": "naturalWind",
-                        "value": "{{i18n.attributes.windMode.i18n.value.naturalWind.label}}",
+                        "value": "Natural wind",
                         "type": "active"
                     },
                     {
                         "key": "noWind",
-                        "value": "{{i18n.attributes.windMode.i18n.value.noWind.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     }
                 ]
@@ -45,7 +45,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Wind mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -53,17 +53,17 @@
                     "alternatives": [
                         {
                             "key": "sleepWind",
-                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.sleepWind.label}}",
+                            "value": "Sleep wind",
                             "type": "active"
                         },
                         {
                             "key": "naturalWind",
-                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.naturalWind.label}}",
+                            "value": "Natural wind",
                             "type": "active"
                         },
                         {
                             "key": "noWind",
-                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.noWind.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ],
@@ -76,17 +76,17 @@
                     "alternatives": [
                         {
                             "key": "sleepWind",
-                            "value": "{{i18n.attributes.windMode.i18n.value.sleepWind.label}}",
+                            "value": "Sleep wind",
                             "type": "active"
                         },
                         {
                             "key": "naturalWind",
-                            "value": "{{i18n.attributes.windMode.i18n.value.naturalWind.label}}",
+                            "value": "Natural wind",
                             "type": "active"
                         },
                         {
                             "key": "noWind",
-                            "value": "{{i18n.attributes.windMode.i18n.value.noWind.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]
@@ -97,23 +97,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Wind mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "sleepWind",
-                            "value": "{{i18n.attributes.windMode.i18n.value.sleepWind.label}}",
+                            "value": "Sleep wind",
                             "type": "active"
                         },
                         {
                             "key": "naturalWind",
-                            "value": "{{i18n.attributes.windMode.i18n.value.naturalWind.label}}",
+                            "value": "Natural wind",
                             "type": "active"
                         },
                         {
                             "key": "noWind",
-                            "value": "{{i18n.attributes.windMode.i18n.value.noWind.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ],
@@ -126,23 +126,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Wind mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "sleepWind",
-                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.sleepWind.label}}",
+                            "value": "Sleep wind",
                             "type": "active"
                         },
                         {
                             "key": "naturalWind",
-                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.naturalWind.label}}",
+                            "value": "Natural wind",
                             "type": "active"
                         },
                         {
                             "key": "noWind",
-                            "value": "{{i18n.commands.setWindMode.arguments.windMode.i18n.noWind.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ],
