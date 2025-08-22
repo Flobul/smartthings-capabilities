@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "on",
-                        "value": "{{i18n.attributes.massageState.i18n.value.on.label}}",
+                        "value": "On",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.massageState.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     }
                 ]
@@ -38,7 +38,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Massage",
             "displayType": "standbyPowerSwitch",
             "standbyPowerSwitch": {
                 "command": {
@@ -54,12 +54,12 @@
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.massageState.i18n.value.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.massageState.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]
@@ -70,18 +70,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Massage",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.attributes.massageState.i18n.value.on.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.massageState.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ],
@@ -94,18 +94,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Massage",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "start",
-                            "value": "{{i18n.commands.start.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.stop.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]

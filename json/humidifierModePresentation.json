@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "auto",
-                        "value": "{{i18n.attributes.humidifierMode.i18n.value.auto.label}}",
+                        "value": "Auto",
                         "type": "active"
                     },
                     {
                         "key": "low",
-                        "value": "{{i18n.attributes.humidifierMode.i18n.value.low.label}}",
+                        "value": "Low",
                         "type": "active"
                     },
                     {
                         "key": "medium",
-                        "value": "{{i18n.attributes.humidifierMode.i18n.value.medium.label}}",
+                        "value": "Medium",
                         "type": "active"
                     },
                     {
                         "key": "high",
-                        "value": "{{i18n.attributes.humidifierMode.i18n.value.high.label}}",
+                        "value": "High",
                         "type": "active"
                     }
                 ]
@@ -32,7 +32,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Humidifier mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -40,22 +40,22 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.medium.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.high.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ]
@@ -65,22 +65,22 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.humidifierMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.attributes.humidifierMode.i18n.value.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "{{i18n.attributes.humidifierMode.i18n.value.medium.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.attributes.humidifierMode.i18n.value.high.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ]
@@ -91,28 +91,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Humidifier mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.humidifierMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.attributes.humidifierMode.i18n.value.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "{{i18n.attributes.humidifierMode.i18n.value.medium.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.attributes.humidifierMode.i18n.value.high.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ],
@@ -123,28 +123,28 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Humidifier mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.medium.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.commands.setHumidifierMode.arguments.humidifierMode.i18n.high.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ],
