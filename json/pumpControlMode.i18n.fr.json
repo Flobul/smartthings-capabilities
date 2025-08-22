@@ -101,14 +101,14 @@
                         "automatic": {
                             "label": "Automatique"
                         },
-                        "constantSpeed": {
-                            "label": "Rythme constant"
-                        },
                         "constantPressure": {
                             "label": "Pression constante"
                         },
                         "proportionalPressure": {
                             "label": "Pression automatique"
+                        },
+                        "constantSpeed": {
+                            "label": "Rythme constant"
                         }
                     },
                     "description": "The control mode to set the device to"

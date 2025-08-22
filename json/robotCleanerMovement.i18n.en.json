@@ -59,26 +59,26 @@
                         "powerOff": {
                             "label": "Off"
                         },
-                        "reserve": {
-                            "label": "Scheduled"
+                        "alarm": {
+                            "label": "Error"
                         },
                         "charging": {
                             "label": "Charging"
                         },
-                        "alarm": {
-                            "label": "Error"
-                        },
-                        "homing": {
-                            "label": "Returning to dock"
+                        "reserve": {
+                            "label": "Scheduled"
                         },
                         "after": {
                             "label": "Charging before cleaning"
                         },
-                        "point": {
-                            "label": "Point cleaning"
+                        "homing": {
+                            "label": "Returning to dock"
                         },
                         "pause": {
                             "label": "Pause"
+                        },
+                        "point": {
+                            "label": "Point cleaning"
                         }
                     },
                     "description": "Set the robot cleaner movement mode, to \"homing\""

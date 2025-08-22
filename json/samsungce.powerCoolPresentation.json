@@ -3,18 +3,18 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Power Cool",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "activate",
-                            "value": "{{i18n.commands.activate.label}}",
+                            "value": "Turn On",
                             "type": "active"
                         },
                         {
                             "key": "deactivate",
-                            "value": "{{i18n.commands.deactivate.label}}",
+                            "value": "Turn Off",
                             "type": "active"
                         }
                     ]

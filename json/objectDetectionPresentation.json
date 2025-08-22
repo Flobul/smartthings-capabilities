@@ -1,36 +1,36 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Object sensor",
             "displayType": "state",
             "state": {
                 "label": "{{detected.value.value}}",
                 "alternatives": [
                     {
                         "key": "human",
-                        "value": "{{i18n.attributes.detected.i18n.value.human.label}}",
+                        "value": "Person",
                         "type": "active"
                     },
                     {
                         "key": "pet",
-                        "value": "{{i18n.attributes.detected.i18n.value.pet.label}}",
+                        "value": "Pet",
                         "type": "active"
                     },
                     {
                         "key": "parcel",
-                        "value": "{{i18n.attributes.detected.i18n.value.parcel.label}}",
+                        "value": "Parcel",
                         "type": "active"
                     },
                     {
                         "key": "none",
-                        "value": "{{i18n.attributes.detected.i18n.value.none.label}}",
+                        "value": "None",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Object sensor",
             "displayType": "state",
             "state": {
                 "label": "{{detected.value.qty}}"
@@ -40,28 +40,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Object sensor",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "human",
-                            "value": "{{i18n.attributes.detected.i18n.value.human.label}}",
+                            "value": "Person",
                             "type": "active"
                         },
                         {
                             "key": "pet",
-                            "value": "{{i18n.attributes.detected.i18n.value.pet.label}}",
+                            "value": "Pet",
                             "type": "active"
                         },
                         {
                             "key": "parcel",
-                            "value": "{{i18n.attributes.detected.i18n.value.parcel.label}}",
+                            "value": "Parcel",
                             "type": "active"
                         },
                         {
                             "key": "none",
-                            "value": "{{i18n.attributes.detected.i18n.value.none.label}}",
+                            "value": "None",
                             "type": "active"
                         }
                     ],
