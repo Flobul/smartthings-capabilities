@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Cook time",
             "displayType": "numberField",
             "numberField": {
                 "value": "cookTime.value",
@@ -29,7 +29,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Cook time",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "cookTime.value",
@@ -45,7 +45,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Cook time",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setCookTime",

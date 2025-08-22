@@ -6,51 +6,51 @@
                 "alternatives": [
                     {
                         "key": "reading",
-                        "value": "{{i18n.attributes.lightingMode.i18n.value.reading.label}}",
+                        "value": "Reading",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
+                        "description": "4000K natural light for comfortable reading."
                     },
                     {
                         "key": "writing",
-                        "value": "{{i18n.attributes.lightingMode.i18n.value.writing.label}}",
+                        "value": "Writing",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
+                        "description": "5000K white light that makes it easy to focus on your work."
                     },
                     {
                         "key": "computer",
-                        "value": "{{i18n.attributes.lightingMode.i18n.value.computer.label}}",
+                        "value": "Computer",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
+                        "description": "Backlight only to help you immerse yourself in movies and games."
                     },
                     {
                         "key": "day",
-                        "value": "{{i18n.attributes.lightingMode.i18n.value.day.label}}",
+                        "value": "Daylight",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
+                        "description": "Energising light that's similar to sunlight."
                     },
                     {
                         "key": "night",
-                        "value": "{{i18n.attributes.lightingMode.i18n.value.night.label}}",
+                        "value": "Night",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
+                        "description": "Dim the light to help you relax."
                     },
                     {
                         "key": "sleepPreparation",
-                        "value": "{{i18n.attributes.lightingMode.i18n.value.sleepPreparation.label}}",
+                        "value": "Sleep",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
+                        "description": "Get a breathing guide to help you relax and fall asleep. Breathe in for 4 seconds as the light gets brighter, hold your breath for 7 seconds when the light is steady, and breathe out for 8 seconds as the light gets darker. The light will turn off after 4 breaths."
                     },
                     {
                         "key": "cozy",
-                        "value": "{{i18n.attributes.lightingMode.i18n.value.cozy.label}}",
+                        "value": "Cosy",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
+                        "description": "Warm light to make you feel comfortable."
                     },
                     {
                         "key": "soft",
-                        "value": "{{i18n.attributes.lightingMode.i18n.value.soft.label}}",
+                        "value": "Soft",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
+                        "description": "Gentle light to set the mood."
                     }
                 ]
             }
@@ -60,7 +60,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Light mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -68,51 +68,51 @@
                     "alternatives": [
                         {
                             "key": "reading",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.reading.label}}",
+                            "value": "Reading",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
+                            "description": "4000K natural light for comfortable reading."
                         },
                         {
                             "key": "writing",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.writing.label}}",
+                            "value": "Writing",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
+                            "description": "5000K white light that makes it easy to focus on your work."
                         },
                         {
                             "key": "computer",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.computer.label}}",
+                            "value": "Computer",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
+                            "description": "Backlight only to help you immerse yourself in movies and games."
                         },
                         {
                             "key": "day",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.day.label}}",
+                            "value": "Daylight",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
+                            "description": "Energising light that's similar to sunlight."
                         },
                         {
                             "key": "night",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.night.label}}",
+                            "value": "Night",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
+                            "description": "Dim the light to help you relax."
                         },
                         {
                             "key": "sleepPreparation",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.sleepPreparation.label}}",
+                            "value": "Sleep",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
+                            "description": "Get a breathing guide to help you relax and fall asleep. Breathe in for 4 seconds as the light gets brighter, hold your breath for 7 seconds when the light is steady, and breathe out for 8 seconds as the light gets darker. The light will turn off after 4 breaths."
                         },
                         {
                             "key": "cozy",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.cozy.label}}",
+                            "value": "Cosy",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
+                            "description": "Warm light to make you feel comfortable."
                         },
                         {
                             "key": "soft",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.soft.label}}",
+                            "value": "Soft",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
+                            "description": "Gentle light to set the mood."
                         }
                     ]
                 },
@@ -121,51 +121,51 @@
                     "alternatives": [
                         {
                             "key": "reading",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.reading.label}}",
+                            "value": "Reading",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
+                            "description": "4000K natural light for comfortable reading."
                         },
                         {
                             "key": "writing",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.writing.label}}",
+                            "value": "Writing",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
+                            "description": "5000K white light that makes it easy to focus on your work."
                         },
                         {
                             "key": "computer",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.computer.label}}",
+                            "value": "Computer",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
+                            "description": "Backlight only to help you immerse yourself in movies and games."
                         },
                         {
                             "key": "day",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.day.label}}",
+                            "value": "Daylight",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
+                            "description": "Energising light that's similar to sunlight."
                         },
                         {
                             "key": "night",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.night.label}}",
+                            "value": "Night",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
+                            "description": "Dim the light to help you relax."
                         },
                         {
                             "key": "sleepPreparation",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.sleepPreparation.label}}",
+                            "value": "Sleep",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
+                            "description": "Get a breathing guide to help you relax and fall asleep. Breathe in for 4 seconds as the light gets brighter, hold your breath for 7 seconds when the light is steady, and breathe out for 8 seconds as the light gets darker. The light will turn off after 4 breaths."
                         },
                         {
                             "key": "cozy",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.cozy.label}}",
+                            "value": "Cosy",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
+                            "description": "Warm light to make you feel comfortable."
                         },
                         {
                             "key": "soft",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.soft.label}}",
+                            "value": "Soft",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
+                            "description": "Gentle light to set the mood."
                         }
                     ]
                 }
@@ -175,57 +175,57 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Light mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "reading",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.reading.label}}",
+                            "value": "Reading",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
+                            "description": "4000K natural light for comfortable reading."
                         },
                         {
                             "key": "writing",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.writing.label}}",
+                            "value": "Writing",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
+                            "description": "5000K white light that makes it easy to focus on your work."
                         },
                         {
                             "key": "computer",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.computer.label}}",
+                            "value": "Computer",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
+                            "description": "Backlight only to help you immerse yourself in movies and games."
                         },
                         {
                             "key": "day",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.day.label}}",
+                            "value": "Daylight",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
+                            "description": "Energising light that's similar to sunlight."
                         },
                         {
                             "key": "night",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.night.label}}",
+                            "value": "Night",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
+                            "description": "Dim the light to help you relax."
                         },
                         {
                             "key": "sleepPreparation",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.sleepPreparation.label}}",
+                            "value": "Sleep",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
+                            "description": "Get a breathing guide to help you relax and fall asleep. Breathe in for 4 seconds as the light gets brighter, hold your breath for 7 seconds when the light is steady, and breathe out for 8 seconds as the light gets darker. The light will turn off after 4 breaths."
                         },
                         {
                             "key": "cozy",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.cozy.label}}",
+                            "value": "Cosy",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
+                            "description": "Warm light to make you feel comfortable."
                         },
                         {
                             "key": "soft",
-                            "value": "{{i18n.attributes.lightingMode.i18n.value.soft.label}}",
+                            "value": "Soft",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
+                            "description": "Gentle light to set the mood."
                         }
                     ],
                     "value": "lightingMode.value",
@@ -235,57 +235,57 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Light mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "reading",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.reading.label}}",
+                            "value": "Reading",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_READING"
+                            "description": "4000K natural light for comfortable reading."
                         },
                         {
                             "key": "writing",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.writing.label}}",
+                            "value": "Writing",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_WRIGHTING"
+                            "description": "5000K white light that makes it easy to focus on your work."
                         },
                         {
                             "key": "computer",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.computer.label}}",
+                            "value": "Computer",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COMPUTER"
+                            "description": "Backlight only to help you immerse yourself in movies and games."
                         },
                         {
                             "key": "day",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.day.label}}",
+                            "value": "Daylight",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_DAY"
+                            "description": "Energising light that's similar to sunlight."
                         },
                         {
                             "key": "night",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.night.label}}",
+                            "value": "Night",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_NIGHT"
+                            "description": "Dim the light to help you relax."
                         },
                         {
                             "key": "sleepPreparation",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.sleepPreparation.label}}",
+                            "value": "Sleep",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SLEEPPREPARATION"
+                            "description": "Get a breathing guide to help you relax and fall asleep. Breathe in for 4 seconds as the light gets brighter, hold your breath for 7 seconds when the light is steady, and breathe out for 8 seconds as the light gets darker. The light will turn off after 4 breaths."
                         },
                         {
                             "key": "cozy",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.cozy.label}}",
+                            "value": "Cosy",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_COZY"
+                            "description": "Warm light to make you feel comfortable."
                         },
                         {
                             "key": "soft",
-                            "value": "{{i18n.commands.setLightingMode.arguments.lightingMode.i18n.soft.label}}",
+                            "value": "Soft",
                             "type": "active",
-                            "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.ACTIVITYLIGHTINGMODE_DEFAULT_DESCRIPTION_SOFT"
+                            "description": "Gentle light to set the mood."
                         }
                     ],
                     "command": "setLightingMode"
