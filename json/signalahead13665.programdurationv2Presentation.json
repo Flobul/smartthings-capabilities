@@ -6,7 +6,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.duration.label}}",
+            "label": "Adjust duration (min)",
             "displayType": "numberField",
             "numberField": {
                 "value": "duration.value",
@@ -24,7 +24,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.duration.label}}",
+                "label": "Adjust duration (min)",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "duration.value",
@@ -39,7 +39,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.duration.label}}",
+                "label": "Adjust duration (min)",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setProgramDuration",

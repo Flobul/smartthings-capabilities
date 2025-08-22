@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "PM 2.5",
             "displayType": "state",
             "state": {
                 "label": "{{fineDustLevel.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "PM 2.5",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "fineDustLevel.value",

@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "notPluggedIn",
-                        "value": "{{i18n.attributes.state.i18n.value.notPluggedIn.label}}",
+                        "value": "Available",
                         "type": "active"
                     },
                     {
                         "key": "pluggedInNoDemand",
-                        "value": "{{i18n.attributes.state.i18n.value.pluggedInNoDemand.label}}",
+                        "value": "Suspended EV",
                         "type": "active"
                     },
                     {
                         "key": "pluggedInDemand",
-                        "value": "{{i18n.attributes.state.i18n.value.pluggedInDemand.label}}",
+                        "value": "Suspended EVSE",
                         "type": "active"
                     },
                     {
                         "key": "pluggedInCharging",
-                        "value": "{{i18n.attributes.state.i18n.value.pluggedInCharging.label}}",
+                        "value": "Charging",
                         "type": "active"
                     },
                     {
                         "key": "pluggedInDischarging",
-                        "value": "{{i18n.attributes.state.i18n.value.pluggedInDischarging.label}}",
+                        "value": "Discharging",
                         "type": "active"
                     },
                     {
                         "key": "sessionEnding",
-                        "value": "{{i18n.attributes.state.i18n.value.sessionEnding.label}}",
+                        "value": "Finished",
                         "type": "active"
                     },
                     {
                         "key": "fault",
-                        "value": "{{i18n.attributes.state.i18n.value.fault.label}}",
+                        "value": "Faulted",
                         "type": "active"
                     }
                 ]
@@ -47,172 +47,172 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.state.label}}",
+            "label": "Charging point state",
             "displayType": "state",
             "state": {
                 "label": "{{state.value}}",
                 "alternatives": [
                     {
                         "key": "notPluggedIn",
-                        "value": "{{i18n.attributes.state.i18n.value.notPluggedIn.label}}",
+                        "value": "Available",
                         "type": "active"
                     },
                     {
                         "key": "pluggedInNoDemand",
-                        "value": "{{i18n.attributes.state.i18n.value.pluggedInNoDemand.label}}",
+                        "value": "Suspended EV",
                         "type": "active"
                     },
                     {
                         "key": "pluggedInDemand",
-                        "value": "{{i18n.attributes.state.i18n.value.pluggedInDemand.label}}",
+                        "value": "Suspended EVSE",
                         "type": "active"
                     },
                     {
                         "key": "pluggedInCharging",
-                        "value": "{{i18n.attributes.state.i18n.value.pluggedInCharging.label}}",
+                        "value": "Charging",
                         "type": "active"
                     },
                     {
                         "key": "pluggedInDischarging",
-                        "value": "{{i18n.attributes.state.i18n.value.pluggedInDischarging.label}}",
+                        "value": "Discharging",
                         "type": "active"
                     },
                     {
                         "key": "sessionEnding",
-                        "value": "{{i18n.attributes.state.i18n.value.sessionEnding.label}}",
+                        "value": "Finished",
                         "type": "active"
                     },
                     {
                         "key": "fault",
-                        "value": "{{i18n.attributes.state.i18n.value.fault.label}}",
+                        "value": "Faulted",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.faultState.label}}",
+            "label": "Fault detector",
             "displayType": "state",
             "state": {
                 "label": "{{faultState.value}}",
                 "alternatives": [
                     {
                         "key": "noError",
-                        "value": "{{i18n.attributes.faultState.i18n.value.noError.label}}",
+                        "value": "Clear",
                         "type": "active"
                     },
                     {
                         "key": "meterFailure",
-                        "value": "{{i18n.attributes.faultState.i18n.value.meterFailure.label}}",
+                        "value": "Metre failure",
                         "type": "active"
                     },
                     {
                         "key": "overVoltage",
-                        "value": "{{i18n.attributes.faultState.i18n.value.overVoltage.label}}",
+                        "value": "Over voltage",
                         "type": "active"
                     },
                     {
                         "key": "underVoltage",
-                        "value": "{{i18n.attributes.faultState.i18n.value.underVoltage.label}}",
+                        "value": "Under voltage",
                         "type": "active"
                     },
                     {
                         "key": "overCurrent",
-                        "value": "{{i18n.attributes.faultState.i18n.value.overCurrent.label}}",
+                        "value": "Over current",
                         "type": "active"
                     },
                     {
                         "key": "contactWetFailure",
-                        "value": "{{i18n.attributes.faultState.i18n.value.contactWetFailure.label}}",
+                        "value": "Contact wet failure",
                         "type": "active"
                     },
                     {
                         "key": "contactDryFailure",
-                        "value": "{{i18n.attributes.faultState.i18n.value.contactDryFailure.label}}",
+                        "value": "Contact dry failure",
                         "type": "active"
                     },
                     {
                         "key": "groundFault",
-                        "value": "{{i18n.attributes.faultState.i18n.value.groundFault.label}}",
+                        "value": "Ground fault",
                         "type": "active"
                     },
                     {
                         "key": "powerLoss",
-                        "value": "{{i18n.attributes.faultState.i18n.value.powerLoss.label}}",
+                        "value": "Power loss",
                         "type": "active"
                     },
                     {
                         "key": "powerQuality",
-                        "value": "{{i18n.attributes.faultState.i18n.value.powerQuality.label}}",
+                        "value": "Power quality",
                         "type": "active"
                     },
                     {
                         "key": "pilotShortCircuit",
-                        "value": "{{i18n.attributes.faultState.i18n.value.pilotShortCircuit.label}}",
+                        "value": "Pilot short circuit",
                         "type": "active"
                     },
                     {
                         "key": "emergencyStop",
-                        "value": "{{i18n.attributes.faultState.i18n.value.emergencyStop.label}}",
+                        "value": "Emergency stop",
                         "type": "active"
                     },
                     {
                         "key": "eVDisconnected",
-                        "value": "{{i18n.attributes.faultState.i18n.value.eVDisconnected.label}}",
+                        "value": "EV disconnected",
                         "type": "active"
                     },
                     {
                         "key": "wrongPowerSupply",
-                        "value": "{{i18n.attributes.faultState.i18n.value.wrongPowerSupply.label}}",
+                        "value": "Wrong power supply",
                         "type": "active"
                     },
                     {
                         "key": "liveNeutralSwap",
-                        "value": "{{i18n.attributes.faultState.i18n.value.liveNeutralSwap.label}}",
+                        "value": "Live/neutral swap",
                         "type": "active"
                     },
                     {
                         "key": "overTemperature",
-                        "value": "{{i18n.attributes.faultState.i18n.value.overTemperature.label}}",
+                        "value": "Over temperature",
                         "type": "active"
                     },
                     {
                         "key": "other",
-                        "value": "{{i18n.attributes.faultState.i18n.value.other.label}}",
+                        "value": "Others",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.supplyState.label}}",
+            "label": "EV supply state",
             "displayType": "state",
             "state": {
                 "label": "{{supplyState.value}}",
                 "alternatives": [
                     {
                         "key": "disabled",
-                        "value": "{{i18n.attributes.supplyState.i18n.value.disabled.label}}",
+                        "value": "Disabled",
                         "type": "active"
                     },
                     {
                         "key": "chargingEnabled",
-                        "value": "{{i18n.attributes.supplyState.i18n.value.chargingEnabled.label}}",
+                        "value": "Charging enabled",
                         "type": "active"
                     },
                     {
                         "key": "dischargingEnabled",
-                        "value": "{{i18n.attributes.supplyState.i18n.value.dischargingEnabled.label}}",
+                        "value": "Discharging enabled",
                         "type": "active"
                     },
                     {
                         "key": "disabledError",
-                        "value": "{{i18n.attributes.supplyState.i18n.value.disabledError.label}}",
+                        "value": "Error",
                         "type": "active"
                     },
                     {
                         "key": "disabledDiagnostics",
-                        "value": "{{i18n.attributes.supplyState.i18n.value.disabledDiagnostics.label}}",
+                        "value": "Diagnostics error",
                         "type": "active"
                     }
                 ]
@@ -222,43 +222,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.state.label}}",
+                "label": "Charging point state",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "notPluggedIn",
-                            "value": "{{i18n.attributes.state.i18n.value.notPluggedIn.label}}",
+                            "value": "Available",
                             "type": "active"
                         },
                         {
                             "key": "pluggedInNoDemand",
-                            "value": "{{i18n.attributes.state.i18n.value.pluggedInNoDemand.label}}",
+                            "value": "Suspended EV",
                             "type": "active"
                         },
                         {
                             "key": "pluggedInDemand",
-                            "value": "{{i18n.attributes.state.i18n.value.pluggedInDemand.label}}",
+                            "value": "Suspended EVSE",
                             "type": "active"
                         },
                         {
                             "key": "pluggedInCharging",
-                            "value": "{{i18n.attributes.state.i18n.value.pluggedInCharging.label}}",
+                            "value": "Charging",
                             "type": "active"
                         },
                         {
                             "key": "pluggedInDischarging",
-                            "value": "{{i18n.attributes.state.i18n.value.pluggedInDischarging.label}}",
+                            "value": "Discharging",
                             "type": "active"
                         },
                         {
                             "key": "sessionEnding",
-                            "value": "{{i18n.attributes.state.i18n.value.sessionEnding.label}}",
+                            "value": "Finished",
                             "type": "active"
                         },
                         {
                             "key": "fault",
-                            "value": "{{i18n.attributes.state.i18n.value.fault.label}}",
+                            "value": "Faulted",
                             "type": "active"
                         }
                     ],

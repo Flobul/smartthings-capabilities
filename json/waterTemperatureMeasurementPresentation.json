@@ -22,7 +22,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Water temperature",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -39,7 +39,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Water temperature",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "temperature.value",

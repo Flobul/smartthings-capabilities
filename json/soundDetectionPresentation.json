@@ -6,22 +6,37 @@
                 "alternatives": [
                     {
                         "key": "noSound",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.noSound.label}}",
+                        "value": "No sound",
                         "type": "inactive"
                     },
                     {
                         "key": "babyCrying",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.babyCrying.label}}",
+                        "value": "Baby crying",
                         "type": "active"
                     },
                     {
                         "key": "glassBreaking",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.glassBreaking.label}}",
+                        "value": "Breaking glass",
                         "type": "active"
                     },
                     {
                         "key": "fireAlarm",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.fireAlarm.label}}",
+                        "value": "Fire alarm",
+                        "type": "active"
+                    },
+                    {
+                        "key": "applianceAlarm",
+                        "value": "Appliance alarm",
+                        "type": "active"
+                    },
+                    {
+                        "key": "emergencyAlarm",
+                        "value": "Emergency alarm",
+                        "type": "active"
+                    },
+                    {
+                        "key": "screaming",
+                        "value": "Screaming",
                         "type": "active"
                     },
                     {
@@ -41,7 +56,17 @@
                     },
                     {
                         "key": "dogBarking",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.dogBarking.label}}",
+                        "value": "Dog barking",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dogGrowling",
+                        "value": "Dog growling",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dogHowling",
+                        "value": "Dog howling",
                         "type": "active"
                     },
                     {
@@ -56,7 +81,12 @@
                     },
                     {
                         "key": "catMeowing",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.catMeowing.label}}",
+                        "value": "Cat meowing",
+                        "type": "active"
+                    },
+                    {
+                        "key": "catPurring",
+                        "value": "Cat purring",
                         "type": "active"
                     },
                     {
@@ -66,7 +96,27 @@
                     },
                     {
                         "key": "doorKnocking",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.doorKnocking.label}}",
+                        "value": "Knock on door",
+                        "type": "active"
+                    },
+                    {
+                        "key": "doorbell",
+                        "value": "Doorbell",
+                        "type": "active"
+                    },
+                    {
+                        "key": "faucetRunning",
+                        "value": "Faucet running",
+                        "type": "active"
+                    },
+                    {
+                        "key": "hairDrying",
+                        "value": "Hair drying",
+                        "type": "active"
+                    },
+                    {
+                        "key": "kettleBoiling",
+                        "value": "Kettle boiling",
                         "type": "active"
                     },
                     {
@@ -91,12 +141,27 @@
                     },
                     {
                         "key": "siren",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.siren.label}}",
+                        "value": "Siren",
                         "type": "active"
                     },
                     {
                         "key": "fingerSnapping",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.fingerSnapping.label}}",
+                        "value": "Finger snapping",
+                        "type": "active"
+                    },
+                    {
+                        "key": "clapping",
+                        "value": "Clapping",
+                        "type": "active"
+                    },
+                    {
+                        "key": "coughing",
+                        "value": "Coughing",
+                        "type": "active"
+                    },
+                    {
+                        "key": "speech",
+                        "value": "Speech",
                         "type": "active"
                     },
                     {
@@ -116,7 +181,7 @@
                     },
                     {
                         "key": "snoring",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.snoring.label}}",
+                        "value": "Snoring",
                         "type": "active"
                     }
                 ]
@@ -127,29 +192,44 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Sound detection",
             "displayType": "state",
             "state": {
                 "label": "{{soundDetected.value}}",
                 "alternatives": [
                     {
                         "key": "noSound",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.noSound.label}}",
+                        "value": "No sound",
                         "type": "inactive"
                     },
                     {
                         "key": "babyCrying",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.babyCrying.label}}",
+                        "value": "Baby crying",
                         "type": "active"
                     },
                     {
                         "key": "glassBreaking",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.glassBreaking.label}}",
+                        "value": "Breaking glass",
                         "type": "active"
                     },
                     {
                         "key": "fireAlarm",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.fireAlarm.label}}",
+                        "value": "Fire alarm",
+                        "type": "active"
+                    },
+                    {
+                        "key": "applianceAlarm",
+                        "value": "Appliance alarm",
+                        "type": "active"
+                    },
+                    {
+                        "key": "emergencyAlarm",
+                        "value": "Emergency alarm",
+                        "type": "active"
+                    },
+                    {
+                        "key": "screaming",
+                        "value": "Screaming",
                         "type": "active"
                     },
                     {
@@ -169,7 +249,17 @@
                     },
                     {
                         "key": "dogBarking",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.dogBarking.label}}",
+                        "value": "Dog barking",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dogGrowling",
+                        "value": "Dog growling",
+                        "type": "active"
+                    },
+                    {
+                        "key": "dogHowling",
+                        "value": "Dog howling",
                         "type": "active"
                     },
                     {
@@ -184,7 +274,12 @@
                     },
                     {
                         "key": "catMeowing",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.catMeowing.label}}",
+                        "value": "Cat meowing",
+                        "type": "active"
+                    },
+                    {
+                        "key": "catPurring",
+                        "value": "Cat purring",
                         "type": "active"
                     },
                     {
@@ -194,7 +289,27 @@
                     },
                     {
                         "key": "doorKnocking",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.doorKnocking.label}}",
+                        "value": "Knock on door",
+                        "type": "active"
+                    },
+                    {
+                        "key": "doorbell",
+                        "value": "Doorbell",
+                        "type": "active"
+                    },
+                    {
+                        "key": "faucetRunning",
+                        "value": "Faucet running",
+                        "type": "active"
+                    },
+                    {
+                        "key": "hairDrying",
+                        "value": "Hair drying",
+                        "type": "active"
+                    },
+                    {
+                        "key": "kettleBoiling",
+                        "value": "Kettle boiling",
                         "type": "active"
                     },
                     {
@@ -219,12 +334,27 @@
                     },
                     {
                         "key": "siren",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.siren.label}}",
+                        "value": "Siren",
                         "type": "active"
                     },
                     {
                         "key": "fingerSnapping",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.fingerSnapping.label}}",
+                        "value": "Finger snapping",
+                        "type": "active"
+                    },
+                    {
+                        "key": "clapping",
+                        "value": "Clapping",
+                        "type": "active"
+                    },
+                    {
+                        "key": "coughing",
+                        "value": "Coughing",
+                        "type": "active"
+                    },
+                    {
+                        "key": "speech",
+                        "value": "Speech",
                         "type": "active"
                     },
                     {
@@ -244,14 +374,14 @@
                     },
                     {
                         "key": "snoring",
-                        "value": "{{i18n.attributes.soundDetected.i18n.value.snoring.label}}",
+                        "value": "Snoring",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Sound detection",
             "displayType": "switch",
             "switch": {
                 "command": {
@@ -267,12 +397,12 @@
                     "alternatives": [
                         {
                             "key": "enabled",
-                            "value": "{{i18n.attributes.soundDetectionState.i18n.value.enabled.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "disabled",
-                            "value": "{{i18n.attributes.soundDetectionState.i18n.value.disabled.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]
@@ -283,28 +413,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Sound detection",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "noSound",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.noSound.label}}",
+                            "value": "No sound",
                             "type": "inactive"
                         },
                         {
                             "key": "babyCrying",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.babyCrying.label}}",
+                            "value": "Baby crying",
                             "type": "active"
                         },
                         {
                             "key": "glassBreaking",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.glassBreaking.label}}",
+                            "value": "Breaking glass",
                             "type": "active"
                         },
                         {
                             "key": "fireAlarm",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.fireAlarm.label}}",
+                            "value": "Fire alarm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "applianceAlarm",
+                            "value": "Appliance alarm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "emergencyAlarm",
+                            "value": "Emergency alarm",
+                            "type": "active"
+                        },
+                        {
+                            "key": "screaming",
+                            "value": "Screaming",
                             "type": "active"
                         },
                         {
@@ -324,7 +469,17 @@
                         },
                         {
                             "key": "dogBarking",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.dogBarking.label}}",
+                            "value": "Dog barking",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dogGrowling",
+                            "value": "Dog growling",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dogHowling",
+                            "value": "Dog howling",
                             "type": "active"
                         },
                         {
@@ -339,7 +494,12 @@
                         },
                         {
                             "key": "catMeowing",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.catMeowing.label}}",
+                            "value": "Cat meowing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "catPurring",
+                            "value": "Cat purring",
                             "type": "active"
                         },
                         {
@@ -349,7 +509,27 @@
                         },
                         {
                             "key": "doorKnocking",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.doorKnocking.label}}",
+                            "value": "Knock on door",
+                            "type": "active"
+                        },
+                        {
+                            "key": "doorbell",
+                            "value": "Doorbell",
+                            "type": "active"
+                        },
+                        {
+                            "key": "faucetRunning",
+                            "value": "Faucet running",
+                            "type": "active"
+                        },
+                        {
+                            "key": "hairDrying",
+                            "value": "Hair drying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "kettleBoiling",
+                            "value": "Kettle boiling",
                             "type": "active"
                         },
                         {
@@ -374,12 +554,27 @@
                         },
                         {
                             "key": "siren",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.siren.label}}",
+                            "value": "Siren",
                             "type": "active"
                         },
                         {
                             "key": "fingerSnapping",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.fingerSnapping.label}}",
+                            "value": "Finger snapping",
+                            "type": "active"
+                        },
+                        {
+                            "key": "clapping",
+                            "value": "Clapping",
+                            "type": "active"
+                        },
+                        {
+                            "key": "coughing",
+                            "value": "Coughing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "speech",
+                            "value": "Speech",
                             "type": "active"
                         },
                         {
@@ -399,7 +594,7 @@
                         },
                         {
                             "key": "snoring",
-                            "value": "{{i18n.attributes.soundDetected.i18n.value.snoring.label}}",
+                            "value": "Snoring",
                             "type": "active"
                         }
                     ],
@@ -412,18 +607,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Sound detection",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "enableSoundDetection",
-                            "value": "{{i18n.commands.enableSoundDetection.label}}",
+                            "value": "On",
                             "type": "active"
                         },
                         {
                             "key": "disableSoundDetection",
-                            "value": "{{i18n.commands.disableSoundDetection.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         }
                     ]

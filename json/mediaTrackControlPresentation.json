@@ -1,19 +1,19 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Media track control",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "nextTrack",
-                            "value": "{{i18n.commands.nextTrack.label}}",
+                            "value": "Next",
                             "type": "active"
                         },
                         {
                             "key": "previousTrack",
-                            "value": "{{i18n.commands.previousTrack.label}}",
+                            "value": "Previous",
                             "type": "active"
                         }
                     ],
@@ -26,18 +26,18 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Media track control",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "nextTrack",
-                            "value": "{{i18n.commands.nextTrack.label}}",
+                            "value": "Next",
                             "type": "active"
                         },
                         {
                             "key": "previousTrack",
-                            "value": "{{i18n.commands.previousTrack.label}}",
+                            "value": "Previous",
                             "type": "active"
                         }
                     ],

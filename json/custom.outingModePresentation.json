@@ -3,18 +3,18 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Outing",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.commands.setOutingMode.arguments.mode.i18n.on.label}}",
+                            "value": "Outing On",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setOutingMode.arguments.mode.i18n.off.label}}",
+                            "value": "Outing Off",
                             "type": "active"
                         }
                     ],
