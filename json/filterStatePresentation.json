@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Filter",
             "displayType": "state",
             "state": {
                 "label": "{{filterLifeRemaining.value}}",
@@ -18,14 +18,14 @@
             }
         },
         {
-            "label": "{{i18n.commands.resetFilter.label}}",
+            "label": "Reset filter",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "resetFilter",
-                            "value": "{{i18n.commands.resetFilter.label}}",
+                            "value": "Reset filter",
                             "type": "active"
                         }
                     ],
@@ -37,7 +37,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Filter",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "filterLifeRemaining.value",
