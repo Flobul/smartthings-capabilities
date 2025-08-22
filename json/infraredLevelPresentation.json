@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Infrared level",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -28,7 +28,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Infrared level",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "infraredLevel.value",
@@ -43,7 +43,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Infrared level",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setInfraredLevel",

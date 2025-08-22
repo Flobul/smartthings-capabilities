@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Atmospheric pressure",
             "displayType": "state",
             "state": {
                 "label": "{{atmosphericPressure.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Atmospheric pressure",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "atmosphericPressure.value",

@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "charging",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                        "value": "Ready",
                         "type": "active"
                     },
                     {
                         "key": "stopped",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                        "value": "Not ready",
                         "type": "inactive"
                     },
                     {
                         "key": "disabled",
-                        "value": "{{i18n.attributes.chargingState.i18n.value.disabled.label}}",
+                        "value": "Not available",
                         "type": "inactive"
                     }
                 ]
@@ -27,19 +27,19 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.chargingState.label}}",
+            "label": "EVSE charging readiness state",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "enableCharging",
-                            "value": "{{i18n.commands.enableCharging.label}}",
+                            "value": "Enable charging readiness",
                             "type": "active"
                         },
                         {
                             "key": "disableCharging",
-                            "value": "{{i18n.commands.disableCharging.label}}",
+                            "value": "Disable charging readiness",
                             "type": "active"
                         }
                     ],
@@ -51,17 +51,17 @@
                     "alternatives": [
                         {
                             "key": "charging",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "value": "Ready",
                             "type": "active"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "value": "Not ready",
                             "type": "inactive"
                         },
                         {
                             "key": "disabled",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.disabled.label}}",
+                            "value": "Not available",
                             "type": "inactive"
                         }
                     ]
@@ -69,7 +69,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.targetEndTime.label}}",
+            "label": "End time",
             "displayType": "textField",
             "textField": {
                 "command": "setTargetEndTime",
@@ -79,7 +79,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.maxCurrent.label}}",
+            "label": "Max current",
             "displayType": "numberField",
             "numberField": {
                 "value": "maxCurrent.value",
@@ -90,7 +90,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.minCurrent.label}}",
+            "label": "Min current",
             "displayType": "numberField",
             "numberField": {
                 "value": "minCurrent.value",
@@ -101,14 +101,14 @@
             }
         },
         {
-            "label": "{{i18n.attributes.energyDelivered.label}}",
+            "label": "Energy Delivered",
             "displayType": "state",
             "state": {
                 "label": "{{energyDelivered.value}}}{{energyDelivered.unit}}"
             }
         },
         {
-            "label": "{{i18n.attributes.sessionTime.label}}",
+            "label": "Connection time",
             "displayType": "state",
             "state": {
                 "label": "{{sessionTime.value}}{{sessionTime.unit}}"
@@ -118,23 +118,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.chargingState.label}}",
+                "label": "EVSE charging readiness state",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "charging",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "value": "Ready",
                             "type": "active"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "value": "Not ready",
                             "type": "inactive"
                         },
                         {
                             "key": "disabled",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.disabled.label}}",
+                            "value": "Not available",
                             "type": "inactive"
                         }
                     ],
