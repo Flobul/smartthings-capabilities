@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.state.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "inactive"
                     },
                     {
                         "key": "stopped",
-                        "value": "{{i18n.attributes.state.i18n.value.stopped.label}}",
+                        "value": "Stopped",
                         "type": "inactive"
                     },
                     {
                         "key": "preparing",
-                        "value": "{{i18n.attributes.state.i18n.value.preparing.label}}",
+                        "value": "Preparing",
                         "type": "active"
                     },
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.state.i18n.value.running.label}}",
+                        "value": "On",
                         "type": "active"
                     }
                 ]
@@ -43,22 +43,22 @@
                         "alternatives": [
                             {
                                 "key": "off",
-                                "value": "{{i18n.attributes.state.i18n.value.off.label}}",
+                                "value": "Off",
                                 "type": "inactive"
                             },
                             {
                                 "key": "stopped",
-                                "value": "{{i18n.attributes.state.i18n.value.stopped.label}}",
+                                "value": "Stopped",
                                 "type": "inactive"
                             },
                             {
                                 "key": "preparing",
-                                "value": "{{i18n.attributes.state.i18n.value.preparing.label}}",
+                                "value": "Preparing",
                                 "type": "active"
                             },
                             {
                                 "key": "running",
-                                "value": "{{i18n.attributes.state.i18n.value.running.label}}",
+                                "value": "On",
                                 "type": "active"
                             }
                         ]
@@ -70,7 +70,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.state.label}}",
+            "label": "Pillow state",
             "displayType": "standbyPowerSwitch",
             "standbyPowerSwitch": {
                 "command": {
@@ -86,22 +86,22 @@
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.state.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.state.i18n.value.stopped.label}}",
+                            "value": "Stopped",
                             "type": "inactive"
                         },
                         {
                             "key": "preparing",
-                            "value": "{{i18n.attributes.state.i18n.value.preparing.label}}",
+                            "value": "Preparing",
                             "type": "active"
                         },
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.state.i18n.value.running.label}}",
+                            "value": "On",
                             "type": "active"
                         }
                     ]
@@ -109,7 +109,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.snoringTime.label}}",
+            "label": "Snoring time",
             "displayType": "state",
             "state": {
                 "label": "{{snoringTime.value}}",
@@ -117,7 +117,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.pillowOperationTime.label}}",
+            "label": "Snore care time",
             "displayType": "state",
             "state": {
                 "label": "{{pillowOperationTime.value}}",
@@ -128,28 +128,28 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Pillow state",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.state.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "inactive"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.state.i18n.value.stopped.label}}",
+                            "value": "Stopped",
                             "type": "inactive"
                         },
                         {
                             "key": "preparing",
-                            "value": "{{i18n.attributes.state.i18n.value.preparing.label}}",
+                            "value": "Preparing",
                             "type": "active"
                         },
                         {
                             "key": "running",
-                            "value": "{{i18n.attributes.state.i18n.value.running.label}}",
+                            "value": "On",
                             "type": "active"
                         }
                     ],
@@ -161,18 +161,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Pillow state",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "on",
-                            "value": "{{i18n.commands.on.label}}",
+                            "value": "Turn on",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.off.label}}",
+                            "value": "Turn off",
                             "type": "active"
                         }
                     ]
