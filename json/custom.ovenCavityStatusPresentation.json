@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "on",
-                        "value": "{{i18n.attributes.ovenCavityStatus.i18n.value.on.label}}",
+                        "value": "On",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.ovenCavityStatus.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "active"
                     }
                 ]

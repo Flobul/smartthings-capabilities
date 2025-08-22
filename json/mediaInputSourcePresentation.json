@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "AM",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.AM.label}}",
+                        "value": "AM",
                         "type": "active"
                     },
                     {
                         "key": "CD",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.CD.label}}",
+                        "value": "CD",
                         "type": "active"
                     },
                     {
                         "key": "FM",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.FM.label}}",
+                        "value": "FM",
                         "type": "active"
                     },
                     {
@@ -56,77 +56,77 @@
                     },
                     {
                         "key": "digitalTv",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.digitalTv.label}}",
+                        "value": "Digital TV",
                         "type": "active"
                     },
                     {
                         "key": "USB",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.USB.label}}",
+                        "value": "USB",
                         "type": "active"
                     },
                     {
                         "key": "YouTube",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.YouTube.label}}",
+                        "value": "YouTube",
                         "type": "active"
                     },
                     {
                         "key": "aux",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.aux.label}}",
+                        "value": "Aux",
                         "type": "active"
                     },
                     {
                         "key": "bluetooth",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.bluetooth.label}}",
+                        "value": "Bluetooth",
                         "type": "active"
                     },
                     {
                         "key": "digital",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.digital.label}}",
+                        "value": "Digital",
                         "type": "active"
                     },
                     {
                         "key": "melon",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.melon.label}}",
+                        "value": "Melon",
                         "type": "active"
                     },
                     {
                         "key": "wifi",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.wifi.label}}",
+                        "value": "Wi-Fi",
                         "type": "active"
                     },
                     {
                         "key": "network",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.network.label}}",
+                        "value": "Network",
                         "type": "active"
                     },
                     {
                         "key": "optical",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.optical.label}}",
+                        "value": "Optical",
                         "type": "active"
                     },
                     {
                         "key": "coaxial",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.coaxial.label}}",
+                        "value": "Coaxial",
                         "type": "active"
                     },
                     {
                         "key": "analog1",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.analog1.label}}",
+                        "value": "Analogue 1",
                         "type": "active"
                     },
                     {
                         "key": "analog2",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.analog2.label}}",
+                        "value": "Analogue 2",
                         "type": "active"
                     },
                     {
                         "key": "analog3",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.analog3.label}}",
+                        "value": "Analogue 3",
                         "type": "active"
                     },
                     {
                         "key": "phono",
-                        "value": "{{i18n.attributes.inputSource.i18n.value.phono.label}}",
+                        "value": "Phono",
                         "type": "active"
                     }
                 ]
@@ -137,7 +137,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.inputSource.label}}",
+            "label": "Media input source",
             "displayType": "list",
             "list": {
                 "command": {
@@ -145,17 +145,17 @@
                     "alternatives": [
                         {
                             "key": "AM",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.AM.label}}",
+                            "value": "AM",
                             "type": "active"
                         },
                         {
                             "key": "CD",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.CD.label}}",
+                            "value": "CD",
                             "type": "active"
                         },
                         {
                             "key": "FM",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.FM.label}}",
+                            "value": "FM",
                             "type": "active"
                         },
                         {
@@ -195,77 +195,77 @@
                         },
                         {
                             "key": "digitalTv",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.digitalTv.label}}",
+                            "value": "Digital TV",
                             "type": "active"
                         },
                         {
                             "key": "USB",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.USB.label}}",
+                            "value": "USB",
                             "type": "active"
                         },
                         {
                             "key": "YouTube",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.YouTube.label}}",
+                            "value": "YouTube",
                             "type": "active"
                         },
                         {
                             "key": "aux",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.aux.label}}",
+                            "value": "Aux",
                             "type": "active"
                         },
                         {
                             "key": "bluetooth",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.bluetooth.label}}",
+                            "value": "Bluetooth",
                             "type": "active"
                         },
                         {
                             "key": "digital",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.digital.label}}",
+                            "value": "Digital",
                             "type": "active"
                         },
                         {
                             "key": "melon",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.melon.label}}",
+                            "value": "Melon",
                             "type": "active"
                         },
                         {
                             "key": "wifi",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.wifi.label}}",
+                            "value": "Wi-Fi",
                             "type": "active"
                         },
                         {
                             "key": "network",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.network.label}}",
+                            "value": "Network",
                             "type": "active"
                         },
                         {
                             "key": "optical",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.optical.label}}",
+                            "value": "Optical",
                             "type": "active"
                         },
                         {
                             "key": "coaxial",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.coaxial.label}}",
+                            "value": "Coaxial",
                             "type": "active"
                         },
                         {
                             "key": "analog1",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog1.label}}",
+                            "value": "Analogue 1",
                             "type": "active"
                         },
                         {
                             "key": "analog2",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog2.label}}",
+                            "value": "Analogue 2",
                             "type": "active"
                         },
                         {
                             "key": "analog3",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog3.label}}",
+                            "value": "Analogue 3",
                             "type": "active"
                         },
                         {
                             "key": "phono",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.phono.label}}",
+                            "value": "Phono",
                             "type": "active"
                         }
                     ],
@@ -278,17 +278,17 @@
                     "alternatives": [
                         {
                             "key": "AM",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.AM.label}}",
+                            "value": "AM",
                             "type": "active"
                         },
                         {
                             "key": "CD",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.CD.label}}",
+                            "value": "CD",
                             "type": "active"
                         },
                         {
                             "key": "FM",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.FM.label}}",
+                            "value": "FM",
                             "type": "active"
                         },
                         {
@@ -328,77 +328,77 @@
                         },
                         {
                             "key": "digitalTv",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.digitalTv.label}}",
+                            "value": "Digital TV",
                             "type": "active"
                         },
                         {
                             "key": "USB",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.USB.label}}",
+                            "value": "USB",
                             "type": "active"
                         },
                         {
                             "key": "YouTube",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.YouTube.label}}",
+                            "value": "YouTube",
                             "type": "active"
                         },
                         {
                             "key": "aux",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.aux.label}}",
+                            "value": "Aux",
                             "type": "active"
                         },
                         {
                             "key": "bluetooth",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.bluetooth.label}}",
+                            "value": "Bluetooth",
                             "type": "active"
                         },
                         {
                             "key": "digital",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.digital.label}}",
+                            "value": "Digital",
                             "type": "active"
                         },
                         {
                             "key": "melon",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.melon.label}}",
+                            "value": "Melon",
                             "type": "active"
                         },
                         {
                             "key": "wifi",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.wifi.label}}",
+                            "value": "Wi-Fi",
                             "type": "active"
                         },
                         {
                             "key": "network",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.network.label}}",
+                            "value": "Network",
                             "type": "active"
                         },
                         {
                             "key": "optical",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.optical.label}}",
+                            "value": "Optical",
                             "type": "active"
                         },
                         {
                             "key": "coaxial",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.coaxial.label}}",
+                            "value": "Coaxial",
                             "type": "active"
                         },
                         {
                             "key": "analog1",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog1.label}}",
+                            "value": "Analogue 1",
                             "type": "active"
                         },
                         {
                             "key": "analog2",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog2.label}}",
+                            "value": "Analogue 2",
                             "type": "active"
                         },
                         {
                             "key": "analog3",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog3.label}}",
+                            "value": "Analogue 3",
                             "type": "active"
                         },
                         {
                             "key": "phono",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.phono.label}}",
+                            "value": "Phono",
                             "type": "active"
                         }
                     ]
@@ -409,23 +409,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.inputSource.label}}",
+                "label": "Media input source",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "AM",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.AM.label}}",
+                            "value": "AM",
                             "type": "active"
                         },
                         {
                             "key": "CD",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.CD.label}}",
+                            "value": "CD",
                             "type": "active"
                         },
                         {
                             "key": "FM",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.FM.label}}",
+                            "value": "FM",
                             "type": "active"
                         },
                         {
@@ -465,77 +465,77 @@
                         },
                         {
                             "key": "digitalTv",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.digitalTv.label}}",
+                            "value": "Digital TV",
                             "type": "active"
                         },
                         {
                             "key": "USB",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.USB.label}}",
+                            "value": "USB",
                             "type": "active"
                         },
                         {
                             "key": "YouTube",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.YouTube.label}}",
+                            "value": "YouTube",
                             "type": "active"
                         },
                         {
                             "key": "aux",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.aux.label}}",
+                            "value": "Aux",
                             "type": "active"
                         },
                         {
                             "key": "bluetooth",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.bluetooth.label}}",
+                            "value": "Bluetooth",
                             "type": "active"
                         },
                         {
                             "key": "digital",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.digital.label}}",
+                            "value": "Digital",
                             "type": "active"
                         },
                         {
                             "key": "melon",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.melon.label}}",
+                            "value": "Melon",
                             "type": "active"
                         },
                         {
                             "key": "wifi",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.wifi.label}}",
+                            "value": "Wi-Fi",
                             "type": "active"
                         },
                         {
                             "key": "network",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.network.label}}",
+                            "value": "Network",
                             "type": "active"
                         },
                         {
                             "key": "optical",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.optical.label}}",
+                            "value": "Optical",
                             "type": "active"
                         },
                         {
                             "key": "coaxial",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.coaxial.label}}",
+                            "value": "Coaxial",
                             "type": "active"
                         },
                         {
                             "key": "analog1",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog1.label}}",
+                            "value": "Analogue 1",
                             "type": "active"
                         },
                         {
                             "key": "analog2",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog2.label}}",
+                            "value": "Analogue 2",
                             "type": "active"
                         },
                         {
                             "key": "analog3",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog3.label}}",
+                            "value": "Analogue 3",
                             "type": "active"
                         },
                         {
                             "key": "phono",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.phono.label}}",
+                            "value": "Phono",
                             "type": "active"
                         }
                     ],
@@ -548,23 +548,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.setInputSource.label}}",
+                "label": "Media input source",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "AM",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.AM.label}}",
+                            "value": "AM",
                             "type": "active"
                         },
                         {
                             "key": "CD",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.CD.label}}",
+                            "value": "CD",
                             "type": "active"
                         },
                         {
                             "key": "FM",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.FM.label}}",
+                            "value": "FM",
                             "type": "active"
                         },
                         {
@@ -604,77 +604,77 @@
                         },
                         {
                             "key": "digitalTv",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.digitalTv.label}}",
+                            "value": "Digital TV",
                             "type": "active"
                         },
                         {
                             "key": "USB",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.USB.label}}",
+                            "value": "USB",
                             "type": "active"
                         },
                         {
                             "key": "YouTube",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.YouTube.label}}",
+                            "value": "YouTube",
                             "type": "active"
                         },
                         {
                             "key": "aux",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.aux.label}}",
+                            "value": "Aux",
                             "type": "active"
                         },
                         {
                             "key": "bluetooth",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.bluetooth.label}}",
+                            "value": "Bluetooth",
                             "type": "active"
                         },
                         {
                             "key": "digital",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.digital.label}}",
+                            "value": "Digital",
                             "type": "active"
                         },
                         {
                             "key": "melon",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.melon.label}}",
+                            "value": "Melon",
                             "type": "active"
                         },
                         {
                             "key": "wifi",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.wifi.label}}",
+                            "value": "Wi-Fi",
                             "type": "active"
                         },
                         {
                             "key": "network",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.network.label}}",
+                            "value": "Network",
                             "type": "active"
                         },
                         {
                             "key": "optical",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.optical.label}}",
+                            "value": "Optical",
                             "type": "active"
                         },
                         {
                             "key": "coaxial",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.coaxial.label}}",
+                            "value": "Coaxial",
                             "type": "active"
                         },
                         {
                             "key": "analog1",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog1.label}}",
+                            "value": "Analogue 1",
                             "type": "active"
                         },
                         {
                             "key": "analog2",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog2.label}}",
+                            "value": "Analogue 2",
                             "type": "active"
                         },
                         {
                             "key": "analog3",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.analog3.label}}",
+                            "value": "Analogue 3",
                             "type": "active"
                         },
                         {
                             "key": "phono",
-                            "value": "{{i18n.attributes.inputSource.i18n.value.phono.label}}",
+                            "value": "Phono",
                             "type": "active"
                         }
                     ],
