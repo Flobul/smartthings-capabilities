@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "playing",
-                        "value": "{{i18n.attributes.status.i18n.value.playing.label}}",
+                        "value": "Playing",
                         "type": "active"
                     },
                     {
                         "key": "paused",
-                        "value": "{{i18n.attributes.status.i18n.value.paused.label}}",
+                        "value": "Paused",
                         "type": "inactive"
                     },
                     {
                         "key": "stopped",
-                        "value": "{{i18n.attributes.status.i18n.value.stopped.label}}",
+                        "value": "Stopped",
                         "type": "inactive"
                     },
                     {
                         "key": "standby",
-                        "value": "{{i18n.attributes.status.i18n.value.standby.label}}",
+                        "value": "Standby",
                         "type": "inactive"
                     }
                 ]
@@ -42,12 +42,12 @@
                         "alternatives": [
                             {
                                 "key": "stopped",
-                                "value": "{{i18n.attributes.status.i18n.value.stopped.label}}",
+                                "value": "Stopped",
                                 "type": "inactive"
                             },
                             {
                                 "key": "standby",
-                                "value": "{{i18n.attributes.status.i18n.value.standby.label}}",
+                                "value": "Standby",
                                 "type": "inactive"
                             }
                         ]
@@ -59,24 +59,24 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Music player",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.commands.play.label}}",
+                            "value": "Play",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "inactive"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.stop.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         }
                     ]
@@ -86,37 +86,37 @@
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.attributes.status.i18n.value.play.label}}",
+                            "value": "Play",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.attributes.status.i18n.value.pause.label}}",
+                            "value": "Pause",
                             "type": "inactive"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.attributes.status.i18n.value.stop.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         },
                         {
                             "key": "playing",
-                            "value": "{{i18n.attributes.status.i18n.value.playing.label}}",
+                            "value": "Playing",
                             "type": "active"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.status.i18n.value.paused.label}}",
+                            "value": "Paused",
                             "type": "inactive"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.status.i18n.value.stopped.label}}",
+                            "value": "Stopped",
                             "type": "inactive"
                         },
                         {
                             "key": "standby",
-                            "value": "{{i18n.attributes.status.i18n.value.standby.label}}",
+                            "value": "Standby",
                             "type": "inactive"
                         }
                     ]
@@ -124,7 +124,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.level.label}}",
+            "label": "Volume",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -138,7 +138,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.mute.label}}",
+            "label": "Mute",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -153,12 +153,12 @@
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
+                            "value": "Mute",
                             "type": "inactive"
                         },
                         {
                             "key": "unmuted",
-                            "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
+                            "value": "Unmute",
                             "type": "active"
                         }
                     ]
@@ -173,19 +173,19 @@
             }
         },
         {
-            "label": "{{i18n.attributes.trackData.label}}",
+            "label": "Media track control",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "nextTrack",
-                            "value": "{{i18n.commands.nextTrack.label}}",
+                            "value": "Next",
                             "type": "active"
                         },
                         {
                             "key": "previousTrack",
-                            "value": "{{i18n.commands.previousTrack.label}}",
+                            "value": "Previous",
                             "type": "active"
                         }
                     ]
@@ -196,23 +196,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Music player",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "playing",
-                            "value": "{{i18n.attributes.status.i18n.value.playing.label}}",
+                            "value": "Playing",
                             "type": "active"
                         },
                         {
                             "key": "paused",
-                            "value": "{{i18n.attributes.status.i18n.value.paused.label}}",
+                            "value": "Paused",
                             "type": "inactive"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.status.i18n.value.stopped.label}}",
+                            "value": "Stopped",
                             "type": "inactive"
                         }
                     ],
@@ -221,7 +221,7 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.level.label}}",
+                "label": "Volume",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -233,18 +233,18 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.mute.label}}",
+                "label": "Mute",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "muted",
-                            "value": "{{i18n.attributes.mute.i18n.value.muted.label}}",
+                            "value": "Mute",
                             "type": "inactive"
                         },
                         {
                             "key": "unmuted",
-                            "value": "{{i18n.attributes.mute.i18n.value.unmuted.label}}",
+                            "value": "Unmute",
                             "type": "active"
                         }
                     ],
@@ -256,30 +256,30 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Music player",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "play",
-                            "value": "{{i18n.commands.play.label}}",
+                            "value": "Play",
                             "type": "active"
                         },
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.pause.label}}",
+                            "value": "Pause",
                             "type": "inactive"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.stop.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         }
                     ]
                 }
             },
             {
-                "label": "{{i18n.attributes.level.label}}",
+                "label": "Volume",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -291,18 +291,18 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.mute.label}}",
+                "label": "Mute",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "mute",
-                            "value": "{{i18n.commands.mute.label}}",
+                            "value": "Mute",
                             "type": "inactive"
                         },
                         {
                             "key": "unmute",
-                            "value": "{{i18n.commands.unmute.label}}",
+                            "value": "Unmute",
                             "type": "active"
                         }
                     ]
@@ -310,18 +310,18 @@
                 "emphasis": true
             },
             {
-                "label": "{{i18n.attributes.trackData.label}}",
+                "label": "Media track control",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "nextTrack",
-                            "value": "{{i18n.commands.nextTrack.label}}",
+                            "value": "Next",
                             "type": "active"
                         },
                         {
                             "key": "previousTrack",
-                            "value": "{{i18n.commands.previousTrack.label}}",
+                            "value": "Previous",
                             "type": "active"
                         }
                     ]

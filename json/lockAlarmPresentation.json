@@ -2,53 +2,53 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Lock alert",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "clear",
-                            "value": "{{i18n.attributes.alarm.i18n.value.clear.label}}",
+                            "value": "Lock alert cleared",
                             "type": "active"
                         },
                         {
                             "key": "lockFactoryReset",
-                            "value": "{{i18n.attributes.alarm.i18n.value.lockFactoryReset.label}}",
+                            "value": "Door lock has been reset.",
                             "type": "active"
                         },
                         {
                             "key": "damaged",
-                            "value": "{{i18n.attributes.alarm.i18n.value.damaged.label}}",
+                            "value": "Door lock damaged.",
                             "type": "active"
                         },
                         {
                             "key": "forcedOpeningAttempt",
-                            "value": "{{i18n.attributes.alarm.i18n.value.forcedOpeningAttempt.label}}",
+                            "value": "Forced open attempt detected.",
                             "type": "active"
                         },
                         {
                             "key": "unableToLockTheDoor",
-                            "value": "{{i18n.attributes.alarm.i18n.value.unableToLockTheDoor.label}}",
+                            "value": "Couldn't lock door.",
                             "type": "active"
                         },
                         {
                             "key": "notClosedForALongTime",
-                            "value": "{{i18n.attributes.alarm.i18n.value.notClosedForALongTime.label}}",
+                            "value": "The door has been unlocked for a long time.",
                             "type": "active"
                         },
                         {
                             "key": "highTemperature",
-                            "value": "{{i18n.attributes.alarm.i18n.value.highTemperature.label}}",
+                            "value": "High temperature detected.",
                             "type": "active"
                         },
                         {
                             "key": "attemptsExceeded",
-                            "value": "{{i18n.attributes.alarm.i18n.value.attemptsExceeded.label}}",
+                            "value": "Too many unlock attempts have been made.",
                             "type": "active"
                         },
                         {
                             "key": "physicalImpact",
-                            "value": "{{i18n.attributes.alarm.i18n.value.physicalImpact.label}}",
+                            "value": "Physical impact detected.",
                             "type": "active"
                         }
                     ],
