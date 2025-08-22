@@ -6,7 +6,7 @@
                 "alternatives": [
                     {
                         "key": "level",
-                        "value": "{{i18n.attributes.brightnessIntensity.i18n.unit.level.label}}",
+                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_ATTRIBUTES_BRIGHTNESSINTENSITY_{{UNIT}}_LEVEL",
                         "type": "active"
                     }
                 ]
@@ -17,7 +17,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Illuminance level",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -28,49 +28,49 @@
                 "alternatives": [
                     {
                         "key": "1",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_LABEL_1",
+                        "value": "Night",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_DESCRIPTION_1"
+                        "description": "Night (below 1 lux)"
                     },
                     {
                         "key": "2",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_LABEL_2",
+                        "value": "Twilight",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_DESCRIPTION_2"
+                        "description": "Twilight (1 - 20 lux)"
                     },
                     {
                         "key": "3",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_LABEL_3",
+                        "value": "Low indoor lighting",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_DESCRIPTION_3"
+                        "description": "Low indoor lighting (21 - 80 lux)"
                     },
                     {
                         "key": "4",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_LABEL_4",
+                        "value": "Moderate indoor lighting",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_DESCRIPTION_4"
+                        "description": "Moderate indoor lighting (81 - 250 lux)"
                     },
                     {
                         "key": "5",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_LABEL_5",
+                        "value": "Office lighting",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_DESCRIPTION_5"
+                        "description": "Office lighting (251 - 800 lux)"
                     },
                     {
                         "key": "6",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_LABEL_6",
+                        "value": "Cloudy day",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_DESCRIPTION_6"
+                        "description": "Cloudy day (801 - 3000 lux)"
                     },
                     {
                         "key": "7",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_LABEL_7",
+                        "value": "Daylight",
                         "type": "active",
-                        "description": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_DESCRIPTION_7"
+                        "description": "Daylight (above 3000 lux)"
                     },
                     {
                         "key": "level",
-                        "value": "{{i18n.attributes.brightnessIntensity.i18n.unit.level.label}}",
+                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_ATTRIBUTES_BRIGHTNESSINTENSITY_{{UNIT}}_LEVEL",
                         "type": "active"
                     }
                 ],
@@ -82,7 +82,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Illuminance level",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -93,7 +93,7 @@
                     "alternatives": [
                         {
                             "key": "level",
-                            "value": "{{i18n.attributes.brightnessIntensity.i18n.unit.level.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RELATIVEBRIGHTNESS_DEFAULT_ATTRIBUTES_BRIGHTNESSINTENSITY_{{UNIT}}_LEVEL",
                             "type": "active"
                         }
                     ],

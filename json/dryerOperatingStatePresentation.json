@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
+                        "value": "Cooling down",
                         "type": "active"
                     },
                     {
                         "key": "delayWash",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.delayWash.label}}",
+                        "value": "Delay end",
                         "type": "active"
                     },
                     {
                         "key": "drying",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
+                        "value": "Drying",
                         "type": "active"
                     },
                     {
                         "key": "finished",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
+                        "value": "Finished",
                         "type": "active"
                     },
                     {
                         "key": "none",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
+                        "value": "None",
                         "type": "active"
                     },
                     {
                         "key": "weightSensing",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
+                        "value": "Checking weight",
                         "type": "active"
                     },
                     {
                         "key": "wrinklePrevent",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
+                        "value": "Wrinkle Prevent",
                         "type": "active"
                     }
                 ]
@@ -46,17 +46,17 @@
                 "alternatives": [
                     {
                         "key": "pause",
-                        "value": "{{i18n.attributes.machineState.i18n.value.pause.label}}",
+                        "value": "Paused",
                         "type": "active"
                     },
                     {
                         "key": "run",
-                        "value": "{{i18n.attributes.machineState.i18n.value.run.label}}",
+                        "value": "Drying",
                         "type": "active"
                     },
                     {
                         "key": "stop",
-                        "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
+                        "value": "Stopped",
                         "type": "active"
                     }
                 ]
@@ -105,51 +105,51 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Tumble dryer",
             "displayType": "state",
             "state": {
                 "label": "{{dryerJobState.value}}",
                 "alternatives": [
                     {
                         "key": "cooling",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
+                        "value": "Cooling down",
                         "type": "active"
                     },
                     {
                         "key": "delayWash",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.delayWash.label}}",
+                        "value": "Delay end",
                         "type": "active"
                     },
                     {
                         "key": "drying",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
+                        "value": "Drying",
                         "type": "active"
                     },
                     {
                         "key": "finished",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
+                        "value": "Finished",
                         "type": "active"
                     },
                     {
                         "key": "none",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
+                        "value": "None",
                         "type": "active"
                     },
                     {
                         "key": "weightSensing",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
+                        "value": "Checking weight",
                         "type": "active"
                     },
                     {
                         "key": "wrinklePrevent",
-                        "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
+                        "value": "Wrinkle Prevent",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.machineState.label}}",
+            "label": "Device status",
             "displayType": "list",
             "list": {
                 "command": {
@@ -157,17 +157,17 @@
                     "alternatives": [
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.pause.label}}",
+                            "value": "Paused",
                             "type": "active"
                         },
                         {
                             "key": "run",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.run.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
+                            "value": "Stopped",
                             "type": "active"
                         }
                     ],
@@ -180,17 +180,17 @@
                     "alternatives": [
                         {
                             "key": "pause",
-                            "value": "{{i18n.attributes.machineState.i18n.value.pause.label}}",
+                            "value": "Paused",
                             "type": "active"
                         },
                         {
                             "key": "run",
-                            "value": "{{i18n.attributes.machineState.i18n.value.run.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
+                            "value": "Stopped",
                             "type": "active"
                         }
                     ]
@@ -198,7 +198,7 @@
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Tumble dryer",
             "displayType": "state",
             "state": {
                 "label": "{{completionTime.value}}"
@@ -208,23 +208,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.machineState.label}}",
+                "label": "Device status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "pause",
-                            "value": "{{i18n.attributes.machineState.i18n.value.pause.label}}",
+                            "value": "Paused",
                             "type": "active"
                         },
                         {
                             "key": "run",
-                            "value": "{{i18n.attributes.machineState.i18n.value.run.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.attributes.machineState.i18n.value.stop.label}}",
+                            "value": "Stopped",
                             "type": "active"
                         }
                     ],
@@ -234,43 +234,43 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.dryerJobState.label}}",
+                "label": "Tumble dryer",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cooling",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.cooling.label}}",
+                            "value": "Cooling down",
                             "type": "active"
                         },
                         {
                             "key": "delayWash",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.delayWash.label}}",
+                            "value": "Delay end",
                             "type": "active"
                         },
                         {
                             "key": "drying",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.drying.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "finished",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.finished.label}}",
+                            "value": "Finished",
                             "type": "active"
                         },
                         {
                             "key": "none",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.none.label}}",
+                            "value": "None",
                             "type": "active"
                         },
                         {
                             "key": "weightSensing",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.weightSensing.label}}",
+                            "value": "Checking weight",
                             "type": "active"
                         },
                         {
                             "key": "wrinklePrevent",
-                            "value": "{{i18n.attributes.dryerJobState.i18n.value.wrinklePrevent.label}}",
+                            "value": "Wrinkle Prevent",
                             "type": "active"
                         }
                     ],
@@ -282,23 +282,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.machineState.label}}",
+                "label": "Device status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.pause.label}}",
+                            "value": "Paused",
                             "type": "active"
                         },
                         {
                             "key": "run",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.run.label}}",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.setMachineState.arguments.state.i18n.stop.label}}",
+                            "value": "Stopped",
                             "type": "active"
                         }
                     ],
