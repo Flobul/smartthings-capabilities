@@ -6,47 +6,47 @@
                 "alternatives": [
                     {
                         "key": "inactive",
-                        "value": "{{i18n.attributes.movement.i18n.value.inactive.label}}",
+                        "value": "No movement",
                         "type": "inactive"
                     },
                     {
                         "key": "approaching",
-                        "value": "{{i18n.attributes.movement.i18n.value.approaching.label}}",
+                        "value": "Approaching",
                         "type": "active"
                     },
                     {
                         "key": "movingAway",
-                        "value": "{{i18n.attributes.movement.i18n.value.movingAway.label}}",
+                        "value": "Moving away",
                         "type": "active"
                     },
                     {
                         "key": "entering",
-                        "value": "{{i18n.attributes.movement.i18n.value.entering.label}}",
+                        "value": "Entering",
                         "type": "active"
                     },
                     {
                         "key": "leaving",
-                        "value": "{{i18n.attributes.movement.i18n.value.leaving.label}}",
+                        "value": "Leaving",
                         "type": "active"
                     },
                     {
                         "key": "enteringLeft",
-                        "value": "{{i18n.attributes.movement.i18n.value.enteringLeft.label}}",
+                        "value": "Entering left",
                         "type": "active"
                     },
                     {
                         "key": "enteringRight",
-                        "value": "{{i18n.attributes.movement.i18n.value.enteringRight.label}}",
+                        "value": "Entering right",
                         "type": "active"
                     },
                     {
                         "key": "leavingLeft",
-                        "value": "{{i18n.attributes.movement.i18n.value.leavingLeft.label}}",
+                        "value": "Leaving left",
                         "type": "active"
                     },
                     {
                         "key": "leavingRight",
-                        "value": "{{i18n.attributes.movement.i18n.value.leavingRight.label}}",
+                        "value": "Leaving right",
                         "type": "active"
                     }
                 ]
@@ -57,54 +57,54 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Movement sensor detection",
             "displayType": "state",
             "state": {
                 "label": "{{movement.value}}",
                 "alternatives": [
                     {
                         "key": "inactive",
-                        "value": "{{i18n.attributes.movement.i18n.value.inactive.label}}",
+                        "value": "No movement",
                         "type": "inactive"
                     },
                     {
                         "key": "approaching",
-                        "value": "{{i18n.attributes.movement.i18n.value.approaching.label}}",
+                        "value": "Approaching",
                         "type": "active"
                     },
                     {
                         "key": "movingAway",
-                        "value": "{{i18n.attributes.movement.i18n.value.movingAway.label}}",
+                        "value": "Moving away",
                         "type": "active"
                     },
                     {
                         "key": "entering",
-                        "value": "{{i18n.attributes.movement.i18n.value.entering.label}}",
+                        "value": "Entering",
                         "type": "active"
                     },
                     {
                         "key": "leaving",
-                        "value": "{{i18n.attributes.movement.i18n.value.leaving.label}}",
+                        "value": "Leaving",
                         "type": "active"
                     },
                     {
                         "key": "enteringLeft",
-                        "value": "{{i18n.attributes.movement.i18n.value.enteringLeft.label}}",
+                        "value": "Entering left",
                         "type": "active"
                     },
                     {
                         "key": "enteringRight",
-                        "value": "{{i18n.attributes.movement.i18n.value.enteringRight.label}}",
+                        "value": "Entering right",
                         "type": "active"
                     },
                     {
                         "key": "leavingLeft",
-                        "value": "{{i18n.attributes.movement.i18n.value.leavingLeft.label}}",
+                        "value": "Leaving left",
                         "type": "active"
                     },
                     {
                         "key": "leavingRight",
-                        "value": "{{i18n.attributes.movement.i18n.value.leavingRight.label}}",
+                        "value": "Leaving right",
                         "type": "active"
                     }
                 ]
@@ -114,53 +114,53 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Movement sensor detection",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "inactive",
-                            "value": "{{i18n.attributes.movement.i18n.value.inactive.label}}",
+                            "value": "No movement",
                             "type": "inactive"
                         },
                         {
                             "key": "approaching",
-                            "value": "{{i18n.attributes.movement.i18n.value.approaching.label}}",
+                            "value": "Approaching",
                             "type": "active"
                         },
                         {
                             "key": "movingAway",
-                            "value": "{{i18n.attributes.movement.i18n.value.movingAway.label}}",
+                            "value": "Moving away",
                             "type": "active"
                         },
                         {
                             "key": "entering",
-                            "value": "{{i18n.attributes.movement.i18n.value.entering.label}}",
+                            "value": "Entering",
                             "type": "active"
                         },
                         {
                             "key": "leaving",
-                            "value": "{{i18n.attributes.movement.i18n.value.leaving.label}}",
+                            "value": "Leaving",
                             "type": "active"
                         },
                         {
                             "key": "enteringLeft",
-                            "value": "{{i18n.attributes.movement.i18n.value.enteringLeft.label}}",
+                            "value": "Entering left",
                             "type": "active"
                         },
                         {
                             "key": "enteringRight",
-                            "value": "{{i18n.attributes.movement.i18n.value.enteringRight.label}}",
+                            "value": "Entering right",
                             "type": "active"
                         },
                         {
                             "key": "leavingLeft",
-                            "value": "{{i18n.attributes.movement.i18n.value.leavingLeft.label}}",
+                            "value": "Leaving left",
                             "type": "active"
                         },
                         {
                             "key": "leavingRight",
-                            "value": "{{i18n.attributes.movement.i18n.value.leavingRight.label}}",
+                            "value": "Leaving right",
                             "type": "active"
                         }
                     ],

@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "open",
-                        "value": "{{i18n.attributes.doorState.i18n.value.open.label}}",
+                        "value": "Door open",
                         "type": "active"
                     },
                     {
                         "key": "closed",
-                        "value": "{{i18n.attributes.doorState.i18n.value.closed.label}}",
+                        "value": "Door closed",
                         "type": "active"
                     }
                 ]

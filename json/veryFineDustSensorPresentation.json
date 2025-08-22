@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "PM 1.0",
             "displayType": "state",
             "state": {
                 "label": "{{veryFineDustLevel.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "PM 1.0",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "veryFineDustLevel.value",
