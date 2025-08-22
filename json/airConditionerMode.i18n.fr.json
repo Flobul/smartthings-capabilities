@@ -59,11 +59,11 @@
                     "heatclean": {
                         "label": "Chaud, purification"
                     },
-                    "std": {
-                        "label": "std"
-                    },
                     "dryclean": {
                         "label": "Sec, purification"
+                    },
+                    "std": {
+                        "label": "std"
                     },
                     "cool": {
                         "label": "Froid"
@@ -112,11 +112,11 @@
                         "auto": {
                             "label": "Automatique"
                         },
-                        "airconditionermode": {
-                            "label": "airConditionerMode"
-                        },
                         "ventilation": {
                             "label": "ventilation"
+                        },
+                        "airconditionermode": {
+                            "label": "airConditionerMode"
                         },
                         "aicomfort": {
                             "label": "IA Refroidissement confortable"
@@ -148,11 +148,11 @@
                         "heatclean": {
                             "label": "Chaud, purification"
                         },
-                        "std": {
-                            "label": "std"
-                        },
                         "dryclean": {
                             "label": "Sec, purification"
+                        },
+                        "std": {
+                            "label": "std"
                         },
                         "cool": {
                             "label": "Froid"
