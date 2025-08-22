@@ -82,14 +82,14 @@
                         "all": {
                             "label": "All"
                         },
-                        "wide": {
-                            "label": "Wide"
+                        "indirect": {
+                            "label": "Indirect"
                         },
                         "individual": {
                             "label": "Individual"
                         },
-                        "indirect": {
-                            "label": "Indirect"
+                        "wide": {
+                            "label": "Wide"
                         },
                         "direct": {
                             "label": "Direct"

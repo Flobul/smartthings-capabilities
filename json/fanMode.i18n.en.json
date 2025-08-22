@@ -71,11 +71,11 @@
                         "medium description": {
                             "label": "The fan is on medium"
                         },
-                        "auto description": {
-                            "label": "The fan is on auto"
-                        },
                         "off": {
                             "label": "Off"
+                        },
+                        "auto description": {
+                            "label": "The fan is on auto"
                         },
                         "high description": {
                             "label": "The fan is on high"

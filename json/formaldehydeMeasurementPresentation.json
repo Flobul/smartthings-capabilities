@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Formaldehyde",
             "displayType": "state",
             "state": {
                 "label": "{{formaldehydeLevel.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Formaldehyde",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "formaldehydeLevel.value",

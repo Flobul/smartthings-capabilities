@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "BMI",
             "displayType": "state",
             "state": {
                 "label": "{{bmiMeasurement.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "BMI",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "bmiMeasurement.value",

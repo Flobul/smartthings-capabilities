@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "good",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.good.label}}",
+                        "value": "Good",
                         "type": "active"
                     },
                     {
                         "key": "maintenance_required",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.maintenance_required.label}}",
+                        "value": "Maintenance required",
                         "type": "active"
                     },
                     {
                         "key": "missing",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.missing.label}}",
+                        "value": "Missing",
                         "type": "active"
                     },
                     {
                         "key": "order",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.order.label}}",
+                        "value": "Order",
                         "type": "active"
                     },
                     {
                         "key": "replace",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.replace.label}}",
+                        "value": "Replace",
                         "type": "active"
                     }
                 ]
@@ -37,34 +37,34 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Consumable item",
             "displayType": "state",
             "state": {
                 "label": "{{consumableStatus.value}}",
                 "alternatives": [
                     {
                         "key": "good",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.good.label}}",
+                        "value": "Good",
                         "type": "active"
                     },
                     {
                         "key": "maintenance_required",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.maintenance_required.label}}",
+                        "value": "Maintenance required",
                         "type": "active"
                     },
                     {
                         "key": "missing",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.missing.label}}",
+                        "value": "Missing",
                         "type": "active"
                     },
                     {
                         "key": "order",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.order.label}}",
+                        "value": "Order",
                         "type": "active"
                     },
                     {
                         "key": "replace",
-                        "value": "{{i18n.attributes.consumableStatus.i18n.value.replace.label}}",
+                        "value": "Replace",
                         "type": "active"
                     }
                 ]
@@ -74,33 +74,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Consumable item",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "good",
-                            "value": "{{i18n.attributes.consumableStatus.i18n.value.good.label}}",
+                            "value": "Good",
                             "type": "active"
                         },
                         {
                             "key": "maintenance_required",
-                            "value": "{{i18n.attributes.consumableStatus.i18n.value.maintenance_required.label}}",
+                            "value": "Maintenance required",
                             "type": "active"
                         },
                         {
                             "key": "missing",
-                            "value": "{{i18n.attributes.consumableStatus.i18n.value.missing.label}}",
+                            "value": "Missing",
                             "type": "active"
                         },
                         {
                             "key": "order",
-                            "value": "{{i18n.attributes.consumableStatus.i18n.value.order.label}}",
+                            "value": "Order",
                             "type": "active"
                         },
                         {
                             "key": "replace",
-                            "value": "{{i18n.attributes.consumableStatus.i18n.value.replace.label}}",
+                            "value": "Replace",
                             "type": "active"
                         }
                     ],
