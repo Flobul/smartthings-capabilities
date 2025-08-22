@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -40,7 +40,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -58,7 +58,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.setMode.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [

@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "clear",
-                        "value": "{{i18n.attributes.smoke.i18n.value.clear.label}}",
+                        "value": "Clear",
                         "type": "inactive"
                     },
                     {
                         "key": "detected",
-                        "value": "{{i18n.attributes.smoke.i18n.value.detected.label}}",
+                        "value": "Smoke detected",
                         "type": "active"
                     },
                     {
                         "key": "tested",
-                        "value": "{{i18n.attributes.smoke.i18n.value.tested.label}}",
+                        "value": "Device tested",
                         "type": "active"
                     }
                 ]
@@ -27,24 +27,24 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Smoke detector",
             "displayType": "state",
             "state": {
                 "label": "{{smoke.value}}",
                 "alternatives": [
                     {
                         "key": "clear",
-                        "value": "{{i18n.attributes.smoke.i18n.value.clear.label}}",
+                        "value": "Clear",
                         "type": "inactive"
                     },
                     {
                         "key": "detected",
-                        "value": "{{i18n.attributes.smoke.i18n.value.detected.label}}",
+                        "value": "Smoke detected",
                         "type": "active"
                     },
                     {
                         "key": "tested",
-                        "value": "{{i18n.attributes.smoke.i18n.value.tested.label}}",
+                        "value": "Device tested",
                         "type": "active"
                     }
                 ]
@@ -54,18 +54,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Smoke detector",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "clear",
-                            "value": "{{i18n.attributes.smoke.i18n.value.clear.label}}",
+                            "value": "Clear",
                             "type": "inactive"
                         },
                         {
                             "key": "detected",
-                            "value": "{{i18n.attributes.smoke.i18n.value.detected.label}}",
+                            "value": "Smoke detected",
                             "type": "active"
                         }
                     ],

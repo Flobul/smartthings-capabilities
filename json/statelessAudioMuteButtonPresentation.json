@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Mute",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "setButton",
@@ -13,13 +13,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mute",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "muteToggle",
-                            "value": "{{i18n.label}}",
+                            "value": "Mute",
                             "type": "active"
                         }
                     ],
