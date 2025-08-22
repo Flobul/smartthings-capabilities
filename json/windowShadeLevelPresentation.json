@@ -15,7 +15,7 @@
         "actions": [],
         "panelItems": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Shade level",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -37,7 +37,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Shade level",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -55,7 +55,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Shade level",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -70,7 +70,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Shade level",
                 "displayType": "slider",
                 "slider": {
                     "range": [
