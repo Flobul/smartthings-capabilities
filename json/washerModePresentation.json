@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "regular",
-                        "value": "{{i18n.attributes.washerMode.i18n.value.regular.label}}",
+                        "value": "Regular",
                         "type": "active"
                     },
                     {
                         "key": "heavy",
-                        "value": "{{i18n.attributes.washerMode.i18n.value.heavy.label}}",
+                        "value": "Heavy",
                         "type": "active"
                     },
                     {
                         "key": "rinse",
-                        "value": "{{i18n.attributes.washerMode.i18n.value.rinse.label}}",
+                        "value": "Rinse",
                         "type": "active"
                     },
                     {
@@ -32,7 +32,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -40,17 +40,17 @@
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "{{i18n.commands.setWasherMode.arguments.mode.i18n.regular.label}}",
+                            "value": "Regular",
                             "type": "active"
                         },
                         {
                             "key": "heavy",
-                            "value": "{{i18n.commands.setWasherMode.arguments.mode.i18n.heavy.label}}",
+                            "value": "Heavy",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "{{i18n.commands.setWasherMode.arguments.mode.i18n.rinse.label}}",
+                            "value": "Rinse",
                             "type": "active"
                         },
                         {
@@ -65,17 +65,17 @@
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "{{i18n.attributes.washerMode.i18n.value.regular.label}}",
+                            "value": "Regular",
                             "type": "active"
                         },
                         {
                             "key": "heavy",
-                            "value": "{{i18n.attributes.washerMode.i18n.value.heavy.label}}",
+                            "value": "Heavy",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "{{i18n.attributes.washerMode.i18n.value.rinse.label}}",
+                            "value": "Rinse",
                             "type": "active"
                         },
                         {
@@ -91,23 +91,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "{{i18n.attributes.washerMode.i18n.value.regular.label}}",
+                            "value": "Regular",
                             "type": "active"
                         },
                         {
                             "key": "heavy",
-                            "value": "{{i18n.attributes.washerMode.i18n.value.heavy.label}}",
+                            "value": "Heavy",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "{{i18n.attributes.washerMode.i18n.value.rinse.label}}",
+                            "value": "Rinse",
                             "type": "active"
                         },
                         {
@@ -123,23 +123,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "{{i18n.commands.setWasherMode.arguments.mode.i18n.regular.label}}",
+                            "value": "Regular",
                             "type": "active"
                         },
                         {
                             "key": "heavy",
-                            "value": "{{i18n.commands.setWasherMode.arguments.mode.i18n.heavy.label}}",
+                            "value": "Heavy",
                             "type": "active"
                         },
                         {
                             "key": "rinse",
-                            "value": "{{i18n.commands.setWasherMode.arguments.mode.i18n.rinse.label}}",
+                            "value": "Rinse",
                             "type": "active"
                         },
                         {

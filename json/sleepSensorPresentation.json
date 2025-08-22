@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "sleeping",
-                        "value": "{{i18n.attributes.sleeping.i18n.value.sleeping.label}}",
+                        "value": "Sleeping",
                         "type": "active"
                     },
                     {
                         "key": "not sleeping",
-                        "value": "{{i18n.attributes.sleeping.i18n.value.not sleeping.label}}",
+                        "value": "Not sleeping",
                         "type": "inactive"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Sleep sensor",
             "displayType": "state",
             "state": {
                 "label": "{{sleeping.value}}",
                 "alternatives": [
                     {
                         "key": "sleeping",
-                        "value": "{{i18n.attributes.sleeping.i18n.value.sleeping.label}}",
+                        "value": "Sleeping",
                         "type": "active"
                     },
                     {
                         "key": "not sleeping",
-                        "value": "{{i18n.attributes.sleeping.i18n.value.not sleeping.label}}",
+                        "value": "Not sleeping",
                         "type": "inactive"
                     }
                 ]
@@ -44,18 +44,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Sleep sensor",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "sleeping",
-                            "value": "{{i18n.attributes.sleeping.i18n.value.sleeping.label}}",
+                            "value": "Sleeping",
                             "type": "active"
                         },
                         {
                             "key": "not sleeping",
-                            "value": "{{i18n.attributes.sleeping.i18n.value.not sleeping.label}}",
+                            "value": "Not sleeping",
                             "type": "inactive"
                         }
                     ],
