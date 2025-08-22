@@ -10,14 +10,14 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Signal strength",
             "displayType": "state",
             "state": {
                 "label": "{{lqi.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Signal strength",
             "displayType": "state",
             "state": {
                 "label": "{{rssi.value}}",
@@ -28,7 +28,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Signal strength",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "lqi.value",
@@ -40,7 +40,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Signal strength",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "rssi.value",

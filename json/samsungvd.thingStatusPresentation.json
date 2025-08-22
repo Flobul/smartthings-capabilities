@@ -2,7 +2,7 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{i18n.attributes.updating.label}}"
+                "label": "Updating..."
             }
         ],
         "actions": [],

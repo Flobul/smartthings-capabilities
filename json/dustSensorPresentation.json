@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.dustLevel.label}}",
+            "label": "PM 10",
             "displayType": "state",
             "state": {
                 "label": "{{dustLevel.value}}",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.fineDustLevel.label}}",
+            "label": "PM 2.5",
             "displayType": "state",
             "state": {
                 "label": "{{fineDustLevel.value}}",
@@ -29,7 +29,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.dustLevel.label}}",
+                "label": "PM 10",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "dustLevel.value",
@@ -38,7 +38,7 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.fineDustLevel.label}}",
+                "label": "PM 2.5",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "fineDustLevel.value",
