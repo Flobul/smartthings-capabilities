@@ -34,7 +34,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.commands.setPictureMode.label}}",
+                "label": "Change Picture Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [

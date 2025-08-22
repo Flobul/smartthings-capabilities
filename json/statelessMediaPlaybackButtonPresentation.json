@@ -9,27 +9,27 @@
                     "alternatives": [
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         },
                         {
                             "key": "play",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.play.label}}",
+                            "value": "Play",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.stop.label}}",
+                            "value": "Stop",
                             "type": "active"
                         },
                         {
                             "key": "fastForward",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.fastForward.label}}",
+                            "value": "Fast forward",
                             "type": "active"
                         },
                         {
                             "key": "rewind",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.rewind.label}}",
+                            "value": "Rewind",
                             "type": "active"
                         }
                     ],
@@ -49,27 +49,27 @@
                     "alternatives": [
                         {
                             "key": "pause",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.pause.label}}",
+                            "value": "Pause",
                             "type": "active"
                         },
                         {
                             "key": "play",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.play.label}}",
+                            "value": "Play",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.stop.label}}",
+                            "value": "Stop",
                             "type": "active"
                         },
                         {
                             "key": "fastForward",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.fastForward.label}}",
+                            "value": "Fast forward",
                             "type": "active"
                         },
                         {
                             "key": "rewind",
-                            "value": "{{i18n.commands.setButton.arguments.button.i18n.rewind.label}}",
+                            "value": "Rewind",
                             "type": "active"
                         }
                     ],
