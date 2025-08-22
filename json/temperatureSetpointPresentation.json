@@ -27,7 +27,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Set temperature",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -46,7 +46,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Set temperature",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "temperatureSetpoint.value",
@@ -62,7 +62,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Set temperature",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setTemperatureSetpoint",

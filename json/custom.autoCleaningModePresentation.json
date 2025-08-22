@@ -1,13 +1,4 @@
 {
-    "dashboard": {
-        "states": [
-            {
-                "label": "{{___PO_CODE_SAMSUNGELECTRONICS.DA_AC_DEVICE_CARD_AUTO_CLEANING}}"
-            }
-        ],
-        "actions": [],
-        "panelItems": []
-    },
     "id": "custom.autoCleaningMode",
     "version": 1
 }

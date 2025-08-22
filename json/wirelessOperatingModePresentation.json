@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "alwaysOn",
-                        "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.alwaysOn.label}}",
+                        "value": "Always on",
                         "type": "active"
                     },
                     {
                         "key": "whenNeeded",
-                        "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.whenNeeded.label}}",
+                        "value": "When needed",
                         "type": "active"
                     }
                 ]
@@ -22,7 +22,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Wireless operating mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -30,12 +30,12 @@
                     "alternatives": [
                         {
                             "key": "alwaysOn",
-                            "value": "{{i18n.commands.setWirelessOperatingMode.arguments.wirelessOperatingMode.i18n.alwaysOn.label}}",
+                            "value": "Always on",
                             "type": "active"
                         },
                         {
                             "key": "whenNeeded",
-                            "value": "{{i18n.commands.setWirelessOperatingMode.arguments.wirelessOperatingMode.i18n.whenNeeded.label}}",
+                            "value": "When needed",
                             "type": "active"
                         }
                     ]
@@ -45,12 +45,12 @@
                     "alternatives": [
                         {
                             "key": "alwaysOn",
-                            "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.alwaysOn.label}}",
+                            "value": "Always on",
                             "type": "active"
                         },
                         {
                             "key": "whenNeeded",
-                            "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.whenNeeded.label}}",
+                            "value": "When needed",
                             "type": "active"
                         }
                     ]
@@ -61,18 +61,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Wireless operating mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "alwaysOn",
-                            "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.alwaysOn.label}}",
+                            "value": "Always on",
                             "type": "active"
                         },
                         {
                             "key": "whenNeeded",
-                            "value": "{{i18n.attributes.wirelessOperatingMode.i18n.value.whenNeeded.label}}",
+                            "value": "When needed",
                             "type": "active"
                         }
                     ],
@@ -83,18 +83,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Wireless operating mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "alwaysOn",
-                            "value": "{{i18n.commands.setWirelessOperatingMode.arguments.wirelessOperatingMode.i18n.alwaysOn.label}}",
+                            "value": "Always on",
                             "type": "active"
                         },
                         {
                             "key": "whenNeeded",
-                            "value": "{{i18n.commands.setWirelessOperatingMode.arguments.wirelessOperatingMode.i18n.whenNeeded.label}}",
+                            "value": "When needed",
                             "type": "active"
                         }
                     ],
