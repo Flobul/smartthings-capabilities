@@ -6,37 +6,37 @@
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.mode.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "mix",
-                        "value": "{{i18n.attributes.mode.i18n.value.mix.label}}",
+                        "value": "Heavy duty",
                         "type": "active"
                     },
                     {
                         "key": "quickWash",
-                        "value": "{{i18n.attributes.mode.i18n.value.quickWash.label}}",
+                        "value": "Quick wash",
                         "type": "active"
                     },
                     {
                         "key": "rinseOnly",
-                        "value": "{{i18n.attributes.mode.i18n.value.rinseOnly.label}}",
+                        "value": "Rinse only",
                         "type": "active"
                     },
                     {
                         "key": "spinOnly",
-                        "value": "{{i18n.attributes.mode.i18n.value.spinOnly.label}}",
+                        "value": "Spin only",
                         "type": "active"
                     },
                     {
                         "key": "eco",
-                        "value": "{{i18n.attributes.mode.i18n.value.eco.label}}",
+                        "value": "Eco",
                         "type": "active"
                     },
                     {
                         "key": "others",
-                        "value": "{{i18n.attributes.mode.i18n.value.others.label}}",
+                        "value": "Others",
                         "type": "active"
                     }
                 ]
@@ -47,7 +47,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -55,32 +55,32 @@
                     "alternatives": [
                         {
                             "key": "normal",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.normal.label}}",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "mix",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.mix.label}}",
+                            "value": "Heavy duty",
                             "type": "active"
                         },
                         {
                             "key": "quickWash",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.quickWash.label}}",
+                            "value": "Quick wash",
                             "type": "active"
                         },
                         {
                             "key": "rinseOnly",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.rinseOnly.label}}",
+                            "value": "Rinse only",
                             "type": "active"
                         },
                         {
                             "key": "spinOnly",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.spinOnly.label}}",
+                            "value": "Spin only",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.eco.label}}",
+                            "value": "Eco",
                             "type": "active"
                         }
                     ],
@@ -93,37 +93,37 @@
                     "alternatives": [
                         {
                             "key": "normal",
-                            "value": "{{i18n.attributes.mode.i18n.value.normal.label}}",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "mix",
-                            "value": "{{i18n.attributes.mode.i18n.value.mix.label}}",
+                            "value": "Heavy duty",
                             "type": "active"
                         },
                         {
                             "key": "quickWash",
-                            "value": "{{i18n.attributes.mode.i18n.value.quickWash.label}}",
+                            "value": "Quick wash",
                             "type": "active"
                         },
                         {
                             "key": "rinseOnly",
-                            "value": "{{i18n.attributes.mode.i18n.value.rinseOnly.label}}",
+                            "value": "Rinse only",
                             "type": "active"
                         },
                         {
                             "key": "spinOnly",
-                            "value": "{{i18n.attributes.mode.i18n.value.spinOnly.label}}",
+                            "value": "Spin only",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.attributes.mode.i18n.value.eco.label}}",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "others",
-                            "value": "{{i18n.attributes.mode.i18n.value.others.label}}",
+                            "value": "Others",
                             "type": "active"
                         }
                     ]
@@ -134,43 +134,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.mode.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "normal",
-                            "value": "{{i18n.attributes.mode.i18n.value.normal.label}}",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "mix",
-                            "value": "{{i18n.attributes.mode.i18n.value.mix.label}}",
+                            "value": "Heavy duty",
                             "type": "active"
                         },
                         {
                             "key": "quickWash",
-                            "value": "{{i18n.attributes.mode.i18n.value.quickWash.label}}",
+                            "value": "Quick wash",
                             "type": "active"
                         },
                         {
                             "key": "rinseOnly",
-                            "value": "{{i18n.attributes.mode.i18n.value.rinseOnly.label}}",
+                            "value": "Rinse only",
                             "type": "active"
                         },
                         {
                             "key": "spinOnly",
-                            "value": "{{i18n.attributes.mode.i18n.value.spinOnly.label}}",
+                            "value": "Spin only",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.attributes.mode.i18n.value.eco.label}}",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "others",
-                            "value": "{{i18n.attributes.mode.i18n.value.others.label}}",
+                            "value": "Others",
                             "type": "active"
                         }
                     ],
@@ -183,38 +183,38 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.setMode.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "normal",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.normal.label}}",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "mix",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.mix.label}}",
+                            "value": "Heavy duty",
                             "type": "active"
                         },
                         {
                             "key": "quickWash",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.quickWash.label}}",
+                            "value": "Quick wash",
                             "type": "active"
                         },
                         {
                             "key": "rinseOnly",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.rinseOnly.label}}",
+                            "value": "Rinse only",
                             "type": "active"
                         },
                         {
                             "key": "spinOnly",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.spinOnly.label}}",
+                            "value": "Spin only",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.eco.label}}",
+                            "value": "Eco",
                             "type": "active"
                         }
                     ],

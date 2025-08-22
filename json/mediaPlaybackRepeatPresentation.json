@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "all",
-                        "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.all.label}}",
+                        "value": "All",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "active"
                     },
                     {
                         "key": "one",
-                        "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.one.label}}",
+                        "value": "One",
                         "type": "active"
                     }
                 ]
@@ -27,7 +27,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Repeat",
             "displayType": "list",
             "list": {
                 "command": {
@@ -35,17 +35,17 @@
                     "alternatives": [
                         {
                             "key": "all",
-                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.all.label}}",
+                            "value": "All",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "one",
-                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.one.label}}",
+                            "value": "One",
                             "type": "active"
                         }
                     ]
@@ -55,17 +55,17 @@
                     "alternatives": [
                         {
                             "key": "all",
-                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.all.label}}",
+                            "value": "All",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "one",
-                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.one.label}}",
+                            "value": "One",
                             "type": "active"
                         }
                     ]
@@ -76,23 +76,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Repeat",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "all",
-                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.all.label}}",
+                            "value": "All",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "one",
-                            "value": "{{i18n.attributes.playbackRepeatMode.i18n.value.one.label}}",
+                            "value": "One",
                             "type": "active"
                         }
                     ],
@@ -103,23 +103,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Repeat",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "all",
-                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.all.label}}",
+                            "value": "All",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "one",
-                            "value": "{{i18n.commands.setPlaybackRepeatMode.arguments.mode.i18n.one.label}}",
+                            "value": "One",
                             "type": "active"
                         }
                     ],

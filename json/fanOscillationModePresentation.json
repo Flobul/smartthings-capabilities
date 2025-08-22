@@ -6,82 +6,82 @@
                 "alternatives": [
                     {
                         "key": "fixed",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixed.label}}",
+                        "value": "Fixed",
                         "type": "active"
                     },
                     {
                         "key": "vertical",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertical.label}}",
+                        "value": "Vertical",
                         "type": "active"
                     },
                     {
                         "key": "horizontal",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.horizontal.label}}",
+                        "value": "Horizontal",
                         "type": "active"
                     },
                     {
                         "key": "all",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.all.label}}",
+                        "value": "All",
                         "type": "active"
                     },
                     {
                         "key": "indirect",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.indirect.label}}",
+                        "value": "Indirect",
                         "type": "active"
                     },
                     {
                         "key": "direct",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.direct.label}}",
+                        "value": "Direct",
                         "type": "active"
                     },
                     {
                         "key": "fixedCenter",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedCenter.label}}",
+                        "value": "Centre",
                         "type": "active"
                     },
                     {
                         "key": "fixedLeft",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedLeft.label}}",
+                        "value": "Left",
                         "type": "active"
                     },
                     {
                         "key": "fixedRight",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedRight.label}}",
+                        "value": "Right",
                         "type": "active"
                     },
                     {
                         "key": "far",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.far.label}}",
+                        "value": "Long",
                         "type": "active"
                     },
                     {
                         "key": "individual",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.individual.label}}",
+                        "value": "Individual",
                         "type": "active"
                     },
                     {
                         "key": "wide",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.wide.label}}",
+                        "value": "Wide",
                         "type": "active"
                     },
                     {
                         "key": "mid",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.mid.label}}",
+                        "value": "Mid",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "active"
                     },
                     {
                         "key": "swing",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.swing.label}}",
+                        "value": "Swing",
                         "type": "active"
                     },
                     {
                         "key": "spot",
-                        "value": "{{i18n.attributes.fanOscillationMode.i18n.value.spot.label}}",
+                        "value": "Spot",
                         "type": "active"
                     }
                 ]
@@ -90,7 +90,7 @@
         "actions": [],
         "panelItems": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Fan oscillation",
                 "displayType": "list",
                 "list": {
                     "command": {
@@ -98,82 +98,82 @@
                         "alternatives": [
                             {
                                 "key": "fixed",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixed.label}}",
+                                "value": "Fixed",
                                 "type": "active"
                             },
                             {
                                 "key": "vertical",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.vertical.label}}",
+                                "value": "Vertical",
                                 "type": "active"
                             },
                             {
                                 "key": "horizontal",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.horizontal.label}}",
+                                "value": "Horizontal",
                                 "type": "active"
                             },
                             {
                                 "key": "all",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.all.label}}",
+                                "value": "All",
                                 "type": "active"
                             },
                             {
                                 "key": "indirect",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.indirect.label}}",
+                                "value": "Indirect",
                                 "type": "active"
                             },
                             {
                                 "key": "direct",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.direct.label}}",
+                                "value": "Direct",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedCenter",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedCenter.label}}",
+                                "value": "Centre",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedLeft",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedLeft.label}}",
+                                "value": "Left",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedRight",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedRight.label}}",
+                                "value": "Right",
                                 "type": "active"
                             },
                             {
                                 "key": "far",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.far.label}}",
+                                "value": "Long",
                                 "type": "active"
                             },
                             {
                                 "key": "individual",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.individual.label}}",
+                                "value": "Individual",
                                 "type": "active"
                             },
                             {
                                 "key": "wide",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.wide.label}}",
+                                "value": "Wide",
                                 "type": "active"
                             },
                             {
                                 "key": "mid",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.mid.label}}",
+                                "value": "Mid",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "swing",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.swing.label}}",
+                                "value": "Swing",
                                 "type": "active"
                             },
                             {
                                 "key": "spot",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.spot.label}}",
+                                "value": "Spot",
                                 "type": "active"
                             }
                         ],
@@ -186,82 +186,82 @@
                         "alternatives": [
                             {
                                 "key": "fixed",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixed.label}}",
+                                "value": "Fixed",
                                 "type": "active"
                             },
                             {
                                 "key": "vertical",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertical.label}}",
+                                "value": "Vertical",
                                 "type": "active"
                             },
                             {
                                 "key": "horizontal",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.horizontal.label}}",
+                                "value": "Horizontal",
                                 "type": "active"
                             },
                             {
                                 "key": "all",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.all.label}}",
+                                "value": "All",
                                 "type": "active"
                             },
                             {
                                 "key": "indirect",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.indirect.label}}",
+                                "value": "Indirect",
                                 "type": "active"
                             },
                             {
                                 "key": "direct",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.direct.label}}",
+                                "value": "Direct",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedCenter",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedCenter.label}}",
+                                "value": "Centre",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedLeft",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedLeft.label}}",
+                                "value": "Left",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedRight",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedRight.label}}",
+                                "value": "Right",
                                 "type": "active"
                             },
                             {
                                 "key": "far",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.far.label}}",
+                                "value": "Long",
                                 "type": "active"
                             },
                             {
                                 "key": "individual",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.individual.label}}",
+                                "value": "Individual",
                                 "type": "active"
                             },
                             {
                                 "key": "wide",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.wide.label}}",
+                                "value": "Wide",
                                 "type": "active"
                             },
                             {
                                 "key": "mid",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.mid.label}}",
+                                "value": "Mid",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "swing",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.swing.label}}",
+                                "value": "Swing",
                                 "type": "active"
                             },
                             {
                                 "key": "spot",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.spot.label}}",
+                                "value": "Spot",
                                 "type": "active"
                             }
                         ]
@@ -276,7 +276,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Fan oscillation",
                 "displayType": "list",
                 "list": {
                     "command": {
@@ -284,82 +284,82 @@
                         "alternatives": [
                             {
                                 "key": "fixed",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixed.label}}",
+                                "value": "Fixed",
                                 "type": "active"
                             },
                             {
                                 "key": "vertical",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.vertical.label}}",
+                                "value": "Vertical",
                                 "type": "active"
                             },
                             {
                                 "key": "horizontal",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.horizontal.label}}",
+                                "value": "Horizontal",
                                 "type": "active"
                             },
                             {
                                 "key": "all",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.all.label}}",
+                                "value": "All",
                                 "type": "active"
                             },
                             {
                                 "key": "indirect",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.indirect.label}}",
+                                "value": "Indirect",
                                 "type": "active"
                             },
                             {
                                 "key": "direct",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.direct.label}}",
+                                "value": "Direct",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedCenter",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedCenter.label}}",
+                                "value": "Centre",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedLeft",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedLeft.label}}",
+                                "value": "Left",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedRight",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedRight.label}}",
+                                "value": "Right",
                                 "type": "active"
                             },
                             {
                                 "key": "far",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.far.label}}",
+                                "value": "Long",
                                 "type": "active"
                             },
                             {
                                 "key": "individual",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.individual.label}}",
+                                "value": "Individual",
                                 "type": "active"
                             },
                             {
                                 "key": "wide",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.wide.label}}",
+                                "value": "Wide",
                                 "type": "active"
                             },
                             {
                                 "key": "mid",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.mid.label}}",
+                                "value": "Mid",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "swing",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.swing.label}}",
+                                "value": "Swing",
                                 "type": "active"
                             },
                             {
                                 "key": "spot",
-                                "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.spot.label}}",
+                                "value": "Spot",
                                 "type": "active"
                             }
                         ],
@@ -372,82 +372,82 @@
                         "alternatives": [
                             {
                                 "key": "fixed",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixed.label}}",
+                                "value": "Fixed",
                                 "type": "active"
                             },
                             {
                                 "key": "vertical",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertical.label}}",
+                                "value": "Vertical",
                                 "type": "active"
                             },
                             {
                                 "key": "horizontal",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.horizontal.label}}",
+                                "value": "Horizontal",
                                 "type": "active"
                             },
                             {
                                 "key": "all",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.all.label}}",
+                                "value": "All",
                                 "type": "active"
                             },
                             {
                                 "key": "indirect",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.indirect.label}}",
+                                "value": "Indirect",
                                 "type": "active"
                             },
                             {
                                 "key": "direct",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.direct.label}}",
+                                "value": "Direct",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedCenter",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedCenter.label}}",
+                                "value": "Centre",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedLeft",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedLeft.label}}",
+                                "value": "Left",
                                 "type": "active"
                             },
                             {
                                 "key": "fixedRight",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedRight.label}}",
+                                "value": "Right",
                                 "type": "active"
                             },
                             {
                                 "key": "far",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.far.label}}",
+                                "value": "Long",
                                 "type": "active"
                             },
                             {
                                 "key": "individual",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.individual.label}}",
+                                "value": "Individual",
                                 "type": "active"
                             },
                             {
                                 "key": "wide",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.wide.label}}",
+                                "value": "Wide",
                                 "type": "active"
                             },
                             {
                                 "key": "mid",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.mid.label}}",
+                                "value": "Mid",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "swing",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.swing.label}}",
+                                "value": "Swing",
                                 "type": "active"
                             },
                             {
                                 "key": "spot",
-                                "value": "{{i18n.attributes.fanOscillationMode.i18n.value.spot.label}}",
+                                "value": "Spot",
                                 "type": "active"
                             }
                         ]
@@ -465,7 +465,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Fan oscillation",
             "displayType": "list",
             "list": {
                 "command": {
@@ -473,82 +473,82 @@
                     "alternatives": [
                         {
                             "key": "fixed",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixed.label}}",
+                            "value": "Fixed",
                             "type": "active"
                         },
                         {
                             "key": "vertical",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.vertical.label}}",
+                            "value": "Vertical",
                             "type": "active"
                         },
                         {
                             "key": "horizontal",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.horizontal.label}}",
+                            "value": "Horizontal",
                             "type": "active"
                         },
                         {
                             "key": "all",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.all.label}}",
+                            "value": "All",
                             "type": "active"
                         },
                         {
                             "key": "indirect",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.indirect.label}}",
+                            "value": "Indirect",
                             "type": "active"
                         },
                         {
                             "key": "direct",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.direct.label}}",
+                            "value": "Direct",
                             "type": "active"
                         },
                         {
                             "key": "fixedCenter",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedCenter.label}}",
+                            "value": "Centre",
                             "type": "active"
                         },
                         {
                             "key": "fixedLeft",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedLeft.label}}",
+                            "value": "Left",
                             "type": "active"
                         },
                         {
                             "key": "fixedRight",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedRight.label}}",
+                            "value": "Right",
                             "type": "active"
                         },
                         {
                             "key": "far",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.far.label}}",
+                            "value": "Long",
                             "type": "active"
                         },
                         {
                             "key": "individual",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.individual.label}}",
+                            "value": "Individual",
                             "type": "active"
                         },
                         {
                             "key": "wide",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.wide.label}}",
+                            "value": "Wide",
                             "type": "active"
                         },
                         {
                             "key": "mid",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.mid.label}}",
+                            "value": "Mid",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "swing",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.swing.label}}",
+                            "value": "Swing",
                             "type": "active"
                         },
                         {
                             "key": "spot",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.spot.label}}",
+                            "value": "Spot",
                             "type": "active"
                         }
                     ],
@@ -561,82 +561,82 @@
                     "alternatives": [
                         {
                             "key": "fixed",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixed.label}}",
+                            "value": "Fixed",
                             "type": "active"
                         },
                         {
                             "key": "vertical",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertical.label}}",
+                            "value": "Vertical",
                             "type": "active"
                         },
                         {
                             "key": "horizontal",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.horizontal.label}}",
+                            "value": "Horizontal",
                             "type": "active"
                         },
                         {
                             "key": "all",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.all.label}}",
+                            "value": "All",
                             "type": "active"
                         },
                         {
                             "key": "indirect",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.indirect.label}}",
+                            "value": "Indirect",
                             "type": "active"
                         },
                         {
                             "key": "direct",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.direct.label}}",
+                            "value": "Direct",
                             "type": "active"
                         },
                         {
                             "key": "fixedCenter",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedCenter.label}}",
+                            "value": "Centre",
                             "type": "active"
                         },
                         {
                             "key": "fixedLeft",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedLeft.label}}",
+                            "value": "Left",
                             "type": "active"
                         },
                         {
                             "key": "fixedRight",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedRight.label}}",
+                            "value": "Right",
                             "type": "active"
                         },
                         {
                             "key": "far",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.far.label}}",
+                            "value": "Long",
                             "type": "active"
                         },
                         {
                             "key": "individual",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.individual.label}}",
+                            "value": "Individual",
                             "type": "active"
                         },
                         {
                             "key": "wide",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.wide.label}}",
+                            "value": "Wide",
                             "type": "active"
                         },
                         {
                             "key": "mid",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.mid.label}}",
+                            "value": "Mid",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "swing",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.swing.label}}",
+                            "value": "Swing",
                             "type": "active"
                         },
                         {
                             "key": "spot",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.spot.label}}",
+                            "value": "Spot",
                             "type": "active"
                         }
                     ]
@@ -647,88 +647,88 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Fan oscillation",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "fixed",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixed.label}}",
+                            "value": "Fixed",
                             "type": "active"
                         },
                         {
                             "key": "vertical",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.vertical.label}}",
+                            "value": "Vertical",
                             "type": "active"
                         },
                         {
                             "key": "horizontal",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.horizontal.label}}",
+                            "value": "Horizontal",
                             "type": "active"
                         },
                         {
                             "key": "all",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.all.label}}",
+                            "value": "All",
                             "type": "active"
                         },
                         {
                             "key": "indirect",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.indirect.label}}",
+                            "value": "Indirect",
                             "type": "active"
                         },
                         {
                             "key": "direct",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.direct.label}}",
+                            "value": "Direct",
                             "type": "active"
                         },
                         {
                             "key": "fixedCenter",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedCenter.label}}",
+                            "value": "Centre",
                             "type": "active"
                         },
                         {
                             "key": "fixedLeft",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedLeft.label}}",
+                            "value": "Left",
                             "type": "active"
                         },
                         {
                             "key": "fixedRight",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.fixedRight.label}}",
+                            "value": "Right",
                             "type": "active"
                         },
                         {
                             "key": "far",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.far.label}}",
+                            "value": "Long",
                             "type": "active"
                         },
                         {
                             "key": "individual",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.individual.label}}",
+                            "value": "Individual",
                             "type": "active"
                         },
                         {
                             "key": "wide",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.wide.label}}",
+                            "value": "Wide",
                             "type": "active"
                         },
                         {
                             "key": "mid",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.mid.label}}",
+                            "value": "Mid",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "swing",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.swing.label}}",
+                            "value": "Swing",
                             "type": "active"
                         },
                         {
                             "key": "spot",
-                            "value": "{{i18n.attributes.fanOscillationMode.i18n.value.spot.label}}",
+                            "value": "Spot",
                             "type": "active"
                         }
                     ],
@@ -741,88 +741,88 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Fan oscillation",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "fixed",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixed.label}}",
+                            "value": "Fixed",
                             "type": "active"
                         },
                         {
                             "key": "vertical",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.vertical.label}}",
+                            "value": "Vertical",
                             "type": "active"
                         },
                         {
                             "key": "horizontal",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.horizontal.label}}",
+                            "value": "Horizontal",
                             "type": "active"
                         },
                         {
                             "key": "all",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.all.label}}",
+                            "value": "All",
                             "type": "active"
                         },
                         {
                             "key": "indirect",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.indirect.label}}",
+                            "value": "Indirect",
                             "type": "active"
                         },
                         {
                             "key": "direct",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.direct.label}}",
+                            "value": "Direct",
                             "type": "active"
                         },
                         {
                             "key": "fixedCenter",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedCenter.label}}",
+                            "value": "Centre",
                             "type": "active"
                         },
                         {
                             "key": "fixedLeft",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedLeft.label}}",
+                            "value": "Left",
                             "type": "active"
                         },
                         {
                             "key": "fixedRight",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.fixedRight.label}}",
+                            "value": "Right",
                             "type": "active"
                         },
                         {
                             "key": "far",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.far.label}}",
+                            "value": "Long",
                             "type": "active"
                         },
                         {
                             "key": "individual",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.individual.label}}",
+                            "value": "Individual",
                             "type": "active"
                         },
                         {
                             "key": "wide",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.wide.label}}",
+                            "value": "Wide",
                             "type": "active"
                         },
                         {
                             "key": "mid",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.mid.label}}",
+                            "value": "Mid",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         },
                         {
                             "key": "swing",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.swing.label}}",
+                            "value": "Swing",
                             "type": "active"
                         },
                         {
                             "key": "spot",
-                            "value": "{{i18n.commands.setFanOscillationMode.arguments.fanOscillationMode.i18n.spot.label}}",
+                            "value": "Spot",
                             "type": "active"
                         }
                     ],

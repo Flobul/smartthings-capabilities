@@ -6,22 +6,22 @@
                 "alternatives": [
                     {
                         "key": "ready",
-                        "value": "{{i18n.attributes.cookerState.i18n.value.ready.label}}",
+                        "value": "Ready",
                         "type": "active"
                     },
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.cookerState.i18n.value.running.label}}",
+                        "value": "Running",
                         "type": "active"
                     },
                     {
                         "key": "scheduled",
-                        "value": "{{i18n.attributes.cookerState.i18n.value.scheduled.label}}",
+                        "value": "Cooking scheduled",
                         "type": "active"
                     },
                     {
                         "key": "error",
-                        "value": "{{i18n.attributes.cookerState.i18n.value.error.label}}",
+                        "value": "Something's wrong",
                         "type": "active"
                     }
                 ]
@@ -31,27 +31,27 @@
                 "alternatives": [
                     {
                         "key": "cooking",
-                        "value": "{{i18n.attributes.cookerMode.i18n.value.cooking.label}}",
+                        "value": "Cook",
                         "type": "active"
                     },
                     {
                         "key": "keepWarm",
-                        "value": "{{i18n.attributes.cookerMode.i18n.value.keepWarm.label}}",
+                        "value": "Warm",
                         "type": "active"
                     },
                     {
                         "key": "reheating",
-                        "value": "{{i18n.attributes.cookerMode.i18n.value.reheating.label}}",
+                        "value": "Reheat",
                         "type": "active"
                     },
                     {
                         "key": "autoClean",
-                        "value": "{{i18n.attributes.cookerMode.i18n.value.autoClean.label}}",
+                        "value": "Auto clean",
                         "type": "active"
                     },
                     {
                         "key": "soakInnerPot",
-                        "value": "{{i18n.attributes.cookerMode.i18n.value.soakInnerPot.label}}",
+                        "value": "Soak inner pot",
                         "type": "active"
                     }
                 ]
@@ -78,36 +78,36 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.cookerState.label}}",
+            "label": "Cooker status",
             "displayType": "state",
             "state": {
                 "label": "{{cookerState.value}}",
                 "alternatives": [
                     {
                         "key": "ready",
-                        "value": "{{i18n.attributes.cookerState.i18n.value.ready.label}}",
+                        "value": "Ready",
                         "type": "active"
                     },
                     {
                         "key": "running",
-                        "value": "{{i18n.attributes.cookerState.i18n.value.running.label}}",
+                        "value": "Running",
                         "type": "active"
                     },
                     {
                         "key": "scheduled",
-                        "value": "{{i18n.attributes.cookerState.i18n.value.scheduled.label}}",
+                        "value": "Cooking scheduled",
                         "type": "active"
                     },
                     {
                         "key": "error",
-                        "value": "{{i18n.attributes.cookerState.i18n.value.error.label}}",
+                        "value": "Something's wrong",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.cookerMode.label}}",
+            "label": "Mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -115,22 +115,22 @@
                     "alternatives": [
                         {
                             "key": "keepWarm",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.keepWarm.label}}",
+                            "value": "Warm",
                             "type": "active"
                         },
                         {
                             "key": "reheating",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.reheating.label}}",
+                            "value": "Reheat",
                             "type": "active"
                         },
                         {
                             "key": "autoClean",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.autoClean.label}}",
+                            "value": "Auto clean",
                             "type": "active"
                         },
                         {
                             "key": "soakInnerPot",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.soakInnerPot.label}}",
+                            "value": "Soak inner pot",
                             "type": "active"
                         }
                     ],
@@ -143,27 +143,27 @@
                     "alternatives": [
                         {
                             "key": "cooking",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.cooking.label}}",
+                            "value": "Cook",
                             "type": "active"
                         },
                         {
                             "key": "keepWarm",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.keepWarm.label}}",
+                            "value": "Warm",
                             "type": "active"
                         },
                         {
                             "key": "reheating",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.reheating.label}}",
+                            "value": "Reheat",
                             "type": "active"
                         },
                         {
                             "key": "autoClean",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.autoClean.label}}",
+                            "value": "Auto clean",
                             "type": "active"
                         },
                         {
                             "key": "soakInnerPot",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.soakInnerPot.label}}",
+                            "value": "Soak inner pot",
                             "type": "active"
                         }
                     ]
@@ -171,7 +171,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.menu.label}}",
+            "label": "Menu",
             "displayType": "list",
             "list": {
                 "command": {
@@ -179,547 +179,547 @@
                     "alternatives": [
                         {
                             "key": "stickyPlainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.stickyPlainRice.label}}",
+                            "value": "Sticky white rice",
                             "type": "active"
                         },
                         {
                             "key": "wellCookedPlainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.wellCookedPlainRice.label}}",
+                            "value": "Well-cooked white rice",
                             "type": "active"
                         },
                         {
                             "key": "frozenPlainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.frozenPlainRice.label}}",
+                            "value": "Frozen white rice",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrains",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrains.label}}",
+                            "value": "Mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "brownRice100",
-                            "value": "{{i18n.attributes.menu.i18n.value.brownRice100.label}}",
+                            "value": "100% brown rice",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBeans",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBeans.label}}",
+                            "value": "Rice with beans",
                             "type": "active"
                         },
                         {
                             "key": "barleyMixedGrainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.barleyMixedGrainRice.label}}",
+                            "value": "Rice with barley and mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "superGrains",
-                            "value": "{{i18n.attributes.menu.i18n.value.superGrains.label}}",
+                            "value": "Rice with super grains",
                             "type": "active"
                         },
                         {
                             "key": "frozenMixedGrain",
-                            "value": "{{i18n.attributes.menu.i18n.value.frozenMixedGrain.label}}",
+                            "value": "Frozen mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "cauldronRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.cauldronRice.label}}",
+                            "value": "Stone pot-style rice",
                             "type": "active"
                         },
                         {
                             "key": "riceForGimbap",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceForGimbap.label}}",
+                            "value": "Rice for gimbap",
                             "type": "active"
                         },
                         {
                             "key": "plainQuick",
-                            "value": "{{i18n.attributes.menu.i18n.value.plainQuick.label}}",
+                            "value": "Quick white rice",
                             "type": "active"
                         },
                         {
                             "key": "konjacRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.konjacRice.label}}",
+                            "value": "Konjac rice",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSalad",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSalad.label}}",
+                            "value": "Mixed grains for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainsQuick",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainsQuick.label}}",
+                            "value": "Quick mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "nutritiousRiceInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.nutritiousRiceInHotPot.label}}",
+                            "value": "Nutritious stone pot-style rice",
                             "type": "active"
                         },
                         {
                             "key": "steamedDish",
-                            "value": "{{i18n.attributes.menu.i18n.value.steamedDish.label}}",
+                            "value": "Steamed dish",
                             "type": "active"
                         },
                         {
                             "key": "nutritiousPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.nutritiousPorridge.label}}",
+                            "value": "Nutritious porridge",
                             "type": "active"
                         },
                         {
                             "key": "scorchedRiceTea",
-                            "value": "{{i18n.attributes.menu.i18n.value.scorchedRiceTea.label}}",
+                            "value": "Scorched rice tea",
                             "type": "active"
                         },
                         {
                             "key": "bakedEgg",
-                            "value": "{{i18n.attributes.menu.i18n.value.bakedEgg.label}}",
+                            "value": "Baked eggs",
                             "type": "active"
                         },
                         {
                             "key": "sousVide",
-                            "value": "{{i18n.attributes.menu.i18n.value.sousVide.label}}",
+                            "value": "Sous vide",
                             "type": "active"
                         },
                         {
                             "key": "scorchedRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.scorchedRice.label}}",
+                            "value": "Scorched rice",
                             "type": "active"
                         },
                         {
                             "key": "babyFoodStep1",
-                            "value": "{{i18n.attributes.menu.i18n.value.babyFoodStep1.label}}",
+                            "value": "Baby food step 1",
                             "type": "active"
                         },
                         {
                             "key": "babyFoodStep2",
-                            "value": "{{i18n.attributes.menu.i18n.value.babyFoodStep2.label}}",
+                            "value": "Baby food step 2",
                             "type": "active"
                         },
                         {
                             "key": "babyFoodStep3",
-                            "value": "{{i18n.attributes.menu.i18n.value.babyFoodStep3.label}}",
+                            "value": "Baby food step 3",
                             "type": "active"
                         },
                         {
                             "key": "riceWithSeasonedVegetablesInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithSeasonedVegetablesInHotPot.label}}",
+                            "value": "Stone pot-style rice with seasoned vegetables",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSlim",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSlim.label}}",
+                            "value": "Mixed grains for slim diet",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForVitality",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForVitality.label}}",
+                            "value": "Mixed grains for vitality",
                             "type": "active"
                         },
                         {
                             "key": "haedeul",
-                            "value": "{{i18n.attributes.menu.i18n.value.haedeul.label}}",
+                            "value": "Haedeul",
                             "type": "active"
                         },
                         {
                             "key": "alchanmi",
-                            "value": "{{i18n.attributes.menu.i18n.value.alchanmi.label}}",
+                            "value": "Alchanmi",
                             "type": "active"
                         },
                         {
                             "key": "odaemi",
-                            "value": "{{i18n.attributes.menu.i18n.value.odaemi.label}}",
+                            "value": "Odaemi",
                             "type": "active"
                         },
                         {
                             "key": "oatRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.oatRice.label}}",
+                            "value": "Rice with oats",
                             "type": "active"
                         },
                         {
                             "key": "chickpeaRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.chickpeaRice.label}}",
+                            "value": "Rice with chickpeas",
                             "type": "active"
                         },
                         {
                             "key": "quinoaRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.quinoaRice.label}}",
+                            "value": "Rice with quinoa",
                             "type": "active"
                         },
                         {
                             "key": "lentilBeanRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.lentilBeanRice.label}}",
+                            "value": "Rice with lentils",
                             "type": "active"
                         },
                         {
                             "key": "steamedSweetPotato",
-                            "value": "{{i18n.attributes.menu.i18n.value.steamedSweetPotato.label}}",
+                            "value": "Steamed sweet potato",
                             "type": "active"
                         },
                         {
                             "key": "galbijjim",
-                            "value": "{{i18n.attributes.menu.i18n.value.galbijjim.label}}",
+                            "value": "Galbijjim",
                             "type": "active"
                         },
                         {
                             "key": "samgyetang",
-                            "value": "{{i18n.attributes.menu.i18n.value.samgyetang.label}}",
+                            "value": "Samgyetang",
                             "type": "active"
                         },
                         {
                             "key": "riceWithWebfootOctopusAndSaussureaInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithWebfootOctopusAndSaussureaInHotPot.label}}",
+                            "value": "Stone pot-style rice with webfoot octopus and saussurea",
                             "type": "active"
                         },
                         {
                             "key": "riceWithAbaloneInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithAbaloneInHotPot.label}}",
+                            "value": "Stone pot-style rice with abalone",
                             "type": "active"
                         },
                         {
                             "key": "riceWithTruffledBulgogiInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithTruffledBulgogiInHotPot.label}}",
+                            "value": "Stone pot-style rice with steak",
                             "type": "active"
                         },
                         {
                             "key": "riceWithSteakInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithSteakInHotPot.label}}",
+                            "value": "Stone pot-style rice with steak",
                             "type": "active"
                         },
                         {
                             "key": "riceWithRipeKimchiAndAbaloneInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithRipeKimchiAndAbaloneInHotPot.label}}",
+                            "value": "Stone pot-style rice with abalone and ripe kimchi",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBeefAndBeanSproutsInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBeefAndBeanSproutsInHotPot.label}}",
+                            "value": "Stone pot-style rice with beef and bean sprouts",
                             "type": "active"
                         },
                         {
                             "key": "riceWithAssortedMushrommsInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithAssortedMushrommsInHotPot.label}}",
+                            "value": "Stone pot-style rice with assorted mushrooms",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBrackenAndSteakInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBrackenAndSteakInHotPot.label}}",
+                            "value": "Stone pot-style rice with steak and bracken",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBeefAndAssortedMushroomsInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBeefAndAssortedMushroomsInHotPot.label}}",
+                            "value": "Stone pot-style rice with beef and assorted mushrooms",
                             "type": "active"
                         },
                         {
                             "key": "riceWithSpicyWebfootOctopusInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithSpicyWebfootOctopusInHotPot.label}}",
+                            "value": "Stone pot-style rice with webfoot octopus",
                             "type": "active"
                         },
                         {
                             "key": "kamutRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.kamutRice.label}}",
+                            "value": "Rice with kamut",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithLentilBean",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithLentilBean.label}}",
+                            "value": "Mixed grains and lentils for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithChickpea(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithChickpea(1Cup).label}}",
+                            "value": "Mixed grains and chickpeas for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithQuinoa",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithQuinoa.label}}",
+                            "value": "Mixed grains and quinoa for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithMillet",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithMillet.label}}",
+                            "value": "Mixed grains and millet for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithChickpea(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithChickpea(2Cup).label}}",
+                            "value": "Mixed grains and chickpeas for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBarley",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBarley.label}}",
+                            "value": "Mixed grains and barley for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBrownRice(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBrownRice(1Cup).label}}",
+                            "value": "Mixed grains and brown rice for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithOatRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithOatRice.label}}",
+                            "value": "Mixed grains and oats for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBrownRice(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBrownRice(2Cup).label}}",
+                            "value": "Mixed grains and brown rice for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithKamut",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithKamut.label}}",
+                            "value": "Mixed grains and kamut for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBrownRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBrownRice.label}}",
+                            "value": "Mixed grains and brown rice for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithQuinoa(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithQuinoa(1Cup).label}}",
+                            "value": "Mixed grains and quinoa for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithChickpea",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithChickpea.label}}",
+                            "value": "Mixed grains and chickpeas for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithQuinoa(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithQuinoa(2Cup).label}}",
+                            "value": "Mixed grains and quinoa for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithAdlay",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithAdlay.label}}",
+                            "value": "Mixed grains with adlay for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithLentilBean(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithLentilBean(1Cup).label}}",
+                            "value": "Mixed grains with lentils for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "plainPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.plainPorridge.label}}",
+                            "value": "Plain porridge",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithLentilBean(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithLentilBean(2Cup).label}}",
+                            "value": "Mixed grains with lentils for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "abalonePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.abalonePorridge.label}}",
+                            "value": "Abalone porridge",
                             "type": "active"
                         },
                         {
                             "key": "pineNutPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.pineNutPorridge.label}}",
+                            "value": "Pine nut porridge",
                             "type": "active"
                         },
                         {
                             "key": "boiledEgg",
-                            "value": "{{i18n.attributes.menu.i18n.value.boiledEgg.label}}",
+                            "value": "Boiled eggs",
                             "type": "active"
                         },
                         {
                             "key": "chicken,SweetPumpkin,Cabbage,StickyRicePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,SweetPumpkin,Cabbage,StickyRicePorridge.label}}",
+                            "value": "Chicken, sweet pumpkin, cabbage, sticky rice porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,Zucchini,SweetPotato,StickyRicePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,Zucchini,SweetPotato,StickyRicePorridge.label}}",
+                            "value": "Chicken, zucchini, sweet potato, sticky rice porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,Apple,BroccoliPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Apple,BroccoliPorridge.label}}",
+                            "value": "Beef, apple, broccoli porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,BokChoy,BananaPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,BokChoy,BananaPorridge.label}}",
+                            "value": "Chicken, bok choy, banana porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,Zucchini,PearPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Zucchini,PearPorridge.label}}",
+                            "value": "Beef, zucchini, pear porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,ShiitakeMushroom,EggPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,ShiitakeMushroom,EggPorridge.label}}",
+                            "value": "Beef, shiitake mushroom, egg porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,KingTrumpetMushroom,BroccoliPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,KingTrumpetMushroom,BroccoliPorridge.label}}",
+                            "value": "Beef, king trumpet mushroom, broccoli porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,BeanSprouts,Jujube,StickyRicePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,BeanSprouts,Jujube,StickyRicePorridge.label}}",
+                            "value": "Chicken, bean sprouts, jujube, sticky rice porridge",
                             "type": "active"
                         },
                         {
                             "key": "cod-Meat,Vitamin,CarrotPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.cod-Meat,Vitamin,CarrotPorridge.label}}",
+                            "value": "Cod, vitamin, carrot porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,SweetPotato,Beet,BeetPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,SweetPotato,Beet,BeetPorridge.label}}",
+                            "value": "Chicken, sweet potato, beetroot, beet green porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,PineNut,Chestnut,Spinach,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,PineNut,Chestnut,Spinach,SoftBoiledRice.label}}",
+                            "value": "Chicken, pine nut, chestnut, spinach soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice.label}}",
+                            "value": "Beef, beet, enoki mushroom, perilla seed soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "chicken,Cheese,Beet,Eggplant,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,Cheese,Beet,Eggplant,SoftBoiledRice.label}}",
+                            "value": "Chicken, cheese, beet, aubergine soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice.label}}",
+                            "value": "Cod, sweet pumpkin, mung bean sprout, black sesame soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice.label}}",
+                            "value": "Beef, cabbage, white mushroom, jujube soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "broccoliPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.broccoliPorridge.label}}",
+                            "value": "Broccoli porridge",
                             "type": "active"
                         },
                         {
                             "key": "potatoCarrotPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.potatoCarrotPorridge.label}}",
+                            "value": "Potato carrot porridge",
                             "type": "active"
                         },
                         {
                             "key": "yakbab",
-                            "value": "{{i18n.attributes.menu.i18n.value.yakbab.label}}",
+                            "value": "Yakbap",
                             "type": "active"
                         },
                         {
                             "key": "steamedPotato",
-                            "value": "{{i18n.attributes.menu.i18n.value.steamedPotato.label}}",
+                            "value": "Steamed potato",
                             "type": "active"
                         },
                         {
                             "key": "customMenu01",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu01.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU01",
                             "type": "active"
                         },
                         {
                             "key": "customMenu02",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu02.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU02",
                             "type": "active"
                         },
                         {
                             "key": "customMenu03",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu03.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU03",
                             "type": "active"
                         },
                         {
                             "key": "customMenu04",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu04.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU04",
                             "type": "active"
                         },
                         {
                             "key": "customMenu05",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu05.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU05",
                             "type": "active"
                         },
                         {
                             "key": "customMenu06",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu06.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU06",
                             "type": "active"
                         },
                         {
                             "key": "customMenu07",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu07.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU07",
                             "type": "active"
                         },
                         {
                             "key": "customMenu08",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu08.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU08",
                             "type": "active"
                         },
                         {
                             "key": "customMenu09",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu09.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU09",
                             "type": "active"
                         },
                         {
                             "key": "customMenu10",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu10.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU10",
                             "type": "active"
                         },
                         {
                             "key": "customMenu11",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu11.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU11",
                             "type": "active"
                         },
                         {
                             "key": "customMenu12",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu12.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU12",
                             "type": "active"
                         },
                         {
                             "key": "customMenu13",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu13.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU13",
                             "type": "active"
                         },
                         {
                             "key": "customMenu14",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu14.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU14",
                             "type": "active"
                         },
                         {
                             "key": "customMenu15",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu15.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU15",
                             "type": "active"
                         },
                         {
                             "key": "customMenu16",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu16.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU16",
                             "type": "active"
                         },
                         {
                             "key": "customMenu17",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu17.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU17",
                             "type": "active"
                         },
                         {
                             "key": "customMenu18",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu18.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU18",
                             "type": "active"
                         },
                         {
                             "key": "customMenu19",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu19.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU19",
                             "type": "active"
                         },
                         {
                             "key": "customMenu20",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu20.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU20",
                             "type": "active"
                         }
                     ],
@@ -732,547 +732,547 @@
                     "alternatives": [
                         {
                             "key": "stickyPlainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.stickyPlainRice.label}}",
+                            "value": "Sticky white rice",
                             "type": "active"
                         },
                         {
                             "key": "wellCookedPlainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.wellCookedPlainRice.label}}",
+                            "value": "Well-cooked white rice",
                             "type": "active"
                         },
                         {
                             "key": "frozenPlainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.frozenPlainRice.label}}",
+                            "value": "Frozen white rice",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrains",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrains.label}}",
+                            "value": "Mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "brownRice100",
-                            "value": "{{i18n.attributes.menu.i18n.value.brownRice100.label}}",
+                            "value": "100% brown rice",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBeans",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBeans.label}}",
+                            "value": "Rice with beans",
                             "type": "active"
                         },
                         {
                             "key": "barleyMixedGrainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.barleyMixedGrainRice.label}}",
+                            "value": "Rice with barley and mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "superGrains",
-                            "value": "{{i18n.attributes.menu.i18n.value.superGrains.label}}",
+                            "value": "Rice with super grains",
                             "type": "active"
                         },
                         {
                             "key": "frozenMixedGrain",
-                            "value": "{{i18n.attributes.menu.i18n.value.frozenMixedGrain.label}}",
+                            "value": "Frozen mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "cauldronRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.cauldronRice.label}}",
+                            "value": "Stone pot-style rice",
                             "type": "active"
                         },
                         {
                             "key": "riceForGimbap",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceForGimbap.label}}",
+                            "value": "Rice for gimbap",
                             "type": "active"
                         },
                         {
                             "key": "plainQuick",
-                            "value": "{{i18n.attributes.menu.i18n.value.plainQuick.label}}",
+                            "value": "Quick white rice",
                             "type": "active"
                         },
                         {
                             "key": "konjacRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.konjacRice.label}}",
+                            "value": "Konjac rice",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSalad",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSalad.label}}",
+                            "value": "Mixed grains for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainsQuick",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainsQuick.label}}",
+                            "value": "Quick mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "nutritiousRiceInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.nutritiousRiceInHotPot.label}}",
+                            "value": "Nutritious stone pot-style rice",
                             "type": "active"
                         },
                         {
                             "key": "steamedDish",
-                            "value": "{{i18n.attributes.menu.i18n.value.steamedDish.label}}",
+                            "value": "Steamed dish",
                             "type": "active"
                         },
                         {
                             "key": "nutritiousPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.nutritiousPorridge.label}}",
+                            "value": "Nutritious porridge",
                             "type": "active"
                         },
                         {
                             "key": "scorchedRiceTea",
-                            "value": "{{i18n.attributes.menu.i18n.value.scorchedRiceTea.label}}",
+                            "value": "Scorched rice tea",
                             "type": "active"
                         },
                         {
                             "key": "bakedEgg",
-                            "value": "{{i18n.attributes.menu.i18n.value.bakedEgg.label}}",
+                            "value": "Baked eggs",
                             "type": "active"
                         },
                         {
                             "key": "sousVide",
-                            "value": "{{i18n.attributes.menu.i18n.value.sousVide.label}}",
+                            "value": "Sous vide",
                             "type": "active"
                         },
                         {
                             "key": "scorchedRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.scorchedRice.label}}",
+                            "value": "Scorched rice",
                             "type": "active"
                         },
                         {
                             "key": "babyFoodStep1",
-                            "value": "{{i18n.attributes.menu.i18n.value.babyFoodStep1.label}}",
+                            "value": "Baby food step 1",
                             "type": "active"
                         },
                         {
                             "key": "babyFoodStep2",
-                            "value": "{{i18n.attributes.menu.i18n.value.babyFoodStep2.label}}",
+                            "value": "Baby food step 2",
                             "type": "active"
                         },
                         {
                             "key": "babyFoodStep3",
-                            "value": "{{i18n.attributes.menu.i18n.value.babyFoodStep3.label}}",
+                            "value": "Baby food step 3",
                             "type": "active"
                         },
                         {
                             "key": "riceWithSeasonedVegetablesInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithSeasonedVegetablesInHotPot.label}}",
+                            "value": "Stone pot-style rice with seasoned vegetables",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSlim",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSlim.label}}",
+                            "value": "Mixed grains for slim diet",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForVitality",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForVitality.label}}",
+                            "value": "Mixed grains for vitality",
                             "type": "active"
                         },
                         {
                             "key": "haedeul",
-                            "value": "{{i18n.attributes.menu.i18n.value.haedeul.label}}",
+                            "value": "Haedeul",
                             "type": "active"
                         },
                         {
                             "key": "alchanmi",
-                            "value": "{{i18n.attributes.menu.i18n.value.alchanmi.label}}",
+                            "value": "Alchanmi",
                             "type": "active"
                         },
                         {
                             "key": "odaemi",
-                            "value": "{{i18n.attributes.menu.i18n.value.odaemi.label}}",
+                            "value": "Odaemi",
                             "type": "active"
                         },
                         {
                             "key": "oatRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.oatRice.label}}",
+                            "value": "Rice with oats",
                             "type": "active"
                         },
                         {
                             "key": "chickpeaRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.chickpeaRice.label}}",
+                            "value": "Rice with chickpeas",
                             "type": "active"
                         },
                         {
                             "key": "quinoaRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.quinoaRice.label}}",
+                            "value": "Rice with quinoa",
                             "type": "active"
                         },
                         {
                             "key": "lentilBeanRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.lentilBeanRice.label}}",
+                            "value": "Rice with lentils",
                             "type": "active"
                         },
                         {
                             "key": "steamedSweetPotato",
-                            "value": "{{i18n.attributes.menu.i18n.value.steamedSweetPotato.label}}",
+                            "value": "Steamed sweet potato",
                             "type": "active"
                         },
                         {
                             "key": "galbijjim",
-                            "value": "{{i18n.attributes.menu.i18n.value.galbijjim.label}}",
+                            "value": "Galbijjim",
                             "type": "active"
                         },
                         {
                             "key": "samgyetang",
-                            "value": "{{i18n.attributes.menu.i18n.value.samgyetang.label}}",
+                            "value": "Samgyetang",
                             "type": "active"
                         },
                         {
                             "key": "riceWithWebfootOctopusAndSaussureaInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithWebfootOctopusAndSaussureaInHotPot.label}}",
+                            "value": "Stone pot-style rice with webfoot octopus and saussurea",
                             "type": "active"
                         },
                         {
                             "key": "riceWithAbaloneInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithAbaloneInHotPot.label}}",
+                            "value": "Stone pot-style rice with abalone",
                             "type": "active"
                         },
                         {
                             "key": "riceWithTruffledBulgogiInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithTruffledBulgogiInHotPot.label}}",
+                            "value": "Stone pot-style rice with steak",
                             "type": "active"
                         },
                         {
                             "key": "riceWithSteakInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithSteakInHotPot.label}}",
+                            "value": "Stone pot-style rice with steak",
                             "type": "active"
                         },
                         {
                             "key": "riceWithRipeKimchiAndAbaloneInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithRipeKimchiAndAbaloneInHotPot.label}}",
+                            "value": "Stone pot-style rice with abalone and ripe kimchi",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBeefAndBeanSproutsInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBeefAndBeanSproutsInHotPot.label}}",
+                            "value": "Stone pot-style rice with beef and bean sprouts",
                             "type": "active"
                         },
                         {
                             "key": "riceWithAssortedMushrommsInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithAssortedMushrommsInHotPot.label}}",
+                            "value": "Stone pot-style rice with assorted mushrooms",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBrackenAndSteakInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBrackenAndSteakInHotPot.label}}",
+                            "value": "Stone pot-style rice with steak and bracken",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBeefAndAssortedMushroomsInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBeefAndAssortedMushroomsInHotPot.label}}",
+                            "value": "Stone pot-style rice with beef and assorted mushrooms",
                             "type": "active"
                         },
                         {
                             "key": "riceWithSpicyWebfootOctopusInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithSpicyWebfootOctopusInHotPot.label}}",
+                            "value": "Stone pot-style rice with webfoot octopus",
                             "type": "active"
                         },
                         {
                             "key": "kamutRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.kamutRice.label}}",
+                            "value": "Rice with kamut",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithLentilBean",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithLentilBean.label}}",
+                            "value": "Mixed grains and lentils for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithChickpea(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithChickpea(1Cup).label}}",
+                            "value": "Mixed grains and chickpeas for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithQuinoa",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithQuinoa.label}}",
+                            "value": "Mixed grains and quinoa for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithMillet",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithMillet.label}}",
+                            "value": "Mixed grains and millet for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithChickpea(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithChickpea(2Cup).label}}",
+                            "value": "Mixed grains and chickpeas for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBarley",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBarley.label}}",
+                            "value": "Mixed grains and barley for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBrownRice(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBrownRice(1Cup).label}}",
+                            "value": "Mixed grains and brown rice for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithOatRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithOatRice.label}}",
+                            "value": "Mixed grains and oats for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBrownRice(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBrownRice(2Cup).label}}",
+                            "value": "Mixed grains and brown rice for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithKamut",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithKamut.label}}",
+                            "value": "Mixed grains and kamut for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBrownRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBrownRice.label}}",
+                            "value": "Mixed grains and brown rice for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithQuinoa(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithQuinoa(1Cup).label}}",
+                            "value": "Mixed grains and quinoa for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithChickpea",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithChickpea.label}}",
+                            "value": "Mixed grains and chickpeas for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithQuinoa(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithQuinoa(2Cup).label}}",
+                            "value": "Mixed grains and quinoa for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithAdlay",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithAdlay.label}}",
+                            "value": "Mixed grains with adlay for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithLentilBean(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithLentilBean(1Cup).label}}",
+                            "value": "Mixed grains with lentils for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "plainPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.plainPorridge.label}}",
+                            "value": "Plain porridge",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithLentilBean(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithLentilBean(2Cup).label}}",
+                            "value": "Mixed grains with lentils for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "abalonePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.abalonePorridge.label}}",
+                            "value": "Abalone porridge",
                             "type": "active"
                         },
                         {
                             "key": "pineNutPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.pineNutPorridge.label}}",
+                            "value": "Pine nut porridge",
                             "type": "active"
                         },
                         {
                             "key": "boiledEgg",
-                            "value": "{{i18n.attributes.menu.i18n.value.boiledEgg.label}}",
+                            "value": "Boiled eggs",
                             "type": "active"
                         },
                         {
                             "key": "chicken,SweetPumpkin,Cabbage,StickyRicePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,SweetPumpkin,Cabbage,StickyRicePorridge.label}}",
+                            "value": "Chicken, sweet pumpkin, cabbage, sticky rice porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,Zucchini,SweetPotato,StickyRicePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,Zucchini,SweetPotato,StickyRicePorridge.label}}",
+                            "value": "Chicken, zucchini, sweet potato, sticky rice porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,Apple,BroccoliPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Apple,BroccoliPorridge.label}}",
+                            "value": "Beef, apple, broccoli porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,BokChoy,BananaPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,BokChoy,BananaPorridge.label}}",
+                            "value": "Chicken, bok choy, banana porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,Zucchini,PearPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Zucchini,PearPorridge.label}}",
+                            "value": "Beef, zucchini, pear porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,ShiitakeMushroom,EggPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,ShiitakeMushroom,EggPorridge.label}}",
+                            "value": "Beef, shiitake mushroom, egg porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,KingTrumpetMushroom,BroccoliPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,KingTrumpetMushroom,BroccoliPorridge.label}}",
+                            "value": "Beef, king trumpet mushroom, broccoli porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,BeanSprouts,Jujube,StickyRicePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,BeanSprouts,Jujube,StickyRicePorridge.label}}",
+                            "value": "Chicken, bean sprouts, jujube, sticky rice porridge",
                             "type": "active"
                         },
                         {
                             "key": "cod-Meat,Vitamin,CarrotPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.cod-Meat,Vitamin,CarrotPorridge.label}}",
+                            "value": "Cod, vitamin, carrot porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,SweetPotato,Beet,BeetPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,SweetPotato,Beet,BeetPorridge.label}}",
+                            "value": "Chicken, sweet potato, beetroot, beet green porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,PineNut,Chestnut,Spinach,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,PineNut,Chestnut,Spinach,SoftBoiledRice.label}}",
+                            "value": "Chicken, pine nut, chestnut, spinach soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice.label}}",
+                            "value": "Beef, beet, enoki mushroom, perilla seed soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "chicken,Cheese,Beet,Eggplant,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,Cheese,Beet,Eggplant,SoftBoiledRice.label}}",
+                            "value": "Chicken, cheese, beet, aubergine soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice.label}}",
+                            "value": "Cod, sweet pumpkin, mung bean sprout, black sesame soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice.label}}",
+                            "value": "Beef, cabbage, white mushroom, jujube soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "broccoliPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.broccoliPorridge.label}}",
+                            "value": "Broccoli porridge",
                             "type": "active"
                         },
                         {
                             "key": "potatoCarrotPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.potatoCarrotPorridge.label}}",
+                            "value": "Potato carrot porridge",
                             "type": "active"
                         },
                         {
                             "key": "yakbab",
-                            "value": "{{i18n.attributes.menu.i18n.value.yakbab.label}}",
+                            "value": "Yakbap",
                             "type": "active"
                         },
                         {
                             "key": "steamedPotato",
-                            "value": "{{i18n.attributes.menu.i18n.value.steamedPotato.label}}",
+                            "value": "Steamed potato",
                             "type": "active"
                         },
                         {
                             "key": "customMenu01",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu01.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU01",
                             "type": "active"
                         },
                         {
                             "key": "customMenu02",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu02.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU02",
                             "type": "active"
                         },
                         {
                             "key": "customMenu03",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu03.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU03",
                             "type": "active"
                         },
                         {
                             "key": "customMenu04",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu04.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU04",
                             "type": "active"
                         },
                         {
                             "key": "customMenu05",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu05.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU05",
                             "type": "active"
                         },
                         {
                             "key": "customMenu06",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu06.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU06",
                             "type": "active"
                         },
                         {
                             "key": "customMenu07",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu07.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU07",
                             "type": "active"
                         },
                         {
                             "key": "customMenu08",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu08.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU08",
                             "type": "active"
                         },
                         {
                             "key": "customMenu09",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu09.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU09",
                             "type": "active"
                         },
                         {
                             "key": "customMenu10",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu10.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU10",
                             "type": "active"
                         },
                         {
                             "key": "customMenu11",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu11.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU11",
                             "type": "active"
                         },
                         {
                             "key": "customMenu12",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu12.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU12",
                             "type": "active"
                         },
                         {
                             "key": "customMenu13",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu13.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU13",
                             "type": "active"
                         },
                         {
                             "key": "customMenu14",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu14.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU14",
                             "type": "active"
                         },
                         {
                             "key": "customMenu15",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu15.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU15",
                             "type": "active"
                         },
                         {
                             "key": "customMenu16",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu16.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU16",
                             "type": "active"
                         },
                         {
                             "key": "customMenu17",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu17.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU17",
                             "type": "active"
                         },
                         {
                             "key": "customMenu18",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu18.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU18",
                             "type": "active"
                         },
                         {
                             "key": "customMenu19",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu19.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU19",
                             "type": "active"
                         },
                         {
                             "key": "customMenu20",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu20.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU20",
                             "type": "active"
                         }
                     ]
@@ -1280,67 +1280,67 @@
             }
         },
         {
-            "label": "{{i18n.attributes.event.label}}",
+            "label": "Progress",
             "displayType": "state",
             "state": {
                 "label": "{{event.value}}",
                 "alternatives": [
                     {
                         "key": "cookingComplete",
-                        "value": "{{i18n.attributes.event.i18n.value.cookingComplete.label}}",
+                        "value": "Cooking complete",
                         "type": "active"
                     },
                     {
                         "key": "keepWarmComplete",
-                        "value": "{{i18n.attributes.event.i18n.value.keepWarmComplete.label}}",
+                        "value": "Stopped keeping warm",
                         "type": "active"
                     },
                     {
                         "key": "reheatingComplete",
-                        "value": "{{i18n.attributes.event.i18n.value.reheatingComplete.label}}",
+                        "value": "Reheating complete",
                         "type": "active"
                     },
                     {
                         "key": "autoCleanComplete",
-                        "value": "{{i18n.attributes.event.i18n.value.autoCleanComplete.label}}",
+                        "value": "Auto cleaning complete",
                         "type": "active"
                     },
                     {
                         "key": "soakInnerPotComplete",
-                        "value": "{{i18n.attributes.event.i18n.value.soakInnerPotComplete.label}}",
+                        "value": "Soaking inner pot complete",
                         "type": "active"
                     },
                     {
                         "key": "steamEmission",
-                        "value": "{{i18n.attributes.event.i18n.value.steamEmission.label}}",
+                        "value": "Steam release",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.startTime.label}}",
+            "label": "Warm time",
             "displayType": "state",
             "state": {
                 "label": "{{startTime.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.completionTime.label}}",
+            "label": "Remaining time",
             "displayType": "state",
             "state": {
                 "label": "{{completionTime.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.schedulingEnabled.label}}",
+            "label": "Schedule",
             "displayType": "state",
             "state": {
                 "label": "{{schedulingEnabled.value}}"
             }
         },
         {
-            "label": "{{i18n.attributes.scheduledTime.label}}",
+            "label": "Scheduled end time",
             "displayType": "textField",
             "textField": {
                 "command": "scheduleCooking",
@@ -1357,33 +1357,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.cookerMode.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cooking",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.cooking.label}}",
+                            "value": "Cook",
                             "type": "active"
                         },
                         {
                             "key": "keepWarm",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.keepWarm.label}}",
+                            "value": "Warm",
                             "type": "active"
                         },
                         {
                             "key": "reheating",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.reheating.label}}",
+                            "value": "Reheat",
                             "type": "active"
                         },
                         {
                             "key": "autoClean",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.autoClean.label}}",
+                            "value": "Auto clean",
                             "type": "active"
                         },
                         {
                             "key": "soakInnerPot",
-                            "value": "{{i18n.attributes.cookerMode.i18n.value.soakInnerPot.label}}",
+                            "value": "Soak inner pot",
                             "type": "active"
                         }
                     ],
@@ -1394,38 +1394,38 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.event.label}}",
+                "label": "Progress",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "cookingComplete",
-                            "value": "{{i18n.attributes.event.i18n.value.cookingComplete.label}}",
+                            "value": "Cooking complete",
                             "type": "active"
                         },
                         {
                             "key": "keepWarmComplete",
-                            "value": "{{i18n.attributes.event.i18n.value.keepWarmComplete.label}}",
+                            "value": "Stopped keeping warm",
                             "type": "active"
                         },
                         {
                             "key": "reheatingComplete",
-                            "value": "{{i18n.attributes.event.i18n.value.reheatingComplete.label}}",
+                            "value": "Reheating complete",
                             "type": "active"
                         },
                         {
                             "key": "autoCleanComplete",
-                            "value": "{{i18n.attributes.event.i18n.value.autoCleanComplete.label}}",
+                            "value": "Auto cleaning complete",
                             "type": "active"
                         },
                         {
                             "key": "soakInnerPotComplete",
-                            "value": "{{i18n.attributes.event.i18n.value.soakInnerPotComplete.label}}",
+                            "value": "Soaking inner pot complete",
                             "type": "active"
                         },
                         {
                             "key": "steamEmission",
-                            "value": "{{i18n.attributes.event.i18n.value.steamEmission.label}}",
+                            "value": "Steam release",
                             "type": "active"
                         }
                     ],
@@ -1438,553 +1438,553 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.startCooking.label}}",
+                "label": "Start",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "stickyPlainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.stickyPlainRice.label}}",
+                            "value": "Sticky white rice",
                             "type": "active"
                         },
                         {
                             "key": "wellCookedPlainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.wellCookedPlainRice.label}}",
+                            "value": "Well-cooked white rice",
                             "type": "active"
                         },
                         {
                             "key": "frozenPlainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.frozenPlainRice.label}}",
+                            "value": "Frozen white rice",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrains",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrains.label}}",
+                            "value": "Mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "brownRice100",
-                            "value": "{{i18n.attributes.menu.i18n.value.brownRice100.label}}",
+                            "value": "100% brown rice",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBeans",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBeans.label}}",
+                            "value": "Rice with beans",
                             "type": "active"
                         },
                         {
                             "key": "barleyMixedGrainRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.barleyMixedGrainRice.label}}",
+                            "value": "Rice with barley and mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "superGrains",
-                            "value": "{{i18n.attributes.menu.i18n.value.superGrains.label}}",
+                            "value": "Rice with super grains",
                             "type": "active"
                         },
                         {
                             "key": "frozenMixedGrain",
-                            "value": "{{i18n.attributes.menu.i18n.value.frozenMixedGrain.label}}",
+                            "value": "Frozen mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "cauldronRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.cauldronRice.label}}",
+                            "value": "Stone pot-style rice",
                             "type": "active"
                         },
                         {
                             "key": "riceForGimbap",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceForGimbap.label}}",
+                            "value": "Rice for gimbap",
                             "type": "active"
                         },
                         {
                             "key": "plainQuick",
-                            "value": "{{i18n.attributes.menu.i18n.value.plainQuick.label}}",
+                            "value": "Quick white rice",
                             "type": "active"
                         },
                         {
                             "key": "konjacRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.konjacRice.label}}",
+                            "value": "Konjac rice",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSalad",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSalad.label}}",
+                            "value": "Mixed grains for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainsQuick",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainsQuick.label}}",
+                            "value": "Quick mixed grains",
                             "type": "active"
                         },
                         {
                             "key": "nutritiousRiceInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.nutritiousRiceInHotPot.label}}",
+                            "value": "Nutritious stone pot-style rice",
                             "type": "active"
                         },
                         {
                             "key": "steamedDish",
-                            "value": "{{i18n.attributes.menu.i18n.value.steamedDish.label}}",
+                            "value": "Steamed dish",
                             "type": "active"
                         },
                         {
                             "key": "nutritiousPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.nutritiousPorridge.label}}",
+                            "value": "Nutritious porridge",
                             "type": "active"
                         },
                         {
                             "key": "scorchedRiceTea",
-                            "value": "{{i18n.attributes.menu.i18n.value.scorchedRiceTea.label}}",
+                            "value": "Scorched rice tea",
                             "type": "active"
                         },
                         {
                             "key": "bakedEgg",
-                            "value": "{{i18n.attributes.menu.i18n.value.bakedEgg.label}}",
+                            "value": "Baked eggs",
                             "type": "active"
                         },
                         {
                             "key": "sousVide",
-                            "value": "{{i18n.attributes.menu.i18n.value.sousVide.label}}",
+                            "value": "Sous vide",
                             "type": "active"
                         },
                         {
                             "key": "scorchedRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.scorchedRice.label}}",
+                            "value": "Scorched rice",
                             "type": "active"
                         },
                         {
                             "key": "babyFoodStep1",
-                            "value": "{{i18n.attributes.menu.i18n.value.babyFoodStep1.label}}",
+                            "value": "Baby food step 1",
                             "type": "active"
                         },
                         {
                             "key": "babyFoodStep2",
-                            "value": "{{i18n.attributes.menu.i18n.value.babyFoodStep2.label}}",
+                            "value": "Baby food step 2",
                             "type": "active"
                         },
                         {
                             "key": "babyFoodStep3",
-                            "value": "{{i18n.attributes.menu.i18n.value.babyFoodStep3.label}}",
+                            "value": "Baby food step 3",
                             "type": "active"
                         },
                         {
                             "key": "riceWithSeasonedVegetablesInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithSeasonedVegetablesInHotPot.label}}",
+                            "value": "Stone pot-style rice with seasoned vegetables",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSlim",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSlim.label}}",
+                            "value": "Mixed grains for slim diet",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForVitality",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForVitality.label}}",
+                            "value": "Mixed grains for vitality",
                             "type": "active"
                         },
                         {
                             "key": "haedeul",
-                            "value": "{{i18n.attributes.menu.i18n.value.haedeul.label}}",
+                            "value": "Haedeul",
                             "type": "active"
                         },
                         {
                             "key": "alchanmi",
-                            "value": "{{i18n.attributes.menu.i18n.value.alchanmi.label}}",
+                            "value": "Alchanmi",
                             "type": "active"
                         },
                         {
                             "key": "odaemi",
-                            "value": "{{i18n.attributes.menu.i18n.value.odaemi.label}}",
+                            "value": "Odaemi",
                             "type": "active"
                         },
                         {
                             "key": "oatRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.oatRice.label}}",
+                            "value": "Rice with oats",
                             "type": "active"
                         },
                         {
                             "key": "chickpeaRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.chickpeaRice.label}}",
+                            "value": "Rice with chickpeas",
                             "type": "active"
                         },
                         {
                             "key": "quinoaRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.quinoaRice.label}}",
+                            "value": "Rice with quinoa",
                             "type": "active"
                         },
                         {
                             "key": "lentilBeanRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.lentilBeanRice.label}}",
+                            "value": "Rice with lentils",
                             "type": "active"
                         },
                         {
                             "key": "steamedSweetPotato",
-                            "value": "{{i18n.attributes.menu.i18n.value.steamedSweetPotato.label}}",
+                            "value": "Steamed sweet potato",
                             "type": "active"
                         },
                         {
                             "key": "galbijjim",
-                            "value": "{{i18n.attributes.menu.i18n.value.galbijjim.label}}",
+                            "value": "Galbijjim",
                             "type": "active"
                         },
                         {
                             "key": "samgyetang",
-                            "value": "{{i18n.attributes.menu.i18n.value.samgyetang.label}}",
+                            "value": "Samgyetang",
                             "type": "active"
                         },
                         {
                             "key": "riceWithWebfootOctopusAndSaussureaInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithWebfootOctopusAndSaussureaInHotPot.label}}",
+                            "value": "Stone pot-style rice with webfoot octopus and saussurea",
                             "type": "active"
                         },
                         {
                             "key": "riceWithAbaloneInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithAbaloneInHotPot.label}}",
+                            "value": "Stone pot-style rice with abalone",
                             "type": "active"
                         },
                         {
                             "key": "riceWithTruffledBulgogiInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithTruffledBulgogiInHotPot.label}}",
+                            "value": "Stone pot-style rice with steak",
                             "type": "active"
                         },
                         {
                             "key": "riceWithSteakInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithSteakInHotPot.label}}",
+                            "value": "Stone pot-style rice with steak",
                             "type": "active"
                         },
                         {
                             "key": "riceWithRipeKimchiAndAbaloneInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithRipeKimchiAndAbaloneInHotPot.label}}",
+                            "value": "Stone pot-style rice with abalone and ripe kimchi",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBeefAndBeanSproutsInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBeefAndBeanSproutsInHotPot.label}}",
+                            "value": "Stone pot-style rice with beef and bean sprouts",
                             "type": "active"
                         },
                         {
                             "key": "riceWithAssortedMushrommsInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithAssortedMushrommsInHotPot.label}}",
+                            "value": "Stone pot-style rice with assorted mushrooms",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBrackenAndSteakInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBrackenAndSteakInHotPot.label}}",
+                            "value": "Stone pot-style rice with steak and bracken",
                             "type": "active"
                         },
                         {
                             "key": "riceWithBeefAndAssortedMushroomsInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithBeefAndAssortedMushroomsInHotPot.label}}",
+                            "value": "Stone pot-style rice with beef and assorted mushrooms",
                             "type": "active"
                         },
                         {
                             "key": "riceWithSpicyWebfootOctopusInHotPot",
-                            "value": "{{i18n.attributes.menu.i18n.value.riceWithSpicyWebfootOctopusInHotPot.label}}",
+                            "value": "Stone pot-style rice with webfoot octopus",
                             "type": "active"
                         },
                         {
                             "key": "kamutRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.kamutRice.label}}",
+                            "value": "Rice with kamut",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithLentilBean",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithLentilBean.label}}",
+                            "value": "Mixed grains and lentils for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithChickpea(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithChickpea(1Cup).label}}",
+                            "value": "Mixed grains and chickpeas for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithQuinoa",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithQuinoa.label}}",
+                            "value": "Mixed grains and quinoa for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithMillet",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithMillet.label}}",
+                            "value": "Mixed grains and millet for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithChickpea(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithChickpea(2Cup).label}}",
+                            "value": "Mixed grains and chickpeas for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBarley",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBarley.label}}",
+                            "value": "Mixed grains and barley for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBrownRice(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBrownRice(1Cup).label}}",
+                            "value": "Mixed grains and brown rice for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithOatRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithOatRice.label}}",
+                            "value": "Mixed grains and oats for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBrownRice(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBrownRice(2Cup).label}}",
+                            "value": "Mixed grains and brown rice for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithKamut",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithKamut.label}}",
+                            "value": "Mixed grains and kamut for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithBrownRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithBrownRice.label}}",
+                            "value": "Mixed grains and brown rice for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithQuinoa(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithQuinoa(1Cup).label}}",
+                            "value": "Mixed grains and quinoa for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithChickpea",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithChickpea.label}}",
+                            "value": "Mixed grains and chickpeas for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithQuinoa(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithQuinoa(2Cup).label}}",
+                            "value": "Mixed grains and quinoa for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithAdlay",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithAdlay.label}}",
+                            "value": "Mixed grains with adlay for salad",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithLentilBean(1Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithLentilBean(1Cup).label}}",
+                            "value": "Mixed grains with lentils for salad (1 cup)",
                             "type": "active"
                         },
                         {
                             "key": "plainPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.plainPorridge.label}}",
+                            "value": "Plain porridge",
                             "type": "active"
                         },
                         {
                             "key": "mixedGrainForSaladWithLentilBean(2Cup)",
-                            "value": "{{i18n.attributes.menu.i18n.value.mixedGrainForSaladWithLentilBean(2Cup).label}}",
+                            "value": "Mixed grains with lentils for salad (2 cups)",
                             "type": "active"
                         },
                         {
                             "key": "abalonePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.abalonePorridge.label}}",
+                            "value": "Abalone porridge",
                             "type": "active"
                         },
                         {
                             "key": "pineNutPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.pineNutPorridge.label}}",
+                            "value": "Pine nut porridge",
                             "type": "active"
                         },
                         {
                             "key": "boiledEgg",
-                            "value": "{{i18n.attributes.menu.i18n.value.boiledEgg.label}}",
+                            "value": "Boiled eggs",
                             "type": "active"
                         },
                         {
                             "key": "chicken,SweetPumpkin,Cabbage,StickyRicePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,SweetPumpkin,Cabbage,StickyRicePorridge.label}}",
+                            "value": "Chicken, sweet pumpkin, cabbage, sticky rice porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,Zucchini,SweetPotato,StickyRicePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,Zucchini,SweetPotato,StickyRicePorridge.label}}",
+                            "value": "Chicken, zucchini, sweet potato, sticky rice porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,Apple,BroccoliPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Apple,BroccoliPorridge.label}}",
+                            "value": "Beef, apple, broccoli porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,BokChoy,BananaPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,BokChoy,BananaPorridge.label}}",
+                            "value": "Chicken, bok choy, banana porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,Zucchini,PearPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Zucchini,PearPorridge.label}}",
+                            "value": "Beef, zucchini, pear porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,ShiitakeMushroom,EggPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,ShiitakeMushroom,EggPorridge.label}}",
+                            "value": "Beef, shiitake mushroom, egg porridge",
                             "type": "active"
                         },
                         {
                             "key": "beef,KingTrumpetMushroom,BroccoliPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,KingTrumpetMushroom,BroccoliPorridge.label}}",
+                            "value": "Beef, king trumpet mushroom, broccoli porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,BeanSprouts,Jujube,StickyRicePorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,BeanSprouts,Jujube,StickyRicePorridge.label}}",
+                            "value": "Chicken, bean sprouts, jujube, sticky rice porridge",
                             "type": "active"
                         },
                         {
                             "key": "cod-Meat,Vitamin,CarrotPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.cod-Meat,Vitamin,CarrotPorridge.label}}",
+                            "value": "Cod, vitamin, carrot porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,SweetPotato,Beet,BeetPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,SweetPotato,Beet,BeetPorridge.label}}",
+                            "value": "Chicken, sweet potato, beetroot, beet green porridge",
                             "type": "active"
                         },
                         {
                             "key": "chicken,PineNut,Chestnut,Spinach,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,PineNut,Chestnut,Spinach,SoftBoiledRice.label}}",
+                            "value": "Chicken, pine nut, chestnut, spinach soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice.label}}",
+                            "value": "Beef, beet, enoki mushroom, perilla seed soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "chicken,Cheese,Beet,Eggplant,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.chicken,Cheese,Beet,Eggplant,SoftBoiledRice.label}}",
+                            "value": "Chicken, cheese, beet, aubergine soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice.label}}",
+                            "value": "Cod, sweet pumpkin, mung bean sprout, black sesame soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice",
-                            "value": "{{i18n.attributes.menu.i18n.value.beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice.label}}",
+                            "value": "Beef, cabbage, white mushroom, jujube soft-boiled rice",
                             "type": "active"
                         },
                         {
                             "key": "broccoliPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.broccoliPorridge.label}}",
+                            "value": "Broccoli porridge",
                             "type": "active"
                         },
                         {
                             "key": "potatoCarrotPorridge",
-                            "value": "{{i18n.attributes.menu.i18n.value.potatoCarrotPorridge.label}}",
+                            "value": "Potato carrot porridge",
                             "type": "active"
                         },
                         {
                             "key": "yakbab",
-                            "value": "{{i18n.attributes.menu.i18n.value.yakbab.label}}",
+                            "value": "Yakbap",
                             "type": "active"
                         },
                         {
                             "key": "steamedPotato",
-                            "value": "{{i18n.attributes.menu.i18n.value.steamedPotato.label}}",
+                            "value": "Steamed potato",
                             "type": "active"
                         },
                         {
                             "key": "customMenu01",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu01.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU01",
                             "type": "active"
                         },
                         {
                             "key": "customMenu02",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu02.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU02",
                             "type": "active"
                         },
                         {
                             "key": "customMenu03",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu03.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU03",
                             "type": "active"
                         },
                         {
                             "key": "customMenu04",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu04.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU04",
                             "type": "active"
                         },
                         {
                             "key": "customMenu05",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu05.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU05",
                             "type": "active"
                         },
                         {
                             "key": "customMenu06",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu06.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU06",
                             "type": "active"
                         },
                         {
                             "key": "customMenu07",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu07.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU07",
                             "type": "active"
                         },
                         {
                             "key": "customMenu08",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu08.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU08",
                             "type": "active"
                         },
                         {
                             "key": "customMenu09",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu09.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU09",
                             "type": "active"
                         },
                         {
                             "key": "customMenu10",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu10.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU10",
                             "type": "active"
                         },
                         {
                             "key": "customMenu11",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu11.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU11",
                             "type": "active"
                         },
                         {
                             "key": "customMenu12",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu12.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU12",
                             "type": "active"
                         },
                         {
                             "key": "customMenu13",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu13.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU13",
                             "type": "active"
                         },
                         {
                             "key": "customMenu14",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu14.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU14",
                             "type": "active"
                         },
                         {
                             "key": "customMenu15",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu15.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU15",
                             "type": "active"
                         },
                         {
                             "key": "customMenu16",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu16.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU16",
                             "type": "active"
                         },
                         {
                             "key": "customMenu17",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu17.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU17",
                             "type": "active"
                         },
                         {
                             "key": "customMenu18",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu18.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU18",
                             "type": "active"
                         },
                         {
                             "key": "customMenu19",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu19.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU19",
                             "type": "active"
                         },
                         {
                             "key": "customMenu20",
-                            "value": "{{i18n.attributes.menu.i18n.value.customMenu20.label}}",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.RICECOOKER_DEFAULT_ATTRIBUTES_MENU_CUSTOMMENU20",
                             "type": "active"
                         }
                     ],
@@ -1994,28 +1994,28 @@
                 }
             },
             {
-                "label": "{{i18n.commands.setMode.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "keepWarm",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.keepWarm.label}}",
+                            "value": "Warm",
                             "type": "active"
                         },
                         {
                             "key": "reheating",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.reheating.label}}",
+                            "value": "Reheat",
                             "type": "active"
                         },
                         {
                             "key": "autoClean",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.autoClean.label}}",
+                            "value": "Auto clean",
                             "type": "active"
                         },
                         {
                             "key": "soakInnerPot",
-                            "value": "{{i18n.commands.setMode.arguments.mode.i18n.soakInnerPot.label}}",
+                            "value": "Soak inner pot",
                             "type": "active"
                         }
                     ],
