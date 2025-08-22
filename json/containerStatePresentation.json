@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "empty",
-                        "value": "{{i18n.attributes.containerState.i18n.value.empty.label}}",
+                        "value": "Empty",
                         "type": "active"
                     },
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.containerState.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "full",
-                        "value": "{{i18n.attributes.containerState.i18n.value.full.label}}",
+                        "value": "Full",
                         "type": "active"
                     }
                 ]
@@ -27,58 +27,58 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.containerState.label}}",
+            "label": "Container state",
             "displayType": "state",
             "state": {
                 "label": "{{containerState.value}}",
                 "alternatives": [
                     {
                         "key": "empty",
-                        "value": "{{i18n.attributes.containerState.i18n.value.empty.label}}",
+                        "value": "Empty",
                         "type": "active"
                     },
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.containerState.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "full",
-                        "value": "{{i18n.attributes.containerState.i18n.value.full.label}}",
+                        "value": "Full",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.content.label}}",
+            "label": "Container state",
             "displayType": "state",
             "state": {
                 "label": "{{content.value}}",
                 "alternatives": [
                     {
                         "key": "food",
-                        "value": "{{i18n.attributes.content.i18n.value.food.label}}",
+                        "value": "Food",
                         "type": "active"
                     },
                     {
                         "key": "water",
-                        "value": "{{i18n.attributes.content.i18n.value.water.label}}",
+                        "value": "Water",
                         "type": "active"
                     },
                     {
                         "key": "liquid",
-                        "value": "{{i18n.attributes.content.i18n.value.liquid.label}}",
+                        "value": "Liquid",
                         "type": "active"
                     },
                     {
                         "key": "consumable",
-                        "value": "{{i18n.attributes.content.i18n.value.consumable.label}}",
+                        "value": "Consumable item",
                         "type": "active"
                     },
                     {
                         "key": "excretions",
-                        "value": "{{i18n.attributes.content.i18n.value.excretions.label}}",
+                        "value": "Pet waste",
                         "type": "active"
                     }
                 ]
@@ -88,23 +88,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Container state",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "empty",
-                            "value": "{{i18n.attributes.containerState.i18n.value.empty.label}}",
+                            "value": "Empty",
                             "type": "active"
                         },
                         {
                             "key": "normal",
-                            "value": "{{i18n.attributes.containerState.i18n.value.normal.label}}",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "full",
-                            "value": "{{i18n.attributes.containerState.i18n.value.full.label}}",
+                            "value": "Full",
                             "type": "active"
                         }
                     ],

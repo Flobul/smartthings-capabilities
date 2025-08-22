@@ -6,27 +6,27 @@
                 "alternatives": [
                     {
                         "key": "available",
-                        "value": "{{i18n.attributes.robotState.i18n.value.available.label}}",
+                        "value": "Standing by for delivery",
                         "type": "active"
                     },
                     {
                         "key": "using",
-                        "value": "{{i18n.attributes.robotState.i18n.value.using.label}}",
+                        "value": "In use",
                         "type": "active"
                     },
                     {
                         "key": "error",
-                        "value": "{{i18n.attributes.robotState.i18n.value.error.label}}",
+                        "value": "Error",
                         "type": "active"
                     },
                     {
                         "key": "called",
-                        "value": "{{i18n.attributes.robotState.i18n.value.called.label}}",
+                        "value": "Called",
                         "type": "active"
                     },
                     {
                         "key": "callFailed",
-                        "value": "{{i18n.attributes.robotState.i18n.value.callFailed.label}}",
+                        "value": "Couldn't contact robot",
                         "type": "active"
                     }
                 ]
@@ -37,19 +37,19 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Delivery robot",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "call",
-                            "value": "{{i18n.commands.call.label}}",
+                            "value": "Call",
                             "type": "active"
                         },
                         {
                             "key": "cancel",
-                            "value": "{{i18n.commands.cancel.label}}",
+                            "value": "Cancelled",
                             "type": "active"
                         }
                     ],
@@ -61,27 +61,27 @@
                     "alternatives": [
                         {
                             "key": "available",
-                            "value": "{{i18n.attributes.robotState.i18n.value.available.label}}",
+                            "value": "Standing by for delivery",
                             "type": "active"
                         },
                         {
                             "key": "using",
-                            "value": "{{i18n.attributes.robotState.i18n.value.using.label}}",
+                            "value": "In use",
                             "type": "active"
                         },
                         {
                             "key": "error",
-                            "value": "{{i18n.attributes.robotState.i18n.value.error.label}}",
+                            "value": "Error",
                             "type": "active"
                         },
                         {
                             "key": "called",
-                            "value": "{{i18n.attributes.robotState.i18n.value.called.label}}",
+                            "value": "Called",
                             "type": "active"
                         },
                         {
                             "key": "callFailed",
-                            "value": "{{i18n.attributes.robotState.i18n.value.callFailed.label}}",
+                            "value": "Couldn't contact robot",
                             "type": "active"
                         }
                     ]
@@ -92,33 +92,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Delivery robot",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "available",
-                            "value": "{{i18n.attributes.robotState.i18n.value.available.label}}",
+                            "value": "Standing by for delivery",
                             "type": "active"
                         },
                         {
                             "key": "using",
-                            "value": "{{i18n.attributes.robotState.i18n.value.using.label}}",
+                            "value": "In use",
                             "type": "active"
                         },
                         {
                             "key": "error",
-                            "value": "{{i18n.attributes.robotState.i18n.value.error.label}}",
+                            "value": "Error",
                             "type": "active"
                         },
                         {
                             "key": "called",
-                            "value": "{{i18n.attributes.robotState.i18n.value.called.label}}",
+                            "value": "Called",
                             "type": "active"
                         },
                         {
                             "key": "callFailed",
-                            "value": "{{i18n.attributes.robotState.i18n.value.callFailed.label}}",
+                            "value": "Couldn't contact robot",
                             "type": "active"
                         }
                     ],
@@ -131,18 +131,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Delivery robot",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "call",
-                            "value": "{{i18n.commands.call.label}}",
+                            "value": "Call",
                             "type": "active"
                         },
                         {
                             "key": "cancel",
-                            "value": "{{i18n.commands.cancel.label}}",
+                            "value": "Cancelled",
                             "type": "active"
                         }
                     ],

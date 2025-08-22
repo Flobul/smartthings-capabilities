@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.attributes.intensityHead.label}}",
+            "label": "Head intensity",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -16,7 +16,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.intensityFoot.label}}",
+            "label": "Foot intensity",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -31,7 +31,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.intensityWhole.label}}",
+            "label": "Intensity",
             "displayType": "slider",
             "slider": {
                 "range": [

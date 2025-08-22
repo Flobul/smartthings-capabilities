@@ -6,32 +6,32 @@
                 "alternatives": [
                     {
                         "key": "locked",
-                        "value": "{{i18n.attributes.lock.i18n.value.locked.label}}",
+                        "value": "Locked",
                         "type": "inactive"
                     },
                     {
                         "key": "unlocked",
-                        "value": "{{i18n.attributes.lock.i18n.value.unlocked.label}}",
+                        "value": "Unlocked",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.lock.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "inactive"
                     },
                     {
                         "key": "unlocked with timeout",
-                        "value": "{{i18n.attributes.lock.i18n.value.unlocked with timeout.label}}",
+                        "value": "Temporarily unlocked",
                         "type": "active"
                     },
                     {
                         "key": "not fully locked",
-                        "value": "{{i18n.attributes.lock.i18n.value.not fully locked.label}}",
+                        "value": "Not fully locked",
                         "type": "active"
                     },
                     {
                         "key": "unlatched",
-                        "value": "{{i18n.attributes.lock.i18n.value.unlatched.label}}",
+                        "value": "Unlatched",
                         "type": "active"
                     }
                 ]
@@ -64,7 +64,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Lock state",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -80,32 +80,32 @@
                     "alternatives": [
                         {
                             "key": "locked",
-                            "value": "{{i18n.attributes.lock.i18n.value.locked.label}}",
+                            "value": "Locked",
                             "type": "inactive"
                         },
                         {
                             "key": "unlocked",
-                            "value": "{{i18n.attributes.lock.i18n.value.unlocked.label}}",
+                            "value": "Unlocked",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.lock.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "inactive"
                         },
                         {
                             "key": "unlocked with timeout",
-                            "value": "{{i18n.attributes.lock.i18n.value.unlocked with timeout.label}}",
+                            "value": "Temporarily unlocked",
                             "type": "active"
                         },
                         {
                             "key": "not fully locked",
-                            "value": "{{i18n.attributes.lock.i18n.value.not fully locked.label}}",
+                            "value": "Not fully locked",
                             "type": "active"
                         },
                         {
                             "key": "unlatched",
-                            "value": "{{i18n.attributes.lock.i18n.value.unlatched.label}}",
+                            "value": "Unlatched",
                             "type": "active"
                         }
                     ]
@@ -116,33 +116,33 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Lock state",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "locked",
-                            "value": "{{i18n.attributes.lock.i18n.value.locked.label}}",
+                            "value": "Locked",
                             "type": "inactive"
                         },
                         {
                             "key": "unlocked",
-                            "value": "{{i18n.attributes.lock.i18n.value.unlocked.label}}",
+                            "value": "Unlocked",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.lock.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "inactive"
                         },
                         {
                             "key": "unlocked with timeout",
-                            "value": "{{i18n.attributes.lock.i18n.value.unlocked with timeout.label}}",
+                            "value": "Temporarily unlocked",
                             "type": "active"
                         },
                         {
                             "key": "not fully locked",
-                            "value": "{{i18n.attributes.lock.i18n.value.not fully locked.label}}",
+                            "value": "Not fully locked",
                             "type": "active"
                         }
                     ],
@@ -155,18 +155,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Lock state",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "lock",
-                            "value": "{{i18n.commands.lock.label}}",
+                            "value": "Lock",
                             "type": "inactive"
                         },
                         {
                             "key": "unlock",
-                            "value": "{{i18n.commands.unlock.label}}",
+                            "value": "Unlock",
                             "type": "active"
                         }
                     ],
