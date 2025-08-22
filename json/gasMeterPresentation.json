@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Gas meter",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterVolume.value}}",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Gas meter",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeter.value}}",
@@ -26,42 +26,42 @@
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Gas meter",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterCalorific.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Gas meter",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterConversion.value}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Gas meter",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterPrecision.value.volume}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Gas meter",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterPrecision.value.calorific}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Gas meter",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterPrecision.value.conversion}}"
             }
         },
         {
-            "label": "{{i18n.label}}",
+            "label": "Gas meter",
             "displayType": "state",
             "state": {
                 "label": "{{gasMeterTime.value}}"
@@ -71,7 +71,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Gas meter",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterVolume.value",
@@ -80,7 +80,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Gas meter",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeter.value",
@@ -89,7 +89,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Gas meter",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterCalorific.value",
@@ -97,7 +97,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Gas meter",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterConversion.value",
@@ -105,7 +105,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Gas meter",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.volume",
@@ -113,7 +113,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Gas meter",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.calorific",
@@ -121,7 +121,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Gas meter",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "gasMeterPrecision.value.conversion",
@@ -129,7 +129,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Gas meter",
                 "displayType": "textField",
                 "textField": {
                     "value": "gasMeterTime.value"
