@@ -25,7 +25,11 @@
                 "numberField": {
                     "value": "estimatedRemainingRange.value",
                     "valueType": "number",
-                    "unit": "estimatedRemainingRange.unit"
+                    "unit": "estimatedRemainingRange.unit",
+                    "range": [
+                        1,
+                        4094
+                    ]
                 }
             }
         ],
