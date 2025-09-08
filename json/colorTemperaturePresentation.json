@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Colour temperature",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -29,7 +29,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Colour temperature",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -45,7 +45,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Colour temperature",
                 "displayType": "slider",
                 "slider": {
                     "range": [

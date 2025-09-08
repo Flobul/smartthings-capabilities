@@ -46,7 +46,6 @@
                     "value"
                 ]
             },
-            "setter": "setAlarmSensorState",
             "enumCommands": []
         }
     },
@@ -67,7 +66,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

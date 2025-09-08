@@ -71,7 +71,8 @@
                         "type": "integer"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

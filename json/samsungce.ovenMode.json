@@ -340,7 +340,6 @@
                     "value"
                 ]
             },
-            "setter": "setOvenMode",
             "enumCommands": []
         }
     },
@@ -506,7 +505,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

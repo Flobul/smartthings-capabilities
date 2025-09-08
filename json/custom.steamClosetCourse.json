@@ -96,7 +96,6 @@
                     "value"
                 ]
             },
-            "setter": "setSteamClosetCourse",
             "enumCommands": []
         }
     },
@@ -141,7 +140,8 @@
                         "title": "SteamClosetCourse"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

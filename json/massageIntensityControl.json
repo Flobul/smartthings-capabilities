@@ -106,7 +106,8 @@
                         "type": "integer"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setIntensityWhole": {
             "name": "setIntensityWhole",
@@ -118,7 +119,8 @@
                         "type": "integer"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setIntensityHead": {
             "name": "setIntensityHead",
@@ -130,7 +132,8 @@
                         "type": "integer"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

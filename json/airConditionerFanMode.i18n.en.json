@@ -1,10 +1,10 @@
 {
     "tag": "en",
-    "label": "Air conditioner fan mode",
+    "label": "Wind strength",
     "description": "Maintains and sets the state of an air conditioner's fan",
     "attributes": {
         "fanMode": {
-            "label": "Air conditioner fan mode",
+            "label": "Wind strength",
             "description": "The current mode of the fan",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -28,10 +28,10 @@
                         "label": "Auto"
                     },
                     "max": {
-                        "label": "max"
+                        "label": "MAX"
                     },
                     "turbo": {
-                        "label": "turbo"
+                        "label": "Turbo"
                     },
                     "medium": {
                         "label": "Medium"
@@ -40,16 +40,16 @@
                         "label": "Off"
                     },
                     "smart": {
-                        "label": "smart"
+                        "label": "Smart"
                     },
                     "sleep": {
-                        "label": "sleep"
+                        "label": "Sleep"
                     },
                     "high": {
                         "label": "High"
                     },
                     "windfree": {
-                        "label": "windfree"
+                        "label": "Wind free"
                     },
                     "low": {
                         "label": "Low"
@@ -58,7 +58,7 @@
                         "label": "quite"
                     },
                     "quiet": {
-                        "label": "quiet"
+                        "label": "Quiet"
                     },
                     "pet": {
                         "label": "pet"
@@ -68,19 +68,20 @@
         },
         "supportedAcFanModes": {
             "label": "supported ac fan modes",
-            "description": "Supported states for this air conditioner fan to be in",
+            "description": "The complete list of air conditioner fan modes that are fully supported by a given device\n",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         },
         "availableAcFanModes": {
-            "label": "availableAcFanModes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "available ac fan modes",
+            "description": "The currently available air conditioner fan modes that a given device can support depending on its present state.\nThis feature is primarily utilized for real-time control as it reflects the current status of the device.\nIt is optional and may not be guaranteed to be provided by all devices.\nTo enable ‘availableAcFanModes’, you must specify it under the ‘supportedValues’ section of your device configuration.\n",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "setFanMode": {
-            "label": "Air conditioner fan mode",
+            "label": "Wind strength",
             "description": "Set the fan's mode",
             "arguments": {
                 "fanMode": {
@@ -104,28 +105,28 @@
                             "label": "Auto"
                         },
                         "max": {
-                            "label": "max"
+                            "label": "MAX"
                         },
                         "turbo": {
-                            "label": "turbo"
+                            "label": "Turbo"
                         },
                         "medium": {
                             "label": "Medium"
                         },
                         "smart": {
-                            "label": "smart"
+                            "label": "Smart"
                         },
                         "off": {
                             "label": "Off"
                         },
                         "sleep": {
-                            "label": "sleep"
+                            "label": "Sleep"
                         },
                         "high": {
                             "label": "High"
                         },
                         "windfree": {
-                            "label": "windfree"
+                            "label": "Wind free"
                         },
                         "low": {
                             "label": "Low"
@@ -134,7 +135,7 @@
                             "label": "quite"
                         },
                         "quiet": {
-                            "label": "quiet"
+                            "label": "Quiet"
                         },
                         "pet": {
                             "label": "pet"

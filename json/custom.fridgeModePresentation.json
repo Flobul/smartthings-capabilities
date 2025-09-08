@@ -12,782 +12,802 @@
                         "alternatives": [
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "value": "Ferment kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_NORMAL_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "value": "Normal fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_LOW_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "value": "Slow fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_DONGCHIMI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "value": "Ferment watery kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_KKAKDUGI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "value": "Ferment radish kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_GAT_KIMCHI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "value": "갓 김치 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_YOUNG_RADISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "value": "열무 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_RIPENED",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "value": "묵은지 숙성",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "6 days Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "value": "Regular kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "value": "Regular kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "value": "Regular kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "value": "Low salt kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_CRUNFCH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "value": "1hr Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_BUY",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "value": "Packaged kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "value": "Low salt kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "value": "Low salt kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "value": "Low salt kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "value": "Fridge (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "value": "Fridge (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "value": "Fridge (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_GENERAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_VEGETABLES_FRUIT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_DRINK",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "value": "Drinks",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRESH_CEREAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "value": "Grains",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRESH_SOUP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "value": "Sauces",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRESH_POTATO_BANANA",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "value": "Rood vegetables",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRESH_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "value": "Wine",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER_MEAT_FISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_RICE_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "value": "Wine/rice",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_VEGETABLE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_MEAT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "value": "Freezer",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "value": "Freezer (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "value": "Freezer (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "value": "Freezer (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_MEAT_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "value": "Meat aging",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_OFF",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_SCAN_NC_P",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "value": "Scan keep",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "value": "Ferment kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_NORMAL_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "value": "Normal fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_LOW_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "value": "Slow fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_DONGCHIMI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "value": "Ferment watery kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_KKAKDUGI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "value": "Ferment radish kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_GAT_KIMCHI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "value": "갓 김치 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_YOUNG_RADISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "value": "열무 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_RIPENED",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "value": "묵은지 숙성",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "6 days Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "value": "Regular kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "value": "Regular kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "value": "Regular kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "value": "Low salt kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_CRUNFCH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "value": "1hr Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_BUY",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "value": "Packaged kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "value": "Low salt kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "value": "Low salt kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "value": "Low salt kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "value": "Fridge (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "value": "Fridge (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "value": "Fridge (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_GENERAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_VEGETABLES_FRUIT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_DRINK",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "value": "Drinks",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRESH_CEREAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "value": "Grains",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRESH_SOUP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "value": "Sauces",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRESH_POTATO_BANANA",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "value": "Rood vegetables",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRESH_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "value": "Wine",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER_MEAT_FISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_RICE_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "value": "Wine/rice",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_VEGETABLE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_MEAT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "value": "Freezer",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "value": "Freezer (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "value": "Freezer (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "value": "Freezer (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_MEAT_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "value": "Meat aging",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_OFF",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_SCAN_NC_P",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "value": "Scan keep",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "value": "Ferment kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_NORMAL_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "value": "Normal fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_LOW_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "value": "Slow fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_DONGCHIMI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "value": "Ferment watery kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_KKAKDUGI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "value": "Ferment radish kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_GAT_KIMCHI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "value": "갓 김치 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_YOUNG_RADISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "value": "열무 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_RIPENED",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "value": "묵은지 숙성",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "6 days Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "value": "Regular kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "value": "Regular kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "value": "Regular kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "value": "Low salt kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_CRUNFCH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "value": "1hr Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_BUY",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "value": "Packaged kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "value": "Low salt kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "value": "Low salt kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "value": "Low salt kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "value": "Fridge (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "value": "Fridge (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "value": "Fridge (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_GENERAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_VEGETABLES_FRUIT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_DRINK",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "value": "Drinks",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRESH_CEREAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "value": "Grains",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRESH_SOUP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "value": "Sauces",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRESH_POTATO_BANANA",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "value": "Rood vegetables",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRESH_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "value": "Wine",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER_MEAT_FISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_RICE_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "value": "Wine/rice",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_VEGETABLE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_MEAT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "value": "Freezer",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "value": "Freezer (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "value": "Freezer (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "value": "Freezer (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_MEAT_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "value": "Meat aging",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_OFF",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_SCAN_NC_P",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "value": "Scan keep",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "value": "Ferment kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_NORMAL_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "value": "Normal fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_LOW_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "value": "Slow fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_DONGCHIMI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "value": "Ferment watery kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_KKAKDUGI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "value": "Ferment radish kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_GAT_KIMCHI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "value": "갓 김치 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_YOUNG_RADISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "value": "열무 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_RIPENED",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "value": "묵은지 숙성",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "6 days Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "value": "Regular kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "value": "Regular kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "value": "Regular kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "value": "Low salt kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_CRUNFCH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "value": "1hr Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_BUY",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "value": "Packaged kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "value": "Low salt kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "value": "Low salt kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "value": "Low salt kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "value": "Fridge (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "value": "Fridge (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "value": "Fridge (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_GENERAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_VEGETABLES_FRUIT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_DRINK",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "value": "Drinks",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRESH_CEREAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "value": "Grains",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRESH_SOUP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "value": "Sauces",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRESH_POTATO_BANANA",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "value": "Rood vegetables",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRESH_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "value": "Wine",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER_MEAT_FISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_RICE_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "value": "Wine/rice",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_VEGETABLE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_MEAT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "value": "Freezer",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "value": "Freezer (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "value": "Freezer (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "value": "Freezer (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_MEAT_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "value": "Meat aging",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_OFF",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_SCAN_NC_P",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "value": "Scan keep",
                                 "type": "active"
                             }
                         ],
@@ -800,782 +820,802 @@
                         "alternatives": [
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "value": "Ferment kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_NORMAL_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "value": "Normal fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_LOW_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "value": "Slow fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_DONGCHIMI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "value": "Ferment watery kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_KKAKDUGI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "value": "Ferment radish kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_GAT_KIMCHI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "value": "갓 김치 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_YOUNG_RADISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "value": "열무 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_RIPE_RIPENED",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "value": "묵은지 숙성",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "6 days Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "value": "Regular kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "value": "Regular kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "value": "Regular kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "value": "Low salt kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_CRUNFCH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "value": "1hr Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_BUY",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "value": "Packaged kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "value": "Low salt kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "value": "Low salt kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_LOW_SALT_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "value": "Low salt kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "value": "Fridge (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "value": "Fridge (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "value": "Fridge (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_GENERAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_VEGETABLES_FRUIT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRIDGE_DRINK",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "value": "Drinks",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRESH_CEREAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "value": "Grains",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRESH_SOUP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "value": "Sauces",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRESH_POTATO_BANANA",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "value": "Rood vegetables",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FRESH_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "value": "Wine",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER_MEAT_FISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_RICE_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "value": "Wine/rice",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_VEGETABLE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_MEAT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "value": "Freezer",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "value": "Freezer (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "value": "Freezer (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_STORAGE_FREEZER_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "value": "Freezer (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_MEAT_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "value": "Meat aging",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_OFF",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIT_KIMCHI_STORAGE_SCAN_NC_P",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "value": "Scan keep",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "value": "Ferment kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_NORMAL_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "value": "Normal fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_LOW_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "value": "Slow fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_DONGCHIMI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "value": "Ferment watery kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_KKAKDUGI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "value": "Ferment radish kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_GAT_KIMCHI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "value": "갓 김치 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_YOUNG_RADISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "value": "열무 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_RIPE_RIPENED",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "value": "묵은지 숙성",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "6 days Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "value": "Regular kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "value": "Regular kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "value": "Regular kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "value": "Low salt kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_CRUNFCH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "value": "1hr Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_BUY",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "value": "Packaged kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "value": "Low salt kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "value": "Low salt kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_LOW_SALT_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "value": "Low salt kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "value": "Fridge (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "value": "Fridge (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "value": "Fridge (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_GENERAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_VEGETABLES_FRUIT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRIDGE_DRINK",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "value": "Drinks",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRESH_CEREAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "value": "Grains",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRESH_SOUP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "value": "Sauces",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRESH_POTATO_BANANA",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "value": "Rood vegetables",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FRESH_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "value": "Wine",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER_MEAT_FISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_RICE_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "value": "Wine/rice",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_VEGETABLE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_MEAT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "value": "Freezer",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "value": "Freezer (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "value": "Freezer (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_STORAGE_FREEZER_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "value": "Freezer (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_MEAT_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "value": "Meat aging",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_OFF",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_SCAN_NC_P",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "value": "Scan keep",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "value": "Ferment kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_NORMAL_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "value": "Normal fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_LOW_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "value": "Slow fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_DONGCHIMI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "value": "Ferment watery kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_KKAKDUGI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "value": "Ferment radish kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_GAT_KIMCHI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "value": "갓 김치 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_YOUNG_RADISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "value": "열무 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_RIPE_RIPENED",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "value": "묵은지 숙성",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "6 days Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "value": "Regular kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "value": "Regular kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "value": "Regular kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "value": "Low salt kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_CRUNFCH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "value": "1hr Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_BUY",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "value": "Packaged kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "value": "Low salt kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "value": "Low salt kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_LOW_SALT_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "value": "Low salt kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "value": "Fridge (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "value": "Fridge (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "value": "Fridge (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_GENERAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_VEGETABLES_FRUIT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRIDGE_DRINK",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "value": "Drinks",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRESH_CEREAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "value": "Grains",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRESH_SOUP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "value": "Sauces",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRESH_POTATO_BANANA",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "value": "Rood vegetables",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FRESH_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "value": "Wine",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER_MEAT_FISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_RICE_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "value": "Wine/rice",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_VEGETABLE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_MEAT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "value": "Freezer",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "value": "Freezer (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "value": "Freezer (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_STORAGE_FREEZER_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "value": "Freezer (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_MEAT_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "value": "Meat aging",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_OFF",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHIB_KIMCHI_STORAGE_SCAN_NC_P",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "value": "Scan keep",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL.label}}",
+                                "value": "Ferment kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_NORMAL_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_NORMAL_TEMP.label}}",
+                                "value": "Normal fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_LOW_TEMP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_LOW_TEMP.label}}",
+                                "value": "Slow fermenting",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_DONGCHIMI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_DONGCHIMI.label}}",
+                                "value": "Ferment watery kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_KKAKDUGI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_KKAKDUGI.label}}",
+                                "value": "Ferment radish kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_GAT_KIMCHI",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_GAT_KIMCHI.label}}",
+                                "value": "갓 김치 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_YOUNG_RADISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_YOUNG_RADISH.label}}",
+                                "value": "열무 숙성",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_RIPE_RIPENED",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_RIPE_RIPENED.label}}",
+                                "value": "묵은지 숙성",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_KIMCHI_RIPE_CRUNCH_LAB",
+                                "value": "6 days Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_NORMAL.label}}",
+                                "value": "Regular kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_COLD.label}}",
+                                "value": "Regular kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_WARM.label}}",
+                                "value": "Regular kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT.label}}",
+                                "value": "Low salt kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_CRUNFCH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_CRUNFCH.label}}",
+                                "value": "1hr Cold+",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_BUY",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_BUY.label}}",
+                                "value": "Packaged kimchi",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_NORMAL.label}}",
+                                "value": "Low salt kimchi (Cold) ",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_COLD.label}}",
+                                "value": "Low salt kimchi (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_LOW_SALT_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_LOW_SALT_WARM.label}}",
+                                "value": "Low salt kimchi (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_NORMAL.label}}",
+                                "value": "Fridge (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_COLD.label}}",
+                                "value": "Fridge (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_WARM.label}}",
+                                "value": "Fridge (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_GENERAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_GENERAL.label}}",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_VEGETABLES_FRUIT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_VEGETABLES_FRUIT.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRIDGE_DRINK",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRIDGE_DRINK.label}}",
+                                "value": "Drinks",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRESH_CEREAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_CEREAL.label}}",
+                                "value": "Grains",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRESH_SOUP",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_SOUP.label}}",
+                                "value": "Sauces",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRESH_POTATO_BANANA",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_POTATO_BANANA.label}}",
+                                "value": "Rood vegetables",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FRESH_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FRESH_WINE.label}}",
+                                "value": "Wine",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER_MEAT_FISH",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_MEAT_FISH.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_RICE_WINE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_RICE_WINE.label}}",
+                                "value": "Wine/rice",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_VEGETABLE",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_VEGETABLE.label}}",
+                                "value": "Vegetables/fruits",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_MEAT",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_MEAT.label}}",
+                                "value": "Meat/fish",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER.label}}",
+                                "value": "Freezer",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_NORMAL.label}}",
+                                "value": "Freezer (Cold)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER_COLD",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_COLD.label}}",
+                                "value": "Freezer (Cold+)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_STORAGE_FREEZER_WARM",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.STORAGE_FREEZER_WARM.label}}",
+                                "value": "Freezer (Cool)",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_MEAT_RIPE_NORMAL",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.MEAT_RIPE_NORMAL.label}}",
+                                "value": "Meat aging",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_OFF",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.OFF.label}}",
+                                "value": "Off",
                                 "type": "active"
                             },
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_SCAN_NC_P",
-                                "value": "{{i18n.attributes.fridgeMode.i18n.value.KIMCHI_STORAGE_SCAN_NC_P.label}}",
+                                "value": "Scan keep",
                                 "type": "active"
                             }
                         ]

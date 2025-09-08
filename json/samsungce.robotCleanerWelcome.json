@@ -28,7 +28,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setCoordinates",
             "enumCommands": []
         }
     },
@@ -57,11 +56,13 @@
                         "type": "number"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "start": {
             "name": "start",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
