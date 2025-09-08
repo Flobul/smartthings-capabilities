@@ -28,7 +28,6 @@
                     "unit"
                 ]
             },
-            "setter": "setTemperatureSetpoint",
             "enumCommands": []
         },
         "temperature": {
@@ -88,7 +87,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

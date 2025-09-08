@@ -22,7 +22,6 @@
                     "value"
                 ]
             },
-            "setter": "setRobotCleanerBatteryFullStatus",
             "enumCommands": []
         }
     },
@@ -41,7 +40,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

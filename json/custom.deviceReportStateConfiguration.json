@@ -22,7 +22,6 @@
                     "value"
                 ]
             },
-            "setter": "setReportStateRealtimePeriod",
             "enumCommands": []
         },
         "reportStateRealtime": {
@@ -64,7 +63,6 @@
                     "value"
                 ]
             },
-            "setter": "setReportStateRealtime",
             "enumCommands": []
         },
         "reportStatePeriod": {
@@ -84,7 +82,6 @@
                     "value"
                 ]
             },
-            "setter": "setReportStatePeriod",
             "enumCommands": []
         }
     },
@@ -103,7 +100,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setReportStateRealtime": {
             "name": "setReportStateRealtime",
@@ -141,7 +139,8 @@
                         }
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setReportStateRealtimePeriod": {
             "name": "setReportStateRealtimePeriod",
@@ -157,7 +156,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

@@ -1,0 +1,115 @@
+{
+    "tag": "fr",
+    "label": "Portes",
+    "description": "Get the door state of a vehicle and allow for the control of a vehicle",
+    "attributes": {
+        "frontLeftDoor": {
+            "label": "Avant gauche",
+            "description": "Current lock state of the front left door",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Fermé"
+                    },
+                    "locked": {
+                        "label": "Verrouillé"
+                    },
+                    "open": {
+                        "label": "Ouvert"
+                    }
+                }
+            }
+        },
+        "rearRightDoor": {
+            "label": "Arrière droit",
+            "description": "Current lock state of the rear right door",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Fermé"
+                    },
+                    "locked": {
+                        "label": "Verrouillé"
+                    },
+                    "open": {
+                        "label": "Ouvert"
+                    }
+                }
+            }
+        },
+        "rearLeftDoor": {
+            "label": "Arrière gauche",
+            "description": "Current lock state of the rear left door",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Fermé"
+                    },
+                    "locked": {
+                        "label": "Verrouillé"
+                    },
+                    "open": {
+                        "label": "Ouvert"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "Supported attributes",
+            "description": "List of attributes this vehicle supports",
+            "displayTemplate": "{{device.label}} supports the following attributes: {{value}}",
+            "i18n": {}
+        },
+        "lockState": {
+            "label": "État de verrouillage",
+            "description": "The lock state of the vehicle",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "locked": {
+                        "label": "Verrouillé"
+                    },
+                    "unlocked": {
+                        "label": "Déverrouillé"
+                    },
+                    "unknown": {
+                        "label": "Inconnu"
+                    }
+                }
+            }
+        },
+        "frontRightDoor": {
+            "label": "Avant droit",
+            "description": "Current lock state of the front right door",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Fermé"
+                    },
+                    "locked": {
+                        "label": "Verrouillé"
+                    },
+                    "open": {
+                        "label": "Ouvert"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "unlock": {
+            "label": "Déverr.",
+            "description": "Unlock the device",
+            "arguments": {}
+        },
+        "lock": {
+            "label": "Verr.",
+            "description": "Lock the device",
+            "arguments": {}
+        }
+    }
+}

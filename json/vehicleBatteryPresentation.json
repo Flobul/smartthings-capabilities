@@ -1,0 +1,220 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{batteryLevel.value}} {{batteryLevel.unit}}"
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "toggleSwitch",
+                "toggleSwitch": {
+                    "command": {
+                        "on": "charge",
+                        "off": "stop"
+                    },
+                    "state": {
+                        "value": "chargingState.value",
+                        "on": "charging",
+                        "off": "stopped",
+                        "valueType": "string"
+                    }
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "{{i18n.attributes.batteryLevel.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{batteryLevel.value}}",
+                "unit": "batteryLevel.unit"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.chargingState.label}}",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "charge",
+                    "off": "stop"
+                },
+                "state": {
+                    "value": "chargingState.value",
+                    "valueType": "string",
+                    "on": "charging",
+                    "off": "stopped",
+                    "alternatives": [
+                        {
+                            "key": "charging",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "{{i18n.attributes.chargingRemainTime.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{chargingRemainTime.value}}",
+                "unit": "chargingRemainTime.unit"
+            }
+        },
+        {
+            "label": "{{i18n.attributes.chargingDetail.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{chargingDetail.value}}",
+                "alternatives": [
+                    {
+                        "key": "noCharging",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.noCharging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "charging",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.charging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "veryFastCharging",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.veryFastCharging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fastCharging",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.fastCharging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2lDischarge",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2lDischarge.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2lCharging",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2lCharging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2lStop",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2lStop.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2xDischarge",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2xDischarge.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2xCharging",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2xCharging.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "reseveredCharging",
+                        "value": "{{i18n.attributes.chargingDetail.i18n.value.reseveredCharging.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "{{i18n.attributes.chargingPlug.label}}",
+            "displayType": "state",
+            "state": {
+                "label": "{{chargingPlug.value}}",
+                "alternatives": [
+                    {
+                        "key": "connected",
+                        "value": "{{i18n.attributes.chargingPlug.i18n.value.connected.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "disconnected",
+                        "value": "{{i18n.attributes.chargingPlug.i18n.value.disconnected.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "{{i18n.attributes.batteryLevel.label}}",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "batteryLevel.unit",
+                    "value": "batteryLevel.value",
+                    "valueType": "integer"
+                }
+            },
+            {
+                "label": "{{i18n.attributes.chargingState.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "charging",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "chargingState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "{{i18n.attributes.chargingRemainTime.label}}",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "chargingRemainTime.value",
+                    "valueType": "integer",
+                    "unit": "chargingRemainTime.unit"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "{{i18n.commands.charge.label}}",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "charge",
+                            "value": "{{i18n.commands.charge.label}}",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "{{i18n.commands.stop.label}}",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "vehicleBattery",
+    "version": 1
+}

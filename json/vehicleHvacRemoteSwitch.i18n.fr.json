@@ -1,0 +1,42 @@
+{
+    "tag": "fr",
+    "label": "Hvac Remote Switch",
+    "description": "Allows for the control of a vehicle hvac by remote",
+    "attributes": {},
+    "commands": {
+        "off": {
+            "label": "Désactiver",
+            "description": "Turn a hvac off by remote",
+            "arguments": {}
+        },
+        "on": {
+            "label": "Activer",
+            "description": "Turn a hvac on by remote",
+            "arguments": {
+                "hvacRemote": {
+                    "i18n": {
+                        "ignitionduration description": {
+                            "label": "Ignition Duration"
+                        },
+                        "defog description": {
+                            "label": "Defog"
+                        },
+                        "temperature description": {
+                            "label": "Temperature"
+                        },
+                        "ignitionduration": {
+                            "label": "Moteur en fonctionnement depuis :"
+                        },
+                        "temperature": {
+                            "label": "Température"
+                        },
+                        "defog": {
+                            "label": "Defog"
+                        }
+                    },
+                    "description": "The settings to use when turning on hvac on by remote"
+                }
+            }
+        }
+    }
+}

@@ -22,12 +22,12 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Set water temperature",
             "displayType": "slider",
             "slider": {
                 "range": [
-                    0,
-                    40
+                    40,
+                    60
                 ],
                 "unit": "heatingSetpoint.unit",
                 "supportedValues": "heatingSetpointRange.value",
@@ -41,15 +41,15 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Set water temperature",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "heatingSetpoint.value",
                     "valueType": "number",
                     "unit": "heatingSetpoint.unit",
                     "range": [
-                        0,
-                        40
+                        40,
+                        60
                     ],
                     "supportedValues": "heatingSetpointRange.value"
                 }
@@ -57,15 +57,15 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Set water temperature",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "setHeatingSetpoint",
                     "argumentType": "number",
                     "unit": "heatingSetpoint.unit",
                     "range": [
-                        0,
-                        40
+                        40,
+                        60
                     ],
                     "supportedValues": "heatingSetpointRange.value"
                 }

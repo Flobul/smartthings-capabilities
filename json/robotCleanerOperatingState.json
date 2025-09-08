@@ -116,15 +116,18 @@
     "commands": {
         "goHome": {
             "name": "goHome",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "start": {
             "name": "start",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "pause": {
             "name": "pause",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

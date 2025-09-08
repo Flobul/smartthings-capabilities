@@ -16,7 +16,6 @@
                 "additionalProperties": false,
                 "required": []
             },
-            "setter": "setPictureMode",
             "enumCommands": []
         },
         "supportedPictureModes": {
@@ -69,7 +68,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

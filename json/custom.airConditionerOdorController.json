@@ -39,7 +39,6 @@
                     "value"
                 ]
             },
-            "setter": "setAirConditionerOdorControllerState",
             "enumCommands": []
         }
     },
@@ -58,7 +57,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
