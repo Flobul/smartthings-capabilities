@@ -6,7 +6,7 @@
                 "alternatives": [
                     {
                         "key": "servings",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FEEDERPORTION_DEFAULT_ATTRIBUTES_FEEDPORTION_{{UNIT}}_SERVINGS",
+                        "value": "serving(s)",
                         "type": "active"
                     }
                 ]
@@ -29,7 +29,7 @@
                 "alternatives": [
                     {
                         "key": "servings",
-                        "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FEEDERPORTION_DEFAULT_ATTRIBUTES_FEEDPORTION_{{UNIT}}_SERVINGS",
+                        "value": "serving(s)",
                         "type": "active"
                     }
                 ],
@@ -55,7 +55,7 @@
                     "alternatives": [
                         {
                             "key": "servings",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FEEDERPORTION_DEFAULT_ATTRIBUTES_FEEDPORTION_{{UNIT}}_SERVINGS",
+                            "value": "serving(s)",
                             "type": "active"
                         }
                     ],
