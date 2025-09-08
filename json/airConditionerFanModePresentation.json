@@ -120,7 +120,7 @@
         "actions": [],
         "panelItems": [
             {
-                "label": "Air conditioner fan mode",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "command": {
@@ -366,7 +366,7 @@
                 }
             },
             {
-                "label": "Air conditioner fan mode",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "command": {
@@ -615,7 +615,7 @@
     },
     "detailView": [
         {
-            "label": "Air conditioner fan mode",
+            "label": "Wind strength",
             "displayType": "list",
             "list": {
                 "command": {
@@ -857,7 +857,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "Air conditioner fan mode",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -981,7 +981,7 @@
         ],
         "actions": [
             {
-                "label": "Air conditioner fan mode",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
