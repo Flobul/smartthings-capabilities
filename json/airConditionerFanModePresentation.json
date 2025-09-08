@@ -56,62 +56,62 @@
                     },
                     {
                         "key": "auto",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                        "value": "Auto",
                         "type": "active"
                     },
                     {
                         "key": "low",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                        "value": "Low",
                         "type": "active"
                     },
                     {
                         "key": "medium",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                        "value": "Medium",
                         "type": "active"
                     },
                     {
                         "key": "high",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                        "value": "High",
                         "type": "active"
                     },
                     {
                         "key": "turbo",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                        "value": "Turbo",
                         "type": "active"
                     },
                     {
                         "key": "max",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.max.label}}",
+                        "value": "MAX",
                         "type": "active"
                     },
                     {
                         "key": "windfree",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.windfree.label}}",
+                        "value": "Wind free",
                         "type": "active"
                     },
                     {
                         "key": "sleep",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                        "value": "Sleep",
                         "type": "active"
                     },
                     {
                         "key": "quiet",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.quiet.label}}",
+                        "value": "Quiet",
                         "type": "active"
                     },
                     {
                         "key": "smart",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.smart.label}}",
+                        "value": "Smart",
                         "type": "active"
                     },
                     {
                         "key": "pet",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
+                        "value": "pet",
                         "type": "active"
                     },
                     {
                         "key": "off",
-                        "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
+                        "value": "Off",
                         "type": "active"
                     }
                 ]
@@ -120,7 +120,7 @@
         "actions": [],
         "panelItems": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "command": {
@@ -178,62 +178,62 @@
                             },
                             {
                                 "key": "auto",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.auto.label}}",
+                                "value": "Auto",
                                 "type": "active"
                             },
                             {
                                 "key": "low",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.low.label}}",
+                                "value": "Low",
                                 "type": "active"
                             },
                             {
                                 "key": "medium",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.medium.label}}",
+                                "value": "Medium",
                                 "type": "active"
                             },
                             {
                                 "key": "high",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.high.label}}",
+                                "value": "High",
                                 "type": "active"
                             },
                             {
                                 "key": "turbo",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.turbo.label}}",
+                                "value": "Turbo",
                                 "type": "active"
                             },
                             {
                                 "key": "max",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.max.label}}",
+                                "value": "MAX",
                                 "type": "active"
                             },
                             {
                                 "key": "windfree",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.windfree.label}}",
+                                "value": "Wind free",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.sleep.label}}",
+                                "value": "Sleep",
                                 "type": "active"
                             },
                             {
                                 "key": "quiet",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.quiet.label}}",
+                                "value": "Quiet",
                                 "type": "active"
                             },
                             {
                                 "key": "smart",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.smart.label}}",
+                                "value": "Smart",
                                 "type": "active"
                             },
                             {
                                 "key": "pet",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.pet.label}}",
+                                "value": "pet",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             }
                         ],
@@ -296,62 +296,62 @@
                             },
                             {
                                 "key": "auto",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                                "value": "Auto",
                                 "type": "active"
                             },
                             {
                                 "key": "low",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                                "value": "Low",
                                 "type": "active"
                             },
                             {
                                 "key": "medium",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                                "value": "Medium",
                                 "type": "active"
                             },
                             {
                                 "key": "high",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                                "value": "High",
                                 "type": "active"
                             },
                             {
                                 "key": "turbo",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                                "value": "Turbo",
                                 "type": "active"
                             },
                             {
                                 "key": "max",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.max.label}}",
+                                "value": "MAX",
                                 "type": "active"
                             },
                             {
                                 "key": "windfree",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.windfree.label}}",
+                                "value": "Wind free",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                                "value": "Sleep",
                                 "type": "active"
                             },
                             {
                                 "key": "quiet",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.quiet.label}}",
+                                "value": "Quiet",
                                 "type": "active"
                             },
                             {
                                 "key": "smart",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.smart.label}}",
+                                "value": "Smart",
                                 "type": "active"
                             },
                             {
                                 "key": "pet",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
+                                "value": "pet",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             }
                         ]
@@ -366,7 +366,7 @@
                 }
             },
             {
-                "label": "{{i18n.label}}",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "command": {
@@ -424,62 +424,62 @@
                             },
                             {
                                 "key": "auto",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.auto.label}}",
+                                "value": "Auto",
                                 "type": "active"
                             },
                             {
                                 "key": "low",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.low.label}}",
+                                "value": "Low",
                                 "type": "active"
                             },
                             {
                                 "key": "medium",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.medium.label}}",
+                                "value": "Medium",
                                 "type": "active"
                             },
                             {
                                 "key": "high",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.high.label}}",
+                                "value": "High",
                                 "type": "active"
                             },
                             {
                                 "key": "turbo",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.turbo.label}}",
+                                "value": "Turbo",
                                 "type": "active"
                             },
                             {
                                 "key": "max",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.max.label}}",
+                                "value": "MAX",
                                 "type": "active"
                             },
                             {
                                 "key": "windfree",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.windfree.label}}",
+                                "value": "Wind free",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.sleep.label}}",
+                                "value": "Sleep",
                                 "type": "active"
                             },
                             {
                                 "key": "quiet",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.quiet.label}}",
+                                "value": "Quiet",
                                 "type": "active"
                             },
                             {
                                 "key": "smart",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.smart.label}}",
+                                "value": "Smart",
                                 "type": "active"
                             },
                             {
                                 "key": "pet",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.pet.label}}",
+                                "value": "pet",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             }
                         ],
@@ -542,62 +542,62 @@
                             },
                             {
                                 "key": "auto",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                                "value": "Auto",
                                 "type": "active"
                             },
                             {
                                 "key": "low",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                                "value": "Low",
                                 "type": "active"
                             },
                             {
                                 "key": "medium",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                                "value": "Medium",
                                 "type": "active"
                             },
                             {
                                 "key": "high",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                                "value": "High",
                                 "type": "active"
                             },
                             {
                                 "key": "turbo",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                                "value": "Turbo",
                                 "type": "active"
                             },
                             {
                                 "key": "max",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.max.label}}",
+                                "value": "MAX",
                                 "type": "active"
                             },
                             {
                                 "key": "windfree",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.windfree.label}}",
+                                "value": "Wind free",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                                "value": "Sleep",
                                 "type": "active"
                             },
                             {
                                 "key": "quiet",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.quiet.label}}",
+                                "value": "Quiet",
                                 "type": "active"
                             },
                             {
                                 "key": "smart",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.smart.label}}",
+                                "value": "Smart",
                                 "type": "active"
                             },
                             {
                                 "key": "pet",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
+                                "value": "pet",
                                 "type": "active"
                             },
                             {
                                 "key": "off",
-                                "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
+                                "value": "Off",
                                 "type": "active"
                             }
                         ]
@@ -615,7 +615,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Wind strength",
             "displayType": "list",
             "list": {
                 "command": {
@@ -673,62 +673,62 @@
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.medium.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.high.label}}",
+                            "value": "High",
                             "type": "active"
                         },
                         {
                             "key": "turbo",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.turbo.label}}",
+                            "value": "Turbo",
                             "type": "active"
                         },
                         {
                             "key": "max",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.max.label}}",
+                            "value": "MAX",
                             "type": "active"
                         },
                         {
                             "key": "windfree",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.windfree.label}}",
+                            "value": "Wind free",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.sleep.label}}",
+                            "value": "Sleep",
                             "type": "active"
                         },
                         {
                             "key": "quiet",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.quiet.label}}",
+                            "value": "Quiet",
                             "type": "active"
                         },
                         {
                             "key": "smart",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.smart.label}}",
+                            "value": "Smart",
                             "type": "active"
                         },
                         {
                             "key": "pet",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.pet.label}}",
+                            "value": "pet",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         }
                     ],
@@ -791,62 +791,62 @@
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                            "value": "High",
                             "type": "active"
                         },
                         {
                             "key": "turbo",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                            "value": "Turbo",
                             "type": "active"
                         },
                         {
                             "key": "max",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.max.label}}",
+                            "value": "MAX",
                             "type": "active"
                         },
                         {
                             "key": "windfree",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.windfree.label}}",
+                            "value": "Wind free",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                            "value": "Sleep",
                             "type": "active"
                         },
                         {
                             "key": "quiet",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.quiet.label}}",
+                            "value": "Quiet",
                             "type": "active"
                         },
                         {
                             "key": "smart",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.smart.label}}",
+                            "value": "Smart",
                             "type": "active"
                         },
                         {
                             "key": "pet",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
+                            "value": "pet",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         }
                     ]
@@ -857,7 +857,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -913,62 +913,62 @@
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.medium.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.high.label}}",
+                            "value": "High",
                             "type": "active"
                         },
                         {
                             "key": "turbo",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.turbo.label}}",
+                            "value": "Turbo",
                             "type": "active"
                         },
                         {
                             "key": "max",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.max.label}}",
+                            "value": "MAX",
                             "type": "active"
                         },
                         {
                             "key": "windfree",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.windfree.label}}",
+                            "value": "Wind free",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.sleep.label}}",
+                            "value": "Sleep",
                             "type": "active"
                         },
                         {
                             "key": "quiet",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.quiet.label}}",
+                            "value": "Quiet",
                             "type": "active"
                         },
                         {
                             "key": "smart",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.smart.label}}",
+                            "value": "Smart",
                             "type": "active"
                         },
                         {
                             "key": "pet",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.pet.label}}",
+                            "value": "pet",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.attributes.fanMode.i18n.value.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         }
                     ],
@@ -981,7 +981,7 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.setFanMode.label}}",
+                "label": "Wind strength",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -1037,62 +1037,62 @@
                         },
                         {
                             "key": "auto",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.auto.label}}",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "medium",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.medium.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.high.label}}",
+                            "value": "High",
                             "type": "active"
                         },
                         {
                             "key": "turbo",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.turbo.label}}",
+                            "value": "Turbo",
                             "type": "active"
                         },
                         {
                             "key": "max",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.max.label}}",
+                            "value": "MAX",
                             "type": "active"
                         },
                         {
                             "key": "windfree",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.windfree.label}}",
+                            "value": "Wind free",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.sleep.label}}",
+                            "value": "Sleep",
                             "type": "active"
                         },
                         {
                             "key": "quiet",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.quiet.label}}",
+                            "value": "Quiet",
                             "type": "active"
                         },
                         {
                             "key": "smart",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.smart.label}}",
+                            "value": "Smart",
                             "type": "active"
                         },
                         {
                             "key": "pet",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.pet.label}}",
+                            "value": "pet",
                             "type": "active"
                         },
                         {
                             "key": "off",
-                            "value": "{{i18n.commands.setFanMode.arguments.fanMode.i18n.off.label}}",
+                            "value": "Off",
                             "type": "active"
                         }
                     ],

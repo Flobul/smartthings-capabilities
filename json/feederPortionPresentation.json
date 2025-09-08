@@ -6,7 +6,7 @@
                 "alternatives": [
                     {
                         "key": "servings",
-                        "value": "{{i18n.attributes.feedPortion.i18n.unit.servings.label}}",
+                        "value": "serving(s)",
                         "type": "active"
                     }
                 ]
@@ -17,7 +17,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Feeder portion",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -29,7 +29,7 @@
                 "alternatives": [
                     {
                         "key": "servings",
-                        "value": "{{i18n.attributes.feedPortion.i18n.unit.servings.label}}",
+                        "value": "serving(s)",
                         "type": "active"
                     }
                 ],
@@ -44,7 +44,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Feeder portion",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -55,7 +55,7 @@
                     "alternatives": [
                         {
                             "key": "servings",
-                            "value": "{{i18n.attributes.feedPortion.i18n.unit.servings.label}}",
+                            "value": "serving(s)",
                             "type": "active"
                         }
                     ],

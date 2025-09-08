@@ -1,0 +1,115 @@
+{
+    "tag": "en",
+    "label": "Car lock",
+    "description": "Get the door state of a vehicle and allow for the control of a vehicle",
+    "attributes": {
+        "frontLeftDoor": {
+            "label": "Door front left",
+            "description": "Current lock state of the front left door",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Closed"
+                    },
+                    "locked": {
+                        "label": "Locked"
+                    },
+                    "open": {
+                        "label": "Open"
+                    }
+                }
+            }
+        },
+        "rearRightDoor": {
+            "label": "Door rear right",
+            "description": "Current lock state of the rear right door",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Closed"
+                    },
+                    "locked": {
+                        "label": "Locked"
+                    },
+                    "open": {
+                        "label": "Open"
+                    }
+                }
+            }
+        },
+        "rearLeftDoor": {
+            "label": "Door rear left",
+            "description": "Current lock state of the rear left door",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Closed"
+                    },
+                    "locked": {
+                        "label": "Locked"
+                    },
+                    "open": {
+                        "label": "Open"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "Supported attributes",
+            "description": "List of attributes this vehicle supports",
+            "displayTemplate": "{{device.label}} supports the following attributes: {{value}}",
+            "i18n": {}
+        },
+        "lockState": {
+            "label": "Door lock status",
+            "description": "The lock state of the vehicle",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "locked": {
+                        "label": "Locked"
+                    },
+                    "unlocked": {
+                        "label": "Unlocked"
+                    },
+                    "unknown": {
+                        "label": "Unknown"
+                    }
+                }
+            }
+        },
+        "frontRightDoor": {
+            "label": "Door front right",
+            "description": "Current lock state of the front right door",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Closed"
+                    },
+                    "locked": {
+                        "label": "Locked"
+                    },
+                    "open": {
+                        "label": "Open"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "unlock": {
+            "label": "Unlock",
+            "description": "Unlock the device",
+            "arguments": {}
+        },
+        "lock": {
+            "label": "Lock",
+            "description": "Lock the device",
+            "arguments": {}
+        }
+    }
+}

@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Flow measurement",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -27,7 +27,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Flow measurement",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "flow.value",

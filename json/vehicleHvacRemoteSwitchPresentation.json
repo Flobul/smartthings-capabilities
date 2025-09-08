@@ -1,0 +1,169 @@
+{
+    "detailView": [
+        {
+            "label": "Engine running (min)",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    0,
+                    100
+                ],
+                "alternatives": [
+                    {
+                        "key": "{{ARGUMENT_NAME}}",
+                        "value": "hvacRemote.ignitionDuration",
+                        "type": "active"
+                    }
+                ],
+                "command": "on",
+                "argumentType": "object"
+            }
+        },
+        {
+            "label": "Temperature",
+            "displayType": "slider",
+            "slider": {
+                "range": [
+                    16,
+                    30
+                ],
+                "alternatives": [
+                    {
+                        "key": "{{ARGUMENT_NAME}}",
+                        "value": "hvacRemote.temperature",
+                        "type": "active"
+                    }
+                ],
+                "command": "on",
+                "argumentType": "object"
+            }
+        },
+        {
+            "label": "Front defrost",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "on",
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "Turn on",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "Turn off",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "{{ARGUMENT_NAME}}",
+                            "value": "hvacRemote.defog",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "object"
+                }
+            }
+        },
+        {
+            "label": "Turn off",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "off"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Climate/engine control",
+                "displayType": "multiArgCommand",
+                "multiArgCommand": {
+                    "command": "on",
+                    "arguments": [
+                        {
+                            "label": "Engine running (min)",
+                            "displayType": "slider",
+                            "slider": {
+                                "range": [
+                                    2,
+                                    10
+                                ],
+                                "name": "hvacRemote.ignitionDuration",
+                                "argumentType": "integer"
+                            }
+                        },
+                        {
+                            "label": "Temperature",
+                            "displayType": "slider",
+                            "slider": {
+                                "range": [
+                                    16,
+                                    30
+                                ],
+                                "name": "hvacRemote.temperature.value",
+                                "argumentType": "number"
+                            }
+                        },
+                        {
+                            "label": "Temperature unit",
+                            "displayType": "list",
+                            "list": {
+                                "alternatives": [
+                                    {
+                                        "key": "C",
+                                        "value": "°C",
+                                        "type": "active"
+                                    },
+                                    {
+                                        "key": "F",
+                                        "value": "°F",
+                                        "type": "active"
+                                    }
+                                ],
+                                "name": "hvacRemote.temperature.unit",
+                                "argumentType": "string"
+                            }
+                        },
+                        {
+                            "label": "Front defrost",
+                            "displayType": "list",
+                            "list": {
+                                "alternatives": [
+                                    {
+                                        "key": "off",
+                                        "value": "Turn off",
+                                        "type": "inactive"
+                                    },
+                                    {
+                                        "key": "on",
+                                        "value": "Turn on",
+                                        "type": "active"
+                                    }
+                                ],
+                                "name": "hvacRemote.defog",
+                                "argumentType": "string"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "label": "Turn off",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "Turn off",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "vehicleHvacRemoteSwitch",
+    "version": 1
+}

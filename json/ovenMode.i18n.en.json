@@ -170,11 +170,11 @@
                         "Broil": {
                             "label": "Broil"
                         },
-                        "Proof": {
-                            "label": "Proof"
-                        },
                         "warming": {
                             "label": "Warming"
+                        },
+                        "Proof": {
+                            "label": "Proof"
                         },
                         "ConvectionBroil": {
                             "label": "Convection Broil"

@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Electric current",
             "displayType": "state",
             "state": {
                 "label": "{{current.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Electric current",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "current.value",

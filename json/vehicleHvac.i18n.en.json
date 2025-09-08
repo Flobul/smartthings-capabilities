@@ -1,0 +1,86 @@
+{
+    "tag": "en",
+    "label": "Hvac State",
+    "description": "Get the hvac state of a vehicle",
+    "attributes": {
+        "temperatureRange": {
+            "label": "Temperature range",
+            "description": "Constraints on the temperature value of the hvac",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "maximum": {
+                        "label": "maximum"
+                    },
+                    "step": {
+                        "label": "step"
+                    },
+                    "minimum": {
+                        "label": "minimum"
+                    }
+                }
+            }
+        },
+        "defogState": {
+            "label": "Front defrost",
+            "description": "Current defog state of the hvac",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "Off"
+                    },
+                    "on": {
+                        "label": "On"
+                    }
+                }
+            }
+        },
+        "hvacSpeedRange": {
+            "label": "Hvac fan speed range",
+            "description": "Constraints on the hvac fan speed value",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "maximum": {
+                        "label": "maximum"
+                    },
+                    "step": {
+                        "label": "step"
+                    },
+                    "minimum": {
+                        "label": "minimum"
+                    }
+                }
+            }
+        },
+        "temperature": {
+            "label": "Cabin temperature",
+            "description": "Current set temperature value of the hvac",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}} {{unit}}",
+            "i18n": {}
+        },
+        "hvacState": {
+            "label": "Climate status",
+            "description": "Current power state of the hvac",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "Off"
+                    },
+                    "on": {
+                        "label": "On"
+                    }
+                }
+            }
+        },
+        "hvacSpeed": {
+            "label": "Fan speed",
+            "description": "Current fan speed of the hvac",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}

@@ -1,0 +1,26 @@
+{
+    "tag": "en",
+    "label": "Audio Recording",
+    "attributes": {
+        "audioRecording": {
+            "label": "audioRecording",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setAudioRecording": {
+            "label": "setAudioRecording",
+            "arguments": {}
+        }
+    }
+}

@@ -6,42 +6,35 @@
                 "alternatives": [
                     {
                         "key": "open",
-                        "value": "{{i18n.attributes.valve.i18n.value.open.label}}",
+                        "value": "Open",
                         "type": "active"
                     },
                     {
                         "key": "closed",
-                        "value": "{{i18n.attributes.valve.i18n.value.closed.label}}",
+                        "value": "Closed",
                         "type": "inactive"
                     }
                 ]
             }
         ],
-        "actions": [
-            {
-                "displayType": "pushButton",
-                "pushButton": {
-                    "command": "close"
-                }
-            }
-        ],
+        "actions": [],
         "panelItems": []
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Valve",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "close",
-                            "value": "{{i18n.commands.close.label}}",
+                            "value": "Close",
                             "type": "inactive"
                         },
                         {
                             "key": "{{WARNING_MESSAGE}}",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.SAFETYVALVE_DEFAULT_WARNING_MESSAGE",
+                            "value": "For your safety, remote control for the valve can only be used to close it, not to open it. After using the remote control, always make sure that the valve is actually closed.",
                             "type": "active"
                         }
                     ]
@@ -52,12 +45,12 @@
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.valve.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.valve.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         }
                     ]
@@ -68,18 +61,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Valve",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.valve.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.valve.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         }
                     ],

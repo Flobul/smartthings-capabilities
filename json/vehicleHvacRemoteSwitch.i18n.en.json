@@ -1,0 +1,45 @@
+{
+    "tag": "en",
+    "label": "Climate/engine control",
+    "description": "Allows for the control of a vehicle hvac by remote",
+    "attributes": {},
+    "commands": {
+        "off": {
+            "label": "Turn off",
+            "description": "Turn a hvac off by remote",
+            "arguments": {}
+        },
+        "on": {
+            "label": "Turn on",
+            "description": "Turn a hvac on by remote",
+            "arguments": {
+                "hvacRemote": {
+                    "i18n": {
+                        "ignitionduration description": {
+                            "label": "Ignition Duration"
+                        },
+                        "temperatureunit": {
+                            "label": "Temperature unit"
+                        },
+                        "defog description": {
+                            "label": "Defog"
+                        },
+                        "temperature description": {
+                            "label": "Temperature"
+                        },
+                        "ignitionduration": {
+                            "label": "Engine running (min)"
+                        },
+                        "temperature": {
+                            "label": "Temperature"
+                        },
+                        "defog": {
+                            "label": "Front defrost"
+                        }
+                    },
+                    "description": "The settings to use when turning on hvac on by remote"
+                }
+            }
+        }
+    }
+}

@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Voltage",
             "displayType": "state",
             "state": {
                 "label": "{{voltage.value}}",
@@ -21,7 +21,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Voltage",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "voltage.value",

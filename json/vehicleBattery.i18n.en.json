@@ -1,0 +1,100 @@
+{
+    "tag": "en",
+    "label": "Charge management",
+    "description": "Get the battery state of a vehicle and allow for the control of charging",
+    "attributes": {
+        "chargingRemainTime": {
+            "label": "Remaining charging time",
+            "description": "Remaining time until battery is fully charged",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {}
+        },
+        "chargingDetail": {
+            "label": "Battery",
+            "description": "The current charging detail state of the vehicle",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "v2xDischarge": {
+                        "label": "V2X discharging"
+                    },
+                    "reseveredCharging": {
+                        "label": "Reserved charging"
+                    },
+                    "v2lCharging": {
+                        "label": "V2L charging"
+                    },
+                    "v2lDischarge": {
+                        "label": "V2L discharging"
+                    },
+                    "v2xCharging": {
+                        "label": "V2X charging"
+                    },
+                    "charging": {
+                        "label": "Charging"
+                    },
+                    "v2lStop": {
+                        "label": "V2L stopped"
+                    },
+                    "noCharging": {
+                        "label": "Not charging"
+                    },
+                    "veryFastCharging": {
+                        "label": "Very fast charging"
+                    },
+                    "fastCharging": {
+                        "label": "Fast charging"
+                    }
+                }
+            }
+        },
+        "chargingPlug": {
+            "label": "Charging point state",
+            "description": "The connection stated of charging plug",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "connected": {
+                        "label": "Connected"
+                    },
+                    "disconnected": {
+                        "label": "Disconnected"
+                    }
+                }
+            }
+        },
+        "batteryLevel": {
+            "label": "Battery",
+            "description": "The battery level of the vehicle",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}} {{unit}}",
+            "i18n": {}
+        },
+        "chargingState": {
+            "label": "Charging status",
+            "description": "The current charging state of the vehicle",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "stopped": {
+                        "label": "Stop"
+                    },
+                    "charging": {
+                        "label": "Charging"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "charge": {
+            "label": "Start charging",
+            "description": "Start charging of the battery",
+            "arguments": {}
+        },
+        "stop": {
+            "label": "Stop charging",
+            "description": "Stop charging of the battery",
+            "arguments": {}
+        }
+    }
+}

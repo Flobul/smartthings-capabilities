@@ -1,0 +1,220 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{batteryLevel.value}} {{batteryLevel.unit}}"
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "toggleSwitch",
+                "toggleSwitch": {
+                    "command": {
+                        "on": "charge",
+                        "off": "stop"
+                    },
+                    "state": {
+                        "value": "chargingState.value",
+                        "on": "charging",
+                        "off": "stopped",
+                        "valueType": "string"
+                    }
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Battery",
+            "displayType": "state",
+            "state": {
+                "label": "{{batteryLevel.value}}",
+                "unit": "batteryLevel.unit"
+            }
+        },
+        {
+            "label": "Charging status",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "charge",
+                    "off": "stop"
+                },
+                "state": {
+                    "value": "chargingState.value",
+                    "valueType": "string",
+                    "on": "charging",
+                    "off": "stopped",
+                    "alternatives": [
+                        {
+                            "key": "charging",
+                            "value": "Charging",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "Stop",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "Remaining charging time",
+            "displayType": "state",
+            "state": {
+                "label": "{{chargingRemainTime.value}}",
+                "unit": "chargingRemainTime.unit"
+            }
+        },
+        {
+            "label": "Battery",
+            "displayType": "state",
+            "state": {
+                "label": "{{chargingDetail.value}}",
+                "alternatives": [
+                    {
+                        "key": "noCharging",
+                        "value": "Not charging",
+                        "type": "active"
+                    },
+                    {
+                        "key": "charging",
+                        "value": "Charging",
+                        "type": "active"
+                    },
+                    {
+                        "key": "veryFastCharging",
+                        "value": "Very fast charging",
+                        "type": "active"
+                    },
+                    {
+                        "key": "fastCharging",
+                        "value": "Fast charging",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2lDischarge",
+                        "value": "V2L discharging",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2lCharging",
+                        "value": "V2L charging",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2lStop",
+                        "value": "V2L stopped",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2xDischarge",
+                        "value": "V2X discharging",
+                        "type": "active"
+                    },
+                    {
+                        "key": "v2xCharging",
+                        "value": "V2X charging",
+                        "type": "active"
+                    },
+                    {
+                        "key": "reseveredCharging",
+                        "value": "Reserved charging",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Charging point state",
+            "displayType": "state",
+            "state": {
+                "label": "{{chargingPlug.value}}",
+                "alternatives": [
+                    {
+                        "key": "connected",
+                        "value": "Connected",
+                        "type": "active"
+                    },
+                    {
+                        "key": "disconnected",
+                        "value": "Disconnected",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Battery",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        0,
+                        100
+                    ],
+                    "unit": "batteryLevel.unit",
+                    "value": "batteryLevel.value",
+                    "valueType": "integer"
+                }
+            },
+            {
+                "label": "Charging status",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "charging",
+                            "value": "Charging",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stopped",
+                            "value": "Stop",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "chargingState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Remaining charging time",
+                "displayType": "numberField",
+                "numberField": {
+                    "value": "chargingRemainTime.value",
+                    "valueType": "integer",
+                    "unit": "chargingRemainTime.unit"
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Start charging",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "charge",
+                            "value": "Start charging",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "Stop charging",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "vehicleBattery",
+    "version": 1
+}

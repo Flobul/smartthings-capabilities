@@ -1,0 +1,100 @@
+{
+    "tag": "fr",
+    "label": "Gestion de la charge",
+    "description": "Get the battery state of a vehicle and allow for the control of charging",
+    "attributes": {
+        "chargingRemainTime": {
+            "label": "Temps de charge restant",
+            "description": "Remaining time until battery is fully charged",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {}
+        },
+        "chargingDetail": {
+            "label": "Batterie",
+            "description": "The current charging detail state of the vehicle",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "v2xDischarge": {
+                        "label": "Décharge V2X"
+                    },
+                    "reseveredCharging": {
+                        "label": "Charge planifiée"
+                    },
+                    "v2lCharging": {
+                        "label": "Charge V2L"
+                    },
+                    "v2lDischarge": {
+                        "label": "Décharge V2L"
+                    },
+                    "v2xCharging": {
+                        "label": "Charge V2X"
+                    },
+                    "charging": {
+                        "label": "En charge"
+                    },
+                    "v2lStop": {
+                        "label": "V2L arrêté"
+                    },
+                    "noCharging": {
+                        "label": "Pas en charge"
+                    },
+                    "veryFastCharging": {
+                        "label": "Charge très rapide"
+                    },
+                    "fastCharging": {
+                        "label": "Charge rapide"
+                    }
+                }
+            }
+        },
+        "chargingPlug": {
+            "label": "État du point de charge",
+            "description": "The connection stated of charging plug",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "connected": {
+                        "label": "Connecté"
+                    },
+                    "disconnected": {
+                        "label": "Déconnecté"
+                    }
+                }
+            }
+        },
+        "batteryLevel": {
+            "label": "Batterie",
+            "description": "The battery level of the vehicle",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}} {{unit}}",
+            "i18n": {}
+        },
+        "chargingState": {
+            "label": "Statut de la charge",
+            "description": "The current charging state of the vehicle",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "stopped": {
+                        "label": "Arrêter"
+                    },
+                    "charging": {
+                        "label": "En charge"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "charge": {
+            "label": "Démarrer la charge",
+            "description": "Start charging of the battery",
+            "arguments": {}
+        },
+        "stop": {
+            "label": "Arrêter la charge",
+            "description": "Stop charging of the battery",
+            "arguments": {}
+        }
+    }
+}

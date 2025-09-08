@@ -1,0 +1,171 @@
+{
+    "detailView": [
+        {
+            "label": "Window front left",
+            "displayType": "state",
+            "state": {
+                "label": "{{frontLeftWindow.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "Open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "Closed",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Window front right",
+            "displayType": "state",
+            "state": {
+                "label": "{{frontRightWindow.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "Open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "Closed",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Window rear left",
+            "displayType": "state",
+            "state": {
+                "label": "{{rearLeftWindow.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "Open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "Closed",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Window rear right",
+            "displayType": "state",
+            "state": {
+                "label": "{{rearRightWindow.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "Open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "Closed",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Window front left",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "Open",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "Closed",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "frontLeftWindow.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Window front right",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "Open",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "Closed",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "frontRightWindow.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Window rear left",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "Open",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "Closed",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "rearLeftWindow.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Window rear right",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "Open",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "Closed",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "rearRightWindow.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "vehicleWindowState",
+    "version": 1
+}

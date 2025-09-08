@@ -1,0 +1,338 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{lockState.value}}",
+                "alternatives": [
+                    {
+                        "key": "locked",
+                        "value": "Locked",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "unlocked",
+                        "value": "Unlocked",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unknown",
+                        "value": "Unknown",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "toggleSwitch",
+                "toggleSwitch": {
+                    "command": {
+                        "on": "lock",
+                        "off": "unlock"
+                    },
+                    "state": {
+                        "value": "lockState.value",
+                        "on": "locked",
+                        "off": "unlocked",
+                        "valueType": "string",
+                        "alternatives": [
+                            {
+                                "key": "unknown",
+                                "value": "Unknown",
+                                "type": "inactive"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Door lock status",
+            "displayType": "toggleSwitch",
+            "toggleSwitch": {
+                "command": {
+                    "on": "lock",
+                    "off": "unlock"
+                },
+                "state": {
+                    "value": "lockState.value",
+                    "valueType": "string",
+                    "on": "locked",
+                    "off": "unlocked",
+                    "alternatives": [
+                        {
+                            "key": "locked",
+                            "value": "Locked",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "unlocked",
+                            "value": "Unlocked",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "Unknown",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "Door front left",
+            "displayType": "state",
+            "state": {
+                "label": "{{frontLeftDoor.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "Open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "Closed",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "locked",
+                        "value": "Locked",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Door front right",
+            "displayType": "state",
+            "state": {
+                "label": "{{frontRightDoor.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "Open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "Closed",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "locked",
+                        "value": "Locked",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Door rear left",
+            "displayType": "state",
+            "state": {
+                "label": "{{rearLeftDoor.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "Open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "Closed",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "locked",
+                        "value": "Locked",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Door rear right",
+            "displayType": "state",
+            "state": {
+                "label": "{{rearRightDoor.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "Open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "Closed",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "locked",
+                        "value": "Locked",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Door lock status",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "locked",
+                            "value": "Locked",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "unlocked",
+                            "value": "Unlocked",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unknown",
+                            "value": "Unknown",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "lockState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Door front left",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "Open",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "Closed",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "locked",
+                            "value": "Locked",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "frontLeftDoor.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Door front right",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "Open",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "Closed",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "locked",
+                            "value": "Locked",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "frontRightDoor.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Door rear left",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "Open",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "Closed",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "locked",
+                            "value": "Locked",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "rearLeftDoor.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Door rear right",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "Open",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "Closed",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "locked",
+                            "value": "Locked",
+                            "type": "inactive"
+                        }
+                    ],
+                    "value": "rearRightDoor.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Car lock",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "lock",
+                            "value": "Lock",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unlock",
+                            "value": "Unlock",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "vehicleDoorState",
+    "version": 1
+}

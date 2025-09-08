@@ -1,0 +1,74 @@
+{
+    "tag": "en",
+    "label": "Window State",
+    "description": "Get the window state of a vehicle",
+    "attributes": {
+        "frontRightWindow": {
+            "label": "Window front right",
+            "description": "Current state of the front right window",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Closed"
+                    },
+                    "open": {
+                        "label": "Open"
+                    }
+                }
+            }
+        },
+        "rearRightWindow": {
+            "label": "Window rear right",
+            "description": "Current state of the rear right window",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Closed"
+                    },
+                    "open": {
+                        "label": "Open"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "Supported attributes",
+            "description": "List of attributes this vehicle supports",
+            "displayTemplate": "{{device.label}} supports the following attributes: {{value}}",
+            "i18n": {}
+        },
+        "frontLeftWindow": {
+            "label": "Window front left",
+            "description": "Current state of the front left window",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Closed"
+                    },
+                    "open": {
+                        "label": "Open"
+                    }
+                }
+            }
+        },
+        "rearLeftWindow": {
+            "label": "Window rear left",
+            "description": "Current state of the rear left window",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Closed"
+                    },
+                    "open": {
+                        "label": "Open"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

@@ -1,0 +1,141 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{hvacState.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "On",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "Off",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Climate status",
+            "displayType": "state",
+            "state": {
+                "label": "{{hvacState.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "On",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "Off",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Fan speed",
+            "displayType": "state",
+            "state": {
+                "label": "{{hvacSpeed.value}}"
+            }
+        },
+        {
+            "label": "Cabin temperature",
+            "displayType": "state",
+            "state": {
+                "label": "{{temperature.value}}",
+                "unit": "temperature.unit"
+            }
+        },
+        {
+            "label": "Front defrost",
+            "displayType": "state",
+            "state": {
+                "label": "{{defogState.value}}",
+                "alternatives": [
+                    {
+                        "key": "on",
+                        "value": "On",
+                        "type": "active"
+                    },
+                    {
+                        "key": "off",
+                        "value": "Off",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Climate status",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "On",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "Off",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "hvacState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Cabin temperature",
+                "displayType": "slider",
+                "slider": {
+                    "range": [
+                        -20,
+                        50
+                    ],
+                    "unit": "temperature.unit",
+                    "supportedValues": "temperatureRange.value",
+                    "value": "temperature.value",
+                    "valueType": "number"
+                }
+            },
+            {
+                "label": "Front defrost",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "on",
+                            "value": "On",
+                            "type": "active"
+                        },
+                        {
+                            "key": "off",
+                            "value": "Off",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "defogState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "vehicleHvac",
+    "version": 1
+}
