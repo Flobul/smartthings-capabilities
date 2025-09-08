@@ -1,10 +1,10 @@
 {
     "tag": "fr",
-    "label": "Mode ventilation du climatiseur",
+    "label": "Puissance de ventilation",
     "description": "Maintains and sets the state of an air conditioner's fan",
     "attributes": {
         "fanMode": {
-            "label": "Mode ventilation du climatiseur",
+            "label": "Puissance de ventilation",
             "description": "The current mode of the fan",
             "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
             "i18n": {
@@ -81,7 +81,7 @@
     },
     "commands": {
         "setFanMode": {
-            "label": "Mode ventilation du climatiseur",
+            "label": "Puissance de ventilation",
             "description": "Set the fan's mode",
             "arguments": {
                 "fanMode": {
