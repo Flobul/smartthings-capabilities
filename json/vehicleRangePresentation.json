@@ -10,7 +10,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Range",
             "displayType": "state",
             "state": {
                 "label": "{{estimatedRemainingRange.value}} {{estimatedRemainingRange.unit}}"
@@ -20,12 +20,16 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Range",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "estimatedRemainingRange.value",
                     "valueType": "number",
-                    "unit": "estimatedRemainingRange.unit"
+                    "unit": "estimatedRemainingRange.unit",
+                    "range": [
+                        1,
+                        4094
+                    ]
                 }
             }
         ],

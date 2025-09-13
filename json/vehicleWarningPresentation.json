@@ -1,0 +1,491 @@
+{
+    "detailView": [
+        {
+            "label": "Fuel level",
+            "displayType": "state",
+            "state": {
+                "label": "{{fuel.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Low fuel level",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Low battery",
+            "displayType": "state",
+            "state": {
+                "label": "{{electricVehicleBattery.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Low battery",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Smart key battery",
+            "displayType": "state",
+            "state": {
+                "label": "{{smartKeyBattery.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Low fob battery",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Washer fluid",
+            "displayType": "state",
+            "state": {
+                "label": "{{washerFluid.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Low washing machine fluid",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Brake fluid",
+            "displayType": "state",
+            "state": {
+                "label": "{{brakeFluid.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Check brake fluid",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Engine oil",
+            "displayType": "state",
+            "state": {
+                "label": "{{engineOil.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Check engine oil",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Lamp wire",
+            "displayType": "state",
+            "state": {
+                "label": "{{lampWire.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Check lamp wire",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Tire pressure warning: Front left",
+            "displayType": "state",
+            "state": {
+                "label": "{{tirePressureFrontLeft.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Tire pressure warning: Front left",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Tire pressure warning: Front right",
+            "displayType": "state",
+            "state": {
+                "label": "{{tirePressureFrontRight.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Tire pressure warning: Front right",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Tire pressure warning: Rear left",
+            "displayType": "state",
+            "state": {
+                "label": "{{tirePressureRearLeft.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Tire pressure warning: Rear left",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Tire pressure warning: Rear right",
+            "displayType": "state",
+            "state": {
+                "label": "{{tirePressureRearRight.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Tire pressure warning: Rear right",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Auxiliary battery",
+            "displayType": "state",
+            "state": {
+                "label": "{{auxiliaryBattery.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Low auxiliary battery",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Fuel level",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Low fuel level",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "fuel.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Low battery",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Warning",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "electricVehicleBattery.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Smart key battery",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Low fob battery",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "smartKeyBattery.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Washer fluid",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Low washing machine fluid",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "washerFluid.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Brake fluid",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Check brake fluid",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "brakeFluid.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Engine oil",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Check engine oil",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "engineOil.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Lamp wire",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Check lamp wire",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "lampWire.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Tire pressure warning: Front left",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Warning",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "tirePressureFrontLeft.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Tire pressure warning: Front right",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Warning",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "tirePressureFrontRight.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Tire pressure warning: Rear left",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Warning",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "tirePressureRearLeft.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Tire pressure warning: Rear right",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Warning",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "tirePressureRearRight.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Auxiliary battery",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Low auxiliary battery",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "auxiliaryBattery.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "vehicleWarning",
+    "version": 1
+}

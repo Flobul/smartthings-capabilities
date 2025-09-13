@@ -1,0 +1,74 @@
+{
+    "tag": "fr",
+    "label": "Window State",
+    "description": "Get the window state of a vehicle",
+    "attributes": {
+        "frontRightWindow": {
+            "label": "Fenêtre avant droite",
+            "description": "Current state of the front right window",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Fermé"
+                    },
+                    "open": {
+                        "label": "Ouvert"
+                    }
+                }
+            }
+        },
+        "rearRightWindow": {
+            "label": "Fenêtre arrière droite",
+            "description": "Current state of the rear right window",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Fermé"
+                    },
+                    "open": {
+                        "label": "Ouvert"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "Supported attributes",
+            "description": "List of attributes this vehicle supports",
+            "displayTemplate": "{{device.label}} supports the following attributes: {{value}}",
+            "i18n": {}
+        },
+        "frontLeftWindow": {
+            "label": "Fenêtre avant gauche",
+            "description": "Current state of the front left window",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Fermé"
+                    },
+                    "open": {
+                        "label": "Ouvert"
+                    }
+                }
+            }
+        },
+        "rearLeftWindow": {
+            "label": "Fenêtre arrière gauche",
+            "description": "Current state of the rear left window",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "closed": {
+                        "label": "Fermé"
+                    },
+                    "open": {
+                        "label": "Ouvert"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {}
+}

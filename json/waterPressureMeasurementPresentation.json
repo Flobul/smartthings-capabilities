@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.pressureAlarm.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "low",
-                        "value": "{{i18n.attributes.pressureAlarm.i18n.value.low.label}}",
+                        "value": "Low",
                         "type": "active"
                     },
                     {
                         "key": "high",
-                        "value": "{{i18n.attributes.pressureAlarm.i18n.value.high.label}}",
+                        "value": "High",
                         "type": "active"
                     }
                 ]
@@ -30,31 +30,31 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.pressureAlarm.label}}",
+            "label": "Pressure alarm",
             "displayType": "state",
             "state": {
                 "label": "{{pressureAlarm.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.pressureAlarm.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "inactive"
                     },
                     {
                         "key": "low",
-                        "value": "{{i18n.attributes.pressureAlarm.i18n.value.low.label}}",
+                        "value": "Low",
                         "type": "active"
                     },
                     {
                         "key": "high",
-                        "value": "{{i18n.attributes.pressureAlarm.i18n.value.high.label}}",
+                        "value": "High",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.pressure.label}}",
+            "label": "Pressure",
             "displayType": "state",
             "state": {
                 "label": "{{pressure.value}}",
@@ -65,23 +65,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.pressureAlarm.label}}",
+                "label": "Pressure alarm",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "normal",
-                            "value": "{{i18n.attributes.pressureAlarm.i18n.value.normal.label}}",
+                            "value": "Normal",
                             "type": "inactive"
                         },
                         {
                             "key": "low",
-                            "value": "{{i18n.attributes.pressureAlarm.i18n.value.low.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "high",
-                            "value": "{{i18n.attributes.pressureAlarm.i18n.value.high.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ],
@@ -91,7 +91,7 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.pressure.label}}",
+                "label": "Pressure",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "pressure.value",

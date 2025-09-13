@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "regular",
-                        "value": "{{i18n.attributes.dryerMode.i18n.value.regular.label}}",
+                        "value": "Medium",
                         "type": "active"
                     },
                     {
                         "key": "lowHeat",
-                        "value": "{{i18n.attributes.dryerMode.i18n.value.lowHeat.label}}",
+                        "value": "Low",
                         "type": "active"
                     },
                     {
                         "key": "highHeat",
-                        "value": "{{i18n.attributes.dryerMode.i18n.value.highHeat.label}}",
+                        "value": "High",
                         "type": "active"
                     }
                 ]
@@ -27,7 +27,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.label}}",
+            "label": "Mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -35,17 +35,17 @@
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.regular.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "lowHeat",
-                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.lowHeat.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "highHeat",
-                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.highHeat.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ]
@@ -55,17 +55,17 @@
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "{{i18n.attributes.dryerMode.i18n.value.regular.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "lowHeat",
-                            "value": "{{i18n.attributes.dryerMode.i18n.value.lowHeat.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "highHeat",
-                            "value": "{{i18n.attributes.dryerMode.i18n.value.highHeat.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ]
@@ -76,23 +76,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "{{i18n.attributes.dryerMode.i18n.value.regular.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "lowHeat",
-                            "value": "{{i18n.attributes.dryerMode.i18n.value.lowHeat.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "highHeat",
-                            "value": "{{i18n.attributes.dryerMode.i18n.value.highHeat.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ],
@@ -103,23 +103,23 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.label}}",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "regular",
-                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.regular.label}}",
+                            "value": "Medium",
                             "type": "active"
                         },
                         {
                             "key": "lowHeat",
-                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.lowHeat.label}}",
+                            "value": "Low",
                             "type": "active"
                         },
                         {
                             "key": "highHeat",
-                            "value": "{{i18n.commands.setDryerMode.arguments.mode.i18n.highHeat.label}}",
+                            "value": "High",
                             "type": "active"
                         }
                     ],
