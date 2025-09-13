@@ -86,6 +86,9 @@
                                         "controlOnlyMember",
                                         "guest"
                                     ]
+                                },
+                                "userName": {
+                                    "type": "string"
                                 }
                             },
                             "required": [
@@ -95,6 +98,7 @@
                         }
                     }
                 },
+                "sensitive": true,
                 "additionalProperties": false,
                 "required": []
             },
@@ -126,11 +130,13 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "deleteAllUsers": {
             "name": "deleteAllUsers",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "deleteUser": {
             "name": "deleteUser",
@@ -143,7 +149,8 @@
                         "minimum": 1
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "updateUser": {
             "name": "updateUser",
@@ -177,7 +184,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
