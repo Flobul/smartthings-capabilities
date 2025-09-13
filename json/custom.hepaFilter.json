@@ -127,7 +127,8 @@
     "commands": {
         "resetHepaFilter": {
             "name": "resetHepaFilter",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
