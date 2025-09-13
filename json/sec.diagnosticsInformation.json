@@ -110,7 +110,8 @@
                             "wifi_https",
                             "ble_stdk",
                             "wifi_stdk",
-                            "l3_ocf"
+                            "l3_ocf",
+                            "ble_stdk_hub"
                         ]
                     }
                 },
