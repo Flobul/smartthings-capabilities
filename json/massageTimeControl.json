@@ -61,7 +61,8 @@
                         "maximum": 60
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
