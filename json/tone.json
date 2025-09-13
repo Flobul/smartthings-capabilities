@@ -8,7 +8,8 @@
     "commands": {
         "beep": {
             "name": "beep",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }
