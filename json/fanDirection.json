@@ -1,0 +1,48 @@
+{
+    "id": "fanDirection",
+    "version": 1,
+    "status": "proposed",
+    "name": "Fan Direction",
+    "ephemeral": false,
+    "attributes": {
+        "fanDirection": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "FanDirection",
+                        "type": "string",
+                        "enum": [
+                            "summerMode",
+                            "winterMode"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": [
+                {
+                    "command": "summerMode",
+                    "value": "summerMode"
+                },
+                {
+                    "command": "winterMode",
+                    "value": "winterMode"
+                }
+            ]
+        }
+    },
+    "commands": {
+        "summerMode": {
+            "name": "summerMode",
+            "arguments": [],
+            "sensitive": false
+        },
+        "winterMode": {
+            "name": "winterMode",
+            "arguments": [],
+            "sensitive": false
+        }
+    }
+}
