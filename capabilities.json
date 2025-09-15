@@ -574,6 +574,13 @@
         "namespace": "st"
     },
     {
+        "id": "fanDirection",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "fanMode",
         "version": 1,
         "status": "proposed",

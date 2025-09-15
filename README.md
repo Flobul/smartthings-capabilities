@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-09-08
+#### Last Update: 2025-09-15
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -69,6 +69,7 @@
 | [Charge Point State](./json/chargePointState.json) | 1 | proposed | [json](./json/chargePointStatePresentation.json) | [json](./json/chargePointState.i18n.fr.json) |
 | [Charging State](./json/chargingState.json) | 1 | proposed | [json](./json/chargingStatePresentation.json) | [json](./json/chargingState.i18n.fr.json) |
 | [Chime](./json/chime.json) | 1 | live | [json](./json/chimePresentation.json) | [json](./json/chime.i18n.fr.json) |
+| [Coffee Maker Manual Operation](./json/coffeeMakerManualOperation.json) | 1 | proposed |  |  |
 | [Coffee Maker Operation](./json/coffeeMakerOperation.json) | 1 | proposed | [json](./json/coffeeMakerOperationPresentation.json) | [json](./json/coffeeMakerOperation.i18n.fr.json) |
 | [Color](./json/color.json) | 1 | proposed |  | [json](./json/color.i18n.fr.json) |
 | [Color Control](./json/colorControl.json) | 1 | live | [json](./json/colorControlPresentation.json) | [json](./json/colorControl.i18n.fr.json) |
@@ -187,6 +188,7 @@
 | [Evse State](./json/evseState.json) | 1 | proposed | [json](./json/evseStatePresentation.json) | [json](./json/evseState.i18n.fr.json) |
 | [Execute](./json/execute.json) | 1 | deprecated |  | [json](./json/execute.i18n.fr.json) |
 | [Face Recognition](./json/faceRecognition.json) | 1 | proposed | [json](./json/faceRecognitionPresentation.json) | [json](./json/faceRecognition.i18n.fr.json) |
+| [Fan Direction](./json/fanDirection.json) | 1 | proposed |  | [json](./json/fanDirection.i18n.fr.json) |
 | [Fan Mode](./json/fanMode.json) | 1 | proposed | [json](./json/fanModePresentation.json) | [json](./json/fanMode.i18n.fr.json) |
 | [Fan Oscillation Mode](./json/fanOscillationMode.json) | 1 | live | [json](./json/fanOscillationModePresentation.json) | [json](./json/fanOscillationMode.i18n.fr.json) |
 | [Fan Speed](./json/fanSpeed.json) | 1 | live | [json](./json/fanSpeedPresentation.json) | [json](./json/fanSpeed.i18n.fr.json) |
