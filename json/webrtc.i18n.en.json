@@ -5,7 +5,7 @@
     "attributes": {
         "sdpAnswer": {
             "label": "live stream",
-            "description": "Signaling info for a video source",
+            "description": "Signaling info for a video source as the response to an offer",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
@@ -27,6 +27,12 @@
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
+        "sdpOffer": {
+            "label": "SDP offer",
+            "description": "Signaling info for a video source as the initiator of the webrtc connection, in response to a `solicitOffer` command",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": {}
+        },
         "deviceIce": {
             "label": "ice candidate",
             "description": "An ICE candidate from the video source",
@@ -44,12 +50,23 @@
             "description": "URL used for STUN connection from the client",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
+        },
+        "standbyMode": {
+            "label": "Standby mode",
+            "description": "Dynamic mode of the video source when it may be in a low power state and may not immediately accept an offer.\nIf this value is set to true, the client should solicit the offer from the device using `solicitOffer` command.\nOtherwise, if false, or if the value is absent, the device is assumed to be always ready to accept an offer and\nthe client can directly generate one and send via `sdpOffer` command.\n",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": {}
         }
     },
     "commands": {
         "startTalkback": {
             "label": "startTalkback",
             "description": "Start the talkback",
+            "arguments": {}
+        },
+        "sdpAnswer": {
+            "label": "sdpAnswer",
+            "description": "Responding to an offer from video source in standby mode",
             "arguments": {}
         },
         "clientIce": {
@@ -59,7 +76,12 @@
         },
         "sdpOffer": {
             "label": "sdpOffer",
-            "description": "Start the live stream",
+            "description": "Start the webrtc session establishment by sending the signaling info to the video source not in standby mode",
+            "arguments": {}
+        },
+        "solicitOffer": {
+            "label": "solicitOffer",
+            "description": "Start the webrtc session establishment by soliciting the signaling info from a video source in standby mode",
             "arguments": {}
         },
         "stopTalkback": {
