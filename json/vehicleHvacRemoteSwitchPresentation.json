@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.commands.on.arguments.hvacRemote.i18n.ignitionDuration.label}}",
+            "label": "Engine running (min)",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -20,7 +20,7 @@
             }
         },
         {
-            "label": "{{i18n.commands.on.arguments.hvacRemote.i18n.temperature.label}}",
+            "label": "Temperature",
             "displayType": "slider",
             "slider": {
                 "range": [
@@ -39,20 +39,20 @@
             }
         },
         {
-            "label": "{{i18n.commands.on.arguments.hvacRemote.i18n.defog.label}}",
+            "label": "Front defrost",
             "displayType": "list",
             "list": {
                 "command": {
                     "name": "on",
                     "alternatives": [
                         {
-                            "key": "on",
-                            "value": "{{i18n.commands.on.label}}",
-                            "type": "active"
+                            "key": "off",
+                            "value": "Turn off",
+                            "type": "inactive"
                         },
                         {
-                            "key": "off",
-                            "value": "{{i18n.commands.off.label}}",
+                            "key": "on",
+                            "value": "Turn on",
                             "type": "inactive"
                         },
                         {
@@ -66,13 +66,104 @@
             }
         },
         {
-            "label": "{{i18n.commands.off.label}}",
+            "label": "Turn off Climate control/engine",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "off"
             }
         }
     ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Turn on Climate control/engine",
+                "displayType": "multiArgCommand",
+                "multiArgCommand": {
+                    "command": "on",
+                    "arguments": [
+                        {
+                            "label": "Engine running (min)",
+                            "displayType": "slider",
+                            "slider": {
+                                "range": [
+                                    2,
+                                    10
+                                ],
+                                "name": "hvacRemote.ignitionDuration",
+                                "argumentType": "integer"
+                            }
+                        },
+                        {
+                            "label": "Temperature",
+                            "displayType": "slider",
+                            "slider": {
+                                "range": [
+                                    16,
+                                    30
+                                ],
+                                "name": "hvacRemote.temperature.value",
+                                "argumentType": "number"
+                            }
+                        },
+                        {
+                            "label": "Temperature unit",
+                            "displayType": "list",
+                            "list": {
+                                "alternatives": [
+                                    {
+                                        "key": "C",
+                                        "value": "°C",
+                                        "type": "active"
+                                    },
+                                    {
+                                        "key": "F",
+                                        "value": "°F",
+                                        "type": "active"
+                                    }
+                                ],
+                                "name": "hvacRemote.temperature.unit",
+                                "argumentType": "string"
+                            }
+                        },
+                        {
+                            "label": "Front defrost",
+                            "displayType": "list",
+                            "list": {
+                                "alternatives": [
+                                    {
+                                        "key": "off",
+                                        "value": "Turn off",
+                                        "type": "inactive"
+                                    },
+                                    {
+                                        "key": "on",
+                                        "value": "Turn on",
+                                        "type": "active"
+                                    }
+                                ],
+                                "name": "hvacRemote.defog",
+                                "argumentType": "string"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "label": "Turn off Climate control/engine",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "off",
+                            "value": "Turn off Climate control/engine",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
     "id": "vehicleHvacRemoteSwitch",
     "version": 1
 }
