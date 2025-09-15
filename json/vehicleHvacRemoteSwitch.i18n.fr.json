@@ -1,15 +1,51 @@
 {
-    "tag": "en",
-    "label": "Vehicle Hvac Remote Switch",
+    "tag": "fr",
+    "label": "Contrôle des conditions intérieures/du moteur",
+    "description": "Allows for the control of a vehicle hvac by remote",
     "attributes": {},
     "commands": {
         "off": {
-            "label": "off",
+            "label": "Éteindre le contrôle de la climatisation/moteur",
+            "description": "Turn a hvac off by remote",
             "arguments": {}
         },
         "on": {
-            "label": "on",
-            "arguments": {}
+            "label": "Allumer le contrôle de la climatisation/moteur",
+            "description": "Turn a hvac on by remote",
+            "arguments": {
+                "hvacRemote": {
+                    "i18n": {
+                        "ignitionduration description": {
+                            "label": "Ignition Duration"
+                        },
+                        "temperatureunit": {
+                            "label": "Unité de température"
+                        },
+                        "defogon": {
+                            "label": "Activer"
+                        },
+                        "defog description": {
+                            "label": "Defog"
+                        },
+                        "temperature description": {
+                            "label": "Temperature"
+                        },
+                        "defogoff": {
+                            "label": "Désactiver"
+                        },
+                        "ignitionduration": {
+                            "label": "Moteur en fonctionnement (min)"
+                        },
+                        "temperature": {
+                            "label": "Température"
+                        },
+                        "defog": {
+                            "label": "Dégivrage avant"
+                        }
+                    },
+                    "description": "The settings to use when turning on hvac on by remote"
+                }
+            }
         }
     }
 }
