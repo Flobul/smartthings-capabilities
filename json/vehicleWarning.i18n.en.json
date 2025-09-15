@@ -19,7 +19,7 @@
             }
         },
         "tirePressureFrontLeft": {
-            "label": "Tire pressure warning: Front left",
+            "label": "Tire pressure: Front left",
             "description": "Current warning state of the tire pressure of front left",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -28,13 +28,13 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Warning"
+                        "label": "Tyre pressure warning: Front left"
                     }
                 }
             }
         },
         "electricVehicleBattery": {
-            "label": "Low battery",
+            "label": "Vehicle battery",
             "description": "Current warning state of the EV battery",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -43,7 +43,7 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Warning"
+                        "label": "Low battery"
                     }
                 }
             }
@@ -100,7 +100,7 @@
             }
         },
         "tirePressureFrontRight": {
-            "label": "Tire pressure warning: Front right",
+            "label": "Tire pressure: Front right",
             "description": "Current warning state of the pressure of front right",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -109,7 +109,7 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Warning"
+                        "label": "Tyre pressure warning: Front right"
                     }
                 }
             }
@@ -124,7 +124,7 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Low washing machine fluid"
+                        "label": "Low washer fluid"
                     }
                 }
             }
@@ -160,7 +160,7 @@
             }
         },
         "tirePressureRearLeft": {
-            "label": "Tire pressure warning: Rear left",
+            "label": "Tire pressure: Rear left",
             "description": "Current warning state of the pressure of rear left",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -169,13 +169,13 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Warning"
+                        "label": "Tyre pressure warning: Rear left"
                     }
                 }
             }
         },
         "tirePressureRearRight": {
-            "label": "Tire pressure warning: Rear right",
+            "label": "Tire pressure: Rear right",
             "description": "Current warning state of the pressure of rear right",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -184,7 +184,7 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Warning"
+                        "label": "Tyre pressure warning: Rear right"
                     }
                 }
             }

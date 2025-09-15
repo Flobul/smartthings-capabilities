@@ -20,7 +20,7 @@
             }
         },
         {
-            "label": "Low battery",
+            "label": "Vehicle battery",
             "displayType": "state",
             "state": {
                 "label": "{{electricVehicleBattery.value}}",
@@ -70,7 +70,7 @@
                     },
                     {
                         "key": "warning",
-                        "value": "Low washing machine fluid",
+                        "value": "Low washer fluid",
                         "type": "active"
                     }
                 ]
@@ -134,7 +134,7 @@
             }
         },
         {
-            "label": "Tire pressure warning: Front left",
+            "label": "Tire pressure: Front left",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureFrontLeft.value}}",
@@ -146,14 +146,14 @@
                     },
                     {
                         "key": "warning",
-                        "value": "Tire pressure warning: Front left",
+                        "value": "Tyre pressure warning: Front left",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "Tire pressure warning: Front right",
+            "label": "Tire pressure: Front right",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureFrontRight.value}}",
@@ -165,14 +165,14 @@
                     },
                     {
                         "key": "warning",
-                        "value": "Tire pressure warning: Front right",
+                        "value": "Tyre pressure warning: Front right",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "Tire pressure warning: Rear left",
+            "label": "Tire pressure: Rear left",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureRearLeft.value}}",
@@ -184,14 +184,14 @@
                     },
                     {
                         "key": "warning",
-                        "value": "Tire pressure warning: Rear left",
+                        "value": "Tyre pressure warning: Rear left",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "Tire pressure warning: Rear right",
+            "label": "Tire pressure: Rear right",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureRearRight.value}}",
@@ -203,7 +203,7 @@
                     },
                     {
                         "key": "warning",
-                        "value": "Tire pressure warning: Rear right",
+                        "value": "Tyre pressure warning: Rear right",
                         "type": "active"
                     }
                 ]
@@ -253,7 +253,7 @@
                 }
             },
             {
-                "label": "Low battery",
+                "label": "Vehicle battery",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -264,7 +264,7 @@
                         },
                         {
                             "key": "warning",
-                            "value": "Warning",
+                            "value": "Low battery",
                             "type": "active"
                         }
                     ],
@@ -306,7 +306,7 @@
                         },
                         {
                             "key": "warning",
-                            "value": "Low washing machine fluid",
+                            "value": "Low washer fluid",
                             "type": "active"
                         }
                     ],
@@ -379,7 +379,7 @@
                 }
             },
             {
-                "label": "Tire pressure warning: Front left",
+                "label": "Tire pressure: Front left",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -390,7 +390,7 @@
                         },
                         {
                             "key": "warning",
-                            "value": "Warning",
+                            "value": "Tyre pressure warning: Front left",
                             "type": "active"
                         }
                     ],
@@ -400,7 +400,7 @@
                 }
             },
             {
-                "label": "Tire pressure warning: Front right",
+                "label": "Tire pressure: Front right",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -411,7 +411,7 @@
                         },
                         {
                             "key": "warning",
-                            "value": "Warning",
+                            "value": "Tyre pressure warning: Front right",
                             "type": "active"
                         }
                     ],
@@ -421,7 +421,7 @@
                 }
             },
             {
-                "label": "Tire pressure warning: Rear left",
+                "label": "Tire pressure: Rear left",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -432,7 +432,7 @@
                         },
                         {
                             "key": "warning",
-                            "value": "Warning",
+                            "value": "Tyre pressure warning: Rear left",
                             "type": "active"
                         }
                     ],
@@ -442,7 +442,7 @@
                 }
             },
             {
-                "label": "Tire pressure warning: Rear right",
+                "label": "Tire pressure: Rear right",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -453,7 +453,7 @@
                         },
                         {
                             "key": "warning",
-                            "value": "Warning",
+                            "value": "Tyre pressure warning: Rear right",
                             "type": "active"
                         }
                     ],
