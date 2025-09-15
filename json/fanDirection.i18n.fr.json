@@ -1,0 +1,30 @@
+{
+    "tag": "en",
+    "label": "Fan Direction",
+    "attributes": {
+        "fanDirection": {
+            "label": "fanDirection",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "summerMode": {
+                        "label": "summerMode"
+                    },
+                    "winterMode": {
+                        "label": "winterMode"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "summerMode": {
+            "label": "summerMode",
+            "arguments": {}
+        },
+        "winterMode": {
+            "label": "winterMode",
+            "arguments": {}
+        }
+    }
+}
