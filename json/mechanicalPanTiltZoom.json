@@ -300,6 +300,19 @@
             ],
             "sensitive": false
         },
+        "removePreset": {
+            "name": "removePreset",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ],
+            "sensitive": false
+        },
         "zoomRelative": {
             "name": "zoomRelative",
             "arguments": [
