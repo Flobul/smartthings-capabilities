@@ -46,13 +46,13 @@
                     "name": "on",
                     "alternatives": [
                         {
-                            "key": "on",
-                            "value": "Turn on",
-                            "type": "active"
-                        },
-                        {
                             "key": "off",
                             "value": "Turn off",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "on",
+                            "value": "Turn on",
                             "type": "inactive"
                         },
                         {
@@ -66,7 +66,7 @@
             }
         },
         {
-            "label": "Turn off",
+            "label": "Turn off Climate control/engine",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "off"
@@ -77,7 +77,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "Climate/engine control",
+                "label": "Turn on Climate control/engine",
                 "displayType": "multiArgCommand",
                 "multiArgCommand": {
                     "command": "on",
@@ -150,13 +150,13 @@
                 }
             },
             {
-                "label": "Turn off",
+                "label": "Turn off Climate control/engine",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "off",
-                            "value": "Turn off",
+                            "value": "Turn off Climate control/engine",
                             "type": "active"
                         }
                     ]

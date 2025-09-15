@@ -5,12 +5,12 @@
     "attributes": {},
     "commands": {
         "off": {
-            "label": "Désactiver",
+            "label": "Éteindre le contrôle de la climatisation/moteur",
             "description": "Turn a hvac off by remote",
             "arguments": {}
         },
         "on": {
-            "label": "Activer",
+            "label": "Allumer le contrôle de la climatisation/moteur",
             "description": "Turn a hvac on by remote",
             "arguments": {
                 "hvacRemote": {
@@ -21,11 +21,17 @@
                         "temperatureunit": {
                             "label": "Unité de température"
                         },
+                        "defogon": {
+                            "label": "Activer"
+                        },
                         "defog description": {
                             "label": "Defog"
                         },
                         "temperature description": {
                             "label": "Temperature"
+                        },
+                        "defogoff": {
+                            "label": "Désactiver"
                         },
                         "ignitionduration": {
                             "label": "Moteur en fonctionnement (min)"
