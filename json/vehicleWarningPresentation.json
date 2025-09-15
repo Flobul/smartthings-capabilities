@@ -1,215 +1,491 @@
 {
     "detailView": [
         {
-            "label": "{{i18n.attributes.fuel.label}}",
+            "label": "Fuel level",
             "displayType": "state",
             "state": {
                 "label": "{{fuel.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.fuel.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.fuel.i18n.value.warning.label}}",
+                        "value": "Low fuel level",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.smartKeyBattery.label}}",
+            "label": "Vehicle battery",
+            "displayType": "state",
+            "state": {
+                "label": "{{electricVehicleBattery.value}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "active"
+                    },
+                    {
+                        "key": "warning",
+                        "value": "Low battery",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Smart key battery",
             "displayType": "state",
             "state": {
                 "label": "{{smartKeyBattery.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.smartKeyBattery.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.smartKeyBattery.i18n.value.warning.label}}",
+                        "value": "Low fob battery",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.washerFluid.label}}",
+            "label": "Washer fluid",
             "displayType": "state",
             "state": {
                 "label": "{{washerFluid.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.washerFluid.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.washerFluid.i18n.value.warning.label}}",
+                        "value": "Low washer fluid",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.brakeFluid.label}}",
+            "label": "Brake fluid",
             "displayType": "state",
             "state": {
                 "label": "{{brakeFluid.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.brakeFluid.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.brakeFluid.i18n.value.warning.label}}",
+                        "value": "Check brake fluid",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.engineOil.label}}",
+            "label": "Engine oil",
             "displayType": "state",
             "state": {
                 "label": "{{engineOil.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.engineOil.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.engineOil.i18n.value.warning.label}}",
+                        "value": "Check engine oil",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.lampWire.label}}",
+            "label": "Lamp wire",
             "displayType": "state",
             "state": {
                 "label": "{{lampWire.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.lampWire.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.lampWire.i18n.value.warning.label}}",
+                        "value": "Check lamp wire",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.tirePressureFrontLeft.label}}",
+            "label": "Tire pressure: Front left",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureFrontLeft.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.tirePressureFrontLeft.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.tirePressureFrontLeft.i18n.value.warning.label}}",
+                        "value": "Tyre pressure warning: Front left",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.tirePressureFrontRight.label}}",
+            "label": "Tire pressure: Front right",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureFrontRight.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.tirePressureFrontRight.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.tirePressureFrontRight.i18n.value.warning.label}}",
+                        "value": "Tyre pressure warning: Front right",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.tirePressureRearLeft.label}}",
+            "label": "Tire pressure: Rear left",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureRearLeft.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.tirePressureRearLeft.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.tirePressureRearLeft.i18n.value.warning.label}}",
+                        "value": "Tyre pressure warning: Rear left",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.tirePressureRearRight.label}}",
+            "label": "Tire pressure: Rear right",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureRearRight.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.tirePressureRearRight.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.tirePressureRearRight.i18n.value.warning.label}}",
+                        "value": "Tyre pressure warning: Rear right",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.auxiliaryBattery.label}}",
+            "label": "Auxiliary battery",
             "displayType": "state",
             "state": {
                 "label": "{{auxiliaryBattery.value}}",
                 "alternatives": [
                     {
                         "key": "normal",
-                        "value": "{{i18n.attributes.auxiliaryBattery.i18n.value.normal.label}}",
+                        "value": "Normal",
                         "type": "active"
                     },
                     {
                         "key": "warning",
-                        "value": "{{i18n.attributes.auxiliaryBattery.i18n.value.warning.label}}",
+                        "value": "Low auxiliary battery",
                         "type": "active"
                     }
                 ]
             }
         }
     ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Fuel level",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Low fuel level",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "fuel.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Vehicle battery",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Low battery",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "electricVehicleBattery.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Smart key battery",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Low fob battery",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "smartKeyBattery.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Washer fluid",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Low washer fluid",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "washerFluid.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Brake fluid",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Check brake fluid",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "brakeFluid.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Engine oil",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Check engine oil",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "engineOil.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Lamp wire",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Check lamp wire",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "lampWire.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Tire pressure: Front left",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Tyre pressure warning: Front left",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "tirePressureFrontLeft.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Tire pressure: Front right",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Tyre pressure warning: Front right",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "tirePressureFrontRight.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Tire pressure: Rear left",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Tyre pressure warning: Rear left",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "tirePressureRearLeft.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Tire pressure: Rear right",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Tyre pressure warning: Rear right",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "tirePressureRearRight.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Auxiliary battery",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "normal",
+                            "value": "Normal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "warning",
+                            "value": "Low auxiliary battery",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "auxiliaryBattery.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
     "id": "vehicleWarning",
     "version": 1
 }
