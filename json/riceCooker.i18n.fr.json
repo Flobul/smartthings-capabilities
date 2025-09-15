@@ -1,6 +1,7 @@
 {
     "tag": "fr",
     "label": "Rice Cooker",
+    "description": "Control and monitor the cooking functions and status of a rice cooker.",
     "attributes": {
         "completionTime": {
             "label": "Temps restant",
@@ -71,29 +72,17 @@
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {
                 "value": {
-                    "superGrains": {
-                        "label": "Super Grains"
-                    },
-                    "plainPorridge": {
-                        "label": "Plain Porridge"
-                    },
                     "mixedGrainForSaladWithAdlay": {
                         "label": "Mixed Grain for Salad with Adlay"
                     },
                     "scorchedRiceTea": {
                         "label": "Scorched Rice Tea"
                     },
-                    "kamutRice": {
-                        "label": "Kamut Rice"
-                    },
                     "odaemi": {
                         "label": "Odaemi"
                     },
-                    "mixedGrainForSaladWithKamut": {
-                        "label": "Mixed Grain for Salad with Kamut"
-                    },
-                    "sousVide": {
-                        "label": "Sous Vide"
+                    "riceWithRipeKimchiAndAbaloneInHotPot": {
+                        "label": "Rice with Ripe Kimchi and Abalone in Hot Pot"
                     },
                     "mixedGrainsQuick": {
                         "label": "Mixed Grains Quick"
@@ -101,29 +90,149 @@
                     "alchanmi": {
                         "label": "Alchanmi"
                     },
-                    "riceWithRipeKimchiAndAbaloneInHotPot": {
-                        "label": "Rice with Ripe Kimchi and Abalone in Hot Pot"
-                    },
                     "riceForGimbap": {
                         "label": "Rice for Gimbap"
-                    },
-                    "riceWithAssortedMushrommsInHotPot": {
-                        "label": "Rice with Assorted Mushromms in Hot Pot"
                     },
                     "beef,ShiitakeMushroom,EggPorridge": {
                         "label": "Beef, Shiitake Mushroom, Egg Porridge"
                     },
-                    "stickyPlainRice": {
-                        "label": "Sticky Plain Rice"
-                    },
                     "frozenMixedGrain": {
                         "label": "Frozen Mixed Grain"
+                    },
+                    "stickyPlainRice": {
+                        "label": "Sticky Plain Rice"
                     },
                     "beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice": {
                         "label": "Beef,Cabbage,White Mushroom,Jujube,Soft Boiled Rice"
                     },
                     "broccoliPorridge": {
                         "label": "Broccoli Porridge"
+                    },
+                    "riceWithBeans": {
+                        "label": "Rice with Beans"
+                    },
+                    "babyFood": {
+                        "label": "Baby Food"
+                    },
+                    "barleyMixedGrainRice": {
+                        "label": "Barley Mixed Grain Rice"
+                    },
+                    "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice": {
+                        "label": "Cod Flesh, Sweet Pumpkin, Mung-Bean Sprouts, Black Sesame, Soft Boiled Rice"
+                    },
+                    "riceWithTruffledBulgogiInHotPot": {
+                        "label": "Rice with Truffled Bulgogi in Hot Pot"
+                    },
+                    "riceWithAbaloneInHotPot": {
+                        "label": "Rice with Abalone in Hot Pot"
+                    },
+                    "chicken,SweetPumpkin,Cabbage,StickyRicePorridge": {
+                        "label": "Chicken, Sweet Pumpkin, Cabbage, Sticky Rice Porridge"
+                    },
+                    "mixedGrainForSaladWithQuinoa(2Cup)": {
+                        "label": "Mixed Grain for Salad with Quinoa (2Cup)"
+                    },
+                    "mixedGrainForSalad": {
+                        "label": "Mixed Grain for Salad"
+                    },
+                    "steamedSweetPotato": {
+                        "label": "Steamed Sweet Potato"
+                    },
+                    "mixedGrainForSaladWithLentilBean": {
+                        "label": "Mixed Grain for Salad with Lentil Bean"
+                    },
+                    "mixedGrainForSaladWithLentilBean(2Cup)": {
+                        "label": "Mixed Grain For Salad with Lentil Bean (2 Cup)"
+                    },
+                    "mixedGrainForSaladWithBrownRice": {
+                        "label": "Mixed Grain for Salad with Brown Rice"
+                    },
+                    "oatRice": {
+                        "label": "Oat Rice"
+                    },
+                    "riceWithBrackenAndSteakInHotPot": {
+                        "label": "Rice with Bracken and Steak in Hot Pot"
+                    },
+                    "cauldronRice": {
+                        "label": "Cauldron Rice"
+                    },
+                    "mixedGrainForSaladWithChickpea": {
+                        "label": "Mixed Grain for Salad with Chickpea"
+                    },
+                    "highHeatMixedGrains": {
+                        "label": "High Heat Mixed Grains"
+                    },
+                    "riceWithSteakInHotPot": {
+                        "label": "rice with Steak in Hot Pot"
+                    },
+                    "germinatedBrownRice": {
+                        "label": "Germinated Brown Rice"
+                    },
+                    "mixedGrainForSaladWithBarley": {
+                        "label": "Mixed Grain for Salad with Barley"
+                    },
+                    "galbijjim": {
+                        "label": "Galbijjim"
+                    },
+                    "riceWithSeasonedVegetablesInHotPot": {
+                        "label": "Rice with Seasoned Vegetables in Hot Pot"
+                    },
+                    "riceWithWebfootOctopusAndSaussureaInHotPot": {
+                        "label": "Rice with Webfoot Octopus and Saussurea in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithQuinoa": {
+                        "label": "Mixed Grain for Salad with Quinoa"
+                    },
+                    "mixedGrainForSaladWithBrownRice(2Cup)": {
+                        "label": "Mixed Grain for Salad with Brown Rice (2 Cup)"
+                    },
+                    "mixedGrainForVitality": {
+                        "label": "Mixed Grain for Vitality"
+                    },
+                    "plainQuick": {
+                        "label": "Plain Quick"
+                    },
+                    "mixedGrainForSaladWithChickpea(2Cup)": {
+                        "label": "Mixed Grain for Salad with Chickpea (2 Cup)"
+                    },
+                    "wellCookedPlainRice": {
+                        "label": "Well Cooked Plain Rice"
+                    },
+                    "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice": {
+                        "label": "Beef, Beet, Enoki Mushroom, Perilla Seeds, Soft Boiled Rice"
+                    },
+                    "vegetableRice": {
+                        "label": "Vegetable Rice"
+                    },
+                    "grains": {
+                        "label": "Grains"
+                    },
+                    "frozenPlainRice": {
+                        "label": "Frozen Plain Rice"
+                    },
+                    "mixedGrainForSlim": {
+                        "label": "Mixed Grain for Slim"
+                    },
+                    "steamedDish": {
+                        "label": "Steamed Dish"
+                    },
+                    "superGrains": {
+                        "label": "Super Grains"
+                    },
+                    "plainPorridge": {
+                        "label": "Plain Porridge"
+                    },
+                    "kamutRice": {
+                        "label": "Kamut Rice"
+                    },
+                    "mixedGrainForSaladWithKamut": {
+                        "label": "Mixed Grain for Salad with Kamut"
+                    },
+                    "sousVide": {
+                        "label": "Sous Vide"
+                    },
+                    "riceWithAssortedMushrommsInHotPot": {
+                        "label": "Rice with Assorted Mushromms in Hot Pot"
                     },
                     "bakedEgg": {
                         "label": "Baked Egg"
@@ -134,26 +243,14 @@
                     "pineNutPorridge": {
                         "label": "Pine Nut Porridge"
                     },
-                    "riceWithBeans": {
-                        "label": "Rice with Beans"
-                    },
-                    "barleyMixedGrainRice": {
-                        "label": "Barley Mixed Grain Rice"
-                    },
                     "mixedGrainForSaladWithQuinoa(1Cup)": {
                         "label": "Mixed Grain for Salad with Quinoa (1Cup)"
-                    },
-                    "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice": {
-                        "label": "Cod Flesh, Sweet Pumpkin, Mung-Bean Sprouts, Black Sesame, Soft Boiled Rice"
                     },
                     "babyFoodStep1": {
                         "label": "Baby Food Step 1"
                     },
                     "babyFoodStep2": {
                         "label": "Baby Food Step 2"
-                    },
-                    "riceWithTruffledBulgogiInHotPot": {
-                        "label": "Rice with Truffled Bulgogi in Hot Pot"
                     },
                     "babyFoodStep3": {
                         "label": "Baby Food Step 3"
@@ -167,62 +264,26 @@
                     "brownRice100": {
                         "label": "Brown Rice 100%"
                     },
-                    "riceWithAbaloneInHotPot": {
-                        "label": "Rice with Abalone in Hot Pot"
-                    },
                     "konjacRice": {
                         "label": "Konjac Rice"
                     },
                     "beef,Apple,BroccoliPorridge": {
                         "label": "Beef, Apple, Broccoli Porridge"
                     },
-                    "chicken,SweetPumpkin,Cabbage,StickyRicePorridge": {
-                        "label": "Chicken, Sweet Pumpkin, Cabbage, Sticky Rice Porridge"
-                    },
-                    "mixedGrainForSaladWithQuinoa(2Cup)": {
-                        "label": "Mixed Grain for Salad with Quinoa (2Cup)"
-                    },
                     "mixedGrainForSaladWithOatRice": {
                         "label": "Mixed Grain for Salad with Oat Rice"
-                    },
-                    "mixedGrainForSalad": {
-                        "label": "Mixed Grain for Salad"
                     },
                     "quinoaRice": {
                         "label": "Quinoa Rice"
                     },
-                    "steamedSweetPotato": {
-                        "label": "Steamed Sweet Potato"
-                    },
-                    "mixedGrainForSaladWithLentilBean": {
-                        "label": "Mixed Grain for Salad with Lentil Bean"
-                    },
-                    "oatRice": {
-                        "label": "Oat Rice"
-                    },
-                    "mixedGrainForSaladWithLentilBean(2Cup)": {
-                        "label": "Mixed Grain For Salad with Lentil Bean (2 Cup)"
-                    },
-                    "mixedGrainForSaladWithBrownRice": {
-                        "label": "Mixed Grain for Salad with Brown Rice"
-                    },
                     "abalonePorridge": {
                         "label": "Abalone Porridge"
                     },
-                    "riceWithBrackenAndSteakInHotPot": {
-                        "label": "Rice with Bracken and Steak in Hot Pot"
-                    },
-                    "cauldronRice": {
-                        "label": "Cauldron Rice"
-                    },
-                    "mixedGrainForSaladWithChickpea": {
-                        "label": "Mixed Grain for Salad with Chickpea"
+                    "whiteRice": {
+                        "label": "White Rice"
                     },
                     "yakbab": {
                         "label": "Yakbab"
-                    },
-                    "riceWithSteakInHotPot": {
-                        "label": "rice with Steak in Hot Pot"
                     },
                     "mixedGrains": {
                         "label": "Mixed Grains"
@@ -233,35 +294,17 @@
                     "mixedGrainForSaladWithBrownRice(1Cup)": {
                         "label": "Mixed Grain for Salad with Brown Rice (1 Cup)"
                     },
-                    "mixedGrainForSaladWithBarley": {
-                        "label": "Mixed Grain for Salad with Barley"
-                    },
                     "cod-Meat,Vitamin,CarrotPorridge": {
                         "label": "Cod-Meat, Vitamin, Carrot Porridge"
                     },
-                    "galbijjim": {
-                        "label": "Galbijjim"
-                    },
-                    "riceWithSeasonedVegetablesInHotPot": {
-                        "label": "Rice with Seasoned Vegetables in Hot Pot"
-                    },
-                    "riceWithWebfootOctopusAndSaussureaInHotPot": {
-                        "label": "Rice with Webfoot Octopus and Saussurea in Hot Pot"
+                    "quickMeal": {
+                        "label": "Quick Meal"
                     },
                     "riceWithSpicyWebfootOctopusInHotPot": {
                         "label": "Rice with Spicy Webfoot Octopus in Hot Pot"
                     },
-                    "mixedGrainForSaladWithQuinoa": {
-                        "label": "Mixed Grain for Salad with Quinoa"
-                    },
-                    "mixedGrainForSaladWithBrownRice(2Cup)": {
-                        "label": "Mixed Grain for Salad with Brown Rice (2 Cup)"
-                    },
                     "mixedGrainForSaladWithMillet": {
                         "label": "Mixed Grain for Salad with Millet"
-                    },
-                    "mixedGrainForVitality": {
-                        "label": "Mixed Grain for Vitality"
                     },
                     "scorchedRice": {
                         "label": "Scorched Rice"
@@ -278,41 +321,29 @@
                     "chicken,Zucchini,SweetPotato,StickyRicePorridge": {
                         "label": "Chicken, Zucchini, Sweet Potato, Sticky Rice Porridge"
                     },
-                    "plainQuick": {
-                        "label": "Plain Quick"
-                    },
                     "beef,KingTrumpetMushroom,BroccoliPorridge": {
                         "label": "Beef, King Trumpet Mushroom, Broccoli Porridge"
                     },
                     "nutritiousRiceInHotPot": {
                         "label": "Nutritious Rice in Hot Pot"
                     },
-                    "mixedGrainForSaladWithChickpea(2Cup)": {
-                        "label": "Mixed Grain for Salad with Chickpea (2 Cup)"
-                    },
                     "chicken,Cheese,Beet,Eggplant,SoftBoiledRice": {
                         "label": "Chicken, Cheese, Beet, Eggplant, Soft Boiled Rice"
                     },
-                    "wellCookedPlainRice": {
-                        "label": "Well Cooked Plain Rice"
+                    "noPressureSteaming": {
+                        "label": "No Pressure Steaming"
                     },
                     "chicken,SweetPotato,Beet,BeetPorridge": {
                         "label": "Chicken, Sweet Potato, Beet, Beet Porridge"
                     },
-                    "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice": {
-                        "label": "Beef, Beet, Enoki Mushroom, Perilla Seeds, Soft Boiled Rice"
-                    },
                     "beef,Zucchini,PearPorridge": {
                         "label": "Beef, Zucchini, Pear Porridge"
-                    },
-                    "potatoCarrotPorridge": {
-                        "label": "Potato Carrot Porridge"
                     },
                     "nutritiousPorridge": {
                         "label": "Nutritious Porridge"
                     },
-                    "frozenPlainRice": {
-                        "label": "Frozen Plain Rice"
+                    "potatoCarrotPorridge": {
+                        "label": "Potato Carrot Porridge"
                     },
                     "chicken,BeanSprouts,Jujube,StickyRicePorridge": {
                         "label": "Chicken, Bean Sprouts, Jujube, Sticky Rice Porridge"
@@ -323,17 +354,11 @@
                     "samgyetang": {
                         "label": "Samgyetang"
                     },
-                    "mixedGrainForSlim": {
-                        "label": "Mixed Grain for Slim"
-                    },
                     "boiledEgg": {
                         "label": "Boiled Egg"
                     },
                     "mixedGrainForSaladWithChickpea(1Cup)": {
                         "label": "Mixed Grain for Salad with Chickpea (1 Cup)"
-                    },
-                    "steamedDish": {
-                        "label": "Steamed Dish"
                     },
                     "lentilBeanRice": {
                         "label": "Lentil Bean Rice"
@@ -419,6 +444,9 @@
                     "barleyMixedGrainRice": {
                         "label": "Riz avec orge et mélange de céréales"
                     },
+                    "babyFood": {
+                        "label": "Baby food"
+                    },
                     "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice": {
                         "label": "Cabillaud, citrouille douce, germes de haricot, riz cuit au sésame"
                     },
@@ -461,8 +489,14 @@
                     "mixedGrainForSaladWithChickpea": {
                         "label": "Mélange de céréales et pois chiches en salade"
                     },
+                    "highHeatMixedGrains": {
+                        "label": "High heat mixed grains"
+                    },
                     "riceWithSteakInHotPot": {
                         "label": "Riz cuit dans un pot en grès avec steak"
+                    },
+                    "germinatedBrownRice": {
+                        "label": "Germinated brown rice"
                     },
                     "mixedGrainForSaladWithBarley": {
                         "label": "Mélange de céréales et orge en salade"
@@ -496,6 +530,12 @@
                     },
                     "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice": {
                         "label": "Bœuf, betterave, champignons enoki, riz cuit aux graines de pérille"
+                    },
+                    "vegetableRice": {
+                        "label": "Vegetable rice"
+                    },
+                    "grains": {
+                        "label": "Grains"
                     },
                     "frozenPlainRice": {
                         "label": "Riz blanc surgelé"
@@ -629,6 +669,9 @@
                     "abalonePorridge": {
                         "label": "Bouillie de riz à l'ormeau"
                     },
+                    "whiteRice": {
+                        "label": "White rice"
+                    },
                     "yakbab": {
                         "label": "Yakbap"
                     },
@@ -643,6 +686,9 @@
                     },
                     "cod-Meat,Vitamin,CarrotPorridge": {
                         "label": "Cabillaud, vitamine, porridge carotte"
+                    },
+                    "quickMeal": {
+                        "label": "Quick meal"
                     },
                     "riceWithSpicyWebfootOctopusInHotPot": {
                         "label": "Riz cuit dans un pot en grès avec poulpe ocellé"
@@ -673,6 +719,9 @@
                     },
                     "chicken,Cheese,Beet,Eggplant,SoftBoiledRice": {
                         "label": "Poulet, fromage, betterave, riz cuit aux aubergines"
+                    },
+                    "noPressureSteaming": {
+                        "label": "No pressure steaming"
                     },
                     "chicken,SweetPotato,Beet,BeetPorridge": {
                         "label": "Poulet, patate douce, betterave, porridge aux feuilles de betterave"
@@ -713,32 +762,14 @@
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {
                 "value": {
-                    "superGrains": {
-                        "label": "Super Grains"
-                    },
-                    "plainPorridge": {
-                        "label": "Plain Porridge"
-                    },
                     "mixedGrainForSaladWithAdlay": {
                         "label": "Mixed Grain for Salad with Adlay"
                     },
                     "scorchedRiceTea": {
                         "label": "Scorched Rice Tea"
                     },
-                    "kamutRice": {
-                        "label": "Kamut Rice"
-                    },
-                    "mixedGrainForSaladWithKamut": {
-                        "label": "Mixed Grain for Salad with Kamut"
-                    },
                     "odaemi": {
                         "label": "Odaemi"
-                    },
-                    "sousVide": {
-                        "label": "Sous Vide"
-                    },
-                    "riceWithRipeKimchiAndAbaloneInHotPot": {
-                        "label": "Rice with Ripe Kimchi and Abalone in Hot Pot"
                     },
                     "mixedGrainsQuick": {
                         "label": "Mixed Grains Quick"
@@ -746,8 +777,8 @@
                     "alchanmi": {
                         "label": "Alchanmi"
                     },
-                    "riceWithAssortedMushrommsInHotPot": {
-                        "label": "Rice with Assorted Mushromms in Hot Pot"
+                    "riceWithRipeKimchiAndAbaloneInHotPot": {
+                        "label": "Rice with Ripe Kimchi and Abalone in Hot Pot"
                     },
                     "riceForGimbap": {
                         "label": "Rice for Gimbap"
@@ -755,11 +786,11 @@
                     "beef,ShiitakeMushroom,EggPorridge": {
                         "label": "Beef, Shiitake Mushroom, Egg Porridge"
                     },
-                    "stickyPlainRice": {
-                        "label": "Sticky Plain Rice"
-                    },
                     "frozenMixedGrain": {
                         "label": "Frozen Mixed Grain"
+                    },
+                    "stickyPlainRice": {
+                        "label": "Sticky Plain Rice"
                     },
                     "beef,Cabbage,WhiteMushroom,Jujube,SoftBoiledRice": {
                         "label": "Beef,Cabbage,White Mushroom,Jujube,Soft Boiled Rice"
@@ -767,20 +798,11 @@
                     "broccoliPorridge": {
                         "label": "Broccoli Porridge"
                     },
-                    "chickpeaRice": {
-                        "label": "Chickpea Rice"
-                    },
-                    "bakedEgg": {
-                        "label": "Baked Egg"
-                    },
-                    "pineNutPorridge": {
-                        "label": "Pine Nut Porridge"
-                    },
                     "riceWithBeans": {
                         "label": "Rice with Beans"
                     },
-                    "mixedGrainForSaladWithQuinoa(1Cup)": {
-                        "label": "Mixed Grain for Salad with Quinoa (1Cup)"
+                    "babyFood": {
+                        "label": "Baby Food"
                     },
                     "barleyMixedGrainRice": {
                         "label": "Barley Mixed Grain Rice"
@@ -788,53 +810,23 @@
                     "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice": {
                         "label": "Cod Flesh, Sweet Pumpkin, Mung-Bean Sprouts, Black Sesame, Soft Boiled Rice"
                     },
-                    "babyFoodStep1": {
-                        "label": "Baby Food Step 1"
-                    },
-                    "babyFoodStep2": {
-                        "label": "Baby Food Step 2"
-                    },
-                    "babyFoodStep3": {
-                        "label": "Baby Food Step 3"
-                    },
                     "riceWithTruffledBulgogiInHotPot": {
                         "label": "Rice with Truffled Bulgogi in Hot Pot"
-                    },
-                    "haedeul": {
-                        "label": "Haedeul"
-                    },
-                    "mixedGrainForSaladWithLentilBean(1Cup)": {
-                        "label": "Mixed Grain for Salad with Lentil Bean (1Cup)"
-                    },
-                    "brownRice100": {
-                        "label": "Brown Rice 100%"
                     },
                     "riceWithAbaloneInHotPot": {
                         "label": "Rice with Abalone in Hot Pot"
                     },
-                    "konjacRice": {
-                        "label": "Konjac Rice"
-                    },
-                    "chicken,SweetPumpkin,Cabbage,StickyRicePorridge": {
-                        "label": "Chicken, Sweet Pumpkin, Cabbage, Sticky Rice Porridge"
-                    },
-                    "mixedGrainForSaladWithOatRice": {
-                        "label": "Mixed Grain for Salad with Oat Rice"
-                    },
                     "mixedGrainForSalad": {
                         "label": "Mixed Grain for Salad"
-                    },
-                    "beef,Apple,BroccoliPorridge": {
-                        "label": "Beef, Apple, Broccoli Porridge"
                     },
                     "mixedGrainForSaladWithQuinoa(2Cup)": {
                         "label": "Mixed Grain for Salad with Quinoa (2Cup)"
                     },
+                    "chicken,SweetPumpkin,Cabbage,StickyRicePorridge": {
+                        "label": "Chicken, Sweet Pumpkin, Cabbage, Sticky Rice Porridge"
+                    },
                     "steamedSweetPotato": {
                         "label": "Steamed Sweet Potato"
-                    },
-                    "quinoaRice": {
-                        "label": "Quinoa Rice"
                     },
                     "mixedGrainForSaladWithLentilBean": {
                         "label": "Mixed Grain for Salad with Lentil Bean"
@@ -848,9 +840,6 @@
                     "mixedGrainForSaladWithLentilBean(2Cup)": {
                         "label": "Mixed Grain For Salad with Lentil Bean (2 Cup)"
                     },
-                    "abalonePorridge": {
-                        "label": "Abalone Porridge"
-                    },
                     "riceWithBrackenAndSteakInHotPot": {
                         "label": "Rice with Bracken and Steak in Hot Pot"
                     },
@@ -860,11 +849,131 @@
                     "mixedGrainForSaladWithChickpea": {
                         "label": "Mixed Grain for Salad with Chickpea"
                     },
-                    "yakbab": {
-                        "label": "Yakbab"
+                    "highHeatMixedGrains": {
+                        "label": "High Heat Mixed Grains"
+                    },
+                    "germinatedBrownRice": {
+                        "label": "Germinated Brown Rice"
                     },
                     "riceWithSteakInHotPot": {
                         "label": "rice with Steak in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithBarley": {
+                        "label": "Mixed Grain for Salad with Barley"
+                    },
+                    "riceWithSeasonedVegetablesInHotPot": {
+                        "label": "Rice with Seasoned Vegetables in Hot Pot"
+                    },
+                    "galbijjim": {
+                        "label": "Galbijjim"
+                    },
+                    "riceWithWebfootOctopusAndSaussureaInHotPot": {
+                        "label": "Rice with Webfoot Octopus and Saussurea in Hot Pot"
+                    },
+                    "mixedGrainForSaladWithQuinoa": {
+                        "label": "Mixed Grain for Salad with Quinoa"
+                    },
+                    "mixedGrainForSaladWithBrownRice(2Cup)": {
+                        "label": "Mixed Grain for Salad with Brown Rice (2 Cup)"
+                    },
+                    "mixedGrainForVitality": {
+                        "label": "Mixed Grain for Vitality"
+                    },
+                    "plainQuick": {
+                        "label": "Plain Quick"
+                    },
+                    "mixedGrainForSaladWithChickpea(2Cup)": {
+                        "label": "Mixed Grain for Salad with Chickpea (2 Cup)"
+                    },
+                    "wellCookedPlainRice": {
+                        "label": "Well Cooked Plain Rice"
+                    },
+                    "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice": {
+                        "label": "Beef, Beet, Enoki Mushroom, Perilla Seeds, Soft Boiled Rice"
+                    },
+                    "vegetableRice": {
+                        "label": "Vegetable Rice"
+                    },
+                    "grains": {
+                        "label": "Grains"
+                    },
+                    "frozenPlainRice": {
+                        "label": "Frozen Plain Rice"
+                    },
+                    "mixedGrainForSlim": {
+                        "label": "Mixed Grain for Slim"
+                    },
+                    "steamedDish": {
+                        "label": "Steamed Dish"
+                    },
+                    "superGrains": {
+                        "label": "Super Grains"
+                    },
+                    "plainPorridge": {
+                        "label": "Plain Porridge"
+                    },
+                    "kamutRice": {
+                        "label": "Kamut Rice"
+                    },
+                    "mixedGrainForSaladWithKamut": {
+                        "label": "Mixed Grain for Salad with Kamut"
+                    },
+                    "sousVide": {
+                        "label": "Sous Vide"
+                    },
+                    "riceWithAssortedMushrommsInHotPot": {
+                        "label": "Rice with Assorted Mushromms in Hot Pot"
+                    },
+                    "pineNutPorridge": {
+                        "label": "Pine Nut Porridge"
+                    },
+                    "chickpeaRice": {
+                        "label": "Chickpea Rice"
+                    },
+                    "bakedEgg": {
+                        "label": "Baked Egg"
+                    },
+                    "mixedGrainForSaladWithQuinoa(1Cup)": {
+                        "label": "Mixed Grain for Salad with Quinoa (1Cup)"
+                    },
+                    "babyFoodStep1": {
+                        "label": "Baby Food Step 1"
+                    },
+                    "babyFoodStep2": {
+                        "label": "Baby Food Step 2"
+                    },
+                    "babyFoodStep3": {
+                        "label": "Baby Food Step 3"
+                    },
+                    "haedeul": {
+                        "label": "Haedeul"
+                    },
+                    "mixedGrainForSaladWithLentilBean(1Cup)": {
+                        "label": "Mixed Grain for Salad with Lentil Bean (1Cup)"
+                    },
+                    "brownRice100": {
+                        "label": "Brown Rice 100%"
+                    },
+                    "konjacRice": {
+                        "label": "Konjac Rice"
+                    },
+                    "mixedGrainForSaladWithOatRice": {
+                        "label": "Mixed Grain for Salad with Oat Rice"
+                    },
+                    "beef,Apple,BroccoliPorridge": {
+                        "label": "Beef, Apple, Broccoli Porridge"
+                    },
+                    "quinoaRice": {
+                        "label": "Quinoa Rice"
+                    },
+                    "abalonePorridge": {
+                        "label": "Abalone Porridge"
+                    },
+                    "whiteRice": {
+                        "label": "White Rice"
+                    },
+                    "yakbab": {
+                        "label": "Yakbab"
                     },
                     "mixedGrains": {
                         "label": "Mixed Grains"
@@ -878,32 +987,14 @@
                     "cod-Meat,Vitamin,CarrotPorridge": {
                         "label": "Cod-Meat, Vitamin, Carrot Porridge"
                     },
-                    "mixedGrainForSaladWithBarley": {
-                        "label": "Mixed Grain for Salad with Barley"
-                    },
-                    "galbijjim": {
-                        "label": "Galbijjim"
-                    },
-                    "riceWithSeasonedVegetablesInHotPot": {
-                        "label": "Rice with Seasoned Vegetables in Hot Pot"
-                    },
-                    "riceWithWebfootOctopusAndSaussureaInHotPot": {
-                        "label": "Rice with Webfoot Octopus and Saussurea in Hot Pot"
+                    "quickMeal": {
+                        "label": "Quick Meal"
                     },
                     "riceWithSpicyWebfootOctopusInHotPot": {
                         "label": "Rice with Spicy Webfoot Octopus in Hot Pot"
                     },
-                    "mixedGrainForSaladWithQuinoa": {
-                        "label": "Mixed Grain for Salad with Quinoa"
-                    },
-                    "mixedGrainForSaladWithBrownRice(2Cup)": {
-                        "label": "Mixed Grain for Salad with Brown Rice (2 Cup)"
-                    },
                     "mixedGrainForSaladWithMillet": {
                         "label": "Mixed Grain for Salad with Millet"
-                    },
-                    "mixedGrainForVitality": {
-                        "label": "Mixed Grain for Vitality"
                     },
                     "scorchedRice": {
                         "label": "Scorched Rice"
@@ -911,17 +1002,14 @@
                     "steamedPotato": {
                         "label": "Steamed Potato"
                     },
-                    "riceWithBeefAndAssortedMushroomsInHotPot": {
-                        "label": "Rice with Beef and Assorted Mushrooms in Hot Pot"
-                    },
                     "chicken,PineNut,Chestnut,Spinach,SoftBoiledRice": {
                         "label": "Chicken, Pine Nut, Chestnut, Spinach, Soft Boiled Rice"
                     },
+                    "riceWithBeefAndAssortedMushroomsInHotPot": {
+                        "label": "Rice with Beef and Assorted Mushrooms in Hot Pot"
+                    },
                     "chicken,Zucchini,SweetPotato,StickyRicePorridge": {
                         "label": "Chicken, Zucchini, Sweet Potato, Sticky Rice Porridge"
-                    },
-                    "plainQuick": {
-                        "label": "Plain Quick"
                     },
                     "beef,KingTrumpetMushroom,BroccoliPorridge": {
                         "label": "Beef, King Trumpet Mushroom, Broccoli Porridge"
@@ -932,17 +1020,11 @@
                     "nutritiousRiceInHotPot": {
                         "label": "Nutritious Rice in Hot Pot"
                     },
-                    "mixedGrainForSaladWithChickpea(2Cup)": {
-                        "label": "Mixed Grain for Salad with Chickpea (2 Cup)"
-                    },
-                    "wellCookedPlainRice": {
-                        "label": "Well Cooked Plain Rice"
+                    "noPressureSteaming": {
+                        "label": "No Pressure Steaming"
                     },
                     "chicken,SweetPotato,Beet,BeetPorridge": {
                         "label": "Chicken, Sweet Potato, Beet, Beet Porridge"
-                    },
-                    "beef,Beet,EnokiMushroom,PerillaSeeds,SoftBoiledRice": {
-                        "label": "Beef, Beet, Enoki Mushroom, Perilla Seeds, Soft Boiled Rice"
                     },
                     "beef,Zucchini,PearPorridge": {
                         "label": "Beef, Zucchini, Pear Porridge"
@@ -953,29 +1035,20 @@
                     "nutritiousPorridge": {
                         "label": "Nutritious Porridge"
                     },
-                    "chicken,BeanSprouts,Jujube,StickyRicePorridge": {
-                        "label": "Chicken, Bean Sprouts, Jujube, Sticky Rice Porridge"
-                    },
                     "chicken,BokChoy,BananaPorridge": {
                         "label": "Chicken, BokChoy, Banana Porridge"
                     },
-                    "frozenPlainRice": {
-                        "label": "Frozen Plain Rice"
+                    "chicken,BeanSprouts,Jujube,StickyRicePorridge": {
+                        "label": "Chicken, Bean Sprouts, Jujube, Sticky Rice Porridge"
                     },
                     "samgyetang": {
                         "label": "Samgyetang"
-                    },
-                    "mixedGrainForSlim": {
-                        "label": "Mixed Grain for Slim"
                     },
                     "boiledEgg": {
                         "label": "Boiled Egg"
                     },
                     "mixedGrainForSaladWithChickpea(1Cup)": {
                         "label": "Mixed Grain for Salad with Chickpea (1 Cup)"
-                    },
-                    "steamedDish": {
-                        "label": "Steamed Dish"
                     },
                     "lentilBeanRice": {
                         "label": "Lentil Bean Rice"
