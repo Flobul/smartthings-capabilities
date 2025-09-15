@@ -1,162 +1,190 @@
 {
     "tag": "en",
-    "label": "Vehicle Warning",
+    "label": "Warnings",
+    "description": "Get the warning state of a vehicle",
     "attributes": {
-        "lampWire": {
-            "label": "lampWire",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": {
-                "value": {
-                    "normal": {
-                        "label": "normal"
-                    },
-                    "warning": {
-                        "label": "warning"
-                    }
-                }
-            }
-        },
-        "auxiliaryBattery": {
-            "label": "auxiliaryBattery",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": {
-                "value": {
-                    "normal": {
-                        "label": "normal"
-                    },
-                    "warning": {
-                        "label": "warning"
-                    }
-                }
-            }
-        },
-        "brakeFluid": {
-            "label": "brakeFluid",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": {
-                "value": {
-                    "normal": {
-                        "label": "normal"
-                    },
-                    "warning": {
-                        "label": "warning"
-                    }
-                }
-            }
-        },
         "fuel": {
-            "label": "fuel",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Fuel level",
+            "description": "Current warning state of the fuel",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "normal": {
-                        "label": "normal"
+                        "label": "Normal"
                     },
                     "warning": {
-                        "label": "warning"
+                        "label": "Low fuel level"
                     }
                 }
             }
         },
         "tirePressureFrontLeft": {
-            "label": "tirePressureFrontLeft",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Tire pressure: Front left",
+            "description": "Current warning state of the tire pressure of front left",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "normal": {
-                        "label": "normal"
+                        "label": "Normal"
                     },
                     "warning": {
-                        "label": "warning"
+                        "label": "Tyre pressure warning: Front left"
                     }
                 }
             }
         },
-        "tirePressureFrontRight": {
-            "label": "tirePressureFrontRight",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+        "electricVehicleBattery": {
+            "label": "Vehicle battery",
+            "description": "Current warning state of the EV battery",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "normal": {
-                        "label": "normal"
+                        "label": "Normal"
                     },
                     "warning": {
-                        "label": "warning"
-                    }
-                }
-            }
-        },
-        "washerFluid": {
-            "label": "washerFluid",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": {
-                "value": {
-                    "normal": {
-                        "label": "normal"
-                    },
-                    "warning": {
-                        "label": "warning"
-                    }
-                }
-            }
-        },
-        "smartKeyBattery": {
-            "label": "smartKeyBattery",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": {
-                "value": {
-                    "normal": {
-                        "label": "normal"
-                    },
-                    "warning": {
-                        "label": "warning"
-                    }
-                }
-            }
-        },
-        "engineOil": {
-            "label": "engineOil",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
-            "i18n": {
-                "value": {
-                    "normal": {
-                        "label": "normal"
-                    },
-                    "warning": {
-                        "label": "warning"
+                        "label": "Low battery"
                     }
                 }
             }
         },
         "supportedAttributes": {
-            "label": "supportedAttributes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported attributes",
+            "description": "List of attributes this vehicle supports",
+            "displayTemplate": "{{device.label}} supports the following attributes: {{value}}",
             "i18n": {}
         },
-        "tirePressureRearLeft": {
-            "label": "tirePressureRearLeft",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+        "lampWire": {
+            "label": "Lamp wire",
+            "description": "Current warning state of the lamp wire",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "normal": {
-                        "label": "normal"
+                        "label": "Normal"
                     },
                     "warning": {
-                        "label": "warning"
+                        "label": "Check lamp wire"
+                    }
+                }
+            }
+        },
+        "auxiliaryBattery": {
+            "label": "Auxiliary battery",
+            "description": "Current warning state of the auxiliary battery",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Low auxiliary battery"
+                    }
+                }
+            }
+        },
+        "brakeFluid": {
+            "label": "Brake fluid",
+            "description": "Current warning state of the brake fluid",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Check brake fluid"
+                    }
+                }
+            }
+        },
+        "tirePressureFrontRight": {
+            "label": "Tire pressure: Front right",
+            "description": "Current warning state of the pressure of front right",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Tyre pressure warning: Front right"
+                    }
+                }
+            }
+        },
+        "washerFluid": {
+            "label": "Washer fluid",
+            "description": "Current warning state of the washer fluid",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Low washer fluid"
+                    }
+                }
+            }
+        },
+        "smartKeyBattery": {
+            "label": "Smart key battery",
+            "description": "Current warning state of the smart key battery",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Low fob battery"
+                    }
+                }
+            }
+        },
+        "engineOil": {
+            "label": "Engine oil",
+            "description": "Current warning state of the engine oil",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Check engine oil"
+                    }
+                }
+            }
+        },
+        "tirePressureRearLeft": {
+            "label": "Tire pressure: Rear left",
+            "description": "Current warning state of the pressure of rear left",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normal"
+                    },
+                    "warning": {
+                        "label": "Tyre pressure warning: Rear left"
                     }
                 }
             }
         },
         "tirePressureRearRight": {
-            "label": "tirePressureRearRight",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Tire pressure: Rear right",
+            "description": "Current warning state of the pressure of rear right",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "normal": {
-                        "label": "normal"
+                        "label": "Normal"
                     },
                     "warning": {
-                        "label": "warning"
+                        "label": "Tyre pressure warning: Rear right"
                     }
                 }
             }
