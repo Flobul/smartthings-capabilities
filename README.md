@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-09-15
+#### Last Update: 2025-09-22
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -75,7 +75,7 @@
 | [Color Control](./json/colorControl.json) | 1 | live | [json](./json/colorControlPresentation.json) | [json](./json/colorControl.i18n.fr.json) |
 | [Color Mode](./json/colorMode.json) | 1 | proposed | [json](./json/colorModePresentation.json) | [json](./json/colorMode.i18n.fr.json) |
 | [Color Temperature](./json/colorTemperature.json) | 1 | live | [json](./json/colorTemperaturePresentation.json) | [json](./json/colorTemperature.i18n.fr.json) |
-| [Configuration](./json/configuration.json) | 1 | live |  | [json](./json/configuration.i18n.fr.json) |
+| [Configuration](./json/configuration.json) | 1 | deprecated |  | [json](./json/configuration.i18n.fr.json) |
 | [Consumable](./json/consumable.json) | 1 | proposed | [json](./json/consumablePresentation.json) | [json](./json/consumable.i18n.fr.json) |
 | [Consumable Life](./json/consumableLife.json) | 1 | proposed | [json](./json/consumableLifePresentation.json) | [json](./json/consumableLife.i18n.fr.json) |
 | [Contact Sensor](./json/contactSensor.json) | 1 | live | [json](./json/contactSensorPresentation.json) | [json](./json/contactSensor.i18n.fr.json) |
