@@ -380,7 +380,7 @@
     {
         "id": "configuration",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
