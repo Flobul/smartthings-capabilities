@@ -157,7 +157,7 @@
                         {
                             "key": "off",
                             "value": "Turn off Climate control/engine",
-                            "type": "active"
+                            "type": "inactive"
                         }
                     ]
                 }
