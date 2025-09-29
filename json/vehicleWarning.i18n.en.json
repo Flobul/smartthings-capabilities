@@ -19,7 +19,7 @@
             }
         },
         "tirePressureFrontLeft": {
-            "label": "Tire pressure: Front left",
+            "label": "Tyre pressure: Front left",
             "description": "Current warning state of the tire pressure of front left",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -100,7 +100,7 @@
             }
         },
         "tirePressureFrontRight": {
-            "label": "Tire pressure: Front right",
+            "label": "Tyre pressure: Front right",
             "description": "Current warning state of the pressure of front right",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -160,7 +160,7 @@
             }
         },
         "tirePressureRearLeft": {
-            "label": "Tire pressure: Rear left",
+            "label": "Tyre pressure: Rear left",
             "description": "Current warning state of the pressure of rear left",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -175,7 +175,7 @@
             }
         },
         "tirePressureRearRight": {
-            "label": "Tire pressure: Rear right",
+            "label": "Tyre pressure: Rear right",
             "description": "Current warning state of the pressure of rear right",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
