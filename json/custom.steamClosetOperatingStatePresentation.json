@@ -2,21 +2,21 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{operatingState.value}}",
+                "label": "{{steamClosetMachineState.value}}",
                 "alternatives": [
                     {
-                        "key": "ready",
-                        "value": "___PO_CODE_CAPABILITY.CUSTOM.STEAMCLOSETOPERATINGSTATE_DEFAULT_ATTRIBUTES_OPERATINGSTATE_READY",
+                        "key": "stop",
+                        "value": "On",
                         "type": "active"
                     },
                     {
-                        "key": "running",
-                        "value": "___PO_CODE_CAPABILITY.CUSTOM.STEAMCLOSETOPERATINGSTATE_DEFAULT_ATTRIBUTES_OPERATINGSTATE_RUNNING",
+                        "key": "run",
+                        "value": "Caring",
                         "type": "active"
                     },
                     {
-                        "key": "paused",
-                        "value": "___PO_CODE_CAPABILITY.CUSTOM.STEAMCLOSETOPERATINGSTATE_DEFAULT_ATTRIBUTES_OPERATINGSTATE_PAUSED",
+                        "key": "pause",
+                        "value": "Paused",
                         "type": "active"
                     }
                 ]
@@ -159,57 +159,6 @@
                 }
             }
         ]
-    },
-    "automation": {
-        "conditions": [
-            {
-                "label": "Caring Progress",
-                "displayType": "list",
-                "list": {
-                    "alternatives": [
-                        {
-                            "key": "drying",
-                            "value": "Drying",
-                            "type": "active"
-                        },
-                        {
-                            "key": "steaming",
-                            "value": "Steaming",
-                            "type": "active"
-                        },
-                        {
-                            "key": "airwashing",
-                            "value": "Aircleaning",
-                            "type": "active"
-                        },
-                        {
-                            "key": "sterilizing",
-                            "value": "Sanitizing",
-                            "type": "active"
-                        },
-                        {
-                            "key": "dehumidifying",
-                            "value": "Dehumidifying",
-                            "type": "active"
-                        },
-                        {
-                            "key": "finish",
-                            "value": "Cycle complete",
-                            "type": "active"
-                        },
-                        {
-                            "key": "keepFresh",
-                            "value": "Keep fresh",
-                            "type": "active"
-                        }
-                    ],
-                    "value": "steamClosetJobState.value",
-                    "valueType": "string",
-                    "multiSelectable": false
-                }
-            }
-        ],
-        "actions": []
     },
     "id": "custom.steamClosetOperatingState",
     "version": 1
