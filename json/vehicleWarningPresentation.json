@@ -134,7 +134,7 @@
             }
         },
         {
-            "label": "Tire pressure: Front left",
+            "label": "Tyre pressure: Front left",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureFrontLeft.value}}",
@@ -153,7 +153,7 @@
             }
         },
         {
-            "label": "Tire pressure: Front right",
+            "label": "Tyre pressure: Front right",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureFrontRight.value}}",
@@ -172,7 +172,7 @@
             }
         },
         {
-            "label": "Tire pressure: Rear left",
+            "label": "Tyre pressure: Rear left",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureRearLeft.value}}",
@@ -191,7 +191,7 @@
             }
         },
         {
-            "label": "Tire pressure: Rear right",
+            "label": "Tyre pressure: Rear right",
             "displayType": "state",
             "state": {
                 "label": "{{tirePressureRearRight.value}}",
@@ -379,7 +379,7 @@
                 }
             },
             {
-                "label": "Tire pressure: Front left",
+                "label": "Tyre pressure: Front left",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -400,7 +400,7 @@
                 }
             },
             {
-                "label": "Tire pressure: Front right",
+                "label": "Tyre pressure: Front right",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -421,7 +421,7 @@
                 }
             },
             {
-                "label": "Tire pressure: Rear left",
+                "label": "Tyre pressure: Rear left",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -442,7 +442,7 @@
                 }
             },
             {
-                "label": "Tire pressure: Rear right",
+                "label": "Tyre pressure: Rear right",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
