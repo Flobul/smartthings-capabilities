@@ -975,7 +975,7 @@
     {
         "id": "mediaController",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1276,14 +1276,14 @@
     {
         "id": "precipitationMeasurement",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "precipitationRate",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
