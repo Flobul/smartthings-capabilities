@@ -13,18 +13,18 @@
             "i18n": {}
         },
         "steamClosetMachineState": {
-            "label": "steamClosetMachineState",
+            "label": "État de l'appareil",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "stop": {
-                        "label": "stop"
+                        "label": "Activation"
                     },
                     "run": {
-                        "label": "run"
+                        "label": "Nettoyage"
                     },
                     "pause": {
-                        "label": "pause"
+                        "label": "Pause"
                     }
                 }
             }
