@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-09-22
+#### Last Update: 2025-09-29
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -246,7 +246,7 @@
 | [Massage Time Change](./json/massageTimeChange.json) | 1 | proposed | [json](./json/massageTimeChangePresentation.json) | [json](./json/massageTimeChange.i18n.fr.json) |
 | [Massage Time Control](./json/massageTimeControl.json) | 1 | proposed | [json](./json/massageTimeControlPresentation.json) | [json](./json/massageTimeControl.i18n.fr.json) |
 | [Mechanical Pan Tilt Zoom](./json/mechanicalPanTiltZoom.json) | 1 | proposed |  | [json](./json/mechanicalPanTiltZoom.i18n.fr.json) |
-| [Media Controller](./json/mediaController.json) | 1 | proposed |  | [json](./json/mediaController.i18n.fr.json) |
+| [Media Controller](./json/mediaController.json) | 1 | deprecated |  | [json](./json/mediaController.i18n.fr.json) |
 | [Media Group](./json/mediaGroup.json) | 1 | proposed | [json](./json/mediaGroupPresentation.json) | [json](./json/mediaGroup.i18n.fr.json) |
 | [Media Input Source](./json/mediaInputSource.json) | 1 | live | [json](./json/mediaInputSourcePresentation.json) | [json](./json/mediaInputSource.i18n.fr.json) |
 | [Media Playback](./json/mediaPlayback.json) | 1 | live | [json](./json/mediaPlaybackPresentation.json) | [json](./json/mediaPlayback.i18n.fr.json) |
@@ -289,8 +289,8 @@
 | [Power Consumption Report](./json/powerConsumptionReport.json) | 1 | live |  | [json](./json/powerConsumptionReport.i18n.fr.json) |
 | [Power Meter](./json/powerMeter.json) | 1 | live | [json](./json/powerMeterPresentation.json) | [json](./json/powerMeter.i18n.fr.json) |
 | [Power Source](./json/powerSource.json) | 1 | live | [json](./json/powerSourcePresentation.json) | [json](./json/powerSource.i18n.fr.json) |
-| [Precipitation Measurement](./json/precipitationMeasurement.json) | 1 | proposed |  | [json](./json/precipitationMeasurement.i18n.fr.json) |
-| [Precipitation Rate](./json/precipitationRate.json) | 1 | proposed |  | [json](./json/precipitationRate.i18n.fr.json) |
+| [Precipitation Measurement](./json/precipitationMeasurement.json) | 1 | deprecated |  | [json](./json/precipitationMeasurement.i18n.fr.json) |
+| [Precipitation Rate](./json/precipitationRate.json) | 1 | deprecated |  | [json](./json/precipitationRate.i18n.fr.json) |
 | [Precipitation Sensor](./json/precipitationSensor.json) | 1 | live | [json](./json/precipitationSensorPresentation.json) | [json](./json/precipitationSensor.i18n.fr.json) |
 | [Presence Sensor](./json/presenceSensor.json) | 1 | live | [json](./json/presenceSensorPresentation.json) | [json](./json/presenceSensor.i18n.fr.json) |
 | [Pump Control Mode](./json/pumpControlMode.json) | 1 | proposed | [json](./json/pumpControlModePresentation.json) | [json](./json/pumpControlMode.i18n.fr.json) |
