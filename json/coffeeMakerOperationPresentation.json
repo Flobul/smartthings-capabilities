@@ -624,7 +624,8 @@
                                 "argumentType": "number"
                             }
                         }
-                    ]
+                    ],
+                    "supportedValues": "supportedArguments.value"
                 }
             }
         ]
