@@ -47,7 +47,7 @@
                         "label": "Rinçage en cours"
                     },
                     "freezeProtection": {
-                        "label": "Mode antigel"
+                        "label": "Évitez la formation de gel"
                     },
                     "waitingToDry": {
                         "label": "En attente du séchage"
