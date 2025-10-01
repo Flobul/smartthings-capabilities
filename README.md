@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-09-29
+#### Last Update: 2025-10-01
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -544,5 +544,6 @@
 | [Window Shade Preset](./json/windowShadePreset.json) | 1 | live | [json](./json/windowShadePresetPresentation.json) | [json](./json/windowShadePreset.i18n.fr.json) |
 | [Window Shade Tilt Level](./json/windowShadeTiltLevel.json) | 1 | proposed | [json](./json/windowShadeTiltLevelPresentation.json) | [json](./json/windowShadeTiltLevel.i18n.fr.json) |
 | [Wireless Operating Mode](./json/wirelessOperatingMode.json) | 1 | proposed | [json](./json/wirelessOperatingModePresentation.json) | [json](./json/wirelessOperatingMode.i18n.fr.json) |
+| [Zone Management](./json/zoneManagement.json) | 1 | proposed |  | [json](./json/zoneManagement.i18n.fr.json) |
 | [Zw Multichannel](./json/zwMultichannel.json) | 1 | live |  | [json](./json/zwMultichannel.i18n.fr.json) |
 
