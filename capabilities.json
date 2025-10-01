@@ -2205,6 +2205,13 @@
         "namespace": "st"
     },
     {
+        "id": "zoneManagement",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "zwMultichannel",
         "version": 1,
         "status": "live",
