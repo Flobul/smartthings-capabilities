@@ -1,0 +1,484 @@
+{
+    "id": "zoneManagement",
+    "version": 1,
+    "status": "proposed",
+    "name": "Zone Management",
+    "ephemeral": false,
+    "attributes": {
+        "supportedFeatures": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "perZoneSensitivity",
+                                "triggerAugmentation"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "maxZones": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "sensitivity": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 10
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSensitivity",
+            "enumCommands": []
+        },
+        "zones": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "Zone",
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "id": {
+                                    "type": "integer"
+                                },
+                                "name": {
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "2DCartesian"
+                                    ]
+                                },
+                                "polygonVertices": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "additionalProperties": false,
+                                        "properties": {
+                                            "vertex": {
+                                                "title": "CartesianCoordinate",
+                                                "type": "object",
+                                                "additionalProperties": false,
+                                                "properties": {
+                                                    "x": {
+                                                        "type": "integer"
+                                                    },
+                                                    "y": {
+                                                        "type": "integer"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "x",
+                                                    "y"
+                                                ]
+                                            }
+                                        },
+                                        "required": [
+                                            "vertex"
+                                        ]
+                                    }
+                                },
+                                "source": {
+                                    "type": "string",
+                                    "enum": [
+                                        "manufacturer",
+                                        "user"
+                                    ]
+                                },
+                                "use": {
+                                    "type": "string",
+                                    "enum": [
+                                        "motion",
+                                        "privacy",
+                                        "focus"
+                                    ]
+                                },
+                                "color": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "id",
+                                "name",
+                                "type",
+                                "polygonVertices",
+                                "source",
+                                "use"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "triggers": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "ZoneTrigger",
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "zoneId": {
+                                    "type": "integer"
+                                },
+                                "initialDuration": {
+                                    "type": "integer"
+                                },
+                                "augmentationDuration": {
+                                    "type": "integer"
+                                },
+                                "maxDuration": {
+                                    "type": "integer"
+                                },
+                                "blindDuration": {
+                                    "type": "integer"
+                                },
+                                "sensitivity": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 10
+                                }
+                            },
+                            "required": [
+                                "zoneId",
+                                "initialDuration"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        },
+        "sensitivityRange": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "minimum": {
+                                "type": "integer",
+                                "minimum": 1,
+                                "maximum": 9
+                            },
+                            "maximum": {
+                                "type": "integer",
+                                "minimum": 2,
+                                "maximum": 10
+                            }
+                        },
+                        "required": [
+                            "minimum",
+                            "maximum"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "triggeredZones": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "zoneId": {
+                                    "type": "integer"
+                                }
+                            },
+                            "required": [
+                                "zoneId"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "removeTrigger": {
+            "name": "removeTrigger",
+            "arguments": [
+                {
+                    "name": "zoneId",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "newZone": {
+            "name": "newZone",
+            "arguments": [
+                {
+                    "name": "name",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "polygonVertices",
+                    "optional": false,
+                    "schema": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "value": {
+                                    "title": "CartesianCoordinate",
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "x": {
+                                            "type": "integer"
+                                        },
+                                        "y": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "required": [
+                                        "x",
+                                        "y"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "value"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "use",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "motion",
+                            "privacy",
+                            "focus"
+                        ]
+                    }
+                },
+                {
+                    "name": "color",
+                    "optional": true,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setSensitivity": {
+            "name": "setSensitivity",
+            "arguments": [
+                {
+                    "name": "sensitivity",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 10
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "updateZone": {
+            "name": "updateZone",
+            "arguments": [
+                {
+                    "name": "zoneId",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                },
+                {
+                    "name": "name",
+                    "optional": true,
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "polygonVertices",
+                    "optional": true,
+                    "schema": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "value": {
+                                    "title": "CartesianCoordinate",
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "x": {
+                                            "type": "integer"
+                                        },
+                                        "y": {
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "required": [
+                                        "x",
+                                        "y"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "value"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "name": "use",
+                    "optional": true,
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "motion",
+                            "privacy",
+                            "focus"
+                        ]
+                    }
+                },
+                {
+                    "name": "color",
+                    "optional": true,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "removeZone": {
+            "name": "removeZone",
+            "arguments": [
+                {
+                    "name": "zoneId",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "createOrUpdateTrigger": {
+            "name": "createOrUpdateTrigger",
+            "arguments": [
+                {
+                    "name": "zoneId",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                },
+                {
+                    "name": "initialDuration",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                },
+                {
+                    "name": "augmentationDuration",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer"
+                    }
+                },
+                {
+                    "name": "maxDuration",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer"
+                    }
+                },
+                {
+                    "name": "blindDuration",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer"
+                    }
+                },
+                {
+                    "name": "sensitivity",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 10
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
