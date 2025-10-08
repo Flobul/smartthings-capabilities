@@ -287,6 +287,13 @@
         "namespace": "st"
     },
     {
+        "id": "cameraViewportSettings",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "carbonDioxideHealthConcern",
         "version": 1,
         "status": "live",
@@ -814,7 +821,7 @@
     {
         "id": "languageSetting",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -848,6 +855,13 @@
     },
     {
         "id": "lightControllerMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "localMediaStorage",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -919,7 +933,7 @@
     {
         "id": "logTrigger",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1087,7 +1101,7 @@
     {
         "id": "networkMeter",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1353,7 +1367,7 @@
     {
         "id": "refrigeration",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1547,6 +1561,13 @@
         "namespace": "st"
     },
     {
+        "id": "sounds",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "soundSensor",
         "version": 1,
         "status": "live",
@@ -1570,28 +1591,28 @@
     {
         "id": "statelessAirCleanerModeButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessAudioMuteButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessAudioVolumeButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessChannelButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1605,35 +1626,35 @@
     {
         "id": "statelessCustomButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessFanspeedButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessFanspeedModeButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessHumidifierModeButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessMediaPlaybackButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1654,21 +1675,21 @@
     {
         "id": "statelessRobotCleanerActionButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessRobotCleanerHomeButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessRobotCleanerToggleButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1682,35 +1703,35 @@
     {
         "id": "statelessSetChannelButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessSetChannelByContentButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessSetChannelByNameButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessTemperatureButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessVolumeButtonWithRepetition",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1780,7 +1801,7 @@
     {
         "id": "testCapability",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -2065,6 +2086,13 @@
         "namespace": "st"
     },
     {
+        "id": "videoStreamSettings",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "voltageMeasurement",
         "version": 1,
         "status": "live",
@@ -2214,7 +2242,7 @@
     {
         "id": "zwMultichannel",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     }
