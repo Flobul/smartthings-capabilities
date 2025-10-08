@@ -534,7 +534,7 @@
                         },
                         {
                             "key": "chicken,Zucchini,SweetPotato,StickyRicePorridge",
-                            "value": "Chicken, zucchini, sweet potato, sticky rice porridge",
+                            "value": "Chicken, courgette, sweet potato, sticky rice porridge",
                             "type": "active"
                         },
                         {
@@ -549,7 +549,7 @@
                         },
                         {
                             "key": "beef,Zucchini,PearPorridge",
-                            "value": "Beef, zucchini, pear porridge",
+                            "value": "Beef, courgette, pear porridge",
                             "type": "active"
                         },
                         {
@@ -620,6 +620,46 @@
                         {
                             "key": "steamedPotato",
                             "value": "Steamed potato",
+                            "type": "active"
+                        },
+                        {
+                            "key": "babyFood",
+                            "value": "Baby food",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quickMeal",
+                            "value": "Quick meal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "noPressureSteaming",
+                            "value": "No pressure steaming",
+                            "type": "active"
+                        },
+                        {
+                            "key": "germinatedBrownRice",
+                            "value": "Germinated brown rice",
+                            "type": "active"
+                        },
+                        {
+                            "key": "vegetableRice",
+                            "value": "Rice with vegetables",
+                            "type": "active"
+                        },
+                        {
+                            "key": "highHeatMixedGrains",
+                            "value": "High heat mixed grains",
+                            "type": "active"
+                        },
+                        {
+                            "key": "whiteRice",
+                            "value": "White rice",
+                            "type": "active"
+                        },
+                        {
+                            "key": "grains",
+                            "value": "Grains",
                             "type": "active"
                         },
                         {
@@ -1087,7 +1127,7 @@
                         },
                         {
                             "key": "chicken,Zucchini,SweetPotato,StickyRicePorridge",
-                            "value": "Chicken, zucchini, sweet potato, sticky rice porridge",
+                            "value": "Chicken, courgette, sweet potato, sticky rice porridge",
                             "type": "active"
                         },
                         {
@@ -1102,7 +1142,7 @@
                         },
                         {
                             "key": "beef,Zucchini,PearPorridge",
-                            "value": "Beef, zucchini, pear porridge",
+                            "value": "Beef, courgette, pear porridge",
                             "type": "active"
                         },
                         {
@@ -1173,6 +1213,46 @@
                         {
                             "key": "steamedPotato",
                             "value": "Steamed potato",
+                            "type": "active"
+                        },
+                        {
+                            "key": "babyFood",
+                            "value": "Baby food",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quickMeal",
+                            "value": "Quick meal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "noPressureSteaming",
+                            "value": "No pressure steaming",
+                            "type": "active"
+                        },
+                        {
+                            "key": "germinatedBrownRice",
+                            "value": "Germinated brown rice",
+                            "type": "active"
+                        },
+                        {
+                            "key": "vegetableRice",
+                            "value": "Rice with vegetables",
+                            "type": "active"
+                        },
+                        {
+                            "key": "highHeatMixedGrains",
+                            "value": "High heat mixed grains",
+                            "type": "active"
+                        },
+                        {
+                            "key": "whiteRice",
+                            "value": "White rice",
+                            "type": "active"
+                        },
+                        {
+                            "key": "grains",
+                            "value": "Grains",
                             "type": "active"
                         },
                         {
@@ -1799,7 +1879,7 @@
                         },
                         {
                             "key": "chicken,Zucchini,SweetPotato,StickyRicePorridge",
-                            "value": "Chicken, zucchini, sweet potato, sticky rice porridge",
+                            "value": "Chicken, courgette, sweet potato, sticky rice porridge",
                             "type": "active"
                         },
                         {
@@ -1814,7 +1894,7 @@
                         },
                         {
                             "key": "beef,Zucchini,PearPorridge",
-                            "value": "Beef, zucchini, pear porridge",
+                            "value": "Beef, courgette, pear porridge",
                             "type": "active"
                         },
                         {
@@ -1885,6 +1965,46 @@
                         {
                             "key": "steamedPotato",
                             "value": "Steamed potato",
+                            "type": "active"
+                        },
+                        {
+                            "key": "babyFood",
+                            "value": "Baby food",
+                            "type": "active"
+                        },
+                        {
+                            "key": "quickMeal",
+                            "value": "Quick meal",
+                            "type": "active"
+                        },
+                        {
+                            "key": "noPressureSteaming",
+                            "value": "No pressure steaming",
+                            "type": "active"
+                        },
+                        {
+                            "key": "germinatedBrownRice",
+                            "value": "Germinated brown rice",
+                            "type": "active"
+                        },
+                        {
+                            "key": "vegetableRice",
+                            "value": "Rice with vegetables",
+                            "type": "active"
+                        },
+                        {
+                            "key": "highHeatMixedGrains",
+                            "value": "High heat mixed grains",
+                            "type": "active"
+                        },
+                        {
+                            "key": "whiteRice",
+                            "value": "White rice",
+                            "type": "active"
+                        },
+                        {
+                            "key": "grains",
+                            "value": "Grains",
                             "type": "active"
                         },
                         {
