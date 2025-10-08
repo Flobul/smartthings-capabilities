@@ -1,7 +1,7 @@
 {
     "id": "statelessSetChannelByNameButton",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Stateless Set Channel By Name Button",
     "ephemeral": false,
     "attributes": {},
