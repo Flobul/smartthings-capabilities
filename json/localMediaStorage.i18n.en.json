@@ -1,0 +1,49 @@
+{
+    "tag": "en",
+    "label": "Local Media Storage",
+    "attributes": {
+        "localSnapshotRecording": {
+            "label": "localSnapshotRecording",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "localVideoRecording": {
+            "label": "localVideoRecording",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "supportedAttributes": {
+            "label": "supportedAttributes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setLocalVideoRecording": {
+            "label": "setLocalVideoRecording",
+            "arguments": {}
+        },
+        "setLocalSnapshotRecording": {
+            "label": "setLocalSnapshotRecording",
+            "arguments": {}
+        }
+    }
+}
