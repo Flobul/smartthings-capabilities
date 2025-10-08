@@ -69,6 +69,12 @@
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         },
+        "supportedCommands": {
+            "label": "supported commands",
+            "description": "An optional list of all commands supported by the robot cleaner, regardless of its current state. Setting this list is required for some integrations that may dynamically add or remove commands from the supportedOperatingStateCommands attribute based on the device's current operating state. In such cases, the supportedCommands attribute should be set to the full list of commands, and the device configuration should be patched to use supportedCommands rather than supportedOperatingStateCommands in the automation/actions section. If the device configuration is not patched, supportedCommands will not affect the routine builder user interface.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {}
+        },
         "supportedOperatingStateCommands": {
             "label": "supported operating state commands",
             "description": "Current available operational state commands",
