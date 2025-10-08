@@ -1,0 +1,70 @@
+{
+    "id": "sounds",
+    "version": 1,
+    "status": "proposed",
+    "name": "Sounds",
+    "ephemeral": false,
+    "attributes": {
+        "selectedSound": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSelectedSound",
+            "enumCommands": []
+        },
+        "supportedSounds": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "id": {
+                                    "type": "integer"
+                                },
+                                "label": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": []
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "playSound": {
+            "name": "playSound",
+            "arguments": [],
+            "sensitive": false
+        },
+        "setSelectedSound": {
+            "name": "setSelectedSound",
+            "arguments": [
+                {
+                    "name": "id",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
