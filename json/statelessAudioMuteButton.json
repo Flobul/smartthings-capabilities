@@ -1,7 +1,7 @@
 {
     "id": "statelessAudioMuteButton",
     "version": 1,
-    "status": "live",
+    "status": "deprecated",
     "name": "Stateless Audio Mute Button",
     "ephemeral": false,
     "attributes": {
