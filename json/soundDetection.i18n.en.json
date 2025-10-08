@@ -46,7 +46,7 @@
                         "label": "Faucet running"
                     },
                     "doorKnocking": {
-                        "label": "Knock on door"
+                        "label": "Knocking"
                     },
                     "kettleBoiling": {
                         "label": "Kettle boiling"
@@ -88,7 +88,7 @@
                         "label": "Snoring"
                     },
                     "glassBreaking": {
-                        "label": "Breaking glass"
+                        "label": "Glass breaking"
                     },
                     "dogGrowling": {
                         "label": "Dog growling"
