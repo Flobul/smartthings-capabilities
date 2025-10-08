@@ -1,7 +1,7 @@
 {
     "id": "statelessCustomButton",
     "version": 1,
-    "status": "live",
+    "status": "deprecated",
     "name": "Stateless Custom Button",
     "ephemeral": false,
     "attributes": {

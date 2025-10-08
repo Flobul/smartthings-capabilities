@@ -1,7 +1,7 @@
 {
     "id": "statelessAirCleanerModeButton",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Stateless Air Cleaner Mode Button",
     "ephemeral": false,
     "attributes": {

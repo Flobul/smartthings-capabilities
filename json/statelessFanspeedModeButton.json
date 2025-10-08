@@ -1,7 +1,7 @@
 {
     "id": "statelessFanspeedModeButton",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Stateless Fanspeed Mode Button",
     "ephemeral": false,
     "attributes": {
