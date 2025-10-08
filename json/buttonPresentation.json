@@ -118,6 +118,26 @@
                         "key": "up_hold",
                         "value": "Held up",
                         "type": "active"
+                    },
+                    {
+                        "key": "swipe_up",
+                        "value": "Swipe up",
+                        "type": "active"
+                    },
+                    {
+                        "key": "swipe_down",
+                        "value": "Swipe down",
+                        "type": "active"
+                    },
+                    {
+                        "key": "swipe_left",
+                        "value": "Swipe left",
+                        "type": "active"
+                    },
+                    {
+                        "key": "swipe_right",
+                        "value": "Swipe right",
+                        "type": "active"
                     }
                 ]
             }
@@ -246,6 +266,26 @@
                         "key": "up_hold",
                         "value": "Held up",
                         "type": "active"
+                    },
+                    {
+                        "key": "swipe_up",
+                        "value": "Swipe up",
+                        "type": "active"
+                    },
+                    {
+                        "key": "swipe_down",
+                        "value": "Swipe down",
+                        "type": "active"
+                    },
+                    {
+                        "key": "swipe_left",
+                        "value": "Swipe left",
+                        "type": "active"
+                    },
+                    {
+                        "key": "swipe_right",
+                        "value": "Swipe right",
+                        "type": "active"
                     }
                 ]
             }
@@ -366,6 +406,26 @@
                         {
                             "key": "up_hold",
                             "value": "Held up",
+                            "type": "active"
+                        },
+                        {
+                            "key": "swipe_up",
+                            "value": "Swipe up",
+                            "type": "active"
+                        },
+                        {
+                            "key": "swipe_down",
+                            "value": "Swipe down",
+                            "type": "active"
+                        },
+                        {
+                            "key": "swipe_left",
+                            "value": "Swipe left",
+                            "type": "active"
+                        },
+                        {
+                            "key": "swipe_right",
+                            "value": "Swipe right",
                             "type": "active"
                         }
                     ],

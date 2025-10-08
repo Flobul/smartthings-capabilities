@@ -1,7 +1,7 @@
 {
     "id": "statelessChannelButton",
     "version": 1,
-    "status": "live",
+    "status": "deprecated",
     "name": "Stateless Channel Button",
     "ephemeral": false,
     "attributes": {
