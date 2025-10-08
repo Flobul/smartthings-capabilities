@@ -532,7 +532,7 @@
                         "label": "Beef, beet, enoki mushroom, perilla seed soft-boiled rice"
                     },
                     "vegetableRice": {
-                        "label": "Vegetable rice"
+                        "label": "Rice with vegetables"
                     },
                     "grains": {
                         "label": "Grains"
@@ -709,7 +709,7 @@
                         "label": "Chicken, pine nut, chestnut, spinach soft-boiled rice"
                     },
                     "chicken,Zucchini,SweetPotato,StickyRicePorridge": {
-                        "label": "Chicken, zucchini, sweet potato, sticky rice porridge"
+                        "label": "Chicken, courgette, sweet potato, sticky rice porridge"
                     },
                     "beef,KingTrumpetMushroom,BroccoliPorridge": {
                         "label": "Beef, king trumpet mushroom, broccoli porridge"
@@ -727,7 +727,7 @@
                         "label": "Chicken, sweet potato, beetroot, beet green porridge"
                     },
                     "beef,Zucchini,PearPorridge": {
-                        "label": "Beef, zucchini, pear porridge"
+                        "label": "Beef, courgette, pear porridge"
                     },
                     "nutritiousPorridge": {
                         "label": "Nutritious porridge"
