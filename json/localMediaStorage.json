@@ -1,0 +1,111 @@
+{
+    "id": "localMediaStorage",
+    "version": 1,
+    "status": "proposed",
+    "name": "Local Media Storage",
+    "ephemeral": false,
+    "attributes": {
+        "localSnapshotRecording": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setLocalSnapshotRecording",
+            "enumCommands": []
+        },
+        "localVideoRecording": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setLocalVideoRecording",
+            "enumCommands": []
+        },
+        "supportedAttributes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "localVideoRecording",
+                                "localSnapshotRecording"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setLocalVideoRecording": {
+            "name": "setLocalVideoRecording",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setLocalSnapshotRecording": {
+            "name": "setLocalSnapshotRecording",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
