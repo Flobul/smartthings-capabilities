@@ -37,7 +37,7 @@
                         "label": "Impossible de démarrer"
                     },
                     "standby": {
-                        "label": "Standby"
+                        "label": "En veille"
                     },
                     "commandInvalidInCurrentState": {
                         "label": "Impossible d'effectuer l\\'action"
