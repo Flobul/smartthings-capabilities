@@ -445,7 +445,7 @@
                         "label": "Riz avec orge et mélange de céréales"
                     },
                     "babyFood": {
-                        "label": "Baby food"
+                        "label": "Nourriture pour bébé"
                     },
                     "codFlesh,SweetPumpkin,Mung-BeanSprouts,BlackSesame,SoftBoiledRice": {
                         "label": "Cabillaud, citrouille douce, germes de haricot, riz cuit au sésame"
@@ -490,13 +490,13 @@
                         "label": "Mélange de céréales et pois chiches en salade"
                     },
                     "highHeatMixedGrains": {
-                        "label": "High heat mixed grains"
+                        "label": "Mélange de céréales à haute température"
                     },
                     "riceWithSteakInHotPot": {
                         "label": "Riz cuit dans un pot en grès avec steak"
                     },
                     "germinatedBrownRice": {
-                        "label": "Germinated brown rice"
+                        "label": "Riz brun germé"
                     },
                     "mixedGrainForSaladWithBarley": {
                         "label": "Mélange de céréales et orge en salade"
@@ -532,10 +532,10 @@
                         "label": "Bœuf, betterave, champignons enoki, riz cuit aux graines de pérille"
                     },
                     "vegetableRice": {
-                        "label": "Vegetable rice"
+                        "label": "Riz et légumes"
                     },
                     "grains": {
-                        "label": "Grains"
+                        "label": "Graines"
                     },
                     "frozenPlainRice": {
                         "label": "Riz blanc surgelé"
@@ -670,7 +670,7 @@
                         "label": "Bouillie de riz à l'ormeau"
                     },
                     "whiteRice": {
-                        "label": "White rice"
+                        "label": "Riz blanc"
                     },
                     "yakbab": {
                         "label": "Yakbap"
@@ -688,7 +688,7 @@
                         "label": "Cabillaud, vitamine, porridge carotte"
                     },
                     "quickMeal": {
-                        "label": "Quick meal"
+                        "label": "Repas rapide"
                     },
                     "riceWithSpicyWebfootOctopusInHotPot": {
                         "label": "Riz cuit dans un pot en grès avec poulpe ocellé"
@@ -721,7 +721,7 @@
                         "label": "Poulet, fromage, betterave, riz cuit aux aubergines"
                     },
                     "noPressureSteaming": {
-                        "label": "No pressure steaming"
+                        "label": "Cuisson vapeur sans pression"
                     },
                     "chicken,SweetPotato,Beet,BeetPorridge": {
                         "label": "Poulet, patate douce, betterave, porridge aux feuilles de betterave"
