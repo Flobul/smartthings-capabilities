@@ -1,111 +1,106 @@
 {
-    "id": "refrigeration",
+    "id": "localMediaStorage",
     "version": 1,
-    "status": "deprecated",
-    "name": "Refrigeration",
+    "status": "proposed",
+    "name": "Local Media Storage",
     "ephemeral": false,
     "attributes": {
-        "defrost": {
+        "localSnapshotRecording": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
+                        "title": "EnableState",
                         "type": "string",
                         "enum": [
-                            "off",
-                            "on"
+                            "enabled",
+                            "disabled"
                         ]
                     }
                 },
                 "additionalProperties": false,
-                "required": []
+                "required": [
+                    "value"
+                ]
             },
-            "setter": "setDefrost",
+            "setter": "setLocalSnapshotRecording",
             "enumCommands": []
         },
-        "rapidCooling": {
+        "localVideoRecording": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
+                        "title": "EnableState",
                         "type": "string",
                         "enum": [
-                            "off",
-                            "on"
+                            "enabled",
+                            "disabled"
                         ]
                     }
                 },
                 "additionalProperties": false,
-                "required": []
+                "required": [
+                    "value"
+                ]
             },
-            "setter": "setRapidCooling",
+            "setter": "setLocalVideoRecording",
             "enumCommands": []
         },
-        "rapidFreezing": {
+        "supportedAttributes": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "string",
-                        "enum": [
-                            "off",
-                            "on"
-                        ]
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "localVideoRecording",
+                                "localSnapshotRecording"
+                            ]
+                        }
                     }
                 },
                 "additionalProperties": false,
-                "required": []
+                "required": [
+                    "value"
+                ]
             },
-            "setter": "setRapidFreezing",
             "enumCommands": []
         }
     },
     "commands": {
-        "setDefrost": {
-            "name": "setDefrost",
+        "setLocalVideoRecording": {
+            "name": "setLocalVideoRecording",
             "arguments": [
                 {
-                    "name": "defrost",
+                    "name": "state",
                     "optional": false,
                     "schema": {
+                        "title": "EnableState",
                         "type": "string",
                         "enum": [
-                            "off",
-                            "on"
+                            "enabled",
+                            "disabled"
                         ]
                     }
                 }
             ],
             "sensitive": false
         },
-        "setRapidFreezing": {
-            "name": "setRapidFreezing",
+        "setLocalSnapshotRecording": {
+            "name": "setLocalSnapshotRecording",
             "arguments": [
                 {
-                    "name": "rapidFreezing",
+                    "name": "state",
                     "optional": false,
                     "schema": {
+                        "title": "EnableState",
                         "type": "string",
                         "enum": [
-                            "off",
-                            "on"
-                        ]
-                    }
-                }
-            ],
-            "sensitive": false
-        },
-        "setRapidCooling": {
-            "name": "setRapidCooling",
-            "arguments": [
-                {
-                    "name": "rapidCooling",
-                    "optional": false,
-                    "schema": {
-                        "type": "string",
-                        "enum": [
-                            "off",
-                            "on"
+                            "enabled",
+                            "disabled"
                         ]
                     }
                 }

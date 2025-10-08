@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Camera Viewport Settings",
+    "attributes": {
+        "defaultViewport": {
+            "label": "defaultViewport",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "minViewportResolution": {
+            "label": "minViewportResolution",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "videoSensorParameters": {
+            "label": "videoSensorParameters",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setDefaultViewport": {
+            "label": "setDefaultViewport",
+            "arguments": {}
+        }
+    }
+}
