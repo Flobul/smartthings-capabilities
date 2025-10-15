@@ -41,7 +41,7 @@
         },
         "talkbackDuplex": {
             "label": "Talkback duplex",
-            "description": "Indicates whether talkback is supported as half duplex or full duplex. Half duplex\nallows audio in one direction at a time, such as a push-to-speak service like\na buzzer into a building, or a walkie-talkie. Full duplex supports audio in both\ndirections simultaneously.\n\nIn cases of half duplex communication, the talkback attribute can be used to indicate that\naudio is streaming from client to video source.\n\nThe 'audio' value in the supportedFeatures attribute is what indicates support for the talkback\nfeature as a whole.\n",
+            "description": "Indicates whether talkback is supported as half duplex or full duplex. Half duplex\nallows audio in one direction at a time, such as a push-to-speak service like\na buzzer into a building, or a walkie-talkie. Full duplex supports audio in both\ndirections simultaneously.\n\nThe 'audio' value in the supportedFeatures attribute is what indicates support for the talkback\nfeature as a whole.\n",
             "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {
                 "value": {
