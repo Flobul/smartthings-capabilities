@@ -2,6 +2,11 @@
     "tag": "en",
     "label": "End to End Encryption",
     "attributes": {
+        "error": {
+            "label": "error",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "nonce": {
             "label": "nonce",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
