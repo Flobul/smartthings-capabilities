@@ -9,6 +9,10 @@
         }
     },
     "commands": {
+        "sendData": {
+            "label": "sendData",
+            "arguments": {}
+        },
         "setAmbientOn": {
             "label": "Ambient Mode On",
             "arguments": {}
