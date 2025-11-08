@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-11-01
+#### Last Update: 2025-11-08
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -451,6 +451,7 @@
 | [Stateless Audio Mute Button](./json/statelessAudioMuteButton.json) | 1 | deprecated | [json](./json/statelessAudioMuteButtonPresentation.json) | [json](./json/statelessAudioMuteButton.i18n.fr.json) |
 | [Stateless Audio Volume Button](./json/statelessAudioVolumeButton.json) | 1 | deprecated | [json](./json/statelessAudioVolumeButtonPresentation.json) | [json](./json/statelessAudioVolumeButton.i18n.fr.json) |
 | [Stateless Channel Button](./json/statelessChannelButton.json) | 1 | deprecated | [json](./json/statelessChannelButtonPresentation.json) | [json](./json/statelessChannelButton.i18n.fr.json) |
+| [Stateless Color Temperature Step](./json/statelessColorTemperatureStep.json) | 1 | proposed |  | [json](./json/statelessColorTemperatureStep.i18n.fr.json) |
 | [Stateless Curtain Power Button](./json/statelessCurtainPowerButton.json) | 1 | proposed | [json](./json/statelessCurtainPowerButtonPresentation.json) | [json](./json/statelessCurtainPowerButton.i18n.fr.json) |
 | [Stateless Custom Button](./json/statelessCustomButton.json) | 1 | deprecated | [json](./json/statelessCustomButtonPresentation.json) | [json](./json/statelessCustomButton.i18n.fr.json) |
 | [Stateless Fanspeed Button](./json/statelessFanspeedButton.json) | 1 | deprecated | [json](./json/statelessFanspeedButtonPresentation.json) | [json](./json/statelessFanspeedButton.i18n.fr.json) |
@@ -466,6 +467,7 @@
 | [Stateless Set Channel Button](./json/statelessSetChannelButton.json) | 1 | deprecated | [json](./json/statelessSetChannelButtonPresentation.json) | [json](./json/statelessSetChannelButton.i18n.fr.json) |
 | [Stateless Set Channel By Content Button](./json/statelessSetChannelByContentButton.json) | 1 | deprecated | [json](./json/statelessSetChannelByContentButtonPresentation.json) | [json](./json/statelessSetChannelByContentButton.i18n.fr.json) |
 | [Stateless Set Channel By Name Button](./json/statelessSetChannelByNameButton.json) | 1 | deprecated | [json](./json/statelessSetChannelByNameButtonPresentation.json) | [json](./json/statelessSetChannelByNameButton.i18n.fr.json) |
+| [Stateless Switch Level Step](./json/statelessSwitchLevelStep.json) | 1 | proposed |  | [json](./json/statelessSwitchLevelStep.i18n.fr.json) |
 | [Stateless Temperature Button](./json/statelessTemperatureButton.json) | 1 | deprecated | [json](./json/statelessTemperatureButtonPresentation.json) | [json](./json/statelessTemperatureButton.i18n.fr.json) |
 | [Stateless Volume Button With Repetition](./json/statelessVolumeButtonWithRepetition.json) | 1 | deprecated | [json](./json/statelessVolumeButtonWithRepetitionPresentation.json) | [json](./json/statelessVolumeButtonWithRepetition.i18n.fr.json) |
 | [Step Sensor](./json/stepSensor.json) | 1 | deprecated |  | [json](./json/stepSensor.i18n.fr.json) |
