@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "label": "Stateless Switch Level Step",
+    "attributes": {},
+    "commands": {
+        "stepLevel": {
+            "label": "stepLevel",
+            "arguments": {}
+        }
+    }
+}
