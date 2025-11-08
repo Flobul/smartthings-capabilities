@@ -77,13 +77,6 @@
         "namespace": "st"
     },
     {
-        "id": "alarmSensor",
-        "version": 1,
-        "status": "proposed",
-        "ephemeral": false,
-        "namespace": "st"
-    },
-    {
         "id": "alarmsensor",
         "version": 1,
         "status": "proposed",
@@ -1624,6 +1617,13 @@
         "namespace": "st"
     },
     {
+        "id": "statelessColorTemperatureStep",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "statelessCurtainPowerButton",
         "version": 1,
         "status": "proposed",
@@ -1725,6 +1725,13 @@
         "id": "statelessSetChannelByNameButton",
         "version": 1,
         "status": "deprecated",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "statelessSwitchLevelStep",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
