@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "label": "Stateless Color Temperature Step",
+    "attributes": {},
+    "commands": {
+        "stepColorTemperatureByPercent": {
+            "label": "stepColorTemperatureByPercent",
+            "arguments": {}
+        }
+    }
+}
