@@ -43,7 +43,7 @@
                         "label": "Person detected"
                     },
                     "packageDisappear": {
-                        "label": "Parcel out of view"
+                        "label": "Parcel gone"
                     },
                     "personDisappear": {
                         "label": "Person out of view"
