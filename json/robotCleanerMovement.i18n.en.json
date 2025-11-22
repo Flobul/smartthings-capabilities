@@ -12,6 +12,9 @@
                     "cleaning": {
                         "label": "Cleaning"
                     },
+                    "washingMop": {
+                        "label": "Washing mop"
+                    },
                     "idle": {
                         "label": "Standby"
                     },
@@ -52,6 +55,9 @@
                     "i18n": {
                         "cleaning": {
                             "label": "Cleaning"
+                        },
+                        "washingMop": {
+                            "label": "Washing mop"
                         },
                         "idle": {
                             "label": "Standby"
