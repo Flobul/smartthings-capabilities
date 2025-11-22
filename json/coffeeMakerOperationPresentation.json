@@ -625,7 +625,7 @@
                             }
                         }
                     ],
-                    "supportedValues": "supportedArguments.value"
+                    "supportedValues": "supportedArgument.value"
                 }
             }
         ]
