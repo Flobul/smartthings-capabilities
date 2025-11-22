@@ -21,7 +21,8 @@
                             "point",
                             "after",
                             "cleaning",
-                            "pause"
+                            "pause",
+                            "washingMop"
                         ]
                     }
                 },
@@ -53,7 +54,8 @@
                             "point",
                             "after",
                             "cleaning",
-                            "pause"
+                            "pause",
+                            "washingMop"
                         ]
                     }
                 }
