@@ -91,6 +91,13 @@
         "namespace": "st"
     },
     {
+        "id": "alarmSensor",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "alarmSystem",
         "version": 1,
         "status": "dead",
