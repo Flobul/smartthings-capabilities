@@ -1,0 +1,31 @@
+{
+    "detailView": [
+        {
+            "label": "Video Capture 2",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "capture"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Video Capture 2",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "capture",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.VIDEOCAPTURE2_DEFAULT_COMMANDS_CAPTURE",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "videoCapture2",
+    "version": 1
+}
