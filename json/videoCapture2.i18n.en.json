@@ -14,7 +14,7 @@
             "arguments": {}
         },
         "capture": {
-            "label": "capture",
+            "label": "Record",
             "arguments": {}
         },
         "uploadFailed": {
