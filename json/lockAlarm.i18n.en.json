@@ -4,8 +4,9 @@
     "description": "The current status of the lock alarm",
     "attributes": {
         "supportedAlarmValues": {
-            "label": "supportedAlarmValues",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "supported alarm values",
+            "description": "List of supported alarm attribute values",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {}
         },
         "alarm": {
@@ -19,6 +20,9 @@
                     },
                     "highTemperature": {
                         "label": "High temperature detected."
+                    },
+                    "failedOpeningAttempt": {
+                        "label": "Opening attempt failed."
                     },
                     "damaged": {
                         "label": "Door lock damaged."
