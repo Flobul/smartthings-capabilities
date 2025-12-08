@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-12-01
+#### Last Update: 2025-12-08
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -526,7 +526,7 @@
 | [Very Fine Dust Sensor](./json/veryFineDustSensor.json) | 1 | live | [json](./json/veryFineDustSensorPresentation.json) | [json](./json/veryFineDustSensor.i18n.fr.json) |
 | [Video Camera](./json/videoCamera.json) | 1 | live | [json](./json/videoCameraPresentation.json) | [json](./json/videoCamera.i18n.fr.json) |
 | [Video Capture](./json/videoCapture.json) | 1 | live | [json](./json/videoCapturePresentation.json) | [json](./json/videoCapture.i18n.fr.json) |
-| [Video Capture 2](./json/videoCapture2.json) | 1 | proposed |  | [json](./json/videoCapture2.i18n.fr.json) |
+| [Video Capture 2](./json/videoCapture2.json) | 1 | proposed | [json](./json/videoCapture2Presentation.json) | [json](./json/videoCapture2.i18n.fr.json) |
 | [Video Clips](./json/videoClips.json) | 1 | deprecated |  | [json](./json/videoClips.i18n.fr.json) |
 | [Video Stream](./json/videoStream.json) | 1 | live | [json](./json/videoStreamPresentation.json) | [json](./json/videoStream.i18n.fr.json) |
 | [Video Stream Settings](./json/videoStreamSettings.json) | 1 | proposed |  | [json](./json/videoStreamSettings.i18n.fr.json) |
