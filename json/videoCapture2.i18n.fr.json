@@ -1,6 +1,6 @@
 {
-    "tag": "en",
-    "label": "Video Capture 2",
+    "tag": "fr",
+    "label": "Enregistrer",
     "attributes": {
         "clip": {
             "label": "clip",
@@ -14,7 +14,7 @@
             "arguments": {}
         },
         "capture": {
-            "label": "capture",
+            "label": "Enregistrer",
             "arguments": {}
         },
         "uploadFailed": {
