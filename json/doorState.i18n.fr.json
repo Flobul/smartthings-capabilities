@@ -1,0 +1,38 @@
+{
+    "tag": "en",
+    "label": "Door State",
+    "attributes": {
+        "doorState": {
+            "label": "doorState",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "ajar": {
+                        "label": "ajar"
+                    },
+                    "closed": {
+                        "label": "closed"
+                    },
+                    "unspecifiedError": {
+                        "label": "unspecifiedError"
+                    },
+                    "jammed": {
+                        "label": "jammed"
+                    },
+                    "forcedOpen": {
+                        "label": "forcedOpen"
+                    },
+                    "open": {
+                        "label": "open"
+                    }
+                }
+            }
+        },
+        "supportedDoorStates": {
+            "label": "supportedDoorStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}
