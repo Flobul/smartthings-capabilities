@@ -1,0 +1,446 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{state.value}}",
+                "alternatives": [
+                    {
+                        "key": "waiting",
+                        "value": "waiting",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "running",
+                        "value": "running",
+                        "type": "active"
+                    },
+                    {
+                        "key": "drying",
+                        "value": "drying",
+                        "type": "active"
+                    },
+                    {
+                        "key": "grinding",
+                        "value": "grinding",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cooling",
+                        "value": "cooling",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cleaning",
+                        "value": "cleaning",
+                        "type": "active"
+                    },
+                    {
+                        "key": "completed",
+                        "value": "completed",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "error",
+                        "value": "error",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "playStop",
+                "playStop": {
+                    "command": {
+                        "play": "start",
+                        "stop": "stop"
+                    },
+                    "state": {
+                        "value": "state.value",
+                        "play": "running",
+                        "stop": "waiting",
+                        "alternatives": [
+                            {
+                                "key": "waiting",
+                                "value": "waiting",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "running",
+                                "value": "running",
+                                "type": "active"
+                            },
+                            {
+                                "key": "drying",
+                                "value": "drying",
+                                "type": "active"
+                            },
+                            {
+                                "key": "grinding",
+                                "value": "grinding",
+                                "type": "active"
+                            },
+                            {
+                                "key": "cooling",
+                                "value": "cooling",
+                                "type": "active"
+                            },
+                            {
+                                "key": "cleaning",
+                                "value": "cleaning",
+                                "type": "active"
+                            },
+                            {
+                                "key": "completed",
+                                "value": "completed",
+                                "type": "inactive"
+                            },
+                            {
+                                "key": "error",
+                                "value": "error",
+                                "type": "inactive"
+                            }
+                        ],
+                        "valueType": "string"
+                    }
+                }
+            }
+        ],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "state",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "start",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "stop",
+                            "type": "inactive"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "state.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "waiting",
+                            "value": "waiting",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "running",
+                            "value": "running",
+                            "type": "active"
+                        },
+                        {
+                            "key": "drying",
+                            "value": "drying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "grinding",
+                            "value": "grinding",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cooling",
+                            "value": "cooling",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cleaning",
+                            "value": "cleaning",
+                            "type": "active"
+                        },
+                        {
+                            "key": "completed",
+                            "value": "completed",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "error",
+                            "value": "error",
+                            "type": "inactive"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "mode",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "name": "setMode",
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "standard",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_STANDARD",
+                            "type": "active"
+                        },
+                        {
+                            "key": "clean",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_CLEAN",
+                            "type": "active"
+                        },
+                        {
+                            "key": "power",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_POWER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_ECO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "storage",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_STORAGE",
+                            "type": "active"
+                        }
+                    ],
+                    "argumentType": "string",
+                    "supportedValues": "supportedModes.value"
+                },
+                "state": {
+                    "value": "mode.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "auto",
+                            "type": "active"
+                        },
+                        {
+                            "key": "standard",
+                            "value": "standard",
+                            "type": "active"
+                        },
+                        {
+                            "key": "clean",
+                            "value": "clean",
+                            "type": "active"
+                        },
+                        {
+                            "key": "power",
+                            "value": "power",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "eco",
+                            "type": "active"
+                        },
+                        {
+                            "key": "storage",
+                            "value": "storage",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "state",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "waiting",
+                            "value": "waiting",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "running",
+                            "value": "running",
+                            "type": "active"
+                        },
+                        {
+                            "key": "drying",
+                            "value": "drying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "grinding",
+                            "value": "grinding",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cooling",
+                            "value": "cooling",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cleaning",
+                            "value": "cleaning",
+                            "type": "active"
+                        },
+                        {
+                            "key": "completed",
+                            "value": "completed",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "error",
+                            "value": "error",
+                            "type": "inactive"
+                        }
+                    ],
+                    "supportedValues": "supportedStates.value",
+                    "value": "state.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "mode",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "auto",
+                            "type": "active"
+                        },
+                        {
+                            "key": "standard",
+                            "value": "standard",
+                            "type": "active"
+                        },
+                        {
+                            "key": "clean",
+                            "value": "clean",
+                            "type": "active"
+                        },
+                        {
+                            "key": "power",
+                            "value": "power",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "eco",
+                            "type": "active"
+                        },
+                        {
+                            "key": "storage",
+                            "value": "storage",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedModes.value",
+                    "value": "mode.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "event",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "error",
+                            "value": "error",
+                            "type": "active"
+                        },
+                        {
+                            "key": "operationComplete",
+                            "value": "operationComplete",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cleaningComplete",
+                            "value": "cleaningComplete",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedEvents.value",
+                    "value": "event.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Food Waste Drying Grinder",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "start",
+                            "type": "active"
+                        },
+                        {
+                            "key": "stop",
+                            "value": "stop",
+                            "type": "active"
+                        }
+                    ]
+                }
+            },
+            {
+                "label": "setMode",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "auto",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_AUTO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "standard",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_STANDARD",
+                            "type": "active"
+                        },
+                        {
+                            "key": "clean",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_CLEAN",
+                            "type": "active"
+                        },
+                        {
+                            "key": "power",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_POWER",
+                            "type": "active"
+                        },
+                        {
+                            "key": "eco",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_ECO",
+                            "type": "active"
+                        },
+                        {
+                            "key": "storage",
+                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_STORAGE",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedModes.value",
+                    "command": "setMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "foodWasteDryingGrinder",
+    "version": 1
+}
