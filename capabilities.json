@@ -483,6 +483,13 @@
         "namespace": "st"
     },
     {
+        "id": "doorState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "drivingStatus",
         "version": 1,
         "status": "proposed",
@@ -672,6 +679,13 @@
         "namespace": "st"
     },
     {
+        "id": "foodWasteDryingGrinder",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "formaldehydeHealthConcern",
         "version": 1,
         "status": "live",
@@ -815,6 +829,13 @@
         "id": "keypadInput",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "knob",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },

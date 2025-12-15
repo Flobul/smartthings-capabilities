@@ -1,0 +1,61 @@
+{
+    "id": "doorState",
+    "version": 1,
+    "status": "proposed",
+    "name": "Door State",
+    "ephemeral": false,
+    "attributes": {
+        "doorState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "DoorState",
+                        "type": "string",
+                        "enum": [
+                            "open",
+                            "closed",
+                            "jammed",
+                            "forcedOpen",
+                            "unspecifiedError",
+                            "ajar"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedDoorStates": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "DoorState",
+                            "type": "string",
+                            "enum": [
+                                "open",
+                                "closed",
+                                "jammed",
+                                "forcedOpen",
+                                "unspecifiedError",
+                                "ajar"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {}
+}
