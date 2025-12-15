@@ -1,0 +1,110 @@
+{
+    "tag": "en",
+    "label": "Food Waste Drying Grinder",
+    "attributes": {
+        "mode": {
+            "label": "mode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "standard": {
+                        "label": "standard"
+                    },
+                    "eco": {
+                        "label": "eco"
+                    },
+                    "auto": {
+                        "label": "auto"
+                    },
+                    "power": {
+                        "label": "power"
+                    },
+                    "storage": {
+                        "label": "storage"
+                    },
+                    "clean": {
+                        "label": "clean"
+                    }
+                }
+            }
+        },
+        "supportedStates": {
+            "label": "supportedStates",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "state": {
+            "label": "state",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "running"
+                    },
+                    "cleaning": {
+                        "label": "cleaning"
+                    },
+                    "waiting": {
+                        "label": "waiting"
+                    },
+                    "drying": {
+                        "label": "drying"
+                    },
+                    "grinding": {
+                        "label": "grinding"
+                    },
+                    "cooling": {
+                        "label": "cooling"
+                    },
+                    "completed": {
+                        "label": "completed"
+                    },
+                    "error": {
+                        "label": "error"
+                    }
+                }
+            }
+        },
+        "supportedModes": {
+            "label": "supportedModes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "event": {
+            "label": "event",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "cleaningComplete": {
+                        "label": "cleaningComplete"
+                    },
+                    "error": {
+                        "label": "error"
+                    },
+                    "operationComplete": {
+                        "label": "operationComplete"
+                    }
+                }
+            }
+        },
+        "supportedEvents": {
+            "label": "supportedEvents",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "stop": {
+            "label": "stop",
+            "arguments": {}
+        },
+        "start": {
+            "label": "start",
+            "arguments": {}
+        },
+        "setMode": {
+            "label": "setMode",
+            "arguments": {}
+        }
+    }
+}
