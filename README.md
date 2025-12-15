@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-12-08
+#### Last Update: 2025-12-15
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -175,6 +175,7 @@
 | [Dishwasher Operating State](./json/dishwasherOperatingState.json) | 1 | live | [json](./json/dishwasherOperatingStatePresentation.json) | [json](./json/dishwasherOperatingState.i18n.fr.json) |
 | [Dishwasher Operational State](./json/dishwasherOperationalState.json) | 1 | deprecated |  | [json](./json/dishwasherOperationalState.i18n.fr.json) |
 | [Door Control](./json/doorControl.json) | 1 | live | [json](./json/doorControlPresentation.json) | [json](./json/doorControl.i18n.fr.json) |
+| [Door State](./json/doorState.json) | 1 | proposed |  | [json](./json/doorState.i18n.fr.json) |
 | [Driving Status](./json/drivingStatus.json) | 1 | proposed | [json](./json/drivingStatusPresentation.json) | [json](./json/drivingStatus.i18n.fr.json) |
 | [Dryer Mode](./json/dryerMode.json) | 1 | proposed | [json](./json/dryerModePresentation.json) | [json](./json/dryerMode.i18n.fr.json) |
 | [Dryer Operating State](./json/dryerOperatingState.json) | 1 | live | [json](./json/dryerOperatingStatePresentation.json) | [json](./json/dryerOperatingState.i18n.fr.json) |
@@ -202,6 +203,7 @@
 | [Fine Dust Sensor](./json/fineDustSensor.json) | 1 | live | [json](./json/fineDustSensorPresentation.json) | [json](./json/fineDustSensor.i18n.fr.json) |
 | [Firmware Update](./json/firmwareUpdate.json) | 1 | live |  | [json](./json/firmwareUpdate.i18n.fr.json) |
 | [Flow Measurement](./json/flowMeasurement.json) | 1 | proposed | [json](./json/flowMeasurementPresentation.json) | [json](./json/flowMeasurement.i18n.fr.json) |
+| [Food Waste Drying Grinder](./json/foodWasteDryingGrinder.json) | 1 | proposed | [json](./json/foodWasteDryingGrinderPresentation.json) | [json](./json/foodWasteDryingGrinder.i18n.fr.json) |
 | [Formaldehyde Health Concern](./json/formaldehydeHealthConcern.json) | 1 | live | [json](./json/formaldehydeHealthConcernPresentation.json) | [json](./json/formaldehydeHealthConcern.i18n.fr.json) |
 | [Formaldehyde Measurement](./json/formaldehydeMeasurement.json) | 1 | live | [json](./json/formaldehydeMeasurementPresentation.json) | [json](./json/formaldehydeMeasurement.i18n.fr.json) |
 | [Garage Door Control](./json/garageDoorControl.json) | 1 | deprecated | [json](./json/garageDoorControlPresentation.json) | [json](./json/garageDoorControl.i18n.fr.json) |
@@ -224,6 +226,7 @@
 | [Indicator](./json/indicator.json) | 1 | deprecated |  | [json](./json/indicator.i18n.fr.json) |
 | [Infrared Level](./json/infraredLevel.json) | 1 | live | [json](./json/infraredLevelPresentation.json) | [json](./json/infraredLevel.i18n.fr.json) |
 | [Keypad Input](./json/keypadInput.json) | 1 | live | [json](./json/keypadInputPresentation.json) | [json](./json/keypadInput.i18n.fr.json) |
+| [Knob](./json/knob.json) | 1 | proposed |  | [json](./json/knob.i18n.fr.json) |
 | [Language Setting](./json/languageSetting.json) | 1 | deprecated | [json](./json/languageSettingPresentation.json) | [json](./json/languageSetting.i18n.fr.json) |
 | [Laundry Washer Rinse Mode](./json/laundryWasherRinseMode.json) | 1 | live | [json](./json/laundryWasherRinseModePresentation.json) | [json](./json/laundryWasherRinseMode.i18n.fr.json) |
 | [Laundry Washer Spin Speed](./json/laundryWasherSpinSpeed.json) | 1 | live | [json](./json/laundryWasherSpinSpeedPresentation.json) | [json](./json/laundryWasherSpinSpeed.i18n.fr.json) |
