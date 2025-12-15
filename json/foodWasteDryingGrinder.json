@@ -1,0 +1,195 @@
+{
+    "id": "foodWasteDryingGrinder",
+    "version": 1,
+    "status": "proposed",
+    "name": "Food Waste Drying Grinder",
+    "ephemeral": false,
+    "attributes": {
+        "mode": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "FoodWasteDryingGrinderMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "standard",
+                            "power",
+                            "eco",
+                            "storage",
+                            "clean"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setMode",
+            "enumCommands": []
+        },
+        "supportedStates": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "FoodWasteDryingGrinderState",
+                            "type": "string",
+                            "enum": [
+                                "waiting",
+                                "running",
+                                "drying",
+                                "grinding",
+                                "cooling",
+                                "cleaning",
+                                "completed",
+                                "error"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "state": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "FoodWasteDryingGrinderState",
+                        "type": "string",
+                        "enum": [
+                            "waiting",
+                            "running",
+                            "drying",
+                            "grinding",
+                            "cooling",
+                            "cleaning",
+                            "completed",
+                            "error"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedModes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "FoodWasteDryingGrinderMode",
+                            "type": "string",
+                            "enum": [
+                                "auto",
+                                "standard",
+                                "power",
+                                "eco",
+                                "storage",
+                                "clean"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "event": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "FoodWasteDryingGrinderEvent",
+                        "type": "string",
+                        "enum": [
+                            "error",
+                            "operationComplete",
+                            "cleaningComplete"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedEvents": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "FoodWasteDryingGrinderEvent",
+                            "type": "string",
+                            "enum": [
+                                "error",
+                                "operationComplete",
+                                "cleaningComplete"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "stop": {
+            "name": "stop",
+            "arguments": [],
+            "sensitive": false
+        },
+        "start": {
+            "name": "start",
+            "arguments": [],
+            "sensitive": false
+        },
+        "setMode": {
+            "name": "setMode",
+            "arguments": [
+                {
+                    "name": "mode",
+                    "optional": false,
+                    "schema": {
+                        "title": "FoodWasteDryingGrinderMode",
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "standard",
+                            "power",
+                            "eco",
+                            "storage",
+                            "clean"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
