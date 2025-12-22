@@ -77,14 +77,14 @@
         "namespace": "st"
     },
     {
-        "id": "alarmsensor",
+        "id": "alarmSensor",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
     {
-        "id": "alarmSensor",
+        "id": "alarmsensor",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -1484,16 +1484,16 @@
         "namespace": "st"
     },
     {
-        "id": "samsungTV",
+        "id": "samsungTv",
         "version": 1,
-        "status": "deprecated",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
-        "id": "samsungTv",
+        "id": "samsungTV",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
