@@ -195,6 +195,158 @@
             }
         ]
     },
+    "automation": {
+        "conditions": [
+            {
+                "label": "Device status",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "ready",
+                            "value": "Ready",
+                            "type": "active"
+                        },
+                        {
+                            "key": "running",
+                            "value": "Drying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "paused",
+                            "value": "Paused",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "operatingState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Drying progress",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "drying",
+                            "value": "Drying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cooling",
+                            "value": "Cooling",
+                            "type": "active"
+                        },
+                        {
+                            "key": "refreshing",
+                            "value": "Refreshing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dehumidifying",
+                            "value": "Dehumidifying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sanitizing",
+                            "value": "Sanitizing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "internalCare",
+                            "value": "Drying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "weightSensing",
+                            "value": "Sensing the load",
+                            "type": "active"
+                        },
+                        {
+                            "key": "aIDrying",
+                            "value": "Drying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "humiditySensing",
+                            "value": "Sensing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "thawingFrozenInside",
+                            "value": "Defrosting",
+                            "type": "active"
+                        },
+                        {
+                            "key": "freezeProtection",
+                            "value": "Prevent freezing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "none",
+                            "value": "Preparing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "continuousDehumidifying",
+                            "value": "Dehumidifying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "finished",
+                            "value": "Cycle complete",
+                            "type": "active"
+                        },
+                        {
+                            "key": "delayDry",
+                            "value": "End of cycle delayed",
+                            "type": "active"
+                        },
+                        {
+                            "key": "laundrySensing",
+                            "value": "Detecting laundry",
+                            "type": "active"
+                        },
+                        {
+                            "key": "wrinklePrevent",
+                            "value": "Wrinkle Preventing",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "dryerJobState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Device status",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "start",
+                            "value": "Start cycle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "Pause cycle",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cancel",
+                            "value": "Cancel cycle",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "emphasis": true
+            }
+        ]
+    },
     "id": "samsungce.dryerOperatingState",
     "version": 1
 }
