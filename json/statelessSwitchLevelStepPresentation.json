@@ -1,0 +1,21 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "stepLevel",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "stepLevel",
+                    "argumentType": "integer",
+                    "range": [
+                        -50,
+                        50
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "statelessSwitchLevelStep",
+    "version": 1
+}
