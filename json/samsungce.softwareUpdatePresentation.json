@@ -1,4 +1,38 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{newVersionAvailable.value}}",
+                "alternatives": [
+                    {
+                        "key": "true",
+                        "value": "Update available",
+                        "type": "active"
+                    }
+                ]
+            },
+            {
+                "label": "Preparing…"
+            },
+            {
+                "label": "Updating - {{progress.value}}%"
+            },
+            {
+                "label": "Complete"
+            },
+            {
+                "label": "Checking…"
+            },
+            {
+                "label": "Restarting…"
+            },
+            {
+                "label": "Updating…"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
     "id": "samsungce.softwareUpdate",
     "version": 1
 }
