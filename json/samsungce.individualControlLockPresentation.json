@@ -1,4 +1,13 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "Under central control"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
     "id": "samsungce.individualControlLock",
     "version": 1
 }
