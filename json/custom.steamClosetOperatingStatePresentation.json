@@ -160,6 +160,83 @@
             }
         ]
     },
+    "automation": {
+        "conditions": [
+            {
+                "label": "Device status",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "stop",
+                            "value": "Ready",
+                            "type": "active"
+                        },
+                        {
+                            "key": "run",
+                            "value": "Caring",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "Paused",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "steamClosetMachineState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
+            {
+                "label": "Caring Progress",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "drying",
+                            "value": "Drying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "steaming",
+                            "value": "Steaming",
+                            "type": "active"
+                        },
+                        {
+                            "key": "airwashing",
+                            "value": "Aircleaning",
+                            "type": "active"
+                        },
+                        {
+                            "key": "sterilizing",
+                            "value": "Sanitizing",
+                            "type": "active"
+                        },
+                        {
+                            "key": "dehumidifying",
+                            "value": "Dehumidifying",
+                            "type": "active"
+                        },
+                        {
+                            "key": "finish",
+                            "value": "Cycle complete",
+                            "type": "active"
+                        },
+                        {
+                            "key": "keepFresh",
+                            "value": "Keep fresh",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "steamClosetJobState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
     "id": "custom.steamClosetOperatingState",
     "version": 1
 }
