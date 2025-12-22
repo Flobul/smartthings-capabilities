@@ -1,28 +1,67 @@
 {
     "tag": "fr",
     "label": "Enregistrer",
+    "description": "Allows for the control of the video capture.",
     "attributes": {
         "clip": {
             "label": "clip",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "description": "Video clip details",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         }
     },
     "commands": {
         "uploadComplete": {
             "label": "uploadComplete",
+            "description": "Sent by the Cloud to the device when the upload of a clip has completed",
             "arguments": {}
         },
         "capture": {
             "label": "Enregistrer",
-            "arguments": {}
+            "description": "Ask the device to take a clip and upload it to ST",
+            "arguments": {
+                "duration": {
+                    "i18n": {},
+                    "description": "Duration, in seconds, of the clip to be captured"
+                },
+                "prebuffer": {
+                    "i18n": {},
+                    "description": "The amount of time to include in the clip before the capture request was received"
+                },
+                "mediaUrl": {
+                    "i18n": {},
+                    "description": "URL where the device should upload the clip to (when using tokens)"
+                },
+                "imageUrl": {
+                    "i18n": {},
+                    "description": "URL where the device should upload an attached image to"
+                },
+                "triggerId": {
+                    "i18n": {},
+                    "description": "Identify the trigger"
+                },
+                "clipId": {
+                    "i18n": {},
+                    "description": "The id of the clip to capture, if known"
+                },
+                "mediaUrlMtls": {
+                    "i18n": {},
+                    "description": "URL where the device should upload the clip to (when using client certificate)"
+                },
+                "triggerType": {
+                    "i18n": {},
+                    "description": "What triggered the capture request"
+                }
+            }
         },
         "uploadFailed": {
             "label": "uploadFailed",
+            "description": "Sent by the Cloud to the device when the upload of a clip has failed",
             "arguments": {}
         },
         "stopCapture": {
             "label": "stopCapture",
+            "description": "Stop an ongoing clip capture activity",
             "arguments": {}
         }
     }
