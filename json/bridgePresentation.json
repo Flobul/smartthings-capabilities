@@ -1,4 +1,13 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "Connected"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
     "id": "bridge",
     "version": 1
 }
