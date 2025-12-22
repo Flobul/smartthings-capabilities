@@ -1,4 +1,13 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "Auto cleaning… "
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
     "id": "custom.autoCleaningMode",
     "version": 1
 }
