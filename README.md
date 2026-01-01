@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-12-29
+#### Last Update: 2026-01-01
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -83,7 +83,7 @@
 | [Container State](./json/containerState.json) | 1 | proposed | [json](./json/containerStatePresentation.json) | [json](./json/containerState.i18n.fr.json) |
 | [Cook Time](./json/cookTime.json) | 1 | proposed | [json](./json/cookTimePresentation.json) | [json](./json/cookTime.i18n.fr.json) |
 | [Current Measurement](./json/currentMeasurement.json) | 1 | live | [json](./json/currentMeasurementPresentation.json) | [json](./json/currentMeasurement.i18n.fr.json) |
-| [Accessibility](./json/custom.accessibility.json) | 1 | proposed |  |  |
+| [Accessibility](./json/custom.accessibility.json) | 1 | proposed |  | [json](./json/custom.accessibility.i18n.fr.json) |
 | [Air Conditioner Odor Controller](./json/custom.airConditionerOdorController.json) | 1 | proposed |  | [json](./json/custom.airConditionerOdorController.i18n.fr.json) |
 | [Air Conditioner Optional Mode](./json/custom.airConditionerOptionalMode.json) | 1 | proposed | [json](./json/custom.airConditionerOptionalModePresentation.json) | [json](./json/custom.airConditionerOptionalMode.i18n.fr.json) |
 | [Air Conditioner Tropical Night Mode](./json/custom.airConditionerTropicalNightMode.json) | 1 | proposed |  | [json](./json/custom.airConditionerTropicalNightMode.i18n.fr.json) |
@@ -127,13 +127,13 @@
 | [Fridge Mode](./json/custom.fridgeMode.json) | 1 | proposed | [json](./json/custom.fridgeModePresentation.json) | [json](./json/custom.fridgeMode.i18n.fr.json) |
 | [Hepa Filter](./json/custom.hepaFilter.json) | 1 | proposed |  | [json](./json/custom.hepaFilter.i18n.fr.json) |
 | [Job Beginning Status](./json/custom.jobBeginningStatus.json) | 1 | proposed |  | [json](./json/custom.jobBeginningStatus.i18n.fr.json) |
-| [launchApp](./json/custom.launchapp.json) | 1 | proposed |  |  |
+| [launchApp](./json/custom.launchapp.json) | 1 | proposed |  | [json](./json/custom.launchapp.i18n.fr.json) |
 | [Lower Device Power](./json/custom.lowerDevicePower.json) | 1 | proposed |  | [json](./json/custom.lowerDevicePower.i18n.fr.json) |
 | [Outing Mode](./json/custom.outingMode.json) | 1 | proposed | [json](./json/custom.outingModePresentation.json) | [json](./json/custom.outingMode.i18n.fr.json) |
 | [Oven Cavity Status](./json/custom.ovenCavityStatus.json) | 1 | proposed | [json](./json/custom.ovenCavityStatusPresentation.json) | [json](./json/custom.ovenCavityStatus.i18n.fr.json) |
 | [Periodic Sensing](./json/custom.periodicSensing.json) | 1 | proposed | [json](./json/custom.periodicSensingPresentation.json) | [json](./json/custom.periodicSensing.i18n.fr.json) |
 | [PictureMode](./json/custom.picturemode.json) | 1 | proposed | [json](./json/custom.picturemodePresentation.json) | [json](./json/custom.picturemode.i18n.fr.json) |
-| [Recording](./json/custom.recording.json) | 1 | proposed |  |  |
+| [Recording](./json/custom.recording.json) | 1 | proposed |  | [json](./json/custom.recording.i18n.fr.json) |
 | [Region](./json/custom.region.json) | 1 | proposed |  |  |
 | [Robot Cleaner Battery Full Status](./json/custom.robotCleanerBatteryFullStatus.json) | 1 | proposed |  | [json](./json/custom.robotCleanerBatteryFullStatus.i18n.fr.json) |
 | [Robot Cleaner Behavior](./json/custom.robotCleanerBehavior.json) | 1 | proposed |  | [json](./json/custom.robotCleanerBehavior.i18n.fr.json) |
@@ -155,7 +155,7 @@
 | [Steam Closet Wrinkle Prevent](./json/custom.steamClosetWrinklePrevent.json) | 1 | proposed |  | [json](./json/custom.steamClosetWrinklePrevent.i18n.fr.json) |
 | [Supported Options](./json/custom.supportedOptions.json) | 1 | proposed | [json](./json/custom.supportedOptionsPresentation.json) | [json](./json/custom.supportedOptions.i18n.fr.json) |
 | [Thermostat Setpoint Control](./json/custom.thermostatSetpointControl.json) | 1 | proposed |  | [json](./json/custom.thermostatSetpointControl.i18n.fr.json) |
-| [tvSearch](./json/custom.tvsearch.json) | 1 | proposed |  |  |
+| [tvSearch](./json/custom.tvsearch.json) | 1 | proposed |  | [json](./json/custom.tvsearch.i18n.fr.json) |
 | [User Notification](./json/custom.userNotification.json) | 1 | proposed |  | [json](./json/custom.userNotification.i18n.fr.json) |
 | [Very Fine Dust Filter](./json/custom.veryFineDustFilter.json) | 1 | proposed |  | [json](./json/custom.veryFineDustFilter.i18n.fr.json) |
 | [Virus Doctor Mode](./json/custom.virusDoctorMode.json) | 1 | proposed |  | [json](./json/custom.virusDoctorMode.i18n.fr.json) |
