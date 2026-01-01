@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "label": "tvSearch",
+    "attributes": {},
+    "commands": {
+        "search": {
+            "label": "search",
+            "arguments": {}
+        }
+    }
+}
