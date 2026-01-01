@@ -1,0 +1,15 @@
+{
+    "tag": "en",
+    "label": "Recording",
+    "attributes": {},
+    "commands": {
+        "recordStart": {
+            "label": "recordStart",
+            "arguments": {}
+        },
+        "recordStop": {
+            "label": "recordStop",
+            "arguments": {}
+        }
+    }
+}
