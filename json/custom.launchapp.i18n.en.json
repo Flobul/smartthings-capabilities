@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "label": "launchApp",
+    "attributes": {},
+    "commands": {
+        "launchApp": {
+            "label": "launchApp",
+            "arguments": {}
+        }
+    }
+}
