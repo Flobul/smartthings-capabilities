@@ -1,0 +1,11 @@
+{
+    "tag": "en",
+    "label": "Accessibility",
+    "attributes": {},
+    "commands": {
+        "setAccessibility": {
+            "label": "setAccessibility",
+            "arguments": {}
+        }
+    }
+}
