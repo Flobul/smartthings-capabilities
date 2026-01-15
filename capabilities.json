@@ -77,14 +77,14 @@
         "namespace": "st"
     },
     {
-        "id": "alarmSensor",
+        "id": "alarmsensor",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
     {
-        "id": "alarmsensor",
+        "id": "alarmSensor",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -536,6 +536,13 @@
         "version": 1,
         "status": "proposed",
         "ephemeral": true,
+        "namespace": "st"
+    },
+    {
+        "id": "endToEndEncryptionState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
         "namespace": "st"
     },
     {
