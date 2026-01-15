@@ -1,0 +1,26 @@
+{
+    "tag": "en",
+    "label": "End to End Encryption State",
+    "attributes": {
+        "enabled": {
+            "label": "enabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "setEnabled": {
+            "label": "setEnabled",
+            "arguments": {}
+        }
+    }
+}
