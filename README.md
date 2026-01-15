@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2026-01-08
+#### Last Update: 2026-01-15
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -183,6 +183,7 @@
 | [Dust Sensor](./json/dustSensor.json) | 1 | live | [json](./json/dustSensorPresentation.json) | [json](./json/dustSensor.i18n.fr.json) |
 | [Elevator Call](./json/elevatorCall.json) | 1 | live | [json](./json/elevatorCallPresentation.json) | [json](./json/elevatorCall.i18n.fr.json) |
 | [End to End Encryption](./json/endToEndEncryption.json) | 1 | proposed |  | [json](./json/endToEndEncryption.i18n.fr.json) |
+| [End to End Encryption State](./json/endToEndEncryptionState.json) | 1 | proposed |  | [json](./json/endToEndEncryptionState.i18n.fr.json) |
 | [Energy Meter](./json/energyMeter.json) | 1 | live | [json](./json/energyMeterPresentation.json) | [json](./json/energyMeter.i18n.fr.json) |
 | [Equivalent Carbon Dioxide Measurement](./json/equivalentCarbonDioxideMeasurement.json) | 1 | live | [json](./json/equivalentCarbonDioxideMeasurementPresentation.json) | [json](./json/equivalentCarbonDioxideMeasurement.i18n.fr.json) |
 | [Estimated Time Of Arrival](./json/estimatedTimeOfArrival.json) | 1 | proposed | [json](./json/estimatedTimeOfArrivalPresentation.json) | [json](./json/estimatedTimeOfArrival.i18n.fr.json) |
