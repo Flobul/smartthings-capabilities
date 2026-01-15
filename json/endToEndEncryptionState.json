@@ -1,0 +1,50 @@
+{
+    "id": "endToEndEncryptionState",
+    "version": 1,
+    "status": "proposed",
+    "name": "End to End Encryption State",
+    "ephemeral": false,
+    "attributes": {
+        "enabled": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setEnabled",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setEnabled": {
+            "name": "setEnabled",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
