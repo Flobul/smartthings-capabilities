@@ -14,7 +14,8 @@
                         }
                     ],
                     "supportedValues": "supportedAmbientApps.value",
-                    "command": "setAmbientContent"
+                    "command": "setAmbientContent",
+                    "argumentType": "string"
                 }
             }
         ]
