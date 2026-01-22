@@ -25,12 +25,22 @@
                         "type": "active"
                     },
                     {
+                        "key": "cleaningStart",
+                        "value": "Cleaning",
+                        "type": "active"
+                    },
+                    {
                         "key": "paused",
                         "value": "Paused",
                         "type": "active"
                     },
                     {
                         "key": "homing",
+                        "value": "Returning",
+                        "type": "active"
+                    },
+                    {
+                        "key": "cleaningEnd",
                         "value": "Returning",
                         "type": "active"
                     },
@@ -182,6 +192,26 @@
                     {
                         "key": "waitingForDescaling",
                         "value": "Waiting for descaling",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sabbath",
+                        "value": "Sabbath mode",
+                        "type": "active"
+                    },
+                    {
+                        "key": "suspend",
+                        "value": "Power saving mode",
+                        "type": "active"
+                    },
+                    {
+                        "key": "emptyStation",
+                        "value": "Draining water",
+                        "type": "active"
+                    },
+                    {
+                        "key": "internalWash",
+                        "value": "Internal cleaning",
                         "type": "active"
                     }
                 ]
