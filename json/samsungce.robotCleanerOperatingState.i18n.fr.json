@@ -19,13 +19,13 @@
                         "label": "Lavage de la serpillère"
                     },
                     "internalWash": {
-                        "label": "internalWash"
+                        "label": "Internal cleaning"
                     },
                     "paused": {
                         "label": "Pause"
                     },
                     "sabbath": {
-                        "label": "sabbath"
+                        "label": "Sabbath mode"
                     },
                     "attachingMopPadForRemainingJob": {
                         "label": "Serpillère en train d'être fixée"
@@ -43,7 +43,7 @@
                         "label": "factoryReset"
                     },
                     "emptyStation": {
-                        "label": "emptyStation"
+                        "label": "Draining water"
                     },
                     "error": {
                         "label": "Vérification requise"
@@ -52,7 +52,7 @@
                         "label": "Surveillance"
                     },
                     "cleaningStart": {
-                        "label": "cleaningStart"
+                        "label": "Cleaning starts"
                     },
                     "mediaPlaying": {
                         "label": "mediaPlaying"
@@ -91,7 +91,7 @@
                         "label": "En attente"
                     },
                     "suspend": {
-                        "label": "suspend"
+                        "label": "Power saving mode"
                     },
                     "detachingMopPad": {
                         "label": "Serpillère en train d'être retirée"
@@ -133,7 +133,7 @@
                         "label": "Étalonnage en cours"
                     },
                     "cleaningEnd": {
-                        "label": "cleaningEnd"
+                        "label": "Cleaning completed"
                     },
                     "reserved": {
                         "label": "reserved"
