@@ -19,13 +19,13 @@
                         "label": "Washing mop"
                     },
                     "internalWash": {
-                        "label": "internalWash"
+                        "label": "Internal cleaning"
                     },
                     "paused": {
                         "label": "Paused"
                     },
                     "sabbath": {
-                        "label": "sabbath"
+                        "label": "Sabbath mode"
                     },
                     "attachingMopPadForRemainingJob": {
                         "label": "Attaching mop"
@@ -43,7 +43,7 @@
                         "label": "factoryReset"
                     },
                     "emptyStation": {
-                        "label": "emptyStation"
+                        "label": "Draining water"
                     },
                     "error": {
                         "label": "Check required"
@@ -52,7 +52,7 @@
                         "label": "Monitoring"
                     },
                     "cleaningStart": {
-                        "label": "cleaningStart"
+                        "label": "Cleaning starts"
                     },
                     "mediaPlaying": {
                         "label": "mediaPlaying"
@@ -91,7 +91,7 @@
                         "label": "Waiting"
                     },
                     "suspend": {
-                        "label": "suspend"
+                        "label": "Power saving mode"
                     },
                     "detachingMopPad": {
                         "label": "Removing mop"
@@ -133,7 +133,7 @@
                         "label": "Calibrating"
                     },
                     "cleaningEnd": {
-                        "label": "cleaningEnd"
+                        "label": "Cleaning completed"
                     },
                     "reserved": {
                         "label": "reserved"
