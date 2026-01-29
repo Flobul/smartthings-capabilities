@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2026-01-22
+#### Last Update: 2026-01-29
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -175,7 +175,7 @@
 | [Dishwasher Operating State](./json/dishwasherOperatingState.json) | 1 | live | [json](./json/dishwasherOperatingStatePresentation.json) | [json](./json/dishwasherOperatingState.i18n.fr.json) |
 | [Dishwasher Operational State](./json/dishwasherOperationalState.json) | 1 | deprecated |  | [json](./json/dishwasherOperationalState.i18n.fr.json) |
 | [Door Control](./json/doorControl.json) | 1 | live | [json](./json/doorControlPresentation.json) | [json](./json/doorControl.i18n.fr.json) |
-| [Door State](./json/doorState.json) | 1 | proposed |  | [json](./json/doorState.i18n.fr.json) |
+| [Door State](./json/doorState.json) | 1 | proposed | [json](./json/doorStatePresentation.json) | [json](./json/doorState.i18n.fr.json) |
 | [Driving Status](./json/drivingStatus.json) | 1 | proposed | [json](./json/drivingStatusPresentation.json) | [json](./json/drivingStatus.i18n.fr.json) |
 | [Dryer Mode](./json/dryerMode.json) | 1 | proposed | [json](./json/dryerModePresentation.json) | [json](./json/dryerMode.i18n.fr.json) |
 | [Dryer Operating State](./json/dryerOperatingState.json) | 1 | live | [json](./json/dryerOperatingStatePresentation.json) | [json](./json/dryerOperatingState.i18n.fr.json) |
@@ -191,7 +191,7 @@
 | [Evse State](./json/evseState.json) | 1 | proposed | [json](./json/evseStatePresentation.json) | [json](./json/evseState.i18n.fr.json) |
 | [Execute](./json/execute.json) | 1 | deprecated |  | [json](./json/execute.i18n.fr.json) |
 | [Face Recognition](./json/faceRecognition.json) | 1 | proposed | [json](./json/faceRecognitionPresentation.json) | [json](./json/faceRecognition.i18n.fr.json) |
-| [Fan Direction](./json/fanDirection.json) | 1 | proposed |  | [json](./json/fanDirection.i18n.fr.json) |
+| [Fan Direction](./json/fanDirection.json) | 1 | proposed | [json](./json/fanDirectionPresentation.json) | [json](./json/fanDirection.i18n.fr.json) |
 | [Fan Mode](./json/fanMode.json) | 1 | proposed | [json](./json/fanModePresentation.json) | [json](./json/fanMode.i18n.fr.json) |
 | [Fan Oscillation Mode](./json/fanOscillationMode.json) | 1 | live | [json](./json/fanOscillationModePresentation.json) | [json](./json/fanOscillationMode.i18n.fr.json) |
 | [Fan Speed](./json/fanSpeed.json) | 1 | live | [json](./json/fanSpeedPresentation.json) | [json](./json/fanSpeed.i18n.fr.json) |
