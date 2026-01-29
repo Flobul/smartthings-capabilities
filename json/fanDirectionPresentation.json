@@ -1,0 +1,108 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{fanDirection.value}}",
+                "alternatives": [
+                    {
+                        "key": "summerMode",
+                        "value": "summerMode",
+                        "type": "active"
+                    },
+                    {
+                        "key": "winterMode",
+                        "value": "winterMode",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Fan Direction",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "summerMode",
+                            "value": "summerMode",
+                            "type": "active"
+                        },
+                        {
+                            "key": "winterMode",
+                            "value": "winterMode",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "fanDirection.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "summerMode",
+                            "value": "summerMode",
+                            "type": "active"
+                        },
+                        {
+                            "key": "winterMode",
+                            "value": "winterMode",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Fan Direction",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "summerMode",
+                            "value": "summerMode",
+                            "type": "active"
+                        },
+                        {
+                            "key": "winterMode",
+                            "value": "winterMode",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "fanDirection.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": [
+            {
+                "label": "Fan Direction",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "summerMode",
+                            "value": "summerMode",
+                            "type": "active"
+                        },
+                        {
+                            "key": "winterMode",
+                            "value": "winterMode",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "fanDirection",
+    "version": 1
+}
