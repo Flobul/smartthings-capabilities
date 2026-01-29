@@ -273,6 +273,13 @@
             "state": {
                 "label": "{{completionTime.value}}"
             }
+        },
+        {
+            "label": "progress",
+            "displayType": "state",
+            "state": {
+                "label": "{{progress.value}}"
+            }
         }
     ],
     "automation": {
