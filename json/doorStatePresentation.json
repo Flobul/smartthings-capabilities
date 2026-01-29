@@ -1,0 +1,133 @@
+{
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{doorState.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "closed",
+                        "type": "active"
+                    },
+                    {
+                        "key": "jammed",
+                        "value": "jammed",
+                        "type": "active"
+                    },
+                    {
+                        "key": "forcedOpen",
+                        "value": "forcedOpen",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unspecifiedError",
+                        "value": "unspecifiedError",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ajar",
+                        "value": "ajar",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
+    "detailView": [
+        {
+            "label": "Door State",
+            "displayType": "state",
+            "state": {
+                "label": "{{doorState.value}}",
+                "alternatives": [
+                    {
+                        "key": "open",
+                        "value": "open",
+                        "type": "active"
+                    },
+                    {
+                        "key": "closed",
+                        "value": "closed",
+                        "type": "active"
+                    },
+                    {
+                        "key": "jammed",
+                        "value": "jammed",
+                        "type": "active"
+                    },
+                    {
+                        "key": "forcedOpen",
+                        "value": "forcedOpen",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unspecifiedError",
+                        "value": "unspecifiedError",
+                        "type": "active"
+                    },
+                    {
+                        "key": "ajar",
+                        "value": "ajar",
+                        "type": "active"
+                    }
+                ]
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [
+            {
+                "label": "Door State",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "open",
+                            "value": "open",
+                            "type": "active"
+                        },
+                        {
+                            "key": "closed",
+                            "value": "closed",
+                            "type": "active"
+                        },
+                        {
+                            "key": "jammed",
+                            "value": "jammed",
+                            "type": "active"
+                        },
+                        {
+                            "key": "forcedOpen",
+                            "value": "forcedOpen",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unspecifiedError",
+                            "value": "unspecifiedError",
+                            "type": "active"
+                        },
+                        {
+                            "key": "ajar",
+                            "value": "ajar",
+                            "type": "active"
+                        }
+                    ],
+                    "supportedValues": "supportedDoorStates.value",
+                    "value": "doorState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            }
+        ],
+        "actions": []
+    },
+    "id": "doorState",
+    "version": 1
+}
