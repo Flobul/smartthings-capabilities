@@ -53,7 +53,7 @@
                         },
                         {
                             "key": "failedOpeningAttempt",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.LOCKALARM_DEFAULT_ATTRIBUTES_ALARM_FAILEDOPENINGATTEMPT",
+                            "value": "Couldn't unlock.",
                             "type": "active"
                         }
                     ],
