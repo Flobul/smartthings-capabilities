@@ -22,7 +22,7 @@
                         "label": "High temperature detected."
                     },
                     "failedOpeningAttempt": {
-                        "label": "Opening attempt failed."
+                        "label": "Couldn't unlock."
                     },
                     "damaged": {
                         "label": "Door lock damaged."
