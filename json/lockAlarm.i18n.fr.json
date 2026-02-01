@@ -22,7 +22,7 @@
                         "label": "Température élevée détectée."
                     },
                     "failedOpeningAttempt": {
-                        "label": "Opening attempt failed."
+                        "label": "Impossible de déverrouiller."
                     },
                     "damaged": {
                         "label": "Serrure de porte endommagée."
