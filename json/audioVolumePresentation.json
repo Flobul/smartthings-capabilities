@@ -12,7 +12,8 @@
                 "displayType": "stepper",
                 "stepper": {
                     "command": {
-                        "name": "setVolume"
+                        "name": "setVolume",
+                        "argumentType": "integer"
                     },
                     "step": 1,
                     "range": [
