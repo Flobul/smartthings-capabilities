@@ -53,6 +53,9 @@
                     "swing": {
                         "label": "Balayage"
                     },
+                    "rightZone": {
+                        "label": "rightZone"
+                    },
                     "far": {
                         "label": "Longue"
                     },
@@ -67,6 +70,9 @@
                     },
                     "fixed": {
                         "label": "Fixe"
+                    },
+                    "leftZone": {
+                        "label": "leftZone"
                     }
                 }
             }
