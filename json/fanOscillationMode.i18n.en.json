@@ -53,6 +53,9 @@
                     "swing": {
                         "label": "Swing"
                     },
+                    "rightZone": {
+                        "label": "rightZone"
+                    },
                     "far": {
                         "label": "Long"
                     },
@@ -67,6 +70,9 @@
                     },
                     "fixed": {
                         "label": "Fixed"
+                    },
+                    "leftZone": {
+                        "label": "leftZone"
                     }
                 }
             }
