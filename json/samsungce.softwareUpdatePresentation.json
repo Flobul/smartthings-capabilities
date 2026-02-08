@@ -15,7 +15,7 @@
                 "label": "Preparing…"
             },
             {
-                "label": "Updating - {{progress.value}}%"
+                "label": "Updating {{progress.value}}%"
             },
             {
                 "label": "Complete"
