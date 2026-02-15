@@ -211,6 +211,21 @@
                                 "type": "active"
                             },
                             {
+                                "key": "KIMCHIT_STORAGE_FREEZER_DEGREE_N19",
+                                "value": "Freezer",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_SOFT_DEGREE_N5",
+                                "value": "Soft Freeze",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_DEGREE_P2",
+                                "value": "Fridge",
+                                "type": "active"
+                            },
+                            {
                                 "key": "KIMCHIM_KIMCHI_RIPE_NORMAL",
                                 "value": "Ferment kimchi",
                                 "type": "active"
@@ -408,6 +423,21 @@
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_SCAN_NC_P",
                                 "value": "Scan keep",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_DEGREE_N19",
+                                "value": "Freezer",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_SOFT_DEGREE_N5",
+                                "value": "Soft Freeze",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_DEGREE_P2",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
@@ -611,6 +641,21 @@
                                 "type": "active"
                             },
                             {
+                                "key": "KIMCHIB_STORAGE_FREEZER_DEGREE_N19",
+                                "value": "Freezer",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_SOFT_DEGREE_N5",
+                                "value": "Soft Freeze",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_DEGREE_P2",
+                                "value": "Fridge",
+                                "type": "active"
+                            },
+                            {
                                 "key": "KIMCHI_KIMCHI_RIPE_NORMAL",
                                 "value": "Ferment kimchi",
                                 "type": "active"
@@ -808,6 +853,21 @@
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_SCAN_NC_P",
                                 "value": "Scan keep",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_DEGREE_N19",
+                                "value": "Freezer",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_SOFT_DEGREE_N5",
+                                "value": "Soft Freeze",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_DEGREE_P2",
+                                "value": "Fridge",
                                 "type": "active"
                             }
                         ],
@@ -1019,6 +1079,21 @@
                                 "type": "active"
                             },
                             {
+                                "key": "KIMCHIT_STORAGE_FREEZER_DEGREE_N19",
+                                "value": "Freezer",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FREEZER_SOFT_DEGREE_N5",
+                                "value": "Soft Freeze",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIT_STORAGE_FRIDGE_DEGREE_P2",
+                                "value": "Fridge",
+                                "type": "active"
+                            },
+                            {
                                 "key": "KIMCHIM_KIMCHI_RIPE_NORMAL",
                                 "value": "Ferment kimchi",
                                 "type": "active"
@@ -1216,6 +1291,21 @@
                             {
                                 "key": "KIMCHIM_KIMCHI_STORAGE_SCAN_NC_P",
                                 "value": "Scan keep",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_DEGREE_N19",
+                                "value": "Freezer",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FREEZER_SOFT_DEGREE_N5",
+                                "value": "Soft Freeze",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIM_STORAGE_FRIDGE_DEGREE_P2",
+                                "value": "Fridge",
                                 "type": "active"
                             },
                             {
@@ -1419,6 +1509,21 @@
                                 "type": "active"
                             },
                             {
+                                "key": "KIMCHIB_STORAGE_FREEZER_DEGREE_N19",
+                                "value": "Freezer",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FREEZER_SOFT_DEGREE_N5",
+                                "value": "Soft Freeze",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHIB_STORAGE_FRIDGE_DEGREE_P2",
+                                "value": "Fridge",
+                                "type": "active"
+                            },
+                            {
                                 "key": "KIMCHI_KIMCHI_RIPE_NORMAL",
                                 "value": "Ferment kimchi",
                                 "type": "active"
@@ -1616,6 +1721,21 @@
                             {
                                 "key": "KIMCHI_KIMCHI_STORAGE_SCAN_NC_P",
                                 "value": "Scan keep",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_DEGREE_N19",
+                                "value": "Freezer",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FREEZER_SOFT_DEGREE_N5",
+                                "value": "Soft Freeze",
+                                "type": "active"
+                            },
+                            {
+                                "key": "KIMCHI_STORAGE_FRIDGE_DEGREE_P2",
+                                "value": "Fridge",
                                 "type": "active"
                             }
                         ]
