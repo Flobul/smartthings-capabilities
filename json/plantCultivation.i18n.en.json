@@ -99,7 +99,7 @@
                         "label": "Sage"
                     },
                     "parsley_italian": {
-                        "label": "parsley_italian"
+                        "label": "Italian parsley"
                     },
                     "lolloBionda_Bartimer": {
                         "label": "Bartimer lettuce"
@@ -191,6 +191,9 @@
                         },
                         "lettuce miniromaine": {
                             "label": "Mini romaine lettuce"
+                        },
+                        "parsley italian": {
+                            "label": "Italian parsley"
                         },
                         "newGreen": {
                             "label": "New green"
