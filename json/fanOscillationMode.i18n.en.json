@@ -5,18 +5,19 @@
     "attributes": {
         "supportedFanOscillationModes": {
             "label": "supported oscillating fan modes",
-            "description": "Supported states for this oscillating fan to be in",
+            "description": "The complete list of fan oscillation modes that are fully supported by a given device\n",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         },
         "availableFanOscillationModes": {
-            "label": "availableFanOscillationModes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "available oscillating fan modes",
+            "description": "The currently available fan oscillation modes that a given device can support depending on its present state.\nThis feature is primarily utilized for real-time control as it reflects the current status of the device.\nIt is optional and may not be guaranteed to be provided by all devices.\nTo enable ‘availableFanOscillationModes’, you must specify it under the ‘supportedValues’ section of your device configuration.\n",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         },
         "fanOscillationMode": {
             "label": "Fan oscillation",
-            "description": "The current mode of oscillation; an enum of fixed, vertical, horizontal, direct, indirect, fixedCenter, fixedLeft, fixedRight, far,  all",
+            "description": "The current mode of oscillation; an enum of off, individual, fixed, vertical, horizontal, direct, indirect, fixedCenter, fixedLeft, fixedRight, far, all",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
@@ -54,7 +55,7 @@
                         "label": "Swing"
                     },
                     "rightZone": {
-                        "label": "rightZone"
+                        "label": "Right zone"
                     },
                     "far": {
                         "label": "Long"
@@ -72,7 +73,7 @@
                         "label": "Fixed"
                     },
                     "leftZone": {
-                        "label": "leftZone"
+                        "label": "Left zone"
                     }
                 }
             }
@@ -88,14 +89,14 @@
                         "all": {
                             "label": "All"
                         },
-                        "indirect": {
-                            "label": "Indirect"
+                        "wide": {
+                            "label": "Wide"
                         },
                         "individual": {
                             "label": "Individual"
                         },
-                        "wide": {
-                            "label": "Wide"
+                        "indirect": {
+                            "label": "Indirect"
                         },
                         "direct": {
                             "label": "Direct"
@@ -121,6 +122,9 @@
                         "swing": {
                             "label": "Swing"
                         },
+                        "rightZone": {
+                            "label": "Right zone"
+                        },
                         "far": {
                             "label": "Long"
                         },
@@ -135,6 +139,9 @@
                         },
                         "fixed": {
                             "label": "Fixed"
+                        },
+                        "leftZone": {
+                            "label": "Left zone"
                         }
                     },
                     "description": "fan oscillation mode"
