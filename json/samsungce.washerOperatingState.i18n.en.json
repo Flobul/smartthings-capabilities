@@ -2,6 +2,16 @@
     "tag": "en",
     "label": "Washer Operating State",
     "attributes": {
+        "washingProgress": {
+            "label": "washingProgress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "dryingProgress": {
+            "label": "dryingProgress",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "washerJobState": {
             "label": "Washing progress",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",

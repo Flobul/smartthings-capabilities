@@ -4,7 +4,7 @@
     "description": "Allows for the control of the oven operational state.",
     "attributes": {
         "completionTime": {
-            "label": "completion time",
+            "label": "Cook time",
             "description": "The completion time for the oven job",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
