@@ -33,6 +33,9 @@
                     "kimchi_storage_cold": {
                         "label": "Regular kimchi (Cold+)"
                     },
+                    "storage_freezer_soft_degree_n5": {
+                        "label": "Soft Freeze"
+                    },
                     "storage_freezer_meat_fish": {
                         "label": "Meat/fish"
                     },
@@ -68,6 +71,9 @@
                     },
                     "kimchi_ripe_dongchimi": {
                         "label": "Ferment watery kimchi"
+                    },
+                    "storage_freezer_degree_n19": {
+                        "label": "Freezer"
                     },
                     "kimchi_ripe_crunch_lab": {
                         "label": "6 days Cold+"
@@ -115,6 +121,9 @@
                         "label": "Meat/fish"
                     },
                     "storage_fridge_general": {
+                        "label": "Fridge"
+                    },
+                    "storage_fridge_degree_p2": {
                         "label": "Fridge"
                     },
                     "storage_rice_wine": {
