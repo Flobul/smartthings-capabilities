@@ -24,6 +24,11 @@
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         },
+        "availableCycleTypes": {
+            "label": "availableCycleTypes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "washerCycle": {
             "label": "washerCycle",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
@@ -43,6 +48,10 @@
     "commands": {
         "setWasherCycle": {
             "label": "setWasherCycle",
+            "arguments": {}
+        },
+        "setCycleType": {
+            "label": "setCycleType",
             "arguments": {}
         }
     }
