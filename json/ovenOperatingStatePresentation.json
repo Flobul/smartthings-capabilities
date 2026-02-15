@@ -160,7 +160,7 @@
             }
         },
         {
-            "label": "Oven",
+            "label": "Cook time",
             "displayType": "state",
             "state": {
                 "label": "{{completionTime.value}}"
