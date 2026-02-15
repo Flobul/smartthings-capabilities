@@ -66,7 +66,7 @@
                     },
                     {
                         "key": "toileting",
-                        "value": "Toileting",
+                        "value": "Toilet",
                         "type": "active"
                     }
                 ]
@@ -144,7 +144,7 @@
                     },
                     {
                         "key": "toileting",
-                        "value": "Toileting",
+                        "value": "Toilet",
                         "type": "active"
                     }
                 ]
@@ -220,7 +220,7 @@
                         },
                         {
                             "key": "toileting",
-                            "value": "Toileting",
+                            "value": "Toilet",
                             "type": "active"
                         }
                     ],
