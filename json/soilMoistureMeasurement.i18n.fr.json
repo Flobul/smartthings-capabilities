@@ -1,0 +1,17 @@
+{
+    "tag": "en",
+    "label": "Soil Moisture Measurement",
+    "attributes": {
+        "soilMoistureLevel": {
+            "label": "soilMoistureLevel",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "soilMoistureLevelRange": {
+            "label": "soilMoistureLevelRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {}
+}
