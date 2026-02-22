@@ -77,6 +77,13 @@
         "namespace": "st"
     },
     {
+        "id": "alarmSensor",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "alarmsensor",
         "version": 1,
         "status": "proposed",
@@ -1571,6 +1578,13 @@
         "id": "smokeDetector",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "soilMoistureMeasurement",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
