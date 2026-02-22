@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2026-02-15
+#### Last Update: 2026-02-22
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -445,6 +445,7 @@
 | [StartStopProgramV3](./json/signalahead13665.startstopprogramv3.json) | 1 | proposed | [json](./json/signalahead13665.startstopprogramv3Presentation.json) | [json](./json/signalahead13665.startstopprogramv3.i18n.fr.json) |
 | [Sleep Sensor](./json/sleepSensor.json) | 1 | live | [json](./json/sleepSensorPresentation.json) | [json](./json/sleepSensor.i18n.fr.json) |
 | [Smoke Detector](./json/smokeDetector.json) | 1 | live | [json](./json/smokeDetectorPresentation.json) | [json](./json/smokeDetector.i18n.fr.json) |
+| [Soil Moisture Measurement](./json/soilMoistureMeasurement.json) | 1 | proposed |  | [json](./json/soilMoistureMeasurement.i18n.fr.json) |
 | [Sound Detection](./json/soundDetection.json) | 1 | live | [json](./json/soundDetectionPresentation.json) | [json](./json/soundDetection.i18n.fr.json) |
 | [Sound Pressure Level](./json/soundPressureLevel.json) | 1 | live | [json](./json/soundPressureLevelPresentation.json) | [json](./json/soundPressureLevel.i18n.fr.json) |
 | [Sound Sensor](./json/soundSensor.json) | 1 | live | [json](./json/soundSensorPresentation.json) | [json](./json/soundSensor.i18n.fr.json) |
