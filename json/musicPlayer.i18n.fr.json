@@ -45,11 +45,11 @@
                     "play": {
                         "label": "Lecture"
                     },
-                    "paused": {
-                        "label": "En pause"
-                    },
                     "stopped": {
                         "label": "Arrêté"
+                    },
+                    "paused": {
+                        "label": "En pause"
                     },
                     "standby": {
                         "label": "En veille"
