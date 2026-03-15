@@ -1,6 +1,7 @@
 {
     "tag": "fr",
     "label": "Mode d'éclairage",
+    "description": "Set the temperature of a light based on pre-configured activities.",
     "attributes": {
         "lightingMode": {
             "label": "Mode d'éclairage",
@@ -43,11 +44,11 @@
             "arguments": {
                 "lightingMode": {
                     "i18n": {
-                        "sleepPreparation": {
-                            "label": "Sommeil"
-                        },
                         "writing description": {
                             "label": "Lumière blanche de 5000K qui vous permet de vous concentrer facilement sur votre travail."
+                        },
+                        "sleepPreparation": {
+                            "label": "Sommeil"
                         },
                         "cozy": {
                             "label": "Cosy"
@@ -76,11 +77,11 @@
                         "computer": {
                             "label": "Ordinateur"
                         },
-                        "soft description": {
-                            "label": "Lumière douce pour créer l'ambiance."
-                        },
                         "writing": {
                             "label": "Écriture"
+                        },
+                        "soft description": {
+                            "label": "Lumière douce pour créer l'ambiance."
                         },
                         "reading description": {
                             "label": "Lumière naturelle de 4000K pour une lecture confortable."
