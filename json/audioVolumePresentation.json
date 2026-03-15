@@ -21,8 +21,7 @@
                         100
                     ],
                     "state": {
-                        "value": "volume.value",
-                        "unit": "volume.unit"
+                        "value": "volume.value"
                     },
                     "availableSizes": [
                         "2x1",
@@ -47,8 +46,7 @@
                         100
                     ],
                     "state": {
-                        "value": "volume.value",
-                        "unit": "volume.unit"
+                        "value": "volume.value"
                     },
                     "availableSizes": [
                         "2x1",
@@ -74,7 +72,6 @@
                     ],
                     "state": {
                         "value": "volume.value",
-                        "unit": "volume.unit",
                         "valueType": "integer",
                         "label": "{{volume.value}}{{volume.unit}}"
                     },
