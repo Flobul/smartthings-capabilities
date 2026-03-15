@@ -220,6 +220,11 @@
                         "type": "active"
                     },
                     {
+                        "key": "parsley_italian",
+                        "value": "Italian parsley",
+                        "type": "active"
+                    },
+                    {
                         "key": "UNKNOWN",
                         "value": "Unknown",
                         "type": "active"
@@ -454,6 +459,11 @@
                             "type": "active"
                         },
                         {
+                            "key": "parsley_italian",
+                            "value": "Italian parsley",
+                            "type": "active"
+                        },
+                        {
                             "key": "UNKNOWN",
                             "value": "Unknown",
                             "type": "active"
@@ -679,6 +689,11 @@
                         {
                             "key": "philodendron",
                             "value": "Philodendron",
+                            "type": "active"
+                        },
+                        {
+                            "key": "parsley_italian",
+                            "value": "Italian parsley",
                             "type": "active"
                         },
                         {
@@ -925,6 +940,11 @@
                         {
                             "key": "philodendron",
                             "value": "Philodendron",
+                            "type": "active"
+                        },
+                        {
+                            "key": "parsley_italian",
+                            "value": "Italian parsley",
                             "type": "active"
                         },
                         {
