@@ -45,11 +45,11 @@
                     "play": {
                         "label": "Play"
                     },
-                    "paused": {
-                        "label": "Paused"
-                    },
                     "stopped": {
                         "label": "Stopped"
+                    },
+                    "paused": {
+                        "label": "Paused"
                     },
                     "standby": {
                         "label": "Standby"
