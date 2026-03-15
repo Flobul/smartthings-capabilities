@@ -61,7 +61,7 @@
                     },
                     {
                         "key": "comfortCooling",
-                        "value": "comfortCooling",
+                        "value": "Comfort Cooling",
                         "type": "active"
                     },
                     {
@@ -86,17 +86,17 @@
                     },
                     {
                         "key": "heatEx",
-                        "value": "heatEx",
+                        "value": "HeatEX",
                         "type": "active"
                     },
                     {
                         "key": "bypass",
-                        "value": "bypass",
+                        "value": "ByPass",
                         "type": "active"
                     },
                     {
                         "key": "sleep",
-                        "value": "sleep",
+                        "value": "Sleep",
                         "type": "active"
                     },
                     {
@@ -106,12 +106,12 @@
                     },
                     {
                         "key": "ventilation",
-                        "value": "ventilation",
+                        "value": "Ventilation",
                         "type": "active"
                     },
                     {
                         "key": "smartVentilation",
-                        "value": "smartVentilation",
+                        "value": "Smart Ventilation",
                         "type": "active"
                     }
                 ]
@@ -183,7 +183,7 @@
                             },
                             {
                                 "key": "comfortCooling",
-                                "value": "comfortCooling",
+                                "value": "Comfort Cooling",
                                 "type": "active"
                             },
                             {
@@ -208,17 +208,17 @@
                             },
                             {
                                 "key": "heatEx",
-                                "value": "heatEx",
+                                "value": "HeatEX",
                                 "type": "active"
                             },
                             {
                                 "key": "bypass",
-                                "value": "bypass",
+                                "value": "ByPass",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "sleep",
+                                "value": "Sleep",
                                 "type": "active"
                             },
                             {
@@ -228,12 +228,12 @@
                             },
                             {
                                 "key": "ventilation",
-                                "value": "ventilation",
+                                "value": "Ventilation",
                                 "type": "active"
                             },
                             {
                                 "key": "smartVentilation",
-                                "value": "smartVentilation",
+                                "value": "Smart Ventilation",
                                 "type": "active"
                             }
                         ],
@@ -301,7 +301,7 @@
                             },
                             {
                                 "key": "comfortCooling",
-                                "value": "comfortCooling",
+                                "value": "Comfort Cooling",
                                 "type": "active"
                             },
                             {
@@ -326,17 +326,17 @@
                             },
                             {
                                 "key": "heatEx",
-                                "value": "heatEx",
+                                "value": "HeatEX",
                                 "type": "active"
                             },
                             {
                                 "key": "bypass",
-                                "value": "bypass",
+                                "value": "ByPass",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "sleep",
+                                "value": "Sleep",
                                 "type": "active"
                             },
                             {
@@ -346,12 +346,12 @@
                             },
                             {
                                 "key": "ventilation",
-                                "value": "ventilation",
+                                "value": "Ventilation",
                                 "type": "active"
                             },
                             {
                                 "key": "smartVentilation",
-                                "value": "smartVentilation",
+                                "value": "Smart Ventilation",
                                 "type": "active"
                             }
                         ]
@@ -429,7 +429,7 @@
                             },
                             {
                                 "key": "comfortCooling",
-                                "value": "comfortCooling",
+                                "value": "Comfort Cooling",
                                 "type": "active"
                             },
                             {
@@ -454,17 +454,17 @@
                             },
                             {
                                 "key": "heatEx",
-                                "value": "heatEx",
+                                "value": "HeatEX",
                                 "type": "active"
                             },
                             {
                                 "key": "bypass",
-                                "value": "bypass",
+                                "value": "ByPass",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "sleep",
+                                "value": "Sleep",
                                 "type": "active"
                             },
                             {
@@ -474,12 +474,12 @@
                             },
                             {
                                 "key": "ventilation",
-                                "value": "ventilation",
+                                "value": "Ventilation",
                                 "type": "active"
                             },
                             {
                                 "key": "smartVentilation",
-                                "value": "smartVentilation",
+                                "value": "Smart Ventilation",
                                 "type": "active"
                             }
                         ],
@@ -547,7 +547,7 @@
                             },
                             {
                                 "key": "comfortCooling",
-                                "value": "comfortCooling",
+                                "value": "Comfort Cooling",
                                 "type": "active"
                             },
                             {
@@ -572,17 +572,17 @@
                             },
                             {
                                 "key": "heatEx",
-                                "value": "heatEx",
+                                "value": "HeatEX",
                                 "type": "active"
                             },
                             {
                                 "key": "bypass",
-                                "value": "bypass",
+                                "value": "ByPass",
                                 "type": "active"
                             },
                             {
                                 "key": "sleep",
-                                "value": "sleep",
+                                "value": "Sleep",
                                 "type": "active"
                             },
                             {
@@ -592,12 +592,12 @@
                             },
                             {
                                 "key": "ventilation",
-                                "value": "ventilation",
+                                "value": "Ventilation",
                                 "type": "active"
                             },
                             {
                                 "key": "smartVentilation",
-                                "value": "smartVentilation",
+                                "value": "Smart Ventilation",
                                 "type": "active"
                             }
                         ]
@@ -678,7 +678,7 @@
                         },
                         {
                             "key": "comfortCooling",
-                            "value": "comfortCooling",
+                            "value": "Comfort Cooling",
                             "type": "active"
                         },
                         {
@@ -703,17 +703,17 @@
                         },
                         {
                             "key": "heatEx",
-                            "value": "heatEx",
+                            "value": "HeatEX",
                             "type": "active"
                         },
                         {
                             "key": "bypass",
-                            "value": "bypass",
+                            "value": "ByPass",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "sleep",
+                            "value": "Sleep",
                             "type": "active"
                         },
                         {
@@ -723,12 +723,12 @@
                         },
                         {
                             "key": "ventilation",
-                            "value": "ventilation",
+                            "value": "Ventilation",
                             "type": "active"
                         },
                         {
                             "key": "smartVentilation",
-                            "value": "smartVentilation",
+                            "value": "Smart Ventilation",
                             "type": "active"
                         }
                     ],
@@ -796,7 +796,7 @@
                         },
                         {
                             "key": "comfortCooling",
-                            "value": "comfortCooling",
+                            "value": "Comfort Cooling",
                             "type": "active"
                         },
                         {
@@ -821,17 +821,17 @@
                         },
                         {
                             "key": "heatEx",
-                            "value": "heatEx",
+                            "value": "HeatEX",
                             "type": "active"
                         },
                         {
                             "key": "bypass",
-                            "value": "bypass",
+                            "value": "ByPass",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "sleep",
+                            "value": "Sleep",
                             "type": "active"
                         },
                         {
@@ -841,12 +841,12 @@
                         },
                         {
                             "key": "ventilation",
-                            "value": "ventilation",
+                            "value": "Ventilation",
                             "type": "active"
                         },
                         {
                             "key": "smartVentilation",
-                            "value": "smartVentilation",
+                            "value": "Smart Ventilation",
                             "type": "active"
                         }
                     ]
@@ -918,7 +918,7 @@
                         },
                         {
                             "key": "comfortCooling",
-                            "value": "comfortCooling",
+                            "value": "Comfort Cooling",
                             "type": "active"
                         },
                         {
@@ -943,17 +943,17 @@
                         },
                         {
                             "key": "heatEx",
-                            "value": "heatEx",
+                            "value": "HeatEX",
                             "type": "active"
                         },
                         {
                             "key": "bypass",
-                            "value": "bypass",
+                            "value": "ByPass",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "sleep",
+                            "value": "Sleep",
                             "type": "active"
                         },
                         {
@@ -963,12 +963,12 @@
                         },
                         {
                             "key": "ventilation",
-                            "value": "ventilation",
+                            "value": "Ventilation",
                             "type": "active"
                         },
                         {
                             "key": "smartVentilation",
-                            "value": "smartVentilation",
+                            "value": "Smart Ventilation",
                             "type": "active"
                         }
                     ],
@@ -1042,7 +1042,7 @@
                         },
                         {
                             "key": "comfortCooling",
-                            "value": "comfortCooling",
+                            "value": "Comfort Cooling",
                             "type": "active"
                         },
                         {
@@ -1067,17 +1067,17 @@
                         },
                         {
                             "key": "heatEx",
-                            "value": "heatEx",
+                            "value": "HeatEX",
                             "type": "active"
                         },
                         {
                             "key": "bypass",
-                            "value": "bypass",
+                            "value": "ByPass",
                             "type": "active"
                         },
                         {
                             "key": "sleep",
-                            "value": "sleep",
+                            "value": "Sleep",
                             "type": "active"
                         },
                         {
@@ -1087,12 +1087,12 @@
                         },
                         {
                             "key": "ventilation",
-                            "value": "ventilation",
+                            "value": "Ventilation",
                             "type": "active"
                         },
                         {
                             "key": "smartVentilation",
-                            "value": "smartVentilation",
+                            "value": "Smart Ventilation",
                             "type": "active"
                         }
                     ],
