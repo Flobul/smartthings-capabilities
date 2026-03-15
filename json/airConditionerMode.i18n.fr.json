@@ -4,13 +4,14 @@
     "description": "Allows for the control of the air conditioner.",
     "attributes": {
         "availableAcModes": {
-            "label": "availableAcModes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "available ac modes",
+            "description": "The currently available air conditioner modes that a given device can support depending on its present state.\nThis feature is primarily utilized for real-time control as it reflects the current status of the device.\nIt is optional and may not be guaranteed to be provided by all devices.\nTo enable ‘availableAcModes’, you must specify it under the ‘supportedValues’ section of your device configuration.\n",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         },
         "supportedAcModes": {
             "label": "modes de climatiseur pris en charge",
-            "description": "Supported states for this air conditioner to be in",
+            "description": "The complete list of air conditioner modes that are fully supported by a given device\n",
             "displayTemplate": "{{attribute}} de {{device.label}} était {{value}}.",
             "i18n": {}
         },
