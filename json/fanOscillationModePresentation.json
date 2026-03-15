@@ -83,6 +83,16 @@
                         "key": "spot",
                         "value": "Spot",
                         "type": "active"
+                    },
+                    {
+                        "key": "leftZone",
+                        "value": "Left zone",
+                        "type": "active"
+                    },
+                    {
+                        "key": "rightZone",
+                        "value": "Right zone",
+                        "type": "active"
                     }
                 ]
             }
@@ -175,6 +185,16 @@
                                 "key": "spot",
                                 "value": "Spot",
                                 "type": "active"
+                            },
+                            {
+                                "key": "leftZone",
+                                "value": "Left zone",
+                                "type": "active"
+                            },
+                            {
+                                "key": "rightZone",
+                                "value": "Right zone",
+                                "type": "active"
                             }
                         ],
                         "argumentType": "string",
@@ -262,6 +282,16 @@
                             {
                                 "key": "spot",
                                 "value": "Spot",
+                                "type": "active"
+                            },
+                            {
+                                "key": "leftZone",
+                                "value": "Left zone",
+                                "type": "active"
+                            },
+                            {
+                                "key": "rightZone",
+                                "value": "Right zone",
                                 "type": "active"
                             }
                         ]
@@ -361,6 +391,16 @@
                                 "key": "spot",
                                 "value": "Spot",
                                 "type": "active"
+                            },
+                            {
+                                "key": "leftZone",
+                                "value": "Left zone",
+                                "type": "active"
+                            },
+                            {
+                                "key": "rightZone",
+                                "value": "Right zone",
+                                "type": "active"
                             }
                         ],
                         "argumentType": "string",
@@ -448,6 +488,16 @@
                             {
                                 "key": "spot",
                                 "value": "Spot",
+                                "type": "active"
+                            },
+                            {
+                                "key": "leftZone",
+                                "value": "Left zone",
+                                "type": "active"
+                            },
+                            {
+                                "key": "rightZone",
+                                "value": "Right zone",
                                 "type": "active"
                             }
                         ]
@@ -550,6 +600,16 @@
                             "key": "spot",
                             "value": "Spot",
                             "type": "active"
+                        },
+                        {
+                            "key": "leftZone",
+                            "value": "Left zone",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rightZone",
+                            "value": "Right zone",
+                            "type": "active"
                         }
                     ],
                     "argumentType": "string",
@@ -637,6 +697,16 @@
                         {
                             "key": "spot",
                             "value": "Spot",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leftZone",
+                            "value": "Left zone",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rightZone",
+                            "value": "Right zone",
                             "type": "active"
                         }
                     ]
@@ -729,6 +799,16 @@
                         {
                             "key": "spot",
                             "value": "Spot",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leftZone",
+                            "value": "Left zone",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rightZone",
+                            "value": "Right zone",
                             "type": "active"
                         }
                     ],
@@ -823,6 +903,16 @@
                         {
                             "key": "spot",
                             "value": "Spot",
+                            "type": "active"
+                        },
+                        {
+                            "key": "leftZone",
+                            "value": "Left zone",
+                            "type": "active"
+                        },
+                        {
+                            "key": "rightZone",
+                            "value": "Right zone",
                             "type": "active"
                         }
                     ],
