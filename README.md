@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-09-08
+#### Last Update: 2026-03-22
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -61,6 +61,7 @@
 | [Camera Event](./json/cameraEvent.json) | 1 | proposed | [json](./json/cameraEventPresentation.json) | [json](./json/cameraEvent.i18n.fr.json) |
 | [Camera Preset](./json/cameraPreset.json) | 1 | proposed | [json](./json/cameraPresetPresentation.json) | [json](./json/cameraPreset.i18n.fr.json) |
 | [Camera Privacy Mode](./json/cameraPrivacyMode.json) | 1 | proposed |  | [json](./json/cameraPrivacyMode.i18n.fr.json) |
+| [Camera Viewport Settings](./json/cameraViewportSettings.json) | 1 | proposed |  | [json](./json/cameraViewportSettings.i18n.fr.json) |
 | [Carbon Dioxide Health Concern](./json/carbonDioxideHealthConcern.json) | 1 | live | [json](./json/carbonDioxideHealthConcernPresentation.json) | [json](./json/carbonDioxideHealthConcern.i18n.fr.json) |
 | [Carbon Dioxide Measurement](./json/carbonDioxideMeasurement.json) | 1 | live | [json](./json/carbonDioxideMeasurementPresentation.json) | [json](./json/carbonDioxideMeasurement.i18n.fr.json) |
 | [Carbon Monoxide Detector](./json/carbonMonoxideDetector.json) | 1 | live | [json](./json/carbonMonoxideDetectorPresentation.json) | [json](./json/carbonMonoxideDetector.i18n.fr.json) |
@@ -69,19 +70,20 @@
 | [Charge Point State](./json/chargePointState.json) | 1 | proposed | [json](./json/chargePointStatePresentation.json) | [json](./json/chargePointState.i18n.fr.json) |
 | [Charging State](./json/chargingState.json) | 1 | proposed | [json](./json/chargingStatePresentation.json) | [json](./json/chargingState.i18n.fr.json) |
 | [Chime](./json/chime.json) | 1 | live | [json](./json/chimePresentation.json) | [json](./json/chime.i18n.fr.json) |
+| [Coffee Maker Manual Operation](./json/coffeeMakerManualOperation.json) | 1 | proposed |  |  |
 | [Coffee Maker Operation](./json/coffeeMakerOperation.json) | 1 | proposed | [json](./json/coffeeMakerOperationPresentation.json) | [json](./json/coffeeMakerOperation.i18n.fr.json) |
 | [Color](./json/color.json) | 1 | proposed |  | [json](./json/color.i18n.fr.json) |
 | [Color Control](./json/colorControl.json) | 1 | live | [json](./json/colorControlPresentation.json) | [json](./json/colorControl.i18n.fr.json) |
 | [Color Mode](./json/colorMode.json) | 1 | proposed | [json](./json/colorModePresentation.json) | [json](./json/colorMode.i18n.fr.json) |
 | [Color Temperature](./json/colorTemperature.json) | 1 | live | [json](./json/colorTemperaturePresentation.json) | [json](./json/colorTemperature.i18n.fr.json) |
-| [Configuration](./json/configuration.json) | 1 | live |  | [json](./json/configuration.i18n.fr.json) |
+| [Configuration](./json/configuration.json) | 1 | deprecated |  | [json](./json/configuration.i18n.fr.json) |
 | [Consumable](./json/consumable.json) | 1 | proposed | [json](./json/consumablePresentation.json) | [json](./json/consumable.i18n.fr.json) |
 | [Consumable Life](./json/consumableLife.json) | 1 | proposed | [json](./json/consumableLifePresentation.json) | [json](./json/consumableLife.i18n.fr.json) |
 | [Contact Sensor](./json/contactSensor.json) | 1 | live | [json](./json/contactSensorPresentation.json) | [json](./json/contactSensor.i18n.fr.json) |
 | [Container State](./json/containerState.json) | 1 | proposed | [json](./json/containerStatePresentation.json) | [json](./json/containerState.i18n.fr.json) |
 | [Cook Time](./json/cookTime.json) | 1 | proposed | [json](./json/cookTimePresentation.json) | [json](./json/cookTime.i18n.fr.json) |
 | [Current Measurement](./json/currentMeasurement.json) | 1 | live | [json](./json/currentMeasurementPresentation.json) | [json](./json/currentMeasurement.i18n.fr.json) |
-| [Accessibility](./json/custom.accessibility.json) | 1 | proposed |  |  |
+| [Accessibility](./json/custom.accessibility.json) | 1 | proposed |  | [json](./json/custom.accessibility.i18n.fr.json) |
 | [Air Conditioner Odor Controller](./json/custom.airConditionerOdorController.json) | 1 | proposed |  | [json](./json/custom.airConditionerOdorController.i18n.fr.json) |
 | [Air Conditioner Optional Mode](./json/custom.airConditionerOptionalMode.json) | 1 | proposed | [json](./json/custom.airConditionerOptionalModePresentation.json) | [json](./json/custom.airConditionerOptionalMode.i18n.fr.json) |
 | [Air Conditioner Tropical Night Mode](./json/custom.airConditionerTropicalNightMode.json) | 1 | proposed |  | [json](./json/custom.airConditionerTropicalNightMode.i18n.fr.json) |
@@ -125,13 +127,13 @@
 | [Fridge Mode](./json/custom.fridgeMode.json) | 1 | proposed | [json](./json/custom.fridgeModePresentation.json) | [json](./json/custom.fridgeMode.i18n.fr.json) |
 | [Hepa Filter](./json/custom.hepaFilter.json) | 1 | proposed |  | [json](./json/custom.hepaFilter.i18n.fr.json) |
 | [Job Beginning Status](./json/custom.jobBeginningStatus.json) | 1 | proposed |  | [json](./json/custom.jobBeginningStatus.i18n.fr.json) |
-| [launchApp](./json/custom.launchapp.json) | 1 | proposed |  |  |
+| [launchApp](./json/custom.launchapp.json) | 1 | proposed |  | [json](./json/custom.launchapp.i18n.fr.json) |
 | [Lower Device Power](./json/custom.lowerDevicePower.json) | 1 | proposed |  | [json](./json/custom.lowerDevicePower.i18n.fr.json) |
 | [Outing Mode](./json/custom.outingMode.json) | 1 | proposed | [json](./json/custom.outingModePresentation.json) | [json](./json/custom.outingMode.i18n.fr.json) |
 | [Oven Cavity Status](./json/custom.ovenCavityStatus.json) | 1 | proposed | [json](./json/custom.ovenCavityStatusPresentation.json) | [json](./json/custom.ovenCavityStatus.i18n.fr.json) |
 | [Periodic Sensing](./json/custom.periodicSensing.json) | 1 | proposed | [json](./json/custom.periodicSensingPresentation.json) | [json](./json/custom.periodicSensing.i18n.fr.json) |
 | [PictureMode](./json/custom.picturemode.json) | 1 | proposed | [json](./json/custom.picturemodePresentation.json) | [json](./json/custom.picturemode.i18n.fr.json) |
-| [Recording](./json/custom.recording.json) | 1 | proposed |  |  |
+| [Recording](./json/custom.recording.json) | 1 | proposed |  | [json](./json/custom.recording.i18n.fr.json) |
 | [Region](./json/custom.region.json) | 1 | proposed |  |  |
 | [Robot Cleaner Battery Full Status](./json/custom.robotCleanerBatteryFullStatus.json) | 1 | proposed |  | [json](./json/custom.robotCleanerBatteryFullStatus.i18n.fr.json) |
 | [Robot Cleaner Behavior](./json/custom.robotCleanerBehavior.json) | 1 | proposed |  | [json](./json/custom.robotCleanerBehavior.i18n.fr.json) |
@@ -153,7 +155,7 @@
 | [Steam Closet Wrinkle Prevent](./json/custom.steamClosetWrinklePrevent.json) | 1 | proposed |  | [json](./json/custom.steamClosetWrinklePrevent.i18n.fr.json) |
 | [Supported Options](./json/custom.supportedOptions.json) | 1 | proposed | [json](./json/custom.supportedOptionsPresentation.json) | [json](./json/custom.supportedOptions.i18n.fr.json) |
 | [Thermostat Setpoint Control](./json/custom.thermostatSetpointControl.json) | 1 | proposed |  | [json](./json/custom.thermostatSetpointControl.i18n.fr.json) |
-| [tvSearch](./json/custom.tvsearch.json) | 1 | proposed |  |  |
+| [tvSearch](./json/custom.tvsearch.json) | 1 | proposed |  | [json](./json/custom.tvsearch.i18n.fr.json) |
 | [User Notification](./json/custom.userNotification.json) | 1 | proposed |  | [json](./json/custom.userNotification.i18n.fr.json) |
 | [Very Fine Dust Filter](./json/custom.veryFineDustFilter.json) | 1 | proposed |  | [json](./json/custom.veryFineDustFilter.i18n.fr.json) |
 | [Virus Doctor Mode](./json/custom.virusDoctorMode.json) | 1 | proposed |  | [json](./json/custom.virusDoctorMode.i18n.fr.json) |
@@ -173,6 +175,7 @@
 | [Dishwasher Operating State](./json/dishwasherOperatingState.json) | 1 | live | [json](./json/dishwasherOperatingStatePresentation.json) | [json](./json/dishwasherOperatingState.i18n.fr.json) |
 | [Dishwasher Operational State](./json/dishwasherOperationalState.json) | 1 | deprecated |  | [json](./json/dishwasherOperationalState.i18n.fr.json) |
 | [Door Control](./json/doorControl.json) | 1 | live | [json](./json/doorControlPresentation.json) | [json](./json/doorControl.i18n.fr.json) |
+| [Door State](./json/doorState.json) | 1 | proposed | [json](./json/doorStatePresentation.json) | [json](./json/doorState.i18n.fr.json) |
 | [Driving Status](./json/drivingStatus.json) | 1 | proposed | [json](./json/drivingStatusPresentation.json) | [json](./json/drivingStatus.i18n.fr.json) |
 | [Dryer Mode](./json/dryerMode.json) | 1 | proposed | [json](./json/dryerModePresentation.json) | [json](./json/dryerMode.i18n.fr.json) |
 | [Dryer Operating State](./json/dryerOperatingState.json) | 1 | live | [json](./json/dryerOperatingStatePresentation.json) | [json](./json/dryerOperatingState.i18n.fr.json) |
@@ -180,6 +183,7 @@
 | [Dust Sensor](./json/dustSensor.json) | 1 | live | [json](./json/dustSensorPresentation.json) | [json](./json/dustSensor.i18n.fr.json) |
 | [Elevator Call](./json/elevatorCall.json) | 1 | live | [json](./json/elevatorCallPresentation.json) | [json](./json/elevatorCall.i18n.fr.json) |
 | [End to End Encryption](./json/endToEndEncryption.json) | 1 | proposed |  | [json](./json/endToEndEncryption.i18n.fr.json) |
+| [End to End Encryption State](./json/endToEndEncryptionState.json) | 1 | proposed |  | [json](./json/endToEndEncryptionState.i18n.fr.json) |
 | [Energy Meter](./json/energyMeter.json) | 1 | live | [json](./json/energyMeterPresentation.json) | [json](./json/energyMeter.i18n.fr.json) |
 | [Equivalent Carbon Dioxide Measurement](./json/equivalentCarbonDioxideMeasurement.json) | 1 | live | [json](./json/equivalentCarbonDioxideMeasurementPresentation.json) | [json](./json/equivalentCarbonDioxideMeasurement.i18n.fr.json) |
 | [Estimated Time Of Arrival](./json/estimatedTimeOfArrival.json) | 1 | proposed | [json](./json/estimatedTimeOfArrivalPresentation.json) | [json](./json/estimatedTimeOfArrival.i18n.fr.json) |
@@ -187,6 +191,7 @@
 | [Evse State](./json/evseState.json) | 1 | proposed | [json](./json/evseStatePresentation.json) | [json](./json/evseState.i18n.fr.json) |
 | [Execute](./json/execute.json) | 1 | deprecated |  | [json](./json/execute.i18n.fr.json) |
 | [Face Recognition](./json/faceRecognition.json) | 1 | proposed | [json](./json/faceRecognitionPresentation.json) | [json](./json/faceRecognition.i18n.fr.json) |
+| [Fan Direction](./json/fanDirection.json) | 1 | proposed | [json](./json/fanDirectionPresentation.json) | [json](./json/fanDirection.i18n.fr.json) |
 | [Fan Mode](./json/fanMode.json) | 1 | proposed | [json](./json/fanModePresentation.json) | [json](./json/fanMode.i18n.fr.json) |
 | [Fan Oscillation Mode](./json/fanOscillationMode.json) | 1 | live | [json](./json/fanOscillationModePresentation.json) | [json](./json/fanOscillationMode.i18n.fr.json) |
 | [Fan Speed](./json/fanSpeed.json) | 1 | live | [json](./json/fanSpeedPresentation.json) | [json](./json/fanSpeed.i18n.fr.json) |
@@ -199,6 +204,7 @@
 | [Fine Dust Sensor](./json/fineDustSensor.json) | 1 | live | [json](./json/fineDustSensorPresentation.json) | [json](./json/fineDustSensor.i18n.fr.json) |
 | [Firmware Update](./json/firmwareUpdate.json) | 1 | live |  | [json](./json/firmwareUpdate.i18n.fr.json) |
 | [Flow Measurement](./json/flowMeasurement.json) | 1 | proposed | [json](./json/flowMeasurementPresentation.json) | [json](./json/flowMeasurement.i18n.fr.json) |
+| [Food Waste Drying Grinder](./json/foodWasteDryingGrinder.json) | 1 | proposed | [json](./json/foodWasteDryingGrinderPresentation.json) | [json](./json/foodWasteDryingGrinder.i18n.fr.json) |
 | [Formaldehyde Health Concern](./json/formaldehydeHealthConcern.json) | 1 | live | [json](./json/formaldehydeHealthConcernPresentation.json) | [json](./json/formaldehydeHealthConcern.i18n.fr.json) |
 | [Formaldehyde Measurement](./json/formaldehydeMeasurement.json) | 1 | live | [json](./json/formaldehydeMeasurementPresentation.json) | [json](./json/formaldehydeMeasurement.i18n.fr.json) |
 | [Garage Door Control](./json/garageDoorControl.json) | 1 | deprecated | [json](./json/garageDoorControlPresentation.json) | [json](./json/garageDoorControl.i18n.fr.json) |
@@ -221,12 +227,14 @@
 | [Indicator](./json/indicator.json) | 1 | deprecated |  | [json](./json/indicator.i18n.fr.json) |
 | [Infrared Level](./json/infraredLevel.json) | 1 | live | [json](./json/infraredLevelPresentation.json) | [json](./json/infraredLevel.i18n.fr.json) |
 | [Keypad Input](./json/keypadInput.json) | 1 | live | [json](./json/keypadInputPresentation.json) | [json](./json/keypadInput.i18n.fr.json) |
-| [Language Setting](./json/languageSetting.json) | 1 | proposed | [json](./json/languageSettingPresentation.json) | [json](./json/languageSetting.i18n.fr.json) |
+| [Knob](./json/knob.json) | 1 | proposed |  | [json](./json/knob.i18n.fr.json) |
+| [Language Setting](./json/languageSetting.json) | 1 | deprecated | [json](./json/languageSettingPresentation.json) | [json](./json/languageSetting.i18n.fr.json) |
 | [Laundry Washer Rinse Mode](./json/laundryWasherRinseMode.json) | 1 | live | [json](./json/laundryWasherRinseModePresentation.json) | [json](./json/laundryWasherRinseMode.i18n.fr.json) |
 | [Laundry Washer Spin Speed](./json/laundryWasherSpinSpeed.json) | 1 | live | [json](./json/laundryWasherSpinSpeedPresentation.json) | [json](./json/laundryWasherSpinSpeed.i18n.fr.json) |
 | [Level](./json/level.json) | 1 | proposed | [json](./json/levelPresentation.json) | [json](./json/level.i18n.fr.json) |
 | [Light](./json/light.json) | 1 | deprecated |  | [json](./json/light.i18n.fr.json) |
 | [Light Controller Mode](./json/lightControllerMode.json) | 1 | proposed | [json](./json/lightControllerModePresentation.json) | [json](./json/lightControllerMode.i18n.fr.json) |
+| [Local Media Storage](./json/localMediaStorage.json) | 1 | proposed |  | [json](./json/localMediaStorage.i18n.fr.json) |
 | [Location Mode](./json/locationMode.json) | 1 | live |  | [json](./json/locationMode.i18n.fr.json) |
 | [Lock](./json/lock.json) | 1 | live | [json](./json/lockPresentation.json) | [json](./json/lock.i18n.fr.json) |
 | [Lock Alarm](./json/lockAlarm.json) | 1 | proposed | [json](./json/lockAlarmPresentation.json) | [json](./json/lockAlarm.i18n.fr.json) |
@@ -236,7 +244,7 @@
 | [Lock Only](./json/lockOnly.json) | 1 | deprecated |  | [json](./json/lockOnly.i18n.fr.json) |
 | [Lock Schedules](./json/lockSchedules.json) | 1 | proposed |  | [json](./json/lockSchedules.i18n.fr.json) |
 | [Lock Users](./json/lockUsers.json) | 1 | proposed |  | [json](./json/lockUsers.i18n.fr.json) |
-| [Log Trigger](./json/logTrigger.json) | 1 | proposed |  | [json](./json/logTrigger.i18n.fr.json) |
+| [Log Trigger](./json/logTrigger.json) | 1 | deprecated |  | [json](./json/logTrigger.i18n.fr.json) |
 | [Massage Intensity Change](./json/massageIntensityChange.json) | 1 | proposed | [json](./json/massageIntensityChangePresentation.json) | [json](./json/massageIntensityChange.i18n.fr.json) |
 | [Massage Intensity Control](./json/massageIntensityControl.json) | 1 | proposed | [json](./json/massageIntensityControlPresentation.json) | [json](./json/massageIntensityControl.i18n.fr.json) |
 | [Massage Operating](./json/massageOperating.json) | 1 | proposed | [json](./json/massageOperatingPresentation.json) | [json](./json/massageOperating.i18n.fr.json) |
@@ -244,7 +252,7 @@
 | [Massage Time Change](./json/massageTimeChange.json) | 1 | proposed | [json](./json/massageTimeChangePresentation.json) | [json](./json/massageTimeChange.i18n.fr.json) |
 | [Massage Time Control](./json/massageTimeControl.json) | 1 | proposed | [json](./json/massageTimeControlPresentation.json) | [json](./json/massageTimeControl.i18n.fr.json) |
 | [Mechanical Pan Tilt Zoom](./json/mechanicalPanTiltZoom.json) | 1 | proposed |  | [json](./json/mechanicalPanTiltZoom.i18n.fr.json) |
-| [Media Controller](./json/mediaController.json) | 1 | proposed |  | [json](./json/mediaController.i18n.fr.json) |
+| [Media Controller](./json/mediaController.json) | 1 | deprecated |  | [json](./json/mediaController.i18n.fr.json) |
 | [Media Group](./json/mediaGroup.json) | 1 | proposed | [json](./json/mediaGroupPresentation.json) | [json](./json/mediaGroup.i18n.fr.json) |
 | [Media Input Source](./json/mediaInputSource.json) | 1 | live | [json](./json/mediaInputSourcePresentation.json) | [json](./json/mediaInputSource.i18n.fr.json) |
 | [Media Playback](./json/mediaPlayback.json) | 1 | live | [json](./json/mediaPlaybackPresentation.json) | [json](./json/mediaPlayback.i18n.fr.json) |
@@ -260,7 +268,7 @@
 | [Movement Sensor](./json/movementSensor.json) | 1 | proposed | [json](./json/movementSensorPresentation.json) | [json](./json/movementSensor.i18n.fr.json) |
 | [Multiple Zone Presence](./json/multipleZonePresence.json) | 1 | proposed | [json](./json/multipleZonePresencePresentation.json) | [json](./json/multipleZonePresence.i18n.fr.json) |
 | [Music Player](./json/musicPlayer.json) | 1 | deprecated | [json](./json/musicPlayerPresentation.json) | [json](./json/musicPlayer.i18n.fr.json) |
-| [Network Meter](./json/networkMeter.json) | 1 | live |  | [json](./json/networkMeter.i18n.fr.json) |
+| [Network Meter](./json/networkMeter.json) | 1 | deprecated |  | [json](./json/networkMeter.i18n.fr.json) |
 | [Night Vision](./json/nightVision.json) | 1 | proposed |  | [json](./json/nightVision.i18n.fr.json) |
 | [Nitrogen Dioxide Health Concern](./json/nitrogenDioxideHealthConcern.json) | 1 | live | [json](./json/nitrogenDioxideHealthConcernPresentation.json) | [json](./json/nitrogenDioxideHealthConcern.i18n.fr.json) |
 | [Nitrogen Dioxide Measurement](./json/nitrogenDioxideMeasurement.json) | 1 | live | [json](./json/nitrogenDioxideMeasurementPresentation.json) | [json](./json/nitrogenDioxideMeasurement.i18n.fr.json) |
@@ -287,8 +295,8 @@
 | [Power Consumption Report](./json/powerConsumptionReport.json) | 1 | live |  | [json](./json/powerConsumptionReport.i18n.fr.json) |
 | [Power Meter](./json/powerMeter.json) | 1 | live | [json](./json/powerMeterPresentation.json) | [json](./json/powerMeter.i18n.fr.json) |
 | [Power Source](./json/powerSource.json) | 1 | live | [json](./json/powerSourcePresentation.json) | [json](./json/powerSource.i18n.fr.json) |
-| [Precipitation Measurement](./json/precipitationMeasurement.json) | 1 | proposed |  | [json](./json/precipitationMeasurement.i18n.fr.json) |
-| [Precipitation Rate](./json/precipitationRate.json) | 1 | proposed |  | [json](./json/precipitationRate.i18n.fr.json) |
+| [Precipitation Measurement](./json/precipitationMeasurement.json) | 1 | deprecated |  | [json](./json/precipitationMeasurement.i18n.fr.json) |
+| [Precipitation Rate](./json/precipitationRate.json) | 1 | deprecated |  | [json](./json/precipitationRate.i18n.fr.json) |
 | [Precipitation Sensor](./json/precipitationSensor.json) | 1 | live | [json](./json/precipitationSensorPresentation.json) | [json](./json/precipitationSensor.i18n.fr.json) |
 | [Presence Sensor](./json/presenceSensor.json) | 1 | live | [json](./json/presenceSensorPresentation.json) | [json](./json/presenceSensor.i18n.fr.json) |
 | [Pump Control Mode](./json/pumpControlMode.json) | 1 | proposed | [json](./json/pumpControlModePresentation.json) | [json](./json/pumpControlMode.i18n.fr.json) |
@@ -298,7 +306,7 @@
 | [Rain Sensor](./json/rainSensor.json) | 1 | proposed | [json](./json/rainSensorPresentation.json) | [json](./json/rainSensor.i18n.fr.json) |
 | [Rapid Cooling](./json/rapidCooling.json) | 1 | proposed | [json](./json/rapidCoolingPresentation.json) | [json](./json/rapidCooling.i18n.fr.json) |
 | [Refresh](./json/refresh.json) | 1 | live | [json](./json/refreshPresentation.json) | [json](./json/refresh.i18n.fr.json) |
-| [Refrigeration](./json/refrigeration.json) | 1 | live | [json](./json/refrigerationPresentation.json) | [json](./json/refrigeration.i18n.fr.json) |
+| [Refrigeration](./json/refrigeration.json) | 1 | deprecated | [json](./json/refrigerationPresentation.json) | [json](./json/refrigeration.i18n.fr.json) |
 | [Refrigeration Setpoint](./json/refrigerationSetpoint.json) | 1 | proposed | [json](./json/refrigerationSetpointPresentation.json) | [json](./json/refrigerationSetpoint.i18n.fr.json) |
 | [Relative Brightness](./json/relativeBrightness.json) | 1 | proposed | [json](./json/relativeBrightnessPresentation.json) | [json](./json/relativeBrightness.i18n.fr.json) |
 | [Relative Humidity Measurement](./json/relativeHumidityMeasurement.json) | 1 | live | [json](./json/relativeHumidityMeasurementPresentation.json) | [json](./json/relativeHumidityMeasurement.i18n.fr.json) |
@@ -437,32 +445,36 @@
 | [StartStopProgramV3](./json/signalahead13665.startstopprogramv3.json) | 1 | proposed | [json](./json/signalahead13665.startstopprogramv3Presentation.json) | [json](./json/signalahead13665.startstopprogramv3.i18n.fr.json) |
 | [Sleep Sensor](./json/sleepSensor.json) | 1 | live | [json](./json/sleepSensorPresentation.json) | [json](./json/sleepSensor.i18n.fr.json) |
 | [Smoke Detector](./json/smokeDetector.json) | 1 | live | [json](./json/smokeDetectorPresentation.json) | [json](./json/smokeDetector.i18n.fr.json) |
+| [Soil Moisture Measurement](./json/soilMoistureMeasurement.json) | 1 | proposed |  | [json](./json/soilMoistureMeasurement.i18n.fr.json) |
 | [Sound Detection](./json/soundDetection.json) | 1 | live | [json](./json/soundDetectionPresentation.json) | [json](./json/soundDetection.i18n.fr.json) |
 | [Sound Pressure Level](./json/soundPressureLevel.json) | 1 | live | [json](./json/soundPressureLevelPresentation.json) | [json](./json/soundPressureLevel.i18n.fr.json) |
 | [Sound Sensor](./json/soundSensor.json) | 1 | live | [json](./json/soundSensorPresentation.json) | [json](./json/soundSensor.i18n.fr.json) |
+| [Sounds](./json/sounds.json) | 1 | proposed |  | [json](./json/sounds.i18n.fr.json) |
 | [Speech Recognition](./json/speechRecognition.json) | 1 | proposed |  | [json](./json/speechRecognition.i18n.fr.json) |
 | [Speech Synthesis](./json/speechSynthesis.json) | 1 | proposed | [json](./json/speechSynthesisPresentation.json) | [json](./json/speechSynthesis.i18n.fr.json) |
-| [Stateless Air Cleaner Mode Button](./json/statelessAirCleanerModeButton.json) | 1 | proposed | [json](./json/statelessAirCleanerModeButtonPresentation.json) | [json](./json/statelessAirCleanerModeButton.i18n.fr.json) |
-| [Stateless Audio Mute Button](./json/statelessAudioMuteButton.json) | 1 | live | [json](./json/statelessAudioMuteButtonPresentation.json) | [json](./json/statelessAudioMuteButton.i18n.fr.json) |
-| [Stateless Audio Volume Button](./json/statelessAudioVolumeButton.json) | 1 | live | [json](./json/statelessAudioVolumeButtonPresentation.json) | [json](./json/statelessAudioVolumeButton.i18n.fr.json) |
-| [Stateless Channel Button](./json/statelessChannelButton.json) | 1 | live | [json](./json/statelessChannelButtonPresentation.json) | [json](./json/statelessChannelButton.i18n.fr.json) |
+| [Stateless Air Cleaner Mode Button](./json/statelessAirCleanerModeButton.json) | 1 | deprecated | [json](./json/statelessAirCleanerModeButtonPresentation.json) | [json](./json/statelessAirCleanerModeButton.i18n.fr.json) |
+| [Stateless Audio Mute Button](./json/statelessAudioMuteButton.json) | 1 | deprecated | [json](./json/statelessAudioMuteButtonPresentation.json) | [json](./json/statelessAudioMuteButton.i18n.fr.json) |
+| [Stateless Audio Volume Button](./json/statelessAudioVolumeButton.json) | 1 | deprecated | [json](./json/statelessAudioVolumeButtonPresentation.json) | [json](./json/statelessAudioVolumeButton.i18n.fr.json) |
+| [Stateless Channel Button](./json/statelessChannelButton.json) | 1 | deprecated | [json](./json/statelessChannelButtonPresentation.json) | [json](./json/statelessChannelButton.i18n.fr.json) |
+| [Stateless Color Temperature Step](./json/statelessColorTemperatureStep.json) | 1 | proposed | [json](./json/statelessColorTemperatureStepPresentation.json) | [json](./json/statelessColorTemperatureStep.i18n.fr.json) |
 | [Stateless Curtain Power Button](./json/statelessCurtainPowerButton.json) | 1 | proposed | [json](./json/statelessCurtainPowerButtonPresentation.json) | [json](./json/statelessCurtainPowerButton.i18n.fr.json) |
-| [Stateless Custom Button](./json/statelessCustomButton.json) | 1 | live | [json](./json/statelessCustomButtonPresentation.json) | [json](./json/statelessCustomButton.i18n.fr.json) |
-| [Stateless Fanspeed Button](./json/statelessFanspeedButton.json) | 1 | live | [json](./json/statelessFanspeedButtonPresentation.json) | [json](./json/statelessFanspeedButton.i18n.fr.json) |
-| [Stateless Fanspeed Mode Button](./json/statelessFanspeedModeButton.json) | 1 | proposed | [json](./json/statelessFanspeedModeButtonPresentation.json) | [json](./json/statelessFanspeedModeButton.i18n.fr.json) |
-| [Stateless Humidifier Mode Button](./json/statelessHumidifierModeButton.json) | 1 | proposed | [json](./json/statelessHumidifierModeButtonPresentation.json) | [json](./json/statelessHumidifierModeButton.i18n.fr.json) |
-| [Stateless Media Playback Button](./json/statelessMediaPlaybackButton.json) | 1 | proposed | [json](./json/statelessMediaPlaybackButtonPresentation.json) | [json](./json/statelessMediaPlaybackButton.i18n.fr.json) |
+| [Stateless Custom Button](./json/statelessCustomButton.json) | 1 | deprecated | [json](./json/statelessCustomButtonPresentation.json) | [json](./json/statelessCustomButton.i18n.fr.json) |
+| [Stateless Fanspeed Button](./json/statelessFanspeedButton.json) | 1 | deprecated | [json](./json/statelessFanspeedButtonPresentation.json) | [json](./json/statelessFanspeedButton.i18n.fr.json) |
+| [Stateless Fanspeed Mode Button](./json/statelessFanspeedModeButton.json) | 1 | deprecated | [json](./json/statelessFanspeedModeButtonPresentation.json) | [json](./json/statelessFanspeedModeButton.i18n.fr.json) |
+| [Stateless Humidifier Mode Button](./json/statelessHumidifierModeButton.json) | 1 | deprecated | [json](./json/statelessHumidifierModeButtonPresentation.json) | [json](./json/statelessHumidifierModeButton.i18n.fr.json) |
+| [Stateless Media Playback Button](./json/statelessMediaPlaybackButton.json) | 1 | deprecated | [json](./json/statelessMediaPlaybackButtonPresentation.json) | [json](./json/statelessMediaPlaybackButton.i18n.fr.json) |
 | [Stateless Power Button](./json/statelessPowerButton.json) | 1 | live | [json](./json/statelessPowerButtonPresentation.json) | [json](./json/statelessPowerButton.i18n.fr.json) |
 | [Stateless Power Toggle Button](./json/statelessPowerToggleButton.json) | 1 | live | [json](./json/statelessPowerToggleButtonPresentation.json) | [json](./json/statelessPowerToggleButton.i18n.fr.json) |
-| [Stateless Robot Cleaner Action Button](./json/statelessRobotCleanerActionButton.json) | 1 | proposed | [json](./json/statelessRobotCleanerActionButtonPresentation.json) | [json](./json/statelessRobotCleanerActionButton.i18n.fr.json) |
-| [Stateless Robot Cleaner Home Button](./json/statelessRobotCleanerHomeButton.json) | 1 | proposed | [json](./json/statelessRobotCleanerHomeButtonPresentation.json) | [json](./json/statelessRobotCleanerHomeButton.i18n.fr.json) |
-| [Stateless Robot Cleaner Toggle Button](./json/statelessRobotCleanerToggleButton.json) | 1 | proposed | [json](./json/statelessRobotCleanerToggleButtonPresentation.json) | [json](./json/statelessRobotCleanerToggleButton.i18n.fr.json) |
+| [Stateless Robot Cleaner Action Button](./json/statelessRobotCleanerActionButton.json) | 1 | deprecated | [json](./json/statelessRobotCleanerActionButtonPresentation.json) | [json](./json/statelessRobotCleanerActionButton.i18n.fr.json) |
+| [Stateless Robot Cleaner Home Button](./json/statelessRobotCleanerHomeButton.json) | 1 | deprecated | [json](./json/statelessRobotCleanerHomeButtonPresentation.json) | [json](./json/statelessRobotCleanerHomeButton.i18n.fr.json) |
+| [Stateless Robot Cleaner Toggle Button](./json/statelessRobotCleanerToggleButton.json) | 1 | deprecated | [json](./json/statelessRobotCleanerToggleButtonPresentation.json) | [json](./json/statelessRobotCleanerToggleButton.i18n.fr.json) |
 | [Stateless Scenes](./json/statelessScenes.json) | 1 | proposed |  | [json](./json/statelessScenes.i18n.fr.json) |
-| [Stateless Set Channel Button](./json/statelessSetChannelButton.json) | 1 | proposed | [json](./json/statelessSetChannelButtonPresentation.json) | [json](./json/statelessSetChannelButton.i18n.fr.json) |
-| [Stateless Set Channel By Content Button](./json/statelessSetChannelByContentButton.json) | 1 | proposed | [json](./json/statelessSetChannelByContentButtonPresentation.json) | [json](./json/statelessSetChannelByContentButton.i18n.fr.json) |
-| [Stateless Set Channel By Name Button](./json/statelessSetChannelByNameButton.json) | 1 | proposed | [json](./json/statelessSetChannelByNameButtonPresentation.json) | [json](./json/statelessSetChannelByNameButton.i18n.fr.json) |
-| [Stateless Temperature Button](./json/statelessTemperatureButton.json) | 1 | live | [json](./json/statelessTemperatureButtonPresentation.json) | [json](./json/statelessTemperatureButton.i18n.fr.json) |
-| [Stateless Volume Button With Repetition](./json/statelessVolumeButtonWithRepetition.json) | 1 | proposed | [json](./json/statelessVolumeButtonWithRepetitionPresentation.json) | [json](./json/statelessVolumeButtonWithRepetition.i18n.fr.json) |
+| [Stateless Set Channel Button](./json/statelessSetChannelButton.json) | 1 | deprecated | [json](./json/statelessSetChannelButtonPresentation.json) | [json](./json/statelessSetChannelButton.i18n.fr.json) |
+| [Stateless Set Channel By Content Button](./json/statelessSetChannelByContentButton.json) | 1 | deprecated | [json](./json/statelessSetChannelByContentButtonPresentation.json) | [json](./json/statelessSetChannelByContentButton.i18n.fr.json) |
+| [Stateless Set Channel By Name Button](./json/statelessSetChannelByNameButton.json) | 1 | deprecated | [json](./json/statelessSetChannelByNameButtonPresentation.json) | [json](./json/statelessSetChannelByNameButton.i18n.fr.json) |
+| [Stateless Switch Level Step](./json/statelessSwitchLevelStep.json) | 1 | proposed | [json](./json/statelessSwitchLevelStepPresentation.json) | [json](./json/statelessSwitchLevelStep.i18n.fr.json) |
+| [Stateless Temperature Button](./json/statelessTemperatureButton.json) | 1 | deprecated | [json](./json/statelessTemperatureButtonPresentation.json) | [json](./json/statelessTemperatureButton.i18n.fr.json) |
+| [Stateless Volume Button With Repetition](./json/statelessVolumeButtonWithRepetition.json) | 1 | deprecated | [json](./json/statelessVolumeButtonWithRepetitionPresentation.json) | [json](./json/statelessVolumeButtonWithRepetition.i18n.fr.json) |
 | [Step Sensor](./json/stepSensor.json) | 1 | deprecated |  | [json](./json/stepSensor.i18n.fr.json) |
 | [Switch](./json/switch.json) | 1 | live | [json](./json/switchPresentation.json) | [json](./json/switch.i18n.fr.json) |
 | [Switch Level](./json/switchLevel.json) | 1 | live | [json](./json/switchLevelPresentation.json) | [json](./json/switchLevel.i18n.fr.json) |
@@ -482,7 +494,7 @@
 | [Temperature Level](./json/temperatureLevel.json) | 1 | live | [json](./json/temperatureLevelPresentation.json) | [json](./json/temperatureLevel.i18n.fr.json) |
 | [Temperature Measurement](./json/temperatureMeasurement.json) | 1 | live | [json](./json/temperatureMeasurementPresentation.json) | [json](./json/temperatureMeasurement.i18n.fr.json) |
 | [Temperature Setpoint](./json/temperatureSetpoint.json) | 1 | live | [json](./json/temperatureSetpointPresentation.json) | [json](./json/temperatureSetpoint.i18n.fr.json) |
-| [Test Capability](./json/testCapability.json) | 1 | live |  | [json](./json/testCapability.i18n.fr.json) |
+| [Test Capability](./json/testCapability.json) | 1 | deprecated |  | [json](./json/testCapability.i18n.fr.json) |
 | [Thermostat](./json/thermostat.json) | 1 | deprecated | [json](./json/thermostatPresentation.json) | [json](./json/thermostat.i18n.fr.json) |
 | [Thermostat Cooling Setpoint](./json/thermostatCoolingSetpoint.json) | 1 | live | [json](./json/thermostatCoolingSetpointPresentation.json) | [json](./json/thermostatCoolingSetpoint.i18n.fr.json) |
 | [Thermostat Fan Mode](./json/thermostatFanMode.json) | 1 | live | [json](./json/thermostatFanModePresentation.json) | [json](./json/thermostatFanMode.i18n.fr.json) |
@@ -519,9 +531,10 @@
 | [Very Fine Dust Sensor](./json/veryFineDustSensor.json) | 1 | live | [json](./json/veryFineDustSensorPresentation.json) | [json](./json/veryFineDustSensor.i18n.fr.json) |
 | [Video Camera](./json/videoCamera.json) | 1 | live | [json](./json/videoCameraPresentation.json) | [json](./json/videoCamera.i18n.fr.json) |
 | [Video Capture](./json/videoCapture.json) | 1 | live | [json](./json/videoCapturePresentation.json) | [json](./json/videoCapture.i18n.fr.json) |
-| [Video Capture 2](./json/videoCapture2.json) | 1 | proposed |  | [json](./json/videoCapture2.i18n.fr.json) |
+| [Video Capture 2](./json/videoCapture2.json) | 1 | proposed | [json](./json/videoCapture2Presentation.json) | [json](./json/videoCapture2.i18n.fr.json) |
 | [Video Clips](./json/videoClips.json) | 1 | deprecated |  | [json](./json/videoClips.i18n.fr.json) |
 | [Video Stream](./json/videoStream.json) | 1 | live | [json](./json/videoStreamPresentation.json) | [json](./json/videoStream.i18n.fr.json) |
+| [Video Stream Settings](./json/videoStreamSettings.json) | 1 | proposed |  | [json](./json/videoStreamSettings.i18n.fr.json) |
 | [Voltage Measurement](./json/voltageMeasurement.json) | 1 | live | [json](./json/voltageMeasurementPresentation.json) | [json](./json/voltageMeasurement.i18n.fr.json) |
 | [Washer Mode](./json/washerMode.json) | 1 | proposed | [json](./json/washerModePresentation.json) | [json](./json/washerMode.i18n.fr.json) |
 | [Washer Operating State](./json/washerOperatingState.json) | 1 | live | [json](./json/washerOperatingStatePresentation.json) | [json](./json/washerOperatingState.i18n.fr.json) |
@@ -542,5 +555,6 @@
 | [Window Shade Preset](./json/windowShadePreset.json) | 1 | live | [json](./json/windowShadePresetPresentation.json) | [json](./json/windowShadePreset.i18n.fr.json) |
 | [Window Shade Tilt Level](./json/windowShadeTiltLevel.json) | 1 | proposed | [json](./json/windowShadeTiltLevelPresentation.json) | [json](./json/windowShadeTiltLevel.i18n.fr.json) |
 | [Wireless Operating Mode](./json/wirelessOperatingMode.json) | 1 | proposed | [json](./json/wirelessOperatingModePresentation.json) | [json](./json/wirelessOperatingMode.i18n.fr.json) |
-| [Zw Multichannel](./json/zwMultichannel.json) | 1 | live |  | [json](./json/zwMultichannel.i18n.fr.json) |
+| [Zone Management](./json/zoneManagement.json) | 1 | proposed |  | [json](./json/zoneManagement.i18n.fr.json) |
+| [Zw Multichannel](./json/zwMultichannel.json) | 1 | deprecated |  | [json](./json/zwMultichannel.i18n.fr.json) |
 
