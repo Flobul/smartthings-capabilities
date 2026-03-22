@@ -1,20 +1,39 @@
 <?php return array (
-  "alarmSystem" => 
+  "doorState" => 
   array (
-    "sendEvent(alarmSystemStatus,off)" => __("sendEvent(alarmSystemStatus,off)", __FILE__),
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "doorState" => __("doorState", __FILE__),
+    "supportedDoorStates" => __("supportedDoorStates", __FILE__),
   ),
-  "alarmSystemArmOnly" => 
+  "endToEndEncryptionState" => 
   array (
-    "sendEvent(alarmSystemStatus,away)" => __("sendEvent(alarmSystemStatus,away)", __FILE__),
-    "sendEvent(alarmSystemStatus,stay)" => __("sendEvent(alarmSystemStatus,stay)", __FILE__),
+    "enabled" => __("enabled", __FILE__),
+    "setEnabledenabled" => "setEnabledenabled",
+    "setEnableddisabled" => "setEnableddisabled",
   ),
-  "astronomicalData" => 
+  "foodWasteDryingGrinder" => 
   array (
-    "sendEvent(sunriseTime)" => __("sendEvent(sunriseTime)", __FILE__),
-    "sendEvent(sunrise)" => __("sendEvent(sunrise)", __FILE__),
-    "sendEvent(sunset)" => __("sendEvent(sunset)", __FILE__),
-    "sendEvent(sunsetTime)" => __("sendEvent(sunsetTime)", __FILE__),
+    "mode" => __("mode", __FILE__),
+    "supportedStates" => __("supportedStates", __FILE__),
+    "state" => __("state", __FILE__),
+    "supportedModes" => __("supportedModes", __FILE__),
+    "event" => __("event", __FILE__),
+    "supportedEvents" => __("supportedEvents", __FILE__),
+    "stop" => __("stop", __FILE__),
+    "start" => __("start", __FILE__),
+    "setMode" => __("setMode", __FILE__),
+  ),
+  "knob" => 
+  array (
+    "rotateAmount" => __("rotateAmount", __FILE__),
+    "supportedAttributes" => __("supportedAttributes", __FILE__),
+    "heldRotateAmount" => __("heldRotateAmount", __FILE__),
+  ),
+  "samsungce.autoDispenseDetergent" => 
+  array (
+    "supportedTypes" => __("supportedTypes", __FILE__),
+  ),
+  "samsungce.deviceIdentification" => 
+  array (
+    "releaseCountry" => __("releaseCountry", __FILE__),
   ),
 );
