@@ -1,0 +1,67 @@
+{
+    "tag": "en",
+    "label": "Zone Management",
+    "attributes": {
+        "supportedFeatures": {
+            "label": "supportedFeatures",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "maxZones": {
+            "label": "maxZones",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "sensitivity": {
+            "label": "sensitivity",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "zones": {
+            "label": "zones",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "triggers": {
+            "label": "triggers",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "sensitivityRange": {
+            "label": "sensitivityRange",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "triggeredZones": {
+            "label": "triggeredZones",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "removeTrigger": {
+            "label": "removeTrigger",
+            "arguments": {}
+        },
+        "newZone": {
+            "label": "newZone",
+            "arguments": {}
+        },
+        "setSensitivity": {
+            "label": "setSensitivity",
+            "arguments": {}
+        },
+        "updateZone": {
+            "label": "updateZone",
+            "arguments": {}
+        },
+        "removeZone": {
+            "label": "removeZone",
+            "arguments": {}
+        },
+        "createOrUpdateTrigger": {
+            "label": "createOrUpdateTrigger",
+            "arguments": {}
+        }
+    }
+}

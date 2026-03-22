@@ -1,11 +1,11 @@
 {
     "tag": "en",
     "label": "Control mode",
-    "description": "Allows to view the current effective control mode of the pump.",
+    "description": "Allows for viewing the current effective control mode of the pump.",
     "attributes": {
         "controlMode": {
             "label": "Control Mode",
-            "description": "The control mode of the pump",
+            "description": "The control mode of the pump.",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
@@ -32,7 +32,7 @@
         },
         "supportedControlModes": {
             "label": "Supported Control Modes",
-            "description": "Supported control modes for this device to be in",
+            "description": "Supported control modes for this device.",
             "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {
                 "value": {
@@ -59,7 +59,7 @@
         },
         "currentControlMode": {
             "label": "Control mode",
-            "description": "The current effective control mode of the pump",
+            "description": "The current effective control mode of the pump.",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
@@ -88,15 +88,33 @@
     "commands": {
         "setControlMode": {
             "label": "setControlMode",
-            "description": "Set the control mode",
+            "description": "Set the control mode.",
             "arguments": {
                 "controlMode": {
                     "i18n": {
                         "constantTemperature": {
                             "label": "Constant temperature"
                         },
+                        "constantflow description": {
+                            "label": "The pump will regulate its speed to maintain a constant flow through the pump."
+                        },
+                        "constanttemperature description": {
+                            "label": "The pump will regulate its speed to maintain a constant temperature."
+                        },
+                        "proportionalpressure description": {
+                            "label": "The pump will regulate its speed to maintain a constant differential pressure over its flanges that is proportional to the speed."
+                        },
                         "constantFlow": {
                             "label": "Constant flow"
+                        },
+                        "automatic description": {
+                            "label": "The operation of the pump is automatically optimized to provide the most suitable performance with respect to comfort and energy savings."
+                        },
+                        "constantspeed description": {
+                            "label": "The pump is running at a constant speed."
+                        },
+                        "constantpressure description": {
+                            "label": "The pump will regulate its speed to maintain a constant differential pressure over its flanges."
                         },
                         "automatic": {
                             "label": "Automatic"
@@ -111,7 +129,7 @@
                             "label": "Constant speed"
                         }
                     },
-                    "description": "The control mode to set the device to"
+                    "description": "The control mode to set the device to."
                 }
             }
         }

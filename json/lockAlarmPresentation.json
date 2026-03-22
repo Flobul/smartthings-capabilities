@@ -50,6 +50,11 @@
                             "key": "physicalImpact",
                             "value": "Physical impact detected.",
                             "type": "active"
+                        },
+                        {
+                            "key": "failedOpeningAttempt",
+                            "value": "Couldn't unlock.",
+                            "type": "active"
                         }
                     ],
                     "supportedValues": "supportedAlarmValues.value",

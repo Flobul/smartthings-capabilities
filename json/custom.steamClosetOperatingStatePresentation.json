@@ -2,21 +2,21 @@
     "dashboard": {
         "states": [
             {
-                "label": "{{operatingState.value}}",
+                "label": "{{steamClosetMachineState.value}}",
                 "alternatives": [
                     {
-                        "key": "ready",
-                        "value": "___PO_CODE_CAPABILITY.CUSTOM.STEAMCLOSETOPERATINGSTATE_DEFAULT_ATTRIBUTES_OPERATINGSTATE_READY",
+                        "key": "stop",
+                        "value": "On",
                         "type": "active"
                     },
                     {
-                        "key": "running",
-                        "value": "___PO_CODE_CAPABILITY.CUSTOM.STEAMCLOSETOPERATINGSTATE_DEFAULT_ATTRIBUTES_OPERATINGSTATE_RUNNING",
+                        "key": "run",
+                        "value": "Caring",
                         "type": "active"
                     },
                     {
-                        "key": "paused",
-                        "value": "___PO_CODE_CAPABILITY.CUSTOM.STEAMCLOSETOPERATINGSTATE_DEFAULT_ATTRIBUTES_OPERATINGSTATE_PAUSED",
+                        "key": "pause",
+                        "value": "Paused",
                         "type": "active"
                     }
                 ]
@@ -162,6 +162,32 @@
     },
     "automation": {
         "conditions": [
+            {
+                "label": "Device status",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "stop",
+                            "value": "Ready",
+                            "type": "active"
+                        },
+                        {
+                            "key": "run",
+                            "value": "Caring",
+                            "type": "active"
+                        },
+                        {
+                            "key": "pause",
+                            "value": "Paused",
+                            "type": "active"
+                        }
+                    ],
+                    "value": "steamClosetMachineState.value",
+                    "valueType": "string",
+                    "multiSelectable": false
+                }
+            },
             {
                 "label": "Caring Progress",
                 "displayType": "list",

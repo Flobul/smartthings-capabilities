@@ -1,4 +1,45 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{lastSensingLevel.value}}",
+                "alternatives": [
+                    {
+                        "key": "Kr0",
+                        "value": "Off",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "Kr1",
+                        "value": "Indoor: Good",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "Kr2",
+                        "value": "Indoor: Normal",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "Kr3",
+                        "value": "Indoor: Poor",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "Kr4",
+                        "value": "Indoor: Very poor",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "Kr5",
+                        "value": "Indoor: Very poor",
+                        "type": "inactive"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
     "id": "custom.periodicSensing",
     "version": 1
 }

@@ -15,8 +15,28 @@
                         "type": "inactive"
                     },
                     {
+                        "key": "standby",
+                        "value": "Standby",
+                        "type": "inactive"
+                    },
+                    {
                         "key": "paused",
                         "value": "Paused",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unableToStartOrResume",
+                        "value": "Couldn't start",
+                        "type": "active"
+                    },
+                    {
+                        "key": "unableToCompleteOperation",
+                        "value": "Couldn't complete",
+                        "type": "active"
+                    },
+                    {
+                        "key": "commandInvalidInCurrentState",
+                        "value": "Couldn't do action",
                         "type": "active"
                     }
                 ]
@@ -70,6 +90,11 @@
                             "type": "inactive"
                         },
                         {
+                            "key": "standby",
+                            "value": "Standby",
+                            "type": "inactive"
+                        },
+                        {
                             "key": "paused",
                             "value": "Paused",
                             "type": "active"
@@ -112,8 +137,28 @@
                             "type": "inactive"
                         },
                         {
+                            "key": "standby",
+                            "value": "Standby",
+                            "type": "inactive"
+                        },
+                        {
                             "key": "paused",
                             "value": "Paused",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unableToStartOrResume",
+                            "value": "Couldn't start",
+                            "type": "active"
+                        },
+                        {
+                            "key": "unableToCompleteOperation",
+                            "value": "Couldn't complete",
+                            "type": "active"
+                        },
+                        {
+                            "key": "commandInvalidInCurrentState",
+                            "value": "Couldn't do action",
                             "type": "active"
                         }
                     ],

@@ -1,4 +1,20 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "{{status.value}}",
+                "alternatives": [
+                    {
+                        "key": "running",
+                        "value": "Testing",
+                        "type": "active"
+                    }
+                ]
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
     "id": "samsungce.selfCheck",
     "version": 1
 }

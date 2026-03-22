@@ -1,0 +1,21 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Adjust colour temperature",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "stepColorTemperatureByPercent",
+                    "argumentType": "integer",
+                    "range": [
+                        -50,
+                        50
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "statelessColorTemperatureStep",
+    "version": 1
+}

@@ -98,6 +98,9 @@
                     "sage": {
                         "label": "Sauge"
                     },
+                    "parsley_italian": {
+                        "label": "Persil italien"
+                    },
                     "lolloBionda_Bartimer": {
                         "label": "Laitue lollo verte"
                     },
@@ -188,6 +191,9 @@
                         },
                         "lettuce miniromaine": {
                             "label": "Mini laitue romaine"
+                        },
+                        "parsley italian": {
+                            "label": "Persil italien"
                         },
                         "newGreen": {
                             "label": "Jeunes pousses"

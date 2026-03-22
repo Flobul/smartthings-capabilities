@@ -204,7 +204,7 @@
                     "alternatives": [
                         {
                             "key": "ready",
-                            "value": "On",
+                            "value": "Ready",
                             "type": "active"
                         },
                         {

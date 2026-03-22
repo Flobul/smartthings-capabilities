@@ -1,0 +1,27 @@
+{
+    "tag": "en",
+    "label": "Video Stream Settings",
+    "attributes": {
+        "supportedFeatures": {
+            "label": "supportedFeatures",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "videoStreams": {
+            "label": "videoStreams",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "supportedResolutions": {
+            "label": "supportedResolutions",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setStream": {
+            "label": "setStream",
+            "arguments": {}
+        }
+    }
+}

@@ -79,7 +79,7 @@
                         "label": "Clear"
                     },
                     "meterFailure": {
-                        "label": "Metre failure"
+                        "label": "Meter failure"
                     },
                     "wrongPowerSupply": {
                         "label": "Wrong power supply"

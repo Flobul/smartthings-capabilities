@@ -1,0 +1,26 @@
+{
+    "tag": "en",
+    "label": "Sounds",
+    "attributes": {
+        "selectedSound": {
+            "label": "selectedSound",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedSounds": {
+            "label": "supportedSounds",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "playSound": {
+            "label": "playSound",
+            "arguments": {}
+        },
+        "setSelectedSound": {
+            "label": "setSelectedSound",
+            "arguments": {}
+        }
+    }
+}

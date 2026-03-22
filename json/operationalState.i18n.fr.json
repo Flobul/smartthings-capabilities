@@ -37,7 +37,7 @@
                         "label": "Impossible de démarrer"
                     },
                     "standby": {
-                        "label": "Standby"
+                        "label": "En veille"
                     },
                     "commandInvalidInCurrentState": {
                         "label": "Impossible d'effectuer l\\'action"
@@ -48,17 +48,17 @@
     },
     "commands": {
         "resume": {
-            "label": "Resume",
+            "label": "Reprendre",
             "description": "Resume the machine",
             "arguments": {}
         },
         "stop": {
-            "label": "Stop",
+            "label": "Arrêter",
             "description": "Stop the machine",
             "arguments": {}
         },
         "start": {
-            "label": "Start",
+            "label": "Démarrer",
             "description": "Start the machine",
             "arguments": {}
         },

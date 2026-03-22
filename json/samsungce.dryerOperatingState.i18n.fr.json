@@ -63,7 +63,7 @@
                         "label": "Préparation en cours"
                     },
                     "thawingFrozenInside": {
-                        "label": "Dégivrage"
+                        "label": "Dégivrage en cours"
                     },
                     "delayDry": {
                         "label": "Fin du cycle différé"
@@ -93,7 +93,7 @@
                         "label": "Séchage en cours"
                     },
                     "freezeProtection": {
-                        "label": "Mode antigel"
+                        "label": "Évitez la formation de gel"
                     }
                 }
             }

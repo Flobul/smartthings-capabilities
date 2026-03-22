@@ -919,6 +919,11 @@
                                 "key": "B6",
                                 "value": "___PO_CODE_CAPABILITY.CUSTOM.SUPPORTEDOPTIONS_DEFAULT_COMMANDS_SETCOURSE_COURSE_B6",
                                 "type": "active"
+                            },
+                            {
+                                "key": "B7",
+                                "value": "___PO_CODE_CAPABILITY.CUSTOM.SUPPORTEDOPTIONS_DEFAULT_COMMANDS_SETCOURSE_COURSE_B7",
+                                "type": "active"
                             }
                         ],
                         "argumentType": "string",
@@ -1836,6 +1841,11 @@
                             {
                                 "key": "B6",
                                 "value": "___PO_CODE_CAPABILITY.CUSTOM.SUPPORTEDOPTIONS_DEFAULT_ATTRIBUTES_COURSE_B6",
+                                "type": "active"
+                            },
+                            {
+                                "key": "B7",
+                                "value": "___PO_CODE_CAPABILITY.CUSTOM.SUPPORTEDOPTIONS_DEFAULT_ATTRIBUTES_COURSE_B7",
                                 "type": "active"
                             },
                             {

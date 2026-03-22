@@ -43,7 +43,7 @@
                         "label": "Personne détectée"
                     },
                     "packageDisappear": {
-                        "label": "Colis hors de vue"
+                        "label": "Colis enlevé"
                     },
                     "personDisappear": {
                         "label": "Personne hors de vue"
