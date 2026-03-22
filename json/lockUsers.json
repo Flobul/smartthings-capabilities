@@ -114,7 +114,7 @@
                     "optional": false,
                     "schema": {
                         "type": "string",
-                        "maxLength": 10
+                        "maxLength": 64
                     }
                 },
                 {
@@ -168,7 +168,7 @@
                     "optional": false,
                     "schema": {
                         "type": "string",
-                        "maxLength": 10
+                        "maxLength": 64
                     }
                 },
                 {
