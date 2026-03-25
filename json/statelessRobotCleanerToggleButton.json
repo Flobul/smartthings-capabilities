@@ -1,7 +1,7 @@
 {
     "id": "statelessRobotCleanerToggleButton",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Stateless Robot Cleaner Toggle Button",
     "ephemeral": false,
     "attributes": {
