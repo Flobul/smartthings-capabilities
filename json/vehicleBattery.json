@@ -38,6 +38,7 @@
                         "type": "string",
                         "enum": [
                             "noCharging",
+                            "charging",
                             "veryFastCharging",
                             "fastCharging",
                             "v2lDischarge",
