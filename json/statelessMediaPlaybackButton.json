@@ -1,7 +1,7 @@
 {
     "id": "statelessMediaPlaybackButton",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Stateless Media Playback Button",
     "ephemeral": false,
     "attributes": {
