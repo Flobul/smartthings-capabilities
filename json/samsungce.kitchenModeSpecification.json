@@ -24,6 +24,10 @@
                                         "mode": {
                                             "type": "string"
                                         },
+                                        "default": {
+                                            "type": "boolean",
+                                            "default": false
+                                        },
                                         "supportedOperations": {
                                             "type": "array",
                                             "items": {
@@ -84,6 +88,37 @@
                                                         "^(min|max|resolution|default)$": {
                                                             "type": "string",
                                                             "pattern": "^\\d\\d+:[0-5]\\d:[0-5]\\d$"
+                                                        }
+                                                    }
+                                                },
+                                                "temperatureLevel": {
+                                                    "type": "object",
+                                                    "additionalProperties": false,
+                                                    "patternProperties": {
+                                                        "^(min|max|default)$": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "supportedValues": {
+                                                            "type": "array",
+                                                            "items": {
+                                                                "type": "string"
+                                                            }
+                                                        },
+                                                        "temperatureLevelSpec": {
+                                                            "type": "object",
+                                                            "additionalProperties": false,
+                                                            "patternProperties": {
+                                                                "^(low|medium|high)$": {
+                                                                    "type": "object",
+                                                                    "patternProperties": {
+                                                                        "^(C|F)$": {
+                                                                            "type": "number"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
                                                         }
                                                     }
                                                 }
