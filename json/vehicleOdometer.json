@@ -21,7 +21,8 @@
                             "mi",
                             "km",
                             "m"
-                        ]
+                        ],
+                        "default": "km"
                     }
                 },
                 "additionalProperties": false,
