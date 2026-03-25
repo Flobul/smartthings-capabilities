@@ -214,7 +214,15 @@
                                 "customMenu17",
                                 "customMenu18",
                                 "customMenu19",
-                                "customMenu20"
+                                "customMenu20",
+                                "babyFood",
+                                "quickMeal",
+                                "noPressureSteaming",
+                                "germinatedBrownRice",
+                                "vegetableRice",
+                                "highHeatMixedGrains",
+                                "whiteRice",
+                                "grains"
                             ]
                         }
                     }
@@ -378,7 +386,15 @@
                             "customMenu17",
                             "customMenu18",
                             "customMenu19",
-                            "customMenu20"
+                            "customMenu20",
+                            "babyFood",
+                            "quickMeal",
+                            "noPressureSteaming",
+                            "germinatedBrownRice",
+                            "vegetableRice",
+                            "highHeatMixedGrains",
+                            "whiteRice",
+                            "grains"
                         ]
                     }
                 },
@@ -507,7 +523,15 @@
                                 "customMenu17",
                                 "customMenu18",
                                 "customMenu19",
-                                "customMenu20"
+                                "customMenu20",
+                                "babyFood",
+                                "quickMeal",
+                                "noPressureSteaming",
+                                "germinatedBrownRice",
+                                "vegetableRice",
+                                "highHeatMixedGrains",
+                                "whiteRice",
+                                "grains"
                             ]
                         }
                     }
