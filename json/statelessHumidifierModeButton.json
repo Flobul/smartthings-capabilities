@@ -1,7 +1,7 @@
 {
     "id": "statelessHumidifierModeButton",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Stateless Humidifier Mode Button",
     "ephemeral": false,
     "attributes": {
