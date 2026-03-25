@@ -1,7 +1,7 @@
 {
     "id": "statelessRobotCleanerHomeButton",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Stateless Robot Cleaner Home Button",
     "ephemeral": false,
     "attributes": {
