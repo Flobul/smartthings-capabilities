@@ -5,6 +5,99 @@
     "name": "Vehicle Warning",
     "ephemeral": false,
     "attributes": {
+        "fuel": {
+            "schema": {
+                "title": "VehicleWarningState",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "warning"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "tirePressureFrontLeft": {
+            "schema": {
+                "title": "VehicleWarningState",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "warning"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "electricVehicleBattery": {
+            "schema": {
+                "title": "VehicleWarningState",
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "normal",
+                            "warning"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "supportedAttributes": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "VehicleWarning",
+                            "type": "string",
+                            "enum": [
+                                "fuel",
+                                "smartKeyBattery",
+                                "washerFluid",
+                                "brakeFluid",
+                                "engineOil",
+                                "lampWire",
+                                "tirePressureFrontLeft",
+                                "tirePressureFrontRight",
+                                "tirePressureRearLeft",
+                                "tirePressureRearRight",
+                                "electricVehicleBattery",
+                                "auxiliaryBattery"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "lampWire": {
             "schema": {
                 "title": "VehicleWarningState",
@@ -46,46 +139,6 @@
             "enumCommands": []
         },
         "brakeFluid": {
-            "schema": {
-                "title": "VehicleWarningState",
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "normal",
-                            "warning"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "fuel": {
-            "schema": {
-                "title": "VehicleWarningState",
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "normal",
-                            "warning"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "tirePressureFrontLeft": {
             "schema": {
                 "title": "VehicleWarningState",
                 "type": "object",
@@ -176,38 +229,6 @@
                             "normal",
                             "warning"
                         ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "supportedAttributes": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": {
-                            "title": "VehicleWarning",
-                            "type": "string",
-                            "enum": [
-                                "fuel",
-                                "smartKeyBattery",
-                                "washerFluid",
-                                "brakeFluid",
-                                "engineOil",
-                                "lampWire",
-                                "tirePressureFrontLeft",
-                                "tirePressureFrontRight",
-                                "tirePressureRearLeft",
-                                "tirePressureRearRight",
-                                "auxiliaryBattery"
-                            ]
-                        }
                     }
                 },
                 "additionalProperties": false,
