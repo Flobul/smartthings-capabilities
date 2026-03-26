@@ -10,7 +10,7 @@
             "i18n": {}
         },
         "position": {
-            "label": "Prset position",
+            "label": "Preset position",
             "description": "A number that represents the preset position level as a function of being preset position, ``0-100`` in percent; 0 representing completely closed, and 100 representing completely open.",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}%",
             "i18n": {}

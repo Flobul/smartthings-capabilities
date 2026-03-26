@@ -417,11 +417,17 @@
                     "DefrostA": {
                         "label": "DefrostA"
                     },
+                    "Pizza": {
+                        "label": "Pizza"
+                    },
                     "BreadProof": {
                         "label": "BreadProof"
                     },
                     "MicroWaveRoast": {
                         "label": "MicroWaveRoast"
+                    },
+                    "AirFryMax": {
+                        "label": "AirFryMax"
                     },
                     "PowerConvection": {
                         "label": "PowerConvection"

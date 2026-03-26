@@ -1,4 +1,20 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "Standby"
+            }
+        ],
+        "actions": [
+            {
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "push"
+                }
+            }
+        ],
+        "panelItems": []
+    },
     "detailView": [
         {
             "label": "Momentary",

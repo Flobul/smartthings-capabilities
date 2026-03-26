@@ -16,10 +16,10 @@
                         "label": "Maintenue appuyée"
                     },
                     "swipe_left": {
-                        "label": "swipe_left"
+                        "label": "Glisser à gauche"
                     },
                     "swipe_right": {
-                        "label": "swipe_right"
+                        "label": "Glisser à droite"
                     },
                     "down": {
                         "label": "Basculé vers le bas"
@@ -49,7 +49,7 @@
                         "label": "Maintenu vers le haut"
                     },
                     "swipe_down": {
-                        "label": "swipe_down"
+                        "label": "Balayer vers le bas"
                     },
                     "up_5x": {
                         "label": "Basculé vers le haut 5 fois"
@@ -67,7 +67,7 @@
                         "label": "2 appuis effectués"
                     },
                     "swipe_up": {
-                        "label": "swipe_up"
+                        "label": "Glisser vers le haut"
                     },
                     "pushed_6x": {
                         "label": "6 appuis effectués"

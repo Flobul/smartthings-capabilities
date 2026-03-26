@@ -19,7 +19,7 @@
             }
         },
         "tirePressureFrontLeft": {
-            "label": "Avertissement sur la pression des pneus : avant gauche",
+            "label": "Pression des pneus : avant gauche",
             "description": "Current warning state of the tire pressure of front left",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -28,13 +28,13 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Avertissement"
+                        "label": "Avertissement sur la pression des pneus : avant gauche"
                     }
                 }
             }
         },
         "electricVehicleBattery": {
-            "label": "Batterie faible",
+            "label": "Batterie du véhicule",
             "description": "Current warning state of the EV battery",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -43,7 +43,7 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Avertissement"
+                        "label": "Batterie faible"
                     }
                 }
             }
@@ -100,7 +100,7 @@
             }
         },
         "tirePressureFrontRight": {
-            "label": "Avertissement sur la pression des pneus : avant droit",
+            "label": "Pression des pneus : avant droit",
             "description": "Current warning state of the pressure of front right",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -109,7 +109,7 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Avertissement"
+                        "label": "Avertissement sur la pression des pneus : avant droit"
                     }
                 }
             }
@@ -160,7 +160,7 @@
             }
         },
         "tirePressureRearLeft": {
-            "label": "Avertissement sur la pression des pneus : arrière gauche",
+            "label": "Pression des pneus : arrière gauche",
             "description": "Current warning state of the pressure of rear left",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -169,13 +169,13 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Avertissement"
+                        "label": "Avertissement sur la pression des pneus : arrière gauche"
                     }
                 }
             }
         },
         "tirePressureRearRight": {
-            "label": "Avertissement sur la pression des pneus : arrière droit",
+            "label": "Pression des pneus : arrière droit",
             "description": "Current warning state of the pressure of rear right",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -184,7 +184,7 @@
                         "label": "Normal"
                     },
                     "warning": {
-                        "label": "Avertissement"
+                        "label": "Avertissement sur la pression des pneus : arrière droit"
                     }
                 }
             }

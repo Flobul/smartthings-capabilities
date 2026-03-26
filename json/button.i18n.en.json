@@ -16,10 +16,10 @@
                         "label": "Held"
                     },
                     "swipe_left": {
-                        "label": "swipe_left"
+                        "label": "Swipe left"
                     },
                     "swipe_right": {
-                        "label": "swipe_right"
+                        "label": "Swipe right"
                     },
                     "down": {
                         "label": "Toggled down"
@@ -49,7 +49,7 @@
                         "label": "Held up"
                     },
                     "swipe_down": {
-                        "label": "swipe_down"
+                        "label": "Swipe down"
                     },
                     "up_5x": {
                         "label": "Toggled up 5 times"
@@ -67,7 +67,7 @@
                         "label": "Pressed 2 times"
                     },
                     "swipe_up": {
-                        "label": "swipe_up"
+                        "label": "Swipe up"
                     },
                     "pushed_6x": {
                         "label": "Pressed 6 times"

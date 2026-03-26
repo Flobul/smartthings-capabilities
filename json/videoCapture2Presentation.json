@@ -1,0 +1,31 @@
+{
+    "detailView": [
+        {
+            "label": "Record",
+            "displayType": "pushButton",
+            "pushButton": {
+                "command": "capture"
+            }
+        }
+    ],
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Record",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "capture",
+                            "value": "Record",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "videoCapture2",
+    "version": 1
+}

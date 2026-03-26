@@ -34,8 +34,9 @@
             }
         },
         "supportedMoldValues": {
-            "label": "supportedMoldValues",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported mold values",
+            "description": "The list of mold health concern values that the device supports. Is optional, defaults to all values if not set.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         }
     },

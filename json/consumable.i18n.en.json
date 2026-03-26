@@ -16,7 +16,7 @@
                         "label": "Missing"
                     },
                     "replace": {
-                        "label": "Replace"
+                        "label": "Needs replacement"
                     },
                     "good": {
                         "label": "Good"

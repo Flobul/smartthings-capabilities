@@ -1,4 +1,13 @@
 {
+    "dashboard": {
+        "states": [
+            {
+                "label": "Need to replace filter"
+            }
+        ],
+        "actions": [],
+        "panelItems": []
+    },
     "id": "custom.waterFilter",
     "version": 1
 }
