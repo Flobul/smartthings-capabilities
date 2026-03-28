@@ -16,6 +16,7 @@
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setAutomaticExecutionSetting",
             "enumCommands": []
         },
         "automaticExecutionMode": {
