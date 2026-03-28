@@ -82,6 +82,7 @@
                     "value"
                 ]
             },
+            "setter": "setPeriodicSensing",
             "enumCommands": []
         },
         "periodicSensingInterval": {
