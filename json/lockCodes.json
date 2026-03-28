@@ -158,6 +158,21 @@
             },
             "enumCommands": []
         },
+        "migrated": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "boolean"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "codeReport": {
             "schema": {
                 "type": "object",
@@ -217,19 +232,23 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "reloadAllCodes": {
             "name": "reloadAllCodes",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "unlock": {
             "name": "unlock",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "unlockWithTimeout": {
             "name": "unlockWithTimeout",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setCode": {
             "name": "setCode",
@@ -261,7 +280,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "updateCodes": {
             "name": "updateCodes",
@@ -274,11 +294,13 @@
                         "type": "object"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "lock": {
             "name": "lock",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "requestCode": {
             "name": "requestCode",
@@ -292,7 +314,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "deleteCode": {
             "name": "deleteCode",
@@ -306,7 +329,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "nameSlot": {
             "name": "nameSlot",
@@ -329,7 +353,13 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
+        },
+        "migrate": {
+            "name": "migrate",
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

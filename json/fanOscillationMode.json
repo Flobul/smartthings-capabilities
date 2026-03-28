@@ -29,7 +29,9 @@
                                 "wide",
                                 "mid",
                                 "spot",
-                                "swing"
+                                "swing",
+                                "leftZone",
+                                "rightZone"
                             ]
                         },
                         "type": "array"
@@ -66,7 +68,9 @@
                                 "wide",
                                 "mid",
                                 "spot",
-                                "swing"
+                                "swing",
+                                "leftZone",
+                                "rightZone"
                             ]
                         },
                         "type": "array"
@@ -100,7 +104,9 @@
                             "wide",
                             "mid",
                             "spot",
-                            "swing"
+                            "swing",
+                            "leftZone",
+                            "rightZone"
                         ]
                     }
                 },
@@ -137,11 +143,14 @@
                             "wide",
                             "mid",
                             "spot",
-                            "swing"
+                            "swing",
+                            "leftZone",
+                            "rightZone"
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

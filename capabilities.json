@@ -51,14 +51,14 @@
     {
         "id": "airPurifierFanMode",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "airQualityHealthConcern",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -84,6 +84,13 @@
         "namespace": "st"
     },
     {
+        "id": "alarmSensor",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "alarmSystem",
         "version": 1,
         "status": "dead",
@@ -94,6 +101,13 @@
         "id": "alarmSystemArmOnly",
         "version": 1,
         "status": "dead",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "antiSnoringPillow",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -114,7 +128,7 @@
     {
         "id": "atmosphericPressureMeasurement",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -140,6 +154,13 @@
         "namespace": "st"
     },
     {
+        "id": "audioRecording",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "audioStream",
         "version": 1,
         "status": "live",
@@ -156,7 +177,7 @@
     {
         "id": "audioTrackData",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -184,7 +205,7 @@
     {
         "id": "batteryLevel",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -259,6 +280,20 @@
         "namespace": "st"
     },
     {
+        "id": "cameraPrivacyMode",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "cameraViewportSettings",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "carbonDioxideHealthConcern",
         "version": 1,
         "status": "live",
@@ -315,6 +350,13 @@
         "namespace": "st"
     },
     {
+        "id": "coffeeMakerOperation",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "color",
         "version": 1,
         "status": "proposed",
@@ -345,7 +387,7 @@
     {
         "id": "configuration",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -357,9 +399,23 @@
         "namespace": "st"
     },
     {
+        "id": "consumableLife",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "contactSensor",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "containerState",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -374,6 +430,13 @@
         "id": "currentMeasurement",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "deliveryRobotCall",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -420,6 +483,13 @@
         "namespace": "st"
     },
     {
+        "id": "doorState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "drivingStatus",
         "version": 1,
         "status": "proposed",
@@ -458,6 +528,20 @@
         "id": "elevatorCall",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "endToEndEncryption",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": true,
+        "namespace": "st"
+    },
+    {
+        "id": "endToEndEncryptionState",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -505,6 +589,13 @@
     },
     {
         "id": "faceRecognition",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "fanDirection",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -588,9 +679,23 @@
         "namespace": "st"
     },
     {
-        "id": "formaldehydeHealthConcern",
+        "id": "flowMeasurement",
         "version": 1,
         "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "foodWasteDryingGrinder",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "formaldehydeHealthConcern",
+        "version": 1,
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -660,6 +765,13 @@
     {
         "id": "hardwareFault",
         "version": 1,
+        "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "hdr",
+        "version": 1,
         "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
@@ -700,6 +812,13 @@
         "namespace": "st"
     },
     {
+        "id": "imageControl",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "indicator",
         "version": 1,
         "status": "deprecated",
@@ -721,23 +840,30 @@
         "namespace": "st"
     },
     {
-        "id": "languageSetting",
+        "id": "knob",
         "version": 1,
         "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "languageSetting",
+        "version": 1,
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "laundryWasherRinseMode",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "laundryWasherSpinSpeed",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -763,6 +889,13 @@
         "namespace": "st"
     },
     {
+        "id": "localMediaStorage",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "locationMode",
         "version": 1,
         "status": "live",
@@ -778,6 +911,13 @@
     },
     {
         "id": "lockAlarm",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "lockAliro",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -821,6 +961,55 @@
     {
         "id": "logTrigger",
         "version": 1,
+        "status": "deprecated",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "massageIntensityChange",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "massageIntensityControl",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "massageOperating",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "massageOperatingState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "massageTimeChange",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "massageTimeControl",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "mechanicalPanTiltZoom",
+        "version": 1,
         "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
@@ -828,7 +1017,7 @@
     {
         "id": "mediaController",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -903,6 +1092,13 @@
         "namespace": "st"
     },
     {
+        "id": "motionBed",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "motionSensor",
         "version": 1,
         "status": "live",
@@ -933,21 +1129,28 @@
     {
         "id": "networkMeter",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "nightVision",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "nitrogenDioxideHealthConcern",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "nitrogenDioxideMeasurement",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1038,14 +1241,14 @@
     {
         "id": "ozoneHealthConcern",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "ozoneMeasurement",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1059,6 +1262,13 @@
     {
         "id": "pestControl",
         "version": 1,
+        "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "petActivity",
+        "version": 1,
         "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
@@ -1067,6 +1277,13 @@
         "id": "pHMeasurement",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "plantCultivation",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1101,14 +1318,14 @@
     {
         "id": "precipitationMeasurement",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "precipitationRate",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1178,7 +1395,7 @@
     {
         "id": "refrigeration",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1241,7 +1458,7 @@
     {
         "id": "robotCleanerOperatingState",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1256,6 +1473,20 @@
         "id": "robotCleanerTurboMode",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "safetySwitch",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "safetyValve",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1309,6 +1540,13 @@
         "namespace": "st"
     },
     {
+        "id": "serviceArea",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "shockSensor",
         "version": 1,
         "status": "deprecated",
@@ -1337,6 +1575,13 @@
         "namespace": "st"
     },
     {
+        "id": "soilMoistureMeasurement",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "soundDetection",
         "version": 1,
         "status": "live",
@@ -1347,6 +1592,13 @@
         "id": "soundPressureLevel",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "sounds",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1374,28 +1626,35 @@
     {
         "id": "statelessAirCleanerModeButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessAudioMuteButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessAudioVolumeButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessChannelButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "statelessColorTemperatureStep",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1409,35 +1668,35 @@
     {
         "id": "statelessCustomButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessFanspeedButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessFanspeedModeButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessHumidifierModeButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessMediaPlaybackButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1458,21 +1717,21 @@
     {
         "id": "statelessRobotCleanerActionButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessRobotCleanerHomeButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessRobotCleanerToggleButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1486,19 +1745,26 @@
     {
         "id": "statelessSetChannelButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessSetChannelByContentButton",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessSetChannelByNameButton",
+        "version": 1,
+        "status": "deprecated",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "statelessSwitchLevelStep",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -1507,14 +1773,14 @@
     {
         "id": "statelessTemperatureButton",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "statelessVolumeButtonWithRepetition",
         "version": 1,
-        "status": "proposed",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1563,7 +1829,7 @@
     {
         "id": "temperatureLevel",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1577,14 +1843,14 @@
     {
         "id": "temperatureSetpoint",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
     {
         "id": "testCapability",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1646,6 +1912,20 @@
     },
     {
         "id": "thermostatWaterHeatingSetpoint",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "threadBorderRouter",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "threadNetwork",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -1722,6 +2002,20 @@
         "namespace": "st"
     },
     {
+        "id": "vehicleBattery",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleDoorState",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "vehicleEngine",
         "version": 1,
         "status": "proposed",
@@ -1730,6 +2024,20 @@
     },
     {
         "id": "vehicleFuelLevel",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleHvac",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleHvacRemoteSwitch",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -1758,6 +2066,20 @@
     },
     {
         "id": "vehicleTirePressureMonitor",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleWarning",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "vehicleWindowState",
         "version": 1,
         "status": "proposed",
         "ephemeral": false,
@@ -1809,6 +2131,13 @@
         "id": "videoStream",
         "version": 1,
         "status": "live",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
+        "id": "videoStreamSettings",
+        "version": 1,
+        "status": "proposed",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1890,6 +2219,13 @@
         "namespace": "st"
     },
     {
+        "id": "wifiInformation",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "wifiMeshRouter",
         "version": 1,
         "status": "deprecated",
@@ -1899,7 +2235,7 @@
     {
         "id": "windMode",
         "version": 1,
-        "status": "proposed",
+        "status": "live",
         "ephemeral": false,
         "namespace": "st"
     },
@@ -1946,9 +2282,16 @@
         "namespace": "st"
     },
     {
+        "id": "zoneManagement",
+        "version": 1,
+        "status": "proposed",
+        "ephemeral": false,
+        "namespace": "st"
+    },
+    {
         "id": "zwMultichannel",
         "version": 1,
-        "status": "live",
+        "status": "deprecated",
         "ephemeral": false,
         "namespace": "st"
     }

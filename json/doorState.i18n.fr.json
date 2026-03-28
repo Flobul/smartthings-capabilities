@@ -1,4 +1,5 @@
 {
+
     "tag": "fr",
     "label": "État de la porte",
     "description": "The current door state.",

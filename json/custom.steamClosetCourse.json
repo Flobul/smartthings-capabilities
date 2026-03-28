@@ -141,7 +141,8 @@
                         "title": "SteamClosetCourse"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

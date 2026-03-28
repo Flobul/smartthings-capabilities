@@ -33,7 +33,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

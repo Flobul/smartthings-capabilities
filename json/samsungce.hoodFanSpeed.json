@@ -81,7 +81,8 @@
                         "type": "integer"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

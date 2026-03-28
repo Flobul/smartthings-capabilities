@@ -218,7 +218,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setSteamClosetMachineState": {
             "name": "setSteamClosetMachineState",
@@ -235,7 +236,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

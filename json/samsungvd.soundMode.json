@@ -72,7 +72,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

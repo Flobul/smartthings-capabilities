@@ -135,7 +135,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

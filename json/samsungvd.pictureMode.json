@@ -69,7 +69,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

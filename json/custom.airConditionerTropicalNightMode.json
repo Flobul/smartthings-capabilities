@@ -51,7 +51,8 @@
                         "default": "h"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

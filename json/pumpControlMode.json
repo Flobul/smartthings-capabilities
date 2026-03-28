@@ -100,7 +100,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

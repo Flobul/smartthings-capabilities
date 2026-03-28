@@ -184,7 +184,8 @@
                         "type": "integer"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

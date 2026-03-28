@@ -20,6 +20,7 @@
                                 "AiSousvide",
                                 "AirFry",
                                 "AirFryer",
+                                "AirFryMax",
                                 "AirSousvide",
                                 "Autocook",
                                 "AutocookCustom",
@@ -100,6 +101,7 @@
                                 "MultiLevelCook",
                                 "NaturalSteam",
                                 "NoOperation",
+                                "Pizza",
                                 "PizzaCook",
                                 "PizzaNaan",
                                 "PlateWarm",
@@ -188,6 +190,7 @@
                             "AiSousvide",
                             "AirFry",
                             "AirFryer",
+                            "AirFryMax",
                             "AirSousvide",
                             "Autocook",
                             "AutocookCustom",
@@ -268,6 +271,7 @@
                             "MultiLevelCook",
                             "NaturalSteam",
                             "NoOperation",
+                            "Pizza",
                             "PizzaCook",
                             "PizzaNaan",
                             "PlateWarm",
@@ -359,6 +363,7 @@
                             "AiSousvide",
                             "AirFry",
                             "AirFryer",
+                            "AirFryMax",
                             "AirSousvide",
                             "Autocook",
                             "AutocookCustom",
@@ -439,6 +444,7 @@
                             "MultiLevelCook",
                             "NaturalSteam",
                             "NoOperation",
+                            "Pizza",
                             "PizzaCook",
                             "PizzaNaan",
                             "PlateWarm",
@@ -506,7 +512,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }
