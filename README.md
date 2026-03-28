@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2025-09-08
+#### Last Update: 2026-03-22
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -61,6 +61,7 @@
 | [Camera Event](./json/cameraEvent.json) | 1 | proposed | [json](./json/cameraEventPresentation.json) | [json](./json/cameraEvent.i18n.fr.json) |
 | [Camera Preset](./json/cameraPreset.json) | 1 | proposed | [json](./json/cameraPresetPresentation.json) | [json](./json/cameraPreset.i18n.fr.json) |
 | [Camera Privacy Mode](./json/cameraPrivacyMode.json) | 1 | proposed |  | [json](./json/cameraPrivacyMode.i18n.fr.json) |
+| [Camera Viewport Settings](./json/cameraViewportSettings.json) | 1 | proposed |  | [json](./json/cameraViewportSettings.i18n.fr.json) |
 | [Carbon Dioxide Health Concern](./json/carbonDioxideHealthConcern.json) | 1 | live | [json](./json/carbonDioxideHealthConcernPresentation.json) | [json](./json/carbonDioxideHealthConcern.i18n.fr.json) |
 | [Carbon Dioxide Measurement](./json/carbonDioxideMeasurement.json) | 1 | live | [json](./json/carbonDioxideMeasurementPresentation.json) | [json](./json/carbonDioxideMeasurement.i18n.fr.json) |
 | [Carbon Monoxide Detector](./json/carbonMonoxideDetector.json) | 1 | live | [json](./json/carbonMonoxideDetectorPresentation.json) | [json](./json/carbonMonoxideDetector.i18n.fr.json) |
@@ -251,7 +252,7 @@
 | [Massage Time Change](./json/massageTimeChange.json) | 1 | proposed | [json](./json/massageTimeChangePresentation.json) | [json](./json/massageTimeChange.i18n.fr.json) |
 | [Massage Time Control](./json/massageTimeControl.json) | 1 | proposed | [json](./json/massageTimeControlPresentation.json) | [json](./json/massageTimeControl.i18n.fr.json) |
 | [Mechanical Pan Tilt Zoom](./json/mechanicalPanTiltZoom.json) | 1 | proposed |  | [json](./json/mechanicalPanTiltZoom.i18n.fr.json) |
-| [Media Controller](./json/mediaController.json) | 1 | proposed |  | [json](./json/mediaController.i18n.fr.json) |
+| [Media Controller](./json/mediaController.json) | 1 | deprecated |  | [json](./json/mediaController.i18n.fr.json) |
 | [Media Group](./json/mediaGroup.json) | 1 | proposed | [json](./json/mediaGroupPresentation.json) | [json](./json/mediaGroup.i18n.fr.json) |
 | [Media Input Source](./json/mediaInputSource.json) | 1 | live | [json](./json/mediaInputSourcePresentation.json) | [json](./json/mediaInputSource.i18n.fr.json) |
 | [Media Playback](./json/mediaPlayback.json) | 1 | live | [json](./json/mediaPlaybackPresentation.json) | [json](./json/mediaPlayback.i18n.fr.json) |
@@ -267,7 +268,7 @@
 | [Movement Sensor](./json/movementSensor.json) | 1 | proposed | [json](./json/movementSensorPresentation.json) | [json](./json/movementSensor.i18n.fr.json) |
 | [Multiple Zone Presence](./json/multipleZonePresence.json) | 1 | proposed | [json](./json/multipleZonePresencePresentation.json) | [json](./json/multipleZonePresence.i18n.fr.json) |
 | [Music Player](./json/musicPlayer.json) | 1 | deprecated | [json](./json/musicPlayerPresentation.json) | [json](./json/musicPlayer.i18n.fr.json) |
-| [Network Meter](./json/networkMeter.json) | 1 | live |  | [json](./json/networkMeter.i18n.fr.json) |
+| [Network Meter](./json/networkMeter.json) | 1 | deprecated |  | [json](./json/networkMeter.i18n.fr.json) |
 | [Night Vision](./json/nightVision.json) | 1 | proposed |  | [json](./json/nightVision.i18n.fr.json) |
 | [Nitrogen Dioxide Health Concern](./json/nitrogenDioxideHealthConcern.json) | 1 | live | [json](./json/nitrogenDioxideHealthConcernPresentation.json) | [json](./json/nitrogenDioxideHealthConcern.i18n.fr.json) |
 | [Nitrogen Dioxide Measurement](./json/nitrogenDioxideMeasurement.json) | 1 | live | [json](./json/nitrogenDioxideMeasurementPresentation.json) | [json](./json/nitrogenDioxideMeasurement.i18n.fr.json) |
