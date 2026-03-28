@@ -30,6 +30,7 @@
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setAutomaticExecutionMode",
             "enumCommands": []
         },
         "supportedAutomaticExecutionSetting": {
