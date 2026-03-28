@@ -28,6 +28,7 @@
                     "unit"
                 ]
             },
+            "setter": "setTemperatureSetpoint",
             "enumCommands": []
         },
         "temperature": {
