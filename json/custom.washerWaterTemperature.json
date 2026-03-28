@@ -93,6 +93,7 @@
                     "value"
                 ]
             },
+            "setter": "setWasherWaterTemperature",
             "enumCommands": []
         }
     },
