@@ -110,6 +110,7 @@
                     "value"
                 ]
             },
+            "setter": "setOperationTime",
             "enumCommands": []
         }
     },
