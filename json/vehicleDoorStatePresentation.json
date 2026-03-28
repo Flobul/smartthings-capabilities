@@ -6,17 +6,17 @@
                 "alternatives": [
                     {
                         "key": "locked",
-                        "value": "{{i18n.attributes.lockState.i18n.value.locked.label}}",
+                        "value": "Locked",
                         "type": "inactive"
                     },
                     {
                         "key": "unlocked",
-                        "value": "{{i18n.attributes.lockState.i18n.value.unlocked.label}}",
+                        "value": "Unlocked",
                         "type": "active"
                     },
                     {
                         "key": "unknown",
-                        "value": "{{i18n.attributes.lockState.i18n.value.unknown.label}}",
+                        "value": "Unknown",
                         "type": "inactive"
                     }
                 ]
@@ -38,7 +38,7 @@
                         "alternatives": [
                             {
                                 "key": "unknown",
-                                "value": "{{i18n.attributes.lockState.i18n.value.unknown.label}}",
+                                "value": "Unknown",
                                 "type": "inactive"
                             }
                         ]
@@ -50,7 +50,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.lockState.label}}",
+            "label": "Door lock status",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -65,17 +65,17 @@
                     "alternatives": [
                         {
                             "key": "locked",
-                            "value": "{{i18n.attributes.lockState.i18n.value.locked.label}}",
+                            "value": "Locked",
                             "type": "inactive"
                         },
                         {
                             "key": "unlocked",
-                            "value": "{{i18n.attributes.lockState.i18n.value.unlocked.label}}",
+                            "value": "Unlocked",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.lockState.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "inactive"
                         }
                     ]
@@ -83,96 +83,96 @@
             }
         },
         {
-            "label": "{{i18n.attributes.frontLeftDoor.label}}",
+            "label": "Door front left",
             "displayType": "state",
             "state": {
                 "label": "{{frontLeftDoor.value}}",
                 "alternatives": [
                     {
                         "key": "open",
-                        "value": "{{i18n.attributes.frontLeftDoor.i18n.value.open.label}}",
+                        "value": "Open",
                         "type": "active"
                     },
                     {
                         "key": "closed",
-                        "value": "{{i18n.attributes.frontLeftDoor.i18n.value.closed.label}}",
+                        "value": "Closed",
                         "type": "inactive"
                     },
                     {
                         "key": "locked",
-                        "value": "{{i18n.attributes.frontLeftDoor.i18n.value.locked.label}}",
+                        "value": "Locked",
                         "type": "inactive"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.frontRightDoor.label}}",
+            "label": "Door front right",
             "displayType": "state",
             "state": {
                 "label": "{{frontRightDoor.value}}",
                 "alternatives": [
                     {
                         "key": "open",
-                        "value": "{{i18n.attributes.frontRightDoor.i18n.value.open.label}}",
+                        "value": "Open",
                         "type": "active"
                     },
                     {
                         "key": "closed",
-                        "value": "{{i18n.attributes.frontRightDoor.i18n.value.closed.label}}",
+                        "value": "Closed",
                         "type": "inactive"
                     },
                     {
                         "key": "locked",
-                        "value": "{{i18n.attributes.frontRightDoor.i18n.value.locked.label}}",
+                        "value": "Locked",
                         "type": "inactive"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.rearLeftDoor.label}}",
+            "label": "Door rear left",
             "displayType": "state",
             "state": {
                 "label": "{{rearLeftDoor.value}}",
                 "alternatives": [
                     {
                         "key": "open",
-                        "value": "{{i18n.attributes.rearLeftDoor.i18n.value.open.label}}",
+                        "value": "Open",
                         "type": "active"
                     },
                     {
                         "key": "closed",
-                        "value": "{{i18n.attributes.rearLeftDoor.i18n.value.closed.label}}",
+                        "value": "Closed",
                         "type": "inactive"
                     },
                     {
                         "key": "locked",
-                        "value": "{{i18n.attributes.rearLeftDoor.i18n.value.locked.label}}",
+                        "value": "Locked",
                         "type": "inactive"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.rearRightDoor.label}}",
+            "label": "Door rear right",
             "displayType": "state",
             "state": {
                 "label": "{{rearRightDoor.value}}",
                 "alternatives": [
                     {
                         "key": "open",
-                        "value": "{{i18n.attributes.rearRightDoor.i18n.value.open.label}}",
+                        "value": "Open",
                         "type": "active"
                     },
                     {
                         "key": "closed",
-                        "value": "{{i18n.attributes.rearRightDoor.i18n.value.closed.label}}",
+                        "value": "Closed",
                         "type": "inactive"
                     },
                     {
                         "key": "locked",
-                        "value": "{{i18n.attributes.rearRightDoor.i18n.value.locked.label}}",
+                        "value": "Locked",
                         "type": "inactive"
                     }
                 ]
@@ -182,23 +182,23 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.lockState.label}}",
+                "label": "Door lock status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "locked",
-                            "value": "{{i18n.attributes.lockState.i18n.value.locked.label}}",
+                            "value": "Locked",
                             "type": "inactive"
                         },
                         {
                             "key": "unlocked",
-                            "value": "{{i18n.attributes.lockState.i18n.value.unlocked.label}}",
+                            "value": "Unlocked",
                             "type": "active"
                         },
                         {
                             "key": "unknown",
-                            "value": "{{i18n.attributes.lockState.i18n.value.unknown.label}}",
+                            "value": "Unknown",
                             "type": "inactive"
                         }
                     ],
@@ -208,23 +208,23 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.frontLeftDoor.label}}",
+                "label": "Door front left",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.frontLeftDoor.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.frontLeftDoor.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         },
                         {
                             "key": "locked",
-                            "value": "{{i18n.attributes.frontLeftDoor.i18n.value.locked.label}}",
+                            "value": "Locked",
                             "type": "inactive"
                         }
                     ],
@@ -234,23 +234,23 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.frontRightDoor.label}}",
+                "label": "Door front right",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.frontRightDoor.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.frontRightDoor.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         },
                         {
                             "key": "locked",
-                            "value": "{{i18n.attributes.frontRightDoor.i18n.value.locked.label}}",
+                            "value": "Locked",
                             "type": "inactive"
                         }
                     ],
@@ -260,23 +260,23 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.rearLeftDoor.label}}",
+                "label": "Door rear left",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.rearLeftDoor.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.rearLeftDoor.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         },
                         {
                             "key": "locked",
-                            "value": "{{i18n.attributes.rearLeftDoor.i18n.value.locked.label}}",
+                            "value": "Locked",
                             "type": "inactive"
                         }
                     ],
@@ -286,23 +286,23 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.rearRightDoor.label}}",
+                "label": "Door rear right",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "{{i18n.attributes.rearRightDoor.i18n.value.open.label}}",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "{{i18n.attributes.rearRightDoor.i18n.value.closed.label}}",
+                            "value": "Closed",
                             "type": "inactive"
                         },
                         {
                             "key": "locked",
-                            "value": "{{i18n.attributes.rearRightDoor.i18n.value.locked.label}}",
+                            "value": "Locked",
                             "type": "inactive"
                         }
                     ],
@@ -314,18 +314,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.attributes.lockState.label}}",
+                "label": "Car lock",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "lock",
-                            "value": "{{i18n.commands.lock.label}}",
+                            "value": "Lock",
                             "type": "active"
                         },
                         {
                             "key": "unlock",
-                            "value": "{{i18n.commands.unlock.label}}",
+                            "value": "Unlock",
                             "type": "active"
                         }
                     ]

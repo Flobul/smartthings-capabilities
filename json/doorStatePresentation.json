@@ -11,27 +11,27 @@
                     },
                     {
                         "key": "closed",
-                        "value": "closed",
+                        "value": "Closed",
                         "type": "active"
                     },
                     {
                         "key": "jammed",
-                        "value": "jammed",
+                        "value": "Jammed",
                         "type": "active"
                     },
                     {
                         "key": "forcedOpen",
-                        "value": "forcedOpen",
+                        "value": "Forced open attempt detected",
                         "type": "active"
                     },
                     {
                         "key": "unspecifiedError",
-                        "value": "unspecifiedError",
+                        "value": "Error",
                         "type": "active"
                     },
                     {
                         "key": "ajar",
-                        "value": "ajar",
+                        "value": "Ajar",
                         "type": "active"
                     }
                 ]
@@ -42,39 +42,39 @@
     },
     "detailView": [
         {
-            "label": "Door State",
+            "label": "Door state",
             "displayType": "state",
             "state": {
                 "label": "{{doorState.value}}",
                 "alternatives": [
                     {
                         "key": "open",
-                        "value": "open",
+                        "value": "Open",
                         "type": "active"
                     },
                     {
                         "key": "closed",
-                        "value": "closed",
+                        "value": "Closed",
                         "type": "active"
                     },
                     {
                         "key": "jammed",
-                        "value": "jammed",
+                        "value": "Jammed",
                         "type": "active"
                     },
                     {
                         "key": "forcedOpen",
-                        "value": "forcedOpen",
+                        "value": "Forced open attempt detected",
                         "type": "active"
                     },
                     {
                         "key": "unspecifiedError",
-                        "value": "unspecifiedError",
+                        "value": "Error",
                         "type": "active"
                     },
                     {
                         "key": "ajar",
-                        "value": "ajar",
+                        "value": "Ajar",
                         "type": "active"
                     }
                 ]
@@ -84,38 +84,38 @@
     "automation": {
         "conditions": [
             {
-                "label": "Door State",
+                "label": "Door state",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "open",
-                            "value": "open",
+                            "value": "Open",
                             "type": "active"
                         },
                         {
                             "key": "closed",
-                            "value": "closed",
+                            "value": "Closed",
                             "type": "active"
                         },
                         {
                             "key": "jammed",
-                            "value": "jammed",
+                            "value": "Jammed",
                             "type": "active"
                         },
                         {
                             "key": "forcedOpen",
-                            "value": "forcedOpen",
+                            "value": "Forced open attempt detected",
                             "type": "active"
                         },
                         {
                             "key": "unspecifiedError",
-                            "value": "unspecifiedError",
+                            "value": "Error",
                             "type": "active"
                         },
                         {
                             "key": "ajar",
-                            "value": "ajar",
+                            "value": "Ajar",
                             "type": "active"
                         }
                     ],

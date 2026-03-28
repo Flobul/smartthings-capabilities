@@ -28,7 +28,8 @@
     "commands": {
         "turnWelcomeCareOn": {
             "name": "turnWelcomeCareOn",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

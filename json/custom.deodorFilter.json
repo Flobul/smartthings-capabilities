@@ -130,7 +130,8 @@
     "commands": {
         "resetDeodorFilter": {
             "name": "resetDeodorFilter",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

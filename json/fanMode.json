@@ -17,7 +17,8 @@
                             "low",
                             "medium",
                             "high",
-                            "off"
+                            "off",
+                            "turbo"
                         ]
                     }
                 },
@@ -41,7 +42,8 @@
                                 "low",
                                 "medium",
                                 "high",
-                                "off"
+                                "off",
+                                "turbo"
                             ]
                         }
                     }
@@ -67,11 +69,13 @@
                             "low",
                             "medium",
                             "high",
-                            "off"
+                            "off",
+                            "turbo"
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

@@ -56,11 +56,13 @@
     "commands": {
         "doNotDisturbOff": {
             "name": "doNotDisturbOff",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "doNotDisturbOn": {
             "name": "doNotDisturbOn",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setDoNotDisturbMode": {
             "name": "setDoNotDisturbMode",
@@ -90,7 +92,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

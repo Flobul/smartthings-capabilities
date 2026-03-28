@@ -1,11 +1,18 @@
 {
-    "tag": "en",
-    "label": "Stateless Switch Level Step",
+    "tag": "fr",
+    "label": "Régler la luminosité",
+    "description": "Allows for the control of the relative level of a device like a light or a dimmer switch in step size.",
     "attributes": {},
     "commands": {
         "stepLevel": {
-            "label": "stepLevel",
-            "arguments": {}
+            "label": "Régler la luminosité",
+            "description": "Change the level by the given amount. If the level exceeds the minimum (typically 0) or maximum (typically 100) then it will be clamped to those values.",
+            "arguments": {
+                "stepSize": {
+                    "i18n": {},
+                    "description": "The amount to change from current level, usually ``-100 to 100`` in percent"
+                }
+            }
         }
     }
 }

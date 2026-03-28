@@ -34,7 +34,8 @@
     "commands": {
         "startFeeding": {
             "name": "startFeeding",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

@@ -26,7 +26,7 @@
     },
     "detailView": [
         {
-            "label": "{{i18n.attributes.batteryLevel.label}}",
+            "label": "Battery",
             "displayType": "state",
             "state": {
                 "label": "{{batteryLevel.value}}",
@@ -34,7 +34,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.chargingState.label}}",
+            "label": "Charging status",
             "displayType": "toggleSwitch",
             "toggleSwitch": {
                 "command": {
@@ -49,12 +49,12 @@
                     "alternatives": [
                         {
                             "key": "charging",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "value": "Charging",
                             "type": "active"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         }
                     ]
@@ -62,7 +62,7 @@
             }
         },
         {
-            "label": "{{i18n.attributes.chargingRemainTime.label}}",
+            "label": "Remaining charging time",
             "displayType": "state",
             "state": {
                 "label": "{{chargingRemainTime.value}}",
@@ -70,78 +70,78 @@
             }
         },
         {
-            "label": "{{i18n.attributes.chargingDetail.label}}",
+            "label": "Battery",
             "displayType": "state",
             "state": {
                 "label": "{{chargingDetail.value}}",
                 "alternatives": [
                     {
                         "key": "noCharging",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.noCharging.label}}",
+                        "value": "Not charging",
                         "type": "active"
                     },
                     {
                         "key": "charging",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.charging.label}}",
+                        "value": "Charging",
                         "type": "active"
                     },
                     {
                         "key": "veryFastCharging",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.veryFastCharging.label}}",
+                        "value": "Very fast charging",
                         "type": "active"
                     },
                     {
                         "key": "fastCharging",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.fastCharging.label}}",
+                        "value": "Fast charging",
                         "type": "active"
                     },
                     {
                         "key": "v2lDischarge",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2lDischarge.label}}",
+                        "value": "V2L discharging",
                         "type": "active"
                     },
                     {
                         "key": "v2lCharging",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2lCharging.label}}",
+                        "value": "V2L charging",
                         "type": "active"
                     },
                     {
                         "key": "v2lStop",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2lStop.label}}",
+                        "value": "V2L stopped",
                         "type": "active"
                     },
                     {
                         "key": "v2xDischarge",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2xDischarge.label}}",
+                        "value": "V2X discharging",
                         "type": "active"
                     },
                     {
                         "key": "v2xCharging",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.v2xCharging.label}}",
+                        "value": "V2X charging",
                         "type": "active"
                     },
                     {
                         "key": "reseveredCharging",
-                        "value": "{{i18n.attributes.chargingDetail.i18n.value.reseveredCharging.label}}",
+                        "value": "Reserved charging",
                         "type": "active"
                     }
                 ]
             }
         },
         {
-            "label": "{{i18n.attributes.chargingPlug.label}}",
+            "label": "Charging point state",
             "displayType": "state",
             "state": {
                 "label": "{{chargingPlug.value}}",
                 "alternatives": [
                     {
                         "key": "connected",
-                        "value": "{{i18n.attributes.chargingPlug.i18n.value.connected.label}}",
+                        "value": "Connected",
                         "type": "active"
                     },
                     {
                         "key": "disconnected",
-                        "value": "{{i18n.attributes.chargingPlug.i18n.value.disconnected.label}}",
+                        "value": "Disconnected",
                         "type": "active"
                     }
                 ]
@@ -151,7 +151,7 @@
     "automation": {
         "conditions": [
             {
-                "label": "{{i18n.attributes.batteryLevel.label}}",
+                "label": "Battery",
                 "displayType": "slider",
                 "slider": {
                     "range": [
@@ -164,18 +164,18 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.chargingState.label}}",
+                "label": "Charging status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "charging",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.charging.label}}",
+                            "value": "Charging",
                             "type": "active"
                         },
                         {
                             "key": "stopped",
-                            "value": "{{i18n.attributes.chargingState.i18n.value.stopped.label}}",
+                            "value": "Stop",
                             "type": "inactive"
                         }
                     ],
@@ -185,7 +185,7 @@
                 }
             },
             {
-                "label": "{{i18n.attributes.chargingRemainTime.label}}",
+                "label": "Remaining charging time",
                 "displayType": "numberField",
                 "numberField": {
                     "value": "chargingRemainTime.value",
@@ -196,18 +196,18 @@
         ],
         "actions": [
             {
-                "label": "{{i18n.commands.charge.label}}",
+                "label": "Start charging",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "charge",
-                            "value": "{{i18n.commands.charge.label}}",
+                            "value": "Start charging",
                             "type": "active"
                         },
                         {
                             "key": "stop",
-                            "value": "{{i18n.commands.stop.label}}",
+                            "value": "Stop charging",
                             "type": "inactive"
                         }
                     ]

@@ -79,19 +79,23 @@
     "commands": {
         "sendEvent(sunriseTime)": {
             "name": "sendEvent(sunriseTime)",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "sendEvent(sunrise)": {
             "name": "sendEvent(sunrise)",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "sendEvent(sunset)": {
             "name": "sendEvent(sunset)",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "sendEvent(sunsetTime)": {
             "name": "sendEvent(sunsetTime)",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

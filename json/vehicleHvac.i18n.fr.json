@@ -61,7 +61,7 @@
             "i18n": {}
         },
         "hvacState": {
-            "label": "Statut",
+            "label": "Statut de la climatisation",
             "description": "Current power state of the hvac",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {

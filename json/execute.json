@@ -48,7 +48,8 @@
                         "type": "object"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

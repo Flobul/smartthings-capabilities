@@ -37,11 +37,13 @@
     "commands": {
         "off": {
             "name": "off",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "chime": {
             "name": "chime",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

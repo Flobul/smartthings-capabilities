@@ -24,11 +24,13 @@
     "commands": {
         "startAudio": {
             "name": "startAudio",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "stopAudio": {
             "name": "stopAudio",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

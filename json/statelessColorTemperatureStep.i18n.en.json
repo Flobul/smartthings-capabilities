@@ -1,11 +1,18 @@
 {
     "tag": "en",
-    "label": "Stateless Color Temperature Step",
+    "label": "Adjust colour temperature",
+    "description": "Allows for the control of the relative color temperature of light device in step size.",
     "attributes": {},
     "commands": {
         "stepColorTemperatureByPercent": {
-            "label": "stepColorTemperatureByPercent",
-            "arguments": {}
+            "label": "Adjust colour temperature",
+            "description": "Change the color temperature by the given percentage. If it exceeds the minimum or maximum range then it will be clamped to those values.",
+            "arguments": {
+                "stepSize": {
+                    "i18n": {},
+                    "description": "The amount of change from the current color temperature as a percentage within the device's minimum and maximum range."
+                }
+            }
         }
     }
 }

@@ -29,7 +29,8 @@
     "commands": {
         "call": {
             "name": "call",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

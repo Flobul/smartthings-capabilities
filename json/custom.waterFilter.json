@@ -127,7 +127,8 @@
     "commands": {
         "resetWaterFilter": {
             "name": "resetWaterFilter",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

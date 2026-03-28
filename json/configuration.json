@@ -1,14 +1,15 @@
 {
     "id": "configuration",
     "version": 1,
-    "status": "live",
+    "status": "deprecated",
     "name": "Configuration",
     "ephemeral": false,
     "attributes": {},
     "commands": {
         "configure": {
             "name": "configure",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

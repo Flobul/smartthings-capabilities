@@ -8,7 +8,8 @@
     "commands": {
         "fanspeedDown": {
             "name": "fanspeedDown",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

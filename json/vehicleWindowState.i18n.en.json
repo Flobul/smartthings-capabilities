@@ -4,7 +4,7 @@
     "description": "Get the window state of a vehicle",
     "attributes": {
         "frontRightWindow": {
-            "label": "Front right",
+            "label": "Window front right",
             "description": "Current state of the front right window",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -19,7 +19,7 @@
             }
         },
         "rearRightWindow": {
-            "label": "Rear right",
+            "label": "Window rear right",
             "description": "Current state of the rear right window",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -40,7 +40,7 @@
             "i18n": {}
         },
         "frontLeftWindow": {
-            "label": "Front left",
+            "label": "Window front left",
             "description": "Current state of the front left window",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -55,7 +55,7 @@
             }
         },
         "rearLeftWindow": {
-            "label": "Rear left",
+            "label": "Window rear left",
             "description": "Current state of the rear left window",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {

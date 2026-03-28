@@ -212,11 +212,13 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "stop": {
             "name": "stop",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "setTimedCleanDuration": {
             "name": "setTimedCleanDuration",
@@ -229,7 +231,8 @@
                         "minimum": 0
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "start": {
             "name": "setOperatingState",
@@ -256,7 +259,8 @@
                         "maximum": 1440
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "setAutoCleaningMode": {
             "name": "setAutoCleaningMode",
@@ -275,7 +279,8 @@
                         "type": "string"
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

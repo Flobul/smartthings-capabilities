@@ -1,7 +1,7 @@
 {
     "id": "languageSetting",
     "version": 1,
-    "status": "proposed",
+    "status": "deprecated",
     "name": "Language Setting",
     "ephemeral": false,
     "attributes": {
@@ -49,7 +49,8 @@
                         "maxLength": 255
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

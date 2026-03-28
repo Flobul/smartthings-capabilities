@@ -27,7 +27,8 @@
                         "maximum": 100
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "playTrackAndRestore": {
             "name": "playTrackAndRestore",
@@ -50,7 +51,8 @@
                         "maximum": 100
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         },
         "playTrack": {
             "name": "playTrack",
@@ -73,7 +75,8 @@
                         "maximum": 100
                     }
                 }
-            ]
+            ],
+            "sensitive": false
         }
     }
 }

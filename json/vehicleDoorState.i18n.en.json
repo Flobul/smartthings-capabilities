@@ -1,10 +1,10 @@
 {
     "tag": "en",
-    "label": "Doors",
+    "label": "Car lock",
     "description": "Get the door state of a vehicle and allow for the control of a vehicle",
     "attributes": {
         "frontLeftDoor": {
-            "label": "Front left",
+            "label": "Door front left",
             "description": "Current lock state of the front left door",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -22,7 +22,7 @@
             }
         },
         "rearRightDoor": {
-            "label": "Rear right",
+            "label": "Door rear right",
             "description": "Current lock state of the rear right door",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -40,7 +40,7 @@
             }
         },
         "rearLeftDoor": {
-            "label": "Rear left",
+            "label": "Door rear left",
             "description": "Current lock state of the rear left door",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -64,7 +64,7 @@
             "i18n": {}
         },
         "lockState": {
-            "label": "Lock state",
+            "label": "Door lock status",
             "description": "The lock state of the vehicle",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
@@ -82,7 +82,7 @@
             }
         },
         "frontRightDoor": {
-            "label": "Front right",
+            "label": "Door front right",
             "description": "Current lock state of the front right door",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {

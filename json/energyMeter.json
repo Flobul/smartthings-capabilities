@@ -34,7 +34,8 @@
     "commands": {
         "resetEnergyMeter": {
             "name": "resetEnergyMeter",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

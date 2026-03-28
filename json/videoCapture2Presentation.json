@@ -1,7 +1,7 @@
 {
     "detailView": [
         {
-            "label": "Video Capture 2",
+            "label": "Record",
             "displayType": "pushButton",
             "pushButton": {
                 "command": "capture"
@@ -12,13 +12,13 @@
         "conditions": [],
         "actions": [
             {
-                "label": "Video Capture 2",
+                "label": "Record",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "capture",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.VIDEOCAPTURE2_DEFAULT_COMMANDS_CAPTURE",
+                            "value": "Record",
                             "type": "active"
                         }
                     ]

@@ -4,7 +4,7 @@
     "description": "Get the battery state of a vehicle and allow for the control of charging",
     "attributes": {
         "chargingRemainTime": {
-            "label": "Remaining time",
+            "label": "Remaining charging time",
             "description": "Remaining time until battery is fully charged",
             "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
@@ -29,6 +29,9 @@
                     },
                     "v2xCharging": {
                         "label": "V2X charging"
+                    },
+                    "charging": {
+                        "label": "Charging"
                     },
                     "v2lStop": {
                         "label": "V2L stopped"

@@ -74,11 +74,13 @@
     "commands": {
         "call": {
             "name": "call",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         },
         "cancel": {
             "name": "cancel",
-            "arguments": []
+            "arguments": [],
+            "sensitive": false
         }
     }
 }

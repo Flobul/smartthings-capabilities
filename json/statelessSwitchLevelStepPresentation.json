@@ -3,7 +3,7 @@
         "conditions": [],
         "actions": [
             {
-                "label": "stepLevel",
+                "label": "Adjust brightness",
                 "displayType": "numberField",
                 "numberField": {
                     "command": "stepLevel",
