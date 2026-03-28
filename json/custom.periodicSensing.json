@@ -96,6 +96,7 @@
                 "additionalProperties": false,
                 "required": []
             },
+            "setter": "setPeriodicSensingInterval",
             "enumCommands": []
         },
         "lastSensingTime": {
