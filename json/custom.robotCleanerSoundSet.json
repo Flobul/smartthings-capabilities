@@ -26,6 +26,7 @@
                     "value"
                 ]
             },
+            "setter": "setRobotCleanerSoundSet",
             "enumCommands": []
         }
     },
