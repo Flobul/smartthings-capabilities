@@ -64,6 +64,7 @@
                     "value"
                 ]
             },
+            "setter": "setReportStateRealtime",
             "enumCommands": []
         },
         "reportStatePeriod": {
@@ -83,6 +84,7 @@
                     "value"
                 ]
             },
+            "setter": "setReportStatePeriod",
             "enumCommands": []
         }
     },
