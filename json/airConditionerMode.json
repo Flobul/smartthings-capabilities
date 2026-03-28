@@ -5,31 +5,23 @@
     "name": "Air Conditioner Mode",
     "ephemeral": false,
     "attributes": {
-        "availableAcModes": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        }
-                    }
-                },
-                "additionalProperties": false,
-                "required": []
-            },
-            "enumCommands": []
-        },
         "supportedAcModes": {
             "schema": {
                 "type": "object",
                 "properties": {
                     "value": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        }
+                        "type": "string",
+                        "enum": [
+                            "auto",
+                            "cool",
+                            "dry",
+                            "coolClean",
+                            "dryClean",
+                            "fanOnly",
+                            "heat",
+                            "heatClean",
+                            "notSupported"
+                        ]
                     }
                 },
                 "additionalProperties": false,
@@ -44,6 +36,17 @@
                     "value": {
                         "title": "String",
                         "type": "string",
+                        "enum": [
+                            "auto",
+                            "cool",
+                            "dry",
+                            "coolClean",
+                            "dryClean",
+                            "fanOnly",
+                            "heat",
+                            "heatClean",
+                            "notSupported"
+                        ],
                         "maxLength": 255
                     }
                 },
@@ -66,11 +69,21 @@
                     "schema": {
                         "title": "String",
                         "type": "string",
+                        "enum": [
+                            "auto",
+                            "cool",
+                            "dry",
+                            "coolClean",
+                            "dryClean",
+                            "fanOnly",
+                            "heat",
+                            "heatClean",
+                            "notSupported"
+                        ],
                         "maxLength": 255
                     }
                 }
-            ],
-            "sensitive": false
+            ]
         }
     }
 }
