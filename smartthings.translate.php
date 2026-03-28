@@ -124,7 +124,8 @@ class smartthings_translate
                 "notClosedForALongTime" => __("Pas fermée depuis longtemps", __FILE__),
                 "highTemperature"       => __("Température haute", __FILE__),
                 "attemptsExceeded"      => __("Nombre de tentatives dépassées", __FILE__),
-                "physicalImpact"        => __("Impact physique", __FILE__)
+                "physicalImpact"        => __("Impact physique", __FILE__),
+                "failedOpeningAttempt"  => __("Impossible de déverrouiller.", __FILE__)
             ],
             "alarmSensorState" => [
                 "off"        => __("Éteint", __FILE__),
@@ -270,7 +271,8 @@ class smartthings_translate
                 "v2lStop"           => __("V2L arrêté", __FILE__),
                 "v2xDischarge"      => __("Décharge V2X", __FILE__),
                 "v2xCharging"       => __("Charge V2X", __FILE__),
-                "reseveredCharging" => __("Charge planifiée", __FILE__)
+                "reseveredCharging" => __("Charge planifiée", __FILE__),
+                "charging"          => __("En charge", __FILE__)
             ],
             "chargingState" => [
                 "charging"     => __("En charge", __FILE__),
@@ -634,8 +636,12 @@ class smartthings_translate
                 "unknown" => __("Inconnu", __FILE__)
             ],
             "doorState" => [
-                "closed" => __("Fermée", __FILE__),
-                "open"   => __("Ouverte", __FILE__)
+                "closed"           => __("Fermée", __FILE__),
+                "open"             => __("Ouverte", __FILE__),
+                "jammed"           => __("Coincée", __FILE__),
+                "forcedOpen"       => __("Tentative d'ouverture forcée détectée", __FILE__),
+                "unspecifiedError" => __("Erreur", __FILE__),
+                "ajar"             => __("Entrouverte", __FILE__)
             ],
             "drivingStatus" => [
                 "driving"     => __("En train de conduire", __FILE__),
@@ -840,7 +846,10 @@ class smartthings_translate
                 "gestureFive"          => __("Geste Tope là détecté", __FILE__),
                 "gestureGun"           => __("Geste du tir avec les doigts détecté", __FILE__),
                 "gestureOk"            => __("Geste d'accord détecté", __FILE__),
-                "lensObstruction"      => __("Obstruction de la lentille", __FILE__)
+                "lensObstruction"      => __("Obstruction de la lentille", __FILE__),
+                "error"                => __("Erreur", __FILE__),
+                "operationComplete"    => __("Opération terminée", __FILE__),
+                "cleaningComplete"     => __("Nettoyage terminé", __FILE__)
             ],
             "execute::OperationState" => [
                     "Ready" => __("Prêt", __FILE__),
@@ -914,7 +923,9 @@ class smartthings_translate
                 "wide"        => __("Ample", __FILE__),
                 "mid"         => __("Intermédiaire", __FILE__),
                 "spot"        => __("Fixe", __FILE__),
-                "swing"       => __("Balayage", __FILE__)
+                "swing"       => __("Balayage", __FILE__),
+                "leftZone"    => __("Zone gauche", __FILE__),
+                "rightZone"   => __("Zone droite", __FILE__)
             ],
             "fanSpeed" => [
                 "off"    => __("Désactivée", __FILE__),
@@ -1269,7 +1280,15 @@ class smartthings_translate
                 "customMenu17" => __("Menu personnalisé 17", __FILE__),
                 "customMenu18" => __("Menu personnalisé 18", __FILE__),
                 "customMenu19" => __("Menu personnalisé 19", __FILE__),
-                "customMenu20" => __("Menu personnalisé 20", __FILE__)
+                "customMenu20" => __("Menu personnalisé 20", __FILE__),
+                "babyFood"           => __("Nourriture pour bébé", __FILE__),
+                "quickMeal"          => __("Repas rapide", __FILE__),
+                "noPressureSteaming" => __("Cuisson vapeur sans pression", __FILE__),
+                "germinatedBrownRice" => __("Riz brun germé", __FILE__),
+                "vegetableRice"      => __("Riz et légumes", __FILE__),
+                "highHeatMixedGrains" => __("Mélange de céréales à haute température", __FILE__),
+                "whiteRice"          => __("Riz blanc", __FILE__),
+                "grains"             => __("Graines", __FILE__)
             ],
             "mode" => [
                 "normal"        => __("Normal", __FILE__),
@@ -1286,7 +1305,12 @@ class smartthings_translate
                 "tv"            => __("TV", __FILE__),
                 "reading"       => __("Lecture", __FILE__),
                 "antiSnore"     => __("Anti-ronflement", __FILE__),
-                "noMode"        => __("Aucun mode", __FILE__)
+                "noMode"        => __("Aucun mode", __FILE__),
+                "auto"          => __("Automatique", __FILE__),
+                "standard"      => __("Standard", __FILE__),
+                "power"         => __("Puissance", __FILE__),
+                "storage"       => __("Stockage", __FILE__),
+                "clean"         => __("Nettoyer", __FILE__)
             ],
             "moldHealthConcern" => [
                 "veryUnhealthy"     => __("Très mauvais", __FILE__),
@@ -1633,7 +1657,9 @@ class smartthings_translate
                 "VaporMWO"                       => __("Micro-onde O vapeur", __FILE__),
                 "VaporTopHeatPluseConvection"    => __("Vapeur par le haut + Convection écologique", __FILE__),
                 "WarmHold"                       => __("Maintien au chaud", __FILE__),
-                "warming"                        => __("Réchauffage", __FILE__)
+                "warming"                        => __("Réchauffage", __FILE__),
+                "AirFryMax"                      => __("AirFryMax", __FILE__),
+                "Pizza"                          => __("Pizza", __FILE__)
             ],
             "ovenJobState" => [
                 "cleaning"        => __("Nettoyage", __FILE__),
@@ -1747,7 +1773,8 @@ class smartthings_translate
                 "paprika"                => __("Paprika", __FILE__),
                 "peperomia"              => __("Pépéromie", __FILE__),
                 "philodendron"           => __("Philodendron", __FILE__),
-                "UNKNOWN"                => __("Inconnu", __FILE__)
+                "UNKNOWN"                => __("Inconnu", __FILE__),
+                "parsley_italian"        => __("Persil italien", __FILE__)
             ],
             "playbackStatus" => [
                 "play"            => __("Lecture", __FILE__),
@@ -1918,6 +1945,11 @@ class smartthings_translate
                 "checking"  => __("Vérification", __FILE__),
                 "cancelled" => __("Annulé", __FILE__)
             ],
+            "releaseCountry" => [
+                "US" => __("US", __FILE__),
+                "KR" => __("KR", __FILE__),
+                "ZZ" => __("ZZ", __FILE__)
+            ],
             "rinseMode" => [
                 "normal" => __("Normal", __FILE__),
                 "max"    => __("Max.", __FILE__),
@@ -1933,16 +1965,17 @@ class smartthings_translate
                 "map"    => __("Carte", __FILE__)
             ],
             "robotCleanerMovement" => [
-                "cleaning" => __("Nettoyage", __FILE__),
-                "idle"     => __("En veille", __FILE__),
-                "powerOff" => __("Désactivé", __FILE__),
-                "charging" => __("Chargement", __FILE__),
-                "alarm"    => __("Erreur", __FILE__),
-                "reserve"  => __("Programmé", __FILE__),
-                "homing"   => __("Retour sur la station d'accueil", __FILE__),
-                "after"    => __("Rechargement avant nettoyage", __FILE__),
-                "point"    => __("Nettoyage ciblé", __FILE__),
-                "pause"    => __("Pause", __FILE__)
+                "cleaning"   => __("Nettoyage", __FILE__),
+                "idle"       => __("En veille", __FILE__),
+                "powerOff"   => __("Désactivé", __FILE__),
+                "charging"   => __("Chargement", __FILE__),
+                "alarm"      => __("Erreur", __FILE__),
+                "reserve"    => __("Programmé", __FILE__),
+                "homing"     => __("Retour sur la station d'accueil", __FILE__),
+                "after"      => __("Rechargement avant nettoyage", __FILE__),
+                "point"      => __("Nettoyage ciblé", __FILE__),
+                "pause"      => __("Pause", __FILE__),
+                "washingMop" => __("Nettoyage de la serpillière", __FILE__)
             ],
             "robotCleanerTurboMode" => [
                 "silence"      => __("Silencieux", __FILE__),
@@ -2312,7 +2345,14 @@ class smartthings_translate
                 "off"                  => __("Éteint", __FILE__),
                 "preparing"            => __("En préparation", __FILE__),
                 "running"              => __("En cours d'exécution", __FILE__),
-                "stopped"              => __("Arrêté", __FILE__)
+                "stopped"              => __("Arrêté", __FILE__),
+                "waiting"              => __("En attente", __FILE__),
+                "drying"               => __("Séchage", __FILE__),
+                "grinding"             => __("Broyage", __FILE__),
+                "cooling"              => __("Refroidissement", __FILE__),
+                "cleaning"             => __("Nettoyage", __FILE__),
+                "completed"            => __("Terminé", __FILE__),
+                "error"                => __("Erreur", __FILE__)
             ],
             "status" => [
                 "paused"         => __("En  pause", __FILE__),
@@ -3221,6 +3261,12 @@ class smartthings_translate
                 "setSoftRecordingPrivacyModeenabled"   => __("Enregistrement en mode confidentialité activé", __FILE__),
                 "setSoftRecordingPrivacyModedisabled"  => __("Enregistrement en mode confidentialité désactivé", __FILE__)
             ],
+            "cameraViewportSettings" => [
+                "defaultViewport"         => __("Fenêtre par défaut", __FILE__),
+                "minViewportResolution"   => __("Résolution minimale de la fenêtre", __FILE__),
+                "videoSensorParameters"   => __("Paramètres du capteur vidéo", __FILE__),
+                "setDefaultViewport"      => __("Définir la fenêtre par défaut", __FILE__)
+            ],
             "carbonDioxideHealthConcern" => [
                 "carbonDioxideHealthConcern"   => __("Niveau de dioxide de carbone", __FILE__),
                 "supportedCarbonDioxideValues" => __("Niveaux de dioxide de carbone pris en charge", __FILE__)
@@ -3271,7 +3317,14 @@ class smartthings_translate
                 "supportedCoffeeMakerOperationStatus" => __("États de fonctionnement de la cafetière pris en charge", __FILE__),
                 "supportedMenu"                       => __("Menus pris en charge", __FILE__),
                 "stop"                                => __("Arrêter", __FILE__),
-                "makeCoffee"                          => __("Faire du café", __FILE__)
+                "makeCoffee"                          => __("Faire du café", __FILE__),
+                "temperatureRange"                    => __("Plage de température", __FILE__),
+                "supportedArgument"                   => __("Arguments pris en charge", __FILE__),
+                "waterAmountRange"                    => __("Plage de quantité d'eau", __FILE__),
+                "coffeeAmountRange"                   => __("Plage de quantité de café", __FILE__),
+                "coffeeStrengthRange"                 => __("Plage d'intensité de café", __FILE__),
+                "milkAmountRange"                     => __("Plage de quantité de lait", __FILE__),
+                "makeCustomizedCoffee"                => __("Faire du café personnalisé", __FILE__)
             ],
             "color" => [
                 "colorValue"    => __("Variateur de couleur", __FILE__),
@@ -3532,10 +3585,11 @@ class smartthings_translate
                 "firmwareVersion"    => __("Version du firmware", __FILE__)
             ],
             "custom.fridgeMode" => [
-                "supportedFridgeModes" => __("Modes de réfrigération pris en charge", __FILE__),
-                "fridgeModeValue"      => __("Valeur du mode de réfrigération", __FILE__),
-                "fridgeMode"           => __("Mode de réfrigération", __FILE__),
-                "setFridgeMode"        => __("Changer le mode de réfrigération", __FILE__)
+                "supportedFridgeModes"     => __("Modes de réfrigération pris en charge", __FILE__),
+                "fridgeModeValue"          => __("Valeur du mode de réfrigération", __FILE__),
+                "fridgeMode"               => __("Mode de réfrigération", __FILE__),
+                "setFridgeMode"            => __("Changer le mode de réfrigération", __FILE__),
+                "supportedFullFridgeModes" => __("Modes complets de réfrigération pris en charge", __FILE__)
             ],
             "custom.hepaFilter" => [
                 "hepaFilterCapacity"      => __("Capacité du filtre HEPA", __FILE__),
@@ -3805,6 +3859,10 @@ class smartthings_translate
                 "close" => __("Fermer la porte", __FILE__),
                 "open"  => __("Ouvrir la porte", __FILE__)
             ],
+            "doorState" => [
+                "doorState"           => __("État de la porte", __FILE__),
+                "supportedDoorStates" => __("États de porte pris en charge", __FILE__)
+            ],
             "drivingStatus" => [
                 "drivingStatus" => __("Statut de conduite", __FILE__)
             ],
@@ -3831,7 +3889,13 @@ class smartthings_translate
                 "nonce"         => __("Nonce", __FILE__),
                 "encryptedKek"  => __("Clé de chiffrement de clés chiffrée", __FILE__),
                 "generateNonce" => __("Générer un nonce", __FILE__),
-                "encryptKek"    => __("Chiffrer une clé de chiffrement de clés", __FILE__)
+                "encryptKek"    => __("Chiffrer une clé de chiffrement de clés", __FILE__),
+                "error"         => __("Erreur", __FILE__)
+            ],
+            "endToEndEncryptionState" => [
+                "enabled"            => __("Activé", __FILE__),
+                "setEnabledenabled"  => "setEnabledenabled",
+                "setEnableddisabled" => "setEnableddisabled"
             ],
             "energyMeter" => [
                 "energy"           => __("Compteur d'énergie", __FILE__),
@@ -3898,6 +3962,11 @@ class smartthings_translate
                 "fanMode"           => __("Mode de ventilation", __FILE__),
                 "supportedFanModes" => __("Modes de ventilation pris en charge", __FILE__),
                 "setFanMode"        => __("Changer le mode de ventilation", __FILE__)
+            ],
+            "fanDirection" => [
+                "fanDirection" => __("Direction du ventilateur", __FILE__),
+                "summerMode"   => __("Mode été", __FILE__),
+                "winterMode"   => __("Mode hiver", __FILE__)
             ],
             "fanOscillationMode" => [
                 "availableFanOscillationModes" => __("Modes d'oscillation du ventilateur disponibles", __FILE__),
@@ -3985,6 +4054,17 @@ class smartthings_translate
             "formaldehydeHealthConcern" => [
                 "formaldehydeHealthConcern"   => __("Niveau de formaldéhyde", __FILE__),
                 "supportedFormaldehydeValues" => __("Valeurs de formaldehyde prises en charge", __FILE__)
+            ],
+            "foodWasteDryingGrinder" => [
+                "mode"            => __("Mode", __FILE__),
+                "supportedStates" => __("États pris en charge", __FILE__),
+                "state"           => __("État", __FILE__),
+                "supportedModes"  => __("Modes pris en charge", __FILE__),
+                "event"           => __("Événement", __FILE__),
+                "supportedEvents" => __("Événements pris en charge", __FILE__),
+                "stop"            => __("Arrêter", __FILE__),
+                "start"           => __("Démarrer", __FILE__),
+                "setMode"         => __("Changer le mode", __FILE__)
             ],
             "garageDoorControl" => [
                 "door"  => __("Porte de garage", __FILE__),
@@ -4100,6 +4180,11 @@ class smartthings_translate
                 "supportedKeyCodes" => __("Codes de touches supportées", __FILE__),
                 "sendKey"           => __("Saisir au clavier", __FILE__)
             ],
+            "knob" => [
+                "rotateAmount"        => __("Angle de rotation", __FILE__),
+                "supportedAttributes" => __("Attributs pris en charge", __FILE__),
+                "heldRotateAmount"    => __("Angle de rotation maintenu", __FILE__)
+            ],
             "languageSetting" => [
                 "supportedLanguages" => __("Langues prises en charge", __FILE__),
                 "language"           => __("Langue", __FILE__),
@@ -4133,6 +4218,15 @@ class smartthings_translate
             "locationMode" => [
                 "mode"    => __("Mode de localisation", __FILE__),
                 "setMode" => __("Changer le mode de localisation", __FILE__)
+            ],
+            "localMediaStorage" => [
+                "localSnapshotRecording"            => __("Enregistrement de snapshot local", __FILE__),
+                "localVideoRecording"               => __("Enregistrement vidéo local", __FILE__),
+                "supportedAttributes"               => __("Attributs pris en charge", __FILE__),
+                "setLocalVideoRecordingenabled"     => "setLocalVideoRecordingenabled",
+                "setLocalVideoRecordingdisabled"    => "setLocalVideoRecordingdisabled",
+                "setLocalSnapshotRecordingenabled"  => "setLocalSnapshotRecordingenabled",
+                "setLocalSnapshotRecordingdisabled" => "setLocalSnapshotRecordingdisabled"
             ],
             "lock" => [
                 "lock"                      => __("État de verrouillage", __FILE__),
@@ -4185,7 +4279,9 @@ class smartthings_translate
                 "unlock"            => __("Déverrouiller", __FILE__),
                 "unlockWithTimeout" => __("Déverrouiller avec temporisation", __FILE__),
                 "setCodeLength"     => __("Changer longueur de code", __FILE__),
-                "nameSlot"          => __("Changer l'emplacement et le nom", __FILE__)
+                "nameSlot"          => __("Changer l'emplacement et le nom", __FILE__),
+                "migrated"          => __("Migré", __FILE__),
+                "migrate"           => __("Migrer", __FILE__)
             ],
             "lockCredentials" => [
                 "commandResult"        => __("Résultat de la commande de verrouillage des informations d'identification", __FILE__),
@@ -4279,7 +4375,8 @@ class smartthings_translate
                 "setPan"              => __("Définir la rotation", __FILE__),
                 "savePreset"          => __("Enregistrer le préréglage", __FILE__),
                 "moveToPreset"        => __("Aller au preset", __FILE__),
-                "setTilt"             => __("Définir l'inclinaison", __FILE__)
+                "setTilt"             => __("Définir l'inclinaison", __FILE__),
+                "removePreset"        => __("Supprimer le préréglage", __FILE__)
             ],
             "mediaController" => [
                 "currentActivity" => __("Activité actuelle", __FILE__),
@@ -4662,7 +4759,8 @@ class smartthings_translate
                 "supportedOperatingStateCommands" => __("Commandes de fonctionnement du robot nettoyeur prises en charge", __FILE__),
                 "goHome"                          => __("Retour à la maison", __FILE__),
                 "start"                           => __("Démarrer", __FILE__),
-                "pause"                           => __("Pause", __FILE__)
+                "pause"                           => __("Pause", __FILE__),
+                "supportedCommands"               => __("Commandes prises en charge", __FILE__)
             ],
             "robotCleanerTurboMode" => [
                 "robotCleanerTurboMode"    => __("Puissance d'aspiration", __FILE__),
@@ -4746,7 +4844,8 @@ class smartthings_translate
                 "modelClassificationCode" => __("Code de classification du modèle", __FILE__),
                 "description"             => __("Description", __FILE__),
                 "binaryId"                => __("Identifiant binaire", __FILE__),
-                "releaseYear"             => __("Année de sortie", __FILE__)
+                "releaseYear"             => __("Année de sortie", __FILE__),
+                "releaseCountry"          => __("Pays de sortie", __FILE__)
             ],
             "samsungce.doorState" => [
                 "doorState" => __("Statut de la porte", __FILE__)
@@ -5116,7 +5215,9 @@ class smartthings_translate
                 "washerCycle"                       => __("Cycle de lavage", __FILE__),
                 "setWasherCycle"                    => __("Changer le cycle de lavage", __FILE__),
                 "referenceTable"                    => __("Table de référence", __FILE__),
-                "specializedFunctionClassification" => __("Classification des fonctions spécialisées", __FILE__)
+                "specializedFunctionClassification" => __("Classification des fonctions spécialisées", __FILE__),
+                "availableCycleTypes"               => __("Types de cycles disponibles", __FILE__),
+                "setCycleType"                      => __("Définir le type de cycle", __FILE__)
             ],
             "samsungce.washerCyclePreset" => [
                 "maxNumberOfPresets"   => __("Nombre maximum de préréglages de cycle", __FILE__),
@@ -5149,7 +5250,9 @@ class smartthings_translate
                 "setDelayEnd"               => __("Changer la fin différée", __FILE__),
                 "pause"                     => __("Mettre en pause", __FILE__),
                 "scheduledPhases"           => __("Phases programmées", __FILE__),
-                "washerJobPhase"            => __("Phase de travail", __FILE__)
+                "washerJobPhase"            => __("Phase de travail", __FILE__),
+                "washingProgress"           => __("Progression du lavage", __FILE__),
+                "dryingProgress"            => __("Progression du séchage", __FILE__)
             ],
             "samsungce.washerWashingTime" => [
                 "supportedWashingTimes" => __("Temps de lavage pris en charge", __FILE__),
@@ -5275,7 +5378,8 @@ class smartthings_translate
             ],
             "samsungvd.ambient" => [
                 "info"         => __("Information ambient", __FILE__),
-                "setAmbientOn" => __("Ambient Mode Activé", __FILE__)
+                "setAmbientOn" => __("Ambient Mode Activé", __FILE__),
+                "sendData"     => __("Envoyer des données", __FILE__)
             ],
             "samsungvd.ambient18" => [
                 "setAmbientOn" => __("Ambient Mode Activé", __FILE__)
@@ -5451,6 +5555,10 @@ class smartthings_translate
             "smokeDetector" => [
                 "smoke" => __("Détecteur de fumée", __FILE__)
             ],
+            "soilMoistureMeasurement" => [
+                "soilMoistureLevel"      => __("Niveau d'humidité du sol", __FILE__),
+                "soilMoistureLevelRange" => __("Plage d'humidité du sol", __FILE__)
+            ],
             "soundDetection" => [
                 "soundDetectionState"   => __("Status de détection de son", __FILE__),
                 "supportedSoundTypes"   => __("Types de son pris en charge", __FILE__),
@@ -5463,6 +5571,12 @@ class smartthings_translate
             ],
             "soundSensor" => [
                 "sound" => __("Capteur de son", __FILE__)
+            ],
+            "sounds" => [
+                "selectedSound"   => __("Son sélectionné", __FILE__),
+                "supportedSounds" => __("Sons pris en charge", __FILE__),
+                "playSound"       => __("Jouer un son", __FILE__),
+                "setSelectedSound" => __("Définir le son sélectionné", __FILE__)
             ],
             "speechRecognition" => [
                 "phraseSpoken" => __("Phrase énoncée", __FILE__)
@@ -5555,6 +5669,12 @@ class smartthings_translate
             "statelessVolumeButtonWithRepetition" => [
                 "volumeUp"   => __("Simuler l'appui sur le bouton volume + répétitivement", __FILE__),
                 "volumeDown" => __("Simuler l'appui sur le bouton volume - répétitivement", __FILE__)
+            ],
+            "statelessColorTemperatureStep" => [
+                "stepColorTemperatureByPercent" => __("Régler la température de couleur", __FILE__)
+            ],
+            "statelessSwitchLevelStep" => [
+                "stepLevel" => __("Régler la luminosité", __FILE__)
             ],
             "stepSensor" => [
                 "goal"  => __("Objectif", __FILE__),
@@ -5839,7 +5959,8 @@ class smartthings_translate
                 "engineOil"              => __("Huile de moteur", __FILE__),
                 "supportedAttributes"    => __("Attributs de danger pris en charge", __FILE__),
                 "tirePressureRearLeft"   => __("Avertissement sur la pression des pneus arrière gauche", __FILE__),
-                "tirePressureRearRight"  => __("Avertissement sur la pression des pneus arrière droit", __FILE__)
+                "tirePressureRearRight"  => __("Avertissement sur la pression des pneus arrière droit", __FILE__),
+                "electricVehicleBattery" => __("Batterie du véhicule", __FILE__)
             ],
             "vehicleWindowState" => [
                 "frontRightWindow"    => __("Fenêtre avant droite", __FILE__),
@@ -5892,6 +6013,12 @@ class smartthings_translate
                 "supportedFeatures" => __("Caractéristiques supportées", __FILE__),
                 "startStream"       => __("Démarrer le flux vidéo", __FILE__),
                 "stopStream"        => __("Arrêter le flux vidéo", __FILE__)
+            ],
+            "videoStreamSettings" => [
+                "supportedFeatures"   => __("Fonctionnalités prises en charge", __FILE__),
+                "videoStreams"         => __("Flux vidéo", __FILE__),
+                "supportedResolutions" => __("Résolutions prises en charge", __FILE__),
+                "setStream"           => __("Définir le flux", __FILE__)
             ],
             "voltageMeasurement" => [
                 "voltage" => __("Tension", __FILE__)
@@ -5975,7 +6102,10 @@ class smartthings_translate
                 "turnInfo"          => __("Informations sur le serveur", __FILE__),
                 "deviceIce"         => __("Candidat ICE", __FILE__),
                 "clientIce"         => __("Fournir un candidat ICE", __FILE__),
-                "requestTurnInfo"   => __("Demande d'informations sur le serveur", __FILE__)
+                "requestTurnInfo"   => __("Demande d'informations sur le serveur", __FILE__),
+                "talkbackDuplex"    => __("Talkback duplex", __FILE__),
+                "standbyMode"       => __("Mode veille", __FILE__),
+                "solicitOffer"      => __("Solliciter une offre", __FILE__)
             ],
             "wifiInformation" => [
                 "supportedWiFiAuthTypes"   => __("Types d'authentification Wi-Fi pris en charge", __FILE__),
@@ -6032,6 +6162,21 @@ class smartthings_translate
                 "wirelessOperatingMode"              => __("Mode de fonctionnement sans fil", __FILE__),
                 "setWirelessOperatingModewhenNeeded" => __("Mettre le mode de fonctionnement sans fil à la demande", __FILE__),
                 "setWirelessOperatingModealwaysOn"   => __("Mettre le mode de fonctionnement sans fil à toujours actif", __FILE__)
+            ],
+            "zoneManagement" => [
+                "supportedFeatures"     => __("Fonctionnalités prises en charge", __FILE__),
+                "maxZones"              => __("Zones maximales", __FILE__),
+                "sensitivity"           => __("Sensibilité", __FILE__),
+                "zones"                 => __("Zones", __FILE__),
+                "triggers"              => __("Déclencheurs", __FILE__),
+                "sensitivityRange"      => __("Plage de sensibilité", __FILE__),
+                "triggeredZones"        => __("Zones déclenchées", __FILE__),
+                "removeTrigger"         => __("Supprimer le déclencheur", __FILE__),
+                "newZone"               => __("Nouvelle zone", __FILE__),
+                "setSensitivity"        => __("Définir la sensibilité", __FILE__),
+                "updateZone"            => __("Mettre à jour la zone", __FILE__),
+                "removeZone"            => __("Supprimer la zone", __FILE__),
+                "createOrUpdateTrigger" => __("Créer ou mettre à jour le déclencheur", __FILE__)
             ],
             "zwMultichannel" => [
                 "epEvent"        => __("Événement de point de terminaison", __FILE__),
