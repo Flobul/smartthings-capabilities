@@ -42,6 +42,15 @@
                             "disabled"
                         ]
                     }
+                },
+                {
+                    "name": "clientId",
+                    "optional": false,
+                    "schema": {
+                        "title": "String",
+                        "type": "string",
+                        "maxLength": 255
+                    }
                 }
             ],
             "sensitive": false
