@@ -1,36 +1,39 @@
 {
     "tag": "en",
-    "label": "Door State",
+    "label": "Door state",
+    "description": "The current door state.",
     "attributes": {
         "doorState": {
-            "label": "doorState",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Door state",
+            "description": "The current door state.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "ajar": {
-                        "label": "ajar"
+                        "label": "Ajar"
                     },
                     "closed": {
-                        "label": "closed"
+                        "label": "Closed"
                     },
                     "unspecifiedError": {
-                        "label": "unspecifiedError"
+                        "label": "Error"
                     },
                     "jammed": {
-                        "label": "jammed"
+                        "label": "Jammed"
                     },
                     "forcedOpen": {
-                        "label": "forcedOpen"
+                        "label": "Forced open attempt detected"
                     },
                     "open": {
-                        "label": "open"
+                        "label": "Open"
                     }
                 }
             }
         },
         "supportedDoorStates": {
-            "label": "supportedDoorStates",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported Door States",
+            "description": "The Door States supported by the door lock.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         }
     },
