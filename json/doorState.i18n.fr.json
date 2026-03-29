@@ -1,36 +1,39 @@
 {
-    "tag": "en",
-    "label": "Door State",
+    "tag": "fr",
+    "label": "État de la porte",
+    "description": "The current door state.",
     "attributes": {
         "doorState": {
-            "label": "doorState",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "État de la porte",
+            "description": "The current door state.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "ajar": {
-                        "label": "ajar"
+                        "label": "Entrouverte"
                     },
                     "closed": {
-                        "label": "closed"
+                        "label": "Fermé"
                     },
                     "unspecifiedError": {
-                        "label": "unspecifiedError"
+                        "label": "Erreur"
                     },
                     "jammed": {
-                        "label": "jammed"
+                        "label": "Coincée"
                     },
                     "forcedOpen": {
-                        "label": "forcedOpen"
+                        "label": "Tentative d'ouverture forcée détectée"
                     },
                     "open": {
-                        "label": "open"
+                        "label": "Ouvert"
                     }
                 }
             }
         },
         "supportedDoorStates": {
-            "label": "supportedDoorStates",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported Door States",
+            "description": "The Door States supported by the door lock.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         }
     },
