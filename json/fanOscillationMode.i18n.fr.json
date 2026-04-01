@@ -55,7 +55,7 @@
                         "label": "Balayage"
                     },
                     "rightZone": {
-                        "label": "Right zone"
+                        "label": "Zone droite"
                     },
                     "far": {
                         "label": "Longue"
@@ -73,7 +73,7 @@
                         "label": "Fixe"
                     },
                     "leftZone": {
-                        "label": "Left zone"
+                        "label": "Zone gauche"
                     }
                 }
             }
@@ -123,7 +123,7 @@
                             "label": "Balayage"
                         },
                         "rightZone": {
-                            "label": "Right zone"
+                            "label": "Zone droite"
                         },
                         "far": {
                             "label": "Longue"
@@ -141,7 +141,7 @@
                             "label": "Fixe"
                         },
                         "leftZone": {
-                            "label": "Left zone"
+                            "label": "Zone gauche"
                         }
                     },
                     "description": "fan oscillation mode"
