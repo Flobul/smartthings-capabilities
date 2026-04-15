@@ -56,7 +56,7 @@
                     },
                     {
                         "key": "exploring",
-                        "value": "Exploring",
+                        "value": "Drawing map",
                         "type": "active"
                     },
                     {
@@ -166,7 +166,7 @@
                     },
                     {
                         "key": "supplyingWater",
-                        "value": "Filling the water in",
+                        "value": "Filling water in",
                         "type": "active"
                     },
                     {
@@ -304,12 +304,29 @@
                             "key": "error",
                             "value": "Check required",
                             "type": "active"
+                        },
+                        {
+                            "key": "patrol",
+                            "value": "Patrolling",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cleaningStart",
+                            "value": "Cleaning starts",
+                            "type": "active"
+                        },
+                        {
+                            "key": "cleaningEnd",
+                            "value": "Cleaning completed",
+                            "type": "active"
                         }
                     ],
+                    "supportedValues": "supportedOperatingState.value",
                     "value": "operatingState.value",
                     "valueType": "string",
                     "multiSelectable": false
-                }
+                },
+                "emphasis": false
             }
         ],
         "actions": [
