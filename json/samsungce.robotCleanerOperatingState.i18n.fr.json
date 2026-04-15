@@ -19,13 +19,13 @@
                         "label": "Lavage de la serpillère"
                     },
                     "internalWash": {
-                        "label": "Internal cleaning"
+                        "label": "Nettoyage interne"
                     },
                     "paused": {
                         "label": "Pause"
                     },
                     "sabbath": {
-                        "label": "Sabbath mode"
+                        "label": "Mode Shabbat"
                     },
                     "attachingMopPadForRemainingJob": {
                         "label": "Serpillère en train d'être fixée"
@@ -43,7 +43,7 @@
                         "label": "factoryReset"
                     },
                     "emptyStation": {
-                        "label": "Draining water"
+                        "label": "Vidange de l'eau"
                     },
                     "error": {
                         "label": "Vérification requise"
@@ -52,7 +52,7 @@
                         "label": "Surveillance"
                     },
                     "cleaningStart": {
-                        "label": "Cleaning starts"
+                        "label": "Nettoyage commencé"
                     },
                     "mediaPlaying": {
                         "label": "mediaPlaying"
@@ -91,7 +91,7 @@
                         "label": "En attente"
                     },
                     "suspend": {
-                        "label": "Power saving mode"
+                        "label": "Mode d'économie d'énergie"
                     },
                     "detachingMopPad": {
                         "label": "Serpillère en train d'être retirée"
@@ -127,13 +127,13 @@
                         "label": "Vidage de l'eau"
                     },
                     "exploring": {
-                        "label": "Exploration"
+                        "label": "Création de carte"
                     },
                     "calibrating": {
                         "label": "Étalonnage en cours"
                     },
                     "cleaningEnd": {
-                        "label": "Cleaning completed"
+                        "label": "Nettoyage terminé."
                     },
                     "reserved": {
                         "label": "reserved"
