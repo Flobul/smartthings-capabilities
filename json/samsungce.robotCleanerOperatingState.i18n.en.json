@@ -106,7 +106,7 @@
                         "label": "Monitoring"
                     },
                     "supplyingWater": {
-                        "label": "Filling the water in"
+                        "label": "Filling water in"
                     },
                     "charging": {
                         "label": "Charging"
@@ -127,7 +127,7 @@
                         "label": "Emptying water"
                     },
                     "exploring": {
-                        "label": "Exploring"
+                        "label": "Drawing map"
                     },
                     "calibrating": {
                         "label": "Calibrating"
