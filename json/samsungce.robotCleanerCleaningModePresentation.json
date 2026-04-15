@@ -1,0 +1,24 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Pause",
+                "displayType": "list",
+                "list": {
+                    "alternatives": [
+                        {
+                            "key": "stop",
+                            "value": "Pause",
+                            "type": "active"
+                        }
+                    ],
+                    "command": "setCleaningMode",
+                    "argumentType": "string"
+                }
+            }
+        ]
+    },
+    "id": "samsungce.robotCleanerCleaningMode",
+    "version": 1
+}
