@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2026-04-08
+#### Last Update: 2026-04-15
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -370,7 +370,7 @@
 | [Remote Management Data](./json/samsungce.remoteManagementData.json) | 1 | proposed |  | [json](./json/samsungce.remoteManagementData.i18n.fr.json) |
 | [Robot Cleaner Audio Clip](./json/samsungce.robotCleanerAudioClip.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerAudioClip.i18n.fr.json) |
 | [Robot Cleaner Avp Registration](./json/samsungce.robotCleanerAvpRegistration.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerAvpRegistration.i18n.fr.json) |
-| [Robot Cleaner Cleaning Mode](./json/samsungce.robotCleanerCleaningMode.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerCleaningMode.i18n.fr.json) |
+| [Robot Cleaner Cleaning Mode](./json/samsungce.robotCleanerCleaningMode.json) | 1 | proposed | [json](./json/samsungce.robotCleanerCleaningModePresentation.json) | [json](./json/samsungce.robotCleanerCleaningMode.i18n.fr.json) |
 | [Robot Cleaner Dust Bag](./json/samsungce.robotCleanerDustBag.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerDustBag.i18n.fr.json) |
 | [Robot Cleaner Map Area Info](./json/samsungce.robotCleanerMapAreaInfo.json) | 1 | proposed |  |  |
 | [Robot Cleaner Map Cleaning Info](./json/samsungce.robotCleanerMapCleaningInfo.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerMapCleaningInfo.i18n.fr.json) |
