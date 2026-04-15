@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Robot Cleaner Cleaning Mode",
+    "label": "Pause",
     "attributes": {
         "supportedCleaningMode": {
             "label": "supportedCleaningMode",
