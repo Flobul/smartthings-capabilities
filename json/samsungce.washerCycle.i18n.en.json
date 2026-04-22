@@ -3,18 +3,18 @@
     "label": "Washer Cycle",
     "attributes": {
         "cycleType": {
-            "label": "cycleType",
+            "label": "Mode",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "washingOnly": {
-                        "label": "washingOnly"
+                        "label": "Washing only "
                     },
                     "allInOne": {
-                        "label": "allInOne"
+                        "label": "Washing + Drying"
                     },
                     "dryingOnly": {
-                        "label": "dryingOnly"
+                        "label": "Drying only"
                     }
                 }
             }
@@ -52,7 +52,22 @@
         },
         "setCycleType": {
             "label": "setCycleType",
-            "arguments": {}
+            "arguments": {
+                "cycleType": {
+                    "i18n": {
+                        "washingOnly": {
+                            "label": "Washing only "
+                        },
+                        "allInOne": {
+                            "label": "Washing + Drying"
+                        },
+                        "dryingOnly": {
+                            "label": "Drying only"
+                        }
+                    },
+                    "label": "Mode"
+                }
+            }
         }
     }
 }
