@@ -1,20 +1,20 @@
 {
-    "tag": "en",
+    "tag": "fr",
     "label": "Washer Cycle",
     "attributes": {
         "cycleType": {
-            "label": "cycleType",
+            "label": "Mode",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
                     "washingOnly": {
-                        "label": "washingOnly"
+                        "label": "Lavage uniquement"
                     },
                     "allInOne": {
-                        "label": "allInOne"
+                        "label": "Lavage + Séchage"
                     },
                     "dryingOnly": {
-                        "label": "dryingOnly"
+                        "label": "Séchage uniquement"
                     }
                 }
             }
@@ -52,7 +52,22 @@
         },
         "setCycleType": {
             "label": "setCycleType",
-            "arguments": {}
+            "arguments": {
+                "cycleType": {
+                    "i18n": {
+                        "washingOnly": {
+                            "label": "Lavage uniquement"
+                        },
+                        "allInOne": {
+                            "label": "Lavage + Séchage"
+                        },
+                        "dryingOnly": {
+                            "label": "Séchage uniquement"
+                        }
+                    },
+                    "label": "Mode"
+                }
+            }
         }
     }
 }
