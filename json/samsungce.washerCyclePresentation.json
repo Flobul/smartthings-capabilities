@@ -1,0 +1,66 @@
+{
+    "dashboard": {
+        "states": [],
+        "actions": [],
+        "panelItems": [
+            {
+                "label": "Mode",
+                "displayType": "list",
+                "list": {
+                    "command": {
+                        "name": "setCycleType",
+                        "alternatives": [
+                            {
+                                "key": "allInOne",
+                                "value": "Washing + Drying",
+                                "type": "active"
+                            },
+                            {
+                                "key": "washingOnly",
+                                "value": "Washing only ",
+                                "type": "active"
+                            },
+                            {
+                                "key": "dryingOnly",
+                                "value": "Drying only",
+                                "type": "active"
+                            }
+                        ],
+                        "argumentType": "string",
+                        "supportedValues": "availableCycleTypes.value"
+                    },
+                    "state": {
+                        "value": "cycleType.value",
+                        "valueType": "string",
+                        "alternatives": [
+                            {
+                                "key": "allInOne",
+                                "value": "Washing + Drying",
+                                "type": "active"
+                            },
+                            {
+                                "key": "washingOnly",
+                                "value": "Washing only ",
+                                "type": "active"
+                            },
+                            {
+                                "key": "dryingOnly",
+                                "value": "Drying only",
+                                "type": "active"
+                            }
+                        ]
+                    },
+                    "availableSizes": [
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "samsungce.washerCycle",
+    "version": 1
+}
