@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2026-04-15
+#### Last Update: 2026-04-22
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -396,7 +396,7 @@
 | [Toggle Switch](./json/samsungce.toggleSwitch.json) | 1 | proposed | [json](./json/samsungce.toggleSwitchPresentation.json) | [json](./json/samsungce.toggleSwitch.i18n.fr.json) |
 | [View Inside](./json/samsungce.viewInside.json) | 1 | proposed |  | [json](./json/samsungce.viewInside.i18n.fr.json) |
 | [Washer Bubble Soak](./json/samsungce.washerBubbleSoak.json) | 1 | proposed |  | [json](./json/samsungce.washerBubbleSoak.i18n.fr.json) |
-| [Washer Cycle](./json/samsungce.washerCycle.json) | 1 | proposed |  | [json](./json/samsungce.washerCycle.i18n.fr.json) |
+| [Washer Cycle](./json/samsungce.washerCycle.json) | 1 | proposed | [json](./json/samsungce.washerCyclePresentation.json) | [json](./json/samsungce.washerCycle.i18n.fr.json) |
 | [Washer Cycle Preset](./json/samsungce.washerCyclePreset.json) | 1 | proposed |  | [json](./json/samsungce.washerCyclePreset.i18n.fr.json) |
 | [Washer Delay End](./json/samsungce.washerDelayEnd.json) | 1 | proposed |  | [json](./json/samsungce.washerDelayEnd.i18n.fr.json) |
 | [Washer Freeze Prevent](./json/samsungce.washerFreezePrevent.json) | 1 | proposed | [json](./json/samsungce.washerFreezePreventPresentation.json) | [json](./json/samsungce.washerFreezePrevent.i18n.fr.json) |
