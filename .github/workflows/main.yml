@@ -94,173 +94,158 @@ jobs:
 
           echo -e "$PRINT" > README.md
 
-      - name: "Set up git config"
+      - name: "Create pull requests"
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "flobul.jeedom@gmail.com"
-          create_pr() {
-            local file=$1
-            local branch_name="update-$(basename "$file")"
-            echo "Processing PR for $file"
-          
-            # Vérifier si une PR existe déjà pour ce fichier
-            existing_pr=$(gh pr list --state open --head "$branch_name" --json number,url -q '.[0].number')
-          
-            if [ ! -z "$existing_pr" ]; then
-              echo "Found existing PR #$existing_pr for $file"
-          
-              # Sauvegarder toutes les modifications locales pour éviter les conflits
-              git stash push --include-untracked -m "Temporary stash before switching to $branch_name"
-          
-              # Récupérer la branche existante
-              git fetch origin "$branch_name"
-              git checkout -B "$branch_name" "origin/$branch_name" || {
-                echo "Failed to switch to branch $branch_name. Restoring master branch."
-                git checkout master
-                return 1
-              }
-          
-              # Restaurer les modifications sauvegardées
-              git stash pop || echo "No stash to pop, continuing"
-          
-              # Fusionner les dernières modifications de `master` avec résolution automatique des conflits
-              git merge master --strategy-option=theirs --no-edit || {
-                echo "Merge conflict detected. Forcing resolution using 'theirs' strategy."
-                git checkout --theirs .
-                git add .
-              }
-          
-              # Supprimer les fichiers non pertinents de l'index
-              git rm --cached -r --ignore-unmatch smartthings smartthings-linux-x64.tar.gz || true
-          
-              # Ajouter les nouvelles modifications
-              git add "$file"
-          
-              if ! git diff --cached --quiet; then
-                # Commit les nouvelles modifications
-                git commit -m "Update $file"
-                diff=$(git diff HEAD~1 -- "$file")
-          
-                # Push les modifications
-                git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
-          
-                # Mettre à jour la PR existante
-                gh pr edit "$existing_pr" --body "$(echo -e "Updated changes for $file\n\n\`\`\`diff\n$diff\n\`\`\`")"
-                echo "Updated existing PR #$existing_pr"
+
+          # Save all changed files to /tmp before any git branch operations so that
+          # subsequent git checkouts do not discard the API-downloaded content.
+          mkdir -p /tmp/changed_caps /tmp/changed_trans
+
+          cap_files=()
+          trans_files=()
+
+          # git status --porcelain format: "XY path" (2-char status + space + path, minimum 4 chars)
+          while IFS= read -r line; do
+            [[ ${#line} -lt 4 ]] && continue
+            file="${line:3}"  # skip the "XY " prefix
+            [[ -f "$file" ]] || continue
+            if [[ "$file" == json/*.json ]]; then
+              if [[ "$file" == *".i18n."* ]] || [[ "$file" == *"Presentation.json" ]]; then
+                cp "$file" "/tmp/changed_trans/$(basename "$file")"
+                trans_files+=("$file")
               else
-                echo "No new changes for existing PR #$existing_pr"
+                cp "$file" "/tmp/changed_caps/$(basename "$file")"
+                cap_files+=("$file")
               fi
+            fi
+          done < <(git status --porcelain)
+
+          # Check README changes before any branch switching
+          readme_changed=false
+          if ! git diff --quiet HEAD -- README.md 2>/dev/null; then
+            cp README.md /tmp/README.md
+            readme_changed=true
+          fi
+
+          echo "Capability files to process: ${#cap_files[@]}"
+          echo "Translation/presentation files: ${#trans_files[@]}"
+          echo "README changed: $readme_changed"
+
+          # --- One PR per capability file ---
+          for file in "${cap_files[@]}"; do
+            basename_file=$(basename "$file")
+            branch_name="update-$basename_file"
+            pr_number=""
+
+            # Skip files where an open PR already carries the 'wontfix' label
+            # Query the GitHub API; tolerate "no PR" (empty list) without hiding auth/network failures
+            pr_info=$(gh pr list --state open --head "$branch_name" --json number,labels | jq -c '.[0] // empty' 2>/dev/null || true)
+            if [ -n "$pr_info" ]; then
+              has_wontfix=$(echo "$pr_info" | jq -r '[.labels[] | select(.name == "wontfix")] | length > 0')
+              if [ "$has_wontfix" = "true" ]; then
+                echo "Skipping $file — open PR has 'wontfix' label"
+                continue
+              fi
+              pr_number=$(echo "$pr_info" | jq -r '.number')
+            fi
+
+            # Create a fresh branch from master — guarantees exactly one file changes per PR
+            git checkout -B "$branch_name" master
+
+            # Apply only this file's content from the API download
+            cp "/tmp/changed_caps/$basename_file" "$file"
+            git add "$file"
+
+            if git diff --cached --quiet; then
+              echo "No difference vs master for $file, skipping"
+              git checkout master
+              continue
+            fi
+
+            git commit -m "Update $file"
+            diff_output=$(git diff HEAD~1 -- "$file")
+            git push origin "$branch_name" --force
+
+            if [ -n "$pr_number" ]; then
+              body=$(printf 'Updated changes for %s\n\n```diff\n%s\n```' "$file" "$diff_output")
+              gh pr edit "$pr_number" --body "$body" || true
+              echo "Updated existing PR #$pr_number for $file"
             else
-              # Sauvegarder toutes les modifications locales pour éviter les conflits
-              git stash push --include-untracked -m "Temporary stash before creating new branch $branch_name"
-          
-              # Créer une nouvelle branche
-              git checkout -b "$branch_name" || {
-                echo "Failed to create branch $branch_name. Restoring master branch."
-                git checkout master
-                return 1
-              }
-          
-              # Restaurer les modifications sauvegardées
-              git stash pop || echo "No stash to pop, continuing"
-          
-              # Supprimer les fichiers non pertinents de l'index
-              git rm --cached -r --ignore-unmatch smartthings smartthings-linux-x64.tar.gz || true
-          
-              # Ajouter le fichier
-              git add "$file"
-          
-              if ! git diff --cached --quiet; then
-                # Nouveau commit
-                git commit -m "Update $file"
-          
-                # Générer le diff
-                if git rev-parse HEAD~1 >/dev/null 2>&1; then
-                  diff=$(git diff HEAD~1 -- "$file")
-                else
-                  diff=$(git diff --no-index /dev/null "$file" 2>/dev/null || echo "New file added")
-                fi
-          
-                # Push et création de la PR
-                git push origin "$branch_name" --force-with-lease || git push origin "$branch_name" --force
-          
-                gh pr create --title "Update $file" \
-                             --body "$(echo -e "Automated update for $file\n\n\`\`\`diff\n$diff\n\`\`\`")" \
-                             --base master \
-                             --head "$branch_name" || true
-          
-                echo "Created new PR for $file"
-              fi
+              body=$(printf 'Automated update for %s\n\n```diff\n%s\n```' "$file" "$diff_output")
+              gh pr create \
+                --title "Update $file" \
+                --body "$body" \
+                --base master \
+                --head "$branch_name" || echo "Warning: could not create PR for $file"
+              echo "Created new PR for $file"
             fi
-          
-            # Retourner à la branche master
-            git checkout master || echo "Failed to switch back to master branch. Please check manually."
-          }
-          
-          # Traiter les fichiers modifiés et nouveaux
-          git status --porcelain | while read -r status file; do
-            status_code="${status:0:2}"
-            
-            if [[ "$file" == json/*.json ]] && \
-               [[ ! "$file" == *".i18n."* ]] && \
-               [[ ! "$file" == *"Presentation.json" ]]; then
-              
-              if [[ "$status_code" =~ ^(M|A|\?\?)$ ]]; then
-                echo "Processing file with status $status_code: $file"
-                create_pr "$file"
-              fi
-            fi
+
+            git checkout master
           done
 
-          # Attendre un peu avant de créer les autres PR
-          sleep 2
-          
-          # Groupe PR pour les traductions et présentations
-          if ! git diff --quiet HEAD -- json/*.i18n.*.json json/*Presentation.json; then
-            # Nettoyer la branche existante
-            git branch -D "update-translations-and-presentations" 2>/dev/null || true
-            
-            # Créer une nouvelle branche
-            git checkout -b "update-translations-and-presentations"
+          # --- Group PR for translations and presentations ---
+          if [ ${#trans_files[@]} -gt 0 ]; then
+            branch_name="update-translations-and-presentations"
+            pr_number=$(gh pr list --state open --head "$branch_name" --json number -q '.[0].number' 2>/dev/null || echo "")
+
+            git checkout -B "$branch_name" master
+
+            for file in "${trans_files[@]}"; do
+              cp "/tmp/changed_trans/$(basename "$file")" "$file"
+            done
+
             git add json/*.i18n.*.json json/*Presentation.json
-            git commit -m "Update translations and presentations"
 
-            # Essayer de synchroniser avec la branche distante
-            if git ls-remote --heads origin "update-translations-and-presentations" | grep -q "update-translations-and-presentations"; then
-              git fetch origin update-translations-and-presentations:update-translations-and-presentations || true
-              git pull origin update-translations-and-presentations --rebase || true
+            if ! git diff --cached --quiet; then
+              git commit -m "Update translations and presentations"
+              git push origin "$branch_name" --force
+
+              if [ -n "$pr_number" ]; then
+                gh pr edit "$pr_number" --body "Automated update for translation and presentation files." || true
+                echo "Updated translations PR #$pr_number"
+              else
+                gh pr create \
+                  --title "Update translations and presentations" \
+                  --body "Automated update for translation and presentation files." \
+                  --base master \
+                  --head "$branch_name" || echo "Warning: could not create translations PR"
+                echo "Created translations PR"
+              fi
+            else
+              echo "No changes for translations/presentations"
             fi
-
-            # Forcer la mise à jour de la branche
-            git push origin "update-translations-and-presentations" --force-with-lease || git push origin "update-translations-and-presentations" --force
-
-            # Créer la PR
-            gh pr create --title "Update translations and presentations" \
-              --body "Automated update for translation and presentation files." \
-              --base master \
-              --head "update-translations-and-presentations" || true
 
             git checkout master
           fi
 
-          # PR pour README.md
-          if ! git diff --quiet HEAD -- README.md; then
-            # Nettoyer la branche existante
-            git branch -D "update-readme" 2>/dev/null || true
-            
-            # Créer une nouvelle branche
-            git checkout -b "update-readme"
+          # --- Separate PR for README ---
+          if [ "$readme_changed" = true ]; then
+            branch_name="update-readme"
+            pr_number=$(gh pr list --state open --head "$branch_name" --json number -q '.[0].number' 2>/dev/null || echo "")
+
+            git checkout -B "$branch_name" master
+            cp /tmp/README.md README.md
             git add README.md
-            git commit -m "Update README.md"
 
-            # Forcer la mise à jour de la branche
-            git push origin "update-readme" --force-with-lease || git push origin "update-readme" --force
+            if ! git diff --cached --quiet; then
+              git commit -m "Update README.md"
+              git push origin "$branch_name" --force
 
-            # Créer la PR
-            gh pr create --title "Update README.md" \
-              --body "Automated update for README.md" \
-              --base master \
-              --head "update-readme" || true
+              if [ -n "$pr_number" ]; then
+                echo "Updated README PR #$pr_number"
+              else
+                gh pr create \
+                  --title "Update README.md" \
+                  --body "Automated update for README.md" \
+                  --base master \
+                  --head "$branch_name" || echo "Warning: could not create README PR"
+                echo "Created README PR"
+              fi
+            else
+              echo "No changes for README.md"
+            fi
 
             git checkout master
           fi
