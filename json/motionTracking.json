@@ -1,0 +1,109 @@
+{
+    "id": "motionTracking",
+    "version": 1,
+    "status": "proposed",
+    "name": "Motion Tracking",
+    "ephemeral": false,
+    "attributes": {
+        "enabledTargets": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "targetType": {
+                                    "title": "MotionTrackingTriggerType",
+                                    "type": "string",
+                                    "enum": [
+                                        "anyMotion",
+                                        "person",
+                                        "pet"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "targetType"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setTrackingTargets",
+            "enumCommands": []
+        },
+        "supportedTargets": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "targetType": {
+                                    "title": "MotionTrackingTriggerType",
+                                    "type": "string",
+                                    "enum": [
+                                        "anyMotion",
+                                        "person",
+                                        "pet"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "targetType"
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setTrackingTargets": {
+            "name": "setTrackingTargets",
+            "arguments": [
+                {
+                    "name": "targetTypes",
+                    "optional": false,
+                    "schema": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "targetType": {
+                                    "title": "MotionTrackingTriggerType",
+                                    "type": "string",
+                                    "enum": [
+                                        "anyMotion",
+                                        "person",
+                                        "pet"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "targetType"
+                            ]
+                        }
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
