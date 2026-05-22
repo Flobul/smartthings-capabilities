@@ -144,6 +144,11 @@
                 }
             }
         },
+        "supportedFridgeOptions": {
+            "label": "supportedFridgeOptions",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "supportedFullFridgeModes": {
             "label": "supportedFullFridgeModes",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",

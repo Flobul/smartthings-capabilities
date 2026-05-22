@@ -1,0 +1,62 @@
+{
+    "tag": "en",
+    "label": "On Device Triggers",
+    "attributes": {
+        "visionTriggersEnabled": {
+            "label": "visionTriggersEnabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
+        "supportedTriggers": {
+            "label": "supportedTriggers",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "triggers": {
+            "label": "triggers",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "soundTriggersEnabled": {
+            "label": "soundTriggersEnabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "addOrUpdateTriggers": {
+            "label": "addOrUpdateTriggers",
+            "arguments": {}
+        },
+        "removeTriggers": {
+            "label": "removeTriggers",
+            "arguments": {}
+        },
+        "setVisionTriggersEnabled": {
+            "label": "setVisionTriggersEnabled",
+            "arguments": {}
+        },
+        "setSoundTriggersEnabled": {
+            "label": "setSoundTriggersEnabled",
+            "arguments": {}
+        }
+    }
+}

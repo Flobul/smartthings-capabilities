@@ -1,15 +1,18 @@
 {
     "tag": "fr",
     "label": "Reconnaissance faciale",
+    "description": "occurs when the device recognizes a registered face.",
     "attributes": {
         "userList": {
-            "label": "userList",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "User List",
+            "description": "A Json representation of the current recognizable set. This is a JSON array of objects containing ``label`` and ``id``. This is a sample format. ``[{\"id\":\"<id>\",\"label\":\"<label>\"},{}..]``",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         },
         "faceRecognizedEvent": {
             "label": "Reconnaissance faciale",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "ID and Label are passed through. The Id ``notRegisteredUser`` is reserved for unknown face detection.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         }
     },

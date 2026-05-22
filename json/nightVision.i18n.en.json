@@ -2,6 +2,20 @@
     "tag": "en",
     "label": "Night Vision",
     "attributes": {
+        "nightVisionMode": {
+            "label": "nightVisionMode",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "Color": {
+                        "label": "Color"
+                    },
+                    "BlackAndWhite": {
+                        "label": "BlackAndWhite"
+                    }
+                }
+            }
+        },
         "illumination": {
             "label": "illumination",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
@@ -45,6 +59,10 @@
     "commands": {
         "setIllumination": {
             "label": "setIllumination",
+            "arguments": {}
+        },
+        "setNightVisionMode": {
+            "label": "setNightVisionMode",
             "arguments": {}
         },
         "setNightVision": {
