@@ -1,0 +1,58 @@
+{
+    "id": "clipDuration",
+    "version": 1,
+    "status": "proposed",
+    "name": "Clip Duration",
+    "ephemeral": false,
+    "attributes": {
+        "clipDuration": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setClipDuration",
+            "enumCommands": []
+        },
+        "supportedMaxDuration": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setClipDuration": {
+            "name": "setClipDuration",
+            "arguments": [
+                {
+                    "name": "duration",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
