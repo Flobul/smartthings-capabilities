@@ -1,0 +1,35 @@
+{
+    "id": "reboot",
+    "version": 1,
+    "status": "proposed",
+    "name": "Reboot",
+    "ephemeral": false,
+    "attributes": {
+        "rebootState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "inProgress",
+                            "idle"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "reboot": {
+            "name": "reboot",
+            "arguments": [],
+            "sensitive": false
+        }
+    }
+}
