@@ -98,7 +98,7 @@
                             {
                                 "key": "error",
                                 "value": "error",
-                                "type": "inactive"
+                                "type": "active"
                             }
                         ],
                         "valueType": "string"
@@ -169,7 +169,7 @@
                         {
                             "key": "error",
                             "value": "error",
-                            "type": "inactive"
+                            "type": "active"
                         }
                     ]
                 }
@@ -300,7 +300,7 @@
                         {
                             "key": "error",
                             "value": "error",
-                            "type": "inactive"
+                            "type": "active"
                         }
                     ],
                     "supportedValues": "supportedStates.value",

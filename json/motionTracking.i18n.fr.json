@@ -1,0 +1,22 @@
+{
+    "tag": "en",
+    "label": "Motion Tracking",
+    "attributes": {
+        "enabledTargets": {
+            "label": "enabledTargets",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "supportedTargets": {
+            "label": "supportedTargets",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        }
+    },
+    "commands": {
+        "setTrackingTargets": {
+            "label": "setTrackingTargets",
+            "arguments": {}
+        }
+    }
+}
