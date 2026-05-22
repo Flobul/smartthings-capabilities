@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2026-03-22
+#### Last Update: 2026-05-22
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
@@ -70,6 +70,7 @@
 | [Charge Point State](./json/chargePointState.json) | 1 | proposed | [json](./json/chargePointStatePresentation.json) | [json](./json/chargePointState.i18n.fr.json) |
 | [Charging State](./json/chargingState.json) | 1 | proposed | [json](./json/chargingStatePresentation.json) | [json](./json/chargingState.i18n.fr.json) |
 | [Chime](./json/chime.json) | 1 | live | [json](./json/chimePresentation.json) | [json](./json/chime.i18n.fr.json) |
+| [Clip Duration](./json/clipDuration.json) | 1 | proposed |  | [json](./json/clipDuration.i18n.fr.json) |
 | [Coffee Maker Manual Operation](./json/coffeeMakerManualOperation.json) | 1 | proposed |  |  |
 | [Coffee Maker Operation](./json/coffeeMakerOperation.json) | 1 | proposed | [json](./json/coffeeMakerOperationPresentation.json) | [json](./json/coffeeMakerOperation.i18n.fr.json) |
 | [Color](./json/color.json) | 1 | proposed |  | [json](./json/color.i18n.fr.json) |
@@ -265,6 +266,7 @@
 | [Momentary](./json/momentary.json) | 1 | live | [json](./json/momentaryPresentation.json) | [json](./json/momentary.i18n.fr.json) |
 | [Motion Bed](./json/motionBed.json) | 1 | proposed | [json](./json/motionBedPresentation.json) | [json](./json/motionBed.i18n.fr.json) |
 | [Motion Sensor](./json/motionSensor.json) | 1 | live | [json](./json/motionSensorPresentation.json) | [json](./json/motionSensor.i18n.fr.json) |
+| [Motion Tracking](./json/motionTracking.json) | 1 | proposed |  | [json](./json/motionTracking.i18n.fr.json) |
 | [Movement Sensor](./json/movementSensor.json) | 1 | proposed | [json](./json/movementSensorPresentation.json) | [json](./json/movementSensor.i18n.fr.json) |
 | [Multiple Zone Presence](./json/multipleZonePresence.json) | 1 | proposed | [json](./json/multipleZonePresencePresentation.json) | [json](./json/multipleZonePresence.i18n.fr.json) |
 | [Music Player](./json/musicPlayer.json) | 1 | deprecated | [json](./json/musicPlayerPresentation.json) | [json](./json/musicPlayer.i18n.fr.json) |
@@ -277,6 +279,7 @@
 | [Occupancy Sensor](./json/occupancySensor.json) | 1 | live | [json](./json/occupancySensorPresentation.json) | [json](./json/occupancySensor.i18n.fr.json) |
 | [Ocf](./json/ocf.json) | 1 | deprecated |  | [json](./json/ocf.i18n.fr.json) |
 | [Odor Sensor](./json/odorSensor.json) | 1 | live | [json](./json/odorSensorPresentation.json) | [json](./json/odorSensor.i18n.fr.json) |
+| [On Device Triggers](./json/onDeviceTriggers.json) | 1 | proposed |  | [json](./json/onDeviceTriggers.i18n.fr.json) |
 | [Operating State](./json/operatingState.json) | 1 | deprecated |  | [json](./json/operatingState.i18n.fr.json) |
 | [Operational State](./json/operationalState.json) | 1 | proposed | [json](./json/operationalStatePresentation.json) | [json](./json/operationalState.i18n.fr.json) |
 | [Outlet](./json/outlet.json) | 1 | deprecated |  | [json](./json/outlet.i18n.fr.json) |
@@ -305,6 +308,7 @@
 | [Radon Measurement](./json/radonMeasurement.json) | 1 | live | [json](./json/radonMeasurementPresentation.json) | [json](./json/radonMeasurement.i18n.fr.json) |
 | [Rain Sensor](./json/rainSensor.json) | 1 | proposed | [json](./json/rainSensorPresentation.json) | [json](./json/rainSensor.i18n.fr.json) |
 | [Rapid Cooling](./json/rapidCooling.json) | 1 | proposed | [json](./json/rapidCoolingPresentation.json) | [json](./json/rapidCooling.i18n.fr.json) |
+| [Reboot](./json/reboot.json) | 1 | proposed |  | [json](./json/reboot.i18n.fr.json) |
 | [Refresh](./json/refresh.json) | 1 | live | [json](./json/refreshPresentation.json) | [json](./json/refresh.i18n.fr.json) |
 | [Refrigeration](./json/refrigeration.json) | 1 | deprecated | [json](./json/refrigerationPresentation.json) | [json](./json/refrigeration.i18n.fr.json) |
 | [Refrigeration Setpoint](./json/refrigerationSetpoint.json) | 1 | proposed | [json](./json/refrigerationSetpointPresentation.json) | [json](./json/refrigerationSetpoint.i18n.fr.json) |
@@ -370,7 +374,7 @@
 | [Remote Management Data](./json/samsungce.remoteManagementData.json) | 1 | proposed |  | [json](./json/samsungce.remoteManagementData.i18n.fr.json) |
 | [Robot Cleaner Audio Clip](./json/samsungce.robotCleanerAudioClip.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerAudioClip.i18n.fr.json) |
 | [Robot Cleaner Avp Registration](./json/samsungce.robotCleanerAvpRegistration.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerAvpRegistration.i18n.fr.json) |
-| [Robot Cleaner Cleaning Mode](./json/samsungce.robotCleanerCleaningMode.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerCleaningMode.i18n.fr.json) |
+| [Robot Cleaner Cleaning Mode](./json/samsungce.robotCleanerCleaningMode.json) | 1 | proposed | [json](./json/samsungce.robotCleanerCleaningModePresentation.json) | [json](./json/samsungce.robotCleanerCleaningMode.i18n.fr.json) |
 | [Robot Cleaner Dust Bag](./json/samsungce.robotCleanerDustBag.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerDustBag.i18n.fr.json) |
 | [Robot Cleaner Map Area Info](./json/samsungce.robotCleanerMapAreaInfo.json) | 1 | proposed |  |  |
 | [Robot Cleaner Map Cleaning Info](./json/samsungce.robotCleanerMapCleaningInfo.json) | 1 | proposed |  | [json](./json/samsungce.robotCleanerMapCleaningInfo.i18n.fr.json) |
@@ -396,7 +400,7 @@
 | [Toggle Switch](./json/samsungce.toggleSwitch.json) | 1 | proposed | [json](./json/samsungce.toggleSwitchPresentation.json) | [json](./json/samsungce.toggleSwitch.i18n.fr.json) |
 | [View Inside](./json/samsungce.viewInside.json) | 1 | proposed |  | [json](./json/samsungce.viewInside.i18n.fr.json) |
 | [Washer Bubble Soak](./json/samsungce.washerBubbleSoak.json) | 1 | proposed |  | [json](./json/samsungce.washerBubbleSoak.i18n.fr.json) |
-| [Washer Cycle](./json/samsungce.washerCycle.json) | 1 | proposed |  | [json](./json/samsungce.washerCycle.i18n.fr.json) |
+| [Washer Cycle](./json/samsungce.washerCycle.json) | 1 | proposed | [json](./json/samsungce.washerCyclePresentation.json) | [json](./json/samsungce.washerCycle.i18n.fr.json) |
 | [Washer Cycle Preset](./json/samsungce.washerCyclePreset.json) | 1 | proposed |  | [json](./json/samsungce.washerCyclePreset.i18n.fr.json) |
 | [Washer Delay End](./json/samsungce.washerDelayEnd.json) | 1 | proposed |  | [json](./json/samsungce.washerDelayEnd.i18n.fr.json) |
 | [Washer Freeze Prevent](./json/samsungce.washerFreezePrevent.json) | 1 | proposed | [json](./json/samsungce.washerFreezePreventPresentation.json) | [json](./json/samsungce.washerFreezePrevent.i18n.fr.json) |
