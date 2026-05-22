@@ -1,0 +1,360 @@
+{
+    "id": "onDeviceTriggers",
+    "version": 1,
+    "status": "proposed",
+    "name": "On Device Triggers",
+    "ephemeral": false,
+    "attributes": {
+        "visionTriggersEnabled": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setVisionTriggersEnabled",
+            "enumCommands": []
+        },
+        "supportedTriggers": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "vision": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "triggerType": {
+                                            "title": "VisionTriggerType",
+                                            "type": "string",
+                                            "enum": [
+                                                "anyMotion",
+                                                "person",
+                                                "pet"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "triggerType"
+                                    ]
+                                },
+                                "sound": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "triggerType": {
+                                            "title": "SoundTriggerType",
+                                            "type": "string",
+                                            "enum": [
+                                                "anySound",
+                                                "babyCrying"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "triggerType"
+                                    ]
+                                }
+                            },
+                            "oneOf": [
+                                {
+                                    "required": [
+                                        "vision"
+                                    ]
+                                },
+                                {
+                                    "required": [
+                                        "sound"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "triggers": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "array",
+                        "items": {
+                            "title": "OnDeviceTrigger",
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "vision": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "triggerType": {
+                                            "title": "VisionTriggerType",
+                                            "type": "string",
+                                            "enum": [
+                                                "anyMotion",
+                                                "person",
+                                                "pet"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "triggerType"
+                                    ]
+                                },
+                                "sound": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "triggerType": {
+                                            "title": "SoundTriggerType",
+                                            "type": "string",
+                                            "enum": [
+                                                "anySound",
+                                                "babyCrying"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "triggerType"
+                                    ]
+                                }
+                            },
+                            "oneOf": [
+                                {
+                                    "required": [
+                                        "vision"
+                                    ]
+                                },
+                                {
+                                    "required": [
+                                        "sound"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "soundTriggersEnabled": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSoundTriggersEnabled",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "addOrUpdateTriggers": {
+            "name": "addOrUpdateTriggers",
+            "arguments": [
+                {
+                    "name": "triggers",
+                    "optional": false,
+                    "schema": {
+                        "type": "array",
+                        "items": {
+                            "title": "OnDeviceTrigger",
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "vision": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "triggerType": {
+                                            "title": "VisionTriggerType",
+                                            "type": "string",
+                                            "enum": [
+                                                "anyMotion",
+                                                "person",
+                                                "pet"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "triggerType"
+                                    ]
+                                },
+                                "sound": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "triggerType": {
+                                            "title": "SoundTriggerType",
+                                            "type": "string",
+                                            "enum": [
+                                                "anySound",
+                                                "babyCrying"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "triggerType"
+                                    ]
+                                }
+                            },
+                            "oneOf": [
+                                {
+                                    "required": [
+                                        "vision"
+                                    ]
+                                },
+                                {
+                                    "required": [
+                                        "sound"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "removeTriggers": {
+            "name": "removeTriggers",
+            "arguments": [
+                {
+                    "name": "triggers",
+                    "optional": false,
+                    "schema": {
+                        "type": "array",
+                        "items": {
+                            "title": "OnDeviceTrigger",
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "vision": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "triggerType": {
+                                            "title": "VisionTriggerType",
+                                            "type": "string",
+                                            "enum": [
+                                                "anyMotion",
+                                                "person",
+                                                "pet"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "triggerType"
+                                    ]
+                                },
+                                "sound": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "triggerType": {
+                                            "title": "SoundTriggerType",
+                                            "type": "string",
+                                            "enum": [
+                                                "anySound",
+                                                "babyCrying"
+                                            ]
+                                        }
+                                    },
+                                    "required": [
+                                        "triggerType"
+                                    ]
+                                }
+                            },
+                            "oneOf": [
+                                {
+                                    "required": [
+                                        "vision"
+                                    ]
+                                },
+                                {
+                                    "required": [
+                                        "sound"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setVisionTriggersEnabled": {
+            "name": "setVisionTriggersEnabled",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        },
+        "setSoundTriggersEnabled": {
+            "name": "setSoundTriggersEnabled",
+            "arguments": [
+                {
+                    "name": "state",
+                    "optional": false,
+                    "schema": {
+                        "title": "EnableState",
+                        "type": "string",
+                        "enum": [
+                            "enabled",
+                            "disabled"
+                        ]
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
