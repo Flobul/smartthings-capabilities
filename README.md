@@ -1,5 +1,5 @@
 ## SmartThings Capabilities
-#### Last Update: 2026-05-22
+#### Last Update: 2026-05-29
 #### Edited by Flobul for Jeedom solution
 
 * [SmartThings Reference](https://smartthings.developer.samsung.com/docs/api-ref/capabilities.html)
