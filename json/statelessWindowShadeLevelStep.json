@@ -1,0 +1,25 @@
+{
+    "id": "statelessWindowShadeLevelStep",
+    "version": 1,
+    "status": "proposed",
+    "name": "Stateless Window Shade Level Step",
+    "ephemeral": false,
+    "attributes": {},
+    "commands": {
+        "stepShadeLevel": {
+            "name": "stepShadeLevel",
+            "arguments": [
+                {
+                    "name": "stepSize",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": -100,
+                        "maximum": 100
+                    }
+                }
+            ],
+            "sensitive": false
+        }
+    }
+}
