@@ -7,6 +7,11 @@
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         },
+        "powerSavingReason": {
+            "label": "powerSavingReason",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "operatingState": {
             "label": "État de l'appareil",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
@@ -29,6 +34,9 @@
                     },
                     "attachingMopPadForRemainingJob": {
                         "label": "Serpillère en train d'être fixée"
+                    },
+                    "standby": {
+                        "label": "standby"
                     },
                     "sterilizingMop": {
                         "label": "Stérilisation de la serpillère"
@@ -56,6 +64,9 @@
                     },
                     "mediaPlaying": {
                         "label": "mediaPlaying"
+                    },
+                    "creatingMap": {
+                        "label": "creatingMap"
                     },
                     "waitingForDescaling": {
                         "label": "En attente de détartrage"
@@ -205,11 +216,49 @@
                     "none": {
                         "label": "none"
                     },
+                    "completeVacuuming": {
+                        "label": "completeVacuuming"
+                    },
                     "relocalFailed": {
                         "label": "relocalFailed"
                     },
                     "cleaningCanceled": {
                         "label": "cleaningCanceled"
+                    }
+                }
+            }
+        },
+        "wheelsLiftedUp": {
+            "label": "wheelsLiftedUp",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "showLiveMapOnSuspend": {
+            "label": "showLiveMapOnSuspend",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "batteryOverheating": {
+            "label": "batteryOverheating",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "flexChargingPlan": {
+            "label": "flexChargingPlan",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "onlyOffPeak": {
+                        "label": "onlyOffPeak"
+                    },
+                    "avoidPeak": {
+                        "label": "avoidPeak"
+                    },
+                    "carbonReducing": {
+                        "label": "carbonReducing"
+                    },
+                    "none": {
+                        "label": "none"
                     }
                 }
             }
@@ -235,6 +284,10 @@
         },
         "start": {
             "label": "Démarrer",
+            "arguments": {}
+        },
+        "drawMap": {
+            "label": "drawMap",
             "arguments": {}
         },
         "pause": {

@@ -18,6 +18,9 @@
                     "forcedOpeningAttempt": {
                         "label": "Forced open attempt detected."
                     },
+                    "forcedUser": {
+                        "label": "Duress unlock detected."
+                    },
                     "highTemperature": {
                         "label": "High temperature detected."
                     },

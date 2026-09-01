@@ -7,6 +7,30 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
+        "supportedNotificationThresholds": {
+            "label": "supportedNotificationThresholds",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "notificationThreshold": {
+            "label": "notificationThreshold",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "notificationEnabled": {
+            "label": "notificationEnabled",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "off": {
+                        "label": "off"
+                    },
+                    "on": {
+                        "label": "on"
+                    }
+                }
+            }
+        },
         "airConditionerOdorControllerState": {
             "label": "airConditionerOdorControllerState",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
@@ -23,6 +47,14 @@
         }
     },
     "commands": {
+        "setNotificationThreshold": {
+            "label": "setNotificationThreshold",
+            "arguments": {}
+        },
+        "setNotificationEnabled": {
+            "label": "setNotificationEnabled",
+            "arguments": {}
+        },
         "setAirConditionerOdorControllerState": {
             "label": "setAirConditionerOdorControllerState",
             "arguments": {}
