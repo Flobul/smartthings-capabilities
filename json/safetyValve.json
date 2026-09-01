@@ -1,7 +1,7 @@
 {
     "id": "safetyValve",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Safety Valve",
     "ephemeral": false,
     "attributes": {
