@@ -1,0 +1,80 @@
+{
+    "id": "selfDiagnosis",
+    "version": 1,
+    "status": "proposed",
+    "name": "Self Diagnosis",
+    "ephemeral": false,
+    "attributes": {
+        "result": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "errorStatus": {
+                                "type": "string",
+                                "enum": [
+                                    "error",
+                                    "normal"
+                                ]
+                            },
+                            "errorType": {
+                                "type": "string",
+                                "enum": [
+                                    "none",
+                                    "power",
+                                    "network",
+                                    "sensor",
+                                    "actuator",
+                                    "system",
+                                    "overheating",
+                                    "other"
+                                ]
+                            },
+                            "errorCode": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "errorStatus",
+                            "errorType"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "state": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "enum": [
+                            "ready",
+                            "running"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "run": {
+            "name": "run",
+            "arguments": [],
+            "sensitive": false
+        }
+    }
+}
