@@ -1,7 +1,7 @@
 {
     "id": "hdr",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Hdr",
     "ephemeral": false,
     "attributes": {
