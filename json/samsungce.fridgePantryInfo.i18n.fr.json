@@ -2,6 +2,23 @@
     "tag": "en",
     "label": "Fridge Pantry Info",
     "attributes": {
+        "pantryType": {
+            "label": "pantryType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "singlePantry": {
+                        "label": "singlePantry"
+                    },
+                    "kimchiRipeZone": {
+                        "label": "kimchiRipeZone"
+                    },
+                    "oldPantry": {
+                        "label": "oldPantry"
+                    }
+                }
+            }
+        },
         "name": {
             "label": "name",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",

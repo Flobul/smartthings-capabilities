@@ -1,0 +1,112 @@
+{
+    "detailView": [
+        {
+            "label": "Status",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "run",
+                            "value": "Start",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "state.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "ready",
+                            "value": "Ready",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "running",
+                            "value": "Under diagnosis",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "Result",
+            "displayType": "state",
+            "state": {
+                "label": "{{result.value.errorStatus}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "{{i18n.attributes.{{result.value.errorStatus}}.i18n.value.normal.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "error",
+                        "value": "{{i18n.attributes.{{result.value.errorStatus}}.i18n.value.error.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Result",
+            "displayType": "state",
+            "state": {
+                "label": "{{result.value.errorType}}",
+                "alternatives": [
+                    {
+                        "key": "none",
+                        "value": "{{i18n.attributes.{{result.value.errorType}}.i18n.value.none.label}}",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "power",
+                        "value": "{{i18n.attributes.{{result.value.errorType}}.i18n.value.power.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "network",
+                        "value": "{{i18n.attributes.{{result.value.errorType}}.i18n.value.network.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sensor",
+                        "value": "{{i18n.attributes.{{result.value.errorType}}.i18n.value.sensor.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "actuator",
+                        "value": "{{i18n.attributes.{{result.value.errorType}}.i18n.value.actuator.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "system",
+                        "value": "{{i18n.attributes.{{result.value.errorType}}.i18n.value.system.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "overheating",
+                        "value": "{{i18n.attributes.{{result.value.errorType}}.i18n.value.overheating.label}}",
+                        "type": "active"
+                    },
+                    {
+                        "key": "other",
+                        "value": "{{i18n.attributes.{{result.value.errorType}}.i18n.value.other.label}}",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Result",
+            "displayType": "state",
+            "state": {
+                "label": "{{result.value.errorCode}}"
+            }
+        }
+    ],
+    "id": "selfDiagnosis",
+    "version": 1
+}

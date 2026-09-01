@@ -1,39 +1,66 @@
 {
     "tag": "en",
     "label": "Lock Users",
+    "description": "Manages a list of users that have access to the lock.",
     "attributes": {
         "commandResult": {
-            "label": "commandResult",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "command result",
+            "description": "The result of the most recent command",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
         "totalUsersSupported": {
-            "label": "totalUsersSupported",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "total users supported",
+            "description": "The number of total users supported by the lock",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         },
         "users": {
             "label": "users",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "description": "List of users that have access to the lock",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         }
     },
     "commands": {
         "addUser": {
             "label": "addUser",
-            "arguments": {}
+            "description": "Add a new user",
+            "arguments": {
+                "userName": {
+                    "i18n": {},
+                    "description": "The name of user to be saved"
+                }
+            }
         },
         "deleteAllUsers": {
             "label": "deleteAllUsers",
+            "description": "Delete all users",
             "arguments": {}
         },
         "deleteUser": {
             "label": "deleteUser",
-            "arguments": {}
+            "description": "Delete specified user",
+            "arguments": {
+                "userIndex": {
+                    "i18n": {},
+                    "description": "The index of users who need to delete"
+                }
+            }
         },
         "updateUser": {
             "label": "updateUser",
-            "arguments": {}
+            "description": "Update an existing user",
+            "arguments": {
+                "userIndex": {
+                    "i18n": {},
+                    "description": "The index of users who need to update"
+                },
+                "userName": {
+                    "i18n": {},
+                    "description": "The name of user to be saved"
+                }
+            }
         }
     }
 }

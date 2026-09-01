@@ -12,6 +12,16 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
+        "schedule": {
+            "label": "schedule",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "availableModuleDetails": {
+            "label": "availableModuleDetails",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "lastUpdatedDate": {
             "label": "lastUpdatedDate",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
@@ -66,15 +76,33 @@
             "label": "progress",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
+        },
+        "protocolVersion": {
+            "label": "protocolVersion",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "moduleUpdateCounts": {
+            "label": "moduleUpdateCounts",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
         }
     },
     "commands": {
+        "setSchedule": {
+            "label": "setSchedule",
+            "arguments": {}
+        },
         "agreeUpdate": {
             "label": "agreeUpdate",
             "arguments": {}
         },
         "disagreeUpdate": {
             "label": "disagreeUpdate",
+            "arguments": {}
+        },
+        "cancelSchedule": {
+            "label": "cancelSchedule",
             "arguments": {}
         }
     }

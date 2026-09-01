@@ -1,0 +1,110 @@
+{
+    "tag": "fr",
+    "label": "Diagnostic de l'appareil",
+    "description": "Allows a device to run a self-diagnosis and report the result",
+    "attributes": {
+        "result": {
+            "label": "Result",
+            "description": "The result of the completed self-diagnosis, including error status, type, and code. If multiple errors occur, select the main error type and enter multiple error codes in the errorCode field.",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": {
+                "value": {
+                    "normal": {
+                        "label": "Normale"
+                    },
+                    "other": {
+                        "label": "Autre"
+                    },
+                    "errorcode_description": {
+                        "label": "Device-specific error code(s) reported by the self-diagnosis. If multiple errors occur, multiple error codes may be included."
+                    },
+                    "errorstatus": {
+                        "label": "Statut"
+                    },
+                    "none_description": {
+                        "label": "No error was detected"
+                    },
+                    "overheating": {
+                        "label": "Surchauffe"
+                    },
+                    "sensor_description": {
+                        "label": "A sensor-related issue was detected"
+                    },
+                    "power_description": {
+                        "label": "A power-related issue was detected"
+                    },
+                    "none": {
+                        "label": "Aucune"
+                    },
+                    "overheating_description": {
+                        "label": "An overheating issue was detected"
+                    },
+                    "error": {
+                        "label": "Erreur"
+                    },
+                    "normal_description": {
+                        "label": "The self-diagnosis completed without finding an error"
+                    },
+                    "network": {
+                        "label": "Réseau"
+                    },
+                    "errortype": {
+                        "label": "Catégorie d'erreur"
+                    },
+                    "actuator": {
+                        "label": "Contrôler"
+                    },
+                    "system": {
+                        "label": "Système"
+                    },
+                    "other_description": {
+                        "label": "An issue of an unspecified type was detected"
+                    },
+                    "error_description": {
+                        "label": "The self-diagnosis found an error"
+                    },
+                    "sensor": {
+                        "label": "détecteur"
+                    },
+                    "power": {
+                        "label": "Marche"
+                    },
+                    "network_description": {
+                        "label": "A network-related issue was detected"
+                    },
+                    "system_description": {
+                        "label": "A system-related issue was detected"
+                    },
+                    "errorcode": {
+                        "label": "Code d'erreur"
+                    },
+                    "actuator_description": {
+                        "label": "An actuator-related issue was detected"
+                    }
+                }
+            }
+        },
+        "state": {
+            "label": "État",
+            "description": "The current state of the self-diagnosis",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
+            "i18n": {
+                "value": {
+                    "running": {
+                        "label": "En cours de diagnostic"
+                    },
+                    "ready": {
+                        "label": "Prêt"
+                    }
+                }
+            }
+        }
+    },
+    "commands": {
+        "run": {
+            "label": "Démarrer",
+            "description": "Run a self-diagnosis on the device",
+            "arguments": {}
+        }
+    }
+}

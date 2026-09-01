@@ -2,11 +2,183 @@
     "tag": "en",
     "label": "Robot Cleaner Map List",
     "attributes": {
+        "exploringMapId": {
+            "label": "exploringMapId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "spotInfo": {
+            "label": "spotInfo",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "onlineStation": {
+            "label": "onlineStation",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "maps": {
             "label": "maps",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
+        },
+        "stationModelType": {
+            "label": "stationModelType",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "type3": {
+                        "label": "type3"
+                    },
+                    "type2": {
+                        "label": "type2"
+                    },
+                    "type1": {
+                        "label": "type1"
+                    },
+                    "type0": {
+                        "label": "type0"
+                    }
+                }
+            }
+        },
+        "noGoZones": {
+            "label": "noGoZones",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "suggestedNoGoZones": {
+            "label": "suggestedNoGoZones",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "mapEditResult": {
+            "label": "mapEditResult",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "mopPads": {
+            "label": "mopPads",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "areaInfo": {
+            "label": "areaInfo",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "currentMap": {
+            "label": "currentMap",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "maxNumberOfMaps": {
+            "label": "maxNumberOfMaps",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "station": {
+            "label": "station",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "currentMapId": {
+            "label": "currentMapId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "climbZones": {
+            "label": "climbZones",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "objectInfo": {
+            "label": "objectInfo",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "map": {
+            "label": "map",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
         }
     },
-    "commands": {}
+    "commands": {
+        "clearNoGoZone": {
+            "label": "clearNoGoZone",
+            "arguments": {}
+        },
+        "updateObjects": {
+            "label": "updateObjects",
+            "arguments": {}
+        },
+        "clearSpots": {
+            "label": "clearSpots",
+            "arguments": {}
+        },
+        "clearFailedClimbZones": {
+            "label": "clearFailedClimbZones",
+            "arguments": {}
+        },
+        "updateNoGoZones": {
+            "label": "updateNoGoZones",
+            "arguments": {}
+        },
+        "clearNewlySuggestedClimbZones": {
+            "label": "clearNewlySuggestedClimbZones",
+            "arguments": {}
+        },
+        "divideArea": {
+            "label": "divideArea",
+            "arguments": {}
+        },
+        "renameArea": {
+            "label": "renameArea",
+            "arguments": {}
+        },
+        "renameMap": {
+            "label": "renameMap",
+            "arguments": {}
+        },
+        "deleteMap": {
+            "label": "deleteMap",
+            "arguments": {}
+        },
+        "updateSpots": {
+            "label": "updateSpots",
+            "arguments": {}
+        },
+        "deleteObjects": {
+            "label": "deleteObjects",
+            "arguments": {}
+        },
+        "selectMap": {
+            "label": "selectMap",
+            "arguments": {}
+        },
+        "clearNewlySuggestedNoGoZones": {
+            "label": "clearNewlySuggestedNoGoZones",
+            "arguments": {}
+        },
+        "clearAutoAddedNoGoZones": {
+            "label": "clearAutoAddedNoGoZones",
+            "arguments": {}
+        },
+        "setNeedEditName": {
+            "label": "setNeedEditName",
+            "arguments": {}
+        },
+        "updateClimbZones": {
+            "label": "updateClimbZones",
+            "arguments": {}
+        },
+        "combineArea": {
+            "label": "combineArea",
+            "arguments": {}
+        },
+        "clearClimbZones": {
+            "label": "clearClimbZones",
+            "arguments": {}
+        }
+    }
 }
