@@ -1,7 +1,7 @@
 {
     "id": "foodWasteDryingGrinder",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Food Waste Drying Grinder",
     "ephemeral": false,
     "attributes": {
@@ -46,7 +46,6 @@
                                 "grinding",
                                 "cooling",
                                 "cleaning",
-                                "completed",
                                 "error"
                             ]
                         }
@@ -73,7 +72,6 @@
                             "grinding",
                             "cooling",
                             "cleaning",
-                            "completed",
                             "error"
                         ]
                     }
@@ -120,7 +118,6 @@
                         "title": "FoodWasteDryingGrinderEvent",
                         "type": "string",
                         "enum": [
-                            "error",
                             "operationComplete",
                             "cleaningComplete"
                         ]
@@ -143,7 +140,6 @@
                             "title": "FoodWasteDryingGrinderEvent",
                             "type": "string",
                             "enum": [
-                                "error",
                                 "operationComplete",
                                 "cleaningComplete"
                             ]
