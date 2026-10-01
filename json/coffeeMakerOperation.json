@@ -1,7 +1,7 @@
 {
     "id": "coffeeMakerOperation",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Coffee Maker Operation",
     "ephemeral": false,
     "attributes": {
