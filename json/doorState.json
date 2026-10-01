@@ -1,7 +1,7 @@
 {
     "id": "doorState",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Door State",
     "ephemeral": false,
     "attributes": {
