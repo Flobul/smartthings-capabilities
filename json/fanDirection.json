@@ -1,7 +1,7 @@
 {
     "id": "fanDirection",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Fan Direction",
     "ephemeral": false,
     "attributes": {
