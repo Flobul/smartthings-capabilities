@@ -50,6 +50,21 @@
             },
             "enumCommands": []
         },
+        "data": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "object"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
         "executableServiceList": {
             "schema": {
                 "type": "object",
