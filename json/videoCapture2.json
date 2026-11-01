@@ -71,6 +71,7 @@
                         }
                     }
                 },
+                "sensitive": true,
                 "additionalProperties": false,
                 "required": [
                     "value"
