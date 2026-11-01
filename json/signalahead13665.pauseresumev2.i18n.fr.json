@@ -1,6 +1,6 @@
 {
     "tag": "fr-FR",
-    "label": "Pause/Resume program",
+    "label": "Pause / Reprendre",
     "attributes": {
         "pauseState": {
             "label": "Pause / Reprendre",

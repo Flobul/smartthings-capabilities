@@ -1,6 +1,6 @@
 {
     "tag": "fr-FR",
-    "label": "Start/Stop program",
+    "label": "Démarrer / Arrêter",
     "attributes": {
         "startstop": {
             "label": "Démarrer / Arrêter",

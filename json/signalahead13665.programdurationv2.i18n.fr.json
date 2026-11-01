@@ -1,6 +1,6 @@
 {
     "tag": "fr-FR",
-    "label": "Program Duration",
+    "label": "Ajuster la durée (min)",
     "attributes": {
         "duration": {
             "label": "Ajuster la durée (min)",

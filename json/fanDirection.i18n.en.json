@@ -1,17 +1,19 @@
 {
     "tag": "en",
-    "label": "Fan Direction",
+    "label": "Fan direction",
+    "description": "The current direction of the fan.",
     "attributes": {
         "fanDirection": {
-            "label": "fanDirection",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Fan direction",
+            "description": "The current direction of the fan.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "summerMode": {
-                        "label": "summerMode"
+                        "label": "Clockwise"
                     },
                     "winterMode": {
-                        "label": "winterMode"
+                        "label": "Anticlockwise"
                     }
                 }
             }
@@ -19,11 +21,13 @@
     },
     "commands": {
         "summerMode": {
-            "label": "summerMode",
+            "label": "Clockwise",
+            "description": "Set the fan's direction for cooling purpose",
             "arguments": {}
         },
         "winterMode": {
-            "label": "winterMode",
+            "label": "Anticlockwise",
+            "description": "Set the fan's direction to keep the room warm",
             "arguments": {}
         }
     }

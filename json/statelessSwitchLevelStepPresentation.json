@@ -11,7 +11,8 @@
                     "range": [
                         -50,
                         50
-                    ]
+                    ],
+                    "description": "Brightness is adjusted by the set value from the current level."
                 }
             }
         ]

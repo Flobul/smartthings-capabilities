@@ -1,0 +1,21 @@
+{
+    "automation": {
+        "conditions": [],
+        "actions": [
+            {
+                "label": "Adjust blinds",
+                "displayType": "numberField",
+                "numberField": {
+                    "command": "stepShadeLevel",
+                    "argumentType": "integer",
+                    "range": [
+                        -50,
+                        50
+                    ]
+                }
+            }
+        ]
+    },
+    "id": "statelessWindowShadeLevelStep",
+    "version": 1
+}

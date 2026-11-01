@@ -2,14 +2,29 @@
     "tag": "en",
     "label": "Robot Cleaner Reservation",
     "attributes": {
+        "allowOverlapReservation": {
+            "label": "allowOverlapReservation",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
         "reservations": {
             "label": "reservations",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "supportedOptionalFeatures": {
+            "label": "supportedOptionalFeatures",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         },
         "maxNumberOfReservations": {
             "label": "maxNumberOfReservations",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedReservationTypes": {
+            "label": "supportedReservationTypes",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         }
     },

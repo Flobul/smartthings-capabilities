@@ -1,30 +1,36 @@
 {
     "tag": "en",
     "label": "End to End Encryption",
+    "description": "Allows for end to end encryption of content",
     "attributes": {
         "error": {
             "label": "error",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "description": "An error reported by the device during the E2EE process",
+            "displayTemplate": "{{device.label}} encountered an error",
             "i18n": {}
         },
         "nonce": {
             "label": "nonce",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "description": "The nonce used by the device to generate its Key Encryption Key",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
         "encryptedKek": {
             "label": "encryptedKek",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "description": "The device's encrypted Key Encryption Key",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         }
     },
     "commands": {
         "generateNonce": {
             "label": "generateNonce",
+            "description": "Ask the device to generate a new nonce",
             "arguments": {}
         },
         "encryptKek": {
             "label": "encryptKek",
+            "description": "Ask the device to encrypt its Key Encryption Key with the provided cryptographic material",
             "arguments": {}
         }
     }

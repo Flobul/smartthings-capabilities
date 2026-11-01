@@ -1,6 +1,6 @@
 {
     "tag": "en",
-    "label": "Appliance Operation States",
+    "label": "Operation State",
     "attributes": {
         "operationState": {
             "label": "Operation State",

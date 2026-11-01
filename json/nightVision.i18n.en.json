@@ -1,73 +1,147 @@
 {
     "tag": "en",
     "label": "Night Vision",
+    "description": "Allows for setting night vision",
     "attributes": {
         "nightVisionMode": {
-            "label": "nightVisionMode",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Night Vision Mode",
+            "description": "Indicates the selected Night Vision Color Mode",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {
                 "value": {
                     "Color": {
                         "label": "Color"
                     },
                     "BlackAndWhite": {
-                        "label": "BlackAndWhite"
+                        "label": "Black And White"
                     }
                 }
             }
         },
         "illumination": {
-            "label": "illumination",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Illumination",
+            "description": "Set night vision illumination mode for additional low light illumination (such as IR)",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {
                 "value": {
                     "auto": {
-                        "label": "auto"
+                        "label": "Auto"
                     },
                     "off": {
-                        "label": "off"
+                        "label": "Off"
                     },
                     "on": {
-                        "label": "on"
+                        "label": "On"
                     }
                 }
             }
         },
         "nightVision": {
-            "label": "nightVision",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Night Vision",
+            "description": "Set night vision mode",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {
                 "value": {
                     "auto": {
-                        "label": "auto"
+                        "label": "Auto"
                     },
                     "off": {
-                        "label": "off"
+                        "label": "Off"
                     },
                     "on": {
-                        "label": "on"
+                        "label": "On"
                     }
                 }
             }
         },
         "supportedAttributes": {
-            "label": "supportedAttributes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported night vision attributes",
+            "description": "If set, determines which night vision attributes are supported.",
+            "displayTemplate": "{{device.label}} {{attribute}} are {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "setIllumination": {
-            "label": "setIllumination",
-            "arguments": {}
+            "label": "Set Night Vision Illumination",
+            "description": "Set the night vision illumination mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "auto": {
+                            "label": "Auto"
+                        },
+                        "on description": {
+                            "label": "Night vision illumination is on"
+                        },
+                        "off description": {
+                            "label": "Night vision illumination is off"
+                        },
+                        "auto description": {
+                            "label": "Night vision illumination will turn on/off automatically"
+                        },
+                        "off": {
+                            "label": "Off"
+                        },
+                        "on": {
+                            "label": "On"
+                        }
+                    },
+                    "description": "The mode may be one of the following values:"
+                }
+            }
         },
         "setNightVisionMode": {
-            "label": "setNightVisionMode",
-            "arguments": {}
+            "label": "Set Night Vision Mode",
+            "description": "Set the night vision color mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "blackandwhite description": {
+                            "label": "Night Vision results in a Black And White Image / stream"
+                        },
+                        "color description": {
+                            "label": "Night Vision results in a Colored Image / stream"
+                        },
+                        "Color": {
+                            "label": "Color"
+                        },
+                        "BlackAndWhite": {
+                            "label": "Black And White"
+                        }
+                    },
+                    "description": "The mode may be one of the following values:"
+                }
+            }
         },
         "setNightVision": {
-            "label": "setNightVision",
-            "arguments": {}
+            "label": "Set Night Vision",
+            "description": "Set the night vision mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "auto": {
+                            "label": "Auto"
+                        },
+                        "on description": {
+                            "label": "Night vision is on"
+                        },
+                        "off description": {
+                            "label": "Night vision is off"
+                        },
+                        "auto description": {
+                            "label": "Night vision will turn on/off automatically"
+                        },
+                        "off": {
+                            "label": "Off"
+                        },
+                        "on": {
+                            "label": "On"
+                        }
+                    },
+                    "description": "The mode may be one of the following values:"
+                }
+            }
         }
     }
 }

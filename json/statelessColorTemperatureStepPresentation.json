@@ -11,7 +11,8 @@
                     "range": [
                         -50,
                         50
-                    ]
+                    ],
+                    "description": "Colour temperature is adjusted by the set value from the current level."
                 }
             }
         ]

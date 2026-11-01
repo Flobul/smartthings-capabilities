@@ -7,31 +7,21 @@
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         },
+        "powerSavingReason": {
+            "label": "powerSavingReason",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "operatingState": {
             "label": "Device status",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
-                    "attachingMopPad": {
-                        "label": "Attaching mop"
-                    },
                     "washingMop": {
                         "label": "Washing mop"
                     },
-                    "internalWash": {
-                        "label": "Internal cleaning"
-                    },
                     "paused": {
                         "label": "Paused"
-                    },
-                    "sabbath": {
-                        "label": "Sabbath mode"
-                    },
-                    "attachingMopPadForRemainingJob": {
-                        "label": "Attaching mop"
-                    },
-                    "sterilizingMop": {
-                        "label": "Steam-washing mop"
                     },
                     "spinDrying": {
                         "label": "Dehydrating mop"
@@ -39,17 +29,8 @@
                     "dryingMop": {
                         "label": "Drying mop"
                     },
-                    "factoryReset": {
-                        "label": "factoryReset"
-                    },
                     "emptyStation": {
                         "label": "Draining water"
-                    },
-                    "error": {
-                        "label": "Check required"
-                    },
-                    "manual": {
-                        "label": "Monitoring"
                     },
                     "cleaningStart": {
                         "label": "Cleaning starts"
@@ -81,12 +62,6 @@
                     "descaling": {
                         "label": "Descaling"
                     },
-                    "cleaning": {
-                        "label": "Cleaning"
-                    },
-                    "patrol": {
-                        "label": "Patrolling"
-                    },
                     "waitingForChangingMopPad": {
                         "label": "Waiting"
                     },
@@ -96,20 +71,11 @@
                     "detachingMopPad": {
                         "label": "Removing mop"
                     },
-                    "idle": {
-                        "label": "Waiting"
-                    },
                     "preparingWater": {
                         "label": "Preparing the water"
                     },
                     "findingPet": {
                         "label": "Monitoring"
-                    },
-                    "supplyingWater": {
-                        "label": "Filling water in"
-                    },
-                    "charging": {
-                        "label": "Charging"
                     },
                     "emitDust": {
                         "label": "Emptying dust"
@@ -120,17 +86,11 @@
                     "messaging": {
                         "label": "Sending voice"
                     },
-                    "monitoringAutomation": {
-                        "label": "monitoringAutomation"
-                    },
                     "drainingWater": {
                         "label": "Emptying water"
                     },
-                    "exploring": {
-                        "label": "Drawing map"
-                    },
-                    "calibrating": {
-                        "label": "Calibrating"
+                    "mopWashingResumed": {
+                        "label": "mopWashingResumed"
                     },
                     "cleaningEnd": {
                         "label": "Cleaning completed"
@@ -144,11 +104,71 @@
                     "processing": {
                         "label": "Finding location"
                     },
+                    "mopWashingStoppedWithoutDrying": {
+                        "label": "mopWashingStoppedWithoutDrying"
+                    },
                     "chargingForRemainingJob": {
                         "label": "Charging"
                     },
                     "charged": {
                         "label": "Fully Charged"
+                    },
+                    "attachingMopPad": {
+                        "label": "Attaching mop"
+                    },
+                    "internalWash": {
+                        "label": "Internal cleaning"
+                    },
+                    "sabbath": {
+                        "label": "Sabbath mode"
+                    },
+                    "attachingMopPadForRemainingJob": {
+                        "label": "Attaching mop"
+                    },
+                    "standby": {
+                        "label": "standby"
+                    },
+                    "sterilizingMop": {
+                        "label": "Steam-washing mop"
+                    },
+                    "factoryReset": {
+                        "label": "factoryReset"
+                    },
+                    "error": {
+                        "label": "Check required"
+                    },
+                    "manual": {
+                        "label": "Monitoring"
+                    },
+                    "mopWashingStopped": {
+                        "label": "mopWashingStopped"
+                    },
+                    "creatingMap": {
+                        "label": "creatingMap"
+                    },
+                    "cleaning": {
+                        "label": "Cleaning"
+                    },
+                    "patrol": {
+                        "label": "Patrolling"
+                    },
+                    "idle": {
+                        "label": "Waiting"
+                    },
+                    "supplyingWater": {
+                        "label": "Filling water in"
+                    },
+                    "charging": {
+                        "label": "Charging"
+                    },
+                    "monitoringAutomation": {
+                        "label": "monitoringAutomation"
+                    },
+                    "exploring": {
+                        "label": "Drawing map"
+                    },
+                    "calibrating": {
+                        "label": "Calibrating"
                     }
                 }
             }
@@ -205,11 +225,54 @@
                     "none": {
                         "label": "none"
                     },
+                    "completeVacuuming": {
+                        "label": "completeVacuuming"
+                    },
                     "relocalFailed": {
                         "label": "relocalFailed"
                     },
                     "cleaningCanceled": {
                         "label": "cleaningCanceled"
+                    }
+                }
+            }
+        },
+        "wheelsLiftedUp": {
+            "label": "wheelsLiftedUp",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedOptionalFeatures": {
+            "label": "supportedOptionalFeatures",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "showLiveMapOnSuspend": {
+            "label": "showLiveMapOnSuspend",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "batteryOverheating": {
+            "label": "batteryOverheating",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "flexChargingPlan": {
+            "label": "flexChargingPlan",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "onlyOffPeak": {
+                        "label": "onlyOffPeak"
+                    },
+                    "avoidPeak": {
+                        "label": "avoidPeak"
+                    },
+                    "carbonReducing": {
+                        "label": "carbonReducing"
+                    },
+                    "none": {
+                        "label": "none"
                     }
                 }
             }
@@ -225,6 +288,10 @@
             "label": "Start",
             "arguments": {}
         },
+        "redrawMap": {
+            "label": "redrawMap",
+            "arguments": {}
+        },
         "setOperatingState": {
             "label": "Device status",
             "arguments": {}
@@ -235,6 +302,10 @@
         },
         "start": {
             "label": "Start",
+            "arguments": {}
+        },
+        "drawMap": {
+            "label": "drawMap",
             "arguments": {}
         },
         "pause": {

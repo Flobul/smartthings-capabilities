@@ -60,6 +60,11 @@
                         "type": "active"
                     },
                     {
+                        "key": "creatingMap",
+                        "value": "Drawing map",
+                        "type": "active"
+                    },
+                    {
                         "key": "emitDust",
                         "value": "Emptying dust",
                         "type": "active"
@@ -261,7 +266,24 @@
                 }
             }
         ],
-        "panelItems": []
+        "panelItems": [
+            {
+                "label": "Return To Charging Station",
+                "displayType": "pushButton",
+                "pushButton": {
+                    "command": "returnToHome",
+                    "iconUrl": "icon://return",
+                    "availableSizes": [
+                        "1x1",
+                        "2x1",
+                        "3x1",
+                        "4x1",
+                        "1/3x1",
+                        "2x2"
+                    ]
+                }
+            }
+        ]
     },
     "automation": {
         "conditions": [
@@ -331,38 +353,19 @@
         ],
         "actions": [
             {
-                "label": "Device status",
+                "label": "Pause",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
-                            "key": "start",
-                            "value": "Start",
-                            "type": "active"
-                        },
-                        {
-                            "key": "pause",
-                            "value": "Pause",
-                            "type": "active"
-                        },
-                        {
-                            "key": "resume",
-                            "value": "Start",
-                            "type": "active"
-                        },
-                        {
-                            "key": "returnToHome",
-                            "value": "Return To Charging Station",
-                            "type": "active"
-                        },
-                        {
-                            "key": "cancelRemainingJob",
-                            "value": "Stop",
+                            "key": "paused",
+                            "value": "Paused",
                             "type": "active"
                         }
-                    ]
-                },
-                "emphasis": true
+                    ],
+                    "command": "setOperatingState",
+                    "argumentType": "string"
+                }
             }
         ]
     },

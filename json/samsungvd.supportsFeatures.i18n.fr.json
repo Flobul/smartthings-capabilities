@@ -17,6 +17,11 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
+        "data": {
+            "label": "data",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "executableServiceList": {
             "label": "executableServiceList",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",

@@ -1,110 +1,138 @@
 {
-    "tag": "en",
-    "label": "Food Waste Drying Grinder",
+    "tag": "fr",
+    "label": "Broyeur-sécheur de déchets alimentaires",
+    "description": "Allows for the control of the food waste drying grinder.",
     "attributes": {
         "mode": {
-            "label": "mode",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Mode",
+            "description": "Current mode of the food waste drying grinder",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "standard": {
-                        "label": "standard"
+                        "label": "Normal"
                     },
                     "eco": {
-                        "label": "eco"
+                        "label": "Eco"
                     },
                     "auto": {
-                        "label": "auto"
+                        "label": "Auto"
                     },
                     "power": {
-                        "label": "power"
+                        "label": "Power"
                     },
                     "storage": {
-                        "label": "storage"
+                        "label": "Storage"
                     },
                     "clean": {
-                        "label": "clean"
+                        "label": "Clean"
                     }
                 }
             }
         },
         "supportedStates": {
-            "label": "supportedStates",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported states",
+            "description": "The states supported by this food waste drying grinder",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
         "state": {
-            "label": "state",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Status",
+            "description": "Current state of the food waste drying grinder",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "running": {
-                        "label": "running"
+                        "label": "Running"
                     },
                     "cleaning": {
-                        "label": "cleaning"
+                        "label": "Clean"
                     },
                     "waiting": {
-                        "label": "waiting"
+                        "label": "Ready"
                     },
                     "drying": {
-                        "label": "drying"
+                        "label": "Drying"
                     },
                     "grinding": {
-                        "label": "grinding"
+                        "label": "Grinding"
                     },
                     "cooling": {
-                        "label": "cooling"
-                    },
-                    "completed": {
-                        "label": "completed"
+                        "label": "Cooling"
                     },
                     "error": {
-                        "label": "error"
+                        "label": "Error"
                     }
                 }
             }
         },
         "supportedModes": {
-            "label": "supportedModes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported modes",
+            "description": "The modes supported by this food waste drying grinder",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
         "event": {
-            "label": "event",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Event",
+            "description": "Current event of the food waste drying grinder",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "cleaningComplete": {
-                        "label": "cleaningComplete"
-                    },
-                    "error": {
-                        "label": "error"
+                        "label": "Cleaning completed"
                     },
                     "operationComplete": {
-                        "label": "operationComplete"
+                        "label": "Operation completed"
                     }
                 }
             }
         },
         "supportedEvents": {
-            "label": "supportedEvents",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported events",
+            "description": "The events supported by this food waste drying grinder",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "stop": {
             "label": "stop",
+            "description": "Stop the food waste drying grinder",
             "arguments": {}
         },
         "start": {
             "label": "start",
+            "description": "Start the food waste drying grinder",
             "arguments": {}
         },
         "setMode": {
             "label": "setMode",
-            "arguments": {}
+            "description": "Set the food waste drying grinder mode",
+            "arguments": {
+                "mode": {
+                    "i18n": {
+                        "eco": {
+                            "label": "Eco"
+                        },
+                        "standard": {
+                            "label": "Standard"
+                        },
+                        "auto": {
+                            "label": "Auto"
+                        },
+                        "power": {
+                            "label": "Power"
+                        },
+                        "storage": {
+                            "label": "Storage"
+                        },
+                        "clean": {
+                            "label": "Clean"
+                        }
+                    },
+                    "description": "Set the food waste drying grinder mode to \"auto\", \"standard\", \"clean\", \"power\", \"eco\" or \"storage\" mode"
+                }
+            }
         }
     }
 }

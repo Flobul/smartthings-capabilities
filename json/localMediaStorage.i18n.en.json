@@ -1,10 +1,12 @@
 {
     "tag": "en",
     "label": "Local Media Storage",
+    "description": "Allows for controlling local media storage.",
     "attributes": {
         "localSnapshotRecording": {
-            "label": "localSnapshotRecording",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Local Snapshot Recording",
+            "description": "Indicates if local snapshot recording is enabled.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "disabled": {
@@ -17,8 +19,9 @@
             }
         },
         "localVideoRecording": {
-            "label": "localVideoRecording",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Local Video Recording",
+            "description": "Indicates if local video recording is enabled.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "disabled": {
@@ -31,19 +34,32 @@
             }
         },
         "supportedAttributes": {
-            "label": "supportedAttributes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported local media storage attributes",
+            "description": "If set, determines which local media storage attributes are supported.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "setLocalVideoRecording": {
-            "label": "setLocalVideoRecording",
-            "arguments": {}
+            "label": "Set Local Video Recording",
+            "description": "Enables/disables local video recording.",
+            "arguments": {
+                "state": {
+                    "i18n": {},
+                    "description": "Set to true to enable local video recording."
+                }
+            }
         },
         "setLocalSnapshotRecording": {
-            "label": "setLocalSnapshotRecording",
-            "arguments": {}
+            "label": "Set Local Snapshot Recording",
+            "description": "Enables/disables local snapshot recording.",
+            "arguments": {
+                "state": {
+                    "i18n": {},
+                    "description": "Set to true to enable local snapshot recording."
+                }
+            }
         }
     }
 }

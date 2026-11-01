@@ -7,31 +7,21 @@
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         },
+        "powerSavingReason": {
+            "label": "powerSavingReason",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
         "operatingState": {
             "label": "État de l'appareil",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {
                 "value": {
-                    "attachingMopPad": {
-                        "label": "Serpillère en train d'être fixée"
-                    },
                     "washingMop": {
                         "label": "Lavage de la serpillère"
                     },
-                    "internalWash": {
-                        "label": "Nettoyage interne"
-                    },
                     "paused": {
                         "label": "Pause"
-                    },
-                    "sabbath": {
-                        "label": "Mode Shabbat"
-                    },
-                    "attachingMopPadForRemainingJob": {
-                        "label": "Serpillère en train d'être fixée"
-                    },
-                    "sterilizingMop": {
-                        "label": "Stérilisation de la serpillère"
                     },
                     "spinDrying": {
                         "label": "Essorage de la serpillère"
@@ -39,17 +29,8 @@
                     "dryingMop": {
                         "label": "Séchage de la serpillère"
                     },
-                    "factoryReset": {
-                        "label": "factoryReset"
-                    },
                     "emptyStation": {
                         "label": "Vidange de l'eau"
-                    },
-                    "error": {
-                        "label": "Vérification requise"
-                    },
-                    "manual": {
-                        "label": "Surveillance"
                     },
                     "cleaningStart": {
                         "label": "Nettoyage commencé"
@@ -81,12 +62,6 @@
                     "descaling": {
                         "label": "Détartrage"
                     },
-                    "cleaning": {
-                        "label": "Nettoyage"
-                    },
-                    "patrol": {
-                        "label": "Patrouille"
-                    },
                     "waitingForChangingMopPad": {
                         "label": "En attente"
                     },
@@ -96,20 +71,11 @@
                     "detachingMopPad": {
                         "label": "Serpillère en train d'être retirée"
                     },
-                    "idle": {
-                        "label": "En attente"
-                    },
                     "preparingWater": {
                         "label": "Préparation de l'eau"
                     },
                     "findingPet": {
                         "label": "Surveillance"
-                    },
-                    "supplyingWater": {
-                        "label": "Remplissage de l'eau en cours"
-                    },
-                    "charging": {
-                        "label": "En charge"
                     },
                     "emitDust": {
                         "label": "Vidage du sac à poussière"
@@ -120,17 +86,11 @@
                     "messaging": {
                         "label": "Envoi de la voix"
                     },
-                    "monitoringAutomation": {
-                        "label": "monitoringAutomation"
-                    },
                     "drainingWater": {
                         "label": "Vidage de l'eau"
                     },
-                    "exploring": {
-                        "label": "Création de carte"
-                    },
-                    "calibrating": {
-                        "label": "Étalonnage en cours"
+                    "mopWashingResumed": {
+                        "label": "mopWashingResumed"
                     },
                     "cleaningEnd": {
                         "label": "Nettoyage terminé."
@@ -144,11 +104,71 @@
                     "processing": {
                         "label": "Recherche d'emplacement"
                     },
+                    "mopWashingStoppedWithoutDrying": {
+                        "label": "mopWashingStoppedWithoutDrying"
+                    },
                     "chargingForRemainingJob": {
                         "label": "En charge"
                     },
                     "charged": {
                         "label": "Charge complète"
+                    },
+                    "attachingMopPad": {
+                        "label": "Serpillère en train d'être fixée"
+                    },
+                    "internalWash": {
+                        "label": "Nettoyage interne"
+                    },
+                    "sabbath": {
+                        "label": "Mode Shabbat"
+                    },
+                    "attachingMopPadForRemainingJob": {
+                        "label": "Serpillère en train d'être fixée"
+                    },
+                    "standby": {
+                        "label": "standby"
+                    },
+                    "sterilizingMop": {
+                        "label": "Stérilisation de la serpillère"
+                    },
+                    "factoryReset": {
+                        "label": "factoryReset"
+                    },
+                    "error": {
+                        "label": "Vérification requise"
+                    },
+                    "manual": {
+                        "label": "Surveillance"
+                    },
+                    "mopWashingStopped": {
+                        "label": "mopWashingStopped"
+                    },
+                    "creatingMap": {
+                        "label": "creatingMap"
+                    },
+                    "cleaning": {
+                        "label": "Nettoyage"
+                    },
+                    "patrol": {
+                        "label": "Patrouille"
+                    },
+                    "idle": {
+                        "label": "En attente"
+                    },
+                    "supplyingWater": {
+                        "label": "Remplissage de l'eau en cours"
+                    },
+                    "charging": {
+                        "label": "En charge"
+                    },
+                    "monitoringAutomation": {
+                        "label": "monitoringAutomation"
+                    },
+                    "exploring": {
+                        "label": "Création de carte"
+                    },
+                    "calibrating": {
+                        "label": "Étalonnage en cours"
                     }
                 }
             }
@@ -205,11 +225,54 @@
                     "none": {
                         "label": "none"
                     },
+                    "completeVacuuming": {
+                        "label": "completeVacuuming"
+                    },
                     "relocalFailed": {
                         "label": "relocalFailed"
                     },
                     "cleaningCanceled": {
                         "label": "cleaningCanceled"
+                    }
+                }
+            }
+        },
+        "wheelsLiftedUp": {
+            "label": "wheelsLiftedUp",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "supportedOptionalFeatures": {
+            "label": "supportedOptionalFeatures",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "showLiveMapOnSuspend": {
+            "label": "showLiveMapOnSuspend",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "batteryOverheating": {
+            "label": "batteryOverheating",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "flexChargingPlan": {
+            "label": "flexChargingPlan",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "onlyOffPeak": {
+                        "label": "onlyOffPeak"
+                    },
+                    "avoidPeak": {
+                        "label": "avoidPeak"
+                    },
+                    "carbonReducing": {
+                        "label": "carbonReducing"
+                    },
+                    "none": {
+                        "label": "none"
                     }
                 }
             }
@@ -225,6 +288,10 @@
             "label": "Démarrer",
             "arguments": {}
         },
+        "redrawMap": {
+            "label": "redrawMap",
+            "arguments": {}
+        },
         "setOperatingState": {
             "label": "État de l'appareil",
             "arguments": {}
@@ -235,6 +302,10 @@
         },
         "start": {
             "label": "Démarrer",
+            "arguments": {}
+        },
+        "drawMap": {
+            "label": "drawMap",
             "arguments": {}
         },
         "pause": {

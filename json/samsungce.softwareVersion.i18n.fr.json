@@ -6,6 +6,11 @@
             "label": "versions",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
+        },
+        "platformVersion": {
+            "label": "platformVersion",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
         }
     },
     "commands": {}
