@@ -1,22 +1,31 @@
 {
     "tag": "en",
     "label": "Motion Tracking",
+    "description": "Allows for enabling/disabling motion tracking, typically supported by PTZ Cameras",
     "attributes": {
         "enabledTargets": {
-            "label": "enabledTargets",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Enabled Targets",
+            "description": "List of target types motion tracking is enabled for.",
+            "displayTemplate": "{{attribute}} of {{device.label}} are {{value}}",
             "i18n": {}
         },
         "supportedTargets": {
-            "label": "supportedTargets",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported Targets",
+            "description": "List of target types supported by the device for motion tracking",
+            "displayTemplate": "{{attribute}} of {{device.label}} are {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "setTrackingTargets": {
-            "label": "setTrackingTargets",
-            "arguments": {}
+            "label": "Set Tracking Targets",
+            "description": "Sets the enabled targets for Motion Tracking.\nEnables Motion Tracking only for the given target types, thereby disabling it for the rest\n",
+            "arguments": {
+                "targetTypes": {
+                    "i18n": {},
+                    "description": "List of target types motion tracking should be enabled for."
+                }
+            }
         }
     }
 }

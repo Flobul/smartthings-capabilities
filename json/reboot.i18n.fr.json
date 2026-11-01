@@ -1,17 +1,19 @@
 {
     "tag": "en",
     "label": "Reboot",
+    "description": "Allows for rebooting a device",
     "attributes": {
         "rebootState": {
-            "label": "rebootState",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Reboot state",
+            "description": "Indicates if a device reboot is in progress or if the device is idle and able to accept a reboot command\n",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {
                 "value": {
                     "inProgress": {
-                        "label": "inProgress"
+                        "label": "In Progress"
                     },
                     "idle": {
-                        "label": "idle"
+                        "label": "Idle"
                     }
                 }
             }
@@ -19,7 +21,8 @@
     },
     "commands": {
         "reboot": {
-            "label": "reboot",
+            "label": "Reboot",
+            "description": "Reboot a device",
             "arguments": {}
         }
     }

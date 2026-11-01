@@ -6,42 +6,37 @@
                 "alternatives": [
                     {
                         "key": "waiting",
-                        "value": "waiting",
+                        "value": "Ready",
                         "type": "inactive"
                     },
                     {
                         "key": "running",
-                        "value": "running",
+                        "value": "Running",
                         "type": "active"
                     },
                     {
                         "key": "drying",
-                        "value": "drying",
+                        "value": "Drying",
                         "type": "active"
                     },
                     {
                         "key": "grinding",
-                        "value": "grinding",
+                        "value": "Grinding",
                         "type": "active"
                     },
                     {
                         "key": "cooling",
-                        "value": "cooling",
+                        "value": "Cooling",
                         "type": "active"
                     },
                     {
                         "key": "cleaning",
-                        "value": "cleaning",
+                        "value": "Clean",
                         "type": "active"
                     },
                     {
-                        "key": "completed",
-                        "value": "completed",
-                        "type": "inactive"
-                    },
-                    {
                         "key": "error",
-                        "value": "error",
+                        "value": "Error",
                         "type": "active"
                     }
                 ]
@@ -62,42 +57,37 @@
                         "alternatives": [
                             {
                                 "key": "waiting",
-                                "value": "waiting",
+                                "value": "Ready",
                                 "type": "inactive"
                             },
                             {
                                 "key": "running",
-                                "value": "running",
+                                "value": "Running",
                                 "type": "active"
                             },
                             {
                                 "key": "drying",
-                                "value": "drying",
+                                "value": "Drying",
                                 "type": "active"
                             },
                             {
                                 "key": "grinding",
-                                "value": "grinding",
+                                "value": "Grinding",
                                 "type": "active"
                             },
                             {
                                 "key": "cooling",
-                                "value": "cooling",
+                                "value": "Cooling",
                                 "type": "active"
                             },
                             {
                                 "key": "cleaning",
-                                "value": "cleaning",
+                                "value": "Clean",
                                 "type": "active"
                             },
                             {
-                                "key": "completed",
-                                "value": "completed",
-                                "type": "inactive"
-                            },
-                            {
                                 "key": "error",
-                                "value": "error",
+                                "value": "Error",
                                 "type": "active"
                             }
                         ],
@@ -110,7 +100,7 @@
     },
     "detailView": [
         {
-            "label": "state",
+            "label": "Status",
             "displayType": "list",
             "list": {
                 "command": {
@@ -133,42 +123,37 @@
                     "alternatives": [
                         {
                             "key": "waiting",
-                            "value": "waiting",
+                            "value": "Ready",
                             "type": "inactive"
                         },
                         {
                             "key": "running",
-                            "value": "running",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "drying",
-                            "value": "drying",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "grinding",
-                            "value": "grinding",
+                            "value": "Grinding",
                             "type": "active"
                         },
                         {
                             "key": "cooling",
-                            "value": "cooling",
+                            "value": "Cooling",
                             "type": "active"
                         },
                         {
                             "key": "cleaning",
-                            "value": "cleaning",
+                            "value": "Clean",
                             "type": "active"
                         },
                         {
-                            "key": "completed",
-                            "value": "completed",
-                            "type": "inactive"
-                        },
-                        {
                             "key": "error",
-                            "value": "error",
+                            "value": "Error",
                             "type": "active"
                         }
                     ]
@@ -176,7 +161,7 @@
             }
         },
         {
-            "label": "mode",
+            "label": "Mode",
             "displayType": "list",
             "list": {
                 "command": {
@@ -184,32 +169,32 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_AUTO",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "standard",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_STANDARD",
+                            "value": "Standard",
                             "type": "active"
                         },
                         {
                             "key": "clean",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_CLEAN",
+                            "value": "Clean",
                             "type": "active"
                         },
                         {
                             "key": "power",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_POWER",
+                            "value": "Power",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_ECO",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "storage",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_STORAGE",
+                            "value": "Storage",
                             "type": "active"
                         }
                     ],
@@ -222,32 +207,32 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "auto",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "standard",
-                            "value": "standard",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "clean",
-                            "value": "clean",
+                            "value": "Clean",
                             "type": "active"
                         },
                         {
                             "key": "power",
-                            "value": "power",
+                            "value": "Power",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "eco",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "storage",
-                            "value": "storage",
+                            "value": "Storage",
                             "type": "active"
                         }
                     ]
@@ -258,48 +243,43 @@
     "automation": {
         "conditions": [
             {
-                "label": "state",
+                "label": "Status",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "waiting",
-                            "value": "waiting",
+                            "value": "Ready",
                             "type": "inactive"
                         },
                         {
                             "key": "running",
-                            "value": "running",
+                            "value": "Running",
                             "type": "active"
                         },
                         {
                             "key": "drying",
-                            "value": "drying",
+                            "value": "Drying",
                             "type": "active"
                         },
                         {
                             "key": "grinding",
-                            "value": "grinding",
+                            "value": "Grinding",
                             "type": "active"
                         },
                         {
                             "key": "cooling",
-                            "value": "cooling",
+                            "value": "Cooling",
                             "type": "active"
                         },
                         {
                             "key": "cleaning",
-                            "value": "cleaning",
+                            "value": "Clean",
                             "type": "active"
                         },
                         {
-                            "key": "completed",
-                            "value": "completed",
-                            "type": "inactive"
-                        },
-                        {
                             "key": "error",
-                            "value": "error",
+                            "value": "Error",
                             "type": "active"
                         }
                     ],
@@ -310,38 +290,38 @@
                 }
             },
             {
-                "label": "mode",
+                "label": "Mode",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "auto",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "standard",
-                            "value": "standard",
+                            "value": "Normal",
                             "type": "active"
                         },
                         {
                             "key": "clean",
-                            "value": "clean",
+                            "value": "Clean",
                             "type": "active"
                         },
                         {
                             "key": "power",
-                            "value": "power",
+                            "value": "Power",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "eco",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "storage",
-                            "value": "storage",
+                            "value": "Storage",
                             "type": "active"
                         }
                     ],
@@ -352,23 +332,18 @@
                 }
             },
             {
-                "label": "event",
+                "label": "Event",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
-                            "key": "error",
-                            "value": "error",
-                            "type": "active"
-                        },
-                        {
                             "key": "operationComplete",
-                            "value": "operationComplete",
+                            "value": "Operation completed",
                             "type": "active"
                         },
                         {
                             "key": "cleaningComplete",
-                            "value": "cleaningComplete",
+                            "value": "Cleaning completed",
                             "type": "active"
                         }
                     ],
@@ -381,7 +356,7 @@
         ],
         "actions": [
             {
-                "label": "Food Waste Drying Grinder",
+                "label": "Food waste drying grinder",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
@@ -405,32 +380,32 @@
                     "alternatives": [
                         {
                             "key": "auto",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_AUTO",
+                            "value": "Auto",
                             "type": "active"
                         },
                         {
                             "key": "standard",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_STANDARD",
+                            "value": "Standard",
                             "type": "active"
                         },
                         {
                             "key": "clean",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_CLEAN",
+                            "value": "Clean",
                             "type": "active"
                         },
                         {
                             "key": "power",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_POWER",
+                            "value": "Power",
                             "type": "active"
                         },
                         {
                             "key": "eco",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_ECO",
+                            "value": "Eco",
                             "type": "active"
                         },
                         {
                             "key": "storage",
-                            "value": "___PO_CODE_CAPABILITY.SMARTTHINGS.FOODWASTEDRYINGGRINDER_DEFAULT_COMMANDS_SETMODE_MODE_STORAGE",
+                            "value": "Storage",
                             "type": "active"
                         }
                     ],

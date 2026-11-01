@@ -1,26 +1,36 @@
 {
     "tag": "en",
     "label": "Sounds",
+    "description": "Manage and activate a selection of sounds",
     "attributes": {
         "selectedSound": {
-            "label": "selectedSound",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Selected sound",
+            "description": "The id of the current sound to be used",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
         "supportedSounds": {
-            "label": "supportedSounds",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported sounds",
+            "description": "The list of sounds that can be used for playback",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         }
     },
     "commands": {
         "playSound": {
             "label": "playSound",
+            "description": "Play the selected sound",
             "arguments": {}
         },
         "setSelectedSound": {
             "label": "setSelectedSound",
-            "arguments": {}
+            "description": "Set the current sound",
+            "arguments": {
+                "id": {
+                    "i18n": {},
+                    "description": "The id of the sound to play"
+                }
+            }
         }
     }
 }

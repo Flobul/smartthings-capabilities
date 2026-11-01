@@ -1,93 +1,175 @@
 {
     "tag": "en",
     "label": "Mechanical Pan Tilt Zoom",
+    "description": "Allows for controlling the mechanical pan, tilt, and zoom of a device.",
     "attributes": {
         "maxPresets": {
-            "label": "maxPresets",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Max Presets",
+            "description": "The max number of presets.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
         "tiltRange": {
-            "label": "tiltRange",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Tilt Range",
+            "description": "Constraints on the tilt value, as a minimum and maximum number of degrees.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
         "presets": {
-            "label": "presets",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Presets",
+            "description": "List of mechanical pan/tilt/zoom preset positions.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
         "panRange": {
-            "label": "panRange",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Pan Range",
+            "description": "Constraints on the pan value, as a minimum and maximum number of degrees.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         },
         "zoom": {
             "label": "zoom",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "Mechanical zoom of the device. A value of 1 indicates the widest possible optical field of view, and the maximum value (see zoomRange) indicates the narrowest possible field of view. Values in between are progressively more zoomed in as they increase.",
+            "displayTemplate": "{{device.label}} {{attribute}} is: {{value}}",
             "i18n": {}
         },
         "tilt": {
             "label": "tilt",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "description": "Mechanical tilt of the device, in degrees. A value of 0 indicates the vertical reference for the direction of view of the camera. A negative value indicates a downward rotation of the camera about the horizontal axis, and a positive value indicates an upward rotation.",
+            "displayTemplate": "{{device.label}} {{attribute}} is: {{value}}",
             "i18n": {}
         },
         "pan": {
-            "label": "pan",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Pan",
+            "description": "Mechanical pan of the device, in degrees. A value of 0 indicates the home position horizontal reference for the direction of view of the camera. A negative value indicates a leftward rotation of the camera, and a positive value indicates a rightward rotation, as it would appear to a user viewing the camera's video feed on a screen.",
+            "displayTemplate": "{{device.label}} {{attribute}} is: {{value}}",
             "i18n": {}
         },
         "supportedAttributes": {
-            "label": "supportedAttributes",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported pan/tilt/zoom attributes",
+            "description": "If set, determines which mechanical pan/tilt/zoom attributes are supported.",
+            "displayTemplate": "{{device.label}} {{attribute}} is: {{value}}",
             "i18n": {}
         },
         "zoomRange": {
-            "label": "zoomRange",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Zoom Range",
+            "description": "Constraints on the zoom value, as a minimum and maximum zoom amount.",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "panRelative": {
-            "label": "panRelative",
-            "arguments": {}
+            "label": "Relative Mechanical Pan",
+            "description": "Pans by the provided degrees relative to current position.",
+            "arguments": {
+                "delta": {
+                    "i18n": {},
+                    "description": "Indicates the change in the pan value, in degrees, relative to the current position. A value of 0 means no movement. A negative value moves the camera leftward, and a positive value moves it rightward, as it would appear to a user viewing the camera's video feed on a screen."
+                }
+            }
         },
         "tiltRelative": {
-            "label": "tiltRelative",
-            "arguments": {}
+            "label": "Relative Mechanical tilt",
+            "description": "Tilts by the provided degrees relative to current position.",
+            "arguments": {
+                "delta": {
+                    "i18n": {},
+                    "description": "Indicates the change in the tilt value, in degrees, relative to the current position. A value of 0 means no movement. A negative value moves the camera downward, and a positive value moves it upward."
+                }
+            }
         },
         "removePreset": {
-            "label": "removePreset",
-            "arguments": {}
+            "label": "Remove Mechanical Pan/Tilt/Zoom Preset",
+            "description": "Removes the preset with the given id.",
+            "arguments": {
+                "id": {
+                    "i18n": {},
+                    "description": "The id of the preset to remove."
+                }
+            }
         },
         "zoomRelative": {
-            "label": "zoomRelative",
-            "arguments": {}
+            "label": "Relative Mechanical Zoom",
+            "description": "Zooms relative to current zoom amount.",
+            "arguments": {
+                "delta": {
+                    "i18n": {},
+                    "description": "Indicates the change in the zoom value relative to the current zoom amount. A value of 0 means no change. A negative value zooms out (widens the field of view), and a positive value zooms in (narrows the field of view)."
+                }
+            }
         },
         "setPanTiltZoom": {
-            "label": "setPanTiltZoom",
-            "arguments": {}
+            "label": "Set Mechanical Pan/Tilt/Zoom",
+            "description": "Set at least one of the mechanical pan, tilt, and zoom values for a device.",
+            "arguments": {
+                "zoom": {
+                    "i18n": {},
+                    "description": "Indicates the zoom amount, on a scale where 1 is the widest possible optical field of view and the maximum value (see zoomRange) is the narrowest possible field of view, with values in between progressively more zoomed in as they increase."
+                },
+                "tilt": {
+                    "i18n": {},
+                    "description": "Indicates the absolute position in degrees to tilt to. A value of 0 indicates the vertical reference position; negative values are below that reference and positive values are above it."
+                },
+                "pan": {
+                    "i18n": {},
+                    "description": "Indicates the absolute position in degrees to pan to. A value of 0 indicates the home position; negative values are to the left of home and positive values are to the right of home, as it would appear to a user viewing the camera's video feed on a screen."
+                }
+            }
         },
         "setZoom": {
-            "label": "setZoom",
-            "arguments": {}
+            "label": "Set Mechanical Zoom",
+            "description": "Sets the zoom to the provided value. This is a relative scale of 1-100 rather than the actual zoom amount.",
+            "arguments": {
+                "zoom": {
+                    "i18n": {},
+                    "description": "Indicates the zoom amount, on a scale where 1 is the widest possible optical field of view and the maximum value (see zoomRange) is the narrowest possible field of view, with values in between progressively more zoomed in as they increase."
+                }
+            }
         },
         "setPan": {
-            "label": "setPan",
-            "arguments": {}
+            "label": "Set Mechanical Pan",
+            "description": "Sets the pan to the provided pan position, in degrees.",
+            "arguments": {
+                "pan": {
+                    "i18n": {},
+                    "description": "Indicates the absolute position in degrees to pan to. A value of 0 indicates the home position; negative values are to the left of home and positive values are to the right of home, as it would appear to a user viewing the camera's video feed on a screen."
+                }
+            }
         },
         "savePreset": {
-            "label": "savePreset",
-            "arguments": {}
+            "label": "Save Mechanical Pan/Tilt/Zoom Preset",
+            "description": "Saves the current position as a preset with the given id and label.",
+            "arguments": {
+                "id": {
+                    "i18n": {},
+                    "description": "An optional numerical ID for the preset, to be used for updating existing presets."
+                },
+                "label": {
+                    "i18n": {},
+                    "description": "A name for the preset."
+                }
+            }
         },
         "moveToPreset": {
-            "label": "moveToPreset",
-            "arguments": {}
+            "label": "Move To Preset",
+            "description": "Move to the selected preset.",
+            "arguments": {
+                "id": {
+                    "i18n": {},
+                    "description": "The id of the preset to move to."
+                }
+            }
         },
         "setTilt": {
-            "label": "setTilt",
-            "arguments": {}
+            "label": "Set Mechanical Tilt",
+            "description": "Sets the tilt to the provided tilt position, in degrees.",
+            "arguments": {
+                "tilt": {
+                    "i18n": {},
+                    "description": "Indicates the absolute position in degrees to tilt to. A value of 0 indicates the vertical reference position; negative values are below that reference and positive values are above it."
+                }
+            }
         }
     }
 }

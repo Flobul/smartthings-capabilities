@@ -1,15 +1,18 @@
 {
     "tag": "en",
     "label": "Soil Moisture Measurement",
+    "description": "Allow reading the soil moisture level from devices that support it",
     "attributes": {
         "soilMoistureLevel": {
-            "label": "soilMoistureLevel",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Soil Moisture Level",
+            "description": "A numerical representation of the soil moisture level measurement taken by the device",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}%",
             "i18n": {}
         },
         "soilMoistureLevelRange": {
-            "label": "soilMoistureLevelRange",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "soil moisture level range",
+            "description": "Constraints on the soil moisture level value",
+            "displayTemplate": "{{attribute}} of {{device.label}} is: {{value}}",
             "i18n": {}
         }
     },

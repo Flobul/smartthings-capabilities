@@ -6,6 +6,11 @@
             "label": "acTropicalNightModeLevel",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
+        },
+        "remainingTime": {
+            "label": "remainingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
         }
     },
     "commands": {

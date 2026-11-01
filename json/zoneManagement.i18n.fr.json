@@ -1,67 +1,168 @@
 {
     "tag": "en",
     "label": "Zone Management",
+    "description": "Create and manage zones and triggers.\nSupports creating multiple types of zones, such as motion zones for detecting motion,\nor privacy zones for hiding a certain part of a video stream.\n\nThis differs from the Multiple Zone Presence capability. While the Multiple Zone Presence\ncapability is specifically for reporting presence of people in a zone, Zone Management allows\nfor creating different types of zones, including motion zones that trigger when motion is\ndetected. However, motion detection does not neccessarily equate to presence detection, so\nthese capabilities are meant to be used for different purposes.\n",
     "attributes": {
         "supportedFeatures": {
-            "label": "supportedFeatures",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
+            "label": "Supported features",
+            "description": "Use to indicate additional optional features that can be supported on zones and triggers.",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": {
+                "value": {
+                    "triggerAugmentation": {
+                        "label": "Trigger augmentation"
+                    },
+                    "perZoneSensitivity": {
+                        "label": "Per-zone sensitivity"
+                    }
+                }
+            }
         },
         "maxZones": {
-            "label": "maxZones",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Max zones",
+            "description": "The maximum number of zones that can be used. This includes both manufacturer-defined and\nuser-defined zones. The number of user-defined zones that are able to be created at any time\ncan be generally determined by the difference between this value and the number of items in\nthe array of the zones attribute.\n",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
         "sensitivity": {
-            "label": "sensitivity",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Sensitivity",
+            "description": "The global sensitivity setting for zones.",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
         "zones": {
-            "label": "zones",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Zones",
+            "description": "List of zones that can be used for triggers. The vertices for each zone must be non-intersecting.\n",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
         "triggers": {
-            "label": "triggers",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Triggers",
+            "description": "List of triggers that can be linked to zones",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
         "sensitivityRange": {
-            "label": "sensitivityRange",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Sensitivity range",
+            "description": "The range of sensitivity values that can be used for a zone.",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
         "triggeredZones": {
-            "label": "triggeredZones",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Triggered zones",
+            "description": "List of zones that are actively being triggered",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         }
     },
     "commands": {
         "removeTrigger": {
             "label": "removeTrigger",
-            "arguments": {}
+            "description": "Remove a trigger from a zone",
+            "arguments": {
+                "zoneId": {
+                    "i18n": {},
+                    "description": "The ID of the zone to remove the trigger from."
+                }
+            }
         },
         "newZone": {
             "label": "newZone",
-            "arguments": {}
+            "description": "Create a new user-defined zone",
+            "arguments": {
+                "polygonVertices": {
+                    "i18n": {},
+                    "description": "The coordinates that define the zone region as a polygon."
+                },
+                "color": {
+                    "i18n": {},
+                    "description": "The color to use for this zone in 6 or 8 digit sRGB hex color notation"
+                },
+                "use": {
+                    "i18n": {},
+                    "description": "The use case for the zone."
+                },
+                "name": {
+                    "i18n": {},
+                    "description": "Label to use for the zone."
+                }
+            }
         },
         "setSensitivity": {
             "label": "setSensitivity",
-            "arguments": {}
+            "description": "Set the global zone sensitivity",
+            "arguments": {
+                "sensitivity": {
+                    "i18n": {},
+                    "description": "The global sensitivity level of zones."
+                }
+            }
         },
         "updateZone": {
             "label": "updateZone",
-            "arguments": {}
+            "description": "Update a user-defined zone. This cannot be called on a manufacturer-defined zone",
+            "arguments": {
+                "polygonVertices": {
+                    "i18n": {},
+                    "description": "The coordinates that define the zone region as a polygon."
+                },
+                "color": {
+                    "i18n": {},
+                    "description": "The color to use for this zone in 6 or 8 digit sRGB hex color notation"
+                },
+                "use": {
+                    "i18n": {},
+                    "description": "The use case for the zone."
+                },
+                "name": {
+                    "i18n": {},
+                    "description": "Label to use for the zone."
+                },
+                "zoneId": {
+                    "i18n": {},
+                    "description": "The ID of the zone to update."
+                }
+            }
         },
         "removeZone": {
             "label": "removeZone",
-            "arguments": {}
+            "description": "Remove a user-defined zone. This cannot be called on a manufacturer-defined zone",
+            "arguments": {
+                "zoneId": {
+                    "i18n": {},
+                    "description": "The ID of the zone to remove."
+                }
+            }
         },
         "createOrUpdateTrigger": {
             "label": "createOrUpdateTrigger",
-            "arguments": {}
+            "description": "Create a new trigger or update an existing one for a motion zone",
+            "arguments": {
+                "augmentationDuration": {
+                    "i18n": {},
+                    "description": "The duration by which the trigger period should be extended if a zone triggers again while already triggered."
+                },
+                "zoneId": {
+                    "i18n": {},
+                    "description": "ID of the zone to link to this trigger. Triggers can only be associated with motion zones, not\nprivacy or focus zones.\n"
+                },
+                "blindDuration": {
+                    "i18n": {},
+                    "description": "The duration after a zone has stopped triggering before it can trigger again."
+                },
+                "sensitivity": {
+                    "i18n": {},
+                    "description": "The sensitivity level of the zone this trigger is associated with. This is only used if perZoneSensitivity is supported.\nOtherwise, the sensitivity is defined by the global sensitivity attribute value.\n"
+                },
+                "initialDuration": {
+                    "i18n": {},
+                    "description": "The duration for which the trigger should be active after inital detection."
+                },
+                "maxDuration": {
+                    "i18n": {},
+                    "description": "The maximum duration that a trigger can be active."
+                }
+            }
         }
     }
 }

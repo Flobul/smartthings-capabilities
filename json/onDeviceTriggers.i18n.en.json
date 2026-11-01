@@ -1,10 +1,12 @@
 {
     "tag": "en",
-    "label": "On Device Triggers",
+    "label": "On-Device Triggers",
+    "description": "Allows for configuring on-device triggers for recording clips",
     "attributes": {
         "visionTriggersEnabled": {
-            "label": "visionTriggersEnabled",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Vision Triggers state",
+            "description": "Indicates if Vision Triggers can record clips",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {
                 "value": {
                     "disabled": {
@@ -17,18 +19,21 @@
             }
         },
         "supportedTriggers": {
-            "label": "supportedTriggers",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported Triggers",
+            "description": "List of Supported Triggers by the device",
+            "displayTemplate": "{{attribute}} of {{device.label}} are {{value}}",
             "i18n": {}
         },
         "triggers": {
-            "label": "triggers",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Triggers",
+            "description": "List of enabled Triggers to record clips",
+            "displayTemplate": "{{attribute}} of {{device.label}} are {{value}}",
             "i18n": {}
         },
         "soundTriggersEnabled": {
-            "label": "soundTriggersEnabled",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Sound Triggers state",
+            "description": "Indicates if Sound Triggers can record clips",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {
                 "value": {
                     "disabled": {
@@ -43,20 +48,44 @@
     },
     "commands": {
         "addOrUpdateTriggers": {
-            "label": "addOrUpdateTriggers",
-            "arguments": {}
+            "label": "Add or Update Triggers",
+            "description": "Adds or Updates given triggers to the list of enabled Triggers",
+            "arguments": {
+                "triggers": {
+                    "i18n": {},
+                    "description": "List of Triggers to enable"
+                }
+            }
         },
         "removeTriggers": {
-            "label": "removeTriggers",
-            "arguments": {}
+            "label": "Remove Triggers",
+            "description": "Removes given triggers from the list of enabled Triggers",
+            "arguments": {
+                "triggers": {
+                    "i18n": {},
+                    "description": "List of Triggers to disable"
+                }
+            }
         },
         "setVisionTriggersEnabled": {
-            "label": "setVisionTriggersEnabled",
-            "arguments": {}
+            "label": "Set Vision Triggers state",
+            "description": "Enable/Disable recording clips from Vision Triggers",
+            "arguments": {
+                "state": {
+                    "i18n": {},
+                    "description": "enabled/disabled state of Vision Triggers"
+                }
+            }
         },
         "setSoundTriggersEnabled": {
-            "label": "setSoundTriggersEnabled",
-            "arguments": {}
+            "label": "Set Sound Triggers state",
+            "description": "Enable/Disable recording clips from Sound Triggers",
+            "arguments": {
+                "state": {
+                    "i18n": {},
+                    "description": "enabled/disabled state of Sound Triggers"
+                }
+            }
         }
     }
 }

@@ -1,10 +1,12 @@
 {
     "tag": "en",
-    "label": "End to End Encryption State",
+    "label": "End to End Encryption",
+    "description": "Use the end-to-end-encryption capability to exchange key information.",
     "attributes": {
         "enabled": {
-            "label": "enabled",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "End to End Encryption Enabled",
+            "description": "Indicates if end to end encryption is enabled.",
+            "displayTemplate": "{{device.label}} {{attribute}} was {{value}}",
             "i18n": {
                 "value": {
                     "disabled": {
@@ -19,8 +21,18 @@
     },
     "commands": {
         "setEnabled": {
-            "label": "setEnabled",
-            "arguments": {}
+            "label": "Set End to End Encryption",
+            "description": "Set end to end encryption.",
+            "arguments": {
+                "clientId": {
+                    "i18n": {},
+                    "description": "The ID of the client that sent the request."
+                },
+                "state": {
+                    "i18n": {},
+                    "description": "Set to enabled to enable end to end encryption."
+                }
+            }
         }
     }
 }

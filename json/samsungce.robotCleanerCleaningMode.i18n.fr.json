@@ -1,10 +1,15 @@
 {
     "tag": "fr",
-    "label": "Pause",
+    "label": "Mode de nettoyage",
     "attributes": {
         "supportedCleaningMode": {
             "label": "supportedCleaningMode",
             "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "supportSpotSuctionPowerControl": {
+            "label": "supportSpotSuctionPowerControl",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
         "repeatModeEnabled": {

@@ -55,6 +55,11 @@
                             "key": "failedOpeningAttempt",
                             "value": "Couldn't unlock.",
                             "type": "active"
+                        },
+                        {
+                            "key": "forcedUser",
+                            "value": "Duress unlock detected.",
+                            "type": "active"
                         }
                     ],
                     "supportedValues": "supportedAlarmValues.value",

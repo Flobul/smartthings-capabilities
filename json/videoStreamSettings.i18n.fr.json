@@ -1,27 +1,135 @@
 {
     "tag": "en",
     "label": "Video Stream Settings",
+    "description": "Manage settings for video streams",
     "attributes": {
         "supportedFeatures": {
-            "label": "supportedFeatures",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
-            "i18n": {}
+            "label": "Supported Features",
+            "description": "Use to indicate additional optional features that can be supported on camera streams.",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
+            "i18n": {
+                "value": {
+                    "watermark": {
+                        "label": "Watermark"
+                    },
+                    "globalOnScreenDisplay": {
+                        "label": "Global OnScreenDisplay"
+                    },
+                    "globalWatermark": {
+                        "label": "Global Watermark"
+                    },
+                    "clipRecording": {
+                        "label": "Clip Recording"
+                    },
+                    "perStreamViewports": {
+                        "label": "Per-Stream Viewports"
+                    },
+                    "onScreenDisplay": {
+                        "label": "On-Screen Display"
+                    },
+                    "liveStreaming": {
+                        "label": "Live Streaming"
+                    }
+                }
+            }
+        },
+        "globalOnScreenDisplay": {
+            "label": "Global On-Screen Display",
+            "description": "Indicates if On-Screen Display is enabled globally.",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
         },
         "videoStreams": {
-            "label": "videoStreams",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Video Streams",
+            "description": "List of video streams",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         },
+        "globalWatermark": {
+            "label": "Global Watermark",
+            "description": "Indicates if Watermark is enabled globally.",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "disabled": {
+                        "label": "disabled"
+                    },
+                    "enabled": {
+                        "label": "enabled"
+                    }
+                }
+            }
+        },
         "supportedResolutions": {
-            "label": "supportedResolutions",
-            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "label": "Supported Resolutions",
+            "description": "List of supported resolutions that can be used for video streams",
+            "displayTemplate": "{{device.label}} {{attribute}} was updated",
             "i18n": {}
         }
     },
     "commands": {
+        "setGlobalWatermark": {
+            "label": "Set Global Watermark",
+            "description": "Enable/Disable Global Watermark",
+            "arguments": {
+                "state": {
+                    "i18n": {},
+                    "description": "enabled/disabled state of Global Watermark"
+                }
+            }
+        },
         "setStream": {
             "label": "setStream",
-            "arguments": {}
+            "description": "Update the settings of the provided stream",
+            "arguments": {
+                "watermark": {
+                    "i18n": {},
+                    "description": "Defines whether or not a watermark (e.g. manufacturer logo) should be present on the stream"
+                },
+                "streamId": {
+                    "i18n": {},
+                    "description": "The ID of the stream to update"
+                },
+                "viewport": {
+                    "i18n": {},
+                    "description": "The viewport to be used for the stream"
+                },
+                "onScreenDisplay": {
+                    "i18n": {},
+                    "description": "Defines whether to enable on-screen display elements (text such as date, time, timezone and/or device name)"
+                },
+                "label": {
+                    "i18n": {},
+                    "description": "The label to use for the stream"
+                },
+                "type": {
+                    "i18n": {},
+                    "description": "The type of the stream to update"
+                },
+                "resolution": {
+                    "i18n": {},
+                    "description": "The selected stream resolution"
+                }
+            }
+        },
+        "setGlobalOnScreenDisplay": {
+            "label": "Set Global On-Screen Display",
+            "description": "Enable/Disable Global On-Screen Display",
+            "arguments": {
+                "state": {
+                    "i18n": {},
+                    "description": "enabled/disabled state of Global On-Screen Display"
+                }
+            }
         }
     }
 }

@@ -1,22 +1,31 @@
 {
     "tag": "en",
     "label": "Clip Duration",
+    "description": "Allows for setting max duration for clips recorded by the device",
     "attributes": {
         "clipDuration": {
-            "label": "clipDuration",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Clip Duration",
+            "description": "Indicates the selected Max duration for the clips recorded by the device",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {}
         },
         "supportedMaxDuration": {
-            "label": "supportedMaxDuration",
-            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "label": "Supported Max Clip Duration",
+            "description": "Max clip recording duration supported by the device",
+            "displayTemplate": "{{device.label}} {{attribute}} is {{value}}",
             "i18n": {}
         }
     },
     "commands": {
         "setClipDuration": {
-            "label": "setClipDuration",
-            "arguments": {}
+            "label": "Set Clip Duration",
+            "description": "Set Clip Duration for recording clips",
+            "arguments": {
+                "duration": {
+                    "i18n": {},
+                    "description": "Set the Max duration for the clips recorded by the device\nThis value SHOULD be <= supportedMaxDuration attribute value\n"
+                }
+            }
         }
     }
 }

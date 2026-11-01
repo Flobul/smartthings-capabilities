@@ -7,9 +7,14 @@
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         },
-        "cleanedExtent": {
-            "label": "cleanedExtent",
+        "drawingMapArea": {
+            "label": "drawingMapArea",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "objectCleaningDetails": {
+            "label": "objectCleaningDetails",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
             "i18n": {}
         },
         "nearObject": {
@@ -19,6 +24,80 @@
         },
         "remainingTime": {
             "label": "remainingTime",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "cleanedArea": {
+            "label": "cleanedArea",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "spotCleaningDetails": {
+            "label": "spotCleaningDetails",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "moppingArea": {
+            "label": "moppingArea",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "areaCleaningDetails": {
+            "label": "areaCleaningDetails",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "extraCleaningInfo": {
+            "label": "extraCleaningInfo",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "liquid": {
+                        "label": "liquid"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "stain": {
+                        "label": "stain"
+                    }
+                }
+            }
+        },
+        "stainCleaningDetails": {
+            "label": "stainCleaningDetails",
+            "displayTemplate": "{{attribute}} of {{device.label}} was updated",
+            "i18n": {}
+        },
+        "mapId": {
+            "label": "mapId",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "cleanedExtent": {
+            "label": "cleanedExtent",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {}
+        },
+        "avoidanceCleaningInfo": {
+            "label": "avoidanceCleaningInfo",
+            "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
+            "i18n": {
+                "value": {
+                    "following": {
+                        "label": "following"
+                    },
+                    "none": {
+                        "label": "none"
+                    },
+                    "avoidance": {
+                        "label": "avoidance"
+                    }
+                }
+            }
+        },
+        "elapsedTime": {
+            "label": "elapsedTime",
             "displayTemplate": "{{attribute}} of {{device.label}} is {{value}}",
             "i18n": {}
         }

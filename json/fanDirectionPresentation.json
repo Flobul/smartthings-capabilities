@@ -6,12 +6,12 @@
                 "alternatives": [
                     {
                         "key": "summerMode",
-                        "value": "summerMode",
+                        "value": "Clockwise",
                         "type": "active"
                     },
                     {
                         "key": "winterMode",
-                        "value": "winterMode",
+                        "value": "Anticlockwise",
                         "type": "active"
                     }
                 ]
@@ -22,19 +22,19 @@
     },
     "detailView": [
         {
-            "label": "Fan Direction",
+            "label": "Fan direction",
             "displayType": "list",
             "list": {
                 "command": {
                     "alternatives": [
                         {
                             "key": "summerMode",
-                            "value": "summerMode",
+                            "value": "Clockwise",
                             "type": "active"
                         },
                         {
                             "key": "winterMode",
-                            "value": "winterMode",
+                            "value": "Anticlockwise",
                             "type": "active"
                         }
                     ]
@@ -45,12 +45,12 @@
                     "alternatives": [
                         {
                             "key": "summerMode",
-                            "value": "summerMode",
+                            "value": "Clockwise",
                             "type": "active"
                         },
                         {
                             "key": "winterMode",
-                            "value": "winterMode",
+                            "value": "Anticlockwise",
                             "type": "active"
                         }
                     ]
@@ -61,18 +61,18 @@
     "automation": {
         "conditions": [
             {
-                "label": "Fan Direction",
+                "label": "Fan direction",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "summerMode",
-                            "value": "summerMode",
+                            "value": "Clockwise",
                             "type": "active"
                         },
                         {
                             "key": "winterMode",
-                            "value": "winterMode",
+                            "value": "Anticlockwise",
                             "type": "active"
                         }
                     ],
@@ -84,18 +84,18 @@
         ],
         "actions": [
             {
-                "label": "Fan Direction",
+                "label": "Fan direction",
                 "displayType": "list",
                 "list": {
                     "alternatives": [
                         {
                             "key": "summerMode",
-                            "value": "summerMode",
+                            "value": "Clockwise",
                             "type": "active"
                         },
                         {
                             "key": "winterMode",
-                            "value": "winterMode",
+                            "value": "Anticlockwise",
                             "type": "active"
                         }
                     ]

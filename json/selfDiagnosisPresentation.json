@@ -1,0 +1,112 @@
+{
+    "detailView": [
+        {
+            "label": "Status",
+            "displayType": "list",
+            "list": {
+                "command": {
+                    "alternatives": [
+                        {
+                            "key": "run",
+                            "value": "Start",
+                            "type": "active"
+                        }
+                    ]
+                },
+                "state": {
+                    "value": "state.value",
+                    "valueType": "string",
+                    "alternatives": [
+                        {
+                            "key": "ready",
+                            "value": "Ready",
+                            "type": "inactive"
+                        },
+                        {
+                            "key": "running",
+                            "value": "Under diagnosis",
+                            "type": "active"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "label": "Status",
+            "displayType": "state",
+            "state": {
+                "label": "{{result.value.errorStatus}}",
+                "alternatives": [
+                    {
+                        "key": "normal",
+                        "value": "Normal",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "error",
+                        "value": "Error",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Error category",
+            "displayType": "state",
+            "state": {
+                "label": "{{result.value.errorType}}",
+                "alternatives": [
+                    {
+                        "key": "none",
+                        "value": "None",
+                        "type": "inactive"
+                    },
+                    {
+                        "key": "power",
+                        "value": "Power",
+                        "type": "active"
+                    },
+                    {
+                        "key": "network",
+                        "value": "Network",
+                        "type": "active"
+                    },
+                    {
+                        "key": "sensor",
+                        "value": "sensor",
+                        "type": "active"
+                    },
+                    {
+                        "key": "actuator",
+                        "value": "Control",
+                        "type": "active"
+                    },
+                    {
+                        "key": "system",
+                        "value": "System",
+                        "type": "active"
+                    },
+                    {
+                        "key": "overheating",
+                        "value": "Overheat",
+                        "type": "active"
+                    },
+                    {
+                        "key": "other",
+                        "value": "Other",
+                        "type": "active"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "Error code",
+            "displayType": "state",
+            "state": {
+                "label": "{{result.value.errorCode}}"
+            }
+        }
+    ],
+    "id": "selfDiagnosis",
+    "version": 1
+}
