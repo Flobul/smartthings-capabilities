@@ -1,7 +1,7 @@
 {
     "id": "mechanicalPanTiltZoom",
     "version": 1,
-    "status": "proposed",
+    "status": "live",
     "name": "Mechanical Pan Tilt Zoom",
     "ephemeral": false,
     "attributes": {
@@ -90,7 +90,11 @@
                                     "minimum": 1,
                                     "maximum": 100
                                 }
-                            }
+                            },
+                            "required": [
+                                "id",
+                                "label"
+                            ]
                         }
                     }
                 },
@@ -333,7 +337,7 @@
             "arguments": [
                 {
                     "name": "pan",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "type": "integer",
                         "minimum": -180,
@@ -342,7 +346,7 @@
                 },
                 {
                     "name": "tilt",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "type": "integer",
                         "minimum": -180,
@@ -351,7 +355,7 @@
                 },
                 {
                     "name": "zoom",
-                    "optional": false,
+                    "optional": true,
                     "schema": {
                         "type": "integer",
                         "minimum": 1,
